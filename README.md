@@ -30,6 +30,12 @@ Dit zorgt voor immutable versies en eenvoudige verificatie.
 
 Samen bouwen we aan een beter internet! 🚀
 
+## Huidige versie
 - **Versie 0.1** (8 december 2025)
-- Git commit hash → `02afa0c4d60600df5440c763050917443f60add1`
-- SHA-256 hash van `Manifest.md` → (jouw berekende hash, of deel de raw tekst als je wilt dat ik 'm exact geef – maar het is beter als jij hem lokaal berekent voor verificatie)
+- Git commit hash: `02afa0c4d60600df5440c763050917443f60add1`
+- SHA-256 hash van `Manifest.md`: `4035e298744234d016764c3259b363d6507c82d16ae3954c20c5618a995dd6d5`
+
+De volledige tekst staat in [`Manifest.md`](Manifest.md).
+Iedereen kan de integriteit verifiëren door de raw file te hashen (bijv. via sha256.online of lokaal commando).
+https://raw.githubusercontent.com/OpenInternetManifest/Open_Internet_Manifest/main/Manifest.md
+
