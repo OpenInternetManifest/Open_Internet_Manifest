@@ -9,18 +9,22 @@ Welkom bij de allereerste versie! We bouwen dit samen op.
 
 ## Huidige versie
 - **Versie 0.1** (initieel)
-- Commit hash: (wordt ingevuld na eerste commit)
+- Commit hash: (wordt ingevuld na commit van manifest.md)
 - SHA-256 hash van `manifest.md`: (wordt berekend)
 
 De volledige tekst komt in `manifest.md`.
 
 ## Hashes en verificatie
-Elke versie krijgt een Git commit hash en een SHA-256 content hash voor immutable integriteit en eenvoudige verificatie.
+Elke versie krijgt:
+- Een Git commit hash (voor versiebeheer).
+- Een SHA-256 content hash (voor integriteit, onafhankelijk van Git).
+
+Dit zorgt voor immutable versies en eenvoudige verificatie.
 
 ## Hoe bij te dragen
 - Open een Issue voor ideeën/discussie.
 - Fork en submit Pull Requests voor wijzigingsvoorstellen.
-- Discussions voor bredere conversaties.
+- Gebruik Discussions voor bredere conversaties.
 
 **Licentie**: CC0 1.0 Universal (public domain) – vrij te gebruiken, aanpassen en verspreiden.
 
