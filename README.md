@@ -7,8 +7,8 @@ Git commit: `02afa0c4d60600df5440c763050917443f60add1`
 SHA-256: `4035e298744234d016764c3259b363d6507c82d16ae3954c20c5618a995dd6d5`
 
 Beschikbaar in:  
-- [Nederlands 🇳🇱](/nl/README.md)  
-- [English 🇬🇧](/en/README.md) ← komt binnenkort
+- [Nederlands 🇳🇱](/NL/README.md)  
+- [English 🇬🇧](/EN/README.md) ← komt binnenkort
 
 ## Doel
 Dit manifest formuleert principes en een visie voor een werkelijk open internet: neutraal, gedecentraliseerd, privacy-vriendelijk en toegankelijk voor iedereen.
