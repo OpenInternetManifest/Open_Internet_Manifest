@@ -29,3 +29,7 @@ Dit zorgt voor immutable versies en eenvoudige verificatie.
 **Licentie**: CC0 1.0 Universal (public domain) – vrij te gebruiken, aanpassen en verspreiden.
 
 Samen bouwen we aan een beter internet! 🚀
+
+- **Versie 0.1** (8 december 2025)
+- Git commit hash → `02afa0c4d60600df5440c763050917443f60add1`
+- SHA-256 hash van `Manifest.md` → (jouw berekende hash, of deel de raw tekst als je wilt dat ik 'm exact geef – maar het is beter als jij hem lokaal berekent voor verificatie)
