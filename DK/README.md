@@ -17,7 +17,7 @@ Manifestet er i øjeblikket tilgængeligt på:
 - [Nederlandsk 🇳🇱](/NL/README.md)  
 - [English 🇬🇧](/README.md) ← kommer snart
 
-[Læs det fulde manifest på dansk](/DK/manifest.md)  
+[Læs det fulde manifest på dansk](/DK/Manifest.md)  
 [Vertaling i gang – bidrag er velkomne]
 
 Velkommen til alle, der vil være med til at skabe et internet, der virkelig tilhører os alle.
