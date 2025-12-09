@@ -33,4 +33,17 @@
 **Thesis 11** — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan gebruiken  
 → [volledige tekst](/NL/theses/thesis-11.md)
 
-Theses 12–30 (de oplossingen) worden vanavond en morgen toegevoegd.
+**Thesis 12** — Terug naar protocollen die niemand bezit  
+→ [volledige tekst](/NL/theses/thesis-12.md)
+
+**Thesis 13** — Jouw data hoort bij jou, niet bij een platform  
+→ [volledige tekst](/NL/theses/thesis-13.md)
+
+**Thesis 14** — Draagbare identiteit en reputatie  
+→ [volledige tekst](/NL/theses/thesis-14.md)
+
+**Thesis 15** — Sociale netwerken zonder centrale eigenaar  
+→ [volledige tekst](/NL/theses/thesis-15.md)
+
+**Thesis 16** — Berichtenapps zonder Big Tech  
+→ [volledige tekst](/NL/theses/thesis-16.md)
