@@ -25,4 +25,4 @@ Een internet met open wegen in plaats van teleport-deuren naar hun pretparken is
 - [WIRED – Zuckerberg’s uitbreiding naar meer dan 2.300 acres op Kauai (2025)](https://www.wired.com/story/mark-zuckerberg-secretive-hawaii-compound-burial-ground/)  
 - [Bloomberg & diverse analyses over BlackRock/Vanguard-aandeelhouderschap in Big Tech en voedselgiganten](https://www.bloomberg.com/opinion/articles/2025-11-18/no-one-crowned-blackrock-and-vanguard-to-rule-over-companies)  
 
-Terug naar het [hoofdmanifest](../NL/manifest.md)
+Terug naar het [hoofdmanifest](/NL/manifest.md)
