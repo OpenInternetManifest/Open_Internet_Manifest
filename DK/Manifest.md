@@ -67,3 +67,11 @@ Vi vænner os til, at én lukket-kilde AI bliver portvagteren for viden, nyheder
 Hvis vi ikke bryder denne normalisering nu, bliver den indmurede have snart hele samfundet.  
 Kun et virkelig åbent internet kan stoppe den udvidelse – ved at vise, at en fri digital verden stadig er mulig, og dermed give den fysiske verden plads til at ånde igen.
 → [Uddybning: de samme spillere, den samme agenda](/verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld.md)
+
+Thesis 11  
+Vi har ikke brug for at opfinde et nyt internet – vi har brug for at træde ud af buret og tage det gamle, åbne internet tilbage i brug.  
+De åbne protokoller, der engang gjorde internettet frit (e-mail, WWW, IRC, XMPP), er aldrig forsvundet – de ligger der stadig og venter.  
+Nye generationer af frie protokoller som ActivityPub, Nostr, Matrix og IPFS er allerede modne nok til daglig brug.  
+Alt, hvad der kræves, er, at nok af os samtidig forlader de lukkede platforme og begynder at bruge de åbne alternativer.  
+Når først kritisk masse er nået, kollapser portvagternes monopol af sig selv – præcis som ingen i dag ville vælge en lukket e-mail-tjeneste, hvis alle andre brugte åben e-mail.  
+Den åbne dør står allerede på klem; vi skal bare gå igennem den sammen.
