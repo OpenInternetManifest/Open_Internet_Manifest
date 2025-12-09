@@ -18,7 +18,7 @@ SHA-256: `4035e298744234d016764c3259b363d6507c82d16ae3954c20c5618a995dd6d5`
 
 Beschikbaar in:  
 - [Nederlands 🇳🇱](/NL/README.md)
-- Dansk  (/DK/README.md)
+- Dansk🇩🇰(/DK/README.md)
 - [English 🇬🇧](/EN/README.md) ← komt binnenkort
 
 ## Doel
