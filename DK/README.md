@@ -13,7 +13,7 @@ SHA-256 hash af Manifest.md: `4035e298744234d016764c3259b363d6507c82d16ae3954c20
 
 Manifestet er i øjeblikket tilgængeligt på:
 
-- [Dansk 🇩🇰](DK/README.md)  
+- [Dansk 🇩🇰](/DK/README.md)  
 - [Nederlandsk 🇳🇱](/NL/README.md)  
 - [English 🇬🇧](/README.md) ← kommer snart
 
