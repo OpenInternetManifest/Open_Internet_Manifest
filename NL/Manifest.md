@@ -67,6 +67,8 @@ We wennen eraan dat één closed-source AI de poortwachter wordt van kennis, nie
 Als we deze normalisatie nu niet doorbreken, wordt de ommuurde tuin straks de hele samenleving.
 Alleen een echt open internet kan die uitbreiding stoppen – door te laten zien dat een vrije digitale wereld nog steeds mogelijk is, en daarmee de fysieke wereld weer ademruimte geeft.
 
+[Verdieping Thesis 10](verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld.md)
+
 Thesis 11
 Dit manifest is geen decreet van bovenaf; het is een vuur dat brandt in open gesprekken.
 Het ontstaat niet in een boardroom, niet in een overheidsgebouw en niet door één stem die pretendeert alles te weten – het groeit uit duizenden dialogen, iteraties, nachtelijke inzichten en harde correcties tussen mensen die genoeg hebben van de enclosures.
