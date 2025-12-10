@@ -4,3 +4,7 @@ Wat we online al jaren slikken – verplichte accounts, permanente surveillance,
 We wennen eraan dat één closed-source AI de poortwachter wordt van kennis, nieuws en menselijke interactie – niet omdat het onvermijdelijk is, maar omdat we gemak verwarren met vrijheid.
 Als we deze normalisatie nu niet doorbreken, wordt de ommuurde tuin straks de hele samenleving.
 Alleen een echt open internet kan die uitbreiding stoppen – door te laten zien dat een vrije digitale wereld nog steeds mogelijk is, en daarmee de fysieke wereld weer ademruimte geeft.
+
+
+---
+← [Terug naar overzicht](/NL/manifest.md)
