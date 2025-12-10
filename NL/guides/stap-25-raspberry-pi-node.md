@@ -9,17 +9,17 @@ Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-r
 <details>
 <summary>Ik weet niet wat ik moet kopen → klik hier</summary>
 
-- **Raspberry Pi 5 (8 GB) starter-kit** → https://www.kiwi-electronics.nl/raspberry-pi-5-starter-kit  
-- **Of goedkoper: Raspberry Pi 4 (8 GB)** → https://www.coolblue.nl/product/951990  
-- **Micro-SD-kaart 128 GB** → https://www.coolblue.nl/product/890441  
-- **Externe SSD 1 TB (aanrader!)** → https://www.coolblue.nl/product/904675/samsung-t7-shield-1tb-zwart.html  
+- **Raspberry Pi 5 (8 GB) starter-kit** → https://www.kiwi-electronics.nl/raspberry-pi-5-8gb (of zoek op Kiwi: https://www.kiwi-electronics.nl/search?type=product&q=raspberry+pi+5)  
+- **Of goedkoper: Raspberry Pi 4 (8 GB)** → https://www.coolblue.nl/product/917042/raspberry-pi-4-model-b-8gb.html (of zoek op Coolblue: https://www.coolblue.nl/zoeken?query=raspberry+pi+4+8gb)  
+- **Micro-SD-kaart 128 GB** → https://www.coolblue.nl/product/906490/samsung-pro-plus-micro-sd-128gb.html (of zoek op Coolblue: https://www.coolblue.nl/zoeken?query=micro+sd+128gb)  
+- **Externe SSD 1 TB (aanrader! – snel, robuust en schokbestendig voor je data)** → https://www.coolblue.nl/product/904675/samsung-t7-shield-1tb-zwart.html (of zoek op Coolblue: https://www.coolblue.nl/zoeken?query=samsung+t7+shield)  
 - **Voeding + ethernetkabel** zitten meestal bij de starter-kit
 </details>
 
 ### Stap 1 – Umbrel downloaden
 <details>
 <summary>Ik weet niet waar ik Umbrel vind</summary>
-Ga naar https://umbrel.com → klik op de grote blauwe knop “Download Umbrel OS”
+Ga naar https://umbrel.com → klik op de grote blauwe knop "Download Umbrel OS" (of "Learn more" voor instructies).
 </details>
 
 ### Stap 2 – Image flashen met Balena Etcher
@@ -28,10 +28,10 @@ Ga naar https://umbrel.com → klik op de grote blauwe knop “Download Umbrel O
 
 1. Download Balena Etcher: https://etcher.balena.io  
 2. Start Etcher  
-3. Klik “Flash from file” → kies het gedownloade umbrel-bestand  
-4. Klik “Select target” → kies je SD-kaart  
-5. Klik “Flash!” → koffie halen (5-10 minuten)  
-6. Etcher zegt “Flash Complete” → klaar!
+3. Klik "Flash from file" → kies het gedownloade umbrel-bestand  
+4. Klik "Select target" → kies je SD-kaart  
+5. Klik "Flash!" → koffie halen (5-10 minuten)  
+6. Etcher zegt "Flash Complete" → klaar!
 </details>
 
 ### Stap 3 – Alles aansluiten
@@ -51,7 +51,7 @@ Ga naar https://umbrel.com → klik op de grote blauwe knop “Download Umbrel O
 Open je browser en typ:  
 http://umbrel.local  
 
-(of zoek in je router-app naar een apparaat “umbrel”)
+(of zoek in je router-app naar een apparaat "umbrel")
 </details>
 
 ### Stap 5 – Eerste setup
@@ -69,7 +69,7 @@ Je hebt nu thuis:
 <summary>Ik zie geen umbrel.local</summary>
 
 - Probeer http://[IP-adres van de Pi] (staat in je router)  
-- Of sluit een scherm + toetsenbord aan en log in met gebruiker “umbrel”, wachtwoord “moneyprintergobrrr”
+- Of sluit een scherm + toetsenbord aan en log in met gebruiker "umbrel", wachtwoord "moneyprintergobrrr"
 </details>
 
 Kosten per maand: ± € 3 elektriciteit  
