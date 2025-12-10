@@ -1,6 +1,8 @@
-# Thesis 27 – Leer één iemand deze week een open alternatief gebruiken
-Je moeder op Element, je beste vriend op Mastodon, je collega op PeerTube.  
-Eén persoon tegelijk is hoe elk netwerk ooit begon.
+# Thesis 27 – Leer één persoon deze week een open alternatief
+
+Je moeder op Element. Je beste vriend op Mastodon. Je buurman op PeerTube. Je zus op ProtonMail.  
+Eén persoon tegelijk is hoe elk groot netwerk ooit begon.  
+Jouw uitnodiging van vandaag is de netwerk-effect van morgen.
 
 ---
 ← [Terug naar overzicht](/NL/manifest.md)
