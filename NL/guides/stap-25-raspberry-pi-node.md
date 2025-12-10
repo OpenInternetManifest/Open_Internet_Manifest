@@ -10,9 +10,9 @@ Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-r
 <summary>Ik weet niet wat ik moet kopen → klik hier</summary>
 
 - **Raspberry Pi 5 (8 GB) starter-kit** → https://www.kiwi-electronics.nl/raspberry-pi-5-starter-kit  
-- **Of goedkoper: Raspberry Pi 4 (8 GB)** → https://coolblue.nl/product/951990  
-- **Micro-SD-kaart 128 GB** → https://coolblue.nl/product/890441  
-- **Externe SSD 1 TB (aanrader!)** → https://www.coolblue.nl/product/951337/samsung-t7-shield-1tb-zwart.html  
+- **Of goedkoper: Raspberry Pi 4 (8 GB)** → https://www.coolblue.nl/product/951990  
+- **Micro-SD-kaart 128 GB** → https://www.coolblue.nl/product/890441  
+- **Externe SSD 1 TB (aanrader!)** → https://www.coolblue.nl/product/904675/samsung-t7-shield-1tb-zwart.html  
 - **Voeding + ethernetkabel** zitten meestal bij de starter-kit
 </details>
 
