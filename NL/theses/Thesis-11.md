@@ -4,3 +4,7 @@ Het ontstaat niet in een boardroom, niet in een overheidsgebouw en niet door é�
 Soms spreken ze met elkaar, soms met machines die eindelijk leren luisteren in plaats van alleen te verkopen.
 Het is geen afgerond dogma, maar een levend document dat sterker wordt naarmate meer mensen het lezen, delen, betwisten en eraan bijdragen.
 Door het nu in je handen te houden, word jij mede-auteur – want een echt open internet begint met een manifest dat niemand alleen bezit.
+
+
+---
+← [Terug naar overzicht](/NL/manifest.md)
