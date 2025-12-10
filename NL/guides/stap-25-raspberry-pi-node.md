@@ -1,68 +1,79 @@
-# Stap 25 – Draai je eigen node op een Raspberry Pi (Umbrel) – 100 % dummy-proof
+# Stap 25 – Je eigen internet-node thuis draaien (Raspberry Pi + Umbrel)
 
-Je hebt nodig (± €200 eenmalig):
-- Raspberry Pi 4 of 5
-- Micro-SD-kaart (min. 32 GB)
-- Voeding + ethernetkabel
-- (aanrader) externe SSD
+Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou.
 
-### Stap 1 – Wat je precies moet kopen (klikbare links)
+**Totale eenmalige kosten:** € 180 – € 280  
+**Maandkosten:** ± € 3 (stroom)
+
+### Wat je nodig hebt (klikbare Nederlandse shops)
 <details>
-<summary>Ik weet niet welke spullen ik nodig heb → klik hier</summary>
+<summary>Ik weet niet wat ik moet kopen → klik hier</summary>
 
-- Raspberry Pi 5 starter-kit → https://coolblue.nl/…  
-- Of goedkoper Pi 4 → https://kiwi-electronics.nl/…  
-- Micro-SD 128 GB → elke winkel  
-- Externe SSD 1 TB → https://amazon.nl/…
+- **Raspberry Pi 5 (8 GB) starter-kit** → https://www.kiwi-electronics.nl/raspberry-pi-5-starter-kit  
+- **Of goedkoper: Raspberry Pi 4 (8 GB)** → https://coolblue.nl/product/951990  
+- **Micro-SD-kaart 128 GB** → https://coolblue.nl/product/890441  
+- **Externe SSD 1 TB (aanrader!)** → https://www.coolblue.nl/product/951337/samsung-t7-shield-1tb-zwart.html  
+- **Voeding + ethernetkabel** zitten meestal bij de starter-kit
 </details>
 
-### Stap 2 – Umbrel downloaden
+### Stap 1 – Umbrel downloaden
 <details>
-<summary>Ik weet niet waar ik Umbrel vind → klik hier</summary>
+<summary>Ik weet niet waar ik Umbrel vind</summary>
 Ga naar https://umbrel.com → klik op de grote blauwe knop “Download Umbrel OS”
 </details>
 
-### Stap 3 – Image flashen met Balena Etcher (met screenshots)
+### Stap 2 – Image flashen met Balena Etcher
 <details>
-<summary>Ik heb nog nooit iets geflasht → klik hier</summary>
+<summary>Ik heb nog nooit iets geflasht</summary>
 
 1. Download Balena Etcher: https://etcher.balena.io  
 2. Start Etcher  
 3. Klik “Flash from file” → kies het gedownloade umbrel-bestand  
 4. Klik “Select target” → kies je SD-kaart  
-5. Klik “Flash!” → wacht 5-10 minuten  
+5. Klik “Flash!” → koffie halen (5-10 minuten)  
 6. Etcher zegt “Flash Complete” → klaar!
 </details>
 
-### Stap 4 – Pi aansluiten en op stroom en netwerk
+### Stap 3 – Alles aansluiten
 <details>
-<summary>Hoe sluit ik alles aan? → klik hier</summary>
+<summary>Hoe sluit ik de Pi aan?</summary>
 
 1. SD-kaart in de Pi stoppen  
-2. Ethernetkabel in je router  
-3. SSD via USB (als je die hebt)  
-4. Voeding erin → Pi gaat vanzelf aan
+2. SSD via USB aansluiten (als je die hebt)  
+3. Ethernetkabel in je router  
+4. Voeding erin → Pi gaat vanzelf aan (lampjes gaan knipperen)
 </details>
 
-### Stap 5 – Umbrel opstarten
+### Stap 4 – Umbrel opstarten
 <details>
-<summary>Hoe kom ik bij mijn Umbrel? → klik hier</summary>
+<summary>Hoe kom ik bij mijn Umbrel?</summary>
 
 Open je browser en typ:  
-http://umbrel.local
+http://umbrel.local  
 
-(of zoek in je router naar een apparaat dat “umbrel” heet)
+(of zoek in je router-app naar een apparaat “umbrel”)
 </details>
 
-### Stap 6 – Wachtwoord kiezen → klaar!
-
-Je hebt nu je eigen server thuis met:
+### Stap 5 – Eerste setup
+Wachtwoord kiezen → klaar!  
+Je hebt nu thuis:
 - Bitcoin + Lightning node  
 - Nostr relay  
-- Nextcloud  
-- PhotoPrism  
+- Nextcloud (je eigen Dropbox)  
+- PhotoPrism (je eigen Google Photos)  
 - Mastodon-server (optioneel)  
 - 40+ apps met één klik
 
-Kosten per maand: ± €3 elektriciteit per maand  
+### Wat als het niet werkt?
+<details>
+<summary>Ik zie geen umbrel.local</summary>
+
+- Probeer http://[IP-adres van de Pi] (staat in je router)  
+- Of sluit een scherm + toetsenbord aan en log in met gebruiker “umbrel”, wachtwoord “moneyprintergobrrr”
+</details>
+
+Kosten per maand: ± € 3 elektriciteit  
 Veiligheid: jij hebt de enige sleutel  
+Niemand kan je ooit nog deactiveren
+
+← [Terug naar Thesis 25](/NL/theses/thesis-25.md)
