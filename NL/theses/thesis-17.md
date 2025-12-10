@@ -1,7 +1,10 @@
 # Thesis 17 – Video en content zonder YouTube of TikTok
-PeerTube, Grayjay, Odysee, BitChute, Rumble en zelfs je eigen IPFS-node: video-streaming zonder centraal algoritme dat bepaalt wat je ziet.  
-Je kunt je kanaal meenemen, je kijkers blijven jou volgen, niet het platform.  
-Het werkt vandaag al, en het wordt elke maand beter.
+
+YouTube en TikTok zijn geen natuurwetten, maar keuzes van een handvol bedrijven.  
+Vandaag al kun je video’s hosten en delen via PeerTube, Grayjay, Odysee, LBRY, BitChute of je eigen IPFS-node.  
+Je kanaal blijft van jou, je kijkers volgen jóú in plaats van een algoritme, en niemand kan je met één klik wegvagen.  
+De tools zijn er. De bandbreedte is er. De community is er.  
+Alleen jij ontbreekt nog.
 
 ---
 ← [Terug naar overzicht](/NL/manifest.md)
