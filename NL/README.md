@@ -58,3 +58,17 @@ De volledige tekst staat in [`Manifest.md`](Manifest.md).
 
 Iedereen kan de integriteit verifiëren door de raw file te hashen:  
 https://raw.githubusercontent.com/OpenInternetManifest/Open_Internet_Manifest/main/Manifest.md
+## Steun het Open Internet Manifest
+
+Dit manifest leeft volledig van de community. Geen investeerders, geen advertenties, geen poortwachters.
+
+**Lightning (direct, 0 % fee – werkt nu al)**  
+⚡ **rainyvan28@walletofsatoshi.com**
+
+<img src="https://walletofsatoshi.com/qr?address=rainyvan28@walletofsatoshi.com" width="250" alt="Lightning QR-code">
+
+**On-chain Bitcoin (voor grotere bedragen)**  
+`bc1qtvfmgpec8e4vw0k7jagrua3c9psrp2w3kfxygw`
+
+Elke sat, euro of zap gaat rechtstreeks naar servers, vertalingen, nodes en het open internet.  
+Dank je wel – jij maakt het verschil. ❤️
