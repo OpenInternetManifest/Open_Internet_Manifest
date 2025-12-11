@@ -38,7 +38,7 @@ Dit manifest draait volledig op donaties. Elke bijdrage helpt!
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | **Bitcoin (BTC)**  | ![Bitcoin QR](https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm)      | `bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm`                     
-| **Monero (XMR)**   | ![Monero QR](https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F) | `49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F` |
+| **Monero (XMR)**   | ![Monero QR](https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F) | `85J34VDW5wSJG6yuWXyYzB4ScedX7k4FJZktSk1VMo2uRHFWoPjB9cXKGiEkvw1SvoQrMXdxwnrVPZVzJx9MrPe4HoPYbFu` |
 
 **Monero-tip**: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.
 
