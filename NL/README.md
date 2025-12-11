@@ -28,18 +28,17 @@ Of duik direct in de theses:
 
 Dit manifest leeft volledig van de community. Geen investeerders, geen advertenties, geen poortwachters.
 
-**Lightning (direct, 0 % fee – scan de QR of kopieer het adres)**  
+**Lightning (direct, 0 % fee – scan de QR voor een test-zap of kopieer het adres)**  
 Adres: rainyvan28@walletofsatoshi.com  
 *(Highlight & Ctrl+C → plak in je Lightning-wallet voor een zap)*
 
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=lightning:rainyvan28@walletofsatoshi.com" alt="Lightning QR-code" style="background:white;padding:10px;border-radius:12px;">
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=lnbc10u1pj9k8vpp5h4u65j28fjtyuty73ftrgkwcsacz5wqg6d4xaua7ul5ezu60vu5sdqqcqzzgxqyz5vqrzjqf0wu22xsefd8gzu0m9n93g2khea86l6yy26en9v46g9e6hk7v9z89akjfp49ylw65qqqqryqqqqthqqpyrzjqfwdd2w9y5ra5z3m4qetfa5ccu6432xfuvk6zrvg9vxwltvukd48d9akjfp49ylw65qqqqryqqqqthqqpysp582dy7ywsa2w25p93lpm9dc39v9mg76yq9k8hul9hwvckt37xs6xq9qrsgq9ftq6c0fwz2w9sngvhdnjfedlxpkqq82uprfrhdkgyr7uy585qqku33x6nwjpgkgd5vlc7d9p07utcemy2ayurxwlvsfx80886xt4gsqxxdyw4" alt="Lightning QR-code voor test-zap (1 sat) naar rainyvan28@walletofsatoshi.com" style="background:white;padding:10px;border-radius:12px;">
 
 **On-chain Bitcoin (voor grotere bedragen)**  
 `bc1qtvfmgpec8e4vw0k7jagrua3c9psrp2w3kfxygw`
 
 Elke sat, euro of zap gaat rechtstreeks naar servers, vertalingen, nodes en het open internet.  
 Dank je wel – jij maakt het verschil. ❤️
-
 ## Community – praat mee!
 Join onze open Matrix-chat (geen account nodig om te lezen):  
 https://matrix.to/#/#openinternetmanifest:matrix.org
