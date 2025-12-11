@@ -53,16 +53,29 @@ Dit manifest leeft volledig van de community. Geen investeerders, geen advertent
 
 **Lightning (direct, 0 % fee – scan de QR of kopieer het adres)**  
 Adres: rainyvan28@walletofsatoshi.com  
-*(Kopieer dit adres: highlight de tekst en druk Ctrl+C – plak het in je Lightning-wallet voor een zap.)*
+*(Kopieer dit adres: highlight de tekst en druk Ctrl+C – plak het in je Lightning-wallet voor een zap. Test met 1 sat via je app.)*
 
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=lnurl1dp68gurn8ghj7um9wfmxjan9xuhy6t%3Akey%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A%24%3A
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=lightning%3Arainyvan28%40walletofsatoshi.com" alt="Lightning QR-code voor rainyvan28@walletofsatoshi.com">
+
+**On-chain Bitcoin (voor grotere bedragen)**  
+`bc1qtvfmgpec8e4vw0k7jagrua3c9psrp2w3kfxygw`
+
+Elke sat, euro of zap gaat rechtstreeks naar servers, vertalingen, nodes en het open internet.  
+Dank je wel – jij maakt het verschil. ❤️## Steun het Open Internet Manifest
+
+Dit manifest leeft volledig van de community. Geen investeerders, geen advertenties, geen poortwachters.
+
+**Lightning (direct, 0 % fee – scan de QR of kopieer het adres)**  
+Adres: rainyvan28@walletofsatoshi.com  
+*(Kopieer dit adres: highlight de tekst en druk Ctrl+C – plak het in je Lightning-wallet voor een zap. Test met 1 sat via je app.)*
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=lightning%3Arainyvan28%40walletofsatoshi.com" alt="Lightning QR-code voor rainyvan28@walletofsatoshi.com">
 
 **On-chain Bitcoin (voor grotere bedragen)**  
 `bc1qtvfmgpec8e4vw0k7jagrua3c9psrp2w3kfxygw`
 
 Elke sat, euro of zap gaat rechtstreeks naar servers, vertalingen, nodes en het open internet.  
 Dank je wel – jij maakt het verschil. ❤️
-
 ## Community – Praat mee!
 Join onze open Matrix-chat (lees zonder account, praat met Element-app):  
 https://matrix.to/#/#openinternetmanifest:matrix.org  
