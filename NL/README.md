@@ -29,16 +29,20 @@ Of duik direct in de theses:
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
+## Ondersteun het Open Internet Manifest ❤️
+
+Dit manifest draait volledig op donaties. Elke bijdrage helpt!
+
 ### Doneer anoniem in crypto
 
-| Cryptocurrency     | QR-code                                                                                                           | Adres (klik om te kopiëren)                                                                                          |
-|--------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Bitcoin (BTC)**  | ![BTC QR](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm) | `bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm`                                                                           |
-| **Monero (XMR)**   | ![XMR QR](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F) | `49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F` |
+| Cryptocurrency     | QR-code                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Bitcoin (BTC)**  | ![Bitcoin QR](https://api.qrserver.com/v1/create-qr-code/?size=400x400&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm)      | `bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm`                                                                           |
+| **Monero (XMR)**   | ![Monero QR](https://api.qrserver.com/v1/create-qr-code/?size=900x900&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F) | `49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F` |
 
-**Monero-tip**: donateurs die Cake Wallet of de officiële GUI gebruiken krijgen automatisch een uniek subaddress → 100 % privacy gegarandeerd.
+**Monero-tip**: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.
 
-Hart
+Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 ## Community – praat mee!
 Join onze open Matrix-chat (geen account nodig om te lezen):  
 https://matrix.to/#/#openinternetmanifest:matrix.org
