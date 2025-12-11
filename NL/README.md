@@ -24,21 +24,22 @@ Of duik direct in de theses:
 - [Stap 25 – Je eigen node op een Raspberry Pi](/NL/stappen/stap-25-eigen-node-draaien-op-raspberry-pi.md)  
 (meer stappen komen snel)
 
-## Steun het Open Internet Manifest
+## Ondersteun het Open Internet Manifest ❤️
 
-Dit manifest leeft volledig van de community. Geen investeerders, geen advertenties, geen poortwachters.
+Dit manifest is volledig onafhankelijk van donaties van mensen zoals jij.  
+Elke bijdrage helpt om het project in leven te houden (servers, domeinen, ontwikkeling, etc.).
 
-**Lightning (direct, 0 % fee – scan de QR voor een test-zap of kopieer het adres)**  
-Adres: rainyvan28@walletofsatoshi.com  
-*(Kopieer dit adres: highlight de tekst en druk Ctrl+C – plak het in je Lightning-wallet voor een zap. Test met 1 sat via je app.)*
+### Doneer anoniem in crypto (geen KYC, 100% vrijwillig)
 
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=lnbc10u1pj9k8vpp5h4u65j28fjtyuty73ftrgkwcsacz5wqg6d4xaua7ul5ezu60vu5sdqqcqzzgxqyz5vqrzjqf0wu22xsefd8gzu0m9n93g2khea86l6yy26en9v46g9e6hk7v9z89akjfp49ylw65qqqqryqqqqthqqpyrzjqfwdd2w9y5ra5z3m4qetfa5ccu6432xfuvk6zrvg9vxwltvukd48d9akjfp49ylw65qqqqryqqqqthqqpysp582dy7ywsa2w25p93lpm9dc39v9mg76yq9k8hul9hwvckt37xs6xq9qrsgq9ftq6c0fwz2w9sngvhdnjfedlxpkqq82uprfrhdkgyr7uy585qqku33x6nwjpgkgd5vlc7d9p07utcemy2ayurxwlvsfx80886xt4gsqxxdyw4" alt="Lightning QR-code voor test-zap (1 sat) naar rainyvan28@walletofsatoshi.com" style="background:white;padding:10px;border-radius:12px;">
+| Cryptocurrency     | Adres (klik om te kopiëren)                                                                                          | QR-code                                                                                                           |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Bitcoin (BTC)**  | `bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm`                                                                           | ![BTC QR](https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm) |
+| **Monero (XMR)**   | `49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F` | ![XMR QR](https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F) |
 
-**On-chain Bitcoin (voor grotere bedragen)**  
-`bc1qtvfmgpec8e4vw0k7jagrua3c9psrp2w3kfxygw`
+**Tip voor Monero-donateurs**: als ze Cake Wallet of de officiële Monero GUI gebruiken, krijgen ze automatisch een uniek (sub)adres + payment ID, dus maximale privacy.
 
-Elke sat, euro of zap gaat rechtstreeks naar servers, vertalingen, nodes en het open internet.  
-Dank je wel – jij maakt het verschil. ❤️
+Een enorme dank je wel aan iedereen die bijdraagt – jullie maken dit mogelijk! 🚀
+
 ## Community – praat mee!
 Join onze open Matrix-chat (geen account nodig om te lezen):  
 https://matrix.to/#/#openinternetmanifest:matrix.org
