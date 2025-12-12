@@ -43,10 +43,13 @@ Dit manifest draait volledig op donaties. Elke bijdrage helpt!
 **Monero-tip**: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.
 
 Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
-## Community – praat mee!
-Join onze open Matrix-chat (geen account nodig om te lezen):  
-https://matrix.to/#/#openinternetmanifest:matrix.org
+## 🗣️ Community & Live Discussie
 
-Download Element (gratis, open-source): https://element.io/download
+Kom praten, feedback geven of meebouwen aan het manifest!
 
-De deur staat open. Loop je mee?
+**Officiële chat (open-source, gedecentraliseerd, E2EE):**  
+→ **Matrix room**: [#openinternetmanifest:matrix.org](https://matrix.to/#/#openinternetmanifest:matrix.org)
+
+![Join via QR](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org)
+
+(Scan met je telefoon of klik de link – opent in Element app/browser. Geen Big Tech nodig!)
