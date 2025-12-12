@@ -53,3 +53,7 @@ Kom praten, feedback geven of meebouwen aan het manifest!
 ![Join via QR](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org)
 
 (Scan met je telefoon of klik de link – opent in Element app/browser. Geen Big Tech nodig!)
+
+![Join onze Matrix community](assets/matrix-qr.png)
+
+→ Of klik direct: [#openinternetmanifest:matrix.org](https://matrix.to/#/#openinternetmanifest:matrix.org)
