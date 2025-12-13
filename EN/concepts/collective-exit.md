@@ -1,10 +1,12 @@
-# Open-source operating system
+# Collective exit
 
-Operating systems such as Linux (desktop/mobile), GrapheneOS, CalyxOS, Ubuntu Touch — completely free of proprietary code from gatekeepers.
+The moment when enough people simultaneously leave the walled gardens, causing the gatekeepers' system to collapse.
 
-The only way to truly own your phone or computer.
+Like a bank run: once enough people demand their money, it's over.
 
-See also → [Open hardware](/EN/concepts/open-hardware.md) · [Thesis 4](/EN/theses/thesis-04.md)
+This is our last chance.
+
+See also → [Enclosures](/EN/concepts/enclosures.md) · [Thesis 4](/EN/theses/thesis-04.md)
 
 ---
 
