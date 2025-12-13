@@ -1,10 +1,12 @@
-# Open hardware – apparaten waar jij bij de broncode én de schema’s kunt
+# Open hardware
 
-Gesloten hardware = een router of telefoon waarvan alleen de fabrikant de blauwdrukken heeft.  
-Gevolg: niemand kan controleren of er een achterdeur in zit.
+Apparaten waarvan de bouwtekeningen, schema’s en firmware vrij beschikbaar zijn (bijv. PinePhone, Fairphone met alternatieve OS, Raspberry Pi).
 
-Bekende voorbeelden van misbruik:
-- Pegasus-spyware van NSO Group infecteerde iPhones via beveiligingslekken die Apple expres niet dichtte voor overheden.
-- Chinese Huawei-apparatuur met geheime backdoors (bewezen in meerdere landen).
+Essentieel om te voorkomen dat hardware een verlengstuk wordt van poortwachters.
 
-Open hardware (zoals een Pine64-telefoon of een router met OpenWrt) laat iedereen controleren en repareren – precies zoals open-source software.
+Zie ook → [Sovereign node](/NL/begrippen/sovereign-node.md) · [Thesis 4](/NL/theses/thesis-04.md)
+
+---
+
+| ← [Terug naar thesis 4](/NL/theses/thesis-04.md) | |
+| :--- | ---:|
