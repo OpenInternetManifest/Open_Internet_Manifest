@@ -8,7 +8,7 @@ Die verwachting is geen luxe, het is een fundament van menselijke waardigheid â€
 
 De [**poortwachters**](/NL/begrippen/poortwachters.md) hebben ons wijsgemaakt dat [**totale transparantie**](/NL/begrippen/totale-transparantie.md) de prijs is van verbinding, dat we moeten smeken om kruimels privacy.
 
-Door nu te bouwen aan [**vrije protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**end-to-end encryptie**](/NL/begrippen/end-to-end-encryptie.md) en [**decentrale opslag**](/NL/begrippen/decentrale-opslag.md) herstellen we wat natuurlijk is: een digitale wereld waarin privacy weer gewoon verwacht mag worden, niet bevochten.
+Door nu te bouwen aan [**vrije protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**end-to-end encryptie**](/NL/begrippen/end-to-end-encryptie.md), [**decentrale opslag**](/NL/begrippen/decentrale-opslag.md) en [**sovereign nodes**](/NL/begrippen/sovereign-node.md) herstellen we wat natuurlijk is: een digitale wereld waarin privacy weer gewoon verwacht mag worden, niet bevochten.
 
 ---
 
