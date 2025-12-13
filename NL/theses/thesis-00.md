@@ -27,8 +27,8 @@ Welkom bij het begin.
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join the discussion in the official OIM Matrix room</a>
+<strong>🗣️ Praat mee</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
 </div>
 
 ---
