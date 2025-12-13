@@ -1,6 +1,6 @@
 # Thesis 1
 
-The internet is not dead; it has been captured by five [**gatekeepers**](/EN/concepts/gatekeepers.md) who control 92 % of our digital breath.
+The internet is not dead; it has been captured by five [**gatekeepers**](/EN/concepts/gatekeepers.md) who control 92% of our digital breath.
 
 Where we once walked freely through an open field, Apple, Google, Microsoft, Amazon, and Meta now stand as armed feudal lords at every crossroads, collecting tolls on every step, every word, every thought.
 
