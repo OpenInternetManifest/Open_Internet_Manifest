@@ -1,6 +1,6 @@
 # Exit
 
-Het bewust en massaal verlaten van gesloten platforms en ecosystemen van poortwachters.
+Het bewust en massaal verlaten van gesloten platforms en ecosystemen van [**poortwachters**](/NL/begrippen/poortwachters.md).
 
 Alleen exit schept druk, maar zonder alternatief leidt het tot isolatie.
 
