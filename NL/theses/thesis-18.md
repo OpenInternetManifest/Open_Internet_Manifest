@@ -2,7 +2,7 @@
 
 Google beslist niet wat waar is – Google beslist wat jij te zien krijgt.
 
-YaCy, SearXNG, Stract, Mojeek, Marginalia, [**DuckDuckGo**](/NL/begrippen/duckduckgo.md) en [**Brave Search**](/NL/begrippen/brave-search.md) bewijzen dat zoeken weer neutraal en privacy-vriendelijk kan zijn.
+[**YaCy**](/NL/begrippen/yacy.md), [**SearXNG**](/NL/begrippen/searxng.md), [**Stract**](/NL/begrippen/stract.md), [**Mojeek**](/NL/begrippen/mojeek.md), [**Marginalia**](/NL/begrippen/marginalia.md), [**DuckDuckGo**](/NL/begrippen/duckduckgo.md) en [**Brave Search**](/NL/begrippen/brave-search.md) bewijzen dat zoeken weer neutraal en privacy-vriendelijk kan zijn.
 
 Geen advertentieveiling, geen filterbubbel, geen verkoop van jouw zoekgedrag.
 
