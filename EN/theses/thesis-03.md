@@ -14,6 +14,12 @@ Online, we click “[**accept button**](/EN/concepts/accept-button.md)” and ke
 This normalization of [**surveillance**](/EN/concepts/surveillance.md), [**data collection**](/EN/concepts/data-collection.md), and [**access control**](/EN/concepts/access-control.md) is not an accident — it is the greatest trick ever pulled on humanity.
 
 ---
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Talk Along</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join The discusion in the official OIM Matrix-room</a>
+</div>
+
+---
 
 | ← [Thesis 2](/EN/theses/thesis-02.md) | [Next thesis →](/EN/theses/thesis-04.md) |
 | :--- | ---:|
