@@ -7,6 +7,12 @@ In 1989, you bought a computer, plugged in a cable, dialed a number, and you wer
 Today, you buy a phone and you are first a customer of Apple or Google, then a tenant of Meta or Amazon, and only then — if you behave — are you allowed to do something.
 
 They call that chain “[**convenience**](/EN/concepts/convenience.md)” and “[**security**](/EN/concepts/security.md)”, so you forget that freedom was once simple, direct, and without gatekeepers.
+---
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Talk Along</strong><br>
+  
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join The discusion in the official OIM Matrix-room</a>
+</div>
 
 ---
 
