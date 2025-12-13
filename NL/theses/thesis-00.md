@@ -26,5 +26,5 @@ Welkom bij het begin.
 13 december 2025
 
 ---
-| [Begin met thesis 1 →](/NL/theses/thesis-1.md) | [Terug naar overzicht](/NL/manifest.md) |
+| [Begin met thesis 1 →](/NL/theses/thesis-01.md) | [Terug naar overzicht](/NL/manifest.md) |
 | :--- | ---: |
