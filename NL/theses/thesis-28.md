@@ -1,9 +1,14 @@
-# Thesis 28 – Eis interoperabiliteit van bedrijven en overheden
+# Open standaarden
 
-Geen verplichte app meer om een overheidsdienst te bereiken.  
-Geen Google- of Apple-account om te stemmen, zorg te krijgen of te reizen.  
-Open protocollen en open standaarden in plaats van gesloten silo’s – dat is de enige echte publieke digitale infrastructuur.  
-Begin met eisen wat al jaren wettelijk verplicht had moeten zijn.
+Technische specificaties die vrij beschikbaar zijn, zonder patenten of beperkingen – iedereen kan ze implementeren.
+
+Voorbeelden: HTML, HTTP, SMTP, ActivityPub, XMPP.
+
+Essentieel voor interoperabiliteit en vrijheid – tegen lock-in van gesloten systemen.
+
+Zie ook → [Onafhankelijke protocollen](/NL/begrippen/onafhankelijke-protocollen.md) · [Thesis 28](/NL/theses/thesis-28.md)
 
 ---
-← [Terug naar overzicht](/NL/manifest.md)
+
+| ← [Terug naar thesis 28](/NL/theses/thesis-28.md) | |
+| :--- | ---:|
