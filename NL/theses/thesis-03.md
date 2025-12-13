@@ -13,13 +13,15 @@ Online klikken we “[**akkoord-knop**](/NL/begrippen/akkoord-knop.md)” en gaa
 
 Deze normalisatie van [**surveillance**](/NL/begrippen/surveillance.md), [**dataverzameling**](/NL/begrippen/dataverzameling.md) en [**toegangscontrole**](/NL/begrippen/toegangscontrole.md) is geen toeval – het is de grootste truc die ooit op de mensheid is uitgevoerd.
 
+
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
+<strong>🗣️ Praat mee over deze thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
 ---
 
-| ← [Thesis 2](/NL/theses/thesis-02.md) | [Volgende thesis →](/NL/theses/thesis-04.md) |
-| :--- | ---:|
+|  [ ← Vorige thesis](/NL/theses/thesis-02.md) | [ ← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-04.md) |
+| :--- | ---: | ---: |
