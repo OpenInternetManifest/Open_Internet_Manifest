@@ -10,5 +10,5 @@ Zie ook → [Onafhankelijke protocollen](/NL/begrippen/onafhankelijke-protocolle
 
 ---
 
-| ← [Terug naar thesis 28](/NL/theses/thesis-28.md) | |
+| ← [Terug naar thesis 27](/NL/theses/thesis-27.md) | |
 | :--- | ---:|
