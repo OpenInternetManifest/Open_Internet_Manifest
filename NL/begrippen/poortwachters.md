@@ -8,5 +8,5 @@ Zie ook → [Ommuurde tuin](/NL/begrippen/ommuurde-tuin.md) · [Digitale soevere
 
 ---
 
-| ← [Terug naar de thesis](/NL/theses/thesis-01.md) | |
+| ← [Terug naar de thesis 1](/NL/theses/thesis-01.md) | ← [Terug naar de thesis 2](/NL/theses/thesis-02.md) |
 | :--- | ---: |
