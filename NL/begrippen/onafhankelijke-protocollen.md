@@ -1,6 +1,12 @@
 # Onafhankelijke protocollen
 
-Open communicatieprotocollen die niet onder controle staan van één bedrijf (bijv. Matrix, ActivityPub, Nostr, IPFS).
+Open communicatieprotocollen die niet onder controle staan van één bedrijf.
+
+Voorbeelden:
+- [Matrix](https://matrix.org/) – open protocol voor chat en communicatie
+- [ActivityPub](https://activitypub.rocks/) – basis voor het fediverse (Mastodon, Pixelfed, etc.)
+- [Nostr](https://nostr.org/) – simpel protocol voor sociale netwerken met cryptografische sleutels
+- [IPFS](https://ipfs.tech/) – gedecentraliseerd bestandssysteem
 
 Deze protocollen vormen de laatste vrije wegen buiten de ommuurde tuinen.
 
