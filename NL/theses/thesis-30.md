@@ -9,5 +9,15 @@ Loop je mee?
 
 ---
 
-| ← [Terug naar overzicht](/NL/manifest.md) | [Het manifest is levend →](/NL/levend-manifest.md) |
-| :--- | ---: |
+<div style="overflow-x:auto;">
+<table style="width:100%; border:none;">
+<tr style="border:none;">
+<td style="text-align:left; border:none;">
+← [Terug naar overzicht] (/NL/manifest.md)
+</td>
+<td style="text-align:right; border:none;">
+[Het manifest is levend →](/NL/levend-manifest.md)
+</td>
+</tr>
+</table>
+</div>
