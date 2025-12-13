@@ -17,5 +17,5 @@ Zij noemen die ketting “[**gemak**](/NL/begrippen/gemak.md)” en “[**veilig
 
 ---
 
-|  [ ← Openingswoord](/NL/theses/thesis-00.md) | [ ← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
+|  [ ← Openingswoord](/NL/theses/thesis-01.md) | [ ← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-03.md) |
 | :--- | ---: | ---: |
