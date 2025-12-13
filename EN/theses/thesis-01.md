@@ -7,7 +7,6 @@ Where we once walked freely through an open field, Apple, Google, Microsoft, Ama
 They decide which paths are visible, which voices are heard, which devices are still allowed to speak to each other.
 
 As long as their grip is not broken, [**digital sovereignty**](/EN/concepts/digital-sovereignty.md) remains a fairy tale we tell our children while they grow up in [**walled gardens**](/EN/concepts/walled-garden.md).
-
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 <strong>🗣️ Talk Along</strong><br>
