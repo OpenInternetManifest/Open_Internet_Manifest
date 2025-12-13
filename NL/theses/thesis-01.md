@@ -7,5 +7,5 @@ Zolang hun greep niet wordt gebroken, blijft digitale soevereiniteit een sprookj
 
 ---
 
-| ← [Terug naar overzicht](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
-| :--- | ---: |
+| ← [Terug naar overzicht](/NL/manifest.md) | [ ← Vorige thesis](/NL/theses/thesis-00.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
+| :--- | ---: | ---: |
