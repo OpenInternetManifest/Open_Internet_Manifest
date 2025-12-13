@@ -10,7 +10,7 @@ Dit manifest wil een internet teruggeven met echte wegen, pleinen en paden – e
 Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouwd en eigendom van de gemeenschap.
 
 [Lees het volledige manifest hier](/NL/manifest.md)  
-[Verdieping bij de theses](/NL/verdieping/)
+[Verdieping bij de theses](/NL/begrippen/)
 
 **Versie 0.1 hashes**  
 Git commit: `02afa0c4d60600df5440c763050917443f60add1`  
