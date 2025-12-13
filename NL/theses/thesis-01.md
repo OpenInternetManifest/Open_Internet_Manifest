@@ -9,6 +9,12 @@ Zij bepalen welke wegen zichtbaar zijn, welke stemmen doorkomen, welke apparaten
 Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/NL/begrippen/digitale-soevereiniteit.md) een sprookje dat wij onze kinderen vertellen terwijl zij opgroeien in [**ommuurde tuinen**](/NL/begrippen/ommuurde-tuin.md).
 
 ---
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
+</div>
+
+---
 
 | ← [Openingswoord](/NL/theses/thesis-00.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
 | :--- | ---: |
