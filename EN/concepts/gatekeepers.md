@@ -8,9 +8,9 @@ See also → [Walled garden](/EN/concepts/walled-garden.md) · [Digital sovereig
 
 ...
 
-See also → [Walled garden](/EN/concepts/walled-garden.md) · [Digital sovereignty](/EN/concepts/digital-sovereignty.md) · [Thesis 1](/EN/theses/thesis-01.md) · [Thesis 2](/EN/theses/thesis-02.md)
+See also → [Walled garden](/EN/concepts/walled-garden.md) · [Digital sovereignty](/EN/concepts/digital-sovereignty.md) · [Thesis 1](/EN/theses/thesis-01.md) · [Thesis 2](/EN/theses/thesis-02.md) · [Thesis 6](/EN/theses/thesis-06.md)
 
 ---
 
-| ← [Back to thesis 1](/EN/theses/thesis-01.md) | [Back to thesis 2](/EN/theses/thesis-02.md) |
-| :--- | ---:|
+| ← [Back to thesis 1](/EN/theses/thesis-01.md) | [Back to thesis 2](/EN/theses/thesis-02.md) | [Back to thesis 6](/EN/theses/thesis-06.md) |
+| :--- | ---: | ---: |
