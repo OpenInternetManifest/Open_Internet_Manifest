@@ -9,5 +9,13 @@ Loop je mee?
 
 ---
 
-| ← [Terug naar overzicht](/NL/manifest.md) | [Het manifest is levend →](/NL/levend-manifest.md) |
-| :--- | ---: |
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee over deze thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Thesis 30" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
+</div>
+
+---
+
+| [← Thesis 29](/NL/theses/thesis-29.md) | [← Alle theses](/NL/manifest.md) | [Het manifest is levend →](/NL/levend-manifest.md) |
+| :--- | ---: | ---:|
