@@ -11,9 +11,7 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/NL/b
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-[Open Element in een nieuwe tab](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org){target="_blank" rel="noopener noreferrer"}<br>
-<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
+<strong>🗣️ Praat mee over deze thesis</strong><br>[Open Element in een nieuwe tab](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org){target="_blank" rel="noopener noreferrer"}<br><small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
 
