@@ -11,6 +11,12 @@ Both paths lead nowhere: one to irrelevance, the other to strengthening exactly 
 Real change requires one double movement: [**exit**](/EN/concepts/exit.md) from their ecosystems now and putting all our energy into [**building**](/EN/concepts/building.md) a [**new, truly open internet**](/EN/concepts/open-internet.md) that no one can ever close again.
 
 ---
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Talk Along</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join The discusion in the official OIM Matrix-room</a>
+</div>
+
+---
 
 | ← [Thesis 5](/EN/theses/thesis-05.md) | [Next thesis →](/EN/theses/thesis-07.md) |
 | :--- | ---:|
