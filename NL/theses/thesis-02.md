@@ -10,11 +10,12 @@ Zij noemen die ketting “[**gemak**](/NL/begrippen/gemak.md)” en “[**veilig
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
+<strong>🗣️ Praat mee over deze thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
 ---
 
-| ← [Thesis 1](/NL/theses/thesis-01.md) | [Volgende thesis →](/NL/theses/thesis-03.md) |
-| :--- | ---: |
+|  [ ← Openingswoord](/NL/theses/thesis-00.md) | [ ← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
+| :--- | ---: | ---: |
