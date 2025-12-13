@@ -12,11 +12,12 @@ By now building [**free protocols**](/EN/concepts/independent-protocols.md), [**
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk Along</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join The discusion in the official OIM Matrix-room</a>
+<strong>🗣️ Talk along about this thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
+<small>Tip: type "Thesis XX" as your first message so everyone knows which thesis you're referring to</small>
 </div>
 
 ---
 
-| ← [Thesis 6](/EN/theses/thesis-06.md) | [Next thesis →](/EN/theses/thesis-08.md) |
-| :--- | ---:|
+| [← Previous thesis](/EN/theses/thesis-06.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-08.md) |
+| :--- | ---: | ---: |
