@@ -9,14 +9,5 @@ Loop je mee?
 
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 3em; padding: 1em 0; border-top: 1px solid #ddd;">
-
-<div>
-← [Terug naar overzicht](/NL/manifest.md)
-</div>
-
-<div>
-[Het manifest is levend →](/NL/levend-manifest.md)
-</div>
-
-</div>
+| ← [Terug naar overzicht](/NL/manifest.md) | [Het manifest is levend →](/NL/levend-manifest.md) |
+| :--- | ---: |
