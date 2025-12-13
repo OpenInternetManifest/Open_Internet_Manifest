@@ -2,7 +2,7 @@
 
 You can already send a euro, a dollar, or a satoshi to anyone in the world today without ING, PayPal, Visa, Meta, or Apple watching or giving permission.
 
-[**Bitcoin + Lightning**](/EN/concepts/bitcoin-lightning.md), [**Monero**](/EN/concepts/monero.md), [**Nostr zaps**](/EN/concepts/nostr-zaps.md), [**Cashu**](/EN/concepts/cashu.md), or simply a regular IBAN/SEPA without intermediary.
+[**Bitcoin + Lightning**](/EN/concepts/bitcoin-lightning.md), [**Monero**](/EN/concepts/monero.md), [**Nostr zaps**](/EN/concepts/nostr-zaps.md), [**Cashu**](/EN/concepts/cashu.md), [**Ripple/XRP**](/EN/concepts/ripple-xrp.md), or simply a regular IBAN/SEPA without intermediary.
 
 One transaction outside their system is enough to feel how [**financial sovereignty**](/EN/concepts/financial-sovereignty.md) works again.
 
