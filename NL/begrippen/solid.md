@@ -1,0 +1,12 @@
+# Solid
+
+Project van Tim Berners-Lee voor persoonlijke data pods (Personal Online Data Stores).
+
+Jij bepaalt waar je data staat en wie toegang heeft – apps lezen en schrijven alleen met jouw toestemming.
+
+Zie ook → [Data-soevereiniteit](/NL/begrippen/data-soevereiniteit.md) · [Thesis 13](/NL/theses/thesis-13.md) · [solidproject.org](https://solidproject.org/)
+
+---
+
+| ← [Terug naar thesis 13](/NL/theses/thesis-13.md) | |
+| :--- | ---:|
