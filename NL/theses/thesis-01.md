@@ -6,4 +6,6 @@ Zij bepalen welke wegen zichtbaar zijn, welke stemmen doorkomen, welke apparaten
 Zolang hun greep niet wordt gebroken, blijft digitale soevereiniteit een sprookje dat wij onze kinderen vertellen terwijl zij opgroeien in ommuurde tuinen.
 
 ---
-← [Terug naar overzicht](/NL/manifest.md)
+
+| ← [Terug naar overzicht](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
+| :--- | ---: |
