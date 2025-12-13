@@ -1,6 +1,6 @@
 # Thesis 6
 
-Exit zonder bouw is vlucht; bouw zonder exit is [**collaboratie**](/NL/begrippen/collaboratie.md).
+***Exit zonder bouw is vlucht; bouw zonder exit is [**collaboratie**](/NL/begrippen/collaboratie.md).***
 
 Wie alleen klaagt en wegloopt bij de grote platforms, verdwijnt in een leegte waar niemand hem ooit vindt.
 
