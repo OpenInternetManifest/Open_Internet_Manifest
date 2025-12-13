@@ -17,5 +17,5 @@ They call that chain “[**convenience**](/EN/concepts/convenience.md)” and �
 
 ---
 
-| [← Last thesis](/EN/theses/thesis-01.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-03.md) |
+| [← Previous thesis](/EN/theses/thesis-01.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-03.md) |
 | :--- | ---: | ---: |
