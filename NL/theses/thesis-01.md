@@ -16,5 +16,5 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/NL/b
 
 ---
 
-| ← [Openingswoord](/NL/theses/thesis-00.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
-| :--- | ---: |
+| ← [Openingswoord](/NL/theses/thesis-00.md) | [Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-02.md) |
+| :--- | ---: | ---: |
