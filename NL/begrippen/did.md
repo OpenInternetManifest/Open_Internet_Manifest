@@ -2,11 +2,15 @@
 
 Gedecentraliseerde identifier – een unieke, zelfbeheerde ID die je overal kunt gebruiken zonder tussenpartij.
 
-Voorbeelden: did:key, did:web, did:ethr.
+Voorbeelden:
+- did:key – eenvoudige sleutel-gebaseerde DID
+- did:web – DID gebaseerd op een domeinnaam
+- did:plc – gebruikt door Bluesky voor portable accounts
+- Microsoft ION (Identity Overlay Network) – op Bitcoin gebaseerde DID-laag
 
 Maakt draagbare identiteit mogelijk zonder afhankelijkheid van een bedrijf.
 
-Zie ook → [Nostr](/NL/begrippen/nostr.md) · [Keyoxide](/NL/begrippen/keyoxide.md) · [Thesis 14](/NL/theses/thesis-14.md) · [w3.org/did](https://www.w3.org/TR/did-core/)
+Zie ook → [Nostr](/NL/begrippen/nostr.md) · [Keyoxide](/NL/begrippen/keyoxide.md) · [Thesis 14](/NL/theses/thesis-14.md) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
 
 ---
 
