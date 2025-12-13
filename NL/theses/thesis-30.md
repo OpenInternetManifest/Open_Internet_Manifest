@@ -8,5 +8,15 @@ De deur staat open.
 Loop je mee?
 
 ---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2em; font-size: 1.1em;">
+
+<span style="text-align: left;">
 ← [Terug naar overzicht](/NL/manifest.md)
+</span>
+
+<span style="text-align: right;">
 [Het manifest is levend →](/NL/levend-manifest.md)
+</span>
+
+</div>
