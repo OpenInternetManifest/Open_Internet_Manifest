@@ -12,7 +12,7 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/NL/b
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 <strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org?message=Ik%20kom%20via%20Thesis%2008%20–%20Netneutraliteit" target="_blank">Open Element en begin direct de discussie</a>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org?via=matrix.org&message=Ik%20kom%20via%20Thesis%20XX%20–%20[Korte%20titel]" target="_blank">Open Element in een nieuwe tab en begin direct de discussie</a>
 </div>
 
 ---
