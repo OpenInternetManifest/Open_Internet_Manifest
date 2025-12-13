@@ -1,6 +1,6 @@
 # Thesis 6
 
-Exit without building is flight; building without exit is [**collaboration**](/EN/concepts/collaboration.md).
+***Exit without building is flight; building without exit is [**collaboration**](/EN/concepts/collaboration.md).***
 
 Those who only complain and walk away from the big platforms disappear into a void where no one ever finds them.
 
