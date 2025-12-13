@@ -1,0 +1,14 @@
+# Patreon
+
+Platform for monthly support of creators.
+
+Useful and well-known, but centrally managed and takes commission.
+
+Use with caution — prefer open alternatives where possible.
+
+See also → [GitHub Sponsors](/EN/concepts/github-sponsors.md) · [Thesis 26](/EN/theses/thesis-26.md) · [patreon.com](https://www.patreon.com/)
+
+---
+
+| ← [Back to thesis 26](/EN/theses/thesis-26.md) | |
+| :--- | ---:|
