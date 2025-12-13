@@ -1,4 +1,4 @@
-[# Thesis 17 – Video en content zonder YouTube of TikTok
+# Thesis 17 – Video en content zonder YouTube of TikTok
 
 YouTube en TikTok zijn geen natuurwetten, maar keuzes van een handvol bedrijven.
 
@@ -9,5 +9,15 @@ Je kanaal blijft van jou, je kijkers volgen jóú in plaats van een algoritme, e
 De tools zijn er. De bandbreedte is er. De community is er.  
 Alleen jij ontbreekt nog.
 
-...
-](https://github.com/OpenInternetManifest/Open_Internet_Manifest/blob/main/NL/guides/stap-25-raspberry-pi-node.md)
+---
+
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee over deze thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Thesis 17" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
+</div>
+
+---
+
+| [← Thesis 16](/NL/theses/thesis-16.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-18.md) |
+| :--- | ---: | ---:|
