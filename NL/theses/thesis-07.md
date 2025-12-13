@@ -11,12 +11,14 @@ De [**poortwachters**](/NL/begrippen/poortwachters.md) hebben ons wijsgemaakt da
 Door nu te bouwen aan [**vrije protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**end-to-end encryptie**](/NL/begrippen/end-to-end-encryptie.md), [**decentrale opslag**](/NL/begrippen/decentrale-opslag.md) en [**sovereign nodes**](/NL/begrippen/sovereign-node.md) herstellen we wat natuurlijk is: een digitale wereld waarin privacy weer gewoon verwacht mag worden, niet bevochten.
 
 ---
+
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
+<strong>🗣️ Praat mee over deze thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
 ---
 
-| ← [Thesis 6](/NL/theses/thesis-06.md) | [Volgende thesis →](/NL/theses/thesis-08.md) |
-| :--- | ---:|
+|  [ ← Vorige thesis](/NL/theses/thesis-06.md) | [ ← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-08.md) |
+| :--- | ---: | ---: |
