@@ -1,7 +1,7 @@
 # Open Internet Manifest – Nederlandse versie
 
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
-→ [volledige tekst](Open_Internet_Manifest/NL/theses/thesis-01.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-01.md)
 
 **Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
 → [volledige tekst](/NL/theses/thesis-02.md)
