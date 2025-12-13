@@ -1,4 +1,4 @@
-# Thesis 17 – Video en content zonder YouTube of TikTok
+[# Thesis 17 – Video en content zonder YouTube of TikTok
 
 YouTube en TikTok zijn geen natuurwetten, maar keuzes van een handvol bedrijven.
 
@@ -10,3 +10,4 @@ De tools zijn er. De bandbreedte is er. De community is er.
 Alleen jij ontbreekt nog.
 
 ...
+](https://github.com/OpenInternetManifest/Open_Internet_Manifest/blob/main/NL/guides/stap-25-raspberry-pi-node.md)
