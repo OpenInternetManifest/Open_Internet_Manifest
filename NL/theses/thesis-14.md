@@ -1,9 +1,20 @@
 # Thesis 14 – Draagbare identiteit en reputatie
 
-Eén digitale sleutel (Nostr npub, DID, Keyoxide) die je overal mee naartoe neemt.  
-Geen 27 verschillende accounts meer, geen lock-in, geen bedrijf dat je identiteit kan weghalen.  
+Eén digitale sleutel ([**Nostr npub**](/NL/begrippen/nostr.md), [**DID**](/NL/begrippen/did.md), [**Keyoxide**](/NL/begrippen/keyoxide.md)) die je overal mee naartoe neemt.
+
+Geen 27 verschillende accounts meer, geen lock-in, geen bedrijf dat je identiteit kan weghalen.
+
 Je bouwt reputatie op één plek en die reist met je mee – zoals het hoort.
 
+---
+
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee over deze thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Thesis 14" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
+</div>
 
 ---
-← [Terug naar overzicht](/NL/manifest.md)
+
+| [← Thesis 13](/NL/theses/thesis-13.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-15.md) |
+| :--- | ---: | ---:|
