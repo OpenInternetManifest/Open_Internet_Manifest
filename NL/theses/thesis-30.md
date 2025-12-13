@@ -9,3 +9,4 @@ Loop je mee?
 
 ---
 ← [Terug naar overzicht](/NL/manifest.md)
+[Het manifest is levend →](/NL/levend-manifest.md)
