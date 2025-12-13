@@ -9,6 +9,12 @@ Yet alternative networks, free servers, [**open-source operating systems**](/EN/
 We stand on the narrowest edge of history: the moment when [**collective exit**](/EN/concepts/collective-exit.md) is still possible — and when we can choose together to tear that gate open forever.
 
 ---
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Talk Along</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join The discusion in the official OIM Matrix-room</a>
+</div>
+
+---
 
 | ← [Thesis 3](/EN/theses/thesis-03.md) | [Next thesis →](/EN/theses/thesis-05.md) |
 | :--- | ---:|
