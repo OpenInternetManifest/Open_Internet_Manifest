@@ -26,5 +26,12 @@ Welkom bij het begin.
 13 december 2025
 
 ---
-| [Begin met thesis 1 →](/NL/theses/thesis-01.md) | [Terug naar overzicht](/NL/manifest.md) |
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Talk along</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join the discussion in the official OIM Matrix room</a>
+</div>
+
+---
+| [Begin met thesis 1 →](/NL/theses/thesis-01.md) | [Terug naar overzicht](/NL/manifest.md) | 
 | :--- | ---: |
+
