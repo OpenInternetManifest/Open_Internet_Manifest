@@ -2,7 +2,7 @@
 
 Je kunt vandaag al een euro, een dollar of een satoshi sturen naar iedereen ter wereld zonder dat ING, PayPal, Visa, Meta of Apple meekijkt of toestemming geeft.
 
-[**Bitcoin + Lightning**](/NL/begrippen/bitcoin-lightning.md), [**Monero**](/NL/begrippen/monero.md), [**Nostr-zaps**](/NL/begrippen/nostr-zaps.md), [**Cashu**](/NL/begrippen/cashu.md), of gewoon een simpele IBAN/SEPA zonder tussenpersoon.
+[**Bitcoin + Lightning**](/NL/begrippen/bitcoin-lightning.md), [**Monero**](/NL/begrippen/monero.md), [**Nostr-zaps**](/NL/begrippen/nostr-zaps.md), [**Cashu**](/NL/begrippen/cashu.md), [**Ripple/XRP**](/NL/begrippen/ripple-xrp.md), of gewoon een simpele IBAN/SEPA zonder tussenpersoon.
 
 Eén transactie buiten hun systeem is genoeg om te voelen hoe [**financiële soevereiniteit**](/NL/begrippen/financiele-soevereiniteit.md) weer werkt.
 
