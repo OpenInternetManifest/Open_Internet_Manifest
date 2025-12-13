@@ -9,6 +9,12 @@ Vandaag koop je een telefoon en je bent eerst klant bij Apple of Google, daarna 
 Zij noemen die ketting “[**gemak**](/NL/begrippen/gemak.md)” en “[**veiligheid**](/NL/begrippen/veiligheid.md)”, zodat jij vergeet dat vrijheid ooit eenvoudig, direct en zonder poortwachters was.
 
 ---
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee</strong><br>
+<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
+</div>
+
+---
 
 | ← [Thesis 1](/NL/theses/thesis-01.md) | [Volgende thesis →](/NL/theses/thesis-03.md) |
 | :--- | ---: |
