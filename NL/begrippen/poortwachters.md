@@ -4,9 +4,9 @@ De vijf bedrijven (Apple, Google/Alphabet, Microsoft, Amazon, Meta) die samen me
 
 Zij fungeren als onvermijdelijke tussenstations voor bijna elke online handeling en kunnen eenzijdig toegang blokkeren, data oogsten of concurrenten uitsluiten.
 
-Zie ook → [Ommuurde tuin](/NL/begrippen/ommuurde-tuin.md) · [Digitale soevereiniteit](/NL/begrippen/digitale-soevereiniteit.md) · [Thesis 1](/NL/theses/thesis-01.md)
+Zie ook → [Ommuurde tuin](/NL/begrippen/ommuurde-tuin.md) · [Digitale soevereiniteit](/NL/begrippen/digitale-soevereiniteit.md) · [Thesis 1](/NL/theses/thesis-01.md) · [Thesis 2](/NL/theses/thesis-02.md) · [Thesis 6](/NL/theses/thesis-06.md)
 
 ---
 
-| ← [Terug naar de thesis 1](/NL/theses/thesis-01.md) | ← [Terug naar de thesis 2](/NL/theses/thesis-02.md) |
-| :--- | ---: |
+| ← [Terug naar thesis 1](/NL/theses/thesis-01.md) | [Terug naar thesis 2](/NL/theses/thesis-02.md) | [Terug naar thesis 6](/NL/theses/thesis-06.md) |
+| :--- | ---: | ---: |
