@@ -10,11 +10,12 @@ We stand on the narrowest edge of history: the moment when [**collective exit**]
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk Along</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join The discusion in the official OIM Matrix-room</a>
+<strong>🗣️ Talk along about this thesis</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
+<small>Tip: type "Thesis XX" as your first message so everyone knows which thesis you're referring to</small>
 </div>
 
 ---
 
-| ← [Thesis 3](/EN/theses/thesis-03.md) | [Next thesis →](/EN/theses/thesis-05.md) |
-| :--- | ---:|
+| [← Previous thesis](/EN/theses/thesis-02.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-04.md) |
+| :--- | ---: | ---: |
