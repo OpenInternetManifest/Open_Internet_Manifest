@@ -1,30 +1,22 @@
 # Thesis 9 – Peer-to-peer betalingen zonder tussenpersoon
 
-Vroeger stuurde je geld direct naar iemand – vandaag moet je langs banken, PayPal of Apple Pay.
-
-Door [**Bitcoin + Lightning**](/NL/begrippen/bitcoin-lightning.md), [**Monero**](/NL/begrippen/monero.md), [**Nostr-zaps**](/NL/begrippen/nostr-zaps.md) en [**Cashu**](/NL/begrippen/cashu.md) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
-
-Eén transactie buiten hun systeem is genoeg om te voelen hoe financiële soevereiniteit weer werkt.
-
-**Wil je zelf peer-to-peer betalen?**  
-De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/NL/guides/peer-to-peer-betalingen-coming-soon.md)
-
-
-
-Een open internet maakt echte economische vrijheid weer mogelijk, zonder dat vijf bedrijven de tolwegen bezitten.
-
 Vroeger kon je een website bouwen, een dienst aanbieden of een gemeenschap starten en direct geld verdienen van mensen overal ter wereld – zonder dat iemand 15 tot 30 procent van je omzet afroomt.
 
 Vandaag ben je huurder van hun marktplaatsen, advertentienetwerken en betaalsystemen: zij bepalen de regels, de zichtbaarheid en hoeveel er van jouw werk bij jou aankomt.
 
 Die afhankelijkheid houdt miljoenen makers, ondernemers en kleine gemeenschappen arm en kwetsbaar.
 
+Door [**Bitcoin + Lightning**](/NL/begrippen/bitcoin-lightning.md), [**Monero**](/NL/begrippen/monero.md), [**Nostr-zaps**](/NL/begrippen/nostr-zaps.md) en [**Cashu**](/NL/begrippen/cashu.md) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
+
+Eén transactie buiten hun systeem is genoeg om te voelen hoe financiële soevereiniteit weer werkt.
+
+Een open internet maakt echte economische vrijheid weer mogelijk, zonder dat vijf bedrijven de tolwegen bezitten.
+
 Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk. 
 
-
-Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk.
-
 **Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+**Wil je zelf peer-to-peer betalen?**  
+De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/NL/guides/peer-to-peer-betalingen-coming-soon.md)
 
 
 <div style="text-align: center; ...">
