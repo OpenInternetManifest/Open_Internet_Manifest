@@ -6,6 +6,9 @@ No phone number required, no central company that can spy on you or deactivate y
 
 WhatsApp, Telegram, and Signal are not the only options — they are just the most well-known.
 
+**Want to switch to a privacy-friendly messenger?**  
+The full step-by-step guide is coming → [Messaging apps without Big Tech – coming soon](/EN/guides/messaging-apps-without-big-tech-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
