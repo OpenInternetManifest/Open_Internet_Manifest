@@ -43,6 +43,7 @@ Post iets over privacy, vrijheid of waarom je bent overgestapt.
 
 Je bent nu deel van een actieve, vrije community.
 
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
@@ -50,6 +51,12 @@ Je bent nu deel van een actieve, vrije community.
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Guide Chaos.social" als eerste bericht</small>
 </div>
+
+---
+### Disclaimer
+Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
+Toch blijft het uitvoeren van technische stappen (zoals commando’s of hardware-aankoop) jouw eigen verantwoordelijkheid.  
+Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
 
 ---
 
