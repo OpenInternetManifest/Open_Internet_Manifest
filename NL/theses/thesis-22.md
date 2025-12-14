@@ -12,6 +12,9 @@ WhatsApp is niet onvermijdelijk – het is alleen nog maar normaal.
 
 **Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
 
+**Wil je stap-voor-stap overstappen van WhatsApp?**  
+De volledige guide komt eraan → [Element migratie – coming soon](/NL/guides/element-migratie-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
