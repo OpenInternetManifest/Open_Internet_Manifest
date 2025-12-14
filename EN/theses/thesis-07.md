@@ -10,6 +10,8 @@ The [**gatekeepers**](/EN/concepts/gatekeepers.md) have convinced us that [**tot
 
 By now building [**free protocols**](/EN/concepts/independent-protocols.md), [**end-to-end encryption**](/EN/concepts/end-to-end-encryption.md), [**decentralized storage**](/EN/concepts/decentralized-storage.md), and [**sovereign nodes**](/EN/concepts/sovereign-node.md), we restore what is natural: a digital world in which privacy is once again simply expected, not fought for.
 
+See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md) – build your own infrastructure.
+
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 <strong>🗣️ Talk along about this thesis</strong><br>
