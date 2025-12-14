@@ -12,6 +12,9 @@ WhatsApp is not inevitable — it is just still normal.
 
 See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md) – build your own infrastructure.
 
+**Want to migrate from WhatsApp step-by-step?**  
+The full step-by-step guide is coming → [Element migration – coming soon](/EN/guides/element-migration-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
