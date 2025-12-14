@@ -29,10 +29,6 @@ Of duik direct in de theses:
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
-## Ondersteun het Open Internet Manifest ❤️
-
-Dit manifest draait volledig op donaties. Elke bijdrage helpt!
-
 ### Doneer anoniem in crypto
 
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
