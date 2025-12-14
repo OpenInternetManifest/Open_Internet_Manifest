@@ -1,3 +1,31 @@
+# Guide – Nextcloud installeren (je eigen cloud)
+
+Nextcloud is open-source software voor je eigen cloud: bestanden, foto’s, kalender, contacten – alles onder jouw controle.
+
+**Tijd:** 30–60 minuten (eenmalig)  
+**Kosten:** €0 (op bestaande hardware) of €50–€100 (kleine VPS)
+
+### Optie 1 – Snelste start: Nextcloud op een Raspberry Pi (met Umbrel of YunoHost)
+<details>
+<summary>Je hebt al een Pi met Umbrel of YunoHost → klik hier</summary>
+
+- In Umbrel: ga naar App Store → zoek "Nextcloud" → installeren met één klik
+- In YunoHost: ga naar Apps → Nextcloud → installeren
+- Wacht 5–10 minuten → klaar!
+</details>
+
+### Optie 2 – Nextcloud op een VPS (aanbevolen voor beginners)
+<details>
+<summary>Ik wil een kant-en-klare server</summary>
+
+Goede providers (2025):
+- <a href="https://www.hetzner.com/cloud" target="_blank">Hetzner Cloud</a> – €5/maand voor goede prestaties
+- <a href="https://contabo.com" target="_blank">Contabo</a> – goedkoop en betrouwbaar
+- <a href="https://www.ionos.nl" target="_blank">IONOS</a> – Nederlands, eenvoudige setup
+
+Gebruik een “Nextcloud ready” image of installeer via snap (zie optie 3).
+</details>
+
 ### Optie 3 – Handmatig op je eigen server (bijv. Intel NUC of VPS)
 <details>
 <summary>Volledige controle – stap-voor-stap</summary>
@@ -61,6 +89,23 @@ sudo systemctl restart apache2
 Voltooi installatie via browser
 Open https://jouwdomein.nl → vul admin-gegevens en database-info in → klaar!
 
-Tip voor Intel NUC demo-server: Gebruik dezelfde stappen – NUC is krachtig genoeg voor tientallen gebruikers.</details>
-```
+Je data synchroniserenTelefoon: Nextcloud app (Android/iOS)
+Computer: Nextcloud desktop client
+
+Je foto’s, documenten en herinneringen zijn nu echt van jou.<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+
+      
+---
+
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee over Friendica</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Guide Friendica" als eerste bericht</small>
+</div>
+
+---
+
+| [← Thesis 23](/NL/theses/thesis-23.md) | [← Alle theses →](/NL/manifest.md) |
+| :--- | ---:|
+
 
