@@ -1,11 +1,20 @@
 # Thesis 21 – Practical first step: create a Mastodon account today
 
-Go to [mastodon.nl](https://mastodon.nl/), [fosstodon.org](https://fosstodon.org/), [chaos.social](https://chaos.social/) or another server that suits you.
+The fediverse is waiting for you — and it's easier than you think.
 
-Follow the same people you already follow on X or Instagram.
+Choose a server that suits you and create your account in 15 minutes:
+- <a href="https://mastodon.social" target="_blank">mastodon.social</a> – large general community
+- <a href="https://fosstodon.org" target="_blank">fosstodon.org</a> – focus on open-source and tech
+- <a href="https://chaos.social" target="_blank">chaos.social</a> – active, free, and privacy-friendly
 
-Post one message.
+**Follow this step-by-step guide for a smooth start:** 
 
+[View the full Mastodon guide →](/EN/guides/mastodon-account-making.md)  
+[View the full Fosstodon guide →](/EN/guides/fosstodon-account-making.md)  
+[View the full Chaos.social guide →](/EN/guides/chaos-account-making.md)
+
+Follow the people you already know.  
+Post one message.  
 You are already outside the enclosure.
 
 That is all it takes to get started.
@@ -20,5 +29,5 @@ That is all it takes to get started.
 
 ---
 
-| [← Thesis 20](/EN/theses/thesis-20.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-22.md) |
+| [← Thesis 20](/EN/theses/thesis-20.md) | [← All theses →](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-22.md) |
 | :--- | ---: | ---:|
