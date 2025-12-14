@@ -2,7 +2,7 @@
 
 Find a [**Mastodon**](/EN/concepts/mastodon.md), [**Matrix**](/EN/concepts/matrix.md), or [**Nostr**](/EN/concepts/nostr.md) group in your city or region.
 
-Or buy a Raspberry Pi and run [**Umbrel**](/EN/concepts/umbrel.md), [**Start9**](/EN/concepts/start9.md), or [**YunoHost**](/EN/concepts/yunohost.md).
+Or buy a Raspberry Pi and run [**Umbrel**](/EN/concepts/umbrel.md), [**Start9**](/EN/concepts/start9.md), or [**YunoHost**](/EN/concepts/yunohost.md). **Check out the full step-by-step guide, including hardware links →** [build your own Raspberry Pi node](/EN/guides/raspberry-pi-node.md)
 
 One more node is one step closer to an internet that can no longer be turned off.
 
