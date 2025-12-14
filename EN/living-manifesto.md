@@ -1,4 +1,6 @@
-# This is not an end  
+# The manifesto is alive
+
+This is not an end  
 This is a beginning
 
 You have just read the first 30 theses — the foundation of the Open Internet Manifesto.
