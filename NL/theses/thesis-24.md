@@ -10,6 +10,9 @@ Geen e-mailadres, geen telefoonnummer, geen bedrijf dat het kan afpakken.
 
 Eén sleutel, overal geldig, voor altijd van jou.
 
+**Wil je je eigen Nostr-account maken?**  
+De volledige guide komt eraan → [Nostr account maken – coming soon](/NL/guides/nostr-account-maken-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
