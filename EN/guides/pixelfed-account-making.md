@@ -57,8 +57,16 @@ You are now outside the enclosure.
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
 <small>Tip: type "Guide Pixelfed" as your first message</small>
 </div>
-
 ---
 
+<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
+
+  ### Disclaimer
+All guides are proposed by the community and reviewed by the OIM core team before going live.  
+Nevertheless, executing technical steps remains your own responsibility.  
+The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
+</div>
+
+---
 | [← Thesis 15](/EN/theses/thesis-15.md) | [← All theses →](/EN/manifest.md) |
 | :--- | ---:|
