@@ -2,7 +2,9 @@
 
 Zoek een [**Mastodon**](/NL/begrippen/mastodon.md)-, [**Matrix**](/NL/begrippen/matrix.md)- of [**Nostr**](/NL/begrippen/nostr.md)-groep in jouw stad of regio.
 
-Of koop een Raspberry Pi en draai [**Umbrel**](/NL/begrippen/umbrel.md), [**Start9**](/NL/begrippen/start9.md) of [**YunoHost**](/NL/begrippen/yunohost.md).
+Of koop een Raspberry Pi en draai [**Umbrel**](/NL/begrippen/umbrel.md), [**Start9**](/NL/begrippen/start9.md) of [**YunoHost**](/NL/begrippen/yunohost.md). Of koop een Raspberry Pi en draai Umbrel, Start9 of YunoHost. **Bekijk de volledige guide, inclusief links naar de hardware →** [bouw je eigen Raspberry Pi node](/NL/guides/raspberry-pi-node.md)
+
+
 
 Eén node meer is één stap dichter bij een internet dat niet meer uit te schakelen is.
 
