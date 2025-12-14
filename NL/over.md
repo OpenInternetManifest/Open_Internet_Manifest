@@ -19,10 +19,8 @@ Of duik direct in de theses:
 **Thesis 1 – 30** → zie [volledig overzicht](/NL/manifest.md)
 
 ## Praktische stappen (begin vandaag)
-- [Stap 21 – Mastodon-account in 5 minuten](/NL/stappen/stap-21-mastodon-account-maken.md)  
-- [Stap 22 – WhatsApp → Element](/NL/stappen/stap-22-whatsapp-vervangen-door-element.md)  
-- [Stap 25 – Je eigen node op een Raspberry Pi](/NL/stappen/stap-25-eigen-node-draaien-op-raspberry-pi.md)  
-(meer stappen komen snel)
+ 
+[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/NL/guides/)
 
 ## Ondersteun het Open Internet Manifest ❤️
 
