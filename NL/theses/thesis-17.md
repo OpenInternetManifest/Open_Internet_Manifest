@@ -9,6 +9,10 @@ Je kanaal blijft van jou, je kijkers volgen jóú in plaats van een algoritme, e
 De tools zijn er. De bandbreedte is er. De community is er.  
 Alleen jij ontbreekt nog.
 
+**Wil je zelf video’s hosten zonder YouTube?**  
+De volledige guide komt eraan → [Video zonder YouTube – coming soon](/NL/guides/video-zonder-youtube-coming-soon.md)
+
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
