@@ -8,7 +8,8 @@ Vandaag ben je huurder van hun marktplaatsen, advertentienetwerken en betaalsyst
 
 Die afhankelijkheid houdt miljoenen makers, ondernemers en kleine gemeenschappen arm en kwetsbaar.
 
-Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk.
+Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk. → Optioneel: “Zie ook de **Raspberry Pi node [guide](/NL/guides/raspberry-pi-node.md)**.
+
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
