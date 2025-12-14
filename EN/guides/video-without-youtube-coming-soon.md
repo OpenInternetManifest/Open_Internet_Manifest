@@ -1,4 +1,4 @@
-# [Guide name] – coming soon
+# Video without YouTube – coming soon
 
 Good news! You've found a thesis that deserves a practical guide — and we're working on it.
 
@@ -31,5 +31,5 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 </div>
 
 ---
-| [← Back to thesis XX](/EN/theses/thesis-XX.md) | [← All theses →](/EN/manifest.md) |
+| [← Back to thesis 17](/EN/theses/thesis-17.md) | [← All theses →](/EN/manifest.md) |
 | :--- | ---:|
