@@ -32,6 +32,6 @@ Welkom bij het begin.
 </div>
 
 ---
-| [Begin met thesis 1 →](/NL/theses/thesis-01.md) | [Terug naar overzicht](/NL/manifest.md) | 
+| [Begin met thesis 1 →](/NL/theses/thesis-01.md) | [ ← Alle theses →](/NL/manifest.md) | 
 | :--- | ---: |
 
