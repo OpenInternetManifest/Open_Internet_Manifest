@@ -10,8 +10,16 @@ Die afhankelijkheid houdt miljoenen makers, ondernemers en kleine gemeenschappen
 
 Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk. 
 
-→ Optioneel: “Zie ook de **Raspberry Pi node [guide](/NL/guides/raspberry-pi-node.md)**.
 
+Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk.
+
+**Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+
+---
+
+<div style="text-align: center; ...">
+...
+</div>
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
