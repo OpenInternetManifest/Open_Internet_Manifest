@@ -1,4 +1,6 @@
-# Dit is geen einde  
+# Het manifest is levend
+
+Dit is geen einde  
 Dit is een begin
 
 Je hebt zojuist de eerste 30 theses gelezen — de fundering van het Open Internet Manifest.
