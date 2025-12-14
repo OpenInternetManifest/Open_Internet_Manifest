@@ -10,6 +10,8 @@ Je berichten zijn end-to-end versleuteld, je kunt altijd verhuizen en je data bl
 
 WhatsApp is niet onvermijdelijk – het is alleen nog maar normaal.
 
+**Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
