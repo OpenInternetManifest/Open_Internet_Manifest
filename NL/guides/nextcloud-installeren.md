@@ -102,7 +102,7 @@ Je foto’s, documenten en herinneringen zijn nu echt van jou.<div style="text-a
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 <strong>🗣️ Praat mee over Friendica</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Guide Friendica" als eerste bericht</small>
+<small>Kleine tip: typ "Guide NextCloud" als eerste bericht</small>
 
 </div>
 
