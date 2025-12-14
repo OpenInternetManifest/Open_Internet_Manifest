@@ -6,6 +6,9 @@ Geen telefoonnummer verplicht, geen centraal bedrijf dat meekijkt of je kan deac
 
 WhatsApp, Telegram en Signal zijn niet de enige opties – ze zijn alleen de bekendste.
 
+**Wil je overstappen op een privacy-vriendelijke messenger?**  
+De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon](/NL/guides/berichtenapps-zonder-big-tech-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
