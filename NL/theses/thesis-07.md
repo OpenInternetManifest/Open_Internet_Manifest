@@ -10,6 +10,8 @@ De [**poortwachters**](/NL/begrippen/poortwachters.md) hebben ons wijsgemaakt da
 
 Door nu te bouwen aan [**vrije protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**end-to-end encryptie**](/NL/begrippen/end-to-end-encryptie.md), [**decentrale opslag**](/NL/begrippen/decentrale-opslag.md) en [**sovereign nodes**](/NL/begrippen/sovereign-node.md) herstellen we wat natuurlijk is: een digitale wereld waarin privacy weer gewoon verwacht mag worden, niet bevochten.
 
+**Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
