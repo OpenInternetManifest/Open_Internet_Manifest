@@ -1,4 +1,15 @@
-# Thesis 9
+# Thesis 9 – Peer-to-peer betalingen zonder tussenpersoon
+
+Vroeger stuurde je geld direct naar iemand – vandaag moet je langs banken, PayPal of Apple Pay.
+
+Door [**Bitcoin + Lightning**](/NL/begrippen/bitcoin-lightning.md), [**Monero**](/NL/begrippen/monero.md), [**Nostr-zaps**](/NL/begrippen/nostr-zaps.md) en [**Cashu**](/NL/begrippen/cashu.md) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
+
+Eén transactie buiten hun systeem is genoeg om te voelen hoe financiële soevereiniteit weer werkt.
+
+**Wil je zelf peer-to-peer betalen?**  
+De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/NL/guides/peer-to-peer-betalingen-coming-soon.md)
+
+
 
 Een open internet maakt echte economische vrijheid weer mogelijk, zonder dat vijf bedrijven de tolwegen bezitten.
 
