@@ -36,17 +36,21 @@ Every satoshi or monero helps enormously (servers, domains, development).
 
 Thank you so much for your support — you keep this project alive! 🚀
 
-## 🗣️ Community & Live Discussion
+---
+## Community & Live Discussion
 
-Come talk, give feedback, or help build the manifesto!
-
-**Official chat (open-source, decentralized, E2EE):**  
-→ **Matrix room**: [#openinternetmanifest:matrix.org](https://matrix.to/#/#openinternetmanifest:matrix.org)
+<div style="text-align: center; margin-top: 3em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Join the community</strong><br>
+  
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
+<small>Tip: type your thesis number or topic as first message</small><br><br>
 
 ![Join via QR](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org)
 
 (Scan with your phone or click the link — opens in Element app/browser. No Big Tech needed!)
+</div>
 
-![Join our Matrix community](assets/matrix-qr.png)
+---
 
-→ Or click directly: [#openinternetmanifest:matrix.org](https://matrix.to/#/#openinternetmanifest:matrix.org)
+| [← Homepage](/EN/) | [← All theses →](/EN/manifest.md) |
+| :--- | ---:|
