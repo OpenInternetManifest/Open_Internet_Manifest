@@ -86,5 +86,5 @@ No one can ever deactivate you
 
 ---
 
-| [← Back to Thesis 25](/EN/theses/thesis-25.md) | [← All theses](/EN/manifest.md) |
+| [← Back to Thesis 25](/EN/theses/thesis-25.md) | [← All theses →](/EN/manifest.md) |
 | :--- | ---: |
