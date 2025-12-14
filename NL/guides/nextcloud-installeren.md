@@ -75,12 +75,12 @@ Maak /etc/apache2/sites-available/nextcloud.conf:
     </Directory>
     </VirtualHost>
     ```
-  Activeer:
+Activeer:
   ```bash
-sudo a2ensite nextcloud
-sudo a2enmod rewrite headers env dir mime ssl
-sudo systemctl restart apache2
-```
+   sudo a2ensite nextcloud
+   sudo a2enmod rewrite headers env dir mime ssl
+   sudo systemctl restart apache2
+   ```
 6. HTTPS met Let's Encrypt (aanbevolen)
     ```bash
     sudo apt install certbot python3-certbot-apache -y
@@ -92,8 +92,10 @@ Open https://jouwdomein.nl → vul admin-gegevens en database-info in → klaar!
 Je data synchroniserenTelefoon: Nextcloud app (Android/iOS)
 Computer: Nextcloud desktop client
 
+
 Je foto’s, documenten en herinneringen zijn nu echt van jou.<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 
+</details>   <!-- EINDE van optie 3 dropdown -->
       
 ---
 
@@ -101,6 +103,7 @@ Je foto’s, documenten en herinneringen zijn nu echt van jou.<div style="text-a
 <strong>🗣️ Praat mee over Friendica</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Guide Friendica" als eerste bericht</small>
+
 </div>
 
 ---
