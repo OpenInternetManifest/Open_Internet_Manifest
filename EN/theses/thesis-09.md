@@ -10,6 +10,9 @@ That dependence keeps millions of creators, entrepreneurs, and small communities
 
 By building [**open protocols**](/EN/concepts/independent-protocols.md), [**peer-to-peer payments**](/EN/concepts/peer-to-peer-payments.md), and [**independent platforms**](/EN/concepts/independent-platforms.md), we create an internet again where you can earn, trade, and collaborate — without a handful of [**gatekeepers**](/EN/concepts/gatekeepers.md) deciding whether you are allowed to live from your own work.
 
+**Want to pay peer-to-peer yourself?**  
+The full step-by-step guide is coming → [Peer-to-peer payments – coming soon](/EN/guides/peer-to-peer-payments-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
