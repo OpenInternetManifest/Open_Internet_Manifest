@@ -12,11 +12,6 @@ Or talk along in Matrix:
 
 Thanks for your patience — together we make the open internet doable.
 
-### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps (such as commands or hardware purchases) remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
@@ -27,5 +22,14 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 
 ---
 
+<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
+
+  ### Disclaimer
+All guides are proposed by the community and reviewed by the OIM core team before going live.  
+Nevertheless, executing technical steps remains your own responsibility.  
+The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
+</div>
+
+---
 | [← Back to thesis XX](/EN/theses/thesis-XX.md) | [← All theses →](/EN/manifest.md) |
 | :--- | ---:|
