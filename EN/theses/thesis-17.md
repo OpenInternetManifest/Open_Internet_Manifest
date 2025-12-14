@@ -9,6 +9,10 @@ Your channel remains yours, your viewers follow *you* instead of an algorithm, a
 The tools are there. The bandwidth is there. The community is there.  
 Only you are missing.
 
+**Ready to start?**  
+The full step-by-step guide is coming → [Video without YouTube – coming soon](/EN/guides/video-without-youtube-coming-soon.md)
+
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
