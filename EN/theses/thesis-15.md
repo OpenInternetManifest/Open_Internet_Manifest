@@ -6,6 +6,9 @@ You can always move with all your followers, posts, and media — no more hostag
 
 It already works today for millions of people. The only thing still missing is you and me.
 
+**Klaar om te beginnen?**  
+[Bekijk de stap-voor-stap guide om je eerste Mastodon-account te maken](/NL/guides/mastodon-account-maken.md) – in 15 minuten ben je buiten de omheining.
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
