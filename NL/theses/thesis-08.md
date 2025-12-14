@@ -22,5 +22,5 @@ De volledige guide komt eraan → [Video zonder YouTube – coming soon](/NL/gui
 
 ---
 
-| [← Thesis 7](/NL/theses/thesis-07.md) | [← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-9.md) |
+| [← Thesis 7](/NL/theses/thesis-07.md) | [← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-09.md) |
 | :--- | ---: | ---:|
