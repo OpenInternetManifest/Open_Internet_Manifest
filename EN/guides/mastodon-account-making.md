@@ -10,9 +10,9 @@ Mastodon is not a replacement for Twitter — it is better: you choose your own 
 <summary>I don't know which server to choose → click here</summary>
 
 Good starters for English speakers:
-- <a href="https://mastodon.social" target="_blank">mastodon.social</a> – large, general community
+- <a href="https://mastodon.social" target="_blank">mastodon.social</a> – large general community
 - <a href="https://fosstodon.org" target="_blank">fosstodon.org</a> – focus on open-source and tech
-- <a href="https://mastodon.online" target="_blank">mastodon.online</a> – friendly and active
+- <a href="https://chaos.social" target="_blank">chaos.social</a> – active, free, and privacy-friendly
 
 Or find a server on <a href="https://instances.social" target="_blank">instances.social</a> (filter by language, topic, or country).
 </details>
