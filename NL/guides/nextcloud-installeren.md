@@ -108,6 +108,16 @@ Je foto’s, documenten en herinneringen zijn nu echt van jou.<div style="text-a
 
 ---
 
+<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
+
+  ### Disclaimer
+Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
+Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
+Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
+</div>
+
+---
+
 | [← Thesis 23](/NL/theses/thesis-23.md) | [← Alle theses →](/NL/manifest.md) |
 | :--- | ---:|
 
