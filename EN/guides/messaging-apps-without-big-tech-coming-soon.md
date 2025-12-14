@@ -1,4 +1,4 @@
-# Peer-to-peer payments – coming soon
+# Messaging apps without Big Tech – coming soon
 
 Good news! You've found a thesis that deserves a practical guide — and we're working on it.
 
@@ -17,7 +17,7 @@ Thanks for your patience — together we make the open internet doable.
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 <strong>🗣️ Talk along about guides</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Peer-to-peer payments" as your first message</small>
+<small>Tip: type "Messaging apps without Big Tech" as your first message</small>
 </div>
 
 ---
@@ -31,5 +31,5 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 </div>
 
 ---
-| [← Back to thesis 9](/EN/theses/thesis-09.md) | [← All theses →](/EN/manifest.md) |
+| [← Back to thesis 16](/EN/theses/thesis-16.md) | [← All theses →](/EN/manifest.md) |
 | :--- | ---:|
