@@ -8,6 +8,8 @@ You can share them with whoever you want, take them with you wherever you want, 
 
 No cloud is safer than your own cloud.
 
+See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md) – build your own infrastructure.
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
@@ -15,6 +17,7 @@ No cloud is safer than your own cloud.
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
 <small>Tip: type "Thesis 23" as your first message so everyone knows which thesis you're referring to</small>
 </div>
+
 
 ---
 
