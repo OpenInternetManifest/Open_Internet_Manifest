@@ -1,4 +1,4 @@
-# Stap 25 – Je eigen internet-node thuis draaien (Raspberry Pi + Umbrel)
+# Guide – Je eigen sovereign node draaien (Raspberry Pi + Umbrel)
 
 Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou.
 
@@ -9,17 +9,17 @@ Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-r
 <details>
 <summary>Ik weet niet wat ik moet kopen → klik hier</summary>
 
-- **Raspberry Pi 5 (8 GB)** → <a href="https://tweakers.net/pricewatch/1986384/raspberry-pi-5-8gb-ram.html" target="_blank">Vergelijk prijzen op Tweakers (€99,99 bij 46 winkels)</a> (of zoek op Tweakers: <a href="https://tweakers.net/search/?query=raspberry+pi+5+8gb" target="_blank">zoek Raspberry Pi 5 8GB</a>)  
-- **Of goedkoper: Raspberry Pi 4 (8 GB)** → <a href="https://tweakers.net/pricewatch/1562568/raspberry-pi-4-model-b-8gb-ram.html" target="_blank">Vergelijk prijzen op Tweakers (€89 bij 15 winkels)</a> (of zoek op Tweakers: <a href="https://tweakers.net/search/?query=raspberry+pi+4+8gb" target="_blank">zoek Raspberry Pi 4 8GB</a>)  
-- **Micro-SD-kaart 128 GB** → <a href="https://tweakers.net/pricewatch/450844/samsung-evo-plus-128gb-microsdxc-card-sd-adapter.html" target="_blank">Vergelijk prijzen op Tweakers (€12,50 bij 55 winkels)</a> (of zoek op Tweakers: <a href="https://tweakers.net/search/?query=micro+sd+128gb" target="_blank">zoek Micro-SD 128GB</a>)  
-- **Externe SSD 1 TB (aanrader! – snel, robuust en schokbestendig voor je data)** → <a href="https://tweakers.net/pricewatch/1807446/samsung-portable-ssd-t7-shield-1tb-zwart.html" target="_blank">Vergelijk prijzen op Tweakers (€137 bij 24 winkels)</a> (of zoek op Tweakers: <a href="https://tweakers.net/search/?query=samsung+t7+shield+1tb" target="_blank">zoek Samsung T7 Shield 1TB</a>)  
+- **Raspberry Pi 5 (8 GB)** → <a href="https://tweakers.net/pricewatch/1986384/raspberry-pi-5-8gb-ram.html" target="_blank">Vergelijk prijzen op Tweakers (€99,99 bij 46 winkels)</a>  
+- **Of goedkoper: Raspberry Pi 4 (8 GB)** → <a href="https://tweakers.net/pricewatch/1562568/raspberry-pi-4-model-b-8gb-ram.html" target="_blank">Vergelijk prijzen op Tweakers (€89 bij 15 winkels)</a>  
+- **Micro-SD-kaart 128 GB** → <a href="https://tweakers.net/pricewatch/450844/samsung-evo-plus-128gb-microsdxc-card-sd-adapter.html" target="_blank">Vergelijk prijzen op Tweakers (€12,50 bij 55 winkels)</a>  
+- **Externe SSD 1 TB (aanrader!)** → <a href="https://tweakers.net/pricewatch/1807446/samsung-portable-ssd-t7-shield-1tb-zwart.html" target="_blank">Vergelijk prijzen op Tweakers (€137 bij 24 winkels)</a>  
 - **Voeding + ethernetkabel** zitten meestal bij de starter-kit
 </details>
 
 ### Stap 1 – Umbrel downloaden
 <details>
 <summary>Ik weet niet waar ik Umbrel vind</summary>
-Ga naar <a href="https://umbrel.com" target="_blank">umbrel.com</a> → klik op de grote blauwe knop "Download Umbrel OS" (of "Learn more" voor instructies).
+Ga naar <a href="https://umbrel.com" target="_blank">umbrel.com</a> → klik op de grote blauwe knop "Download Umbrel OS".
 </details>
 
 ### Stap 2 – Image flashen met Balena Etcher
@@ -76,4 +76,15 @@ Kosten per maand: ± € 3 elektriciteit
 Veiligheid: jij hebt de enige sleutel  
 Niemand kan je ooit nog deactiveren
 
-← [Terug naar Thesis 25](/NL/theses/thesis-25.md)
+---
+
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee over sovereign nodes</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ "Guide Raspberry Pi node" als eerste bericht</small>
+</div>
+
+---
+
+| [← Vorige thesis](/NL/theses/thesis-XX.md) | [← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-YY.md) |
+| :--- | ---: | ---: |
