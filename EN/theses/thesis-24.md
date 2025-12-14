@@ -10,6 +10,9 @@ No email address, no phone number, no company that can take it away.
 
 One key, valid everywhere, yours forever.
 
+**Want to create your own Nostr account?**  
+The full step-by-step guide is coming → [Create Nostr account – coming soon](/EN/guides/create-nostr-account-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
