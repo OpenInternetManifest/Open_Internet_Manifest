@@ -34,17 +34,22 @@ Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 **Monero-tip**: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.
 
 Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
-## 🗣️ Community & Live Discussie
 
-Kom praten, feedback geven of meebouwen aan het manifest!
+---
 
-**Officiële chat (open-source, gedecentraliseerd, E2EE):**  
-→ **Matrix room**: [#openinternetmanifest:matrix.org](https://matrix.to/#/#openinternetmanifest:matrix.org)
+## Community & Live Discussie
+
+<div style="text-align: center; margin-top: 3em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Praat mee in de community</strong><br>
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
+<small>Kleine tip: typ je thesisnummer of onderwerp als eerste bericht</small><br><br>
 
 ![Join via QR](https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org)
 
 (Scan met je telefoon of klik de link – opent in Element app/browser. Geen Big Tech nodig!)
+</div>
 
-![Join onze Matrix community](assets/matrix-qr.png)
+---
 
-→ Of klik direct: [#openinternetmanifest:matrix.org](https://matrix.to/#/#openinternetmanifest:matrix.org)
+| [← Homepage](/NL/) | [← Alle theses →](/NL/manifest.md) |
+| :--- | ---: |
