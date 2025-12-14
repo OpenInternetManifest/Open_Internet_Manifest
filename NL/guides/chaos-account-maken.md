@@ -53,12 +53,17 @@ Je bent nu deel van een actieve, vrije community.
 </div>
 
 ---
-### Disclaimer
+
+<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
+
+  ### Disclaimer
 Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
-Toch blijft het uitvoeren van technische stappen (zoals commando’s of hardware-aankoop) jouw eigen verantwoordelijkheid.  
+Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
 Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
+</div>
 
 ---
 
 | [← Thesis 21](/NL/theses/thesis-21.md) | [← Alle theses →](/NL/manifest.md) |
 | :--- | ---:|
+
