@@ -86,5 +86,5 @@ Niemand kan je ooit nog deactiveren
 
 ---
 
-| [← terug naar thesis 7](/NL/theses/thesis-07.md) | [← terug naar thesis 9](/NL/theses/thesis-09.md) | [← terug naar thesis 22](/NL/theses/thesis-22.md) | [← terug naar thesis 23](/NL/theses/thesis-23.md) | [← Alle theses →](/NL/manifest.md)
-| :--- | ---: | ---: | ---: | ---: | 
+| [← terug naar thesis 7](/NL/theses/thesis-07.md) | [← terug naar thesis 9](/NL/theses/thesis-09.md) | [← terug naar thesis 22](/NL/theses/thesis-22.md) | [← terug naar thesis 23](/NL/theses/thesis-23.md) | [← terug naar thesis 25](/NL/theses/thesis-25.md) | [← Alle theses →](/NL/manifest.md)
+| :--- | ---: | ---: | ---: | ---: | ---: |
