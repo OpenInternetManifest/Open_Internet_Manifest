@@ -8,6 +8,8 @@ Je kunt ze delen met wie je wilt, meenemen waar je wilt, en verwijderen wanneer 
 
 Geen cloud is veiliger dan je eigen cloud.
 
+**Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
