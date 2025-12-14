@@ -1,11 +1,19 @@
 # Thesis 21 – Praktische eerste stap: maak vandaag nog een Mastodon-account
 
-Ga naar [mastodon.nl](https://mastodon.nl/), [fosstodon.org](https://fosstodon.org/), [chaos.social](https://chaos.social/) of een andere server die bij je past.
+Het fediverse wacht op je – en het is makkelijker dan je denkt.
 
-Volg dezelfde mensen die je nu al volgt op X of Instagram.
+Kies een server die bij je past en maak in 15 minuten je account:
+- <a href="https://mastodon.nl" target="_blank">mastodon.nl</a> – Nederlandse community, ideaal voor beginners
+- <a href="https://fosstodon.org" target="_blank">fosstodon.org</a> – focus op open-source en tech 
+- <a href="https://chaos.social" target="_blank">chaos.social</a> – actief, vrij en privacy-vriendelijk \
 
-Post één bericht.
+**Volg deze stap-voor-stap guide voor een soepele start:**  
+[Bekijk de volledige Mastodon guide →](/NL/guides/mastodon-account-maken.md)\
+[Bekijk de volledige Fosstodon guide →](/NL/guides/fosstodon-account-maken.md)\
+[Bekijk de volledige Chaos.social guide →](/NL/guides/chaos-account-maken.md)
 
+Volg de mensen die je al kent.  
+Post één bericht.  
 Je bent al buiten de omheining.
 
 Dat is alles wat nodig is om te beginnen.
@@ -20,5 +28,5 @@ Dat is alles wat nodig is om te beginnen.
 
 ---
 
-| [← Thesis 20](/NL/theses/thesis-20.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-22.md) |
+| [← Thesis 20](/NL/theses/thesis-20.md) | [← Alle theses →](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-22.md) |
 | :--- | ---: | ---:|
