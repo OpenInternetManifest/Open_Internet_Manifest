@@ -6,8 +6,12 @@ You can always move with all your followers, posts, and media — no more hostag
 
 It already works today for millions of people. The only thing still missing is you and me.
 
-**Klaar om te beginnen?**  
-[Bekijk de stap-voor-stap guide om je eerste Mastodon-account te maken](/NL/guides/mastodon-account-maken.md) – in 15 minuten ben je buiten de omheining.
+**Ready to start? Follow a step-by-step guide for your favorite platform:**  
+[View the Mastodon guide →](/EN/guides/mastodon-account-making.md)  
+[View the Pixelfed guide →](/EN/guides/pixelfed-account-making.md)  
+[View the Lemmy guide →](/EN/guides/lemmy-account-making.md)  
+[View the Friendica guide →](/EN/guides/friendica-account-making.md)  
+[View the Hubzilla guide →](/EN/guides/hubzilla-account-making.md)
 
 ---
 
@@ -19,5 +23,5 @@ It already works today for millions of people. The only thing still missing is y
 
 ---
 
-| [← Thesis 14](/EN/theses/thesis-14.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-16.md) |
+| [← Thesis 14](/EN/theses/thesis-14.md) | [← All theses →](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-16.md) |
 | :--- | ---: | ---:|
