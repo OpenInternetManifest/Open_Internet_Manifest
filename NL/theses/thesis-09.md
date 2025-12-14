@@ -15,10 +15,8 @@ Door [**open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md), [**pee
 
 **Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
 
----
 
 <div style="text-align: center; ...">
-...
 </div>
 
 ---
