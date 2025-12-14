@@ -17,5 +17,5 @@ Loop je mee?
 
 ---
 
-| [← Thesis 29](/NL/theses/thesis-29.md) | [← Alle theses](/NL/manifest.md) | [Het manifest is levend →](/NL/levend-manifest.md) |
+| [← Thesis 29](/NL/theses/thesis-29.md) | [← Alle theses](/NL/manifest.md) | [Het manifest is levend →](/NL/theses/levend-manifest.md) |
 | :--- | ---: | ---:|
