@@ -9,15 +9,12 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 
 **Beschikbaar in:**  
 - [Nederlands 🇳🇱](/NL/README.md) (deze versie)  
-- [Dansk 🇩🇰](/DK/README.md)  
-- [English 🇬🇧](/EN/README.md) ← komt binnenkort
-
+- [English 🇬🇧](/EN/README.md) 
+- [Dansk 🇩🇰](/DK/README.md)  ← komt binnenkort
+  
 ## De Theses
-[Lees het volledige manifest als doorlopend boek](/NL/manifest-volledig.md)  
-Of duik direct in de theses:
-
-**Thesis 1 – 30** → zie [volledig overzicht](/NL/manifest.md)
-
+[Begin met lezen →](/NL/theses/thesis-00.md)  
+[Alle theses →](/NL/manifest.md)
 ## Praktische stappen (begin vandaag)
  
 [Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/NL/guides/)
