@@ -8,6 +8,9 @@ Geen advertentieveiling, geen filterbubbel, geen verkoop van jouw zoekgedrag.
 
 Je hoeft alleen te kiezen voor een zoekmachine die jou dient in plaats van jou te verhandelen.
 
+**Wil je een privacy-vriendelijke zoekmachine gebruiken of zelf hosten?**  
+De volledige guide komt eraan → [Zoeken zonder Google – coming soon](/NL/guides/zoeken-zonder-google-coming-soon.md)
+
 ---
 
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
