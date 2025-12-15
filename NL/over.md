@@ -51,5 +51,5 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 
-| [← Homepage](/NL/) | [← Alle theses →](/NL/manifest.md) |
-| :--- | ---: |
+| [← Homepage](/NL/index.md) | [← Alle theses →](/NL/manifest.md) | [Thesis 1 →](/NL/theses/thesis-01.md) |
+| :--- | ---: | ---: |
