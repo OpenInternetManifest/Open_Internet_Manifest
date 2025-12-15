@@ -19,7 +19,7 @@ Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-r
 ### Stap 1 – Umbrel downloaden
 <details>
 <summary>Ik weet niet waar ik Umbrel vind</summary>
-Ga naar <a href="https://framer.umbrel.com/wip/support-234efsd/getting-started-with-umbrel" target="_blank">framer.umbrel.com</a> → Kies voor de juiste versie".
+Ga naar <a href="https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5#installing-umbrelos-on-the-nvme-or-usb-drive" target="_blank">umbrel</a> → Kies voor de juiste versie voor jouw Pi4, Pi5 of AMD64".
 </details>
 
 ### Stap 2 – Image flashen met Balena Etcher
