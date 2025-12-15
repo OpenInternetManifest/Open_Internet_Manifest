@@ -92,5 +92,5 @@
 
 ---
 
-| [Start Pagina](/NL/index.md) | [Steun OIM](/NL/over.md) |
+| [Start Pagina](/NL/index.md) | [Abiyt en steun OIM](/NL/over.md) |
 ---: | ---: |
