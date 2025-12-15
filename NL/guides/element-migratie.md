@@ -76,5 +76,5 @@ Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of and
 
 ---
 
-| [← Thesis 22](/NL/theses/thesis-22.md) | [← Alle theses →](/NL/manifest.md) |
-| :--- | ---:|
+| [← Thesis 22](/NL/theses/thesis-22.md) | [← Alle theses →](/NL/manifest.md) | [← Alle guides →](/NL/guides.md) |
+| ---: | ---:| ---:|
