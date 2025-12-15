@@ -38,5 +38,5 @@ Nu is het aan jou.
 
 ---
 
-|[Start pagina](/NL/index.m) | [Alle guides](guides.md) | [Alle theses](/manifest.md) |
+|[Start pagina](/NL/index.m) | [← Alle guides →](guides.md) | [← Alle theses →](/NL/manifest.md) |
 ---: |---: |---: |
