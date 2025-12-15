@@ -30,6 +30,9 @@
 **Guide 10** — Je eigen sovereign node draaien (Raspberry Pi + Umbrel)    
 → [volledige tekst](raspberry-pi-node.md) 
 
+**Guide 11** — De Guides zijn levend    
+→ [volledige tekst](levende-guides.md) 
+
 ---
 
 💸<strong> Ondersteun het Open Internet Manifest ❤️ <br>
