@@ -92,5 +92,5 @@
 
 ---
 
-| [Start Pagina](/NL/index.md) | [Steun OIM](/NL/manifest.md) |
+| [Start Pagina](/NL/index.md) | [Steun OIM](/NL/over.md) |
 ---: | ---: |
