@@ -33,4 +33,4 @@ Jij bent mede-auteur.
 
 | [Alle theses](/NL/theses.md | [About en Doneer aan OIM](/NL/over.md |
 
-|--- |---
+|---: |---:
