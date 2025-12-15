@@ -31,7 +31,7 @@
 → [volledige tekst](raspberry-pi-node.md) 
 
 **Guide 11** — De Guides zijn levend    
-→ [volledige tekst](levende-guides.md) 
+→ [volledige tekst](/guides/levende-guides.md) 
 
 ---
 
