@@ -10,28 +10,28 @@
 → [volledige tekst](fosstodon-account-maken.md)
 
 **Guide 4** — Je eerste Friendica-account maken (veelzijdig sociaal netwerk)  
-→ [volledige tekst](friendica-account-maken.md)
+→ [volledige tekst](/NL/guides/friendica-account-maken.md)
 
 **Guide 5** — Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)   
-→ [volledige tekst](hubzilla-account-maken.md)
+→ [volledige tekst](/NL/guides/hubzilla-account-maken.md)
 
 **Guide 6** — Je eerste Lemmy-account maken (Reddit-alternatief)    
-→ [volledige tekst](lemmy-account-maken.md)
+→ [volledige tekst](/NL/guides/lemmy-account-maken.md)
 
 **Guide 7** — Je eerste Mastodon-account maken en migreren van X/Twitter    
-→ [volledige tekst](mastodon-account-maken.md)
+→ [volledige tekst](/NL/guides/mastodon-account-maken.md)
 
 **Guide 8** — Nextcloud installeren (je eigen cloud)   
-→ [volledige tekst](nextcloud-installeren.md)
+→ [volledige tekst](/NL/guides/nextcloud-installeren.md)
 
 **Guide 9** — Je eerste Pixelfed-account maken (Instagram-alternatief)    
-→ [volledige tekst](pixelfed-account-maken.md))
+→ [volledige tekst](/NL/guides/pixelfed-account-maken.md))
 
 **Guide 10** — Je eigen sovereign node draaien (Raspberry Pi + Umbrel)    
-→ [volledige tekst](raspberry-pi-node.md) 
+→ [volledige tekst](/NL/guides/raspberry-pi-node.md) 
 
 **Guide 11** — De Guides zijn levend    
-→ [volledige tekst](/guides/levende-guides.md) 
+→ [volledige tekst](/NL/guides/levende-guides.md) 
 
 ---
 
