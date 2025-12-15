@@ -9,7 +9,7 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 [Alle theses →](/NL/manifest.md)
 
 **Praktische guides**  
-[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/NL/guides/)
+[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/NL/guides.md/)
 
 **Praat mee in de community**  
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element (Matrix) en join de discussie</a>
