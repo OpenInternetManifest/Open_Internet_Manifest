@@ -33,6 +33,6 @@ Welkom bij het begin.
 
 ---
 
-| [ ← Alle theses →](/NL/manifest.md) | [Begin met thesis 1 →](/NL/theses/thesis-01.md) |
-| :--- | ---: |
+| [Start Pagina](/NL/index.md) | [ ← Alle theses →](/NL/manifest.md) | [Begin met thesis 1 →](/NL/theses/thesis-01.md) |
+| :--- | ---: | ---: |
 
