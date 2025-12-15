@@ -89,3 +89,8 @@
 
 **Thesis 30** — Dit manifest is pas het begin  
 → [volledige tekst](/NL/theses/thesis-30.md)
+
+---
+
+| [Start Pagina](/NL/index.md) | [Steun OIM](/NL/manifest.md) |
+---: | ---: |
