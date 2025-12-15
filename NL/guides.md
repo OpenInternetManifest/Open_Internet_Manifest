@@ -1,13 +1,13 @@
 # De Guides bij Open Internet Manifest – Nederlandse versie
 
 **Guide 1** — Account maken op Chaos.social (actieve, vrije community)  
-→ [volledige tekst](/NL/theses/chaos-account-maken.md)
+→ [volledige tekst](/NL/guides/chaos-account-maken.md)
 
 **Guide 2** — Vervang WhatsApp door Element (Matrix)  
-→ [volledige tekst](/NL/theses/element-migratie.md)
+→ [volledige tekst](/NL/guides/element-migratie.md)
 
 **Guide 3** — Account maken op Fosstodon (tech- en open-source community)   
-→ [volledige tekst](fosstodon-account-maken.md)
+→ [volledige tekst](/NL/guides/fosstodon-account-maken.md)
 
 **Guide 4** — Je eerste Friendica-account maken (veelzijdig sociaal netwerk)  
 → [volledige tekst](/NL/guides/friendica-account-maken.md)
