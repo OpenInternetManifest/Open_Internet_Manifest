@@ -19,7 +19,7 @@ Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-r
 ### Stap 1 – Umbrel downloaden
 <details>
 <summary>Ik weet niet waar ik Umbrel vind</summary>
-Ga naar <a href="[https://umbrel.com](https://framer.umbrel.com/wip/support-234efsd/getting-started-with-umbrel)" target="_blank">umbrel.com</a> → klik op de grote blauwe knop "Download Umbrel OS".
+Ga naar <a href="https://framer.umbrel.com/wip/support-234efsd/getting-started-with-umbrel" target="_blank">framer.umbrel.com</a> → Kies voor de juiste versie".
 </details>
 
 ### Stap 2 – Image flashen met Balena Etcher
