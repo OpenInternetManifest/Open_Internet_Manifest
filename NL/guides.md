@@ -53,5 +53,5 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 
-| [Start Pagina](/NL/index.md) | [About en steun OIM](/NL/over.md) |
----: | ---: |
+| [Start Pagina](/NL/index.md) | [About en steun OIM](/NL/over.md) | [← Alle theses →](/NL/manifest.md) |
+---: | ---: | ---: |
