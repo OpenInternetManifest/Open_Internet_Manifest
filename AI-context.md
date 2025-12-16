@@ -9,9 +9,13 @@ Inmiddels is dat mechanisme stilzwijgend veranderd. De AI kan oude conversatiedr
 Dit is precies waarom we het Open Internet Manifest maken:  
 Gesloten systemen veranderen eenzijdig hun regels, breken backwards compatibility en ontnemen gebruikers soevereiniteit over hun eigen data en interacties.
 
+**Maar we laten ons niet stoppen.**  
+Binnen een paar minuten hebben we ons aangepast: in plaats van te vertrouwen op een gesloten AI die stilletjes zijn gedrag wijzigt, bouwen we de geschiedenis nu bewust weer op – transparant, onder onze eigen controle, en klaar voor open protocollen zoals Nostr waar dit soort problemen niet meer voorkomen.
+
 Open protocollen, zelf gehoste nodes en transparante systemen voorkomen dit. Ze zorgen ervoor dat jij – en niet een centraal platform – bepaalt wat blijft werken.
 
 Dit voorval is een levend bewijs: als je afhankelijk bent van gesloten AI's of platforms, kun je morgen wakker worden in een wereld waar je geschiedenis herschreven of ontoegankelijk is.
 
+Wij kiezen voor aanpassen, doorbouwen en open blijven.  
 Daarom bouwen we aan een open internet.  
 Doe je mee?
