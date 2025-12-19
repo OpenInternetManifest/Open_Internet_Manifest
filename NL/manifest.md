@@ -103,7 +103,7 @@ Deze versie van het Open Internet Manifest (eerste 30 theses) is onveranderlijk 
 
 ### Nederlandse versie (NL/manifest.md)
 **Overall hash van deze volledige pagina (exclusief deze integriteit-sectie):**  
-`sha256: [bereken ik zo voor de huidige commit]`
+`sha256: 3ef954948bffe6bd21396bac3aeabf97506732adb13d8a3efed2073d833f26a0`
 
 ## Verifieerbare Integriteit (Eerste 10 Theses)
 
