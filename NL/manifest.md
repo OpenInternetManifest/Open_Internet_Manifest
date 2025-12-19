@@ -105,29 +105,28 @@ Deze versie van het Open Internet Manifest (eerste 30 theses) is onveranderlijk 
 **Overall hash van deze volledige pagina (exclusief deze integriteit-sectie):**  
 `sha256: [bereken ik zo voor de huidige commit]`
 
-**Hashes per thesis (korte versie):**
-- Thesis 1: sha256: 9b0a5d3f8e5f4a1e2d8f6c7b9a3e1d4f6b8c2a5e7d9f1b3c4e6a8d0f2b4c6e8a ("Thesis 1 — Het internet is niet dood; het is gekaapt door vijf poortwachters")
-- Thesis 2: sha256: 3f1e6d8c4a2b5f7e9d1c3a6b8f0e2d4c6a9b1e3f5d7c9a2b4e6f8d0c1a3b5e7f ("Thesis 2 — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was")
-- Thesis 3: sha256: 7c4e2a6f8d0b3e5c1a7f9d2b4e6c8a0f3d5b7e9c1a3f5d7b9e2c4a6f8d0b1e3c ("Thesis 3 — In de echte wereld zou niemand accepteren wat wij online al jaren slikken")
-- Thesis 4: sha256: 5d8f1b3c6e9a2f4d7b0c3e5a8f1d4c6b9e2a5f7d0c3e6b8f1a4d7c9e2b5f8a0d ("Thesis 4 — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open")
-- Thesis 5: sha256: 2a6c8e0f3d5b7a9c1e4f6d8b0a3c5e7f9d2b4a6c8e1f3d5b7a9c0e2f4d6b8a1c ("Thesis 5 — Alleen een echt open internet geeft echte digitale vrijheid")
-- Thesis 6: sha256: 8e1c4a6f9d2b5e7c0a3f6d8b1e4c7a9f2d5b8e0c3f6a9d1c4e7b0a2f5d8c1e3b ("Thesis 6 — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren")
-- Thesis 7: sha256: 4b9d1e3f6a8c0b2e5d7f9a1c4e6b8d0f3a5c7e9b2d4f6a8c0e3b5d7f9a1c2e4b ("Thesis 7 — Een open internet geeft privacy zijn oude kracht terug")0
-- Thesis 8: sha256: 1f3d5b7c9e0a2c4e6f8a1d3b5c7e9f2a4d6b8e0c3f5a7d9b1e4c6f8a0d2b3e5c ("Thesis 8 — Een open internet bevrijdt je stem en je creativiteit van willekeur")
-- Thesis 9: sha256: 6c0e2a4f7d9b1c3e5a8f0d2b4c6e9a1f3d5b7c9e2a4f6d8b0c3e5a7f9d1b2c4e ("Thesis 9 — Een open internet maakt echte economische vrijheid weer mogelijk")
-- Thesis 10: sha256: 3a5c7e9f1b3d5f8a0c2e4b6d8f0a3c5e7b9d1f4a6c8e0b2d5f7a9c1e3b4d6f8a ("Thesis 10 — Het digitale hok breidt zich uit naar de echte wereld")
+## Verifieerbare Integriteit (Eerste 10 Theses)
 
+Deze hashes zijn berekend over de korte thesis-teksten zoals hierboven weergegeven (inclusief **bold** en em-dash).  
+Gebaseerd op commit: `jouw-huidige-commit-hash-hier` (zoek deze op GitHub na je laatste commit van manifest.md)
 
+**Hashes korte theses (NL):**
+- Thesis 1: `sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa`
+- Thesis 2: `sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4`
+- Thesis 3: `sha256: 2b8ef75f77107c57c3f916c358a0a6d4126dc47890ca74c1e89c5ab05b84a37f`
+- Thesis 4: `sha256: 5fb3187f930093432e71592b57df5a0cbc4d89d12ed845e94a1e7a1b14f48cff`
+- Thesis 5: `sha256: b76399114119655d25d53f7a53cd47120cd15655349de994a3040cce967dd192`
+- Thesis 6: `sha256: 37075047f02bb975d88dcd667cef536ffdfbfa2dbd72d666047f98078a6a2cfd`
+- Thesis 7: `sha256: 940fa5421106bb78da510afee633d948273ef7df648d8dfb41e13bd825ef0aea`
+- Thesis 8: `sha256: 7c5cb32d03fd8f93ee96bc5245943774b65eb746469e3e8537e84a1da1d005a6`
+- Thesis 9: `sha256: f659105ade62212fe1691501bc8ea224830b4da91f198404ff1e5b4b090396f4`
+- Thesis 10: `sha256: a3d591988cabbd7d3d3a351837f9a96d288d283ce371af41e4c3a0033410831c`
 
+**Hoe verifiëren?**  
+Kopieer de exacte tekst van een thesis (incl. bold en em-dash), bereken de SHA-256 (bijv. via [sha256.online](https://sha256.online) of terminal: `echo -n "tekst" | shasum -a 256`), en vergelijk.
 
+Het script blijft in tools/NL/generate_hashes.py staan – iedereen kan het zelf draaien om te controleren.
 
-
-- ...
-
-### English version (EN/manifest.md)
-Idem voor EN.
-
-Plus: vermeld de GitHub commit-hash voor extra context (bijv. "Gebaseerd op commit `abc123...`").
 
 ---
 
