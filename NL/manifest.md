@@ -122,7 +122,7 @@ Dit manifest is gebouwd op vertrouwen in wiskunde, niet in mensen of bedrijven. 
    Klopt hij exact? Dan is deze thesis **100% onveranderd en echt**.
 
 ### Hashes korte theses (eerste 10 theses, NL)
-Gebaseerd op commit: `5794f816076f4fdcdf1961c47292eb5db9230dcd` (of de nieuwste)
+Gebaseerd op commit: `7e26694e0f00b9cbdf3e21e79ad468e2f24ffa19` (of de nieuwste)
 
 - Thesis 1: `sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa`
 - Thesis 2: `sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4`
