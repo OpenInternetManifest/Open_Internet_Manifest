@@ -111,16 +111,16 @@ Deze hashes zijn berekend over de korte thesis-teksten zoals hierboven weergegev
 Gebaseerd op commit: 5e070e77050ca9af97ae40c07ddbb3962d1b24e3
 
 **Hashes korte theses (NL):**
-- Thesis 1: `sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa`
-- Thesis 2: `sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4`
-- Thesis 3: `sha256: 2b8ef75f77107c57c3f916c358a0a6d4126dc47890ca74c1e89c5ab05b84a37f`
-- Thesis 4: `sha256: 5fb3187f930093432e71592b57df5a0cbc4d89d12ed845e94a1e7a1b14f48cff`
-- Thesis 5: `sha256: b76399114119655d25d53f7a53cd47120cd15655349de994a3040cce967dd192`
-- Thesis 6: `sha256: 37075047f02bb975d88dcd667cef536ffdfbfa2dbd72d666047f98078a6a2cfd`
-- Thesis 7: `sha256: 940fa5421106bb78da510afee633d948273ef7df648d8dfb41e13bd825ef0aea`
-- Thesis 8: `sha256: 7c5cb32d03fd8f93ee96bc5245943774b65eb746469e3e8537e84a1da1d005a6`
-- Thesis 9: `sha256: f659105ade62212fe1691501bc8ea224830b4da91f198404ff1e5b4b090396f4`
-- Thesis 10: `sha256: a3d591988cabbd7d3d3a351837f9a96d288d283ce371af41e4c3a0033410831c`
+- Thesis 1: sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa
+- Thesis 2: sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4
+- Thesis 3: sha256: 2b8ef75f77107c57c3f916c358a0a6d4126dc47890ca74c1e89c5ab05b84a37f
+- Thesis 4: sha256: 5fb3187f930093432e71592b57df5a0cbc4d89d12ed845e94a1e7a1b14f48cff
+- Thesis 5: sha256: b76399114119655d25d53f7a53cd47120cd15655349de994a3040cce967dd192
+- Thesis 6: sha256: 37075047f02bb975d88dcd667cef536ffdfbfa2dbd72d666047f98078a6a2cfd
+- Thesis 7: sha256: 940fa5421106bb78da510afee633d948273ef7df648d8dfb41e13bd825ef0aea
+- Thesis 8: sha256: 7c5cb32d03fd8f93ee96bc5245943774b65eb746469e3e8537e84a1da1d005a6
+- Thesis 9: sha256: f659105ade62212fe1691501bc8ea224830b4da91f198404ff1e5b4b090396f4
+- Thesis 10: sha256: a3d591988cabbd7d3d3a351837f9a96d288d283ce371af41e4c3a0033410831c
 
 **Hoe verifiëren?**  
 Kopieer de exacte tekst van een thesis (incl. bold en em-dash), bereken de SHA-256 (bijv. via [sha256.online](https://sha256.online) of terminal: `echo -n "tekst" | shasum -a 256`), en vergelijk.
