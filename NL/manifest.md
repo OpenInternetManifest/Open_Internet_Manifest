@@ -108,7 +108,7 @@ Deze versie van het Open Internet Manifest (eerste 30 theses) is onveranderlijk 
 ## Verifieerbare Integriteit (Eerste 10 Theses)
 
 Deze hashes zijn berekend over de korte thesis-teksten zoals hierboven weergegeven (inclusief **bold** en em-dash).  
-Gebaseerd op commit: `jouw-huidige-commit-hash-hier` (zoek deze op GitHub na je laatste commit van manifest.md)
+Gebaseerd op commit: 5e070e77050ca9af97ae40c07ddbb3962d1b24e3
 
 **Hashes korte theses (NL):**
 - Thesis 1: `sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa`
