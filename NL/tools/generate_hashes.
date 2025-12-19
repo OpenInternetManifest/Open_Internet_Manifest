@@ -10,7 +10,28 @@ theses = [
     "**Thesis 7** — Een open internet geeft privacy zijn oude kracht terug",
     "**Thesis 8** — Een open internet bevrijdt je stem en je creativiteit van willekeur",
     "**Thesis 9** — Een open internet maakt echte economische vrijheid weer mogelijk",
-    "**Thesis 10** — Het digitale hok breidt zich uit naar de echte wereld"
+    "**Thesis 10** — Het digitale hok breidt zich uit naar de echte wereld",
+    "**Thesis 11** — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan gebruiken",  
+    "**Thesis 12** — Terug naar protocollen die niemand bezit",  
+    "**Thesis 13** — Jouw data hoort bij jou, niet bij een platform",  
+    "**Thesis 14** — Draagbare identiteit en reputatie",  
+    "**Thesis 15** — Sociale netwerken zonder centrale eigenaar",  
+    "**Thesis 16** — Berichtenapps zonder Big Tech",  
+    "**Thesis 17** — Video en content zonder YouTube of TikTok",  
+    "**Thesis 18** — Zoeken zonder Google",  
+    "**Thesis 19** — Geld sturen zonder bank of Big Tech",  
+    "**Thesis 20** — Van volgers verzamelen naar echte gemeenschappen bouwen",  
+    "**Thesis 21** — Praktische eerste stap: maak vandaag nog een Mastodon-account",  
+    "**Thesis 22** — Vervang WhatsApp door Element (Matrix)",  
+    "**Thesis 23** — Zet je foto’s en bestanden in eigen beheer",  
+    "**Thesis 24** — Gebruik een Nostr-client en claim je npub",  
+    "**Thesis 25** — Word lid van (of start) een lokale community-node",  
+    "**Thesis 26** — Ondersteun open source projecten financieel",  
+    "**Thesis 27** — Leer één iemand deze week een open alternatief gebruiken",  
+    "**Thesis 28** — Bedrijven en overheden: eis interoperabiliteit en open standaarden",  
+    "**Thesis 29** — Het open internet is geen utopie, het is een keuze die we elke dag maken",  
+    "**Thesis 30** — Dit manifest is pas het begin",  
+
 ]
 
 for i, text in enumerate(theses, 1):
