@@ -1,20 +1,20 @@
-<<div style="background: #0f1419; padding: 1em 2em; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #1a5fb4;">
-  <h1 style="margin: 0; font-size: 1.8em; color: #66b3ff;">
-    <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="OIM logo" style="height: 50px; vertical-align: middle; margin-right: 15px; border-radius: 8px;">
-    Open Internet Manifest
-  </h1>
-  <p style="margin: 0; color: #a0d8ff; font-size: 1.2em;">
-    Nederlandse versie
-  </p>
+<div style="background: #0f1419; padding: 1.5em 2em; display: flex; align-items: center; justify-content: flex-start; border-bottom: 2px solid #1a5fb4; flex-wrap: wrap;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest logo" style="height: 80px; margin-right: 20px; border-radius: 8px;">
+  <div>
+    <h1 style="margin: 0; color: #66b3ff; font-size: 2.2em;">Open Internet Manifest</h1>
+    <h2 style="margin: 0.5em 0 0; color: #a0d8ff; font-size: 1.6em;">Nederlandse versie</h2>
+    <p style="margin: 0.5em 0 0; color: #e0e0e0; font-size: 1.2em;">
+      100 theses voor een vrij, open en onvervreemdbaar internet
+    </p>
+  </div>
 </div>
 
-<div style="background: #0f1419 url('/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg') center center no-repeat; background-size: contain; min-height: 40vh; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 2em;">
-  <p style="background: rgba(15,20,25,0.8); padding: 1em 2em; border-radius: 12px; color: #e0e0e0; font-size: 1.4em; text-align: center; max-width: 90%;">
-    100 theses voor een vrij, open en onvervreemdbaar internet
-  </p>
-</div>
-
-
+<style>
+  /* Verberg de lelijke repo-naam bovenaan volledig */
+  header[role="banner"] {
+    display: none !important;
+  }
+</style>
 
 ### Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 
