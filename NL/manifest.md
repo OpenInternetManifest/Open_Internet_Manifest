@@ -229,6 +229,4 @@ function showFeedback(button, message) {
 - [Alle theses](/Open_Internet_Manifest/NL/manifest.md)
 - [Praat mee in de community](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org)
 
-<small style="display: block; text-align: center; margin-top: 2em; color: #888; font-size: 0.9em;">
-This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
-</small>
+---
