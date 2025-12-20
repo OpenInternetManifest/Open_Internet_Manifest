@@ -1,6 +1,6 @@
 # Thesis 14 – Draagbare identiteit en reputatie
 
-Eén digitale sleutel ([**Nostr npub**](/NL/begrippen/nostr.md), [**DID**](/NL/begrippen/did.md), [**Keyoxide**](/NL/begrippen/keyoxide.md)) die je overal mee naartoe neemt.
+Eén digitale sleutel ([**Nostr npub**](/Open_Internet_Manifest/NL/begrippen/nostr.md), [**DID**](/Open_Internet_Manifest/NL/begrippen/did.md), [**Keyoxide**](/Open_Internet_Manifest/NL/begrippen/keyoxide.md)) die je overal mee naartoe neemt.
 
 Geen 27 verschillende accounts meer, geen lock-in, geen bedrijf dat je identiteit kan weghalen.
 
@@ -16,5 +16,5 @@ Je bouwt reputatie op één plek en die reist met je mee – zoals het hoort.
 
 ---
 
-| [← Thesis 13](/NL/theses/thesis-13.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-15.md) |
+| [← Thesis 13](/Open_Internet_Manifest/NL/theses/thesis-13.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-15.md) |
 | :--- | ---: | ---:|

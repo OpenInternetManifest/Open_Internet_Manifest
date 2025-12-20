@@ -13,9 +13,9 @@ Voorbeelden (2025):
 
 Deze modellen kunnen lokaal gedraaid worden, aangepast en gecontroleerd – zonder afhankelijkheid van één bedrijf.
 
-Zie ook → [Poortwachters](/NL/begrippen/poortwachters.md) · [Ommuurde tuin](/NL/begrippen/ommuurde-tuin.md) · [Thesis 10](/NL/theses/thesis-10.md)
+Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) · [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin.md) · [Thesis 10](/Open_Internet_Manifest/NL/theses/thesis-10.md)
 
 ---
 
-| ← [Terug naar thesis 10](/NL/theses/thesis-10.md) | |
+| ← [Terug naar thesis 10](/Open_Internet_Manifest/NL/theses/thesis-10.md) | |
 | :--- | ---:|

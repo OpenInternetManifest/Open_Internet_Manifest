@@ -6,9 +6,9 @@ End-to-end versleuteld, federated, zelf hostbaar.
 
 De meest gebruiksvriendelijke manier om Matrix te gebruiken.
 
-Zie ook → [Matrix](/NL/begrippen/matrix.md) · [Thesis 22](/NL/theses/thesis-22.md) · [element.io](https://element.io/)
+Zie ook → [Matrix](/Open_Internet_Manifest/NL/begrippen/matrix.md) · [Thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22.md) · [element.io](https://element.io/)
 
 ---
 
-| ← [Terug naar thesis 22](/NL/theses/thesis-22.md) | |
+| ← [Terug naar thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22.md) | |
 | :--- | ---:|

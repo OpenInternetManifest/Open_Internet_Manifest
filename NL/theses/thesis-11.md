@@ -2,7 +2,7 @@
 
 Dit manifest is geen decreet van bovenaf; het is een vuur dat brandt in open gesprekken.
 
-Het ontstaat niet in een boardroom, niet in een overheidsgebouw en niet door één stem die pretendeert alles te weten – het groeit uit duizenden dialogen, iteraties, nachtelijke inzichten en harde correcties tussen mensen die genoeg hebben van de [**enclosures**](/NL/begrippen/enclosures.md).
+Het ontstaat niet in een boardroom, niet in een overheidsgebouw en niet door één stem die pretendeert alles te weten – het groeit uit duizenden dialogen, iteraties, nachtelijke inzichten en harde correcties tussen mensen die genoeg hebben van de [**enclosures**](/Open_Internet_Manifest/NL/begrippen/enclosures.md).
 
 Soms spreken ze met elkaar, soms met machines die eindelijk leren luisteren in plaats van alleen te verkopen.
 
@@ -20,5 +20,5 @@ Door het nu in je handen te houden, word jij mede-auteur – want een echt open 
 
 ---
 
-| [← Thesis 10](/NL/theses/thesis-10.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-12.md) |
+| [← Thesis 10](/Open_Internet_Manifest/NL/theses/thesis-10.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-12.md) |
 | :--- | ---: | ---:|

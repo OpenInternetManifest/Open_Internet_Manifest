@@ -6,9 +6,9 @@ Ze beweren jou te beschermen tegen virussen, hackers en “gevaarlijke inhoud”
 
 Echte veiligheid komt uit open standaarden, end-to-end encryptie en decentralisatie – niet uit één bedrijf dat alles ziet.
 
-Zie ook → [Ommuurde tuin](/NL/begrippen/ommuurde-tuin.md) · [Gemak](/NL/begrippen/gemak.md) · [Thesis 2](/NL/theses/thesis-02.md)
+Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin.md) · [Gemak](/Open_Internet_Manifest/NL/begrippen/gemak.md) · [Thesis 2](/Open_Internet_Manifest/NL/theses/thesis-02.md)
 
 ---
 
-| ← [Terug naar thesis 2](/NL/theses/thesis-02.md) | |
+| ← [Terug naar thesis 2](/Open_Internet_Manifest/NL/theses/thesis-02.md) | |
 | :--- | ---:|

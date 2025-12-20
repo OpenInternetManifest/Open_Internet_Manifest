@@ -1,6 +1,6 @@
 # Thesis 23 – Zet je foto’s en bestanden in eigen beheer
 
-Installeer [**Nextcloud**](/NL/begrippen/nextcloud.md), [**ownCloud**](/NL/begrippen/owncloud.md), [**Syncthing**](/NL/begrippen/syncthing.md) of gebruik [**Proton Drive**](/NL/begrippen/proton-drive.md), [**Internxt**](/NL/begrippen/internxt.md) of een eigen [**IPFS-pinning service**](/NL/begrippen/ipfs-pinning.md).
+Installeer [**Nextcloud**](/Open_Internet_Manifest/NL/begrippen/nextcloud.md), [**ownCloud**](/Open_Internet_Manifest/NL/begrippen/owncloud.md), [**Syncthing**](/Open_Internet_Manifest/NL/begrippen/syncthing.md) of gebruik [**Proton Drive**](/Open_Internet_Manifest/NL/begrippen/proton-drive.md), [**Internxt**](/Open_Internet_Manifest/NL/begrippen/internxt.md) of een eigen [**IPFS-pinning service**](/Open_Internet_Manifest/NL/begrippen/ipfs-pinning.md).
 
 Eén weekend werk en je foto’s, documenten en herinneringen zijn weer echt van jou.
 
@@ -8,7 +8,7 @@ Je kunt ze delen met wie je wilt, meenemen waar je wilt, en verwijderen wanneer 
 
 Geen cloud is veiliger dan je eigen cloud.
 
-**Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+**Zie ook de praktische [Raspberry Pi node guide](/Open_Internet_Manifest/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
 
 ---
 
@@ -20,5 +20,5 @@ Geen cloud is veiliger dan je eigen cloud.
 
 ---
 
-| [← Thesis 22](/NL/theses/thesis-22.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-24.md) |
+| [← Thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-24.md) |
 | :--- | ---: | ---:|

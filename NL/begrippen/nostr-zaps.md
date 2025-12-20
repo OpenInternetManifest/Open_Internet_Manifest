@@ -4,9 +4,9 @@ Microbetalingen (zaps) via Lightning op het Nostr-protocol – direct van persoo
 
 Geen platform dat commissie neemt of je kan blokkeren.
 
-Zie ook → [Nostr](/NL/begrippen/nostr.md) · [Bitcoin + Lightning](/NL/begrippen/bitcoin-lightning.md) · [Thesis 19](/NL/theses/thesis-19.md)
+Zie ook → [Nostr](/Open_Internet_Manifest/NL/begrippen/nostr.md) · [Bitcoin + Lightning](/Open_Internet_Manifest/NL/begrippen/bitcoin-lightning.md) · [Thesis 19](/Open_Internet_Manifest/NL/theses/thesis-19.md)
 
 ---
 
-| ← [Terug naar thesis 19](/NL/theses/thesis-19.md) | |
+| ← [Terug naar thesis 19](/Open_Internet_Manifest/NL/theses/thesis-19.md) | |
 | :--- | ---:|

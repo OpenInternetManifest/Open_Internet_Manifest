@@ -4,7 +4,7 @@ Geen verplichte app meer om een overheidsdienst te bereiken.
 
 Geen Google- of Apple-account om te stemmen, zorg te krijgen of te reizen.
 
-[**Open protocollen**](/NL/begrippen/onafhankelijke-protocollen.md) en [**open standaarden**](/NL/begrippen/open-standaarden.md) in plaats van gesloten silo’s – dat is de enige echte publieke digitale infrastructuur.
+[**Open protocollen**](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-protocollen.md) en [**open standaarden**](/Open_Internet_Manifest/NL/begrippen/open-standaarden.md) in plaats van gesloten silo’s – dat is de enige echte publieke digitale infrastructuur.
 
 Begin met eisen wat al jaren wettelijk verplicht had moeten zijn.
 
@@ -18,5 +18,5 @@ Begin met eisen wat al jaren wettelijk verplicht had moeten zijn.
 
 ---
 
-| [← Thesis 27](/NL/theses/thesis-27.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-29.md) |
+| [← Thesis 27](/Open_Internet_Manifest/NL/theses/thesis-27.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-29.md) |
 | :--- | ---: | ---:|

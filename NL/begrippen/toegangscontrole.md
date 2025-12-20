@@ -6,9 +6,9 @@ Voorbeelden: betalen voor basisfunctionaliteit, shadowbanning, app-store-regels,
 
 Offline zou dit neerkomen op een bewaker die beslist welke winkels je mag betreden.
 
-Zie ook → [Poortwachters](/NL/begrippen/poortwachters.md) · [Censuur](/NL/begrippen/censuur.md) · [Thesis 3](/NL/theses/thesis-03.md)
+Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) · [Censuur](/Open_Internet_Manifest/NL/begrippen/censuur.md) · [Thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03.md)
 
 ---
 
-| ← [Terug naar thesis 3](/NL/theses/thesis-03.md) | |
+| ← [Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03.md) | |
 | :--- | ---:|

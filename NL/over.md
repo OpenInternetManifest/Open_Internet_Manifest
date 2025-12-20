@@ -8,16 +8,16 @@ Dit manifest wil een internet teruggeven met echte wegen, pleinen en paden – e
 Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouwd en eigendom van de gemeenschap.
 
 **Beschikbaar in:**  
-- [Nederlands 🇳🇱](/NL/README.md) (deze versie)  
+- [Nederlands 🇳🇱](/Open_Internet_Manifest/NL/README.md) (deze versie)  
 - [English 🇬🇧](/EN/README.md) 
 - [Dansk 🇩🇰](/DK/README.md)  ← komt binnenkort
   
 ## De Theses
-[Begin met lezen →](/NL/theses/thesis-00.md)  
-[Alle theses →](/NL/manifest.md)
+[Begin met lezen →](/Open_Internet_Manifest/NL/theses/thesis-00.md)  
+[Alle theses →](/Open_Internet_Manifest/NL/manifest.md)
 ## Praktische stappen (begin vandaag)
  
-[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/NL/guides/)
+[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_Manifest/NL/guides/)
 
 ## Ondersteun het Open Internet Manifest ❤️
 
@@ -51,5 +51,5 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 
-| [← Homepage](/NL/index.md) | [← Alle theses →](/NL/manifest.md) | [Thesis 1 →](/NL/theses/thesis-01.md) |
+| [← Homepage](/Open_Internet_Manifest/NL/index.md) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) | [Thesis 1 →](/Open_Internet_Manifest/NL/theses/thesis-01.md) |
 | :--- | ---: | ---: |

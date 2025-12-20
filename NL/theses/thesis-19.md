@@ -2,9 +2,9 @@
 
 Je kunt vandaag al een euro, een dollar of een satoshi sturen naar iedereen ter wereld zonder dat ING, PayPal, Visa, Meta of Apple meekijkt of toestemming geeft.
 
-[**Bitcoin + Lightning**](/NL/begrippen/bitcoin-lightning.md), [**Monero**](/NL/begrippen/monero.md), [**Nostr-zaps**](/NL/begrippen/nostr-zaps.md), [**Cashu**](/NL/begrippen/cashu.md), [**Ripple/XRP**](/NL/begrippen/ripple-xrp.md), of gewoon een simpele IBAN/SEPA zonder tussenpersoon.
+[**Bitcoin + Lightning**](/Open_Internet_Manifest/NL/begrippen/bitcoin-lightning.md), [**Monero**](/Open_Internet_Manifest/NL/begrippen/monero.md), [**Nostr-zaps**](/Open_Internet_Manifest/NL/begrippen/nostr-zaps.md), [**Cashu**](/Open_Internet_Manifest/NL/begrippen/cashu.md), [**Ripple/XRP**](/Open_Internet_Manifest/NL/begrippen/ripple-xrp.md), of gewoon een simpele IBAN/SEPA zonder tussenpersoon.
 
-Eén transactie buiten hun systeem is genoeg om te voelen hoe [**financiële soevereiniteit**](/NL/begrippen/financiele-soevereiniteit.md) weer werkt.
+Eén transactie buiten hun systeem is genoeg om te voelen hoe [**financiële soevereiniteit**](/Open_Internet_Manifest/NL/begrippen/financiele-soevereiniteit.md) weer werkt.
 
 ---
 
@@ -16,5 +16,5 @@ Eén transactie buiten hun systeem is genoeg om te voelen hoe [**financiële soe
 
 ---
 
-| [← Thesis 18](/NL/theses/thesis-18.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-20.md) |
+| [← Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-20.md) |
 | :--- | ---: | ---:|

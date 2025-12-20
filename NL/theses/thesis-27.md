@@ -1,9 +1,9 @@
 # Thesis 27 – Leer één persoon deze week een open alternatief
 
-Je moeder op [**Element**](/NL/begrippen/element.md).  
-Je beste vriend op [**Mastodon**](/NL/begrippen/mastodon.md).  
-Je buurman op [**PeerTube**](/NL/begrippen/peertube.md).  
-Je zus op [**ProtonMail**](/NL/begrippen/protonmail.md).
+Je moeder op [**Element**](/Open_Internet_Manifest/NL/begrippen/element.md).  
+Je beste vriend op [**Mastodon**](/Open_Internet_Manifest/NL/begrippen/mastodon.md).  
+Je buurman op [**PeerTube**](/Open_Internet_Manifest/NL/begrippen/peertube.md).  
+Je zus op [**ProtonMail**](/Open_Internet_Manifest/NL/begrippen/protonmail.md).
 
 Eén persoon tegelijk is hoe elk groot netwerk ooit begon.
 
@@ -19,5 +19,5 @@ Jouw uitnodiging van vandaag is het netwerk-effect van morgen.
 
 ---
 
-| [← Thesis 26](/NL/theses/thesis-26.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-28.md) |
+| [← Thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-28.md) |
 | :--- | ---: | ---:|

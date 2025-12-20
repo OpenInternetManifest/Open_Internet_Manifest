@@ -2,7 +2,7 @@
 
 YouTube en TikTok zijn geen natuurwetten, maar keuzes van een handvol bedrijven.
 
-Vandaag al kun je video’s hosten en delen via [**PeerTube**](/NL/begrippen/peertube.md), [**Grayjay**](/NL/begrippen/grayjay.md), [**Odysee**](/NL/begrippen/odysee.md), [**LBRY**](/NL/begrippen/lbry.md), [**BitChute**](/NL/begrippen/bitchute.md), [**Rumble**](/NL/begrippen/rumble.md) of je eigen IPFS-node.
+Vandaag al kun je video’s hosten en delen via [**PeerTube**](/Open_Internet_Manifest/NL/begrippen/peertube.md), [**Grayjay**](/Open_Internet_Manifest/NL/begrippen/grayjay.md), [**Odysee**](/Open_Internet_Manifest/NL/begrippen/odysee.md), [**LBRY**](/Open_Internet_Manifest/NL/begrippen/lbry.md), [**BitChute**](/Open_Internet_Manifest/NL/begrippen/bitchute.md), [**Rumble**](/Open_Internet_Manifest/NL/begrippen/rumble.md) of je eigen IPFS-node.
 
 Je kanaal blijft van jou, je kijkers volgen jóú in plaats van een algoritme, en niemand kan je met één klik wegvagen.
 
@@ -10,7 +10,7 @@ De tools zijn er. De bandbreedte is er. De community is er.
 Alleen jij ontbreekt nog.
 
 **Wil je zelf video’s hosten zonder YouTube?**  
-De volledige guide komt eraan → [Video zonder YouTube – coming soon](/NL/guides/video-zonder-youtube-coming-soon.md)
+De volledige guide komt eraan → [Video zonder YouTube – coming soon](/Open_Internet_Manifest/NL/guides/video-zonder-youtube-coming-soon.md)
 
 
 ---
@@ -23,5 +23,5 @@ De volledige guide komt eraan → [Video zonder YouTube – coming soon](/NL/gui
 
 ---
 
-| [← Thesis 16](/NL/theses/thesis-16.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-18.md) |
+| [← Thesis 16](/Open_Internet_Manifest/NL/theses/thesis-16.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-18.md) |
 | :--- | ---: | ---:|

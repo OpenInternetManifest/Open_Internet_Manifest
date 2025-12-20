@@ -4,7 +4,7 @@
 
 Een groep van 50 tot 500 mensen die elkaar vertrouwen is een gemeenschap.
 
-[**Nostr-circles**](/NL/begrippen/nostr-circles.md), [**Matrix-rooms**](/NL/begrippen/matrix.md), kleine [**Mastodon-instances**](/NL/begrippen/mastodon.md), [**Revolt-servers**](/NL/begrippen/revolt.md): plekken waar kwaliteit weer boven kwantiteit gaat.
+[**Nostr-circles**](/Open_Internet_Manifest/NL/begrippen/nostr-circles.md), [**Matrix-rooms**](/Open_Internet_Manifest/NL/begrippen/matrix.md), kleine [**Mastodon-instances**](/Open_Internet_Manifest/NL/begrippen/mastodon.md), [**Revolt-servers**](/Open_Internet_Manifest/NL/begrippen/revolt.md): plekken waar kwaliteit weer boven kwantiteit gaat.
 
 Verbinden in plaats van scrollen. Praten in plaats van performen.
 
@@ -18,5 +18,5 @@ Verbinden in plaats van scrollen. Praten in plaats van performen.
 
 ---
 
-| [← Thesis 19](/NL/theses/thesis-19.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-21.md) |
+| [← Thesis 19](/Open_Internet_Manifest/NL/theses/thesis-19.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-21.md) |
 | :--- | ---: | ---:|

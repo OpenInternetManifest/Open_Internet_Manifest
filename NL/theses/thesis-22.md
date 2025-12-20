@@ -1,6 +1,6 @@
 # Thesis 22 – Vervang WhatsApp door Element (Matrix)
 
-Download [**Element**](/NL/begrippen/element.md) op je telefoon en computer.
+Download [**Element**](/Open_Internet_Manifest/NL/begrippen/element.md) op je telefoon en computer.
 
 Maak een account op een server naar keuze (of draai er zelf een).
 
@@ -10,10 +10,10 @@ Je berichten zijn end-to-end versleuteld, je kunt altijd verhuizen en je data bl
 
 WhatsApp is niet onvermijdelijk – het is alleen nog maar normaal.
 
-**Zie ook de praktische [Raspberry Pi node guide](/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+**Zie ook de praktische [Raspberry Pi node guide](/Open_Internet_Manifest/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
 
 **Wil je stap-voor-stap overstappen van WhatsApp?**  
-De volledige guide komt eraan → [Element migratie – coming soon](/NL/guides/element-migratie-coming-soon.md)
+De volledige guide komt eraan → [Element migratie – coming soon](/Open_Internet_Manifest/NL/guides/element-migratie-coming-soon.md)
 
 ---
 
@@ -25,5 +25,5 @@ De volledige guide komt eraan → [Element migratie – coming soon](/NL/guides/
 
 ---
 
-| [← Thesis 21](/NL/theses/thesis-21.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-23.md) |
+| [← Thesis 21](/Open_Internet_Manifest/NL/theses/thesis-21.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-23.md) |
 | :--- | ---: | ---:|

@@ -14,8 +14,8 @@ Ik.”
 ### Technische definitie
 Een apparaat dat:
 • volledig door jou beheerd wordt (geen beheer op afstand door wie dan ook),  
-• permanent verbonden is met het open internet of een [**mesh-netwerk**](/NL/begrippen/mesh-netwerk.md),  
-• open protocollen draait ([**IPFS**](/NL/begrippen/ipfs.md) · [**Matrix**](/NL/begrippen/matrix.md) · [**Nostr**](/NL/begrippen/nostr.md) · [**Yggdrasil**](/NL/begrippen/yggdrasil.md) · [**LoRa**](/NL/begrippen/lora.md) · etc.),  
+• permanent verbonden is met het open internet of een [**mesh-netwerk**](/Open_Internet_Manifest/NL/begrippen/mesh-netwerk.md),  
+• open protocollen draait ([**IPFS**](/Open_Internet_Manifest/NL/begrippen/ipfs.md) · [**Matrix**](/Open_Internet_Manifest/NL/begrippen/matrix.md) · [**Nostr**](/Open_Internet_Manifest/NL/begrippen/nostr.md) · [**Yggdrasil**](/Open_Internet_Manifest/NL/begrippen/yggdrasil.md) · [**LoRa**](/Open_Internet_Manifest/NL/begrippen/lora.md) · etc.),  
 • jouw data lokaal opslaat en beschikbaar stelt aan anderen,  
 • blijft werken zodra jij de stekker er weer in doet – verder niemand nodig.
 
@@ -35,10 +35,10 @@ Politiek een naakte machtsgreep.
 - **Guifi-net Twente** – 200+ nodes in de Achterhoek en Twente, vaak sneller en betrouwbaarder dan commerciële aanbieders. Geïnspireerd op het Spaanse Guifi.net (Europa’s grootste community-netwerk).  
   → [guifi.net](https://guifi.net/) (origineel) – lokale variant groeit snel
 
-Deze netwerken bewijzen: je hebt geen [**glasvezel-aansluiting**](/NL/begrippen/glasvezel-aansluiting.md) van KPN/Delta nodig om soeverein online te zijn.  
+Deze netwerken bewijzen: je hebt geen [**glasvezel-aansluiting**](/Open_Internet_Manifest/NL/begrippen/glasvezel-aansluiting.md) van KPN/Delta nodig om soeverein online te zijn.  
 Je hebt alleen buren nodig die hetzelfde willen.
 
-Eén sovereign node in jouw huis is een stem tegen [**hyperscale-datacentra**](/NL/begrippen/hyperscale-datacentrum.md) en voor een internet dat weer van ons allemaal is.
+Eén sovereign node in jouw huis is een stem tegen [**hyperscale-datacentra**](/Open_Internet_Manifest/NL/begrippen/hyperscale-datacentrum.md) en voor een internet dat weer van ons allemaal is.
 
 Prijs 2025: < €250 · Verbruik: minder dan een koelkast.
 
@@ -46,9 +46,9 @@ Bouw het.
 En laat ze maar komen met hun megadatacentra.  
 We hebben de meterkasten al.
 
-Zie ook → [Thesis 9](/NL/theses/thesis-09.md) · [Thesis 22](/NL/theses/thesis-22.md) · [Thesis 27](/NL/theses/thesis-27.md) · [Thesis 7](/NL/theses/thesis-07.md)
+Zie ook → [Thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09.md) · [Thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22.md) · [Thesis 27](/Open_Internet_Manifest/NL/theses/thesis-27.md) · [Thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07.md)
 
 ---
 
-| ← [Terug naar thesis 7](/NL/theses/thesis-07.md) | |
+| ← [Terug naar thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07.md) | |
 | :--- | ---:|

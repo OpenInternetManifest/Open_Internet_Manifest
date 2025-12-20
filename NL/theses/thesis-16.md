@@ -1,13 +1,13 @@
 # Thesis 16 – Berichtenapps zonder Big Tech
 
-[**Matrix**](/NL/begrippen/matrix.md) (Element), [**XMPP**](/NL/begrippen/xmpp.md) (Dino, Conversations), [**Session**](/NL/begrippen/session.md), [**Briar**](/NL/begrippen/briar.md), [**SimpleX**](/NL/begrippen/simplex.md): end-to-end versleuteld, federated of volledig peer-to-peer.
+[**Matrix**](/Open_Internet_Manifest/NL/begrippen/matrix.md) (Element), [**XMPP**](/Open_Internet_Manifest/NL/begrippen/xmpp.md) (Dino, Conversations), [**Session**](/Open_Internet_Manifest/NL/begrippen/session.md), [**Briar**](/Open_Internet_Manifest/NL/begrippen/briar.md), [**SimpleX**](/Open_Internet_Manifest/NL/begrippen/simplex.md): end-to-end versleuteld, federated of volledig peer-to-peer.
 
 Geen telefoonnummer verplicht, geen centraal bedrijf dat meekijkt of je kan deactiveren.
 
 WhatsApp, Telegram en Signal zijn niet de enige opties – ze zijn alleen de bekendste.
 
 **Wil je overstappen op een privacy-vriendelijke messenger?**  
-De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon](/NL/guides/berichtenapps-zonder-big-tech-coming-soon.md)
+De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon](/Open_Internet_Manifest/NL/guides/berichtenapps-zonder-big-tech-coming-soon.md)
 
 ---
 
@@ -19,5 +19,5 @@ De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon
 
 ---
 
-| [← Thesis 15](/NL/theses/thesis-15.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-17.md) |
+| [← Thesis 15](/Open_Internet_Manifest/NL/theses/thesis-15.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-17.md) |
 | :--- | ---: | ---:|

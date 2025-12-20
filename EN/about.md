@@ -8,7 +8,7 @@ This manifesto wants to give back an internet with real roads, squares, and path
 A living manifesto for a free, open, and decentralized internet — built and owned by the community.
 
 **Available in:**  
-- [Nederlands 🇳🇱](/NL/about.md)  
+- [Nederlands 🇳🇱](/Open_Internet_Manifest/NL/about.md)  
 - [English 🇬🇧](/EN/about.md) (this version)  
 - [Dansk 🇩🇰](/DK/about.md) ← coming soon
 

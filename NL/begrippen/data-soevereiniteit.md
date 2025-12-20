@@ -4,9 +4,9 @@ Het recht en de mogelijkheid om volledige controle te hebben over je eigen data:
 
 Tegenpool van data in handen van poortwachters.
 
-Zie ook → [Sovereign node](/NL/begrippen/sovereign-node.md) · [Solid](/NL/begrippen/solid.md) · [Thesis 13](/NL/theses/thesis-13.md)
+Zie ook → [Sovereign node](/Open_Internet_Manifest/NL/begrippen/sovereign-node.md) · [Solid](/Open_Internet_Manifest/NL/begrippen/solid.md) · [Thesis 13](/Open_Internet_Manifest/NL/theses/thesis-13.md)
 
 ---
 
-| ← [Terug naar thesis 13](/NL/theses/thesis-13.md) | |
+| ← [Terug naar thesis 13](/Open_Internet_Manifest/NL/theses/thesis-13.md) | |
 | :--- | ---:|

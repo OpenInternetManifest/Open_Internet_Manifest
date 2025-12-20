@@ -8,9 +8,9 @@ Vandaag gebeurt precies hetzelfde met het internet: het open, gemeenschappelijke
 
 De laatste fase is gaande – en wij zijn de boeren van deze tijd.
 
-Zie ook → [Poortwachters](/NL/begrippen/poortwachters.md) · [Collectieve exit](/NL/begrippen/collectieve-exit.md) · [Thesis 4](/NL/theses/thesis-04.md)
+Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) · [Collectieve exit](/Open_Internet_Manifest/NL/begrippen/collectieve-exit.md) · [Thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04.md)
 
 ---
 
-| ← [Terug naar thesis 4](/NL/theses/thesis-04.md) | |
+| ← [Terug naar thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04.md) | |
 | :--- | ---:|

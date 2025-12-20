@@ -1,8 +1,8 @@
 # Thesis 25 – Word lid van (of start) een lokale community-node
 
-Zoek een [**Mastodon**](/NL/begrippen/mastodon.md)-, [**Matrix**](/NL/begrippen/matrix.md)- of [**Nostr**](/NL/begrippen/nostr.md)-groep in jouw stad of regio.
+Zoek een [**Mastodon**](/Open_Internet_Manifest/NL/begrippen/mastodon.md)-, [**Matrix**](/Open_Internet_Manifest/NL/begrippen/matrix.md)- of [**Nostr**](/Open_Internet_Manifest/NL/begrippen/nostr.md)-groep in jouw stad of regio.
 
-Of koop een Raspberry Pi en draai [**Umbrel**](/NL/begrippen/umbrel.md), [**Start9**](/NL/begrippen/start9.md) of [**YunoHost**](/NL/begrippen/yunohost.md). Of koop een Raspberry Pi en draai Umbrel, Start9 of YunoHost. **Bekijk de volledige stap-voor-stap guide, inclusief links naar de hardware →** [bouw je eigen Raspberry Pi node](/NL/guides/raspberry-pi-node.md)
+Of koop een Raspberry Pi en draai [**Umbrel**](/Open_Internet_Manifest/NL/begrippen/umbrel.md), [**Start9**](/Open_Internet_Manifest/NL/begrippen/start9.md) of [**YunoHost**](/Open_Internet_Manifest/NL/begrippen/yunohost.md). Of koop een Raspberry Pi en draai Umbrel, Start9 of YunoHost. **Bekijk de volledige stap-voor-stap guide, inclusief links naar de hardware →** [bouw je eigen Raspberry Pi node](/Open_Internet_Manifest/NL/guides/raspberry-pi-node.md)
 
 
 
@@ -20,5 +20,5 @@ Begin klein. Begin lokaal. Begin vandaag.
 
 ---
 
-| [← Thesis 24](/NL/theses/thesis-24.md) | [← Alle theses](/NL/manifest.md) | [Volgende thesis →](/NL/theses/thesis-26.md) |
+| [← Thesis 24](/Open_Internet_Manifest/NL/theses/thesis-24.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-26.md) |
 | :--- | ---: | ---:|

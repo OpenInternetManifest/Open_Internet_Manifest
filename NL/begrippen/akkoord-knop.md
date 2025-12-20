@@ -6,9 +6,9 @@ Een juridisch trucje dat in de echte wereld nooit zou standhouden – niemand te
 
 Online is het de normaalste zaak van de wereld geworden.
 
-Zie ook → [Gemak](/NL/begrippen/gemak.md) · [Thesis 3](/NL/theses/thesis-03.md)
+Zie ook → [Gemak](/Open_Internet_Manifest/NL/begrippen/gemak.md) · [Thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03.md)
 
 ---
 
-| ← [Terug naar thesis 3](/NL/theses/thesis-03.md) | |
+| ← [Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03.md) | |
 | :--- | ---:|

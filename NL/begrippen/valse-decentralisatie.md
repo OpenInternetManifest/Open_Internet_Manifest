@@ -6,9 +6,9 @@ Klassiek voorbeeld: [Meta's Threads op ActivityPub](https://engineering.fb.com/2
 
 Het lijkt open, maar blijft onder hun controle – luxere cellen in dezelfde gevangenis.
 
-Zie ook → [Ommuurde tuin](/NL/begrippen/ommuurde-tuin.md) · [Onafhankelijke protocollen](/NL/begrippen/onafhankelijke-protocollen.md) · [Thesis 5](/NL/theses/thesis-05.md)
+Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin.md) · [Onafhankelijke protocollen](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-protocollen.md) · [Thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05.md)
 
 ---
 
-| ← [Terug naar thesis 5](/NL/theses/thesis-05.md) | |
+| ← [Terug naar thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05.md) | |
 | :--- | ---:|

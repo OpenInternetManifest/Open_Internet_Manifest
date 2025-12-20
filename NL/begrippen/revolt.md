@@ -6,9 +6,9 @@ Volledige controle over je server, end-to-end encryptie mogelijk, geen centrale 
 
 Perfect voor kleine tot middelgrote gemeenschappen.
 
-Zie ook → [Matrix](/NL/begrippen/matrix.md) · [Thesis 20](/NL/theses/thesis-20.md) · [revolt.chat](https://revolt.chat/)
+Zie ook → [Matrix](/Open_Internet_Manifest/NL/begrippen/matrix.md) · [Thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20.md) · [revolt.chat](https://revolt.chat/)
 
 ---
 
-| ← [Terug naar thesis 20](/NL/theses/thesis-20.md) | |
+| ← [Terug naar thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20.md) | |
 | :--- | ---:|

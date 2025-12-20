@@ -6,9 +6,9 @@ Voorbeelden: Bitcoin/Lightning, Monero, open source wallets, Nostr zaps.
 
 Maakt microbetalingen, internationale overmakingen en donaties mogelijk zonder commissie of censuur.
 
-Zie ook → [Open protocollen](/NL/begrippen/onafhankelijke-protocollen.md) · [Poortwachters](/NL/begrippen/poortwachters.md) · [Thesis 9](/NL/theses/thesis-09.md)
+Zie ook → [Open protocollen](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-protocollen.md) · [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) · [Thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09.md)
 
 ---
 
-| ← [Terug naar thesis 9](/NL/theses/thesis-09.md) | |
+| ← [Terug naar thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09.md) | |
 | :--- | ---:|
