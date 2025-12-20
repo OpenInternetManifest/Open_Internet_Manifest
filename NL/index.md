@@ -5,7 +5,7 @@
 Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 
 **De eerste 30 theses zijn klaar**  
-[Begin met lezen →](/NL/theses/thesis-00)  
+[Begin met lezen →](/Open_Internet_Manifest/NL/theses/thesis-00)  
 [Alle theses →](/Open_Internet_Manifest/NL/manifest)
 
 **Praktische guides**  
