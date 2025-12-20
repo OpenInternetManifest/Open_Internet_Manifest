@@ -267,9 +267,9 @@ function showFeedback(button, message) {
     font-weight: bold;
   }
 
-  /* Maak de repo-naam bovenaan onzichtbaar (tekst kleur = achtergrond) */
-header[role="banner"] h1, header[role="banner"] a {
-  color: #0f1419 !important; /* dezelfde als body background */
+/* Verberg de lelijke repo-naam bovenaan volledig */
+header[role="banner"] {
+  display: none !important;
 }
 
   /* Dropdown stijl */
