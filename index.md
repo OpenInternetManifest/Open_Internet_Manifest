@@ -1,11 +1,13 @@
 # Open Internet Manifest
 
-Kies je taal / Choose your language:
+Een living manifest voor een vrij, open en gedecentraliseerd internet.
 
-- [Nederlands 🇳🇱](/NL/index.md)
-- [English 🇬🇧](/EN/index.md)
-- [Dansk 🇩🇰](/DK/coming-soon-index.md) (coming soon)
-- [Deutsch 🇩🇪](/DE/coming-soon-index.md) (coming soon)
-- [Español 🇪🇸](/ES/coming-soon-index.md) (coming soon)
+**Kies je taal:**
+
+- [Nederlands 🇳🇱](/NL/index.md) (huidige versie met 30 theses)
+- [English 🇬🇧](/EN/index.md) (coming soon)
+- [Dansk 🇩🇰](/DK/index.md) (coming soon)
+
+Direct naar het manifest: [Nederlandse versie met 30 theses](/NL/manifest.md)
 
 Het manifest is levend – jij bent mede-auteur.
