@@ -1,19 +1,22 @@
-<div style="position: relative; padding: 6em 2em; background: #0f1419 url('/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg') center center no-repeat; background-size: cover; display: flex; align-items: center; justify-content: center; text-align: center; min-height: 50vh;">
-  <div style="position: relative; z-index: 1; background: rgba(15,20,25,0.75); padding: 3em; border-radius: 16px; max-width: 90%;">
-    <h1 style="color: #66b3ff; margin: 0; font-size: 3.5em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);"></h1>
-    <h2 style="color: #a0d8ff; margin: 1em 0 0; font-size: 2.4em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
-    <p style="color: #e0e0e0; margin-top: 1.5em; font-size: 1.6em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+<div style="position: relative; margin: 1em 0 3em; text-align: center; overflow: hidden; max-height: 60vh;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 100%; height: auto; display: block;">
+
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.85); padding: 1.5em 2em; border-radius: 16px; max-width: 90%; width: 85%;">
+    <h1 style="color: #66b3ff; margin: 0; font-size: 2.8em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
+    <h2 style="color: #a0d8ff; margin: 1em 0 0; font-size: 2em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
+    <p style="color: #e0e0e0; margin: 1.5em 0 0; font-size: 1.4em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
       100 theses voor een vrij, open en onvervreemdbaar internet
     </p>
   </div>
 </div>
 
-<style>
-  /* Verberg de lelijke GitHub Pages repo-naam bovenaan */
-  header[role="banner"] h1, header[role="banner"] a {
-    display: none !important;
-  }
-</style>
+<p style="text-align: center; color: #a0d8ff; font-size: 1.2em; margin: 0 0 3em;">
+  Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
+</p>
+
+<h3 style="text-align: center; color: #4da6ff; margin-bottom: 2em;">
+  De eerste 30 theses zijn klaar
+</h3>
 
 
 ---
