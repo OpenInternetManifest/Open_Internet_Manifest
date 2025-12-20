@@ -1,5 +1,5 @@
-<div style="position: relative; margin: 2em 0 4em; text-align: center;">
-  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 80%; max-width: 900px; height: auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
+<div style="position: relative; margin: 2em 0 4em; text-align: center; overflow: hidden; border-radius: 16px;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 80%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
 
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.8); padding: 2em 3em; border-radius: 16px; max-width: 85%; width: 80%;">
     <h1 style="color: #66b3ff; margin: 0; font-size: 3.2em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
