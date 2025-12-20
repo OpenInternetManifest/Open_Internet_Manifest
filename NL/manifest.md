@@ -8,9 +8,9 @@
     </p>
   </div>
 </div>
-<h2 style="text-align: center; color: #e0e0e0; margin-bottom: 2em;">
+<h4 style="text-align: center; color: #e0e0e0; margin-bottom: 2em;">
 De eerste 30 theses zijn klaar
-</h2>
+</h4>
 <p style="text-align: center; color: #e0e0e0; font-size: 1.2em; margin: 2em 0 3em;">
   Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 </p>
