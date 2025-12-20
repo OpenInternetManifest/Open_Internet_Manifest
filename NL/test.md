@@ -8,6 +8,7 @@
 
 <script>
 function copyThesis(text) {
+  // Probeer moderne Clipboard API
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(text).then(() => {
       showFeedback(' ✅ Gekopieerd!');
@@ -15,6 +16,7 @@ function copyThesis(text) {
       fallbackCopy(text);
     });
   } else {
+    // Direct fallback als moderne API niet beschikbaar is
     fallbackCopy(text);
   }
 }
@@ -24,13 +26,15 @@ function fallbackCopy(text) {
   textarea.value = text;
   textarea.style.position = 'fixed';
   textarea.style.opacity = '0';
+  textarea.style.left = '-9999px';
   document.body.appendChild(textarea);
+  textarea.focus();
   textarea.select();
   try {
     document.execCommand('copy');
     showFeedback(' ✅ Gekopieerd!');
   } catch (err) {
-    showFeedback(' ❌ Kopiëren mislukt');
+    showFeedback(' ❌ Mislukt');
   }
   document.body.removeChild(textarea);
 }
@@ -46,18 +50,3 @@ function showFeedback(message) {
   setTimeout(() => feedback.remove(), 3000);
 }
 </script>
-
-<style>
-.copy-btn {
-  background: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.8em;
-  margin-left: 10px;
-  padding: 4px 8px;
-}
-.copy-btn:hover {
-  background: #f0f0f0;
-}
-</style>
