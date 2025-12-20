@@ -1,20 +1,27 @@
-<div style="background: #0f1419; padding: 1.5em 2em; display: flex; align-items: center; justify-content: flex-start; border-bottom: 2px solid #1a5fb4; flex-wrap: wrap;">
-  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest logo" style="height: 80px; margin-right: 20px; border-radius: 8px;">
-  <div>
-    <h1 style="margin: 0; color: #66b3ff; font-size: 2.2em;">Open Internet Manifest</h1>
-    <h2 style="margin: 0.5em 0 0; color: #a0d8ff; font-size: 1.6em;">Nederlandse versie</h2>
-    <p style="margin: 0.5em 0 0; color: #e0e0e0; font-size: 1.2em;">
-      100 theses voor een vrij, open en onvervreemdbaar internet
-    </p>
-  </div>
+<!-- Lege regel om ruimte te maken -->
+<br><br>
+
+<div style="text-align: center; margin: 2em 0 3em;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="max-width: 80%; height: auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
 </div>
 
-<style>
-  /* Verberg de lelijke repo-naam bovenaan volledig */
-  header[role="banner"] {
-    display: none !important;
-  }
-</style>
+<h1 style="text-align: center; color: #66b3ff; font-size: 3em; margin: 1em 0; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">
+  Open Internet Manifest
+</h1>
+
+<h2 style="text-align: center; color: #a0d8ff; font-size: 2.2em; margin: 0.5em 0 2em;">
+  Nederlandse versie
+</h2>
+
+<p style="text-align: center; color: #e0e0e0; font-size: 1.5em; margin-bottom: 3em;">
+  100 theses voor een vrij, open en onvervreemdbaar internet
+</p>
+
+### 100 theses voor een vrij, open en onvervreemdbaar internet
+
+Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
+
+**De eerste 30 theses zijn klaar**
 
 ### Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 
@@ -293,6 +300,19 @@ function showFeedback(button, message) {
     padding: 2px 6px;
     border-radius: 4px;
   }
+  /* Maak de repo-naam bovenaan deel van het design – mooi en centraal */
+header[role="banner"] h1 {
+  text-align: center !important;
+  font-size: 1.8em !important;
+  color: #66b3ff !important;
+  margin: 0.5em 0 !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6) !important;
+}
+
+/* Verberg de GitHub-knoppen rechtsboven als je wilt */
+header[role="banner"] .AppHeader-context {
+  display: none !important;
+}
 </style>
 
 ---
