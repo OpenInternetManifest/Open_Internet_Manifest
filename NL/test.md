@@ -1,4 +1,4 @@
-# Test voor kopieer-button1
+# Test voor kopieer-button2
 
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
 <button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
