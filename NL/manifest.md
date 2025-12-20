@@ -99,12 +99,21 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 <!-- Verifieerbare Integriteit-sectie (inklapbaar met dropdowns) -->
 
 <details>
-<summary><strong>Verifieerbare Integriteit (klik om uit te klappen – voor wie wil controleren)</strong></summary>
+<summary><strong>🔍 Verifieerbare Integriteit – klik om uit te klappen (voor wie zelf wil controleren)</strong></summary>
 
-Deze hashes zijn berekend over de korte thesis-teksten zoals hierboven (inclusief bold en em-dash).  
-Gebaseerd op commit: [vul hier de laatste commit-hash in]
+Dit manifest is gebouwd op wiskunde, niet op vertrouwen. Hier kun je **zelf controleren** dat de theses exact zijn zoals bedoeld – zonder GitHub of iemand anders te vertrouwen.
 
-**Hashes korte theses (NL):**
+**Wat controleren we?**  
+De korte theses hierboven (bijv. "**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters").
+
+**Hoe verifiëren?**  
+1. Klik op de 📋 button naast een thesis → tekst wordt gekopieerd.  
+2. Plak in een SHA-256 tool (bijv. [sha256.online](https://sha256.online)).  
+3. Vergelijk met de hash hieronder.
+
+**Hashes korte theses (NL)**  
+Gebaseerd op commit: [vul laatste commit-hash in]
+
 - Thesis 1: sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa
 - Thesis 2: sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4
 - Thesis 3: sha256: 2b8ef75f77107c57c3f916c358a0a6d4126dc47890ca74c1e89c5ab05b84a37f
@@ -136,13 +145,9 @@ Gebaseerd op commit: [vul hier de laatste commit-hash in]
 - Thesis 29: sha256: 3afef60a2d4550bab68b6a061eaa6808b1d189bd346c3db68785c2ed605bcc5c
 - Thesis 30: sha256: eca4e502881887228a73b39fd9a795d4ba3433f38174738741e4ff8186981277
 
-**Hoe verifiëren?**  
-Kopieer de korte thesis-tekst (via de 📋 button), plak in [sha256.online](https://sha256.online), vergelijk met bovenstaande hash.
-
-Het script om deze hashes te genereren staat in de repo: tools/NL/generate_hashes.py
+Het script om deze hashes te genereren staat in de repo: `tools/NL/generate_hashes.py`
 
 </details>
-
 <!-- Script voor kopieer-buttons (onderaan de pagina) -->
 <script>
 function copyThesis(button, text) {
