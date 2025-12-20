@@ -1,95 +1,167 @@
 # Open Internet Manifest – Nederlandse versie
 
+### 100 theses voor een vrij, open en onvervreemdbaar internet
+
+Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
+
+**De eerste 30 theses zijn klaar**
+
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-01)
+<button onclick="copyThesis(this, '**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-02)
+<button onclick="copyThesis(this, '**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 3** — In de echte wereld zou niemand accepteren wat wij online al jaren slikken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-03)
+<button onclick="copyThesis(this, '**Thesis 3** — In de echte wereld zou niemand accepteren wat wij online al jaren slikken')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 4** — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-04)
+<button onclick="copyThesis(this, '**Thesis 4** — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 5** — Alleen een echt open internet geeft echte digitale vrijheid  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-05)
+<button onclick="copyThesis(this, '**Thesis 5** — Alleen een echt open internet geeft echte digitale vrijheid')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 6** — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-06)
+<button onclick="copyThesis(this, '**Thesis 6** — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 7** — Een open internet geeft privacy zijn oude kracht terug  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-07)
+<button onclick="copyThesis(this, '**Thesis 7** — Een open internet geeft privacy zijn oude kracht terug')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 8** — Een open internet bevrijdt je stem en je creativiteit van willekeur  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-08)
+<button onclick="copyThesis(this, '**Thesis 8** — Een open internet bevrijdt je stem en je creativiteit van willekeur')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 9** — Een open internet maakt echte economische vrijheid weer mogelijk  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-09)
+<button onclick="copyThesis(this, '**Thesis 9** — Een open internet maakt echte economische vrijheid weer mogelijk')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 10** — Het digitale hok breidt zich uit naar de echte wereld  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-10) | [verdieping](/verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld)
+<button onclick="copyThesis(this, '**Thesis 10** — Het digitale hok breidt zich uit naar de echte wereld')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 11** — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan gebruiken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-11)
+<button onclick="copyThesis(this, '**Thesis 11** — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan gebruiken')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 12** — Terug naar protocollen die niemand bezit  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-12)
+<button onclick="copyThesis(this, '**Thesis 12** — Terug naar protocollen die niemand bezit')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 13** — Jouw data hoort bij jou, niet bij een platform  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-13)
+<button onclick="copyThesis(this, '**Thesis 13** — Jouw data hoort bij jou, niet bij een platform')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 14** — Draagbare identiteit en reputatie  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-14)
+<button onclick="copyThesis(this, '**Thesis 14** — Draagbare identiteit en reputatie')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 15** — Sociale netwerken zonder centrale eigenaar  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-15)
+<button onclick="copyThesis(this, '**Thesis 15** — Sociale netwerken zonder centrale eigenaar')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 16** — Berichtenapps zonder Big Tech  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-16)
+<button onclick="copyThesis(this, '**Thesis 16** — Berichtenapps zonder Big Tech')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 17** — Video en content zonder YouTube of TikTok  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-17)
+<button onclick="copyThesis(this, '**Thesis 17** — Video en content zonder YouTube of TikTok')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 18** — Zoeken zonder Google  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-18)
+<button onclick="copyThesis(this, '**Thesis 18** — Zoeken zonder Google')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 19** — Geld sturen zonder bank of Big Tech  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-19)
+<button onclick="copyThesis(this, '**Thesis 19** — Geld sturen zonder bank of Big Tech')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 20** — Van volgers verzamelen naar echte gemeenschappen bouwen  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-20)
+<button onclick="copyThesis(this, '**Thesis 20** — Van volgers verzamelen naar echte gemeenschappen bouwen')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 21** — Praktische eerste stap: maak vandaag nog een Mastodon-account  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-21)
+<button onclick="copyThesis(this, '**Thesis 21** — Praktische eerste stap: maak vandaag nog een Mastodon-account')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 22** — Vervang WhatsApp door Element (Matrix)  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-22)
+<button onclick="copyThesis(this, '**Thesis 22** — Vervang WhatsApp door Element (Matrix)')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 23** — Zet je foto’s en bestanden in eigen beheer  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-23)
+<button onclick="copyThesis(this, '**Thesis 23** — Zet je foto’s en bestanden in eigen beheer')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 24** — Gebruik een Nostr-client en claim je npub  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-24)
+<button onclick="copyThesis(this, '**Thesis 24** — Gebruik een Nostr-client en claim je npub')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 25** — Word lid van (of start) een lokale community-node  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-25)
+<button onclick="copyThesis(this, '**Thesis 25** — Word lid van (of start) een lokale community-node')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 26** — Ondersteun open source projecten financieel  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-26)
+<button onclick="copyThesis(this, '**Thesis 26** — Ondersteun open source projecten financieel')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 27** — Leer één iemand deze week een open alternatief gebruiken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-27)
+<button onclick="copyThesis(this, '**Thesis 27** — Leer één iemand deze week een open alternatief gebruiken')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 28** — Bedrijven en overheden: eis interoperabiliteit en open standaarden  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-28)
+<button onclick="copyThesis(this, '**Thesis 28** — Bedrijven en overheden: eis interoperabiliteit en open standaarden')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 29** — Het open internet is geen utopie, het is een keuze die we elke dag maken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-29)
+<button onclick="copyThesis(this, '**Thesis 29** — Het open internet is geen utopie, het is een keuze die we elke dag maken')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
 **Thesis 30** — Dit manifest is pas het begin  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-30)
+<button onclick="copyThesis(this, '**Thesis 30** — Dit manifest is pas het begin')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
 
+<!-- Je bestaande Verifieerbare Integriteit-sectie hieronder plakken -->
+
+<!-- Script onderaan de pagina -->
+<script>
+function copyThesis(button, text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).then(() => {
+      showFeedback(button, '✅ Gekopieerd! Plak in sha256.online om te verifiëren');
+    }).catch(() => {
+      fallbackCopy(text, button);
+    });
+  } else {
+    fallbackCopy(text, button);
+  }
+}
+
+function fallbackCopy(text, button) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.focus();
+  textarea.select();
+  try {
+    document.execCommand('copy');
+    showFeedback(button, '✅ Gekopieerd! Plak in sha256.online om te verifiëren');
+  } catch (err) {
+    showFeedback(button, '❌ Mislukt – probeer handmatig');
+  }
+  document.body.removeChild(textarea);
+}
+
+function showFeedback(button, message) {
+  // Verwijder oude feedback
+  const oldFeedback = button.parentNode.querySelector('.feedback');
+  if (oldFeedback) oldFeedback.remove();
+
+  const feedback = document.createElement('span');
+  feedback.textContent = message;
+  feedback.className = 'feedback';
+  feedback.style.marginLeft = '10px';
+  feedback.style.fontSize = '0.9em';
+  feedback.style.fontWeight = 'bold';
+  if (message.includes('✅')) feedback.style.color = 'green';
+  if (message.includes('❌')) feedback.style.color = 'red';
+  button.parentNode.appendChild(feedback);
+  setTimeout(() => feedback.remove(), 4000);
+}
+</script>
+
+<style>
+.copy-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 10px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.copy-btn:hover {
+  opacity: 1;
+}
+</style>
 ---
 
 ## Verifieerbare Integriteit
