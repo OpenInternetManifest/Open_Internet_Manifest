@@ -223,6 +223,14 @@ function showFeedback(button, message) {
 
 ---
 
+<div style="text-align: center; margin: 3em 0 2em; padding: 1.5em; background: #f8f8f8; border-radius: 8px; font-size: 1em;">
+
+[← Terug naar startpagina](/Open_Internet_Manifest/) • 
+[Alle theses](/Open_Internet_Manifest/NL/manifest.md) • 
+[Praat mee in de community](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org)
+
+</div>
+
 <small style="display: block; text-align: center; margin-top: 2em; color: #888;">
 This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
 </small>
