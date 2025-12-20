@@ -1,16 +1,16 @@
-<div style="position: relative; margin: 2em 0 4em; text-align: center; overflow: hidden; border-radius: 16px;">
-  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 80%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
+<div style="position: relative; margin: 2em 0 3em; text-align: center; overflow: hidden; max-height: 500px;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 70%; max-width: 800px; height: auto; display: block; margin: 0 auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
 
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.8); padding: 2em 3em; border-radius: 16px; max-width: 85%; width: 80%;">
-    <h1 style="color: #66b3ff; margin: 0; font-size: 3.2em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
-    <h2 style="color: #a0d8ff; margin: 1em 0 0; font-size: 2.2em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
-    <p style="color: #e0e0e0; margin: 1.5em 0 0; font-size: 1.6em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+  <div style="position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.85); padding: 1.8em 3em; border-radius: 16px; max-width: 85%; width: 80%;">
+    <h1 style="color: #66b3ff; margin: 0; font-size: 3em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
+    <h2 style="color: #a0d8ff; margin: 1em 0 0; font-size: 2em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
+    <p style="color: #e0e0e0; margin: 1.5em 0 0; font-size: 1.5em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
       100 theses voor een vrij, open en onvervreemdbaar internet
     </p>
   </div>
 </div>
 
-<p style="text-align: center; color: #a0d8ff; font-size: 1.2em; margin: -1em 0 3em;">
+<p style="text-align: center; color: #a0d8ff; font-size: 1.2em; margin: 0 0 3em;">
   Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 </p>
 
