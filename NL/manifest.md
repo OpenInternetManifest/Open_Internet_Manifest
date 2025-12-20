@@ -204,21 +204,102 @@ function showFeedback(button, message) {
 </script>
 
 <style>
-.copy-btn {
-  background: #e3f2fd;
-  color: #1565c0;
-  border: 1px solid #bbdefb;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.85em;
-  margin-left: 15px;
-  padding: 6px 12px;
-  transition: all 0.2s;
-}
-.copy-btn:hover {
-  background: #bbdefb;
-  border-color: #1a5fb4;
-}
+  body {
+    background: #0f1419;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.7;
+  }
+
+  h1 {
+    color: #1a8cff;
+    border-bottom: 3px solid #1a8cff;
+    padding-bottom: 10px;
+  }
+
+  h2, h3, h4 {
+    color: #4da6ff;
+  }
+
+  a {
+    color: #66b3ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .copy-btn {
+    background: #1a5fb4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85em;
+    margin-left: 15px;
+    padding: 6px 12px;
+    transition: all 0.2s;
+  }
+
+  .copy-btn:hover {
+    background: #4da6ff;
+  }
+
+  .feedback {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  /* Dropdown inhoud mooi maken */
+  details > div {
+    margin-top: 1em;
+    padding: 1.5em;
+    background: #1a252f;
+    border-radius: 8px;
+    border-left: 4px solid #1a8cff;
+  }
+
+  details[open] summary {
+    margin-bottom: 1em;
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #66b3ff;
+  }
+
+  code {
+    background: #2d3748;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  ul {
+    padding-left: 1.5em;
+  }
+
+  /* Footer stijl */
+  .footer-block {
+    background: #1a252f;
+    padding: 2em;
+    border-radius: 12px;
+    text-align: center;
+    margin: 4em 0 3em;
+    border: 1px solid #2d3748;
+  }
+
+  /* Navigatie footer (als je die hebt) */
+  .nav-footer {
+    background: #1a252f;
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 3em;
+    border: 1px solid #2d3748;
+  }
 </style>
 
 ---
