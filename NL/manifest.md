@@ -15,9 +15,9 @@
   }
 </style>
 
-### 100 theses voor een vrij, open en onvervreemdbaar internet
 
-Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
+
+##Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 
 **De eerste 30 theses zijn klaar**
 
