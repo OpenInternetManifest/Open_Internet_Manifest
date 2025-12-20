@@ -1,12 +1,22 @@
-<div style="text-align: center; margin: 2em 0 3em;">
-  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 60%; max-width: 600px; height: auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
+<div style="position: relative; margin: 2em 0 4em; text-align: center;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 70%; max-width: 800px; height: auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
+
+  <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); background: rgba(15,20,25,0.8); padding: 1.5em 3em; border-radius: 16px; max-width: 90%; width: 80%;">
+    <h1 style="color: #66b3ff; margin: 0; font-size: 2.8em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
+    <h2 style="color: #a0d8ff; margin: 0.8em 0 0; font-size: 2em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
+    <p style="color: #e0e0e0; margin: 1em 0 0; font-size: 1.5em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+      100 theses voor een vrij, open en onvervreemdbaar internet
+    </p>
+  </div>
 </div>
 
-### 100 theses voor een vrij, open en onvervreemdbaar internet
+<p style="text-align: center; color: #a0d8ff; font-size: 1.2em; margin: -2em 0 3em;">
+  Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
+</p>
 
-Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
-
-**De eerste 30 theses zijn klaar**
+<h3 style="text-align: center; color: #4da6ff; margin-bottom: 2em;">
+  De eerste 30 theses zijn klaar
+</h3>
 
 ---
 
