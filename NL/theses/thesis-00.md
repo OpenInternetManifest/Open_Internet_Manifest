@@ -33,6 +33,18 @@ Welkom bij het begin.
 
 ---
 
-| [Start Pagina](/Open_Internet_Manifest/NL/index) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Begin met thesis 1 →](/Open_Internet_Manifest/NL/theses/thesis-01) |
-| :--- | ---: | ---: |
+<div style="text-align: center; margin: 3em 0 2em; padding: 1.5em; background: #f8f8f8; border-radius: 8px; font-size: 1em;">
 
+[← Terug naar startpagina](/Open_Internet_Manifest/NL/index) • 
+[Alle theses](/Open_Internet_Manifest/NL/manifest) • 
+[Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-01)
+
+</div>
+
+
+
+---
+
+<small style="display: block; text-align: center; margin-top: 2em; color: #888;">
+This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
+</small>
