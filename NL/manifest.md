@@ -8,7 +8,7 @@
     </p>
   </div>
 </div>
-<h4 style="text-align: center; color: #e0e0e0; font-size: 1.2em margin-bottom: 1em;">
+<h4 style="text-align: center; color: #e0e0e0; font-size: 2.2em margin-bottom: 1em;">
 De eerste 30 theses zijn klaar
 </h4>
 <p style="text-align: center; color: #e0e0e0; font-size: 1.2em; margin: 2em 0 3em;">
