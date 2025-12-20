@@ -212,108 +212,52 @@ function showFeedback(button, message) {
 </script>
 
 <style>
-  body {
-    background: #0f1419;
+  /* Verberg de lelijke repo-naam titel bovenaan */
+  header h1 {
+    display: none;
+  }
+
+  /* Maak onze eigen header nog mooier */
+  .hero-header {
+    position: relative;
+    padding: 4em 2em;
+    background: #0f1419 url('/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    background: rgba(15,20,25,0.75);
+    padding: 3em;
+    border-radius: 16px;
+    max-width: 90%;
+  }
+
+  .hero-text h1 {
+    color: #66b3ff;
+    margin: 0;
+    font-size: 3.2em;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+  }
+
+  .hero-text h2 {
+    color: #a0d8ff;
+    margin: 0.8em 0 0;
+    font-size: 2.2em;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.8);
+  }
+
+  .hero-text p {
     color: #e0e0e0;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    line-height: 1.7;
-  }
-
-  h1 {
-    color: #1a8cff;
-    border-bottom: 3px solid #1a8cff;
-    padding-bottom: 10px;
-  }
-
-  h2, h3, h4 {
-    color: #4da6ff;
-  }
-
-  a {
-    color: #66b3ff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-.copy-btn {
-  background: #2d3748;
-  color: #a0aec0;
-  border: 1px solid #4a5568;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.8em;
-  margin-left: 12px;
-  padding: 4px 10px;
-  transition: all 0.2s;
-  opacity: 0.8;
-}
-.copy-btn:hover {
-  background: #1a5fb4;
-  color: white;
-  border-color: #1a8cff;
-  opacity: 1;
-}
-
-  .copy-btn:hover {
-    background: #4da6ff;
-  }
-
-  .feedback {
-    margin-left: 10px;
-    font-weight: bold;
-  }
-
-  /* Dropdown inhoud mooi maken */
-  details > div {
-    margin-top: 1em;
-    padding: 1.5em;
-    background: #1a252f;
-    border-radius: 8px;
-    border-left: 4px solid #1a8cff;
-  }
-
-  details[open] summary {
-    margin-bottom: 1em;
-  }
-
-  summary {
-    cursor: pointer;
-    font-weight: bold;
-    color: #66b3ff;
-  }
-
-  code {
-    background: #2d3748;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 0.9em;
-  }
-
-  ul {
-    padding-left: 1.5em;
-  }
-
-  /* Footer stijl */
-  .footer-block {
-    background: #1a252f;
-    padding: 2em;
-    border-radius: 12px;
-    text-align: center;
-    margin: 4em 0 3em;
-    border: 1px solid #2d3748;
-  }
-
-  /* Navigatie footer (als je die hebt) */
-  .nav-footer {
-    background: #1a252f;
-    padding: 1.5em;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 3em;
-    border: 1px solid #2d3748;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.8);
   }
 </style>
 
