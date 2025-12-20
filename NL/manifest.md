@@ -98,8 +98,8 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 
 <!-- Verifieerbare Integriteit-sectie (inklapbaar met dropdowns) -->
 
-<details>
-<summary><strong>🔍 Verifieerbare Integriteit – klik om uit te klappen (voor wie zelf wil controleren)</strong></summary>
+<details><summary>
+  🔍 Verifieerbare Integriteit – klik om uit te klappen (voor wie zelf wil controleren)</summary>
 
 Dit manifest is gebouwd op wiskunde, niet op vertrouwen. Hier kun je **zelf controleren** dat de theses exact zijn zoals bedoeld – zonder GitHub of iemand anders te vertrouwen.
 
@@ -112,7 +112,7 @@ De korte theses hierboven (bijv. "**Thesis 1** — Het internet is niet dood; he
 3. Vergelijk met de hash hieronder.
 
 **Hashes korte theses (NL)**  
-Gebaseerd op commit: [vul laatste commit-hash in]
+Gebaseerd op commit: `vul hier de laatste commit-hash in`
 
 - Thesis 1: sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa
 - Thesis 2: sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4
