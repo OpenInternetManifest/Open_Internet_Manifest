@@ -42,6 +42,7 @@ function showFeedback(message) {
   feedback.textContent = message;
   feedback.style.marginLeft = '10px';
   feedback.style.fontSize = '0.9em';
+  feedback.style.fontWeight = 'bold';
   if (message.includes('✅')) feedback.style.color = 'green';
   if (message.includes('❌')) feedback.style.color = 'red';
   event.target.parentNode.appendChild(feedback);
@@ -58,6 +59,7 @@ function showFeedback(message) {
   font-size: 0.8em;
   margin-left: 10px;
   padding: 4px 8px;
+  transition: background 0.2s;
 }
 .copy-btn:hover {
   background: #e0e0e0;
