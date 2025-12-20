@@ -229,5 +229,45 @@ Gebaseerd op commit: `7e26694e0f00b9cbdf3e21e79ad468e2f24ffa19` (of de nieuwste)
 ### Waarom dit belangrijk is
 Als iemand (GitHub, een hacker, een bedrijf) ooit één letter verandert, klopt de hash niet meer. Jij ziet dat meteen. Zo blijft het manifest van ons allemaal, niet van één baas.
 
+<style>
+body {
+  background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  color: #1a5fb4;
+  border-bottom: 3px solid #1a5fb4;
+  padding-bottom: 10px;
+}
+
+h2, h3 {
+  color: #1a5fb4;
+}
+
+.copy-btn {
+  background: #e3f2fd;
+  color: #1565c0;
+  border: 1px solid #bbdefb;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85em;
+  margin-left: 15px;
+  padding: 6px 12px;
+  transition: all 0.2s;
+}
+.copy-btn:hover {
+  background: #bbdefb;
+  border-color: #1a5fb4;
+}
+
+.feedback {
+  margin-left: 10px;
+  font-weight: bold;
+}
+</style>
+
 Het script om deze hashes zelf te maken staat openbaar in de repo: `tools/NL/generate_hashes.py` – iedereen mag het draaien.bout en steun OIM](/Open_Internet_Manifest/NL/over) |
 ---: | ---: |
