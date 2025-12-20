@@ -1,7 +1,5 @@
-<div style="position: relative; margin: 2em 0 4em; text-align: center; overflow: hidden;">
-  <div style="position: relative; padding-bottom: 70%; height: 0;">
-    <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; object-position: center;">
-  </div>
+<div style="position: relative; margin: 2em 0 3em; text-align: center; overflow: hidden;">
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 0 auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
 
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.85); padding: 2em 3em; border-radius: 16px; max-width: 90%; width: 85%;">
     <h1 style="color: #66b3ff; margin: 0; font-size: 3.2em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
@@ -12,14 +10,13 @@
   </div>
 </div>
 
-<p style="text-align: center; color: #a0d8ff; font-size: 1.2em; margin: 0 0 3em;">
+<p style="text-align: center; color: #a0d8ff; font-size: 1.2em; margin: -1em 0 3em;">
   Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 </p>
 
 <h3 style="text-align: center; color: #4da6ff; margin-bottom: 2em;">
   De eerste 30 theses zijn klaar
 </h3>
-
 
 ---
 
