@@ -1,6 +1,13 @@
+# Test voor kopieer-button
+
+**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
+<button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+
+**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
+<button onclick="copyThesis('**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+
 <script>
 function copyThesis(text) {
-  // Probeer moderne Clipboard API
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(text).then(() => {
       showFeedback(' ✅ Gekopieerd!');
@@ -8,7 +15,6 @@ function copyThesis(text) {
       fallbackCopy(text);
     });
   } else {
-    // Fallback voor oudere browsers of restrictieve context
     fallbackCopy(text);
   }
 }
@@ -40,3 +46,18 @@ function showFeedback(message) {
   setTimeout(() => feedback.remove(), 3000);
 }
 </script>
+
+<style>
+.copy-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-left: 10px;
+  padding: 4px 8px;
+}
+.copy-btn:hover {
+  background: #f0f0f0;
+}
+</style>
