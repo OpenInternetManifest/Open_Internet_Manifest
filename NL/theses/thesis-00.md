@@ -35,7 +35,7 @@ Welkom bij het begin.
 
 <div style="text-align: center; margin: 3em 0 2em; padding: 1.5em; background: #f8f8f8; border-radius: 8px; font-size: 1em;">
 
-[← Terug naar startpagina](/Open_Internet_Manifest/NL/index.md) • 
+[← Terug naar startpagina](/NL/index.md) • 
 [Alle theses](/Open_Internet_Manifest/NL/manifest) • 
 [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-01)
 
