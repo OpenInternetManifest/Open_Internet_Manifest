@@ -115,7 +115,7 @@ De korte theses hierboven (bijv. "<strong>Thesis 1</strong> — Het internet is 
 </ol>
 
 <p><strong>Hashes korte theses (NL)</strong><br>
-Gebaseerd op commit: <code>1234</code></p>
+Gebaseerd op commit: <code>5d6b671a73f27b8b5c4762db3bce68c92d1cfeee</code></p>
 
 <ul>
 <li>Thesis 1: <code>sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa</code></li>
