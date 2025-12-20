@@ -2,23 +2,9 @@
   <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 60%; max-width: 600px; height: auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
 </div>
 
-
-
-<h2 style="text-align: center; color: #a0d8ff; font-size: 2.2em; margin: 0.5em 0 2em;">
-  Nederlandse versie
-</h2>
-
-<p style="text-align: center; color: #e0e0e0; font-size: 1.5em; margin-bottom: 3em;">
-  100 theses voor een vrij, open en onvervreemdbaar internet
-</p>
-
 ### 100 theses voor een vrij, open en onvervreemdbaar internet
 
 Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
-
-**De eerste 30 theses zijn klaar**
-
-### Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.
 
 **De eerste 30 theses zijn klaar**
 
