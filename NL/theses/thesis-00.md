@@ -41,8 +41,7 @@ Welkom bij het begin.
 
 </div>
 
-<div style="text-align: center; margin-bottom: 2em; font-size: 0.9em; color: #666;">
-[Terug naar startpagina](/Open_Internet_Manifest/NL/index.md) | 
+<div style="text-align: center; margin-bottom: 2em; font-size: 0.9em; color: #666;">[Terug naar startpagina](/Open_Internet_Manifest/NL/index.md) | 
 [Praat mee in de community](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org)
 </div>
 
