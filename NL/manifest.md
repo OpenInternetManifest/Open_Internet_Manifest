@@ -2,9 +2,7 @@
   <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 60%; max-width: 600px; height: auto; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
 </div>
 
-<h1 style="text-align: center; color: #66b3ff; font-size: 3em; margin: 1em 0;">
-  Open Internet Manifest
-</h1>
+
 
 <h2 style="text-align: center; color: #a0d8ff; font-size: 2.2em; margin: 0.5em 0 2em;">
   Nederlandse versie
