@@ -1,25 +1,25 @@
-# Test voor kopieer-button
+# Test voor kopieer-button1
 
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
-<button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+<button onclick="copyThesis(this, '**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
 
 **Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
-<button onclick="copyThesis('**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+<button onclick="copyThesis(this, '**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
 
 <script>
-function copyThesis(text) {
+function copyThesis(button, text) {
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(text).then(() => {
-      showFeedback('✅ Gekopieerd!');
+      showFeedback(button, '✅ Gekopieerd!');
     }).catch(() => {
-      fallbackCopy(text);
+      fallbackCopy(text, button);
     });
   } else {
-    fallbackCopy(text);
+    fallbackCopy(text, button);
   }
 }
 
-function fallbackCopy(text) {
+function fallbackCopy(text, button) {
   const textarea = document.createElement('textarea');
   textarea.value = text;
   textarea.style.position = 'fixed';
@@ -30,14 +30,14 @@ function fallbackCopy(text) {
   textarea.select();
   try {
     document.execCommand('copy');
-    showFeedback('✅ Gekopieerd!');
+    showFeedback(button, '✅ Gekopieerd!');
   } catch (err) {
-    showFeedback('❌ Mislukt');
+    showFeedback(button, '❌ Mislukt');
   }
   document.body.removeChild(textarea);
 }
 
-function showFeedback(message) {
+function showFeedback(button, message) {
   const feedback = document.createElement('span');
   feedback.textContent = message;
   feedback.style.marginLeft = '10px';
@@ -45,7 +45,7 @@ function showFeedback(message) {
   feedback.style.fontWeight = 'bold';
   if (message.includes('✅')) feedback.style.color = 'green';
   if (message.includes('❌')) feedback.style.color = 'red';
-  event.target.parentNode.appendChild(feedback);
+  button.parentNode.appendChild(feedback);
   setTimeout(() => feedback.remove(), 3000);
 }
 </script>
