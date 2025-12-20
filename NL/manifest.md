@@ -1,3 +1,15 @@
+<div style="text-align: center; margin: 2em 0 3em;">
+
+![Open Internet Manifest – Een gekaapt internet dat weer open moet](https://openinternetmanifest.github.io/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg)
+
+</div>
+
+# Open Internet Manifest – Nederlandse versie
+
+### 100 theses voor een vrij, open en onvervreemdbaar internet
+
+...
+
 # Open Internet Manifest – Nederlandse versie
 
 ### 100 theses voor een vrij, open en onvervreemdbaar internet
