@@ -16,14 +16,6 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 
 ---
 
-# Open Internet Manifest – Nederlandse versie
-
-### 100 theses voor een vrij, open en onvervreemdbaar internet
-
-Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
-
-**De eerste 30 theses zijn klaar**
-
 [**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters](/Open_Internet_Manifest/NL/theses/thesis-01)  
 <button onclick="copyThesis(this, '**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Klik om hash te controleren</button>
 
