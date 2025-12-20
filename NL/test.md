@@ -1,10 +1,10 @@
-# Test voor kopieer-button
+# Test kopieer-buttons
 
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
-<button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+<button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer tekst</button>
 
 **Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
-<button onclick="copyThesis('**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+<button onclick="copyThesis('**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer tekst</button>
 
 <script>
 function copyThesis(text) {
@@ -17,7 +17,7 @@ function copyThesis(text) {
     event.target.parentNode.appendChild(feedback);
     setTimeout(() => feedback.remove(), 2000);
   }).catch(() => {
-    alert('Kopiëren mislukt – probeer handmatig.');
+    alert('Kopiëren mislukt – probeer handmatig te selecteren.');
   });
 }
 </script>
@@ -30,7 +30,7 @@ function copyThesis(text) {
   cursor: pointer;
   font-size: 0.8em;
   margin-left: 10px;
-  padding: 2px 6px;
+  padding: 4px 8px;
 }
 .copy-btn:hover {
   background: #f0f0f0;
