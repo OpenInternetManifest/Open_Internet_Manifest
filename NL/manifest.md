@@ -1,17 +1,6 @@
 <div style="text-align: center; margin: 2em 0 3em;">
-
-![Open Internet Manifest – Een gekaapt internet dat weer open moet](/Open_Internet_Manifest/assets/logointernet-lock-world.jpg)
-
+  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest – Een gekaapt internet dat weer open moet" style="max-width: 80%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
 </div>
-
-<style>
-  img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-  }
-</style>
 
 # Open Internet Manifest – Nederlandse versie
 
