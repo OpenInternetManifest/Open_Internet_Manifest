@@ -35,15 +35,10 @@ Welkom bij het begin.
 
 <div style="text-align: center; margin: 3em 0 2em; padding: 1.5em; background: #f8f8f8; border-radius: 8px; font-size: 1em;">
 
-[← Terug naar startpagina](/Open_Internet_Manifest/NL/index.md) • 
-[Alle theses](/Open_Internet_Manifest/NL/manifest.md) • 
+[← Terug naar startpagina](/Open_Internet_Manifest/NL/index) • 
+[Alle theses](/Open_Internet_Manifest/NL/manifest) • 
 [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-01)
 
-</div>
-
-<div style="text-align: center; margin-bottom: 2em; font-size: 0.9em; color: #666;">
-[Terug naar startpagina](/Open_Internet_Manifest/NL/index.md) | 
-[Praat mee in de community](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org)
 </div>
 
 ---
