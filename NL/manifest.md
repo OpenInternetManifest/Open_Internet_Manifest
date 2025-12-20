@@ -1,7 +1,7 @@
 **De eerste 30 theses zijn klaar**
 
-[**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters](/Open_Internet_Manifest/NL/theses/thesis-01)  
-<button onclick="copyThesis(this, '**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
+**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
+<button onclick="copyThesis(this, '**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Klik om hash te controleren</button>
 
 [**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was](/Open_Internet_Manifest/NL/theses/thesis-02)  
 <button onclick="copyThesis(this, '**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋</button>
