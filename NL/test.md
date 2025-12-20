@@ -1,4 +1,12 @@
-# Test voor kopieer-button1
+# Test voor kopieer-button
+
+**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
+<button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+
+**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
+<button onclick="copyThesis('**Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
+
+# Test voor kopieer-button
 
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
 <button onclick="copyThesis('**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters')" class="copy-btn" title="Kopieer voor verificatie">📋 Kopieer</button>
