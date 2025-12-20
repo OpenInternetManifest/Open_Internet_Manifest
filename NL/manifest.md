@@ -1,7 +1,6 @@
-
+<div style="position: relative; padding: 6em 2em; background: #0f1419 url('/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg') center center no-repeat; background-size: cover; display: flex; align-items: center; justify-content: center; text-align: center; min-height: 50vh;">
   <div style="position: relative; z-index: 1; background: rgba(15,20,25,0.75); padding: 3em; border-radius: 16px; max-width: 90%;">
-    <h1 style="color: #66b3ff; margin: 0; font-size: 3.5em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Open Internet Manifest</h1>
-    <h2 style="color: #a0d8ff; margin: 1em 0 0; font-size: 2.4em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
+    <h1 style="color: #a0d8ff; margin: 1em 0 0; font-size: 2.4em; text-shadow: 0 3px 8px rgba(0,0,0,0.8);">Nederlandse versie</h2>
     <p style="color: #e0e0e0; margin-top: 1.5em; font-size: 1.6em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
       100 theses voor een vrij, open en onvervreemdbaar internet
     </p>
