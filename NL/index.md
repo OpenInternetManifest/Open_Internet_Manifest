@@ -31,5 +31,5 @@ Jij bent mede-auteur.
 
 ---
 
-| [← Alle theses →](/Open_Internet_Manifest/NL/theses) | [About en steun aan OIM](/Open_Internet_Manifest/NL/over) |
+| [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [About en steun aan OIM](/Open_Internet_Manifest/NL/over) |
 |---: |---:
