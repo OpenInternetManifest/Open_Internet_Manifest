@@ -1,7 +1,7 @@
 <div style="position: relative; margin: 2em 0; text-align: center; overflow: hidden; height: 60vh; max-height: 400px;">
   <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
 
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.85); padding: 2em 3em; border-radius: 16px; max-width: 100%; width: auto;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.85); padding: 2em 3em; border-radius: 16px; max-width: 90%; width: auto;">
     <h1 style="color: #e0e0e0; margin: 0; font-size: 3em; text-shadow: 0 4px 12px rgba(0,0,0,0.8);">Nederlandse versie</h1>  
        <p style="color: #e0e0e0; margin: 1.5em 0 0; font-size: 1.6em; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
       100 theses voor een vrij, open en onvervreemdbaar internet
