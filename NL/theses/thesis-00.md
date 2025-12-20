@@ -26,6 +26,10 @@ Welkom bij het begin.
 13 december 2025
 
 ---
+
+<button onclick="copyThesis(this, '')" class="copy-btn" title="Kopieer voor verificatie">📋 Klik om hash te controleren</button>
+
+---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
 <strong>🗣️ Praat mee</strong><br>
 <a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join de discussie in de officiële OIM Matrix-room</a>
