@@ -230,17 +230,24 @@ function showFeedback(button, message) {
     text-decoration: underline;
   }
 
-  .copy-btn {
-    background: #1a5fb4;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.85em;
-    margin-left: 15px;
-    padding: 6px 12px;
-    transition: all 0.2s;
-  }
+.copy-btn {
+  background: #2d3748;
+  color: #a0aec0;
+  border: 1px solid #4a5568;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-left: 12px;
+  padding: 4px 10px;
+  transition: all 0.2s;
+  opacity: 0.8;
+}
+.copy-btn:hover {
+  background: #1a5fb4;
+  color: white;
+  border-color: #1a8cff;
+  opacity: 1;
+}
 
   .copy-btn:hover {
     background: #4da6ff;
