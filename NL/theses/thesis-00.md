@@ -48,7 +48,7 @@ Welkom bij het begin.
 
 ---
 
-</small>
+
 <small style="display: block; text-align: center; margin-top: 2em; color: #888;">
 This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
 </small>
