@@ -267,11 +267,11 @@ function showFeedback(button, message) {
     font-weight: bold;
   }
 
-/* Verberg de lelijke repo-naam bovenaan volledig */
-header[role="banner"] {
-  display: none !important;
+header[role="banner"] h1, 
+header[role="banner"] a[href^="https://github.com"] {
+  color: #0f1419 !important;
+  visibility: hidden !important;
 }
-
   /* Dropdown stijl */
   details > div {
     margin-top: 1em;
