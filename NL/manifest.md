@@ -99,7 +99,7 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 <details>
 <summary>🔍 Verifieerbare Integriteit – klik om uit te klappen (voor wie zelf wil controleren)</summary>
 
-<div style="margin-top: 1em; padding: 1.5em; background: #f8f8f8; border-radius: 8px; font-size: 0.95em; line-height: 1.6; border-left: 4px solid #1a5fb4;">
+<div style="margin-top: 1em; padding: 1.5em; background: #1a252f; border-radius: 8px; border-left: 4px solid #1a8cff; color: #e0e0e0; line-height: 1.6;">
 
 <p><strong>Dit manifest is gebouwd op wiskunde, niet op vertrouwen.</strong><br>
 Hier kun je <strong>zelf controleren</strong> dat de theses exact zijn zoals bedoeld – zonder GitHub of iemand anders te vertrouwen.</p>
@@ -110,14 +110,14 @@ De korte theses hierboven (bijv. "<strong>Thesis 1</strong> — Het internet is 
 <p><strong>Hoe verifiëren?</strong></p>
 <ol>
 <li>Klik op de 📋 button naast een thesis → tekst wordt gekopieerd.</li>
-<li>Plak in een SHA-256 tool (bijv. <a href="https://sha256.online" target="_blank">sha256.online</a>).</li>
+<li>Plak in een SHA-256 tool (bijv. <a href="https://sha256.online" target="_blank" style="color: #66b3ff;">sha256.online</a>).</li>
 <li>Vergelijk met de hash hieronder.</li>
 </ol>
 
 <p><strong>Hashes korte theses (NL)</strong><br>
 Gebaseerd op commit: <code>vul hier de laatste commit-hash in</code></p>
 
-<ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+<ul style="columns: 2; -webkit-columns: 2; -moz-columns: 2; gap: 2em; padding-left: 1.5em;">
 <li>Thesis 1: <code>sha256: 014425f9d05851a90ba2a0f53ce0f8a273a63dd0c9713e8a8bb8a3e223a515aa</code></li>
 <li>Thesis 2: <code>sha256: ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4</code></li>
 <li>Thesis 3: <code>sha256: 2b8ef75f77107c57c3f916c358a0a6d4126dc47890ca74c1e89c5ab05b84a37f</code></li>
