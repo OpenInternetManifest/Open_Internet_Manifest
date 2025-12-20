@@ -20,10 +20,6 @@
 
 **De eerste 30 theses zijn klaar**
 
-**Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.**
-
-**De eerste 30 theses zijn klaar**
-
 ---
 
 [**Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters](/Open_Internet_Manifest/NL/theses/thesis-01)  
