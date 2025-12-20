@@ -1,10 +1,18 @@
-<div style="text-align: center; margin: 2em 0 3em;">
-  <img src="/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg" alt="Open Internet Manifest – Een gekaapt internet dat weer open moet" style="max-width: 80%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
+<div style="position: relative; padding: 4em 2em; background: #0f1419 url('/Open_Internet_Manifest/assets/logo-internet-lock-world.jpg') center center no-repeat; background-size: 60%; min-height: 40vh; display: flex; align-items: center; justify-content: center; text-align: center; opacity: 0.9;">
+  <div style="position: relative; z-index: 1; background: rgba(15,20,25,0.8); padding: 2em; border-radius: 12px; max-width: 90%;">
+    <h1 style="color: #66b3ff; margin: 0; font-size: 2.5em;">Open Internet Manifest</h1>
+    <h2 style="color: #a0d8ff; margin: 0.5em 0 0; font-size: 1.6em;">Nederlandse versie</h2>
+    <p style="color: #e0e0e0; margin-top: 1em; font-size: 1.1em;">
+      100 theses voor een vrij, open en onvervreemdbaar internet
+    </p>
+  </div>
 </div>
 
-# Open Internet Manifest – Nederlandse versie
-
 ### 100 theses voor een vrij, open en onvervreemdbaar internet
+
+Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
+
+**De eerste 30 theses zijn klaar**
 
 ...
 
