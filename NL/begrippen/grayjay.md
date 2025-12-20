@@ -4,9 +4,9 @@ Open-source video-app (van Louis Rossmann) die content van YouTube, Twitch, Nebu
 
 Volledige controle over je feed, geen platform-lock-in.
 
-Zie ook → [Thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17.md) · [grayjay.app](https://grayjay.app/)
+Zie ook → [Thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) · [grayjay.app](https://grayjay.app/)
 
 ---
 
-| ← [Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17.md) | |
+| ← [Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) | |
 | :--- | ---:|

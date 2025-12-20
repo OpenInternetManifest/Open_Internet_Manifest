@@ -17,5 +17,5 @@ Will you walk with us?
 
 ---
 
-| [← Thesis 29](/EN/theses/thesis-29.md) | [← All theses](/EN/manifest.md) | [The manifesto is alive →](/EN/living-manifesto.md) |
+| [← Thesis 29](/EN/theses/thesis-29) | [← All theses](/EN/manifest) | [The manifesto is alive →](/EN/living-manifesto) |
 | :--- | ---: | ---:|

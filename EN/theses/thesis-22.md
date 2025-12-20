@@ -1,6 +1,6 @@
 # Thesis 22 – Replace WhatsApp with Element (Matrix)
 
-Download [**Element**](/EN/concepts/element.md) on your phone and computer.
+Download [**Element**](/EN/concepts/element) on your phone and computer.
 
 Create an account on a server of your choice (or run your own).
 
@@ -10,10 +10,10 @@ Your messages are end-to-end encrypted, you can always move, and your data remai
 
 WhatsApp is not inevitable — it is just still normal.
 
-See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md) – build your own infrastructure.
+See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node) – build your own infrastructure.
 
 **Want to migrate from WhatsApp step-by-step?**  
-The full step-by-step guide is coming → [Element migration – coming soon](/EN/guides/element-migration-coming-soon.md)
+The full step-by-step guide is coming → [Element migration – coming soon](/EN/guides/element-migration-coming-soon)
 
 ---
 
@@ -25,5 +25,5 @@ The full step-by-step guide is coming → [Element migration – coming soon](/E
 
 ---
 
-| [← Thesis 21](/EN/theses/thesis-21.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-23.md) |
+| [← Thesis 21](/EN/theses/thesis-21) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-23) |
 | :--- | ---: | ---:|

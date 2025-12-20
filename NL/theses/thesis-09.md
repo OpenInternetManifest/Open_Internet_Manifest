@@ -6,17 +6,17 @@ Vandaag ben je huurder van hun marktplaatsen, advertentienetwerken en betaalsyst
 
 Die afhankelijkheid houdt miljoenen makers, ondernemers en kleine gemeenschappen arm en kwetsbaar.
 
-Door [**Bitcoin + Lightning**](/Open_Internet_Manifest/NL/begrippen/bitcoin-lightning.md), [**Monero**](/Open_Internet_Manifest/NL/begrippen/monero.md), [**Nostr-zaps**](/Open_Internet_Manifest/NL/begrippen/nostr-zaps.md) en [**Cashu**](/Open_Internet_Manifest/NL/begrippen/cashu.md) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
+Door [**Bitcoin + Lightning**](/Open_Internet_Manifest/NL/begrippen/bitcoin-lightning), [**Monero**](/Open_Internet_Manifest/NL/begrippen/monero), [**Nostr-zaps**](/Open_Internet_Manifest/NL/begrippen/nostr-zaps) en [**Cashu**](/Open_Internet_Manifest/NL/begrippen/cashu) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
 
 Eén transactie buiten hun systeem is genoeg om te voelen hoe financiële soevereiniteit weer werkt.
 
 Een open internet maakt echte economische vrijheid weer mogelijk, zonder dat vijf bedrijven de tolwegen bezitten.
 
-Door [**open protocollen**](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-protocollen.md), [**peer-to-peer betalingen**](/Open_Internet_Manifest/NL/begrippen/peer-to-peer-betalingen.md) en [**onafhankelijke platforms**](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-platforms.md) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) bepaalt of je mag leven van je eigen werk. 
+Door [**open protocollen**](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-protocollen), [**peer-to-peer betalingen**](/Open_Internet_Manifest/NL/begrippen/peer-to-peer-betalingen) en [**onafhankelijke platforms**](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-platforms) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/Open_Internet_Manifest/NL/begrippen/poortwachters) bepaalt of je mag leven van je eigen werk. 
 
-**Zie ook de praktische [Raspberry Pi node guide](/Open_Internet_Manifest/NL/guides/raspberry-pi-node.md) – bouw je eigen infrastructuur.**
+**Zie ook de praktische [Raspberry Pi node guide](/Open_Internet_Manifest/NL/guides/raspberry-pi-node) – bouw je eigen infrastructuur.**
 **Wil je zelf peer-to-peer betalen?**  
-De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Open_Internet_Manifest/NL/guides/peer-to-peer-betalingen-coming-soon.md)
+De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Open_Internet_Manifest/NL/guides/peer-to-peer-betalingen-coming-soon)
 
 
 <div style="text-align: center; ...">
@@ -31,5 +31,5 @@ De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Ope
 
 ---
 
-| [← Thesis 8](/Open_Internet_Manifest/NL/theses/thesis-08.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-10.md) |
+| [← Thesis 8](/Open_Internet_Manifest/NL/theses/thesis-08) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-10) |
 | :--- | ---: | ---: |

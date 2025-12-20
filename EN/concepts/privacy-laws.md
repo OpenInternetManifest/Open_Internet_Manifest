@@ -6,9 +6,9 @@ Effect: companies hire more lawyers, users get more pop-ups, but the fundamental
 
 A bandage, not a cure.
 
-See also → [Surveillance](/EN/concepts/surveillance.md) · [Regulation](/EN/concepts/regulation.md) · [Thesis 5](/EN/theses/thesis-05.md)
+See also → [Surveillance](/EN/concepts/surveillance) · [Regulation](/EN/concepts/regulation) · [Thesis 5](/EN/theses/thesis-05)
 
 ---
 
-| ← [Back to thesis 5](/EN/theses/thesis-05.md) | |
+| ← [Back to thesis 5](/EN/theses/thesis-05) | |
 | :--- | ---:|

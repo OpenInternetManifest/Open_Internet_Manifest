@@ -1,94 +1,94 @@
 # Open Internet Manifest – Nederlandse versie
 
 **Thesis 1** — Het internet is niet dood; het is gekaapt door vijf poortwachters  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-01.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-01)
 
 **Thesis 2** — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-02.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-02)
 
 **Thesis 3** — In de echte wereld zou niemand accepteren wat wij online al jaren slikken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-03.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-03)
 
 **Thesis 4** — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-04.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-04)
 
 **Thesis 5** — Alleen een echt open internet geeft echte digitale vrijheid  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-05.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-05)
 
 **Thesis 6** — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-06.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-06)
 
 **Thesis 7** — Een open internet geeft privacy zijn oude kracht terug  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-07.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-07)
 
 **Thesis 8** — Een open internet bevrijdt je stem en je creativiteit van willekeur  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-08.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-08)
 
 **Thesis 9** — Een open internet maakt echte economische vrijheid weer mogelijk  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-09.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-09)
 
 **Thesis 10** — Het digitale hok breidt zich uit naar de echte wereld  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-10.md) | [verdieping](/verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-10) | [verdieping](/verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld)
 
 **Thesis 11** — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan gebruiken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-11.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-11)
 
 **Thesis 12** — Terug naar protocollen die niemand bezit  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-12.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-12)
 
 **Thesis 13** — Jouw data hoort bij jou, niet bij een platform  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-13.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-13)
 
 **Thesis 14** — Draagbare identiteit en reputatie  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-14.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-14)
 
 **Thesis 15** — Sociale netwerken zonder centrale eigenaar  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-15.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-15)
 
 **Thesis 16** — Berichtenapps zonder Big Tech  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-16.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-16)
 
 **Thesis 17** — Video en content zonder YouTube of TikTok  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-17.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-17)
 
 **Thesis 18** — Zoeken zonder Google  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-18.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-18)
 
 **Thesis 19** — Geld sturen zonder bank of Big Tech  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-19.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-19)
 
 **Thesis 20** — Van volgers verzamelen naar echte gemeenschappen bouwen  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-20.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-20)
 
 **Thesis 21** — Praktische eerste stap: maak vandaag nog een Mastodon-account  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-21.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-21)
 
 **Thesis 22** — Vervang WhatsApp door Element (Matrix)  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-22.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-22)
 
 **Thesis 23** — Zet je foto’s en bestanden in eigen beheer  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-23.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-23)
 
 **Thesis 24** — Gebruik een Nostr-client en claim je npub  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-24.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-24)
 
 **Thesis 25** — Word lid van (of start) een lokale community-node  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-25.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-25)
 
 **Thesis 26** — Ondersteun open source projecten financieel  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-26.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-26)
 
 **Thesis 27** — Leer één iemand deze week een open alternatief gebruiken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-27.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-27)
 
 **Thesis 28** — Bedrijven en overheden: eis interoperabiliteit en open standaarden  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-28.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-28)
 
 **Thesis 29** — Het open internet is geen utopie, het is een keuze die we elke dag maken  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-29.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-29)
 
 **Thesis 30** — Dit manifest is pas het begin  
-→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-30.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/theses/thesis-30)
 
 ---
 
@@ -165,5 +165,5 @@ Gebaseerd op commit: `7e26694e0f00b9cbdf3e21e79ad468e2f24ffa19` (of de nieuwste)
 ### Waarom dit belangrijk is
 Als iemand (GitHub, een hacker, een bedrijf) ooit één letter verandert, klopt de hash niet meer. Jij ziet dat meteen. Zo blijft het manifest van ons allemaal, niet van één baas.
 
-Het script om deze hashes zelf te maken staat openbaar in de repo: `tools/NL/generate_hashes.py` – iedereen mag het draaien.bout en steun OIM](/Open_Internet_Manifest/NL/over.md) |
+Het script om deze hashes zelf te maken staat openbaar in de repo: `tools/NL/generate_hashes.py` – iedereen mag het draaien.bout en steun OIM](/Open_Internet_Manifest/NL/over) |
 ---: | ---: |

@@ -2,7 +2,7 @@
 
 This manifesto is not a decree from above; it is a fire that burns in open conversations.
 
-It does not arise in a boardroom, not in a government building, and not from one voice pretending to know everything — it grows from thousands of dialogues, iterations, late-night insights, and hard corrections among people who have had enough of the [**enclosures**](/EN/concepts/enclosures.md).
+It does not arise in a boardroom, not in a government building, and not from one voice pretending to know everything — it grows from thousands of dialogues, iterations, late-night insights, and hard corrections among people who have had enough of the [**enclosures**](/EN/concepts/enclosures).
 
 Sometimes they talk to each other, sometimes to machines that are finally learning to listen instead of just selling.
 
@@ -20,5 +20,5 @@ By holding it in your hands now, you become a co-author — because a truly open
 
 ---
 
-| [← Thesis 10](/EN/theses/thesis-10.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-12.md) |
+| [← Thesis 10](/EN/theses/thesis-10) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-12) |
 | :--- | ---: | ---:|

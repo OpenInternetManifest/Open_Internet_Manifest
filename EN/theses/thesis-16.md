@@ -1,13 +1,13 @@
 # Thesis 16 – Messaging apps without Big Tech
 
-[**Matrix**](/EN/concepts/matrix.md) (Element), [**XMPP**](/EN/concepts/xmpp.md) (Dino, Conversations), [**Session**](/EN/concepts/session.md), [**Briar**](/EN/concepts/briar.md), [**SimpleX**](/EN/concepts/simplex.md): end-to-end encrypted, federated or fully peer-to-peer.
+[**Matrix**](/EN/concepts/matrix) (Element), [**XMPP**](/EN/concepts/xmpp) (Dino, Conversations), [**Session**](/EN/concepts/session), [**Briar**](/EN/concepts/briar), [**SimpleX**](/EN/concepts/simplex): end-to-end encrypted, federated or fully peer-to-peer.
 
 No phone number required, no central company that can spy on you or deactivate you.
 
 WhatsApp, Telegram, and Signal are not the only options — they are just the most well-known.
 
 **Want to switch to a privacy-friendly messenger?**  
-The full step-by-step guide is coming → [Messaging apps without Big Tech – coming soon](/EN/guides/messaging-apps-without-big-tech-coming-soon.md)
+The full step-by-step guide is coming → [Messaging apps without Big Tech – coming soon](/EN/guides/messaging-apps-without-big-tech-coming-soon)
 
 ---
 
@@ -19,5 +19,5 @@ The full step-by-step guide is coming → [Messaging apps without Big Tech – c
 
 ---
 
-| [← Thesis 15](/EN/theses/thesis-15.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-17.md) |
+| [← Thesis 15](/EN/theses/thesis-15) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-17) |
 | :--- | ---: | ---:|

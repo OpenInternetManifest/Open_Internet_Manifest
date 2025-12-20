@@ -8,9 +8,9 @@ Goede balans tussen gebruiksgemak en onafhankelijkheid.
 
 **Let op**: niet zelf hostbaar – centraal beheerd, maar onafhankelijk van Big Tech.
 
-Zie ook → [DuckDuckGo](/Open_Internet_Manifest/NL/begrippen/duckduckgo.md) · [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18.md) · [search.brave.com](https://search.brave.com/)
+Zie ook → [DuckDuckGo](/Open_Internet_Manifest/NL/begrippen/duckduckgo) · [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) · [search.brave.com](https://search.brave.com/)
 
 ---
 
-| ← [Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18.md) | |
+| ← [Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) | |
 | :--- | ---:|

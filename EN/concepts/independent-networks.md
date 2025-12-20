@@ -6,9 +6,9 @@ Examples: LocalMesh in the Netherlands, Guifi.net in Spain, Yggdrasil worldwide.
 
 These networks make censorship, deplatforming, and lock-in virtually impossible.
 
-See also → [Mesh network](/EN/concepts/mesh-network.md) · [Independent protocols](/EN/concepts/independent-protocols.md) · [Thesis 8](/EN/theses/thesis-08.md)
+See also → [Mesh network](/EN/concepts/mesh-network) · [Independent protocols](/EN/concepts/independent-protocols) · [Thesis 8](/EN/theses/thesis-08)
 
 ---
 
-| ← [Back to thesis 8](/EN/theses/thesis-08.md) | |
+| ← [Back to thesis 8](/EN/theses/thesis-08) | |
 | :--- | ---:|

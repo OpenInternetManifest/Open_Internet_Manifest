@@ -1,8 +1,8 @@
 # Thesis 25 – Join (or start) a local community node
 
-Find a [**Mastodon**](/EN/concepts/mastodon.md), [**Matrix**](/EN/concepts/matrix.md), or [**Nostr**](/EN/concepts/nostr.md) group in your city or region.
+Find a [**Mastodon**](/EN/concepts/mastodon), [**Matrix**](/EN/concepts/matrix), or [**Nostr**](/EN/concepts/nostr) group in your city or region.
 
-Or buy a Raspberry Pi and run [**Umbrel**](/EN/concepts/umbrel.md), [**Start9**](/EN/concepts/start9.md), or [**YunoHost**](/EN/concepts/yunohost.md). **Check out the full step-by-step guide, including hardware links →** [build your own Raspberry Pi node](/EN/guides/raspberry-pi-node.md)
+Or buy a Raspberry Pi and run [**Umbrel**](/EN/concepts/umbrel), [**Start9**](/EN/concepts/start9), or [**YunoHost**](/EN/concepts/yunohost). **Check out the full step-by-step guide, including hardware links →** [build your own Raspberry Pi node](/EN/guides/raspberry-pi-node)
 
 One more node is one step closer to an internet that can no longer be turned off.
 
@@ -18,5 +18,5 @@ Start small. Start local. Start today.
 
 ---
 
-| [← Thesis 24](/EN/theses/thesis-24.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-26.md) |
+| [← Thesis 24](/EN/theses/thesis-24) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-26) |
 | :--- | ---: | ---:|

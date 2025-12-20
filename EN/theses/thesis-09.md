@@ -8,10 +8,10 @@ Today, you are a tenant of their marketplaces, advertising networks, and payment
 
 That dependence keeps millions of creators, entrepreneurs, and small communities poor and vulnerable.
 
-By building [**open protocols**](/EN/concepts/independent-protocols.md), [**peer-to-peer payments**](/EN/concepts/peer-to-peer-payments.md), and [**independent platforms**](/EN/concepts/independent-platforms.md), we create an internet again where you can earn, trade, and collaborate — without a handful of [**gatekeepers**](/EN/concepts/gatekeepers.md) deciding whether you are allowed to live from your own work.
+By building [**open protocols**](/EN/concepts/independent-protocols), [**peer-to-peer payments**](/EN/concepts/peer-to-peer-payments), and [**independent platforms**](/EN/concepts/independent-platforms), we create an internet again where you can earn, trade, and collaborate — without a handful of [**gatekeepers**](/EN/concepts/gatekeepers) deciding whether you are allowed to live from your own work.
 
 **Want to pay peer-to-peer yourself?**  
-The full step-by-step guide is coming → [Peer-to-peer payments – coming soon](/EN/guides/peer-to-peer-payments-coming-soon.md)
+The full step-by-step guide is coming → [Peer-to-peer payments – coming soon](/EN/guides/peer-to-peer-payments-coming-soon)
 
 ---
 
@@ -23,5 +23,5 @@ The full step-by-step guide is coming → [Peer-to-peer payments – coming soon
 
 ---
 
-| [← Thesis 8](/EN/theses/thesis-08.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-10.md) |
+| [← Thesis 8](/EN/theses/thesis-08) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-10) |
 | :--- | ---: | ---: |

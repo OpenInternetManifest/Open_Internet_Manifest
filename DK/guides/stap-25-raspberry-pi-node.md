@@ -76,4 +76,4 @@ Omkostninger per måned: ca. 20 kr. strøm
 Sikkerhed: du har den eneste nøgle  
 Ingen kan nogensinde deaktivere dig
 
-← [Tilbage til Thesis 25](/DK/theses/thesis-25.md)
+← [Tilbage til Thesis 25](/DK/theses/thesis-25)

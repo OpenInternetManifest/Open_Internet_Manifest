@@ -8,9 +8,9 @@ Today, exactly the same is happening to the internet: the open, common network i
 
 The final phase is underway — and we are the farmers of our time.
 
-See also → [Gatekeepers](/EN/concepts/gatekeepers.md) · [Collective exit](/EN/concepts/collective-exit.md) · [Thesis 4](/EN/theses/thesis-04.md)
+See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Collective exit](/EN/concepts/collective-exit) · [Thesis 4](/EN/theses/thesis-04)
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04.md) | |
+| ← [Back to thesis 4](/EN/theses/thesis-04) | |
 | :--- | ---:|

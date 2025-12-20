@@ -4,9 +4,9 @@ Een centraal controlepunt (Apple App Store, Google Play) dat beslist welke softw
 
 Officieel voor “veiligheid”, in werkelijkheid een tolhuis voor poortwachters (30 % belasting) en een censuurinstrument.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) · [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin.md) · [Thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04.md)
+Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters) · [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin) · [Thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04)
 
 ---
 
-| ← [Terug naar thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04.md) | |
+| ← [Terug naar thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04) | |
 | :--- | ---:|

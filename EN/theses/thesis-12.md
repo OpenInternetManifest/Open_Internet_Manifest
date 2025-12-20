@@ -2,11 +2,11 @@
 
 Email, the world wide web, and IRC still work without a single company in charge.
 
-New open protocols such as [**ActivityPub**](/EN/concepts/activitypub.md) (Mastodon), [**Nostr**](/EN/concepts/nostr.md), [**Matrix**](/EN/concepts/matrix.md), and [**IPFS**](/EN/concepts/ipfs.md) are ready for everyday use.
+New open protocols such as [**ActivityPub**](/EN/concepts/activitypub) (Mastodon), [**Nostr**](/EN/concepts/nostr), [**Matrix**](/EN/concepts/matrix), and [**IPFS**](/EN/concepts/ipfs) are ready for everyday use.
 
 They are not perfect, but they belong to no one — and therefore can never be enclosed again.
 
-Every day we use them more, the monopoly of the five [**gatekeepers**](/EN/concepts/gatekeepers.md) becomes weaker.
+Every day we use them more, the monopoly of the five [**gatekeepers**](/EN/concepts/gatekeepers) becomes weaker.
 
 ---
 
@@ -18,5 +18,5 @@ Every day we use them more, the monopoly of the five [**gatekeepers**](/EN/conce
 
 ---
 
-| [← Thesis 11](/EN/theses/thesis-11.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-13.md) |
+| [← Thesis 11](/EN/theses/thesis-11) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-13) |
 | :--- | ---: | ---:|

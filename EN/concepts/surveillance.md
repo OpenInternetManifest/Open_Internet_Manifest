@@ -6,9 +6,9 @@ On the internet, this translates into cameras in your home (smart home), microph
 
 Offline, this would be a scandal. Online, it’s called “service”.
 
-See also → [Data collection](/EN/concepts/data-collection.md) · [Thesis 3](/EN/theses/thesis-03.md)
+See also → [Data collection](/EN/concepts/data-collection) · [Thesis 3](/EN/theses/thesis-03)
 
 ---
 
-| ← [Back to thesis 3](/EN/theses/thesis-03.md) | |
+| ← [Back to thesis 3](/EN/theses/thesis-03) | |
 | :--- | ---:|

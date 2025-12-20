@@ -6,9 +6,9 @@ Examples: Mastodon (fediverse), Peertube, Lemmy, Nostr clients.
 
 Users can run their own servers, take their data with them, and never be deplatformed.
 
-See also → [Independent protocols](/EN/concepts/independent-protocols.md) · [Sovereign node](/EN/concepts/sovereign-node.md) · [Thesis 9](/EN/theses/thesis-09.md)
+See also → [Independent protocols](/EN/concepts/independent-protocols) · [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 9](/EN/theses/thesis-09)
 
 ---
 
-| ← [Back to thesis 9](/EN/theses/thesis-09.md) | |
+| ← [Back to thesis 9](/EN/theses/thesis-09) | |
 | :--- | ---:|

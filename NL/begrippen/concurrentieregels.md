@@ -4,9 +4,9 @@ Antitrust- en mededingingswetten die proberen grote platforms op te knippen of c
 
 Resultaat: vaak alleen cosmetische veranderingen terwijl de onderliggende lock-in en afhankelijkheid blijven.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters.md) · [Reguleren](/Open_Internet_Manifest/NL/begrippen/reguleren.md) · [Thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05.md)
+Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters) · [Reguleren](/Open_Internet_Manifest/NL/begrippen/reguleren) · [Thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05)
 
 ---
 
-| ← [Terug naar thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05.md) | |
+| ← [Terug naar thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05) | |
 | :--- | ---:|

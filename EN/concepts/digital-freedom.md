@@ -4,9 +4,9 @@ The ability to act, speak, and create online without permission, surveillance, o
 
 Not to be confused with “privacy settings” inside a walled garden.
 
-See also → [Digital sovereignty](/EN/concepts/digital-sovereignty.md) · [Collective exit](/EN/concepts/collective-exit.md) · [Thesis 5](/EN/theses/thesis-05.md)
+See also → [Digital sovereignty](/EN/concepts/digital-sovereignty) · [Collective exit](/EN/concepts/collective-exit) · [Thesis 5](/EN/theses/thesis-05)
 
 ---
 
-| ← [Back to thesis 5](/EN/theses/thesis-05.md) | |
+| ← [Back to thesis 5](/EN/theses/thesis-05) | |
 | :--- | ---:|

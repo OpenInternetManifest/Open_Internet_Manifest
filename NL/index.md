@@ -5,8 +5,8 @@
 Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 
 **De eerste 30 theses zijn klaar**  
-[Begin met lezen →](/Open_Internet_Manifest/NL/theses/thesis-00.md)  
-[Alle theses →](/Open_Internet_Manifest/NL/manifest.md)
+[Begin met lezen →](/Open_Internet_Manifest/NL/theses/thesis-00)  
+[Alle theses →](/Open_Internet_Manifest/NL/manifest)
 
 **Praktische guides**  
 [Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_Manifest/NL/guides.md/)
@@ -15,10 +15,10 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element (Matrix) en join de discussie</a>
 
 **Meer informatie, donaties en talen**  
-[Over het manifest en hoe je kunt ondersteunen →](/Open_Internet_Manifest/NL/over.md)
+[Over het manifest en hoe je kunt ondersteunen →](/Open_Internet_Manifest/NL/over)
 
 **English version**  
-[Read in English →](/EN/theses/thesis-00.md)
+[Read in English →](/EN/theses/thesis-00)
 
 Het open internet is geen utopie – het is een dagelijkse keuze.  
 Jij bent mede-auteur.
@@ -31,5 +31,5 @@ Jij bent mede-auteur.
 
 ---
 
-| [← Alle theses →](/Open_Internet_Manifest/NL/theses.md) | [About en steun aan OIM](/Open_Internet_Manifest/NL/over.md) |
+| [← Alle theses →](/Open_Internet_Manifest/NL/theses) | [About en steun aan OIM](/Open_Internet_Manifest/NL/over) |
 |---: |---:

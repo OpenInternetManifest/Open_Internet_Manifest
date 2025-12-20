@@ -1,9 +1,9 @@
 # Thesis 27 – Teach one person an open alternative this week
 
-Your mother on [**Element**](/EN/concepts/element.md).  
-Your best friend on [**Mastodon**](/EN/concepts/mastodon.md).  
-Your neighbor on [**PeerTube**](/EN/concepts/peertube.md).  
-Your sister on [**ProtonMail**](/EN/concepts/protonmail.md).
+Your mother on [**Element**](/EN/concepts/element).  
+Your best friend on [**Mastodon**](/EN/concepts/mastodon).  
+Your neighbor on [**PeerTube**](/EN/concepts/peertube).  
+Your sister on [**ProtonMail**](/EN/concepts/protonmail).
 
 One person at a time is how every large network once started.
 
@@ -19,5 +19,5 @@ Your invitation today is tomorrow’s network effect.
 
 ---
 
-| [← Thesis 26](/EN/theses/thesis-26.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-28.md) |
+| [← Thesis 26](/EN/theses/thesis-26) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-28) |
 | :--- | ---: | ---:|

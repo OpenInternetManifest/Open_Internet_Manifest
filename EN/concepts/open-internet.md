@@ -4,9 +4,9 @@ The internet in its original, inalienable state: open, neutral, decentralized, a
 
 Not a product, not a service, not a platform — but a commons belonging to all humanity.
 
-See also → [Digital sovereignty](/EN/concepts/digital-sovereignty.md) · [Sovereign node](/EN/concepts/sovereign-node.md) · [Thesis 3](/EN/theses/thesis-03.md) · [Thesis 6](/EN/theses/thesis-06.md)
+See also → [Digital sovereignty](/EN/concepts/digital-sovereignty) · [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 3](/EN/theses/thesis-03) · [Thesis 6](/EN/theses/thesis-06)
 
 ---
 
-| ← [Back to thesis 6](/EN/theses/thesis-06.md) | |
+| ← [Back to thesis 6](/EN/theses/thesis-06) | |
 | :--- | ---:|

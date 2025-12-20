@@ -6,9 +6,9 @@ Op internet vertaalt zich in camera’s in je huis (smart home), microfoons in j
 
 Offline zou dit een schandaal zijn. Online heet het “service”.
 
-Zie ook → [Dataverzameling](/Open_Internet_Manifest/NL/begrippen/dataverzameling.md) · [Thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03.md)
+Zie ook → [Dataverzameling](/Open_Internet_Manifest/NL/begrippen/dataverzameling) · [Thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03)
 
 ---
 
-| ← [Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03.md) | |
+| ← [Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03) | |
 | :--- | ---:|

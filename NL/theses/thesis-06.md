@@ -1,6 +1,6 @@
 # Thesis 6
 
-***Exit zonder bouw is vlucht; bouw zonder exit is [**collaboratie**](/Open_Internet_Manifest/NL/begrippen/collaboratie.md).***
+***Exit zonder bouw is vlucht; bouw zonder exit is [**collaboratie**](/Open_Internet_Manifest/NL/begrippen/collaboratie).***
 
 Wie alleen klaagt en wegloopt bij de grote platforms, verdwijnt in een leegte waar niemand hem ooit vindt.
 
@@ -8,7 +8,7 @@ Wie mooie nieuwe apps en “decentrale” diensten bouwt binnen hun stores en cl
 
 Beide wegen leiden nergens heen: de een naar irrelevantie, de ander naar versterking van precies datgene waar we tegen vechten.
 
-Echte verandering vraagt om één dubbele beweging: nu [**exit**](/Open_Internet_Manifest/NL/begrippen/exit.md) uit hun ecosystemen én al onze energie steken in [**bouw**](/Open_Internet_Manifest/NL/begrippen/bouw.md) van een [**nieuw, werkelijk open internet**](/Open_Internet_Manifest/NL/begrippen/open-internet.md) dat niemand meer kan sluiten.
+Echte verandering vraagt om één dubbele beweging: nu [**exit**](/Open_Internet_Manifest/NL/begrippen/exit) uit hun ecosystemen én al onze energie steken in [**bouw**](/Open_Internet_Manifest/NL/begrippen/bouw) van een [**nieuw, werkelijk open internet**](/Open_Internet_Manifest/NL/begrippen/open-internet) dat niemand meer kan sluiten.
 
 ---
 
@@ -20,5 +20,5 @@ Echte verandering vraagt om één dubbele beweging: nu [**exit**](/Open_Internet
 
 ---
 
-|  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-05.md) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-07.md) |
+|  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-05) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-07) |
 | :--- | ---: | ---: |

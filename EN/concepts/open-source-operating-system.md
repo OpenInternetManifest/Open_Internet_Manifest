@@ -4,9 +4,9 @@ Operating systems such as Linux (desktop/mobile), GrapheneOS, CalyxOS, Ubuntu To
 
 The only way to truly own your phone or computer.
 
-See also → [Open hardware](/EN/concepts/open-hardware.md) · [Thesis 4](/EN/theses/thesis-04.md)
+See also → [Open hardware](/EN/concepts/open-hardware) · [Thesis 4](/EN/theses/thesis-04)
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04.md) | |
+| ← [Back to thesis 4](/EN/theses/thesis-04) | |
 | :--- | ---:|

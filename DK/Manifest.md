@@ -66,7 +66,7 @@ Hvad vi online har slugt i årevis – obligatoriske konti, permanent overvågni
 Vi vænner os til, at én lukket-kilde AI bliver portvagteren for viden, nyheder og menneskelig interaktion – ikke fordi det er uundgåeligt, men fordi vi forveksler bekvemmelighed med frihed.  
 Hvis vi ikke bryder denne normalisering nu, bliver den indmurede have snart hele samfundet.  
 Kun et virkelig åbent internet kan stoppe den udvidelse – ved at vise, at en fri digital verden stadig er mulig, og dermed give den fysiske verden plads til at ånde igen.
-→ [Uddybning: de samme spillere, den samme agenda](/verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld.md)
+→ [Uddybning: de samme spillere, den samme agenda](/verdieping/thesis-10-machtsconcentratie-digitale-en-fysieke-wereld)
 
 Thesis 11  
 Vi har ikke brug for at opfinde et nyt internet – vi har brug for at træde ud af buret og tage det gamle, åbne internet tilbage i brug.  

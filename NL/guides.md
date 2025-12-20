@@ -1,37 +1,37 @@
 # De Guides bij Open Internet Manifest – Nederlandse versie
 
 **Guide 1** — Account maken op Chaos.social (actieve, vrije community)  
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/chaos-account-maken.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/chaos-account-maken)
 
 **Guide 2** — Vervang WhatsApp door Element (Matrix)  
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/element-migratie.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/element-migratie)
 
 **Guide 3** — Account maken op Fosstodon (tech- en open-source community)   
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/fosstodon-account-maken.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/fosstodon-account-maken)
 
 **Guide 4** — Je eerste Friendica-account maken (veelzijdig sociaal netwerk)  
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/friendica-account-maken.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/friendica-account-maken)
 
 **Guide 5** — Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)   
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/hubzilla-account-maken.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/hubzilla-account-maken)
 
 **Guide 6** — Je eerste Lemmy-account maken (Reddit-alternatief)    
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/lemmy-account-maken.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/lemmy-account-maken)
 
 **Guide 7** — Je eerste Mastodon-account maken en migreren van X/Twitter    
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/mastodon-account-maken.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/mastodon-account-maken)
 
 **Guide 8** — Nextcloud installeren (je eigen cloud)   
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/nextcloud-installeren.md)
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/nextcloud-installeren)
 
 **Guide 9** — Je eerste Pixelfed-account maken (Instagram-alternatief)    
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/pixelfed-account-maken.md))
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/pixelfed-account-maken))
 
 **Guide 10** — Je eigen sovereign node draaien (Raspberry Pi + Umbrel)    
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/raspberry-pi-node.md) 
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/raspberry-pi-node) 
 
 **Guide 11** — De Guides zijn levend    
-→ [volledige tekst](/Open_Internet_Manifest/NL/guides/levende-guides.md) 
+→ [volledige tekst](/Open_Internet_Manifest/NL/guides/levende-guides) 
 
 ---
 
@@ -53,5 +53,5 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 
-| [Start Pagina](/Open_Internet_Manifest/NL/index.md) | [About en steun OIM](/Open_Internet_Manifest/NL/over.md) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) |
+| [Start Pagina](/Open_Internet_Manifest/NL/index) | [About en steun OIM](/Open_Internet_Manifest/NL/over) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) |
 ---: | ---: | ---: |

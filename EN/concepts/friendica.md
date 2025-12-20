@@ -6,9 +6,9 @@ Connects with Mastodon, Diaspora, and even older systems.
 
 Strong focus on privacy and data portability.
 
-See also → [ActivityPub](/EN/concepts/activitypub.md) · [Thesis 15](/EN/theses/thesis-15.md) · [friendi.ca](https://friendi.ca/)
+See also → [ActivityPub](/EN/concepts/activitypub) · [Thesis 15](/EN/theses/thesis-15) · [friendi.ca](https://friendi.ca/)
 
 ---
 
-| ← [Back to thesis 15](/EN/theses/thesis-15.md) | |
+| ← [Back to thesis 15](/EN/theses/thesis-15) | |
 | :--- | ---:|

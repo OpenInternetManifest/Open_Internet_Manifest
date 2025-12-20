@@ -6,9 +6,9 @@ Like a bank run: once enough people demand their money, it's over.
 
 This is our last chance.
 
-See also → [Enclosures](/EN/concepts/enclosures.md) · [Thesis 4](/EN/theses/thesis-04.md)
+See also → [Enclosures](/EN/concepts/enclosures) · [Thesis 4](/EN/theses/thesis-04)
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04.md) | |
+| ← [Back to thesis 4](/EN/theses/thesis-04) | |
 | :--- | ---:|

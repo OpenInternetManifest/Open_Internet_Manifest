@@ -6,9 +6,9 @@ You choose or run your own instance, follow people across instances, and can alw
 
 Millions of users in 2025.
 
-See also → [ActivityPub](/EN/concepts/activitypub.md) · [Thesis 15](/EN/theses/thesis-15.md) · [joinmastodon.org](https://joinmastodon.org/)
+See also → [ActivityPub](/EN/concepts/activitypub) · [Thesis 15](/EN/theses/thesis-15) · [joinmastodon.org](https://joinmastodon.org/)
 
 ---
 
-| ← [Back to thesis 15](/EN/theses/thesis-15.md) | |
+| ← [Back to thesis 15](/EN/theses/thesis-15) | |
 | :--- | ---:|

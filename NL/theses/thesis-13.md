@@ -1,10 +1,10 @@
 # Thesis 13 – Jouw data hoort bij jou, niet bij een platform
 
-Met [**Solid**](/Open_Internet_Manifest/NL/begrippen/solid.md) (Tim Berners-Lee), [**Nextcloud**](/Open_Internet_Manifest/NL/begrippen/nextcloud.md), [**ownCloud**](/Open_Internet_Manifest/NL/begrippen/owncloud.md) of een eigen [**IPFS-node**](/Open_Internet_Manifest/NL/begrippen/ipfs.md) bepaal je zelf waar je foto’s, berichten en documenten staan.
+Met [**Solid**](/Open_Internet_Manifest/NL/begrippen/solid) (Tim Berners-Lee), [**Nextcloud**](/Open_Internet_Manifest/NL/begrippen/nextcloud), [**ownCloud**](/Open_Internet_Manifest/NL/begrippen/owncloud) of een eigen [**IPFS-node**](/Open_Internet_Manifest/NL/begrippen/ipfs) bepaal je zelf waar je foto’s, berichten en documenten staan.
 
 Je kunt ze meenemen, delen met wie jij wilt, en echt verwijderen als je dat wilt.
 
-[**Data-soevereiniteit**](/Open_Internet_Manifest/NL/begrippen/data-soevereiniteit.md) is geen luxe – het is de basis van een vrij digitaal leven.
+[**Data-soevereiniteit**](/Open_Internet_Manifest/NL/begrippen/data-soevereiniteit) is geen luxe – het is de basis van een vrij digitaal leven.
 
 ---
 
@@ -16,5 +16,5 @@ Je kunt ze meenemen, delen met wie jij wilt, en echt verwijderen als je dat wilt
 
 ---
 
-| [← Thesis 12](/Open_Internet_Manifest/NL/theses/thesis-12.md) | [← Alle theses](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-14.md) |
+| [← Thesis 12](/Open_Internet_Manifest/NL/theses/thesis-12) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-14) |
 | :--- | ---: | ---:|

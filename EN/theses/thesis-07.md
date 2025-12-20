@@ -1,19 +1,19 @@
 # Thesis 7
 
-An open internet restores to [**privacy**](/EN/concepts/privacy.md) its old power.
+An open internet restores to [**privacy**](/EN/concepts/privacy) its old power.
 
 In the real world, you assume that a conversation behind your own door remains yours, that a letter in a sealed envelope is not read by strangers, that you can walk down the street without someone selling your route to the highest bidder.
 
 That expectation is not a luxury; it is a foundation of human dignity — and it is exactly that expectation we have allowed to be taken from us online.
 
-The [**gatekeepers**](/EN/concepts/gatekeepers.md) have convinced us that [**total transparency**](/EN/concepts/total-transparency.md) is the price of connection, that we must beg for crumbs of privacy.
+The [**gatekeepers**](/EN/concepts/gatekeepers) have convinced us that [**total transparency**](/EN/concepts/total-transparency) is the price of connection, that we must beg for crumbs of privacy.
 
-By now building [**free protocols**](/EN/concepts/independent-protocols.md), [**end-to-end encryption**](/EN/concepts/end-to-end-encryption.md), [**decentralized storage**](/EN/concepts/decentralized-storage.md), and [**sovereign nodes**](/EN/concepts/sovereign-node.md), we restore what is natural: a digital world in which privacy is once again simply expected, not fought for.
+By now building [**free protocols**](/EN/concepts/independent-protocols), [**end-to-end encryption**](/EN/concepts/end-to-end-encryption), [**decentralized storage**](/EN/concepts/decentralized-storage), and [**sovereign nodes**](/EN/concepts/sovereign-node), we restore what is natural: a digital world in which privacy is once again simply expected, not fought for.
 
-See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md) – build your own infrastructure.
+See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node) – build your own infrastructure.
 
 **Want to create your own Nostr account?**  
-The full step-by-step guide is coming → [Create Nostr account – coming soon](/EN/guides/create-nostr-account-coming-soon.md)
+The full step-by-step guide is coming → [Create Nostr account – coming soon](/EN/guides/create-nostr-account-coming-soon)
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
@@ -24,5 +24,5 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-06.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-08.md) |
+| [← Previous thesis](/EN/theses/thesis-06) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-08) |
 | :--- | ---: | ---: |

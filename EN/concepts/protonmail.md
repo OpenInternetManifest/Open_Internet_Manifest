@@ -6,9 +6,9 @@ Privacy by default, open-source apps, no phone number required.
 
 Good first step away from Gmail.
 
-See also → [Proton Drive](/EN/concepts/proton-drive.md) · [Thesis 27](/EN/theses/thesis-27.md) · [proton.me/mail](https://proton.me/mail)
+See also → [Proton Drive](/EN/concepts/proton-drive) · [Thesis 27](/EN/theses/thesis-27) · [proton.me/mail](https://proton.me/mail)
 
 ---
 
-| ← [Back to thesis 27](/EN/theses/thesis-27.md) | |
+| ← [Back to thesis 27](/EN/theses/thesis-27) | |
 | :--- | ---:|

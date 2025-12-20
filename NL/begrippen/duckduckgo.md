@@ -8,9 +8,9 @@ Makkelijke overstap van Google voor dagelijks gebruik.
 
 **Let op**: niet zelf hostbaar – centraal beheerd, maar privacy-vriendelijk.
 
-Zie ook → [Brave Search](/Open_Internet_Manifest/NL/begrippen/brave-search.md) · [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18.md) · [duckduckgo.com](https://duckduckgo.com/)
+Zie ook → [Brave Search](/Open_Internet_Manifest/NL/begrippen/brave-search) · [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
 
 ---
 
-| ← [Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18.md) | |
+| ← [Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) | |
 | :--- | ---:|

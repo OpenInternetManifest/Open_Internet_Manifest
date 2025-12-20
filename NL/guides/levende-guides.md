@@ -22,9 +22,9 @@ Wil je een guide of thesis indienen, een begrip toevoegen, een vertaling maken, 
 Dan ben je precies op de juiste plek.
 
 → [Draag bij aan het manifest](https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new/choose)  
-→ [Leg jouw verklaring af](/Open_Internet_Manifest/NL/verklaringen/template-verklaring.md)  
+→ [Leg jouw verklaring af](/Open_Internet_Manifest/NL/verklaringen/template-verklaring)  
 → [Word lid van de discussie](#openinternetmanifest:matrix.org)  
-→ [Lees verder wanneer deel 2 klaar is](/Open_Internet_Manifest/NL/manifest.md)
+→ [Lees verder wanneer deel 2 klaar is](/Open_Internet_Manifest/NL/manifest)
 
 Dit manifest eindigt pas als het internet weer volledig open, neutraal en onvervreemdbaar is.
 
@@ -38,5 +38,5 @@ Nu is het aan jou.
 
 ---
 
-|[Start pagina](/Open_Internet_Manifest/NL/index.md) | [← Alle guides →](guides.md) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) |
+|[Start pagina](/Open_Internet_Manifest/NL/index) | [← Alle guides →](guides) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) |
 ---: |---: |---: |

@@ -1,6 +1,6 @@
 # Thesis 23 – Put your photos and files under your own control
 
-Install [**Nextcloud**](/EN/concepts/nextcloud.md), [**ownCloud**](/EN/concepts/owncloud.md), [**Syncthing**](/EN/concepts/syncthing.md) or use [**Proton Drive**](/EN/concepts/proton-drive.md), [**Internxt**](/EN/concepts/internxt.md) or your own [**IPFS pinning service**](/EN/concepts/ipfs-pinning.md).
+Install [**Nextcloud**](/EN/concepts/nextcloud), [**ownCloud**](/EN/concepts/owncloud), [**Syncthing**](/EN/concepts/syncthing) or use [**Proton Drive**](/EN/concepts/proton-drive), [**Internxt**](/EN/concepts/internxt) or your own [**IPFS pinning service**](/EN/concepts/ipfs-pinning).
 
 One weekend of work and your photos, documents, and memories are truly yours again.
 
@@ -8,7 +8,7 @@ You can share them with whoever you want, take them with you wherever you want, 
 
 No cloud is safer than your own cloud.
 
-See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md) – build your own infrastructure.
+See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node) – build your own infrastructure.
 
 ---
 
@@ -21,5 +21,5 @@ See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node.md
 
 ---
 
-| [← Thesis 22](/EN/theses/thesis-22.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-24.md) |
+| [← Thesis 22](/EN/theses/thesis-22) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-24) |
 | :--- | ---: | ---:|

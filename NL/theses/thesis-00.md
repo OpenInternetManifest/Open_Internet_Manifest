@@ -33,6 +33,6 @@ Welkom bij het begin.
 
 ---
 
-| [Start Pagina](/Open_Internet_Manifest/NL/index.md) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) | [Begin met thesis 1 →](/Open_Internet_Manifest/NL/theses/thesis-01.md) |
+| [Start Pagina](/Open_Internet_Manifest/NL/index) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Begin met thesis 1 →](/Open_Internet_Manifest/NL/theses/thesis-01) |
 | :--- | ---: | ---: |
 

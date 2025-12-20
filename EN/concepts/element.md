@@ -6,9 +6,9 @@ End-to-end encrypted, federated, self-hostable.
 
 The most user-friendly way to use Matrix.
 
-See also → [Matrix](/EN/concepts/matrix.md) · [Thesis 22](/EN/theses/thesis-22.md) · [element.io](https://element.io/)
+See also → [Matrix](/EN/concepts/matrix) · [Thesis 22](/EN/theses/thesis-22) · [element.io](https://element.io/)
 
 ---
 
-| ← [Back to thesis 22](/EN/theses/thesis-22.md) | |
+| ← [Back to thesis 22](/EN/theses/thesis-22) | |
 | :--- | ---:|

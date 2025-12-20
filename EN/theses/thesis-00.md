@@ -34,5 +34,5 @@ December 13, 2025
 
 ---
 
-| [Start with thesis 1 →](/EN/theses/thesis-01.md) | [Back to overview](/EN/manifest.md) |
+| [Start with thesis 1 →](/EN/theses/thesis-01) | [Back to overview](/EN/manifest) |
 | :--- | ---: |

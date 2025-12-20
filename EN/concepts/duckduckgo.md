@@ -8,9 +8,9 @@ Easy switch from Google for daily use.
 
 **Note**: not self-hostable – centrally managed, but privacy-friendly.
 
-See also → [Brave Search](/EN/concepts/brave-search.md) · [Thesis 18](/EN/theses/thesis-18.md) · [duckduckgo.com](https://duckduckgo.com/)
+See also → [Brave Search](/EN/concepts/brave-search) · [Thesis 18](/EN/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18.md) | |
+| ← [Back to thesis 18](/EN/theses/thesis-18) | |
 | :--- | ---:|

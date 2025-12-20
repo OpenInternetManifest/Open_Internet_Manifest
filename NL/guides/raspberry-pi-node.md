@@ -110,5 +110,5 @@ Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of and
 ---
 
 
-| [← terug naar thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07.md) | [← terug naar thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09.md) | [← terug naar thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22.md) | [← terug naar thesis 23](/Open_Internet_Manifest/NL/theses/thesis-23.md) | [← terug naar thesis 25](/Open_Internet_Manifest/NL/theses/thesis-25.md) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) | [← Alle guides →](/Open_Internet_Manifest/NL/guides.md) |
+| [← terug naar thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07) | [← terug naar thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09) | [← terug naar thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22) | [← terug naar thesis 23](/Open_Internet_Manifest/NL/theses/thesis-23) | [← terug naar thesis 25](/Open_Internet_Manifest/NL/theses/thesis-25) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [← Alle guides →](/Open_Internet_Manifest/NL/guides) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |

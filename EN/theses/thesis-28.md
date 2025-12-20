@@ -4,7 +4,7 @@ No more mandatory app to access a government service.
 
 No Google or Apple account to vote, receive healthcare, or travel.
 
-[**Open protocols**](/EN/concepts/independent-protocols.md) and [**open standards**](/EN/concepts/open-standards.md) instead of closed silos — that is the only real public digital infrastructure.
+[**Open protocols**](/EN/concepts/independent-protocols) and [**open standards**](/EN/concepts/open-standards) instead of closed silos — that is the only real public digital infrastructure.
 
 Start demanding what should have been legally required years ago.
 
@@ -18,5 +18,5 @@ Start demanding what should have been legally required years ago.
 
 ---
 
-| [← Thesis 27](/EN/theses/thesis-27.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-29.md) |
+| [← Thesis 27](/EN/theses/thesis-27) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-29) |
 | :--- | ---: | ---:|

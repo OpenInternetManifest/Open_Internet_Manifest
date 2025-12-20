@@ -4,7 +4,7 @@
 
 A group of 50 to 500 people who trust each other is a community.
 
-[**Nostr circles**](/EN/concepts/nostr-circles.md), [**Matrix rooms**](/EN/concepts/matrix.md), small [**Mastodon instances**](/EN/concepts/mastodon.md), [**Revolt servers**](/EN/concepts/revolt.md): places where quality comes before quantity again.
+[**Nostr circles**](/EN/concepts/nostr-circles), [**Matrix rooms**](/EN/concepts/matrix), small [**Mastodon instances**](/EN/concepts/mastodon), [**Revolt servers**](/EN/concepts/revolt): places where quality comes before quantity again.
 
 Connecting instead of scrolling. Talking instead of performing.
 
@@ -18,5 +18,5 @@ Connecting instead of scrolling. Talking instead of performing.
 
 ---
 
-| [← Thesis 19](/EN/theses/thesis-19.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-21.md) |
+| [← Thesis 19](/EN/theses/thesis-19) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-21) |
 | :--- | ---: | ---:|

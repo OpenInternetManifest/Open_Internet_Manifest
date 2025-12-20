@@ -10,9 +10,9 @@ Examples:
 
 Enables portable identity without dependence on a company.
 
-See also → [Nostr](/EN/concepts/nostr.md) · [Keyoxide](/EN/concepts/keyoxide.md) · [Thesis 14](/EN/theses/thesis-14.md) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
+See also → [Nostr](/EN/concepts/nostr) · [Keyoxide](/EN/concepts/keyoxide) · [Thesis 14](/EN/theses/thesis-14) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
 
 ---
 
-| ← [Back to thesis 14](/EN/theses/thesis-14.md) | |
+| ← [Back to thesis 14](/EN/theses/thesis-14) | |
 | :--- | ---:|

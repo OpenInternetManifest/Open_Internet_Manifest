@@ -1,17 +1,17 @@
 # Thesis 24 – Claim your digital identity with Nostr
 
-Download [**Damus**](/EN/concepts/damus.md), [**Amethyst**](/EN/concepts/amethyst.md), [**Primal**](/EN/concepts/primal.md), or [**Snort**](/EN/concepts/snort.md).
+Download [**Damus**](/EN/concepts/damus), [**Amethyst**](/EN/concepts/amethyst), [**Primal**](/EN/concepts/primal), or [**Snort**](/EN/concepts/snort).
 
 Generate one key pair.
 
-That is now your [**npub**](/EN/concepts/npub.md) — your digital passport for the entire open internet.
+That is now your [**npub**](/EN/concepts/npub) — your digital passport for the entire open internet.
 
 No email address, no phone number, no company that can take it away.
 
 One key, valid everywhere, yours forever.
 
 **Want to create your own Nostr account?**  
-The full step-by-step guide is coming → [Create Nostr account – coming soon](/EN/guides/create-nostr-account-coming-soon.md)
+The full step-by-step guide is coming → [Create Nostr account – coming soon](/EN/guides/create-nostr-account-coming-soon)
 
 ---
 
@@ -23,5 +23,5 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 
 ---
 
-| [← Thesis 23](/EN/theses/thesis-23.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-25.md) |
+| [← Thesis 23](/EN/theses/thesis-23) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-25) |
 | :--- | ---: | ---:|

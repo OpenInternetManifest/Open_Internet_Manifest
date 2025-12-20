@@ -9,9 +9,9 @@ Stel je voor dat de postdienst al je brieven opent, kopieert en beslist of je vr
 Stel je voor dat een beveiligingsbedrijf je tegenhoudt op de stoep en zegt: “Alleen als je ons je portemonnee geeft en belooft geen verkeerde winkels te betreden.”
 
 Offline zouden we de straten exploderen van woede.  
-Online klikken we “[**akkoord-knop**](/Open_Internet_Manifest/NL/begrippen/akkoord-knop.md)” en gaan verder met scrollen.
+Online klikken we “[**akkoord-knop**](/Open_Internet_Manifest/NL/begrippen/akkoord-knop)” en gaan verder met scrollen.
 
-Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/NL/begrippen/surveillance.md), [**dataverzameling**](/Open_Internet_Manifest/NL/begrippen/dataverzameling.md) en [**toegangscontrole**](/Open_Internet_Manifest/NL/begrippen/toegangscontrole.md) is geen toeval – het is de grootste truc die ooit op de mensheid is uitgevoerd.
+Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/NL/begrippen/surveillance), [**dataverzameling**](/Open_Internet_Manifest/NL/begrippen/dataverzameling) en [**toegangscontrole**](/Open_Internet_Manifest/NL/begrippen/toegangscontrole) is geen toeval – het is de grootste truc die ooit op de mensheid is uitgevoerd.
 
 
 ---
@@ -23,5 +23,5 @@ Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/NL/begrippen/su
 
 ---
 
-|  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-02.md) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-04.md) |
+|  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-02) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-04) |
 | :--- | ---: | ---: |

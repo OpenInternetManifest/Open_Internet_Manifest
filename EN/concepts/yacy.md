@@ -6,9 +6,9 @@ Everyone can run a node that crawls and shares results — together you build an
 
 No tracking, no ads, full privacy.
 
-See also → [Sovereign node](/EN/concepts/sovereign-node.md) · [Thesis 18](/EN/theses/thesis-18.md) · [yacy.net](https://yacy.net/)
+See also → [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 18](/EN/theses/thesis-18) · [yacy.net](https://yacy.net/)
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18.md) | |
+| ← [Back to thesis 18](/EN/theses/thesis-18) | |
 | :--- | ---:|

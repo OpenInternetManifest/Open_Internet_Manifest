@@ -4,9 +4,9 @@ The active creation of alternative infrastructure, protocols, nodes, and communi
 
 Building is only meaningful if it happens outside their walls — otherwise it is collaboration.
 
-See also → [Sovereign node](/EN/concepts/sovereign-node.md) · [Independent protocols](/EN/concepts/independent-protocols.md) · [Thesis 6](/EN/theses/thesis-06.md)
+See also → [Sovereign node](/EN/concepts/sovereign-node) · [Independent protocols](/EN/concepts/independent-protocols) · [Thesis 6](/EN/theses/thesis-06)
 
 ---
 
-| ← [Back to thesis 6](/EN/theses/thesis-06.md) | |
+| ← [Back to thesis 6](/EN/theses/thesis-06) | |
 | :--- | ---:|

@@ -4,9 +4,9 @@ Transparant platform voor collectieve financiering van open-source projecten en 
 
 Alle inkomsten en uitgaven zichtbaar, geen lock-in.
 
-Zie ook → [Liberapay](/Open_Internet_Manifest/NL/begrippen/liberapay.md) · [Thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26.md) · [opencollective.com](https://opencollective.com/)
+Zie ook → [Liberapay](/Open_Internet_Manifest/NL/begrippen/liberapay) · [Thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26) · [opencollective.com](https://opencollective.com/)
 
 ---
 
-| ← [Terug naar thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26.md) | |
+| ← [Terug naar thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26) | |
 | :--- | ---:|

@@ -9,9 +9,9 @@ Choose a server that suits you and create your account in 15 minutes:
 
 **Follow this step-by-step guide for a smooth start:** 
 
-[View the full Mastodon guide →](/EN/guides/mastodon-account-making.md)  
-[View the full Fosstodon guide →](/EN/guides/fosstodon-account-making.md)  
-[View the full Chaos.social guide →](/EN/guides/chaos-account-making.md)
+[View the full Mastodon guide →](/EN/guides/mastodon-account-making)  
+[View the full Fosstodon guide →](/EN/guides/fosstodon-account-making)  
+[View the full Chaos.social guide →](/EN/guides/chaos-account-making)
 
 Follow the people you already know.  
 Post one message.  
@@ -29,5 +29,5 @@ That is all it takes to get started.
 
 ---
 
-| [← Thesis 20](/EN/theses/thesis-20.md) | [← All theses →](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-22.md) |
+| [← Thesis 20](/EN/theses/thesis-20) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-22) |
 | :--- | ---: | ---:|

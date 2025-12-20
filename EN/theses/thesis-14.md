@@ -1,6 +1,6 @@
 # Thesis 14 – Portable identity and reputation
 
-One digital key ([**Nostr npub**](/EN/concepts/nostr.md), [**DID**](/EN/concepts/did.md), [**Keyoxide**](/EN/concepts/keyoxide.md)) that you take with you everywhere.
+One digital key ([**Nostr npub**](/EN/concepts/nostr), [**DID**](/EN/concepts/did), [**Keyoxide**](/EN/concepts/keyoxide)) that you take with you everywhere.
 
 No more 27 different accounts, no lock-in, no company that can take away your identity.
 
@@ -16,5 +16,5 @@ You build reputation in one place and it travels with you — as it should.
 
 ---
 
-| [← Thesis 13](/EN/theses/thesis-13.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-15.md) |
+| [← Thesis 13](/EN/theses/thesis-13) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-15) |
 | :--- | ---: | ---:|

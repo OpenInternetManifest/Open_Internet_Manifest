@@ -13,9 +13,9 @@ Examples (2025):
 
 These models can be run locally, modified, and audited — without dependence on a single company.
 
-See also → [Gatekeepers](/EN/concepts/gatekeepers.md) · [Walled garden](/EN/concepts/walled-garden.md) · [Thesis 10](/EN/theses/thesis-10.md)
+See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Walled garden](/EN/concepts/walled-garden) · [Thesis 10](/EN/theses/thesis-10)
 
 ---
 
-| ← [Back to thesis 10](/EN/theses/thesis-10.md) | |
+| ← [Back to thesis 10](/EN/theses/thesis-10) | |
 | :--- | ---:|

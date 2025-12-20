@@ -4,9 +4,9 @@ Open-source metasearch engine that aggregates results from other engines (Google
 
 Self-hostable, privacy-first, no ads.
 
-See also → [Thesis 18](/EN/theses/thesis-18.md) · [searxng.org](https://searxng.org/)
+See also → [Thesis 18](/EN/theses/thesis-18) · [searxng.org](https://searxng.org/)
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18.md) | |
+| ← [Back to thesis 18](/EN/theses/thesis-18) | |
 | :--- | ---:|

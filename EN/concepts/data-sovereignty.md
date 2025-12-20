@@ -4,9 +4,9 @@ The right and ability to have full control over your own data: where it is store
 
 Opposite of data in the hands of gatekeepers.
 
-See also → [Sovereign node](/EN/concepts/sovereign-node.md) · [Solid](/EN/concepts/solid.md) · [Thesis 13](/EN/theses/thesis-13.md)
+See also → [Sovereign node](/EN/concepts/sovereign-node) · [Solid](/EN/concepts/solid) · [Thesis 13](/EN/theses/thesis-13)
 
 ---
 
-| ← [Back to thesis 13](/EN/theses/thesis-13.md) | |
+| ← [Back to thesis 13](/EN/theses/thesis-13) | |
 | :--- | ---:|

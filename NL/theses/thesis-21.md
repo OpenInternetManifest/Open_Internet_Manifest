@@ -8,9 +8,9 @@ Kies een server die bij je past en maak in 15 minuten je account:
 - <a href="https://chaos.social" target="_blank">chaos.social</a> – actief, vrij en privacy-vriendelijk \
 
 **Volg deze stap-voor-stap guide voor een soepele start:**  
-[Bekijk de volledige Mastodon guide →](/Open_Internet_Manifest/NL/guides/mastodon-account-maken.md)\
-[Bekijk de volledige Fosstodon guide →](/Open_Internet_Manifest/NL/guides/fosstodon-account-maken.md)\
-[Bekijk de volledige Chaos.social guide →](/Open_Internet_Manifest/NL/guides/chaos-account-maken.md)
+[Bekijk de volledige Mastodon guide →](/Open_Internet_Manifest/NL/guides/mastodon-account-maken)\
+[Bekijk de volledige Fosstodon guide →](/Open_Internet_Manifest/NL/guides/fosstodon-account-maken)\
+[Bekijk de volledige Chaos.social guide →](/Open_Internet_Manifest/NL/guides/chaos-account-maken)
 
 Volg de mensen die je al kent.  
 Post één bericht.  
@@ -28,5 +28,5 @@ Dat is alles wat nodig is om te beginnen.
 
 ---
 
-| [← Thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20.md) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest.md) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-22.md) |
+| [← Thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-22) |
 | :--- | ---: | ---:|

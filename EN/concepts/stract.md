@@ -4,9 +4,9 @@ New open-source search engine with focus on speed, privacy, and independent inde
 
 No tracking, no ads, fully transparent.
 
-See also → [Thesis 18](/EN/theses/thesis-18.md) · [stract.com](https://stract.com/)
+See also → [Thesis 18](/EN/theses/thesis-18) · [stract.com](https://stract.com/)
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18.md) | |
+| ← [Back to thesis 18](/EN/theses/thesis-18) | |
 | :--- | ---:|

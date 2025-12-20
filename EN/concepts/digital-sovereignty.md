@@ -4,9 +4,9 @@ The inalienable right of every individual to have full control over their own da
 
 The opposite of dependence on gatekeepers and walled gardens.
 
-See also → [Sovereign node](/EN/concepts/sovereign-node.md) · [Gatekeepers](/EN/concepts/gatekeepers.md) · [Thesis 1](/EN/theses/thesis-01.md)
+See also → [Sovereign node](/EN/concepts/sovereign-node) · [Gatekeepers](/EN/concepts/gatekeepers) · [Thesis 1](/EN/theses/thesis-01)
 
 ---
 
-| ← [Back to thesis](/EN/theses/thesis-01.md) | |
+| ← [Back to thesis](/EN/theses/thesis-01) | |
 | :--- | ---:|

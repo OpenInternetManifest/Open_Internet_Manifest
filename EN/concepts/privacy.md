@@ -4,9 +4,9 @@ The natural right to be alone with your thoughts, conversations, and movements �
 
 In the physical world a basic expectation. Online turned into a “setting” you have to activate.
 
-See also → [Surveillance](/EN/concepts/surveillance.md) · [End-to-end encryption](/EN/concepts/end-to-end-encryption.md) · [Thesis 7](/EN/theses/thesis-07.md)
+See also → [Surveillance](/EN/concepts/surveillance) · [End-to-end encryption](/EN/concepts/end-to-end-encryption) · [Thesis 7](/EN/theses/thesis-07)
 
 ---
 
-| ← [Back to thesis 7](/EN/theses/thesis-07.md) | |
+| ← [Back to thesis 7](/EN/theses/thesis-07) | |
 | :--- | ---:|

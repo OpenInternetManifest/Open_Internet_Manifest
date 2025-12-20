@@ -6,9 +6,9 @@ They claim to protect you from viruses, hackers, and “dangerous content,” wh
 
 Real security comes from open standards, end-to-end encryption, and decentralization — not from one company that sees everything.
 
-See also → [Walled garden](/EN/concepts/walled-garden.md) · [Convenience](/EN/concepts/convenience.md) · [Thesis 2](/EN/theses/thesis-02.md)
+See also → [Walled garden](/EN/concepts/walled-garden) · [Convenience](/EN/concepts/convenience) · [Thesis 2](/EN/theses/thesis-02)
 
 ---
 
-| ← [Back to thesis 2](/EN/theses/thesis-02.md) | |
+| ← [Back to thesis 2](/EN/theses/thesis-02) | |
 | :--- | ---:|

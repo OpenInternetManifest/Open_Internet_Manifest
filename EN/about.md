@@ -8,13 +8,13 @@ This manifesto wants to give back an internet with real roads, squares, and path
 A living manifesto for a free, open, and decentralized internet — built and owned by the community.
 
 **Available in:**  
-- [Nederlands 🇳🇱](/Open_Internet_Manifest/NL/about.md)  
-- [English 🇬🇧](/EN/about.md) (this version)  
-- [Dansk 🇩🇰](/DK/about.md) ← coming soon
+- [Nederlands 🇳🇱](/Open_Internet_Manifest/NL/about)  
+- [English 🇬🇧](/EN/about) (this version)  
+- [Dansk 🇩🇰](/DK/about) ← coming soon
 
 ## The Theses
-[Start reading →](/EN/theses/thesis-00.md)  
-[All theses →](/EN/manifest.md)
+[Start reading →](/EN/theses/thesis-00)  
+[All theses →](/EN/manifest)
 
 ## Practical steps (start today)
 
@@ -52,5 +52,5 @@ Thank you so much for your support — you keep this project alive! 🚀
 
 ---
 
-| [← Homepage](/EN/) | [← All theses →](/EN/manifest.md) |
+| [← Homepage](/EN/) | [← All theses →](/EN/manifest) |
 | :--- | ---:|

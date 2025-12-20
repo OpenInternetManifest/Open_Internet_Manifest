@@ -4,9 +4,9 @@ Video platform based on LBRY blockchain – decentralized, censorship-resistant,
 
 No central owner, content remains available as long as nodes run.
 
-See also → [LBRY](/EN/concepts/lbry.md) · [Thesis 17](/EN/theses/thesis-17.md) · [odysee.com](https://odysee.com/)
+See also → [LBRY](/EN/concepts/lbry) · [Thesis 17](/EN/theses/thesis-17) · [odysee.com](https://odysee.com/)
 
 ---
 
-| ← [Back to thesis 17](/EN/theses/thesis-17.md) | |
+| ← [Back to thesis 17](/EN/theses/thesis-17) | |
 | :--- | ---:|

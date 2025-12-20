@@ -43,5 +43,5 @@ December 14, 2025 and beyond
 
 ---
 
-| [← Back to thesis 30](/EN/theses/thesis-30.md) | [← All theses →](/EN/manifest.md) |
+| [← Back to thesis 30](/EN/theses/thesis-30) | [← All theses →](/EN/manifest) |
 | :--- | ---:|

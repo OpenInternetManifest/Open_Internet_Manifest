@@ -1,6 +1,6 @@
 # Thesis 6
 
-***Exit without building is flight; building without exit is [**collaboration**](/EN/concepts/collaboration.md).***
+***Exit without building is flight; building without exit is [**collaboration**](/EN/concepts/collaboration).***
 
 Those who only complain and walk away from the big platforms disappear into a void where no one ever finds them.
 
@@ -8,7 +8,7 @@ Those who build beautiful new apps and “decentralized” services inside their
 
 Both paths lead nowhere: one to irrelevance, the other to strengthening exactly what we are fighting against.
 
-Real change requires one double movement: [**exit**](/EN/concepts/exit.md) from their ecosystems now and putting all our energy into [**building**](/EN/concepts/building.md) a [**new, truly open internet**](/EN/concepts/open-internet.md) that no one can ever close again.
+Real change requires one double movement: [**exit**](/EN/concepts/exit) from their ecosystems now and putting all our energy into [**building**](/EN/concepts/building) a [**new, truly open internet**](/EN/concepts/open-internet) that no one can ever close again.
 
 ---
 <div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
@@ -19,5 +19,5 @@ Real change requires one double movement: [**exit**](/EN/concepts/exit.md) from 
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-05.md) | [← All theses](/EN/manifest.md) | [Next thesis →](/EN/theses/thesis-07.md) |
+| [← Previous thesis](/EN/theses/thesis-05) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-07) |
 | :--- | ---: | ---: |
