@@ -223,7 +223,7 @@ function showFeedback(button, message) {
 
 ---
 
-<div style="text-align: center; margin: 4em 0 3em; padding: 2em; background: #f0f4f8; border-radius: 12px; font-size: 1em; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+<div style="text-align: center; margin: 4em 0 3em; padding: 2em; background: #f0f4f8; border-radius: 12px; font-size: 1em; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
 
 [← Terug naar startpagina](/Open_Internet_Manifest/) •  
 [Alle theses](/Open_Internet_Manifest/NL/manifest.md) •  
