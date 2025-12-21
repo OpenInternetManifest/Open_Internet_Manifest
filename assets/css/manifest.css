@@ -52,6 +52,33 @@ body {
   overflow-wrap: break-word;
 }
 
+.copy-container {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #a0a0a0; /* Grijs voor subtlety */
+}
+
+.copy-btn {
+  background: #1a5fb4; /* Blauw, passend bij thema */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85em;
+  padding: 4px 10px;
+  margin-left: 10px;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background: #4da6ff;
+}
+
+.copy-btn::before {
+  content: "📋 "; /* Emoji in button */
+}
+
 .intro-title {
   text-align: center;
   font-size: 2em;
