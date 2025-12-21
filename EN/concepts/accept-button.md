@@ -10,5 +10,6 @@ See also → [Convenience](/EN/concepts/convenience) · [Thesis 3](/EN/theses/th
 
 ---
 
-| ← [Back to thesis 3](/EN/theses/thesis-03) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-03">Back to thesis 3</a>
+</div>
