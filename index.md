@@ -11,3 +11,7 @@ Een living manifest voor een vrij, open en gedecentraliseerd internet.
 Direct naar het manifest: [Nederlandse versie met 30 theses](/Open_Internet_Manifest/NL/manifest)
 
 Het manifest is levend – jij bent mede-auteur.
+
+<!-- test -->
+
+
