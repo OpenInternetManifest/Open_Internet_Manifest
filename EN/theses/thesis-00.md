@@ -1,6 +1,6 @@
 # Open Internet Manifesto
 
-### 100 theses for a free, open and inalienable internet
+### 100 theses for a free, open and inalienable internet.
 
 This is not a petition.  
 This is not a compromise.  
