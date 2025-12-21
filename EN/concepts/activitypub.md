@@ -10,5 +10,6 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [Mas
 
 ---
 
-| ← [Back to thesis 12](/EN/theses/thesis-12) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-12">Back to thesis 12</a>
+</div>
