@@ -1,45 +1,30 @@
 @import
  "{{ site.theme }}";.page-header {
   display: none !important;
+}body {
+  background: #0f1419 !important; /* Force donker thema, override alles /
+  color: #e0e0e0 !important; / Witte tekst voor contrast /
+  margin: 0; / Verwijder default margins */
+}.custom-header {
+  background: transparent !important; /* Voor overlay op banner */
 }.custom-header .banner {
-  position: relative;
+  max-height: 300px; /* Sync met layout */
   overflow: hidden;
-  height: 300px; /* Fixed height voor consistentie, adjust als nodig */
 }.custom-header .banner img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }.custom-header .overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background: rgba(15,20,25,0.7); /* Lichte dark overlay voor contrast */
-  padding: 1em 2em;
+  background: rgba(15,20,25,0.7); /* Dark overlay voor text readability */
+  padding: 1em;
   border-radius: 12px;
-}.custom-header .site-title {
-  font-size: 2.2em; /* Groter voor impact /
-  margin: 0;
-  color: #e0e0e0;
-  text-shadow: 0 3px 6px rgba(0,0,0,0.6); / Mooier shadow */
-  letter-spacing: 0.05em;
-}.custom-header .site-description {
-  font-size: 1.2em;
-  margin: 0.5em 0 0;
-  color: #ccc;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
-}/* Mobile */
+}.main-content {
+  background: #0f1419 !important; /* Zorg dat content ook donker is */
+}/* Mobile adjust */
 @media
  (max-width: 768px) {
   .custom-header .banner {
-    height: 200px;
-  }
-  .custom-header .site-title {
-    font-size: 1.6em;
-  }
-  .custom-header .site-description {
-    font-size: 0.9em;
+    max-height: 200px;
   }
 }
 
