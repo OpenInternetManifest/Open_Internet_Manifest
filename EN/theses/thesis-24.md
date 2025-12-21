@@ -24,4 +24,8 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 ---
 
 | [← Thesis 23](/EN/theses/thesis-23) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-25) |
-| :--- | ---: | ---:|
+| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+

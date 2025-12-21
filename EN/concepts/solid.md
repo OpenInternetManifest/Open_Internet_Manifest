@@ -8,5 +8,11 @@ See also → [Data sovereignty](/EN/concepts/data-sovereignty) · [Thesis 13](/E
 
 ---
 
-| ← [Back to thesis 13](/EN/theses/thesis-13) | |
-| :--- | ---:|
+<div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div> thesis 13](/EN/theses/thesis-13) | |
+| :--- | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+

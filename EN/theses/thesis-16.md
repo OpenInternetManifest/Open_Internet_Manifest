@@ -20,4 +20,8 @@ The full step-by-step guide is coming → [Messaging apps without Big Tech – c
 ---
 
 | [← Thesis 15](/EN/theses/thesis-15) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-17) |
-| :--- | ---: | ---:|
+| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+

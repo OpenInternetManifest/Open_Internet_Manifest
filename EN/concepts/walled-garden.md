@@ -8,5 +8,11 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Thesis 1](/EN/theses/th
 
 ---
 
-| ← [Back to thesis](/EN/theses/thesis-01) | |
-| :--- | ---:|
+<div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div> thesis](/EN/theses/thesis-01) | |
+| :--- | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+

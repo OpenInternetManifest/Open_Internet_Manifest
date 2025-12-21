@@ -17,5 +17,11 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Walled garden](/EN/conc
 
 ---
 
-| ← [Back to thesis 10](/EN/theses/thesis-10) | |
-| :--- | ---:|
+<div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div> thesis 10](/EN/theses/thesis-10) | |
+| :--- | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+

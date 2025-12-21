@@ -8,5 +8,11 @@ See also → [Collective exit](/EN/concepts/collective-exit) · [Building](/EN/c
 
 ---
 
-| ← [Back to thesis 6](/EN/theses/thesis-06) | |
-| :--- | ---:|
+<div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div> thesis 6](/EN/theses/thesis-06) | |
+| :--- | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+

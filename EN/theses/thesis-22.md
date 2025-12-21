@@ -26,4 +26,8 @@ The full step-by-step guide is coming → [Element migration – coming soon](/E
 ---
 
 | [← Thesis 21](/EN/theses/thesis-21) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-23) |
-| :--- | ---: | ---:|
+| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Back to previous page</a>
+</div>
+
+
