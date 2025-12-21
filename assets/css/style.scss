@@ -2,22 +2,46 @@
  "{{ site.theme }}";.page-header {
   display: none !important;
 }.custom-header {
-  background: #0f1419; /* Donker thema match /
-  padding: 0.5em 0; / Compacter /
+  position: absolute; /* Overlay op banner /
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent; / Geen solid bg, blend met banner /
+  color: #e0e0e0;
+  padding: 1em 0; / Ruimte voor centering /
   text-align: center;
-  border-bottom: none; / Verwijder border als te lelijk */
+  z-index: 1; / Boven banner image */
 }.custom-header .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }.custom-header .site-title {
-  font-size: 1.4em; /* Kleiner, niet schreeuwerig /
+  font-size: 1.8em; /* Iets groter voor impact over banner /
   margin: 0;
-  color: #66b3ff; / Blauw accent */
+  color: #66b3ff;
   font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); / Shadow voor contrast op image */
 }.custom-header .site-description {
-  font-size: 0.8em; /* Subtiel /
-  margin: 0.2em 0 0;
-  color: #a0a0a0; / Grijs, niet te fel */
+  font-size: 1em;
+  margin: 0.3em 0 0;
+  color: #ccc; /* Lichter grijs voor visibility */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}/* Zorg dat banner relatief is voor overlay /
+.banner {
+  position: relative; / Basis voor absolute header /
+  margin-top: 0; / Geen gap bovenaan */
+}/* Mobile tweaks */
+@media
+ (max-width: 768px) {
+  .custom-header .site-title {
+font-size: 1.4em;
+  }
+  .custom-header .site-description {
+font-size: 0.8em;
+  }
 }
 
