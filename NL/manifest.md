@@ -3,7 +3,6 @@
 <p class="intro-title">De eerste 30 theses zijn klaar</p>
 <p class="intro-text">Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.</p>
 
-
 ---
 
 <ul class="theses-list" id="content">  <!-- Voor skip-to-content accessibility -->
