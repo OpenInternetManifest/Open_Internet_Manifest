@@ -1,7 +1,8 @@
-
+<link rel="stylesheet" href="/Open_Internet_Manifest/assets/css/manifest.css">
 
 <p class="intro-title">De eerste 30 theses zijn klaar</p>
 <p class="intro-text">Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.</p>
+
 
 ---
 
