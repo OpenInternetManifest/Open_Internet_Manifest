@@ -1,5 +1,8 @@
-@import
- "{{ Cayman }}";.site-header {
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
   display: none !important;
 }
-
