@@ -1,4 +1,4 @@
-<div style="position: relative; margin: 2em 0; text-align: center; overflow: hidden; height: 60vh; max-height: 400px;">
+<div style="position: relative; margin: 2em 0; text-align: center; overflow: hidden; height: 60vh; max-height: 600px;">
   <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
 
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(15,20,25,0.85); padding: 2em 3em; border-radius: 36px; max-width: 95%; width: auto;">
