@@ -1,13 +1,13 @@
 <link rel="stylesheet" href="/Open_Internet_Manifest/assets/css/manifest.css">
 
-<div class="banner">
+<div class="banner" style="position: relative;">  <!-- Relative voor overlay -->
   <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest">
   <div class="overlay">
-     <h1>Open Internet Manifest</h1>
     <h1>🇳🇱 Nederlandse versie 🇳🇱</h1>
     <p>100 theses voor een vrij, open en onvervreemdbaar internet</p>
   </div>
 </div>
+<!-- Rest unchanged -->
 
 <p class="intro-title">De eerste 30 theses zijn klaar</p>
 <p class="intro-text">Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.</p>
