@@ -1,19 +1,26 @@
----
----
-
-@import "{{ site.theme }}";
-
-.page-header {
+@import
+ "{{ site.theme }}";.page-header {
   display: none !important;
-}
-.custom-header {
-  background: #0f1419; /* Jouw donkere achtergrond */
+}body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}.custom-header {
+  background: #0f1419;
   color: #e0e0e0;
   padding: 1em 0;
   text-align: center;
-  border-bottom: 1px solid #333; /* Subtiele lijn voor scheiding */
-}
-
-.custom-header .site-title {
+  border-bottom: 1px solid #333;
+}.custom-header .site-title {
   font-size: 2em;
   margin: 0;
+  color: #66b3ff;
+}.custom-header .site-description {
+  font-size: 1em;
+  margin: 0.5em 0 0;
+  color: #a0a0a0;
+}.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
