@@ -6,6 +6,19 @@
   color: #e0e0e0 !important;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+}.main-content, .site-footer {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+}a {
+  color: #66b3ff !important;
+} "{{ site.theme }}";.page-header {
+  display: none !important;
+}body {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+  margin: 0;
+  padding: 0;
 }.main-content, .site-footer {
   background: #0f1419 !important;
 }/* Jouw andere manifest.css styles (banner, buttons, etc.) hier ook verplaatsen als nodig */
