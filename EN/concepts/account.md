@@ -9,5 +9,6 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Digital sovereignty](/E
 
 ---
 
-| ← [Back to thesis 2](/EN/theses/thesis-02) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-02">Back to thesis 2</a>
+</div>
