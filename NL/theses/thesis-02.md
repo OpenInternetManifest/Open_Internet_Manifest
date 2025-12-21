@@ -17,5 +17,7 @@ Zij noemen die ketting “[**gemak**](/Open_Internet_Manifest/NL/begrippen/gemak
 
 ---
 
-|  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-01) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-03) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-03">Volgende thesis</a>
+</div>
+
