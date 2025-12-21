@@ -3,7 +3,8 @@
 <div class="banner">
   <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest">
   <div class="overlay">
-    <h1>🇳🇱 Nederlandse versie 🇳🇱</h1>
+     <h1>🇳🇱 Open Internet Manifest</h1>
+    <h2>🇳🇱 Nederlandse versie 🇳🇱</h2>
     <p>100 theses voor een vrij, open en onvervreemdbaar internet</p>
   </div>
 </div>
