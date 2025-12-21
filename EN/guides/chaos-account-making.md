@@ -62,7 +62,6 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 </div>
 
 ---
-
 <div style="text-align: center; margin-top: 2em;">
   ← <a href="/EN/theses/thesis-21">Back  21</a>
 </div>
