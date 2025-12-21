@@ -8,5 +8,6 @@ See also → [Nostr](/EN/concepts/nostr) · [Thesis 24](/EN/theses/thesis-24)
 
 ---
 
-| ← [Back to thesis 24](/EN/theses/thesis-24) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-24">Back to thesis 24</a>
+</div>
