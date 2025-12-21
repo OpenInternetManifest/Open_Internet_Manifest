@@ -1,49 +1,62 @@
-@import "{{ site.theme }}";
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-.custom-header .banner {
+mport
+ "{{ site.theme }}";.page-header {
+  display: none !important;
+}html, body {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}.main-content, .site-footer {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+  padding: 2em 1em;
+}a {
+  color: #66b3ff !important;
+}.custom-header .banner {
   position: relative;
-  height: 350px; /* Maak kleiner dan 400px als te groot, bijv. 300px */
+  width: 100%;
+  height: 500px; /* Meer hoogte = meer logo zichtbaar, adjust naar 450px of 550px */
   overflow: hidden;
-  border-radius: 12px;
-}
-
-.custom-header .banner img {
+}.custom-header .banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-}
-
-.custom-header .overlay {
+  object-position: center top; /* Focus op slot bovenaan */
+}.custom-header .overlay {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(15,20,25,0.75);
-  padding: 1.5em 3em;
-  border-radius: 16px;
+  background: rgba(15,20,25,0.8);
+  padding: 2em 4em;
+  border-radius: 20px;
   text-align: center;
-}
-
-/* Force dark theme weer */
-html, body, .main-content, .site-footer {
-  background: #0f1419 !important;
-  color: #e0e0e0 !important;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
+  max-width: 90%;
+}.site-title {
+  font-size: 2.8em;
+  margin: 0;
+  color: #e0e0e0;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+}.site-description {
+  font-size: 1.4em;
+  margin: 0.5em 0 0;
+  color: #ccc;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+}/* Mobile */
+@media
+ (max-width: 768px) {
   .custom-header .banner {
-    height: 250px;
-    border-radius: 0;
+    height: 350px;
   }
-  .container {
-    padding: 0;
+  .site-title {
+    font-size: 2em;
+  }
+  .site-description {
+    font-size: 1.1em;
+  }
+  .custom-header .overlay {
+    padding: 1.5em 2em;
   }
 }
+
