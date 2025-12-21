@@ -1,20 +1,19 @@
 <link rel="stylesheet" href="/Open_Internet_Manifest/assets/css/manifest.css">
 
-<div class="banner" style="position: relative;">  <!-- Relative voor overlay -->
+<div class="banner" style="position: relative;">
   <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest">
   <div class="overlay">
     <h1>🇳🇱 Nederlandse versie 🇳🇱</h1>
     <p>100 theses voor een vrij, open en onvervreemdbaar internet</p>
   </div>
 </div>
-<!-- Rest unchanged -->
 
 <p class="intro-title">De eerste 30 theses zijn klaar</p>
 <p class="intro-text">Dit manifest is levend — het groeit door bijdragen van mensen zoals jij.</p>
 
 ---
 
-<ul class="theses-list">
+<ul class="theses-list" id="content">  <!-- Voor skip-to-content accessibility -->
   <li>
     <a href="/Open_Internet_Manifest/NL/theses/thesis-01"><strong>Thesis 1</strong> — Het internet is niet dood; het is gekaapt door vijf poortwachters</a>
     <div class="copy-container">
