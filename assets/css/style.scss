@@ -1,50 +1,23 @@
 @import
  "{{ site.theme }}";.page-header {
   display: none !important;
-}body {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-.custom-header {
-  background: #0f1419; /* Donker, matchend met body */
-  color: #e0e0e0;
-  padding: 0.8em 0; /* Minder padding voor compactness */
+}.custom-header {
+  background: #0f1419; /* Donker thema match /
+  padding: 0.5em 0; / Compacter /
   text-align: center;
-  border-bottom: 1px solid #222; /* Donkerder border voor subtlety */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Lichte shadow voor diepte */
-}
-
-.custom-header .site-title {
-  font-size: 1.6em; /* Kleiner voor minder dominantie */
+  border-bottom: none; / Verwijder border als te lelijk */
+}.custom-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}.custom-header .site-title {
+  font-size: 1.4em; /* Kleiner, niet schreeuwerig /
   margin: 0;
-  color: #66b3ff; /* Blauw accent behouden */
-  letter-spacing: 0.05em; /* Beetje spacing voor readability */
-}
-
-.custom-header .site-description {
-  font-size: 0.9em; /* Nog kleiner */
-  margin: 0.3em 0 0;
-  color: #888; /* Grijs, minder opvallend */
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-/* Optional: Voeg logo toe links of center */
-.custom-header .logo {
-  width: 40px; /* Klein icoon */
-  height: auto;
-  margin-bottom: 0.5em;
-}
-}.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1em;
+  color: #66b3ff; / Blauw accent */
+  font-weight: bold;
+}.custom-header .site-description {
+  font-size: 0.8em; /* Subtiel /
+  margin: 0.2em 0 0;
+  color: #a0a0a0; / Grijs, niet te fel */
 }
 
