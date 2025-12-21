@@ -1,60 +1,66 @@
-@import
- "{{ site.theme }}";.page-header {
+@import "{{ site.theme }}";
+
+.page-header {
   display: none !important;
-}body {
-  body, .main-content, .site-footer {
-  background: #0f1419 !important;
-  color: #e0e0e0 !important;
-}.custom-header {
-  background: transparent !important;
-}.custom-header {
-  background: transparent !important; /* Voor overlay op banner */
-}.custom-header .banner {
-  height: 300px; /* Set fixed height to make larger than small, adjust to 400px if too small */
-  overflow: hidden;
-}.custom-header .banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Center and fit without distort */
-  object-position: center;
-}.custom-header .overlay {
-  background: rgba(15,20,25,0.7); /* Dark overlay voor text readability */
-  padding: 1em;
-  border-radius: 12px;
-}.main-content {
-  background: #0f1419 !important; /* Zorg dat content ook donker is */
-}.page-header {
-  display: none !important;
-}.custom-header .banner {
-  position: relative;
-  height: 200px; /* Kleiner maken, adjust to 150px if too big */
-  overflow: hidden;
-}.custom-header .banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Fix cropping, center image */
-  object-position: center;
-}.custom-header .overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(15,20,25,0.7);
-  padding: 1em;
-  border-radius: 12px;
-  text-align: center;
-}.page-header {
-  display: none !important;
-}body, .main-content, .site-footer {
-  background: #0f1419 !important;
-  color: #e0e0e0 !important;
-}.custom-header {
-  background: transparent !important;
-}/* Mobile adjust */
-@media
- (max-width: 768px) {
-  .custom-header .banner {
-    max-height: 200px;
-  }
 }
 
+body.full-background {
+  background: url('/Open_Internet_Manifest/assets/banner.jpg') center center / cover no-repeat fixed;
+  min-height: 100vh;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.custom-header {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.overlay-text {
+  background: rgba(15,20,25,0.7);
+  padding: 1.5em 2em;
+  border-radius: 16px;
+  display: inline-block;
+  margin-top: 10vh; /* Space from top */
+}
+
+.site-title {
+  font-size: 2.5em;
+  margin: 0;
+  color: #66b3ff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+}
+
+.site-description {
+  font-size: 1.2em;
+  margin: 0.5em 0 0;
+  color: #ccc;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+.main-content {
+  background: rgba(15,20,25,0.85); /* Dark semi-transparent overlay op content voor readability */
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 1000px;
+  border-radius: 12px;
+  min-height: calc(100vh - 200px); /* Zorg dat content ruimte heeft */
+}
+
+.site-footer {
+  background: rgba(15,20,25,0.9);
+  padding: 1em;
+  text-align: center;
+  color: #888;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 1.8em;
+  }
+  .main-content {
+    margin: 1em;
+    padding: 1.5em;
+  }
+}
