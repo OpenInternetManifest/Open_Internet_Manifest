@@ -10,5 +10,6 @@ See also → [Privacy](/EN/concepts/privacy) · [Free protocols](/EN/concepts/in
 
 ---
 
-  7](/EN/theses/thesis-07) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-07">Back  07</a>
+</div>

@@ -16,5 +16,7 @@ Eén transactie buiten hun systeem is genoeg om te voelen hoe [**financiële soe
 
 ---
 
-| [← Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-20) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-20">Volgende thesis</a>
+</div>
+

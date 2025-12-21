@@ -17,5 +17,6 @@ They call that chain “[**convenience**](/EN/concepts/convenience)” and “[*
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-01) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-03) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-03">BNext thesis →</a>
+</div>

@@ -12,5 +12,6 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Collective exit](/EN/co
 
 ---
 
-  4](/EN/theses/thesis-04) 
-
+  <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-04">Back  04</a>
+</div>

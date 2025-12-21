@@ -19,5 +19,6 @@ Real freedom means an internet where you can speak, connect, and create somethin
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-04) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-06) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-06">BNext thesis →</a>
+</div>

@@ -8,5 +8,6 @@ See also → [Bitcoin + Lightning](/EN/concepts/bitcoin-lightning) · [Thesis 19
 
 ---
 
-  19](/EN/theses/thesis-19) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-17">Back  17</a>
+</div>

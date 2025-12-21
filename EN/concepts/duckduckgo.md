@@ -12,5 +12,6 @@ See also → [Brave Search](/EN/concepts/brave-search) · [Thesis 18](/EN/theses
 
 ---
 
-  18](/EN/theses/thesis-18) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-01">Back  01</a>
+</div>

@@ -10,5 +10,6 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Independent protoco
 
 ---
 
-  5](/EN/theses/thesis-05) 
-
+ <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-05">Back  05</a>
+</div>

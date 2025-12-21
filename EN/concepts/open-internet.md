@@ -8,5 +8,6 @@ See also → [Digital sovereignty](/EN/concepts/digital-sovereignty) · [Soverei
 
 ---
 
-  6](/EN/theses/thesis-06) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-06">Back  06</a>
+</div>

@@ -10,5 +10,7 @@ See also → [Surveillance](/EN/concepts/surveillance) · [Regulation](/EN/conce
 
 ---
 
-  5](/EN/theses/thesis-05) 
+ <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-05">Back  05</a>
+</div>
 

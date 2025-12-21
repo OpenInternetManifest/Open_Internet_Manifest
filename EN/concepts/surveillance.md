@@ -10,5 +10,7 @@ See also → [Data collection](/EN/concepts/data-collection) · [Thesis 3](/EN/t
 
 ---
 
-  3](/EN/theses/thesis-03) 
+ <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-03">Back  3</a>
+</div>
 

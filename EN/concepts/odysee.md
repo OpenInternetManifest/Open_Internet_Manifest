@@ -8,5 +8,6 @@ See also → [LBRY](/EN/concepts/lbry) · [Thesis 17](/EN/theses/thesis-17) · [
 
 ---
 
-  17](/EN/theses/thesis-17) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-17">Back  17</a>
+</div>

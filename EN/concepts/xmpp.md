@@ -8,5 +8,7 @@ See also → [Matrix](/EN/concepts/matrix) · [Thesis 16](/EN/theses/thesis-16) 
 
 ---
 
-  16](/EN/theses/thesis-16) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-16">Back  16</a>
+</div>
 

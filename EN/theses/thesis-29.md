@@ -16,5 +16,6 @@ Freedom is not a destination — it is a habit you can pick up again today.
 
 ---
 
-| [← Thesis 28](/EN/theses/thesis-28) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-30) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-30">BNext thesis →</a>
+</div>

@@ -16,5 +16,6 @@ One euro per month from a million people changes everything.
 
 ---
 
-| [← Thesis 25](/EN/theses/thesis-25) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-27) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-27">BNext thesis →</a>
+</div>

@@ -8,5 +8,7 @@ See also → [Surveillance](/EN/concepts/surveillance) · [End-to-end encryption
 
 ---
 
-  7](/EN/theses/thesis-07) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-07">Back  7</a>
+</div>
 

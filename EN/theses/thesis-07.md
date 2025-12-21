@@ -24,5 +24,6 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-06) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-08) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-08">BNext thesis →</a>
+</div>

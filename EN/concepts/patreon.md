@@ -10,5 +10,7 @@ See also → [GitHub Sponsors](/EN/concepts/github-sponsors) · [Thesis 26](/EN/
 
 ---
 
-  26](/EN/theses/thesis-26) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-26">Back  26</a>
+</div>
 

@@ -22,5 +22,6 @@ Door nu te bouwen aan [**vrije protocollen**](/Open_Internet_Manifest/NL/begripp
 
 ---
 
-|  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-06) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-08) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-08">Volgende thesis</a>
+</div>

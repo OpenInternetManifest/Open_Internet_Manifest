@@ -17,5 +17,6 @@ We stand on the narrowest edge of history: the moment when [**collective exit**]
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-03) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-05) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-05">BNext thesis →</a>
+</div>

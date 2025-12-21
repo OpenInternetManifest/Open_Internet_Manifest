@@ -8,5 +8,7 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Thesis 1](/EN/theses/th
 
 ---
 
- ](/EN/theses/thesis-01) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-01">Back  1</a>
+</div>
 

@@ -8,5 +8,7 @@ See also → [Monero](/EN/concepts/monero) · [Nostr zaps](/EN/concepts/nostr-za
 
 ---
 
-  19](/EN/theses/thesis-19) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-19">Back  19</a>
+</div>
 

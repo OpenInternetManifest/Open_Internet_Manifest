@@ -16,5 +16,6 @@ You can take them with you, share them with whomever you want, and truly delete 
 
 ---
 
-| [← Thesis 12](/EN/theses/thesis-12) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-14) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-14">BNext thesis →</a>
+</div>

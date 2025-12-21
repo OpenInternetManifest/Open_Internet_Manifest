@@ -8,5 +8,6 @@ See also → [Thesis 18](/EN/theses/thesis-18) · [mojeek.com](https://www.mojee
 
 ---
 
-  18](/EN/theses/thesis-18) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-18">Back  18</a>
+</div>

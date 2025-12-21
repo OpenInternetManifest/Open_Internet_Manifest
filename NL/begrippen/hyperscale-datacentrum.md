@@ -9,3 +9,7 @@ Kosten: miljarden euro’s + honderden megawatts + grondwaterkoeling.
 Nut bij 30 % node-adoptie: nul.
 
 Zie ook → Sovereign Node · Energie-impact
+
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-02">Terug naar thesis 2</a>
+</div>

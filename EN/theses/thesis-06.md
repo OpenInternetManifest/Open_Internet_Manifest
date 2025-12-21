@@ -19,5 +19,6 @@ Real change requires one double movement: [**exit**](/EN/concepts/exit) from the
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-05) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-07) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-07">BNext thesis →</a>
+</div>

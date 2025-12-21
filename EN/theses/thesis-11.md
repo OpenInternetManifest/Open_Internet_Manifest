@@ -20,5 +20,6 @@ By holding it in your hands now, you become a co-author — because a truly open
 
 ---
 
-| [← Thesis 10](/EN/theses/thesis-10) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-12) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-12">BNext thesis →</a>
+</div>

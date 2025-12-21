@@ -8,5 +8,7 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [IPFS](/EN/concept
 
 ---
 
-  7](/EN/theses/thesis-07) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-07">Back  7</a>
+</div>
 

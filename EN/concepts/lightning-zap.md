@@ -8,5 +8,6 @@ See also → [Bitcoin + Lightning](/EN/concepts/bitcoin-lightning) · [Nostr zap
 
 ---
 
-  26](/EN/theses/thesis-26) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-26">Back  26</a>
+</div>

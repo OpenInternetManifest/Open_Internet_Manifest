@@ -10,5 +10,7 @@ Zie ook → [Matrix](/Open_Internet_Manifest/NL/begrippen/matrix) · [Thesis 20]
 
 ---
 
-Terug naar thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-20">Terug naar thesis 20</a>
+</div>
 

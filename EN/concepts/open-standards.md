@@ -10,5 +10,6 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [The
 
 ---
 
-  28](/EN/theses/thesis-28) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-28">Back  28</a>
+</div>

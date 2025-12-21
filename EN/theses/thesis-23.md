@@ -21,5 +21,6 @@ See also the practical Raspberry [Pi node guide](/EN/guides/raspberry-pi-node) �
 
 ---
 
-| [← Thesis 22](/EN/theses/thesis-22) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-24) |
-| :---  ---:|
+|<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-24">BNext thesis →</a>
+</div>

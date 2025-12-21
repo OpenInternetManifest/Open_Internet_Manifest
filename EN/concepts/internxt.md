@@ -8,5 +8,6 @@ See also → [Data sovereignty](/EN/concepts/data-sovereignty) · [Thesis 23](/E
 
 ---
 
-  23](/EN/theses/thesis-23) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-23">Back 23</a>
+</div>

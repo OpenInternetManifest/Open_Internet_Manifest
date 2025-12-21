@@ -19,5 +19,7 @@ Jouw uitnodiging van vandaag is het netwerk-effect van morgen.
 
 ---
 
-| [← Thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-28) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-28">Volgende thesis</a>
+</div>
+

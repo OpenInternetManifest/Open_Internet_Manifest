@@ -18,5 +18,7 @@ Elke dag dat we ze meer gebruiken, wordt het monopolie van de vijf [**poortwacht
 
 ---
 
-| [← Thesis 11](/Open_Internet_Manifest/NL/theses/thesis-11) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-13) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-13">Volgende thesis</a>
+</div>
+

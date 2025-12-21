@@ -18,5 +18,7 @@ Begin met eisen wat al jaren wettelijk verplicht had moeten zijn.
 
 ---
 
-| [← Thesis 27](/Open_Internet_Manifest/NL/theses/thesis-27) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-29) |
-| :---  ---:|
+|<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-29">Volgende thesis</a>
+</div>
+

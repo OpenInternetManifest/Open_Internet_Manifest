@@ -16,5 +16,7 @@ Je bouwt reputatie op één plek en die reist met je mee – zoals het hoort.
 
 ---
 
-| [← Thesis 13](/Open_Internet_Manifest/NL/theses/thesis-13) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-15) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-15">Volgende thesis</a>
+</div>
+

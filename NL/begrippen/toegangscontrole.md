@@ -10,5 +10,7 @@ Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters) 
 
 ---
 
-Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-03">Terug naar thesis 3</a>
+</div>
 

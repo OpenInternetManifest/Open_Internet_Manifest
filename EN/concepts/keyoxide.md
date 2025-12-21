@@ -10,5 +10,6 @@ See also → [Nostr](/EN/concepts/nostr) · [DID](/EN/concepts/did) · [Thesis 1
 
 ---
 
-  14](/EN/theses/thesis-14) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-14">Back  14</a>
+</div>

@@ -17,8 +17,6 @@ Will you walk with us?
 
 ---
 
-| [← Thesis 29](/EN/theses/thesis-29) | [← All theses](/EN/manifest) | [The manifesto is alive →](/EN/living-manifesto) |
-| :---  ---:|
 <div style="text-align: center; margin-top: 2em;">
   ← <a href="/EN/living-manifesto">The manifesto is alive →</a>
 </div>

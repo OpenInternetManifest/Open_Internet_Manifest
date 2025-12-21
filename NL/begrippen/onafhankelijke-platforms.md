@@ -10,5 +10,6 @@ Zie ook → [Onafhankelijke protocollen](/Open_Internet_Manifest/NL/begrippen/on
 
 ---
 
-Terug naar thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-09">Terug naar thesis 9</a>
+</div>

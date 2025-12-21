@@ -19,5 +19,7 @@ Alleen een echt open internet kan die uitbreiding stoppen – door te laten zien
 
 ---
 
-| [← Thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-11) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-11">Volgende thesis</a>
+</div>
+

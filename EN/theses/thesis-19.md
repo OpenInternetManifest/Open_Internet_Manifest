@@ -16,5 +16,6 @@ One transaction outside their system is enough to feel how [**financial sovereig
 
 ---
 
-| [← Thesis 18](/EN/theses/thesis-18) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-20) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-20">BNext thesis →</a>
+</div>

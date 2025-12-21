@@ -20,5 +20,7 @@ Door het nu in je handen te houden, word jij mede-auteur – want een echt open 
 
 ---
 
-| [← Thesis 10](/Open_Internet_Manifest/NL/theses/thesis-10) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-12) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-12">Volgende thesis</a>
+</div>
+

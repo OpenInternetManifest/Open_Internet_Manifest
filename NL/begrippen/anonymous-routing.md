@@ -8,3 +8,7 @@ Real-world voorbeelden waar het levens redt:
 - Slachtoffers van huiselijk geweld zoeken veilig hulp zonder dat de dader het in de provider-logs ziet.
 
 Anonimiteit is geen “crimineel gereedschap”; het is de digitale versie van een stemhokje.
+
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-02">Terug naar thesis 2</a>
+</div>

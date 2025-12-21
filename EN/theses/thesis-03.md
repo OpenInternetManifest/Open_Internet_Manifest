@@ -22,5 +22,6 @@ This normalization of [**surveillance**](/EN/concepts/surveillance), [**data col
 
 ---
 
-| [← Previous thesis](/EN/theses/thesis-02) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-04) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-04">BNext thesis →</a>
+</div>

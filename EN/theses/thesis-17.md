@@ -23,5 +23,6 @@ The full step-by-step guide is coming → [Video without YouTube – coming soon
 
 ---
 
-| [← Thesis 16](/EN/theses/thesis-16) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-18) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-18">BNext thesis →</a>
+</div>

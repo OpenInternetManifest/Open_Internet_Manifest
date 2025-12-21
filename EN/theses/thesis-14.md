@@ -16,5 +16,6 @@ You build reputation in one place and it travels with you — as it should.
 
 ---
 
-| [← Thesis 13](/EN/theses/thesis-13) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-15) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-15">BNext thesis →</a>
+</div>

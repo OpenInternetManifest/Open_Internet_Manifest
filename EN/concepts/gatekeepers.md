@@ -12,5 +12,6 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Digital sovereignty
 
 ---
 
-  1](/EN/theses/thesis-01) |  2](/EN/theses/thesis-02) |  6](/EN/theses/thesis-06) |
-| :---  ---: |
+  <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-17">Back  01</a>
+</div>

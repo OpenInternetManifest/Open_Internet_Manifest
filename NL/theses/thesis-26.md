@@ -16,5 +16,7 @@ Eén euro per maand van een miljoen mensen verandert alles.
 
 ---
 
-| [← Thesis 25](/Open_Internet_Manifest/NL/theses/thesis-25) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-27) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-27">Volgende thesis</a>
+</div>
+

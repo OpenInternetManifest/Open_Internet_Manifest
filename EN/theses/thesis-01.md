@@ -17,5 +17,6 @@ As long as their grip is not broken, [**digital sovereignty**](/EN/concepts/digi
 
 ---
 
-| [← Foreword](/EN/theses/thesis-00) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-02) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-02">BNext thesis →</a>
+</div>

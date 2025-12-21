@@ -8,5 +8,6 @@ See also → [ActivityPub](/EN/concepts/activitypub) · [Thesis 15](/EN/theses/t
 
 ---
 
-  15](/EN/theses/thesis-15) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-15">Back  15</a>
+</div>

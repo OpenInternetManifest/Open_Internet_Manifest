@@ -23,5 +23,6 @@ It already works today for millions of people. The only thing still missing is y
 
 ---
 
-| [← Thesis 14](/EN/theses/thesis-14) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-16) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-16">BNext thesis →</a>
+</div>

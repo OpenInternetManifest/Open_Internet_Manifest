@@ -29,5 +29,6 @@ That is all it takes to get started.
 
 ---
 
-| [← Thesis 20](/EN/theses/thesis-20) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-22) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-22">BNext thesis →</a>
+</div>

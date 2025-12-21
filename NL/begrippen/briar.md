@@ -10,5 +10,6 @@ Zie ook → [Tor](/Open_Internet_Manifest/NL/begrippen/tor) · [Thesis 16](/Open
 
 ---
 
-Terug naar thesis 16](/Open_Internet_Manifest/NL/theses/thesis-16) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-16">Terug naar thesis 16</a>
+</div>

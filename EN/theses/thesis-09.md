@@ -23,5 +23,6 @@ The full step-by-step guide is coming → [Peer-to-peer payments – coming soon
 
 ---
 
-| [← Thesis 8](/EN/theses/thesis-08) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-10) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-10">BNext thesis →</a>
+</div>

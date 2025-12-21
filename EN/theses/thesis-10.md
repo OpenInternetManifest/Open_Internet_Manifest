@@ -20,5 +20,6 @@ Only a truly open internet can stop this expansion — by showing that a free di
 
 ---
 
-| [← Thesis 9](/EN/theses/thesis-09) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-11) |
-| :---  ---:|
+|<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-11">BNext thesis →</a>
+</div>

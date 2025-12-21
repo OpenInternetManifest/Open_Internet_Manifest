@@ -20,5 +20,6 @@ Geen cloud is veiliger dan je eigen cloud.
 
 ---
 
-| [← Thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-24) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-24">Volgende thesis</a>
+</div>

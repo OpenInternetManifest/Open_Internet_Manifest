@@ -31,5 +31,7 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 </div>
 
 ---
-| [← Back  9](/EN/theses/thesis-09) | [← All theses →](/EN/manifest) |
 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-09">Back  9</a>
+</div>

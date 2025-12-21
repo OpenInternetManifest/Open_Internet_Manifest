@@ -10,5 +10,7 @@ Zie ook → [Bitcoin + Lightning](/Open_Internet_Manifest/NL/begrippen/bitcoin-l
 
 ---
 
-Terug naar thesis 19](/Open_Internet_Manifest/NL/theses/thesis-19) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-19">Terug naar thesis 19</a>
+</div>
 

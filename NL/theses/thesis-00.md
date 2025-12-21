@@ -50,3 +50,7 @@ Welkom bij het begin.
 <small style="display: block; text-align: center; margin-top: 2em; color: #888;">
 This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
 </small>
+
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-XX">← Terug naar thesis XX</a>
+</div>

@@ -10,5 +10,6 @@ See also → [Enclosures](/EN/concepts/enclosures) · [Thesis 4](/EN/theses/thes
 
 ---
 
-  4](/EN/theses/thesis-04) 
-
+ <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-04">Back  04</a>
+</div>

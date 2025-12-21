@@ -10,5 +10,7 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [Sov
 
 ---
 
-  9](/EN/theses/thesis-09) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-09">Back  09</a>
+</div>
 

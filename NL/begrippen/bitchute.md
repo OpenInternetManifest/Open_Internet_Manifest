@@ -8,5 +8,6 @@ Zie ook → [Thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) · [bitchut
 
 ---
 
-Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-17">Terug naar thesis 17</a>
+</div>

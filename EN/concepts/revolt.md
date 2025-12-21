@@ -10,5 +10,6 @@ See also → [Matrix](/EN/concepts/matrix) · [Thesis 20](/EN/theses/thesis-20) 
 
 ---
 
-  20](/EN/theses/thesis-20) 
-
+ <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-20">Back  20</a>
+</div>

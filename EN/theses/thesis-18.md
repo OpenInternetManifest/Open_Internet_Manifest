@@ -21,5 +21,6 @@ The full step-by-step guide is coming → [Searching without Google – coming s
 
 ---
 
-| [← Thesis 17](/EN/theses/thesis-17) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-19) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-19">BNext thesis →</a>
+</div>

@@ -23,5 +23,7 @@ De volledige guide komt eraan → [Video zonder YouTube – coming soon](/Open_I
 
 ---
 
-| [← Thesis 16](/Open_Internet_Manifest/NL/theses/thesis-16) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-18) |
-| :---  ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-18">Volgende thesis</a>
+</div>
+

@@ -10,5 +10,7 @@ Zie ook → [Data-soevereiniteit](/Open_Internet_Manifest/NL/begrippen/data-soev
 
 ---
 
-Terug naar thesis 23](/Open_Internet_Manifest/NL/theses/thesis-23) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-23">Terug naar thesis 23</a>
+</div>
 

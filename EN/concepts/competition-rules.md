@@ -8,5 +8,6 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Regulation](/EN/concept
 
 ---
 
-  5](/EN/theses/thesis-05) 
-| :---:| ---:|
+ <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-05">Back  05</a>
+</div>

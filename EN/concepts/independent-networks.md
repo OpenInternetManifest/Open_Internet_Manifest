@@ -10,5 +10,6 @@ See also → [Mesh network](/EN/concepts/mesh-network) · [Independent protocols
 
 ---
 
-  8](/EN/theses/thesis-08) 
-
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-08">Back  08</a>
+</div>

@@ -10,5 +10,7 @@ See also → [Open protocols](/EN/concepts/independent-protocols) · [Gatekeeper
 
 ---
 
-  9](/EN/theses/thesis-09) 
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-09">Back  9</a>
+</div>
 
