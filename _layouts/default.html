@@ -14,8 +14,8 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="custom-header" role="banner">
-      <div class="banner" style="position: relative;">  <!-- Shared banner structuur -->
-        <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest" style="width: 100%; height: auto;">
+      <div class="banner" style="position: relative; max-height: 300px; overflow: hidden;">  <!-- Max-height om grootte te beperken, overflow hide extra -->
+        <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest" style="width: 100%; height: auto; object-fit: cover; display: block; margin: 0 auto;">  <!-- Centered, auto height */
         <div class="overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
           <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
           <p class="site-description">{{ site.description | default: site.github.project_tagline }}</p>
