@@ -9,4 +9,4 @@ See also → [Monero](/EN/concepts/monero) · [Nostr zaps](/EN/concepts/nostr-za
 ---
 
 | ← [Back to thesis 19](/EN/theses/thesis-19) | |
-| :--- | ---:|
+

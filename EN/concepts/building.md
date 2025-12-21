@@ -8,5 +8,6 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Independent proto
 
 ---
 
-| ← [Back to thesis 6](/EN/theses/thesis-06) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-06">Back to thesis 6</a>
+</div>

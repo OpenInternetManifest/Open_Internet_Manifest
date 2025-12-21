@@ -12,5 +12,6 @@ See also → [DuckDuckGo](/EN/concepts/duckduckgo) · [Thesis 18](/EN/theses/the
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-18">Back to thesis 18</a>
+</div>

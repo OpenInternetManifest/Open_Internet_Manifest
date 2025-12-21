@@ -10,5 +10,6 @@ See also → [Tor](/EN/concepts/tor) · [Thesis 16](/EN/theses/thesis-16) · [br
 
 ---
 
-| ← [Back to thesis 16](/EN/theses/thesis-16) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-18">Back to thesis 18</a>
+</div>
