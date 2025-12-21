@@ -43,7 +43,7 @@ December 14, 2025 and beyond
 
 ---
 
-| [← Back  30](/EN/theses/thesis-30) | [← All theses →](/EN/manifest) |
+
 
 <div style="text-align: center; margin-top: 2em;">
   ← <a href="/EN/theses/thesis-30">← All theses →</a>
