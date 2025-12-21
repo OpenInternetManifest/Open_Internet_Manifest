@@ -61,7 +61,7 @@ body {
 }
 
 .copy-btn {
-  background: #4a4a4a; /* Donkergrijs */
+  background: #4a4a4a; /* Donkergrijs – nieuwere versie behouden */
   color: white;
   border: none;
   border-radius: 6px;
@@ -73,11 +73,11 @@ body {
 }
 
 .copy-btn:hover {
-  background: #6a6a6a; /* Lichtere grijs hover */
+  background: #6a6a6a;
 }
 
 .copy-btn::before {
-  content: "📋 "; /* Emoji in button */
+  content: "📋 ";
 }
 
 .intro-title {
@@ -110,22 +110,6 @@ body {
   text-decoration: underline;
 }
 
-.copy-btn {
-  background: #1a5fb4;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.85em;
-  margin-left: 15px;
-  padding: 6px 12px;
-  transition: background 0.2s;
-}
-
-.copy-btn:hover {
-  background: #4da6ff;
-}
-
 .verification {
   margin-top: 1em;
   padding: 1.5em;
@@ -153,19 +137,24 @@ code {
     height: 40vh;
     max-height: 300px;
   }
+
   .banner h1 {
     font-size: 1.5em;
   }
+
   .banner p {
     font-size: 1.2em;
     padding: 0 1em;
   }
+
   .intro-title {
     font-size: 1.6em;
   }
+
   .intro-text {
     font-size: 1em;
   }
+
   .verification ul {
     columns: 1;
   }
