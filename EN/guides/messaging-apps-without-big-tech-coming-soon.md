@@ -32,8 +32,4 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 
 ---
 | [← Back to thesis 16](/EN/theses/thesis-16) | [← All theses →](/EN/manifest) |
-| :--- | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---:|

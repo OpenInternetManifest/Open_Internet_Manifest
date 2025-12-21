@@ -17,8 +17,4 @@ You can take them with you, share them with whomever you want, and truly delete 
 ---
 
 | [← Thesis 12](/EN/theses/thesis-12) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-14) |
-| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---: | ---:|

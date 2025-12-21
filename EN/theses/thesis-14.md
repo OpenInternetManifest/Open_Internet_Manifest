@@ -17,8 +17,4 @@ You build reputation in one place and it travels with you — as it should.
 ---
 
 | [← Thesis 13](/EN/theses/thesis-13) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-15) |
-| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---: | ---:|

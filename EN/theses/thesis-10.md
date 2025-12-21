@@ -21,8 +21,4 @@ Only a truly open internet can stop this expansion — by showing that a free di
 ---
 
 | [← Thesis 9](/EN/theses/thesis-09) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-11) |
-| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---: | ---:|

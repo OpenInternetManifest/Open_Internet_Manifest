@@ -24,8 +24,4 @@ The full step-by-step guide is coming → [Video without YouTube – coming soon
 ---
 
 | [← Thesis 16](/EN/theses/thesis-16) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-18) |
-| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---: | ---:|

@@ -24,8 +24,4 @@ It already works today for millions of people. The only thing still missing is y
 ---
 
 | [← Thesis 14](/EN/theses/thesis-14) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-16) |
-| :--- | ---: | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---: | ---:|

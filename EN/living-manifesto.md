@@ -44,8 +44,4 @@ December 14, 2025 and beyond
 ---
 
 | [← Back to thesis 30](/EN/theses/thesis-30) | [← All theses →](/EN/manifest) |
-| :--- | <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Back to previous page</a>
-</div>
-
-
+| :--- | ---:|

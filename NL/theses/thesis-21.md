@@ -29,18 +29,4 @@ Dat is alles wat nodig is om te beginnen.
 ---
 
 | [← Thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-22) |
-| :--- <div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()"><div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Terug naar vorige pagina</a>
-</div>
-s page</a>
-</div>
-
-<div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()"><div style="text-align: center; margin: 3em 0 2em; font-size: 0.9em; color: #888;">
-  ← <a href="javascript:history.back()">Terug naar vorige pagina</a>
-</div>
-s page</a>
-</div>
-
-
+| :--- | ---: | ---:|
