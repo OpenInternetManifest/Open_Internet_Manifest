@@ -3,5 +3,5 @@ Kies je taal:
 - [English](/Open_Internet_Manifest/EN/manifest.md)
 
 Het manifest is levend – jij bent mede-auteur.
-<!-- build trigger -->
+
 
