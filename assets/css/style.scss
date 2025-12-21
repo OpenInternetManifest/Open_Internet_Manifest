@@ -1,27 +1,4 @@
-
-
 @import "{{ site.theme }}";
-
-.page-header {
-  display: none !important;
-}
-
-html, body {
-  background: #0f1419 !important;
-  color: #e0e0e0 !important;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
-.main-content, .site-footer, .wrapper {
-  background: #0f1419 !important;
-  color: #e0e0e0 !important;
-}
-
-a {
-  color: #66b3ff !important;
-}
 
 .container {
   max-width: 1000px;
@@ -31,7 +8,7 @@ a {
 
 .custom-header .banner {
   position: relative;
-  height: 350px;
+  height: 350px; /* Maak kleiner dan 400px als te groot, bijv. 300px */
   overflow: hidden;
   border-radius: 12px;
 }
@@ -54,13 +31,18 @@ a {
   text-align: center;
 }
 
-/* Mobile tweaks */
+/* Force dark theme weer */
+html, body, .main-content, .site-footer {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .custom-header .banner {
     height: 250px;
     border-radius: 0;
   }
-
   .container {
     padding: 0;
   }
