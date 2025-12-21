@@ -10,5 +10,5 @@ See also → [ActivityPub](/EN/concepts/activitypub) · [Thesis 17](/EN/theses/t
 
 ---
 
-| ← [Back to thesis 17](/EN/theses/thesis-17) | |
-| :--- | ---:|
+  17](/EN/theses/thesis-17) 
+

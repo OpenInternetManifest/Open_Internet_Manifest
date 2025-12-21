@@ -17,4 +17,4 @@ Je kunt ze meenemen, delen met wie jij wilt, en echt verwijderen als je dat wilt
 ---
 
 | [← Thesis 12](/Open_Internet_Manifest/NL/theses/thesis-12) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-14) |
-| :--- | ---: | ---:|
+| :---  ---:|

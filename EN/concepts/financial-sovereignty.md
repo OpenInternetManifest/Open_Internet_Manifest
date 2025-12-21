@@ -8,5 +8,5 @@ See also → [Peer-to-peer payments](/EN/concepts/peer-to-peer-payments) · [Dat
 
 ---
 
-| ← [Back to thesis 19](/EN/theses/thesis-19) | |
-| :--- | ---:|
+  19](/EN/theses/thesis-19) 
+

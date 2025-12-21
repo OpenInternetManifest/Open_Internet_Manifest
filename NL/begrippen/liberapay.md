@@ -8,5 +8,5 @@ Zie ook → [Open Collective](/Open_Internet_Manifest/NL/begrippen/open-collecti
 
 ---
 
-| ← [Terug naar thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26) | |
-| :--- | ---:|
+Terug naar thesis 26](/Open_Internet_Manifest/NL/theses/thesis-26) 
+

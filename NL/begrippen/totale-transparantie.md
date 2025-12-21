@@ -8,5 +8,5 @@ Zie ook → [Surveillance](/Open_Internet_Manifest/NL/begrippen/surveillance) ·
 
 ---
 
-| ← [Terug naar thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07) | |
-| :--- | ---:|
+Terug naar thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07) 
+

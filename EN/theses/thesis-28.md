@@ -19,4 +19,4 @@ Start demanding what should have been legally required years ago.
 ---
 
 | [← Thesis 27](/EN/theses/thesis-27) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-29) |
-| :--- | ---: | ---:|
+| :---  ---:|

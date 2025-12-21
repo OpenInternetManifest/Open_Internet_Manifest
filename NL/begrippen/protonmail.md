@@ -10,5 +10,5 @@ Zie ook → [Proton Drive](/Open_Internet_Manifest/NL/begrippen/proton-drive) ·
 
 ---
 
-| ← [Terug naar thesis 27](/Open_Internet_Manifest/NL/theses/thesis-27) | |
-| :--- | ---:|
+Terug naar thesis 27](/Open_Internet_Manifest/NL/theses/thesis-27) 
+

@@ -25,4 +25,4 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 ---
 
 | [← Previous thesis](/EN/theses/thesis-06) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-08) |
-| :--- | ---: | ---: |
+| :---  ---: |

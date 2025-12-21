@@ -8,5 +8,5 @@ See also → [Thesis 18](/EN/theses/thesis-18) · [stract.com](https://stract.co
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18) | |
-| :--- | ---:|
+  18](/EN/theses/thesis-18) 
+

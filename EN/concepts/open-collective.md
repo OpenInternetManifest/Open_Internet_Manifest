@@ -8,5 +8,5 @@ See also → [Liberapay](/EN/concepts/liberapay) · [Thesis 26](/EN/theses/thesi
 
 ---
 
-| ← [Back to thesis 26](/EN/theses/thesis-26) | |
-| :--- | ---:|
+  26](/EN/theses/thesis-26) 
+

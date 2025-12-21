@@ -23,4 +23,4 @@ De volledige guide komt eraan → [Video zonder YouTube – coming soon](/Open_I
 ---
 
 | [← Thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-09) |
-| :--- | ---: | ---:|
+| :---  ---:|

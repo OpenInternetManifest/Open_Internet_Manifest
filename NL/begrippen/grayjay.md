@@ -8,5 +8,5 @@ Zie ook → [Thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) · [grayjay
 
 ---
 
-| ← [Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) | |
-| :--- | ---:|
+Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) 
+

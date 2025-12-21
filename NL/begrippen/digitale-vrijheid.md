@@ -8,5 +8,5 @@ Zie ook → [Digitale soevereiniteit](/Open_Internet_Manifest/NL/begrippen/digit
 
 ---
 
-| ← [Terug naar thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05) | |
-| :--- | ---:|
+Terug naar thesis 5](/Open_Internet_Manifest/NL/theses/thesis-05) 
+

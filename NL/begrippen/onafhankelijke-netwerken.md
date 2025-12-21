@@ -10,5 +10,5 @@ Zie ook → [Mesh-netwerk](/Open_Internet_Manifest/NL/begrippen/mesh-netwerk) ·
 
 ---
 
-| ← [Terug naar thesis 8](/Open_Internet_Manifest/NL/theses/thesis-08) | |
-| :--- | ---:|
+Terug naar thesis 8](/Open_Internet_Manifest/NL/theses/thesis-08) 
+

@@ -10,5 +10,5 @@ Zie ook → [Matrix](/Open_Internet_Manifest/NL/begrippen/matrix) · [Thesis 22]
 
 ---
 
-| ← [Terug naar thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22) | |
-| :--- | ---:|
+Terug naar thesis 22](/Open_Internet_Manifest/NL/theses/thesis-22) 
+

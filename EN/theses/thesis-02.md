@@ -18,4 +18,4 @@ They call that chain “[**convenience**](/EN/concepts/convenience)” and “[*
 ---
 
 | [← Previous thesis](/EN/theses/thesis-01) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-03) |
-| :--- | ---: | ---: |
+| :---  ---: |

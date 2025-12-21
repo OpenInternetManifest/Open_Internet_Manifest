@@ -21,4 +21,4 @@ Echte vrijheid betekent een internet waarop je kunt spreken, verbinden en iets n
 ---
 
 |  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-04) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-06) |
-| :--- | ---: | ---: |
+| :---  ---: |

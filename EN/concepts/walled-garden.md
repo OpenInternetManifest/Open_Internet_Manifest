@@ -8,5 +8,5 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Thesis 1](/EN/theses/th
 
 ---
 
-| ← [Back to thesis](/EN/theses/thesis-01) | |
-| :--- | ---:|
+ ](/EN/theses/thesis-01) 
+

@@ -12,5 +12,5 @@ Zie ook → [DuckDuckGo](/Open_Internet_Manifest/NL/begrippen/duckduckgo) · [Th
 
 ---
 
-| ← [Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) | |
-| :--- | ---:|
+Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) 
+

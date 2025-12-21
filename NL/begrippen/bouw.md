@@ -8,5 +8,5 @@ Zie ook → [Sovereign node](/Open_Internet_Manifest/NL/begrippen/sovereign-node
 
 ---
 
-| ← [Terug naar thesis 6](/Open_Internet_Manifest/NL/theses/thesis-06) | |
-| :--- | ---:|
+Terug naar thesis 6](/Open_Internet_Manifest/NL/theses/thesis-06) 
+

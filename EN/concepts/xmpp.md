@@ -8,5 +8,5 @@ See also → [Matrix](/EN/concepts/matrix) · [Thesis 16](/EN/theses/thesis-16) 
 
 ---
 
-| ← [Back to thesis 16](/EN/theses/thesis-16) | |
-| :--- | ---:|
+  16](/EN/theses/thesis-16) 
+

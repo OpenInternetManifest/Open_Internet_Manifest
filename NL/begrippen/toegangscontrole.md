@@ -10,5 +10,5 @@ Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters) 
 
 ---
 
-| ← [Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03) | |
-| :--- | ---:|
+Terug naar thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03) 
+

@@ -10,5 +10,5 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Security](/EN/conce
 
 ---
 
-| ← [Back to thesis 2](/EN/theses/thesis-02) | |
-| :--- | ---:|
+  2](/EN/theses/thesis-02) 
+

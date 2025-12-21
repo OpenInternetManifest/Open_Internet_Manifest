@@ -8,5 +8,5 @@ See also → [End-to-end encryption](/EN/concepts/end-to-end-encryption) · [The
 
 ---
 
-| ← [Back to thesis 16](/EN/theses/thesis-16) | |
-| :--- | ---:|
+  16](/EN/theses/thesis-16) 
+

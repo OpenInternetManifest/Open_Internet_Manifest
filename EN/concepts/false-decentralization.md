@@ -10,5 +10,5 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Independent protoco
 
 ---
 
-| ← [Back to thesis 5](/EN/theses/thesis-05) | |
-| :--- | ---:|
+  5](/EN/theses/thesis-05) 
+

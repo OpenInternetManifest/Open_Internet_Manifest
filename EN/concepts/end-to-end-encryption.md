@@ -10,5 +10,5 @@ See also → [Privacy](/EN/concepts/privacy) · [Free protocols](/EN/concepts/in
 
 ---
 
-| ← [Back to thesis 7](/EN/theses/thesis-07) | |
-| :--- | ---:|
+  7](/EN/theses/thesis-07) 
+

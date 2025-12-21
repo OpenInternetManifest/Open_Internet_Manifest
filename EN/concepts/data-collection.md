@@ -8,5 +8,5 @@ See also → [Surveillance](/EN/concepts/surveillance) · [Gatekeepers](/EN/conc
 
 ---
 
-| ← [Back to thesis 3](/EN/theses/thesis-03) | |
-| :--- | ---:|
+  3](/EN/theses/thesis-03) 
+

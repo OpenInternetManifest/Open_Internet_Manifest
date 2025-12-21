@@ -8,5 +8,5 @@ Zie ook → [Valse decentralisatie](/Open_Internet_Manifest/NL/begrippen/valse-d
 
 ---
 
-| ← [Terug naar thesis 6](/Open_Internet_Manifest/NL/theses/thesis-06) | |
-| :--- | ---:|
+Terug naar thesis 6](/Open_Internet_Manifest/NL/theses/thesis-06) 
+

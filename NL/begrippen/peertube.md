@@ -10,5 +10,5 @@ Zie ook → [ActivityPub](/Open_Internet_Manifest/NL/begrippen/activitypub) · [
 
 ---
 
-| ← [Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) | |
-| :--- | ---:|
+Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) 
+

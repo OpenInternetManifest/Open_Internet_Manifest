@@ -8,5 +8,5 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Gatekeepers](/EN/
 
 ---
 
-| ← [Back to thesis](/EN/theses/thesis-01) | |
-| :--- | ---:|
+ ](/EN/theses/thesis-01) 
+

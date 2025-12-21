@@ -26,4 +26,4 @@ The full step-by-step guide is coming → [Element migration – coming soon](/E
 ---
 
 | [← Thesis 21](/EN/theses/thesis-21) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-23) |
-| :--- | ---: | ---:|
+| :---  ---:|

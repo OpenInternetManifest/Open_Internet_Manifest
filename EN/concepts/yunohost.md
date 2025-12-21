@@ -8,5 +8,7 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 25](/EN/th
 
 ---
 
-| ← [Back to thesis 25](/EN/theses/thesis-25) | |
-| :--- | ---:|
+  <div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-25">Back  25</a>
+</div>
+

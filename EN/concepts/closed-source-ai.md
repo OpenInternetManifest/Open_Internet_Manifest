@@ -18,5 +18,5 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Walled garden](/EN/conc
 ---
 
 <div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-10">Back to thesis 10</a>
+  ← <a href="/EN/theses/thesis-10">Back  10</a>
 </div>

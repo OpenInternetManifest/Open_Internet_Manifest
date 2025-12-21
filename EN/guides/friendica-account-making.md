@@ -75,4 +75,4 @@ The Open Internet Manifest is not liable for damage, data loss, or other issues 
 ---
 
 | [← Thesis 15](/EN/theses/thesis-15) | [← All theses →](/EN/manifest) |
-| :--- | ---:|
+

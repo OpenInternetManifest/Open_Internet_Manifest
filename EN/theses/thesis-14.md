@@ -17,4 +17,4 @@ You build reputation in one place and it travels with you — as it should.
 ---
 
 | [← Thesis 13](/EN/theses/thesis-13) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-15) |
-| :--- | ---: | ---:|
+| :---  ---:|

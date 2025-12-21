@@ -10,5 +10,5 @@ See also → [Data collection](/EN/concepts/data-collection) · [Thesis 3](/EN/t
 
 ---
 
-| ← [Back to thesis 3](/EN/theses/thesis-03) | |
-| :--- | ---:|
+  3](/EN/theses/thesis-03) 
+

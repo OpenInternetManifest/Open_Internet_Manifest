@@ -8,5 +8,5 @@ See also → [Surveillance](/EN/concepts/surveillance) · [Data collection](/EN/
 
 ---
 
-| ← [Back to thesis 7](/EN/theses/thesis-07) | |
-| :--- | ---:|
+  7](/EN/theses/thesis-07) 
+

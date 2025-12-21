@@ -10,5 +10,5 @@ See also → [IPFS](/EN/concepts/ipfs) · [Sovereign node](/EN/concepts/sovereig
 
 ---
 
-| ← [Back to thesis 23](/EN/theses/thesis-23) | |
-| :--- | ---:|
+  23](/EN/theses/thesis-23) 
+

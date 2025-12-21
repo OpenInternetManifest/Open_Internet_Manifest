@@ -10,5 +10,5 @@ See also → [Mesh network](/EN/concepts/mesh-network) · [Independent protocols
 
 ---
 
-| ← [Back to thesis 8](/EN/theses/thesis-08) | |
-| :--- | ---:|
+  8](/EN/theses/thesis-08) 
+

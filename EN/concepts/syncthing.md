@@ -8,5 +8,5 @@ See also → [Nextcloud](/EN/concepts/nextcloud) · [Data sovereignty](/EN/conce
 
 ---
 
-| ← [Back to thesis 23](/EN/theses/thesis-23) | |
-| :--- | ---:|
+  23](/EN/theses/thesis-23) 
+

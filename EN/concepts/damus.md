@@ -8,5 +8,5 @@ See also → [Nostr](/EN/concepts/nostr) · [npub](/EN/concepts/npub) · [Thesis
 
 ---
 
-| ← [Back to thesis 24](/EN/theses/thesis-24) | |
-| :--- | ---:|
+  24](/EN/theses/thesis-24) 
+

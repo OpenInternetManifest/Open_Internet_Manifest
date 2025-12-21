@@ -19,4 +19,4 @@ Every day we use them more, the monopoly of the five [**gatekeepers**](/EN/conce
 ---
 
 | [← Thesis 11](/EN/theses/thesis-11) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-13) |
-| :--- | ---: | ---:|
+| :---  ---:|

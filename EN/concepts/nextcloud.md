@@ -8,5 +8,5 @@ See also → [ownCloud](/EN/concepts/owncloud) · [Data sovereignty](/EN/concept
 
 ---
 
-| ← [Back to thesis 13](/EN/theses/thesis-13) | |
-| :--- | ---:|
+  13](/EN/theses/thesis-13) 
+

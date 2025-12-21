@@ -24,4 +24,4 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 ---
 
 | [← Thesis 23](/EN/theses/thesis-23) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-25) |
-| :--- | ---: | ---:|
+| :---  ---:|

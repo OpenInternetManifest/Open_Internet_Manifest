@@ -29,4 +29,4 @@ Dat is alles wat nodig is om te beginnen.
 ---
 
 | [← Thesis 20](/Open_Internet_Manifest/NL/theses/thesis-20) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-22) |
-| :--- | ---: | ---:|
+| :---  ---:|

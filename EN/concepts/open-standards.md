@@ -10,5 +10,5 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [The
 
 ---
 
-| ← [Back to thesis 28](/EN/theses/thesis-28) | |
-| :--- | ---:|
+  28](/EN/theses/thesis-28) 
+

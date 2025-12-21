@@ -10,5 +10,5 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Digital sovereignty](/E
 ---
 
 <div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-02">Back to thesis 2</a>
+  ← <a href="/EN/theses/thesis-02">Back  2</a>
 </div>

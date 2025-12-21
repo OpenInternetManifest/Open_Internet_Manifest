@@ -10,5 +10,5 @@ Zie ook → [Onafhankelijke protocollen](/Open_Internet_Manifest/NL/begrippen/on
 
 ---
 
-| ← [Terug naar thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09) | |
-| :--- | ---:|
+Terug naar thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09) 
+

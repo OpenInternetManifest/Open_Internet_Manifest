@@ -20,4 +20,4 @@ Your invitation today is tomorrow’s network effect.
 ---
 
 | [← Thesis 26](/EN/theses/thesis-26) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-28) |
-| :--- | ---: | ---:|
+| :---  ---:|

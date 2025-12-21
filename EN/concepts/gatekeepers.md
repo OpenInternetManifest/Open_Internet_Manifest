@@ -12,5 +12,5 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Digital sovereignty
 
 ---
 
-| ← [Back to thesis 1](/EN/theses/thesis-01) | [Back to thesis 2](/EN/theses/thesis-02) | [Back to thesis 6](/EN/theses/thesis-06) |
-| :--- | ---: | ---: |
+  1](/EN/theses/thesis-01) |  2](/EN/theses/thesis-02) |  6](/EN/theses/thesis-06) |
+| :---  ---: |

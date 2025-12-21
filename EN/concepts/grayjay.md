@@ -8,5 +8,5 @@ See also → [Thesis 17](/EN/theses/thesis-17) · [grayjay.app](https://grayjay.
 
 ---
 
-| ← [Back to thesis 17](/EN/theses/thesis-17) | |
-| :--- | ---:|
+  17](/EN/theses/thesis-17) 
+

@@ -10,5 +10,5 @@ See also → [Matrix](/EN/concepts/matrix) · [Thesis 22](/EN/theses/thesis-22) 
 
 ---
 
-| ← [Back to thesis 22](/EN/theses/thesis-22) | |
-| :--- | ---:|
+  22](/EN/theses/thesis-22) 
+

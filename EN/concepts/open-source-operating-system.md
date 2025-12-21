@@ -8,5 +8,5 @@ See also → [Open hardware](/EN/concepts/open-hardware) · [Thesis 4](/EN/these
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04) | |
-| :--- | ---:|
+  4](/EN/theses/thesis-04) 
+

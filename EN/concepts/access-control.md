@@ -11,5 +11,5 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Censorship](/EN/concept
 ---
 
 <div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-03">Back to thesis 3</a>
+  ← <a href="/EN/theses/thesis-03">Back  3</a>
 </div>

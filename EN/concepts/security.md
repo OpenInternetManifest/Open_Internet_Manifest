@@ -10,5 +10,5 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Convenience](/EN/co
 
 ---
 
-| ← [Back to thesis 2](/EN/theses/thesis-02) | |
-| :--- | ---:|
+  2](/EN/theses/thesis-02) 
+

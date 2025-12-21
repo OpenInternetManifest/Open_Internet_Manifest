@@ -13,5 +13,5 @@ See also → [DuckDuckGo](/EN/concepts/duckduckgo) · [Thesis 18](/EN/theses/the
 ---
 
 <div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-18">Back to thesis 18</a>
+  ← <a href="/EN/theses/thesis-18">Back  18</a>
 </div>

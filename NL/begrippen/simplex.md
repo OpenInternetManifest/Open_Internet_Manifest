@@ -8,5 +8,5 @@ Zie ook → [End-to-end encryptie](/Open_Internet_Manifest/NL/begrippen/end-to-e
 
 ---
 
-| ← [Terug naar thesis 16](/Open_Internet_Manifest/NL/theses/thesis-16) | |
-| :--- | ---:|
+Terug naar thesis 16](/Open_Internet_Manifest/NL/theses/thesis-16) 
+

@@ -10,5 +10,5 @@ Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin) 
 
 ---
 
-| ← [Terug naar thesis 2](/Open_Internet_Manifest/NL/theses/thesis-02) | |
-| :--- | ---:|
+Terug naar thesis 2](/Open_Internet_Manifest/NL/theses/thesis-02) 
+

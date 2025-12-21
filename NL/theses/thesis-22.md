@@ -26,4 +26,4 @@ De volledige guide komt eraan → [Element migratie – coming soon](/Open_Inter
 ---
 
 | [← Thesis 21](/Open_Internet_Manifest/NL/theses/thesis-21) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-23) |
-| :--- | ---: | ---:|
+| :---  ---:|

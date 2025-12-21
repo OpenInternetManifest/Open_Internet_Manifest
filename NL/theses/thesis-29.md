@@ -17,4 +17,4 @@ Vrijheid is geen bestemming – het is een gewoonte die je vandaag weer kunt opp
 ---
 
 | [← Thesis 28](/Open_Internet_Manifest/NL/theses/thesis-28) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-30) |
-| :--- | ---: | ---:|
+| :---  ---:|

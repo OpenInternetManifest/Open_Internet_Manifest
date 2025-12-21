@@ -24,4 +24,4 @@ It already works today for millions of people. The only thing still missing is y
 ---
 
 | [← Thesis 14](/EN/theses/thesis-14) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-16) |
-| :--- | ---: | ---:|
+| :---  ---:|

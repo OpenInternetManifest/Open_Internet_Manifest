@@ -8,5 +8,5 @@ See also → [Bitcoin + Lightning](/EN/concepts/bitcoin-lightning) · [Thesis 19
 
 ---
 
-| ← [Back to thesis 19](/EN/theses/thesis-19) | |
-| :--- | ---:|
+  19](/EN/theses/thesis-19) 
+

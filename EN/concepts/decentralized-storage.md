@@ -8,5 +8,5 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [IPFS](/EN/concept
 
 ---
 
-| ← [Back to thesis 7](/EN/theses/thesis-07) | |
-| :--- | ---:|
+  7](/EN/theses/thesis-07) 
+

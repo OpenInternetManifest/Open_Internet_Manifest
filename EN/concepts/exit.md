@@ -8,5 +8,5 @@ See also → [Collective exit](/EN/concepts/collective-exit) · [Building](/EN/c
 
 ---
 
-| ← [Back to thesis 6](/EN/theses/thesis-06) | |
-| :--- | ---:|
+  6](/EN/theses/thesis-06) 
+

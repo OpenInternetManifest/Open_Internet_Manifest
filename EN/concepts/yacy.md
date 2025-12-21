@@ -10,5 +10,5 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 18](/EN/th
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18) | |
-| :--- | ---:|
+  18](/EN/theses/thesis-18) 
+

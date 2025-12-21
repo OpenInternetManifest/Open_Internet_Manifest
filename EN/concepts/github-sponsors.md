@@ -8,5 +8,5 @@ See also → [Open Collective](/EN/concepts/open-collective) · [Thesis 26](/EN/
 
 ---
 
-| ← [Back to thesis 26](/EN/theses/thesis-26) | |
-| :--- | ---:|
+  26](/EN/theses/thesis-26) 
+

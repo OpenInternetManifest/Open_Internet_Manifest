@@ -10,5 +10,5 @@ See also → [Nostr](/EN/concepts/nostr) · [Thesis 24](/EN/theses/thesis-24)
 
 ---
 
-| ← [Back to thesis 24](/EN/theses/thesis-24) | |
-| :--- | ---:|
+  24](/EN/theses/thesis-24) 
+

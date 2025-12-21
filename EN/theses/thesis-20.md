@@ -19,4 +19,4 @@ Connecting instead of scrolling. Talking instead of performing.
 ---
 
 | [← Thesis 19](/EN/theses/thesis-19) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-21) |
-| :--- | ---: | ---:|
+| :---  ---:|

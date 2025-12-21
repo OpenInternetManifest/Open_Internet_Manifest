@@ -23,4 +23,4 @@ Door nu te bouwen aan [**vrije protocollen**](/Open_Internet_Manifest/NL/begripp
 ---
 
 |  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-06) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-08) |
-| :--- | ---: | ---: |
+| :---  ---: |

@@ -52,4 +52,4 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 ---
 
 | [← Homepage](/Open_Internet_Manifest/NL/index) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Thesis 1 →](/Open_Internet_Manifest/NL/theses/thesis-01) |
-| :--- | ---: | ---: |
+| :---  ---: |

@@ -20,4 +20,4 @@ Real freedom means an internet where you can speak, connect, and create somethin
 ---
 
 | [← Previous thesis](/EN/theses/thesis-04) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-06) |
-| :--- | ---: | ---: |
+| :---  ---: |

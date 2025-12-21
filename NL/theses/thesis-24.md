@@ -24,4 +24,4 @@ De volledige guide komt eraan → [Nostr account maken – coming soon](/Open_In
 ---
 
 | [← Thesis 23](/Open_Internet_Manifest/NL/theses/thesis-23) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-25) |
-| :--- | ---: | ---:|
+| :---  ---:|

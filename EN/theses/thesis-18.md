@@ -22,4 +22,4 @@ The full step-by-step guide is coming → [Searching without Google – coming s
 ---
 
 | [← Thesis 17](/EN/theses/thesis-17) | [← All theses →](/EN/manifest) | [Next thesis →](/EN/theses/thesis-19) |
-| :--- | ---: | ---:|
+| :---  ---:|

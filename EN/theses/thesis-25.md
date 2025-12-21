@@ -19,4 +19,4 @@ Start small. Start local. Start today.
 ---
 
 | [← Thesis 24](/EN/theses/thesis-24) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-26) |
-| :--- | ---: | ---:|
+| :---  ---:|

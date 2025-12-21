@@ -8,5 +8,5 @@ See also → [ActivityPub](/EN/concepts/activitypub) · [Thesis 15](/EN/theses/t
 
 ---
 
-| ← [Back to thesis 15](/EN/theses/thesis-15) | |
-| :--- | ---:|
+  15](/EN/theses/thesis-15) 
+

@@ -17,5 +17,7 @@ Loop je mee?
 
 ---
 
-| [← Thesis 29](/Open_Internet_Manifest/NL/theses/thesis-29) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Het manifest is levend →](/Open_Internet_Manifest/NL/theses/levend-manifest) |
-| :--- | ---: | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-00">Het manifest is levend</a>
+</div>
+

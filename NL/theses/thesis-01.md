@@ -21,4 +21,4 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/Open
 ---
 
 |  [ ← Openingswoord](/Open_Internet_Manifest/NL/theses/thesis-00) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-02) |
-| :--- | ---: | ---: |
+| :---  ---: |

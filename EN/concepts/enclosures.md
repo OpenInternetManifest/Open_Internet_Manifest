@@ -12,5 +12,5 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Collective exit](/EN/co
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04) | |
-| :--- | ---:|
+  4](/EN/theses/thesis-04) 
+

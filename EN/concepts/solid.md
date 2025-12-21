@@ -8,5 +8,5 @@ See also → [Data sovereignty](/EN/concepts/data-sovereignty) · [Thesis 13](/E
 
 ---
 
-| ← [Back to thesis 13](/EN/theses/thesis-13) | |
-| :--- | ---:|
+  13](/EN/theses/thesis-13) 
+

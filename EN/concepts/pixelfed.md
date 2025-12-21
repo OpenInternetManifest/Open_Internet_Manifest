@@ -8,5 +8,5 @@ See also → [ActivityPub](/EN/concepts/activitypub) · [Mastodon](/EN/concepts/
 
 ---
 
-| ← [Back to thesis 15](/EN/theses/thesis-15) | |
-| :--- | ---:|
+  15](/EN/theses/thesis-15) 
+

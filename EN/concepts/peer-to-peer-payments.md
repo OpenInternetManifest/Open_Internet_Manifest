@@ -10,5 +10,5 @@ See also → [Open protocols](/EN/concepts/independent-protocols) · [Gatekeeper
 
 ---
 
-| ← [Back to thesis 9](/EN/theses/thesis-09) | |
-| :--- | ---:|
+  9](/EN/theses/thesis-09) 
+

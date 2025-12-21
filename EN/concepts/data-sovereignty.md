@@ -8,5 +8,5 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Solid](/EN/concep
 
 ---
 
-| ← [Back to thesis 13](/EN/theses/thesis-13) | |
-| :--- | ---:|
+  13](/EN/theses/thesis-13) 
+

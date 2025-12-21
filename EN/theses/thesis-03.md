@@ -23,4 +23,4 @@ This normalization of [**surveillance**](/EN/concepts/surveillance), [**data col
 ---
 
 | [← Previous thesis](/EN/theses/thesis-02) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-04) |
-| :--- | ---: | ---: |
+| :---  ---: |

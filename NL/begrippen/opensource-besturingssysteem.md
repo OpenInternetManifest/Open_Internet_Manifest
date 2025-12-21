@@ -8,5 +8,5 @@ Zie ook → [Open hardware](/Open_Internet_Manifest/NL/begrippen/open-hardware) 
 
 ---
 
-| ← [Terug naar thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04) | |
-| :--- | ---:|
+Terug naar thesis 4](/Open_Internet_Manifest/NL/theses/thesis-04) 
+

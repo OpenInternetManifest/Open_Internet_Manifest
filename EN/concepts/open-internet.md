@@ -8,5 +8,5 @@ See also → [Digital sovereignty](/EN/concepts/digital-sovereignty) · [Soverei
 
 ---
 
-| ← [Back to thesis 6](/EN/theses/thesis-06) | |
-| :--- | ---:|
+  6](/EN/theses/thesis-06) 
+

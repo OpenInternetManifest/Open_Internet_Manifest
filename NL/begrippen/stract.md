@@ -8,5 +8,5 @@ Zie ook → [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) · [stract.
 
 ---
 
-| ← [Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) | |
-| :--- | ---:|
+Terug naar thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) 
+

@@ -24,4 +24,4 @@ Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/NL/begrippen/su
 ---
 
 |  [ ← Vorige thesis](/Open_Internet_Manifest/NL/theses/thesis-02) | [ ← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-04) |
-| :--- | ---: | ---: |
+| :---  ---: |

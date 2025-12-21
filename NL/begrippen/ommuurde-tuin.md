@@ -8,5 +8,5 @@ Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters) 
 
 ---
 
-| ← [Terug naar de thesis](/Open_Internet_Manifest/NL/theses/thesis-01) | |
-| :--- | ---: |
+Terug naar de thesis](/Open_Internet_Manifest/NL/theses/thesis-01) 
+| :--- 

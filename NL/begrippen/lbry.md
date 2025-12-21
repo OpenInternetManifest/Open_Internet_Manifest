@@ -8,5 +8,5 @@ Zie ook → [Odysee](/Open_Internet_Manifest/NL/begrippen/odysee) · [Thesis 17]
 
 ---
 
-| ← [Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) | |
-| :--- | ---:|
+Terug naar thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) 
+

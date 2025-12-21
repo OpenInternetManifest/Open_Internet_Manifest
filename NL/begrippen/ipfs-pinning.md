@@ -10,5 +10,5 @@ Zie ook → [IPFS](/Open_Internet_Manifest/NL/begrippen/ipfs) · [Sovereign node
 
 ---
 
-| ← [Terug naar thesis 23](/Open_Internet_Manifest/NL/theses/thesis-23) | |
-| :--- | ---:|
+Terug naar thesis 23](/Open_Internet_Manifest/NL/theses/thesis-23) 
+

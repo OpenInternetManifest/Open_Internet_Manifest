@@ -8,5 +8,5 @@ Zie ook → [Nostr](/Open_Internet_Manifest/NL/begrippen/nostr) · [Thesis 24](/
 
 ---
 
-| ← [Terug naar thesis 24](/Open_Internet_Manifest/NL/theses/thesis-24) | |
-| :--- | ---:|
+Terug naar thesis 24](/Open_Internet_Manifest/NL/theses/thesis-24) 
+

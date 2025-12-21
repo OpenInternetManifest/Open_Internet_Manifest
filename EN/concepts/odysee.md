@@ -8,5 +8,5 @@ See also → [LBRY](/EN/concepts/lbry) · [Thesis 17](/EN/theses/thesis-17) · [
 
 ---
 
-| ← [Back to thesis 17](/EN/theses/thesis-17) | |
-| :--- | ---:|
+  17](/EN/theses/thesis-17) 
+

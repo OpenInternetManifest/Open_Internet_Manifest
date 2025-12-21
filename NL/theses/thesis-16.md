@@ -20,4 +20,4 @@ De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon
 ---
 
 | [← Thesis 15](/Open_Internet_Manifest/NL/theses/thesis-15) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-17) |
-| :--- | ---: | ---:|
+| :---  ---:|

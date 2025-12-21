@@ -10,5 +10,5 @@ See also → [Odysee](/EN/concepts/odysee) · [BitChute](/EN/concepts/bitchute) 
 
 ---
 
-| ← [Back to thesis 17](/EN/theses/thesis-17) | |
-| :--- | ---:|
+  17](/EN/theses/thesis-17) 
+

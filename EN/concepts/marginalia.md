@@ -8,5 +8,5 @@ See also → [Thesis 18](/EN/theses/thesis-18) · [search.marginalia.nu](https:/
 
 ---
 
-| ← [Back to thesis 18](/EN/theses/thesis-18) | |
-| :--- | ---:|
+  18](/EN/theses/thesis-18) 
+

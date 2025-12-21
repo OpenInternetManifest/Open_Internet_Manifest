@@ -14,5 +14,7 @@ See also → [Nostr](/EN/concepts/nostr) · [Keyoxide](/EN/concepts/keyoxide) ·
 
 ---
 
-| ← [Back to thesis 14](/EN/theses/thesis-14) | |
-| :--- | ---:|
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-14">Back  14</a>
+</div>
+

@@ -8,5 +8,5 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 25](/EN/th
 
 ---
 
-| ← [Back to thesis 25](/EN/theses/thesis-25) | |
-| :--- | ---:|
+  25](/EN/theses/thesis-25) 
+

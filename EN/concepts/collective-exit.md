@@ -10,5 +10,5 @@ See also → [Enclosures](/EN/concepts/enclosures) · [Thesis 4](/EN/theses/thes
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04) | |
-| :--- | ---:|
+  4](/EN/theses/thesis-04) 
+

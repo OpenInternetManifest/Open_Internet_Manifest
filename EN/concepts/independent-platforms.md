@@ -10,5 +10,5 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [Sov
 
 ---
 
-| ← [Back to thesis 9](/EN/theses/thesis-09) | |
-| :--- | ---:|
+  9](/EN/theses/thesis-09) 
+

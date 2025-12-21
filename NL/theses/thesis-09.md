@@ -32,4 +32,4 @@ De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Ope
 ---
 
 | [← Thesis 8](/Open_Internet_Manifest/NL/theses/thesis-08) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-10) |
-| :--- | ---: | ---: |
+| :---  ---: |

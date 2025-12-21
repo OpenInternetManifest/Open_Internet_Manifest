@@ -10,5 +10,5 @@ See also → [Matrix](/EN/concepts/matrix) · [Thesis 20](/EN/theses/thesis-20) 
 
 ---
 
-| ← [Back to thesis 20](/EN/theses/thesis-20) | |
-| :--- | ---:|
+  20](/EN/theses/thesis-20) 
+

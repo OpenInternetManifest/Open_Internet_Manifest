@@ -20,5 +20,5 @@ By building [**open protocols**](/EN/concepts/independent-protocols) and [**inde
 ---
 
 | [← Thesis 7](/EN/theses/thesis-07) | [← All theses](/EN/manifest) | [Next thesis →](/EN/theses/thesis-09) |
-| :--- | ---: | ---: |
+| :---  ---: |
 

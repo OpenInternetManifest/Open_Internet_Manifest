@@ -22,4 +22,4 @@ De volledige guide komt eraan → [Zoeken zonder Google – coming soon](/Open_I
 ---
 
 | [← Thesis 17](/Open_Internet_Manifest/NL/theses/thesis-17) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-19) |
-| :--- | ---: | ---:|
+| :---  ---:|

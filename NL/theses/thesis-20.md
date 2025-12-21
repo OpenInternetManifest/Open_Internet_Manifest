@@ -19,4 +19,4 @@ Verbinden in plaats van scrollen. Praten in plaats van performen.
 ---
 
 | [← Thesis 19](/Open_Internet_Manifest/NL/theses/thesis-19) | [← Alle theses](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-21) |
-| :--- | ---: | ---:|
+| :---  ---:|

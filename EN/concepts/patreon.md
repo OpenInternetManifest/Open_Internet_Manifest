@@ -10,5 +10,5 @@ See also → [GitHub Sponsors](/EN/concepts/github-sponsors) · [Thesis 26](/EN/
 
 ---
 
-| ← [Back to thesis 26](/EN/theses/thesis-26) | |
-| :--- | ---:|
+  26](/EN/theses/thesis-26) 
+

@@ -8,5 +8,5 @@ See also → [Nostr](/EN/concepts/nostr) · [Bitcoin + Lightning](/EN/concepts/b
 
 ---
 
-| ← [Back to thesis 19](/EN/theses/thesis-19) | |
-| :--- | ---:|
+  19](/EN/theses/thesis-19) 
+

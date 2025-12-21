@@ -24,4 +24,4 @@ Het werkt vandaag al voor miljoenen mensen. Het enige wat nog ontbreekt zijn jij
 ---
 
 | [← Thesis 14](/Open_Internet_Manifest/NL/theses/thesis-14) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Volgende thesis →](/Open_Internet_Manifest/NL/theses/thesis-16) |
-| :--- | ---: | ---:|
+| :---  ---:|

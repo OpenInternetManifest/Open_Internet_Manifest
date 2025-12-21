@@ -10,5 +10,5 @@ See also → [Nostr](/EN/concepts/nostr) · [DID](/EN/concepts/did) · [Thesis 1
 
 ---
 
-| ← [Back to thesis 14](/EN/theses/thesis-14) | |
-| :--- | ---:|
+  14](/EN/theses/thesis-14) 
+

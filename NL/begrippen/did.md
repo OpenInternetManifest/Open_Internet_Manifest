@@ -14,5 +14,5 @@ Zie ook → [Nostr](/Open_Internet_Manifest/NL/begrippen/nostr) · [Keyoxide](/O
 
 ---
 
-| ← [Terug naar thesis 14](/Open_Internet_Manifest/NL/theses/thesis-14) | |
-| :--- | ---:|
+Terug naar thesis 14](/Open_Internet_Manifest/NL/theses/thesis-14) 
+

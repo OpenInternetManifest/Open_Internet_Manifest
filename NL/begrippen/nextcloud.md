@@ -8,5 +8,5 @@ Zie ook → [OwnCloud](/Open_Internet_Manifest/NL/begrippen/owncloud) · [Data-s
 
 ---
 
-| ← [Terug naar thesis 13](/Open_Internet_Manifest/NL/theses/thesis-13) | |
-| :--- | ---:|
+Terug naar thesis 13](/Open_Internet_Manifest/NL/theses/thesis-13) 
+

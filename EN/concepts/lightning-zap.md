@@ -8,5 +8,5 @@ See also → [Bitcoin + Lightning](/EN/concepts/bitcoin-lightning) · [Nostr zap
 
 ---
 
-| ← [Back to thesis 26](/EN/theses/thesis-26) | |
-| :--- | ---:|
+  26](/EN/theses/thesis-26) 
+

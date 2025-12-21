@@ -8,5 +8,5 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 4](/EN/the
 
 ---
 
-| ← [Back to thesis 4](/EN/theses/thesis-04) | |
-| :--- | ---:|
+  4](/EN/theses/thesis-04) 
+
