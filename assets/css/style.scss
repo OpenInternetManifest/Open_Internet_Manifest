@@ -1,78 +1,27 @@
-
-@import "{{ site.theme }}";
-
-.page-header {
+@import
+ "{{ site.theme }}";.page-header {
   display: none !important;
-}
-
-body.full-background {
-  background: url('/Open_Internet_Manifest/assets/banner.jpg') center center / cover no-repeat fixed;
-  min-height: 100vh;
+}body {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
   margin: 0;
   padding: 0;
-  color: #e0e0e0;
-}
+}.main-content, .site-footer {
+  background: #0f1419 !important;
+}/* Jouw andere manifest.css styles (banner, buttons, etc.) hier ook verplaatsen als nodig */
+
+- Verwijder daarna de regel `<link rel="stylesheet" href="/Open_Internet_Manifest/assets/css/manifest.css">` uit ALLE MD-files (incl. /NL/manifest.md en index.md) – style.scss handelt alles.
+- Push (na queue clear).
+
+#### Stap 3: Fix logo/banner position (niet te laag, meer zichtbaar)
+Update style.scss (adjust height en positioning):
 
 .custom-header {
-  position: relative;
-  height: 60vh; /* Banner neemt 60% hoogte, adjust naar 70vh als meer logo zichtbaar */
+  height: 80vh; /* Meer hoogte = meer logo zichtbaar, adjust naar 70vh of 90vh */
   display: flex;
   align-items: center;
   justify-content: center;
+}.overlay-text {
+  margin-top: 0; /* Verwijder extra margin die het te laag duwt */
 }
 
-.overlay-text {
-  background: rgba(15,20,25,0.75);
-  padding: 1.5em 3em;
-  border-radius: 16px;
-  text-align: center;
-  max-width: 80%;
-}
-
-.site-title {
-  font-size: 2.8em;
-  margin: 0;
-  color: #66b3ff;
-  text-shadow: 0 3px 8px rgba(0,0,0,0.8);
-}
-
-.site-description {
-  font-size: 1.3em;
-  margin: 0.8em 0 0;
-  color: #ddd;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
-}
-
-.main-content {
-  background: rgba(15,20,25,0.9); /* Sterkere dark overlay op content */
-  padding: 3em 2em;
-  margin: 0 auto;
-  max-width: 1000px;
-  border-radius: 12px;
-}
-
-.site-footer {
-  background: rgba(15,20,25,0.95);
-  padding: 1.5em;
-  text-align: center;
-  color: #888;
-}
-
-/* Mobile fixes */
-@media (max-width: 768px) {
-  .custom-header {
-    height: 50vh;
-  }
-  .site-title {
-    font-size: 2em;
-  }
-  .site-description {
-    font-size: 1em;
-  }
-  .overlay-text {
-    padding: 1em 1.5em;
-  }
-  .main-content {
-    padding: 2em 1em;
-  }
-}
