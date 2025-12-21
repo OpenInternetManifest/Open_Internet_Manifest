@@ -2,9 +2,11 @@
  "{{ site.theme }}";.page-header {
   display: none !important;
 }body {
-  background: #0f1419 !important; /* Force donker thema, override alles /
-  color: #e0e0e0 !important; / Witte tekst voor contrast /
-  margin: 0; / Verwijder default margins */
+  body, .main-content, .site-footer {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+}.custom-header {
+  background: transparent !important;
 }.custom-header {
   background: transparent !important; /* Voor overlay op banner */
 }.custom-header .banner {
