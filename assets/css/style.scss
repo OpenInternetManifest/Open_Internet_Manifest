@@ -1,47 +1,45 @@
 @import
  "{{ site.theme }}";.page-header {
   display: none !important;
-}.custom-header {
-  position: absolute; /* Overlay op banner /
-  top: 0;
-  left: 0;
+}.custom-header .banner {
+  position: relative;
+  overflow: hidden;
+  height: 300px; /* Fixed height voor consistentie, adjust als nodig */
+}.custom-header .banner img {
   width: 100%;
-  background: transparent; / Geen solid bg, blend met banner /
-  color: #e0e0e0;
-  padding: 1em 0; / Ruimte voor centering /
+  height: 100%;
+  object-fit: cover;
+}.custom-header .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  z-index: 1; / Boven banner image */
-}.custom-header .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: rgba(15,20,25,0.7); /* Lichte dark overlay voor contrast */
+  padding: 1em 2em;
+  border-radius: 12px;
 }.custom-header .site-title {
-  font-size: 1.8em; /* Iets groter voor impact over banner /
+  font-size: 2.2em; /* Groter voor impact /
   margin: 0;
-  color: #66b3ff;
-  font-weight: bold;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5); / Shadow voor contrast op image */
+  color: #e0e0e0;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.6); / Mooier shadow */
+  letter-spacing: 0.05em;
 }.custom-header .site-description {
-  font-size: 1em;
-  margin: 0.3em 0 0;
-  color: #ccc; /* Lichter grijs voor visibility */
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
-}/* Zorg dat banner relatief is voor overlay /
-.banner {
-  position: relative; / Basis voor absolute header /
-  margin-top: 0; / Geen gap bovenaan */
-}/* Mobile tweaks */
+  font-size: 1.2em;
+  margin: 0.5em 0 0;
+  color: #ccc;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}/* Mobile */
 @media
  (max-width: 768px) {
+  .custom-header .banner {
+    height: 200px;
+  }
   .custom-header .site-title {
-font-size: 1.4em;
+    font-size: 1.6em;
   }
   .custom-header .site-description {
-font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
