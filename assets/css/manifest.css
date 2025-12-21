@@ -53,26 +53,27 @@ body {
 }
 
 .copy-container {
-  display: block;
+  display: flex;
+  align-items: center;
   margin-top: 0.5em;
   font-size: 0.9em;
-  color: #a0a0a0; /* Grijs voor subtlety */
+  color: #a0a0a0;
 }
 
 .copy-btn {
-  background: #1a5fb4; /* Blauw, passend bij thema */
+  background: #4a4a4a; /* Donkergrijs */
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.85em;
   padding: 4px 10px;
-  margin-left: 10px;
+  margin-right: 5px;
   transition: background 0.2s;
 }
 
 .copy-btn:hover {
-  background: #4da6ff;
+  background: #6a6a6a; /* Lichtere grijs hover */
 }
 
 .copy-btn::before {
