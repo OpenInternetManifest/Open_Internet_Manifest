@@ -42,6 +42,13 @@
   padding: 1em;
   border-radius: 12px;
   text-align: center;
+}.page-header {
+  display: none !important;
+}body, .main-content, .site-footer {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+}.custom-header {
+  background: transparent !important;
 }/* Mobile adjust */
 @media
  (max-width: 768px) {
