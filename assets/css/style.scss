@@ -6,3 +6,14 @@
 .page-header {
   display: none !important;
 }
+.custom-header {
+  background: #0f1419; /* Jouw donkere achtergrond */
+  color: #e0e0e0;
+  padding: 1em 0;
+  text-align: center;
+  border-bottom: 1px solid #333; /* Subtiele lijn voor scheiding */
+}
+
+.custom-header .site-title {
+  font-size: 2em;
+  margin: 0;
