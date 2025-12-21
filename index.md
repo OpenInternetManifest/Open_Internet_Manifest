@@ -1,14 +1,10 @@
 # Open Internet Manifest
 
-Een living manifest voor een vrij, open en gedecentraliseerd internet.
+A living manifesto for a free, open and decentralized internet.
 
-**Kies je taal:**
-
-- [Nederlands 🇳🇱](/Open_Internet_Manifest/NL/index) (huidige versie met 30 theses)
-- [English 🇬🇧](/EN/index) (coming soon)
-- [Dansk 🇩🇰](/DK/index) (coming soon)
-
-Direct naar het manifest: [Nederlandse versie met 30 theses](/Open_Internet_Manifest/NL/manifest)
+Kies je taal:
+- [Nederlands](/Open_Internet_Manifest/NL/manifest.md)
+- [English](/Open_Internet_Manifest/EN/manifest.md)
 
 Het manifest is levend – jij bent mede-auteur.
 
