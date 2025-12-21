@@ -1,6 +1,5 @@
 title: Open Internet Manifest
 description: A living manifesto for a free, open and decentralized internet
 baseurl: "/Open_Internet_Manifest"  # Dit houdt links intact, zoals /Open_Internet_Manifest/NL/...
-theme: jekyll-theme-timemachine
-
+theme: jekyll-theme-slate
 
