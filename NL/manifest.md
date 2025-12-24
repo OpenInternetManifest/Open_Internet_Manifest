@@ -252,8 +252,6 @@ Gebaseerd op commit: <code>b2c1903f10cb22c32421d4e04314db703f044630</code></p>
 
 ### Navigatie
 
-- [← Terug naar startpagina](/Open_Internet_Manifest/)
-- [Alle theses](/Open_Internet_Manifest/NL/manifest.md)
-- [Praat mee in de community](https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org)
-
----
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-XX">← Terug naar thesis XX</a>
+</div>

@@ -51,5 +51,6 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 
-| [← Homepage](/Open_Internet_Manifest/NL/index) | [← Alle theses →](/Open_Internet_Manifest/NL/manifest) | [Thesis 1 →](/Open_Internet_Manifest/NL/theses/thesis-01) |
-| :---  ---: |
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-XX">← Terug naar thesis XX</a>
+</div>
