@@ -1,0 +1,15 @@
+# End-to-end encryptie
+
+Versleuteling waarbij alleen de verzender en ontvanger de inhoud kunnen lezen – niemand ertussen, ook de dienstverlener niet.
+
+Voorbeelden: Signal, Matrix (optioneel), WhatsApp (beperkt).
+
+De technische basis om privacy weer normaal te maken.
+
+Zie ook → [Privacy](/Open_Internet_Manifest/NL/begrippen/privacy) · [Vrije protocollen](/Open_Internet_Manifest/NL/begrippen/onafhankelijke-protocollen) · [Thesis 7](/Open_Internet_Manifest/NL/theses/thesis-07)
+
+---
+
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-07">Terug naar thesis 7</a>
+</div>

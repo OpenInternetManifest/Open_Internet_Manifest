@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel) | Open Internet Manifest</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A living manifesto for a free, open and decentralized internet" />
+<meta property="og:description" content="A living manifesto for a free, open and decentralized internet" />
+<link rel="canonical" href="http://localhost:4000/EN/guides/raspberry-pi-node.html" />
+<meta property="og:url" content="http://localhost:4000/EN/guides/raspberry-pi-node.html" />
+<meta property="og:site_name" content="Open Internet Manifest" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A living manifesto for a free, open and decentralized internet","headline":"Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)","url":"http://localhost:4000/EN/guides/raspberry-pi-node.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=d751f4c68b7e0d7c945149718e2c0e733f76ca1f">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="custom-header" role="banner">
+      <div class="banner">
+        <img src="/Open_Internet_Manifest/assets/banner.jpg" alt="Open Internet Manifest">
+        <div class="overlay">
+          <h1 class="project-name">Open Internet Manifest</h1>
+          <p class="site-description">A living manifesto for a free, open and decentralized internet</p>
+        </div>
+      </div>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="guide--run-your-own-sovereign-node-at-home-raspberry-pi--umbrel">Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)</h1>
+
+<p>This is the way to own your own piece of the internet: Bitcoin node, Nostr relay, Nextcloud, photo backup – all at home, all yours.</p>
+
+<p><strong>One-time cost:</strong> €180 – €280 (or equivalent in your currency)<br />
+<strong>Monthly cost:</strong> ≈ €3 (electricity)</p>
+
+<h3 id="what-you-need-compare-prices-on-amazon-aliexpress-or-local-stores">What you need (compare prices on Amazon, AliExpress or local stores)</h3>
+<details>
+<summary>I don't know what to buy → click here</summary>
+
+- **Raspberry Pi 5 (8 GB)** → <a href="https://www.amazon.com/s?k=raspberry+pi+5+8gb" target="_blank">Search on Amazon</a> or <a href="https://www.aliexpress.com/w/wholesale-raspberry-pi-5-8gb.html" target="_blank">AliExpress</a>  
+- **Cheaper alternative: Raspberry Pi 4 (8 GB)** → <a href="https://www.amazon.com/s?k=raspberry+pi+4+8gb" target="_blank">Search on Amazon</a>  
+- **Micro-SD card 128 GB** → <a href="https://www.amazon.com/s?k=micro+sd+128gb" target="_blank">Search on Amazon</a>  
+- **External SSD 1 TB (recommended!)** → <a href="https://www.amazon.com/s?k=samsung+t7+shield+1tb" target="_blank">Search Samsung T7 Shield 1TB on Amazon</a>  
+- **Power supply + ethernet cable** usually included in starter kits
+</details>
+
+<h3 id="step-1--download-umbrel">Step 1 – Download Umbrel</h3>
+<details>
+<summary>I don't know where to find Umbrel</summary>
+Go to <a href="https://umbrel.com" target="_blank">umbrel.com</a> → click the big blue button "Download Umbrel OS".
+</details>
+
+<h3 id="step-2--flash-the-image-with-balena-etcher">Step 2 – Flash the image with Balena Etcher</h3>
+<details>
+<summary>I've never flashed anything before</summary>
+
+1. Download Balena Etcher: <a href="https://etcher.balena.io" target="_blank">etcher.balena.io</a>  
+2. Start Etcher  
+3. Click "Flash from file" → choose the downloaded umbrel file  
+4. Click "Select target" → choose your SD card  
+5. Click "Flash!" → grab a coffee (5–10 minutes)  
+6. Etcher says "Flash Complete" → done!
+</details>
+
+<h3 id="step-3--connect-everything">Step 3 – Connect everything</h3>
+<details>
+<summary>How do I connect the Pi?</summary>
+
+1. Insert SD card into the Pi  
+2. Connect SSD via USB (if you have one)  
+3. Ethernet cable into your router  
+4. Plug in power → Pi starts automatically (lights will blink)
+</details>
+
+<h3 id="step-4--start-umbrel">Step 4 – Start Umbrel</h3>
+<details>
+<summary>How do I reach my Umbrel?</summary>
+
+Open your browser and type:  
+http://umbrel.local  
+
+(or find the IP address in your router app and use http://[IP-address])
+</details>
+
+<h3 id="step-5--first-setup">Step 5 – First setup</h3>
+<p>Choose a password → done!<br />
+You now have at home:</p>
+<ul>
+  <li>Bitcoin + Lightning node</li>
+  <li>Nostr relay</li>
+  <li>Nextcloud (your own Dropbox)</li>
+  <li>PhotoPrism (your own Google Photos)</li>
+  <li>Mastodon server (optional)</li>
+  <li>40+ apps with one click</li>
+</ul>
+
+<h3 id="what-if-it-doesnt-work">What if it doesn’t work?</h3>
+<details>
+<summary>I don't see umbrel.local</summary>
+
+- Try http://[IP address of the Pi] (find in your router)  
+- Or connect a screen + keyboard and log in with user "umbrel", password "moneyprintergobrrr"
+</details>
+
+<p>Monthly cost: ≈ €3 electricity<br />
+Security: you have the only key<br />
+No one can ever deactivate you</p>
+
+<hr />
+
+<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
+<strong>🗣️ Talk along about sovereign nodes</strong><br />
+<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br />
+<small>Tip: type "Guide Raspberry Pi node" as your first message</small>
+</div>
+
+<hr />
+
+<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
+
+  ### Disclaimer
+All guides are proposed by the community and reviewed by the OIM core team before going live.  
+Nevertheless, executing technical steps remains your own responsibility.  
+The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
+</div>
+
+<hr />
+
+<div style="text-align: center; margin-top: 2em;">
+  ← <a href="/EN/theses/thesis-09">Back  9</a>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+      
+        <span class="site-footer-owner"><a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Open_Internet_Manifest</a> is maintained by <a href="https://github.com/OpenInternetManifest">OpenInternetManifest</a>.</span>
+      
+      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    <div style="text-align: center; margin: 3em 0 2em; padding: 1.5em 0; border-top: 1px solid #333; font-size: 0.9em; color: #888;">
+  ← <a href="javascript:history.back()">Terug naar vorige pagina</a> · 
+  <a href="/">Home</a> · 
+  <a href="/NL/manifest.md">Alle theses</a>
+</div>
+    </footer>
+  </body>
+</html>
