@@ -1,3 +1,10 @@
+---
+layout: default
+title: Thesis 2 - Inleiding
+next_thesis: /NL/theses/thesis-02
+
+---
+
 # Thesis 2
 
 Zij die het open internet hebben ingesloten, verkopen jou nu het verhaal dat echte vrijheid iets uit de jaren tachtig was – en bijna iedereen trapt erin.
@@ -13,11 +20,5 @@ Zij noemen die ketting “[**gemak**](/Open_Internet_Manifest/NL/begrippen/gemak
 <strong>🗣️ Praat mee over deze thesis</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-03">Volgende thesis</a>
 </div>
 

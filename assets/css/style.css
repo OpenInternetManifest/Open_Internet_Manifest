@@ -52,36 +52,18 @@ img, .banner {
   padding: 2em 2.5em;
   border-radius: 18px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
-}
-
-/* Overlay box – clean, geen halo */
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 85%;
-  max-width: 900px;
-  background: rgba(15, 20, 25, 0.85) !important;
-  padding: 2em 2.5em;
-  border-radius: 18px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
-}
-
-.overlay-text h1, .overlay-text p {
   text-shadow: none !important;
   -webkit-text-stroke: 0 !important;
-  text-stroke: 0 !important;
   -webkit-text-fill-color: currentColor !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .overlay-text h1 {
   color: #66b3ff;
   font-size: 4.3em;
   margin: 0;
-  font-weight: 700; /* Van 900 naar 700 – verwijdert browser auto-glow */
+  font-weight: 700;
 }
 
 .overlay-text p {
@@ -91,14 +73,7 @@ img, .banner {
   font-weight: 600;
 }
 
-/* Extra reset voor stroke/glow */
-.overlay-text h1, .overlay-text p {
-  -webkit-text-stroke: 0 !important;
-  text-stroke: 0 !important;
-  -webkit-text-fill-color: currentColor !important;
-}
-
-/* Mobile */
+/* Mobile – compacter */
 @media (max-width: 768px) {
   .overlay-text {
     width: 90%;
@@ -120,20 +95,27 @@ img, .banner {
   line-height: 1.8;
   max-width: 900px;
   margin: 0 auto;
-  padding: 4em 2em 3em !important;
+  padding: 1.5em 2em 3em !important; /* Minder boven – strakker na banner */
+}
+
+.main-content > h1:first-child,
+.main-content > h2:first-child,
+.main-content > h3:first-child {
+  margin-top: 0 !important;
+  padding-top: 1.5em;
 }
 
 .main-content h1, .main-content h2, .main-content h3 {
   color: #66b3ff !important;
   font-size: 1.9em !important;
-  margin-top: 2.2em;
+  margin-top: 1.5em !important;
 }
 
 /* Footer */
 .footer-nav a {
   color: #66b3ff !important;
   text-decoration: none;
-  padding: 0 0.8em;
+  padding: 0 0.95em;
   font-weight: bold;
 }
 
@@ -145,4 +127,43 @@ img, .banner {
 /* Mooi lettertype */
 body {
   font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
+}
+.integrity-check {
+  margin: 3em 0;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.integrity-check summary {
+  padding: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  color: #66b3ff;
+}
+
+.integrity-check[open] summary {
+  border-bottom: 1px solid #333;
+}
+
+.integrity-content {
+  padding: 1.5em;
+}
+
+.integrity-content pre {
+  background: #1a1f24;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  margin: 1em 0;
+}
+
+.integrity-content ol {
+  padding-left: 1.5em;
+}
+
+.integrity-content a {
+  color: #66b3ff;
+  text-decoration: underline;
 }

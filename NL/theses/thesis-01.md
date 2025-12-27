@@ -1,3 +1,10 @@
+---
+layout: default
+title: Thesis 1 - Het internet is niet dood
+next_thesis: /NL/theses/thesis-02
+
+---
+
 # Thesis 1
 
 Het internet is niet dood; het is gekaapt door vijf [**poortwachters**](/Open_Internet_Manifest/NL/begrippen/poortwachters) die 92% van onze digitale adem controleren.  
@@ -16,10 +23,9 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/Open
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
-
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-XX">← Terug naar thesis XX</a>
-</div>
+<small style="display: block; text-align: center; margin-top: 3em; color: #888;">
+  This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
+</small>
+
