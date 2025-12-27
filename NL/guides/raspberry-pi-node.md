@@ -90,6 +90,7 @@ Niemand kan je ooit nog deactiveren
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
+---
 ## 💸 Doneer anoniem in crypto
 
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
@@ -103,8 +104,7 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 
-
-  ### Disclaimer
+### Disclaimer
 Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
 Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
 Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
