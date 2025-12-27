@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Levend Manifest — Het manifest is levend
+next_thesis: /Open_Internet_Manifest/NL/theses/Thesis-00
+
+---
+
 # Het manifest is levend
 
 Dit is geen einde  
