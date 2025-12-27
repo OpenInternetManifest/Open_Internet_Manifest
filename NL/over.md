@@ -1,4 +1,9 @@
-# Open Internet Manifest
+---
+layout: default
+title: over - about pagina
+next_thesis: /NL/theses/thesis-00
+
+---
 
 In de echte wereld weet je altijd hoe je ergens bent gekomen: te voet, met de fiets, via een mooie route of in de stromende regen.  
 Op het huidige internet word je geteleporteerd naar een paar gesloten pretparken zonder te weten wie de poorten beheert.
@@ -24,8 +29,6 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
-
----
 
 ### Doneer anoniem in crypto
 
@@ -56,5 +59,3 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 </div>
 
 ---
-
-<!-- Verwijder de handmatige "Terug naar thesis XX" link – de footer-nav in default.html doet dit al -->
