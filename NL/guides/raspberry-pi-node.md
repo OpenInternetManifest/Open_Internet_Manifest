@@ -90,7 +90,7 @@ Niemand kan je ooit nog deactiveren
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
-💸 Doneer anoniem in crypto
+### 💸 Doneer anoniem in crypto
 
 ---
 
