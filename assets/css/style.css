@@ -69,7 +69,7 @@ img, .banner {
   color: #66b3ff;
   font-size: 4.3em;
   margin: 0;
-  font-weight: 700; /* 700 in plaats van 900 – voorkomt browser auto-glow */
+  font-weight: 700; /* Van 900 naar 700 – verwijdert browser auto-glow */
 }
 
 .overlay-text p {
@@ -77,6 +77,13 @@ img, .banner {
   font-size: 2.1em;
   margin: 0.8em 0 0;
   font-weight: 600;
+}
+
+/* Extra reset voor stroke/glow */
+.overlay-text h1, .overlay-text p {
+  -webkit-text-stroke: 0 !important;
+  text-stroke: 0 !important;
+  -webkit-text-fill-color: currentColor !important;
 }
 
 /* Mobile – compacter */
