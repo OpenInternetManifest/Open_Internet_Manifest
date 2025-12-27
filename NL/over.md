@@ -1,7 +1,7 @@
 ---
 layout: default
 title: over - about pagina
-next_thesis: /Open_internet_Manifest/NL/theses/thesis-00
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-00
 
 ---
 
@@ -15,8 +15,8 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 ---
 
 ## De Theses
-[Begin met lezen →](/Open_Internet_manifest/NL/theses/thesis-00)  
-[Alle theses →](/Open_Internet_manifest/NL/manifest)
+[Begin met lezen →](/Open_Internet_Manifest/NL/theses/thesis-00)  
+[Alle theses →](/Open_Internet_Manifest/NL/manifest)
 
 ---
 
