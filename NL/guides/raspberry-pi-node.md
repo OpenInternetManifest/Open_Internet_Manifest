@@ -87,7 +87,6 @@ Niemand kan je ooit nog deactiveren
 ---
 
  ### Ondersteun het Open Internet Manifest ❤️
-
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
