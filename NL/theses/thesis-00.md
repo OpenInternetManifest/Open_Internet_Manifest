@@ -1,11 +1,9 @@
 ---
+
 layout: default
 title: Thesis 0 - Inleiding
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-01
 
----
-
-### 100 theses voor een vrij, open en onvervreemdbaar internet
 
 ---
 
