@@ -8,7 +8,14 @@
     {% seo %}
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ 'now' | date: '%s' }}">
+ <style>
+  * {
+    -webkit-filter: none !important;
+    filter: none !important;
+    text-shadow: none !important;
+  }
+</style>
   </head>
   <body>
 
