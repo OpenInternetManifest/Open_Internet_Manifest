@@ -88,7 +88,7 @@ Niemand kan je ooit nog deactiveren
 
 <div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
 
- ### 💸 Doneer anoniem in crypto
+ 💸 Doneer anoniem in crypto
 
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
