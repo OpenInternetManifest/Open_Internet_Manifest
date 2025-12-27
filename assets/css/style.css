@@ -53,36 +53,51 @@
 }
 }
 
-/* Overlay met donkere box */
+/* Overlay text – subtieler en beter gebalanceerd */
 .overlay-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 90%;
-  max-width: 1000px;
-  background: rgba(15, 20, 25, 0.9);
-  padding: 2.5em;
-  border-radius: 20px;
-  text-shadow: 3px 3px 12px #000;
+  width: 85%;
+  max-width: 900px;
+  background: rgba(15, 20, 25, 0.85);
+  padding: 1.8em 2.5em;
+  border-radius: 18px;
+  text-shadow: 2px 2px 8px #000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
 .overlay-text h1 {
   color: #66b3ff;
-  font-size: 5em;
+  font-size: 4.2em;
   margin: 0;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .overlay-text p {
   color: white;
-  font-size: 2.4em;
-  margin: 1em 0 0;
+  font-size: 2em;
+  margin: 0.8em 0 0;
   font-weight: 700;
 }
 
+/* Mobile – kleiner en compacter */
+@media (max-width: 768px) {
+  .overlay-text {
+    width: 92%;
+    padding: 1.4em 1.8em;
+    border-radius: 15px;
+  }
+  .overlay-text h1 {
+    font-size: 2.8em;
+  }
+  .overlay-text p {
+    font-size: 1.5em;
+  }
+}
 /* Mooi lettertype */
 body {
   font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
