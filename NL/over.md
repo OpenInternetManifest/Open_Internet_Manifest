@@ -51,7 +51,7 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 <small>Kleine tip: typ je thesisnummer of onderwerp als eerste bericht</small><br><br>
 
 <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org">
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org" alt="Join community QR code">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://matrix.to/%23/%23openinternetmanifest:matrix.org" alt="Join community QR code">
 </a>
 
 <br><br>
