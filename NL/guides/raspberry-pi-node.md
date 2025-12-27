@@ -109,4 +109,3 @@ Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid
 Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
 
 ---
-
