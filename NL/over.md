@@ -15,13 +15,13 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 ---
 
 ## De Theses
-[Begin met lezen →](/NL/theses/thesis-00)  
-[Alle theses →](/NL/manifest)
+[Begin met lezen →](/Open_Internet_manifest/NL/theses/thesis-00)  
+[Alle theses →](/Open_Internet_manifest/NL/manifest)
 
 ---
 
 ## Praktische stappen (begin vandaag)
-[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/NL/guides/)
+[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_manifest/NL/guides/)
 
 ---
 
