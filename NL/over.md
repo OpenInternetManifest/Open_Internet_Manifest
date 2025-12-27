@@ -1,7 +1,7 @@
 ---
 layout: default
 title: over - about pagina
-next_thesis: /NL/theses/thesis-00
+next_thesis: /Open_internet_Manifest/NL/theses/thesis-00
 
 ---
 
