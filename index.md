@@ -1,7 +1,12 @@
-Kies je taal:
-- [Nederlands](/Open_Internet_Manifest/NL/manifest.md)
-- [English](/Open_Internet_Manifest/EN/manifest.md)
+---
+layout: default
+title: Home
+---
 
-Het manifest is levend – jij bent mede-auteur
+<p>Kies je taal:</p>
+<ul>
+  <li><a href="{{ site.baseurl }}/NL/manifest.md">Nederlands</a></li>
+  <li><a href="{{ site.baseurl }}/EN/manifest.md">English</a></li>
+</ul>
 
-
+<p>Het manifest is levend – jij bent mede-auteur</p>
