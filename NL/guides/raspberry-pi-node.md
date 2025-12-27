@@ -91,7 +91,8 @@ Dit manifest blijft alleen bestaan dankzij jullie donaties.
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
 ---
-## 💸 Doneer anoniem in crypto
+# 💸 Doneer anoniem in crypto
+
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | **Bitcoin (BTC)**  | [![Bitcoin QR](https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm)](https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm)      | `bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm`                     
