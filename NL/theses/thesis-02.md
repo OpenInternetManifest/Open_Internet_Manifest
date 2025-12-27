@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thesis 2 - Inleiding
-next_thesis: /Open_Internet_manifest/NL/theses/thesis-02
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-03
 
 ---
 
