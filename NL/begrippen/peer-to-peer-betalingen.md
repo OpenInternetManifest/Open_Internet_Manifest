@@ -10,6 +10,3 @@ Zie ook → [Open protocollen](/Open_Internet_Manifest/NL/begrippen/onafhankelij
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-09">Terug naar thesis 9</a>
-</div>

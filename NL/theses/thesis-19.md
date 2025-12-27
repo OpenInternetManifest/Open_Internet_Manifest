@@ -22,3 +22,4 @@ Eén transactie buiten hun systeem is genoeg om te voelen hoe [**financiële soe
 <small>Kleine tip: typ "Thesis 19" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
+---

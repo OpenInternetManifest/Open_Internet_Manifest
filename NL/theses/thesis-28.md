@@ -24,4 +24,4 @@ Begin met eisen wat al jaren wettelijk verplicht had moeten zijn.
 <small>Kleine tip: typ "Thesis 28" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---

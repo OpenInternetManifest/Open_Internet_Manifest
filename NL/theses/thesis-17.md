@@ -28,3 +28,5 @@ De volledige guide komt eraan → [Video zonder YouTube – coming soon](/Open_I
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 17" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
+
+---

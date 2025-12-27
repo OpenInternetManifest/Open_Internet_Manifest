@@ -8,6 +8,3 @@ Zie ook → [ActivityPub](/Open_Internet_Manifest/NL/begrippen/activitypub) · [
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-02">Terug naar thesis 2</a>
-</div>

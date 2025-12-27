@@ -8,6 +8,3 @@ Zie ook → [Digitale soevereiniteit](/Open_Internet_Manifest/NL/begrippen/digit
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-06">Terug naar thesis 6</a>
-</div>

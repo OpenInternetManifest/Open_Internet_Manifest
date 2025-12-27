@@ -23,3 +23,4 @@ We staan op het smalste randje van de geschiedenis: het moment waarop [**collect
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
+---

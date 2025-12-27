@@ -29,3 +29,4 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/Open
   This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
 </small>
 
+---

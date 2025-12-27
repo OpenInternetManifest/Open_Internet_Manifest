@@ -28,3 +28,4 @@ De volledige guide komt eraan → [Video zonder YouTube – coming soon](/Open_I
 <small>Kleine tip: typ "Thesis 8" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
+---

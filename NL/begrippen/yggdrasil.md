@@ -8,6 +8,3 @@ Perfect voor Nederland: polder-mesh op steroïden.
 
 Zie ook → Mesh-netwerk · Sovereign Node
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-01">Terug naar thesis 1</a>
-</div>

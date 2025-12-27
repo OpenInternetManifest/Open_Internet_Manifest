@@ -37,5 +37,5 @@ De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Ope
 <small>Kleine tip: typ "Thesis 09" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---
 

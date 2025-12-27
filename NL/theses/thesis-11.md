@@ -25,3 +25,5 @@ Door het nu in je handen te houden, word jij mede-auteur – want een echt open 
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 11" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
+
+---

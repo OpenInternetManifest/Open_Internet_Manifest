@@ -29,3 +29,4 @@ De volledige guide komt eraan → [Nostr account maken – coming soon](/Open_In
 <small>Kleine tip: typ "Thesis 24" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
+---

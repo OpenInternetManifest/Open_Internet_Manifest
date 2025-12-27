@@ -8,6 +8,3 @@ Zie ook → [Sovereign node](/Open_Internet_Manifest/NL/begrippen/sovereign-node
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-04">Terug naar thesis 4</a>
-</div>

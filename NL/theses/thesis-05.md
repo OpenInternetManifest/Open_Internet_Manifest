@@ -26,4 +26,4 @@ Echte vrijheid betekent een internet waarop je kunt spreken, verbinden en iets n
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---

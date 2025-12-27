@@ -24,3 +24,4 @@ Verbinden in plaats van scrollen. Praten in plaats van performen.
 <small>Kleine tip: typ "Thesis 20" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
+---

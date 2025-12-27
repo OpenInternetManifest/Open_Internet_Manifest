@@ -10,6 +10,3 @@ Zie ook → [Nostr](/Open_Internet_Manifest/NL/begrippen/nostr) · [DID](/Open_I
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-14">Terug naar thesis 14</a>
-</div>

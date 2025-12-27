@@ -50,7 +50,4 @@ Zie ook → [Thesis 9](/Open_Internet_Manifest/NL/theses/thesis-09) · [Thesis 2
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-01">Terug naar thesis 1</a>
-</div>
 

@@ -25,4 +25,4 @@ De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon
 <small>Kleine tip: typ "Thesis 16" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---

@@ -25,5 +25,5 @@ Jouw uitnodiging van vandaag is het netwerk-effect van morgen.
 <small>Kleine tip: typ "Thesis 27" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---
 

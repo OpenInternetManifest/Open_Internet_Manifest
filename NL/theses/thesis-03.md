@@ -29,4 +29,4 @@ Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/NL/begrippen/su
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---

@@ -10,7 +10,4 @@ Zie ook → [Surveillance](/Open_Internet_Manifest/NL/begrippen/surveillance) ·
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-05">Terug naar thesis 5</a>
-</div>
 

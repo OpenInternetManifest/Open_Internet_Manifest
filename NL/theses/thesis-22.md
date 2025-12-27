@@ -31,4 +31,4 @@ De volledige guide komt eraan → [Element migratie – coming soon](/Open_Inter
 <small>Kleine tip: typ "Thesis 22" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---

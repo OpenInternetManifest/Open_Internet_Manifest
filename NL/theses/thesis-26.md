@@ -22,5 +22,5 @@ Eén euro per maand van een miljoen mensen verandert alles.
 <small>Kleine tip: typ "Thesis 26" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---
 

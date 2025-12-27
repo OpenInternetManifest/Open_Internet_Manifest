@@ -28,3 +28,5 @@ Het werkt vandaag al voor miljoenen mensen. Het enige wat nog ontbreekt zijn jij
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 15" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
+
+---

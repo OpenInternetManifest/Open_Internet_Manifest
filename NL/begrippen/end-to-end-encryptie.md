@@ -10,6 +10,3 @@ Zie ook → [Privacy](/Open_Internet_Manifest/NL/begrippen/privacy) · [Vrije pr
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-07">Terug naar thesis 7</a>
-</div>

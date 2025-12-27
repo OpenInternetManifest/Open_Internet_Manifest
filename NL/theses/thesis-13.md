@@ -22,4 +22,4 @@ Je kunt ze meenemen, delen met wie jij wilt, en echt verwijderen als je dat wilt
 <small>Kleine tip: typ "Thesis 13" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
-
+---

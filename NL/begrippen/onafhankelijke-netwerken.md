@@ -10,6 +10,3 @@ Zie ook → [Mesh-netwerk](/Open_Internet_Manifest/NL/begrippen/mesh-netwerk) ·
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-08">Terug naar thesis 8</a>
-</div>
