@@ -54,7 +54,21 @@ img, .banner {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
 }
 
-/* Verwijder alle mogelijke glow/stroke/halo */
+/* Overlay box – clean, geen halo */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 85%;
+  max-width: 900px;
+  background: rgba(15, 20, 25, 0.85) !important;
+  padding: 2em 2.5em;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+}
+
 .overlay-text h1, .overlay-text p {
   text-shadow: none !important;
   -webkit-text-stroke: 0 !important;
@@ -62,9 +76,7 @@ img, .banner {
   -webkit-text-fill-color: currentColor !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  paint-order: fill;
 }
-
 .overlay-text h1 {
   color: #66b3ff;
   font-size: 4.3em;
@@ -86,7 +98,7 @@ img, .banner {
   -webkit-text-fill-color: currentColor !important;
 }
 
-/* Mobile – compacter */
+/* Mobile */
 @media (max-width: 768px) {
   .overlay-text {
     width: 90%;
