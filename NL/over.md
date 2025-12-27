@@ -21,7 +21,7 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 ---
 
 ## Praktische stappen (begin vandaag)
-[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_manifest/NL/guides/)
+[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_Manifest/NL/guides/)
 
 ---
 

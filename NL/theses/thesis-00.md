@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thesis 0 - Inleiding
-next_thesis: /NL/theses/thesis-01
+next_thesis: /Open_Internet_manifest/NL/theses/thesis-01
 
 ---
 
@@ -43,7 +43,7 @@ Welkom bij het begin.
       <li>Klik op "Kopieer thesis tekst" hieronder (tekst wordt automatisch gekopieerd).</li>
       <li>Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank">deze</a>.</li>
       <li>Plak de tekst en bereken de hash.</li>
-      <li>Vergelijk met de officiële hash in <a href="{{ site.baseurl }}/{{ page.lang | default: 'NL' }}/manifest.md">het manifest</a>.</li>
+      <li>Vergelijk met de officiële hash in <a href="{{ site.baseurl }}/{{ page.lang | default: 'NL' }}/Open_Internet_manifest/manifest.md">het manifest</a>.</li>
     </ol>
     
     <button onclick="copyThesisText()" class="copy-btn">Kopieer thesis tekst</button>
