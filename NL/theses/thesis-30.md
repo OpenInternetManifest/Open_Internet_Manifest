@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 30 — Dit manifest is pas het begin
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-00
+
+---
+
 # Thesis 30 – Dit manifest is pas het begin
 
 Het is geen eindpunt, maar een uitnodiging.  
@@ -15,9 +23,4 @@ Loop je mee?
 <small>Kleine tip: typ "Thesis 30" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-00">Het manifest is levend</a>
-</div>
 

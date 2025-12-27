@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 5 — Alleen een echt open internet geeft echte digitale vrijheid
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-06
+
+---
+
 # Thesis 5
 
 Alleen een echt open internet geeft je echte [**digitale vrijheid**](/Open_Internet_Manifest/NL/begrippen/digitale-vrijheid) – alle andere oplossingen houden je gevangen.
@@ -18,8 +26,4 @@ Echte vrijheid betekent een internet waarop je kunt spreken, verbinden en iets n
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
 
-|<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-06">Volgende thesis</a>
-</div>

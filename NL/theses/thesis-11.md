@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 11 — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-12
+
+---
+
 # Thesis 11
 
 Dit manifest is geen decreet van bovenaf; het is een vuur dat brandt in open gesprekken.
@@ -17,10 +25,3 @@ Door het nu in je handen te houden, word jij mede-auteur – want een echt open 
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 11" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-12">Volgende thesis</a>
-</div>
-

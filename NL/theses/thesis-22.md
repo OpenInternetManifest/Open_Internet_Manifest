@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 22 — Vervang WhatsApp door Element (Matrix)
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-23
+
+---
+
 # Thesis 22 – Vervang WhatsApp door Element (Matrix)
 
 Download [**Element**](/Open_Internet_Manifest/NL/begrippen/element) op je telefoon en computer.
@@ -23,9 +31,4 @@ De volledige guide komt eraan → [Element migratie – coming soon](/Open_Inter
 <small>Kleine tip: typ "Thesis 22" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-23">Volgende thesis</a>
-</div>
 

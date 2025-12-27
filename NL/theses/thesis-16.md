@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 16 — Berichtenapps zonder Big Tech
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-17
+
+---
+
 # Thesis 16 – Berichtenapps zonder Big Tech
 
 [**Matrix**](/Open_Internet_Manifest/NL/begrippen/matrix) (Element), [**XMPP**](/Open_Internet_Manifest/NL/begrippen/xmpp) (Dino, Conversations), [**Session**](/Open_Internet_Manifest/NL/begrippen/session), [**Briar**](/Open_Internet_Manifest/NL/begrippen/briar), [**SimpleX**](/Open_Internet_Manifest/NL/begrippen/simplex): end-to-end versleuteld, federated of volledig peer-to-peer.
@@ -17,9 +25,4 @@ De volledige guide komt eraan → [Berichtenapps zonder Big Tech – coming soon
 <small>Kleine tip: typ "Thesis 16" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-17">Volgende thesis</a>
-</div>
 

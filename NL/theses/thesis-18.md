@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 18 — Zoeken zonder Google
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-19
+
+---
+
 # Thesis 18 – Zoeken zonder Google
 
 Google beslist niet wat waar is – Google beslist wat jij te zien krijgt.
@@ -19,9 +27,4 @@ De volledige guide komt eraan → [Zoeken zonder Google – coming soon](/Open_I
 <small>Kleine tip: typ "Thesis 18" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-19">Volgende thesis</a>
-</div>
 

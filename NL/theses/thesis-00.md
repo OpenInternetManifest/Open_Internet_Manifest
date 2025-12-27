@@ -4,7 +4,6 @@ layout: default
 title: Thesis 0 - Inleiding
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-01
 
-
 ---
 
 Dit is geen petitie.  

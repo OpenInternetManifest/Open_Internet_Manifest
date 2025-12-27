@@ -58,4 +58,3 @@ Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 (Scan met je telefoon of klik de QR – opent in Element app/browser. Geen Big Tech nodig!)
 </div>
 
----

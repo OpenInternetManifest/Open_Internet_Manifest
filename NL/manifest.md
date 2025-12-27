@@ -250,8 +250,6 @@ Gebaseerd op commit: <code>b2c1903f10cb22c32421d4e04314db703f044630</code></p>
 
 ---
 
-### Navigatie
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-XX">← Terug naar thesis XX</a>
-</div>
+
+

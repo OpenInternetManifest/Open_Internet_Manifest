@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 27 — Leer één iemand deze week een open alternatief gebruiken
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-28
+
+---
+
 # Thesis 27 – Leer één persoon deze week een open alternatief
 
 Je moeder op [**Element**](/Open_Internet_Manifest/NL/begrippen/element).  
@@ -17,9 +25,5 @@ Jouw uitnodiging van vandaag is het netwerk-effect van morgen.
 <small>Kleine tip: typ "Thesis 27" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-28">Volgende thesis</a>
-</div>
 

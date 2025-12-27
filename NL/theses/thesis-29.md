@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 29 — Het open internet is geen utopie, het is een keuze die we elke dag maken
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-30
+
+---
+
 # Thesis 29 – Het open internet is geen utopie, het is een dagelijkse keuze
 
 Elke keer dat je kiest voor een open alternatief in plaats van gemak, duw je het hek een centimeter verder open.
@@ -14,9 +22,4 @@ Vrijheid is geen bestemming – het is een gewoonte die je vandaag weer kunt opp
 <small>Kleine tip: typ "Thesis 29" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-30">Volgende thesis</a>
-</div>
 

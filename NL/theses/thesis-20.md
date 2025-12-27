@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 20 — Van volgers verzamelen naar echte gemeenschappen bouwen
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-21
+
+---
+
 # Thesis 20 – Van volgers verzamelen naar echte gemeenschappen bouwen
 
 10 miljoen volgers die je niet kent is geen macht – het is een gijzeling.
@@ -14,11 +22,5 @@ Verbinden in plaats van scrollen. Praten in plaats van performen.
 <strong>🗣️ Praat mee over deze thesis</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 20" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-21">Volgende thesis</a>
 </div>
 

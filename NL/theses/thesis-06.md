@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 6 — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-07
+
+---
+
 # Thesis 6
 
 ***Exit zonder bouw is vlucht; bouw zonder exit is [**collaboratie**](/Open_Internet_Manifest/NL/begrippen/collaboratie).***
@@ -18,8 +26,3 @@ Echte verandering vraagt om één dubbele beweging: nu [**exit**](/Open_Internet
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-07">Volgende thesis</a>
-</div>

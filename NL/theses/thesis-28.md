@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 28 — Bedrijven en overheden: eis interoperabiliteit en open standaarden
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-29
+
+---
+
 # Thesis 28 – Eis interoperabiliteit van bedrijven en overheden
 
 Geen verplichte app meer om een overheidsdienst te bereiken.
@@ -16,9 +24,4 @@ Begin met eisen wat al jaren wettelijk verplicht had moeten zijn.
 <small>Kleine tip: typ "Thesis 28" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-|<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-29">Volgende thesis</a>
-</div>
 

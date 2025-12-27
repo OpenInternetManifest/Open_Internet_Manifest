@@ -1,4 +1,12 @@
-# Thesis 21 – Praktische eerste stap: maak vandaag nog een Mastodon-account
+---
+
+layout: default
+title: Thesis 21 — Praktische eerste stap maak vandaag nog een Mastodon-account
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-22
+
+---
+
+ # Thesis 21 – Praktische eerste stap: maak vandaag nog een Mastodon-account
 
 Het fediverse wacht op je – en het is makkelijker dan je denkt.
 
@@ -24,11 +32,5 @@ Dat is alles wat nodig is om te beginnen.
 <strong>🗣️ Praat mee over deze thesis</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 21" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-22">Volgende thesis</a>
 </div>
 

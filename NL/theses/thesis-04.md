@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 4 — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-05
+
+---
+
 # Thesis 4
 
 De [**enclosures**](/Open_Internet_Manifest/NL/begrippen/enclosures) zijn bijna voltooid, maar het laatste hek staat nog open – en ze weten het.
@@ -13,11 +21,5 @@ We staan op het smalste randje van de geschiedenis: het moment waarop [**collect
 <strong>🗣️ Praat mee over deze thesis</strong><br>
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-05">Volgende thesis</a>
 </div>
 

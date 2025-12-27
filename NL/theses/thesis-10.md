@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 10 — Het digitale hok breidt zich uit naar de echte wereld
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-11
+
+---
+
 # Thesis 10
 
 De digitale kooi breidt zich uit naar de echte wereld – en wij helpen zelf mee dragen.
@@ -17,9 +25,4 @@ Alleen een echt open internet kan die uitbreiding stoppen – door te laten zien
 <small>Kleine tip: typ "Thesis 10" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-11">Volgende thesis</a>
-</div>
 

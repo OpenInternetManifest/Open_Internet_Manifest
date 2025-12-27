@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 3 — In de echte wereld zou niemand accepteren wat wij online al jaren slikken
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-04
+
+---
+
 # Thesis 3
 
 In de echte wereld zou niemand accepteren wat wij op internet al jaren normaal vinden.
@@ -21,8 +29,4 @@ Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/NL/begrippen/su
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-04">Volgende thesis</a>
-</div>

@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 9 — Een open internet maakt echte economische vrijheid weer mogelijk
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-10
+
+---
+
 # Thesis 9 – Peer-to-peer betalingen zonder tussenpersoon
 
 Vroeger kon je een website bouwen, een dienst aanbieden of een gemeenschap starten en direct geld verdienen van mensen overal ter wereld – zonder dat iemand 15 tot 30 procent van je omzet afroomt.
@@ -29,9 +37,5 @@ De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Ope
 <small>Kleine tip: typ "Thesis 09" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-10">Volgende thesis</a>
-</div>
 

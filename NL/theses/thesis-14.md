@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 14 — Draagbare identiteit en reputatie
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-15
+
+---
+
 # Thesis 14 – Draagbare identiteit en reputatie
 
 Eén digitale sleutel ([**Nostr npub**](/Open_Internet_Manifest/NL/begrippen/nostr), [**DID**](/Open_Internet_Manifest/NL/begrippen/did), [**Keyoxide**](/Open_Internet_Manifest/NL/begrippen/keyoxide)) die je overal mee naartoe neemt.
@@ -13,10 +21,3 @@ Je bouwt reputatie op één plek en die reist met je mee – zoals het hoort.
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 14" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-15">Volgende thesis</a>
-</div>
-

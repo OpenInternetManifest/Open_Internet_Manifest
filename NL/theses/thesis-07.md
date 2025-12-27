@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 7 — Een open internet geeft privacy zijn oude kracht terug
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-08
+
+---
+
 # Thesis 7
 
 Een open internet geeft je [**privacy**](/Open_Internet_Manifest/NL/begrippen/privacy) haar oude kracht terug.
@@ -20,8 +28,3 @@ Door nu te bouwen aan [**vrije protocollen**](/Open_Internet_Manifest/NL/begripp
 <small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-08">Volgende thesis</a>
-</div>

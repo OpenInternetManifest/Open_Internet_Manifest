@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Thesis 15 — Sociale netwerken zonder centrale eigenaar
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-16
+
+---
+
 # Thesis 15 – Sociale netwerken zonder centrale eigenaar
 
 [**Mastodon**](/Open_Internet_Manifest/NL/begrippen/mastodon), [**Pixelfed**](/Open_Internet_Manifest/NL/begrippen/pixelfed), [**Lemmy**](/Open_Internet_Manifest/NL/begrippen/lemmy), [**Friendica**](/Open_Internet_Manifest/NL/begrippen/friendica), [**Hubzilla**](/Open_Internet_Manifest/NL/begrippen/hubzilla): je kiest je eigen server (instance) of draait hem zelf.
@@ -20,10 +28,3 @@ Het werkt vandaag al voor miljoenen mensen. Het enige wat nog ontbreekt zijn jij
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
 <small>Kleine tip: typ "Thesis 15" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
 </div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-16">Volgende thesis</a>
-</div>
-
