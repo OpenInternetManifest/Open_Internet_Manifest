@@ -30,7 +30,7 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 Dit manifest blijft alleen bestaan dankzij jullie donaties.  
 Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
 
-### Doneer anoniem in crypto
+### 💸 Doneer anoniem in crypto
 
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|

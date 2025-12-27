@@ -24,11 +24,3 @@ WhatsApp is niet onvermijdelijk – het is alleen nog maar normaal.
 De volledige guide komt eraan → [Element migratie – coming soon](/Open_Internet_Manifest/NL/guides/element-migratie-coming-soon)
 
 ---
-
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis 22" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----

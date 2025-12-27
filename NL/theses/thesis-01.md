@@ -17,16 +17,3 @@ Zolang hun greep niet wordt gebroken, blijft [**digitale soevereiniteit**](/Open
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----
-
-<small style="display: block; text-align: center; margin-top: 3em; color: #888;">
-  This site is open source. <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest">Improve this page</a>.
-</small>
-
----

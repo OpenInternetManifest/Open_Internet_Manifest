@@ -15,11 +15,3 @@ Vandaag koop je een telefoon en je bent eerst klant bij Apple of Google, daarna 
 
 Zij noemen die ketting “[**gemak**](/Open_Internet_Manifest/NL/begrippen/gemak)” en “[**veiligheid**](/Open_Internet_Manifest/NL/begrippen/veiligheid)”, zodat jij vergeet dat vrijheid ooit eenvoudig, direct en zonder poortwachters was.
 
----
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----

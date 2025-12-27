@@ -19,10 +19,4 @@ Als we deze normalisatie nu niet doorbreken, wordt de [**ommuurde tuin**](/Open_
 Alleen een echt open internet kan die uitbreiding stoppen – door te laten zien dat een vrije digitale wereld nog steeds mogelijk is, en daarmee de fysieke wereld weer ademruimte geeft.
 
 ---
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis 10" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
 
----

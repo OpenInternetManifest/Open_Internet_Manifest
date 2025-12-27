@@ -16,10 +16,3 @@ Je bouwt reputatie op één plek en die reist met je mee – zoals het hoort.
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis 14" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----

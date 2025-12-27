@@ -21,11 +21,3 @@ Door nu te bouwen aan [**vrije protocollen**](/Open_Internet_Manifest/NL/begripp
 **Zie ook de praktische [Raspberry Pi node guide](/Open_Internet_Manifest/NL/guides/raspberry-pi-node) – bouw je eigen infrastructuur.**
 
 ---
-
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----

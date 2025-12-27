@@ -17,11 +17,3 @@ Ze zijn niet perfect, maar ze zijn van niemand – en daarom kunnen ze nooit mee
 Elke dag dat we ze meer gebruiken, wordt het monopolie van de vijf [**poortwachters**](/Open_Internet_Manifest/NL/begrippen/poortwachters) zwakker.
 
 ---
-
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis 12" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----

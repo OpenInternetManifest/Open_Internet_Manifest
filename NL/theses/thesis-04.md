@@ -17,10 +17,3 @@ Toch bestaan er nog alternatieve netwerken, vrije servers, [**opensource-besturi
 We staan op het smalste randje van de geschiedenis: het moment waarop [**collectieve exit**](/Open_Internet_Manifest/NL/begrippen/collectieve-exit) nog mogelijk is – en waarop wij samen kunnen kiezen om dat hek voorgoed open te breken.
 
 ---
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over deze thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Thesis XX" als eerste bericht zodat iedereen weet waar je over wilt praten</small>
-</div>
-
----
