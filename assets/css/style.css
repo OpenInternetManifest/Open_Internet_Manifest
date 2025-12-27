@@ -8,15 +8,12 @@
   color: #e0e0e0 !important;
 }
 
-img, .banner {
-  background: transparent !important;
-}
-
-/* Responsive banner – betere scaling */
+/* Responsive banner – betere scaling met min/max hoogte */
 .banner {
   position: relative;
   width: 100%;
-  padding-top: 60%; /* Iets hoger voor je banner – adjust naar 55-65% als nodig */
+  min-height: 400px; /* Min hoogte – voorkomt te klein bij inzoomen */
+  max-height: 80vh; /* Max 80% van schermhoogte – voorkomt te groot bij uitzoomen */
   overflow: hidden;
 }
 
@@ -28,6 +25,32 @@ img, .banner {
   height: 100%;
   object-fit: cover;
   object-position: center center;
+}
+
+/* Op grote schermen vaste hoogte voor consistentie */
+@media (min-width: 1200px) {
+  .banner {
+    min-height: 600px;
+    max-height: 700px;
+  }
+}
+
+/* Op mobile iets lager */
+@media (max-width: 768px) {
+  .banner {
+    min-height: 300px;
+    max-height: 60vh;
+  }
+ 
+  /* Overlay iets kleiner maken bij inzoomen */
+  @media (max-width: 1200px) {
+  .overlay-text h1 {
+    font-size: 4em;
+  }
+  .overlay-text p {
+    font-size: 1.8em;
+  }
+}
 }
 
 /* Overlay met donkere box */
