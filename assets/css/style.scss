@@ -2,7 +2,6 @@
   display: none !important;
 }
 
-/* Force donker thema */
 * {
   background: #0f1419 !important;
   color: #e0e0e0 !important;
@@ -12,11 +11,10 @@ img, .banner {
   background: transparent !important;
 }
 
-/* Responsive banner – perfecte scaling */
 .banner {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 ratio – schaalt bij zoom/mobile */
+  padding-top: 56.25%;
   overflow: hidden;
 }
 
@@ -30,7 +28,6 @@ img, .banner {
   object-position: center center;
 }
 
-/* Overlay text met donkere box */
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -59,19 +56,10 @@ img, .banner {
   font-weight: bold;
 }
 
-/* Content */
 .main-content h1, .main-content h2, .main-content h3 {
   color: #66b3ff !important;
 }
 
-.main-content code {
-  background: #1a1f24 !important;
-  color: #ff9999 !important;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-}
-
-/* Footer */
 .footer-nav a {
   color: #66b3ff !important;
   text-decoration: none;
@@ -83,7 +71,6 @@ img, .banner {
   text-decoration: underline;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .overlay-text h1 {
     font-size: 2.8em;
