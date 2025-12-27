@@ -12,11 +12,11 @@ img, .banner {
   background: transparent !important;
 }
 
-/* Responsive banner */
+/* Responsive banner – betere scaling */
 .banner {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 – schaalt bij zoom/mobile */
+  padding-top: 60%; /* Iets hoger voor je banner – adjust naar 55-65% als nodig */
   overflow: hidden;
 }
 
@@ -30,7 +30,7 @@ img, .banner {
   object-position: center center;
 }
 
-/* Overlay with dark box */
+/* Overlay met donkere box */
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -40,35 +40,44 @@ img, .banner {
   width: 90%;
   max-width: 1000px;
   background: rgba(15, 20, 25, 0.9);
-  padding: 2em;
+  padding: 2.5em;
   border-radius: 20px;
   text-shadow: 3px 3px 12px #000;
 }
 
 .overlay-text h1 {
   color: #66b3ff;
-  font-size: 4.5em;
+  font-size: 5em;
   margin: 0;
-  font-weight: bold;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .overlay-text p {
   color: white;
-  font-size: 2.2em;
-  margin: 0.8em 0 0;
-  font-weight: bold;
+  font-size: 2.4em;
+  margin: 1em 0 0;
+  font-weight: 700;
+}
+
+/* Mooi lettertype */
+body {
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
+  line-height: 1.6;
 }
 
 /* Content headings */
 .main-content h1, .main-content h2, .main-content h3 {
   color: #66b3ff !important;
+  font-weight: 700;
 }
 
-/* Footer links */
+/* Footer */
 .footer-nav a {
   color: #66b3ff !important;
   text-decoration: none;
-  padding: 0 0.5em;
+  padding: 0 0.8em;
+  font-weight: bold;
 }
 
 .footer-nav a:hover {
@@ -79,12 +88,15 @@ img, .banner {
 /* Mobile */
 @media (max-width: 768px) {
   .overlay-text h1 {
-    font-size: 2.8em;
+    font-size: 3em;
   }
   .overlay-text p {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   .overlay-text {
     padding: 1.5em;
+  }
+  .banner {
+    padding-top: 70%; /* Meer hoogte op mobile voor betere overlay position */
   }
 }
