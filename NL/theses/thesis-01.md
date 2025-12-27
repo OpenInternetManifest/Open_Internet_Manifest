@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thesis 1 - Het internet is niet dood
-next_thesis: /Open_Internet_Manifest/NL/theses/thesis-01
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-02
 
 ---
 
