@@ -86,9 +86,12 @@ Niemand kan je ooit nog deactiveren
 
 ---
 
-<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
+ ## Ondersteun het Open Internet Manifest ❤️
 
- 💸 Doneer anoniem in crypto
+Dit manifest blijft alleen bestaan dankzij jullie donaties.  
+Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
+
+### 💸 Doneer anoniem in crypto
 
 | Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
