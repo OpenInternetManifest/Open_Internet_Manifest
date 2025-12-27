@@ -87,15 +87,15 @@
 /* Mobile – kleiner en compacter */
 @media (max-width: 768px) {
   .overlay-text {
-    width: 92%;
+    width: 50%;
     padding: 1.4em 1.8em;
     border-radius: 15px;
   }
   .overlay-text h1 {
-    font-size: 2.8em;
+    font-size: 2em;
   }
   .overlay-text p {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 /* Mooi lettertype */
