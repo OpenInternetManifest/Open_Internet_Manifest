@@ -4,8 +4,8 @@ function copyPageText() {
 
   const clone = mainContent.cloneNode(true);
 
-  // Verwijder integrity-check + community box + footer + copy knoppen
-  const toRemove = clone.querySelectorAll('.integrity-check, .community-box, .page-footer, .copy-container');
+  // Verwijder integrity-check + community box + footer + copy knoppen + feedback
+  const toRemove = clone.querySelectorAll('.integrity-check, .community-box, .page-footer, .copy-container, #copy-feedback, #verify-feedback');
   toRemove.forEach(el => el.remove());
 
   let text = clone.textContent || clone.innerText || '';
@@ -14,19 +14,19 @@ function copyPageText() {
   navigator.clipboard.writeText(text).then(() => {
     const feedback = document.getElementById('copy-feedback');
     if (feedback) {
-      feedback.textContent = '✓ Pagina tekst gekopieerd!';
-      setTimeout(() => feedback.textContent = '', 3000);
+      feedback.innerHTML = '<span style="color: #66ff66 !important; font-weight: bold;">✓ Pagina tekst gekopieerd!</span>';
+      setTimeout(() => feedback.innerHTML = '', 3000);
     }
   }).catch(() => {
     const feedback = document.getElementById('copy-feedback');
-    if (feedback) feedback.textContent = 'Copy mislukt – selecteer handmatig';
+    if (feedback) feedback.innerHTML = '<span style="color: #ff6666 !important;">Copy mislukt – selecteer handmatig</span>';
   });
 }
 
 function verifyHash() {
   const userHash = document.getElementById('user-hash').value.trim().toLowerCase();
   if (!userHash) {
-    document.getElementById('verify-feedback').innerHTML = '<span style="color: #ff6666;">✗ Voer een hash in</span>';
+    document.getElementById('verify-feedback').innerHTML = '<span style="color: #ff6666 !important;">✗ Voer een hash in</span>';
     return;
   }
 
@@ -38,8 +38,9 @@ function verifyHash() {
   const feedback = document.getElementById('verify-feedback');
 
   if (userHash === expectedHash) {
-   feedback.textContent = '✓ Pagina tekst gekopieerd!';
-    feedback.innerHTML = `<span style="color: #ff6666;">✗ Geen match</span><br>
+    feedback.innerHTML = '<span style="color: #66ff66 !important; font-size: 1.2em; font-weight: bold;">✓ PERFECTE MATCH!</span> Deze pagina is 100% authentiek.';
+  } else {
+    feedback.innerHTML = `<span style="color: #ff6666 !important; font-weight: bold;">✗ Geen match</span><br>
       Jouw hash: <code style="word-break: break-all;">${userHash}</code><br>
       Officiële hash: <code style="word-break: break-all;">${expectedHash || 'niet gevonden'}</code>`;
   }
