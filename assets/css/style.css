@@ -167,3 +167,27 @@ body {
   color: #66b3ff;
   text-decoration: underline;
 }
+.copy-container {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.copy-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background: rgba(102, 179, 255, 0.2);
+  border-color: #66b3ff;
+}
+
+.copy-btn:active {
+  background: rgba(102, 179, 255, 0.4);
+}

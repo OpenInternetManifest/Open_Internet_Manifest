@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: secundairy
 title: Home
 ---
 
