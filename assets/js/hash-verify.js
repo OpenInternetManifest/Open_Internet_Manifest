@@ -1,18 +1,24 @@
-<details class="integrity-check">
-  <summary>🔍 Verifieer integriteit van deze pagina (SHA256)</summary>
+function copyPageText() {
+  const mainContent = document.querySelector('.main-content');
+  if (!mainContent) return;
 
-  <div class="integrity-content">
-    <p><strong>Hoe controleren?</strong></p>
-    <ol>
-      <li>Klik op "Kopieer pagina tekst" – de inhoud wordt automatisch gekopieerd.</li>
-      <li>Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank">deze</a>.</li>
-      <li>Plak de tekst en bereken de hash.</li>
-      <li>Vergelijk met de officiële hash in <a href="{{ site.baseurl }}/verification">de verificatiepagina</a>.</li>
-    </ol>
+  const clone = mainContent.cloneNode(true);
 
-    <button onclick="copyPageText()" class="copy-btn">Kopieer pagina tekst</button>
-    <p id="copy-feedback" style="color: #66b3ff; margin-top: 1em; font-weight: bold;"></p>
+  // Verwijder de integrity-check en copy knoppen
+  const toRemove = clone.querySelectorAll('.integrity-check, .copy-container, .page-footer, .community-box');
+  toRemove.forEach(el => el.remove());
 
-    <p><em>Tekst is gekopieerd – plak in de hash tool!</em></p>
-  </div>
-</details>
+  let text = clone.textContent || clone.innerText || '';
+  text = text.trim().replace(/\n{3,}/g, '\n\n');
+
+  navigator.clipboard.writeText(text).then(() => {
+    const feedback = document.getElementById('copy-feedback');
+    if (feedback) {
+      feedback.textContent = '✓ Pagina tekst gekopieerd!';
+      setTimeout(() => feedback.textContent = '', 3000);
+    }
+  }).catch(() => {
+    const feedback = document.getElementById('copy-feedback');
+    if (feedback) feedback.textContent = 'Copy mislukt – selecteer handmatig';
+  });
+}
