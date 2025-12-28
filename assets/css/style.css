@@ -266,3 +266,141 @@ body {
 .community-box strong {
   color: #66b3ff !important;
 }
+.manifest-header {
+  text-align: center;
+  font-size: 3.5em;
+  margin: 1em 0 0.5em;
+  font-weight: 900;
+  color: #66b3ff;
+}
+
+.manifest-subtitle {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 2em;
+  color: white;
+  font-weight: 600;
+}
+
+.intro-title {
+  text-align: center;
+  font-size: 2em;
+  color: #66b3ff;
+  margin: 2em 0 0.5em;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 3em;
+}
+
+.theses-list {
+  list-style: none;
+  padding: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.theses-list li {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #333;
+}
+
+.theses-list li a {
+  font-size: 1.4em;
+  color: #e0e0e0;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.theses-list li a:hover {
+  color: #66b3ff;
+  text-decoration: underline;
+}
+
+.theses-list strong {
+  color: #66b3ff;
+}
+
+.copy-container {
+  margin-top: 0.8em;
+}
+
+.copy-btn {
+  background: #1a2a3a;
+  color: #66b3ff;
+  border: 1px solid #66b3ff;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-size: 0.95em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  background: #66b3ff;
+  color: #0f1419;
+}
+.manifest-header {
+  text-align: center;
+  font-size: 3.8em;
+  margin: 1.5em 0 0.5em;
+  font-weight: 900;
+  color: #66b3ff;
+}
+
+.manifest-subtitle {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 3em;
+  color: white;
+  font-weight: 600;
+}
+
+.intro-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #66b3ff;
+  margin: 2em 0 0.5em;
+  font-weight: 700;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 4em;
+  color: #e0e0e0;
+}
+
+.theses-list {
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.theses-list li {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #333;
+}
+
+.theses-list li a {
+  font-size: 1.5em;
+  color: #e0e0e0;
+  text-decoration: none;
+  line-height: 1.6;
+  display: block;
+}
+
+.theses-list li a:hover {
+  color: #66b3ff;
+}
+
+.thesis-number {
+  color: #66b3ff !important;
+  font-weight: 900;
+}
