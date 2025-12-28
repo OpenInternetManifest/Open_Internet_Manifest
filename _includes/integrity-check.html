@@ -6,11 +6,17 @@
     <ol>
       <li>Klik op "Kopieer pagina tekst" – de inhoud wordt automatisch gekopieerd.</li>
       <li>Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank">deze</a>.</li>
-      <li>Plak de tekst en bereken de hash.</li>
-      <li>Vergelijk met de officiële hash in <a href="{{ site.baseurl }}/verification">de verificatiepagina</a>.</li>
+      <li>Plak de tekst, bereken de hash.</li>
+      <li>Plak de hash hieronder en klik "Verifieer".</li>
     </ol>
 
     <button onclick="copyPageText()" class="copy-btn">Kopieer pagina tekst</button>
     <p id="copy-feedback" style="color: #66b3ff; margin-top: 1em; font-weight: bold;"></p>
+
+    <div style="margin-top: 2em;">
+      <input type="text" id="user-hash" placeholder="Plak hier je berekende SHA256 hash" style="width: 100%; padding: 0.8em; border-radius: 8px; border: 1px solid #333; background: #1a1f24; color: #e0e0e0;">
+      <button onclick="verifyHash()" class="copy-btn" style="margin-top: 1em;">Verifieer hash</button>
+      <p id="verify-feedback" style="margin-top: 1em; font-weight: bold;"></p>
+    </div>
   </div>
 </details>
