@@ -4,8 +4,8 @@ function copyPageText() {
 
   const clone = mainContent.cloneNode(true);
 
-  // Verwijder de integrity-check + community box (page-footer)
-  const toRemove = clone.querySelectorAll('.integrity-check, div[style*="text-align: center; margin-top: 3em"]');
+  // Verwijder integrity-check + community box (Praat mee) + footer + copy knoppen
+  const toRemove = clone.querySelectorAll('.integrity-check, div[style*="text-align: center; margin-top: 3em"], .page-footer, .copy-container');
   toRemove.forEach(el => el.remove());
 
   let text = clone.textContent || clone.innerText || '';
