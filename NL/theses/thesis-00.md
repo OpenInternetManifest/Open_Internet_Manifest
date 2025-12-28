@@ -3,7 +3,8 @@
 layout: default
 title: Thesis 0 - Inleiding
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-01
-
+donation_link: "https://buy.stripe.com/voorbeeldlink"  # Of Monero/BTC adres, Ko-fi, etc.
+donation_text: "Ondersteun de auteur van deze thesis"  # Optioneel, anders default tekst
 ---
 
 Dit is geen petitie.  
