@@ -1,3 +1,11 @@
+---
+
+layout: default
+title: Guides - Volledige guides pagina
+next_thesis: /Open_Internet_Manifest/NL/theses/thesis-15
+
+---
+
 # De Guides bij Open Internet Manifest – Nederlandse versie
 
 **Guide 1** — Account maken op Chaos.social (actieve, vrije community)  

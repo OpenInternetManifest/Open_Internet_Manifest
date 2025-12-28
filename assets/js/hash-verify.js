@@ -1,28 +1,18 @@
-function copyThesisText(button) {
-  // Vind de bovenliggende <li>
-  const li = button.closest('li');
-  if (!li) return;
+<details class="integrity-check">
+  <summary>🔍 Verifieer integriteit van deze pagina (SHA256)</summary>
 
-  // Clone de li
-  const clone = li.cloneNode(true);
+  <div class="integrity-content">
+    <p><strong>Hoe controleren?</strong></p>
+    <ol>
+      <li>Klik op "Kopieer pagina tekst" – de inhoud wordt automatisch gekopieerd.</li>
+      <li>Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank">deze</a>.</li>
+      <li>Plak de tekst en bereken de hash.</li>
+      <li>Vergelijk met de officiële hash in <a href="{{ site.baseurl }}/verification">de verificatiepagina</a>.</li>
+    </ol>
 
-  // Verwijder de copy knop zelf
-  const copyBtn = clone.querySelector('.copy-btn');
-  if (copyBtn) copyBtn.remove();
+    <button onclick="copyPageText()" class="copy-btn">Kopieer pagina tekst</button>
+    <p id="copy-feedback" style="color: #66b3ff; margin-top: 1em; font-weight: bold;"></p>
 
-  let text = clone.textContent || clone.innerText || '';
-  text = text.trim().replace(/\n{3,}/g, '\n\n');
-
-  navigator.clipboard.writeText(text).then(() => {
-    // Feedback naast de knop
-    const feedback = document.createElement('span');
-    feedback.textContent = ' ✓ Gekopieerd!';
-    feedback.style.color = '#66b3ff';
-    feedback.style.marginLeft = '1em';
-    feedback.style.fontWeight = 'bold';
-    button.parentNode.appendChild(feedback);
-    setTimeout(() => feedback.remove(), 3000);
-  }).catch(() => {
-    alert('Copy mislukt – selecteer handmatig');
-  });
-}
+    <p><em>Tekst is gekopieerd – plak in de hash tool!</em></p>
+  </div>
+</details>
