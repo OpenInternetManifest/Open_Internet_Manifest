@@ -1,40 +1,27 @@
-function copyThesis(text) {
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(text).then(() => {
-      showFeedback('✅ Gekopieerd! Plak in sha256.online om te verifiëren');
-    }).catch(() => {
-      fallbackCopy(text);
-    });
-  } else {
-    fallbackCopy(text);
+function copyPageText() {
+  const mainContent = document.querySelector('.main-content');
+  if (!mainContent) {
+    console.log('Main content not found');
+    return;
   }
-}
 
-function fallbackCopy(text) {
-  const textarea = document.createElement('textarea');
-  textarea.value = text;
-  textarea.style.position = 'fixed';
-  textarea.style.opacity = '0';
-  document.body.appendChild(textarea);
-  textarea.focus();
-  textarea.select();
-  try {
-    document.execCommand('copy');
-    showFeedback('✅ Gekopieerd! Plak in sha256.online om te verifiëren');
-  } catch (err) {
-    showFeedback('❌ Mislukt – probeer handmatig');
-  }
-  document.body.removeChild(textarea);
-}
+  const clone = mainContent.cloneNode(true);
 
-function showFeedback(message) {
-  // Simpele alert voor nu; pas aan als nodig voor per-button feedback
-  alert(message);
-}
+  // Verwijder alles wat geen thesis text is
+  const toRemove = clone.querySelectorAll('.integrity-check, .page-footer, .community-box, .thesis-sidebar, .copy-container, .copy-feedback');
+  toRemove.forEach(el => el.remove());
 
-// Bind buttons (run na load als nodig)
-document.querySelectorAll('.copy-btn').forEach(btn => {
-  btn.addEventListener('click', (e) => {
-    e.preventDefault(); // Als nodig
+  let text = clone.textContent || clone.innerText || '';
+  text = text.trim().replace(/\n{3,}/g, '\n\n');
+
+  navigator.clipboard.writeText(text).then(() => {
+    const feedback = document.getElementById('copy-feedback');
+    if (feedback) {
+      feedback.textContent = '✓ Volledige thesis tekst gekopieerd!';
+      setTimeout(() => feedback.textContent = '', 3000);
+    }
+  }).catch(() => {
+    const feedback = document.getElementById('copy-feedback');
+    if (feedback) feedback.textContent = 'Copy mislukt – selecteer handmatig';
   });
-});
+}

@@ -1,28 +1,28 @@
-function copyPageText() {
-  const mainContent = document.querySelector('.main-content');
-  if (!mainContent) return;
+function copyThesisText(button) {
+  // Vind de bovenliggende <li>
+  const li = button.closest('li');
+  if (!li) return;
 
-  const clone = mainContent.cloneNode(true);
+  // Clone de li
+  const clone = li.cloneNode(true);
 
-  // Verwijder de includes (integrity check + community)
-  const toRemove = clone.querySelectorAll('.integrity-check, .page-footer, .community-box, .thesis-sidebar'); // Voeg classes toe als nodig
-  toRemove.forEach(el => el.remove());
-
-  // Verwijder footer als die in main zit
-  const footer = clone.querySelector('.site-footer');
-  if (footer) footer.remove();
+  // Verwijder de copy knop zelf
+  const copyBtn = clone.querySelector('.copy-btn');
+  if (copyBtn) copyBtn.remove();
 
   let text = clone.textContent || clone.innerText || '';
-  text = text.trim().replace(/\n{3,}/g, '\n\n'); // Clean newlines
+  text = text.trim().replace(/\n{3,}/g, '\n\n');
 
   navigator.clipboard.writeText(text).then(() => {
-    const feedback = document.getElementById('copy-feedback');
-    if (feedback) {
-      feedback.textContent = '✓ Pagina tekst gekopieerd!';
-      setTimeout(() => feedback.textContent = '', 3000);
-    }
+    // Feedback naast de knop
+    const feedback = document.createElement('span');
+    feedback.textContent = ' ✓ Gekopieerd!';
+    feedback.style.color = '#66b3ff';
+    feedback.style.marginLeft = '1em';
+    feedback.style.fontWeight = 'bold';
+    button.parentNode.appendChild(feedback);
+    setTimeout(() => feedback.remove(), 3000);
   }).catch(() => {
-    const feedback = document.getElementById('copy-feedback');
-    if (feedback) feedback.textContent = 'Copy mislukt – selecteer handmatig';
+    alert('Copy mislukt – selecteer handmatig');
   });
 }

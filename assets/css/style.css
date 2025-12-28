@@ -191,3 +191,42 @@ body {
 .copy-btn:active {
   background: rgba(102, 179, 255, 0.4);
 }
+
+.theses-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.theses-list li {
+  margin-bottom: 1.8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.theses-list li a {
+  margin-bottom: 0.6em;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.copy-container {
+  margin-top: 0.5em;
+}
+
+.copy-btn {
+  align-self: flex-start;
+  background: rgba(255, 255, 255, 0.08);
+  color: #66b3ff;
+  border: 1px solid #66b3ff;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  font-size: 0.95em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  background: #66b3ff;
+  color: #0f1419;
+}
