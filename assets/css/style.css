@@ -95,7 +95,7 @@ img, .banner {
   line-height: 1.8;
   max-width: 900px;
   margin: 0 auto;
-  padding: 1.5em 2em 3em !important; /* Minder boven – strakker na banner */
+  padding: 1.5em 2em 3em !important;
 }
 
 .main-content > h1:first-child,
@@ -128,6 +128,8 @@ img, .banner {
 body {
   font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
 }
+
+/* Integrity check styling – kleuren werken ondanks globale rule */
 .integrity-check {
   margin: 3em 0;
   border: 1px solid #333;
@@ -139,7 +141,7 @@ body {
   padding: 1em;
   cursor: pointer;
   font-weight: bold;
-  color: #66b3ff;
+  color: #66b3ff !important;
 }
 
 .integrity-check[open] summary {
@@ -150,48 +152,68 @@ body {
   padding: 1.5em;
 }
 
-.integrity-content pre {
-  background: #1a1f24;
-  padding: 1em;
-  border-radius: 8px;
-  overflow-x: auto;
-  font-size: 0.9em;
-  margin: 1em 0;
+.integrity-content p, .integrity-content ol, .integrity-content li {
+  color: #e0e0e0 !important;
 }
 
-.integrity-content ol {
-  padding-left: 1.5em;
+.integrity-content strong {
+  color: #66b3ff !important;
 }
 
 .integrity-content a {
-  color: #66b3ff;
+  color: #66b3ff !important;
   text-decoration: underline;
 }
-.copy-container {
-  display: inline-block;
-  margin-left: 1em;
+
+.integrity-content code {
+  background: #1a1f24;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  word-break: break-all;
 }
 
-.copy-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid #333;
+.integrity-content input[type="text"] {
+  background: #1a1f24;
   color: #e0e0e0;
-  padding: 0.4em 0.8em;
-  border-radius: 6px;
-  font-size: 0.9em;
+  border: 1px solid #333;
+  padding: 0.8em;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+
+.integrity-content button.copy-btn {
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 1px solid #66b3ff;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  margin-top: 1em;
 }
 
-.copy-btn:hover {
-  background: rgba(102, 179, 255, 0.2);
-  border-color: #66b3ff;
+.integrity-content button.copy-btn:hover {
+  background: #66b3ff !important;
+  color: #0f1419 !important;
 }
 
-.copy-btn:active {
-  background: rgba(102, 179, 255, 0.4);
+/* Feedback kleuren */
+#verify-feedback span {
+  font-weight: bold;
 }
 
+#verify-feedback span[style*="66ff66"] {
+  color: #66ff66 !important;
+  font-size: 1.2em;
+}
+
+#verify-feedback span[style*="ff6666"] {
+  color: #ff6666 !important;
+}
+
+/* Theses list copy buttons */
 .theses-list {
   list-style: none;
   padding-left: 0;
@@ -229,4 +251,18 @@ body {
 .copy-btn:hover {
   background: #66b3ff;
   color: #0f1419;
+}
+
+/* Community box */
+.community-box {
+  text-align: center;
+  margin-top: 3em;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.community-box strong {
+  color: #66b3ff !important;
 }
