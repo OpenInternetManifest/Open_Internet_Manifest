@@ -2,7 +2,7 @@
   <summary>💸 Ondersteun het Open Internet Manifest ❤️</summary>
 
   <div class="donation-content">
-    <!-- Alleen manifest donatie als géén auteur donatie -->
+    <!-- Manifest donatie – alleen als géén auteur donatie -->
     {% unless page.donation_link %}
       <p>Dit manifest blijft alleen bestaan dankzij jullie donaties.<br>
       Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).</p>
@@ -45,16 +45,12 @@
     {% endunless %}
 
     <!-- Auteur donatie – alleen als donation_link bestaat -->
-{% if page.donation_link %}
-  <hr style="border-color: #333; margin: 2em 0;">
-  <p style="text-align: center;">
-    <strong>{{ page.donation_text | default: "Ondersteun de auteur van deze thesis" }}</strong><br>
-    <a href="{{ page.donation_link }}" target="_blank" class="author-donation-link">
-      Doneer hier (link: {{ page.donation_link }})
-    </a>
-  </p>
-{% else %}
-  <p style="color: red;">Debug: geen donation_link gevonden</p>
-{% endif %}
+    {% if page.donation_link %}
+      <hr style="border-color: #333; margin: 2em 0;">
+      <p style="text-align: center;">
+        <strong>{{ page.donation_text | default: "Ondersteun de auteur van deze thesis" }}</strong><br>
+        <a href="{{ page.donation_link }}" target="_blank" class="author-donation-link">Doneer hier</a>
+      </p>
+    {% endif %}
   </div>
 </details>
