@@ -4,8 +4,10 @@ function copyPageText() {
 
   const clone = mainContent.cloneNode(true);
 
-  // Verwijder integrity-check + community box + footer + copy knoppen + feedback
-  const toRemove = clone.querySelectorAll('.integrity-check, .community-box, .page-footer, .copy-container, #copy-feedback, #verify-feedback');
+  // Verwijder alle includes + feedback + donation section
+  const toRemove = clone.querySelectorAll(
+    '.integrity-check, .community-box, .donation-section, .page-footer, .copy-container, #copy-feedback, #verify-feedback'
+  );
   toRemove.forEach(el => el.remove());
 
   let text = clone.textContent || clone.innerText || '';
@@ -52,8 +54,8 @@ function getExpectedHash(path) {
     '/NL/theses/thesis-01': '4aa8a37884deb164c85153f32f9b300f3e210fe207ff1bbcd896f0706ab7f9cd',
     '/NL/theses/thesis-02': 'ffa4081242a6fdc994dfe0086e54fb0c6aaebc1b266a42626ce9ceeb040317d4',
     '/NL/theses/thesis-03': '2b8ef75f77107c57c3f916c358a0a6d4126dc47890ca74c1e89c5ab05b84a37f',
-    // Voeg de rest toe als je ze hebt
     '/NL/manifest': 'voorbeeldhashvoormanifest',
+    // Voeg de rest toe als je ze hebt
   };
   return hashes[path] || null;
 }
