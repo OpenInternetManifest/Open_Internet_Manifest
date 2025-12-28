@@ -38,8 +38,7 @@ function verifyHash() {
   const feedback = document.getElementById('verify-feedback');
 
   if (userHash === expectedHash) {
-    feedback.innerHTML = '<span style="color: #66ff66 !important; font-size: 1.2em; font-weight: bold;">✓ Pagina tekst gekopieerd!</span>';
-  } else {
+   feedback.textContent = '✓ Pagina tekst gekopieerd!';
     feedback.innerHTML = `<span style="color: #ff6666;">✗ Geen match</span><br>
       Jouw hash: <code style="word-break: break-all;">${userHash}</code><br>
       Officiële hash: <code style="word-break: break-all;">${expectedHash || 'niet gevonden'}</code>`;

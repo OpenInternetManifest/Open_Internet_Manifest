@@ -404,3 +404,47 @@ body {
   color: #66b3ff !important;
   font-weight: 900;
 }
+
+.integrity-content .copy-feedback {
+  color: #66b3ff;
+  margin-top: 1em;
+  font-weight: bold;
+  min-height: 1.2em;
+}
+
+.verify-section {
+  margin-top: 2em;
+}
+
+.hash-input {
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1a1f24;
+  color: #e0e0e0;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+.verify-btn {
+  margin-top: 0;
+}
+
+.verify-feedback {
+  margin-top: 1em;
+  font-weight: bold;
+  min-height: 1.5em;
+}
+
+.verify-feedback span {
+  font-size: 1.2em;
+}
+.copy-feedback {
+  color: #66ff66 !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: center;
+  margin: 1em 0;
+  min-height: 1.2em;
+}
