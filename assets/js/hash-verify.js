@@ -1,4 +1,4 @@
-function copyThesisText(button) {
+function copyPageText(button) {
   // Vind de bovenliggende <li>
   const li = button.closest('li');
   if (!li) return;

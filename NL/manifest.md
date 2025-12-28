@@ -12,186 +12,184 @@ title: Alle theses
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-01"><strong>Thesis 1</strong> — Het internet is niet dood; het is gekaapt door vijf poortwachters</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-02"><strong>Thesis 2</strong> — Zij die het open internet hebben ingesloten verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-03"><strong>Thesis 3</strong> — In de echte wereld zou niemand accepteren wat wij online al jaren slikken</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-04"><strong>Thesis 4</strong> — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-05"><strong>Thesis 5</strong> — Alleen een echt open internet geeft echte digitale vrijheid</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-06"><strong>Thesis 6</strong> — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-07"><strong>Thesis 7</strong> — Een open internet geeft privacy zijn oude kracht terug</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-08"><strong>Thesis 8</strong> — Een open internet bevrijdt je stem en je creativiteit van willekeur</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-09"><strong>Thesis 9</strong> — Een open internet maakt echte economische vrijheid weer mogelijk</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-10"><strong>Thesis 10</strong> — Het digitale hok breidt zich uit naar de echte wereld</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-11"><strong>Thesis 11</strong> — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan gebruiken</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-12"><strong>Thesis 12</strong> — Terug naar protocollen die niemand bezit</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-13"><strong>Thesis 13</strong> — Jouw data hoort bij jou, niet bij een platform</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-14"><strong>Thesis 14</strong> — Draagbare identiteit en reputatie</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-15"><strong>Thesis 15</strong> — Sociale netwerken zonder centrale eigenaar</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-16"><strong>Thesis 16</strong> — Berichtenapps zonder Big Tech</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-17"><strong>Thesis 17</strong> — Video en content zonder YouTube of TikTok</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-18"><strong>Thesis 18</strong> — Zoeken zonder Google</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-19"><strong>Thesis 19</strong> — Geld sturen zonder bank of Big Tech</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-20"><strong>Thesis 20</strong> — Van volgers verzamelen naar echte gemeenschappen bouwen</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-21"><strong>Thesis 21</strong> — Praktische eerste stap: maak vandaag nog een Mastodon-account</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-22"><strong>Thesis 22</strong> — Vervang WhatsApp door Element (Matrix)</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-23"><strong>Thesis 23</strong> — Zet je foto’s en bestanden in eigen beheer</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-24"><strong>Thesis 24</strong> — Gebruik een Nostr-client en claim je npub</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-25"><strong>Thesis 25</strong> — Word lid van (of start) een lokale community-node</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-26"><strong>Thesis 26</strong> — Ondersteun open source projecten financieel</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-27"><strong>Thesis 27</strong> — Leer één iemand deze week een open alternatief gebruiken</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-28"><strong>Thesis 28</strong> — Bedrijven en overheden: eis interoperabiliteit en open standaarden</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-29"><strong>Thesis 29</strong> — Het open internet is geen utopie, het is een keuze die we elke dag maken</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
   <li>
     <a href="{{ site.baseurl }}/NL/theses/thesis-30"><strong>Thesis 30</strong> — Dit manifest is pas het begin</a>
     <div class="copy-container">
-      <button onclick="copyPageText()" class="copy-btn">Kopieer volledige thesis tekst</button>
+      <button onclick="copyThesisText(this)" class="copy-btn">Kopieer thesis voor verificatie</button>
     </div>
   </li>
 </ul>
-
-<div id="copy-feedback" style="text-align: center; margin: 2em 0; font-weight: bold; color: #66b3ff;"></div>
 
 <!-- Verifieerbare integriteit – uitklapbaar -->
 <details class="integrity-check">
@@ -202,7 +200,7 @@ title: Alle theses
     Hier kun je zelf controleren dat de theses exact zijn zoals bedoeld.</p>
 
     <p><strong>Hoe?</strong><br>
-    1. Klik op "Kopieer volledige thesis tekst" bij een thesis → tekst gekopieerd<br>
+    1. Klik op "Kopieer thesis voor verificatie" bij een thesis → tekst gekopieerd<br>
     2. Plak in SHA256 tool (bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank">deze</a>)<br>
     3. Vergelijk met hash hieronder</p>
 
