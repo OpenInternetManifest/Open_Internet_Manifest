@@ -32,13 +32,13 @@
     {% endif %}
   </a> · 
   <a href="{{ site.baseurl }}/">Home</a> · 
-  <a href="{{ site.baseurl }}/{{ page.lang | default: 'NL' }}/manifest">
-    {% if page.lang == "EN" %}
-      All theses
-    {% else %}
-      Alle theses
-    {% endif %}
-  </a>
+  <a href="{{ site.baseurl }}/{{ page.lang | default: 'NL' | upcase }}/manifest">
+  {% if page.lang | upcase == "EN" %}
+    All theses
+  {% else %}
+    Alle theses
+  {% endif %}
+</a>
   {% if page.next_thesis %}
     · <a href="{{ page.next_thesis }}">
       {% if page.lang == "EN" %}
