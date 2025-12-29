@@ -25,10 +25,10 @@
 
 <!-- Footer navigatie -->
 <div class="footer-nav">
-  {% assign current_lang = page.lang | default: 'NL' | upcase %}
+  {% assign current_lang = page.lang | default: 'nl' | upcase %}
 
   <a href="javascript:history.back()">
-    {% if current_lang == "EN" %}
+    {% if current_lang == "en" %}
       ← Back
     {% else %}
       ← Terug
@@ -36,7 +36,7 @@
   </a> · 
   <a href="{{ site.baseurl }}/">Home</a> · 
   <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
-    {% if current_lang == "EN" %}
+    {% if current_lang == "en" %}
       All theses
     {% else %}
       Alle theses
@@ -44,7 +44,7 @@
   </a>
   {% if page.next_thesis %}
     · <a href="{{ page.next_thesis }}">
-      {% if current_lang == "EN" %}
+      {% if current_lang == "en" %}
         Next thesis →
       {% else %}
         Volgende thesis →
