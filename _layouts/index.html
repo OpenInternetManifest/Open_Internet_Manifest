@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'nl' | downcase }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    {% seo %}
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ 'now' | date: '%s' }}">
+
+    <!-- Hash verify JS -->
+    <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
+  </head>
+  <body>
+
+    <a id="skip-to-content" href="#content">Skip to the content</a>
+
+    <!-- Banner met overlay -->
+    <header class="custom-header" role="banner">
+      <div class="banner">
+        <img src="{{ site.baseurl }}/assets/banner-donker.jpg" alt="Open Internet Manifest">
+        <div class="overlay-text">
+          <h1>Open Internet Manifest</h1>
+          <p>
+            {% assign lang = page.lang | default: 'NL' %}
+            {% if lang == 'NL' %}
+              Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
+            {% else %}
+              English version · 100 theses for a free, open and unalienable internet
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      {% assign lang = page.lang | default: 'NL' | upcase %}
+
+     </main>
+
+    

@@ -1,5 +1,5 @@
 ---
-layout: secundairy
+layout: index
 title: Home
 ---
 
