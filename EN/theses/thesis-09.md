@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 9 - economic freedom
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-10
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

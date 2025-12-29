@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 25 — Word lid van (of start) een lokale community-node
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-26
 

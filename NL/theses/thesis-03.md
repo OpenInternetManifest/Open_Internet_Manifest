@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 3 — In de echte wereld zou niemand accepteren wat wij online al jaren slikken
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-04
 

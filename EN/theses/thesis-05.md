@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 5 - A truly open internet gives freedom
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-06
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

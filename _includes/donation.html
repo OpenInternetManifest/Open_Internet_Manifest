@@ -4,52 +4,105 @@
   <div class="donation-content">
     <!-- Manifest donatie – alleen als géén auteur donatie -->
     {% unless page.donation_link %}
-      <p>Dit manifest blijft alleen bestaan dankzij jullie donaties.<br>
-      Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).</p>
+      {% if page.lang == "EN" %}
+        <p>This manifest only exists thanks to your donations.<br>
+        Every satoshi or monero helps enormously (servers, domains, development).</p>
 
-      <h3>Doneer anoniem in crypto</h3>
+        <h3>Donate anonymously in crypto</h3>
 
-      <table class="donation-table">
-        <thead>
-          <tr>
-            <th>Cryptocurrency</th>
-            <th>QR-code (klik om te vergroten)</th>
-            <th>Adres (klik om te kopiëren)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Bitcoin (BTC)</strong></td>
-            <td>
-              <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm" alt="Bitcoin QR">
-              </a>
-            </td>
-            <td><code>bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm</code></td>
-          </tr>
-          <tr>
-            <td><strong>Monero (XMR)</strong></td>
-            <td>
-              <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F" alt="Monero QR">
-              </a>
-            </td>
-            <td><code>85J34VDW5wSJG6yuWXyYzB4ScedX7k4FJZktSk1VMo2uRHFWoPjB9cXKGiEkvw1SvoQrMXdxwnrVPZVzJx9MrPe4HoPYbFu</code></td>
-          </tr>
-        </tbody>
-      </table>
+        <table class="donation-table">
+          <thead>
+            <tr>
+              <th>Cryptocurrency</th>
+              <th>QR-code (click to enlarge)</th>
+              <th>Address (click to copy)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Bitcoin (BTC)</strong></td>
+              <td>
+                <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm" alt="Bitcoin QR">
+                </a>
+              </td>
+              <td><code>bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm</code></td>
+            </tr>
+            <tr>
+              <td><strong>Monero (XMR)</strong></td>
+              <td>
+                <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F" alt="Monero QR">
+                </a>
+              </td>
+              <td><code>85J34VDW5wSJG6yuWXyYzB4ScedX7k4FJZktSk1VMo2uRHFWoPjB9cXKGiEkvw1SvoQrMXdxwnrVPZVzJx9MrPe4HoPYbFu</code></td>
+            </tr>
+          </tbody>
+        </table>
 
-      <p><strong>Monero-tip</strong>: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.</p>
+        <p><strong>Monero tip</strong>: with Cake Wallet or the official GUI every donor automatically gets a unique subaddress → maximum privacy.</p>
 
-      <p>Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀</p>
+        <p>Thank you so much for your support — you keep this project alive! 🚀</p>
+      {% else %}
+        <p>Dit manifest blijft alleen bestaan dankzij jullie donaties.<br>
+        Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).</p>
+
+        <h3>Doneer anoniem in crypto</h3>
+
+        <table class="donation-table">
+          <thead>
+            <tr>
+              <th>Cryptocurrency</th>
+              <th>QR-code (klik om te vergroten)</th>
+              <th>Adres (klik om te kopiëren)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Bitcoin (BTC)</strong></td>
+              <td>
+                <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm" alt="Bitcoin QR">
+                </a>
+              </td>
+              <td><code>bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm</code></td>
+            </tr>
+            <tr>
+              <td><strong>Monero (XMR)</strong></td>
+              <td>
+                <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F" alt="Monero QR">
+                </a>
+              </td>
+              <td><code>85J34VDW5wSJG6yuWXyYzB4ScedX7k4FJZktSk1VMo2uRHFWoPjB9cXKGiEkvw1SvoQrMXdxwnrVPZVzJx9MrPe4HoPYbFu</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p><strong>Monero-tip</strong>: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.</p>
+
+        <p>Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀</p>
+      {% endif %}
     {% endunless %}
 
     <!-- Auteur donatie – alleen als donation_link bestaat -->
     {% if page.donation_link %}
       <hr style="border-color: #333; margin: 2em 0;">
       <p style="text-align: center;">
-        <strong>{{ page.donation_text | default: "Ondersteun de auteur van deze thesis" }}</strong><br>
-        <a href="{{ page.donation_link }}" target="_blank" class="author-donation-link">Doneer hier</a>
+        <strong>
+          {% if page.lang == "EN" %}
+            Support the author of this thesis
+          {% else %}
+            Ondersteun de auteur van deze thesis
+          {% endif %}
+        </strong><br>
+        <a href="{{ page.donation_link }}" target="_blank" class="author-donation-link">
+          {% if page.lang == "EN" %}
+            Donate here
+          {% else %}
+            Doneer hier
+          {% endif %}
+        </a>
       </p>
     {% endif %}
   </div>

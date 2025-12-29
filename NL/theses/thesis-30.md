@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 30 — Dit manifest is pas het begin
 next_thesis: /Open_Internet_Manifest/NL/theses/levend-manifest
 

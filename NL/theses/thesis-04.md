@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 4 — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-05
 

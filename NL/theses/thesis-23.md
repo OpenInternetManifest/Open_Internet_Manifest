@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 23 — Zet je foto’s en bestanden in eigen beheer
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-24
 

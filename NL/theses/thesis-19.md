@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 19 — Geld sturen zonder bank of Big Tech
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-20
 

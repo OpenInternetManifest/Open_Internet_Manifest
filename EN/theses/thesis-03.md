@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 3 - In the real world we would not accept
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-04
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

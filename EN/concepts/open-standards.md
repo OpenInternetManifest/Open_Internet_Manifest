@@ -1,5 +1,6 @@
 ---
 layout: secundairy
+lang: EN
 title: concepts - open standards
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
 # donation_text: "Help the writer of this part" # Optional, else default text

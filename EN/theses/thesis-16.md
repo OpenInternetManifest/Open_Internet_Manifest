@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 16- messaging apps
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-17
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

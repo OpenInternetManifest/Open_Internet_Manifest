@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 26 — Ondersteun open source projecten financieel
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-27
 

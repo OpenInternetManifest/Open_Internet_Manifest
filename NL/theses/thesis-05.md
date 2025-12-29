@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 5 — Alleen een echt open internet geeft echte digitale vrijheid
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-06
 

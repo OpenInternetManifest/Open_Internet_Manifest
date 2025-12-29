@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Guides - Volledige guides pagina
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst

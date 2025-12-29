@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 24 — Gebruik een Nostr-client en claim je npub
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-25
 

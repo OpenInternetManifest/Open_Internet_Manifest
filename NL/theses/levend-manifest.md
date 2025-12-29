@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Levend Manifest — Het manifest is levend
 next_thesis: /Open_Internet_Manifest/NL/theses/Thesis-00
 

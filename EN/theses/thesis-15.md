@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 15- social networks no central owner
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-16
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

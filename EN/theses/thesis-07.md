@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 7 - the open internet restores power
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-08
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

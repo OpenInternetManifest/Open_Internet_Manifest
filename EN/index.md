@@ -1,5 +1,6 @@
 ---
 layout: secundairy
+lang: EN
 title: Home
 ---
 

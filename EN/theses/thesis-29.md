@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 29 - not an utopia
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-30
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

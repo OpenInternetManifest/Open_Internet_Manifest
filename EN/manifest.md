@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: All theses
 ---
 

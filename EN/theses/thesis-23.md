@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 23 - own protocol
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-24
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

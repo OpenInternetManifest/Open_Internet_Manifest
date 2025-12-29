@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 1- Internet is not dead
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-02
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

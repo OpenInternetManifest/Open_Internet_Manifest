@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: NL
 title: Thesis 2 - Ze verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-03
 

@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 27 — Leer één iemand deze week een open alternatief gebruiken
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-28
 

@@ -1,6 +1,24 @@
 <!-- Community discussie -->
-<div class="community-box" style="text-align: center; margin-top: 3em; padding: 2em; background: rgba(255, 255, 255, 0.05); border-radius: 12px; border: 1px solid #333;">
-  <strong>🗣️ Praat mee over deze pagina</strong><br>
-  <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-  <small>Kleine tip: typ het thesisnummer of onderwerp als eerste bericht</small>
+<div class="community-box">
+  <strong>
+    {% if page.lang == "EN" %}
+      🗣️ Join the discussion about this page
+    {% else %}
+      🗣️ Praat mee over deze pagina
+    {% endif %}
+  </strong><br>
+  <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">
+    {% if page.lang == "EN" %}
+      Open Element and join the conversation
+    {% else %}
+      Open Element en praat mee
+    {% endif %}
+  </a><br>
+  <small>
+    {% if page.lang == "EN" %}
+      Tip: type the thesis number or topic as your first message
+    {% else %}
+      Kleine tip: typ het thesisnummer of onderwerp als eerste bericht
+    {% endif %}
+  </small>
 </div>

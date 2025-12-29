@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 21 — Praktische eerste stap maak vandaag nog een Mastodon-account
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-22
 

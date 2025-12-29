@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 8 — Een open internet bevrijdt je stem en je creativiteit van willekeur
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-09
 

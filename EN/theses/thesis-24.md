@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 24 - digital identity
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-25
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

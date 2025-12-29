@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 29 — Het open internet is geen utopie, het is een keuze die we elke dag maken
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-30
 

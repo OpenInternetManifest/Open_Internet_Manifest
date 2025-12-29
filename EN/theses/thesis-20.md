@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: EN
 title: theses 20 - Building communities
 next_thesis: /Open_Internet_Manifest/EN/theses/thesis-21
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

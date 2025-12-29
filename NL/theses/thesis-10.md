@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 10 — Het digitale hok breidt zich uit naar de echte wereld
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-11
 

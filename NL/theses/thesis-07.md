@@ -1,6 +1,7 @@
 ---
 
 layout: default
+lang: NL
 title: Thesis 7 — Een open internet geeft privacy zijn oude kracht terug
 next_thesis: /Open_Internet_Manifest/NL/theses/thesis-08
 
