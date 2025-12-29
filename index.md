@@ -1,12 +1,22 @@
 ---
 layout: index
-title: Home
+title: Open Internet Manifest
 ---
 
-<p>Kies je taal:</p>
-<ul>
-  <li><a href="{{ site.baseurl }}/NL/over">Nederlands</a></li>
-  <li><a href="{{ site.baseurl }}/EN/about">English</a></li>
-</ul>
+<div class="home-container">
+  <h1 class="home-title">Open Internet Manifest</h1>
+  <p class="home-subtitle">100 theses for a free, open and unalienable internet</p>
 
-<p>Het manifest is levend – jij bent mede-auteur</p>
+  <div class="language-buttons">
+    <a href="{{ site.baseurl }}/NL/theses/thesis-00" class="language-btn nl-btn">
+      <span class="flag">🇳🇱</span>
+      Nederlandse versie
+    </a>
+    <a href="{{ site.baseurl }}/EN/theses/thesis-00" class="language-btn en-btn">
+      <span class="flag">🇬🇧</span>
+      English version
+    </a>
+  </div>
+
+  <p class="home-note">Meer talen komen eraan — bijdragen welkom!</p>
+</div>

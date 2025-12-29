@@ -413,3 +413,145 @@ body {
 .author-donation-link:hover {
   background: #8cd3ff;
 }
+.language-selector {
+  text-align: center;
+  padding: 4em 2em;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.language-selector h1 {
+  font-size: 3.5em;
+  color: #66b3ff;
+  margin-bottom: 0.5em;
+}
+
+.language-selector p {
+  font-size: 1.8em;
+  color: #e0e0e0;
+  margin-bottom: 3em;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.language-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
+  background: #1a2a3a;
+  color: #e0e0e0;
+  padding: 1.5em 2.5em;
+  border-radius: 12px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 2px solid #333;
+}
+
+.language-btn:hover {
+  background: #66b3ff;
+  color: #0f1419;
+  border-color: #66b3ff;
+  transform: translateY(-4px);
+}
+
+.flag {
+  font-size: 2em;
+}
+
+.language-note {
+  margin-top: 4em;
+  font-size: 1.2em;
+  color: #a0a0a0;
+}
+/* Home page – kleurrijke taalkiezer */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  background: linear-gradient(135deg, #0f1419 0%, #1a0033 50%, #001a33 100%);
+}
+
+.home-title {
+  font-size: 4.5em;
+  font-weight: 900;
+  background: linear-gradient(to right, #66b3ff, #66ffcc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.3em;
+}
+
+.home-subtitle {
+  font-size: 2.2em;
+  color: #e0e0e0;
+  margin-bottom: 4em;
+  font-weight: 500;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.2em 2.5em;
+  font-size: 1.6em;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nl-btn {
+  background: linear-gradient(to right, #66b3ff, #66ffcc);
+  color: #0f1419;
+  border: 3px solid #66ffcc;
+}
+
+.en-btn {
+  background: #1a1f24;
+  color: #e0e0e0;
+  border: 3px solid #66b3ff;
+}
+
+.language-btn:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(102, 179, 255, 0.4);
+}
+
+.nl-btn:hover {
+  background: linear-gradient(to right, #66ffcc, #66b3ff);
+}
+
+.en-btn:hover {
+  background: #66b3ff;
+  color: #0f1419;
+}
+
+.flag {
+  font-size: 2em;
+}
+
+.home-note {
+  margin-top: 5em;
+  font-size: 1.4em;
+  color: #a0a0a0;
+}
