@@ -1,0 +1,19 @@
+---
+layout: secundairy
+lang: en
+title: concepts - yacy
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
+# YaCy
+
+Decentralized peer-to-peer search engine.
+
+Everyone can run a node that crawls and shares results — together you build an independent index without a central server.
+
+No tracking, no ads, full privacy.
+
+See also → [Sovereign node](/en/concepts/sovereign-node) · [Thesis 18](/en/theses/thesis-18) · [yacy.net](https://yacy.net/)
+
+---
+

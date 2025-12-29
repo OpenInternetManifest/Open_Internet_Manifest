@@ -1,0 +1,21 @@
+---
+layout: secundairy
+lang: en
+title: concepts - duckduckgo
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
+# DuckDuckGo
+
+Privacy-focused search engine that does not track or profile search behavior.
+
+Uses anonymized results from other engines (incl. Bing), no personalized ads.
+
+Easy switch from Google for daily use.
+
+**Note**: not self-hostable – centrally managed, but privacy-friendly.
+
+See also → [Brave Search](/en/concepts/brave-search) · [Thesis 18](/en/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
+
+---
+

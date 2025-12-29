@@ -1,0 +1,23 @@
+---
+layout: secundairy
+lang: nl
+title: begrippen - onafhankelijke protocollen
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+# Onafhankelijke protocollen
+
+Open communicatieprotocollen die niet onder controle staan van één bedrijf.
+
+Voorbeelden:
+- [Matrix](https://matrix.org/) – open protocol voor chat en communicatie
+- [ActivityPub](https://activitypub.rocks/) – basis voor het fediverse (Mastodon, Pixelfed, etc.)
+- [Nostr](https://nostr.org/) – simpel protocol voor sociale netwerken met cryptografische sleutels
+- [IPFS](https://ipfs.tech/) – gedecentraliseerd bestandssysteem
+
+Deze protocollen vormen de laatste vrije wegen buiten de ommuurde tuinen.
+
+Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 4](/Open_Internet_Manifest/nl/theses/thesis-04)
+
+---
+

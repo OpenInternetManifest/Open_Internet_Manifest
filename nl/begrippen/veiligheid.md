@@ -1,0 +1,19 @@
+---
+layout: secundairy
+lang: nl
+title: begrippen - veiligheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+# Veiligheid
+
+Het excuus dat poortwachters gebruiken om totale controle te rechtvaardigen.
+
+Ze beweren jou te beschermen tegen virussen, hackers en “gevaarlijke inhoud”, terwijl de grootste bedreiging voor jouw privacy en vrijheid juist zíj zelf zijn.
+
+Echte veiligheid komt uit open standaarden, end-to-end encryptie en decentralisatie – niet uit één bedrijf dat alles ziet.
+
+Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/nl/begrippen/ommuurde-tuin) · [Gemak](/Open_Internet_Manifest/nl/begrippen/gemak) · [Thesis 2](/Open_Internet_Manifest/nl/theses/thesis-02)
+
+---
+

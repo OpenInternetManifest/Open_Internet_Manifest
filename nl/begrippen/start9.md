@@ -1,0 +1,18 @@
+---
+layout: secundairy
+lang: nl
+title: begrippen - start9
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+# Start9
+
+Self-hosting platform (voorheen EmbassyOS) – draait op dedicated hardware of Raspberry Pi.
+
+Focus op privacy-apps (Bitcoin, Matrix, Nextcloud, etc.) met eenvoudige installatie.
+
+Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 25](/Open_Internet_Manifest/nl/theses/thesis-25) · [start9.com](https://start9.com/)
+
+---
+
+
