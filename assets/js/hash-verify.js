@@ -4,9 +4,9 @@ function copyPageText() {
 
   const clone = mainContent.cloneNode(true);
 
-  // Verwijder alle includes + feedback + donation section
+  // Verwijder alle includes + feedback + donation section + volledige footer (incl navigatie)
   const toRemove = clone.querySelectorAll(
-    '.integrity-check, .community-box, .donation-section, .page-footer, .copy-container, #copy-feedback, #verify-feedback'
+    '.integrity-check, .community-box, .donation-section, .site-footer, .page-footer, .copy-container, #copy-feedback, #verify-feedback'
   );
   toRemove.forEach(el => el.remove());
 
