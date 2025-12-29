@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - simplex
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # SimpleX
 
 Privacy-first messenger zonder user-ID's – zelfs geen telefoonnummer of random identifier.

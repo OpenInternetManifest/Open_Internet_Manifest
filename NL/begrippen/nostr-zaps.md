@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - nostr-zaps
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Nostr-zaps
 
 Microbetalingen (zaps) via Lightning op het Nostr-protocol – direct van persoon naar persoon voor content of tips.

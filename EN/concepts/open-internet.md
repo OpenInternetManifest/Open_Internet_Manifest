@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - open internet
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Open Internet
 
 The internet in its original, inalienable state: open, neutral, decentralized, and accessible to everyone without permission from a gatekeeper.
@@ -8,6 +14,3 @@ See also → [Digital sovereignty](/EN/concepts/digital-sovereignty) · [Soverei
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-06">Back  6</a>
-</div>

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - npub
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # npub
 
 Publieke sleutel in Nostr – jouw unieke digitale identiteit op het protocol.

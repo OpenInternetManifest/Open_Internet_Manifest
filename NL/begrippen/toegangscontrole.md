@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - toegangscontrole
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Toegangscontrole
 
 Het eenzijdig beperken of blokkeren van toegang tot informatie, diensten of communicatie door poortwachters.

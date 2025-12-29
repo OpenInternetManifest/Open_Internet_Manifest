@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - rumble
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Rumble
 
 Independent video platform with focus on free speech and higher revenue for creators.
@@ -10,6 +16,3 @@ See also → [Odysee](/EN/concepts/odysee) · [BitChute](/EN/concepts/bitchute) 
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-17">Back  17</a>
-</div>

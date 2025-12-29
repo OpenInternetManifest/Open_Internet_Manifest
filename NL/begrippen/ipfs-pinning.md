@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - iPFS-pinning service
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # IPFS-pinning service
 
 Dienst die je IPFS-bestanden vastpint (pinning) zodat ze beschikbaar blijven.

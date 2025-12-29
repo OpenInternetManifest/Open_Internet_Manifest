@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - glasvezel aansluitingen
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Glasvezel-aansluiting
 
 Een fysieke vezel van een commerciële provider (KPN, Delta, Odido, etc.) tot in jouw huis.

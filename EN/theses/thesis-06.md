@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 6 - exit without building
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-07
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 6
 
 ***Exit without building is flight; building without exit is [**collaboration**](/EN/concepts/collaboration).***
@@ -11,14 +18,3 @@ Both paths lead nowhere: one to irrelevance, the other to strengthening exactly 
 Real change requires one double movement: [**exit**](/EN/concepts/exit) from their ecosystems now and putting all our energy into [**building**](/EN/concepts/building) a [**new, truly open internet**](/EN/concepts/open-internet) that no one can ever close again.
 
 ---
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis XX" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-07">BNext thesis →</a>
-</div>

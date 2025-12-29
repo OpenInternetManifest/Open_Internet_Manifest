@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - data sovereignty
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Data sovereignty
 
 The right and ability to have full control over your own data: where it is stored, who sees it, and whether it can be deleted.
@@ -8,6 +14,3 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Solid](/EN/concep
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-13">Back  13</a>
-</div>

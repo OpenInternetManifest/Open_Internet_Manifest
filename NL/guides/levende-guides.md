@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - levende guides
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # De Guides zijn levend
 
 Dit is geen einde  
@@ -38,3 +44,9 @@ Nu is het aan jou.
 
 ---
 
+### Disclaimer
+Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
+Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
+Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
+
+---

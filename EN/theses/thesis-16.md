@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 16- messaging apps
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-17
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 16 – Messaging apps without Big Tech
 
 [**Matrix**](/EN/concepts/matrix) (Element), [**XMPP**](/EN/concepts/xmpp) (Dino, Conversations), [**Session**](/EN/concepts/session), [**Briar**](/EN/concepts/briar), [**SimpleX**](/EN/concepts/simplex): end-to-end encrypted, federated or fully peer-to-peer.
@@ -11,14 +18,3 @@ The full step-by-step guide is coming → [Messaging apps without Big Tech – c
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 16" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-17">BNext thesis →</a>
-</div>

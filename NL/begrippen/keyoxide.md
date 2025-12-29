@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - Keyoxide
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Keyoxide
 
 Open-source tool voor proof-of-ownership van online accounts via cryptografische sleutels.

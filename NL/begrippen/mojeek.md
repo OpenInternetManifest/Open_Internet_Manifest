@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - mojeek
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Mojeek
 
 Onafhankelijke zoekmachine met eigen index (geen Google/Bing afhankelijk).

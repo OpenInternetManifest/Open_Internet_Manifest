@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - Convenience
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Convenience
 
 The bait gatekeepers use to trade freedom for dependence.
@@ -9,7 +15,3 @@ True convenience is an internet that works without an intermediary — just like
 See also → [Walled garden](/EN/concepts/walled-garden) · [Security](/EN/concepts/security) · [Thesis 2](/EN/theses/thesis-02)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-02">Back  2</a>
-</div>

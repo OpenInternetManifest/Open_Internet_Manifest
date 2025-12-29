@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - raspberry PI node
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)
 
 This is the way to own your own piece of the internet: Bitcoin node, Nostr relay, Nextcloud, photo backup – all at home, all yours.
@@ -78,24 +84,9 @@ No one can ever deactivate you
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about sovereign nodes</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Guide Raspberry Pi node" as your first message</small>
-</div>
-
----
-
-<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
-
-  ### Disclaimer
+ ### Disclaimer
 All guides are proposed by the community and reviewed by the OIM core team before going live.  
 Nevertheless, executing technical steps remains your own responsibility.  
 The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-</div>
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-09">Back  9</a>
-</div>

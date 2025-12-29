@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - Hyperscale datacentrum
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Hyperscale-datacentrum
 
 Een fabriekshal van tientallen voetbalvelden vol servers van één bedrijf (Microsoft, Google, Meta, Amazon).

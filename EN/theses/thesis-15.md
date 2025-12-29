@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 15- social networks no central owner
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-16
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 15 – Social networks without a central owner
 
 [**Mastodon**](/EN/concepts/mastodon), [**Pixelfed**](/EN/concepts/pixelfed), [**Lemmy**](/EN/concepts/lemmy), [**Friendica**](/EN/concepts/friendica), [**Hubzilla**](/EN/concepts/hubzilla): you choose your own server (instance) or run it yourself.
@@ -15,14 +22,3 @@ It already works today for millions of people. The only thing still missing is y
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 15" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-16">BNext thesis →</a>
-</div>

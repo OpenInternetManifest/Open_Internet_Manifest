@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - hubzilla
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Hubzilla
 
 Advanced decentralized platform with social networking, cloud storage, blogs, and nomadic identity.
@@ -8,6 +14,3 @@ See also → [ActivityPub](/EN/concepts/activitypub) · [Thesis 15](/EN/theses/t
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-15">Back  15</a>
-</div>

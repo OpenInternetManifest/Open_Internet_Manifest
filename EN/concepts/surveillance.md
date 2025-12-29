@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - surveillance
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Surveillance
 
 The systematic and permanent monitoring of citizens by companies or governments, often without consent or transparency.
@@ -10,6 +16,4 @@ See also → [Data collection](/EN/concepts/data-collection) · [Thesis 3](/EN/t
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-03">Back  3</a>
-</div>
+

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - exit
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Exit
 
 The conscious and massive departure from closed platforms and ecosystems of [**gatekeepers**](/EN/concepts/gatekeepers).
@@ -8,6 +14,3 @@ See also → [Collective exit](/EN/concepts/collective-exit) · [Building](/EN/c
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-06">Back  6</a>
-</div>

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - enclosures
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Enclosures
 
 The fencing off of the common good — both in the physical world and digitally.
@@ -11,7 +17,3 @@ The final phase is underway — and we are the farmers of our time.
 See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Collective exit](/EN/concepts/collective-exit) · [Thesis 4](/EN/theses/thesis-04)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-04">Back  4</a>
-</div>

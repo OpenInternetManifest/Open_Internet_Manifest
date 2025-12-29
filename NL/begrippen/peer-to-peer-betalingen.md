@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - peer to peer betalingen
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Peer-to-peer betalingen
 
 Directe betalingen tussen personen zonder tussenpartij zoals banken, PayPal of Apple Pay.

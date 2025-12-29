@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - iPFS
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # IPFS (InterPlanetary File System)
 
 Decentraal bestandssysteem dat werkt op basis van content-adressering (CID) in plaats van locatie.  

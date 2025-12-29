@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - activitypub
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # ActivityPub
 
 Open protocol voor gedecentraliseerde sociale netwerken (het fediverse).

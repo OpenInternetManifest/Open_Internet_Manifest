@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 24 - digital identity
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-25
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 24 – Claim your digital identity with Nostr
 
 Download [**Damus**](/EN/concepts/damus), [**Amethyst**](/EN/concepts/amethyst), [**Primal**](/EN/concepts/primal), or [**Snort**](/EN/concepts/snort).
@@ -15,14 +22,3 @@ The full step-by-step guide is coming → [Create Nostr account – coming soon]
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 24" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-25">BNext thesis →</a>
-</div>

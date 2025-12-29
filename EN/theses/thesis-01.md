@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 1- Internet is not dead
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-02
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 1
 
 The internet is not dead; it has been captured by five [**gatekeepers**](/EN/concepts/gatekeepers) who control 92% of our digital breath.
@@ -9,14 +16,3 @@ They decide which paths are visible, which voices are heard, which devices are s
 As long as their grip is not broken, [**digital sovereignty**](/EN/concepts/digital-sovereignty) remains a fairy tale we tell our children while they grow up in [**walled gardens**](/EN/concepts/walled-garden).
 
 ---
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis XX" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-02">BNext thesis →</a>
-</div>

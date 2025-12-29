@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - primal
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Primal
 
 Nostr client for web and mobile – focus on speed, caching, and good UX.
@@ -8,6 +14,3 @@ See also → [Nostr](/EN/concepts/nostr) · [Thesis 24](/EN/theses/thesis-24) ·
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-24">Back  24</a>
-</div>

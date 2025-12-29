@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 22 - switch to element
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-23
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 22 – Replace WhatsApp with Element (Matrix)
 
 Download [**Element**](/EN/concepts/element) on your phone and computer.
@@ -17,14 +24,3 @@ The full step-by-step guide is coming → [Element migration – coming soon](/E
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 22" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-23">BNext thesis →</a>
-</div>

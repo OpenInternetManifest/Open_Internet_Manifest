@@ -1,3 +1,10 @@
+---
+layout: default
+title:  Manifest volledig
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Open Internet Manifest – Deel 1: De eerste 11 theses
 
 Thesis 1

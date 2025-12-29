@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - independant networks
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Independent networks
 
 Networks not under the control of gatekeepers — e.g. mesh networks, federated servers, peer-to-peer systems.
@@ -9,7 +15,3 @@ These networks make censorship, deplatforming, and lock-in virtually impossible.
 See also → [Mesh network](/EN/concepts/mesh-network) · [Independent protocols](/EN/concepts/independent-protocols) · [Thesis 8](/EN/theses/thesis-08)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-08">Back  8</a>
-</div>

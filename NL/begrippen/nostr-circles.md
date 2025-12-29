@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - nostr-circles
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Nostr-circles
 
 Kleine, besloten groepen op het Nostr-protocol – zoals privé-chats of vertrouwde netwerken.

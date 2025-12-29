@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - odysee
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Odysee
 
 Video platform based on LBRY blockchain – decentralized, censorship-resistant, creators earn direct crypto.
@@ -8,6 +14,3 @@ See also → [LBRY](/EN/concepts/lbry) · [Thesis 17](/EN/theses/thesis-17) · [
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-17">Back  17</a>
-</div>

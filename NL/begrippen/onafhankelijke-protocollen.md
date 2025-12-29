@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - onafhankelijke protocollen
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Onafhankelijke protocollen
 
 Open communicatieprotocollen die niet onder controle staan van één bedrijf.

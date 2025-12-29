@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 11 - this manifesto
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-12
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 11
 
 This manifesto is not a decree from above; it is a fire that burns in open conversations.
@@ -12,14 +19,3 @@ By holding it in your hands now, you become a co-author — because a truly open
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 11" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-12">BNext thesis →</a>
-</div>

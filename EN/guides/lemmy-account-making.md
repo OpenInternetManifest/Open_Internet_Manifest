@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - lemmy account making
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Guide – Create your first Lemmy account (Reddit alternative)
 
 Lemmy is the decentralized alternative to Reddit: forums (sublemmies), communities, and discussions — without a central owner or algorithm controlling your feed.
@@ -53,24 +59,9 @@ You are now outside the enclosure.
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about Lemmy and forums</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Guide Lemmy" as your first message</small>
-</div>
-
----
-
-<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
-
-  ### Disclaimer
+ ### Disclaimer
 All guides are proposed by the community and reviewed by the OIM core team before going live.  
 Nevertheless, executing technical steps remains your own responsibility.  
 The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-</div>
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-15">Back  15</a>
-</div>

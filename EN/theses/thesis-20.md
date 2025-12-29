@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 20 - Building communities
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-21
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 20 – From collecting followers to building real communities
 
 10 million followers you don't know is not power — it is a hostage situation.
@@ -10,14 +17,3 @@ Connecting instead of scrolling. Talking instead of performing.
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 20" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-21">BNext thesis →</a>
-</div>

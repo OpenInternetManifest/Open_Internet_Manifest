@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - peer to peer payments
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Peer-to-peer payments
 
 Direct payments between individuals without intermediaries like banks, PayPal, or Apple Pay.
@@ -10,6 +16,3 @@ See also → [Open protocols](/EN/concepts/independent-protocols) · [Gatekeeper
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-09">Back  9</a>
-</div>

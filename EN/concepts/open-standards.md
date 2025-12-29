@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - open standards
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Open standards
 
 Technical specifications that are freely available, without patents or restrictions — anyone can implement them.
@@ -10,6 +16,3 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [The
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-28">Back  28</a>
-</div>

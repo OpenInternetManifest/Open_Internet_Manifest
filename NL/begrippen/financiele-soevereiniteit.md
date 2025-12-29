@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - financiele soevereiniteit
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Financiële soevereiniteit
 
 De vrijheid om geld te ontvangen, te sturen en te bewaren zonder toestemming of inmenging van banken, bedrijven of overheden.

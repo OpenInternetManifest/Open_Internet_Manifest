@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - start9
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Start9
 
 Self-hosting platform (formerly EmbassyOS) — runs on dedicated hardware or Raspberry Pi.
@@ -8,6 +14,3 @@ See also → [Sovereign node](/EN/concepts/sovereign-node) · [Thesis 25](/EN/th
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-25">Back  25</a>
-</div>

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - Nextcloud
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Nextcloud
 
 Open-source zelfgehoste cloud-suite voor bestanden, kalender, contacten, foto's en meer.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: verklaringen - Ruben Berkhout
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Verklaring van steun aan het Open Internet Manifest
 
 **Naam**: Ruben Berkhout  

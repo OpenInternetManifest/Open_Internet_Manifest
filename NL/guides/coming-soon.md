@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - comming soon
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # [Naam guide] – komt eraan
 
 Goed nieuws! Je hebt een thesis gevonden die een praktische guide verdient – en die zijn we aan het maken.
@@ -12,6 +18,8 @@ Of praat mee in Matrix:
 
 Bedankt voor je geduld – samen maken we het open internet doe-baar.
 
+---
+
 ### Disclaimer
 Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
 Toch blijft het uitvoeren van technische stappen (zoals commando’s of hardware-aankoop) jouw eigen verantwoordelijkheid.  
@@ -19,10 +27,3 @@ Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of and
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over guides</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Guide [naam]" als eerste bericht</small>
-</div>
-
----

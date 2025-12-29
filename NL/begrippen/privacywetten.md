@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - privacy wetten
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Privacywetten
 
 Wetgeving zoals AVG/GDPR die poortwachters verplichten “beter” met data om te gaan.

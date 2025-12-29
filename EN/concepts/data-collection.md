@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - Data collection
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Data collection
 
 The automatic opening, copying, and storing of all your communication, searches, and behavior by gatekeepers.
@@ -8,6 +14,3 @@ See also → [Surveillance](/EN/concepts/surveillance) · [Gatekeepers](/EN/conc
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-3">Back  3</a>
-</div>

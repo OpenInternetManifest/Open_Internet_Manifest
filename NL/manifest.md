@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Alle theses
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 <h1 class="intro-title">De eerste 30 theses zijn klaar</h1>

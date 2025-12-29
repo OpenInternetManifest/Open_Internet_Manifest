@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - xmpp
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+--- 
 # XMPP (Extensible Messaging and Presence Protocol)
 
 Open, federated berichtenprotocol uit 1999 – basis voor Jabber en vele apps (Dino, Conversations, Cheogram).

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - App-Store
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # App store
 
 A central checkpoint (Apple App Store, Google Play) that decides which software is allowed to run on your device.
@@ -8,6 +14,3 @@ See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Walled garden](/EN/conc
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-21">Back  21</a>
-</div>

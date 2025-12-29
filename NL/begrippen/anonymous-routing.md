@@ -1,3 +1,10 @@
+---
+layout: secundairy
+title: begrippen - anomymous routing
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 # Anonymous routing – internetten zonder dat iemand ziet wie je bent
 
 Normaal ziet je provider precies welke websites je bezoekt.  
@@ -9,6 +16,4 @@ Real-world voorbeelden waar het levens redt:
 
 Anonimiteit is geen “crimineel gereedschap”; het is de digitale versie van een stemhokje.
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-02">Terug naar thesis 2</a>
-</div>
+---

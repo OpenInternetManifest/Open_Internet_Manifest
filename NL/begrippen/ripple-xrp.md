@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - ripple xrp
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Ripple/XRP
 
 Cryptocurrency en netwerk ontworpen voor snelle, goedkope internationale betalingen, vooral tussen banken.

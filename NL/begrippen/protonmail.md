@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - protonmail
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # ProtonMail
 
 End-to-end versleutelde e-maildienst uit Zwitserland – geen toegang voor derden, geen scanning voor advertenties.

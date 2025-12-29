@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - Brave-search
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Brave Search
 
 Onafhankelijke zoekmachine met eigen index (geen Google of Bing).
@@ -11,7 +17,3 @@ Goede balans tussen gebruiksgemak en onafhankelijkheid.
 Zie ook → [DuckDuckGo](/Open_Internet_Manifest/NL/begrippen/duckduckgo) · [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) · [search.brave.com](https://search.brave.com/)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-18">Terug naar thesis 18</a>
-</div>

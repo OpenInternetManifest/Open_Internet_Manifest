@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - nostr
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Nostr (Notes and Other Stuff Transmitted by Relays)
 
 Simpelste sociale protocol ter wereld: je hebt alleen een publieke en privé-sleutel.  

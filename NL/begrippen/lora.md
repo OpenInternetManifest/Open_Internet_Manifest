@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - Lora
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # LoRa / LoRaWAN
 
 Lage-bandbreedte, lange-afstands radio-technologie (tot 15 km in buitengebied).  

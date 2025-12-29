@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - mastadon account making
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Guide – Create your first Mastodon account and migrate from X/Twitter
 
 Mastodon is not a replacement for Twitter — it is better: you choose your own server, your data is yours, and you can always move.
@@ -61,24 +67,9 @@ You are now outside the enclosure.
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about Mastodon and the fediverse</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Guide Mastodon" as your first message</small>
-</div>
-
----
-
-<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
-
-  ### Disclaimer
+ ### Disclaimer
 All guides are proposed by the community and reviewed by the OIM core team before going live.  
 Nevertheless, executing technical steps remains your own responsibility.  
 The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-</div>
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-15">Back  15</a>
-</div>

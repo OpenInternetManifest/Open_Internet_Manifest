@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - accept button
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Accept button
 
 The “I agree” button with which users blindly surrender privacy, freedom, and ownership in exchange for access.
@@ -9,7 +15,3 @@ Online, it has become the most normal thing in the world.
 See also → [Convenience](/EN/concepts/convenience) · [Thesis 3](/EN/theses/thesis-03)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-21">Back  21</a>
-</div>

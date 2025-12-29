@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - valse decentralisatie
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Valse decentralisatie
 
 “Decentralisatie” die poortwachters zelf aanbieden binnen hun eigen platform.

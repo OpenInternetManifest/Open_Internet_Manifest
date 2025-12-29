@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - end to end encryption
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # End-to-end encryption
 
 Encryption in which only the sender and receiver can read the content — no one in between, not even the service provider.
@@ -10,6 +16,3 @@ See also → [Privacy](/EN/concepts/privacy) · [Free protocols](/EN/concepts/in
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-07">Back  7</a>
-</div>

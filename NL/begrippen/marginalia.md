@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - marginalia
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Marginalia
 
 Zoekmachine die zich richt op non-commerciële, persoonlijke en obscure websites – tegen de mainstream filterbubbel.

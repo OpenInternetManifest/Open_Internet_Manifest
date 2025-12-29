@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - lemmy account maken
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Guide – Je eerste Lemmy-account maken (Reddit-alternatief)
 
 Lemmy is het gedecentraliseerde alternatief voor Reddit: forums (sublemmies), communities en discussies – zonder centrale eigenaar of algoritme dat je feed stuurt.
@@ -53,21 +59,10 @@ Je bent nu buiten de omheining.
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over Lemmy en forums</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "Guide Lemmy" als eerste bericht</small>
-</div>
-
----
-
-<div style="text-align: left; margin-top: 2em; padding: 1em; background: #f8f8f8; border-left: 4px solid #ccc; font-size: 0.9em;">
-
-  ### Disclaimer
+### Disclaimer
 Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
 Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
 Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
-</div>
 
 ---
 

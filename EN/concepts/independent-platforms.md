@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - Indepndant platforms
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Independent platforms
 
 Platforms running on open protocols and not controlled by a single company.
@@ -10,6 +16,3 @@ See also → [Independent protocols](/EN/concepts/independent-protocols) · [Sov
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-09">Back  9</a>
-</div>

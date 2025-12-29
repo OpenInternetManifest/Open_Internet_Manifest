@@ -1,3 +1,10 @@
+---
+layout: secundairy
+title: begrippen - account
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 # Account
 
 Een verplicht identiteitsbewijs dat poortwachters eisen voordat je toegang krijgt tot het internet of een dienst.

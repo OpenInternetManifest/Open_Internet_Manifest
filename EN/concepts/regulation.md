@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - regulation
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Regulation
 
 Imposing government rules on gatekeepers in the hope they will behave better.
@@ -7,7 +13,3 @@ Result: the same companies get a monopoly with an official stamp, and citizens r
 See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Privacy laws](/EN/concepts/privacy-laws) · [Thesis 5](/EN/theses/thesis-05)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-05">Back  5</a>
-</div>

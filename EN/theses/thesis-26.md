@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 26 - pay the builders
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-27
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 26 – Pay the builders of the open internet
 
 [**GitHub Sponsors**](/EN/concepts/github-sponsors), [**Open Collective**](/EN/concepts/open-collective), [**Liberapay**](/EN/concepts/liberapay), [**Patreon**](/EN/concepts/patreon), or a direct [**Lightning zap**](/EN/concepts/lightning-zap).
@@ -8,14 +15,3 @@ One euro per month from a million people changes everything.
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 26" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-27">BNext thesis →</a>
-</div>

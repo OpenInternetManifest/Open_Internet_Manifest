@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - closed source
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Closed-source AI
 
 Artificial intelligence whose source code, training data, and operation are not public — fully controlled by one company.
@@ -16,7 +22,3 @@ These models can be run locally, modified, and audited — without dependence on
 See also → [Gatekeepers](/EN/concepts/gatekeepers) · [Walled garden](/EN/concepts/walled-garden) · [Thesis 10](/EN/theses/thesis-10)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-10">Back  10</a>
-</div>

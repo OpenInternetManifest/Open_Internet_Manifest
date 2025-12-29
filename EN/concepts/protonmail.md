@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - protonmail
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # ProtonMail
 
 End-to-end encrypted email service from Switzerland — no access for third parties, no scanning for ads.
@@ -10,6 +16,3 @@ See also → [Proton Drive](/EN/concepts/proton-drive) · [Thesis 27](/EN/theses
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-27">Back  27</a>
-</div>

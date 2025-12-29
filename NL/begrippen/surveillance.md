@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - surveillance
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Surveillance
 
 Het systematisch en permanent in de gaten houden van burgers door bedrijven of overheden, vaak zonder toestemming of transparantie.

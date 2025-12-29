@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - Proton Drive
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Proton Drive
 
 Privacy-focused cloud-opslag van Proton (makers van ProtonMail).

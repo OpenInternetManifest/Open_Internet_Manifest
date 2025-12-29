@@ -1,3 +1,9 @@
+---
+layout: default
+title: theses - living manifesto
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # The manifesto is alive
 
 This is not an end  
@@ -36,15 +42,3 @@ December 14, 2025 and beyond
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a>
-</div>
-
----
-
-
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-30">← All theses →</a>
-</div>

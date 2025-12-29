@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - sovereign node
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Sovereign Node – The key to taking back the internet
 
 A [**sovereign node**](#) is not a gadget.  
@@ -33,6 +39,3 @@ Politically a naked power grab.
 - **Guifi-net Twente** – 200+ nodes in the Achterhoek, often faster
 
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-21">Back  21</a>
-</div>

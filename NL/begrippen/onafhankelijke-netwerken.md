@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - onafhankelijke netwerken
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Onafhankelijke netwerken
 
 Netwerken die niet onder controle staan van poortwachters – bijv. mesh-netwerken, federated servers, peer-to-peer systemen.

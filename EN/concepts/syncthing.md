@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - syncthing
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Syncthing
 
 Open-source peer-to-peer file synchronization tool.
@@ -8,6 +14,3 @@ See also → [Nextcloud](/EN/concepts/nextcloud) · [Data sovereignty](/EN/conce
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-23">Back  23</a>
-</div>

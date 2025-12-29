@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - totale transperantie
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Totale transparantie
 
 De leugen dat alles zichtbaar moet zijn om “verbonden” te zijn.

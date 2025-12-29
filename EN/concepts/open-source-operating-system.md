@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - open source operating system
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Open-source operating system
 
 Operating systems such as Linux (desktop/mobile), GrapheneOS, CalyxOS, Ubuntu Touch — completely free of proprietary code from gatekeepers.
@@ -8,6 +14,3 @@ See also → [Open hardware](/EN/concepts/open-hardware) · [Thesis 4](/EN/these
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-04">Back  4</a>
-</div>

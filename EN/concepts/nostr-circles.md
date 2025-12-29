@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - nostr circles
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Nostr circles
 
 Small, private groups on the Nostr protocol — like private chats or trusted networks.
@@ -9,7 +15,3 @@ Ideal for real communities instead of open feeds.
 See also → [Nostr](/EN/concepts/nostr) · [Thesis 20](/EN/theses/thesis-20)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-20">Back  20</a>
-</div>

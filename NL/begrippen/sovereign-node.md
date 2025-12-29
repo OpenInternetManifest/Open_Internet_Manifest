@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - sovereign node
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Sovereign Node – De sleutel om het internet terug te pakken
 
 Een sovereign node is geen gadget.  

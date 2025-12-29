@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - patreon 
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Patreon
 
 Platform voor maandelijkse steun aan creators.

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - yggdrasil
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Yggdrasil
 
 End-to-end versleuteld IPv6-overlay mesh-netwerk dat automatisch routes vindt — zelfs zonder openbaar IP of NAT.

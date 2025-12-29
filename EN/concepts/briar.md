@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - Briar
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Briar
 
 Peer-to-peer messenger that works without internet (via Bluetooth/Wi-Fi) or with Tor.
@@ -10,6 +16,3 @@ See also → [Tor](/EN/concepts/tor) · [Thesis 16](/EN/theses/thesis-16) · [br
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-16">Back  16</a>
-</div>

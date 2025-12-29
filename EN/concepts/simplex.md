@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - simplex
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # SimpleX
 
 Privacy-first messenger without user IDs — not even a phone number or random identifier.
@@ -8,6 +14,3 @@ See also → [End-to-end encryption](/EN/concepts/end-to-end-encryption) · [The
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-16">Back  16</a>
-</div>

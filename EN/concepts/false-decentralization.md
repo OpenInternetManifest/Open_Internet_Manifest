@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - false decentralization
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # False decentralization
 
 “Decentralization” offered by gatekeepers themselves within their own platform.
@@ -10,5 +16,3 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Independent protoco
 
 ---
 
-| ← [Back to thesis 5](/EN/theses/thesis-05) | |
-| :--- | ---:|

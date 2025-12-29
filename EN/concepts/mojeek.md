@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - mojeek
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Mojeek
 
 Independent search engine with its own index (no Google/Bing dependency).
@@ -8,6 +14,3 @@ See also → [Thesis 18](/EN/theses/thesis-18) · [mojeek.com](https://www.mojee
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-18">Back 18</a>
-</div>

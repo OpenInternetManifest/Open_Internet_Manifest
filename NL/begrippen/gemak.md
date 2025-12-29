@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - gemak
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Gemak
 
 Het lokmiddel dat poortwachters gebruiken om vrijheid in te ruilen voor afhankelijkheid.

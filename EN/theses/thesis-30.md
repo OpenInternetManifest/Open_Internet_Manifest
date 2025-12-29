@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 30 - only the beginning
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-00
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 30 – This manifesto is only the beginning
 
 It is not an end point, but an invitation.  
@@ -9,14 +16,3 @@ Will you walk with us?
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 30" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/living-manifesto">The manifesto is alive →</a>
-</div>

@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 2- Freedom was something from the 80's
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-03
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 2
 
 Those who have enclosed the open internet now sell you the story that true freedom was something from the eighties — and almost everyone falls for it.
@@ -9,14 +16,3 @@ Today, you buy a phone and you are first a customer of Apple or Google, then a t
 They call that chain “[**convenience**](/EN/concepts/convenience)” and “[**security**](/EN/concepts/security)”, so you forget that freedom was once simple, direct, and without gatekeepers.
 
 ---
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis XX" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-03">BNext thesis →</a>
-</div>

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - DID
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # DID (Decentralized Identifier)
 
 Decentralized identifier – a unique, self-managed ID that you can use everywhere without an intermediary.
@@ -14,6 +20,3 @@ See also → [Nostr](/EN/concepts/nostr) · [Keyoxide](/EN/concepts/keyoxide) ·
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-14">Back  14</a>
-</div>

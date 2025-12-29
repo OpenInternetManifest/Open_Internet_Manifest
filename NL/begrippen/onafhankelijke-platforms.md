@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - onafhankelijke platforms
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Onafhankelijke platforms
 
 Platforms die draaien op open protocollen en niet onder controle staan van één bedrijf.

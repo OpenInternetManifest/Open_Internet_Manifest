@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - rumble
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Rumble
 
 Onafhankelijk video-platform met focus op vrije meningsuiting en hogere inkomsten voor creators.

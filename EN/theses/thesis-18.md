@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 18- searching
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-19
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 18 – Searching without Google
 
 Google does not decide what is true — Google decides what you get to see.
@@ -13,14 +20,3 @@ The full step-by-step guide is coming → [Searching without Google – coming s
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 18" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-19">BNext thesis →</a>
-</div>

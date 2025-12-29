@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - duckduckgo
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # DuckDuckGo
 
 Privacy-focused search engine that does not track or profile search behavior.
@@ -12,6 +18,3 @@ See also → [Brave Search](/EN/concepts/brave-search) · [Thesis 18](/EN/theses
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-18">Back  18</a>
-</div>

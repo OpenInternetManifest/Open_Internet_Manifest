@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - duckduckgo
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # DuckDuckGo
 
 Privacy-focused zoekmachine die geen zoekgedrag trackt of profileert.
@@ -11,7 +17,3 @@ Makkelijke overstap van Google voor dagelijks gebruik.
 Zie ook → [Brave Search](/Open_Internet_Manifest/NL/begrippen/brave-search) · [Thesis 18](/Open_Internet_Manifest/NL/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-18">Terug naar thesis 18</a>
-</div>

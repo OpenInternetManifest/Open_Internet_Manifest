@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - liberapay
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Liberapay
 
 Open-source, non-profit platform for recurring donations to creators and projects.
@@ -8,6 +14,3 @@ See also → [Open Collective](/EN/concepts/open-collective) · [Thesis 26](/EN/
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-26">Back  26</a>
-</div>

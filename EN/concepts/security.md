@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - security
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Security
 
 The excuse gatekeepers use to justify total control.
@@ -10,6 +16,3 @@ See also → [Walled garden](/EN/concepts/walled-garden) · [Convenience](/EN/co
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-02">Back  2</a>
-</div>

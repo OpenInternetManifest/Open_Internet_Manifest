@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - privacy
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Privacy
 
 Het natuurlijke recht om alleen te zijn met je gedachten, gesprekken en bewegingen – zonder dat een derde partij meekijkt, meeluistert of meeverkoopt.

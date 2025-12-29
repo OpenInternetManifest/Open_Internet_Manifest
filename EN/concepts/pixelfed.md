@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - pixelfed
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Pixelfed
 
 Decentralized photo-sharing platform (Instagram alternative) on ActivityPub.
@@ -8,6 +14,3 @@ See also → [ActivityPub](/EN/concepts/activitypub) · [Mastodon](/EN/concepts/
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-15">Back  15</a>
-</div>

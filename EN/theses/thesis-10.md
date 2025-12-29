@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 10 - digital cage 
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-11
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 10
 
 The digital cage is expanding into the real world — and we are helping to carry it ourselves.
@@ -12,14 +19,3 @@ Only a truly open internet can stop this expansion — by showing that a free di
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 10" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-|<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-11">BNext thesis →</a>
-</div>

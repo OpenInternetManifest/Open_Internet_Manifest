@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - revolt
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Revolt
 
 Open-source, self-hostable chat platform (Discord alternative).
@@ -10,6 +16,3 @@ See also → [Matrix](/EN/concepts/matrix) · [Thesis 20](/EN/theses/thesis-20) 
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-20">Back  20</a>
-</div>

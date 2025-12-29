@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: concepts - owncloud
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # ownCloud
 
 Open-source platform for self-hosted file synchronization and sharing (predecessor of Nextcloud).
@@ -8,6 +14,3 @@ See also → [Nextcloud](/EN/concepts/nextcloud) · [Data sovereignty](/EN/conce
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-13">Back  13</a>
-</div>

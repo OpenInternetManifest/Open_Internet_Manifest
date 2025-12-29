@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 0 - introduction
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-01
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Open Internet Manifesto
 
 ### 100 theses for a free, open and inalienable internet.
@@ -27,13 +34,3 @@ December 13, 2025
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along</strong><br>
-<a href="https://app.element.io/#/room/#openinternetmanifest:matrix.org" target="_blank">Join the discussion in the official OIM Matrix room</a>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/manifest">Back to overview</a>
-</div>

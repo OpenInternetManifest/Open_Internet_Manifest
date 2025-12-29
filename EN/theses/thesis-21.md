@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 21 - first step
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-22
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 21 – Practical first step: create a Mastodon account today
 
 The fediverse is waiting for you — and it's easier than you think.
@@ -20,15 +27,3 @@ You are already outside the enclosure.
 That is all it takes to get started.
 
 ---
-
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 21" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-22">BNext thesis →</a>
-</div>

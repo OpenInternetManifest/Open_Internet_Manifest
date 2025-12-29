@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - dns
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # DNS – het telefoonboek van het internet
 
 DNS (Domain Name System) vertaalt www.vrijinternet.nl naar een IP-adres (bijv. 192.0.2.1).  
@@ -7,6 +13,4 @@ Oplossingen zoals Handshake, ENS en Namecoin maken een nieuw, gedistribueerd tel
 
 Voorbeeld: Turkije blokkeerde jarenlang Wikipedia door DNS te manipuleren. Met een gedecentraliseerd systeem was dat onmogelijk geweest.
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-02">Terug naar thesis 2</a>
-</div>
+---

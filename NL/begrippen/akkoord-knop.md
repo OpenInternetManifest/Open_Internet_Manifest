@@ -1,3 +1,10 @@
+---
+layout: secundairy
+title: begrippen - akkoord-knop
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 # Akkoord-knop
 
 De “Ik ga akkoord”-knop waarmee gebruikers blind afstand doen van privacy, vrijheid en eigendom in ruil voor toegang.
@@ -9,7 +16,3 @@ Online is het de normaalste zaak van de wereld geworden.
 Zie ook → [Gemak](/Open_Internet_Manifest/NL/begrippen/gemak) · [Thesis 3](/Open_Internet_Manifest/NL/theses/thesis-03)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-03">Terug naar thesis 3</a>
-</div>

@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - closed-source-ai
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Closed-source AI
 
 Kunstmatige intelligentie waarvan de broncode, trainingsdata en werking niet openbaar zijn – volledig gecontroleerd door één bedrijf.
@@ -16,7 +22,3 @@ Deze modellen kunnen lokaal gedraaid worden, aangepast en gecontroleerd – zond
 Zie ook → [Poortwachters](/Open_Internet_Manifest/NL/begrippen/poortwachters) · [Ommuurde tuin](/Open_Internet_Manifest/NL/begrippen/ommuurde-tuin) · [Thesis 10](/Open_Internet_Manifest/NL/theses/thesis-10)
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-10">Terug naar thesis 10</a>
-</div>

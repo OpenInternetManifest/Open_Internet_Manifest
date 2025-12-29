@@ -1,3 +1,9 @@
+---
+layout: secundairy
+title: begrippen - briar
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Briar
 
 Peer-to-peer messenger die werkt zonder internet (via Bluetooth/Wi-Fi) of met Tor.
@@ -10,6 +16,3 @@ Zie ook → [Tor](/Open_Internet_Manifest/NL/begrippen/tor) · [Thesis 16](/Open
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/Open_Internet_Manifest/NL/theses/thesis-16">Terug naar thesis 16</a>
-</div>

@@ -1,3 +1,9 @@
+---
+layout: default
+title: guides - Raspberry PI node
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Guide – Je eigen sovereign node draaien (Raspberry Pi + Umbrel)
 
 Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou.
@@ -75,33 +81,6 @@ Je hebt nu thuis:
 Kosten per maand: ± € 3 elektriciteit  
 Veiligheid: jij hebt de enige sleutel  
 Niemand kan je ooit nog deactiveren
-
----
-
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Praat mee over sovereign nodes</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element en praat mee</a><br>
-<small>Kleine tip: typ "sovereign node" als eerste bericht</small>
-</div>
-
----
-
-### Ondersteun het Open Internet Manifest ❤️
-Dit manifest blijft alleen bestaan dankzij jullie donaties.  
-Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).
-
-### 💸 Doneer anoniem in crypto
-
----
-
-| Cryptocurrency     | QR-code (klik om te vergroten)                                                                                                                                        | Adres (klik om te kopiëren)                                                                                          |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Bitcoin (BTC)**  | [![Bitcoin QR](https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm)](https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm)      | `bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm`                     
-| **Monero (XMR)**   | [![Monero QR](https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F)](https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F) | `85J34VDW5wSJG6yuWXyYzB4ScedX7k4FJZktSk1VMo2uRHFWoPjB9cXKGiEkvw1SvoQrMXdxwnrVPZVzJx9MrPe4HoPYbFu` |
-
-**Monero-tip**: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.
-
-Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀
 
 ---
 

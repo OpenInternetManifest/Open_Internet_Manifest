@@ -1,3 +1,10 @@
+---
+layout: default
+title: theses 17 - video content
+next_thesis: /Open_Internet_Manifest/EN/theses/thesis-18
+# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
+# donation_text: "Help the writer of this part" # Optional, else default text
+---
 # Thesis 17 – Video and content without YouTube or TikTok
 
 YouTube and TikTok are not laws of nature, but choices by a handful of companies.
@@ -15,14 +22,3 @@ The full step-by-step guide is coming → [Video without YouTube – coming soon
 
 ---
 
-<div style="text-align: center; margin-top: 2em; padding: 1em; background: #f0f0f0; border-radius: 8px;">
-<strong>🗣️ Talk along about this thesis</strong><br>
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a><br>
-<small>Tip: type "Thesis 17" as your first message so everyone knows which thesis you're referring to</small>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 2em;">
-  ← <a href="/EN/theses/thesis-18">BNext thesis →</a>
-</div>
