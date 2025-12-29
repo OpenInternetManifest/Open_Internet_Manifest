@@ -16,4 +16,4 @@ title: Open Internet Manifest
     </a>
   </div>
 
-  <p class="home-note">Meer talen komen eraan — bijdragen welkom!</p>
+  <p class="home-note">More languages will follow</p>
