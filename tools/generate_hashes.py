@@ -3,7 +3,6 @@ import hashlib
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-# Pad naar _site folder
 SITE_DIR = Path("_site")
 
 hashes = {}
@@ -20,21 +19,54 @@ def calculate_clean_hash(file_path):
     
     clone = main.__copy__()
     
-    # Verwijder exact dezelfde elementen als in JS
-    for selector in ['.integrity-check', '.community-box', '.donation-section', '.site-footer', '.page-footer', '.copy-container', '#copy-feedback', '#verify-feedback']:
+    # Verwijder excludes
+    for selector in ['.integrity-check', '.community-box', '.donation-section', '.site-footer', '.footer-nav', '.site-footer-credits', '.page-footer', '.copy-container', '#copy-feedback', '#verify-feedback']:
         for el in clone.select(selector):
             el.decompose()
     
-    # Verwijder <br> tags
-    for br in clone.find_all('br'):
-        br.replace_with(' ')  # Vervang door space om woorden te houden zonder extra newlines
+    # Collect title from h1
+    title = ''
+    h1 = clone.find('h1')
+    if h1:
+        # Unwrap inline in h1
+        for tag in ['a', 'span', 'strong', 'em', 'i', 'b', 'u', 'code', 'mark', 'small', 'sup', 'sub']:
+            for el in h1.find_all(tag):
+                el.unwrap()
+        # Replace <br> by space
+        for br in h1.find_all('br'):
+            br.replace_with(' ')
+        # Get text with separator ' ' to join inline with space
+        title = h1.get_text(separator=' ', strip=True)
+        title = ' '.join(title.split())  # reduce multiple spaces
+
+    # Collect paragraphs from p tags
+    paragraphs = []
+    for p in clone.find_all('p'):
+        # Unwrap inline in p
+        for tag in ['a', 'span', 'strong', 'em', 'i', 'b', 'u', 'code', 'mark', 'small', 'sup', 'sub']:
+            for el in p.find_all(tag):
+                el.unwrap()
+        # Replace <br> by space
+        for br in p.find_all('br'):
+            br.replace_with(' ')
+        # Get text with separator ' ' to join inline with space
+        para_text = p.get_text(separator=' ', strip=True)
+        para_text = ' '.join(para_text.split())  # reduce multiple spaces
+        if para_text:
+            paragraphs.append(para_text)
     
-    # Exact browser textContent
-    text = clone.get_text(separator='\n', strip=True)
+    # Join title + paragraphs with \n\n
+    text = title
+    if paragraphs:
+        text += '\n\n' + '\n\n'.join(paragraphs)
     
-    # Exact zoals JS
-    text = text.strip()
-    text = '\n\n'.join([line for line in text.split('\n') if line.strip()])
+    # DEBUG for /nl/theses/thesis-01
+    if "nl/theses/thesis-01" in str(file_path):
+        print("\n--- DEBUG: CLEAN TEXT VOOR /nl/theses/thesis-01 ---")
+        print(repr(text))
+        print("--- EINDE DEBUG ---")
+        print("DEBUG HASH:", hashlib.sha256(text.encode('utf-8')).hexdigest())
+        print("---\n")
     
     hash_obj = hashlib.sha256(text.encode('utf-8'))
     return hash_obj.hexdigest()
