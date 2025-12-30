@@ -10,3 +10,7 @@ defaults:
       path: "en"
     values:
       lang: "EN"
+      cache_bust: 2025-12-30-v2
+      exclude:
+  - Gemfile
+  - Gemfile.lock
