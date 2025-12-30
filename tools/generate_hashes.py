@@ -3,6 +3,7 @@ import hashlib
 from pathlib import Path
 from bs4 import BeautifulSoup
 
+# Pad naar _site folder
 SITE_DIR = Path("_site")
 
 hashes = {}
@@ -19,20 +20,21 @@ def calculate_clean_hash(file_path):
     
     clone = main.__copy__()
     
-    # Verwijder includes + footer
+    # Verwijder exact dezelfde elementen als in JS
     for selector in ['.integrity-check', '.community-box', '.donation-section', '.site-footer', '.page-footer', '.copy-container', '#copy-feedback', '#verify-feedback']:
         for el in clone.select(selector):
             el.decompose()
     
-    # Verwijder <br> tags (handmatige line breaks)
+    # Verwijder <br> tags
     for br in clone.find_all('br'):
-        br.decompose()
+        br.replace_with(' ')  # Vervang door space om woorden te houden zonder extra newlines
     
-    # Get text, maar reduce multiple newlines
-    text = clone.get_text(separator=' ', strip=True)  # space tussen elements
-    text = text.replace('\n', ' ')  # alle newlines → space
-    text = ' '.join(text.split())  # reduce multiple spaces
-    text = '\n\n'.join([p.strip() for p in text.split('\n\n') if p.strip()])  # paragrafen met \n\n
+    # Exact browser textContent
+    text = clone.get_text(separator='\n', strip=True)
+    
+    # Exact zoals JS
+    text = text.strip()
+    text = '\n\n'.join([line for line in text.split('\n') if line.strip()])
     
     hash_obj = hashlib.sha256(text.encode('utf-8'))
     return hash_obj.hexdigest()
