@@ -34,7 +34,6 @@ Jij bent mede-auteur.
 
 <div style="text-align: center; margin-top: 1em;">
 <small>December 2025 – en verder</small>
-</div>
 
 ---
 
