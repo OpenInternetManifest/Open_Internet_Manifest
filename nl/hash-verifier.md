@@ -15,4 +15,5 @@ permalink: /nl/hash-verifier/
   <div id="result" class="result-box" style="display:none;"></div>
 </div>
 
+<script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
 <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>

@@ -1,5 +1,7 @@
+// Centrale hashes – gebruikt door hash-verify.js en hash-verifier.js
+// Vul met je generate_hashes.py output
+
 const officialHashes = {
-  // Alle hashes + paden
  // nl root
 
 '/nl/guides': '9f08333da3a2dca8a449ccdd05dfd6273d42bde4ebf5cc1c3ebd9b47f792272d',
@@ -317,11 +319,9 @@ const officialHashes = {
 '/en/concepts/cryptographic-hash': '02f36454ff0f4daaa479ee9621a60d916ec39d194fc72a961cf7c713f7a1a7d9',
 '/en/concepts/': '',
 '/en/concepts/': '',
-  "4ee65e950c5bc52e05afc5c34255c0863da60552cdf743a6f174fac8dcbd4246": "/nl/theses/thesis-02",
-  // ... alle hashes
 };
 
 const preStoredTexts = {
   "/nl/theses/thesis-01": "Thesis 1\n\nHet internet is niet dood; het is gekaapt door vijf poortwachters die 92% van onze digitale adem controleren.\n\nWaar wij vroeger vrij door een open veld liepen, staan nu Apple, Google, Microsoft, Amazon en Meta als gewapende landheren aan elk kruispunt, tol heffend over elke stap, elk woord, elke gedachte.\n\nZij bepalen welke wegen zichtbaar zijn, welke stemmen doorkomen, welke apparaten nog mogen spreken met elkaar.\n\nZolang hun greep niet wordt gebroken, blijft digitale soevereiniteit een sprookje dat wij onze kinderen vertellen terwijl zij opgroeien in ommuurde tuinen.",
-  // ... alle clean texts (uit je generate_hashes.py debug)
+  // ... alle clean texts uit debug van generate_hashes.py (optioneel voor fuzzy)
 };
