@@ -1,11 +1,8 @@
 title: Open Internet Manifest
 description: A living manifesto for a free, open and decentralized internet
 # Base URL – leeg lokaal, correct op GitHub Pages
-baseurl: "{{ site.baseurl_override | default: '' }}"
-url: ""
-
-# Voor GitHub Pages – automatisch /Open_Internet_Manifest
-# Geen extra config nodig – GitHub zet het zelf
+baseurl: "/Open_Internet_Manifest"  # Voor GitHub Pages
+url: "https://openinternetmanifest.github.io"  
 
 
 defaults:
