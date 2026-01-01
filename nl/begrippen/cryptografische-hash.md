@@ -2,7 +2,7 @@
 layout: default
 title: Cryptografische hash
 lang: nl
-permalink: Open_Internet_Manifest/nl/begrippen/cryptografische-hash/
+permalink: /nl/begrippen/cryptografische-hash/
 ---
 
 Een **cryptografische hash** is een wiskundige functie die elke willekeurige hoeveelheid data (zoals een tekst, bestand of thesis) omzet in een vaste lengte unieke "vingerafdruk" (bij dit manifest: 64 tekens in SHA-256).

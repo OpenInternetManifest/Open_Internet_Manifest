@@ -18,8 +18,8 @@ A living manifest for a free, open and decentralized internet — built and owne
 
 ## The Theses
 [Start reading →](/Open_Internet_Manifest/en/theses/thesis-00)  
-[All theses →](/Open_Internet_Manifest/en/manifest) 
-[hash](/en/concepts/cryptographic-hash)
+[All theses →](/Open_Internet_Manifest/en/manifest)     
+[hash](/Open_Internet_Manifest/en/concepts/cryptographic-hash)
 
 ---
 
