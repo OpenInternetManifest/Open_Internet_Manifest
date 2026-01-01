@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ 'now' | date: '%s' }}">
 
-    <!-- Hash verify JS -->
+    <!-- Centrale hashes + hash-verify JS -->
+    <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
     <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
   </head>
   <body>
@@ -37,14 +38,14 @@
 
     <!-- Main content -->
     <main id="content" class="main-content" role="main">
-  {{ content }}
+      {{ content }}
 
-  {% include donation.html %}
+      {% include donation.html %}
 
-  {% assign lang = page.lang | default: 'NL' | upcase %}
-  {% include integrity-check-{{ lang }}.html %}
+      {% assign lang = page.lang | default: 'NL' | upcase %}
+      {% include integrity-check-{{ lang }}.html %}
 
-  {% include page-footer.html %}
-</main>
-
-    
+      {% include page-footer.html %}
+    </main>
+  </body>
+</html>

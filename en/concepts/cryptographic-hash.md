@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cryptographic hash
-lang: EN
+lang: en
 permalink: /en/concepts/cryptographic-hash/
 ---
 

@@ -13,6 +13,9 @@ This manifest is living — it grows through contributions from people like you.
 **The first 30 theses are ready**  
 [Start reading →](/Open_Internet_Manifest/en/theses/thesis-00)  
 [All theses →](/Open_Internet_Manifest/en/manifest)
+[hash] (/en/concepts/cryptographic-hash)
+
+
 
 **Practical guides**  
 [Follow the guides for Mastodon, Nextcloud, sovereign nodes and more →](/Open_Internet_Manifest/en/guides.md/)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cryptografische hash
-lang: NL
+lang: nl
 permalink: /nl/begrippen/cryptografische-hash/
 ---
 

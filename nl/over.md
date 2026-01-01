@@ -18,7 +18,8 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 
 ## De Theses
 [Begin met lezen →](/Open_Internet_Manifest/nl/theses/thesis-00)  
-[Alle theses →](/Open_Internet_Manifest/nl/manifest)
+[Alle theses →](/Open_Internet_Manifest/nl/manifest)    
+[hash](/nl/begrippen/cryptografische-hash/)
 
 ---
 

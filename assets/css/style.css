@@ -556,3 +556,54 @@ body {
   font-size: 1.4em;
   color: #a0a0a0;
 }
+.hash-verifier {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+#input-text {
+  width: 100%;
+  padding: 1em;
+  font-family: monospace;
+  font-size: 1em;
+  background: #111;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+#verify-btn {
+  padding: 0.8em 2em;
+  font-size: 1.1em;
+  background: #66ffcc;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 2em;
+  padding: 1.5em;
+  border-radius: 12px;
+  font-size: 1.2em;
+}
+
+.result-box.success {
+  background: rgba(102, 255, 102, 0.2);
+  border: 2px solid #66ff66;
+}
+
+.result-box.warning {
+  background: rgba(255, 255, 102, 0.2);
+  border: 2px solid #ffff66;
+}
+
+.result-box.error {
+  background: rgba(255, 102, 102, 0.2);
+  border: 2px solid #ff6666;
+}
