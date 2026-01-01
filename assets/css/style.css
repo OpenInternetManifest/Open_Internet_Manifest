@@ -1,8 +1,4 @@
-.page-header {
-  display: none !important;
-}
-
-/* Force donker thema */
+/* Global dark theme – clean & consistent */
 * {
   background: #0f1419 !important;
   color: #e0e0e0 !important;
@@ -12,27 +8,30 @@ img, .banner {
   background: transparent !important;
 }
 
-/* Responsive banner – perfecte scaling */
+body {
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
+}
+
+/* Banner – responsive & clean */
 .banner {
   position: relative;
   width: 100%;
   min-height: 400px;
   max-height: 80vh;
   overflow: hidden;
-  
 }
 
 .banner img {
   position: absolute;
   top: 0;
-  left: 50;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center ;
+  object-position: center;
 }
 
-/* Desktop: iets hogere banner */
+/* Desktop banner */
 @media (min-width: 1200px) {
   .banner {
     min-height: 550px;
@@ -40,7 +39,7 @@ img, .banner {
   }
 }
 
-/* Overlay box – clean text, geen glow/halo */
+/* Overlay text – clean & readable */
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -53,11 +52,6 @@ img, .banner {
   padding: 2em 2.5em;
   border-radius: 18px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
-  text-shadow: none !important;
-  -webkit-text-stroke: 0 !important;
-  -webkit-text-fill-color: currentColor !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .overlay-text h1 {
@@ -74,11 +68,10 @@ img, .banner {
   font-weight: 600;
 }
 
-/* Mobile – compacter */
+/* Mobile overlay */
 @media (max-width: 768px) {
   .overlay-text {
     width: 90%;
-    max-width: 750px;
     padding: 1.6em 2em;
     background: rgba(15, 20, 25, 0.9) !important;
   }
@@ -90,7 +83,7 @@ img, .banner {
   }
 }
 
-/* Content leesbaarheid */
+/* Main content – readable */
 .main-content {
   font-size: 1.15em !important;
   line-height: 1.8;
@@ -99,20 +92,15 @@ img, .banner {
   padding: 1.5em 2em 3em !important;
 }
 
-.main-content > h1:first-child,
-.main-content > h2:first-child,
-.main-content > h3:first-child {
-  margin-top: 0 !important;
-  padding-top: 1.5em;
-}
-
-.main-content h1, .main-content h2, .main-content h3 {
+.main-content h1,
+.main-content h2,
+.main-content h3 {
   color: #66b3ff !important;
   font-size: 1.9em !important;
   margin-top: 1.5em !important;
 }
 
-/* Footer navigatie */
+/* Footer navigation */
 .footer-nav a {
   color: #66b3ff !important;
   text-decoration: none;
@@ -125,355 +113,7 @@ img, .banner {
   text-decoration: underline;
 }
 
-/* Mooi lettertype */
-body {
-  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
-}
-
-/* Manifest header & intro */
-.manifest-header {
-  text-align: center;
-  font-size: 3.8em;
-  margin: 1.5em 0 0.5em;
-  font-weight: 900;
-  color: #66b3ff;
-}
-
-.manifest-subtitle {
-  text-align: center;
-  font-size: 2.2em;
-  margin-bottom: 3em;
-  color: white;
-  font-weight: 600;
-}
-
-.intro-title {
-  text-align: center;
-  font-size: 2.2em;
-  color: #66b3ff;
-  margin: 2em 0 0.5em;
-  font-weight: 700;
-}
-
-.intro-text {
-  text-align: center;
-  font-size: 1.6em;
-  margin-bottom: 4em;
-}
-
-/* Theses list */
-.theses-list {
-  list-style: none;
-  padding: 0;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.theses-list li {
-  margin-bottom: 2em;
-  padding-bottom: 1.5em;
-  border-bottom: 1px solid #333;
-}
-
-.theses-list li a {
-  font-size: 1.5em;
-  color: #e0e0e0;
-  text-decoration: none;
-  line-height: 1.6;
-  display: block;
-}
-
-.theses-list li a:hover {
-  color: #66b3ff;
-}
-
-.thesis-number {
-  color: #66b3ff !important;
-  font-weight: 900;
-}
-
-/* Integrity check */
-.integrity-check {
-  margin: 3em 0;
-  border: 1px solid #333;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
-}
-
-.integrity-check summary {
-  padding: 1.2em 1.5em;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1.1em;
-  text-align: center;
-  color: #66b3ff !important;
-}
-
-.integrity-check[open] summary {
-  border-bottom: 1px solid #333;
-}
-
-.integrity-content {
-  padding: 1.5em;
-  text-align: center;
-}
-
-.integrity-content p, .integrity-content ol {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-.integrity-content strong {
-  color: #66b3ff !important;
-}
-
-.integrity-content a {
-  color: #66b3ff !important;
-  text-decoration: underline;
-}
-
-.integrity-content code {
-  background: #1a1f24;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  word-break: break-all;
-}
-
-.integrity-content input[type="text"] {
-  background: #1a1f24;
-  color: #e0e0e0;
-  border: 1px solid #333;
-  padding: 0.8em;
-  border-radius: 8px;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 1em 0;
-}
-
-.integrity-content button.copy-btn {
-  background: #1a2a3a !important;
-  color: #66b3ff !important;
-  border: 1px solid #66b3ff;
-  padding: 0.6em 1.2em;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.integrity-content button.copy-btn:hover {
-  background: #66b3ff !important;
-  color: #0f1419 !important;
-}
-
-/* Copy feedback */
-.copy-feedback {
-  color: #66ff66 !important;
-  font-size: 1.2em !important;
-  font-weight: bold !important;
-  text-align: center;
-  margin: 1em 0;
-  min-height: 1.2em;
-}
-
-/* Verify feedback */
-.verify-feedback {
-  margin-top: 1em;
-  font-weight: bold;
-  min-height: 1.5em;
-  text-align: center;
-}
-
-/* Community box (Praat mee) */
-.community-box {
-  text-align: center;
-  margin-top: 3em;
-  padding: 2em;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  border: 1px solid #333;
-}
-
-.community-box strong {
-  color: #66b3ff !important;
-}
-
-/* Donation section (dropdown) */
-.donation-section {
-  margin: 3em 0;
-  border: 1px solid #333;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
-}
-
-.donation-section summary {
-  padding: 1.2em 1.5em;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1.3em;
-  text-align: center;
-  color: #b0b0b0 !important;
-}
-
-.donation-section[open] summary {
-  border-bottom: 1px solid #333;
-}
-
-.donation-content {
-  padding: 1.5em;
-  text-align: center;
-}
-
-.donation-table {
-  width: 100%;
-  max-width: 800px;
-  margin: 2em auto;
-  border-collapse: collapse;
-}
-
-.donation-table th, .donation-table td {
-  padding: 1em;
-  border: 1px solid #333;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.donation-table code {
-  word-break: break-all;
-  background: #1a1f24;
-  padding: 0.4em;
-  border-radius: 4px;
-}
-
-.donation-table img {
-  width: 150px;
-  height: 150px;
-}
-/* Integrity check – summary lichtgrijs */
-.integrity-check summary {
-  color: #b0b0b0 !important;
-  font-size: 1.1em;
-}
-
-/* Opsomming centered en netter */
-.integrity-steps {
-  text-align: center;
-  list-style-position: inside;
-  padding-left: 0;
-  margin: 1.5em 0;
-}
-
-.integrity-steps li {
-  margin-bottom: 0.8em;
-}
-
-/* Verify section */
-.verify-section {
-  margin-top: 2em;
-}
-
-.hash-input {
-  width: 100%;
-  padding: 0.8em;
-  border-radius: 8px;
-  border: 1px solid #333;
-  background: #1a1f24;
-  color: #e0e0e0;
-  box-sizing: border-box;
-  margin-bottom: 1em;
-}
-
-.verify-btn {
-  width: 100%;
-}
-
-/* Feedback */
-.copy-feedback {
-  color: #66ff66 !important;
-  font-size: 1.2em !important;
-  font-weight: bold !important;
-  text-align: center;
-  margin: 1em 0;
-}
-
-.verify-feedback {
-  text-align: center;
-  min-height: 1.5em;
-  font-weight: bold;
-}
-.author-donation-link {
-  display: inline-block;
-  background: #66b3ff;
-  color: #b0b0b0 !important;
-  padding: 0.8em 1.5em;
-  border-radius: 8px;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 0.5em;
-}
-
-.author-donation-link:hover {
-  background: #8cd3ff;
-}
-.language-selector {
-  text-align: center;
-  padding: 4em 2em;
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.language-selector h1 {
-  font-size: 3.5em;
-  color: #66b3ff;
-  margin-bottom: 0.5em;
-}
-
-.language-selector p {
-  font-size: 1.8em;
-  color: #e0e0e0;
-  margin-bottom: 3em;
-}
-
-.language-buttons {
-  display: flex;
-  gap: 2em;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.language-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 1em;
-  background: #1a2a3a;
-  color: #e0e0e0;
-  padding: 1.5em 2.5em;
-  border-radius: 12px;
-  font-size: 1.4em;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 0.3s;
-  border: 2px solid #333;
-}
-
-.language-btn:hover {
-  background: #66b3ff;
-  color: #0f1419;
-  border-color: #66b3ff;
-  transform: translateY(-4px);
-}
-
-.flag {
-  font-size: 2em;
-}
-
-.language-note {
-  margin-top: 4em;
-  font-size: 1.2em;
-  color: #a0a0a0;
-}
-/* Home page – kleurrijke taalkiezer */
+/* Home page – language selector */
 .home-container {
   min-height: 100vh;
   display: flex;
@@ -556,54 +196,138 @@ body {
   font-size: 1.4em;
   color: #a0a0a0;
 }
-.hash-verifier {
-  max-width: 800px;
-  margin: 2em auto;
+
+/* Community box */
+.community-box {
+  text-align: center;
+  margin-top: 3em;
   padding: 2em;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.community-box strong {
+  color: #66b3ff !important;
+}
+
+/* Donation section */
+.donation-section {
+  margin: 3em 0;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.donation-section summary {
+  padding: 1.2em 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  color: #b0b0b0 !important;
+}
+
+.donation-section[open] summary {
+  border-bottom: 1px solid #333;
+}
+
+.donation-content {
+  padding: 1.5em;
+  text-align: center;
+}
+
+/* Hash Verifier – clean & consistent */
+.hash-verifier {
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 2.5em;
+  background: #111 !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.hash-verifier h1 {
+  text-align: center;
+  color: #66b3ff !important;
+  font-size: 2.8em;
+  margin-bottom: 0.5em;
+}
+
+.hash-verifier p {
+  text-align: center;
+  font-size: 1.3em;
+  color: #e0e0e0 !important;
+  margin-bottom: 2em;
 }
 
 #input-text {
   width: 100%;
-  padding: 1em;
+  padding: 1.4em;
   font-family: monospace;
-  font-size: 1em;
-  background: #111;
-  color: #fff;
-  border: 1px solid #333;
-  border-radius: 8px;
-  margin-bottom: 1em;
+  font-size: 1.1em;
+  background: #222 !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+  border-radius: 12px;
+  margin-bottom: 2em;
+  box-sizing: border-box;
 }
 
-#verify-btn {
-  padding: 0.8em 2em;
-  font-size: 1.1em;
-  background: #66ffcc;
-  color: #000;
+.verify-button {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+  padding: 1.4em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000 !important;
+  background: linear-gradient(to bottom, #66ffcc, #33cc99) !important;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
   cursor: pointer;
+  box-shadow: 0 6px 16px rgba(102, 255, 204, 0.4) !important;
+  transition: all 0.3s ease;
+}
+
+.verify-button:hover {
+  background: linear-gradient(to bottom, #88ffdd, #44ddaa) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(102, 255, 204, 0.6) !important;
+}
+
+.verify-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 12px rgba(102, 255, 204, 0.4) !important;
 }
 
 .result-box {
-  margin-top: 2em;
-  padding: 1.5em;
-  border-radius: 12px;
-  font-size: 1.2em;
+  margin-top: 2.5em;
+  padding: 2em;
+  border-radius: 16px;
+  font-size: 1.4em;
+  text-align: center;
+  background: #222 !important;
+  border: 3px solid;
 }
 
 .result-box.success {
-  background: rgba(102, 255, 102, 0.2);
-  border: 2px solid #66ff66;
+  border-color: #66ff66 !important;
+  color: #66ff66 !important;
 }
 
 .result-box.warning {
-  background: rgba(255, 255, 102, 0.2);
-  border: 2px solid #ffff66;
+  border-color: #ffff66 !important;
+  color: #ffff66 !important;
 }
 
 .result-box.error {
-  background: rgba(255, 102, 102, 0.2);
-  border: 2px solid #ff6666;
+  border-color: #ff6666 !important;
+  color: #ff6666 !important;
+}
+
+.result-box a {
+  color: inherit !important;
+  text-decoration: underline;
+  font-weight: bold;
 }

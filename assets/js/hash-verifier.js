@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Check if officialHashes is loaded
   if (typeof officialHashes === 'undefined' || typeof preStoredTexts === 'undefined') {
-    showResult('Error: hashes not loaded. Refresh the page or check the console.', 'error');
+    showResult('Error: hashes niet geladen. Vernieuw de pagina.', 'error');
     return;
   }
 

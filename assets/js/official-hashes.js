@@ -223,7 +223,6 @@ const officialHashes = {
 
 // en Begrippen
 
-// en Begrippen
 
 '/en/concepts/accept-button': '0d7a6d6453fbabdc7b5c327ca4f24951b427375f9e6baecc238ac901685e2327',
 '/en/concepts/access-control': '39839a22ca862df3766912166a874492a7e7fe2d941b4fbb5f9184dfcd86720f',
