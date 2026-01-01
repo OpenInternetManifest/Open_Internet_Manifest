@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Hash Verifier
-lang: EN
-permalink: /en/hash-verifier/
+lang: NL
+permalink: /nl/hash-verifier/
 ---
 
 <div class="hash-verifier">
