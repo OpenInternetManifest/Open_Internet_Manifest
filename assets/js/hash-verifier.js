@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
+  // Check if officialHashes is loaded
+  if (typeof officialHashes === 'undefined' || typeof preStoredTexts === 'undefined') {
+    showResult('Error: hashes not loaded. Refresh the page or check the console.', 'error');
+    return;
+  }
+
   btn.addEventListener('click', () => {
     const rawText = input.value.trim();
     if (!rawText) {

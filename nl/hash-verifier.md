@@ -7,13 +7,14 @@ permalink: /nl/hash-verifier/
 
 <div class="hash-verifier">
   <h1>Hash Verifier</h1>
-  <p>Paste here a text from the Open Internet Manifest to check if it is authentic and which thesis/guide/concept it belongs to.</p>
+  <p>Plaats hier een tekst uit het Open Internet Manifest om te controleren of het authentiek is en bij welke thesis/guide/begrip het hoort.</p>
 
-  <textarea id="input-text" placeholder="Paste the text from the manifest here..." rows="12"></textarea>
-  <button id="verify-btn">Verify</button>
+  <textarea id="input-text" placeholder="Plak hier de tekst uit het manifest..." rows="12"></textarea>
+  <button id="verify-btn">Verifieer</button>
 
   <div id="result" class="result-box" style="display:none;"></div>
 </div>
 
+<!-- Centrale hashes + verifier JS -->
 <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
 <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>

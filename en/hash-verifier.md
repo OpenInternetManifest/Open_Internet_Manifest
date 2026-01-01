@@ -15,5 +15,6 @@ permalink: /en/hash-verifier/
   <div id="result" class="result-box" style="display:none;"></div>
 </div>
 
+<!-- Centrale hashes + verifier JS -->
 <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
 <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>
