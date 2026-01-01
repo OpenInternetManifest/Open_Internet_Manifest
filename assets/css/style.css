@@ -237,7 +237,121 @@ body {
   text-align: center;
 }
 
-/* Hash Verifier – clean & consistent */
+/* Integriteitscheck – clean & consistent (met kopieer button) */
+.copy-container {
+  text-align: center;
+  margin: 3em 0 2em;
+}
+
+.big-copy-btn {
+  display: inline-block;
+  padding: 1.4em 3em;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #000 !important;
+  background: linear-gradient(to bottom, #66ffcc, #33cc99) !important;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(102, 255, 204, 0.5) !important;
+  transition: all 0.3s ease;
+}
+
+.big-copy-btn:hover {
+  background: linear-gradient(to bottom, #88ffdd, #44ddaa) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(102, 255, 204, 0.7) !important;
+}
+
+.big-copy-btn:active {
+  transform: translateY(0);
+}
+
+.copy-feedback {
+  margin-top: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  min-height: 1.5em;
+}
+
+.integrity-check {
+  margin: 3em 0;
+  border: 2px solid #444;
+  border-radius: 16px;
+  background: rgba(30, 35, 40, 0.8) !important;
+  overflow: hidden;
+}
+
+.integrity-check summary {
+  padding: 1.4em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  color: #66b3ff !important;
+  background: rgba(20, 25, 30, 0.8) !important;
+}
+
+.integrity-check[open] summary {
+  border-bottom: 1px solid #444;
+}
+
+.integrity-content {
+  padding: 2em;
+  text-align: center;
+}
+
+.integrity-steps {
+  text-align: left;
+  display: inline-block;
+  margin: 1.5em 0;
+  font-size: 1.1em;
+  max-width: 600px;
+}
+
+.integrity-steps li {
+  margin-bottom: 0.8em;
+}
+
+.hash-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 1em;
+  font-family: monospace;
+  font-size: 1.1em;
+  background: #222 !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+  border-radius: 12px;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+.verify-btn {
+  padding: 1em 2.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: #66b3ff !important;
+  color: #0f1419 !important;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(102, 179, 255, 0.4);
+}
+
+.verify-btn:hover {
+  background: #88d3ff !important;
+  transform: translateY(-3px);
+}
+
+.verify-feedback {
+  margin-top: 1.5em;
+  font-size: 1.4em;
+  font-weight: bold;
+  min-height: 2em;
+}
+
+/* Hash Verifier pagina – clean & consistent */
 .hash-verifier {
   max-width: 800px;
   margin: 3em auto;
@@ -330,4 +444,130 @@ body {
   color: inherit !important;
   text-decoration: underline;
   font-weight: bold;
+}
+/*  tekst button – groot, groen, opvallend (exact zoals vroeger) */
+/* Kopieer tekst button – groot, groen, opvallend (exact zoals screenshot) */
+.copy-container {
+  text-align: center;
+  margin: 3em 0 2em;
+}
+
+.big-copy-btn {
+  display: inline-block;
+  padding: 1.6em 3.5em;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #000 !important;
+  background: linear-gradient(to bottom, #66ffcc, #33cc99) !important;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(102, 255, 204, 0.5) !important;
+  transition: all 0.3s ease;
+}
+
+.big-copy-btn:hover {
+  background: linear-gradient(to bottom, #88ffdd, #44ddaa) !important;
+  transform: translateY(-6px);
+  box-shadow: 0 14px 32px rgba(102, 255, 204, 0.7) !important;
+}
+
+.big-copy-btn:active {
+  transform: translateY(0);
+}
+
+/* Feedback onder copy button */
+.copy-feedback {
+  margin-top: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  min-height: 1.5em;
+}
+
+/* Integriteitscheck dropdown – clean & consistent */
+.integrity-check {
+  margin: 3em 0;
+  border: 2px solid #444;
+  border-radius: 16px;
+  background: rgba(30, 35, 40, 0.8) !important;
+  overflow: hidden;
+}
+
+.integrity-check summary {
+  padding: 1.4em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  color: #66b3ff !important;
+  background: rgba(20, 25, 30, 0.8) !important;
+}
+
+.integrity-check[open] summary {
+  border-bottom: 1px solid #444;
+}
+
+.integrity-content {
+  padding: 2em;
+  text-align: center;
+}
+
+.integrity-steps {
+  text-align: left;
+  display: inline-block;
+  margin: 1.5em 0;
+  font-size: 1.1em;
+  max-width: 600px;
+}
+
+.integrity-steps li {
+  margin-bottom: 0.8em;
+}
+
+/* Hash input & verify button */
+.verify-section {
+  margin-top: 2em;
+}
+
+.hash-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 1em;
+  font-family: monospace;
+  font-size: 1.1em;
+  background: #222 !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+  border-radius: 12px;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+.verify-btn {
+  padding: 1em 2.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: #66b3ff !important;
+  color: #0f1419 !important;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(102, 179, 255, 0.4);
+}
+
+.verify-btn:hover {
+  background: #88d3ff !important;
+  transform: translateY(-3px);
+}
+
+.verify-feedback {
+  margin-top: 1.5em;
+  font-size: 1.4em;
+  font-weight: bold;
+  min-height: 2em;
+}
+/* Inline copy button in dropdown */
+.copy-container-inline {
+  text-align: center;
+  margin: 2em 0;
 }

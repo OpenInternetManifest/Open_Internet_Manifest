@@ -1,40 +1,53 @@
 <details class="integrity-check">
-  <summary>🔍 Verifieer integriteit van deze pagina (SHA256)</summary>
-
+  <summary>🔒 Verifieer integriteit van deze pagina (SHA256)</summary>
   <div class="integrity-content">
     <p><strong>Hoe controleren?</strong></p>
     <ol class="integrity-steps">
-      <li>Klik op "Kopieer pagina tekst" – de inhoud wordt automatisch gekopieerd.</li>
+      <li>Kopieer de pagina tekst met de knop hieronder</li>
       <li>Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank">deze</a>.</li>
       <li>Plak de tekst en bereken de hash.</li>
       <li>Plak de hash hieronder en klik "Verifieer".</li>
     </ol>
 
-    <button onclick="copyPageText()" class="copy-btn">
-      {% if page.lang == "EN" %}
-        Copy page text
-      {% else %}
-        Kopieer pagina tekst
-      {% endif %}
-    </button>
-    <p id="copy-feedback" class="copy-feedback"></p>
+    <!-- Kopieer button binnen dropdown -->
+    <div class="copy-container-inline">
+      <button onclick="copyPageText()" class="big-copy-btn">
+        📋 Kopieer pagina tekst
+      </button>
+      <p id="copy-feedback" class="copy-feedback"></p>
+    </div>
 
     <div class="verify-section">
-      <input type="text" id="user-hash" class="hash-input" placeholder="
-        {% if page.lang == "EN" %}
-          Paste your calculated SHA256 hash here
-        {% else %}
-          Plak hier je berekende SHA256 hash
-        {% endif %}
-      ">
-      <button onclick="verifyHash()" class="copy-btn verify-btn">
-        {% if page.lang == "EN" %}
-          Verify hash
-        {% else %}
-          Verifieer hash
-        {% endif %}
+      <input type="text" id="user-hash" class="hash-input" placeholder="Plak hier je berekende SHA256 hash">
+      <button onclick="verifyHash()" class="verify-btn">
+        Verifieer hash
       </button>
       <p id="verify-feedback" class="verify-feedback"></p>
     </div>
   </div>
 </details>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const path = window.location.pathname.replace(/\/$/, '');
+    const expectedHash = officialHashes[path] || 'Niet gevonden';
+
+    window.verifyHash = function() {
+      const userHash = document.getElementById('user-hash').value.trim().toLowerCase();
+      const feedback = document.getElementById('verify-feedback');
+
+      if (!userHash) {
+        feedback.innerHTML = '<span style="color: #ff6666;">✗ Voer een hash in</span>';
+        return;
+      }
+
+      if (userHash === expectedHash.toLowerCase()) {
+        feedback.innerHTML = '<span style="color: #66ff66; font-weight: bold;">✓ PERFECTE MATCH! Deze pagina is 100% authentiek.</span>';
+      } else {
+        feedback.innerHTML = `<span style="color: #ff6666; font-weight: bold;">✗ Geen match</span><br>
+          <strong>Jouw hash:</strong> <code>${userHash}</code><br>
+          <strong>Officiële hash:</strong> <code>${expectedHash}</code>`;
+      }
+    };
+  });
+</script>

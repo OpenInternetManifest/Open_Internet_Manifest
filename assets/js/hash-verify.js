@@ -1,13 +1,44 @@
-function copyPageText() {
+// Maak functies globaal beschikbaar voor onclick
+window.copyPageText = function() {
   const mainContent = document.querySelector('.main-content');
   if (!mainContent) return;
 
   const clone = mainContent.cloneNode(true);
 
-  const toRemove = clone.querySelectorAll(
-    '.integrity-check, .community-box, .donation-section, .site-footer, .footer-nav, .site-footer-credits, .page-footer, .copy-container, #copy-feedback, #verify-feedback'
-  );
+  // Verwijder alle ongewenste elementen
+  const toRemove = clone.querySelectorAll(`
+    .copy-container,
+    .integrity-check,
+    .community-box,
+    .donation-section,
+    .site-footer,
+    .footer-nav,
+    .site-footer-credits,
+    .page-footer,
+    .copy-feedback,
+    #verify-feedback,
+    .verify-section,
+    .hash-verifier,
+    .custom-header,
+    .banner,
+    .overlay-text,
+    .home-container,
+    .language-buttons,
+    .home-note,
+    .manifest-header,
+    .manifest-subtitle,
+    .intro-title,
+    .intro-text,
+    .theses-list,
+    .guides-list,
+    .language-selector,
+    h2,
+    h3
+  `);
   toRemove.forEach(el => el.remove());
+
+  // Verwijder alle links (navigation)
+  clone.querySelectorAll('a').forEach(a => a.remove());
 
   let text = clone.textContent || clone.innerText || '';
   text = text.trim().replace(/\n{3,}/g, '\n\n');
@@ -28,9 +59,9 @@ function copyPageText() {
       feedback.innerHTML = `<span style="color: #ff6666 !important;">${errorText}</span>`;
     }
   });
-}
+};
 
-function verifyHash() {
+window.verifyHash = function() {
   const userHash = document.getElementById('user-hash').value.trim().toLowerCase();
   if (!userHash) {
     const lang = document.documentElement.lang || 'nl';
@@ -60,4 +91,4 @@ function verifyHash() {
       <strong>${yourHash}</strong> <code style="word-break: break-all;">${userHash}</code><br>
       <strong>${officialHash}</strong> <code style="word-break: break-all;">${expectedHash || notFound}</code>`;
   }
-}
+};
