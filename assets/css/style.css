@@ -1,10 +1,13 @@
-/* Global dark theme – clean & consistent */
 html, body {
   background: #0f1419;
   color: #e0e0e0;
   font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+img, .banner {
+  background: transparent;
 }
 
 /* Banner – visible img */
