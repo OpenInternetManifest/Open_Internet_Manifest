@@ -3,12 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
-  if (typeof officialHashes === 'undefined') {
-    showResult('Error: hashes niet geladen. Vernieuw de pagina.', 'error');
+  // Check if officialHashes is loaded
+  if (typeof officialHashes === 'undefined' || typeof preStoredTexts === 'undefined') {
+    showResult('Error: hashes not loaded. Refresh the page or check the console.', 'error');
     return;
   }
-
-  const hasPreStored = typeof preStoredTexts !== 'undefined' && Object.keys(preStoredTexts).length > 0;
 
   btn.addEventListener('click', () => {
     const rawText = input.value.trim();
@@ -17,47 +16,35 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    let cleanText = rawText
-      .replace(/\r\n/g, '\n')
-      .replace(/\n{3,}/g, '\n\n')
-      .replace(/[ \t]+/g, ' ')
-      .trim();
+    let cleanText = rawText.trim();
+    cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
 
-    sha256(cleanText).then(computedHash => {
-      computedHash = computedHash.toLowerCase();
-
-      // 1. Exacte hash-match → groen
-      const exactMatch = Object.entries(officialHashes).find(([path, h]) => h.toLowerCase() === computedHash);
-      if (exactMatch) {
-        const [path] = exactMatch;
-        const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${path}`;
+    sha256(cleanText).then(hash => {
+      const exactPath = Object.entries(officialHashes).find(([path, h]) => h === hash);
+      if (exactPath) {
+        const path = exactPath[0];
+        const url = `https://openinternetmanifest.github.io${path}`;
         showResult(`✅ <strong>100% authentiek!</strong><br>Deze tekst komt exact overeen met:<br><a href="${url}" target="_blank">${getTitle(path)}</a>`, 'success');
         return;
       }
 
-           // 2. Fuzzy match op tekst – altijd geel als gevonden
-      if (hasPreStored) {
-        let bestMatch = null;
-        let bestRatio = 0;
+      let bestMatch = null;
+      let bestRatio = 0;
 
-        for (const [path, storedText] of Object.entries(preStoredTexts)) {
-          const ratio = stringSimilarity(cleanText, storedText);
-          if (ratio > bestRatio) {
-            bestRatio = ratio;
-            bestMatch = path;
-          }
-        }
-
-        if (bestMatch && bestRatio >= 0.85) {
-          const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${bestMatch}`;
-          showResult(`⚠️ Geen exacte hash-match, maar zeer goed overeenkomt met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Dit is waarschijnlijk de juiste thesis – mogelijk kleine kopieerfout (puntje, spatie of enter).</small>`, 'warning');
-          return;
+      for (const [path, storedText] of Object.entries(preStoredTexts)) {
+        const ratio = stringSimilarity(cleanText, storedText);
+        if (ratio > bestRatio && ratio >= 0.85) {
+          bestRatio = ratio;
+          bestMatch = path;
         }
       }
-      // 3. Geen match
-      showResult('❌ Geen match gevonden – dit lijkt geen tekst uit het Open Internet Manifest.', 'error');
-    }).catch(() => {
-      showResult('Fout bij berekenen hash. Probeer opnieuw.', 'error');
+
+      if (bestMatch) {
+        const url = `https://openinternetmanifest.github.io${bestMatch}`;
+        showResult(`⚠️ Geen exacte match, maar <strong>${Math.round(bestRatio * 100)}% overeenkomt</strong> met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Mogelijk kleine aanpassing, kopieerfout of opmaakverschil.</small>`, 'warning');
+      } else {
+        showResult('❌ Geen match gevonden – dit lijkt geen tekst uit het Open Internet Manifest.', 'error');
+      }
     });
   });
 
@@ -68,16 +55,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function getTitle(path) {
-    if (path === '' || path === '/nl' || path === '/nl/') return 'Manifest overzicht (NL)';
-    if (path === '/en' || path === '/en/') return 'Manifest overview (EN)';
     if (path.includes('/theses/thesis-')) {
       const num = path.split('-').pop();
-      return path.includes('/nl/') ? `Thesis ${num} (NL)` : `Thesis ${num} (EN)`;
+      return path.includes('/nl/') ? `Thesis ${num}` : `Thesis ${num} (EN)`;
     }
-    if (path.includes('/begrippen/')) return 'Begrip: ' + path.split('/').pop();
-    if (path.includes('/concepts/')) return 'Concept: ' + path.split('/').pop();
-    if (path.includes('/guides/')) return 'Guide: ' + path.split('/').pop();
-    return path || 'Home';
+    if (path.includes('/begrippen/') || path.includes('/concepts/')) {
+      return 'Begrip: ' + path.split('/').pop();
+    }
+    if (path.includes('/guides/')) {
+      return 'Guide: ' + path.split('/').pop();
+    }
+    return path;
   }
 
   async function sha256(str) {
