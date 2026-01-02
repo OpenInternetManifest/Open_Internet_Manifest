@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll to GitHub Pages
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:  # zodat je handmatig kunt triggeren
+  workflow_dispatch:  # zodat je handmatig kunt triggeren.
 
 permissions:
   contents: read
