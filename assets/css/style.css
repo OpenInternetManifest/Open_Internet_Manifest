@@ -649,3 +649,36 @@ body {
     display: block;
   }
 }
+/* Hamburger button smaller and matching background */
+.nav-toggle {
+  display: none; /* blijft hidden op desktop */
+  background: transparent !important; /* zelfde als nav achtergrond */
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+  margin-left: auto; /* duwt hem naar rechts */
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.nav-toggle:hover {
+  background: rgba(102, 179, 255, 0.1) !important; /* subtiel hover effect */
+}
+
+.nav-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #e0e0e0;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* Zorg dat de button niet te breed is op mobiel */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+    width: auto;
+    padding: 0.6em 0.8em;
+  }
+}
