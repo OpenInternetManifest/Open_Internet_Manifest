@@ -3,21 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
-  // Alle officiële hashes (kopieer uit je hash-verify.js – alleen de hashes, geen paths nodig voor fuzzy)
-  const officialHashes = {
-    // Voorbeeld – vul met jouw hashes uit hash-verify.js
-    "d25d5099dca24666730cd235ce624f4a68f3ae15dcfa6246618b82f49b51fb0d": "/nl/theses/thesis-01",
-    "4ee65e950c5bc52e05afc5c34255c0863da60552cdf743a6f174fac8dcbd4246": "/nl/theses/thesis-02",
-    // ... alle hashes + paden
-  };
+  if (typeof officialHashes === 'undefined') {
+    showResult('Error: hashes niet geladen. Vernieuw de pagina.', 'error');
+    return;
+  }
 
-  // Pre-stored clean texts voor fuzzy match (optioneel, maar aanbevolen voor snelheid)
-  const preStoredTexts = {
-    "/nl/theses/thesis-01": "Thesis 1\n\nHet internet is niet dood; het is gekaapt door vijf poortwachters die 92% van onze digitale adem controleren.\n\nWaar wij vroeger vrij door een open veld liepen, staan nu Apple, Google, Microsoft, Amazon en Meta als gewapende landheren aan elk kruispunt, tol heffend over elke stap, elk woord, elke gedachte.\n\nZij bepalen welke wegen zichtbaar zijn, welke stemmen doorkomen, welke apparaten nog mogen spreken met elkaar.\n\nZolang hun greep niet wordt gebroken, blijft digitale soevereiniteit een sprookje dat wij onze kinderen vertellen terwijl zij opgroeien in ommuurde tuinen.",
-    // vul voor alle pages (kan met script gegenereerd worden)
-  };
+  const hasPreStored = typeof preStoredTexts !== 'undefined' && Object.keys(preStoredTexts).length > 0;
 
-    btn.addEventListener('click', () => {
+  btn.addEventListener('click', () => {
     const rawText = input.value.trim();
     if (!rawText) {
       showResult('Voer een tekst in.', 'warning');
@@ -30,44 +23,39 @@ document.addEventListener('DOMContentLoaded', () => {
       .replace(/[ \t]+/g, ' ')
       .trim();
 
-    sha256(cleanText).then(hash => {
-      hash = hash.toLowerCase();
+    sha256(cleanText).then(computedHash => {
+      computedHash = computedHash.toLowerCase();
 
-      // 1. Exacte hash-match?
-      if (officialHashes[hash]) {
-        const path = officialHashes[hash];
+      // 1. Exacte hash-match → groen
+      const exactMatch = Object.entries(officialHashes).find(([path, h]) => h.toLowerCase() === computedHash);
+      if (exactMatch) {
+        const [path] = exactMatch;
         const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${path}`;
         showResult(`✅ <strong>100% authentiek!</strong><br>Deze tekst komt exact overeen met:<br><a href="${url}" target="_blank">${getTitle(path)}</a>`, 'success');
         return;
       }
 
-      // 2. Fuzzy match op tekst
-           // 2. Fuzzy match op tekst
-      let bestMatch = null;
-      let bestRatio = 0;
+           // 2. Fuzzy match op tekst – altijd geel als gevonden
+      if (hasPreStored) {
+        let bestMatch = null;
+        let bestRatio = 0;
 
-      for (const [path, storedText] of Object.entries(preStoredTexts)) {
-        const ratio = stringSimilarity(cleanText, storedText);
-        if (ratio > bestRatio) {
-          bestRatio = ratio;
-          bestMatch = path;
+        for (const [path, storedText] of Object.entries(preStoredTexts)) {
+          const ratio = stringSimilarity(cleanText, storedText);
+          if (ratio > bestRatio) {
+            bestRatio = ratio;
+            bestMatch = path;
+          }
+        }
+
+        if (bestMatch && bestRatio >= 0.85) {
+          const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${bestMatch}`;
+          showResult(`⚠️ Geen exacte hash-match, maar zeer goed overeenkomt met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Dit is waarschijnlijk de juiste thesis – mogelijk kleine kopieerfout (puntje, spatie of enter).</small>`, 'warning');
+          return;
         }
       }
-
-      if (bestMatch) {
-        const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${bestMatch}`;
-
-        if (bestRatio === 1.0) {
-          // Tekstueel 100% gelijk, maar geen hash-match → waarschuwen
-          showResult(`⚠️ <strong>Tekstueel 100% overeenkomt, maar geen exacte hash-match</strong><br>Waarschijnlijk deze:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Dit kan komen door een klein verschil in opmaak of kopiëren (bijv. onzichtbare spatie of enter). De tekst is inhoudelijk identiek.</small>`, 'warning');
-        } else {
-          // Echte fuzzy <100%
-          const percentage = Math.round(bestRatio * 100);
-          showResult(`⚠️ Geen exacte match, maar <strong>${percentage}% overeenkomt</strong> met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Mogelijk kopieerfout of opmaakverschil.</small>`, 'warning');
-        }
-      } else {
-        showResult('❌ Geen match gevonden – dit lijkt geen tekst uit het Open Internet Manifest.', 'error');
-      }
+      // 3. Geen match
+      showResult('❌ Geen match gevonden – dit lijkt geen tekst uit het Open Internet Manifest.', 'error');
     }).catch(() => {
       showResult('Fout bij berekenen hash. Probeer opnieuw.', 'error');
     });
@@ -80,20 +68,18 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function getTitle(path) {
+    if (path === '' || path === '/nl' || path === '/nl/') return 'Manifest overzicht (NL)';
+    if (path === '/en' || path === '/en/') return 'Manifest overview (EN)';
     if (path.includes('/theses/thesis-')) {
       const num = path.split('-').pop();
-      return path.includes('/nl/') ? `Thesis ${num}` : `Thesis ${num}`;
+      return path.includes('/nl/') ? `Thesis ${num} (NL)` : `Thesis ${num} (EN)`;
     }
-    if (path.includes('/begrippen/') || path.includes('/concepts/')) {
-      return 'Begrip: ' + path.split('/').pop();
-    }
-    if (path.includes('/guides/')) {
-      return 'Guide: ' + path.split('/').pop();
-    }
-    return path;
+    if (path.includes('/begrippen/')) return 'Begrip: ' + path.split('/').pop();
+    if (path.includes('/concepts/')) return 'Concept: ' + path.split('/').pop();
+    if (path.includes('/guides/')) return 'Guide: ' + path.split('/').pop();
+    return path || 'Home';
   }
 
-  // SHA256 functie
   async function sha256(str) {
     const encoder = new TextEncoder();
     const data = encoder.encode(str);
@@ -102,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   }
 
-  // Simple string similarity (Damerau-Levenshtein ratio)
   function stringSimilarity(s1, s2) {
     const longer = s1.length > s2.length ? s1 : s2;
     const shorter = s1.length > s2.length ? s2 : s1;
