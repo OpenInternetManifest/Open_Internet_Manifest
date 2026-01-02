@@ -556,3 +556,66 @@ body {
   font-size: 1.4em;
   color: #a0a0a0;
 }
+/* Betere buttons in de integrity check – modern, opvallend, past bij je blauwe thema */
+.integrity-content button,
+.verify-btn,
+button.copy-btn {  /* voor als je classes hebt, anders gewoon button */
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1.5em auto 1em;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  background: #1a2a3a !important;  /* Donkerblauw achtergrond */
+  color: #66b3ff !important;       /* Je thema-blauw tekst */
+  border: 2px solid #66b3ff !important;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.integrity-content button:hover,
+.verify-btn:hover,
+button.copy-btn:hover {
+  background: #66b3ff !important;   /* Blauw bij hover */
+  color: #0f1419 !important;        /* Donkere tekst voor contrast */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(102, 179, 255, 0.4);
+}
+
+/* Specifiek voor de copy button – maak hem iets specialer */
+.integrity-content button.copy-btn,
+button:has(span:contains("Kopieer")) {  /* fallback als geen class */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+}
+
+/* Input veld netter maken */
+.hash-input,
+.integrity-content input[type="text"] {
+  background: #1a1f24 !important;
+  color: #e0e0e0 !important;
+  border: 2px solid #333 !important;
+  padding: 1em;
+  border-radius: 12px;
+  font-size: 1.1em;
+  transition: border 0.3s;
+}
+
+.hash-input:focus,
+.integrity-content input[type="text"]:focus {
+  border-color: #66b3ff !important;
+  outline: none;
+  box-shadow: 0 0 12px rgba(102, 179, 255, 0.3);
+}
+
+/* Placeholder tekst */
+.hash-input::placeholder,
+.integrity-content input[type="text"]::placeholder {
+  color: #888 !important;
+}
