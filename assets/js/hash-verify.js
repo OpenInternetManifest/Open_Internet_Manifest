@@ -5,44 +5,66 @@ window.copyPageText = function() {
 
   const clone = mainContent.cloneNode(true);
 
-  // Verwijder alle ongewenste elementen
-  const toRemove = clone.querySelectorAll(`
-    .copy-container,
-    .integrity-check,
-    .community-box,
-    .donation-section,
-    .site-footer,
-    .footer-nav,
-    .site-footer-credits,
-    .page-footer,
-    .copy-feedback,
-    #verify-feedback,
-    .verify-section,
-    .hash-verifier,
-    .custom-header,
-    .banner,
-    .overlay-text,
-    .home-container,
-    .language-buttons,
-    .home-note,
-    .manifest-header,
-    .manifest-subtitle,
-    .intro-title,
-    .intro-text,
-    .theses-list,
-    .guides-list,
-    .language-selector,
-    h2,
-    h3
-  `);
-  toRemove.forEach(el => el.remove());
+  // === VERWIJDER ALLE ONGEWENSTE ELEMENTEN ===
+  const selectorsToRemove = [
+    // Integrity check volledig
+    '.integrity-check',
+    '.integrity-content',
+    '.copy-container',
+    '.verify-section',
+    '.hash-verifier',
+    '.copy-feedback',
+    '#verify-feedback',
+    '.verify-feedback',
 
-  // Verwijder alle links (navigation)
-  clone.querySelectorAll('a').forEach(a => a.remove());
+    // Andere niet-inhoud elementen
+    '.community-box',
+    '.donation-section',
+    '.site-footer',
+    '.footer-nav',
+    '.site-footer-credits',
+    '.page-footer',
+    '.banner',
+    '.overlay-text',
+    '.custom-header',
 
+    // Homepage/taalkiezer elementen
+    '.home-container',
+    '.language-buttons',
+    '.home-note',
+    '.language-selector',
+
+    // Hoofdtitels en intro's die je niet in de pure tekst wilt
+    '.manifest-header',
+    '.manifest-subtitle',
+    '.intro-title',
+    '.intro-text',
+
+    // Alle kopjes (h1 t/m h6) – want die wil je niet in de hash-tekst
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+
+    // Alle navigatie links
+    'a'
+  ];
+
+  // Verwijder al deze elementen
+  clone.querySelectorAll(selectorsToRemove.join(', ')).forEach(el => el.remove());
+
+  // Extra veiligheid: verwijder ook eventuele overgebleven lege paragrafen/divs
+  clone.querySelectorAll('p, div, section').forEach(el => {
+    if (el.textContent.trim() === '' || el.children.length === 0 && el.textContent.trim().length < 10) {
+      el.remove();
+    }
+  });
+
+  // Haal de pure tekst op
   let text = clone.textContent || clone.innerText || '';
-  text = text.trim().replace(/\n{3,}/g, '\n\n');
+  text = text
+    .replace(/\s+/g, ' ')     // Meerdere spaties/newlines → enkele spatie
+    .replace(/\n{3,}/g, '\n\n') // Max 2 newlines
+    .trim();
 
+  // Kopieer naar klembord
   navigator.clipboard.writeText(text).then(() => {
     const feedback = document.getElementById('copy-feedback');
     if (feedback) {
@@ -61,6 +83,7 @@ window.copyPageText = function() {
   });
 };
 
+// verifyHash blijft ongewijzigd – die werkt al goed
 window.verifyHash = function() {
   const userHash = document.getElementById('user-hash').value.trim().toLowerCase();
   if (!userHash) {
