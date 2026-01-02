@@ -17,45 +17,59 @@ document.addEventListener('DOMContentLoaded', () => {
     // vul voor alle pages (kan met script gegenereerd worden)
   };
 
-  btn.addEventListener('click', () => {
+    btn.addEventListener('click', () => {
     const rawText = input.value.trim();
     if (!rawText) {
       showResult('Voer een tekst in.', 'warning');
       return;
     }
 
-    // Clean text exact zoals copyPageText()
-    let cleanText = rawText.trim();
-    cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
+    let cleanText = rawText
+      .replace(/\r\n/g, '\n')
+      .replace(/\n{3,}/g, '\n\n')
+      .replace(/[ \t]+/g, ' ')
+      .trim();
 
-    // Bereken hash
     sha256(cleanText).then(hash => {
-      // Exact match
+      hash = hash.toLowerCase();
+
+      // 1. Exacte hash-match?
       if (officialHashes[hash]) {
         const path = officialHashes[hash];
-        const url = `https://openinternetmanifest.github.io${path}`;
+        const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${path}`;
         showResult(`✅ <strong>100% authentiek!</strong><br>Deze tekst komt exact overeen met:<br><a href="${url}" target="_blank">${getTitle(path)}</a>`, 'success');
         return;
       }
 
-      // Fuzzy match als geen exact
+      // 2. Fuzzy match op tekst
+           // 2. Fuzzy match op tekst
       let bestMatch = null;
       let bestRatio = 0;
 
       for (const [path, storedText] of Object.entries(preStoredTexts)) {
         const ratio = stringSimilarity(cleanText, storedText);
-        if (ratio > bestRatio && ratio >= 0.85) { // threshold 85%
+        if (ratio > bestRatio) {
           bestRatio = ratio;
           bestMatch = path;
         }
       }
 
       if (bestMatch) {
-        const url = `https://openinternetmanifest.github.io${bestMatch}`;
-        showResult(`⚠️ Geen exacte match, maar <strong>${Math.round(bestRatio * 100)}% overeenkomt</strong> met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Mogelijk kleine aanpassing, kopieerfout of opmaakverschil.</small>`, 'warning');
+        const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${bestMatch}`;
+
+        if (bestRatio === 1.0) {
+          // Tekstueel 100% gelijk, maar geen hash-match → waarschuwen
+          showResult(`⚠️ <strong>Tekstueel 100% overeenkomt, maar geen exacte hash-match</strong><br>Waarschijnlijk deze:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Dit kan komen door een klein verschil in opmaak of kopiëren (bijv. onzichtbare spatie of enter). De tekst is inhoudelijk identiek.</small>`, 'warning');
+        } else {
+          // Echte fuzzy <100%
+          const percentage = Math.round(bestRatio * 100);
+          showResult(`⚠️ Geen exacte match, maar <strong>${percentage}% overeenkomt</strong> met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Mogelijk kopieerfout of opmaakverschil.</small>`, 'warning');
+        }
       } else {
         showResult('❌ Geen match gevonden – dit lijkt geen tekst uit het Open Internet Manifest.', 'error');
       }
+    }).catch(() => {
+      showResult('Fout bij berekenen hash. Probeer opnieuw.', 'error');
     });
   });
 
