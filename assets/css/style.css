@@ -539,7 +539,7 @@ body {
     padding: 1em !important;
   }
 }
-/* NAVIGATIE – CLEAN & RESPONSIVE */
+/* NAVIGATIE – DEFINITIEF CLEAN & WERKEND */
 .main-nav {
   background: rgba(15, 20, 25, 0.95);
   border-bottom: 1px solid #333;
@@ -583,7 +583,7 @@ body {
   color: #66b3ff !important;
 }
 
-/* Hamburger button – klein en clean */
+/* Hamburger button */
 .nav-toggle {
   display: none;
   background: none;
@@ -601,7 +601,7 @@ body {
   transition: 0.3s;
 }
 
-/* Mobiel menu – dropdown onder de bar */
+/* Mobiel menu */
 .mobile-menu {
   display: none;
   background: rgba(15, 20, 25, 0.98);
@@ -630,15 +630,22 @@ body {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* verberg desktop links */
+    display: none;
   }
 
   .nav-toggle {
-    display: block; /* toon hamburger */
+    display: block;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
+  .desktop-only {
+    display: none !important;
   }
 
   .mobile-menu.open {
     display: block;
   }
 }
-/* JS voor toggle (klein stukje inline – geen externe dependency) */
