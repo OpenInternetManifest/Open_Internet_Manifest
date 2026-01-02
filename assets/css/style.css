@@ -539,58 +539,7 @@ body {
     padding: 1em !important;
   }
 }
-.main-nav {
-  background: rgba(15, 20, 25, 0.95);
-  border-bottom: 1px solid #333;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1em 2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-home {
-  font-weight: 900;
-  font-size: 1.4em;
-  color: #66b3ff !important;
-  text-decoration: none;
-}
-
-.nav-links a {
-  color: #e0e0e0 !important;
-  text-decoration: none;
-  margin-left: 2em;
-  font-weight: 600;
-}
-
-.nav-links a:hover {
-  color: #66b3ff !important;
-}
-
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    padding: 1em;
-  }
-  .nav-links {
-    margin-top: 1em;
-  }
-  .nav-links a {
-    margin: 0 1em;
-    display: block;
-    padding: 0.5em 0;
-  }
-}
-/* NAVIGATIE – COMPACTE MOBIELE VERSIE */
+/* NAVIGATIE – CLEAN & RESPONSIVE */
 .main-nav {
   background: rgba(15, 20, 25, 0.95);
   border-bottom: 1px solid #333;
@@ -604,7 +553,7 @@ body {
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.8em 1.5em; /* compacter */
+  padding: 0.8em 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -617,25 +566,42 @@ body {
   text-decoration: none;
 }
 
-/* Hamburger – kleiner en cleaner */
+/* Desktop links */
+.nav-links {
+  display: flex;
+  gap: 2em;
+}
+
+.nav-links a {
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.nav-links a:hover {
+  color: #66b3ff !important;
+}
+
+/* Hamburger button – klein en clean */
 .nav-toggle {
   display: none;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.5em;
+  padding: 0.4em;
 }
 
 .nav-toggle span {
+  display: block;
   width: 22px;
   height: 2px;
   background: #e0e0e0;
   margin: 4px 0;
   transition: 0.3s;
-  display: block;
 }
 
-/* Mobiel menu – geen grote box, gewoon dropdown onder de bar */
+/* Mobiel menu – dropdown onder de bar */
 .mobile-menu {
   display: none;
   background: rgba(15, 20, 25, 0.98);
@@ -661,18 +627,18 @@ body {
   color: #66b3ff !important;
 }
 
-/* Desktop links verbergen op mobiel */
+/* RESPONSIVE */
 @media (max-width: 768px) {
-  .desktop-only { display: none !important; }
-  .mobile-only { display: block !important; }
-}
+  .nav-links {
+    display: none; /* verberg desktop links */
+  }
 
-/* Desktop */
-@media (min-width: 769px) {
-  .mobile-only { display: none !important; }
-  .nav-links a {
-    margin-left: 2em;
-    font-weight: 600;
+  .nav-toggle {
+    display: block; /* toon hamburger */
+  }
+
+  .mobile-menu.open {
+    display: block;
   }
 }
 /* JS voor toggle (klein stukje inline – geen externe dependency) */
