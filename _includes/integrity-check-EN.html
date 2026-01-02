@@ -27,27 +27,3 @@
   </div>
 </details>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const path = window.location.pathname.replace(/\/$/, '');
-    const expectedHash = officialHashes[path] || 'Not found';
-
-    window.verifyHash = function() {
-      const userHash = document.getElementById('user-hash').value.trim().toLowerCase();
-      const feedback = document.getElementById('verify-feedback');
-
-      if (!userHash) {
-        feedback.innerHTML = '<span style="color: #ff6666;">✗ Enter a hash</span>';
-        return;
-      }
-
-      if (userHash === expectedHash.toLowerCase()) {
-        feedback.innerHTML = '<span style="color: #66ff66; font-weight: bold;">✓ PERFECT MATCH! This page is 100% authentic.</span>';
-      } else {
-        feedback.innerHTML = `<span style="color: #ff6666; font-weight: bold;">✗ No match</span><br>
-          <strong>Your hash:</strong> <code>${userHash}</code><br>
-          <strong>Official hash:</strong> <code>${expectedHash}</code>`;
-      }
-    };
-  });
-</script>

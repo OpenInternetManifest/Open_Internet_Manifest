@@ -27,27 +27,3 @@
   </div>
 </details>
 
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const path = window.location.pathname.replace(/\/$/, '');
-    const expectedHash = officialHashes[path] || 'Niet gevonden';
-
-    window.verifyHash = function() {
-      const userHash = document.getElementById('user-hash').value.trim().toLowerCase();
-      const feedback = document.getElementById('verify-feedback');
-
-      if (!userHash) {
-        feedback.innerHTML = '<span style="color: #ff6666;">✗ Voer een hash in</span>';
-        return;
-      }
-
-      if (userHash === expectedHash.toLowerCase()) {
-        feedback.innerHTML = '<span style="color: #66ff66; font-weight: bold;">✓ PERFECTE MATCH! Deze pagina is 100% authentiek.</span>';
-      } else {
-        feedback.innerHTML = `<span style="color: #ff6666; font-weight: bold;">✗ Geen match</span><br>
-          <strong>Jouw hash:</strong> <code>${userHash}</code><br>
-          <strong>Officiële hash:</strong> <code>${expectedHash}</code>`;
-      }
-    };
-  });
-</script>
