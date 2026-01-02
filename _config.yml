@@ -16,8 +16,7 @@ defaults:
       lang: "EN"
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
+ 
   - venv
   - tools
 
