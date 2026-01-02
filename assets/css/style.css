@@ -619,3 +619,43 @@ button:has(span:contains("Kopieer")) {  /* fallback als geen class */
 .integrity-content input[type="text"]::placeholder {
   color: #888 !important;
 }
+/* Overlay text – volledig clean, geen shadow, geen stroke, geen halo */
+.overlay-text,
+.overlay-text h1,
+.overlay-text p {
+  text-shadow: none !important;
+  -webkit-text-shadow: none !important;
+  -moz-text-shadow: none !important;
+  
+  -webkit-text-stroke: 0 !important;
+  -webkit-text-stroke-width: 0 !important;
+  text-stroke: 0 !important;
+  
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  font-smooth: always !important;
+  
+  /* Zorg dat de tekst echt scherp is op donkere achtergrond */
+  color: white !important;
+}
+
+/* Specifiek voor de grote titel – extra clean */
+.overlay-text h1 {
+  color: #ffffff !important;  /* Zuiver wit */
+  text-shadow: none !important;
+  font-weight: 900;
+}
+
+/* Subtitle ook clean */
+.overlay-text p {
+  color: #e0e0e0 !important;
+  text-shadow: none !important;
+  font-weight: 600;
+}
+
+/* Overlay box zelf – iets meer contrast, minder transparant */
+.overlay-text {
+  background: rgba(10, 15, 20, 0.92) !important;  /* Iets minder doorzichtig voor betere leesbaarheid */
+  backdrop-filter: blur(4px);  /* Optioneel: lichte blur achter de box voor moderne look */
+  -webkit-backdrop-filter: blur(4px);
+}
