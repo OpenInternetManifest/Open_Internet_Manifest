@@ -1,35 +1,38 @@
-html, body {
-  background: #0f1419;
-  color: #e0e0e0;
-  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-  margin: 0;
-  padding: 0;
+.page-header {
+  display: none !important;
+}
+
+/* Force donker thema */
+* {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
 }
 
 img, .banner {
-  background: transparent;
+  background: transparent !important;
 }
 
-/* Banner – visible img */
+/* Responsive banner – perfecte scaling */
 .banner {
   position: relative;
   width: 100%;
   min-height: 400px;
   max-height: 80vh;
   overflow: hidden;
+  
 }
 
 .banner img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center center ;
 }
 
-/* Desktop banner */
+/* Desktop: iets hogere banner */
 @media (min-width: 1200px) {
   .banner {
     min-height: 550px;
@@ -37,7 +40,7 @@ img, .banner {
   }
 }
 
-/* Overlay text */
+/* Overlay box – clean text, geen glow/halo */
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -46,10 +49,15 @@ img, .banner {
   text-align: center;
   width: 85%;
   max-width: 900px;
-  background: rgba(15, 20, 25, 0.85);
+  background: rgba(15, 20, 25, 0.85) !important;
   padding: 2em 2.5em;
   border-radius: 18px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  text-shadow: none !important;
+  -webkit-text-stroke: 0 !important;
+  -webkit-text-fill-color: currentColor !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .overlay-text h1 {
@@ -66,12 +74,13 @@ img, .banner {
   font-weight: 600;
 }
 
-/* Mobile overlay */
+/* Mobile – compacter */
 @media (max-width: 768px) {
   .overlay-text {
     width: 90%;
+    max-width: 750px;
     padding: 1.6em 2em;
-    background: rgba(15, 20, 25, 0.9);
+    background: rgba(15, 20, 25, 0.9) !important;
   }
   .overlay-text h1 {
     font-size: 2.9em;
@@ -81,34 +90,469 @@ img, .banner {
   }
 }
 
-/* Main content */
+/* Content leesbaarheid */
 .main-content {
-  font-size: 1.15em;
+  font-size: 1.15em !important;
   line-height: 1.8;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 1.5em 2em 3em;
+  padding: 1.5em 2em 3em !important;
 }
 
-.main-content h1,
-.main-content h2,
-.main-content h3 {
-  color: #66b3ff;
-  font-size: 1.9em;
-  margin-top: 1.5em;
+.main-content > h1:first-child,
+.main-content > h2:first-child,
+.main-content > h3:first-child {
+  margin-top: 0 !important;
+  padding-top: 1.5em;
 }
 
-/* Footer navigation */
+.main-content h1, .main-content h2, .main-content h3 {
+  color: #66b3ff !important;
+  font-size: 1.9em !important;
+  margin-top: 1.5em !important;
+}
+
+/* Footer navigatie */
 .footer-nav a {
-  color: #66b3ff;
+  color: #66b3ff !important;
   text-decoration: none;
   padding: 0 0.95em;
   font-weight: bold;
 }
 
 .footer-nav a:hover {
-  color: #fff;
+  color: #fff !important;
   text-decoration: underline;
 }
 
-/* Rest van je CSS – hou de rest zoals hij was (verifier, copy button, etc.) */
+/* Mooi lettertype */
+body {
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
+}
+
+/* Manifest header & intro */
+.manifest-header {
+  text-align: center;
+  font-size: 3.8em;
+  margin: 1.5em 0 0.5em;
+  font-weight: 900;
+  color: #66b3ff;
+}
+
+.manifest-subtitle {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 3em;
+  color: white;
+  font-weight: 600;
+}
+
+.intro-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #66b3ff;
+  margin: 2em 0 0.5em;
+  font-weight: 700;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 4em;
+}
+
+/* Theses list */
+.theses-list {
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.theses-list li {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #333;
+}
+
+.theses-list li a {
+  font-size: 1.5em;
+  color: #e0e0e0;
+  text-decoration: none;
+  line-height: 1.6;
+  display: block;
+}
+
+.theses-list li a:hover {
+  color: #66b3ff;
+}
+
+.thesis-number {
+  color: #66b3ff !important;
+  font-weight: 900;
+}
+
+/* Integrity check */
+.integrity-check {
+  margin: 3em 0;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.integrity-check summary {
+  padding: 1.2em 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+  color: #66b3ff !important;
+}
+
+.integrity-check[open] summary {
+  border-bottom: 1px solid #333;
+}
+
+.integrity-content {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.integrity-content p, .integrity-content ol {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.integrity-content strong {
+  color: #66b3ff !important;
+}
+
+.integrity-content a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+.integrity-content code {
+  background: #1a1f24;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+.integrity-content input[type="text"] {
+  background: #1a1f24;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  padding: 0.8em;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1em 0;
+}
+
+.integrity-content button.copy-btn {
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 1px solid #66b3ff;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.integrity-content button.copy-btn:hover {
+  background: #66b3ff !important;
+  color: #0f1419 !important;
+}
+
+/* Copy feedback */
+.copy-feedback {
+  color: #66ff66 !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: center;
+  margin: 1em 0;
+  min-height: 1.2em;
+}
+
+/* Verify feedback */
+.verify-feedback {
+  margin-top: 1em;
+  font-weight: bold;
+  min-height: 1.5em;
+  text-align: center;
+}
+
+/* Community box (Praat mee) */
+.community-box {
+  text-align: center;
+  margin-top: 3em;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.community-box strong {
+  color: #66b3ff !important;
+}
+
+/* Donation section (dropdown) */
+.donation-section {
+  margin: 3em 0;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.donation-section summary {
+  padding: 1.2em 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  color: #b0b0b0 !important;
+}
+
+.donation-section[open] summary {
+  border-bottom: 1px solid #333;
+}
+
+.donation-content {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.donation-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  border-collapse: collapse;
+}
+
+.donation-table th, .donation-table td {
+  padding: 1em;
+  border: 1px solid #333;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.donation-table code {
+  word-break: break-all;
+  background: #1a1f24;
+  padding: 0.4em;
+  border-radius: 4px;
+}
+
+.donation-table img {
+  width: 150px;
+  height: 150px;
+}
+/* Integrity check – summary lichtgrijs */
+.integrity-check summary {
+  color: #b0b0b0 !important;
+  font-size: 1.1em;
+}
+
+/* Opsomming centered en netter */
+.integrity-steps {
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 1.5em 0;
+}
+
+.integrity-steps li {
+  margin-bottom: 0.8em;
+}
+
+/* Verify section */
+.verify-section {
+  margin-top: 2em;
+}
+
+.hash-input {
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1a1f24;
+  color: #e0e0e0;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+.verify-btn {
+  width: 100%;
+}
+
+/* Feedback */
+.copy-feedback {
+  color: #66ff66 !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.verify-feedback {
+  text-align: center;
+  min-height: 1.5em;
+  font-weight: bold;
+}
+.author-donation-link {
+  display: inline-block;
+  background: #66b3ff;
+  color: #b0b0b0 !important;
+  padding: 0.8em 1.5em;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 0.5em;
+}
+
+.author-donation-link:hover {
+  background: #8cd3ff;
+}
+.language-selector {
+  text-align: center;
+  padding: 4em 2em;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.language-selector h1 {
+  font-size: 3.5em;
+  color: #66b3ff;
+  margin-bottom: 0.5em;
+}
+
+.language-selector p {
+  font-size: 1.8em;
+  color: #e0e0e0;
+  margin-bottom: 3em;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.language-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
+  background: #1a2a3a;
+  color: #e0e0e0;
+  padding: 1.5em 2.5em;
+  border-radius: 12px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 2px solid #333;
+}
+
+.language-btn:hover {
+  background: #66b3ff;
+  color: #0f1419;
+  border-color: #66b3ff;
+  transform: translateY(-4px);
+}
+
+.flag {
+  font-size: 2em;
+}
+
+.language-note {
+  margin-top: 4em;
+  font-size: 1.2em;
+  color: #a0a0a0;
+}
+/* Home page – kleurrijke taalkiezer */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  background: linear-gradient(135deg, #0f1419 0%, #1a0033 50%, #001a33 100%);
+}
+
+.home-title {
+  font-size: 4.5em;
+  font-weight: 900;
+  background: linear-gradient(to right, #66b3ff, #66ffcc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.3em;
+}
+
+.home-subtitle {
+  font-size: 2.2em;
+  color: #e0e0e0;
+  margin-bottom: 4em;
+  font-weight: 500;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.2em 2.5em;
+  font-size: 1.6em;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.nl-btn {
+  background: linear-gradient(to right, #66b3ff, #66ffcc);
+  color: #0f1419;
+  border: 3px solid #66ffcc;
+}
+
+.en-btn {
+  background: #1a1f24;
+  color: #e0e0e0;
+  border: 3px solid #66b3ff;
+}
+
+.language-btn:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(102, 179, 255, 0.4);
+}
+
+.nl-btn:hover {
+  background: linear-gradient(to right, #66ffcc, #66b3ff);
+}
+
+.en-btn:hover {
+  background: #66b3ff;
+  color: #0f1419;
+}
+
+.flag {
+  font-size: 2em;
+}
+
+.home-note {
+  margin-top: 5em;
+  font-size: 1.4em;
+  color: #a0a0a0;
+}
