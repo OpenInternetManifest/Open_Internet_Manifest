@@ -19,7 +19,7 @@ Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouw
 ## De Theses
 [Begin met lezen →](/Open_Internet_Manifest/nl/theses/thesis-00)  
 [Alle theses →](/Open_Internet_Manifest/nl/manifest)    
-Wat is nu eigenlijk hash verrificatie: [hash](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
+Wat is nu eigenlijk hash verrificatie en waarom zouden we dat doen: [hash](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
 
 ---
 
