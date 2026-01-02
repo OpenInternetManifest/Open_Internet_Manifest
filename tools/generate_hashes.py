@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 SITE_DIR = Path("_site")
 
 hashes = {}
+clean_texts = {}  # Nieuw: sla clean text op voor fuzzy
 
 def calculate_clean_hash(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -24,52 +25,39 @@ def calculate_clean_hash(file_path):
         for el in clone.select(selector):
             el.decompose()
     
-    # Collect title from h1
+    # Unwrap inline tags
+    for tag in ['a', 'span', 'strong', 'em', 'i', 'b', 'u', 'code', 'mark', 'small', 'sup', 'sub']:
+        for el in clone.find_all(tag):
+            el.unwrap()
+    
+    # Replace <br> by space
+    for br in clone.find_all('br'):
+        br.replace_with(' ')
+    
+    # Collect h1 + p tags (cleanste methode)
     title = ''
     h1 = clone.find('h1')
     if h1:
-        # Unwrap inline in h1
-        for tag in ['a', 'span', 'strong', 'em', 'i', 'b', 'u', 'code', 'mark', 'small', 'sup', 'sub']:
-            for el in h1.find_all(tag):
-                el.unwrap()
-        # Replace <br> by space
-        for br in h1.find_all('br'):
-            br.replace_with(' ')
-        # Get text with separator ' ' to join inline with space
-        title = h1.get_text(separator=' ', strip=True)
-        title = ' '.join(title.split())  # reduce multiple spaces
-
-    # Collect paragraphs from p tags
+        title = h1.get_text(strip=True)
+    
     paragraphs = []
     for p in clone.find_all('p'):
-        # Unwrap inline in p
-        for tag in ['a', 'span', 'strong', 'em', 'i', 'b', 'u', 'code', 'mark', 'small', 'sup', 'sub']:
-            for el in p.find_all(tag):
-                el.unwrap()
-        # Replace <br> by space
-        for br in p.find_all('br'):
-            br.replace_with(' ')
-        # Get text with separator ' ' to join inline with space
-        para_text = p.get_text(separator=' ', strip=True)
-        para_text = ' '.join(para_text.split())  # reduce multiple spaces
+        para_text = p.get_text(strip=True)
         if para_text:
             paragraphs.append(para_text)
     
-    # Join title + paragraphs with \n\n
     text = title
     if paragraphs:
         text += '\n\n' + '\n\n'.join(paragraphs)
     
-    # DEBUG for /nl/theses/thesis-01
+    # DEBUG voor thesis-01
     if "nl/theses/thesis-01" in str(file_path):
-        print("\n--- DEBUG: CLEAN TEXT VOOR /nl/theses/thesis-01 ---")
+        print("\n--- DEBUG CLEAN TEXT thesis-01 ---")
         print(repr(text))
-        print("--- EINDE DEBUG ---")
-        print("DEBUG HASH:", hashlib.sha256(text.encode('utf-8')).hexdigest())
-        print("---\n")
+        print("---")
     
     hash_obj = hashlib.sha256(text.encode('utf-8'))
-    return hash_obj.hexdigest()
+    return hash_obj.hexdigest(), text  # Return hash + clean text
 
 print("Zoeken in:", SITE_DIR.absolute())
 
@@ -79,8 +67,9 @@ for root, dirs, files in os.walk(SITE_DIR):
             file_path = Path(root) / file
             if "assets" in str(file_path):
                 continue
-            hash_value = calculate_clean_hash(file_path)
-            if hash_value:
+            result = calculate_clean_hash(file_path)
+            if result:
+                hash_value, clean_text = result
                 rel_path = file_path.relative_to(SITE_DIR).as_posix()
                 clean_path = "/" + rel_path.rsplit(".", 1)[0].replace("/index", "")
                 if clean_path.endswith("/"):
@@ -88,10 +77,18 @@ for root, dirs, files in os.walk(SITE_DIR):
                 if clean_path == "/":
                     clean_path = "/"
                 hashes[clean_path] = hash_value
+                clean_texts[clean_path] = clean_text
                 print(f"'{clean_path}': '{hash_value}',")
 
-print("\nKopieer dit in hash-verify.js:")
-print("const hashes = {")
+print("\n// Voor hash-verify.js")
+print("const officialHashes = {")
 for path, h in sorted(hashes.items()):
     print(f"  '{path}': '{h}',")
+print("};")
+
+print("\n// Voor fuzzy match in hash-verifier.js")
+print("const preStoredTexts = {")
+for path, text in sorted(clean_texts.items()):
+    escaped_text = text.replace('\\', '\\\\').replace('`', '\\`').replace('\n', '\\n')
+    print(f"  '{path}': `{escaped_text}`,")  # Backticks voor multiline string
 print("};")

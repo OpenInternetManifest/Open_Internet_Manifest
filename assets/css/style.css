@@ -504,3 +504,89 @@ body {
   color: #66b3ff !important;
   text-decoration: underline;
 }
+/* MOBIEL OPTIMALISATIES */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1em !important;
+    font-size: 1.1em !important;
+  }
+
+  h1, .manifest-header, .overlay-text h1 {
+    font-size: 2.4em !important;
+  }
+
+  .overlay-text p {
+    font-size: 1.5em !important;
+  }
+
+  .theses-list li a {
+    font-size: 1.3em !important;
+  }
+
+  .integrity-check, .donation-section, .community-box {
+    padding: 1.2em !important;
+    margin: 2em 0 !important;
+  }
+
+  button, .verify-btn, .big-copy-btn {
+    padding: 1em !important;
+    font-size: 1.1em !important;
+    width: 100% !important;
+  }
+
+  .hash-input, #input-text {
+    font-size: 1em !important;
+    padding: 1em !important;
+  }
+}
+.main-nav {
+  background: rgba(15, 20, 25, 0.95);
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-home {
+  font-weight: 900;
+  font-size: 1.4em;
+  color: #66b3ff !important;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  margin-left: 2em;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #66b3ff !important;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    padding: 1em;
+  }
+  .nav-links {
+    margin-top: 1em;
+  }
+  .nav-links a {
+    margin: 0 1em;
+    display: block;
+    padding: 0.5em 0;
+  }
+}
