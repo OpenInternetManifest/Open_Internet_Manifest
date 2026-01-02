@@ -1,7 +1,7 @@
 // Centrale hashes – gebruikt door hash-verify.js en hash-verifier.js
 // Vul met je generate_hashes.py output
 
-const officialHashes = {
+var officialHashes = {
  // nl root
 
 '/nl/guides': '9f08333da3a2dca8a449ccdd05dfd6273d42bde4ebf5cc1c3ebd9b47f792272d',
