@@ -3,11 +3,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
-  // Check if officialHashes is loaded
-  if (typeof officialHashes === 'undefined' || typeof preStoredTexts === 'undefined') {
-    showResult('Error: hashes niet geladen. Vernieuw de pagina.', 'error');
-    return;
-  }
+  // Alle officiële hashes (kopieer uit je hash-verify.js – alleen de hashes, geen paths nodig voor fuzzy)
+  const officialHashes = {
+    // Voorbeeld – vul met jouw hashes uit hash-verify.js
+    "d25d5099dca24666730cd235ce624f4a68f3ae15dcfa6246618b82f49b51fb0d": "/nl/theses/thesis-01",
+    "4ee65e950c5bc52e05afc5c34255c0863da60552cdf743a6f174fac8dcbd4246": "/nl/theses/thesis-02",
+    // ... alle hashes + paden
+  };
+
+  // Pre-stored clean texts voor fuzzy match (optioneel, maar aanbevolen voor snelheid)
+  const preStoredTexts = {
+    "/nl/theses/thesis-01": "Thesis 1\n\nHet internet is niet dood; het is gekaapt door vijf poortwachters die 92% van onze digitale adem controleren.\n\nWaar wij vroeger vrij door een open veld liepen, staan nu Apple, Google, Microsoft, Amazon en Meta als gewapende landheren aan elk kruispunt, tol heffend over elke stap, elk woord, elke gedachte.\n\nZij bepalen welke wegen zichtbaar zijn, welke stemmen doorkomen, welke apparaten nog mogen spreken met elkaar.\n\nZolang hun greep niet wordt gebroken, blijft digitale soevereiniteit een sprookje dat wij onze kinderen vertellen terwijl zij opgroeien in ommuurde tuinen.",
+    // vul voor alle pages (kan met script gegenereerd worden)
+  };
 
   btn.addEventListener('click', () => {
     const rawText = input.value.trim();
@@ -16,24 +24,27 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    // Clean text exact zoals copyPageText()
     let cleanText = rawText.trim();
     cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
 
+    // Bereken hash
     sha256(cleanText).then(hash => {
-      const exactPath = Object.entries(officialHashes).find(([path, h]) => h === hash);
-      if (exactPath) {
-        const path = exactPath[0];
+      // Exact match
+      if (officialHashes[hash]) {
+        const path = officialHashes[hash];
         const url = `https://openinternetmanifest.github.io${path}`;
         showResult(`✅ <strong>100% authentiek!</strong><br>Deze tekst komt exact overeen met:<br><a href="${url}" target="_blank">${getTitle(path)}</a>`, 'success');
         return;
       }
 
+      // Fuzzy match als geen exact
       let bestMatch = null;
       let bestRatio = 0;
 
       for (const [path, storedText] of Object.entries(preStoredTexts)) {
         const ratio = stringSimilarity(cleanText, storedText);
-        if (ratio > bestRatio && ratio >= 0.85) {
+        if (ratio > bestRatio && ratio >= 0.85) { // threshold 85%
           bestRatio = ratio;
           bestMatch = path;
         }
@@ -57,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function getTitle(path) {
     if (path.includes('/theses/thesis-')) {
       const num = path.split('-').pop();
-      return path.includes('/nl/') ? `Thesis ${num}` : `Thesis ${num} (EN)`;
+      return path.includes('/nl/') ? `Thesis ${num}` : `Thesis ${num}`;
     }
     if (path.includes('/begrippen/') || path.includes('/concepts/')) {
       return 'Begrip: ' + path.split('/').pop();
@@ -68,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return path;
   }
 
+  // SHA256 functie
   async function sha256(str) {
     const encoder = new TextEncoder();
     const data = encoder.encode(str);
@@ -76,6 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   }
 
+  // Simple string similarity (Damerau-Levenshtein ratio)
   function stringSimilarity(s1, s2) {
     const longer = s1.length > s2.length ? s1 : s2;
     const shorter = s1.length > s2.length ? s2 : s1;

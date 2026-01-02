@@ -429,3 +429,78 @@ body {
   color: #a0a0a0 !important;
   margin-top: 1em !important;
 }
+/* HASH VERIFIER PAGE – nette opmaak */
+.hash-verifier-container {
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+#input-text {
+  width: 100%;
+  height: 200px;
+  background: #1a1f24 !important;
+  color: #e0e0e0 !important;
+  border: 2px solid #333 !important;
+  border-radius: 12px;
+  padding: 1em;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+}
+
+#verify-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 1.5em;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 2px solid #66b3ff !important;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#verify-btn:hover {
+  background: #66b3ff !important;
+  color: #0f1419 !important;
+}
+
+.result-box {
+  padding: 1.5em;
+  border-radius: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.result-box.success {
+  background: rgba(102, 255, 102, 0.1);
+  border: 2px solid #66ff66;
+  color: #66ff66 !important;
+}
+
+.result-box.warning {
+  background: rgba(255, 200, 0, 0.1);
+  border: 2px solid #ffaa00;
+  color: #ffdd66 !important;
+}
+
+.result-box.error {
+  background: rgba(255, 102, 102, 0.1);
+  border: 2px solid #ff6666;
+  color: #ff6666 !important;
+}
+
+.result-box a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
