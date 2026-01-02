@@ -590,7 +590,7 @@ body {
     padding: 0.5em 0;
   }
 }
-/* NAVIGATIE – RESPONSIVE MET HAMBURGER */
+/* NAVIGATIE – COMPACTE MOBIELE VERSIE */
 .main-nav {
   background: rgba(15, 20, 25, 0.95);
   border-bottom: 1px solid #333;
@@ -604,7 +604,7 @@ body {
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1em 2em;
+  padding: 0.8em 1.5em; /* compacter */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -612,26 +612,14 @@ body {
 
 .nav-logo {
   font-weight: 900;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #66b3ff !important;
   text-decoration: none;
 }
 
-.nav-links a {
-  color: #e0e0e0 !important;
-  text-decoration: none;
-  margin-left: 2em;
-  font-weight: 600;
-}
-
-.nav-links a:hover {
-  color: #66b3ff !important;
-}
-
-/* Hamburger button */
+/* Hamburger – kleiner en cleaner */
 .nav-toggle {
   display: none;
-  flex-direction: column;
   background: none;
   border: none;
   cursor: pointer;
@@ -639,52 +627,52 @@ body {
 }
 
 .nav-toggle span {
-  width: 25px;
-  height: 3px;
+  width: 22px;
+  height: 2px;
   background: #e0e0e0;
   margin: 4px 0;
   transition: 0.3s;
+  display: block;
 }
 
-/* Mobiel menu */
+/* Mobiel menu – geen grote box, gewoon dropdown onder de bar */
 .mobile-menu {
   display: none;
-  flex-direction: column;
   background: rgba(15, 20, 25, 0.98);
-  padding: 1em 2em;
   border-top: 1px solid #333;
+  padding: 0.5em 0;
+}
+
+.mobile-menu.open {
+  display: block;
 }
 
 .mobile-menu a {
+  display: block;
+  padding: 0.8em 1.5em;
   color: #e0e0e0 !important;
   text-decoration: none;
-  padding: 1em 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 600;
-  border-bottom: 1px solid #333;
-}
-
-.mobile-menu a:last-child {
-  border-bottom: none;
 }
 
 .mobile-menu a:hover {
+  background: rgba(102, 179, 255, 0.1);
   color: #66b3ff !important;
 }
 
-/* MOBIEL */
+/* Desktop links verbergen op mobiel */
 @media (max-width: 768px) {
-  .desktop-only {
-    display: none !important;
-  }
-
-  .mobile-only {
-    display: flex !important;
-  }
-
-  .mobile-menu.open {
-    display: flex;
-  }
+  .desktop-only { display: none !important; }
+  .mobile-only { display: block !important; }
 }
 
+/* Desktop */
+@media (min-width: 769px) {
+  .mobile-only { display: none !important; }
+  .nav-links a {
+    margin-left: 2em;
+    font-weight: 600;
+  }
+}
 /* JS voor toggle (klein stukje inline – geen externe dependency) */
