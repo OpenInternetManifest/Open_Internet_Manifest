@@ -17,17 +17,27 @@
   </head>
   <body>
     
- <nav class="main-nav">
+<nav class="main-nav">
   <div class="nav-container">
     <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
     
     <!-- Desktop links -->
     <div class="nav-links desktop-only">
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/manifest">Alle theses</a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/begrippen">Begrippen</a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/guides">Guides</a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/over">Over</a>
-      <a href="{{ site.baseurl }}/nl/hash-verifier">Verifier</a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/begrippen">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}Concepts{% else %}Begrippen{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}Guides{% else %}Guides{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/over">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/hash-verifier">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}Verifier{% else %}Verifier{% endif %}
+      </a>
     </div>
 
     <!-- Mobiel hamburger -->
@@ -38,13 +48,23 @@
     </button>
   </div>
 
-  <!-- Mobiel menu (verborgen standaard) -->
+  <!-- Mobiel menu -->
   <div class="mobile-menu">
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/manifest">Alle theses</a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/begrippen">Begrippen</a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/guides">Guides</a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' }}/over">Over</a>
-    <a href="{{ site.baseurl }}/nl/hash-verifier">Verifier</a>
+    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
+      {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
+    </a>
+    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/begrippen">
+      {% if page.lang | default: 'nl' | downcase == 'en' %}Concepts{% else %}Begrippen{% endif %}
+    </a>
+    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides">
+      {% if page.lang | default: 'nl' | downcase == 'en' %}Guides{% else %}Guides{% endif %}
+    </a>
+    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/over">
+      {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
+    </a>
+    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/hash-verifier">
+      {% if page.lang | default: 'nl' | downcase == 'en' %}Verifier{% else %}Verifier{% endif %}
+    </a>
   </div>
 </nav>
 
