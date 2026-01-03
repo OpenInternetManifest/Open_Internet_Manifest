@@ -641,10 +641,10 @@ body {
     display: block;
   }
 }
-/* PIJLEN – NOG SUBTIELER & TRANSPARANTER */
+/* THESIS NAVIGATIE PIJLEN – POSITIE CORRECT, OOK ALS ÉÉN PIJL */
 .thesis-navigation-arrows {
   position: fixed;
-  top: calc(50% + 200px); /* lekker laag, onder banner */
+  top: calc(50% + 200px); /* onder banner */
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -657,8 +657,8 @@ body {
 
 .nav-arrow {
   pointer-events: all;
-  font-size: 3.4em;
-  color: rgba(158, 201, 245, 0.7) !important; /* iets transparanter */
+  font-size: 3.5em;
+  color: rgba(102, 179, 255, 0.7) !important;
   background: transparent !important;
   width: 80px;
   height: 80px;
@@ -670,22 +670,43 @@ body {
 }
 
 .nav-arrow:hover {
-  color: #9ecefd !important;
-  background: rgba(102, 179, 255, 0.15) !important;
-  transform: scale(1.1);
+  color: #66b3ff !important;
+  background: rgba(102, 179, 255, 0.2) !important;
+  transform: scale(1.15);
 }
 
-/* Mobiel */
+/* FORCEER POSITIE – links blijft links, rechts blijft rechts */
+.nav-arrow-left {
+  margin-right: auto;   /* duwt naar links */
+  left: 3em;           /* expliciet links */
+  position: relative;
+}
+
+.nav-arrow-right {
+  margin-left: auto;   /* duwt naar rechts */
+  right: 3em;          /* expliciet rechts */
+  position: relative;
+}
+
+/* MOBIELE PIJLEN – GELIJK & TRANSPARANTER */
 @media (max-width: 768px) {
   .nav-arrow {
-    font-size: 3em;
-    width: 70px;
-    height: 70px;
+    font-size: 2.8em !important;     /* kleiner en gelijk aan back arrow */
+    width: 65px !important;
+    height: 65px !important;
+    color: rgba(102, 179, 255, 0.5) !important; /* veel transparanter */
+    background: transparent !important;
+  }
+
+  .nav-arrow:hover {
+    color: #66b3ff !important;
+    background: rgba(102, 179, 255, 0.15) !important;
+    transform: scale(1.1);
   }
 
   .thesis-navigation-arrows {
-    top: 65%; /* nog iets lager op mobiel */
-    padding: 0 2em;
+    padding: 0 1.8em !important;     /* iets dichter bij de rand voor betere balans */
+    top: calc(50% + 160px) !important; /* iets lager, mooi onder de banner */
   }
 }
 /* LINKS – MOOIE, CONSISTENTE KLEUR & ONDERSTREPING */
