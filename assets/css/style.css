@@ -190,6 +190,35 @@ body {
   border-radius: 4px;
   word-break: break-all;
 }
+/* DONATION – QR-CODES RESPONSIVE & BINNEN SCHERM */
+.donation-table img {
+  width: 100% !important;
+  max-width: 180px !important;   /* nooit groter dan dit */
+  height: auto !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;                 /* centreer */
+}
+
+/* Mobiel – nog kleiner en beter gecentreerd */
+@media (max-width: 768px) {
+  .donation-table img {
+    max-width: 150px !important;
+  }
+
+  .donation-table td {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .donation-table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /* Buttons */
 .integrity-content button, .verify-btn, button.copy-btn {
