@@ -313,28 +313,27 @@ body {
 
 .language-buttons {
   display: flex;
-  gap: 3em;
+  gap: 2em;
   flex-wrap: wrap;
   justify-content: center;
   margin: 4em 0;
 }
 
 .language-btn {
-  padding: 2em 4em;
-  font-size: 1.8em;
-  font-weight: 900;
+  padding: 1.4em 2.5em;
+  font-size: 1.4em;
+  font-weight: bold;
   color: white !important;
   text-decoration: none;
   text-align: center;
   border-radius: 30px;
   transition: all 0.4s ease;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-  min-width: 320px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  width: 280px; /* vaste breedte voor consistentie */
 }
 
 /* Nederlandse button – NL vlag als achtergrond */
@@ -347,13 +346,14 @@ body {
 }
 
 .language-btn:hover {
-  transform: translateY(-8px) scale(1.05);
-  box-shadow: 0 15px 30px rgba(102, 179, 255, 0.4);
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
 }
 .nl-btn:hover {
   transform: translateY(-8px) scale(1.05);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
 }
+/* Donkere overlay voor leesbaarheid */
 .language-btn::before {
   content: '';
   position: absolute;
@@ -362,13 +362,14 @@ body {
   border-radius: 30px;
   transition: background 0.4s ease;
 }
-.language-btn span {
-  position: relative;
-  z-index: 1;
-}
 
 .language-btn:hover::before {
   background: rgba(15, 20, 25, 0.3);
+}
+
+.language-btn span {
+  position: relative;
+  z-index: 1;
 }
 
 .en-btn:hover {
@@ -554,17 +555,18 @@ body {
     font-size: 1em !important;
     padding: 1em !important;
   }
- .language-buttons {
+  .language-buttons {
     flex-direction: column;
     align-items: center;
-    gap: 2.5em;
+    gap: 2em;
+    margin: 3em 0;
   }
 
   .language-btn {
-    width: 90%;
-    max-width: 400px;
-    padding: 1.8em 3em;
-    font-size: 1.6em;
+    width: 85%;
+    max-width: 320px;
+    padding: 1.2em 2em;
+    font-size: 1.3em;
   }
 }
 /* Navigatie – simpel en werkend op mobiel */
