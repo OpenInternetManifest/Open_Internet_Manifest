@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hash Verifier
-lang: EN
+lang: en
 
 ---
 
