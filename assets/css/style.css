@@ -642,23 +642,24 @@ body {
   }
 }
 /* THESIS NAVIGATIE PIJLEN – MOBIEL PERFECT & CONSISTENT */
+/* THESIS NAVIGATIE PIJLEN – MOBIEL PERFECT & CONSISTENT */
 .thesis-navigation-arrows {
   position: fixed;
   top: calc(50% + 200px);
   left: 0;
   right: 0;
   transform: translateY(-50%);
+  pointer-events: none;
   z-index: 50;
   display: flex;
   justify-content: space-between;
-  padding: 0 3em;
-  /* Verwijder pointer-events: none – container mag clickable zijn */
+  padding: 0 1em; /* meer naar buiten op mobiel */
 }
 
 .nav-arrow {
   pointer-events: all;
   font-size: 3.5em !important;
-  color: rgba(102, 179, 255, 0.7) !important;
+  color: rgba(102, 179, 255, 0.45) !important; /* nog transparanter */
   background: transparent !important;
   width: 80px !important;
   height: 80px !important;
@@ -675,28 +676,31 @@ body {
   transform: scale(1.1);
 }
 
-/* Forceer positie – links blijft links, rechts blijft rechts */
+/* Forceer positie – volgende altijd rechts, vorige altijd links */
 .nav-arrow-left {
   order: 1;
-  justify-self: flex-start;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .nav-arrow-right {
   order: 2;
-  justify-self: flex-end;
+  margin-left: auto;
+  margin-right: 0;
 }
 
-/* Mobiel */
+/* MOBIEL – nog meer naar buiten + transparanter + kleiner */
 @media (max-width: 768px) {
+  .thesis-navigation-arrows {
+    padding: 0 0.5em !important; /* pijlen echt naar de rand */
+    top: calc(50% + 160px) !important;
+  }
+
   .nav-arrow {
     font-size: 3em !important;
     width: 70px !important;
     height: 70px !important;
-  }
-
-  .thesis-navigation-arrows {
-    top: calc(50% + 160px) !important;
-    padding: 0 2em !important;
+    color: rgba(102, 179, 255, 0.4) !important; /* extra transparant op mobiel */
   }
 }
 
