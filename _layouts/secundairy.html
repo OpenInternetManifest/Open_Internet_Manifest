@@ -21,43 +21,39 @@
   <div class="nav-container">
     <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
 
-    <!-- Desktop & mobiel links (zelfde logica als footer) -->
-    <div class="nav-links">
+    <!-- Desktop links -->
+    <div class="nav-links desktop-only">
       {% assign current_lang = page.lang | default: 'nl' | downcase %}
 
       <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
-        {% if current_lang == "en" %}All theses{% else %}Alle theses{% endif %}
+        {% if current_lang == 'en' %}All theses{% else %}Alle theses{% endif %}
       </a>
-     <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == "en" %}guides{% else %}guides{% endif %}">
-        {% if current_lang == "en" %}Guides{% else %}Guides{% endif %}
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides/">Guides</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}/">
+        {% if current_lang == 'en' %}About{% else %}Info{% endif %}
       </a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == "en" %}about{% else %}over{% endif %}">
-        {% if current_lang == "en" %}About{% else %}Info{% endif %}
-      </a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">
-        Verifier
-      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
       <a href="{{ site.baseurl }}/">Home</a>
     </div>
 
-    <!-- Hamburger voor mobiel -->
-    <button class="nav-toggle" aria-label="Menu openen">
+    <!-- Mobiel hamburger -->
+    <button class="nav-toggle mobile-only" aria-label="Menu openen">
       <span></span>
       <span></span>
       <span></span>
     </button>
   </div>
 
-  <!-- Mobiel dropdown menu -->
+  <!-- Mobiel menu -->
   <div class="mobile-menu">
     {% assign current_lang = page.lang | default: 'nl' | downcase %}
 
     <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
-      {% if current_lang == "en" %}All theses{% else %}Alle theses{% endif %}
+      {% if current_lang == 'en' %}All theses{% else %}Alle theses{% endif %}
     </a>
-    <a href="{{ site.baseurl }}/{{ current_lang }}/guides">Guides</a>
-    <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == "en" %}about{% else %}over{% endif %}">
-      {% if current_lang == "en" %}About{% else %}Info{% endif %}
+    <a href="{{ site.baseurl }}/{{ current_lang }}/guides/">Guides</a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}/">
+      {% if current_lang == 'en' %}About{% else %}Info{% endif %}
     </a>
     <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
     <a href="{{ site.baseurl }}/">Home</a>
