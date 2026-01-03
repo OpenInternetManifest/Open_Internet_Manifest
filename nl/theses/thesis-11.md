@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 11 — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-12
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-10
 
 ---
 

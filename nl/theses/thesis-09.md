@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 9 — Een open internet maakt echte economische vrijheid weer mogelijk
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-10
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-08
 
 ---
 

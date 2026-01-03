@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: theses 0 - introduction
 next_thesis: /Open_Internet_Manifest/en/theses/thesis-01

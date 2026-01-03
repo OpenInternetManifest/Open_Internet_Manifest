@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 7 — Een open internet geeft privacy zijn oude kracht terug
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-08
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-06
 
 ---
 

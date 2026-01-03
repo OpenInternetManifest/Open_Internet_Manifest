@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 17 — Video en content zonder YouTube of TikTok
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-18
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-16
 
 ---
 

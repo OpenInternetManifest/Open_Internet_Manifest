@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 6 — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-07
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-05
 
 ---
 

@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 13 — Jouw data hoort bij jou, niet bij een platform
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-14
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-12
 
 ---
 

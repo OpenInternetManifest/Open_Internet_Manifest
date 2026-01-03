@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 28 — Eis interoperabiliteit en open standaarden
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-29
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-27
 
 ---
 

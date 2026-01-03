@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 22 — Vervang WhatsApp door Element (Matrix)
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-23
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-21
 
 ---
 

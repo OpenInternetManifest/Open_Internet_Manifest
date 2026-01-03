@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 20 — Van volgers verzamelen naar echte gemeenschappen bouwen
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-21
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-19
 
 ---
 

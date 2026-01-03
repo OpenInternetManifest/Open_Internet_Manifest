@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 12 — Terug naar protocollen die niemand bezit
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-13
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-11
 
 ---
 

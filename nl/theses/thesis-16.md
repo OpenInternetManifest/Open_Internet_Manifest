@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 16 — Berichtenapps zonder Big Tech
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-17
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-15
 
 ---
 

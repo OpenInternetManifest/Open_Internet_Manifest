@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 18 — Zoeken zonder Google
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-19
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-17
 
 ---
 

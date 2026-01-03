@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: theses 11 - this manifesto
 next_thesis: /Open_Internet_Manifest/en/theses/thesis-12
+previous_thesis: /Open_Internet_Manifest/en/theses/thesis-10
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
 # donation_text: "Help the writer of this part" # Optional, else default text
 ---

@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 27 — Leer één iemand deze week een open alternatief gebruiken
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-28
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-26
 
 ---
 

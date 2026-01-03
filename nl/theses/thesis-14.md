@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 14 — Draagbare identiteit en reputatie
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-15
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-13
 
 ---
 

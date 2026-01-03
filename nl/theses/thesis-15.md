@@ -1,9 +1,10 @@
 ---
 
-layout: default
+layout: thesis
 lang: nl
 title: Thesis 15 — Sociale netwerken zonder centrale eigenaar
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-16
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-14
 
 ---
 
