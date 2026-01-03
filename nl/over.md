@@ -3,6 +3,7 @@ layout: default
 lang: nl
 title: over - about pagina
 next_thesis: /Open_Internet_Manifest/nl/theses/thesis-00
+
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

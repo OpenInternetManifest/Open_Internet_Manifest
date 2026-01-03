@@ -2,7 +2,7 @@
 layout: default
 title: Hash Verifier
 lang: EN
-permalink: /en/hash-verifier/
+
 ---
 
 <div class="hash-verifier">
