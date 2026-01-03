@@ -701,36 +701,44 @@ body {
   .mobile-menu.open {
     display: block;
   }
-  /* MOBIELE NAV HEADER – STRAK & ELEGANT */
+ /* MOBIELE NAVIGATIE – SCHOON, COMPACT & PROFESSIONEEL */
 @media (max-width: 768px) {
+  .main-nav {
+    padding: 0.4em 0;
+  }
+
   .nav-container {
-    padding: 0.6em 1em !important; /* compacter */
-    justify-content: space-between;
+    padding: 0 1em !important;
+    height: 50px; /* vaste hoogte voor consistentie */
     align-items: center;
   }
 
   .nav-logo {
-    font-size: 1.2em !important;
-    margin: 0 auto; /* logo mooi gecentreerd */
+    font-size: 1.3em !important;
+    margin: 0 auto; /* perfect gecentreerd */
     flex: 1;
     text-align: center;
   }
 
-  /* Back knop – kleiner en subtieler */
+  /* Back knop – klein en subtiel links */
   .nav-back {
     font-size: 1em !important;
-    margin-right: 0.5em;
-    padding: 0.4em 0.8em;
+    padding: 0.4em 0.6em;
+    margin: 0;
     color: #66b3ff !important;
+    font-weight: 600;
+    order: 1; /* links */
   }
 
   .nav-back:hover {
     color: #99ccff !important;
   }
 
-  /* Hamburger – kleiner en netjes rechts */
+  /* Hamburger – klein en netjes rechts */
   .nav-toggle {
+    order: 3;
     padding: 0.4em !important;
+    margin-left: auto;
   }
 
   .nav-toggle span {
@@ -738,7 +746,15 @@ body {
     height: 2px !important;
     margin: 4px 0;
   }
-}
+
+  /* Verberg desktop links */
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
 }
 /* THESIS NAVIGATIE PIJLEN – VOLGENDE ALTIJD RECHTS */
 .thesis-navigation-arrows {
