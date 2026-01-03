@@ -1,9 +1,14 @@
 /* ====================== BASIS & DARK THEME ====================== */
 .page-header { display: none !important; }
 
-* {
+/* BASIS DARK THEME – MILDERE VERSIE */
+html, body {
   background: #0f1419 !important;
   color: #e0e0e0 !important;
+}
+
+.main-content, .overlay-text > * {
+  background: transparent !important;
 }
 
 img, .banner, .overlay-text { background: transparent !important; }
@@ -636,10 +641,10 @@ body {
     display: block;
   }
 }
-/* THESIS NAVIGATIE PIJLEN – ECHT TRANSPARANT */
+/* THESIS NAVIGATIE PIJLEN – ECHT TRANSPARANT & CORRECT GEPOSITIONEERD */
 .thesis-navigation-arrows {
   position: fixed;
-  top: calc(50% + 200px); /* lager, onder banner */
+  top: 60%; /* lager beginnen – onder de banner */
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -654,7 +659,7 @@ body {
   pointer-events: all;
   font-size: 3.5em;
   color: #66b3ff !important;
-  background: transparent !important; /* forceer transparant */
+  background: transparent !important; /* forceer transparant over globale * */
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -662,16 +667,15 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  box-shadow: none !important; /* verwijder eventuele schaduw die donker lijkt */
 }
 
 .nav-arrow:hover {
-  background: rgba(102, 179, 255, 0.2) !important; /* subtiel hover */
+  background: rgba(102, 179, 255, 0.2) !important;
   color: #fff !important;
   transform: scale(1.15);
 }
 
-/* Mobiel */
+/* Mobiel – kleiner */
 @media (max-width: 768px) {
   .nav-arrow {
     font-size: 3em;
@@ -680,10 +684,7 @@ body {
   }
 
   .thesis-navigation-arrows {
-    top: calc(50% + 150px);
+    top: 65%; /* nog iets lager op mobiel */
     padding: 0 2em;
   }
-  .nav-arrow * {
-  background: transparent !important;
-}
 }
