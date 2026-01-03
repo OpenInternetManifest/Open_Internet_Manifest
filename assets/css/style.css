@@ -320,30 +320,30 @@ body {
 }
 
 .language-btn {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  padding: 1.4em 3em;
-  font-size: 1.6em;
-  font-weight: bold;
-  border-radius: 50px;
+  padding: 2em 4em;
+  font-size: 1.8em;
+  font-weight: 900;
+  color: white !important;
   text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
   transition: all 0.4s ease;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-  min-width: 300px;
-  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  min-width: 320px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 }
 
+/* Nederlandse button – NL vlag als achtergrond */
 .nl-btn {
-  background: linear-gradient(to right, #66b3ff, #66ccff) !important;
-  color: #0f1419 !important;
-  border: 3px solid #66ccff !important;
+  background-image: url('https://flagcdn.com/w320/nl.png');
 }
 
 .en-btn {
-  background: #1a1f24 !important;
-  color: #e0e0e0 !important;
-  border: 3px solid #66b3ff !important;
+  background-image: url('https://flagcdn.com/w320/gb.png');
 }
 
 .language-btn:hover {
@@ -351,15 +351,29 @@ body {
   box-shadow: 0 15px 30px rgba(102, 179, 255, 0.4);
 }
 .nl-btn:hover {
-  background: linear-gradient(to right, #66ccff, #99ddff) !important;
   transform: translateY(-8px) scale(1.05);
-  box-shadow: 0 15px 35px rgba(102, 179, 255, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
 }
+.language-btn::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15, 20, 25, 0.5);
+  border-radius: 30px;
+  transition: background 0.4s ease;
+}
+.language-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+.language-btn:hover::before {
+  background: rgba(15, 20, 25, 0.3);
+}
+
 .en-btn:hover {
-  background: #66b3ff !important;
-  color: #0f1419 !important;
   transform: translateY(-8px) scale(1.05);
-  box-shadow: 0 15px 35px rgba(102, 179, 255, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
 }
 
 .flag {
@@ -540,21 +554,17 @@ body {
     font-size: 1em !important;
     padding: 1em !important;
   }
-  .language-buttons {
+ .language-buttons {
     flex-direction: column;
     align-items: center;
-    gap: 2em;
+    gap: 2.5em;
   }
 
   .language-btn {
     width: 90%;
     max-width: 400px;
-    padding: 1.2em 2em;
-    font-size: 1.5em;
-  }
-
-  .flag {
-    font-size: 2em !important;
+    padding: 1.8em 3em;
+    font-size: 1.6em;
   }
 }
 /* Navigatie – simpel en werkend op mobiel */
