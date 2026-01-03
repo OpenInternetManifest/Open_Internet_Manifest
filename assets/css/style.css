@@ -636,10 +636,10 @@ body {
     display: block;
   }
 }
-/* THESIS NAVIGATIE PIJLEN – DEFINITIEF PERFECT */
+/* THESIS NAVIGATIE PIJLEN – ECHT TRANSPARANT */
 .thesis-navigation-arrows {
   position: fixed;
-  top: 50%;
+  top: calc(50% + 200px); /* lager, onder banner */
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -653,8 +653,8 @@ body {
 .nav-arrow {
   pointer-events: all;
   font-size: 3.5em;
-  color: #66b3ff;
-  background: transparent; /* geen balk meer! */
+  color: #66b3ff !important;
+  background: transparent !important; /* forceer transparant */
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -662,21 +662,13 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  box-shadow: none !important; /* verwijder eventuele schaduw die donker lijkt */
 }
 
 .nav-arrow:hover {
-  color: #fff;
-  background: rgba(102, 179, 255, 0.2);
+  background: rgba(102, 179, 255, 0.2) !important; /* subtiel hover */
+  color: #fff !important;
   transform: scale(1.15);
-}
-
-/* Forceer juiste positie */
-.nav-arrow-left {
-  margin-right: auto;
-}
-
-.nav-arrow-right {
-  margin-left: auto;
 }
 
 /* Mobiel */
@@ -688,13 +680,10 @@ body {
   }
 
   .thesis-navigation-arrows {
+    top: calc(50% + 150px);
     padding: 0 2em;
   }
-  .thesis-content {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1.5em 2em;
-  font-size: 1.15em;
-  line-height: 1.8;
+  .nav-arrow * {
+  background: transparent !important;
 }
 }

@@ -2,8 +2,8 @@
 layout: thesis
 lang: nl
 title: Thesis 1 - Het internet is niet dood
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-02
-
+previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-00
+next_thesis: /Open_Internet_Manifest/nl/theses/thesis-02 
 ---
 
 # Thesis 1
