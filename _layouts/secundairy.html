@@ -70,12 +70,11 @@
           <h1>Open Internet Manifest</h1>
           <p>
        {% assign lang_code = page.lang | default: 'nl' | downcase %}
-      {% if lang_code == 'en' %} 
-      English version · 100 theses for a free, open and unalienable internet
-      {% else %}
-      Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
-      {% endif %}ion · 100 theses for a free, open and unalienable internet
-      {% endif %}
+{% if lang_code == 'en' %}
+  English version · 100 theses for a free, open and unalienable internet
+{% else %}
+  Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
+{% endif %}
           </p>
         </div>
       </div>
