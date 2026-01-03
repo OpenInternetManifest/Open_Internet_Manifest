@@ -88,11 +88,15 @@
     <main id="content" class="main-content" role="main">
       <div class="thesis-navigation-arrows">
   {% if page.previous_thesis %}
-   <a href="{{ page.previous_thesis }}" class="nav-arrow nav-arrow-left"> < </a>
+    <a href="{{ page.previous_thesis }}" class="nav-arrow nav-arrow-left" aria-label="Vorige thesis">
+      ‹
+    </a>
   {% endif %}
 
   {% if page.next_thesis %}
-    <a href="{{ page.next_thesis }}" class="nav-arrow nav-arrow-right"> > </a>
+    <a href="{{ page.next_thesis }}" class="nav-arrow nav-arrow-right" aria-label="Volgende thesis">
+      ›
+    </a>
   {% endif %}
 </div>
 
