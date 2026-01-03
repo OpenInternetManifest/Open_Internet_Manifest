@@ -19,7 +19,13 @@
   <body>
     <nav class="main-nav">
   <div class="nav-container">
-    <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
+  <!-- Terug knop links -->
+  <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
+    ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
+  </a>
+
+  <a href="{{ site.baseurl }}/" class="nav-logo">Navigatie</a>
+
 
     <!-- Desktop links -->
     <div class="nav-links desktop-only">
@@ -38,17 +44,19 @@
       <a href="{{ site.baseurl }}/">Home</a>
     </div>
 
-    <!-- Mobiel hamburger -->
-    <button class="nav-toggle mobile-only" aria-label="Menu openen">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
+   <!-- hamburger -->
+  <button class="nav-toggle mobile-only" aria-label="Menu openen">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</div>
 
   <!-- Mobiel menu -->
-  <div class="mobile-menu">
-    {% assign current_lang = page.lang | default: 'nl' | downcase %}
+<div class="mobile-menu">
+  <a href="javascript:history.back()">
+    ← {% if current_lang == 'en' %}Back{% else %}Terug{% endif %}
+  </a>
 
     <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
       {% if current_lang == 'en' %}All theses{% else %}Alle theses{% endif %}
