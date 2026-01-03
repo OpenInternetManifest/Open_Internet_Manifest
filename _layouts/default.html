@@ -32,7 +32,10 @@
       <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/about{% else %}{{ site.baseurl }}/nl/over{% endif %}">
         {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
       </a>
-      <a href="{{ site.baseurl }}/hash-verifier">Verifier</a>
+      </a>
+      <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/hash-verifier{% else %}{{ site.baseurl }}/nl/hash-verifier{% endif %}">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}verifier{% else %}Verifier{% endif %}
+      </a>
       <a href="{{ site.baseurl }}/">Home</a>
     </div>
 
