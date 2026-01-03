@@ -688,14 +688,15 @@ body {
   position: relative;
 }
 
-/* MOBIELE PIJLEN – GELIJK & TRANSPARANTER */
+/* MOBIELE PIJLEN – GELIJK, KLEINER & TRANSPARANTER */
 @media (max-width: 768px) {
   .nav-arrow {
-    font-size: 2.8em !important;     /* kleiner en gelijk aan back arrow */
-    width: 65px !important;
-    height: 65px !important;
-    color: rgba(102, 179, 255, 0.5) !important; /* veel transparanter */
+    font-size: 2.8em !important;     /* kleiner en gelijk voor beide pijlen */
+    width: 60px !important;
+    height: 60px !important;
+    color: rgba(102, 179, 255, 0.5) !important; /* veel transparanter standaard */
     background: transparent !important;
+    line-height: 1 !important;       /* helpt bij verticale uitlijning */
   }
 
   .nav-arrow:hover {
@@ -705,8 +706,8 @@ body {
   }
 
   .thesis-navigation-arrows {
-    padding: 0 1.8em !important;     /* iets dichter bij de rand voor betere balans */
-    top: calc(50% + 160px) !important; /* iets lager, mooi onder de banner */
+    padding: 0 1.5em !important;
+    top: calc(50% + 160px) !important; /* mooi onder banner, mee-scrollend */
   }
 }
 /* LINKS – MOOIE, CONSISTENTE KLEUR & ONDERSTREPING */
