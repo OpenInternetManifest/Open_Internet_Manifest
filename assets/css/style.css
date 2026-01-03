@@ -886,11 +886,15 @@ a:visited {
 /* Mobiel – terug knop bovenaan menu */
 @media (max-width: 768px) {
   .nav-back {
-    margin: 0;
-    padding: 0.8em 1.5em;
-    font-size: 1.1em;
-    border-bottom: 1px solid #333;
+    font-size: 1em;
+    padding: 0.5em;
+    color: #66b3ff !important;
   }
+
+  .nav-logo {
+    font-size: 1.3em;
+  }
+
 }
 /* ELEMENT / MATRIX DISCUSSION BOX – MOOIE BOX TERUG */
 .community-box {

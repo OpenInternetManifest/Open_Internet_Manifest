@@ -17,15 +17,14 @@
     <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>
   </head>
   <body>
-    <nav class="main-nav">
+<nav class="main-nav">
   <div class="nav-container">
-  <!-- Terug knop links -->
-  <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
-    ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
-  </a>
+    <!-- Terug knop – altijd zichtbaar links -->
+    <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
+      ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
+    </a>
 
-  <a href="{{ site.baseurl }}/" class="nav-logo">Navigatie</a>
-
+    <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
 
     <!-- Desktop links -->
     <div class="nav-links desktop-only">
@@ -44,26 +43,22 @@
       <a href="{{ site.baseurl }}/">Home</a>
     </div>
 
-   <!-- hamburger -->
-  <button class="nav-toggle mobile-only" aria-label="Menu openen">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</div>
+    <!-- Hamburger rechts -->
+    <button class="nav-toggle mobile-only" aria-label="Menu openen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
 
-  <!-- Mobiel menu -->
-<div class="mobile-menu">
-  <a href="javascript:history.back()">
-    ← {% if current_lang == 'en' %}Back{% else %}Terug{% endif %}
-  </a>
+  <!-- Mobiel menu – ZONDER terug knop (die staat al links) -->
+  <div class="mobile-menu">
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
 
     <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
       {% if current_lang == 'en' %}All theses{% else %}Alle theses{% endif %}
     </a>
-    <a href="{{ site.baseurl }}/{{ current_lang }}/guides">
-        Guides
-      </a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/guides">Guides</a>
     <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">
       {% if current_lang == 'en' %}About{% else %}Info{% endif %}
     </a>
