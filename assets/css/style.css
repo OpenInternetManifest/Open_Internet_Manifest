@@ -641,10 +641,10 @@ body {
     display: block;
   }
 }
-/* THESIS NAVIGATIE PIJLEN – POSITIE CORRECT, OOK ALS ÉÉN PIJL */
+/* THESIS NAVIGATIE PIJLEN – CORRECTE POSITIE & TRANSPARANT */
 .thesis-navigation-arrows {
   position: fixed;
-  top: calc(50% + 200px); /* onder banner */
+  top: calc(50% + 200px);
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -671,43 +671,30 @@ body {
 
 .nav-arrow:hover {
   color: #66b3ff !important;
-  background: rgba(102, 179, 255, 0.2) !important;
-  transform: scale(1.15);
+  background: rgba(102, 179, 255, 0.15) !important;
+  transform: scale(1.1);
 }
 
-/* FORCEER POSITIE – links blijft links, rechts blijft rechts */
+/* Forceer positie met order – geen margins nodig */
 .nav-arrow-left {
-  margin-right: auto;   /* duwt naar links */
-  left: 3em;           /* expliciet links */
-  position: relative;
+  order: 1; /* altijd links */
 }
 
 .nav-arrow-right {
-  margin-left: auto;   /* duwt naar rechts */
-  right: 3em;          /* expliciet rechts */
-  position: relative;
+  order: 2; /* altijd rechts */
 }
 
-/* MOBIELE PIJLEN – GELIJK, KLEINER & TRANSPARANTER */
+/* Mobiel */
 @media (max-width: 768px) {
   .nav-arrow {
-    font-size: 2.8em !important;     /* kleiner en gelijk voor beide pijlen */
-    width: 60px !important;
-    height: 60px !important;
-    color: rgba(102, 179, 255, 0.5) !important; /* veel transparanter standaard */
-    background: transparent !important;
-    line-height: 1 !important;       /* helpt bij verticale uitlijning */
-  }
-
-  .nav-arrow:hover {
-    color: #66b3ff !important;
-    background: rgba(102, 179, 255, 0.15) !important;
-    transform: scale(1.1);
+    font-size: 3em;
+    width: 70px;
+    height: 70px;
   }
 
   .thesis-navigation-arrows {
-    padding: 0 1.5em !important;
-    top: calc(50% + 160px) !important; /* mooi onder banner, mee-scrollend */
+    top: calc(50% + 160px);
+    padding: 0 2em;
   }
 }
 /* LINKS – MOOIE, CONSISTENTE KLEUR & ONDERSTREPING */
