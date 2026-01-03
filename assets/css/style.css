@@ -539,7 +539,7 @@ body {
     padding: 1em !important;
   }
 }
-/* NAVIGATIE – DEFINITIEF CLEAN & WERKEND */
+/* Navigatie – simpel en werkend op mobiel */
 .main-nav {
   background: rgba(15, 20, 25, 0.95);
   border-bottom: 1px solid #333;
@@ -566,7 +566,6 @@ body {
   text-decoration: none;
 }
 
-/* Desktop links */
 .nav-links {
   display: flex;
   gap: 2em;
@@ -576,20 +575,19 @@ body {
   color: #e0e0e0 !important;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1em;
 }
 
 .nav-links a:hover {
   color: #66b3ff !important;
 }
 
-/* Hamburger button */
+/* Hamburger */
 .nav-toggle {
   display: none;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.4em;
+  padding: 0.5em;
 }
 
 .nav-toggle span {
@@ -598,7 +596,6 @@ body {
   height: 2px;
   background: #e0e0e0;
   margin: 4px 0;
-  transition: 0.3s;
 }
 
 /* Mobiel menu */
@@ -618,7 +615,6 @@ body {
   padding: 0.8em 1.5em;
   color: #e0e0e0 !important;
   text-decoration: none;
-  font-size: 1.1em;
   font-weight: 600;
 }
 
@@ -627,7 +623,6 @@ body {
   color: #66b3ff !important;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -637,48 +632,7 @@ body {
     display: block;
   }
 
-  .mobile-only {
-    display: block !important;
-  }
-
-  .desktop-only {
-    display: none !important;
-  }
-
   .mobile-menu.open {
     display: block;
-  }
-}
-/* Hamburger button smaller and matching background */
-.nav-toggle {
-  display: none; /* blijft hidden op desktop */
-  background: transparent !important; /* zelfde als nav achtergrond */
-  border: none;
-  cursor: pointer;
-  padding: 0.5em;
-  margin-left: auto; /* duwt hem naar rechts */
-  border-radius: 8px;
-  transition: background 0.3s;
-}
-
-.nav-toggle:hover {
-  background: rgba(102, 179, 255, 0.1) !important; /* subtiel hover effect */
-}
-
-.nav-toggle span {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: #e0e0e0;
-  margin: 4px 0;
-  transition: 0.3s;
-}
-
-/* Zorg dat de button niet te breed is op mobiel */
-@media (max-width: 768px) {
-  .nav-toggle {
-    display: block;
-    width: auto;
-    padding: 0.6em 0.8em;
   }
 }

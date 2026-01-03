@@ -19,43 +19,47 @@
     
 <nav class="main-nav">
   <div class="nav-container">
-    <a href="{{ site.baseurl }}/" class="nav-logo">Navigatie</a>
-    
-    <!-- Desktop links -->
-    <div class="nav-links desktop-only">
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
-        {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
+    <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
+
+    <!-- Desktop & mobiel links (zelfde logica als footer) -->
+    <div class="nav-links">
+      {% assign current_lang = page.lang | default: 'nl' | downcase %}
+
+      <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
+        {% if current_lang == "en" %}All theses{% else %}Alle theses{% endif %}
       </a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides">
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides">
         Guides
       </a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/{% if page.lang | default: 'nl' | downcase == 'en' %}about{% else %}over{% endif %}">
-        {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Info{% endif %}
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == "en" %}about{% else %}over{% endif %}">
+        {% if current_lang == "en" %}About{% else %}Info{% endif %}
       </a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/hash-verifier">
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">
         Verifier
       </a>
       <a href="{{ site.baseurl }}/">Home</a>
     </div>
 
-    <!-- Mobiel hamburger -->
-    <button class="nav-toggle mobile-only" aria-label="Menu openen">
+    <!-- Hamburger voor mobiel -->
+    <button class="nav-toggle" aria-label="Menu openen">
       <span></span>
       <span></span>
       <span></span>
     </button>
   </div>
 
-  <!-- Mobiel menu -->
+  <!-- Mobiel dropdown menu -->
   <div class="mobile-menu">
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
-      {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
+
+    <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
+      {% if current_lang == "en" %}All theses{% else %}Alle theses{% endif %}
     </a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides">Guides</a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/{% if page.lang | default: 'nl' | downcase == 'en' %}about{% else %}over{% endif %}">
-      {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Info{% endif %}
+    <a href="{{ site.baseurl }}/{{ current_lang }}/guides">Guides</a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == "en" %}about{% else %}over{% endif %}">
+      {% if current_lang == "en" %}About{% else %}Info{% endif %}
     </a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/hash-verifier">Verifier</a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
     <a href="{{ site.baseurl }}/">Home</a>
   </div>
 </nav>
