@@ -15,14 +15,10 @@ Dit manifest wil een internet teruggeven met echte wegen, pleinen en paden – e
 
 Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouwd en eigendom van de gemeenschap.
 
----
-
 ## De Theses
 [Begin met lezen →](/Open_Internet_Manifest/nl/theses/thesis-00)  
 [Alle theses →](/Open_Internet_Manifest/nl/manifest)    
 Wat is nu eigenlijk hash verrificatie en waarom zouden we dat doen: [hash](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
-
----
 
 ## Praktische stappen (begin vandaag)
 [Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_Manifest/nl/guides)

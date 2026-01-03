@@ -1,0 +1,125 @@
+<!-- _layouts/thesis.html -->
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'nl' | downcase }}">
+ <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    {% seo %}
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+   
+    <!-- Centrale hashes + hash-verify JS (voor integriteitscheck) -->
+    <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>
+  </head>
+  <body>
+    <nav class="main-nav">
+  <div class="nav-container">
+    <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
+
+    <!-- Desktop links -->
+    <div class="nav-links desktop-only">
+      {% assign current_lang = page.lang | default: 'nl' | downcase %}
+
+      <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
+        {% if current_lang == 'en' %}All theses{% else %}Alle theses{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides">
+        Guides
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">
+        {% if current_lang == 'en' %}About{% else %}Info{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </div>
+
+    <!-- Mobiel hamburger -->
+    <button class="nav-toggle mobile-only" aria-label="Menu openen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- Mobiel menu -->
+  <div class="mobile-menu">
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
+
+    <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
+      {% if current_lang == 'en' %}All theses{% else %}Alle theses{% endif %}
+    </a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/guides">
+        Guides
+      </a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">
+      {% if current_lang == 'en' %}About{% else %}Info{% endif %}
+    </a>
+    <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
+    <a href="{{ site.baseurl }}/">Home</a>
+  </div>
+</nav>
+    
+<a id="skip-to-content" href="#content">Skip to the content</a>
+
+ <!-- Banner met overlay -->
+    <header class="custom-header" role="banner">
+      <div class="banner">
+        <img src="{{ site.baseurl }}/assets/banner-donker.jpg" alt="Open Internet Manifest">
+        <div class="overlay-text">
+          <h1>Open Internet Manifest</h1>
+          <p>
+          {% assign lang_code = page.lang | default: 'nl' | downcase %}
+          {% if lang_code == 'en' %}
+          English version · 100 theses for a free, open and unalienable internet
+          {% else %}
+          Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
+          {% endif %}
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content met pijlen -->
+   
+<div class="thesis-navigation-arrows">
+  {% if page.previous_thesis %}
+    <a href="{{ page.previous_thesis }}" class="nav-arrow nav-arrow-left" aria-label="Vorige thesis">
+      ←
+    </a>
+  {% endif %}
+
+  {% if page.next_thesis %}
+    <a href="{{ page.next_thesis }}" class="nav-arrow nav-arrow-right" aria-label="Volgende thesis">
+      →
+    </a>
+  {% endif %}
+</div>
+
+      <div class="thesis-content">
+        {{ content }}
+      </div>
+
+      {% include donation.html %}
+
+      {% assign lang = page.lang | default: 'NL' | upcase %}
+      {% include integrity-check-{{ lang }}.html %}
+
+      {% include page-footer.html %}
+    </main>
+  </body>
+  <!-- JS toggle -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.mobile-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('open');
+      });
+    }
+  </script>
+</html>
