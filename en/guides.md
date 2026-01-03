@@ -1,3 +1,10 @@
+---
+layout: default
+title: guides - Full guides page
+lang: en
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 # Guides for the Open Internet Manifest – English version
 
 **Guide 1** — Create an account on Chaos.social (active, free community)  
