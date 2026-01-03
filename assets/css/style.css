@@ -648,16 +648,25 @@ body {
   left: 0;
   right: 0;
   transform: translateY(-50%);
-  pointer-events: none;
   z-index: 50;
   display: flex;
   justify-content: space-between;
-  padding: 0 2.5em; /* iets meer ruimte */
+  padding: 0 3em;
+  /* Verwijder pointer-events: none – container mag clickable zijn */
 }
 
 .nav-arrow {
-  font-size: 3.8em !important; /* iets groter voor ‹ › */
-  color: rgba(102, 179, 255, 0.259) !important;
+  pointer-events: all;
+  font-size: 3.5em !important;
+  color: rgba(102, 179, 255, 0.7) !important;
+  background: transparent !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
 }
 
 .nav-arrow:hover {
@@ -677,17 +686,19 @@ body {
   justify-self: flex-end;
 }
 
-/* MOBIEL – KLEINER & SUBTIELER */
+/* Mobiel */
 @media (max-width: 768px) {
   .nav-arrow {
-    font-size: 3.2em !important;
+    font-size: 3em !important;
+    width: 70px !important;
+    height: 70px !important;
   }
-}
 
   .thesis-navigation-arrows {
     top: calc(50% + 160px) !important;
-    padding: 0 1.8em !important;
+    padding: 0 2em !important;
   }
+}
 
 /* LINKS – MOOIE, CONSISTENTE KLEUR & ONDERSTREPING */
 /* Alle links in de content */
