@@ -641,7 +641,7 @@ body {
     display: block;
   }
 }
-/* THESIS NAVIGATIE PIJLEN – IDENTIEKE SUBTIELE PIJLEN */
+/* THESIS NAVIGATIE PIJLEN – MOBIEL PERFECT & CONSISTENT */
 .thesis-navigation-arrows {
   position: fixed;
   top: calc(50% + 200px);
@@ -652,16 +652,16 @@ body {
   z-index: 50;
   display: flex;
   justify-content: space-between;
-  padding: 0 3em;
+  padding: 0 2.5em; /* iets meer ruimte */
 }
 
 .nav-arrow {
   pointer-events: all;
-  font-size: 3.2em !important;     /* iets kleiner dan voorheen */
-  color: rgba(102, 179, 255, 0.6) !important; /* subtieler */
+  font-size: 3.2em !important;
+  color: rgba(102, 179, 255, 0.5) !important; /* veel transparanter */
   background: transparent !important;
-  width: 75px !important;
-  height: 75px !important;
+  width: 70px !important;
+  height: 70px !important;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -675,16 +675,29 @@ body {
   transform: scale(1.1);
 }
 
-/* Mobiel – nog kleiner en subtieler */
+/* Forceer positie – links blijft links, rechts blijft rechts */
+.nav-arrow-left {
+  order: 1;
+  justify-self: flex-start;
+}
+
+.nav-arrow-right {
+  order: 2;
+  justify-self: flex-end;
+}
+
+/* MOBIEL – KLEINER & SUBTIELER */
 @media (max-width: 768px) {
   .nav-arrow {
     font-size: 2.8em !important;
-    width: 65px !important;
-    height: 65px !important;
+    width: 60px !important;
+    height: 60px !important;
+    color: rgba(102, 179, 255, 0.45) !important; /* nog transparanter op mobiel */
   }
 
   .thesis-navigation-arrows {
-    padding: 0 2em;
+    top: calc(50% + 160px) !important;
+    padding: 0 1.8em !important;
   }
 }
 /* LINKS – MOOIE, CONSISTENTE KLEUR & ONDERSTREPING */
