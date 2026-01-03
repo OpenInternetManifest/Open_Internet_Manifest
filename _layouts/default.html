@@ -26,15 +26,14 @@
       <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
         {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
       </a>
-      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides">
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides/">
         Guides
       </a>
-      <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/about{% else %}{{ site.baseurl }}/nl/over{% endif %}">
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/{% if page.lang | default: 'nl' | downcase == 'en' %}about{% else %}over{% endif %}/">
         {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
       </a>
-      </a>
-      <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/hash-verifier{% else %}{{ site.baseurl }}/nl/hash-verifier{% endif %}">
-        {% if page.lang | default: 'nl' | downcase == 'en' %}verifier{% else %}Verifier{% endif %}
+      <a href="{{ site.baseurl }}/hash-verifier">
+        Verifier
       </a>
       <a href="{{ site.baseurl }}/">Home</a>
     </div>
@@ -53,7 +52,7 @@
       {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
     </a>
     <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides/">Guides</a>
-    <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/about/{% else %}{{ site.baseurl }}/nl/over/{% endif %}">
+    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/{% if page.lang | default: 'nl' | downcase == 'en' %}about{% else %}over{% endif %}/">
       {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
     </a>
     <a href="{{ site.baseurl }}/hash-verifier">Verifier</a>
