@@ -840,5 +840,36 @@ a:visited {
   .community-box iframe,
   .community-box div[class*="element"] {
     height: 500px !important;
+}
+}
+/* TAALNOTE – GECENTREERD & MOOIER */
+.language-note {
+  text-align: center;
+  margin: 5em auto 3em;
+  max-width: 800px;
+  padding: 2em;
+  font-size: 1.2em;
+  color: #a0a0a0 !important;
+}
+
+.language-note p {
+  margin: 1em 0;
+}
+
+.language-note a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+.language-note a:hover {
+  color: #99ccff !important;
+}
+
+/* Mobiel – iets compacter */
+@media (max-width: 768px) {
+  .language-note {
+    padding: 1.5em;
+    font-size: 1.1em;
+    margin: 4em auto 2em;
   }
 }
