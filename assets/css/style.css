@@ -701,44 +701,49 @@ body {
   .mobile-menu.open {
     display: block;
   }
- /* MOBIELE NAVIGATIE – SCHOON, COMPACT & PROFESSIONEEL */
+ /* MOBIELE NAVIGATIE – PERFECT UITGELIJND OP ALLE BROWSERS */
 @media (max-width: 768px) {
   .main-nav {
-    padding: 0.4em 0;
+    padding: 0.5em 0;
   }
 
   .nav-container {
     padding: 0 1em !important;
-    height: 50px; /* vaste hoogte voor consistentie */
+    height: 56px; /* consistente hoogte */
+    display: grid !important;
+    grid-template-columns: auto 1fr auto; /* back | logo | hamburger */
     align-items: center;
+    gap: 1em;
   }
 
-  .nav-logo {
-    font-size: 1.3em !important;
-    margin: 0 auto; /* perfect gecentreerd */
-    flex: 1;
-    text-align: center;
-  }
-
-  /* Back knop – klein en subtiel links */
+  /* Back knop – links, klein en subtiel */
   .nav-back {
+    grid-column: 1;
+    justify-self: start;
     font-size: 1em !important;
-    padding: 0.4em 0.6em;
-    margin: 0;
     color: #66b3ff !important;
+    text-decoration: none;
     font-weight: 600;
-    order: 1; /* links */
+    padding: 0.4em 0.8em;
   }
 
   .nav-back:hover {
     color: #99ccff !important;
   }
 
-  /* Hamburger – klein en netjes rechts */
+  /* Logo – perfect gecentreerd */
+  .nav-logo {
+    grid-column: 2;
+    justify-self: center;
+    font-size: 1.3em !important;
+    margin: 0;
+  }
+
+  /* Hamburger – rechts, klein */
   .nav-toggle {
-    order: 3;
+    grid-column: 3;
+    justify-self: end;
     padding: 0.4em !important;
-    margin-left: auto;
   }
 
   .nav-toggle span {
