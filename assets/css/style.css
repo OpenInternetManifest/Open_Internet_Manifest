@@ -657,7 +657,7 @@ body {
 
 .nav-arrow {
   font-size: 3.8em !important; /* iets groter voor ‹ › */
-  color: rgba(102, 179, 255, 0.6) !important;
+  color: rgba(102, 179, 255, 0.259) !important;
 }
 
 .nav-arrow:hover {
