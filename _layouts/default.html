@@ -21,7 +21,7 @@
   <div class="nav-container">
     <a href="{{ site.baseurl }}/" class="nav-logo">Navigatie</a>
     
-    <!-- Desktop links -->
+     <!-- Desktop links -->
     <div class="nav-links desktop-only">
       <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
         {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
@@ -44,18 +44,18 @@
     </button>
   </div>
 
-  <!-- Mobiel menu -->
-  <div class="mobile-menu">
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
-      {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
-    </a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides/">Guides</a>
-    <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/about/{% else %}{{ site.baseurl }}/nl/over/{% endif %}">
-      {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
-    </a>
-    <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/hash-verifier">Verifier</a>
-    <a href="{{ site.baseurl }}/">Home</a>
-  </div>
+ <!-- Mobiel menu -->
+    <div class="mobile-menu">
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/manifest">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}All theses{% else %}Alle theses{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/guides/">Guides</a>
+      <a href="{% if page.lang | default: 'nl' | downcase == 'en' %}{{ site.baseurl }}/en/about/{% else %}{{ site.baseurl }}/nl/over/{% endif %}">
+        {% if page.lang | default: 'nl' | downcase == 'en' %}About{% else %}Over{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ page.lang | default: 'nl' | downcase }}/hash-verifier">Verifier</a>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </div>
 </nav>
 
     <a id="skip-to-content" href="#content">Skip to the content</a>
