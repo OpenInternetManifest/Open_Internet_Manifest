@@ -219,18 +219,29 @@ body {
 /* MOBIEL – HAMBURGER VOLLEDIG RECHTS */
 @media (max-width: 768px) {
   .nav-container {
-    justify-content: flex-start !important; /* back links, rest ruimte */
     position: relative;
+    padding: 0.6em 1em !important;
+    display: flex !important;
+    justify-content: center !important; /* logo centraal */
+    align-items: center;
   }
 
+  .nav-back {
+    position: absolute;
+    left: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1em !important;
+    color: #66b3ff !important;
+    padding: 0.4em 0.8em;
+    z-index: 20; /* boven alles */
+  }
 
-
-.nav-logo {
-    position: relative;
-    left: 0%;
-    transform: translateX(-50%);
+  .nav-logo {
     font-size: 1.3em !important;
+    z-index: 10;
   }
+
 
     .nav-toggle {
     position: absolute;
