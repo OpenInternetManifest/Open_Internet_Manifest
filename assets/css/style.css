@@ -230,7 +230,7 @@ body {
  }
 
  .nav-toggle {
- position: static;
+ position: absolute !important;;
  right: 1em !important;
  top: 50%;
  transform: translateY(-50%);
