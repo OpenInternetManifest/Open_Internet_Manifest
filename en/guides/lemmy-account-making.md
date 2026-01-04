@@ -13,7 +13,7 @@ Lemmy is the decentralized alternative to Reddit: forums (sublemmies), communiti
 **Cost:** €0
 
 ### Step 1 – Choose a server (instance)
-<details>
+<details markdown="1">
 <summary>I don't know which server to choose → click here</summary>
 
 Good starters:
@@ -25,7 +25,7 @@ Or find an instance on <a href="https://join-lemmy.org/instances" target="_blank
 </details>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
 1. Go to the website of your chosen server (e.g. lemmy.world)
@@ -36,7 +36,7 @@ Or find an instance on <a href="https://join-lemmy.org/instances" target="_blank
 </details>
 
 ### Step 3 – Set up your profile
-<details>
+<details markdown="1">
 <summary>Make it recognizable</summary>
 
 - Use the same profile picture and bio as on Reddit
@@ -45,7 +45,7 @@ Or find an instance on <a href="https://join-lemmy.org/instances" target="_blank
 </details>
 
 ### Step 4 – Find and join communities
-<details>
+<details markdown="1">
 <summary>How do I find my old subreddits?</summary>
 
 - Search for the subreddit name (e.g. r/technology → !technology@lemmy.world)

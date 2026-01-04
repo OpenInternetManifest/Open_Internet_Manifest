@@ -9,7 +9,7 @@ previous_thesis: /Open_Internet_Manifest/en/theses/thesis-21
 ---
 # Thesis 22 – Replace WhatsApp with Element (Matrix)
 
-Download [**Element**](/en/concepts/element) on your phone and computer.
+Download [**Element**](/Open_Internet_Manifest/en/concepts/element) on your phone and computer.
 
 Create an account on a server of your choice (or run your own).
 
@@ -19,10 +19,10 @@ Your messages are end-to-end encrypted, you can always move, and your data remai
 
 WhatsApp is not inevitable — it is just still normal.
 
-See also the practical Raspberry [Pi node guide](/en/guides/raspberry-pi-node) – build your own infrastructure.
+See also the practical Raspberry [Pi node guide](/Open_Internet_Manifest/en/guides/raspberry-pi-node) – build your own infrastructure.
 
 **Want to migrate from WhatsApp step-by-step?**  
-The full step-by-step guide is coming → [Element migration – coming soon](/en/guides/element-migration-coming-soon)
+The full step-by-step guide is coming → [Element migration – coming soon](/Open_Internet_Manifest/en/guides/element-migration-coming-soon)
 
 ---
 

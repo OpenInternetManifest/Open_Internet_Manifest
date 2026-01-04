@@ -15,7 +15,7 @@ Ideal if you have friends on different platforms and want one place to talk to e
 **Cost:** €0
 
 ### Step 1 – Choose a node
-<details>
+<details markdown="1">
 <summary>I don't know which node to choose → click here</summary>
 
 Good starters:
@@ -27,7 +27,7 @@ Or find a node on <a href="https://dir.friendica.social/servers" target="_blank"
 </details>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
 1. Go to the website of your chosen node
@@ -38,7 +38,7 @@ Or find a node on <a href="https://dir.friendica.social/servers" target="_blank"
 </details>
 
 ### Step 3 – Set up your profile and identity
-<details>
+<details markdown="1">
 <summary>Make it powerful</summary>
 
 - Use a profile picture and bio
@@ -48,7 +48,7 @@ Or find a node on <a href="https://dir.friendica.social/servers" target="_blank"
 </details>
 
 ### Step 4 – Make connections
-<details>
+<details markdown="1">
 <summary>Friendica can connect to almost everything</summary>
 
 - Search and add contacts from the Zot network

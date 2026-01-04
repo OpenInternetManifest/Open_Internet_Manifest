@@ -18,9 +18,9 @@ Choose a server that suits you and create your account in 15 minutes:
 
 **Follow this step-by-step guide for a smooth start:** 
 
-[View the full Mastodon guide →](/en/guides/mastodon-account-making)  
-[View the full Fosstodon guide →](/en/guides/fosstodon-account-making)  
-[View the full Chaos.social guide →](/en/guides/chaos-account-making)
+[View the full Mastodon guide →](/Open_Internet_Manifest/en/guides/mastodon-account-making)  
+[View the full Fosstodon guide →](/Open_Internet_Manifest/en/guides/fosstodon-account-making)  
+[View the full Chaos.social guide →](/Open_Internet_Manifest/en/guides/chaos-account-making)
 
 Follow the people you already know.  
 Post one message.  

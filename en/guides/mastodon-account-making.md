@@ -13,7 +13,7 @@ Mastodon is not a replacement for Twitter — it is better: you choose your own 
 **Cost:** €0
 
 ### Step 1 – Choose a server (instance)
-<details>
+<details markdown="1">
 <summary>I don't know which server to choose → click here</summary>
 
 Good starters for English speakers:
@@ -25,7 +25,7 @@ Or find a server on <a href="https://instances.social" target="_blank">instances
 </details>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
 1. Go to the website of your chosen server (e.g. mastodon.social)
@@ -35,7 +35,7 @@ Or find a server on <a href="https://instances.social" target="_blank">instances
 </details>
 
 ### Step 3 – Set up your profile
-<details>
+<details markdown="1">
 <summary>Make it recognizable for your old followers</summary>
 
 - Use the same profile picture and bio as on X/Twitter
@@ -44,7 +44,7 @@ Or find a server on <a href="https://instances.social" target="_blank">instances
 </details>
 
 ### Step 4 – Follow people
-<details>
+<details markdown="1">
 <summary>How do I find my old followers?</summary>
 
 - Use <a href="https://fedifinder.glitch.me" target="_blank">Fedifinder</a>: enter your X/Twitter handle → it finds Mastodon accounts of your followers
@@ -53,7 +53,7 @@ Or find a server on <a href="https://instances.social" target="_blank">instances
 </details>
 
 ### Step 5 – Import your old posts (optional)
-<details>
+<details markdown="1">
 <summary>I don't want to lose my old tweets</summary>
 
 - Use Twitter archive or tools like <a href="https://twexport.github.io" target="_blank">Twexport</a> to download your tweets

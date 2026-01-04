@@ -13,7 +13,7 @@ Pixelfed is the decentralized alternative to Instagram: share photos, no algorit
 **Cost:** €0
 
 ### Step 1 – Choose a server (instance)
-<details>
+<details markdown="1">
 <summary>I don't know which server to choose → click here</summary>
 
 Good starters:
@@ -25,7 +25,7 @@ Or find an instance on <a href="https://fediverse.observer/explore/pixelfed" tar
 </details>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
 1. Go to the website of your chosen server (e.g. pixelfed.social)
@@ -35,7 +35,7 @@ Or find an instance on <a href="https://fediverse.observer/explore/pixelfed" tar
 </details>
 
 ### Step 3 – Set up your profile
-<details>
+<details markdown="1">
 <summary>Make it recognizable for your old followers</summary>
 
 - Use the same profile picture and bio as on Instagram
@@ -44,7 +44,7 @@ Or find an instance on <a href="https://fediverse.observer/explore/pixelfed" tar
 </details>
 
 ### Step 4 – Follow people
-<details>
+<details markdown="1">
 <summary>How do I find my old followers?</summary>
 
 - Use <a href="https://fedifinder.glitch.me" target="_blank">Fedifinder</a>: enter your Instagram handle (if known) or search manually

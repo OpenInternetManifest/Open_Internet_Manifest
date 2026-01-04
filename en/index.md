@@ -18,16 +18,16 @@ This manifest is living — it grows through contributions from people like you.
 
 
 **Practical guides**  
-[Follow the guides for Mastodon, Nextcloud, sovereign nodes and more →](/Open_Internet_Manifest/en/guides.md/)
+[Follow the guides for Mastodon, Nextcloud, sovereign nodes and more →](/Open_Internet_Manifest/en/guides.md)
 
 **Join the community discussion**  
 <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element (Matrix) and join the conversation</a>
 
 **More information, donations and languages**  
-[About the manifest and how to support it →](/Open_Internet_Manifest/en/over)
+[About the manifest and how to support it →](/Open_Internet_Manifest/en/about)
 
 **Nederlandse versie**  
-[Lees in het Nederlands →](/NL/theses/thesis-00)
+[Lees in het Nederlands →](/Open_Internet_Manifest/nl/theses/thesis-00)
 
 The open internet is not a utopia — it is a daily choice.  
 You are a co-author.

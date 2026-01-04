@@ -13,7 +13,7 @@ This is the way to own your own piece of the internet: Bitcoin node, Nostr relay
 **Monthly cost:** ≈ €3 (electricity)
 
 ### What you need (compare prices on Amazon, AliExpress or local stores)
-<details>
+<details markdown="1">
 <summary>I don't know what to buy → click here</summary>
 
 - **Raspberry Pi 5 (8 GB)** → <a href="https://www.amazon.com/s?k=raspberry+pi+5+8gb" target="_blank">Search on Amazon</a> or <a href="https://www.aliexpress.com/w/wholesale-raspberry-pi-5-8gb.html" target="_blank">AliExpress</a>  
@@ -24,13 +24,13 @@ This is the way to own your own piece of the internet: Bitcoin node, Nostr relay
 </details>
 
 ### Step 1 – Download Umbrel
-<details>
+<details markdown="1">
 <summary>I don't know where to find Umbrel</summary>
 Go to <a href="https://umbrel.com" target="_blank">umbrel.com</a> → click the big blue button "Download Umbrel OS".
 </details>
 
 ### Step 2 – Flash the image with Balena Etcher
-<details>
+<details markdown="1">
 <summary>I've never flashed anything before</summary>
 
 1. Download Balena Etcher: <a href="https://etcher.balena.io" target="_blank">etcher.balena.io</a>  
@@ -42,7 +42,7 @@ Go to <a href="https://umbrel.com" target="_blank">umbrel.com</a> → click the 
 </details>
 
 ### Step 3 – Connect everything
-<details>
+<details markdown="1">
 <summary>How do I connect the Pi?</summary>
 
 1. Insert SD card into the Pi  
@@ -52,7 +52,7 @@ Go to <a href="https://umbrel.com" target="_blank">umbrel.com</a> → click the 
 </details>
 
 ### Step 4 – Start Umbrel
-<details>
+<details markdown="1">
 <summary>How do I reach my Umbrel?</summary>
 
 Open your browser and type:  
@@ -72,7 +72,7 @@ You now have at home:
 - 40+ apps with one click
 
 ### What if it doesn't work?
-<details>
+<details markdown="1">
 <summary>I don't see umbrel.local</summary>
 
 - Try http://[IP address of the Pi] (find in your router)  

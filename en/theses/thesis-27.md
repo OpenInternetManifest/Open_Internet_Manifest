@@ -9,10 +9,10 @@ previous_thesis: /Open_Internet_Manifest/en/theses/thesis-26
 ---
 # Thesis 27 – Teach one person an open alternative this week
 
-Your mother on [**Element**](/en/concepts/element).  
-Your best friend on [**Mastodon**](/en/concepts/mastodon).  
-Your neighbor on [**PeerTube**](/en/concepts/peertube).  
-Your sister on [**ProtonMail**](/en/concepts/protonmail).
+Your mother on [**Element**](/Open_Internet_Manifest/en/concepts/element).  
+Your best friend on [**Mastodon**](/Open_Internet_Manifest/en/concepts/mastodon).  
+Your neighbor on [**PeerTube**](/Open_Internet_Manifest/en/concepts/peertube).  
+Your sister on [**ProtonMail**](/Open_Internet_Manifest/en/concepts/protonmail).
 
 One person at a time is how every large network once started.
 

@@ -16,7 +16,7 @@ Fosstodon is a Mastodon instance focused on open-source, tech, privacy, and free
 Go directly to <a href="https://fosstodon.org" target="_blank">fosstodon.org</a>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
 1. Click “Join” or “Create account”
@@ -27,7 +27,7 @@ Go directly to <a href="https://fosstodon.org" target="_blank">fosstodon.org</a>
 </details>
 
 ### Step 3 – Set up your profile
-<details>
+<details markdown="1">
 <summary>Make it recognizable</summary>
 
 - Use a profile picture that fits you (tech-related or not)
@@ -37,7 +37,7 @@ Go directly to <a href="https://fosstodon.org" target="_blank">fosstodon.org</a>
 </details>
 
 ### Step 4 – Follow people
-<details>
+<details markdown="1">
 <summary>Tips for the tech community</summary>
 
 - Follow hashtags like #FOSS, #Linux, #Privacy, #OpenSource

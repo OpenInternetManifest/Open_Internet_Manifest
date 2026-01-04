@@ -16,33 +16,36 @@ Chaos.social is a Mastodon instance focused on privacy, freedom, and an active, 
 Go directly to <a href="https://chaos.social" target="_blank">chaos.social</a>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
-1. Click “Registrieren” or “Sign up”
-2. Fill in a username (e.g. @yourname)
-3. Fill in email and password
-4. Accept the house rules (chaos.social is moderated but free)
-5. Verify your email → done!
+1. Click “Registrieren” or “Sign up”    
+2. Fill in a username (e.g. @yourname)  
+3. Fill in email and password   
+4. Accept the house rules (chaos.social is moderated but free)  
+5. Verify your email → done!    
+
 </details>
 
 ### Step 3 – Set up your profile
-<details>
+<details markdown="1">
 <summary>Make it recognizable</summary>
 
-- Use a profile picture that fits you
-- Bio: briefly tell who you are and what interests you (privacy, tech, freedom)
-- Add your old X/Twitter handle in your bio if you want
-- Pin a post: “Just started on Chaos.social — hello free fediverse!”
+- Use a profile picture that fits you   
+- Bio: briefly tell who you are and what interests you (privacy, tech, freedom) 
+- Add your old X/Twitter handle in your bio if you want 
+- Pin a post: “Just started on Chaos.social — hello free fediverse!”    
+
 </details>
 
 ### Step 4 – Follow people
-<details>
+<details markdown="1">
 <summary>Tips for the community</summary>
 
 - Follow hashtags like #ChaosSocial, #Privacy, #Fediverse, #FOSS
 - Search for names or handles of people you know
 - Use <a href="https://fedifinder.glitch.me" target="_blank">Fedifinder</a> to find your old followers
+
 </details>
 
 ### Step 5 – Make your first post

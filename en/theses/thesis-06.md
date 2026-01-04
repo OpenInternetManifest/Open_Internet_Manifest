@@ -9,7 +9,7 @@ previous_thesis: /Open_Internet_Manifest/en/theses/thesis-05
 ---
 # Thesis 6
 
-***Exit without building is flight; building without exit is [**collaboration**](/en/concepts/collaboration).***
+***Exit without building is flight; building without exit is [collaboration](/Open_Internet_Manifest/en/concepts/collaboration).***
 
 Those who only complain and walk away from the big platforms disappear into a void where no one ever finds them.
 
@@ -17,6 +17,6 @@ Those who build beautiful new apps and “decentralized” services inside their
 
 Both paths lead nowhere: one to irrelevance, the other to strengthening exactly what we are fighting against.
 
-Real change requires one double movement: [**exit**](/en/concepts/exit) from their ecosystems now and putting all our energy into [**building**](/en/concepts/building) a [**new, truly open internet**](/en/concepts/open-internet) that no one can ever close again.
+Real change requires one double movement: [**exit**](/Open_Internet_Manifest/en/concepts/exit) from their ecosystems now and putting all our energy into [**building**](/Open_Internet_Manifest/en/concepts/building) a [**new, truly open internet**](/Open_Internet_Manifest/en/concepts/open-internet) that no one can ever close again.
 
 ---

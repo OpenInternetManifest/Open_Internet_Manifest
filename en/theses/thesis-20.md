@@ -13,7 +13,7 @@ previous_thesis: /Open_Internet_Manifest/en/theses/thesis-19
 
 A group of 50 to 500 people who trust each other is a community.
 
-[**Nostr circles**](/en/concepts/nostr-circles), [**Matrix rooms**](/en/concepts/matrix), small [**Mastodon instances**](/en/concepts/mastodon), [**Revolt servers**](/en/concepts/revolt): places where quality comes before quantity again.
+[**Nostr circles**](/Open_Internet_Manifest/en/concepts/nostr-circles), [**Matrix rooms**](/Open_Internet_Manifest/en/concepts/matrix), small [**Mastodon instances**](/Open_Internet_Manifest/en/concepts/mastodon), [**Revolt servers**](/Open_Internet_Manifest/en/concepts/revolt): places where quality comes before quantity again.
 
 Connecting instead of scrolling. Talking instead of performing.
 

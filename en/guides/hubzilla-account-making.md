@@ -13,7 +13,7 @@ Hubzilla is a powerful, decentralized platform with social networking, cloud sto
 **Cost:** €0
 
 ### Step 1 – Choose a hub
-<details>
+<details markdown="1">
 <summary>I don't know which hub to choose → click here</summary>
 
 Good starters:
@@ -25,7 +25,7 @@ Or find a hub on <a href="https://hubzilla.org/hub-directory" target="_blank">hu
 </details>
 
 ### Step 2 – Create an account
-<details>
+<details markdown="1">
 <summary>Step-by-step</summary>
 
 1. Go to the website of your chosen hub
@@ -36,7 +36,7 @@ Or find a hub on <a href="https://hubzilla.org/hub-directory" target="_blank">hu
 </details>
 
 ### Step 3 – Set up your profile and identity
-<details>
+<details markdown="1">
 <summary>Make it powerful</summary>
 
 - Use a profile picture and bio
@@ -46,7 +46,7 @@ Or find a hub on <a href="https://hubzilla.org/hub-directory" target="_blank">hu
 </details>
 
 ### Step 4 – Make connections
-<details>
+<details markdown="1">
 <summary>Hubzilla connects to almost everything</summary>
 
 - Search and add contacts from the Zot network

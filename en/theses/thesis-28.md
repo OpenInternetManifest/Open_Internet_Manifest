@@ -13,7 +13,7 @@ No more mandatory app to access a government service.
 
 No Google or Apple account to vote, receive healthcare, or travel.
 
-[**Open protocols**](/en/concepts/independent-protocols) and [**open standards**](/en/concepts/open-standards) instead of closed silos — that is the only real public digital infrastructure.
+[**Open protocols**](/Open_Internet_Manifest/en/concepts/independent-protocols) and [**open standards**](/Open_Internet_Manifest/en/concepts/open-standards) instead of closed silos — that is the only real public digital infrastructure.
 
 Start demanding what should have been legally required years ago.
 

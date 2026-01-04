@@ -28,8 +28,8 @@ lang: en
 **Guide 7** — Create your first Mastodon account and migrate from X/Twitter    
 → [volledige tekst](/Open_Internet_Manifest/en/guides/mastodon-account-making)
 
-# **Guide 8** — Nextcloud installeren (je eigen cloud)   
-# → [volledige tekst](/Open_Internet_Manifest/en/guides/nextcloud-installeren)
+**Guide 8** — Nextcloud installeren (je eigen cloud)   
+→ [volledige tekst](/Open_Internet_Manifest/en/guides/nextcloud-installeren)
 
 **Guide 9** — Create your first Pixelfed account (Instagram alternative)    
 → [volledige tekst](/Open_Internet_Manifest/en/guides/pixelfed-account-making)
@@ -37,7 +37,7 @@ lang: en
 **Guide 10** — Run your own sovereign node at home (Raspberry Pi + Umbrel)    
 → [volledige tekst](/Open_Internet_Manifest/en/guides/raspberry-pi-node) 
 
-# **Guide 11** — De Guides zijn levend    
-# → [volledige tekst](/Open_Internet_Manifest/en/guides/levende-guides) 
+**Guide 11** — De Guides zijn levend    
+→ [volledige tekst](/Open_Internet_Manifest/en/guides/levende-guides) 
 
 ---
