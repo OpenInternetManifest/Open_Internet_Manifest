@@ -509,7 +509,7 @@ a#skip-to-content {
   .language-btn {
     width: 85%;
     max-width: 320px;
-    height: 120px;                /* nu écht toegepast */
+    height: 120px !important;                /* nu écht toegepast */
     border-radius: 20px;
   }
 
