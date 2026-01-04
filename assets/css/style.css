@@ -223,16 +223,7 @@ body {
     position: relative;
   }
 
-  .nav-back {
-    position: absolute;
-    left: 1em;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1em !important;
-    color: #66b3ff !important;
-    padding: 0.4em 0.8em;
-    z-index: 20; /* boven alles */
-  }
+ 
 
 .nav-logo {
     position: absolute;
