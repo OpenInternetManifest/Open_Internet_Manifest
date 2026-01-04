@@ -462,7 +462,7 @@ a#skip-to-content {
 .language-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.5em;
+  gap: 2em;
   justify-content: center;
   align-items: center;
   margin: 4em auto;
@@ -473,10 +473,11 @@ a#skip-to-content {
 .language-btn {
   position: relative;
   overflow: hidden;
-  width: 300px;
-  /* GEEN height hier meer – wordt per breakpoint gezet */
+  width: 85%;
+  max-width: 320px;
+  height: 120px;                 /* basis = mobiel: compact */
   padding: 0 !important;
-  border-radius: 30px;
+  border-radius: 20px;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -485,13 +486,18 @@ a#skip-to-content {
   justify-content: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.4s ease;
-  flex: 0 1 300px;
 }
 
-/* Desktop & tablet */
+/* Tablet & desktop: groter en naast elkaar */
 @media (min-width: 769px) {
+  .language-buttons {
+    gap: 2.5em;
+  }
+
   .language-btn {
-    height: 90px;                /* mooi groot op desktop */
+    width: 300px;
+    height: 190px;
+    border-radius: 30px;
   }
 
   .language-btn span {
@@ -499,64 +505,6 @@ a#skip-to-content {
   }
 }
 
-/* Mobiel – compact en elegant */
-@media (max-width: 768px) {
-  .language-buttons {
-    flex-direction: column;
-    gap: 2em;
-  }
-
-  .language-btn {
-    width: 85%;
-    max-width: 320px;
-    height: 120px !important;                /* nu écht toegepast */
-    border-radius: 20px;
-  }
-
-  .language-btn span {
-    font-size: 1.35em;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-  }
-
-  .language-btn:hover {
-    transform: translateY(-6px) scale(1.03);
-  }
-}
-
-/* Overlay en tekst (blijft hetzelfde) */
-.language-btn::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(15, 20, 25, 0.5);
-  border-radius: inherit;        /* neemt border-radius van parent over */
-  transition: background 0.4s ease;
-}
-
-.language-btn:hover::before {
-  background: rgba(15, 20, 25, 0.3);
-}
-
-.language-btn span {
-  position: relative;
-  z-index: 1;
-  font-weight: bold;
-  color: white !important;
-}
-
-/* Vlaggen */
-.nl-btn {
-  background-image: url('https://flagcdn.com/w640/nl.png');
-}
-
-.en-btn {
-  background-image: url('https://flagcdn.com/w640/gb.png');
-}
-
-.language-btn:hover {
-  transform: translateY(-8px) scale(1.04);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-}
 
 /* ====================== DONATION & INTEGRITY ====================== */
 .integrity-check, .donation-section, .community-box {
