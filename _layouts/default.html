@@ -103,9 +103,30 @@
  <script>
   const toggle = document.querySelector('.nav-toggle');
   const menu = document.querySelector('.mobile-menu');
+  const navContainer = document.querySelector('.nav-container'); // of '.main-nav'
+
   if (toggle && menu) {
-    toggle.addEventListener('click', () => {
+    // Open/sluiten bij klik op hamburger
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation(); // voorkom dat klik direct doorgesluisd wordt naar document
       menu.classList.toggle('open');
+    });
+
+    // Sluiten bij klik ergens buiten het menu
+    document.addEventListener('click', (e) => {
+      if (menu.classList.contains('open')) {
+        // Check of de klik NIET binnen het menu of op de hamburger is
+        if (!menu.contains(e.target) && !toggle.contains(e.target)) {
+          menu.classList.remove('open');
+        }
+      }
+    });
+
+    // Optioneel: sluiten bij klik op een menu-link zelf (handig na navigatie)
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+      });
     });
   }
 </script>
