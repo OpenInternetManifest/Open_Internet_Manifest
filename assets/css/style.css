@@ -209,25 +209,32 @@ body {
   color: #66b3ff !important;
 }
 
-/* MOBIEL – BACK LINKS, LOGO CENTRAAL, HAMBURGER RECHTS */
+/* MOBIELE NAVIGATIE – HAMBURGER ALTIJD RECHTS (DEFINITIEF) */
 @media (max-width: 768px) {
   .nav-container {
     position: relative;
     padding: 0.6em 1em !important;
     display: flex !important;
-    justify-content: center !important;
+    justify-content: flex-start !important;
     align-items: center;
   }
 
   .nav-back {
     position: absolute;
     left: 1em;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 1em !important;
+    color: #66b3ff !important;
     z-index: 10;
   }
 
   .nav-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1.3em !important;
+    z-index: 10;
   }
 
   .nav-toggle {
@@ -249,6 +256,76 @@ body {
   .nav-links {
     display: none !important;
   }
+}
+
+/* INTEGRITY / DONATION / PRAAT MEE – CONSISTENT & MET GLOW */
+.integrity-check, .donation-section, .community-box {
+  margin: 3em auto !important;
+  max-width: 800px !important;
+  padding: 2em !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid #333 !important;
+  border-radius: 12px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+/* Glow op hover – voor alle drie */
+.integrity-check:hover, .donation-section:hover, .community-box:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+/* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
+.integrity-content ol {
+  text-align: left !important;
+  display: block !important;
+  padding-left: 2em !important; /* netjes tegen tekst */
+  margin: 1.5em 0 !important;
+}
+
+.integrity-content li {
+  margin-bottom: 1em !important;
+  line-height: 1.6 !important;
+}
+
+.integrity-content ol li::marker {
+  color: #66b3ff !important;
+  font-weight: bold;
+}
+
+/* Plakbox SHA256 – mooie styling */
+.hash-input {
+  background: #1a1f24 !important;
+  color: #e0e0e0 !important;
+  border: 2px solid #333 !important;
+  padding: 1em;
+  border-radius: 12px;
+  font-size: 1.1em;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hash-input:focus {
+  border-color: #66b3ff !important;
+  box-shadow: 0 0 12px rgba(102, 179, 255, 0.3);
+}
+
+/* Verifier button – mooi */
+#verify-btn {
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 2px solid #66b3ff !important;
+}
+
+#verify-btn:hover {
+  background: #66b3ff !important;
+  color: #0f1419 !important;
 }
 
 /* ====================== THESIS NAVIGATIE PIJLEN ====================== */
