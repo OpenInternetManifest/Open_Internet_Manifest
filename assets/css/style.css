@@ -229,12 +229,6 @@ body {
  z-index: 30;
  }
 
- .nav-logo {
- position: relative;
- font-size: 1.3em !important;
- z-index: 20;
- }
-
  .nav-toggle {
  position: absolute;
  right: 1em !important;
@@ -243,6 +237,12 @@ body {
  display: block !important;
  padding: 0.4em !important;
  z-index: 30;
+ }
+ 
+ .nav-logo {
+ position: relative;
+ font-size: 1.3em !important;
+ z-index: 20;
  }
 
  .nav-toggle span {
