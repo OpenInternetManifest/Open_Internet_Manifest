@@ -246,6 +246,31 @@ body {
     font-size: 1.3em !important;
     z-index: 10;
   }
+  .nav-toggle-wrapper {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
 
   .nav-toggle {
     display: block !important;     /* DIT IS DE MISSENDE STUK! */
