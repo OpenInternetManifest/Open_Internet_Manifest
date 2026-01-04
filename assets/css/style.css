@@ -715,11 +715,21 @@ a#skip-to-content {
   margin-top: 1.2em !important;
 }
 
-/* MOBIEL – HAMBURGER VOLLEDIG RECHTS */
+/* MOBIELE NAVIGATIE – HAMBURGER RECHTS, BACK LINKS, LOGO GECENTREERD */
 @media (max-width: 768px) {
   .nav-container {
-    justify-content: flex-start !important; /* back links, rest ruimte */
     position: relative;
+    padding: 0.6em 1em !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center;
+  }
+
+  .nav-back {
+    font-size: 1em !important;
+    color: #66b3ff !important;
+    padding: 0.4em 0.6em;
+    margin-right: 1em;
   }
 
   .nav-logo {
@@ -731,7 +741,7 @@ a#skip-to-content {
 
   .nav-toggle {
     position: absolute;
-    right: 1em; /* altijd helemaal rechts */
+    right: 1em;
     top: 50%;
     transform: translateY(-50%);
     padding: 0.4em !important;
@@ -742,8 +752,11 @@ a#skip-to-content {
     height: 2px !important;
     margin: 4px 0;
   }
-}
 
+  .nav-links {
+    display: none !important;
+  }
+}
 /* BACK BUTTON – ALTIJD LICHTBLAUW (ook visited) */
 .nav-back,
 .nav-back:visited {
