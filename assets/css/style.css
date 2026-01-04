@@ -226,7 +226,7 @@ body {
 
 
 .nav-logo {
-    position: absolute;
+    position: relative
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.3em !important;
