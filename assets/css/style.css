@@ -27,9 +27,9 @@ body {
 .banner {
   position: relative;
   width: 100%;
-  height: 60vh;                  /* standaard: 60% van viewport hoogte */
-  min-height: 300px;             /* nooit kleiner dan 300px */
-  max-height: 500px;             /* nooit hoger dan 500px op grote schermen */
+  height: 60vh;                  /* standaard: niet te hoog */
+  min-height: 300px;             /* nooit te klein */
+  max-height: 600px;             /* cap op grote schermen */
   overflow: hidden;
 }
 
@@ -43,30 +43,30 @@ body {
   object-position: center center;
 }
 
-/* Mobiel: nog compacter */
+/* Mobiel: compacter voor snellere toegang tot content */
 @media (max-width: 768px) {
   .banner {
-    height: 45vh;                /* kleiner op mobiel – sneller bij content */
-    min-height: 280px;           /* maar nog steeds mooi groot */
+    height: 45vh;                /* veel lager – direct bij tekst */
+    min-height: 280px;
     max-height: 400px;
   }
 
   .overlay-text {
     width: 92%;
     padding: 1.6em 2em;
-    background: rgba(10, 15, 20, 0.7) !important;  /* iets donkerder voor contrast op klein scherm */
+    background: rgba(10, 15, 20, 0.7) !important;
   }
 
   .overlay-text h1 {
-    font-size: 2.6em;            /* iets kleiner op mobiel */
+    font-size: 2.7em !important;
   }
 
   .overlay-text p {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
   }
 }
 
-/* Grote schermen: mooi groot */
+/* Grote schermen: indrukwekkend */
 @media (min-width: 1200px) {
   .banner {
     height: 65vh;
@@ -74,7 +74,6 @@ body {
     max-height: 700px;
   }
 }
-
 /* ====================== OVERLAY TEXT ====================== */
 .overlay-text {
   position: absolute;
