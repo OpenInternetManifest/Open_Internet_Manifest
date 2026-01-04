@@ -170,9 +170,7 @@ body {
 
 /* Hamburger */
 .nav-toggle {
-  position: absolute;
-  right: 1em;
-  left: auto; /* toevoegen */
+    left: auto; /* toevoegen */
   display: none;
   background: none;
   border: none;
@@ -228,7 +226,7 @@ body {
 
   .nav-back {
     position: absolute;
-    right: 1em;
+    left: 1em;
     top: 50%;
     transform: translateY(-50%);
     font-size: 1em !important;
@@ -255,7 +253,7 @@ body {
     height: 2px !important;
     margin: 4px 0;
   }
-  
+
   .mobile-menu {
   position: absolute;
   right: 1em;
