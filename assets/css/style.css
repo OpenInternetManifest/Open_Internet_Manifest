@@ -474,8 +474,8 @@ a#skip-to-content {
   position: relative;
   overflow: hidden;
   width: 85%;
-  max-width: 320px;
-  height: 160px;                 /* basis = mobiel: compact */
+  max-width: 340px;
+  height: 160px;                      /* mobiel: goede verhouding */
   padding: 0 !important;
   border-radius: 20px;
   background-size: cover !important;
@@ -488,15 +488,15 @@ a#skip-to-content {
   transition: all 0.4s ease;
 }
 
-/* Tablet & desktop: groter en naast elkaar */
+/* Tablet & desktop: groter en perfecte vlag-verhouding */
 @media (min-width: 769px) {
   .language-buttons {
-    gap: 2.5em;
+    gap: 3em;
   }
 
   .language-btn {
-    width: 300px;
-    height: 120px;
+    width: 320px;
+    height: 180px;                     /* optimale hoogte voor vlaggen (geen vervorming) */
     border-radius: 30px;
   }
 
@@ -505,13 +505,13 @@ a#skip-to-content {
   }
 }
 
-/* Donkere overlay voor leesbaarheid */
+/* Donkere overlay */
 .language-btn::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(15, 20, 25, 0.5);
-  border-radius: inherit;       /* neemt border-radius van parent over */
+  border-radius: inherit;
   transition: background 0.4s ease;
 }
 
@@ -519,24 +519,23 @@ a#skip-to-content {
   background: rgba(15, 20, 25, 0.3);
 }
 
-/* Tekst bovenop de vlag */
+/* Tekst */
 .language-btn span {
   position: relative;
   z-index: 1;
   font-weight: bold;
   color: white !important;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
-  font-size: 1.35em;             /* mobiel basis */
+  font-size: 1.4em;
 }
 
-/* Hover-effect */
+/* Hover */
 .language-btn:hover {
   transform: translateY(-8px) scale(1.04);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
 }
 
-/* ================ VLAGGEN TERUG! ================ */
-
+/* VLAGGEN – perfecte weergave */
 .nl-btn {
   background-image: url('https://flagcdn.com/w640/nl.png');
 }
@@ -544,7 +543,6 @@ a#skip-to-content {
 .en-btn {
   background-image: url('https://flagcdn.com/w640/gb.png');
 }
-
 /* ====================== DONATION & INTEGRITY ====================== */
 .integrity-check, .donation-section, .community-box {
   margin: 3em 0;
