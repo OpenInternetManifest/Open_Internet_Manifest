@@ -715,13 +715,14 @@ a#skip-to-content {
   margin-top: 1.2em !important;
 }
 
+/* MOBIELE NAVIGATIE – HAMBURGER ALTIJD RECHTS (100% WERKEND) */
 @media (max-width: 768px) {
   .nav-container {
     position: relative;
     padding: 0.6em 1em !important;
     display: flex !important;
-    justify-content: center !important;
     align-items: center;
+    justify-content: center; /* logo centraal */
   }
 
   .nav-back {
@@ -729,6 +730,7 @@ a#skip-to-content {
     left: 1em;
     font-size: 1em !important;
     color: #66b3ff !important;
+    z-index: 10;
   }
 
   .nav-logo {
@@ -741,12 +743,17 @@ a#skip-to-content {
     top: 50%;
     transform: translateY(-50%);
     padding: 0.4em !important;
+    z-index: 10;
   }
 
   .nav-toggle span {
     width: 20px !important;
     height: 2px !important;
     margin: 4px 0;
+  }
+
+  .nav-links {
+    display: none !important;
   }
 }
 /* BACK BUTTON – ALTIJD LICHTBLAUW (ook visited) */
