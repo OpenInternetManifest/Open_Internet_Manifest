@@ -105,12 +105,12 @@ body {
   }
 
   .overlay-text h1 {
-    font-size: 2.4em !important;      /* compact maar leesbaar */
+    font-size: 2em !important;      /* compact maar leesbaar */
     letter-spacing: -0.5px;
   }
 
   .overlay-text p {
-    font-size: 1.4em !important;
+    font-size: 1.2em !important;
     margin-top: 0.6em;
   }
 }
