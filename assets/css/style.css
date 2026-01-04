@@ -237,7 +237,7 @@ body {
 
  .nav-toggle {
  position: absolute;
- right: 1em;
+ left: 1em;
  top: 50%;
  transform: translateY(-50%);
  display: block !important;
