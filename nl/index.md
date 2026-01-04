@@ -5,10 +5,6 @@ title: index - index
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
-# Open Internet Manifest
-
-### 100 theses voor een vrij, open en onvervreemdbaar internet
-
 Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 
 **De eerste 30 theses zijn klaar**  

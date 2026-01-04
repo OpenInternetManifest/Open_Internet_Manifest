@@ -105,7 +105,7 @@ body {
   }
 
   .overlay-text h1 {
-    font-size: 1.8em !important;      /* compact maar leesbaar */
+    font-size: 1em !important;      /* compact maar leesbaar */
     letter-spacing: -0.5px;
   }
 

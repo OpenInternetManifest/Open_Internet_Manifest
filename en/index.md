@@ -3,11 +3,6 @@ layout: secundairy
 lang: en
 title: Home
 ---
-
-# Open Internet Manifest
-
-### 100 theses for a free, open and unalienable internet
-
 This manifest is living — it grows through contributions from people like you.
 
 **The first 30 theses are ready**  
