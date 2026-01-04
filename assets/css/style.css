@@ -46,7 +46,7 @@ body {
 /* Mobiel: compacter voor snellere toegang tot content */
 @media (max-width: 768px) {
   .banner {
-    height: 45vh;                /* veel lager – direct bij tekst */
+    height: 35vh;                /* veel lager – direct bij tekst */
     min-height: 280px;
     max-height: 400px;
   }
