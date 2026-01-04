@@ -228,7 +228,7 @@ body {
 
   .nav-back {
     position: absolute;
-    left: 1em;
+    right: 1em;
     top: 50%;
     transform: translateY(-50%);
     font-size: 1em !important;
@@ -241,7 +241,6 @@ body {
     font-size: 1.3em !important;
     z-index: 10;
   }
-
 
     .nav-toggle {
     position: absolute;
@@ -256,8 +255,6 @@ body {
     height: 2px !important;
     margin: 4px 0;
   }
-
-
 
   .nav-links {
     display: none !important;
