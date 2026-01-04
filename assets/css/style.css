@@ -751,3 +751,42 @@ a#skip-to-content {
     display: none !important;
   }
 }
+/* MOBIEL – HAMBURGER VOLLEDIG RECHTS */
+@media (max-width: 768px) {
+  .nav-container {
+    justify-content: flex-start !important; /* back links, rest ruimte */
+    position: relative;
+  }
+
+  .nav-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3em !important;
+  }
+
+  .nav-toggle {
+    position: absolute;
+    right: 1em; /* altijd helemaal rechts */
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.4em !important;
+  }
+
+  .nav-toggle span {
+    width: 20px !important;
+    height: 2px !important;
+    margin: 4px 0;
+  }
+}
+
+/* BACK BUTTON – ALTIJD LICHTBLAUW (ook visited) */
+.nav-back,
+.nav-back:visited {
+  color: #66b3ff !important;
+  text-decoration: none !important;
+}
+
+.nav-back:hover {
+  color: #99ccff !important;
+}
