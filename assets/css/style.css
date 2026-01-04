@@ -487,6 +487,13 @@ a#skip-to-content {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.4s ease;
 }
+.nl-btn {
+  background-image: url('https://flagcdn.com/w640/nl.png');
+}
+
+.en-btn {
+  background-image: url('https://flagcdn.com/w640/gb.png');
+}
 
 /* Tablet & desktop: groter en naast elkaar */
 @media (min-width: 769px) {
@@ -536,6 +543,7 @@ a#skip-to-content {
 }
 
 /* ================ VLAGGEN TERUG! ================ */
+
 .nl-btn {
   background-image: url('https://flagcdn.com/w640/nl.png');
 }
