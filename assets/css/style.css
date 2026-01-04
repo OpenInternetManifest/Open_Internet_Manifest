@@ -170,6 +170,9 @@ body {
 
 /* Hamburger */
 .nav-toggle {
+   position: absolute;
+  right: 1em;
+  left: auto; /* toevoegen */
   display: none;
   background: none;
   border: none;
