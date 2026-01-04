@@ -194,6 +194,202 @@ body {
   color: #66b3ff !important;
 }
 
+/* ====================== BASIS & DARK THEME ====================== */
+.page-header { display: none !important; }
+
+html, body {
+  background: #0f1419 !important;
+  color: #e0e0e0 !important;
+}
+
+.main-content, .overlay-text > * {
+  background: transparent !important;
+}
+
+img, .banner, .overlay-text { background: transparent !important; }
+
+body {
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
+}
+
+/* ====================== BANNER ====================== */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  max-height: 80vh;
+  overflow: hidden;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media (min-width: 1200px) {
+  .banner {
+    min-height: 550px;
+    max-height: 700px;
+  }
+}
+
+/* ====================== OVERLAY TEXT ====================== */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 85%;
+  max-width: 900px;
+  background: rgba(10, 15, 20, 0.45) !important;
+  padding: 2.4em 3em;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(102, 179, 255, 0.3);
+}
+
+.overlay-text h1,
+.overlay-text p {
+  background: transparent !important;
+  text-shadow: none !important;
+  -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.4) !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.overlay-text h1 {
+  color: #66b3ff !important;
+  font-size: 4.3em;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.overlay-text p {
+  color: #f0f8ff !important;
+  font-size: 2.1em;
+  margin: 0.8em 0 0;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .overlay-text {
+    width: 92%;
+    padding: 1.8em 2.2em;
+    background: rgba(10, 15, 20, 0.65) !important;
+  }
+  .overlay-text h1 { font-size: 2.9em; }
+  .overlay-text p { font-size: 1.6em; }
+}
+
+/* ====================== CONTENT & HEADINGS ====================== */
+.main-content {
+  font-size: 1.15em !important;
+  line-height: 1.8;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5em 2em 3em !important;
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+  color: #66b3ff !important;
+  font-size: 1.9em !important;
+  margin-top: 1.5em !important;
+}
+
+/* ====================== NAVIGATIE ====================== */
+.main-nav {
+  background: rgba(15, 20, 25, 0.95);
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8em 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: 900;
+  font-size: 1.3em;
+  color: #66b3ff !important;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2em;
+}
+
+.nav-links a {
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.nav-links a:hover {
+  color: #66b3ff !important;
+}
+
+/* Hamburger */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #e0e0e0;
+  margin: 4px 0;
+}
+
+/* Mobiel menu */
+.mobile-menu {
+  display: none;
+  background: rgba(15, 20, 25, 0.98);
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+}
+
+.mobile-menu.open {
+  display: block;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 0.8em 1.5em;
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.mobile-menu a:hover {
+  background: rgba(102, 179, 255, 0.1);
+  color: #66b3ff !important;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -202,6 +398,517 @@ body {
   .nav-toggle {
     display: block;
   }
+}
+
+/* ====================== THESIS NAVIGATIE PIJLEN ====================== */
+.thesis-navigation-arrows {
+  position: fixed;
+  top: calc(50% + 200px);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em;
+}
+
+.nav-arrow {
+  pointer-events: all;
+  font-size: 3.5em !important;
+  color: rgba(102, 179, 255, 0.6) !important;
+  background: transparent !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.nav-arrow:hover {
+  color: #66b3ff !important;
+  background: rgba(102, 179, 255, 0.15) !important;
+  transform: scale(1.1);
+}
+
+.nav-arrow-left {
+  margin-right: auto;
+}
+
+.nav-arrow-right {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .nav-arrow {
+    font-size: 3em !important;
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .thesis-navigation-arrows {
+    top: calc(50% + 160px) !important;
+    padding: 0 2em !important;
+  }
+}
+
+/* ====================== LINKS – CONSISTENT & MOOI ====================== */
+.main-content a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+  text-decoration-color: rgba(102, 179, 255, 0.6) !important;
+  transition: color 0.3s ease;
+}
+
+.main-content a:hover {
+  color: #99ccff !important;
+  text-decoration-color: #99ccff !important;
+}
+
+.main-content a:visited {
+  color: #a0c4ff !important;
+}
+
+/* Footer & skip link */
+.site-footer-credits a {
+  color: #888 !important;
+  text-decoration: none;
+}
+
+.site-footer-credits a:hover {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+a#skip-to-content {
+  color: #66b3ff !important;
+  font-size: 0.9em;
+}
+
+/* ====================== TAALKEUZE BUTTONS ====================== */
+.language-buttons {
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4em 0;
+}
+
+.language-btn {
+  padding: 1.4em 2.5em;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white !important;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  width: 280px;
+}
+
+/* Donkere overlay voor leesbaarheid */
+.language-btn::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15, 20, 25, 0.5);
+  border-radius: 30px;
+  transition: background 0.4s ease;
+}
+
+.language-btn:hover::before {
+  background: rgba(15, 20, 25, 0.3);
+}
+
+.language-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Nederlandse button – NL vlag */
+.nl-btn {
+  background-image: url('https://flagcdn.com/w320/nl.png');
+}
+
+/* Engelse button – GB vlag */
+.en-btn {
+  background-image: url('https://flagcdn.com/w320/gb.png');
+}
+
+.language-btn:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+  .language-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .language-btn {
+    width: 85%;
+    max-width: 320px;
+    padding: 1.2em 2em;
+    font-size: 1.3em;
+  }
+}
+
+/* ====================== DONATION & INTEGRITY ====================== */
+.integrity-check, .donation-section, .community-box {
+  margin: 3em 0;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.integrity-check summary, .donation-section summary {
+  padding: 1.2em 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.integrity-check summary { color: #b0b0b0 !important; font-size: 1.1em; }
+.donation-section summary { color: #b0b0b0 !important; font-size: 1.3em; }
+
+.integrity-check[open] summary, .donation-section[open] summary {
+  border-bottom: 1px solid #333;
+}
+
+.integrity-content, .donation-content {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.integrity-content strong, .community-box strong { color: #66b3ff !important; }
+
+.integrity-content code, .donation-table code {
+  background: #1a1f24;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+/* QR-codes */
+.donation-table img {
+  width: 100% !important;
+  max-width: 180px !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .donation-table img {
+    max-width: 150px !important;
+  }
+
+  .donation-table td {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .donation-table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Buttons */
+.integrity-content button, .verify-btn, button.copy-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1.5em auto;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 2px solid #66b3ff !important;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.integrity-content button:hover, .verify-btn:hover, button.copy-btn:hover {
+  background: #66b3ff !important;
+  color: #0f1419 !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(102, 179, 255, 0.4);
+}
+
+/* Hash verifier page */
+.hash-verifier-container {
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+#input-text {
+  width: 100%;
+  height: 200px;
+  background: #1a1f24 !important;
+  color: #e0e0e0 !important;
+  border: 2px solid #333 !important;
+  border-radius: 12px;
+  padding: 1em;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+}
+
+#verify-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 1.5em;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 2px solid #66b3ff !important;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#verify-btn:hover {
+  background: #66b3ff !important;
+  color: #0f1419 !important;
+}
+
+.result-box {
+  padding: 1.5em;
+  border-radius: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.result-box.success {
+  background: rgba(102, 255, 102, 0.1);
+  border: 2px solid #66ff66;
+  color: #66ff66 !important;
+}
+
+.result-box.warning {
+  background: rgba(255, 200, 0, 0.1);
+  border: 2px solid #ffaa00;
+  color: #ffdd66 !important;
+}
+
+.result-box.error {
+  background: rgba(255, 102, 102, 0.1);
+  border: 2px solid #ff6666;
+  color: #ff6666 !important;
+}
+
+.result-box a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+/* ====================== MOBIEL OPTIMALISATIES ====================== */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1em !important;
+    font-size: 1.1em !important;
+  }
+
+  h1, .manifest-header, .overlay-text h1 {
+    font-size: 2.4em !important;
+  }
+
+  .overlay-text p {
+    font-size: 1.5em !important;
+  }
+
+  .theses-list li a {
+    font-size: 1.3em !important;
+  }
+
+  .integrity-check, .donation-section, .community-box {
+    padding: 1.2em !important;
+    margin: 2em 0 !important;
+  }
+
+  button, .verify-btn, .big-copy-btn {
+    padding: 1em !important;
+    font-size: 1.1em !important;
+    width: 100% !important;
+  }
+
+  .hash-input, #input-text {
+    font-size: 1em !important;
+    padding: 1em !important;
+  }
+
+  .language-buttons {
+    gap: 1.8em;
+  }
+
+  .language-btn {
+    width: 80% !important;
+    max-width: 300px !important;
+    padding: 1.1em 1.8em !important;
+    font-size: 1.35em !important;
+  }
+}
+
+/* Extra voor hele kleine schermen */
+@media (max-width: 480px) {
+  .language-btn {
+    width: 85% !important;
+    max-width: 280px !important;
+    padding: 1em 1.5em !important;
+    font-size: 1.3em !important;
+  }
+}
+
+/* TAALNOTE – GECENTREERD & MOOIER */
+.language-note {
+  text-align: center;
+  margin: 5em auto 3em;
+  max-width: 800px;
+  padding: 2em;
+  font-size: 1.2em;
+  color: #a0a0a0 !important;
+}
+
+.language-note p {
+  margin: 1em 0;
+}
+
+.language-note a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+.language-note a:hover {
+  color: #99ccff !important;
+}
+
+@media (max-width: 768px) {
+  .language-note {
+    padding: 1.5em;
+    font-size: 1.1em;
+    margin: 4em auto 2em;
+  }
+}
+/* ELEMENT / MATRIX DISCUSSION BOX – MOOIE BOX TERUG + GECENTREERD */
+.community-box {
+  margin: 3em auto !important;
+  max-width: 800px !important;
+  padding: 2em !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid #333 !important;
+  border-radius: 12px !important;
+  text-align: center !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Titel */
+.community-box strong {
+  display: block;
+  margin-bottom: 1em !important;
+  font-size: 1.3em !important;
+  color: #66b3ff !important;
+}
+
+/* Embed */
+.community-box iframe,
+.community-box div[class*="element"],
+.community-box [class*="discussion"] {
+  width: 100% !important;
+  max-width: 700px !important;
+  height: 600px !important;
+  border: none !important;
+  margin: 1em auto !important;
+  display: block !important;
+  border-radius: 8px;
+}
+
+/* Tip */
+.community-box small,
+.community-box .tip {
+  display: block;
+  margin-top: 1em !important;
+  font-size: 0.9em !important;
+  color: #a0a0a0 !important;
+}
+
+/* Generated by GitHub Pages – onderin de box */
+.community-box .site-footer-credits {
+  margin-top: 2em !important;
+  padding-top: 1em;
+  border-top: 1px solid #333;
+  font-size: 0.9em;
+  color: #888 !important;
+}
+
+.community-box .site-footer-credits a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+.community-box .site-footer-credits a:hover {
+  color: #99ccff !important;
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+  .community-box iframe,
+  .community-box div[class*="element"] {
+    height: 500px !important;
+  }
+}
+/* DISCUSSIEBOX – KLIKBAR DUIVELIJK MAKEN */
+.community-box {
+  cursor: pointer !important; /* handje bij hover */
+  transition: all 0.3s ease;
+}
+
+.community-box:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+/* Tekst "Join the discussion" groter en opvallender */
+.community-box strong {
+  font-size: 1.5em !important;
+  color: #66b3ff !important;
+  margin-bottom: 0.8em !important;
+}
+
+/* Tip – maak hem opvallender */
+.community-box small,
+.community-box .tip {
+  font-size: 1em !important;
+  color: #99ccff !important;
+  font-style: italic;
+  margin-top: 1.2em !important;
 }
 
 /* ====================== THESIS NAVIGATIE PIJLEN ====================== */
