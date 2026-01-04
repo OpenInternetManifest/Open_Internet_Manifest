@@ -220,7 +220,7 @@ body {
 
  .nav-back {
  position: absolute;
- right: 1em;
+ left: 1em;
  top: 50%;
  transform: translateY(-50%);
  font-size: 1em !important;
@@ -230,7 +230,7 @@ body {
  }
 
  .nav-toggle {
- position: absolute;
+ position: static;
  right: 1em !important;
  top: 50%;
  transform: translateY(-50%);
@@ -238,7 +238,7 @@ body {
  padding: 0.4em !important;
  z-index: 30;
  }
- 
+
  .nav-logo {
  position: relative;
  font-size: 1.3em !important;
