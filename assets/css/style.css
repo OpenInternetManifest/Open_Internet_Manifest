@@ -219,15 +219,13 @@ body {
  }
 
  .nav-back {
- position: absolute;
- right: 1em;
- top: 50%;
- transform: translateY(-50%);
- font-size: 1em !important;
- color: #66b3ff !important;
- padding: 0.4em 0.8em;
- z-index: 30;
- }
+  color: #66b3ff !important;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+}
+
 
  .nav-toggle {
  position: absolute !important;;
