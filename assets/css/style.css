@@ -27,8 +27,9 @@ body {
 .banner {
   position: relative;
   width: 100%;
-  min-height: 400px;
-  max-height: 80vh;
+  height: 60vh;                  /* standaard: 60% van viewport hoogte */
+  min-height: 300px;             /* nooit kleiner dan 300px */
+  max-height: 500px;             /* nooit hoger dan 500px op grote schermen */
   overflow: hidden;
 }
 
@@ -42,9 +43,34 @@ body {
   object-position: center center;
 }
 
+/* Mobiel: nog compacter */
+@media (max-width: 768px) {
+  .banner {
+    height: 45vh;                /* kleiner op mobiel – sneller bij content */
+    min-height: 280px;           /* maar nog steeds mooi groot */
+    max-height: 400px;
+  }
+
+  .overlay-text {
+    width: 92%;
+    padding: 1.6em 2em;
+    background: rgba(10, 15, 20, 0.7) !important;  /* iets donkerder voor contrast op klein scherm */
+  }
+
+  .overlay-text h1 {
+    font-size: 2.6em;            /* iets kleiner op mobiel */
+  }
+
+  .overlay-text p {
+    font-size: 1.5em;
+  }
+}
+
+/* Grote schermen: mooi groot */
 @media (min-width: 1200px) {
   .banner {
-    min-height: 550px;
+    height: 65vh;
+    min-height: 500px;
     max-height: 700px;
   }
 }
