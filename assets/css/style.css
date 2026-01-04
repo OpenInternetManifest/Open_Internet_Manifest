@@ -714,13 +714,14 @@ a#skip-to-content {
   font-style: italic;
   margin-top: 1.2em !important;
 }
-/* MOBIELE NAVIGATIE – HAMBURGER RECHTS, LOGO GECENTREERD */
+/* MOBIELE NAV HEADER – PERFECT STRAK & ELEGANT */
 @media (max-width: 768px) {
   .nav-container {
+    padding: 0 1em !important;
+    height: 50px !important;
     display: flex !important;
     justify-content: space-between !important;
-    align-items: center;
-    padding: 0.6em 1em !important;
+    align-items: center !important;
   }
 
   .nav-logo {
@@ -731,15 +732,12 @@ a#skip-to-content {
   }
 
   .nav-back {
-    order: 1;
     font-size: 1em !important;
-    color: #66b3ff !important;
     padding: 0.4em 0.6em;
+    color: #66b3ff !important;
   }
 
   .nav-toggle {
-    order: 3;
-    margin-left: auto; /* duwt helemaal naar rechts */
     padding: 0.4em !important;
   }
 
@@ -749,7 +747,7 @@ a#skip-to-content {
     margin: 4px 0;
   }
 
-  .nav-links {
+  .nav-links, .desktop-only {
     display: none !important;
   }
 }
