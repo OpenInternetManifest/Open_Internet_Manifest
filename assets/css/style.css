@@ -256,6 +256,15 @@ body {
     height: 2px !important;
     margin: 4px 0;
   }
+  
+  .mobile-menu {
+  position: absolute;
+    right: 1em;
+  display: none;
+  background: rgba(15, 20, 25, 0.98);
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+}
 
   .nav-links {
     display: none !important;
