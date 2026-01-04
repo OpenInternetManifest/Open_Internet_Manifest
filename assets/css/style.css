@@ -23,6 +23,44 @@ body {
   font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
 }
 
+/* ====================== BANNER ====================== */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 45vh;                  /* basis: goed balans desktop/mobiel */
+  min-height: 280px;             /* nooit te klein */
+  max-height: 500px;             /* cap op grote schermen */
+  overflow: hidden;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* Mobiel: compact, snel bij content */
+@media (max-width: 768px) {
+  .banner {
+    height: 38vh;                /* perfect op telefoon – niet te groot */
+    min-height: 260px;
+    max-height: 360px;
+  }
+}
+
+/* Grote schermen: iets groter maar niet overdreven */
+@media (min-width: 1200px) {
+  .banner {
+    height: 50vh;
+    min-height: 400px;
+    max-height: 600px;
+  }
+}
+
 /* ====================== OVERLAY TEXT ====================== */
 .overlay-text {
   position: absolute;
@@ -43,7 +81,7 @@ body {
 
 .overlay-text h1 {
   color: #66b3ff !important;
-  font-size: 3.8em;
+  font-size: 3.6em;
   margin: 0;
   font-weight: 900;
   letter-spacing: -1px;
@@ -51,37 +89,29 @@ body {
 
 .overlay-text p {
   color: #f0f8ff !important;
-  font-size: 1.9em;
+  font-size: 1.8em;
   margin: 0.8em 0 0;
   font-weight: 600;
 }
 
-/* Mobiel: overlay box echt klein en compact */
+/* Mobiel: overlay box klein en netjes */
 @media (max-width: 768px) {
   .overlay-text {
     width: 88%;
-    padding: 1.2em 1.6em !important;     /* veel minder padding → box kleiner */
-    background: rgba(10, 15, 20, 0.75) !important;
+    padding: 1.2em 1.6em !important;
+    background: rgba(10, 15, 20, 0.7) !important;
     border-radius: 18px;
   }
 
   .overlay-text h1 {
-    font-size: 2.4em !important;         /* perfect leesbaar, niet te groot */
-    letter-spacing: -0.8px;
+    font-size: 2.3em !important;      /* perfect formaat zoals in je screenshot */
   }
 
   .overlay-text p {
-    font-size: 1.4em !important;         /* compact maar duidelijk */
+    font-size: 1.35em !important;
     margin-top: 0.5em;
   }
 }
-
-/* Verwijder of comment de oude/extra kleine-schermen query – die maakt het weer groot */
-/*
-@media (max-width: 480px) {
-  ... verwijder dit hele blok ...
-}
-*/
 /* ====================== CONTENT & HEADINGS ====================== */
 .main-content {
   font-size: 1.15em !important;
