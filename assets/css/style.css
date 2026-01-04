@@ -227,7 +227,7 @@ body {
 
 .nav-logo {
     position: relative
-    left: 50%;
+    left: 0%;
     transform: translateX(-50%);
     font-size: 1.3em !important;
   }
