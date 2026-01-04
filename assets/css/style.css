@@ -212,7 +212,6 @@ body {
 @media (max-width: 768px) {
  .nav-container {
  position: relative !important;
- right: 1em !important;
  padding: 0.6em 1em !important;
  display: flex !important;
  justify-content: center !important;
@@ -221,7 +220,7 @@ body {
 
  .nav-back {
  position: absolute;
- left: 1em;
+ right: 1em;
  top: 50%;
  transform: translateY(-50%);
  font-size: 1em !important;
@@ -247,7 +246,7 @@ body {
  }
 
  .nav-toggle span {
- width: 20px !important;
+ width: 10px !important;
  height: 2px !important;
  margin: 4px 0;
  }
