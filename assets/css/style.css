@@ -1,6 +1,7 @@
 /* ====================== BASIS & DARK THEME ====================== */
 .page-header { display: none !important; }
 
+/* BASIS DARK THEME – MILDERE VERSIE */
 html, body {
   background: #0f1419 !important;
   color: #e0e0e0 !important;
@@ -28,7 +29,7 @@ body {
 .banner img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0; /* typo gefixed */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -42,7 +43,7 @@ body {
   }
 }
 
-/* ====================== OVERLAY TEXT ====================== */
+/* ====================== OVERLAY TEXT – PERFECTE VERSIE ====================== */
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -51,24 +52,29 @@ body {
   text-align: center;
   width: 85%;
   max-width: 900px;
-  background: rgba(10, 15, 20, 0.45) !important;
+  background: rgba(10, 15, 20, 0.55) !important; /* Zeer transparant */
   padding: 2.4em 3em;
   border-radius: 24px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(102, 179, 255, 0.3);
+  color: inherit !important;
 }
 
+/* Volledig clean tekst – geen halo, ghost of stroke */
 .overlay-text h1,
 .overlay-text p {
-  background: transparent !important;
   text-shadow: none !important;
-  -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.4) !important;
+  -webkit-text-shadow: none !important;
+  -moz-text-shadow: none !important;
+  -webkit-text-stroke: 1.2px rgba(0, 0, 0, 0.4) !important; /* Subtiele stroke neutraliseert browser-halo */
+  -webkit-text-stroke-width: 1.2px !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
 
+/* Titel – jouw lichtblauw */
 .overlay-text h1 {
   color: #66b3ff !important;
   font-size: 4.3em;
@@ -77,6 +83,7 @@ body {
   letter-spacing: -1px;
 }
 
+/* Subtitle */
 .overlay-text p {
   color: #f0f8ff !important;
   font-size: 2.1em;
@@ -84,6 +91,7 @@ body {
   font-weight: 600;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .overlay-text {
     width: 92%;
@@ -109,392 +117,44 @@ body {
   margin-top: 1.5em !important;
 }
 
-/* ====================== NAVIGATIE ====================== */
-.main-nav {
-  background: rgba(15, 20, 25, 0.95);
-  border-bottom: 1px solid #333;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
 
-.nav-container {
-  
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0.8em 1.5em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-
-.nav-logo {
-  font-weight: 900;
-  font-size: 1.3em;
-  color: #66b3ff !important;
-  text-decoration: none;
-}
-
-/* Back knop – altijd links */
-.nav-back {
-  color: #66b3ff !important;
-  text-decoration: none;
-  font-size: 1em;
-  font-weight: 600;
-  padding: 0.4em 0.8em;
-}
-
-.nav-back:hover {
-  color: #99ccff !important;
-}
-
-/* Desktop links */
-.nav-links {
-  display: flex;
-  gap: 2em;
-}
-
-.nav-links a {
-  color: #e0e0e0 !important;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1em;
-}
-
-.nav-links a:hover {
-  color: #66b3ff !important;
-}
-
-/* Hamburger */
-.nav-toggle {
-   position: absolute;
-  right: 1em;
-  left: auto; /* toevoegen */
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5em;
-}
-
-.nav-toggle span {
-  display: block;
-  width: 11px;
-  height: 2px;
-  background: #e0e0e0;
-  margin: 4px 0;
-}
-
-/* Mobiel menu */
-.mobile-menu {
-  display: none;
-  background: rgba(15, 20, 25, 0.98);
-  border-top: 1px solid #333;
-  padding: 0.5em 0;
-}
-
-.mobile-menu.open {
-  display: block;
-}
-
-.mobile-menu a {
-  display: block;
-  padding: 0.8em 1.5em;
-  color: #e0e0e0 !important;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.mobile-menu a:hover {
-  background: rgba(102, 179, 255, 0.1);
-  color: #66b3ff !important;
-}
-
-/* MOBIELE NAVIGATIE – BACK LINKS, LOGO CENTRAAL, HAMBURGER RECHTS (DEFINITIEF) */
-@media (max-width: 768px) {
-  .nav-container {
-    position: relative;
-    padding: 0.6em 1em !important;
-    display: flex !important;
-    justify-content: center !important; /* logo centraal */
-    align-items: center;
-  }
-
-  .nav-back {
-    position: absolute;
-    left: 1em;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1em !important;
-    color: #66b3ff !important;
-    padding: 0.4em 0.8em;
-    z-index: 20; /* boven alles */
-  }
-
-  .nav-logo {
-    font-size: 1.3em !important;
-    z-index: 10;
-  }
-
-  .nav-toggle {
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block !important;
-    padding: 0.4em !important;
-    z-index: 20; /* boven alles */
-  }
-
-  .nav-toggle span {
-    width: 20px !important;
-    height: 2px !important;
-    margin: 4px 0;
-  }
-
-  .nav-links {
-    display: none !important;
-  }
-}
-
-/* INTEGRITY / DONATION / PRAAT MEE – CONSISTENT & MET GLOW */
-.integrity-check, .donation-section, .community-box {
-  margin: 3em auto !important;
-  max-width: 800px !important;
-  padding: 2em !important;
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid #333 !important;
-  border-radius: 12px !important;
-  text-align: center !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-  transition: all 0.3s ease;
-  cursor: default;
-}
-
-/* Glow op hover – voor alle drie */
-.integrity-check:hover, .donation-section:hover, .community-box:hover {
-  background: rgba(255, 255, 255, 0.08) !important;
-  box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
-  transform: translateY(-4px);
-}
-
-/* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
-.integrity-content ol {
-  text-align: left !important;
-  display: block !important;
-  padding-left: 2em !important; /* netjes tegen tekst */
-  margin: 1.5em 0 !important;
-}
-
-.integrity-content li {
-  margin-bottom: 1em !important;
-  line-height: 1.6 !important;
-}
-
-.integrity-content ol li::marker {
-  color: #66b3ff !important;
-  font-weight: bold;
-}
-
-/* Plakbox SHA256 – mooie styling */
-.hash-input {
-  background: #1a1f24 !important;
-  color: #e0e0e0 !important;
-  border: 2px solid #333 !important;
-  padding: 1em;
-  border-radius: 12px;
-  font-size: 1.1em;
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 1em;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.hash-input:focus {
-  border-color: #66b3ff !important;
-  box-shadow: 0 0 12px rgba(102, 179, 255, 0.3);
-}
-
-/* Verifier button – mooi */
-#verify-btn {
-  background: #1a2a3a !important;
-  color: #66b3ff !important;
-  border: 2px solid #66b3ff !important;
-}
-
-#verify-btn:hover {
-  background: #66b3ff !important;
-  color: #0f1419 !important;
-}
-
-/* ====================== THESIS NAVIGATIE PIJLEN ====================== */
-.thesis-navigation-arrows {
-  position: fixed;
-  top: calc(50% + 200px);
-  left: 0;
-  right: 0;
-  transform: translateY(-50%);
-  pointer-events: none;
-  z-index: 50;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 3em;
-}
-
-.nav-arrow {
-  pointer-events: all;
-  font-size: 3.5em !important;
-  color: rgba(102, 179, 255, 0.6) !important;
-  background: transparent !important;
-  width: 80px !important;
-  height: 80px !important;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-
-.nav-arrow:hover {
-  color: #66b3ff !important;
-  background: rgba(102, 179, 255, 0.15) !important;
-  transform: scale(1.1);
-}
-
-.nav-arrow-left {
-  margin-right: auto;
-}
-
-.nav-arrow-right {
-  margin-left: auto;
-}
-
-@media (max-width: 768px) {
-  .nav-arrow {
-    font-size: 3em !important;
-    width: 70px !important;
-    height: 70px !important;
-  }
-
-  .thesis-navigation-arrows {
-    top: calc(50% + 160px) !important;
-    padding: 0 2em !important;
-  }
-}
-
-/* ====================== LINKS – CONSISTENT & MOOI ====================== */
-.main-content a {
-  color: #66b3ff !important;
-  text-decoration: underline;
-  text-decoration-color: rgba(102, 179, 255, 0.6) !important;
-  transition: color 0.3s ease;
-}
-
-.main-content a:hover {
-  color: #99ccff !important;
-  text-decoration-color: #99ccff !important;
-}
-
-.main-content a:visited {
-  color: #a0c4ff !important;
-}
-
-/* Footer & skip link */
-.site-footer-credits a {
-  color: #888 !important;
-  text-decoration: none;
-}
-
-.site-footer-credits a:hover {
-  color: #66b3ff !important;
-  text-decoration: underline;
-}
-
-a#skip-to-content {
-  color: #66b3ff !important;
-  font-size: 0.9em;
-}
-
-/* ====================== TAALKEUZE BUTTONS ====================== */
-.language-buttons {
-  display: flex;
-  gap: 3em;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 4em 0;
-}
-
-.language-btn {
-  padding: 1.4em 2.5em;
-  font-size: 1.4em;
-  font-weight: bold;
-  color: white !important;
-  text-decoration: none;
+/* Manifest intro */
+.manifest-header, .intro-title {
   text-align: center;
-  border-radius: 30px;
-  transition: all 0.4s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-  width: 280px;
+  color: #66b3ff;
+  font-weight: 700;
 }
 
-/* Donkere overlay voor leesbaarheid */
-.language-btn::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(15, 20, 25, 0.5);
-  border-radius: 30px;
-  transition: background 0.4s ease;
+.manifest-header { font-size: 3.8em; margin: 1.5em 0 0.5em; font-weight: 900; }
+.manifest-subtitle { font-size: 2.2em; color: white; margin-bottom: 3em; font-weight: 600; }
+.intro-title { font-size: 2.2em; margin: 2em 0 0.5em; }
+.intro-text { font-size: 1.6em; text-align: center; margin-bottom: 4em; }
+
+/* Theses list */
+.theses-list {
+  list-style: none;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.language-btn:hover::before {
-  background: rgba(15, 20, 25, 0.3);
+.theses-list li {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #333;
 }
 
-.language-btn span {
-  position: relative;
-  z-index: 1;
+.theses-list li a {
+  font-size: 1.5em;
+  color: #e0e0e0;
+  text-decoration: none;
+  display: block;
 }
 
-/* Nederlandse button – NL vlag */
-.nl-btn {
-  background-image: url('https://flagcdn.com/w320/nl.png');
-}
+.theses-list li a:hover { color: #66b3ff; }
+.thesis-number { color: #66b3ff !important; font-weight: 900; }
 
-/* Engelse button – GB vlag */
-.en-btn {
-  background-image: url('https://flagcdn.com/w320/gb.png');
-}
-
-.language-btn:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
-}
-
-/* Mobiel */
-@media (max-width: 768px) {
-  .language-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 2em;
-  }
-
-  .language-btn {
-    width: 85%;
-    max-width: 320px;
-    padding: 1.2em 2em;
-    font-size: 1.3em;
-  }
-}
-
-/* ====================== DONATION & INTEGRITY ====================== */
+/* ====================== INTEGRITY CHECK & BUTTONS ====================== */
 .integrity-check, .donation-section, .community-box {
   margin: 3em 0;
   border: 1px solid #333;
@@ -522,6 +182,7 @@ a#skip-to-content {
 }
 
 .integrity-content strong, .community-box strong { color: #66b3ff !important; }
+.integrity-content a { color: #66b3ff !important; text-decoration: underline; }
 
 .integrity-content code, .donation-table code {
   background: #1a1f24;
@@ -529,16 +190,17 @@ a#skip-to-content {
   border-radius: 4px;
   word-break: break-all;
 }
-
-/* QR-codes */
+/* DONATION – QR-CODES RESPONSIVE & BINNEN SCHERM */
 .donation-table img {
   width: 100% !important;
-  max-width: 180px !important;
+  max-width: 180px !important;   /* nooit groter dan dit */
   height: auto !important;
+  object-fit: contain;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;                 /* centreer */
 }
 
+/* Mobiel – nog kleiner en beter gecentreerd */
 @media (max-width: 768px) {
   .donation-table img {
     max-width: 150px !important;
@@ -583,7 +245,237 @@ a#skip-to-content {
   box-shadow: 0 8px 20px rgba(102, 179, 255, 0.4);
 }
 
-/* Hash verifier page */
+/* Input */
+.hash-input, .integrity-content input[type="text"] {
+  background: #1a1f24 !important;
+  color: #e0e0e0 !important;
+  border: 2px solid #333 !important;
+  padding: 1em;
+  border-radius: 12px;
+  font-size: 1.1em;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+.hash-input:focus, .integrity-content input[type="text"]:focus {
+  border-color: #66b3ff !important;
+  box-shadow: 0 0 12px rgba(102, 179, 255, 0.3);
+}
+
+/* Feedback */
+.copy-feedback, .verify-feedback {
+  text-align: center;
+  font-weight: bold;
+  min-height: 1.5em;
+}
+
+.copy-feedback { color: #66ff66 !important; font-size: 1.2em !important; margin: 1em 0; }
+
+/* Donation table */
+.donation-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 2em auto;
+  border-collapse: collapse;
+}
+
+.donation-table th, .donation-table td {
+  padding: 1em;
+  border: 1px solid #333;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.donation-table img { width: 150px; height: 150px; }
+
+/* Author donation link */
+.author-donation-link {
+  display: inline-block;
+  background: #66b3ff;
+  color: #0f1419 !important;
+  padding: 0.8em 1.5em;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 0.5em;
+}
+
+.author-donation-link:hover { background: #8cd3ff; }
+
+/* ====================== TAAL SELECTOR & HOME ====================== */
+.language-selector, .home-container {
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.language-selector { min-height: 70vh; display: flex; flex-direction: column; justify-content: center; }
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f1419 0%, #1a0033 50%, #001a33 100%);
+}
+
+.language-selector h1, .home-title {
+  color: #66b3ff;
+  margin-bottom: 0.5em;
+}
+
+.home-title {
+  font-size: 4.5em;
+  font-weight: 900;
+  background: linear-gradient(to right, #66b3ff, #66ffcc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.language-selector p, .home-subtitle {
+  font-size: 2.2em;
+  color: #e0e0e0;
+  margin-bottom: 4em;
+  font-weight: 500;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4em 0;
+}
+
+.language-btn {
+  padding: 1.4em 2.5em;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white !important;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  width: 280px; /* vaste breedte voor consistentie */
+}
+
+/* Nederlandse button – NL vlag als achtergrond */
+.nl-btn {
+  background-image: url('https://flagcdn.com/w320/nl.png');
+}
+
+.en-btn {
+  background-image: url('https://flagcdn.com/w320/gb.png');
+}
+
+.language-btn:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+.nl-btn:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+/* Donkere overlay voor leesbaarheid */
+.language-btn::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15, 20, 25, 0.5);
+  border-radius: 30px;
+  transition: background 0.4s ease;
+}
+
+.language-btn:hover::before {
+  background: rgba(15, 20, 25, 0.3);
+}
+
+.language-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+.en-btn:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+.flag {
+  font-size: 2.2em !important;
+}
+/* FIX: Overlay box echt transparant maken – forceer transparantie over globale regel heen */
+.overlay-text {
+  background: rgba(10, 15, 20, 0.45) !important; /* Nog meer transparant voor maximale banner-zichtbaarheid */
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+/* Zorg dat kinderen binnen de box (h1, p) geen achtergrond erven van globale * */
+.overlay-text h1,
+.overlay-text p {
+  background: transparent !important;
+}
+/* SHA256 Integrity check – opsomming netjes gecentreerd */
+.integrity-content ol {
+  text-align: left !important;        /* Houd de nummers links voor leesbaarheid */
+  display: inline-block !important;   /* Maakt de list zo breed als de content */
+  padding-left: 1.5em !important;     /* Standaard indent voor nummers */
+  margin: 1.5em auto !important;      /* Centreer de hele list horizontaal */
+}
+
+.integrity-content li {
+  margin-bottom: 1em !important;      /* Meer ruimte tussen stappen */
+  line-height: 1.6 !important;
+}
+
+/* Optioneel: maak de nummers blauw voor consistentie */
+.integrity-content ol li::marker {
+  color: #66b3ff !important;
+  font-weight: bold;
+}
+/* Community / Element discussion box – zacht gecentreerd zonder de layout te breken */
+.community-box {
+  text-align: center !important;
+  margin: 3em auto !important;
+  max-width: 800px !important;
+  padding: 0 !important; /* geen extra padding, want Element heeft eigen padding */
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Centreer de inhoud zonder de embed zelf te forceren */
+.community-box > div,
+.community-box iframe,
+.community-box [class*="element"],
+.community-box [class*="discussion"] {
+  display: block !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+/* Tekst erboven/erbinnen netjes */
+.community-box p,
+.community-box strong,
+.community-box a {
+  margin: 1em auto !important;
+  color: #66b3ff !important;
+}
+
+/* Tip kleiner en grijs */
+.community-box small,
+.community-box .tip,
+.community-box p:last-child {
+  font-size: 0.9em !important;
+  color: #a0a0a0 !important;
+  margin-top: 1em !important;
+}
+/* HASH VERIFIER PAGE – nette opmaak */
 .hash-verifier-container {
   max-width: 800px;
   margin: 3em auto;
@@ -658,8 +550,7 @@ a#skip-to-content {
   color: #66b3ff !important;
   text-decoration: underline;
 }
-
-/* ====================== MOBIEL OPTIMALISATIES ====================== */
+/* MOBIEL OPTIMALISATIES */
 @media (max-width: 768px) {
   .main-content {
     padding: 1em !important;
@@ -693,20 +584,19 @@ a#skip-to-content {
     font-size: 1em !important;
     padding: 1em !important;
   }
-
-  .language-buttons {
+ .language-buttons {
     gap: 1.8em;
   }
 
   .language-btn {
-    width: 80% !important;
-    max-width: 300px !important;
+    width: 80% !important;     /* kleiner dan 90% */
+    max-width: 300px !important; /* harde limiet */
     padding: 1.1em 1.8em !important;
     font-size: 1.35em !important;
   }
 }
 
-/* Extra voor hele kleine schermen */
+/* Extra fix voor hele kleine schermen (iPhone SE, etc.) */
 @media (max-width: 480px) {
   .language-btn {
     width: 85% !important;
@@ -715,7 +605,345 @@ a#skip-to-content {
     font-size: 1.3em !important;
   }
 }
+/* Navigatie – simpel en werkend op mobiel */
+.main-nav {
+  background: rgba(15, 20, 25, 0.95);
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
 
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8em 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: 900;
+  font-size: 1.3em;
+  color: #66b3ff !important;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2em;
+}
+
+.nav-links a {
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #66b3ff !important;
+}
+
+/* Hamburger */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #e0e0e0;
+  margin: 4px 0;
+}
+
+/* Mobiel menu */
+.mobile-menu {
+  display: none;
+  background: rgba(15, 20, 25, 0.98);
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+}
+
+.mobile-menu.open {
+  display: block;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 0.8em 1.5em;
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.mobile-menu a:hover {
+  background: rgba(102, 179, 255, 0.1);
+  color: #66b3ff !important;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .mobile-menu.open {
+    display: block;
+  }
+ /* MOBIELE NAVIGATIE – PERFECT UITGELIJND OP ALLE BROWSERS */
+@media (max-width: 768px) {
+  .main-nav {
+    padding: 0.5em 0;
+  }
+
+  .nav-container {
+    padding: 0 1em !important;
+    height: 56px; /* consistente hoogte */
+    display: grid !important;
+    grid-template-columns: auto 1fr auto; /* back | logo | hamburger */
+    align-items: center;
+    gap: 1em;
+  }
+
+  /* Back knop – links, klein en subtiel */
+  .nav-back {
+    grid-column: 1;
+    justify-self: start;
+    font-size: 1em !important;
+    color: #66b3ff !important;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.4em 0.8em;
+  }
+
+  .nav-back:hover {
+    color: #99ccff !important;
+  }
+
+  /* Logo – perfect gecentreerd */
+  .nav-logo {
+    grid-column: 2;
+    justify-self: center;
+    font-size: 1.3em !important;
+    margin: 0;
+  }
+
+  /* Hamburger – rechts, klein */
+  .nav-toggle {
+    grid-column: 3;
+    justify-self: end;
+    padding: 0.4em !important;
+  }
+
+  .nav-toggle span {
+    width: 20px !important;
+    height: 2px !important;
+    margin: 4px 0;
+  }
+
+  /* Verberg desktop links */
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+}
+/* THESIS NAVIGATIE PIJLEN – VOLGENDE ALTIJD RECHTS */
+.thesis-navigation-arrows {
+  position: fixed;
+  top: calc(50% + 200px);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em;
+}
+
+.nav-arrow {
+  pointer-events: all;
+  font-size: 3.5em !important;
+  color: rgba(102, 179, 255, 0.6) !important;
+  background: transparent !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.nav-arrow:hover {
+  color: #66b3ff !important;
+  background: rgba(102, 179, 255, 0.15) !important;
+  transform: scale(1.1);
+}
+
+/* Vorige links, volgende rechts – zelfs als één ontbreekt */
+.nav-arrow-left {
+  margin-right: auto; /* duwt naar links */
+}
+
+.nav-arrow-right {
+  margin-left: auto; /* duwt naar rechts – altijd */
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+  .nav-arrow {
+    font-size: 3em !important;
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .thesis-navigation-arrows {
+    top: calc(50% + 160px) !important;
+    padding: 0 2em !important;
+  }
+}
+
+/* LINKS – MOOIE, CONSISTENTE KLEUR & ONDERSTREPING */
+/* Alle links in de content */
+
+
+/* Specifiek voor "Generated by GitHub Pages" */
+.site-footer-credits a {
+  color: #a0a0a0 !important;           /* zacht grijs – subtiel maar leesbaar */
+  text-decoration: none;
+}
+
+.site-footer-credits a:hover {
+  color: #66b3ff !important;
+  text-decoration: underline;
+}
+
+/* Skip to content – klein en subtiel maar zichtbaar */
+a#skip-to-content {
+  color: #66b3ff !important;
+  font-size: 0.9em;
+}
+/* LINKS – BEZOCHTE LINKS FIX (geen paars meer) */
+a:visited {
+  color: #a0c4ff !important; /* zacht lichtblauw in plaats van paars */
+}
+
+.main-content a:visited,
+.footer-nav a:visited,
+.site-footer-credits a:visited {
+  color: #a0c4ff !important;
+}
+
+/* Specifiek voor deeplinks in theses (onderstreepte woorden) */
+.main-content a {
+  color: #66b3ff !important;
+  text-decoration: underline;
+  text-decoration-color: rgba(102, 179, 255, 0.6) !important;
+}
+
+.main-content a:hover {
+  color: #99ccff !important;
+}
+
+/* GitHub Pages credit onderaan – subtiel grijs */
+.site-footer-credits a {
+  color: #888 !important;
+}
+
+.site-footer-credits a:hover {
+  color: #66b3ff !important;
+}
+.nav-back {
+  color: #66b3ff !important;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-right: 2em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.nav-back:hover {
+  color: #99ccff !important;
+}
+
+/* Mobiel – terug knop bovenaan menu */
+@media (max-width: 768px) {
+  .nav-back {
+    font-size: 1em;
+    padding: 0.5em;
+    color: #66b3ff !important;
+  }
+
+  .nav-logo {
+    font-size: 1.3em;
+  }
+
+}
+/* ELEMENT / MATRIX DISCUSSION BOX – MOOIE BOX TERUG */
+.community-box {
+  margin: 3em auto !important;
+  max-width: 800px !important;
+  padding: 2em !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid #333 !important;
+  border-radius: 12px !important;
+  text-align: center !important;
+}
+
+/* Titel erboven */
+.community-box strong {
+  display: block;
+  margin-bottom: 1em !important;
+  font-size: 1.3em !important;
+  color: #66b3ff !important;
+}
+
+/* Embed zelf – iets kleiner en gecentreerd */
+.community-box iframe,
+.community-box div[class*="element"],
+.community-box [class*="discussion"] {
+  width: 100% !important;
+  max-width: 700px !important;
+  height: 600px !important;
+  border: none !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* Tip onderaan */
+.community-box small,
+.community-box .tip {
+  display: block;
+  margin-top: 1em !important;
+  font-size: 0.9em !important;
+  color: #a0a0a0 !important;
+}
+
+/* Mobiel – iets kleiner */
+@media (max-width: 768px) {
+  .community-box iframe,
+  .community-box div[class*="element"] {
+    height: 500px !important;
+}
+}
+}
 /* TAALNOTE – GECENTREERD & MOOIER */
 .language-note {
   text-align: center;
@@ -739,117 +967,70 @@ a#skip-to-content {
   color: #99ccff !important;
 }
 
+/* Mobiel – iets compacter */
 @media (max-width: 768px) {
   .language-note {
     padding: 1.5em;
     font-size: 1.1em;
     margin: 4em auto 2em;
   }
-}
-
-/* ELEMENT / MATRIX DISCUSSION BOX – MOOIE BOX TERUG + GECENTREERD */
-.community-box {
-  margin: 3em auto !important;
-  max-width: 800px !important;
-  padding: 2em !important;
-  background: rgba(255, 255, 255, 0.05) !important;
-  border: 1px solid #333 !important;
-  border-radius: 12px !important;
-  text-align: center !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-}
-
-/* Titel */
-.community-box strong {
-  display: block;
-  margin-bottom: 1em !important;
-  font-size: 1.3em !important;
-  color: #66b3ff !important;
-}
-
-/* Embed */
-.community-box iframe,
-.community-box div[class*="element"],
-.community-box [class*="discussion"] {
-  width: 100% !important;
-  max-width: 700px !important;
-  height: 600px !important;
-  border: none !important;
-  margin: 1em auto !important;
-  display: block !important;
-  border-radius: 8px;
-}
-
-/* Tip */
-.community-box small,
-.community-box .tip {
-  display: block;
-  margin-top: 1em !important;
-  font-size: 0.9em !important;
-  color: #a0a0a0 !important;
-}
-
-/* Generated by GitHub Pages – onderin de box */
-.community-box .site-footer-credits {
-  margin-top: 2em !important;
-  padding-top: 1em;
-  border-top: 1px solid #333;
-  font-size: 0.9em;
-  color: #888 !important;
-}
-
-.community-box .site-footer-credits a {
+  /* HERSTEL DESKTOP LINKS & THESIS PIJLEN – BELANGRIJK */
+.main-content a {
   color: #66b3ff !important;
   text-decoration: underline;
+  text-decoration-color: rgba(102, 179, 255, 0.6) !important;
+  transition: color 0.3s ease;
 }
 
-.community-box .site-footer-credits a:hover {
+.main-content a:hover {
   color: #99ccff !important;
 }
 
-/* Mobiel */
-@media (max-width: 768px) {
-  .community-box iframe,
-  .community-box div[class*="element"] {
-    height: 500px !important;
-  }
+/* Bezochte links – geen paars */
+.main-content a:visited {
+  color: #a0c4ff !important;
 }
 
-/* DISCUSSIEBOX – KLIKBAR DUIVELIJK MAKEN */
-.community-box {
-  cursor: pointer !important;
+/* Thesis pijlen – altijd zichtbaar op desktop */
+.thesis-navigation-arrows {
+  position: fixed;
+  top: calc(50% + 200px);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em;
+}
+
+.nav-arrow {
+  pointer-events: all;
+  font-size: 3.5em !important;
+  color: rgba(102, 179, 255, 0.7) !important;
+  background: transparent !important;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s ease;
 }
 
-.community-box:hover {
-  background: rgba(255, 255, 255, 0.08) !important;
-  box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
-  transform: translateY(-4px);
-}
-
-/* Tekst "Join the discussion" groter en opvallender */
-.community-box strong {
-  font-size: 1.5em !important;
+.nav-arrow:hover {
   color: #66b3ff !important;
-  margin-bottom: 0.8em !important;
+  background: rgba(102, 179, 255, 0.15) !important;
+  transform: scale(1.1);
 }
 
-/* Tip – maak hem opvallender */
-.community-box small,
-.community-box .tip {
-  font-size: 1em !important;
-  color: #99ccff !important;
-  font-style: italic;
-  margin-top: 1.2em !important;
+/* Pijlen positie – links en rechts */
+.nav-arrow-left {
+  margin-right: auto;
 }
 
-/* BACK BUTTON – ALTIJD LICHTBLAUW (ook visited) */
-.nav-back,
-.nav-back:visited {
-  color: #66b3ff !important;
-  text-decoration: none !important;
+.nav-arrow-right {
+  margin-left: auto;
 }
-
-.nav-back:hover {
-  color: #99ccff !important;
 }
