@@ -230,7 +230,7 @@ body {
  }
 
  .nav-logo {
- position: relative;
+ position: absolute;
  font-size: 1.3em !important;
  z-index: 20;
  }
