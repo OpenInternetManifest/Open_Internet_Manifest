@@ -230,14 +230,14 @@ body {
  }
 
  .nav-logo {
- position: absolute;
+ position: relative;
  font-size: 1.3em !important;
  z-index: 20;
  }
 
  .nav-toggle {
- position: relative;
- right: 1em;
+ position: absolute;
+ right: 1em !important;
  top: 50%;
  transform: translateY(-50%);
  display: block !important;
