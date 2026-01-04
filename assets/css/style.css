@@ -167,6 +167,23 @@ body {
   color: #66b3ff !important;
 }
 
+/* Hamburger */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #e0e0e0;
+  margin: 4px 0;
+}
+
 /* Mobiel menu */
 .mobile-menu {
   display: none;
@@ -192,24 +209,7 @@ body {
   color: #66b3ff !important;
 }
 
-/* Hamburger */
-.nav-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5em;
-}
-
-.nav-toggle span {
-  display: block;
-  width: 11px;
-  height: 2px;
-  background: #e0e0e0;
-  margin: 4px 0;
-}
-
-/* MOBIELE NAVIGATIE – BACK LINKS, LOGO CENTRAAL, HAMBURGER RECHTS (100% FIX) */
+/* MOBIELE NAVIGATIE – BACK LINKS, LOGO CENTRAAL, HAMBURGER RECHTS (DEFINITIEF) */
 @media (max-width: 768px) {
   .nav-container {
     position: relative;
