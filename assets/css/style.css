@@ -209,53 +209,6 @@ body {
   color: #66b3ff !important;
 }
 
-/* MOBIELE NAVIGATIE – BACK LINKS, LOGO CENTRAAL, HAMBURGER RECHTS (DEFINITIEF) */
-@media (max-width: 768px) {
-  .nav-container {
-    position: relative;
-    padding: 0.6em 1em !important;
-    display: flex !important;
-    justify-content: center !important; /* logo centraal */
-    align-items: center;
-  }
-
-  .nav-back {
-    position: absolute;
-    left: 1em;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1em !important;
-    color: #66b3ff !important;
-    padding: 0.4em 0.8em;
-    z-index: 20; /* boven alles */
-  }
-
-  .nav-logo {
-    font-size: 1.3em !important;
-    z-index: 10;
-  }
-
-  .nav-toggle {
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block !important;
-    padding: 0.4em !important;
-    z-index: 20; /* boven alles */
-  }
-
-  .nav-toggle span {
-    width: 20px !important;
-    height: 2px !important;
-    margin: 4px 0;
-  }
-
-  .nav-links {
-    display: none !important;
-  }
-}
-
 /* INTEGRITY / DONATION / PRAAT MEE – CONSISTENT & MET GLOW */
 .integrity-check, .donation-section, .community-box {
   margin: 3em auto !important;
