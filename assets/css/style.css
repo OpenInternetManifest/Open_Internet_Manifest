@@ -536,7 +536,7 @@ a#skip-to-content {
   .language-btn {
     width: 85%;                   /* bijna volle breedte */
     max-width: 320px;
-    height: 120px;                /* VEEL compacter (was 210px) – perfecte balans */
+    height: 60px;                /* VEEL compacter (was 210px) – perfecte balans */
     border-radius: 20px;          /* iets minder rond, voelt moderner */
   }
 
