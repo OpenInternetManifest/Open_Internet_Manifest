@@ -491,7 +491,7 @@ a#skip-to-content {
 /* Desktop & tablet */
 @media (min-width: 769px) {
   .language-btn {
-    height: 190px;                /* mooi groot op desktop */
+    height: 90px;                /* mooi groot op desktop */
   }
 
   .language-btn span {
