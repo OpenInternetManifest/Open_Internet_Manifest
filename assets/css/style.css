@@ -118,11 +118,11 @@ body {
 /* Extra kleine schermen */
 @media (max-width: 480px) {
   .overlay-text h1 {
-    font-size: 2.2em !important;
+    font-size: 2em !important;
   }
 
   .overlay-text p {
-    font-size: 1.3em !important;
+    font-size: 1em !important;
   }
 }
 
