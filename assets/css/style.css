@@ -525,21 +525,28 @@ a#skip-to-content {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
 }
 
-/* Mobiel – stacked en groter */
+/* Mobiel – compacter, eleganter en beter tikbaar */
 @media (max-width: 768px) {
   .language-buttons {
     flex-direction: column;
-    gap: 2.5em;
+    gap: 2em;                     /* iets minder ruimte tussen */
+    padding: 0 1em;
   }
 
   .language-btn {
-    width: 90%;
-    max-width: 340px;
-    height: 210px;
+    width: 85%;                   /* bijna volle breedte */
+    max-width: 320px;
+    height: 120px;                /* VEEL compacter (was 210px) – perfecte balans */
+    border-radius: 20px;          /* iets minder rond, voelt moderner */
   }
 
   .language-btn span {
-    font-size: 1.6em;
+    font-size: 1.35em;            /* tekst iets kleiner maar nog goed leesbaar */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  }
+
+  .language-btn:hover {
+    transform: translateY(-6px) scale(1.03);  /* subtieler hover */
   }
 }
 
