@@ -23,44 +23,6 @@ body {
   font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
 }
 
-/* ====================== BANNER ====================== */
-.banner {
-  position: relative;
-  width: 100%;
-  height: 40vh;                  /* desktop: minder hoog (ca. helft scherm) */
-  min-height: 320px;
-  max-height: 550px;
-  overflow: hidden;
-}
-
-.banner img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
-}
-
-/* Mobiel: nog compacter */
-@media (max-width: 768px) {
-  .banner {
-    height:35vh;                /* mobiel: echt compact, snel bij content */
-    min-height: 260px;
-    max-height: 380px;
-  }
-}
-
-/* Grote schermen: iets indrukwekkender */
-@media (min-width: 1200px) {
-  .banner {
-    height: 55vh;
-    min-height: 450px;
-    max-height: 650px;
-  }
-}
-
 /* ====================== OVERLAY TEXT ====================== */
 .overlay-text {
   position: absolute;
@@ -71,7 +33,7 @@ body {
   width: 85%;
   max-width: 900px;
   background: rgba(10, 15, 20, 0.45) !important;
-  padding: 2em 2.5em;            /* iets minder padding desktop */
+  padding: 2em 2.5em;
   border-radius: 24px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(16px);
@@ -81,7 +43,7 @@ body {
 
 .overlay-text h1 {
   color: #66b3ff !important;
-  font-size: 3.8em;              /* kleiner op desktop */
+  font-size: 3.8em;
   margin: 0;
   font-weight: 900;
   letter-spacing: -1px;
@@ -89,43 +51,37 @@ body {
 
 .overlay-text p {
   color: #f0f8ff !important;
-  font-size: 1.9em;              /* kleiner op desktop */
+  font-size: 1.9em;
   margin: 0.8em 0 0;
   font-weight: 600;
 }
 
-/* Mobiel: overlay box en tekst echt compact */
+/* Mobiel: overlay box echt klein en compact */
 @media (max-width: 768px) {
   .overlay-text {
-    width: 90%;
-    max-width: none;
-    padding: 1.4em 1.8em !important;   /* veel kleiner padding */
-    background: rgba(10, 15, 20, 0.75) !important; /* donkerder voor contrast */
-    border-radius: 20px;
+    width: 88%;
+    padding: 1.2em 1.6em !important;     /* veel minder padding → box kleiner */
+    background: rgba(10, 15, 20, 0.75) !important;
+    border-radius: 18px;
   }
 
   .overlay-text h1 {
-    font-size: 1em !important;      /* compact maar leesbaar */
-    letter-spacing: -0.5px;
+    font-size: 2.4em !important;         /* perfect leesbaar, niet te groot */
+    letter-spacing: -0.8px;
   }
 
   .overlay-text p {
-    font-size: 1em !important;
-    margin-top: 0.6em;
+    font-size: 1.4em !important;         /* compact maar duidelijk */
+    margin-top: 0.5em;
   }
 }
 
-/* Extra kleine schermen */
+/* Verwijder of comment de oude/extra kleine-schermen query – die maakt het weer groot */
+/*
 @media (max-width: 480px) {
-  .overlay-text h1 {
-    font-size: 2em !important;
-  }
-
-  .overlay-text p {
-    font-size: 1em !important;
-  }
+  ... verwijder dit hele blok ...
 }
-
+*/
 /* ====================== CONTENT & HEADINGS ====================== */
 .main-content {
   font-size: 1.15em !important;
