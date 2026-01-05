@@ -9,8 +9,8 @@ Dit manifest is levend – het groeit door bijdragen van mensen zoals jij.
 
 **De eerste 30 theses zijn klaar**  
 [Begin met lezen →](/Open_Internet_Manifest/nl/theses/thesis-00)  
-[Alle theses →](/Open_Internet_Manifest/nl/manifest)
-[hash] (/nl/begrippen/cryptografische-hash/)
+[Alle theses →](/Open_Internet_Manifest/nl/manifest)    
+[hash](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
 
 
 **Praktische guides**  

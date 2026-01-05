@@ -7,8 +7,8 @@ This manifest is living — it grows through contributions from people like you.
 
 **The first 30 theses are ready**  
 [Start reading →](/Open_Internet_Manifest/en/theses/thesis-00)  
-[All theses →](/Open_Internet_Manifest/en/manifest)
-[hash] (/en/concepts/cryptographic-hash)
+[All theses →](/Open_Internet_Manifest/en/manifest) 
+[hash](/Open_Internet_Manifest/en/concepts/cryptographic-hash)
 
 
 
