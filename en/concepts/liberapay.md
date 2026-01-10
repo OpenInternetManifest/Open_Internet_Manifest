@@ -11,7 +11,7 @@ Open-source, non-profit platform for recurring donations to creators and project
 
 No commission on donations, fully transparent.
 
-See also → [Open Collective](/Open_Internet_manifest/en/concepts/open-collective) · [Thesis 26](/Open_Internet_manifest/en/theses/thesis-26) · [liberapay.com](https://liberapay.com/)
+See also → [Open Collective](/Open_Internet_Manifest/en/concepts/open-collective) · [Thesis 26](/Open_Internet_Manifest/en/theses/thesis-26) · [liberapay.com](https://liberapay.com/)
 
 ---
 

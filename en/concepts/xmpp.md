@@ -11,6 +11,6 @@ Open, federated messaging protocol from 1999 — basis for Jabber and many apps 
 
 Fully decentralized, end-to-end encryption possible (OMEMO).
 
-See also → [Matrix](/Open_Internet_manifest/en/concepts/matrix) · [Thesis 16](/Open_Internet_manifest/en/theses/thesis-16) · [xmpp.org](https://xmpp.org/)
+See also → [Matrix](/Open_Internet_Manifest/en/concepts/matrix) · [Thesis 16](/Open_Internet_Manifest/en/theses/thesis-16) · [xmpp.org](https://xmpp.org/)
 
 ---

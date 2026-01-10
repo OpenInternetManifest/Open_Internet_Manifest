@@ -13,6 +13,6 @@ The bait gatekeepers use to trade freedom for dependence.
 
 True convenience is an internet that works without an intermediary — just like in the 80s and 90s.
 
-See also → [Walled garden](/Open_Internet_manifest/en/concepts/walled-garden) · [Security](/Open_Internet_manifest/en/concepts/security) · [Thesis 2](/Open_Internet_manifest/en/theses/thesis-02)
+See also → [Walled garden](/Open_Internet_Manifest/en/concepts/walled-garden) · [Security](/Open_Internet_Manifest/en/concepts/security) · [Thesis 2](/Open_Internet_Manifest/en/theses/thesis-02)
 
 ---

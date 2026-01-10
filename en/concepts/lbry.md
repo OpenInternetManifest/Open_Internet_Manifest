@@ -11,7 +11,7 @@ Blockchain protocol for decentralized content distribution (basis of Odysee).
 
 Content is linked to cryptographic hashes, no one can delete it.
 
-See also → [Odysee](/Open_Internet_manifest/en/concepts/odysee) · [Thesis 17](/Open_Internet_manifest/en/theses/thesis-17) · [lbry.com](https://lbry.com/)
+See also → [Odysee](/Open_Internet_Manifest/en/concepts/odysee) · [Thesis 17](/Open_Internet_Manifest/en/theses/thesis-17) · [lbry.com](https://lbry.com/)
 
 ---
 

@@ -11,6 +11,6 @@ The ability to act, speak, and create online without permission, surveillance, o
 
 Not to be confused with “privacy settings” inside a walled garden.
 
-See also → [Digital sovereignty](/Open_Internet_manifest/en/concepts/digital-sovereignty) · [Collective exit](/Open_Internet_manifest/en/concepts/collective-exit) · [Thesis 5](/Open_Internet_manifest/en/theses/thesis-05)
+See also → [Digital sovereignty](/Open_Internet_Manifest/en/concepts/digital-sovereignty) · [Collective exit](/Open_Internet_Manifest/en/concepts/collective-exit) · [Thesis 5](/Open_Internet_Manifest/en/theses/thesis-05)
 
 ---

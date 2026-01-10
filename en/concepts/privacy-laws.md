@@ -13,7 +13,7 @@ Effect: companies hire more lawyers, users get more pop-ups, but the fundamental
 
 A bandage, not a cure.
 
-See also → [Surveillance](/Open_Internet_manifest/en/concepts/surveillance) · [Regulation](/Open_Internet_manifest/en/concepts/regulation) · [Thesis 5](/Open_Internet_manifest/en/theses/thesis-05)
+See also → [Surveillance](/Open_Internet_Manifest/en/concepts/surveillance) · [Regulation](/Open_Internet_Manifest/en/concepts/regulation) · [Thesis 5](/Open_Internet_Manifest/en/theses/thesis-05)
 
 ---
 

@@ -11,7 +11,7 @@ The internet in its original, inalienable state: open, neutral, decentralized, a
 
 Not a product, not a service, not a platform — but a commons belonging to all humanity.
 
-See also → [Digital sovereignty](/Open_Internet_manifest/en/concepts/digital-sovereignty) · [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Thesis 3](/Open_Internet_manifest/en/theses/thesis-03) · [Thesis 6](/Open_Internet_manifest/en/theses/thesis-06)
+See also → [Digital sovereignty](/Open_Internet_Manifest/en/concepts/digital-sovereignty) · [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [Thesis 3](/Open_Internet_Manifest/en/theses/thesis-03) · [Thesis 6](/Open_Internet_Manifest/en/theses/thesis-06)
 
 ---
 

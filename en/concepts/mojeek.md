@@ -11,7 +11,7 @@ Independent search engine with its own index (no Google/Bing dependency).
 
 Privacy-focused, no tracking, UK-based.
 
-See also → [Thesis 18](/Open_Internet_manifest/en/theses/thesis-18) · [mojeek.com](https://www.mojeek.com/)
+See also → [Thesis 18](/Open_Internet_Manifest/en/theses/thesis-18) · [mojeek.com](https://www.mojeek.com/)
 
 ---
 

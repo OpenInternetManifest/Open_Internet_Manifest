@@ -11,6 +11,6 @@ Antitrust and competition laws that attempt to break up big platforms or force c
 
 Result: often only cosmetic changes while the underlying lock-in and dependence remain.
 
-See also → [Gatekeepers](/Open_Internet_manifest/en/concepts/gatekeepers) · [Regulation](/Open_Internet_manifest/en/concepts/regulation) · [Thesis 5](/Open_Internet_manifest/en/theses/thesis-05)
+See also → [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Regulation](/Open_Internet_Manifest/en/concepts/regulation) · [Thesis 5](/Open_Internet_Manifest/en/theses/thesis-05)
 
 ---

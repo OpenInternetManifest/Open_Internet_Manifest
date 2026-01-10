@@ -11,6 +11,6 @@ The active creation of alternative infrastructure, protocols, nodes, and communi
 
 Building is only meaningful if it happens outside their walls — otherwise it is collaboration.
 
-See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Independent protocols](/Open_Internet_manifest/en/concepts/independent-protocols) · [Thesis 6](/Open_Internet_manifest/en/theses/thesis-06)
+See also → [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [Independent protocols](/Open_Internet_Manifest/en/concepts/independent-protocols) · [Thesis 6](/Open_Internet_Manifest/en/theses/thesis-06)
 
 ---

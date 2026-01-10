@@ -13,6 +13,6 @@ You choose or run your own instance, follow people across instances, and can alw
 
 Millions of users in 2025.
 
-See also → [ActivityPub](/Open_Internet_manifest/en/concepts/activitypub) · [Thesis 15](/Open_Internet_manifest/en/theses/thesis-15) · [joinmastodon.org](https://joinmastodon.org/)
+See also → [ActivityPub](/Open_Internet_Manifest/en/concepts/activitypub) · [Thesis 15](/Open_Internet_Manifest/en/theses/thesis-15) · [joinmastodon.org](https://joinmastodon.org/)
 
 ---

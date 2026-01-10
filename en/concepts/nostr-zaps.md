@@ -11,7 +11,7 @@ Micropayments (zaps) via Lightning on the Nostr protocol — direct from person 
 
 No platform taking commission or able to block you.
 
-See also → [Nostr](/Open_Internet_manifest/en/concepts/nostr) · [Bitcoin + Lightning](/Open_Internet_manifest/en/concepts/bitcoin-lightning) · [Thesis 19](/Open_Internet_manifest/en/theses/thesis-19)
+See also → [Nostr](/Open_Internet_Manifest/en/concepts/nostr) · [Bitcoin + Lightning](/Open_Internet_Manifest/en/concepts/bitcoin-lightning) · [Thesis 19](/Open_Internet_Manifest/en/theses/thesis-19)
 
 ---
 

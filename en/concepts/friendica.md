@@ -13,7 +13,7 @@ Connects with Mastodon, Diaspora, and even older systems.
 
 Strong focus on privacy and data portability.
 
-See also → [ActivityPub](/Open_Internet_manifest/en/concepts/activitypub) · [Thesis 15](/Open_Internet_manifest/en/theses/thesis-15) · [friendi.ca](https://friendi.ca/)
+See also → [ActivityPub](/Open_Internet_Manifest/en/concepts/activitypub) · [Thesis 15](/Open_Internet_Manifest/en/theses/thesis-15) · [friendi.ca](https://friendi.ca/)
 
 ---
 

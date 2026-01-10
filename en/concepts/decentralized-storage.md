@@ -11,7 +11,7 @@ Storing data across many independent nodes instead of one central point (e.g. IP
 
 Makes censorship, data breaches, and lock-in virtually impossible.
 
-See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [IPFS](/Open_Internet_manifest/en/concepts/independent-protocols) · [Thesis 7](/Open_Internet_manifest/en/theses/thesis-07)
+See also → [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [IPFS](/Open_Internet_Manifest/en/concepts/independent-protocols) · [Thesis 7](/Open_Internet_Manifest/en/theses/thesis-07)
 
 ---
 

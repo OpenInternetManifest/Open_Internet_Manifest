@@ -11,7 +11,7 @@ Privacy-focused messenger based on onion routing (Lokinet) — no phone number o
 
 End-to-end encrypted, metadata minimization.
 
-See also → [End-to-end encryption](/Open_Internet_manifest/en/concepts/end-to-end-encryption) · [Thesis 16](/Open_Internet_manifest/en/theses/thesis-16) · [getsession.org](https://getsession.org/)
+See also → [End-to-end encryption](/Open_Internet_Manifest/en/concepts/end-to-end-encryption) · [Thesis 16](/Open_Internet_Manifest/en/theses/thesis-16) · [getsession.org](https://getsession.org/)
 
 ---
 

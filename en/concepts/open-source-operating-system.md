@@ -11,7 +11,7 @@ Operating systems such as Linux (desktop/mobile), GrapheneOS, CalyxOS, Ubuntu To
 
 The only way to truly own your phone or computer.
 
-See also → [Open hardware](/Open_Internet_manifest/en/concepts/open-hardware) · [Thesis 4](/Open_Internet_manifest/en/theses/thesis-04)
+See also → [Open hardware](/Open_Internet_Manifest/en/concepts/open-hardware) · [Thesis 4](/Open_Internet_Manifest/en/theses/thesis-04)
 
 ---
 

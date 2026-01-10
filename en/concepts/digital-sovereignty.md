@@ -11,6 +11,6 @@ The inalienable right of every individual to have full control over their own da
 
 The opposite of dependence on gatekeepers and walled gardens.
 
-See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Gatekeepers](/Open_Internet_manifest/en/concepts/gatekeepers) · [Thesis 1](/Open_Internet_manifest/en/theses/thesis-01)
+See also → [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Thesis 1](/Open_Internet_Manifest/en/theses/thesis-01)
 
 ---

@@ -11,6 +11,6 @@ A closed ecosystem in which a company (usually Apple, Google, or Meta) has full 
 
 Users are lured with “convenience” and “safety,” but lose freedom, privacy, and choice.
 
-See also → [Gatekeepers](/Open_Internet_manifest/en/concepts/gatekeepers) · [Thesis 1](/Open_Internet_manifest/en/theses/thesis-01) · [Thesis 8](/Open_Internet_manifest/en/theses/thesis-08)
+See also → [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Thesis 1](/Open_Internet_Manifest/en/theses/thesis-01) · [Thesis 8](/Open_Internet_Manifest/en/theses/thesis-08)
 
 ---

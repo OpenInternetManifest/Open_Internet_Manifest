@@ -11,7 +11,7 @@ Linux distribution for self-hosting apps (Nextcloud, Matrix, Mastodon, etc.) on 
 
 One-click installation of dozens of apps, focused on simplicity.
 
-See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Thesis 25](/Open_Internet_manifest/en/theses/thesis-25) · [yunohost.org](https://yunohost.org/)
+See also → [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [Thesis 25](/Open_Internet_Manifest/en/theses/thesis-25) · [yunohost.org](https://yunohost.org/)
 
 ---
 

@@ -13,7 +13,7 @@ Privacy by default, open-source apps, no phone number required.
 
 Good first step away from Gmail.
 
-See also → [Proton Drive](/Open_Internet_manifest/en/concepts/proton-drive) · [Thesis 27](/Open_Internet_manifest/en/theses/thesis-27) · [proton.me/mail](https://proton.me/mail)
+See also → [Proton Drive](/Open_Internet_Manifest/en/concepts/proton-drive) · [Thesis 27](/Open_Internet_Manifest/en/theses/thesis-27) · [proton.me/mail](https://proton.me/mail)
 
 ---
 

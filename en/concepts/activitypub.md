@@ -13,7 +13,7 @@ The foundation of Mastodon, Pixelfed, PeerTube, Lemmy, and many others.
 
 Users can choose servers, take their data with them, and communicate freely across platform boundaries.
 
-See also → [Independent protocols](/Open_Internet_manifest/en/concepts/independent-protocols) · [Mastodon](https://joinmastodon.org/) · [Thesis 12](/Open_Internet_manifest/en/theses/thesis-12)
+See also → [Independent protocols](/Open_Internet_Manifest/en/concepts/independent-protocols) · [Mastodon](https://joinmastodon.org/) · [Thesis 12](/Open_Internet_Manifest/en/theses/thesis-12)
 
 ---
 

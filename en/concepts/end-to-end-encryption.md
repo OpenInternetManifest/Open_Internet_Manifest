@@ -13,7 +13,7 @@ Examples: Signal, Matrix (optional), WhatsApp (limited).
 
 The technical foundation to make privacy normal again.
 
-See also → [Privacy](/Open_Internet_manifest/en/concepts/privacy) · [Free protocols](/Open_Internet_manifest/en/concepts/independent-protocols) · [Thesis 7](/Open_Internet_manifest/en/theses/thesis-07)
+See also → [Privacy](/Open_Internet_Manifest/en/concepts/privacy) · [Free protocols](/Open_Internet_Manifest/en/concepts/independent-protocols) · [Thesis 7](/Open_Internet_Manifest/en/theses/thesis-07)
 
 ---
 

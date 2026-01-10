@@ -11,7 +11,7 @@ The right and ability to have full control over your own data: where it is store
 
 Opposite of data in the hands of gatekeepers.
 
-See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Solid](/Open_Internet_manifest/en/concepts/solid) · [Thesis 13](/Open_Internet_manifest/en/theses/thesis-13)
+See also → [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [Solid](/Open_Internet_Manifest/en/concepts/solid) · [Thesis 13](/Open_Internet_Manifest/en/theses/thesis-13)
 
 ---
 

@@ -11,7 +11,7 @@ Direct micropayment via Lightning Network on Nostr – often used to tip creator
 
 No intermediary, no commission, direct support.
 
-See also → [Bitcoin + Lightning](/Open_Internet_manifest/en/concepts/bitcoin-lightning) · [Nostr zaps](/Open_Internet_manifest/en/concepts/nostr-zaps) · [Thesis 26](/Open_Internet_manifest/en/theses/thesis-26)
+See also → [Bitcoin + Lightning](/Open_Internet_Manifest/en/concepts/bitcoin-lightning) · [Nostr zaps](/Open_Internet_Manifest/en/concepts/nostr-zaps) · [Thesis 26](/Open_Internet_Manifest/en/theses/thesis-26)
 
 ---
 

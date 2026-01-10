@@ -13,6 +13,6 @@ Like a bank run: once enough people demand their money, it's over.
 
 This is our last chance.
 
-See also → [Enclosures](/Open_Internet_manifest/en/concepts/enclosures) · [Thesis 4](/Open_Internet_manifest/en/theses/thesis-04)
+See also → [Enclosures](/Open_Internet_Manifest/en/concepts/enclosures) · [Thesis 4](/Open_Internet_Manifest/en/theses/thesis-04)
 
 ---

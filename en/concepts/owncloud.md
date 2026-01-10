@@ -11,7 +11,7 @@ Open-source platform for self-hosted file synchronization and sharing (predecess
 
 Gives you your own cloud storage without dependence on Big Tech.
 
-See also → [Nextcloud](/Open_Internet_manifest/en/concepts/nextcloud) · [Data sovereignty](/Open_Internet_manifest/en/concepts/data-sovereignty) · [Thesis 13](/Open_Internet_manifest/en/theses/thesis-13) · [owncloud.com](https://owncloud.com/)
+See also → [Nextcloud](/Open_Internet_Manifest/en/concepts/nextcloud) · [Data sovereignty](/Open_Internet_Manifest/en/concepts/data-sovereignty) · [Thesis 13](/Open_Internet_Manifest/en/theses/thesis-13) · [owncloud.com](https://owncloud.com/)
 
 ---
 
