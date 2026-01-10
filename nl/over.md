@@ -1,29 +1,45 @@
 ---
 layout: default
 lang: nl
-title: over - about pagina
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-00
-
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+title: Over het Open Internet Manifest
 ---
 
-In de echte wereld weet je altijd hoe je ergens bent gekomen: te voet, met de fiets, via een mooie route of in de stromende regen.  
-Op het huidige internet word je geteleporteerd naar een paar gesloten pretparken zonder te weten wie de poorten beheert.
+# Een internet dat weer van ons is
 
-Dit manifest wil een internet teruggeven met echte wegen, pleinen en paden – een internet waar jij weer zelf de route kiest.
+In de echte wereld kies je zelf je route: te voet, op de fiets, door een park of langs een rivier.  
+Op het huidige internet word je in een paar seconden naar gesloten platforms geslingerd, zonder te weten wie de poorten beheert en wie meekijkt.
 
-Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouwd en eigendom van de gemeenschap.
+Dit manifest wil dat veranderen.
 
-## De Theses
-[Begin met lezen →](/Open_Internet_Manifest/nl/theses/thesis-00)  
-[Alle theses →](/Open_Internet_Manifest/nl/manifest)    
-Wat is nu eigenlijk hash verrificatie en waarom zouden we dat doen: [hash](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
+We dromen van een internet met **echte wegen, open pleinen en vrije paden** – gedecentraliseerd, vrij en **eigendom van de gemeenschap**.  
+Geen gatekeepers meer. Geen surveillance. Geen black boxes.
 
-## Praktische stappen (begin vandaag)
-[Volg de guides voor Mastodon, Nextcloud, sovereign nodes en meer →](/Open_Internet_Manifest/nl/guides)
+Dit is een **levend document**. Het groeit door jouw input, ideeën en bijdragen. Samen bouwen we aan een internet dat weer van ons is.
+
+## Waar begin je?
+
+[→ Begin met lezen – thesis 1](/Open_Internet_Manifest/nl/theses/thesis-00)  
+[→ Alle 100 theses in één overzicht](/Open_Internet_Manifest/nl/manifest)
+
+Wil je weten waarom we alles **cryptografisch verifiëren** (zodat niemand kan knoeien met de inhoud)?  
+[→ Cryptografische hashes uitgelegd](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
+
+## Praktisch aan de slag (begin vandaag nog)
+
+[→ Volg de stap-voor-stap guides voor Mastodon, Nextcloud, sovereign nodes en meer](/Open_Internet_Manifest/nl/guides)
+
+Dit is pas het begin.  
+**Doe mee. Draag bij. Maak het internet weer open.**
+
+## Hoe werkt de site?
+
+- Elke thesis heeft een **volgende** en **vorige** pijl (rechts en links op het scherm)  
+- Onder elke thesis vind je links naar relevante **begrippen** (uitleg woorden) en **guides** (praktische stappen)  
+- Bovenaan links zie je altijd de **← Back** knop → die brengt je gewoon terug naar waar je vandaan kwam  
+- De hamburger-menu (drie streepjes rechtsboven op mobiel) geeft snel toegang tot alle hoofdpagina’s  
+
+Zo kun je op jouw eigen manier door het manifest navigeren – net zoals op een vrij, open internet.
+
+(De discussie en community-ruimte vind je onderaan elke pagina)
 
 ---
-
-
-

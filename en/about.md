@@ -1,29 +1,43 @@
 ---
 layout: default
 lang: en
-title: About
-next_thesis: /Open_Internet_Manifest/en/theses/thesis-00
-# donation_link: "https://buy.stripe.com/examplelink" # Or Monero/BTC address, Ko-fi, etc.
-# donation_text: "Support the author of this thesis" # Optional, otherwise default text
+title: About the Open Internet Manifest
 ---
 
-In the real world, you always know how you got somewhere: on foot, by bike, along a beautiful route or in pouring rain.  
-On today’s internet, you’re teleported into a handful of closed amusement parks without knowing who controls the gates.
+# An Internet That Is Ours Again
 
-This manifest wants to return an internet with real roads, squares and paths — an internet where you choose your own route again.
+In the real world, you choose your own path: on foot, by bike, through a park, or along a river.  
+On today’s internet, you are teleported in seconds to closed platforms, without knowing who controls the gates and who is watching.
 
-A living manifest for a free, open and decentralized internet — built and owned by the community.
+This manifesto wants to change that.
 
----
+We dream of an internet with **real roads, open squares, and free paths** – decentralized, free, and **owned by the community**.  
+No more gatekeepers. No more surveillance. No more black boxes.
 
-## The Theses
-[Start reading →](/Open_Internet_Manifest/en/theses/thesis-00)  
-[All theses →](/Open_Internet_Manifest/en/manifest)     
-[hash](/Open_Internet_Manifest/en/concepts/cryptographic-hash)
+This is a **living document**. It grows through your input, ideas, and contributions. Together we build an internet that is ours again.
 
----
+## Where do you start?
 
-## Practical steps (start today)
-[Follow the guides for Mastodon, Nextcloud, sovereign nodes and more →](/Open_Internet_Manifest/en/guides)
+[→ Start reading – thesis 1](/Open_Internet_Manifest/en/theses/thesis-00)  
+[→ All 100 theses in one overview](/Open_Internet_Manifest/en/manifest)
 
----
+Want to know why we **cryptographically verify** everything (so no one can tamper with the content)?  
+[→ Cryptographic hashes explained](/Open_Internet_Manifest/en/concepts/cryptographic-hash/)
+
+## Get practical (start today)
+
+[→ Follow the step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more](/Open_Internet_Manifest/en/guides)
+
+This is just the beginning.  
+**Join in. Contribute. Make the internet open again.**
+
+## How does the site work?
+
+- Every thesis has **next** and **previous** arrows (right and left on screen)  
+- Under each thesis you’ll find links to related **concepts** (explanations of terms) and **guides** (practical steps)  
+- At the top left you’ll always see the **← Back** button → it simply takes you back to where you came from  
+- The hamburger menu (three lines top right on mobile) gives quick access to all main pages  
+
+Navigate the manifesto in your own way – just like on a free, open internet.
+
+(The discussion and community space can be found at the bottom of every page)
