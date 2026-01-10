@@ -13,7 +13,7 @@ Advantages: low costs, high speed, used by financial institutions.
 
 Disadvantages: large pre-mine by Ripple Labs, central control over validators, not fully decentralized – less aligned with inalienable sovereignty.
 
-See also → [Bitcoin + Lightning](/en/concepts/bitcoin-lightning) · [Thesis 19](/en/theses/thesis-19) · [ripple.com](https://ripple.com/xrp/)
+See also → [Bitcoin + Lightning](/Open_Internet_manifest/en/concepts/bitcoin-lightning) · [Thesis 19](/Open_Internet_manifest/en/theses/thesis-19) · [ripple.com](https://ripple.com/xrp/)
 
 ---
 

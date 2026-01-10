@@ -13,7 +13,7 @@ Classic example: [Meta's Threads on ActivityPub](https://engineering.fb.com/2024
 
 It looks open, but remains under their control — more luxurious cells in the same prison.
 
-See also → [Walled garden](/en/concepts/walled-garden) · [Independent protocols](/en/concepts/independent-protocols) · [Thesis 5](/en/theses/thesis-05)
+See also → [Walled garden](/Open_Internet_manifest/en/concepts/walled-garden) · [Independent protocols](/Open_Internet_manifest/en/concepts/independent-protocols) · [Thesis 5](/Open_Internet_manifest/en/theses/thesis-05)
 
 ---
 

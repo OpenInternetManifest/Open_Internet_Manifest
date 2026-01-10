@@ -11,6 +11,6 @@ Open communication protocols not controlled by a single company (e.g. Matrix, Ac
 
 These protocols form the last free roads outside the walled gardens.
 
-See also → [Sovereign node](/en/concepts/sovereign-node) · [Thesis 4](/en/theses/thesis-04)
+See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Thesis 4](/Open_Internet_manifest/en/theses/thesis-04)
 
 ---

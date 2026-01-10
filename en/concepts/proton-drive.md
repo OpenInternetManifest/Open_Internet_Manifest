@@ -13,6 +13,6 @@ End-to-end encrypted, Swiss privacy laws, no tracking.
 
 Good option for those who don't want to self-host.
 
-See also → [Data sovereignty](/en/concepts/data-sovereignty) · [Thesis 23](/en/theses/thesis-23) · [proton.me/drive](https://proton.me/drive)
+See also → [Data sovereignty](/Open_Internet_manifest/en/concepts/data-sovereignty) · [Thesis 23](/Open_Internet_manifest/en/theses/thesis-23) · [proton.me/drive](https://proton.me/drive)
 
 ---

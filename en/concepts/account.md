@@ -12,7 +12,7 @@ A mandatory identity credential that gatekeepers demand before granting access t
 In the past, going online was anonymous or pseudonymous — like mailing a letter without a return address.  
 Today, an account is the key companies use to track, profile, and control you.
 
-See also → [Gatekeepers](/en/concepts/gatekeepers) · [Digital sovereignty](/en/concepts/digital-sovereignty) · [Thesis 2](/en/theses/thesis-02)
+See also → [Gatekeepers](/Open_Internet_manifest/en/concepts/gatekeepers) · [Digital sovereignty](/Open_Internet_manifest/en/concepts/digital-sovereignty) · [Thesis 2](/Open_Internet_manifest/en/theses/thesis-02)
 
 ---
 

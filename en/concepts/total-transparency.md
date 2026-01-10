@@ -11,7 +11,7 @@ The lie that everything must be visible in order to be “connected”.
 
 In reality, a mechanism by which gatekeepers can track, predict, and monetize every action.
 
-See also → [Surveillance](/en/concepts/surveillance) · [Data collection](/en/concepts/data-collection) · [Thesis 7](/en/theses/thesis-07)
+See also → [Surveillance](/Open_Internet_manifest/en/concepts/surveillance) · [Data collection](/Open_Internet_manifest/en/concepts/data-collection) · [Thesis 7](/Open_Internet_manifest/en/theses/thesis-07)
 
 ---
 

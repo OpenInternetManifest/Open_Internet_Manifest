@@ -20,6 +20,6 @@ Examples (2025):
 
 These models can be run locally, modified, and audited — without dependence on a single company.
 
-See also → [Gatekeepers](/en/concepts/gatekeepers) · [Walled garden](/en/concepts/walled-garden) · [Thesis 10](/en/theses/thesis-10)
+See also → [Gatekeepers](/Open_Internet_manifest/en/concepts/gatekeepers) · [Walled garden](/Open_Internet_manifest/en/concepts/walled-garden) · [Thesis 10](/Open_Internet_manifest/en/theses/thesis-10)
 
 ---

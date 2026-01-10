@@ -13,6 +13,6 @@ Starts with “npub1...” – bech32-encoded, readable and shareable.
 
 One npub for all your Nostr activity, yours forever.
 
-See also → [Nostr](/en/concepts/nostr) · [Thesis 24](/en/theses/thesis-24)
+See also → [Nostr](/Open_Internet_manifest/en/concepts/nostr) · [Thesis 24](/Open_Internet_manifest/en/theses/thesis-24)
 
 ---

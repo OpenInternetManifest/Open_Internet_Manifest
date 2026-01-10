@@ -11,6 +11,6 @@ Search engine focused on non-commercial, personal, and obscure websites — agai
 
 No tracking, no ads, discovers the “forgotten” internet.
 
-See also → [Thesis 18](/en/theses/thesis-18) · [search.marginalia.nu](https://search.marginalia.nu/)
+See also → [Thesis 18](/Open_Internet_manifest/en/theses/thesis-18) · [search.marginalia.nu](https://search.marginalia.nu/)
 
 ---

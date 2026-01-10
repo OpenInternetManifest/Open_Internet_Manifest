@@ -13,7 +13,7 @@ Ideal for censorship circumvention and offline communication.
 
 End-to-end encrypted, no central servers.
 
-See also → [Tor](/en/concepts/tor) · [Thesis 16](/en/theses/thesis-16) · [briarproject.org](https://briarproject.org/)
+See also → [Tor](/Open_Internet_manifest/en/concepts/tor) · [Thesis 16](/Open_Internet_manifest/en/theses/thesis-16) · [briarproject.org](https://briarproject.org/)
 
 ---
 

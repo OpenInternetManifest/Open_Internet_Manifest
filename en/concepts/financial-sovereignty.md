@@ -11,6 +11,6 @@ The freedom to receive, send, and store money without permission or interference
 
 Opposite of dependence on central payment systems.
 
-See also → [Peer-to-peer payments](/en/concepts/peer-to-peer-payments) · [Data sovereignty](/en/concepts/data-sovereignty) · [Thesis 19](/en/theses/thesis-19)
+See also → [Peer-to-peer payments](/Open_Internet_manifest/en/concepts/peer-to-peer-payments) · [Data sovereignty](/Open_Internet_manifest/en/concepts/data-sovereignty) · [Thesis 19](/Open_Internet_manifest/en/theses/thesis-19)
 
 ---

@@ -11,7 +11,7 @@ Popular Nostr client for iOS – simple, beautiful design, full support for zaps
 
 One of the easiest ways to get started with Nostr.
 
-See also → [Nostr](/en/concepts/nostr) · [npub](/en/concepts/npub) · [Thesis 24](/en/theses/thesis-24) · [damus.io](https://damus.io/)
+See also → [Nostr](/Open_Internet_manifest/en/concepts/nostr) · [npub](/Open_Internet_manifest/en/concepts/npub) · [Thesis 24](/Open_Internet_manifest/en/theses/thesis-24) · [damus.io](https://damus.io/)
 
 ---
 

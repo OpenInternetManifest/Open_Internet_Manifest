@@ -13,6 +13,6 @@ You decide who is in, without a central moderator or platform.
 
 Ideal for real communities instead of open feeds.
 
-See also → [Nostr](/en/concepts/nostr) · [Thesis 20](/en/theses/thesis-20)
+See also → [Nostr](/Open_Internet_manifest/en/concepts/nostr) · [Thesis 20](/Open_Internet_manifest/en/theses/thesis-20)
 
 ---

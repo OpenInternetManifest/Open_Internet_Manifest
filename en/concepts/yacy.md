@@ -13,7 +13,7 @@ Everyone can run a node that crawls and shares results — together you build an
 
 No tracking, no ads, full privacy.
 
-See also → [Sovereign node](/en/concepts/sovereign-node) · [Thesis 18](/en/theses/thesis-18) · [yacy.net](https://yacy.net/)
+See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Thesis 18](/Open_Internet_manifest/en/theses/thesis-18) · [yacy.net](https://yacy.net/)
 
 ---
 

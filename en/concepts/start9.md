@@ -11,7 +11,7 @@ Self-hosting platform (formerly EmbassyOS) — runs on dedicated hardware or Ras
 
 Focus on privacy apps (Bitcoin, Matrix, Nextcloud, etc.) with simple installation.
 
-See also → [Sovereign node](/en/concepts/sovereign-node) · [Thesis 25](/en/theses/thesis-25) · [start9.com](https://start9.com/)
+See also → [Sovereign node](/Open_Internet_manifest/en/concepts/sovereign-node) · [Thesis 25](/Open_Internet_manifest/en/theses/thesis-25) · [start9.com](https://start9.com/)
 
 ---
 

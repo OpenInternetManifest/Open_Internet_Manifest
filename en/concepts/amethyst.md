@@ -11,7 +11,7 @@ Nostr client for Android – feature-rich, supports relays, zaps, and communitie
 
 Open-source and actively developed.
 
-See also → [Nostr](/en/concepts/nostr) · [Thesis 24](/en/theses/thesis-24)
+See also → [Nostr](/Open_Internet_manifest/en/concepts/nostr) · [Thesis 24](/Open_Internet_manifest/en/theses/thesis-24)
 
 ---
 

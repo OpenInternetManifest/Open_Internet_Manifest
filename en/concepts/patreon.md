@@ -13,7 +13,7 @@ Useful and well-known, but centrally managed and takes commission.
 
 Use with caution — prefer open alternatives where possible.
 
-See also → [GitHub Sponsors](/en/concepts/github-sponsors) · [Thesis 26](/en/theses/thesis-26) · [patreon.com](https://www.patreon.com/)
+See also → [GitHub Sponsors](/Open_Internet_manifest/en/concepts/github-sponsors) · [Thesis 26](/Open_Internet_manifest/en/theses/thesis-26) · [patreon.com](https://www.patreon.com/)
 
 ---
 

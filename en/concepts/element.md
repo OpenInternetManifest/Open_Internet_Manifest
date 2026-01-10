@@ -13,7 +13,7 @@ End-to-end encrypted, federated, self-hostable.
 
 The most user-friendly way to use Matrix.
 
-See also → [Matrix](/en/concepts/matrix) · [Thesis 22](/en/theses/thesis-22) · [element.io](https://element.io/)
+See also → [Matrix](/Open_Internet_manifest/en/concepts/matrix) · [Thesis 22](/Open_Internet_manifest/en/theses/thesis-22) · [element.io](https://element.io/)
 
 ---
 

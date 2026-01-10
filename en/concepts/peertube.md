@@ -13,7 +13,7 @@ Anyone can run an instance, videos are distributed across servers, data portabil
 
 YouTube alternative without central control or algorithm dictatorship.
 
-See also → [ActivityPub](/en/concepts/activitypub) · [Thesis 17](/en/theses/thesis-17) · [joinpeertube.org](https://joinpeertube.org/)
+See also → [ActivityPub](/Open_Internet_manifest/en/concepts/activitypub) · [Thesis 17](/Open_Internet_manifest/en/theses/thesis-17) · [joinpeertube.org](https://joinpeertube.org/)
 
 ---
 

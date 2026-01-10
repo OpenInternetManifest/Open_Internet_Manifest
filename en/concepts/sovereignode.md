@@ -21,8 +21,8 @@ I do.”
 ### Technical definition
 A device that:
 • is fully managed by you (no remote management by anyone else),  
-• is permanently connected to the open internet or a [**mesh network**](/en/concepts/mesh-network),  
-• runs open protocols ([**IPFS**](/en/concepts/ipfs) · [**Matrix**](/en/concepts/matrix) · [**Nostr**](/en/concepts/nostr) · [**Yggdrasil**](/en/concepts/yggdrasil) · [**LoRa**](/en/concepts/lora) · etc.),  
+• is permanently connected to the open internet or a [**mesh network**](/Open_Internet_manifest/en/concepts/mesh-network),  
+• runs open protocols ([**IPFS**](/Open_Internet_manifest/en/concepts/ipfs) · [**Matrix**](/Open_Internet_manifest/en/concepts/matrix) · [**Nostr**](/Open_Internet_manifest/en/concepts/nostr) · [**Yggdrasil**](/Open_Internet_manifest/en/concepts/yggdrasil) · [**LoRa**](/Open_Internet_manifest/en/concepts/lora) · etc.),  
 • stores your data locally and makes it available to others,  
 • keeps working as soon as you plug it back in — no one else required.
 

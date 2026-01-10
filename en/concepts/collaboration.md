@@ -11,7 +11,7 @@ Unintentionally contributing to the strengthening of gatekeepers by continuing t
 
 Example: launching a “decentralized” app in the App Store or Google Play — you pay toll and accept their rules.
 
-See also → [False decentralization](/en/concepts/false-decentralization) · [Exit](/en/concepts/exit) · [Thesis 6](/en/theses/thesis-06)
+See also → [False decentralization](/Open_Internet_manifest/en/concepts/false-decentralization) · [Exit](/Open_Internet_manifest/en/concepts/exit) · [Thesis 6](/Open_Internet_manifest/en/theses/thesis-06)
 
 ---
 

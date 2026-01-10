@@ -15,6 +15,6 @@ A legal trick that would never hold up in the real world — no one signs a 40-p
 
 Online, it has become the most normal thing in the world.
 
-See also → [Convenience](/en/concepts/convenience) · [Thesis 3](/en/theses/thesis-03)
+See also → [Convenience](/Open_Internet_manifest/en/concepts/convenience) · [Thesis 3](/Open_Internet_manifest/en/theses/thesis-03)
 
 ---

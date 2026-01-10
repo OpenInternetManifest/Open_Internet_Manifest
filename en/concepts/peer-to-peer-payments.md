@@ -13,7 +13,7 @@ Examples: Bitcoin/Lightning, Monero, open source wallets, Nostr zaps.
 
 Enables micro-payments, international transfers, and donations without commission or censorship.
 
-See also → [Open protocols](/en/concepts/independent-protocols) · [Gatekeepers](/en/concepts/gatekeepers) · [Thesis 9](/en/theses/thesis-09)
+See also → [Open protocols](/Open_Internet_manifest/en/concepts/independent-protocols) · [Gatekeepers](/Open_Internet_manifest/en/concepts/gatekeepers) · [Thesis 9](/Open_Internet_manifest/en/theses/thesis-09)
 
 ---
 
