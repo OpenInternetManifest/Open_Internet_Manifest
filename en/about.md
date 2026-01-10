@@ -39,11 +39,14 @@ Navigate the manifesto in your own way – just like on a free, open internet.
 
 <div class="section-divider"></div>
 
-<div class="section-divider"></div>
-
 <div class="final-call">
   <em class="highlight">This is just the beginning.</em>  
   Join in. Contribute. Make the internet open again. ❤️
+</div>
+
+<div class="signature">
+  — Ruben Berkhout, December 2025<br>
+  (starting point of the Open Internet Manifest)
 </div>
 
 <div class="section-divider"></div>

@@ -11,10 +11,10 @@ var officialHashes = {
   '/nl/index': '0002de1ce6e5b9d4a3fad9fa18e69325320d692f7dd9725c3fb513e63e15078e',
   '/nl/manifest-volledig': '15b7edb1e54b3def88c2f4bacbf79ff988b01e94c87812c484c27c16792ceadf',
   '/nl/manifest': 'f186c7aa44e285b3ef4669c2f0917fcb9fc9bb21e4c2519f203505776f62cacc',
-  '/nl/over': '156ecad31e4727c90ffd9480eeb003cd893b9a1df0047cea9ba91eb25a6f5f6b',
+  '/nl/over': '3bd323010673c4ff10b3695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
 
   // EN root pages
-  '/en/about': '1e8fa5034732b1a3ff0628b57efb46093b588e049e7c32366b89788e32edcf9b',
+  '/en/about': '89c92ff42bfee61eb5cc987645a15d3a4dc491e5f3d0aff96c57bef5cc0cf05f',
   '/en/guides': 'dc0445ed46350c9f018a75db5a50731b162b29793ba95e1c568dd92c910b04d0',
   '/en/index': '53aac088e6ca203eef50e7b2fef05f07a84ddf023f2f8491e84c0abc7d660485',
   '/en/living-manifesto': '0c7fb1f1f4f5ca079db063faf05001a3321e2b6260bdb7d7c7389cf344b89d24',
