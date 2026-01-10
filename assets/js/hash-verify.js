@@ -1,6 +1,3 @@
-// hash-verify.js – Kopieer pure tekst + Verifieer SHA256 hash
-// Gebruikt officialHashes uit official-hashes.js (moet met 'var' gedefinieerd zijn)
-
 window.copyPageText = function() {
   const mainContent = document.querySelector('.main-content');
   if (!mainContent) return;
@@ -15,15 +12,17 @@ window.copyPageText = function() {
     '.banner', '.overlay-text', '.home-container', '.language-buttons',
     '.language-selector', '.manifest-header', '.manifest-subtitle',
     '.intro-title', '.intro-text',
-    'button', 'script', 'code', 'nav'
+    '.thesis-navigation-arrows', '.nav-arrow', '.nav-arrow-left', '.nav-arrow-right',
+    'button', 'script', 'code', 'nav', 'footer', 'header'
   ];
 
   clone.querySelectorAll(unwanted.join(', ')).forEach(el => el.remove());
 
-  // Verwijder uitleg over hash
+  // Verwijder uitleg over hash (optioneel, maar handig)
   clone.querySelectorAll('p').forEach(p => {
     const text = p.textContent.trim().toLowerCase();
-    if (text.includes('hash verificatie') || text.includes('wat is nu eigenlijk hash')) {
+    if (text.includes('hash verificatie') || text.includes('wat is nu eigenlijk hash') ||
+        text.includes('sha256') || text.includes('verifier')) {
       p.remove();
     }
   });
@@ -42,10 +41,13 @@ window.copyPageText = function() {
   });
 
   let text = clone.textContent || clone.innerText || '';
+
+  // Extra cleanup: alleen nog algemene opschoning, GEEN verwijdering van "Thesis X" meer
   text = text
     .replace(/\r\n/g, '\n')
-    .replace(/\n{3,}/g, '\n\n')
-    .replace(/[ \t]+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')          // max 2 enters
+    .replace(/[ \t]+/g, ' ')             // tabs → spaties
+    .replace(/‹|›/g, '')                 // verwijder pijlen-symbolen (voor de zekerheid)
     .trim();
 
   navigator.clipboard.writeText(text).then(() => {

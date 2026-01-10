@@ -11,10 +11,6 @@ The five companies (Apple, Google/Alphabet, Microsoft, Amazon, Meta) that togeth
 
 They act as unavoidable chokepoints for nearly every online action and can unilaterally block access, harvest data, or exclude competitors.
 
-See also → [Walled garden](/Open_Internet_Manifest/en/concepts/walled-garden) · [Digital sovereignty](/Open_Internet_Manifest/en/concepts/digital-sovereignty) · [Thesis 1](/Open_Internet_Manifest/en/theses/thesis-01)
-
-...
-
 See also → [Walled garden](/Open_Internet_Manifest/en/concepts/walled-garden) · [Digital sovereignty](/Open_Internet_Manifest/en/concepts/digital-sovereignty) · [Thesis 1](/Open_Internet_Manifest/en/theses/thesis-01) · [Thesis 2](/Open_Internet_Manifest/en/theses/thesis-02) · [Thesis 6](/Open_Internet_Manifest/en/theses/thesis-06)
 
 ---

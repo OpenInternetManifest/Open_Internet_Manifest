@@ -921,3 +921,59 @@ details ul, details ol {
 details li {
   margin-bottom: 0.6em;
 }
+/* Uniforme, dunne blauwe divider – symmetrisch en elegant */
+.section-divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent 25%, #66b3ff 50%, transparent 75%);
+  margin: 2.8em auto 2.2em;   /* meer ruimte boven en onder voor symmetrie */
+  width: 70%;                  /* korter – niet over hele breedte */
+  max-width: 400px;            /* houdt het verfijnd */
+  border: none;
+}
+
+/* Finale oproep – cursief + kleur voor de eerste zin, warmer en lichter */
+.final-call {
+  text-align: center;
+  font-size: 1.4em;
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin: 0 0 2.5em;
+  font-weight: 400;            /* niet vet – luchtig */
+}
+
+.final-call .highlight {
+  font-style: italic;
+  color: #66b3ff;
+  font-weight: 600;
+  font-size: 1.55em;           /* iets groter voor nadruk */
+}
+
+/* Discussie-ref – subtiel en gecentreerd */
+.discussion-ref {
+  text-align: center;
+  font-size: 1em;
+  color: #a0a0a0;
+  font-style: italic;
+  margin: 0 0 3em;
+}
+
+/* Mobiel: compacter */
+@media (max-width: 768px) {
+  .section-divider {
+    margin: 2em auto 1.5em;
+    width: 85%;
+    max-width: 350px;
+  }
+
+  .final-call {
+    font-size: 1.3em;
+  }
+
+  .final-call .highlight {
+    font-size: 1.45em;
+  }
+
+  .discussion-ref {
+    font-size: 0.95em;
+  }
+}

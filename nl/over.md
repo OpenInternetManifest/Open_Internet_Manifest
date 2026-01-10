@@ -18,7 +18,7 @@ Dit is een **levend document**. Het groeit door jouw input, ideeën en bijdragen
 
 ## Waar begin je?
 
-[→ Begin met lezen – thesis 1](/Open_Internet_Manifest/nl/theses/thesis-00)  
+[→ Begin met lezen – de eerste thesis](/Open_Internet_Manifest/nl/theses/thesis-00)  
 [→ Alle 100 theses in één overzicht](/Open_Internet_Manifest/nl/manifest)
 
 Wil je weten waarom we alles **cryptografisch verifiëren** (zodat niemand kan knoeien met de inhoud)?  
@@ -28,8 +28,6 @@ Wil je weten waarom we alles **cryptografisch verifiëren** (zodat niemand kan k
 
 [→ Volg de stap-voor-stap guides voor Mastodon, Nextcloud, sovereign nodes en meer](/Open_Internet_Manifest/nl/guides)
 
-Dit is pas het begin.  
-**Doe mee. Draag bij. Maak het internet weer open.**
 
 ## Hoe werkt de site?
 
@@ -40,6 +38,17 @@ Dit is pas het begin.
 
 Zo kun je op jouw eigen manier door het manifest navigeren – net zoals op een vrij, open internet.
 
-(De discussie en community-ruimte vind je onderaan elke pagina)
+<div class="section-divider"></div>
+
+<div class="final-call">
+  <em class="highlight">Dit is pas het begin.</em>  
+  Doe mee. Draag bij. Maak het internet weer open. ❤️
+</div>
+
+<div class="section-divider"></div>
+
+<div class="discussion-ref">
+  (De discussie en community-ruimte vind je onderaan elke pagina)
+</div>
 
 ---

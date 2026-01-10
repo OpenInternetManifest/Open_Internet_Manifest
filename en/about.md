@@ -18,7 +18,7 @@ This is a **living document**. It grows through your input, ideas, and contribut
 
 ## Where do you start?
 
-[→ Start reading – thesis 1](/Open_Internet_Manifest/en/theses/thesis-00)  
+[→ Start reading – the first thesis](/Open_Internet_Manifest/en/theses/thesis-00)  
 [→ All 100 theses in one overview](/Open_Internet_Manifest/en/manifest)
 
 Want to know why we **cryptographically verify** everything (so no one can tamper with the content)?  
@@ -27,9 +27,6 @@ Want to know why we **cryptographically verify** everything (so no one can tampe
 ## Get practical (start today)
 
 [→ Follow the step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more](/Open_Internet_Manifest/en/guides)
-
-This is just the beginning.  
-**Join in. Contribute. Make the internet open again.**
 
 ## How does the site work?
 
@@ -40,4 +37,17 @@ This is just the beginning.
 
 Navigate the manifesto in your own way – just like on a free, open internet.
 
-(The discussion and community space can be found at the bottom of every page)
+<div class="section-divider"></div>
+
+<div class="final-call">
+  <em class="highlight">This is just the beginning.</em>  
+  Join in. Contribute. Make the internet open again. ❤️
+</div>
+
+<div class="section-divider"></div>
+
+<div class="discussion-ref">
+  (The discussion and community space can be found at the bottom of every page)
+</div>
+
+---
