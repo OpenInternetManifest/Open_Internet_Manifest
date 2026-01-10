@@ -977,3 +977,23 @@ details li {
     font-size: 0.95em;
   }
 }
+/* Kleine, bescheiden handtekening onder de finale oproep */
+.signature {
+  text-align: center;
+  font-size: 0.95em;
+  color: #a0a0a0;
+  font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  line-height: 1.4;
+}
+
+.signature br {
+  display: none; /* op desktop één regel */
+}
+
+@media (max-width: 768px) {
+  .signature br {
+    display: block; /* op mobiel twee regels voor leesbaarheid */
+  }
+}

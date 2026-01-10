@@ -32,7 +32,7 @@ Wil je weten waarom we alles **cryptografisch verifiëren** (zodat niemand kan k
 ## Hoe werkt de site?
 
 - Elke thesis heeft een **volgende** en **vorige** pijl (rechts en links op het scherm)  
-- Onder elke thesis vind je links naar relevante **begrippen** (uitleg woorden) en **guides** (praktische stappen)  
+- In thesis vind je links naar relevante **begrippen** (uitleg woorden) en **guides** (praktische stappen)  
 - Bovenaan links zie je altijd de **← Back** knop → die brengt je gewoon terug naar waar je vandaan kwam  
 - De hamburger-menu (drie streepjes rechtsboven op mobiel) geeft snel toegang tot alle hoofdpagina’s  
 
@@ -43,6 +43,11 @@ Zo kun je op jouw eigen manier door het manifest navigeren – net zoals op een 
 <div class="final-call">
   <em class="highlight">Dit is pas het begin.</em>  
   Doe mee. Draag bij. Maak het internet weer open. ❤️
+</div>
+
+<div class="signature">
+  — Ruben Berkhout, december 2025<br>
+  (startpunt van het Open Internet Manifest)
 </div>
 
 <div class="section-divider"></div>

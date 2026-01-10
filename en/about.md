@@ -39,6 +39,8 @@ Navigate the manifesto in your own way – just like on a free, open internet.
 
 <div class="section-divider"></div>
 
+<div class="section-divider"></div>
+
 <div class="final-call">
   <em class="highlight">This is just the beginning.</em>  
   Join in. Contribute. Make the internet open again. ❤️
