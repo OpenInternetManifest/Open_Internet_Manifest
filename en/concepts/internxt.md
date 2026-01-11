@@ -11,7 +11,7 @@ Privacy-first cloud storage with end-to-end encryption and distributed storage.
 
 Open-source client, company has no knowledge of your data.
 
-See also → [Data sovereignty](/Open_Internet_Manifest/en/concepts/data-sovereignty) · [Thesis 23](/Open_Internet_Manifest/en/theses/thesis-23) · [internxt.com](https://internxt.com/)
+See also → [Data sovereignty](/en/concepts/data-sovereignty) · [Thesis 23](/en/theses/thesis-23) · [internxt.com](https://internxt.com/)
 
 ---
 

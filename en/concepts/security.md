@@ -13,7 +13,7 @@ They claim to protect you from viruses, hackers, and “dangerous content,” wh
 
 Real security comes from open standards, end-to-end encryption, and decentralization — not from one company that sees everything.
 
-See also → [Walled garden](/Open_Internet_Manifest/en/concepts/walled-garden) · [Convenience](/Open_Internet_Manifest/en/concepts/convenience) · [Thesis 2](/Open_Internet_Manifest/en/theses/thesis-02)
+See also → [Walled garden](/en/concepts/walled-garden) · [Convenience](/en/concepts/convenience) · [Thesis 2](/en/theses/thesis-02)
 
 ---
 

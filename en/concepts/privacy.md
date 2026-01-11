@@ -11,7 +11,7 @@ The natural right to be alone with your thoughts, conversations, and movements �
 
 In the physical world a basic expectation. Online turned into a “setting” you have to activate.
 
-See also → [Surveillance](/Open_Internet_Manifest/en/concepts/surveillance) · [End-to-end encryption](/Open_Internet_Manifest/en/concepts/end-to-end-encryption) · [Thesis 7](/Open_Internet_Manifest/en/theses/thesis-07)
+See also → [Surveillance](/en/concepts/surveillance) · [End-to-end encryption](/en/concepts/end-to-end-encryption) · [Thesis 7](/en/theses/thesis-07)
 
 ---
 

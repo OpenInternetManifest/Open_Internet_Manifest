@@ -11,7 +11,7 @@ A central checkpoint (Apple App Store, Google Play) that decides which software 
 
 Officially for “safety”, in reality a toll booth for gatekeepers (30 % tax) and a censorship tool.
 
-See also → [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Walled garden](/Open_Internet_Manifest/en/concepts/walled-garden) · [Thesis 4](/Open_Internet_Manifest/en/theses/thesis-04)
+See also → [Gatekeepers](/en/concepts/gatekeepers) · [Walled garden](/en/concepts/walled-garden) · [Thesis 4](/en/theses/thesis-04)
 
 ---
 

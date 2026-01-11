@@ -14,19 +14,20 @@ This manifesto wants to change that.
 We dream of an internet with **real roads, open squares, and free paths** – decentralized, free, and **owned by the community**.  
 No more gatekeepers. No more surveillance. No more black boxes.
 
+
 This is a **living document**. It grows through your input, ideas, and contributions. Together we build an internet that is ours again.
 
 ## Where do you start?
 
-[→ Start reading – the first thesis](/Open_Internet_Manifest/en/theses/thesis-00)  
-[→ All 100 theses in one overview](/Open_Internet_Manifest/en/manifest)
+[→ Start reading – the first thesis](/en/theses/thesis-00)  
+[→ All 100 theses in one overview](/en/manifest)
 
 Want to know why we **cryptographically verify** everything (so no one can tamper with the content)?  
-[→ Cryptographic hashes explained](/Open_Internet_Manifest/en/concepts/cryptographic-hash/)
+[→ Cryptographic hashes explained](/en/concepts/cryptographic-hash/)
 
 ## Get practical (start today)
 
-[→ Follow the step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more](/Open_Internet_Manifest/en/guides)
+[→ Follow the step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more](/en/guides)
 
 ## How does the site work?
 

@@ -11,7 +11,7 @@ Privacy-focused cryptocurrency with standard ring signatures, stealth addresses,
 
 Transactions are fully anonymous — no one sees amount, sender, or receiver.
 
-See also → [Bitcoin + Lightning](/Open_Internet_Manifest/en/concepts/bitcoin-lightning) · [Thesis 19](/Open_Internet_Manifest/en/theses/thesis-19) · [getmonero.org](https://www.getmonero.org/)
+See also → [Bitcoin + Lightning](/en/concepts/bitcoin-lightning) · [Thesis 19](/en/theses/thesis-19) · [getmonero.org](https://www.getmonero.org/)
 
 ---
 

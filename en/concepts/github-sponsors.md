@@ -11,6 +11,6 @@ GitHub's platform to sponsor open-source developers monthly or one-time.
 
 Direct support, no ads, GitHub takes a small percentage.
 
-See also → [Open Collective](/Open_Internet_Manifest/en/concepts/open-collective) · [Thesis 26](/Open_Internet_Manifest/en/theses/thesis-26) · [github.com/sponsors](https://github.com/sponsors)
+See also → [Open Collective](/en/concepts/open-collective) · [Thesis 26](/en/theses/thesis-26) · [github.com/sponsors](https://github.com/sponsors)
 
 ---

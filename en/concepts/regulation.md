@@ -11,6 +11,6 @@ Imposing government rules on gatekeepers in the hope they will behave better.
 
 Result: the same companies get a monopoly with an official stamp, and citizens remain dependent.
 
-See also → [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Privacy laws](/Open_Internet_Manifest/en/concepts/privacy-laws) · [Thesis 5](/Open_Internet_Manifest/en/theses/thesis-05)
+See also → [Gatekeepers](/en/concepts/gatekeepers) · [Privacy laws](/en/concepts/privacy-laws) · [Thesis 5](/en/theses/thesis-05)
 
 ---

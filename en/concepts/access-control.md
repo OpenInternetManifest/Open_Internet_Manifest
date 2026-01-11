@@ -13,7 +13,7 @@ Examples: paying for basic functionality, shadowbanning, app store rules, geo-bl
 
 Offline, this would amount to a guard deciding which shops you are allowed to enter.
 
-See also → [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Censorship](/Open_Internet_Manifest/en/concepts/censorship) · [Thesis 3](/Open_Internet_Manifest/en/theses/thesis-03)
+See also → [Gatekeepers](/en/concepts/gatekeepers) · [Censorship](/en/concepts/censorship) · [Thesis 3](/en/theses/thesis-03)
 
 ---
 

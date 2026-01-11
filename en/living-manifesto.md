@@ -28,7 +28,7 @@ Submit a thesis, add a guide, translate, declare your support, or build a sovere
 
 Then you’re exactly where you need to be.
 
-→ [Contribute on GitHub](https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new/choose)  
+→ [Contribute on GitHub](https://github.com/OpenInternetManifest/issues/new/choose)  
 → [Join the discussion in Matrix](https://matrix.to/#/#openinternetmanifest:matrix.org)
 
 This manifesto ends only when the internet is once again fully open, neutral, and inalienable.

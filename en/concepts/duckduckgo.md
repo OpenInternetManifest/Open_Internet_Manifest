@@ -15,7 +15,7 @@ Easy switch from Google for daily use.
 
 **Note**: not self-hostable – centrally managed, but privacy-friendly.
 
-See also → [Brave Search](/Open_Internet_Manifest/en/concepts/brave-search) · [Thesis 18](/Open_Internet_Manifest/en/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
+See also → [Brave Search](/en/concepts/brave-search) · [Thesis 18](/en/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
 
 ---
 

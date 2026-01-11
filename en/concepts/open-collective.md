@@ -11,7 +11,7 @@ Transparent platform for collective funding of open-source projects and communit
 
 All income and expenses visible, no lock-in.
 
-See also → [Liberapay](/Open_Internet_Manifest/en/concepts/liberapay) · [Thesis 26](/Open_Internet_Manifest/en/theses/thesis-26) · [opencollective.com](https://opencollective.com/)
+See also → [Liberapay](/en/concepts/liberapay) · [Thesis 26](/en/theses/thesis-26) · [opencollective.com](https://opencollective.com/)
 
 ---
 

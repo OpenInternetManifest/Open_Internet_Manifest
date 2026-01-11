@@ -2,8 +2,8 @@
 layout: thesis
 lang: en
 title: theses 11 - this manifesto
-next_thesis: /Open_Internet_Manifest/en/theses/thesis-12
-previous_thesis: /Open_Internet_Manifest/en/theses/thesis-10
+next_thesis: /en/theses/thesis-12
+previous_thesis: /en/theses/thesis-10
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
 # donation_text: "Help the writer of this part" # Optional, else default text
 ---
@@ -11,7 +11,7 @@ previous_thesis: /Open_Internet_Manifest/en/theses/thesis-10
 
 This manifesto is not a decree from above; it is a fire that burns in open conversations.
 
-It does not arise in a boardroom, not in a government building, and not from one voice pretending to know everything — it grows from thousands of dialogues, iterations, late-night insights, and hard corrections among people who have had enough of the [**enclosures**](/Open_Internet_Manifest/en/concepts/enclosures).
+It does not arise in a boardroom, not in a government building, and not from one voice pretending to know everything — it grows from thousands of dialogues, iterations, late-night insights, and hard corrections among people who have had enough of the [**enclosures**](/en/concepts/enclosures).
 
 Sometimes they talk to each other, sometimes to machines that are finally learning to listen instead of just selling.
 

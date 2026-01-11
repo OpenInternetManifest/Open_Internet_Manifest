@@ -7,11 +7,11 @@ title: concepts - exit
 ---
 # Exit
 
-The conscious and massive departure from closed platforms and ecosystems of [**gatekeepers**](/Open_Internet_Manifest/en/concepts/gatekeepers).
+The conscious and massive departure from closed platforms and ecosystems of [**gatekeepers**](/en/concepts/gatekeepers).
 
 Only exit creates pressure, but without alternatives it leads to isolation.
 
-See also → [Collective exit](/Open_Internet_Manifest/en/concepts/collective-exit) · [Building](/Open_Internet_Manifest/en/concepts/building) · [Thesis 6](/Open_Internet_Manifest/en/theses/thesis-06)
+See also → [Collective exit](/en/concepts/collective-exit) · [Building](/en/concepts/building) · [Thesis 6](/en/theses/thesis-06)
 
 ---
 

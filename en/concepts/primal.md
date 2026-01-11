@@ -11,7 +11,7 @@ Nostr client for web and mobile – focus on speed, caching, and good UX.
 
 Supports zaps, relays, and premium features.
 
-See also → [Nostr](/Open_Internet_Manifest/en/concepts/nostr) · [Thesis 24](/Open_Internet_Manifest/en/theses/thesis-24) · [primal.net](https://primal.net/)
+See also → [Nostr](/en/concepts/nostr) · [Thesis 24](/en/theses/thesis-24) · [primal.net](https://primal.net/)
 
 ---
 

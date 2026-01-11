@@ -11,7 +11,7 @@ Advanced decentralized platform with social networking, cloud storage, blogs, an
 
 Strong focus on privacy, permissions, and data migration.
 
-See also → [ActivityPub](/Open_Internet_Manifest/en/concepts/activitypub) · [Thesis 15](/Open_Internet_Manifest/en/theses/thesis-15) · [hubzilla.org](https://hubzilla.org/)
+See also → [ActivityPub](/en/concepts/activitypub) · [Thesis 15](/en/theses/thesis-15) · [hubzilla.org](https://hubzilla.org/)
 
 ---
 

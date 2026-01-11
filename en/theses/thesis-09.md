@@ -2,8 +2,8 @@
 layout: thesis
 lang: en
 title: theses 9 - economic freedom
-next_thesis: /Open_Internet_Manifest/en/theses/thesis-10
-previous_thesis: /Open_Internet_Manifest/en/theses/thesis-08
+next_thesis: /en/theses/thesis-10
+previous_thesis: /en/theses/thesis-08
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
 # donation_text: "Help the writer of this part" # Optional, else default text
 ---
@@ -17,9 +17,9 @@ Today, you are a tenant of their marketplaces, advertising networks, and payment
 
 That dependence keeps millions of creators, entrepreneurs, and small communities poor and vulnerable.
 
-By building [**open protocols**](/Open_Internet_Manifest/en/concepts/independent-protocols), [**peer-to-peer payments**](/Open_Internet_Manifest/en/concepts/peer-to-peer-payments), and [**independent platforms**](/Open_Internet_Manifest/en/concepts/independent-platforms), we create an internet again where you can earn, trade, and collaborate — without a handful of [**gatekeepers**](/Open_Internet_Manifest/en/concepts/gatekeepers) deciding whether you are allowed to live from your own work.
+By building [**open protocols**](/en/concepts/independent-protocols), [**peer-to-peer payments**](/en/concepts/peer-to-peer-payments), and [**independent platforms**](/en/concepts/independent-platforms), we create an internet again where you can earn, trade, and collaborate — without a handful of [**gatekeepers**](/en/concepts/gatekeepers) deciding whether you are allowed to live from your own work.
 
 **Want to pay peer-to-peer yourself?**  
-The full step-by-step guide is coming → [Peer-to-peer payments – coming soon](/Open_Internet_Manifest/en/guides/peer-to-peer-payments-coming-soon)
+The full step-by-step guide is coming → [Peer-to-peer payments – coming soon](/en/guides/peer-to-peer-payments-coming-soon)
 
 ---

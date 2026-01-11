@@ -11,7 +11,7 @@ Open-source video app (by Louis Rossmann) that aggregates content from YouTube, 
 
 Full control over your feed, no platform lock-in.
 
-See also → [Thesis 17](/Open_Internet_Manifest/en/theses/thesis-17) · [grayjay.app](https://grayjay.app/)
+See also → [Thesis 17](/en/theses/thesis-17) · [grayjay.app](https://grayjay.app/)
 
 ---
 

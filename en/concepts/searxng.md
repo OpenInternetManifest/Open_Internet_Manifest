@@ -11,7 +11,7 @@ Open-source metasearch engine that aggregates results from other engines (Google
 
 Self-hostable, privacy-first, no ads.
 
-See also → [Thesis 18](/Open_Internet_Manifest/en/theses/thesis-18) · [searxng.org](https://searxng.org/)
+See also → [Thesis 18](/en/theses/thesis-18) · [searxng.org](https://searxng.org/)
 
 ---
 

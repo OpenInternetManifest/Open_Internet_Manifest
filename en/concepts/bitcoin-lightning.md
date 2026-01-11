@@ -11,7 +11,7 @@ Bitcoin as store of value, Lightning Network for fast, cheap micropayments.
 
 Peer-to-peer money without bank or intermediary — censorship-resistant and borderless.
 
-See also → [Monero](/Open_Internet_Manifest/en/concepts/monero) · [Nostr zaps](/Open_Internet_Manifest/en/concepts/nostr-zaps) · [Thesis 19](/Open_Internet_Manifest/en/theses/thesis-19) · [lightning.network](https://lightning.network/)
+See also → [Monero](/en/concepts/monero) · [Nostr zaps](/en/concepts/nostr-zaps) · [Thesis 19](/en/theses/thesis-19) · [lightning.network](https://lightning.network/)
 
 ---
 

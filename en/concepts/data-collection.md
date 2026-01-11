@@ -11,7 +11,7 @@ The automatic opening, copying, and storing of all your communication, searches,
 
 Comparable to a postal service that scans and archives every letter before delivering it.
 
-See also → [Surveillance](/Open_Internet_Manifest/en/concepts/surveillance) · [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Thesis 3](/Open_Internet_Manifest/en/theses/thesis-03)
+See also → [Surveillance](/en/concepts/surveillance) · [Gatekeepers](/en/concepts/gatekeepers) · [Thesis 3](/en/theses/thesis-03)
 
 ---
 

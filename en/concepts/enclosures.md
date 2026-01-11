@@ -15,6 +15,6 @@ Today, exactly the same is happening to the internet: the open, common network i
 
 The final phase is underway — and we are the farmers of our time.
 
-See also → [Gatekeepers](/Open_Internet_Manifest/en/concepts/gatekeepers) · [Collective exit](/Open_Internet_Manifest/en/concepts/collective-exit) · [Thesis 4](/Open_Internet_Manifest/en/theses/thesis-04)
+See also → [Gatekeepers](/en/concepts/gatekeepers) · [Collective exit](/en/concepts/collective-exit) · [Thesis 4](/en/theses/thesis-04)
 
 ---

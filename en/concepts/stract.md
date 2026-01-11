@@ -11,6 +11,6 @@ New open-source search engine with focus on speed, privacy, and independent inde
 
 No tracking, no ads, fully transparent.
 
-See also → [Thesis 18](/Open_Internet_Manifest/en/theses/thesis-18) · [stract.com](https://stract.com/)
+See also → [Thesis 18](/en/theses/thesis-18) · [stract.com](https://stract.com/)
 
 ---

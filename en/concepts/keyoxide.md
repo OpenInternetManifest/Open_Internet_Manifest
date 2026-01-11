@@ -13,7 +13,7 @@ You prove that a Mastodon, GitHub, or Twitter account is yours without trusting 
 
 Ideal for portable identity and reputation.
 
-See also → [Nostr](/Open_Internet_Manifest/en/concepts/nostr) · [DID](/Open_Internet_Manifest/en/concepts/did) · [Thesis 14](/Open_Internet_Manifest/en/theses/thesis-14) · [keyoxide.org](https://keyoxide.org/)
+See also → [Nostr](/en/concepts/nostr) · [DID](/en/concepts/did) · [Thesis 14](/en/theses/thesis-14) · [keyoxide.org](https://keyoxide.org/)
 
 ---
 

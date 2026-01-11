@@ -13,7 +13,7 @@ Examples: HTML, HTTP, SMTP, ActivityPub, XMPP.
 
 Essential for interoperability and freedom — against lock-in from closed systems.
 
-See also → [Independent protocols](/Open_Internet_Manifest/en/concepts/independent-protocols) · [Thesis 28](/Open_Internet_Manifest/en/theses/thesis-28)
+See also → [Independent protocols](/en/concepts/independent-protocols) · [Thesis 28](/en/theses/thesis-28)
 
 ---
 

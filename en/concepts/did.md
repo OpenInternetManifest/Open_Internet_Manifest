@@ -17,7 +17,7 @@ Examples:
 
 Enables portable identity without dependence on a company.
 
-See also → [Nostr](/Open_Internet_Manifest/en/concepts/nostr) · [Keyoxide](/Open_Internet_Manifest/en/concepts/keyoxide) · [Thesis 14](/Open_Internet_Manifest/en/theses/thesis-14) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
+See also → [Nostr](/en/concepts/nostr) · [Keyoxide](/en/concepts/keyoxide) · [Thesis 14](/en/theses/thesis-14) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
 
 ---
 

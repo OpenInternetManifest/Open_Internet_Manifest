@@ -11,6 +11,6 @@ Devices whose blueprints, schematics, and firmware are freely available (e.g. Pi
 
 Essential to prevent hardware from becoming an extension of gatekeepers.
 
-See also → [Sovereign node](/Open_Internet_Manifest/en/concepts/sovereign-node) · [Thesis 4](/Open_Internet_Manifest/en/theses/thesis-04)
+See also → [Sovereign node](/en/concepts/sovereign-node) · [Thesis 4](/en/theses/thesis-04)
 
 ---

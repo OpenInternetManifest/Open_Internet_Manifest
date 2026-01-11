@@ -13,7 +13,7 @@ On the internet, this translates into cameras in your home (smart home), microph
 
 Offline, this would be a scandal. Online, it’s called “service”.
 
-See also → [Data collection](/Open_Internet_Manifest/en/concepts/data-collection) · [Thesis 3](/Open_Internet_Manifest/en/theses/thesis-03)
+See also → [Data collection](/en/concepts/data-collection) · [Thesis 3](/en/theses/thesis-03)
 
 ---
 

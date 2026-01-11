@@ -13,7 +13,7 @@ No Big Tech owner, less censorship, ad revenue goes largely to the creator.
 
 Good alternative for YouTube users who want more control.
 
-See also → [Odysee](/Open_Internet_Manifest/en/concepts/odysee) · [BitChute](/Open_Internet_Manifest/en/concepts/bitchute) · [Thesis 17](/Open_Internet_Manifest/en/theses/thesis-17) · [rumble.com](https://rumble.com/)
+See also → [Odysee](/en/concepts/odysee) · [BitChute](/en/concepts/bitchute) · [Thesis 17](/en/theses/thesis-17) · [rumble.com](https://rumble.com/)
 
 ---
 

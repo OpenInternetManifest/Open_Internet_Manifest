@@ -13,7 +13,7 @@ Full control over your server, end-to-end encryption possible, no central owner.
 
 Perfect for small to medium communities.
 
-See also → [Matrix](/Open_Internet_Manifest/en/concepts/matrix) · [Thesis 20](/Open_Internet_Manifest/en/theses/thesis-20) · [revolt.chat](https://revolt.chat/)
+See also → [Matrix](/en/concepts/matrix) · [Thesis 20](/en/theses/thesis-20) · [revolt.chat](https://revolt.chat/)
 
 ---
 

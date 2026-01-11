@@ -11,7 +11,7 @@ Web-based Nostr client – simple, fast, no installation required.
 
 Good for beginners or as a backup client.
 
-See also → [Nostr](/Open_Internet_Manifest/en/concepts/nostr) · [Thesis 24](/Open_Internet_Manifest/en/theses/thesis-24) · [snort.social](https://snort.social/)
+See also → [Nostr](/en/concepts/nostr) · [Thesis 24](/en/theses/thesis-24) · [snort.social](https://snort.social/)
 
 ---
 

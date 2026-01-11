@@ -15,7 +15,7 @@ Good balance between usability and independence.
 
 **Note**: not self-hostable – centrally managed, but independent from Big Tech.
 
-See also → [DuckDuckGo](/Open_Internet_Manifest/en/concepts/duckduckgo) · [Thesis 18](/Open_Internet_Manifest/en/theses/thesis-18) · [search.brave.com](https://search.brave.com/)
+See also → [DuckDuckGo](/en/concepts/duckduckgo) · [Thesis 18](/en/theses/thesis-18) · [search.brave.com](https://search.brave.com/)
 
 ---
 
