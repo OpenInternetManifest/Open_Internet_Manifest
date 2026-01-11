@@ -334,7 +334,7 @@ body {
 
 /* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
 .integrity-content ol {
-  text-align: left !important;
+  text-align: center !important;
   display: block !important;
   padding-left: 2em !important; /* netjes tegen tekst */
   margin: 1.5em 0 !important;
