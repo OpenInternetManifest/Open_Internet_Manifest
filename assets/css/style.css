@@ -332,55 +332,7 @@ body {
   transform: translateY(-4px);
 }
 
-/* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
-.integrity-content ol {
-  text-align: center !important;
-  display: block !important;
-  padding-left: 2em !important; /* netjes tegen tekst */
-  margin: 1.5em 0 !important;
-}
 
-.integrity-content li {
-  margin-bottom: 1em !important;
-  line-height: 1.6 !important;
-}
-
-.integrity-content ol li::marker {
-  color: #66b3ff !important;
-  font-weight: bold;
-}
-/* Maak de nummering netjes tegen de tekst staan, centraal uitgelijnd */
-.integrity-content ol {
-  list-style-position: inside;      /* nummers binnen de tekstblokken */
-  padding-left: 0 !important;       /* verwijder standaard indent */
-  margin-left: 0 !important;
-  counter-reset: item;              /* reset teller voor custom nummering */
-}
-
-.integrity-content ol li {
-  position: relative;
-  padding-left: 2.5em;              /* ruimte voor het nummer */
-  text-indent: -2.5em;              /* trek het nummer terug naar links */
-  margin-bottom: 1em;
-}
-
-.integrity-content ol li::marker {
-  content: none;                    /* verwijder standaard marker */
-  color: #66b3ff !important;
-  font-weight: bold;
-}
-
-/* Optioneel: custom nummering met blauwe kleur en bold */
-.integrity-content ol li::before {
-  content: counter(item) ". ";
-  counter-increment: item;
-  color: #66b3ff !important;
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-  text-align: right;
-  width: 2em;
-}
 
 /* Plakbox SHA256 – mooie styling */
 .hash-input {
@@ -1028,4 +980,43 @@ details li {
   .signature br {
     display: block; /* op mobiel twee regels voor leesbaarheid */
   }
+}
+/* SHA256 nummering centraal tegen de tekst aan (flush left alignment) */
+.integrity-content ol {
+  list-style-position: inside !important; /* nummers binnen tekstblok */
+  padding-left: 0 !important;             /* geen extra marge links */
+  margin-left: 0 !important;
+  margin: 1.5em 0 !important;
+  counter-reset: item;
+}
+
+.integrity-content ol li {
+  padding-left: 2.8em;                    /* ruimte voor nummer */
+  text-indent: -2.8em;                    /* trek nummer terug tegen tekst */
+  margin-bottom: 1em !important;
+  line-height: 1.6 !important;
+}
+
+/* Verberg standaard marker, gebruik custom voor blauwe kleur */
+.integrity-content ol li::marker {
+  content: none !important;
+}
+
+/* Custom blauwe nummering, flush tegen tekst */
+.integrity-content ol li::before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  color: #66b3ff !important;
+  font-weight: bold;
+  display: inline-block;
+  width: 2.5em;                           /* vaste breedte voor uitlijning */
+  text-align: right;                      /* nummers rechts uitgelijnd in hun ruimte */
+  margin-right: 0.5em;
+}
+
+/* Extra: zorg dat tekst netjes doorloopt */
+.integrity-content ol li p,
+.integrity-content ol li {
+  margin: 0;
+  padding: 0;
 }
