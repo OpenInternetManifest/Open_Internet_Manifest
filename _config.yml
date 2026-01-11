@@ -8,6 +8,12 @@ baseurl: ""                                  # leeg! geen subpad
 # (dit voorkomt dat je lokaal /Open_Internet_Manifest moet typen)
 # localhost_url: "http://127.0.0.1:4000"   # uncomment als je wilt
 
+content_security_policy:
+  default-src: "'self'"
+  script-src: "'self' gc.zgo.at 'unsafe-inline'"
+  img-src: "'self' openinternetmanifest.goatcounter.com data: blob:"
+  style-src: "'self' 'unsafe-inline'"
+  connect-src: "'self' gc.zgo.at"
 
 defaults:
   - scope:
