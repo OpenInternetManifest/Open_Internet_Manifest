@@ -23,6 +23,13 @@
     <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
       ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
     </a>
+      
+    <div class="nav-logo-wrapper">
+  <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
+  <span class="visitor-counter" title="Bezoekers sinds lancering">
+   <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat" alt="Bezoekers teller" style="border:none; height:1.5em; margin-left:0.8em;">
+  </span>
+</div>
 
     <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
 
@@ -114,6 +121,10 @@
       {% include integrity-check-{{ lang }}.html %}
 
       {% include page-footer.html %}
+
+       <!-- GoatCounter privacy-first analytics -->
+<script data-goatcounter="https://openinternetmanifest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
     </main>
   </body>
   <!-- JS toggle -->
