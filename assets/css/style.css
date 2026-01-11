@@ -1028,7 +1028,7 @@ details li {
 
 .visitor-counter img {
   height: 1.8em !important; /* groter en forceer */
-  min-width: 60px;          /* voorkom te klein */
+  min-width: 80px;          /* voorkom te klein */
   filter: brightness(1.2) contrast(1.1); /* beter zichtbaar op donker */
 }
 
