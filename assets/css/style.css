@@ -334,10 +334,17 @@ body {
 
 /* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
 .integrity-content ol {
-  text-align: center !important;
-  display: block !important;
-  padding-left: 2em !important; /* netjes tegen tekst */
+  list-style-position: inside !important;  /* nummers binnen de tekst */
+  padding-left: 0 !important;              /* verwijder standaard marge */
+  margin-left: 0 !important;
   margin: 1.5em 0 !important;
+  counter-reset: item;
+}
+.integrity-content ol li {
+  padding-left: 2.8em !important;          /* ruimte voor nummer */
+  text-indent: -2.8em !important;          /* trek nummer terug tegen tekst */
+  margin-bottom: 1em !important;
+  line-height: 1.6 !important;
 }
 
 .integrity-content li {
@@ -345,9 +352,27 @@ body {
   line-height: 1.6 !important;
 }
 
+/* Verberg standaard marker */
 .integrity-content ol li::marker {
+  content: none !important;
+}
+/* Zorg dat tekst netjes doorloopt */
+.integrity-content ol li p,
+.integrity-content ol li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom blauwe nummering, flush tegen tekst */
+.integrity-content ol li::before {
+  content: counter(item) ". ";
+  counter-increment: item;
   color: #66b3ff !important;
   font-weight: bold;
+  display: inline-block;
+  width: 2.5em;                            /* vaste breedte voor uitlijning */
+  text-align: right;                       /* nummers rechts uitgelijnd in hun ruimte */
+  margin-right: 0.5em;
 }
 
 /* Plakbox SHA256 – mooie styling */
