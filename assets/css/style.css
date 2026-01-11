@@ -1026,17 +1026,19 @@ details li {
   align-items: center;
 }
 
-.visitor-counter {
-  font-size: 0.85em;
-  color: #66b3ff;
-  opacity: 0.8;
-  vertical-align: middle;
-  margin-left: 0.8em;
+.visitor-counter img {
+  height: 1.8em !important; /* groter en forceer */
+  min-width: 60px;          /* voorkom te klein */
+  filter: brightness(1.2) contrast(1.1); /* beter zichtbaar op donker */
 }
 
-.visitor-counter img {
-  height: 1.2em;
-  vertical-align: middle;
+.visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #66b3ff;
+  opacity: 0.9;
+  margin-left: 1em;
 }
 
 /* Mobiel: kleiner en meer ruimte */
