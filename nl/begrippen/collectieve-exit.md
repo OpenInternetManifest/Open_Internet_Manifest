@@ -13,6 +13,6 @@ Net zoals een bankrun: zodra genoeg mensen hun geld opeisen, is het voorbij.
 
 Dit is onze laatste kans.
 
-Zie ook → [Enclosures](/Open_Internet_Manifest/nl/begrippen/enclosures) · [Thesis 4](/Open_Internet_Manifest/nl/theses/thesis-04)
+Zie ook → [Enclosures](/nl/begrippen/enclosures) · [Thesis 4](/nl/theses/thesis-04)
 
 ---

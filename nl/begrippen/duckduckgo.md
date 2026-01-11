@@ -15,6 +15,6 @@ Makkelijke overstap van Google voor dagelijks gebruik.
 
 **Let op**: niet zelf hostbaar – centraal beheerd, maar privacy-vriendelijk.
 
-Zie ook → [Brave Search](/Open_Internet_Manifest/nl/begrippen/brave-search) · [Thesis 18](/Open_Internet_Manifest/nl/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
+Zie ook → [Brave Search](/nl/begrippen/brave-search) · [Thesis 18](/nl/theses/thesis-18) · [duckduckgo.com](https://duckduckgo.com/)
 
 ---

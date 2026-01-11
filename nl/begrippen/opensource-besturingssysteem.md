@@ -11,7 +11,7 @@ Besturingssystemen zoals Linux (desktop/mobile), GrapheneOS, CalyxOS, Ubuntu Tou
 
 De enige manier om een telefoon of computer echt van jezelf te maken.
 
-Zie ook → [Open hardware](/Open_Internet_Manifest/nl/begrippen/open-hardware) · [Thesis 4](/Open_Internet_Manifest/nl/theses/thesis-04)
+Zie ook → [Open hardware](/nl/begrippen/open-hardware) · [Thesis 4](/nl/theses/thesis-04)
 
 ---
 

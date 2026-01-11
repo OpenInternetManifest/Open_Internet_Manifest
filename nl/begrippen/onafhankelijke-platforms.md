@@ -13,7 +13,7 @@ Voorbeelden: Mastodon (fediverse), Peertube, Lemmy, Nostr-clients.
 
 Gebruikers kunnen zelf servers draaien, data meenemen en nooit gedeplatformd worden.
 
-Zie ook → [Onafhankelijke protocollen](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 9](/Open_Internet_Manifest/nl/theses/thesis-09)
+Zie ook → [Onafhankelijke protocollen](/nl/begrippen/onafhankelijke-protocollen) · [Sovereign node](/nl/begrippen/sovereign-node) · [Thesis 9](/nl/theses/thesis-09)
 
 ---
 

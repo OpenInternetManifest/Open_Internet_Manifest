@@ -13,7 +13,7 @@ Iedereen kan een node draaien die meecrawlt en resultaten deelt – samen bouw j
 
 Geen tracking, geen advertenties, volledige privacy.
 
-Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 18](/Open_Internet_Manifest/nl/theses/thesis-18) · [yacy.net](https://yacy.net/)
+Zie ook → [Sovereign node](/nl/begrippen/sovereign-node) · [Thesis 18](/nl/theses/thesis-18) · [yacy.net](https://yacy.net/)
 
 ---
 

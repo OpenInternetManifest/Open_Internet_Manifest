@@ -13,7 +13,7 @@ Geen Big Tech eigenaar, minder censuur, advertentie-inkomsten gaan grotendeels n
 
 Goed alternatief voor YouTube-gebruikers die meer controle willen.
 
-Zie ook → [Odysee](/Open_Internet_Manifest/nl/begrippen/odysee) · [BitChute](/Open_Internet_Manifest/nl/begrippen/bitchute) · [Thesis 17](/Open_Internet_Manifest/nl/theses/thesis-17) · [rumble.com](https://rumble.com/)
+Zie ook → [Odysee](/nl/begrippen/odysee) · [BitChute](/nl/begrippen/bitchute) · [Thesis 17](/nl/theses/thesis-17) · [rumble.com](https://rumble.com/)
 
 ---
 

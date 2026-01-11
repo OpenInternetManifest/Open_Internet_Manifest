@@ -13,7 +13,7 @@ Ze beweren jou te beschermen tegen virussen, hackers en “gevaarlijke inhoud”
 
 Echte veiligheid komt uit open standaarden, end-to-end encryptie en decentralisatie – niet uit één bedrijf dat alles ziet.
 
-Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/nl/begrippen/ommuurde-tuin) · [Gemak](/Open_Internet_Manifest/nl/begrippen/gemak) · [Thesis 2](/Open_Internet_Manifest/nl/theses/thesis-02)
+Zie ook → [Ommuurde tuin](/nl/begrippen/ommuurde-tuin) · [Gemak](/nl/begrippen/gemak) · [Thesis 2](/nl/theses/thesis-02)
 
 ---
 

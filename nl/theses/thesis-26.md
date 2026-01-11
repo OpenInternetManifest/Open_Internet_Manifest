@@ -3,16 +3,16 @@
 layout: thesis
 lang: nl
 title: Thesis 26 — Ondersteun open source projecten financieel
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-27
-previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-25
+next_thesis: /nl/theses/thesis-27
+previous_thesis: /nl/theses/thesis-25
 
 ---
 
 # Thesis 26 – Betaal de bouwers van het open internet
 
-[**GitHub Sponsors**](/Open_Internet_Manifest/nl/begrippen/github-sponsors), [**Open Collective**](/Open_Internet_Manifest/nl/begrippen/open-collective), [**Liberapay**](/Open_Internet_Manifest/nl/begrippen/liberapay), [**Patreon**](/Open_Internet_Manifest/nl/begrippen/patreon), of een directe [**Lightning-zap**](/Open_Internet_Manifest/nl/begrippen/lightning-zap).
+[**GitHub Sponsors**](/nl/begrippen/github-sponsors), [**Open Collective**](/nl/begrippen/open-collective), [**Liberapay**](/nl/begrippen/liberapay), [**Patreon**](/nl/begrippen/patreon), of een directe [**Lightning-zap**](/nl/begrippen/lightning-zap).
 
-De mensen die [**Mastodon**](/Open_Internet_Manifest/nl/begrippen/mastodon), [**Matrix**](/Open_Internet_Manifest/nl/begrippen/matrix), [**Nostr**](/Open_Internet_Manifest/nl/begrippen/nostr), [**IPFS**](/Open_Internet_Manifest/nl/begrippen/ipfs) en [**PeerTube**](/Open_Internet_Manifest/nl/begrippen/peertube) bouwen verdienen hun brood niet van advertenties of investeerders, maar van jou en mij.
+De mensen die [**Mastodon**](/nl/begrippen/mastodon), [**Matrix**](/nl/begrippen/matrix), [**Nostr**](/nl/begrippen/nostr), [**IPFS**](/nl/begrippen/ipfs) en [**PeerTube**](/nl/begrippen/peertube) bouwen verdienen hun brood niet van advertenties of investeerders, maar van jou en mij.
 
 Eén euro per maand van een miljoen mensen verandert alles.
 

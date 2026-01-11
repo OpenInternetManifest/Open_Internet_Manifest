@@ -11,6 +11,6 @@ De vrijheid om geld te ontvangen, te sturen en te bewaren zonder toestemming of 
 
 Tegenpool van afhankelijkheid van centrale betaalsystemen.
 
-Zie ook → [Peer-to-peer betalingen](/Open_Internet_Manifest/nl/begrippen/peer-to-peer-betalingen) · [Data-soevereiniteit](/Open_Internet_Manifest/nl/begrippen/data-soevereiniteit) · [Thesis 19](/Open_Internet_Manifest/nl/theses/thesis-19)
+Zie ook → [Peer-to-peer betalingen](/nl/begrippen/peer-to-peer-betalingen) · [Data-soevereiniteit](/nl/begrippen/data-soevereiniteit) · [Thesis 19](/nl/theses/thesis-19)
 
 ---

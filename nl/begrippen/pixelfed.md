@@ -11,7 +11,7 @@ Gedecentraliseerd foto-deelplatform (Instagram-alternatief) op ActivityPub.
 
 Privacy-focused, geen algoritmes die je voeden, volledige data-portability.
 
-Zie ook → [ActivityPub](/Open_Internet_Manifest/nl/begrippen/activitypub) · [Mastodon](/Open_Internet_Manifest/nl/begrippen/mastodon) · [Thesis 15](/Open_Internet_Manifest/nl/theses/thesis-15) · [pixelfed.org](https://pixelfed.org/)
+Zie ook → [ActivityPub](/nl/begrippen/activitypub) · [Mastodon](/nl/begrippen/mastodon) · [Thesis 15](/nl/theses/thesis-15) · [pixelfed.org](https://pixelfed.org/)
 
 ---
 

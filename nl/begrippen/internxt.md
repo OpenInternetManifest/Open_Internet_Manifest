@@ -11,7 +11,7 @@ Privacy-first cloud-opslag met end-to-end encryptie en gedistribueerde opslag.
 
 Open-source client, geen kennis van je data bij het bedrijf.
 
-Zie ook → [Data-soevereiniteit](/Open_Internet_Manifest/nl/begrippen/data-soevereiniteit) · [Thesis 23](/Open_Internet_Manifest/nl/theses/thesis-23) · [internxt.com](https://internxt.com/)
+Zie ook → [Data-soevereiniteit](/nl/begrippen/data-soevereiniteit) · [Thesis 23](/nl/theses/thesis-23) · [internxt.com](https://internxt.com/)
 
 ---
 

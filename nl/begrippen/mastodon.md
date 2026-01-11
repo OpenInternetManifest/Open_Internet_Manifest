@@ -13,7 +13,7 @@ Je kiest of draait een eigen instance, volgt mensen over instances heen, en kunt
 
 Miljoenen gebruikers in 2025.
 
-Zie ook → [ActivityPub](/Open_Internet_Manifest/nl/begrippen/activitypub) · [Thesis 15](/Open_Internet_Manifest/nl/theses/thesis-15) · [joinmastodon.org](https://joinmastodon.org/)
+Zie ook → [ActivityPub](/nl/begrippen/activitypub) · [Thesis 15](/nl/theses/thesis-15) · [joinmastodon.org](https://joinmastodon.org/)
 
 ---
 

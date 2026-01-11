@@ -11,7 +11,7 @@ Directe microbetaling via Lightning Network op Nostr – vaak gebruikt om creato
 
 Geen tussenpersoon, geen commissie, directe steun.
 
-Zie ook → [Bitcoin + Lightning](/Open_Internet_Manifest/nl/begrippen/bitcoin-lightning) · [Nostr-zaps](/Open_Internet_Manifest/nl/begrippen/nostr-zaps) · [Thesis 26](/Open_Internet_Manifest/nl/theses/thesis-26)
+Zie ook → [Bitcoin + Lightning](/nl/begrippen/bitcoin-lightning) · [Nostr-zaps](/nl/begrippen/nostr-zaps) · [Thesis 26](/nl/theses/thesis-26)
 
 ---
 

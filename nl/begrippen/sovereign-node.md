@@ -21,8 +21,8 @@ Ik.”
 ### Technische definitie
 Een apparaat dat:
 • volledig door jou beheerd wordt (geen beheer op afstand door wie dan ook),  
-• permanent verbonden is met het open internet of een [**mesh-netwerk**](/Open_Internet_Manifest/nl/begrippen/mesh-netwerk),  
-• open protocollen draait ([**IPFS**](/Open_Internet_Manifest/nl/begrippen/ipfs) · [**Matrix**](/Open_Internet_Manifest/nl/begrippen/matrix) · [**Nostr**](/Open_Internet_Manifest/nl/begrippen/nostr) · [**Yggdrasil**](/Open_Internet_Manifest/nl/begrippen/yggdrasil) · [**LoRa**](/Open_Internet_Manifest/nl/begrippen/lora) · etc.),  
+• permanent verbonden is met het open internet of een [**mesh-netwerk**](/nl/begrippen/mesh-netwerk),  
+• open protocollen draait ([**IPFS**](/nl/begrippen/ipfs) · [**Matrix**](/nl/begrippen/matrix) · [**Nostr**](/nl/begrippen/nostr) · [**Yggdrasil**](/nl/begrippen/yggdrasil) · [**LoRa**](/nl/begrippen/lora) · etc.),  
 • jouw data lokaal opslaat en beschikbaar stelt aan anderen,  
 • blijft werken zodra jij de stekker er weer in doet – verder niemand nodig.
 
@@ -42,10 +42,10 @@ Politiek een naakte machtsgreep.
 - **Guifi-net Twente** – 200+ nodes in de Achterhoek en Twente, vaak sneller en betrouwbaarder dan commerciële aanbieders. Geïnspireerd op het Spaanse Guifi.net (Europa’s grootste community-netwerk).  
   → [guifi.net](https://guifi.net/) (origineel) – lokale variant groeit snel
 
-Deze netwerken bewijzen: je hebt geen [**glasvezel-aansluiting**](/Open_Internet_Manifest/nl/begrippen/glasvezel-aansluiting) van KPN/Delta nodig om soeverein online te zijn.  
+Deze netwerken bewijzen: je hebt geen [**glasvezel-aansluiting**](/nl/begrippen/glasvezel-aansluiting) van KPN/Delta nodig om soeverein online te zijn.  
 Je hebt alleen buren nodig die hetzelfde willen.
 
-Eén sovereign node in jouw huis is een stem tegen [**hyperscale-datacentra**](/Open_Internet_Manifest/nl/begrippen/hyperscale-datacentrum) en voor een internet dat weer van ons allemaal is.
+Eén sovereign node in jouw huis is een stem tegen [**hyperscale-datacentra**](/nl/begrippen/hyperscale-datacentrum) en voor een internet dat weer van ons allemaal is.
 
 Prijs 2025: < €250 · Verbruik: minder dan een koelkast.
 
@@ -53,7 +53,7 @@ Bouw het.
 En laat ze maar komen met hun megadatacentra.  
 We hebben de meterkasten al.
 
-Zie ook → [Thesis 9](/Open_Internet_Manifest/nl/theses/thesis-09) · [Thesis 22](/Open_Internet_Manifest/nl/theses/thesis-22) · [Thesis 27](/Open_Internet_Manifest/nl/theses/thesis-27) · [Thesis 7](/Open_Internet_Manifest/nl/theses/thesis-07)
+Zie ook → [Thesis 9](/nl/theses/thesis-09) · [Thesis 22](/nl/theses/thesis-22) · [Thesis 27](/nl/theses/thesis-27) · [Thesis 7](/nl/theses/thesis-07)
 
 ---
 

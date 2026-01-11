@@ -11,6 +11,6 @@ Populaire Nostr-client voor iOS – eenvoudig, mooi ontwerp, volledige ondersteu
 
 Eén van de makkelijkste manieren om met Nostr te beginnen.
 
-Zie ook → [Nostr](/Open_Internet_Manifest/nl/begrippen/nostr) · [npub](/Open_Internet_Manifest/nl/begrippen/npub) · [Thesis 24](/Open_Internet_Manifest/nl/theses/thesis-24) · [damus.io](https://damus.io/)
+Zie ook → [Nostr](/nl/begrippen/nostr) · [npub](/nl/begrippen/npub) · [Thesis 24](/nl/theses/thesis-24) · [damus.io](https://damus.io/)
 
 ---

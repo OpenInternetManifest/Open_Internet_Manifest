@@ -13,5 +13,5 @@ Een verplicht identiteitsbewijs dat poortwachters eisen voordat je toegang krijg
 Vroeger was online gaan anoniem of pseudoniem – net als een brief posten zonder afzender.  
 Vandaag is een account de sleutel die bedrijven gebruiken om je te volgen, te profileren en te controleren.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Digitale soevereiniteit](/Open_Internet_Manifest/nl/begrippen/digitale-soevereiniteit) · [Thesis 2](/Open_Internet_Manifest/nl/theses/thesis-02)
+Zie ook → [Poortwachters](/nl/begrippen/poortwachters) · [Digitale soevereiniteit](/nl/begrippen/digitale-soevereiniteit) · [Thesis 2](/nl/theses/thesis-02)
 

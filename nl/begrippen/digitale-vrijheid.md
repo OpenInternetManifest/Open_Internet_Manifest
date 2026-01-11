@@ -11,6 +11,6 @@ De mogelijkheid om online te handelen, spreken en creëren zonder toestemming, t
 
 Niet te verwarren met “privacy-instellingen” binnen een ommuurde tuin.
 
-Zie ook → [Digitale soevereiniteit](/Open_Internet_Manifest/nl/begrippen/digitale-soevereiniteit) · [Collectieve exit](/Open_Internet_Manifest/nl/begrippen/collectieve-exit) · [Thesis 5](/Open_Internet_Manifest/nl/theses/thesis-05)
+Zie ook → [Digitale soevereiniteit](/nl/begrippen/digitale-soevereiniteit) · [Collectieve exit](/nl/begrippen/collectieve-exit) · [Thesis 5](/nl/theses/thesis-05)
 
 ---

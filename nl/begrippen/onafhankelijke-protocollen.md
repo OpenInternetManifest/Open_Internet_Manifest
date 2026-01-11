@@ -17,7 +17,7 @@ Voorbeelden:
 
 Deze protocollen vormen de laatste vrije wegen buiten de ommuurde tuinen.
 
-Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 4](/Open_Internet_Manifest/nl/theses/thesis-04)
+Zie ook → [Sovereign node](/nl/begrippen/sovereign-node) · [Thesis 4](/nl/theses/thesis-04)
 
 ---
 

@@ -14,6 +14,6 @@ Een juridisch trucje dat in de echte wereld nooit zou standhouden – niemand te
 
 Online is het de normaalste zaak van de wereld geworden.
 
-Zie ook → [Gemak](/Open_Internet_Manifest/nl/begrippen/gemak) · [Thesis 3](/Open_Internet_Manifest/nl/theses/thesis-03)
+Zie ook → [Gemak](/nl/begrippen/gemak) · [Thesis 3](/nl/theses/thesis-03)
 
 ---

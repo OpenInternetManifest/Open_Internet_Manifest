@@ -3,8 +3,8 @@
 layout: thesis
 lang: nl
 title: Thesis 9 — Een open internet maakt echte economische vrijheid weer mogelijk
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-10
-previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-08
+next_thesis: /nl/theses/thesis-10
+previous_thesis: /nl/theses/thesis-08
 
 ---
 
@@ -16,17 +16,17 @@ Vandaag ben je huurder van hun marktplaatsen, advertentienetwerken en betaalsyst
 
 Die afhankelijkheid houdt miljoenen makers, ondernemers en kleine gemeenschappen arm en kwetsbaar.
 
-Door [**Bitcoin + Lightning**](/Open_Internet_Manifest/nl/begrippen/bitcoin-lightning), [**Monero**](/Open_Internet_Manifest/nl/begrippen/monero), [**Nostr-zaps**](/Open_Internet_Manifest/nl/begrippen/nostr-zaps) en [**Cashu**](/Open_Internet_Manifest/nl/begrippen/cashu) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
+Door [**Bitcoin + Lightning**](/nl/begrippen/bitcoin-lightning), [**Monero**](/nl/begrippen/monero), [**Nostr-zaps**](/nl/begrippen/nostr-zaps) en [**Cashu**](/nl/begrippen/cashu) te gebruiken, kun je weer direct betalen – zonder commissie of censuur.
 
 Eén transactie buiten hun systeem is genoeg om te voelen hoe financiële soevereiniteit weer werkt.
 
 Een open internet maakt echte economische vrijheid weer mogelijk, zonder dat vijf bedrijven de tolwegen bezitten.
 
-Door [**open protocollen**](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen), [**peer-to-peer betalingen**](/Open_Internet_Manifest/nl/begrippen/peer-to-peer-betalingen) en [**onafhankelijke platforms**](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-platforms) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/Open_Internet_Manifest/nl/begrippen/poortwachters) bepaalt of je mag leven van je eigen werk. 
+Door [**open protocollen**](/nl/begrippen/onafhankelijke-protocollen), [**peer-to-peer betalingen**](/nl/begrippen/peer-to-peer-betalingen) en [**onafhankelijke platforms**](/nl/begrippen/onafhankelijke-platforms) te bouwen, creëren we weer een internet waarop je kunt verdienen, ruilen en samenwerken – zonder dat een handvol [**poortwachters**](/nl/begrippen/poortwachters) bepaalt of je mag leven van je eigen werk. 
 
-**Zie ook de praktische [Raspberry Pi node guide](/Open_Internet_Manifest/nl/guides/raspberry-pi-node) – bouw je eigen infrastructuur.**
+**Zie ook de praktische [Raspberry Pi node guide](/nl/guides/raspberry-pi-node) – bouw je eigen infrastructuur.**
 **Wil je zelf peer-to-peer betalen?**  
-De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/Open_Internet_Manifest/nl/guides/peer-to-peer-betalingen-coming-soon)
+De volledige guide komt eraan → [Peer-to-peer betalingen – coming soon](/nl/guides/peer-to-peer-betalingen-coming-soon)
 
 
 <div style="text-align: center; ...">

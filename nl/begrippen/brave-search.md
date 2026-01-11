@@ -15,6 +15,6 @@ Goede balans tussen gebruiksgemak en onafhankelijkheid.
 
 **Let op**: niet zelf hostbaar – centraal beheerd, maar onafhankelijk van Big Tech.
 
-Zie ook → [DuckDuckGo](/Open_Internet_Manifest/nl/begrippen/duckduckgo) · [Thesis 18](/Open_Internet_Manifest/nl/theses/thesis-18) · [search.brave.com](https://search.brave.com/)
+Zie ook → [DuckDuckGo](/nl/begrippen/duckduckgo) · [Thesis 18](/nl/theses/thesis-18) · [search.brave.com](https://search.brave.com/)
 
 ---

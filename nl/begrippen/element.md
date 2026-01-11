@@ -13,6 +13,6 @@ End-to-end versleuteld, federated, zelf hostbaar.
 
 De meest gebruiksvriendelijke manier om Matrix te gebruiken.
 
-Zie ook → [Matrix](/Open_Internet_Manifest/nl/begrippen/matrix) · [Thesis 22](/Open_Internet_Manifest/nl/theses/thesis-22) · [element.io](https://element.io/)
+Zie ook → [Matrix](/nl/begrippen/matrix) · [Thesis 22](/nl/theses/thesis-22) · [element.io](https://element.io/)
 
 ---

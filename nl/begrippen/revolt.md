@@ -13,7 +13,7 @@ Volledige controle over je server, end-to-end encryptie mogelijk, geen centrale 
 
 Perfect voor kleine tot middelgrote gemeenschappen.
 
-Zie ook → [Matrix](/Open_Internet_Manifest/nl/begrippen/matrix) · [Thesis 20](/Open_Internet_Manifest/nl/theses/thesis-20) · [revolt.chat](https://revolt.chat/)
+Zie ook → [Matrix](/nl/begrippen/matrix) · [Thesis 20](/nl/theses/thesis-20) · [revolt.chat](https://revolt.chat/)
 
 ---
 

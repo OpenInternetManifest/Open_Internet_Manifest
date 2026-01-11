@@ -13,7 +13,7 @@ Je bewijst dat een Mastodon-, GitHub- of Twitter-account van jou is zonder het p
 
 Ideaal voor draagbare identiteit en reputatie.
 
-Zie ook → [Nostr](/Open_Internet_Manifest/nl/begrippen/nostr) · [DID](/Open_Internet_Manifest/nl/begrippen/did) · [Thesis 14](/Open_Internet_Manifest/nl/theses/thesis-14) · [keyoxide.org](https://keyoxide.org/)
+Zie ook → [Nostr](/nl/begrippen/nostr) · [DID](/nl/begrippen/did) · [Thesis 14](/nl/theses/thesis-14) · [keyoxide.org](https://keyoxide.org/)
 
 ---
 

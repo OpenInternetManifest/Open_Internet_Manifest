@@ -11,7 +11,7 @@ Privacy-first messenger zonder user-ID's – zelfs geen telefoonnummer of random
 
 Eenrichtings-links voor contacten, end-to-end encryptie, geen metadata op servers.
 
-Zie ook → [End-to-end encryptie](/Open_Internet_Manifest/nl/begrippen/end-to-end-encryptie) · [Thesis 16](/Open_Internet_Manifest/nl/theses/thesis-16) · [simplex.chat](https://simplex.chat/)
+Zie ook → [End-to-end encryptie](/nl/begrippen/end-to-end-encryptie) · [Thesis 16](/nl/theses/thesis-16) · [simplex.chat](https://simplex.chat/)
 
 ---
 

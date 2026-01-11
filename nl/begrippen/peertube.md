@@ -13,7 +13,7 @@ Iedereen kan een instance draaien, video’s zijn verspreid over servers, data-p
 
 YouTube-alternatief zonder centrale controle of algoritme-dictatuur.
 
-Zie ook → [ActivityPub](/Open_Internet_Manifest/nl/begrippen/activitypub) · [Thesis 17](/Open_Internet_Manifest/nl/theses/thesis-17) · [joinpeertube.org](https://joinpeertube.org/)
+Zie ook → [ActivityPub](/nl/begrippen/activitypub) · [Thesis 17](/nl/theses/thesis-17) · [joinpeertube.org](https://joinpeertube.org/)
 
 ---
 

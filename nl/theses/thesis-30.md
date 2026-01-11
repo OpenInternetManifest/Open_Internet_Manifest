@@ -3,8 +3,8 @@
 layout: thesis
 lang: nl
 title: Thesis 30 — Dit manifest is pas het begin
-next_thesis: /Open_Internet_Manifest/nl/theses/levend-manifest
-previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-29
+next_thesis: /nl/theses/levend-manifest
+previous_thesis: /nl/theses/thesis-29
 
 ---
 

@@ -11,6 +11,6 @@ Blockchain-protocol voor gedecentraliseerde content-distributie (basis van Odyse
 
 Content is gekoppeld aan cryptografische hashes, niemand kan het verwijderen.
 
-Zie ook → [Odysee](/Open_Internet_Manifest/nl/begrippen/odysee) · [Thesis 17](/Open_Internet_Manifest/nl/theses/thesis-17) · [lbry.com](https://lbry.com/)
+Zie ook → [Odysee](/nl/begrippen/odysee) · [Thesis 17](/nl/theses/thesis-17) · [lbry.com](https://lbry.com/)
 
 ---

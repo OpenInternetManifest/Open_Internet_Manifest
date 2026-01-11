@@ -18,15 +18,15 @@ Dit is een **levend document**. Het groeit door jouw input, ideeën en bijdragen
 
 ## Waar begin je?
 
-[→ Begin met lezen – de eerste thesis](/Open_Internet_Manifest/nl/theses/thesis-00)  
-[→ Alle 100 theses in één overzicht](/Open_Internet_Manifest/nl/manifest)
+[→ Begin met lezen – de eerste thesis](/nl/theses/thesis-00)  
+[→ Alle 100 theses in één overzicht](/nl/manifest)
 
 Wil je weten waarom we alles **cryptografisch verifiëren** (zodat niemand kan knoeien met de inhoud)?  
-[→ Cryptografische hashes uitgelegd](/Open_Internet_Manifest/nl/begrippen/cryptografische-hash/)
+[→ Cryptografische hashes uitgelegd](/nl/begrippen/cryptografische-hash/)
 
 ## Praktisch aan de slag (begin vandaag nog)
 
-[→ Volg de stap-voor-stap guides voor Mastodon, Nextcloud, sovereign nodes en meer](/Open_Internet_Manifest/nl/guides)
+[→ Volg de stap-voor-stap guides voor Mastodon, Nextcloud, sovereign nodes en meer](/nl/guides)
 
 
 ## Hoe werkt de site?

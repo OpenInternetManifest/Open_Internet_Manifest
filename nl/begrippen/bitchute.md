@@ -11,6 +11,6 @@ Gedecentraliseerd video-platform met focus op vrije meningsuiting, peer-to-peer 
 
 Geen centrale moderatie of advertentie-afhankelijkheid.
 
-Zie ook → [Thesis 17](/Open_Internet_Manifest/nl/theses/thesis-17) · [bitchute.com](https://www.bitchute.com/)
+Zie ook → [Thesis 17](/nl/theses/thesis-17) · [bitchute.com](https://www.bitchute.com/)
 
 ---

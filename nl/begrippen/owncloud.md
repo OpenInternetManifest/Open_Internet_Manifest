@@ -11,7 +11,7 @@ Open-source platform voor zelfgehoste bestandssynchronisatie en delen (voorloper
 
 Geeft je eigen cloud-opslag zonder afhankelijkheid van Big Tech.
 
-Zie ook → [Nextcloud](/Open_Internet_Manifest/nl/begrippen/nextcloud) · [Data-soevereiniteit](/Open_Internet_Manifest/nl/begrippen/data-soevereiniteit) · [Thesis 13](/Open_Internet_Manifest/nl/theses/thesis-13) · [owncloud.com](https://owncloud.com/)
+Zie ook → [Nextcloud](/nl/begrippen/nextcloud) · [Data-soevereiniteit](/nl/begrippen/data-soevereiniteit) · [Thesis 13](/nl/theses/thesis-13) · [owncloud.com](https://owncloud.com/)
 
 ---
 

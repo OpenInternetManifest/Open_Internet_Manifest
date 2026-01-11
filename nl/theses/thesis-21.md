@@ -3,8 +3,8 @@
 layout: thesis
 lang: nl
 title: Thesis 21 — Praktische eerste stap maak vandaag nog een Mastodon-account
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-22
-previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-20
+next_thesis: /nl/theses/thesis-22
+previous_thesis: /nl/theses/thesis-20
 
 ---
 
@@ -18,9 +18,9 @@ Kies een server die bij je past en maak in 15 minuten je account:
 - <a href="https://chaos.social" target="_blank">chaos.social</a> – actief, vrij en privacy-vriendelijk \
 
 **Volg deze stap-voor-stap guide voor een soepele start:**  
-[Bekijk de volledige Mastodon guide →](/Open_Internet_Manifest/nl/guides/mastodon-account-maken)\
-[Bekijk de volledige Fosstodon guide →](/Open_Internet_Manifest/nl/guides/fosstodon-account-maken)\
-[Bekijk de volledige Chaos.social guide →](/Open_Internet_Manifest/nl/guides/chaos-account-maken)
+[Bekijk de volledige Mastodon guide →](/nl/guides/mastodon-account-maken)\
+[Bekijk de volledige Fosstodon guide →](/nl/guides/fosstodon-account-maken)\
+[Bekijk de volledige Chaos.social guide →](/nl/guides/chaos-account-maken)
 
 Volg de mensen die je al kent.  
 Post één bericht.  

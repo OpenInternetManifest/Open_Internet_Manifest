@@ -11,7 +11,7 @@ Platform van GitHub om open-source ontwikkelaars maandelijks of eenmalig te spon
 
 Directe steun, geen advertenties, GitHub neemt een klein percentage.
 
-Zie ook → [Open Collective](/Open_Internet_Manifest/nl/begrippen/open-collective) · [Thesis 26](/Open_Internet_Manifest/nl/theses/thesis-26) · [github.com/sponsors](https://github.com/sponsors)
+Zie ook → [Open Collective](/nl/begrippen/open-collective) · [Thesis 26](/nl/theses/thesis-26) · [github.com/sponsors](https://github.com/sponsors)
 
 ---
 

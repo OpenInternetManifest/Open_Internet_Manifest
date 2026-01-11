@@ -13,7 +13,7 @@ Voorbeelden: betalen voor basisfunctionaliteit, shadowbanning, app-store-regels,
 
 Offline zou dit neerkomen op een bewaker die beslist welke winkels je mag betreden.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Censuur](/Open_Internet_Manifest/nl/begrippen/censuur) · [Thesis 3](/Open_Internet_Manifest/nl/theses/thesis-03)
+Zie ook → [Poortwachters](/nl/begrippen/poortwachters) · [Censuur](/nl/begrippen/censuur) · [Thesis 3](/nl/theses/thesis-03)
 
 ---
 

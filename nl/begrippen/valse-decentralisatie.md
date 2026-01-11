@@ -13,7 +13,7 @@ Klassiek voorbeeld: [Meta's Threads op ActivityPub](https://engineering.fb.com/2
 
 Het lijkt open, maar blijft onder hun controle – luxere cellen in dezelfde gevangenis.
 
-Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/nl/begrippen/ommuurde-tuin) · [Onafhankelijke protocollen](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Thesis 5](/Open_Internet_Manifest/nl/theses/thesis-05)
+Zie ook → [Ommuurde tuin](/nl/begrippen/ommuurde-tuin) · [Onafhankelijke protocollen](/nl/begrippen/onafhankelijke-protocollen) · [Thesis 5](/nl/theses/thesis-05)
 
 ---
 

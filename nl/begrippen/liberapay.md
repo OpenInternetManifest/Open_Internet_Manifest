@@ -11,7 +11,7 @@ Open-source, non-profit platform voor terugkerende donaties aan creators en proj
 
 Geen commissie op donaties, volledig transparant.
 
-Zie ook → [Open Collective](/Open_Internet_Manifest/nl/begrippen/open-collective) · [Thesis 26](/Open_Internet_Manifest/nl/theses/thesis-26) · [liberapay.com](https://liberapay.com/)
+Zie ook → [Open Collective](/nl/begrippen/open-collective) · [Thesis 26](/nl/theses/thesis-26) · [liberapay.com](https://liberapay.com/)
 
 ---
 

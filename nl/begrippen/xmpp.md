@@ -11,7 +11,7 @@ Open, federated berichtenprotocol uit 1999 – basis voor Jabber en vele apps (D
 
 Volledig decentraal, end-to-end encryptie mogelijk (OMEMO).
 
-Zie ook → [Matrix](/Open_Internet_Manifest/nl/begrippen/matrix) · [Thesis 16](/Open_Internet_Manifest/nl/theses/thesis-16) · [xmpp.org](https://xmpp.org/)
+Zie ook → [Matrix](/nl/begrippen/matrix) · [Thesis 16](/nl/theses/thesis-16) · [xmpp.org](https://xmpp.org/)
 
 ---
 

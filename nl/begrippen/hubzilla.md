@@ -11,7 +11,7 @@ Geavanceerd gedecentraliseerd platform met sociale netwerken, cloud-opslag, blog
 
 Sterke focus op privacy, permission en data-migratie.
 
-Zie ook → [ActivityPub](/Open_Internet_Manifest/nl/begrippen/activitypub) · [Thesis 15](/Open_Internet_Manifest/nl/theses/thesis-15) · [hubzilla.org](https://hubzilla.org/)
+Zie ook → [ActivityPub](/nl/begrippen/activitypub) · [Thesis 15](/nl/theses/thesis-15) · [hubzilla.org](https://hubzilla.org/)
 
 ---
 

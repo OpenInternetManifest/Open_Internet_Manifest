@@ -11,7 +11,7 @@ Web-based Nostr-client – eenvoudig, snel, geen installatie nodig.
 
 Goed voor beginners of als backup-client.
 
-Zie ook → [Nostr](/Open_Internet_Manifest/nl/begrippen/nostr) · [Thesis 24](/Open_Internet_Manifest/nl/theses/thesis-24) · [snort.social](https://snort.social/)
+Zie ook → [Nostr](/nl/begrippen/nostr) · [Thesis 24](/nl/theses/thesis-24) · [snort.social](https://snort.social/)
 
 ---
 

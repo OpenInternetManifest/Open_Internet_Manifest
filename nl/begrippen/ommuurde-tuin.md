@@ -11,7 +11,7 @@ Een gesloten ecosysteem waarin een bedrijf (meestal Apple, Google of Meta) volle
 
 Gebruikers worden gelokt met “gemak” en “veiligheid”, maar verliezen vrijheid, privacy en keuze.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Thesis 1](/Open_Internet_Manifest/nl/theses/thesis-01) · [Thesis 8](/Open_Internet_Manifest/nl/theses/thesis-08)
+Zie ook → [Poortwachters](/nl/begrippen/poortwachters) · [Thesis 1](/nl/theses/thesis-01) · [Thesis 8](/nl/theses/thesis-08)
 
 ---
 

@@ -13,7 +13,7 @@ Voorbeelden: Signal, Matrix (optioneel), WhatsApp (beperkt).
 
 De technische basis om privacy weer normaal te maken.
 
-Zie ook → [Privacy](/Open_Internet_Manifest/nl/begrippen/privacy) · [Vrije protocollen](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Thesis 7](/Open_Internet_Manifest/nl/theses/thesis-07)
+Zie ook → [Privacy](/nl/begrippen/privacy) · [Vrije protocollen](/nl/begrippen/onafhankelijke-protocollen) · [Thesis 7](/nl/theses/thesis-07)
 
 ---
 

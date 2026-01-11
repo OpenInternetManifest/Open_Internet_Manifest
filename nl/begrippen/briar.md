@@ -13,7 +13,7 @@ Ideaal voor censuur-omzeiling en offline communicatie.
 
 End-to-end versleuteld, geen centrale servers.
 
-Zie ook → [Tor](/Open_Internet_Manifest/nl/begrippen/tor) · [Thesis 16](/Open_Internet_Manifest/nl/theses/thesis-16) · [briarproject.org](https://briarproject.org/)
+Zie ook → [Tor](/nl/begrippen/tor) · [Thesis 16](/nl/theses/thesis-16) · [briarproject.org](https://briarproject.org/)
 
 ---
 

@@ -11,7 +11,7 @@ De leugen dat alles zichtbaar moet zijn om “verbonden” te zijn.
 
 In werkelijkheid een mechanisme waarmee poortwachters elke handeling kunnen volgen, voorspellen en monetiseren.
 
-Zie ook → [Surveillance](/Open_Internet_Manifest/nl/begrippen/surveillance) · [Dataverzameling](/Open_Internet_Manifest/nl/begrippen/dataverzameling) · [Thesis 7](/Open_Internet_Manifest/nl/theses/thesis-07)
+Zie ook → [Surveillance](/nl/begrippen/surveillance) · [Dataverzameling](/nl/begrippen/dataverzameling) · [Thesis 7](/nl/theses/thesis-07)
 
 ---
 

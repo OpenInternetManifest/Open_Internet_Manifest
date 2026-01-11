@@ -13,7 +13,7 @@ Voorbeelden: HTML, HTTP, SMTP, ActivityPub, XMPP.
 
 Essentieel voor interoperabiliteit en vrijheid – tegen lock-in van gesloten systemen.
 
-Zie ook → [Onafhankelijke protocollen](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Thesis 28](/Open_Internet_Manifest/nl/theses/thesis-28)
+Zie ook → [Onafhankelijke protocollen](/nl/begrippen/onafhankelijke-protocollen) · [Thesis 28](/nl/theses/thesis-28)
 
 ---
 

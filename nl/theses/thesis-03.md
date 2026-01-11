@@ -3,8 +3,8 @@
 layout: thesis
 lang: nl
 title: Thesis 3 — In de echte wereld zou niemand accepteren wat wij online al jaren slikken
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-04
-previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-02
+next_thesis: /nl/theses/thesis-04
+previous_thesis: /nl/theses/thesis-02
 
 ---
 
@@ -19,9 +19,9 @@ Stel je voor dat de postdienst al je brieven opent, kopieert en beslist of je vr
 Stel je voor dat een beveiligingsbedrijf je tegenhoudt op de stoep en zegt: “Alleen als je ons je portemonnee geeft en belooft geen verkeerde winkels te betreden.”
 
 Offline zouden we de straten exploderen van woede.  
-Online klikken we “[**akkoord-knop**](/Open_Internet_Manifest/nl/begrippen/akkoord-knop)” en gaan verder met scrollen.
+Online klikken we “[**akkoord-knop**](/nl/begrippen/akkoord-knop)” en gaan verder met scrollen.
 
-Deze normalisatie van [**surveillance**](/Open_Internet_Manifest/nl/begrippen/surveillance), [**dataverzameling**](/Open_Internet_Manifest/nl/begrippen/dataverzameling) en [**toegangscontrole**](/Open_Internet_Manifest/nl/begrippen/toegangscontrole) is geen toeval – het is de grootste truc die ooit op de mensheid is uitgevoerd.
+Deze normalisatie van [**surveillance**](/nl/begrippen/surveillance), [**dataverzameling**](/nl/begrippen/dataverzameling) en [**toegangscontrole**](/nl/begrippen/toegangscontrole) is geen toeval – het is de grootste truc die ooit op de mensheid is uitgevoerd.
 
 
 

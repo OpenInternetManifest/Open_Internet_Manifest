@@ -11,7 +11,7 @@ Zoekmachine die zich richt op non-commerciële, persoonlijke en obscure websites
 
 Geen tracking, geen advertenties, ontdekt het “vergeten” internet.
 
-Zie ook → [Thesis 18](/Open_Internet_Manifest/nl/theses/thesis-18) · [marginalia.nu](https://search.marginalia.nu/)
+Zie ook → [Thesis 18](/nl/theses/thesis-18) · [marginalia.nu](https://search.marginalia.nu/)
 
 ---
 

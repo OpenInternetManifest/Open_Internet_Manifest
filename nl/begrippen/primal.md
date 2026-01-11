@@ -11,7 +11,7 @@ Nostr-client voor web en mobiel – focus op snelheid, caching en goede UX.
 
 Ondersteunt zaps, relays en premium features.
 
-Zie ook → [Nostr](/Open_Internet_Manifest/nl/begrippen/nostr) · [Thesis 24](/Open_Internet_Manifest/nl/theses/thesis-24) · [primal.net](https://primal.net/)
+Zie ook → [Nostr](/nl/begrippen/nostr) · [Thesis 24](/nl/theses/thesis-24) · [primal.net](https://primal.net/)
 
 ---
 

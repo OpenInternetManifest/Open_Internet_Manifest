@@ -7,11 +7,11 @@ title: begrippen - exit
 ---
 # Exit
 
-Het bewust en massaal verlaten van gesloten platforms en ecosystemen van [**poortwachters**](/Open_Internet_Manifest/nl/begrippen/poortwachters).
+Het bewust en massaal verlaten van gesloten platforms en ecosystemen van [**poortwachters**](/nl/begrippen/poortwachters).
 
 Alleen exit schept druk, maar zonder alternatief leidt het tot isolatie.
 
-Zie ook → [Collectieve exit](/Open_Internet_Manifest/nl/begrippen/collectieve-exit) · [Bouw](/Open_Internet_Manifest/nl/begrippen/bouw) · [Thesis 6](/Open_Internet_Manifest/nl/theses/thesis-06)
+Zie ook → [Collectieve exit](/nl/begrippen/collectieve-exit) · [Bouw](/nl/begrippen/bouw) · [Thesis 6](/nl/theses/thesis-06)
 
 ---
 

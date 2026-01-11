@@ -11,7 +11,7 @@ Het natuurlijke recht om alleen te zijn met je gedachten, gesprekken en beweging
 
 In de fysieke wereld een basisverwachting. Online gemaakt tot een “instelling” die je moet activeren.
 
-Zie ook → [Surveillance](/Open_Internet_Manifest/nl/begrippen/surveillance) · [End-to-end encryptie](/Open_Internet_Manifest/nl/begrippen/end-to-end-encryptie) · [Thesis 7](/Open_Internet_Manifest/nl/theses/thesis-07)
+Zie ook → [Surveillance](/nl/begrippen/surveillance) · [End-to-end encryptie](/nl/begrippen/end-to-end-encryptie) · [Thesis 7](/nl/theses/thesis-07)
 
 ---
 

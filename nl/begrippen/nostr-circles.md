@@ -13,7 +13,7 @@ Je bepaalt zelf wie erbij hoort, zonder centrale moderator of platform.
 
 Ideaal voor echte gemeenschappen in plaats van open feeds.
 
-Zie ook → [Nostr](/Open_Internet_Manifest/nl/begrippen/nostr) · [Thesis 20](/Open_Internet_Manifest/nl/theses/thesis-20)
+Zie ook → [Nostr](/nl/begrippen/nostr) · [Thesis 20](/nl/theses/thesis-20)
 
 ---
 

@@ -11,7 +11,7 @@ Onafhankelijke zoekmachine met eigen index (geen Google/Bing afhankelijk).
 
 Privacy-focused, geen tracking, Britse basis.
 
-Zie ook → [Thesis 18](/Open_Internet_Manifest/nl/theses/thesis-18) · [mojeek.com](https://www.mojeek.com/)
+Zie ook → [Thesis 18](/nl/theses/thesis-18) · [mojeek.com](https://www.mojeek.com/)
 
 ---
 

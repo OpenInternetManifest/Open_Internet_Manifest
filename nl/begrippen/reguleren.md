@@ -11,7 +11,7 @@ Het opleggen van overheidsregels aan poortwachters in de hoop dat ze zich netter
 
 Resultaat: dezelfde bedrijven krijgen een monopolie met overheidsstempel, en burgers blijven afhankelijk.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Privacywetten](/Open_Internet_Manifest/nl/begrippen/privacywetten) · [Thesis 5](/Open_Internet_Manifest/nl/theses/thesis-05)
+Zie ook → [Poortwachters](/nl/begrippen/poortwachters) · [Privacywetten](/nl/begrippen/privacywetten) · [Thesis 5](/nl/theses/thesis-05)
 
 ---
 

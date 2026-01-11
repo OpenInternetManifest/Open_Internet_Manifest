@@ -11,6 +11,6 @@ Het onvervreemdbare recht van elke persoon om volledige controle te hebben over 
 
 Tegenpool van afhankelijkheid van poortwachters en ommuurde tuinen.
 
-Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Thesis 1](/Open_Internet_Manifest/nl/theses/thesis-01) · [Thesis 15](/Open_Internet_Manifest/nl/theses/thesis-15)
+Zie ook → [Sovereign node](/nl/begrippen/sovereign-node) · [Poortwachters](/nl/begrippen/poortwachters) · [Thesis 1](/nl/theses/thesis-01) · [Thesis 15](/nl/theses/thesis-15)
 
 ---

@@ -13,7 +13,7 @@ Op internet vertaalt zich in camera’s in je huis (smart home), microfoons in j
 
 Offline zou dit een schandaal zijn. Online heet het “service”.
 
-Zie ook → [Dataverzameling](/Open_Internet_Manifest/nl/begrippen/dataverzameling) · [Thesis 3](/Open_Internet_Manifest/nl/theses/thesis-03)
+Zie ook → [Dataverzameling](/nl/begrippen/dataverzameling) · [Thesis 3](/nl/theses/thesis-03)
 
 ---
 

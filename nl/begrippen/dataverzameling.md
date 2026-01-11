@@ -11,6 +11,6 @@ Het automatisch openen, kopiëren en opslaan van al je communicatie, zoekopdrach
 
 Vergelijkbaar met een postdienst die elke brief scant en archiveert voordat hij bezorgd wordt.
 
-Zie ook → [Surveillance](/Open_Internet_Manifest/nl/begrippen/surveillance) · [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Thesis 3](/Open_Internet_Manifest/nl/theses/thesis-03)
+Zie ook → [Surveillance](/nl/begrippen/surveillance) · [Poortwachters](/nl/begrippen/poortwachters) · [Thesis 3](/nl/theses/thesis-03)
 
 ---

@@ -11,6 +11,6 @@ Opslag van data over vele onafhankelijke nodes in plaats van één centraal punt
 
 Maakt censuur, datalekken en lock-in vrijwel onmogelijk.
 
-Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [IPFS](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Thesis 7](/Open_Internet_Manifest/nl/theses/thesis-07)
+Zie ook → [Sovereign node](/nl/begrippen/sovereign-node) · [IPFS](/nl/begrippen/onafhankelijke-protocollen) · [Thesis 7](/nl/theses/thesis-07)
 
 ---

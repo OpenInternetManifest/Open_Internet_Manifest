@@ -15,7 +15,7 @@ Vandaag gebeurt precies hetzelfde met het internet: het open, gemeenschappelijke
 
 De laatste fase is gaande – en wij zijn de boeren van deze tijd.
 
-Zie ook → [Poortwachters](/Open_Internet_Manifest/nl/begrippen/poortwachters) · [Collectieve exit](/Open_Internet_Manifest/nl/begrippen/collectieve-exit) · [Thesis 4](/Open_Internet_Manifest/nl/theses/thesis-04)
+Zie ook → [Poortwachters](/nl/begrippen/poortwachters) · [Collectieve exit](/nl/begrippen/collectieve-exit) · [Thesis 4](/nl/theses/thesis-04)
 
 ---
 

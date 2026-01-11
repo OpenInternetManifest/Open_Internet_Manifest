@@ -13,7 +13,7 @@ Het lokmiddel dat poortwachters gebruiken om vrijheid in te ruilen voor afhankel
 
 Echt gemak is een internet dat werkt zonder tussenpartij – net als in de jaren '80 en '90.
 
-Zie ook → [Ommuurde tuin](/Open_Internet_Manifest/nl/begrippen/ommuurde-tuin) · [Veiligheid](/Open_Internet_Manifest/nl/begrippen/veiligheid) · [Thesis 2](/Open_Internet_Manifest/nl/theses/thesis-02)
+Zie ook → [Ommuurde tuin](/nl/begrippen/ommuurde-tuin) · [Veiligheid](/nl/begrippen/veiligheid) · [Thesis 2](/nl/theses/thesis-02)
 
 ---
 

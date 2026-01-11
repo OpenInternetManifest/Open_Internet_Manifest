@@ -11,6 +11,6 @@ Video-platform op basis van LBRY-blockchain – gedecentraliseerd, censuurbesten
 
 Geen centrale eigenaar, content blijft beschikbaar zolang nodes draaien.
 
-Zie ook → [LBRY](/Open_Internet_Manifest/nl/begrippen/lbry) · [Thesis 17](/Open_Internet_Manifest/nl/theses/thesis-17) · [odysee.com](https://odysee.com/)
+Zie ook → [LBRY](/nl/begrippen/lbry) · [Thesis 17](/nl/theses/thesis-17) · [odysee.com](https://odysee.com/)
 
 ---

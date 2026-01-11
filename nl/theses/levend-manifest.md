@@ -3,7 +3,7 @@
 layout: thesis
 lang: nl
 title: Levend Manifest — Het manifest is levend
-next_thesis: /Open_Internet_Manifest/nl/theses/Thesis-00
+next_thesis: /nl/theses/Thesis-00
 
 ---
 
@@ -30,10 +30,10 @@ Wil je een thesis indienen, een begrip toevoegen, een vertaling maken, een verkl
 
 Dan ben je precies op de juiste plek.
 
-→ [Draag bij aan het manifest](https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new/choose)  
-→ [Leg jouw verklaring af](/Open_Internet_Manifest/nl/verklaringen/template-verklaring)  
+→ [Draag bij aan het manifest](https://github.com/OpenInternetManifest/issues/new/choose)  
+→ [Leg jouw verklaring af](/nl/verklaringen/template-verklaring)  
 → [Word lid van de discussie](#openinternetmanifest:matrix.org)  
-→ [Lees verder wanneer deel 2 klaar is](/Open_Internet_Manifest/nl/manifest)
+→ [Lees verder wanneer deel 2 klaar is](/nl/manifest)
 
 Dit manifest eindigt pas als het internet weer volledig open, neutraal en onvervreemdbaar is.
 

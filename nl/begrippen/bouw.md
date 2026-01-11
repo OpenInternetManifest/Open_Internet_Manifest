@@ -11,6 +11,6 @@ Het actief creëren van alternatieve infrastructuur, protocollen, nodes en commu
 
 Alleen bouwen is zinvol als het buiten hun muren gebeurt – anders is het collaboratie.
 
-Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Onafhankelijke protocollen](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Thesis 6](/Open_Internet_Manifest/nl/theses/thesis-06)
+Zie ook → [Sovereign node](/nl/begrippen/sovereign-node) · [Onafhankelijke protocollen](/nl/begrippen/onafhankelijke-protocollen) · [Thesis 6](/nl/theses/thesis-06)
 
 ---

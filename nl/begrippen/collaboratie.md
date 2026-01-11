@@ -11,6 +11,6 @@ Onbedoeld meewerken aan de versterking van poortwachters door binnen hun ecosyst
 
 Voorbeeld: een “decentrale” app lanceren in de App Store of Google Play – je betaalt tol en accepteert hun regels.
 
-Zie ook → [Valse decentralisatie](/Open_Internet_Manifest/nl/begrippen/valse-decentralisatie) · [Exit](/Open_Internet_Manifest/nl/begrippen/exit) · [Thesis 6](/Open_Internet_Manifest/nl/theses/thesis-06)
+Zie ook → [Valse decentralisatie](/nl/begrippen/valse-decentralisatie) · [Exit](/nl/begrippen/exit) · [Thesis 6](/nl/theses/thesis-06)
 
 ---

@@ -11,6 +11,6 @@ Bitcoin als waarde-opslag, Lightning Network voor snelle, goedkope microbetaling
 
 Peer-to-peer geld zonder bank of tussenpersoon – censuurbestendig en grensoverschrijdend.
 
-Zie ook → [Monero](/Open_Internet_Manifest/nl/begrippen/monero) · [Nostr-zaps](/Open_Internet_Manifest/nl/begrippen/nostr-zaps) · [Thesis 19](/Open_Internet_Manifest/nl/theses/thesis-19) · [lightning.network](https://lightning.network/)
+Zie ook → [Monero](/nl/begrippen/monero) · [Nostr-zaps](/nl/begrippen/nostr-zaps) · [Thesis 19](/nl/theses/thesis-19) · [lightning.network](https://lightning.network/)
 
 ---

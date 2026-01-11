@@ -3,8 +3,8 @@
 layout: thesis
 lang: nl
 title: Thesis 11 — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan
-next_thesis: /Open_Internet_Manifest/nl/theses/thesis-12
-previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-10
+next_thesis: /nl/theses/thesis-12
+previous_thesis: /nl/theses/thesis-10
 
 ---
 
@@ -12,7 +12,7 @@ previous_thesis: /Open_Internet_Manifest/nl/theses/thesis-10
 
 Dit manifest is geen decreet van bovenaf; het is een vuur dat brandt in open gesprekken.
 
-Het ontstaat niet in een boardroom, niet in een overheidsgebouw en niet door één stem die pretendeert alles te weten – het groeit uit duizenden dialogen, iteraties, nachtelijke inzichten en harde correcties tussen mensen die genoeg hebben van de [**enclosures**](/Open_Internet_Manifest/nl/begrippen/enclosures).
+Het ontstaat niet in een boardroom, niet in een overheidsgebouw en niet door één stem die pretendeert alles te weten – het groeit uit duizenden dialogen, iteraties, nachtelijke inzichten en harde correcties tussen mensen die genoeg hebben van de [**enclosures**](/nl/begrippen/enclosures).
 
 Soms spreken ze met elkaar, soms met machines die eindelijk leren luisteren in plaats van alleen te verkopen.
 

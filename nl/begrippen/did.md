@@ -17,6 +17,6 @@ Voorbeelden:
 
 Maakt draagbare identiteit mogelijk zonder afhankelijkheid van een bedrijf.
 
-Zie ook → [Nostr](/Open_Internet_Manifest/nl/begrippen/nostr) · [Keyoxide](/Open_Internet_Manifest/nl/begrippen/keyoxide) · [Thesis 14](/Open_Internet_Manifest/nl/theses/thesis-14) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
+Zie ook → [Nostr](/nl/begrippen/nostr) · [Keyoxide](/nl/begrippen/keyoxide) · [Thesis 14](/nl/theses/thesis-14) · [w3.org/TR/did-core](https://www.w3.org/TR/did-core/)
 
 ---

@@ -13,7 +13,7 @@ Basis van Mastodon, Pixelfed, PeerTube, Lemmy en vele anderen.
 
 Gebruikers kunnen servers kiezen, data meenemen en vrij communiceren over platformgrenzen heen.
 
-Zie ook → [Onafhankelijke protocollen](/Open_Internet_Manifest/nl/begrippen/onafhankelijke-protocollen) · [Mastodon](https://joinmastodon.org/) · [Thesis 12](/Open_Internet_Manifest/nl/theses/thesis-12)
+Zie ook → [Onafhankelijke protocollen](/nl/begrippen/onafhankelijke-protocollen) · [Mastodon](https://joinmastodon.org/) · [Thesis 12](/nl/theses/thesis-12)
 
 ---
 

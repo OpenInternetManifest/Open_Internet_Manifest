@@ -11,7 +11,7 @@ Het internet in zijn oorspronkelijke, onvervreemdbare staat: open, neutraal, ged
 
 Niet een product, niet een dienst, niet een platform – maar een commons van de hele mensheid.
 
-Zie ook → [Digitale soevereiniteit](/Open_Internet_Manifest/nl/begrippen/digitale-soevereiniteit) · [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 3](/Open_Internet_Manifest/nl/theses/thesis-03) · [Thesis 6](/Open_Internet_Manifest/nl/theses/thesis-06)
+Zie ook → [Digitale soevereiniteit](/nl/begrippen/digitale-soevereiniteit) · [Sovereign node](/nl/begrippen/sovereign-node) · [Thesis 3](/nl/theses/thesis-03) · [Thesis 6](/nl/theses/thesis-06)
 
 ---
 

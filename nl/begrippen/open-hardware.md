@@ -11,7 +11,7 @@ Apparaten waarvan de bouwtekeningen, schema’s en firmware vrij beschikbaar zij
 
 Essentieel om te voorkomen dat hardware een verlengstuk wordt van poortwachters.
 
-Zie ook → [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 4](/Open_Internet_Manifest/nl/theses/thesis-04)
+Zie ook → [Sovereign node](/nl/begrippen/sovereign-node) · [Thesis 4](/nl/theses/thesis-04)
 
 ---
 

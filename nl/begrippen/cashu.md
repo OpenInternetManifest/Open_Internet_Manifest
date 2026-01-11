@@ -11,6 +11,6 @@ Ecash-protocol op basis van Lightning – digitale cash tokens zonder identifica
 
 Privacy-vriendelijk, eenvoudig, en werkt offline in sommige implementaties.
 
-Zie ook → [Bitcoin + Lightning](/Open_Internet_Manifest/nl/begrippen/bitcoin-lightning) · [Thesis 19](/Open_Internet_Manifest/nl/theses/thesis-19) · [cashu.space](https://cashu.space/)
+Zie ook → [Bitcoin + Lightning](/nl/begrippen/bitcoin-lightning) · [Thesis 19](/nl/theses/thesis-19) · [cashu.space](https://cashu.space/)
 
 ---

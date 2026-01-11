@@ -13,7 +13,7 @@ Effect: bedrijven huren meer juristen in, gebruikers krijgen meer pop-ups, maar 
 
 Een pleister, geen genezing.
 
-Zie ook → [Surveillance](/Open_Internet_Manifest/nl/begrippen/surveillance) · [Reguleren](/Open_Internet_Manifest/nl/begrippen/reguleren) · [Thesis 5](/Open_Internet_Manifest/nl/theses/thesis-05)
+Zie ook → [Surveillance](/nl/begrippen/surveillance) · [Reguleren](/nl/begrippen/reguleren) · [Thesis 5](/nl/theses/thesis-05)
 
 ---
 

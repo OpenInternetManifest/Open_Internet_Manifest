@@ -13,7 +13,7 @@ Voorbeelden: Pinata, web3.storage, nft.storage, of zelf een pinning-node draaien
 
 Essentieel voor betrouwbare decentrale opslag.
 
-Zie ook → [IPFS](/Open_Internet_Manifest/nl/begrippen/ipfs) · [Sovereign node](/Open_Internet_Manifest/nl/begrippen/sovereign-node) · [Thesis 23](/Open_Internet_Manifest/nl/theses/thesis-23)
+Zie ook → [IPFS](/nl/begrippen/ipfs) · [Sovereign node](/nl/begrippen/sovereign-node) · [Thesis 23](/nl/theses/thesis-23)
 
 ---
 

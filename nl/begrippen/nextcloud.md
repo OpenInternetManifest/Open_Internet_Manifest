@@ -11,6 +11,6 @@ Open-source zelfgehoste cloud-suite voor bestanden, kalender, contacten, foto's 
 
 Volledige controle over je data op je eigen server of sovereign node.
 
-Zie ook → [OwnCloud](/Open_Internet_Manifest/nl/begrippen/owncloud) · [Data-soevereiniteit](/Open_Internet_Manifest/nl/begrippen/data-soevereiniteit) · [Thesis 13](/Open_Internet_Manifest/nl/theses/thesis-13) · [nextcloud.com](https://nextcloud.com/)
+Zie ook → [OwnCloud](/nl/begrippen/owncloud) · [Data-soevereiniteit](/nl/begrippen/data-soevereiniteit) · [Thesis 13](/nl/theses/thesis-13) · [nextcloud.com](https://nextcloud.com/)
 
 ---

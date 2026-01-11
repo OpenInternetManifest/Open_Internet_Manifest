@@ -11,7 +11,7 @@ Project van Tim Berners-Lee voor persoonlijke data pods (Personal Online Data St
 
 Jij bepaalt waar je data staat en wie toegang heeft – apps lezen en schrijven alleen met jouw toestemming.
 
-Zie ook → [Data-soevereiniteit](/Open_Internet_Manifest/nl/begrippen/data-soevereiniteit) · [Thesis 13](/Open_Internet_Manifest/nl/theses/thesis-13) · [solidproject.org](https://solidproject.org/)
+Zie ook → [Data-soevereiniteit](/nl/begrippen/data-soevereiniteit) · [Thesis 13](/nl/theses/thesis-13) · [solidproject.org](https://solidproject.org/)
 
 ---
 
