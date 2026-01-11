@@ -332,7 +332,23 @@ body {
   transform: translateY(-4px);
 }
 
+/* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
+.integrity-content ol {
+  text-align: center !important;
+  display: block !important;
+  padding-left: 2em !important; /* netjes tegen tekst */
+  margin: 1.5em 0 !important;
+}
 
+.integrity-content li {
+  margin-bottom: 1em !important;
+  line-height: 1.6 !important;
+}
+
+.integrity-content ol li::marker {
+  color: #66b3ff !important;
+  font-weight: bold;
+}
 
 /* Plakbox SHA256 – mooie styling */
 .hash-input {
@@ -981,67 +997,7 @@ details li {
     display: block; /* op mobiel twee regels voor leesbaarheid */
   }
 }
-/* SHA256 nummering centraal tegen de tekst aan (flush left alignment) */
-.integrity-content ol {
-  list-style-position: inside !important; /* nummers binnen tekstblok */
-  padding-left: 0 !important;             /* geen extra marge links */
-  margin-left: 0 !important;
-  margin: 1.5em 0 !important;
-  counter-reset: item;
-}
-
-.integrity-content ol li {
-  padding-left: 2.8em;                    /* ruimte voor nummer */
-  text-indent: -2.8em;                    /* trek nummer terug tegen tekst */
-  margin-bottom: 1em !important;
-  line-height: 1.6 !important;
-}
-
-/* Verberg standaard marker, gebruik custom voor blauwe kleur */
-.integrity-content ol li::marker {
-  content: none !important;
-}
-
-/* Custom blauwe nummering, flush tegen tekst */
-.integrity-content ol li::before {
-  content: counter(item) ". ";
-  counter-increment: item;
-  color: #66b3ff !important;
-  font-weight: bold;
-  display: inline-block;
-  width: 2.5em;                           /* vaste breedte voor uitlijning */
-  text-align: right;                      /* nummers rechts uitgelijnd in hun ruimte */
-  margin-right: 0.5em;
-}
-
-/* Extra: zorg dat tekst netjes doorloopt */
-.integrity-content ol li p,
-.integrity-content ol li {
-  margin: 0;
-  padding: 0;
-}
+/* Verberg de bezoekers-teller tijdelijk op de site */
 .visitor-counter {
-  display: inline-flex !important;
-  align-items: center;
-  font-size: 0.9em;
-  color: #66b3ff;
-  opacity: 1 !important;  /* forceer zichtbaar */
-  margin-left: 1em;
-}
-
-.visitor-counter img {
-  height: 2em !important;
-  min-width: 80px !important;
-  filter: brightness(1.3) contrast(1.2) !important; /* extra boost op donker */
-  visibility: visible !important;
-}
-
-@media (max-width: 768px) {
-  .visitor-counter {
-    margin-left: 0.6em;
-  }
-
-  .visitor-counter img {
-    height: 1.6em !important;
-  }
+  display: none !important;
 }
