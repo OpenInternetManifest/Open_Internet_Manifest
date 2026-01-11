@@ -1020,3 +1020,29 @@ details li {
   margin: 0;
   padding: 0;
 }
+/* Subtiele bezoekers-teller rechts van #OIM */
+.nav-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.visitor-counter {
+  font-size: 0.85em;
+  color: #66b3ff;
+  opacity: 0.8;
+  vertical-align: middle;
+  margin-left: 0.8em;
+}
+
+.visitor-counter img {
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+/* Mobiel: kleiner en meer ruimte */
+@media (max-width: 768px) {
+  .visitor-counter {
+    font-size: 0.8em;
+    margin-left: 0.6em;
+  }
+}
