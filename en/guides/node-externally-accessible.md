@@ -46,7 +46,7 @@ No extra installations, no account, no ports open → maximum privacy. Works eve
 For Nextcloud: http://[your-onion]/nextcloud (use Tor Browser).  
 For mobile Nextcloud app: Tor not directly supported → use web version in Tor Browser.
 
-**Screenshot:** [Insert screenshot here of Umbrel: Remote Access → Tor toggle + .onion link]
+**Screenshot:**  [Umbrel: Remote Access → Tor toggle + .onion link]
 
 **Tip:** Bookmark the .onion link in Tor Browser. Test on laptop first if it feels slow on phone.
 
@@ -61,15 +61,15 @@ Fast (WireGuard), nice link (umbrel.your-tailnet.ts.net), secure end-to-end encr
 2. Open Tailscale app → Authenticate → log in with Google/Apple/GitHub (free account).
 3. Toggle VPN on.
 4. On phone/laptop: login.tailscale.com → log in with same account → see your “umbrel” node.
-5. Click the node → copy **Magic DNS name** (e.g., umbrel.tail63975b.ts.net).
-6. Open browser → **http://umbrel.tail63975b.ts.net** (without https!).
+5. Click the node → copy **Magic DNS name** (e.g., umbrel.tail12345c.ts.net).
+6. Open browser → **http://"serverName".tail2345c.ts.net** (without https!).
 7. Dashboard loads → Nextcloud at http://.../nextcloud.
 
 **Mobile:**
 - Install Tailscale app (iOS/Android) → login → auto-connect.
-- Nextcloud app: server = http://umbrel.tail63975b.ts.net/nextcloud.
+- Nextcloud app: server = http://"serverName.tail12345c.ts.net/nextcloud.
 
-**Screenshot:** [Insert screenshot here of Tailscale admin → Magic DNS name]
+**Screenshot:** [Tailscale admin → Magic DNS name]
 
 **Warning:** Some apps require HTTPS → choose Option 3 or stick with Tor.
 

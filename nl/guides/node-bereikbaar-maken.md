@@ -44,7 +44,7 @@ Nadelen: traag voor grote bestanden (foto's, video's).
 Voor Nextcloud: http://[jouw-onion]/nextcloud (gebruik Tor Browser).  
 Voor mobiele Nextcloud-app: Tor niet direct ondersteund → gebruik webversie in Tor Browser.
 
-**Screenshot:** [Plaats hier screenshot van Umbrel: Toegang op afstand → Tor toggle + .onion link]
+**Screenshot:** [Umbrel: Toegang op afstand → Tor toggle + .onion link]
 
 **Tip:** Bookmark de .onion-link in Tor Browser. Test eerst op laptop als het traag voelt op telefoon.
 
@@ -67,7 +67,7 @@ Snel (WireGuard), mooie link (umbrel.jouwtailnet.ts.net), veilig end-to-end encr
 - Installeer Tailscale app (iOS/Android) → login → auto-connect.
 - Nextcloud app: server = http://http://"naam server"."....".ts.net/nextcloud.
 
-**Screenshot:** [Plaats hier screenshot van Tailscale admin → Magic DNS naam]
+**Screenshot:** [Tailscale admin → Magic DNS naam]
 
 **Waarschuwing:** Sommige apps eisen HTTPS → kies dan Optie 3 of blijf bij Tor.
 
