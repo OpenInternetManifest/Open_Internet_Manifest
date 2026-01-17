@@ -1,3 +1,10 @@
+---
+layout: default  
+lang: nl
+title: Node van buitenaf bereikbaar maken
+permalink: /nl/guides/node-bereikbaar-maken/
+---
+
 # Node van buitenaf bereikbaar maken – kies de methode die bij jou past
 
 Je Umbrel-node draait nu lokaal (http://umbrel.local), maar hoe bereik je 'm veilig vanaf je telefoon of laptop als je niet thuis bent? Er zijn meerdere manieren, van super simpel tot geavanceerd. We raden aan te beginnen met de makkelijkste.
