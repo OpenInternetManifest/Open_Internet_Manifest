@@ -59,13 +59,13 @@ Snel (WireGuard), mooie link (umbrel.jouwtailnet.ts.net), veilig end-to-end encr
 2. Open Tailscale app → Authenticate → log in met Google/Apple/GitHub (gratis account).
 3. Toggle VPN aan.
 4. Op telefoon/laptop: login.tailscale.com → log in met hetzelfde account → zie je "umbrel" node.
-5. Klik op de node → copy **Magic DNS name** (bijv. umbrel.tail63975b.ts.net).
-6. Open browser → **http://umbrel.tail63975b.ts.net** (zonder https!).
+5. Klik op de node → copy **Magic DNS name** (bijv. umbrel.tai123456.ts.net).
+6. Open browser → **http://"naam server"."tail123456".ts.net** (zonder https!).
 7. Dashboard laadt → Nextcloud op http://.../nextcloud.
 
 **Mobiel:**
 - Installeer Tailscale app (iOS/Android) → login → auto-connect.
-- Nextcloud app: server = http://umbrel.tail63975b.ts.net/nextcloud.
+- Nextcloud app: server = http://http://"naam server"."....".ts.net/nextcloud.
 
 **Screenshot:** [Plaats hier screenshot van Tailscale admin → Magic DNS naam]
 
@@ -81,7 +81,7 @@ Snel (WireGuard), mooie link (umbrel.jouwtailnet.ts.net), veilig end-to-end encr
 2. Settings → Advanced → Terminal → selecteer App: Tailscale.
 3. Run: `tailscale serve 8080` (of 8081 als Umbrel op 8081 draait – check met netstat in hoofdterminal).
 4. Check: `tailscale serve status` → zie proxy naar 127.0.0.1:8080.
-5. Test: https://umbrel.tail63975b.ts.net (moet nu met groen slot laden).
+5. Test: https://"naam server"."tail123456".ts.net (moet nu met groen slot laden).
 
 **Persistent maken (optioneel):** Run in screen of maak startup script via Portainer.
 
