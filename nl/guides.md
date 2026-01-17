@@ -42,6 +42,9 @@ title: Guides - Volledige guides pagina
 **Guide 11** — De Guides zijn levend    
 → [volledige tekst](/nl/guides/levende-guides) 
 
+**Guide 12** — je Node bereikbaar maken   
+→ [volledige tekst](/nl/guides/node-bereikbaar-maken) 
+
 ---
 
 
