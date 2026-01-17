@@ -2,7 +2,8 @@
 layout: default
 lang: en
 title: Make Your Node Externally Accessible
-permalink: /en/guides/make-node-accessible/
+permalink: /en/guides/node-externally-accessible/
+
 ---
 
 # Make Your Node Externally Accessible – Choose the Method That Suits You
