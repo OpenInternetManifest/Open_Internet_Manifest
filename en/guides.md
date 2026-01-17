@@ -37,7 +37,10 @@ lang: en
 **Guide 10** — Run your own sovereign node at home (Raspberry Pi + Umbrel)    
 → [volledige tekst](/en/guides/raspberry-pi-node) 
 
-**Guide 11** — De Guides zijn levend    
-→ [volledige tekst](/en/guides/levende-guides) 
+**Guide 11** — The guides are alive    
+→ [volledige tekst](/en/guides/living-guides) 
+
+**Guide 12** — Make your node externally accessible   
+→ [volledige tekst](/en/guides/node-externally-accessible) 
 
 ---
