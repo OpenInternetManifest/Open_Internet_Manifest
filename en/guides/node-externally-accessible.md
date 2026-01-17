@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 title: Make Your Node Externally Accessible
 permalink: /en/guides/make-node-accessible/
 ---
