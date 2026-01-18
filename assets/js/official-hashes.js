@@ -55,7 +55,42 @@ var officialHashes = {
   '/nl/theses/thesis-30': '26696490d42a972e43e744cf57926306481187ea9d4ea65259a099a646f170e3',
   '/nl/theses/levend-manifest': 'c0caf10526d4b5d580ef575721f9f5b258ecd58fba2274fb2e76f698de5e89e8',
 
-  // EN theses
+  //NL Social posts
+  '/nl/social-posts/dag-8-rvn': '3bd323010673c4ff10b3695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/dag-7-teaser': '06b8a16b29c263eb26b1d1bbbb45f4afc6d9a624cdd504ee50b3c28479dc34dc',
+  '/nl/social-posts/dag-7-rvn': '701ccb6624aeecb3d3954f62ad285a155035f80e8c68c08a13c33cba9059e560',
+  '/nl/social-posts/dag-6-teaser': '3d5f565fb7406ac7a50fde0274bfa914f46e9adb99156d52dd0ad704f4b6212a',
+  '/nl/social-posts/dag-6-rvn': 'a913665df3fbe99aa077e7bedcd8255ca455c37c13d74ae166cf9a8a5cf9b0da',
+  '/nl/social-posts/dag-5-teaser': 'a0cdf7df2e8fd6093280f5ca9ab1aca1fe04e89e24995f5e5608509999937a5e',
+  '/nl/social-posts/dag-5-rvn': '2f46d43ee4bbcdb0601463256165893c44754955f138ea2c2c52002431fe3f9f',
+  '/nl/social-posts/dag-4-teaser': 'c8c9c8494107dbb0eba2523c8bea9f91604dbe033404a8e6b08626d77f15d5ac',
+  '/nl/social-posts/dag-4-rvn': '9538be5638947088f56765df875643cdd090392030cc2a96b95029e612010def',
+  '/nl/social-posts/dag-3-teaser': 'a77c1ee33a8fe97fba16ef6ac910840cccb01373d083055d26db9fde7abe5d7a',
+  '/nl/social-posts/dag-3-rvn': '5a3aaf994b41bd9ba669ebc1ce0044e396e197c40d35cd06b742d5f39fca2372',
+  '/nl/social-posts/dag-2-teaser': 'fd613d343d81fa563a905efe982018cc169600158d6ef1d52162dec232c37fc1',
+  '/nl/social-posts/dag-2-rvn': 'd4da407a6c375d90f1dd9c8a276c5fb70ead6208c316e6a6dbf7f8178088f1a9',
+  '/nl/social-posts/dag-1-teaser': 'dbf58cb1858675b6915a1aa40d8c792d179811a0036a991f809ad2af7266a285',
+  '/nl/social-posts/dag-1-rvn': '700a1a38756015cb7484542dae699e51a56d041114655e29de30f251272e046d',
+  '/nl/social-posts/rvn-boeren-protesten': 'e1507f8011a1c2dc8ccc2df9bea409a13f56d4b6ca1742b2bfd6215e0f798a0e',
+  '/nl/social-posts/rvn-immigratie-ice': '8e0e5b1890cb3d73e3d5a100914c872918c2e3edce4380862010d140e1a204bc',
+  '/nl/social-posts/rvn-nicole-good': 'db292f138b03ee21260c99087f7c57c7925b04a57196d17df80ee64b3bed615b',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c1db65a39d1015314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c1db65a32a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c1db69d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c15a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba8db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690dba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b5963e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b3695b590d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b36959690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b36b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff10b95b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/': '3bd323010673c4ff13695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+
+
+
+// EN theses
   '/en/theses/thesis-00': '793e85f65f8c680e88f492d3fd6f6bd35fafa0ee5b88a32facfb587d668e4574',
   '/en/theses/thesis-01': '50619b636858d35c857bc38b4468b9409c58da700a0c6cb0609889f882a1e448',
   '/en/theses/thesis-02': 'f9ede427b6e4ac939db8ad7584c6ea11038daee33b9cb0397b14fdfd45aa33a6',
