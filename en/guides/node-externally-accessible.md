@@ -90,3 +90,21 @@ Fast (WireGuard), nice link (umbrel.your-tailnet.ts.net), secure end-to-end encr
 **Common Mistakes & Fixes:**
 - Permission denied on docker? Use sudo: `sudo docker ps | grep nextcloud` → container name is often nextcloud_web_1.
 - “Access through untrusted domain”? Fix trusted_domains:
+
+  1. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set trusted_domains 1 --value="umbrel'name server'.tail12345c.ts.net"
+  2. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwriteprotocol --value="https"
+  3. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwrite.cli.url --value="https://'name server.tai12345c.ts.net/nextcloud"
+  4. sudo docker restart nextcloud_web_1
+
+  - Wrong entries in trusted_domains (e.g., with :8081 or duplicate ts.net)? Delete:
+
+  sudo docker exec --user www-data nextcloud_web_1 php occ config:system:delete trusted_domains [index]
+
+Check with `... get trusted_domains`.
+
+**Screenshot:** [tailscale serve status, trusted_domains list, mobile login screen]
+
+Once this works → continue to the next guide: Practical Applications (Nextcloud sync, wallets, Immich) and Redundancy (Syncthing mirror).
+
+---
+

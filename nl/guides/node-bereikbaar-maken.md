@@ -88,3 +88,21 @@ Snel (WireGuard), mooie link (umbrel.jouwtailnet.ts.net), veilig end-to-end encr
 **Veelgemaakte fouten & fixes:**
 - Permission denied op docker? Gebruik sudo: `sudo docker ps | grep nextcloud` → container-naam is vaak nextcloud_web_1.
 - "Access through untrusted domain"? Fix trusted_domains:
+
+ 1. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set trusted_domains 1 --value="umbrel.tail63975b.ts.net"
+ 2. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwriteprotocol --value="https"
+ 3. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwrite.cli.url --value="https://umbrel.tail63975b.ts.net/nextcloud"
+ 4. sudo docker restart nextcloud_web_1
+
+ - Foute entries in trusted_domains (bijv. met :8081 of dubbele ts.net)? Verwijder:
+
+   sudo docker exec --user www-data nextcloud_web_1 php occ config:system:delete trusted_domains [index]
+
+Check met `... get trusted_domains`.
+
+**Screenshot:** [tailscale serve status, trusted_domains lijst, login-scherm mobiel]
+
+Zodra dit werkt → ga naar de volgende guide: Praktische toepassingen (Nextcloud sync, wallets, Immich) en redundancy (Syncthing mirror).
+
+
+
