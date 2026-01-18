@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Iran
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 English summary:
 Reality vs. Narrative – The Open Internet Manifest (Iran focus).
 Narrative: Censorship & blackouts are sometimes necessary for order.

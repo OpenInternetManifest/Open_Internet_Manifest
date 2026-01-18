@@ -1,4 +1,11 @@
-Ruben Berkhout
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Reality vs Narrative – Greenland Escalation: Tariffs Edition (Jan 18, 2026)
 Narrative:
 Trump hits allies with tariffs — economy in danger! 📉 Export collapse, recession looming, NATO on the brink.

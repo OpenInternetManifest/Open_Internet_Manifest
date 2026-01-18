@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - starlink for Iran
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Reality vs. Narrative – Starlink Free for Iran.
 The narrative says:
 “Satellite internet like Starlink is dangerous. It undermines regimes and causes instability. Governments have the right to block access for security and order.”

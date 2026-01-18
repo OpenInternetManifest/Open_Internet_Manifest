@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Polarization as a weapon
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Reality vs Narrative – Polarization as a weapon (part 2)
 Narrative:
 "Left vs right, Jews vs Muslims, West vs East – that's just how the world works. Everyone has their bubble, and that's fine. Diversity is our strength."

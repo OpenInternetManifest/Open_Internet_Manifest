@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Technicien in Amsterdam
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 English summary:
 Reality vs. Narrative – A technician in Amsterdam.
 Narrative: Internet restrictions are necessary for safety and order.
