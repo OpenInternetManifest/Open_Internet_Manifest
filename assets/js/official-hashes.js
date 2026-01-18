@@ -75,7 +75,7 @@ var officialHashes = {
   '/nl/social-posts/rvn-immigratie-ice': '8e0e5b1890cb3d73e3d5a100914c872918c2e3edce4380862010d140e1a204bc',
   '/nl/social-posts/rvn-nicole-good': 'db292f138b03ee21260c99087f7c57c7925b04a57196d17df80ee64b3bed615b',
   '/nl/social-posts/dag-8-teaser': '7d369faf2084792cf7f7e73b5902ef915f3e05791329aad729f58cda37c0bc62',
-  '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c1db65a32a3d15314bf7b7f',
+  '/nl/social-posts/dag-8-rvn-x': 'cc1e8b625d911f43cce5648063203fca75440dccdbd92b176212a478bfa2d24f',
   '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c1db69d102a3d15314bf7b7f',
   '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba89c15a39d102a3d15314bf7b7f',
   '/nl/social-posts/': '3bd323010673c4ff10b3695b59690d3e8ba8db65a39d102a3d15314bf7b7f',
