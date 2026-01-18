@@ -56,7 +56,7 @@ var officialHashes = {
   '/nl/theses/levend-manifest': 'c0caf10526d4b5d580ef575721f9f5b258ecd58fba2274fb2e76f698de5e89e8',
 
   //NL Social posts
-  '/nl/social-posts/dag-8-rvn': '3bd323010673c4ff10b3695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/dag-8-rvn': '822e6773bca3b11340f2ef538a24f979bc5b46d6349fb39cfd6d35ae5c8f3bb6',
   '/nl/social-posts/dag-7-teaser': '06b8a16b29c263eb26b1d1bbbb45f4afc6d9a624cdd504ee50b3c28479dc34dc',
   '/nl/social-posts/dag-7-rvn': '701ccb6624aeecb3d3954f62ad285a155035f80e8c68c08a13c33cba9059e560',
   '/nl/social-posts/dag-6-teaser': '3d5f565fb7406ac7a50fde0274bfa914f46e9adb99156d52dd0ad704f4b6212a',
