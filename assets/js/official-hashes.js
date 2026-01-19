@@ -98,7 +98,7 @@ var officialHashes = {
  '/en/social-posts/day-2-rvn': '77327df9f57343a17b38af27ac668d7d5f899018d92610da19fcd515dc5f22f0',
  '/en/social-posts/day-1-rvn': '77327df9f57343a17b38af27ac668d7d5f899018d92610da19fcd515dc5f22f0',
  '/en/social-posts/day-9-rvn': '207c603867ee7bc2d30c99c352b783878489b037f1f21c1bf1caa3a558bbbc1c',
- '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
+ '/en/social-posts/day-9-rvn-x': '8bff0ca4fc587155cc45ab6b8f7a3ec44eed354271c611b14038a6015cc087da',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
