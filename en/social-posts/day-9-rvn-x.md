@@ -13,3 +13,6 @@ Read along: https://openinternetmanifest.org
 #RealityVsNarrative #DaycareFraud #ICE #TimWalz #Fraud #Amsterdam #FreeInternet #OpenInternetManifest 
 @realDonaldTrump
  ❤️
+
+https://openinternetmanifest.org/en/hash-verifier
+Paste the full text to check authenticity. Why? Because narratives are easily distorted — reality is not. #RealityVsNarrative #OpenInternetManifest

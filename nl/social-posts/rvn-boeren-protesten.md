@@ -21,3 +21,10 @@ Les: luister naar de mensen die het voedsel op je bord zetten, in plaats van ze 
 Kies realiteit: dialoog boven dwang, feiten boven ideologie.
 Wat als we boeren als partners zien in plaats van vijanden?
 #RealiteitVsNarratief #Boerenprotesten #Stikstof #BBB
+
+Deze tekst komt exact overeen met mijn originele post op openinternetmanifest.org.
+Verifieer zelf op:
+https://openinternetmanifest.org/nl/hash-verifier
+Plak de volledige tekst in om authenticiteit te controleren.
+Waarom? Omdat narratieven makkelijk vervormd worden — realiteit niet.
+#RealiteitVsNarratief #OpenInternetManifest

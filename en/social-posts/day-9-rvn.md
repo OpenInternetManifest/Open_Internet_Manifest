@@ -11,3 +11,5 @@ Polarization as a weapon: divide the people, let the problems fester.
 The Open Internet Manifest breaks that pattern: verifiable systems, no central pots of money that can be abused, no black boxes.
 Read along: https://openinternetmanifest.org
 #RealityVsNarrative #DaycareFraud #ICE #TimWalz #Fraud #Amsterdam #FreeInternet #OpenInternetManifest ❤️
+https://openinternetmanifest.org/en/hash-verifier
+Paste the full text to check authenticity. Why? Because narratives are easily distorted — reality is not. #RealityVsNarrative #OpenInternetManifest
