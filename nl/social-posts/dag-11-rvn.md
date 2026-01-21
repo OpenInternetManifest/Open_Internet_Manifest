@@ -5,11 +5,12 @@ Hij pusht Greenland met AI-memes (US-vlag erop, Est. 2026), dreigt met tarieven 
 Europa countert met theater: Duitsland stuurt 13 soldaten op "verkenning" (binnen 24u terug), Frankrijk 15.  
 Macron speelt bad cop: stoer roepen over "respect over bullies" en "no to new colonialism"... met aviator-zonnebril **binnen** op. Officieel "harmless eye condition", maar memes exploderen: Eye of the Tiger, Bond-villain, verborgen zwakte? 🕶️😂
 Good cop Rutte slijmt privé, bad cop Macron zet shades op – maar Trump lekt het script.  
-Sun Tzu in actie: deception, expose the roles, laat ze struikelen. Van praatgroepje naar centrum van macht in één week.  
+En gisteren, vlak voor vertrek: Trump houdt in een lange briefing mugshots omhoog van "criminal illegal aliens" gearresteerd in Minnesota – "murderers, drug lords, mentally insane" die "make Hells Angels look like the sweetest people on Earth". Duizenden arrests, foto's één voor één getoond.  
+Sun Tzu in actie: deception, expose the roles, laat ze struikelen. Van praatgroepje naar centrum van macht in één week – terwijl hij visueel "de monsters" toont die hij wegstuurt.  
 Soms kan je het niet vertellen. Mensen moeten het zelf zien – inclusief die pilot shades.  
 Wij willen een open web **zonder zonnebril** – geen censuur op truth, geen monopolie op info, geen dubbele tongen of verborgen ogen die we zelf moeten ontmaskeren. Geen pilot shades om zwakte te verbergen.  
 Open Internet Manifest: https://openinternetmanifest.org  
-#realiteitvsnarratief #MacronZonnebril #Davos #praatgroepje #TrumpGreenland #suntzu #openinternetmanifest ❤️
+#realiteitvsnarratief #MacronZonnebril #DavosPraatgroepje #TrumpGreenland #SunTzu #OIM ❤️
 Deze post is 100% authentiek en verifieerbaar via:
 https://openinternetmanifest.org/nl/hash-verifier
 Plak de volledige tekst in → check zelf.
