@@ -22,7 +22,11 @@ We want an open web **without sunglasses** – no censorship on truth, no monopo
 
 Open Internet Manifest: https://openinternetmanifest.org  
 
-#RealityVsNarrative #MacronSunglasses #DavosTalkShop #TrumpGreenland #SunTzu #OIM ❤️
+#RealityVsNarrative #MacronSunglasses #DavosTalkShop #TrumpGreenland #SunTzu #OIM 
+@realDonaldTrump
+ 
+@elonmusk
+ ❤️
 
 This post is 100% authentic and verifiable via:
 https://openinternetmanifest.org/en/hash-verifier

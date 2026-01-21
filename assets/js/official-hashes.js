@@ -110,7 +110,7 @@ var officialHashes = {
  '/en/social-posts/day-10-rvn-x': '6496f8a4cb8da080b555549514ca3f872a41b1331ff08fa1b9d54f6d57fb8285',
  '/en/social-posts/day-10-teaser-x': '0a01ad388ef2aa8a92ac32a331bf97eef0843786434a50dba01d45cd586b9544',
  '/en/social-posts/day-11-rvn': 'be25bb5efe43b2872191c8afa10f8aac81ebef04e0a14038d082e49dbe0c9d44',
- '/en/social-posts/ay-11-rvn-x': 'c4bf5cee50e713e8a530db491a17456d36e095ba3cebc911672a4b32fdd95b20',
+ '/en/social-posts/ay-11-rvn-x': '4c6a0091fc80992ef3d51acc5e4447ea84566dbf32eadf909f6d4a1678c18243',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
