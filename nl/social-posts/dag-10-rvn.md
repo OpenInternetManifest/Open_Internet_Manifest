@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Realiteit vs Narratief – EU-blokkade van Odysee (en meer)  
 Vandaag kreeg ik een melding toen ik naar odysee.com probeerde te gaan – een gedecentraliseerd alternatief voor YouTube, gebouwd op blockchain en censuurbestendig:  
 “Deze pagina is onbereikbaar. Op verzoek van de EU is dit domein momenteel geblokkeerd. We zijn ons bewust van de discussie en bezwaren, maar geven hiermee gevolg aan een expliciete opdracht vanuit de overheid. Bovenal hopen we dat de oorlog in Oekraïne snel voorbij is.”

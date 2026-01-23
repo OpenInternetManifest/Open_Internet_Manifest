@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
 For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.
 Reality: systematic, deliberate, framed as "risk analysis". Report after report confirms: Tax Authority knew, ministers knew, yet it continued.

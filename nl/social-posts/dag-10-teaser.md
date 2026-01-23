@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇳🇱 **Dag 10 – De Onzichtbare Riem** 🔗  
 Ze beloven *"transparantie"* en *"bescherming"* met AI-regels en chat-scans (EU 2026 stijl).  
 Maar elke laag "veiligheid" trekt de riem strakker:  

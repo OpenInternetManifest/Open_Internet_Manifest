@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇬🇧 Day 9 – What are Graduated Animal Farms?  
 
 The term comes from alternative circles and is a nod to George Orwell's Animal Farm 📖: a revolution hijacked by a new elite.  

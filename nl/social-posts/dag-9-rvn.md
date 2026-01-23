@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Realiteit vs Narratief – Daycare-fraude, ICE en Tim Walz  
 Het narratief klinkt altijd zo sympathiek: “ICE is racistisch en inhumaan, ze scheuren families uit elkaar. Fraude is marginaal en wordt aangepakt. Kritiek op migratie is xenofobie.”  
 Maar kijk eens naar de realiteit in Minnesota.  

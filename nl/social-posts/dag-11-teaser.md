@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇳🇱 **Dag 11 – De Grote Splitsing & Trump's Frontale Aanval** 🐘💥  
 PVV verliest 7 Kamerleden – grootste afsplitsing ooit, onder Gidi Markuszower vormen ze **Groep Markuszower**. Reden: geen democratie, slechte koers op Israël/Oekraïne.  
 Realiteit: "rechts" splijt terwijl Trump in Davos deep state aanvalt – rigged election ("prosecutions coming"), green energy "scam", no force on Greenland ("but we will remember"). Hij vecht voor de mensen, breekt de graduated farms, no more nice guy. Versnelling in actie!  

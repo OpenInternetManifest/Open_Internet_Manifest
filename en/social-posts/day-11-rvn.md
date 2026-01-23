@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 **Reality vs Narrative** – From "talking shop" across Europe to real power center 🕶️❄️
 For years, Davos/WEF was dismissed in the Netherlands and across Europe as a mere **talking shop**: elites sipping champagne, making empty promises on a Swiss mountain. Rutte himself called it "just a talk club" – harmless networking, nothing more.
 Now? Trump leaks private texts from Rutte ("Dear Donald, incredible... committed on Greenland... Yours, Mark") and Macron ("My friend... I do not understand what you are doing on Greenland... G7 in Paris?").

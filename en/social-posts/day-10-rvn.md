@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 Reality vs Narrative – EU blocking Odysee (and more)
 Today I got this message when trying to visit odysee.com – a decentralized alternative to YouTube, built on blockchain and censorship-resistant:
 “The page is unreachable. On EU request, this domain is currently blocked. We are aware of the discussion and objections, but are complying with an explicit order from the government. Above all, we hope the war in Ukraine ends soon.”

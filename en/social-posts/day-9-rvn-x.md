@@ -1,4 +1,14 @@
-Reality vs Narrative – Daycare fraud, ICE and Tim Walz
+
+---
+
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
+ Reality vs Narrative – Daycare fraud, ICE and Tim Walz
 The narrative always sounds so sympathetic: “ICE is racist and inhumane, they tear families apart. Fraud is marginal and being addressed. Criticism of migration is xenophobia.”
 But look at the reality in Minnesota.
 Hundreds of millions of dollars were defrauded through daycare subsidies – mainly by Somalian networks. Fake centers, non-existent children, money simply vanished. It came to light through audits, lawsuits and whistleblowers who reported misconduct for years.

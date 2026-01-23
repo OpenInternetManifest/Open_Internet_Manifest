@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇳🇱 Dag 9  – Wat zijn Graduated Animal Farms?  
 De term komt uit alternatieve kringen en is een knipoog naar George Orwell's Animal Farm 📖: een revolutie die wordt gekaapt door een nieuwe elite.  
 "Graduated" betekent: meerdere lagen. Elke laag geeft je net genoeg "waarheid" om te denken dat je wakker bent – maar je stapt alleen in een nieuwe, mooiere stal.  

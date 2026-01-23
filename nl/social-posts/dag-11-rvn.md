@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
 Jarenlang werd Davos/WEF in Nederland én heel Europa afgedaan als **praatgroepje**: elites met champagne, loze beloftes en netwerkpraat op een Zwitserse berg. Rutte zelf noemde het vaak "slechts een praatclubje" – onschuldig, niks aan de hand.  
 Nu? Trump lekt privé-sms'en van Rutte ("Dear Donald, incredible... committed on Greenland... Yours, Mark") en Macron ("My friend... I do not understand what you are doing on Greenland... G7 in Paris?").  

@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇬🇧 **Day 12 – The Big Split & Trump's Frontal Attack** 🐘💥  
 PVV loses 7 MPs – biggest split ever, led by Gidi Markuszower forming **Group Markuszower**. Reason: no democracy, bad course on Israel/Ukraine.  
 

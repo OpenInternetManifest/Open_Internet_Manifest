@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Greenland escalation
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇬🇧 **Day 12 – Why OIM** 🌐✂️  
 We're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer.  
 

@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 7 weekoverzicht en belofte van vrijheid
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 **Realiteit vs Narratief** – Toeslagenaffaire: de stal die niet barst 🏛️💔
 Jarenlang: "geen etnisch profileren", "geen racisme", "fouten, maar geen opzet". Duizenden ouders in de ellende gedreven, huizen kwijt, relaties kapot, kinderen uit huis geplaatst.  
 Realiteit: het was systematisch, bewust, en racistisch geframed als "risico-analyse". Rapport na rapport (Parlementaire Ondervragingscommissie, Auditdienst Rijk, Kinderombudsman) bevestigt: de Belastingdienst wist het, ministers wisten het, en toch ging het door.  
@@ -11,6 +19,3 @@ Deze post is 100% authentiek en verifieerbaar via:
 https://openinternetmanifest.org/nl/hash-verifier
 Plak de volledige tekst in → check zelf.
 
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.
