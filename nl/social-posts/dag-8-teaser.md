@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 8 Hashes liegen niet
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇳🇱 Dag 8 – Verifieerbaarheid: hashes liegen niet  
 “Een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.”  
 — Ruben Berkhout  
