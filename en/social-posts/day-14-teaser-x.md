@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Day 14 The new hub
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇬🇧 **Day 16 – The new hub** 🌐🗂️  
 This is not an archive.  
 This is not a static page with old words.  

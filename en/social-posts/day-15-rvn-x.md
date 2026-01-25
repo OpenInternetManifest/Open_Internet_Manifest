@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+title: social-posts - Day 15 Minneapolis mall & the ICE hypocrisy
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇬🇧 **Day 15 – Reality vs Narrative: Minneapolis mall & the ICE hypocrisy** 🌐🔥  
 Overnight and recent days: ICE hitting Minneapolis hard, especially Somali malls (Karmel Mall, Star City). Arrests, hundreds of Somali-owned businesses shutting down (Jan 23-25 protests), streets filling with demonstrators, and a fatal shooting incident escalating things. National Guard on standby in MN, 1500 troops prepped – while ICE scales nationwide across all 50 states with record manpower.  
 
