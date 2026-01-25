@@ -9,7 +9,7 @@ lang: en
 
 **Day 1**   
 → [The Fixed Pattern in Major Incidents](/en/social-posts/day-1-rvn)  
-→ [The start of something big](/nl/social-posts/dag-1-teaser)   
+→ [The start of something big](/en/social-posts/day-1-teaser)   
 
 **Day 2**   
 → [The Open Internet Manifest (Iran focus)](/en/social-posts/day-2-rvn)     
