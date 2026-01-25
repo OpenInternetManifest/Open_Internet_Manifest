@@ -37,11 +37,11 @@ lang: en
 
 **Day 8**   
 → [Greenland Escalation: Tariffs Edition (Jan 18, 2026)](/en/social-posts/day-8-rvn)    
-→ [ Verifiability: hashes don’t lie](/nl/social-posts/day-8-teaser) 
+→ [ Verifiability: hashes don’t lie](/nl/social-posts/dag-8-teaser) 
 
 **Day 9**   
 → [Daycare fraud, ICE and Tim Walz](/en/social-posts/day-9-rvn)     
-→ [Graduated Animal Farms](/en/social-posts/dag-9-teaser-x) 
+→ [Graduated Animal Farms](/en/social-posts/day-9-teaser-x) 
 
 **Day 10**     
 → [EU blocking Odysee](/en/social-posts/day-10-rvn)     
@@ -49,7 +49,7 @@ lang: en
 
 **Day 11**   
 → [From "talking shop" across Europe to real power center](/en/social-posts/day-11-rvn)     
-→ [The Big Split & Trump's Frontal Attack](/en/social-posts/day-11-teaser)  
+→ [The Big Split & Trump's Frontal Attack](/en/social-posts/day-11-teaser-x)  
 
 **Day 12**   
 → [Benefits Scandal: the farm that won't break](/en/social-posts/day-12-rvn)    

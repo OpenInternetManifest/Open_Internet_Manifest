@@ -4,6 +4,7 @@ lang: en
 title: social-posts - Day 7 recap
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
 
 Day 7 – Week Recap & The Promise of Freedom 🇬🇧✨
 This week in teasers:
