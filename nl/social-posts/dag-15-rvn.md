@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 15 Minneapolis mall & de ICE-hypocrisie
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇳🇱 **Dag 15 – Reality vs Narrative: Minneapolis mall & de ICE-hypocrisie** 🌐🔥  
 Vannacht en de afgelopen dagen: ICE slaat toe in Minneapolis, vooral bij Somalische malls (Karmel Mall, Star City). Arrestaties, shutdowns van honderden Somali-owned businesses (23-25 jan protest-sluitingen), straten vol demonstranten, en een dodelijk schietincident dat de boel escaleert. National Guard op standby in MN, 1500 troops ready – terwijl ICE nu nationwide opschaalt in alle 50 staten met record-manpower.  
 Het narratief dat domineert: "racistische jacht", "Trump's Gestapo", "onrechtvaardige terreur op migranten". Media pusht emotionele beelden, outrage, boycot-calls.  

@@ -12,7 +12,7 @@ lang: en
 → [The start of something big](/nl/social-posts/dag-1-teaser)   
 
 **Day 2**   
-→ [The Open Internet Manifest (Iran focus)](/en/social-posts/day-1-rvn)     
+→ [The Open Internet Manifest (Iran focus)](/en/social-posts/day-2-rvn)     
 → [Thesis 1: The Internet is not dead – it is captured](/nl/social-posts/dag-2-teaser)  
 
 **Day 3**   
@@ -64,5 +64,5 @@ lang: en
 → [](/en/social-posts/day-14-teaser-x)    
 
 **Day 15**     
-→ [Minneapolis mall & the ICE hypocrisy](/en/social-posts/day-15-rvn)       
+→ [Minneapolis mall & the ICE hypocrisy](/en/social-posts/day-15-rvn-x)       
 → [Open Internet Manifest teaser](/en/social-posts/day-15-teaser)   

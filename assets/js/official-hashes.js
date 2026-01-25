@@ -124,7 +124,7 @@ var officialHashes = {
  '/en/social-postsday-5-rvn': '307232e02ff01d065eb28b838d0ff28a21f255154607f8215472590daf645081',
  '/en/social-postsday-4-rvn': '5c51e248b7de193a25db8743535a53d3ae59befca3d00dbfc720f55e65077ee8',
  '/en/social-posts/day-2-rvn': '77327df9f57343a17b38af27ac668d7d5f899018d92610da19fcd515dc5f22f0',
- '/en/social-posts/day-1-rvn': '77327df9f57343a17b38af27ac668d7d5f899018d92610da19fcd515dc5f22f0',
+ '/en/social-posts/day-1-rvn': '6db4e34227156425507966241a1ab871e11975fc14c14e3959e9ccd99b666644',
  '/en/social-posts/day-9-rvn': '7bce491e8e89ab69c32e6fba4f372218845e3214febcd46376fcbd7450957396',
  '/en/social-posts/day-9-rvn-x': '8bff0ca4fc587155cc45ab6b8f7a3ec44eed354271c611b14038a6015cc087da',
  '/en/social-posts/day-9-teaser-x': '11dcd47c2a67198f7101f772cade64a3a0d42e84acd9e0843178c12c9466087c',
