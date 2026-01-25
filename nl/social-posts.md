@@ -41,11 +41,11 @@ lang: nl
 
 **Dag 9**   
 → [Daycare-fraude](/nl/social-posts/dag-9-rvn)     
-→ [Graduated Animal Farms](/nl/social-posts/dag-9-teaser-x) 
+→ [Graduated Animal Farms](/nl/social-posts/day-9-teaser) 
 
 **Dag 10**     
 → [EU blokkade Odysee](/nl/social-posts/dag-10-rvn)     
-→ [De Onzichtbare Riem](/nl/social-posts/dag-10-teaser-x)   
+→ [De Onzichtbare Riem](/nl/social-posts/day-10-teaser)   
 
 **Dag 11**   
 → [Van "praatgroepje" in heel Europa naar slagveld](/nl/social-posts/dag-11-rvn)     
@@ -53,16 +53,16 @@ lang: nl
 
 **Dag 12**   
 → [Toeslagenaffaire: de stal die niet barst](/nl/social-posts/dag-12-rvn)    
-→ [waarom Open Internet Manifest](/nl/social-posts/dag-12-teaser-x)    
+→ [waarom Open Internet Manifest](/nl/social-posts/dag-12-teaser)    
 
 **Dag 13**   
 → [Fluoride; het narratief dat eindelijk barst](/nl/social-posts/dag-13-rvn)   
-→ [Even stilstaan](/nl/social-posts/dag-13-teaser-x)    
+→ [Even stilstaan](/nl/social-posts/dag-13-teaser)    
 
 **Dag 14**  
 → [DHS-bill; selectieve verontwaardiging op bestelling](/nl/social-posts/dag-14-rvn)      
-→ [](/nl/social-posts/dag-14-teaser)    
+→ [Dit is geen archief](/nl/social-posts/dag-14-teaser)    
 
 **Dag 15**     
-→ [Reality VS Narrative](/nl/social-posts/dag-15-rvn)       
+→ [Minneapolis mall & de ICE-hypocrisie](/nl/social-posts/dag-15-rvn)       
 → [Open Internet Manifest teaser](/nl/social-posts/dag-15-teaser)   

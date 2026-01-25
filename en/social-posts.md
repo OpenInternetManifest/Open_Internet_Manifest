@@ -61,8 +61,8 @@ lang: en
 
 **Day 14**  
 → [DHS bill; selective outrage on demand](/en/social-posts/day-14-rvn)      
-→ [](/en/social-posts/day-14-teaser)    
+→ [](/en/social-posts/day-14-teaser-x)    
 
 **Day 15**     
-→ [Reality VS Narrative](/en/social-posts/day-15-rvn)       
+→ [Minneapolis mall & the ICE hypocrisy](/en/social-posts/day-15-rvn)       
 → [Open Internet Manifest teaser](/en/social-posts/day-15-teaser)   
