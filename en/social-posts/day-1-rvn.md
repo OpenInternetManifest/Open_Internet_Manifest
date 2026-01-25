@@ -1,5 +1,5 @@
 ---
-layout: thesis
+layout: default
 lang: en
 title: social-posts - day 1 fixed patterns
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Or Monero/BTC address, Ko-fi, etc.

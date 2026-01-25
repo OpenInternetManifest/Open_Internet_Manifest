@@ -65,4 +65,4 @@ lang: en
 
 **Day 15**     
 → [Minneapolis mall & the ICE hypocrisy](/en/social-posts/day-15-rvn-x)       
-→ [Open Internet Manifest teaser](/en/social-posts/day-15-teaser)   
+→ [Narrative](/en/social-posts/day-15-teaser-x)   
