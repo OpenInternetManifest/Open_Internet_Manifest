@@ -8,7 +8,7 @@ lang: en
 # Social Posts for the Open Internet Manifest – English version
 
 **Day 1**   
-→ [Het vaste patroon bij grote incidenten](/en/social-posts/day-1-rvn)  
+→ [The Fixed Pattern in Major Incidents](/en/social-posts/day-1-rvn)  
 → [The start of something big](/nl/social-posts/dag-1-teaser)   
 
 **Day 2**   
@@ -61,7 +61,7 @@ lang: en
 
 **Day 14**  
 → [DHS bill; selective outrage on demand](/en/social-posts/day-14-rvn)      
-→ [](/en/social-posts/day-14-teaser-x)    
+→ [The new hub](/en/social-posts/day-14-teaser-x)    
 
 **Day 15**     
 → [Minneapolis mall & the ICE hypocrisy](/en/social-posts/day-15-rvn-x)       
