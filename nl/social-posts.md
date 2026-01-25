@@ -41,11 +41,11 @@ lang: nl
 
 **Dag 9**   
 → [Daycare-fraude](/nl/social-posts/dag-9-rvn)     
-→ [Graduated Animal Farms](/nl/social-posts/day-9-teaser) 
+→ [Graduated Animal Farms](/nl/social-posts/dag-9-teaser) 
 
 **Dag 10**     
 → [EU blokkade Odysee](/nl/social-posts/dag-10-rvn)     
-→ [De Onzichtbare Riem](/nl/social-posts/day-10-teaser)   
+→ [De Onzichtbare Riem](/nl/social-posts/dag-10-teaser)   
 
 **Dag 11**   
 → [Van "praatgroepje" in heel Europa naar slagveld](/nl/social-posts/dag-11-rvn)     
