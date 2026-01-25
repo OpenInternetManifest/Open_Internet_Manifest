@@ -65,4 +65,4 @@ lang: nl
 
 **Dag 15**     
 → [Minneapolis mall & de ICE-hypocrisie](/nl/social-posts/dag-15-rvn)       
-→ [Open Internet Manifest teaser](/nl/social-posts/dag-15-teaser)   
+→ [Narratief](/nl/social-posts/dag-15-teaser)   
