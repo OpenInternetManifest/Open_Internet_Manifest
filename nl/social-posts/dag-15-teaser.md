@@ -1,3 +1,11 @@
+---
+layout: default
+lang: nl
+title: social-posts - dag 15 Minneapolis mall & de ICE-hypocrisie
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
 🇳🇱 **Dag 15  – Narratief** 🌐✂️  
 Minneapolis brandt door: Pretti's familie schreeuwt om waarheid, DHS blokkeert evidence, protests escaleren.  
 Maar het oude patroon blijft: "mostly peaceful" voor de ene kant, "gerechtvaardigd" voor de andere.  
