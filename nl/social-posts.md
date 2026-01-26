@@ -7,10 +7,16 @@ lang: nl
 ---
 # Social Posts voor het Open Internet Manifest – Nederlandse versie
 
-**Dag 1**   
-→ [Het vaste patroon bij grote incidenten](/nl/social-posts/dag-1-rvn)  
-→ [Het begin van iets groots](/nl/social-posts/dag-1-teaser)   
 
+**Dag -3**   
+→ [Boeren protesten](/nl/social-posts/rvn-boerenprotesten)  
+
+**Dag -2**   
+→ [Immigratiebeleid en ICE](/nl/social-posts/rvn-immigratie-ice)  
+
+**Dag -1**   
+→ [Nicole Good](/nl/social-posts/rvn-nicole-good)  
+ 
 **Dag 2**   
 → [Het Open Internet Manifest (Iran editie)](/nl/social-posts/dag-2-rvn)     
 → [Thesis 1: internet is niet dood](/nl/social-posts/dag-2-teaser)  
