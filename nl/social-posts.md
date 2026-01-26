@@ -9,7 +9,7 @@ lang: nl
 
 
 **Dag -3**   
-→ [Boeren protesten](/nl/social-posts/rvn-boerenprotesten)  
+→ [Boeren protesten](/nl/social-posts/rvn-boeren-protesten)  
 
 **Dag -2**   
 → [Immigratiebeleid en ICE](/nl/social-posts/rvn-immigratie-ice)  
@@ -17,6 +17,10 @@ lang: nl
 **Dag -1**   
 → [Nicole Good](/nl/social-posts/rvn-nicole-good)  
  
+ **Day 1**   
+→ [Het vaste patroon bij grote incidenten](/nl/social-posts/dag-1-rvn)  
+→ [De start van iets groots](/nl/social-posts/dag-1-teaser) 
+
 **Dag 2**   
 → [Het Open Internet Manifest (Iran editie)](/nl/social-posts/dag-2-rvn)     
 → [Thesis 1: internet is niet dood](/nl/social-posts/dag-2-teaser)  
