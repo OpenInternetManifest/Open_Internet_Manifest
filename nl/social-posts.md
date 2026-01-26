@@ -66,3 +66,7 @@ lang: nl
 **Dag 15**     
 → [Minneapolis mall & de ICE-hypocrisie](/nl/social-posts/dag-15-rvn)       
 → [Narratief](/nl/social-posts/dag-15-teaser)   
+
+**Dag 15**     
+→ [Het 'mostly peaceful' patroon & de hypocrisie](/nl/social-posts/dag-16-rvn)       
+→ [Narratief](/nl/social-posts/dag-15-teaser)   

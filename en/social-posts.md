@@ -66,3 +66,7 @@ lang: en
 **Day 15**     
 → [Minneapolis mall & the ICE hypocrisy](/en/social-posts/day-15-rvn-x)       
 → [Narrative](/en/social-posts/day-15-teaser-x)   
+
+**Day 15**     
+→ [The 'mostly peaceful' pattern & the hypocrisy](/en/social-posts/day-16-rvn-x)       
+→ [Narrative](/en/social-posts/day-15-teaser-x)   
