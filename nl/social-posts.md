@@ -83,4 +83,4 @@ lang: nl
 
 **Dag 17**     
 → [Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit](/nl/social-posts/dag-17-rvn)       
-→ [Narratief](/nl/social-posts/dag-15-teaser)   
+→ [Een kind op school, vandaag](/nl/social-posts/dag-17-teaser)   
