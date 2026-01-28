@@ -333,19 +333,7 @@ body {
 }
 
 /* SHA256 nummering tegen tekst aan (niet links uitgelijnd) */
-.integrity-content ol {
-  list-style-position: inside !important;  /* nummers binnen de tekst */
-  padding-left: 0 !important;              /* verwijder standaard marge */
-  margin-left: 0 !important;
-  margin: 1.5em 0 !important;
-  counter-reset: item;
-}
 
-
-.integrity-content li {
-  margin-bottom: 1em !important;
-  line-height: 1.6 !important;
-}
 
 /* Verberg standaard marker */
 .integrity-content ol li::marker {
