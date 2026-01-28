@@ -77,4 +77,4 @@ lang: en
 
 **Day 18**     
 → [ Holocaust Remembrance Day 2026](/en/social-posts/day-18-rvn-x)       
-→ [A child at school, today](/en/social-posts/day-17-teaser-x)   
+→ [Growth](/en/social-posts/day-18-teaser-x)   

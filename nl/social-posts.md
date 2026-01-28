@@ -87,4 +87,4 @@ lang: nl
 
 **Dag 18**     
 → [Holocaustherdenking 2026](/nl/social-posts/dag-18-rvn)       
-→ [Een kind op school, vandaag](/nl/social-posts/dag-17-teaser)   
+→ [Groeien](/nl/social-posts/dag-18-teaser)   
