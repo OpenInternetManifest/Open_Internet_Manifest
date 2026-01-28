@@ -74,3 +74,7 @@ lang: en
 **Day 17**     
 → [Predicted – Walz' Smoke Screens Now Reality](/en/social-posts/day-17-rvn-x)       
 → [A child at school, today](/en/social-posts/day-17-teaser-x)   
+
+**Day 18**     
+→ [ Holocaust Remembrance Day 2026](/en/social-posts/day-18-rvn-x)       
+→ [A child at school, today](/en/social-posts/day-17-teaser-x)   

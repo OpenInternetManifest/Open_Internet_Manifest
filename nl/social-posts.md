@@ -84,3 +84,7 @@ lang: nl
 **Dag 17**     
 → [Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit](/nl/social-posts/dag-17-rvn)       
 → [Een kind op school, vandaag](/nl/social-posts/dag-17-teaser)   
+
+**Dag 18**     
+→ [Holocaustherdenking 2026](/nl/social-posts/dag-18-rvn)       
+→ [Een kind op school, vandaag](/nl/social-posts/dag-17-teaser)   
