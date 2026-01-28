@@ -340,12 +340,7 @@ body {
   margin: 1.5em 0 !important;
   counter-reset: item;
 }
-.integrity-content ol li {
-  padding-left: 2.8em !important;          /* ruimte voor nummer */
-  text-indent: -2.8em !important;          /* trek nummer terug tegen tekst */
-  margin-bottom: 1em !important;
-  line-height: 1.6 !important;
-}
+
 
 .integrity-content li {
   margin-bottom: 1em !important;
