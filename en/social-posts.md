@@ -81,4 +81,4 @@ lang: en
 
 **Day 19**     
 → [DigiD in American hands – crisis or opportunity](/en/social-posts/day-19-rvn-x)       
-→ [Growth](/en/social-posts/day-18-teaser-x)   
+→ [GroUtrecht drama](/nl/social-posts/dag-19-teaser-x)   

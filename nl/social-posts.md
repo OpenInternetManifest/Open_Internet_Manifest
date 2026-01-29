@@ -91,4 +91,4 @@ lang: nl
     
 **Dag 19**  
 → [DigiD in Amerikaanse handen – kans of crisis?](/nl/social-posts/dag-19-rvn)       
-→ [Groeien](/nl/social-posts/dag-18-teaser)   
+→ [Utrecht drama](/nl/social-posts/dag-19-teaser)   
