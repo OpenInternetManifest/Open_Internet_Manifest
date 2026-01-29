@@ -78,3 +78,7 @@ lang: en
 **Day 18**     
 → [ Holocaust Remembrance Day 2026](/en/social-posts/day-18-rvn-x)       
 → [Growth](/en/social-posts/day-18-teaser-x)   
+
+**Day 19**     
+→ [DigiD in American hands – crisis or opportunity](/en/social-posts/day-19-rvn-x)       
+→ [Growth](/en/social-posts/day-18-teaser-x)   

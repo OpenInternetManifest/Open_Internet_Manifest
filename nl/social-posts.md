@@ -88,3 +88,7 @@ lang: nl
 **Dag 18**     
 → [Holocaustherdenking 2026](/nl/social-posts/dag-18-rvn)       
 → [Groeien](/nl/social-posts/dag-18-teaser)   
+    
+**Dag 19**  
+→ [DigiD in Amerikaanse handen – kans of crisis?](/nl/social-posts/dag-19-rvn)       
+→ [Groeien](/nl/social-posts/dag-18-teaser)   
