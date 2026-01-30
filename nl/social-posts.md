@@ -92,3 +92,7 @@ lang: nl
 **Dag 19**  
 → [DigiD in Amerikaanse handen – kans of crisis?](/nl/social-posts/dag-19-rvn)       
 → [Utrecht drama](/nl/social-posts/dag-19-teaser)   
+
+**Dag 20**  
+→ [Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief](/nl/social-posts/dag-20-rvn)   
+→ [Utrecht drama](/nl/social-posts/dag-19-teaser)   
