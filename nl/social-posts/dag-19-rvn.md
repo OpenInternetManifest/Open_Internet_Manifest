@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: nl
-title: social-posts - dag 19 Reality vs Narrative: DigiD in Amerikaanse handen – kans of crisis?    
+title: social-posts - dag 19 Reality vs Narrative; DigiD in Amerikaanse handen – kans of crisis?    
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

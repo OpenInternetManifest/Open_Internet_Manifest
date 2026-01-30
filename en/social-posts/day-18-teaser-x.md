@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: social-posts - Day 18 Tnight
+title: social-posts - Day 18 Tonight
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

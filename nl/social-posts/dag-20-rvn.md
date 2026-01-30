@@ -1,10 +1,11 @@
 ---
 layout: default
 lang: nl
-title: social-posts - dag 20 Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief 
+title: social-posts - dag 20 Utrecht Bollendak; viraal filmpje vs realiteit + gespind narratief 
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  
 Video's exploderen: agent schopt moslima in buik, mept met wapenstok – narratief: "racisme! politiegeweld tegen moslima's!" Aangifte mishandeling + racisme, demonstraties, massale verontwaardiging en calls tot actie.
 Realiteit (politie 28-30 jan):  
