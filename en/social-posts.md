@@ -81,8 +81,8 @@ lang: en
 
 **Day 19**     
 → [DigiD in American hands – crisis or opportunity](/en/social-posts/day-19-rvn-x)       
-→ [GroUtrecht drama](/nl/social-posts/dag-19-teaser-x)   
+→ [Utrecht drama](/nl/social-posts/dag-19-teaser-x)   
 
 **Day 20**     
 → [Utrecht Bollendak: viral clip vs reality + spun narrative](/en/social-posts/day-20-rvn-x)       
-→ [GroUtrecht drama](/nl/social-posts/dag-19-teaser-x)   
+→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   
