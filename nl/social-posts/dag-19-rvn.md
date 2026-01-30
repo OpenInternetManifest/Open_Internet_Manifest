@@ -5,6 +5,7 @@ title: social-posts - dag 19 Reality vs Narrative: DigiD in Amerikaanse handen �
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 🇳🇱 **Dag 19 – Reality vs Narrative: DigiD in Amerikaanse handen – kans of crisis?** 🌐🔒  
 Vandaag nieuws dat hard binnenkomt: het bedrijf achter DigiD, eHerkenning en MijnOverheid (Zynyo) komt in Amerikaanse handen via een overname door een private equity-fonds met sterke US-ties. Tegelijkertijd zitten steeds meer kritieke Nederlandse data in Amerikaanse clouds (Azure, AWS, Google).  
 Het narratief dat we horen:  
