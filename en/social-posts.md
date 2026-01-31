@@ -86,3 +86,7 @@ lang: en
 **Day 20**     
 → [Utrecht Bollendak: viral clip vs reality + spun narrative](/en/social-posts/day-20-rvn-x)       
 → [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   
+
+**Day 21**     
+→ [ Israel-Palestine & Iran: historical, religious roots vs modern narrative](/en/social-posts/day-21-rvn-x)       
+→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   

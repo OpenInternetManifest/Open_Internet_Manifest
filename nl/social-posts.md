@@ -96,3 +96,7 @@ lang: nl
 **Dag 20**  
 → [Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief](/nl/social-posts/dag-20-rvn)   
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)   
+
+**Dag 20**  
+→ [Israël-Palestina & Iran: van eeuwenoude wortels tot hedendaagse crisis](/nl/social-posts/dag-21-rvn)   
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)   
