@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: social-posts - Day 21 Israel-Palestine & Iran: historical, religious roots vs modern narrative
+title: social-posts - Day 21 Israel-Palestine & Iran; historical, religious roots vs modern narrative
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
