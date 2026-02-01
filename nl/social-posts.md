@@ -100,3 +100,7 @@ lang: nl
 **Dag 21**  
 → [Israël-Palestina & Iran: van eeuwenoude wortels tot hedendaagse crisis](/nl/social-posts/dag-21-rvn)   
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)   
+
+**Dag 22**  
+→ [arp Speed: Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? ](/nl/social-posts/dag-22-rvn)   
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
