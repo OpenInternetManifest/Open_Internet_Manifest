@@ -102,5 +102,9 @@ lang: nl
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)   
 
 **Dag 22**  
-→ [arp Speed: Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? ](/nl/social-posts/dag-22-rvn)   
+→ [warp Speed: Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? ](/nl/social-posts/dag-22-rvn)   
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+
+**Dag 23**  
+→ [ 1913 – het jaar dat de knoppen werden omgezet?](/nl/social-posts/dag-23-rvn)   
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
