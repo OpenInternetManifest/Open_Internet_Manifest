@@ -95,6 +95,10 @@ lang: en
 → [Warp Speed: Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war?](/en/social-posts/day-22-rvn-x)       
 → [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   
 
-**Day 22**     
+**Day 23**     
 → [1913 – the year the buttons were pushed?](/en/social-posts/day-23-rvn-x)       
+→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  
+
+**Day 24**     
+→ [Templars, Moloch and the real winners of history](/en/social-posts/day-24-rvn-x)       
 → [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  

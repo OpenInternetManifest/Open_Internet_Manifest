@@ -108,3 +108,7 @@ lang: nl
 **Dag 23**  
 → [ 1913 – het jaar dat de knoppen werden omgezet?](/nl/social-posts/dag-23-rvn)   
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+
+**Dag 23**  
+→ [Templars, Moloch en de echte winnaars van geschiedenis](/nl/social-posts/dag-24-rvn)   
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
