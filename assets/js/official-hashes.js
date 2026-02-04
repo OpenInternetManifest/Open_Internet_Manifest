@@ -105,7 +105,7 @@ var officialHashes = {
   '/nl/social-posts/dag-23-rvn': 'da3c3314894cdec89601656ba1d1adec625498fdacf6a9e232d69e3b8ba2a517',
   '/nl/social-posts/dag-24-rvn': 'aeabb2a61068566efa0da128c0dd3da4ef1d104b144c59aa8d7cf94b34a1ccb3',
   '/nl/social-posts/dag-24-teaser': '13c06eec38452cde9a33d8dea04536ff598a0729cc6988d7513488dd3444cc78',
-  '/nl/social-posts/': '3bd323010673c4ff10b36b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
+  '/nl/social-posts/dag=25-rvn': 'a29687f9097f9bcef14af0d2b75fa8bfad5116db8e9335c79b1c2f3a0a9c77b0',
   '/nl/social-posts/': '3bd323010673c4ff10b95b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
   '/nl/social-posts/': '3bd323010673c4ff13695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',  '/nl/social-posts/': '3bd323010673c4ff10b95b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
   '/nl/social-posts/': '3bd323010673c4ff13695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
@@ -166,7 +166,7 @@ var officialHashes = {
  '/en/social-posts/day-23-rvn': '32646dcde1af0d6707a0d7f39b4a69b5ed809f97f1bceedd201181ac030dce01',
  '/en/social-posts/day-24-rvn-x': '1f4e376e1bba75d26b91744d43a958fd98851359d8fadcf85c9a64d99bd371c0',
  '/en/social-posts/day-24-teaser-x': '20f871fe69c5de68ed8a05b3586efb28739cbde8866f0a355d051affa13cb3f7',
-  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
+  '/en/social-posts/day-25-rvn': 'e4cd127b1254a082950a5a3535baf8a81e108a3d4804a583d38e8ba7eb0c58ae',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
  '/en/social-posts/': '3bd323010673c4ff139d102a3d15314bf7b7f',
 
