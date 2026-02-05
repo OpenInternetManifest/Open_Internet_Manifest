@@ -21,7 +21,9 @@ De social-posts pagina is het nieuwe startpunt: copy-paste klaar voor X, Matrix,
 Geen poortwachters meer. Alleen jij, de tekst en het open web.  
 https://openinternetmanifest.org/nl/social-posts  
 #OpenInternetManifest #Dag16 #SocialsZonderLeiband #RealiteitVsNarratief
+
 ---
+
 🇬🇧 **Day 16 – The new hub** 🌐🗂️  
 This is not an archive.  
 This is not a static page with old words.  

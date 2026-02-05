@@ -7,10 +7,10 @@ title: social-posts - dag 7 Polarisatie als wapen
 ---
 
 Realiteit vs Narratief – Polarisatie als wapen (deel 2)  
-Narratief:  
-“Links vs rechts, Joden vs moslims, West vs Oost – dat is gewoon hoe de wereld werkt. Iedereen heeft zijn bubbel, en dat is prima. Diversiteit is onze kracht.”
-Realiteit:  
-Polarisatie is het krachtigste wapen van de machthebbers.  
+
+Narratief: “Links vs rechts, Joden vs moslims, West vs Oost – dat is gewoon hoe de wereld werkt. Iedereen heeft zijn bubbel, en dat is prima. Diversiteit is onze kracht.”
+
+Realiteit: Polarisatie is het krachtigste wapen van de machthebbers.  
 Lange tijd heb ik in complotkringen gezeten. Elke "doorbraak" voelde als de echte waarheid, maar elke nieuwe laag hield je vast in een nieuwe kooi. We noemden het "graduated animal farms": gecontroleerde waarheden die je in een bubbel houden, terwijl de echte machthebbers rustig doordrukken.  
 
 Nu zie ik hetzelfde patroon mondiaal:  

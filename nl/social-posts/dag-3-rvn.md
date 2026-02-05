@@ -7,6 +7,7 @@ title: social-posts - dag 3 Dutch Travel Maniac verbannen
 ---
 
 Realiteit vs. Narratief – Verbanning Dutch Travel Maniac van Facebook.
+
 Het narratief zegt:  
 “Tom verspreidde haatzaaiende content over Ter Apel. Facebook deed het juiste door hem te bannen – dat beschermt tegen racisme en desinformatie.”
 

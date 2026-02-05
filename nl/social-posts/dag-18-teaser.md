@@ -26,9 +26,12 @@ Tomorrow: the next layer.
 Because if hashes don't lie…  
 what does that mean for the stories that do?
 Open Internet Manifest: facts over feelings.  
+
 Keep watching. 👀
+
 https://openinternetmanifest.org/nl/social-posts  
 #RealityVsNarrative #Day19Teaser
+
 This post is 100% authentic and verifiable via:
 https://openinternetmanifest.org/en/hash-verifier
 Paste the full text to check authenticity.

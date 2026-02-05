@@ -6,12 +6,15 @@ title: social-posts - dag 5 Starlink gratis voor Iran
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 Realiteit vs. Narratief – Starlink gratis voor Iran.
+
 Het narratief zegt:  
 “Satelliet-internet zoals Starlink is gevaarlijk. Het ondermijnt regimes en veroorzaakt instabiliteit. Overheden hebben het recht om toegang te blokkeren voor veiligheid en orde.”
 
 De realiteit:  
 Iran heeft het internet al weken grotendeels zwart. Mensen kunnen familie niet bereiken, protesten niet coördineren, de wereld niet laten zien wat er gebeurt.  
+
 Gisteren kondigde Elon Musk aan: Starlink wordt **gratis** beschikbaar gesteld voor mensen in Iran.  
+
 Maar nu komt het echte verhaal van binnenuit (zie screenshot): het regime gaat **deur-aan-deur** satellietontvangers en Starlink-schotels confisceren – net als in de vroege 2000s. Mensen riskeren alles om een bericht naar buiten te krijgen.
 
 Het narratief zegt:  

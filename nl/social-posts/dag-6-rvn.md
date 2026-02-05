@@ -7,8 +7,9 @@ title: social-posts - dag 6 Nederland verdedigd Groenland
 ---
 
 Realiteit vs Narratief – Nederland verdedigt Groenland  
-Narratief:  
-“Nederland staat pal voor de NAVO in de Arctische strijd. Volledige inzet tegen Rusland en China. Flipse is onze forward deployed asset.”
+
+Narratief: “Nederland staat pal voor de NAVO in de Arctische strijd. Volledige inzet tegen Rusland en China. Flipse is onze forward deployed asset.”
+
 Realiteit:  
 We sturen 1 (één) militair.  
 Flipse.  
@@ -27,8 +28,8 @@ We doen mee, maar verwacht geen moer.
 ---
 
 Reality vs Narrative – The Netherlands is defending Greenland  
-Narrative:  
-“The Netherlands stands firm with NATO in the Arctic struggle. Full commitment against Russia and China. Flipse is our forward deployed asset.”
+Narrative: “The Netherlands stands firm with NATO in the Arctic struggle. Full commitment against Russia and China. Flipse is our forward deployed asset.”
+
 Reality:  
 We send 1 (one) soldier.  
 Flipse.  

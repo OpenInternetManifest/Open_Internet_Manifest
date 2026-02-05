@@ -7,6 +7,7 @@ title: social-posts - dag 11 Davos; van praatgroepje naar slagveld
 ---
 
 **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
+
 Jarenlang werd Davos/WEF in Nederland én heel Europa afgedaan als **praatgroepje**: elites met champagne, loze beloftes en netwerkpraat op een Zwitserse berg. Rutte zelf noemde het vaak "slechts een praatclubje" – onschuldig, niks aan de hand.  
 
 Nu? Trump lekt privé-sms'en van Rutte ("Dear Donald, incredible... committed on Greenland... Yours, Mark") en Macron ("My friend... I do not understand what you are doing on Greenland... G7 in Paris?").  

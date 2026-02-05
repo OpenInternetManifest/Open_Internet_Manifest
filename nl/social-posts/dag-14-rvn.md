@@ -6,7 +6,7 @@ title: social-posts - dag 14 DHS-bill; selectieve verontwaardiging op bestelling
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
-**Realiteit vs Narratief** – DHS-bill: selectieve verontwaardiging op bestelling 🚨🇺🇸
+**Realiteit vs Narratief** – DHS-bill: selectieve verontwaardiging op bestelling 🚨🇺🇸   
 Vannacht stemde het Huis over de DHS-bill (massale border security funding). Trump: "must pass, biggest ever". Links: "defund ICE", "terroriseren van kinderen", "Liam-achtig drama".
 CNN & co: "ICE raids altijd controversieel".
 

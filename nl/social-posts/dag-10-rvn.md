@@ -8,6 +8,7 @@ title: social-posts - dag 10 blokkade van Odysee
 
 Realiteit vs Narratief – EU-blokkade van Odysee (en meer)  
 Vandaag kreeg ik een melding toen ik naar odysee.com probeerde te gaan – een gedecentraliseerd alternatief voor YouTube, gebouwd op blockchain en censuurbestendig:  
+
 “Deze pagina is onbereikbaar. Op verzoek van de EU is dit domein momenteel geblokkeerd. We zijn ons bewust van de discussie en bezwaren, maar geven hiermee gevolg aan een expliciete opdracht vanuit de overheid. Bovenal hopen we dat de oorlog in Oekraïne snel voorbij is.”
 
 Odysee is geen site vol haat of illegale content – het is een platform waar makers zelf controle hebben, zonder centrale algoritmes of censuur. Het is precies het soort open, gedecentraliseerd internet waar het Open Internet Manifest voor pleit.  

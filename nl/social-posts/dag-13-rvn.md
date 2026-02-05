@@ -6,7 +6,7 @@ title: social-posts - dag 13 Fluoride; het narratief dat eindelijk barst
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
-**Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️
+**Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   
 Decennialang: "fluoride in drinkwater is veilig en goed voor tanden". Standaard in bijna alle US publieke systemen, gepusht door CDC, ADA en WHO. Kritiek? "Complotdenkers", "anti-science".
 
 Gisteren (20 jan 2026): RFK Jr. kondigt aan dat het Trump Witte Huis alle US waterbedrijven adviseert om fluoride te verwijderen. Reden: het is industrieel afval, gelinkt aan artritis, botbreuken, botkanker, IQ-verlies, neuro-ontwikkelingsstoornissen en schildklierproblemen.

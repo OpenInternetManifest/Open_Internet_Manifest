@@ -7,6 +7,7 @@ title: social-posts - dag 4 een monteur in Amsterdam
 ---
 
 Realiteit vs. Narratief – Een monteur in Amsterdam.
+
 Vorige week bij een klant in Amsterdam. Achternaam klinkt Joods. Ik vraag voorzichtig: “Mag ik vragen of je Joods bent?”
 
 Ze wordt even stil. Kijkt me aan, weegt de situatie. Zegt zachtjes ja.

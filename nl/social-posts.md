@@ -79,7 +79,7 @@ lang: nl
 
 **Dag 16**     
 → [Het 'mostly peaceful' patroon & de hypocrisie](/nl/social-posts/dag-16-rvn)       
-→ [Narratief](/nl/social-posts/dag-15-teaser)   
+→ [Narmostly peaceful](/nl/social-posts/dag-16-teaser)   
 
 **Dag 17**     
 → [Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit](/nl/social-posts/dag-17-rvn)       
@@ -99,24 +99,24 @@ lang: nl
 
 **Dag 21**  
 → [Israël-Palestina & Iran: van eeuwenoude wortels tot hedendaagse crisis](/nl/social-posts/dag-21-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)   
+→ [Even luchtig](/nl/social-posts/dag-20-teaser)   
 
 **Dag 22**  
 → [warp Speed: Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? ](/nl/social-posts/dag-22-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+→ [1913](/nl/social-posts/dag-22-teaser)  
 
 **Dag 23**  
 → [ 1913 – het jaar dat de knoppen werden omgezet?](/nl/social-posts/dag-23-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+→ [Knights Templar Teaser](/nl/social-posts/dag-23-teaser)  
 
 **Dag 24**  
 → [Templars, Moloch en de echte winnaars van geschiedenis](/nl/social-posts/dag-24-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-24-teaser)  
 
 **Dag 25**  
 → [Obama / Iran-deal](/nl/social-posts/dag-25-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-25-teaser)  
 
 **Dag 26**  
 → [De laag boven de Rockefellers – wie heeft de echte knoppen?](/nl/social-posts/dag-26-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
+→ [de wortels die niemand vertelt](/nl/social-posts/dag-26-teaser)  

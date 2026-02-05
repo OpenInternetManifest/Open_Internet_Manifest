@@ -10,10 +10,10 @@ title: social-posts - dag 20 de wortels die niemand vertelt
 
 Vandaag weer een narratief over "bezetting" en "verzet".
 Morgen duiken we dieper.
+
 ✨ Veel dieper. ✨
 
 🔍 Van:
-
 Romeinse strafnamen
 7e-eeuwse verzen
 Exodus uit Arabische landen
@@ -34,10 +34,10 @@ Blijf kijken. 👀🔍
 
 Today another narrative about "occupation" and "resistance."
 Tomorrow we go deeper.
+
 ✨ Much deeper. ✨
 
 🔍 From:
-
 Roman punitive names
 7th-century verses
 Exodus out of Arab countries
