@@ -85,28 +85,28 @@ lang: en
 
 **Day 20**     
 → [Utrecht Bollendak: viral clip vs reality + spun narrative](/en/social-posts/day-20-rvn-x)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   
+→ [the roots no one talks about](/en/social-posts/day-20-teaser-x)   
 
 **Day 21**     
 → [ Israel-Palestine & Iran: historical, religious roots vs modern narrative](/en/social-posts/day-21-rvn-x)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   
+→ [Just breatht](/nl/social-posts/dag-21-teaser)   
 
 **Day 22**     
 → [Warp Speed: Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war?](/en/social-posts/day-22-rvn-x)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)   
+→ [1913](/nl/social-posts/dag-22-teaser)   
 
 **Day 23**     
 → [1913 – the year the buttons were pushed?](/en/social-posts/day-23-rvn-x)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  
+→ [Knights Templar](/nl/social-posts/day-23-teaser)  
 
 **Day 24**     
 → [Templars, Moloch and the real winners of history](/en/social-posts/day-24-rvn-x)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  
+→ [Obama's Iran deal](/en/social-posts/day-24-teaser-x)  
 
 **Day 25**     
 → [Obama, Iran cash and the eternal good cop / bad cop](/en/social-posts/day-25-rvn)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  
+→ [Tomorrow: the roots no one talks about](/en/social-posts/day-25-teaser-x)  
 
 **Day 26**     
 → [The layer above the Rockefellers – who really holds the buttons?](/en/social-posts/day-26-rvn)       
-→ [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  
+→ [affairs of the citizen](/en/social-posts/day-26-teaser-x)  

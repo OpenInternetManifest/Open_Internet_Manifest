@@ -119,4 +119,4 @@ lang: nl
 
 **Dag 26**  
 → [De laag boven de Rockefellers – wie heeft de echte knoppen?](/nl/social-posts/dag-26-rvn)   
-→ [de wortels die niemand vertelt](/nl/social-posts/dag-26-teaser)  
+→ [zaken van de burger](/nl/social-posts/dag-26-teaser)  

@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: nl
-title: social-posts - dag 24 Dag 25 Teaser
+title: social-posts - dag 26 De laag boven de Rockefellers – wie heeft de echte knoppen?
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
