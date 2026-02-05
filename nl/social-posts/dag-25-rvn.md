@@ -7,10 +7,13 @@ title: social-posts - dag 25 Obama / Iran-deal
 ---
 
 **Reality vs Narratief: Obama, Iran-cash en de eeuwige good cop / bad cop ♟️💰🕳️**
+
 Korte recap van de week tot nu toe:
+
 - Dag 22: Warp Speed / Trump → asymmetrisch spel, geen federal mandate, exit-ramp zonder totale clash  
 - Dag 23: 1913 → blauwdruk neergezet (Titanic ruimt tegenstanders op, FED + inkomstenbelasting erdoor, Rockefeller bouwt olie / medicijnen / centrale controle)  
 - Dag 24: Templars → al in de 12e eeuw banking als machtsinstrument, ontbonden maar structuur bleef hangen, religie als systeem vs persoonlijk geloof  
+
 Vandaag: een hedendaags voorbeeld dat hetzelfde patroon laat zien.
 
 **Obama / Iran-deal – feiten kort op een rij**  
@@ -57,18 +60,19 @@ De overwinnaar schrijft het verhaal.
 Templars verloren → ketters.  
 Iran krijgt cash → “deal voor vrede”.  
 Maar wie bepaalt wie de winnaar is?
+
 Feiten boven frames.  
 Check zelf:  
 - JCPOA tekst + State Dept cash-settlement (jan 2016)  
 - Iran proxy-financiering (Congressional Research Service rapporten 2016–2025)  
 - De Molay laatste woorden (Villani kroniek)
+
 Wat zie jij?  
 Is Obama-Iran een mislukte deal… of een perfecte good cop / bad cop move?  
 En wat als de echte laag erboven zich geen barst interesseert voor welk persoonlijk geloof je hebt – alleen voor hoe ze ons verdeeld houden?
+
 Open discussie mag.  
 Ik leer nog elke dag.  
 Jij ook?
+
 #RVN #FeitenBovenFrames #ObamaIran #GoodCopBadCop #GeloofVsReligie
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.
