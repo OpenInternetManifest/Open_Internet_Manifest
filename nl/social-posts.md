@@ -118,5 +118,5 @@ lang: nl
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
 
 **Dag 26**  
-→ [De laag boven de Rockefellers – wie heeft de echte knoppen?](/nl/social-posts/dag-25-rvn)   
+→ [De laag boven de Rockefellers – wie heeft de echte knoppen?](/nl/social-posts/dag-26-rvn)   
 → [de wortels die niemand vertelt](/nl/social-posts/dag-20-teaser)  
