@@ -5,64 +5,70 @@ title: social-posts - dag 24 1913 – het jaar dat de knoppen werden omgezet?
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+**Reality vs Narratief: 1913 – het jaar dat de knoppen werden omgezet? ♟️🛳️🕳️**
 
-**Reality vs Narratief: Templars, Moloch en de echte winnaars van geschiedenis ♟️🛡️🔥**
+Stel je voor: april 1912. De Titanic zinkt.  
+Drie van de rijkste en machtigste mannen van Amerika aan boord – en geen van hen overleeft.
 
-Gisteren zagen we 1913 als blauwdruk: Titanic ruimt tegenstanders op, FED en inkomstenbelasting komen erdoor, Rockefellers bouwen verder aan olie, medicijnen en banken.  
-Vandaag een stap terug – veel verder terug.
+John Jacob Astor IV – rijkste passagier, hotelmagnaat, fel tegen een centrale bank.  
+Benjamin Guggenheim – mijnbouw- en smeltingmagnaat, ook tegenstander van de FED.  
+Isidor Straus – Macy’s-oprichter, elite-lid, eveneens sceptisch over centrale bankplannen.
 
-**Knights Templar (1119–1312)**  
-Christelijke ridderorde die pelgrims beschermde, maar al snel het eerste internationale banksysteem bouwde: leningen aan koningen, belastingvrij door pauselijke bul.  
-Te machtig geworden.  
-Koning Filips IV (zware schulden) liet ze 1307 arresteren op valse aanklachten.  
-Paus ontbond de orde in 1312.  
-Grootmeester Jacques de Molay op de brandstapel (18 maart 1314) sprak zijn laatste woorden:  
+J.P. Morgan – de bankier die de Titanic bezat via zijn International Mercantile Marine – had een privé-suite geboekt.  
+Hij annuleerde op het laatste moment en bleef in Frankrijk.
 
-“Paus Clemens! Koning Filips! Voor het einde van dit jaar zal ik jullie beiden voor de hoogste rechter roepen om rekenschap af te leggen. Vervloekt zij jullie tot in het veertiende geslacht!”
+Drie weken na de ramp begint de Federal Reserve Act momentum te krijgen.  
+Februari 1913: 16th Amendment (inkomstenbelasting) geratificeerd.  
+December 1913: de FED wordt wet – een privaat systeem dat “Federal” heet, maar niks federaal is.
 
-Beiden stierven binnen een jaar.  
-De schat? Verdwenen.
+Toeval?  
+Of een zeer handig “ongeluk” dat precies de grootste tegenstanders van een centrale bank uit de weg ruimde?
 
-**History is his story**  
-Geschiedenis wordt geschreven door de overwinnaar.  
-Templars verloren → ketters en duivelsaanbidders.  
-Hun kant van het verhaal? Weg.  
-De victors bepaalden het narratief: “de kerk ruimde gevaar op”.  
-Maar wie profiteerde echt?
+**De spelers die daarna de touwtjes in handen kregen**
 
-**De laag erboven: religie als systeem, geloof als iets persoonlijks**  
-Templars waren christelijk → maar gebruikten hun geloof als kostuum voor macht via banking.  
-Rothschilds Joods → macht via banking.  
-Rockefellers protestants-christelijk → macht via olie en stichtingen.  
+- **Olie** — John D. Rockefeller (Standard Oil) → monopolie gebouwd, antitrust-opbreking in 1911, maar familie blijft dominant via opvolgers (Exxon, Chevron)  
+- **Medicijnen** — Rockefeller Foundation financiert Flexner Report (1910) → medische scholen gestandaardiseerd, alternatieve geneeskunde (homeopathie, kruiden) gemarginaliseerd → petrochemie wordt basis voor de farmaceutische industrie  
+- **Bankieren** — J.P. Morgan + Rockefeller-belangen in de FED-oprichting → David Rockefeller later voorzitter Chase Manhattan, oprichter Trilateral Commission  
+- **Later media** — controle via advertenties, eigendom en invloed (Rockefeller Foundation financiert ook journalistiek- en communicatiestudies)
 
-Wat als de labels (christelijk, Joods, islamitisch) vooral dienen als systeem?  
-Religie als instituut, hiërarchie en controle – dat is wat machthebbers misbruiken.  
-Persoonlijk geloof – de relatie met God, genade, keuze, innerlijke overtuiging – is iets heel anders.  
-Dat interesseert de hogere laag vaak geen barst.  
-Zolang het verdeelt en heerst.  
-Zolang het manifestatiekracht breekt.
+En vandaag?  
+De rijkste man ter wereld heet Elon Musk.  
+Hij staat dagelijks in de krant, op X, in memes.  
+Maar waar zijn de namen van de oude spelers?  
+Waarom horen we bijna nooit meer iets over de Rockefeller- en Morgan-takken, terwijl hun structuren (FED, olie, medicijnen, think tanks) nog steeds overal aanwezig zijn?
 
-**Moloch als symbool**  
-Bijbels: god waarvoor kinderen in vuur werden geofferd (Leviticus 18:21).  
-In complot-lore: elites die macht offeren aan macht zelf.  
-Bohemian Grove (Rockefellers, politici, CEO’s): “Cremation of Care” bij een 40 ft uil – vaak gelinkt aan Moloch.
+David Rockefeller zelf schreef in zijn memoires (2002):  
+“Some even believe we are part of a secret cabal working against the best interests of the United States… If that’s the charge, I stand guilty, and I am proud of it.”
 
-**Korte brug naar Obama**  
-2016: $1.7 miljard cash naar Iran (oude schuld + interest), zelfde moment als gijzelaars-vrijlating.  
-Tientallen miljarden assets ontdooid via JCPOA.  
-Geld vloeit naar proxies (Hezbollah, Houthis).  
-Conflict voedt conflict.  
-Good cop / bad cop – maar wie wint er echt?
+Dat is geen complot – dat is een quote.
+
+**De mindfuck-laag**  
+1912–1913 lijkt een blauwdruk:  
+- Tegenstanders verdwijnen (Titanic)  
+- Centrale bank + inkomstenbelasting komen erdoor  
+- Olie wordt “schaars fossiel” narratief (terwijl abiotische theorieën bestaan)  
+- Medicijnen worden petrochemicaliën-gestuurd  
+- Media en onderwijs worden beïnvloed via stichtingen
+
+Verdeel en heers op zijn mooist:  
+- Bubbels vechten over Trump vs Biden, vaccin vs virus, zionisten vs moslims  
+- Ondertussen blijft de structuur die in 1910–1913 werd neergezet intact  
+- De echte namen blijven uit het nieuws
 
 Feiten boven frames.  
-Check zelf: De Molay woorden (Villani kroniek), Vox in excelso (1312), Bohemian Grove, Obama-Iran cash (2016).
+Check zelf:  
+- Titanic passagierslijst (Astor, Guggenheim, Straus)  
+- Federal Reserve Act 1913  
+- 16th Amendment ratificatie  
+- David Rockefeller memoires p. 405  
+- Flexner Report 1910 (Rockefeller-financiering)
 
 Wat zie jij?  
-Is religie (als systeem) het theater voor de plebs, terwijl persoonlijk geloof iets heel anders is?  
-En wat als de echte laag erboven zich geen barst interesseert voor welk geloof je hebt – alleen voor hoe ze ons verdeeld houden?
+Was de Titanic een ramp… of een opruiming?  
+Is 1913 toeval… of het moment dat de huidige wereldorde werd neergezet?
 
 Open discussie mag.  
 Ik leer nog elke dag.  
 Jij ook?
 
-#RVN #FeitenBovenFrames #Templars #Moloch #GeloofVsReligie
+#RVN #FeitenBovenFrames #1913 #Titanic #FollowTheMoney
