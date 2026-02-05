@@ -8,16 +8,16 @@ title: social-posts - dag 25 De laag boven de Rockefellers – wie heeft de echt
 
 **Reality vs Narratief: De laag boven de Rockefellers – wie heeft de echte knoppen? ♟️🏦🕶️**
 
-Korte recap van de week tot nu toe:
+Korte recap van de week tot nu toe: 
 
 - Dag 22: Warp Speed / Trump → asymmetrisch spel, geen federal mandate, exit-ramp zonder totale confrontatie  
 - Dag 23: 1913 → blauwdruk neergezet (Titanic ruimt tegenstanders op, FED + inkomstenbelasting erdoor, Rockefeller bouwt olie / medicijnen / centrale controle)  
 - Dag 24: Templars → al in de 12e eeuw banking als machtsinstrument, ontbonden maar structuur bleef hangen, religie als systeem vs persoonlijk geloof  
-- Dag 25: Obama / Iran → $1.7 miljard cash + miljarden assets ontdooid → proxies sterker → conflict als businessmodel, good cop / bad cop in actie  
+- Dag 25: Obama / Iran → $1.7 miljard cash + miljarden assets ontdooid → proxies sterker → conflict als businessmodel, good cop / bad cop in actie      
 
-Vandaag: de laag die bijna nooit in het nieuws komt.
+Vandaag: de laag die bijna nooit in het nieuws komt.    
 
-**De Big Three – BlackRock, Vanguard, State Street**  
+**De Big Three – BlackRock, Vanguard, State Street**    
 Samen beheren ze meer dan **$20 biljoen** (2026).  
 Ze zijn de grootste aandeelhouders in bijna elke grote Amerikaanse (en veel Europese) beursgenoteerde bedrijven:  
 - Apple, Microsoft, Google, Amazon, Pfizer, Exxon, Chevron, Boeing, Disney, Coca-Cola, enz.  
