@@ -6,7 +6,7 @@ title: social-posts - dag 24 Templars, Moloch en de echte winnaars van geschiede
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
-**Reality vs Narratief: Templars, Moloch en de echte winnaars van geschiedenis ♟️🛡️🔥**
+**Reality vs Narratief: Templars, Moloch en de echte winnaars van geschiedenis ♟️🛡️🔥** 
 Gisteren zagen we 1913 als blauwdruk: Titanic ruimt tegenstanders op, FED en inkomstenbelasting komen erdoor, Rockefellers bouwen verder aan olie, medicijnen en banken.  
 Vandaag een stap terug – veel verder terug.
 
