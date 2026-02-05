@@ -108,5 +108,5 @@ lang: en
 → [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  
 
 **Day 26**     
-→ [The layer above the Rockefellers – who really holds the buttons?](/en/social-posts/day-26-rvn-x)       
+→ [The layer above the Rockefellers – who really holds the buttons?](/en/social-posts/day-26-rvn)       
 → [Tomorrow: the roots no one talks about](/en/social-posts/day-20-teaser-x)  

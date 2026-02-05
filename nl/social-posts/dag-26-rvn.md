@@ -17,7 +17,8 @@ Korte recap van de week tot nu toe:
 
 Vandaag: de laag die bijna nooit in het nieuws komt.    
 
-**De Big Three – BlackRock, Vanguard, State Street**    
+**De Big Three – BlackRock, Vanguard, State Street**
+
 Samen beheren ze meer dan **$20 biljoen** (2026).  
 Ze zijn de grootste aandeelhouders in bijna elke grote Amerikaanse (en veel Europese) beursgenoteerde bedrijven:  
 - Apple, Microsoft, Google, Amazon, Pfizer, Exxon, Chevron, Boeing, Disney, Coca-Cola, enz.  
@@ -26,6 +27,7 @@ Ze zijn de grootste aandeelhouders in bijna elke grote Amerikaanse (en veel Euro
 - Ze zijn geen “complot”, het is openbaar: hun eigen websites en SEC-filings tonen de ownership.
 
 **BIS – Bank for International Settlements**  
+
 De “centrale bank der centrale banken” in Bazel, Zwitserland.  
 - Onaantastbaar: immuun voor nationale wetten, geen democratische controle  
 - Bepaalt veel achter de schermen van wereldwijd monetair beleid  
@@ -33,12 +35,14 @@ De “centrale bank der centrale banken” in Bazel, Zwitserland.
 - Weinig mensen weten hoe groot hun invloed is — ze publiceren zelden harde beslissingen, maar sturen wel de richting
 
 **Family offices & trusts**  
+
 De oude geldstromen (Rockefellers, Mellons, DuPonts, Astors, etc.) zitten vaak in private vehicles.  
 Ze staan niet in Forbes-lijsten.  
 Ze hoeven niet zichtbaar te zijn.  
 Ze stemmen via de Big Three, ze lenen via BIS-netwerken, ze beïnvloeden via stichtingen.
 
 **De rode draad door de hele week**  
+
 - 1913: de blauwdruk wordt neergezet  
 - Templars: het prototype van banking boven de wet  
 - Obama-Iran: good cop / bad cop in actie  
@@ -49,6 +53,7 @@ De onzichtbare laag? Blijft stil.
 Maar ze stemmen, ze beheersen, ze sturen — zonder dat iemand het merkt.
 
 **Mindfuck**  
+
 Terwijl bubbels vechten over “Musk vs Soros”, “Trump vs Biden”, “zionisten vs moslims”, blijft de echte controle onaangetast.  
 De Big Three stemmen op alle grote bedrijven — van media tot medicijnen tot wapens tot energie.  
 En wij denken dat we keuze hebben.
