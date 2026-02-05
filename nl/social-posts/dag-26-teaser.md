@@ -20,6 +20,8 @@ Blijf kijken. 👀✨
 https://openinternetmanifest.org/nl/social-posts  
 #RealiteitVsNarratief #Dag25Teaser
 
+---
+
 🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
 Today: the invisible layer above. Big Three (BlackRock, Vanguard, State Street) + BIS — who really holds the buttons while we watch visible players?
 
