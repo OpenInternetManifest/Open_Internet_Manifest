@@ -89,7 +89,7 @@ lang: en
 
 **Day 21**     
 → [ Israel-Palestine & Iran: historical, religious roots vs modern narrative](/en/social-posts/day-21-rvn-x)       
-→ [Just breatht](/nl/social-posts/dag-21-teaser)   
+→ [just breathe](/nl/social-posts/dag-21-teaser)   
 
 **Day 22**     
 → [Warp Speed: Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war?](/en/social-posts/day-22-rvn-x)       
