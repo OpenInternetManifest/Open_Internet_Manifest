@@ -8,12 +8,12 @@ title: social-posts - dag 25 De laag boven de Rockefellers – wie heeft de echt
 
 **Reality vs Narratief: De laag boven de Rockefellers – wie heeft de echte knoppen? ♟️🏦🕶️**
 
-Korte recap van de week tot nu toe: 
+Korte recap van de week tot nu toe:
 
 - Dag 22: Warp Speed / Trump → asymmetrisch spel, geen federal mandate, exit-ramp zonder totale confrontatie  
 - Dag 23: 1913 → blauwdruk neergezet (Titanic ruimt tegenstanders op, FED + inkomstenbelasting erdoor, Rockefeller bouwt olie / medicijnen / centrale controle)  
 - Dag 24: Templars → al in de 12e eeuw banking als machtsinstrument, ontbonden maar structuur bleef hangen, religie als systeem vs persoonlijk geloof  
-- Dag 25: Obama / Iran → $1.7 miljard cash + miljarden assets ontdooid → proxies sterker → conflict als businessmodel, good cop / bad cop in actie      
+- Dag 25: Obama / Iran → $1.7 miljard cash + miljarden assets ontdooid → proxies sterker → conflict als businessmodel, good cop / bad cop in actie
 
 Vandaag: de laag die bijna nooit in het nieuws komt.    
 
@@ -52,7 +52,7 @@ Zichtbare spelers (Musk, Gates, Soros, Trump) krijgen alle aandacht.
 De onzichtbare laag? Blijft stil.  
 Maar ze stemmen, ze beheersen, ze sturen — zonder dat iemand het merkt.
 
-**Mindfuck**  
+**Mindfuck**
 
 Terwijl bubbels vechten over “Musk vs Soros”, “Trump vs Biden”, “zionisten vs moslims”, blijft de echte controle onaangetast.  
 De Big Three stemmen op alle grote bedrijven — van media tot medicijnen tot wapens tot energie.  
