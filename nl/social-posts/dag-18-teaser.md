@@ -15,19 +15,9 @@ Want als hashes niet liegen…
 wat betekent dat dan voor de verhalen die wél liegen?
 Open Internet Manifest: feiten boven gevoelens.  
 Blijf kijken. 👀
-https://openinternetmanifest.org/nl/social-posts  
-#RealiteitVsNarratief #Dag19Teaser 🇳🇱 **Dag 19 – Vanavond** 🌐🔒  
-We groeien.  
-Niet met miljoenen views, maar met mensen die blijven lezen, checken, denken.  
-196 unieke bezoekers nu – en elke dag meer die hashes zelf verifiëren.  
-Morgen: een volgende laag.  
-Want als hashes niet liegen…  
-wat betekent dat dan voor de verhalen die wél liegen?
-Open Internet Manifest: feiten boven gevoelens.  
-Blijf kijken. 👀
-https://openinternetmanifest.org/nl/social-posts  
-#RealiteitVsNarratief #Dag19Teaser
+
 —-
+
 🇬🇧 **Day 18 – Growth** 🌐🔒  
 We're growing.  
 Not with millions of views, but with people who keep reading, checking, thinking.  

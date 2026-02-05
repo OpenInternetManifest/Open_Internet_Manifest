@@ -19,19 +19,23 @@ Februari 1913: 16th Amendment (inkomstenbelasting) geratificeerd.
 December 1913: de FED wordt wet – een privaat systeem dat “Federal” heet, maar niks federaal is.
 Toeval?  
 Of een zeer handig “ongeluk” dat precies de grootste tegenstanders van een centrale bank uit de weg ruimde?
+
 **De spelers die daarna de touwtjes in handen kregen**
 - **Olie** — John D. Rockefeller (Standard Oil) → monopolie gebouwd, antitrust-opbreking in 1911, maar familie blijft dominant via opvolgers (Exxon, Chevron)  
 - **Medicijnen** — Rockefeller Foundation financiert Flexner Report (1910) → medische scholen gestandaardiseerd, alternatieve geneeskunde (homeopathie, kruiden) gemarginaliseerd → petrochemie wordt basis voor de farmaceutische industrie  
 - **Bankieren** — J.P. Morgan + Rockefeller-belangen in de FED-oprichting → David Rockefeller later voorzitter Chase Manhattan, oprichter Trilateral Commission  
 - **Later media** — controle via advertenties, eigendom en invloed (Rockefeller Foundation financiert ook journalistiek- en communicatiestudies)
+
 En vandaag?  
 De rijkste man ter wereld heet Elon Musk.  
 Hij staat dagelijks in de krant, op X, in memes.  
 Maar waar zijn de namen van de oude spelers?  
 Waarom horen we bijna nooit meer iets over de Rockefeller- en Morgan-takken, terwijl hun structuren (FED, olie, medicijnen, think tanks) nog steeds overal aanwezig zijn?
+
 David Rockefeller zelf schreef in zijn memoires (2002):  
 “Some even believe we are part of a secret cabal working against the best interests of the United States… If that’s the charge, I stand guilty, and I am proud of it.”
 Dat is geen complot – dat is een quote.
+
 **De mindfuck-laag**  
 1912–1913 lijkt een blauwdruk:  
 - Tegenstanders verdwijnen (Titanic)  
@@ -50,9 +54,11 @@ Check zelf:
 - 16th Amendment ratificatie  
 - David Rockefeller memoires p. 405  
 - Flexner Report 1910 (Rockefeller-financiering)
+
 Wat zie jij?  
 Was de Titanic een ramp… of een opruiming?  
 Is 1913 toeval… of het moment dat de huidige wereldorde werd neergezet?
+
 Open discussie mag.  
 Ik leer nog elke dag.  
 Jij ook?

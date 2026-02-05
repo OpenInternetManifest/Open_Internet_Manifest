@@ -17,9 +17,12 @@ Want als dit nog gebeurt op een dag als vandaag…
 dan is er iets grondig mis met wat we zeggen te hebben "geleerd".
 Open Internet Manifest: feiten boven gevoelens. Hashes boven narratieven.  
 Blijf kijken. 👀
+
 https://openinternetmanifest.org/nl/social-posts  
 #RealiteitVsNarratief #Dag18Teaser #NooitMeerIsNu
+
 ---
+
 🇬🇧 **Day 17 – A child at school, today** 🌐😔  
 Today is January 27.  
 Holocaust Remembrance Day.  
@@ -31,8 +34,10 @@ Because if this still happens on a day like today…
 something is deeply wrong with what we claim to have "learned".
 Open Internet Manifest: facts over feelings. Hashes over narratives.  
 Keep watching. 👀
+
 https://openinternetmanifest.org/nl/social-posts  
 #RealityVsNarrative #Day18Teaser #NeverAgainIsNow
+
 This post is 100% authentic and verifiable via:
 https://openinternetmanifest.org/en/hash-verifier
 Paste the full text to check authenticity.

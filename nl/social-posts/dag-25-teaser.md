@@ -17,6 +17,9 @@ Open Internet Manifest: feiten boven frames.
 Blijf kijken. 👀✨  
 https://openinternetmanifest.org/nl/social-posts  
 #RealiteitVsNarratief #Dag24Teaser
+
+---
+
 🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  
 Today: Obama / Iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  
 Good cop / bad cop — but who really wins?
