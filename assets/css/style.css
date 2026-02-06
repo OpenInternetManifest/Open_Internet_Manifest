@@ -1026,3 +1026,73 @@ details li {
 .visitor-counter {
   display: none !important;
 }
+/* GISCUS – MATCHEN MET COMMUNITY-BOX STIJL */
+.comments-section {
+    margin: 3em auto !important;
+    max-width: 800px !important;           /* dezelfde breedte als community-box */
+    padding: 2em !important;
+    background: rgba(255, 255, 255, 0.05) !important;   /* exact dezelfde bg */
+    border: 1px solid #333 !important;     /* zelfde border */
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+    text-align: left !important;           /* tekst links uitlijnen, oogt natuurlijker */
+}
+
+/* Titel boven Giscus */
+.comments-section h3 {
+    margin: 0 0 1.2rem 0 !important;
+    padding-bottom: 0.8rem !important;
+    border-bottom: 1px solid #444 !important;
+    font-size: 1.3em !important;
+    color: #66b3ff !important;             /* zelfde accentkleur als community-box strong */
+    text-align: center !important;
+}
+
+/* Uitlegtekst */
+.comments-section .comment-notice {
+    font-size: 0.95rem !important;
+    color: #a0a0a0 !important;
+    margin: 0 0 1.8rem 0 !important;
+    text-align: center !important;
+    line-height: 1.5 !important;
+}
+
+/* Beperk de breedte van de Giscus-widget zelf */
+.giscus {
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+
+/* Zorg dat de tekstvelden en knoppen beter in de donkere theme passen */
+.giscus textarea,
+.giscus input {
+    background: rgba(30, 30, 30, 0.9) !important;
+    border: 1px solid #444 !important;
+    color: #e0e0e0 !important;
+    border-radius: 6px !important;
+}
+
+.giscus .btn,
+.giscus button {
+    border-radius: 6px !important;
+}
+
+/* Optioneel: knop een beetje accent geven */
+.giscus .btn-primary,
+.giscus button:not([disabled]) {
+    background: #4CAF50 !important;     /* of jullie exacte groen */
+    border-color: #4CAF50 !important;
+    color: white !important;
+}
+
+/* Mobiel iets compacter */
+@media (max-width: 640px) {
+    .comments-section {
+        margin: 2.5em auto !important;
+        padding: 1.5em !important;
+    }
+    .giscus {
+        max-width: 100% !important;
+    }
+}
