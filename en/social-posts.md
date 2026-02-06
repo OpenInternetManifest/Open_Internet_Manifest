@@ -110,3 +110,7 @@ lang: en
 **Day 26**     
 → [The layer above the Rockefellers – who really holds the buttons?](/en/social-posts/day-26-rvn)       
 → [affairs of the citizen](/en/social-posts/day-26-teaser-x)  
+
+**Day 27**     
+→ [Politics – from ‘affairs of the citizen’ to theater… and why that difference matters](/en/social-posts/day-27-rvn)       
+→ [affairs of the citizen](/en/social-posts/day-26-teaser-x) 

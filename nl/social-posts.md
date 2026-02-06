@@ -120,3 +120,7 @@ lang: nl
 **Dag 26**  
 → [De laag boven de Rockefellers – wie heeft de echte knoppen?](/nl/social-posts/dag-26-rvn)   
 → [zaken van de burger](/nl/social-posts/dag-26-teaser)  
+
+**Dag 27**  
+→ [Politiek – van ‘zaken van de burger’ naar theater… en waarom dat verschil ertoe doet](/nl/social-posts/dag-27-rvn)   
+→ [zaken van de burger](/nl/social-posts/dag-26-teaser)  
