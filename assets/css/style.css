@@ -1096,3 +1096,56 @@ details li {
         max-width: 100% !important;
     }
 }
+/* Force Giscus dark theme – vooral belangrijk op mobiel */
+.giscus,
+.giscus * {
+    --giscus-color: #e0e0e0 !important;
+    --giscus-color-strong: #ffffff !important;
+    --giscus-color-muted: #a0a0a0 !important;
+    
+    --giscus-bg: #1a1a1a !important;
+    --giscus-bg-subtle: #222226 !important;
+    
+    --giscus-border-color: #444 !important;
+    
+    --giscus-input-bg: #222226 !important;
+    --giscus-input-text: #e0e0e0 !important;
+    --giscus-input-border: #444 !important;
+    
+    --giscus-btn-bg: #2a2a2a !important;
+    --giscus-btn-text: #e0e0e0 !important;
+    --giscus-btn-border: #444 !important;
+    
+    --giscus-btn-hover-bg: #333 !important;
+}
+
+/* Specifiek voor het tekstveld en de hele container */
+.giscus textarea,
+.giscus input,
+.giscus .giscus-comment-box,
+.giscus .giscus-comment {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+/* Knoppen donker maken */
+.giscus button,
+.giscus .btn {
+    background-color: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+.giscus button:hover,
+.giscus .btn:hover {
+    background-color: #333 !important;
+}
+
+/* Als je een accentkleur gebruikt (zoals #66b3ff) */
+.giscus .btn-primary,
+.giscus button:not([disabled]):not(.btn-neutral) {
+    background-color: #66b3ff !important;
+    border-color: #66b3ff !important;
+    color: #0f0f0f !important;
+}
