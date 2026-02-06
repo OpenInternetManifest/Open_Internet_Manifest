@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: social-posts - Day 11 he Big Split & Trump's Frontal Attack
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

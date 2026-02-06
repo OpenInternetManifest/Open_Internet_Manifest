@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: social-posts - Day 26 The layer above the Rockefellers – who really holds the buttons?
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

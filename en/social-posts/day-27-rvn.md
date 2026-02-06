@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: social-posts - Day 27 Politics – from ‘affairs of the citizen’ to theater… and why that difference matters
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

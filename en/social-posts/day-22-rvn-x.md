@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: social-posts - Day 22 Warp Speed; Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war?
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

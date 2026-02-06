@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: en
 title: social-posts - Day 11 From "talking shop" across Europe to real power center
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

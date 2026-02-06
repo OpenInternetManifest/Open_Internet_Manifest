@@ -7,10 +7,10 @@ lang: en
 ---
 # Guides for the Open Internet Manifest – English version
 
-**Guide 1** — Create an account on Chaos.social (active, free community)  
+**Guide 1** — Create an account on Chaos.social (active, free community)
 → [volledige tekst](/en/guides/chaos-account-making)
 
-**Guide 2** — Element/whatsApp migration – coming soon	 
+**Guide 2** — Element/whatsApp migration – coming soon	
 → [volledige tekst](/en/guides/element-migration-coming-soon)
 
 **Guide 3** — Create an account on Fosstodon (tech and open-source community)   
