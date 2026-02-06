@@ -35,3 +35,20 @@ Wacht op de feiten. Kijk álle video's. Lees álle bronnen. Pas je mening aan.
 Dat is echte verantwoordelijkheid – ongeacht je kant.
 Zijn we ooit voorbij dit patroon?
 #RealiteitVsNarratief #Polarisatie #FeitenBovenEmotie
+
+<script src="https://giscus.app/client.js"
+        data-repo="OpenInternetManifest/Open_Internet_Manifest"
+        data-repo-id="R_kgDOQkoxgw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQkoxg84CziAs"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="nl"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
