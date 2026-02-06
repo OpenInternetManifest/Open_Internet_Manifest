@@ -115,6 +115,8 @@
         {{ content }}
       </div>
 
+      {% include reactions.html %}
+      
       {% include donation.html %}
 
       {% assign lang = page.lang | default: 'NL' | upcase %}

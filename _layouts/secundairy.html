@@ -98,6 +98,8 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      {% include reactions.html %}
+
       {% assign lang = page.lang | default: 'NL' | upcase %}
       {% include integrity-check-{{ lang }}.html %}
 
