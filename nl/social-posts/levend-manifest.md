@@ -2,7 +2,7 @@
 layout: thesis
 lang: nl
 title: Levend Manifest — De RVN-serie is levend
-next_social: /nl/social-posts/rvn-zondag-1-maart   # pas aan naar de echte volgende post
+next_social: /nl/social-posts/rvn-boeren-protesten   
 ---
 
 # De RVN-serie is levend
