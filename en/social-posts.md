@@ -114,3 +114,7 @@ lang: en
 **Day 27**     
 → [Politics – from ‘affairs of the citizen’ to theater… and why that difference matters](/en/social-posts/day-27-rvn)       
 → [affairs of the citizen](/en/social-posts/day-26-teaser-x) 
+
+**Day 28**     
+→ [The three layers of control](/en/social-posts/day-28-rvn)       
+→ [affairs of the citizen](/en/social-posts/day-26-teaser-x) 

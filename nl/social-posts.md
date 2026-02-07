@@ -124,3 +124,7 @@ lang: nl
 **Dag 27**  
 → [Politiek – van ‘zaken van de burger’ naar theater… en waarom dat verschil ertoe doet](/nl/social-posts/dag-27-rvn)   
 → [zaken van de burger](/nl/social-posts/dag-26-teaser)  
+
+**Dag 28**  
+→ [De drie controle lagen](/nl/social-posts/dag-28-rvn)   
+→ [zaken van de burger](/nl/social-posts/dag-26-teaser)  
