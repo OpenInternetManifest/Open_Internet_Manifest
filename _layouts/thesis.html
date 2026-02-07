@@ -101,21 +101,32 @@
       </div>
     </header>
 
-     <!-- Main content met pijlen -->
-    <main id="content" class="main-content" role="main">
-      <div class="thesis-navigation-arrows">
-  {% if page.previous_thesis %}
-    <a href="{{ page.previous_thesis }}" class="nav-arrow nav-arrow-left" aria-label="Vorige thesis">
-      ‹
-    </a>
-  {% endif %}
+   <!-- Main content met pijlen (voor theses én social posts) -->
+<main id="content" class="main-content" role="main">
 
-  {% if page.next_thesis %}
-    <a href="{{ page.next_thesis }}" class="nav-arrow nav-arrow-right" aria-label="Volgende thesis">
-      ›
-    </a>
-  {% endif %}
-</div>
+  <div class="thesis-navigation-arrows">
+    <!-- Vorige thesis / vorige social post -->
+    {% if page.previous_thesis %}
+      <a href="{{ page.previous_thesis }}" class="nav-arrow nav-arrow-left" aria-label="Vorige thesis">
+        ‹
+      </a>
+    {% elsif page.previous_social %}
+      <a href="{{ page.previous_social }}" class="nav-arrow nav-arrow-left" aria-label="Vorige post">
+        ‹
+      </a>
+    {% endif %}
+
+    <!-- Volgende thesis / volgende social post -->
+    {% if page.next_thesis %}
+      <a href="{{ page.next_thesis }}" class="nav-arrow nav-arrow-right" aria-label="Volgende thesis">
+        ›
+      </a>
+    {% elsif page.next_social %}
+      <a href="{{ page.next_social }}" class="nav-arrow nav-arrow-right" aria-label="Volgende post">
+        ›
+      </a>
+    {% endif %}
+  </div>
 
       <div class="thesis-content">
         {{ content }}
