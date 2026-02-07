@@ -2,6 +2,8 @@
 layout: thesis
 lang: nl
 title: social-posts - dag 2 internet is niet dood
+previous_social: "/nl/social-posts/dag-2-rvn"
+next_social: "/nl/social-posts/dag-3-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
