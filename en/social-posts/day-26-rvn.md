@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 26 The layer above the Rockefellers – who really holds the buttons?
+previous_social: "/en/social-posts/day-25-teaser-x"
+next_social: "/en/social-posts/day-26-teaser-x"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

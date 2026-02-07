@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 17 Predicted – Walz' Smoke Screens Now Reality
+previous_social: "/en/social-posts/day-16-teaser-x"
+next_social: "/en/social-posts/day-17-teaser-x"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

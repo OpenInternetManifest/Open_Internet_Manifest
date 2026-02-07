@@ -1,0 +1,26 @@
+---
+layout: thesis
+lang: en
+title: social-posts - Day 1 Iran
+previous_social: "/en/social-posts/day-21-rvn"
+next_social: "/en/social-posts/day-22-rvn"
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+---
+
+🇬🇧 **Day 21 Teaser – Tonight: light mode (yes really)** 😏🍿  
+Today: Epstein files "exploding", unfriending, threats and "proof" without sources.  
+Tonight: just breathe.  
+
+Tomorrow: back at it.  
+Open Internet Manifest: facts over frames.  
+
+Keep watching. 👀✨  
+
+https://openinternetmanifest.org/en/social-posts  
+#RealityVsNarrative #Day22Teaser
+
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier  
+Paste the full text to check authenticity.  
+Why? Narratives get wild — reality stays calm. 🕳️

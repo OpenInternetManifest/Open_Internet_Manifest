@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 22 Warp Speed; Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war?
+previous_social: "/en/social-posts/day-21-teaser-x"
+next_social: "/en/social-posts/day-22-teaser-x"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

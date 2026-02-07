@@ -1,27 +1,28 @@
 ---
 layout: thesis
 lang: en
-title: social-posts - Day 25 Day 25 Teaser
-previous_social: "/en/social-posts/day-25-rvn"
-next_social: "/en/social-posts/day-26-rvn"
+title: social-posts - Day 1 Iran
+previous_social: "/en/social-posts/day-22-rvn"
+next_social: "/en/social-posts/day-23-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
-**Day 25 Teaser – Tonight: just breathe** 😏🍿  
-Today: Obama / Iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  
-Good cop / bad cop — but who really wins?
-
+🇬🇧 **Day 22 Teaser – Tonight: just breathe** 😏🍿  
+Today: Epstein files "exploding", unfriending, threats and "proof" without sources.  
 Tonight: just breathe.  
 Tomorrow: back at it.
 
-Tomorrow we look at the layer that almost never makes the news.  
-Big Three (BlackRock, Vanguard, State Street) + BIS: who holds the real buttons while we watch Musk or Soros?
+Tomorrow we dive into 1913.  
+The year the FED, income tax and a disaster with three anti-bank billionaires lined up.  
 
+Coincidence? Or a blueprint we’re still living?
 Open Internet Manifest: facts over frames.  
+
 Keep watching. 👀✨  
+
 https://openinternetmanifest.org/en/social-posts  
-#RealityVsNarrative #Day24Teaser
+#RealityVsNarrative #Day22Teaser
 
 This post is 100% authentic and verifiable via:  
 https://openinternetmanifest.org/en/hash-verifier  

@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 16 The 'mostly peaceful' pattern & the hypocrisy
+previous_social: "/en/social-posts/day-16-rvn"
+next_social: "/en/social-posts/day-17-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

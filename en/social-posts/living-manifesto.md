@@ -2,7 +2,10 @@
 layout: thesis
 lang: en
 title: Living Manifesto — The RVN Series is Alive
-next_social: /en/social-posts/rvn-sunday-march-1   # adjust to the actual next post
+previous_social: "/en/social-posts/"
+next_social: "/en/social-posts/"
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # The RVN Series is Alive

@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 1 Iran
+previous_social: "/en/social-posts/day-1-teaser"
+next_social: "/en/social-posts/day-2-teaser"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

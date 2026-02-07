@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 7 recap
+previous_social: "/en/social-posts/day-6-teaser"
+next_social: "/en/social-posts/day-7-teaser"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

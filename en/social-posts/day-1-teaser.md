@@ -2,6 +2,8 @@
 layout: thesis
 lang: nl
 title: social-posts - dag 15 Minneapolis mall & de ICE-hypocrisie
+previous_social: "/en/social-posts/day-1-rvn"
+next_social: "/en/social-posts/day-2-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

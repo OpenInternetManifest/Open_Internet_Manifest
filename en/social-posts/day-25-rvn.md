@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 25 Obama, Iran cash and the eternal good cop / bad cop
+previous_social: "/en/social-posts/day-24-teaser-x"
+next_social: "/en/social-posts/day-25-teaser-x"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

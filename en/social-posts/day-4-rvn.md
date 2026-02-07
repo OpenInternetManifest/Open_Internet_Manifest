@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 4 Technicien in Amsterdam
+previous_social: "/en/social-posts/day-3-teaser"
+next_social: "/en/social-posts/day-4-teaser"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

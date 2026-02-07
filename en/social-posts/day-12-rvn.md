@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 12 Benefits Scandal
+previous_social: "/en/social-posts/day-11-teaser-x"
+next_social: "/en/social-posts/day-12-teaser-x"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

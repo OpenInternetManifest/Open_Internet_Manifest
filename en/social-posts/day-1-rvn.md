@@ -2,8 +2,10 @@
 layout: thesis
 lang: en
 title: social-posts - day 1 fixed patterns
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Or Monero/BTC address, Ko-fi, etc.
-# donation_text: "Support the author of this thesis" # Optional, otherwise default text
+previous_social: "/en/social-posts/"
+next_social: "/en/social-posts/day-1-teaser"
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 

@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 28 The three layers of control
+previous_social: "/en/social-posts/day-27-teaser-x"
+next_social: "/en/social-posts/living-manifesto"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

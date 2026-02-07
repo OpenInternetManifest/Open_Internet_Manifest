@@ -2,6 +2,8 @@
 layout: thesis
 lang: en
 title: social-posts - Day 20 Utrecht Bollendak; viral clip vs reality + spun narrative
+previous_social: "/en/social-posts/day-19-teaser-x"
+next_social: "/en/social-posts/day-20-teaser-x"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
