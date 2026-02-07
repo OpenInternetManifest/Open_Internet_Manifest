@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: nl
 title: social-posts - dag 17 Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

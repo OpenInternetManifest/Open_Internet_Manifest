@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: nl
 title: social-posts - dag 24 Templars, Moloch en de echte winnaars van geschiedenis
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: thesis
 lang: nl
 title: social-posts - dag 22 arp Speed; Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? 
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
