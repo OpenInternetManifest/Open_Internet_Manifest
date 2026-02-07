@@ -2,7 +2,7 @@
 layout: thesis
 lang: nl
 title: social-posts - dag 1 vaste patronen
-next_social-posts: /nl/social-posts/dag-1-teaser
+next_social: /nl/social-posts/dag-1-teaser
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
@@ -37,19 +37,3 @@ Dat is echte verantwoordelijkheid – ongeacht je kant.
 Zijn we ooit voorbij dit patroon?
 #RealiteitVsNarratief #Polarisatie #FeitenBovenEmotie
 
-<script src="https://giscus.app/client.js"
-        data-repo="OpenInternetManifest/Open_Internet_Manifest"
-        data-repo-id="R_kgDOQkoxgw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOQkoxg84CziAs"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="nl"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
