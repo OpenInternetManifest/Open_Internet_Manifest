@@ -117,4 +117,8 @@ lang: en
 
 **Day 28**     
 → [The three layers of control](/en/social-posts/day-28-rvn)       
+→ [the circle closes](/en/social-posts/day-28-teaser) 
+
+**Day 29**     
+→ [The circle closes: Epstein as visible symptom](/en/social-posts/day-29-rvn)       
 → [affairs of the citizen](/en/social-posts/day-26-teaser-x) 
