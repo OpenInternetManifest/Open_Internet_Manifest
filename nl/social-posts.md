@@ -129,6 +129,9 @@ lang: nl
 → [De drie controle lagen](/nl/social-posts/dag-28-rvn)   
 → [de cirkel sluit zich](/nl/social-posts/dag-28-teaser)  
 
-**Dag 28**  
+**Dag 29**  
 → [De cirkel sluit zich: Epstein als zichtbaar symptoom](/nl/social-posts/dag-29-rvn)   
 → [zaken van de burger](/nl/social-posts/dag-26-teaser)  
+
+**Dag 30**  
+→ [de stilte voor de storm](/nl/social-posts/dag-30-teaser)   
