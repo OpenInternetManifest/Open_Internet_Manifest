@@ -135,3 +135,7 @@ lang: nl
 
 **Dag 30**  
 → [de stilte voor de storm](/nl/social-posts/dag-30-teaser)   
+
+**Dag 31**  
+→ [Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt](/nl/social-posts/dag-29-rvn)   
+→ [zaken van de burger](/nl/social-posts/dag-26-teaser)  

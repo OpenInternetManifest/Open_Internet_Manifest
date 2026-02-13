@@ -125,3 +125,7 @@ lang: en
 
 **Day 30**     
 → [the silence before the storm](/en/social-posts/day-30-teaser)       
+
+**Day 31**     
+→ [Words don’t count for what they literally say anymore, but for the narrative they create](/en/social-posts/day-31-rvn)       
+→ [affairs of the citizen](/en/social-posts/day-26-teaser-x) 

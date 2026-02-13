@@ -3,7 +3,7 @@ layout: thesis
 lang: nl
 title: social-posts - dag 30 de stilte voor de storm
 previous_social: "/nl/social-posts/dag-29-rvn"
-next_social: "/nl/social-posts/levend-manifest"
+next_social: "/nl/social-posts/dag-31-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
