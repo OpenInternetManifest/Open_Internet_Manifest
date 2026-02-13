@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: OpenInternetManifest/Open_Internet_Manifest/openinternetmanifest.org  
+  repo: https://github.com/OpenInternetManifest/openinternetmanifest.org  
   branch: main  
   # squash_merges: true   # optioneel: direct squash commits voor schonere history
 
