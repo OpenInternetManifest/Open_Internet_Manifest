@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: OpenInternetManifest/openinternetmanifest.org  
+  branch: main  
+  # squash_merges: true   # optioneel: direct squash commits voor schonere history
+
+media_folder: "assets/images"       # waar uploads naartoe gaan
+public_folder: "/assets/images"     # hoe ze op de site verschijnen
+
+collections:
+  - name: "theses"                  # collection key
+    label: "Theses"
+    folder: "nl/theses"        
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string", required: true}
+      - {label: "Taal", name: "lang", widget: "select", options: ["nl", "en"], default: "nl"}
+      - {label: "Publicatiedatum", name: "date", widget: "datetime"}
+      - {label: "Vorige social link", name: "previous_social", widget: "string", required: false}
+      - {label: "Lichaam", name: "body", widget: "markdown", required: true}
+      # voeg meer frontmatter toe als nodig (tags, authors, etc.)
+
+  # Voorbeeld voor RVN-posts (later uitbreiden)
+  - name: "rvn"
+    label: "RVN Posts"
+    folder: "nl/social-posts"
+    create: true
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Dag nummer", name: "day", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Later: guides, begrippenlijst, verklaringen als aparte collections
+
+# Optioneel: editor preview (als je een custom preview pane wilt)
+# preview: true

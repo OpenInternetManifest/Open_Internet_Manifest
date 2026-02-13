@@ -6,7 +6,7 @@ baseurl: ""                                  # leeg! geen subpad
 
 # Optioneel maar handig voor lokale testing
 # (dit voorkomt dat je lokaal /Open_Internet_Manifest moet typen)
-# localhost_url: "http://127.0.0.1:4000"   # uncomment als je wilt
+# localhost_url: "http://127.0.0.1:4000"   
 
 content_security_policy:
   default-src: "'self'"
