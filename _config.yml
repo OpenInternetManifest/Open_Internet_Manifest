@@ -3,6 +3,8 @@ description: A living manifesto for a free, open and decentralized internet
 # Base URL – leeg lokaal, correct op GitHub Pages
 url: "https://openinternetmanifest.org"      # volledige domeinnaam
 baseurl: ""                                  # leeg! geen subpad
+include:
+  - admin/
 
 # Optioneel maar handig voor lokale testing
 # (dit voorkomt dat je lokaal /Open_Internet_Manifest moet typen)
