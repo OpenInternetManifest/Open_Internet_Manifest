@@ -138,4 +138,8 @@ lang: nl
 
 **Dag 31**  
 → [Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt](/nl/social-posts/dag-31-rvn)   
-→ [zaken van de burger](/nl/social-posts/dag-26-teaser)  
+→ [Sun Tzu in volle glorie](/nl/social-posts/dag-31-teaser)  
+
+**Dag 32**  
+→ [Sun Tzu voltooid – Epstein-files als boemerang die terugvliegt](/nl/social-posts/dag-32-rvn)   
+→ [Sun Tzu in volle glorie](/nl/social-posts/dag-31-teaser)  

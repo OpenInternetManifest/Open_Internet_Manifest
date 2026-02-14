@@ -128,4 +128,8 @@ lang: en
 
 **Day 31**     
 → [Words don’t count for what they literally say anymore, but for the narrative they create](/en/social-posts/day-31-rvn)       
-→ [affairs of the citizen](/en/social-posts/day-26-teaser-x) 
+→ [Sun Tzu in full glory](/en/social-posts/day-31-teaser) 
+
+**Day 32**     
+→ [Epstein files as a boomerang flying back](/en/social-posts/day-32-rvn)       
+→ [Sun Tzu in full glory](/en/social-posts/day-31-teaser) 

@@ -3,7 +3,7 @@ layout: thesis
 lang: nl
 title: social-posts - dag 31 Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt
 previous_social: "/nl/social-posts/dag-30-teaser"
-next_social: "/nl/social-posts/levend-manifest"
+next_social: "/nl/social-posts/dag-31-teaser"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
