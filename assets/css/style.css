@@ -1149,3 +1149,41 @@ details li {
     border-color: #66b3ff !important;
     color: #0f0f0f !important;
 }
+.nav-item.has-dropdown {
+  position: relative;
+}
+
+.nav-item.has-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1a1a1a; /* dark theme */
+  border: 1px solid #333;
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a.highlight {
+  background: #333;
+  color: #66b3ff;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #ffcc00 !important; /* goud/oranje voor origin */
+}
