@@ -1381,26 +1381,29 @@ details li {
   z-index: 2;
 }
 
-/* Moeilijkheidsbanner rechtsboven */
+/* Moeilijkheidsgraad banner rechtsboven */
 .difficulty-banner {
   position: absolute;
   top: 1.1rem;
-  right: 0.6rem;                         /* iets meer naar rechts voor balans */
+  right: 0.6rem;
   font-size: 0.68rem !important;
   font-weight: 600;
   padding: 0.18rem 0.55rem;
   border-radius: 4px;
   color: white;
   z-index: 2;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3); /* optioneel: lichte schaduw voor pop */
 }
 
-.difficulty-banner.beginner  { background: #4CAF50; }
-.difficulty-banner.gemiddeld { background: #FF9800; }
-.difficulty-banner.gevorderd { background: #F44336; }
+/* Kleuren per niveau – ondersteunt zowel NL als EN termen */
+.difficulty-banner.beginner,
+.difficulty-banner.Beginner   { background: #4CAF50; }   /* groen */
 
+.difficulty-banner.gemiddeld,
+.difficulty-banner.Intermediate { background: #FF9800; } /* oranje */
 
-.difficulty-banner.intermediate { background: #FF9800; }
-.difficulty-banner.advanced { background: #F44336; }
+.difficulty-banner.gevorderd,
+.difficulty-banner.Advanced   { background: #F44336; }   /* rood */
 
 /* Inhoud wrapper */
 .guide-content {

@@ -29,14 +29,14 @@ title: All Guides
         </div>
         <p class="guide-teaser">{{ guide.teaser | default: "Practical step-by-step guide." }}</p>
         
-        <span class="difficulty-banner {{ guide.difficulty | default: 'beginner' }}">
-          {% case guide.difficulty %}
-            {% when 'beginner' %}Beginner
-            {% when 'intermediate' %}Intermediate
-            {% when 'advanced' %}Advanced
-            {% else %}Beginner
-          {% endcase %}
-        </span>
+       <span class="difficulty-banner {{ guide.difficulty | default: 'beginner' }}">
+  {% case guide.difficulty %}
+    {% when 'beginner' or 'Beginner' %}Beginner
+    {% when 'gemiddeld' or 'intermediate' or 'Intermediate' %}Intermediate
+    {% when 'gevorderd' or 'advanced' or 'Advanced' %}Advanced
+    {% else %}Beginner
+  {% endcase %}
+</span>
         
         <span class="read-more">Read the guide →</span>
       </a>
