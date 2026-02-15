@@ -326,7 +326,7 @@ body {
 }
 
 /* Glow op hover – voor alle drie */
-.integrity-check:hover, .donation-section:hover, .community-box:hover, .thesis-card:hover {
+.integrity-check:hover, .donation-section:hover, .community-box:hover, .thesis-card:hover, .guide-card:hover {
   background: rgba(255, 255, 255, 0.08) !important;
   box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
   transform: translateY(-4px);
@@ -1232,6 +1232,7 @@ details li {
   text-decoration: none;
   color: inherit;
   transition: all 0.15s ease;
+
   position: relative;
   height: 210px;                        /*  goed voor lange teasers */
   display: flex;
@@ -1320,6 +1321,152 @@ details li {
 .thesis-title,
 .thesis-teaser,
 .read-more {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Guides overzicht – FIX: volle breedte gebruiken, meer cards per rij, zelfde stijl als theses */
+
+.guides-hero {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #333;
+}
+
+.intro-title {
+  font-size: 1.8rem !important;
+  margin-bottom: 0.5rem;
+  color: #66b3ff;
+}
+
+.manifest-subtitle {
+  font-size: 1.05rem !important;
+  color: #b0b0b0;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  max-width: 720px;
+  margin: 0 auto 0.8rem;
+  color: #b0b0b0;
+  font-size: 0.9rem !important;
+}
+
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* auto-fit + kleiner minmax voor betere vulling */
+  gap: 0.8rem; /* kleinere gap voor meer cards */
+  margin: 1rem 0;
+  max-width: none !important; /* OVERRIDE: geen limiet van .main-content */
+  width: 100% !important;     /* VOLLE breedte */
+  padding: 0 !important;      /* verwijder eventuele parent-padding */
+  box-sizing: border-box;
+}
+
+/* Forceer 3-4 kolommen op grotere schermen */
+@media (min-width: 768px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+.guide-card {
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 0.8rem 0.9rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.15s ease;
+  position: relative;
+  height: 210px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-card:hover {
+  transform: translateY(-2px);
+  border-color: #66b3ff30;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Override + tekstgrootte (zelfde als theses) */
+.guides-grid .guide-card,
+.guides-grid .guide-card * {
+  font-size: 0.84rem !important;
+}
+
+.guide-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  align-self: flex-start;
+  color: #66b3ff;
+}
+
+.guide-card h3 {
+  font-size: 0.84rem !important;
+  line-height: 1.2;
+  color: #b0b0b0;
+  margin: 0 0 0.4rem 0;
+  flex-grow: 0;
+}
+
+.guide-card p {
+  font-size: 0.78rem !important;
+  color: #b0b0b0;
+  line-height: 1.25;
+  margin: 0 0 auto 0;
+  flex-grow: 1;
+}
+
+.guide-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+}
+
+.difficulty {
+  padding: 0.2rem 0.5rem;
+  background: #0f1f3f;
+  border-radius: 4px;
+  color: #66b3ff;
+}
+
+.tag {
+  padding: 0.2rem 0.5rem;
+  background: #222;
+  border-radius: 4px;
+  color: #b0b0b0;
+}
+
+.read-more {
+  font-size: 0.62rem !important;
+  color: #b0b0b0;
+  font-weight: 600;
+  margin-top: 0.4rem;
+  align-self: flex-start;
+  opacity: 0.85;
+}
+
+.guide-card:hover .read-more {
+  opacity: 1;
+}
+
+/* Extra fix tegen overflow */
+.guide-card h3,
+.guide-card p,
+.guide-card span {
   overflow: hidden;
   text-overflow: ellipsis;
 }

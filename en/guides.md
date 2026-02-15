@@ -1,46 +1,224 @@
 ---
 layout: default
-title: guides - Full guides page
 lang: en
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+title: Guides
 ---
-# Guides for the Open Internet Manifest – English version
 
-**Guide 1** — Create an account on Chaos.social (active, free community)
-→ [volledige tekst](/en/guides/chaos-account-making)
+<div class="guides-hero">
+  <h1 class="intro-title">Guides for the Open Internet</h1>
+  <h2 class="manifest-subtitle">
+    Practical steps to reclaim your digital sovereignty — start today.
+  </h2>
+  <p class="intro-text">
+    Step-by-step instructions to run your own node, switch to open alternatives, and break free from gatekeepers.
+  </p>
+</div>
 
-**Guide 2** — Element/whatsApp migration – coming soon	
-→ [volledige tekst](/en/guides/element-migration-coming-soon)
+<div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/guide-01" class="guide-card">
+    <div class="guide-icon">💾</div>
+    <h3>Create your first sovereign node</h3>
+    <p>Step-by-step: Raspberry Pi + Umbrel – your personal server in 30 minutes. Beginner level.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 3** — Create an account on Fosstodon (tech and open-source community)   
-→ [volledige tekst](/en/guides/fosstodon-account-making)
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/chaos-account-making" class="guide-card">
+    <div class="guide-icon">😶‍🌫️</div>
+    <h3>Create an account on Chaos.social</h3>
+    <p>Chaos.social is a Mastodon instance focused on privacy en bla blan bla bla bla</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 4** — Create your first Friendica account (versatile social network)  
-→ [volledige tekst](/en/guides/friendica-account-making)
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/element-migration-coming-soon" class="guide-card">
+    <div class="guide-icon">🧾</div>
+    <h3>Element/whatsApp migration</h3>
+    <p>-coming soon-</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
+  
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 5** — Je eerste Create your first Hubzilla account (advanced social network)   
-→ [volledige tekst](/en/guides/hubzilla-account-making)
+<div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 6** — Create your first Lemmy account (Reddit alternative)    
-→ [volledige tekst](/en/guides/lemmy-account-making)
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 7** — Create your first Mastodon account and migrate from X/Twitter    
-→ [volledige tekst](/en/guides/mastodon-account-making)
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 8** — Nextcloud installeren (je eigen cloud)   
-→ [volledige tekst](/en/guides/nextcloud-installeren)
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 9** — Create your first Pixelfed account (Instagram alternative)    
-→ [volledige tekst](/en/guides/pixelfed-account-making)
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 10** — Run your own sovereign node at home (Raspberry Pi + Umbrel)    
-→ [volledige tekst](/en/guides/raspberry-pi-node) 
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 11** — The guides are alive    
-→ [volledige tekst](/en/guides/living-guides) 
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
-**Guide 12** — Make your node externally accessible   
-→ [volledige tekst](/en/guides/node-externally-accessible) 
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
 
----
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
+
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
+
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
+
+  <div class="guides-grid">
+  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
+    <div class="guide-icon"></div>
+    <h3></h3>
+    <p>.</p>
+    <div class="guide-meta">
+      <span class="difficulty">Beginner</span>
+      <span class="tag"></span>
+      <span class="tag"></span>
+    </div>
+    <span class="read-more">Start guide →</span>
+  </a>
+</div>
