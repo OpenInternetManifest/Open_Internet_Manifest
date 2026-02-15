@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 24 — Gebruik een Nostr-client en claim je npub
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Claim je digitale identiteit met Nostr"
+order:   24               # belangrijk
+teaser: "Eén sleutel, overal geldig, voor altijd van jou."
 next_thesis: /nl/theses/thesis-25
-previous_thesis: /nl/theses/thesis-23
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 24 – Claim je digitale identiteit met Nostr

@@ -1,12 +1,14 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 16 — Berichtenapps zonder Big Tech
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Berichtenapps zonder Big Tech"
+order: 16                 # belangrijk
+teaser: "Wil je overstappen naar een privacy-vriendelijke messenger?"
 next_thesis: /nl/theses/thesis-17
-previous_thesis: /nl/theses/thesis-15
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 
 # Thesis 16 – Berichtenapps zonder Big Tech
 

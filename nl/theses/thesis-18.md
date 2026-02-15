@@ -1,12 +1,14 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 18 — Zoeken zonder Google
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Zoeken zonder Google"
+order: 18                 # belangrijk
+teaser: "Google bepaalt niet wat waar is — Google bepaalt wat je te zien krijgt."
 next_thesis: /nl/theses/thesis-19
-previous_thesis: /nl/theses/thesis-17
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 
 # Thesis 18 – Zoeken zonder Google
 

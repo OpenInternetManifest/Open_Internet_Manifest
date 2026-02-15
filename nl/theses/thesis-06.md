@@ -1,13 +1,13 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 6 — Exit zonder bouwen is vluchten; bouwen zonder exit is collaboreren
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Vertrekken zonder te bouwen is vluchten; bouwen zonder uitgang is collaboreren"
+order: 6                  # belangrijk
+teaser: "Wie alleen klaagt en de grote platforms verlaat verdwijnt in een leegte waar niemand ze vindt."
 next_thesis: /nl/theses/thesis-07
-previous_thesis: /nl/theses/thesis-05
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
-
 # Thesis 6
 
 ***Exit zonder bouw is vlucht; bouw zonder exit is [**collaboratie**](/nl/begrippen/collaboratie).***

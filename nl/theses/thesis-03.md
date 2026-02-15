@@ -1,13 +1,13 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 3 — In de echte wereld zou niemand accepteren wat wij online al jaren slikken
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "In de echte wereld zou niemand accepteren wat wij online al jaren slikken"
+order: 3                  # belangrijk
+teaser: "Stel je voor dat je een huis koopt en er meteen vijf bewakingsfirma’s camera’s ophangen in je slaapkamer en badkamer"
 next_thesis: /nl/theses/thesis-04
-previous_thesis: /nl/theses/thesis-02
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
-
 # Thesis 3
 
 In de echte wereld zou niemand accepteren wat wij op internet al jaren normaal vinden.

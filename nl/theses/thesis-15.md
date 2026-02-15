@@ -1,12 +1,14 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 15 — Sociale netwerken zonder centrale eigenaar
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Sociale netwerken zonder centrale eigenaar"
+order:  15                # belangrijk
+teaser: "Je kunt altijd verhuizen met al je volgers, posts en media — geen gijzeling meer."
 next_thesis: /nl/theses/thesis-16
-previous_thesis: /nl/theses/thesis-14
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 
 # Thesis 15 – Sociale netwerken zonder centrale eigenaar
 

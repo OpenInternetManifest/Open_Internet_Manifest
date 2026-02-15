@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 10 — Het digitale hok breidt zich uit naar de echte wereld
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "De digitale kooi breidt zich uit naar de echte wereld"
+order: 10                  # belangrijk
+teaser: "Wat we jarenlang online accepteerden — verplichte accounts, permanente surveillance, algoritmes die bepalen wat je mag zien of doen — breidt zich nu uit naar de fysieke wereld."
 next_thesis: /nl/theses/thesis-11
-previous_thesis: /nl/theses/thesis-09
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 10

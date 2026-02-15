@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 28 — Eis interoperabiliteit en open standaarden
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Bedrijven en overheden: eis interoperabiliteit en open standaarden"
+order: 28                 # belangrijk
+teaser: "Echte openheid vereist verplichte interoperabiliteit — dwing platforms om mee te spelen."
 next_thesis: /nl/theses/thesis-29
-previous_thesis: /nl/theses/thesis-27
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 28 – Eis interoperabiliteit van bedrijven en overheden

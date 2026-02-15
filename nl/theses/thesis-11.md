@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 11 — We hoeven geen nieuw internet uit te vinden – we moeten het oude weer gaan
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Dit manifest is geen decreet van bovenaf; het is een vuur dat brandt in open gesprekken"
+order: 11                 # belangrijk
+teaser: "Het ontstaat niet in een bestuurskamer, niet in een overheidsgebouw."
 next_thesis: /nl/theses/thesis-12
-previous_thesis: /nl/theses/thesis-10
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 11

@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 20 — Van volgers verzamelen naar echte gemeenschappen bouwen
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Van volgers verzamelen naar echte gemeenschappen bouwen"
+order: 20                 # belangrijk
+teaser: "10 miljoen volgers die je niet kent is geen macht — het is een gijzelingssituatie."
 next_thesis: /nl/theses/thesis-21
-previous_thesis: /nl/theses/thesis-19
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 20 – Van volgers verzamelen naar echte gemeenschappen bouwen

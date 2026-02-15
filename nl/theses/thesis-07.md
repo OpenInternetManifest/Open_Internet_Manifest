@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 7 — Een open internet geeft privacy zijn oude kracht terug
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Een open internet herstelt de oorspronkelijke kracht van privacy"
+order: 7                  # belangrijk
+teaser: "In de echte wereld ga je ervan uit dat een gesprek achter je eigen deur van jou blijft."
 next_thesis: /nl/theses/thesis-08
-previous_thesis: /nl/theses/thesis-06
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 7

@@ -1,9 +1,12 @@
 ---
-layout: thesis
-lang: nl
-title: Thesis 1 - Het internet is niet dood
-previous_thesis: /nl/theses/thesis-00
-next_thesis: /nl/theses/thesis-02 
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Het internet is niet dood"
+order: 1                  # belangrijk
+teaser: "Het internet is niet dood; het is gekaapt door vijf poortwachter"
+next_thesis: /nl/theses/thesis-2
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 1

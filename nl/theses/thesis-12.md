@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 12 — Terug naar protocollen die niemand bezit
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Terug naar protocollen die niemand bezit"
+order:   12               # belangrijk
+teaser: "E-mail, het world wide web en IRC werken nog steeds zonder één bedrijf aan het roer."
 next_thesis: /nl/theses/thesis-13
-previous_thesis: /nl/theses/thesis-11
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 12 – Terug naar protocollen die niemand bezit

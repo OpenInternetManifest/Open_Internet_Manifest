@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 26 — Ondersteun open source projecten financieel
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Betaal de bouwers van het open internet"
+order: 26                 # belangrijk
+teaser: "Eén euro per maand van een miljoen mensen verandert alles."
 next_thesis: /nl/theses/thesis-27
-previous_thesis: /nl/theses/thesis-25
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 26 – Betaal de bouwers van het open internet

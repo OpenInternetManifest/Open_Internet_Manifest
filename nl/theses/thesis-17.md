@@ -1,12 +1,14 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 17 — Video en content zonder YouTube of TikTok
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Video en content zonder YouTube of TikTok"
+order:    17              # belangrijk
+teaser: "YouTube en TikTok zijn geen natuurwetten, maar keuzes van een handvol bedrijven."
 next_thesis: /nl/theses/thesis-18
-previous_thesis: /nl/theses/thesis-16
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 
 # Thesis 17 – Video en content zonder YouTube of TikTok
 

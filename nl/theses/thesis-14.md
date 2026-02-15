@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 14 — Draagbare identiteit en reputatie
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Draagbare identiteit en reputatie"
+order: 14                 # belangrijk
+teaser: "Je bouwt reputatie op één plek en die reist met je mee — zoals het hoort."
 next_thesis: /nl/theses/thesis-15
-previous_thesis: /nl/theses/thesis-13
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 14 – Draagbare identiteit en reputatie

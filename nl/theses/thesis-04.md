@@ -1,13 +1,13 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 4 — De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open"
+order: 4                  # belangrijk
+teaser: "We staan op het smalste randje van de geschiedenis"
 next_thesis: /nl/theses/thesis-05
-previous_thesis: /nl/theses/thesis-03
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
-
 # Thesis 4
 
 De [**enclosures**](/nl/begrippen/enclosures) zijn bijna voltooid, maar het laatste hek staat nog open – en ze weten het.

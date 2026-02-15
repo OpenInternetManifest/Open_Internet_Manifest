@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 22 — Vervang WhatsApp door Element (Matrix)
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Vervang WhatsApp door Element (Matrix)"
+order:   22               # belangrijk
+teaser: "WhatsApp is niet onvermijdelijk — het is alleen nog normaal."
 next_thesis: /nl/theses/thesis-23
-previous_thesis: /nl/theses/thesis-21
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 22 – Vervang WhatsApp door Element (Matrix)

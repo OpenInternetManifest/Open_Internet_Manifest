@@ -1,11 +1,14 @@
 ---
-layout: thesis
-lang: nl
-title: Thesis 0 - Inleiding
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Inleiding"
+order: 0                  # belangrijk
+teaser: "Welkom bij het begin"
 next_thesis: /nl/theses/thesis-01
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 
 Dit is geen petitie.  
 Dit is geen compromis.  

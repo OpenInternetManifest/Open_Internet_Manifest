@@ -1,8 +1,10 @@
 title: Open Internet Manifest
 description: A living manifesto for a free, open and decentralized internet
+
 # Base URL – leeg lokaal, correct op GitHub Pages
 url: "https://openinternetmanifest.org"      # volledige domeinnaam
 baseurl: ""                                  # leeg! geen subpad
+
 include:
   - admin/
 
@@ -28,8 +30,12 @@ defaults:
     values:
       lang: "EN"
 
+collections:
+  theses:
+    output: true
+    permalink: /:lang/theses/:slug/
+
 exclude:
- 
   - venv
   - tools
 

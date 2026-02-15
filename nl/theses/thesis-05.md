@@ -1,13 +1,13 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 5 — Alleen een echt open internet geeft echte digitale vrijheid
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Alleen een echt open internet geeft echte digitale vrijheid"
+order: 5                  # belangrijk
+teaser: "Decentralisatie binnen hun apps en stores bouwt alleen luxere cellen met beter Wi-Fi."
 next_thesis: /nl/theses/thesis-06
-previous_thesis: /nl/theses/thesis-04
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
-
 # Thesis 5
 
 Alleen een echt open internet geeft je echte [**digitale vrijheid**](/nl/begrippen/digitale-vrijheid) – alle andere oplossingen houden je gevangen.

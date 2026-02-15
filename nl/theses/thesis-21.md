@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 21 — Praktische eerste stap maak vandaag nog een Mastodon-account
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Praktische eerste stap: maak vandaag een Mastodon-account"
+order: 21                 # belangrijk
+teaser: "De fediverse wacht op je — en het is makkelijker dan je denkt."
 next_thesis: /nl/theses/thesis-22
-previous_thesis: /nl/theses/thesis-20
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
  # Thesis 21 – Praktische eerste stap: maak vandaag nog een Mastodon-account

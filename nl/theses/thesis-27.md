@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 27 — Leer één iemand deze week een open alternatief gebruiken
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Leer deze week één persoon een open alternatief"
+order:    27              # belangrijk
+teaser: "Jouw uitnodiging vandaag is het netwerk-effect van morgen."
 next_thesis: /nl/theses/thesis-28
-previous_thesis: /nl/theses/thesis-26
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 27 – Leer één persoon deze week een open alternatief

@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 19 — Geld sturen zonder bank of Big Tech
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Geld sturen zonder bank of Big Tech"
+order:  19                # belangrijk
+teaser: "Je kunt al een euro, dollar of satoshi naar iedereen ter wereld sturen."
 next_thesis: /nl/theses/thesis-20
-previous_thesis: /nl/theses/thesis-18
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 19 – Geld sturen zonder bank of Big Tech

@@ -1480,4 +1480,26 @@ details li {
   .guide-card h3 {
     padding-right: 6.5rem !important;
   }
+
+  /* Progress label rechtsboven – motiverend en subtiel */
+.thesis-progress {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.6rem;
+  font-size: 0.68rem !important;
+  font-weight: 600;
+  color: #66b3ff88;               /* zacht, semi-transparant blauw */
+  background: transparent;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  letter-spacing: 0.4px;
+  z-index: 2;
+  opacity: 0.85;
+  pointer-events: none;           /* voorkomt dat het klikbaar is */
+}
+
+.thesis-card:hover .thesis-progress {
+  opacity: 1;
+  color: #66b3ff;
+}
 }

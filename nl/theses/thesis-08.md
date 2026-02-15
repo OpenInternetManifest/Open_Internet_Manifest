@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 8 — Een open internet bevrijdt je stem en je creativiteit van willekeur
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Een open internet bevrijdt je stem en creativiteit van willekeurige controle"
+order: 8                 # belangrijk
+teaser: "Stel je voor: je bouwt een app die kleine boeren direct met kopers verbindt, zonder dat een groot platform commissie neemt."
 next_thesis: /nl/theses/thesis-09
-previous_thesis: /nl/theses/thesis-07
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 8 – Video en content zonder YouTube of TikTok

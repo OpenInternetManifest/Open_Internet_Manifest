@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 9 — Een open internet maakt echte economische vrijheid weer mogelijk
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Een open internet maakt echte economische vrijheid weer mogelijk"
+order: 9                 # belangrijk
+teaser: "Vroeger kon je een website bouwen, een dienst aanbieden of een community starten en geld verdienen — zonder dat iemand 15 tot 30 procent van je omzet aftroggelde."
 next_thesis: /nl/theses/thesis-10
-previous_thesis: /nl/theses/thesis-08
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 9 – Peer-to-peer betalingen zonder tussenpersoon

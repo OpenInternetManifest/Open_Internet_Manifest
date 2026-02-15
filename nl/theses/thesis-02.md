@@ -1,9 +1,12 @@
 ---
-layout: thesis
-lang: nl
-title: Thesis 2 - Ze verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was
-previous_thesis: /nl/theses/thesis-01
-next_thesis: /nl/theses/thesis-03 
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Ze verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was"
+order: 2                  # belangrijk
+teaser: "De ketting die gemak genoemd wordt"
+next_thesis: /nl/theses/thesis-03
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 2

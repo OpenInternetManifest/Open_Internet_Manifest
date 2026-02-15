@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 29 — Het open internet is geen utopie, het is een keuze die we elke dag maken
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Het open internet is geen utopie — het is een keuze die we elke dag maken"
+order: 29                 # belangrijk
+teaser: "Openheid wordt in stand gehouden door dagelijkse keuzes en acties, niet door wensen."
 next_thesis: /nl/theses/thesis-30
-previous_thesis: /nl/theses/thesis-28
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 29 – Het open internet is geen utopie, het is een dagelijkse keuze

@@ -1,11 +1,12 @@
 ---
-
-layout: thesis
-lang: nl
-title: Thesis 25 — Word lid van (of start) een lokale community-node
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Sluit je aan bij (of start) een lokale community-node"
+order: 25                 # belangrijk
+teaser: "Begin klein. Begin lokaal. Begin vandaag."
 next_thesis: /nl/theses/thesis-26
-previous_thesis: /nl/theses/thesis-24
-
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
 # Thesis 25 – Word lid van (of start) een lokale community-node
