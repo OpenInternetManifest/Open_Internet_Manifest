@@ -3,7 +3,7 @@ layout: thesis
 lang: nl
 title: social-posts - dag 32 Sun Tzu voltooid – Epstein-files als boemerang die terugvliegt
 previous_social: "/nl/social-posts/dag-31-teaser"
-next_social: "/nl/social-posts/levend-manifest"
+next_social: "/nl/social-posts/dag-32-teaser"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
