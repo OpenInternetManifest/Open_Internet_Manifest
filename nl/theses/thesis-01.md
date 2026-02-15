@@ -4,7 +4,7 @@ lang: nl                 # of en voor de Engelse versie
 title: "Het internet is niet dood"
 order: 1                  # belangrijk
 teaser: "Het internet is niet dood; het is gekaapt door vijf poortwachter"
-next_thesis: /nl/theses/thesis-2
+next_thesis: /nl/theses/thesis-02
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
