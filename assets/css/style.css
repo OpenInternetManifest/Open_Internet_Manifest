@@ -1354,30 +1354,6 @@ details li {
   font-size: 0.9rem !important;
 }
 
-.guides-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* auto-fit + kleiner minmax voor betere vulling */
-  gap: 0.8rem; /* kleinere gap voor meer cards */
-  margin: 1rem 0;
-  max-width: none !important; /* OVERRIDE: geen limiet van .main-content */
-  width: 100% !important;     /* VOLLE breedte */
-  padding: 0 !important;      /* verwijder eventuele parent-padding */
-  box-sizing: border-box;
-}
-
-/* Forceer 3-4 kolommen op grotere schermen */
-@media (min-width: 768px) {
-  .guides-grid {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  }
-}
-
-@media (min-width: 1024px) {
-  .guides-grid {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  }
-}
-
 .guide-card {
   background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
   border: 1px solid #333;
@@ -1397,12 +1373,6 @@ details li {
   transform: translateY(-2px);
   border-color: #66b3ff30;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
-
-/* Override + tekstgrootte (zelfde als theses) */
-.guides-grid .guide-card,
-.guides-grid .guide-card * {
-  font-size: 0.84rem !important;
 }
 
 .guide-icon {
@@ -1469,4 +1439,53 @@ details li {
 .guide-card span {
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Guides grid – FIX: forceer wrap, kleinere min-breedte, volle breedte */
+
+.guides-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important; /* kleiner min voor betere wrap */
+  gap: 0.7rem !important; /* kleinere gap voor meer kolommen */
+  margin: 1rem 0 !important;
+  max-width: none !important;
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  box-sizing: border-box !important;
+}
+
+/* Forceer meer kolommen op grotere schermen */
+@media (min-width: 768px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
+  }
+}
+
+/* Kleine schermen: voorkom te smalle cards */
+@media (max-width: 500px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important;
+  }
+}
+
+/* Zorg dat cards niet te breed worden en goed wrappen */
+.guide-card {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
