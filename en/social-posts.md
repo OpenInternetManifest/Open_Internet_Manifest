@@ -5,7 +5,7 @@ lang: en
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
-# Social Posts for the Open Internet Manifest – English version
+# Reality vs Narrative; Social Posts for the Open Internet Manifest – English version
 
 **Day 1**   
 → [The Fixed Pattern in Major Incidents](/en/social-posts/day-1-rvn)  

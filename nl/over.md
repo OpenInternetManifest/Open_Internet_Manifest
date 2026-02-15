@@ -16,27 +16,30 @@ Geen gatekeepers meer. Geen surveillance. Geen black boxes.
 
 Dit is een **levend document**. Het groeit door jouw input, ideeën en bijdragen. Samen bouwen we aan een internet dat weer van ons is.
 
+## Hoe het begon – Het Accu-Manifest ⚡  
+Alles begon met een lege accu in een lease-busje in Amsterdam (november 2025). Dat leidde tot inzicht in parasitaire overhead, bureaucratie en echte waarde-creatie – de moeder van dit hele manifest.  
+→ [Lees het volledige Accu-Manifest](/nl/accu-manifest)
+
 ## Waar begin je?
 
 [→ Begin met lezen – de eerste thesis](/nl/theses/thesis-00)  
-[→ Alle 100 theses in één overzicht](/nl/manifest)
+[→ Alle theses in één overzicht](/nl/manifest)
 
 Wil je weten waarom we alles **cryptografisch verifiëren** (zodat niemand kan knoeien met de inhoud)?  
 [→ Cryptografische hashes uitgelegd](/nl/begrippen/cryptografische-hash/)
 
 ## Praktisch aan de slag (begin vandaag nog)
 
-[→ Volg de stap-voor-stap guides voor Mastodon, Nextcloud, sovereign nodes en meer](/nl/guides)
-
+[→ Volg de stap-voor-stap guides voor sovereign nodes, Mastodon, Nextcloud en meer](/nl/guides)
 
 ## Hoe werkt de site?
 
-- Elke thesis heeft een **volgende** en **vorige** pijl (rechts en links op het scherm)  
-- In thesis vind je links naar relevante **begrippen** (uitleg woorden) en **guides** (praktische stappen)  
-- Bovenaan links zie je altijd de **← Back** knop → die brengt je gewoon terug naar waar je vandaan kwam  
-- De hamburger-menu (drie streepjes rechtsboven op mobiel) geeft snel toegang tot alle hoofdpagina’s  
+- Elke thesis heeft **vorige/volgende pijlen** (links/rechts op scherm)  
+- In theses vind je links naar relevante **begrippen** (uitleg woorden) en **guides** (praktische stappen)  
+- Bovenaan links altijd de **← Back** knop – brengt je terug waar je vandaan kwam  
+- Hamburger-menu (drie streepjes rechtsboven op mobiel) geeft snel toegang tot alles  
 
-Zo kun je op jouw eigen manier door het manifest navigeren – net zoals op een vrij, open internet.
+Zo navigeer je op jouw manier – net als op een vrij, open internet.
 
 <div class="section-divider"></div>
 
@@ -53,7 +56,5 @@ Zo kun je op jouw eigen manier door het manifest navigeren – net zoals op een 
 <div class="section-divider"></div>
 
 <div class="discussion-ref">
-  (De discussie en community-ruimte vind je onderaan elke pagina)
+  De discussie en community-ruimte vind je onderaan elke pagina (Giscus-comments).
 </div>
-
----

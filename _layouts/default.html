@@ -20,81 +20,122 @@
 <nav class="main-nav">
   <div class="nav-container">
     <!-- Terug knop – altijd zichtbaar links -->
-    <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
+    <a href="javascript:history.back()" class="nav-back" aria-label="{% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}">
       ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
     </a>
 
     <div class="nav-logo-wrapper">
       <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
-      <span class="visitor-counter" title="Bezoekers sinds lancering">
-        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="Bezoekers teller" style="border:none; height:1.8em !important; margin-left:0.8em;">
+      <span class="visitor-counter" title="{% if page.lang | default: 'nl' | downcase == 'en' %}Visitors since launch{% else %}Bezoekers sinds lancering{% endif %}">
+        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="{% if page.lang | default: 'nl' | downcase == 'en' %}Visitor counter{% else %}Bezoekers teller{% endif %}" style="border:none; height:1.8em !important; margin-left:0.8em;">
       </span>
     </div>
 
     <!-- Desktop links met dropdowns -->
     <div class="nav-links desktop-only">
-      {% assign current_lang = page.lang | default: 'nl' | downcase %}
+      {% assign lang = page.lang | default: 'nl' | downcase %}
 
       <!-- Manifest met dropdown -->
       <div class="nav-item has-dropdown">
-        <a href="{{ site.baseurl }}/{{ current_lang }}/manifest" class="nav-link">
-          {% if current_lang == 'en' %}Manifest{% else %}Manifest{% endif %}
+        <a href="{{ site.baseurl }}/{{ lang }}/manifest" class="nav-link">
+          {% if lang == 'en' %}Manifest{% else %}Manifest{% endif %}
         </a>
         <div class="dropdown-menu">
-          <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">All Theses</a>
-          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest" class="highlight">How it Started – Accu-Manifest ⚡</a>
+          <a href="{{ site.baseurl }}/{{ lang }}/manifest">
+            {% if lang == 'en' %}All Theses{% else %}Alle theses{% endif %}
+          </a>
+          <a href="{{ site.baseurl }}/{{ lang }}/accu-manifest" class="highlight">
+            {% if lang == 'en' %}How it Started – Accu-Manifest ⚡{% else %}Hoe het begon – Accu-Manifest ⚡{% endif %}
+          </a>
         </div>
       </div>
 
       <!-- Guides -->
-      <a href="{{ site.baseurl }}/{{ current_lang }}/guides" class="nav-link">Guides</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/guides" class="nav-link">
+        {% if lang == 'en' %}Guides{% else %}Guides{% endif %}
+      </a>
 
-      <!-- RVN / Socials (hernoemd voor focus) -->
-      <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts" class="nav-link">
-        {% if current_lang == 'en' %}RVN{% else %}RVN{% endif %}
+      <!-- RVN / Socials -->
+      <a href="{{ site.baseurl }}/{{ lang }}/social-posts" class="nav-link">
+        {% if lang == 'en' %}RvsN{% else %}RvsN{% endif %}
       </a>
 
       <!-- About met dropdown -->
       <div class="nav-item has-dropdown">
-        <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}" class="nav-link">
-          {% if current_lang == 'en' %}About{% else %}Over{% endif %}
+        <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}about{% else %}over{% endif %}" class="nav-link">
+          {% if lang == 'en' %}About{% else %}Over{% endif %}
         </a>
         <div class="dropdown-menu">
-          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">How it Started ⚡</a>
-          <a href="#">Mission & Vision</a> <!-- voeg toe als je wilt -->
-          <a href="#">Contact / Join</a>
+          <a href="{{ site.baseurl }}/{{ lang }}/accu-manifest">
+            {% if lang == 'en' %}How it Started ⚡{% else %}Hoe het begon ⚡{% endif %}
+          </a>
+          <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}about{% else %}over{% endif %}">
+            {% if lang == 'en' %}About{% else %}Over{% endif %}
+          </a>
+          
+          <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}mission-vision{% else %}missie-visie{% endif %}">
+            {% if lang == 'en' %}Mission & Vision{% else %}Missie & Visie{% endif %}
+          </a>
+          <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}contact{% else %}contact{% endif %}">
+            {% if lang == 'en' %}Contact & Join{% else %}Contact & Meedoen{% endif %}
+          </a>
         </div>
       </div>
 
       <!-- Verifier -->
-      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier" class="nav-link">Verifier</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/hash-verifier" class="nav-link">
+        {% if lang == 'en' %}Verifier{% else %}Verifier{% endif %}
+      </a>
 
       <!-- Home -->
-      <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
+      <a href="{{ site.baseurl }}/" class="nav-link">
+        {% if lang == 'en' %}Home{% else %}Home{% endif %}
+      </a>
     </div>
 
     <!-- Hamburger rechts -->
     <div class="nav-toggle-wrapper">
-      <button class="nav-toggle" aria-label="Menu openen">
+      <button class="nav-toggle" aria-label="{% if page.lang | default: 'nl' | downcase == 'en' %}Open menu{% else %}Menu openen{% endif %}">
         <span></span>
         <span></span>
         <span></span>
       </button>
     </div>
 
-    <!-- Mobiel menu met dezelfde dropdown-logica (eenvoudig, geen sub-dropdowns voor mobiel tenzij JS) -->
+    <!-- Mobiel menu (eenvoudig, geen sub-dropdowns) -->
     <div class="mobile-menu">
-      <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">Manifest / All Theses</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">How it Started – Accu-Manifest ⚡</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/guides">Guides</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts">RVN / Socials</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">About / Over</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
-      <a href="{{ site.baseurl }}/">Home</a>
+      {% assign lang = page.lang | default: 'nl' | downcase %}
+
+      <a href="{{ site.baseurl }}/{{ lang }}/manifest">
+        {% if lang == 'en' %}Manifest{% else %}Manifest{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/accu-manifest">
+        {% if lang == 'en' %}How it Started – Accu-Manifest ⚡{% else %}Hoe het begon – Accu-Manifest ⚡{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/guides">
+        {% if lang == 'en' %}Guides{% else %}Guides{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/social-posts">
+        {% if lang == 'en' %}RVN{% else %}RVN{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}about{% else %}over{% endif %}">
+        {% if lang == 'en' %}About{% else %}Over{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}mission-vision{% else %}missie-visie{% endif %}">
+        {% if lang == 'en' %}Mission & Vision{% else %}Missie & Visie{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}contact{% else %}contact{% endif %}">
+        {% if lang == 'en' %}Contact & Join{% else %}Contact & Meedoen{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ lang }}/hash-verifier">
+        {% if lang == 'en' %}Verifier{% else %}Verifier{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/">
+        {% if lang == 'en' %}Home{% else %}Home{% endif %}
+      </a>
     </div>
   </div>
 </nav>
-
    <!-- <a id="skip-to-content" href="#content">Skip to the content</a> -->
 
     <!-- Banner met overlay -->

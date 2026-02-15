@@ -326,7 +326,7 @@ body {
 }
 
 /* Glow op hover – voor alle drie */
-.integrity-check:hover, .donation-section:hover, .community-box:hover {
+.integrity-check:hover, .donation-section:hover, .community-box:hover, .thesis-card:hover {
   background: rgba(255, 255, 255, 0.08) !important;
   box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
   transform: translateY(-4px);
@@ -1186,4 +1186,140 @@ details li {
 .highlight {
   font-weight: bold;
   color: #ffcc00 !important; /* goud/oranje voor origin */
+}
+/* Theses overzicht – read-more altijd onderaan, teaser scrollbaar bij te lange tekst, card 210px */
+
+.theses-hero {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #333;
+}
+
+.intro-title {
+  font-size: 1.8rem !important;
+  margin-bottom: 0.5rem;
+  color: #66b3ff;
+}
+
+.manifest-subtitle {
+  font-size: 1.05rem !important;
+  color: #b0b0b0;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  max-width: 720px;
+  margin: 0 auto 0.8rem;
+  color: #b0b0b0;
+  font-size: 0.9rem !important;
+}
+
+.theses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.thesis-card {
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 0.8rem 0.9rem;
+  padding-left: 2.6rem;                 /* ruimte voor nummer */
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.15s ease;
+  position: relative;
+  height: 210px;                        /*  goed voor lange teasers */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.thesis-card:hover {
+  transform: translateY(-2px);
+  border-color: #66b3ff30;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Override + tekstgrootte */
+.theses-grid .thesis-card,
+.theses-grid .thesis-card * {
+  font-size: 0.84rem !important;
+}
+
+/* Nummer statisch linksboven */
+.thesis-number {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  font-size: 0.9rem !important;
+  font-weight: bold;
+  color: #66b3ff;
+  background: #ffffff0d
+;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  min-width: 1.5rem;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Wrapper voor titel + teaser – duwt read-more naar beneden */
+.thesis-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.3rem;                  /* kleine ruimte naast nummer */
+}
+
+.thesis-title {
+  font-size: 0.84rem !important;
+  line-height: 1.2;
+  color: #b0b0b0;
+  margin: 0 0 0.3rem 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thesis-teaser {
+  font-size: 0.78rem !important;
+  color: #b0b0b0;
+  line-height: 1.25;
+  margin: 0;
+  flex-grow: 1;
+  overflow-y: auto;                     /* scrollbaar als tekst te lang is */
+  max-height: 80px;                     /* max hoogte teaser – scroll bij noodzaak */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;                /* max 5 regels voor scroll */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.read-more {
+  font-size: 0.62rem !important;
+  color: #b0b0b0;
+  font-weight: 600;
+  margin-top: auto;                     /* duwt read-more altijd naar beneden */
+  align-self: flex-start;
+  opacity: 0.85;
+}
+
+.thesis-card:hover .read-more {
+  opacity: 1;
+}
+
+/* Extra fix tegen overlap & overflow */
+.thesis-title,
+.thesis-teaser,
+.read-more {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

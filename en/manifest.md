@@ -1,106 +1,289 @@
 ---
 layout: default
 lang: en
-title: All theses
+title: All Theses
 ---
 
-<h1 class="intro-title">The first 30 theses are ready</h1>
+<div class="theses-hero">
+  <h1 class="intro-title">The first 30 theses are ready</h1>
+  
+  <h2 class="manifest-subtitle">
+    This manifest is living — it grows through contributions from people like you.
+  </h2>
+  
+  <p class="intro-text">
+    100 theses for a free, open and unalienable internet. Start anywhere — or read from the beginning.
+  </p>
+</div>
 
-<h2 class="manifest-subtitle">This manifest is living — it grows through contributions from people like you.</h2>
+<div class="theses-grid">
+  <a href="{{ site.baseurl }}/en/theses/thesis-01" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">1</span>
+      <h3>The internet is not dead; it has been hijacked by five gatekeepers</h3>
+    </div>
+    <p class="thesis-teaser">The internet promised freedom, but five gatekeepers now control access, content, and truth.</p>
+    <span class="read-more">Read →</span>
+  </a>
 
----
+  <a href="{{ site.baseurl }}/en/theses/thesis-02" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">2</span>
+      <h3>Those who enclosed the open internet are now selling you the story that true freedom was something from the eighties</h3>
+    </div>
+    <p class="thesis-teaser">The enclosers romanticize the past to sell nostalgia instead of real freedom.</p>
+    <span class="read-more">Read →</span>
+  </a>
 
-<ul class="theses-list">
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-01"><span class="thesis-number">Thesis 1</span> — The internet is not dead; it has been hijacked by five gatekeepers</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-02"><span class="thesis-number">Thesis 2</span> — Those who enclosed the open internet are now selling you the story that true freedom was something from the eighties</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-03"><span class="thesis-number">Thesis 3</span> — In the real world, no one would accept what we’ve been swallowing online for years</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-04"><span class="thesis-number">Thesis 4</span> — The enclosures are almost complete, but the last gate is still open</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-05"><span class="thesis-number">Thesis 5</span> — Only a truly open internet provides true digital freedom</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-06"><span class="thesis-number">Thesis 6</span> — Exit without building is fleeing; building without exit is collaborating</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-07"><span class="thesis-number">Thesis 7</span> — An open internet restores privacy’s original power</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-08"><span class="thesis-number">Thesis 8</span> — An open internet frees your voice and creativity from arbitrary control</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-09"><span class="thesis-number">Thesis 9</span> — An open internet makes true economic freedom possible again</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-10"><span class="thesis-number">Thesis 10</span> — The digital cage is expanding into the real world</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-11"><span class="thesis-number">Thesis 11</span> — We don’t need to invent a new internet — we need to start using the old one again</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-12"><span class="thesis-number">Thesis 12</span> — Back to protocols that no one owns</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-13"><span class="thesis-number">Thesis 13</span> — Your data belongs to you, not to a platform</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-14"><span class="thesis-number">Thesis 14</span> — Portable identity and reputation</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-15"><span class="thesis-number">Thesis 15</span> — Social networks without a central owner</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-16"><span class="thesis-number">Thesis 16</span> — Messaging apps without Big Tech</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-17"><span class="thesis-number">Thesis 17</span> — Video and content without YouTube or TikTok</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-18"><span class="thesis-number">Thesis 18</span> — Search without Google</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-19"><span class="thesis-number">Thesis 19</span> — Send money without banks or Big Tech</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-20"><span class="thesis-number">Thesis 20</span> — From collecting followers to building real communities</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-21"><span class="thesis-number">Thesis 21</span> — Practical first step: create a Mastodon account today</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-22"><span class="thesis-number">Thesis 22</span> — Replace WhatsApp with Element (Matrix)</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-23"><span class="thesis-number">Thesis 23</span> — Take your photos and files into your own hands</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-24"><span class="thesis-number">Thesis 24</span> — Use a Nostr client and claim your npub</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-25"><span class="thesis-number">Thesis 25</span> — Join (or start) a local community node</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-26"><span class="thesis-number">Thesis 26</span> — Support open source projects financially</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-27"><span class="thesis-number">Thesis 27</span> — Teach one person an open alternative this week</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-28"><span class="thesis-number">Thesis 28</span> — Companies and governments: demand interoperability and open standards</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-29"><span class="thesis-number">Thesis 29</span> — The open internet is no utopia — it is a choice we make every day</a>
-  </li>
-  <li>
-    <a href="{{ site.baseurl }}/en/theses/thesis-30"><span class="thesis-number">Thesis 30</span> — This manifest is only the beginning</a>
-  </li>
-</ul>
+  <a href="{{ site.baseurl }}/en/theses/thesis-03" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">3</span>
+      <h3>In the real world, no one would accept what we’ve been swallowing online for years</h3>
+    </div>
+    <p class="thesis-teaser">What is unacceptable offline has become normal online — time to stop accepting it.</p>
+    <span class="read-more">Read →</span>
+  </a>
 
-<!-- The central integrity check is automatically added via the layout -->
+  <a href="{{ site.baseurl }}/en/theses/thesis-04" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">4</span>
+      <h3>The enclosures are almost complete, but the last gate is still open</h3>
+    </div>
+    <p class="thesis-teaser">The five gatekeepers are hammering day and night: app stores are becoming stricter fortresses </p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">5</span>
+      <h3>Only a truly open internet provides true digital freedom</h3>
+    </div>
+    <p class="thesis-teaser">Decentralization” within their apps and stores only builds more luxurious cells with better Wi-Fi</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">6</span>
+      <h3>Exit without building is fleeing; building without exit is collaborating</h3>
+    </div>
+    <p class="thesis-teaser">Those who only complain and walk away from the big platforms disappear into a void where no one ever finds them.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">7</span>
+      <h3>An open internet restores privacy’s original power</h3>
+    </div>
+    <p class="thesis-teaser">In the real world, you assume that a conversation behind your own door remains yours.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">8</span>
+      <h3>An open internet frees your voice and creativity from arbitrary control</h3>
+    </div>
+    <p class="thesis-teaser">Imagine: you build an app that connects small farmers directly with buyers, without a big platform taking commission</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">9</span>
+      <h3>An open internet makes true economic freedom possible again</h3>
+    </div>
+    <p class="thesis-teaser">In the past, you could build a website, offer a service, or start a community and earn money — without anyone skimming 15 to 30 percent of your revenue.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">10</span>
+      <h3>The digital cage is expanding into the real world</h3>
+    </div>
+    <p class="thesis-teaser">What we have accepted online for years — mandatory accounts, permanent surveillance, algorithms deciding what you may see or do </p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">11</span>
+      <h3>This manifesto is not a decree from above; it is a fire that burns in open conversations.</h3>
+    </div>
+    <p class="thesis-teaser">It does not arise in a boardroom, not in a government building.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">12</span>
+      <h3>Back to protocols that no one owns</h3>
+    </div>
+    <p class="thesis-teaser">Email, the world wide web, and IRC still work without a single company in charge.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">13</span>
+      <h3>Your data belongs to you, not to a platform</h3>
+    </div>
+    <p class="thesis-teaser">Data sovereignty is not a luxury — it is the foundation of a free digital life.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">14</span>
+      <h3>Portable identity and reputation</h3>
+    </div>
+    <p class="thesis-teaser">You build reputation in one place and it travels with you — as it should.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">15</span>
+      <h3>Social networks without a central owner</h3>
+    </div>
+    <p class="thesis-teaser">You can always move with all your followers, posts, and media — no more hostage-taking.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">16</span>
+      <h3>Messaging apps without Big Tech</h3>
+    </div>
+    <p class="thesis-teaser">Want to switch to a privacy-friendly messenger?</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">17</span>
+      <h3>ideo and content without YouTube or TikTok</h3>
+    </div>
+    <p class="thesis-teaser">YouTube and TikTok are not laws of nature, but choices by a handful of companies.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">18</span>
+      <h3>Searching without Google</h3>
+    </div>
+    <p class="thesis-teaser">Google does not decide what is true — Google decides what you get to see.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">19</span>
+      <h3>Sending money without bank or Big Tech</h3>
+    </div>
+    <p class="thesis-teaser">You can already send a euro, a dollar, or a satoshi to anyone in the world</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">20</span>
+      <h3>From collecting followers to building real communities</h3>
+    </div>
+    <p class="thesis-teaser">10 million followers you don't know is not power — it is a hostage situation.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">21</span>
+      <h3>Practical first step: create a Mastodon account today</h3>
+    </div>
+    <p class="thesis-teaser">The fediverse is waiting for you — and it's easier than you think.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">22</span>
+      <h3>Replace WhatsApp with Element</h3>
+    </div>
+    <p class="thesis-teaser">WhatsApp is not inevitable — it is just still normal.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">23</span>
+      <h3>Put your photos and files under your own control</h3>
+    </div>
+    <p class="thesis-teaser">No cloud is safer than your own cloud.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">24</span>
+      <h3>Claim your digital identity with Nostr</h3>
+    </div>
+    <p class="thesis-teaser">One key, valid everywhere, yours forever.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">25</span>
+      <h3>Join (or start) a local community node</h3>
+    </div>
+    <p class="thesis-teaser">Start small. Start local. Start today.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">26</span>
+      <h3>Pay the builders of the open internet</h3>
+    </div>
+    <p class="thesis-teaser">One euro per month from a million people changes everything.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">27</span>
+      <h3>Teach one person an open alternative this week</h3>
+    </div>
+    <p class="thesis-teaser">Your invitation today is tomorrow’s network effect.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-28" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">28</span>
+      <h3>Companies and governments: demand interoperability and open standards</h3>
+    </div>
+    <p class="thesis-teaser">True openness requires mandatory interoperability — force platforms to play nice.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-29" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">29</span>
+      <h3>The open internet is no utopia — it is a choice we make every day</h3>
+    </div>
+    <p class="thesis-teaser">Openness is maintained through daily choices and actions, not wishes.</p>
+    <span class="read-more">Read →</span>
+  </a>
+
+  <a href="{{ site.baseurl }}/en/theses/thesis-30" class="thesis-card">
+    <div class="thesis-header">
+      <span class="thesis-number">30</span>
+      <h3>This manifest is only the beginning</h3>
+    </div>
+    <p class="thesis-teaser">The real work starts now — join, contribute, build together.</p>
+    <span class="read-more">Read →</span>
+  </a>
+</div>
