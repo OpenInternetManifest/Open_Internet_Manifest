@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - pixelfed account maken
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 10
+title: "Je eerste Pixelfed-account maken (Instagram-alternatief)"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Pixelfed is het gedecentraliseerde alternatief voor Instagram: foto's delen, geen algoritme dat je feed stuurt, geen advertenties, volledige data-portability."
+slug: element-migratie
 ---
 # Guide – Je eerste Pixelfed-account maken (Instagram-alternatief)
 

@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - fostodon account maken
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 3
+title: "Account maken op Fosstodon (tech- en open-source community)"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Stap-voor-stap guide om Fosstodon account te maken."
+slug: element-migratie
 ---
 # Guide – Account maken op Fosstodon (tech- en open-source community)
 

@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - mastadon account maken 
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 7
+title: "Je eerste Mastodon-account maken en migreren van X/Twitter"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Mastodon is geen vervanging van Twitter – het is beter: jij kiest je eigen server, je data is van jou, en je kunt altijd verhuizen."
+slug: element-migratie
 ---
 # Guide – Je eerste Mastodon-account maken en migreren van X/Twitter
 

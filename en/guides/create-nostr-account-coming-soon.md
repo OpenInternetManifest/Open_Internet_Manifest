@@ -1,9 +1,10 @@
 ---
 layout: default
 lang: en
-title: guides - create nostr account
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+title: "create nostr account"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "-coming soon-"
+slug: element-migration-coming-soon
 ---
 # Create Nostr account – coming soon
 

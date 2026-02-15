@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - friendica account maken
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 5
+title: "Je eerste Friendica-account maken"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Friendica is een gedecentraliseerd sociaal netwerk dat verbindt met Mastodon, Diaspora, Bluesky en zelfs oude systemen zoals e-mail"
+slug: element-migratie
 ---
 # Guide – Je eerste Friendica-account maken (veelzijdig sociaal netwerk)
 

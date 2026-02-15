@@ -1,50 +1,50 @@
 ---
-
 layout: default
 lang: nl
-title: Guides - Volledige guides pagina
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+title: Alle Guides
 ---
 
-# De Guides bij Open Internet Manifest – Nederlandse versie
+<div class="guides-hero">
+  <h1 class="intro-title">Praktische handleidingen</h1>
+  
+  <h2 class="manifest-subtitle">
+    Concrete stappen om te ontsnappen aan Big Tech en weer eigenaar te worden van je communicatie en data.
+  </h2>
+  
+  <p class="intro-text">
+    Van simpele account-aanmaak tot het draaien van je eigen server — begin waar je staat.
+  </p>
+</div>
 
-**Guide 1** — Account maken op Chaos.social (actieve, vrije community)  
-→ [volledige tekst](/nl/guides/chaos-account-maken)
+<div class="guides-grid">
 
-**Guide 2** — Vervang WhatsApp door Element (Matrix)  
-→ [volledige tekst](/nl/guides/element-migratie)
+  {% assign guide_pages = site.pages | where_exp: "p", "p.dir == '/nl/guides/'" | sort: "order" %}
 
-**Guide 3** — Account maken op Fosstodon (tech- en open-source community)   
-→ [volledige tekst](/nl/guides/fosstodon-account-maken)
+  {% for guide in guide_pages %}
+    {% if guide.url != page.url and guide.title and guide.title != "" %}
+      <a href="{{ guide.url | relative_url }}" class="guide-card" data-difficulty="{{ guide.difficulty | default: 'beginner' }}">
+        <div class="guide-header">
+          <span class="guide-number">{{ forloop.index }}</span>
+          <h3>{{ guide.title }}</h3>
+        </div>
+        <p class="guide-teaser">{{ guide.teaser | default: "Praktische stap-voor-stap handleiding." }}</p>
+        
+        <span class="difficulty-banner {{ guide.difficulty | default: 'beginner' }}">
+          {% case guide.difficulty %}
+            {% when 'beginner' %}Beginner
+            {% when 'gemiddeld' %}Gemiddeld
+            {% when 'gevorderd' %}Gevorderd
+            {% else %}Beginner
+          {% endcase %}
+        </span>
+        
+        <span class="read-more">Lees de guide →</span>
+      </a>
+    {% endif %}
+  {% endfor %}
 
-**Guide 4** — Je eerste Friendica-account maken (veelzijdig sociaal netwerk)  
-→ [volledige tekst](/nl/guides/friendica-account-maken)
+  {% if guide_pages.size == 0 or guide_pages.size == 1 %}
+    <p style="color: #f66; text-align:center;">(debug) Geen guides gevonden of alleen deze overzichtspagina zelf.</p>
+  {% endif %}
 
-**Guide 5** — Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)   
-→ [volledige tekst](/nl/guides/hubzilla-account-maken)
-
-**Guide 6** — Je eerste Lemmy-account maken (Reddit-alternatief)    
-→ [volledige tekst](/nl/guides/lemmy-account-maken)
-
-**Guide 7** — Je eerste Mastodon-account maken en migreren van X/Twitter    
-→ [volledige tekst](/nl/guides/mastodon-account-maken)
-
-**Guide 8** — Nextcloud installeren (je eigen cloud)   
-→ [volledige tekst](/nl/guides/nextcloud-installeren)
-
-**Guide 9** — Je eerste Pixelfed-account maken (Instagram-alternatief)    
-→ [volledige tekst](/nl/guides/pixelfed-account-maken))
-
-**Guide 10** — Je eigen sovereign node draaien (Raspberry Pi + Umbrel)    
-→ [volledige tekst](/nl/guides/raspberry-pi-node) 
-
-**Guide 11** — De Guides zijn levend    
-→ [volledige tekst](/nl/guides/levende-guides) 
-
-**Guide 12** — je Node bereikbaar maken   
-→ [volledige tekst](/nl/guides/node-bereikbaar-maken) 
-
----
-
-
+</div>

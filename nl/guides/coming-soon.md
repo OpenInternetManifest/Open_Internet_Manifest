@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - comming soon
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 12
+title: "Goed nieuws! Je hebt een thesis gevonden die een praktische guide verdient"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Het Open Internet Manifest is levend: theses, begrippen en guides groeien door bijdragen van de community."
+slug: element-migratie
 ---
 # [Naam guide] – komt eraan
 

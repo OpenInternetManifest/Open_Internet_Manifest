@@ -1,10 +1,13 @@
 ---
 layout: default
 lang: nl
-title: guides - levende guides
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 13
+title: "De Guides zijn levend"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Het is een commons, een gedeelde tuin die groeit zolang wij eraan blijven bouwen."
+slug: element-migratie
 ---
+
 # De Guides zijn levend
 
 Dit is geen einde  

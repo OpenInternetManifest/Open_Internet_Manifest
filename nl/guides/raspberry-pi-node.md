@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - Raspberry PI node
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 11
+title: "Je eigen sovereign node draaien (Raspberry Pi + Umbrel)"
+difficulty: gemiddeld      # of: gemiddeld / gevorderd
+teaser: "Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou."
+slug: element-migratie
 ---
 # Guide – Je eigen sovereign node draaien (Raspberry Pi + Umbrel)
 

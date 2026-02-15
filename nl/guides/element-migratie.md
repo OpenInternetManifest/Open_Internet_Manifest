@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - element migratie
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 2
+title: "Vervang WhatsApp door Element (Matrix)"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Stap-voor-stap migratie van WhatsApp naar een echt privacy-vriendelijk alternatief met end-to-end encryptie."
+slug: element-migratie
 ---
 # Guide – Vervang WhatsApp door Element (Matrix)
 

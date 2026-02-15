@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - hubzilla account maken
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 5
+title: "Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Hubzilla is een krachtig, gedecentraliseerd platform met sociale netwerken, cloud-opslag, blogs en nomadische identiteit – je data reist met je mee, waar je ook heen gaat."
+slug: element-migratie
 ---
 # Guide – Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)
 

@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - nextcloud installeren
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 8
+title: "Nextcloud installeren (je eigen cloud)"
+difficulty: gemiddeld      # of: gemiddeld / gevorderd
+teaser: Nextcloud is open-source software voor je eigen cloud: bestanden, foto’s, kalender, contacten – alles onder jouw controle.
+slug: element-migratie
 ---
 
 # Guide – Nextcloud installeren (je eigen cloud)

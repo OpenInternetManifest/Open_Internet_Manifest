@@ -1,10 +1,12 @@
 ---
 layout: default
 lang: en
-title: guides - Chaos account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+title: "Create an account on Chaos.social (active, free community)"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Step by step Chaos.social accound making"
+slug: create-nostr-account-coming-soon
 ---
+
 # Guide – Create an account on Chaos.social (active, free community)
 
 Chaos.social is a Mastodon instance focused on privacy, freedom, and an active, friendly community — ideal for people who want a lively but non-commercial environment.

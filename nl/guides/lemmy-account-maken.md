@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: nl
-title: guides - lemmy account maken
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+order: 6
+title: "Je eerste Lemmy-account maken (Reddit-alternatief)"
+difficulty: beginner      # of: gemiddeld / gevorderd
+teaser: "Lemmy is het gedecentraliseerde alternatief voor Reddit: forums (sublemmies), communities en discussies – zonder centrale eigenaar of algoritme dat je feed stuurt."
+slug: element-migratie
 ---
 # Guide – Je eerste Lemmy-account maken (Reddit-alternatief)
 
