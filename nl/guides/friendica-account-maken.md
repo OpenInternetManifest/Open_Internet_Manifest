@@ -5,7 +5,7 @@ order: 5
 title: "Je eerste Friendica-account maken"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Friendica is een gedecentraliseerd sociaal netwerk dat verbindt met Mastodon, Diaspora, Bluesky en zelfs oude systemen zoals e-mail"
-slug: element-migratie
+slug: friendica-account-maken
 ---
 # Guide – Je eerste Friendica-account maken (veelzijdig sociaal netwerk)
 

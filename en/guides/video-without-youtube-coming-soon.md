@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - searching without google
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 15
+title: "Video without YouTube"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "-coming soon-"
+slug: video-without-youtube-coming-soon
 ---
 # Video without YouTube – coming soon
 

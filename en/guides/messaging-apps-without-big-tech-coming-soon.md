@@ -1,10 +1,13 @@
 ---
 layout: default
 lang: en
-title: guides - messaaging without big tech
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 9
+title: "Messaging apps without Big Tech"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "-coming soon-"
+slug: messaging-apps-without-big-tech-coming-soon
 ---
+
 # Messaging apps without Big Tech – coming soon
 
 Good news! You've found a thesis that deserves a practical guide — and we're working on it.

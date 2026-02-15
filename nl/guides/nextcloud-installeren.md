@@ -5,7 +5,7 @@ order: 8
 title: "Nextcloud installeren (je eigen cloud)"
 difficulty: gemiddeld      # of: gemiddeld / gevorderd
 teaser: Nextcloud is open-source software voor je eigen cloud: bestanden, foto’s, kalender, contacten – alles onder jouw controle.
-slug: element-migratie
+slug: nextcloud-installeren
 ---
 
 # Guide – Nextcloud installeren (je eigen cloud)

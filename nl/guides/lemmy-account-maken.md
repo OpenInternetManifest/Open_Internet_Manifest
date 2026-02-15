@@ -5,7 +5,7 @@ order: 6
 title: "Je eerste Lemmy-account maken (Reddit-alternatief)"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Lemmy is het gedecentraliseerde alternatief voor Reddit: forums (sublemmies), communities en discussies – zonder centrale eigenaar of algoritme dat je feed stuurt."
-slug: element-migratie
+slug: lemmy-account-maken
 ---
 # Guide – Je eerste Lemmy-account maken (Reddit-alternatief)
 

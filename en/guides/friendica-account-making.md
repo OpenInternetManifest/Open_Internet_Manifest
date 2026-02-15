@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - Friendica account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 5
+title: "Create your first Friendica account"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Friendica is a decentralized social network that connects with Mastodon, Diaspora, Bluesky, and even old systems like email."
+slug: friendica-account-making
 ---
 # Guide – Create your first Friendica account (versatile social network)
 

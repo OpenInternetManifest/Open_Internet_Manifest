@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - raspberry PI node
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 13
+title: "Run your own sovereign node at home (Raspberry Pi + Umbrel)"
+difficulty: advanced    # of: intermediate  / advanced
+teaser: "This is the way to own your own piece of the internet: Bitcoin node, Nostr relay, Nextcloud, photo backup – all at home, all yours."
+slug: raspberry-pi-node
 ---
 # Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)
 

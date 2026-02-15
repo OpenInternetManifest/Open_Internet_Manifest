@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - peer to peer payments
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 11
+title: "Peer-to-peer payments"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "-coming soon-"
+slug: peer-to-peer-payments-coming-soon
 ---
 # Peer-to-peer payments – coming soon
 

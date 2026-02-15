@@ -5,7 +5,7 @@ order: 1
 title: "chaos account maken"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Stap-voor-stap je eeerste Chaos.social account aanmaken."
-slug: element-migratie
+slug: chaos-account-maken
 ---
 # Guide – Account maken op Chaos.social (actieve, vrije community)
 

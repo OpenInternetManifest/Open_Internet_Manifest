@@ -1,3 +1,12 @@
+---
+layout: default
+lang: en
+order: 14
+title: "Searching without Google"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "-coming soon-"
+slug: searching-without-google-coming-soon
+---
 # Searching without Google – coming soon
 
 Good news! You've found a thesis that deserves a practical guide — and we're working on it.

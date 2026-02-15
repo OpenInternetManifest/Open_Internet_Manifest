@@ -1,11 +1,11 @@
 ---
 layout: default
 lang: nl
-order: 13
+order: 500
 title: "De Guides zijn levend"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Het is een commons, een gedeelde tuin die groeit zolang wij eraan blijven bouwen."
-slug: element-migratie
+slug: levende-guides
 ---
 
 # De Guides zijn levend

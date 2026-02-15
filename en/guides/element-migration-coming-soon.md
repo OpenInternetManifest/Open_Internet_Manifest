@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - element migration
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 3
+title: "element migration"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "-coming soon-"
+slug: element-migration-coming-soon
 ---
 # Element migration – coming soon
 

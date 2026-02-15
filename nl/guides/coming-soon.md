@@ -5,7 +5,7 @@ order: 12
 title: "Goed nieuws! Je hebt een thesis gevonden die een praktische guide verdient"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Het Open Internet Manifest is levend: theses, begrippen en guides groeien door bijdragen van de community."
-slug: element-migratie
+slug: coming-soon
 ---
 # [Naam guide] – komt eraan
 

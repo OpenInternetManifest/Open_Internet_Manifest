@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: Make Your Node Externally Accessible
-permalink: /en/guides/node-externally-accessible/
-
+order: 10
+title: "Make Your Node Externally Accessible"
+difficulty: advanced      # of: Intermediate  / Advanced
+teaser: "Access you're node securely from the internet, no port forwarding, multiple methods from beginner to advanced"
+slug: node-externally-accessible
 ---
 
 # Make Your Node Externally Accessible – Choose the Method That Suits You

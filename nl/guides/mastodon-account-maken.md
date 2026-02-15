@@ -5,7 +5,7 @@ order: 7
 title: "Je eerste Mastodon-account maken en migreren van X/Twitter"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Mastodon is geen vervanging van Twitter – het is beter: jij kiest je eigen server, je data is van jou, en je kunt altijd verhuizen."
-slug: element-migratie
+slug: lemmy-account-maken
 ---
 # Guide – Je eerste Mastodon-account maken en migreren van X/Twitter
 

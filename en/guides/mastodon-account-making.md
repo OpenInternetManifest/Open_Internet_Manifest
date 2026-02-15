@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - mastadon account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 8
+title: "Create your first Mastodon account and migrate from X/Twitte"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Mastodon is not a replacement for Twitter — it is better: you choose your own server, your data is yours, and you can always move."
+slug: mastodon-account-making
 ---
 # Guide – Create your first Mastodon account and migrate from X/Twitter
 

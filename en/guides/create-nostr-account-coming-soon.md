@@ -1,10 +1,11 @@
 ---
 layout: default
 lang: en
+order: 2
 title: "create nostr account"
-difficulty: beginner      # of: gemiddeld / gevorderd
+difficulty: beginner      # of: Intermediate  / Advanced
 teaser: "-coming soon-"
-slug: element-migration-coming-soon
+slug: create-nostr-account-coming-soon
 ---
 # Create Nostr account – coming soon
 

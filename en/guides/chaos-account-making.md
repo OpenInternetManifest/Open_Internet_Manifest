@@ -1,12 +1,12 @@
 ---
 layout: default
 lang: en
+order: 1
 title: "Create an account on Chaos.social (active, free community)"
-difficulty: beginner      # of: gemiddeld / gevorderd
-teaser: "Step by step Chaos.social accound making"
-slug: create-nostr-account-coming-soon
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Chaos.social is a Mastodon instance focused on privacy, freedom, and an active, friendly communit"
+slug: chaos-account-making
 ---
-
 # Guide – Create an account on Chaos.social (active, free community)
 
 Chaos.social is a Mastodon instance focused on privacy, freedom, and an active, friendly community — ideal for people who want a lively but non-commercial environment.

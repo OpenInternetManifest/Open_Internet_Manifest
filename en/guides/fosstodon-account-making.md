@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - fosstodon account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 4
+title: "Create an account on Fosstodon"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Fosstodon is a Mastodon instance focused on open-source, tech, privacy, and free software — perfect for developers, makers, and privacy-conscious people."
+slug: fosstodon-account-making
 ---
 # Guide – Create an account on Fosstodon (tech and open-source community)
 

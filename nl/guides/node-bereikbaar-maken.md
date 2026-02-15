@@ -5,7 +5,7 @@ order: 9
 title: " Node van buitenaf bereikbaar maken – kies de methode die bij jou past"
 difficulty: gevorderd      # of: gemiddeld / gevorderd
 teaser: "Je Umbrel-node draait nu lokaal (http://umbrel.local), maar hoe bereik je 'm veilig vanaf je telefoon of laptop als je niet thuis bent? Er zijn meerdere manieren, van super simpel tot geavanceerd. We raden aan te beginnen met de makkelijkste."
-slug: element-migratie
+slug: node-bereikbaar-maken
 ---
 # Node van buitenaf bereikbaar maken – kies de methode die bij jou past
 

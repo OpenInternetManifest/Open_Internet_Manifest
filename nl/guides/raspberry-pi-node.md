@@ -5,7 +5,7 @@ order: 11
 title: "Je eigen sovereign node draaien (Raspberry Pi + Umbrel)"
 difficulty: gemiddeld      # of: gemiddeld / gevorderd
 teaser: "Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou."
-slug: element-migratie
+slug: raspberry-pi-node
 ---
 # Guide – Je eigen sovereign node draaien (Raspberry Pi + Umbrel)
 

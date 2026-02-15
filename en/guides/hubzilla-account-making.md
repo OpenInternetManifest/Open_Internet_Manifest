@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - hubzilla account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 6
+title: "Create your first Hubzilla account"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Hubzilla is a powerful, decentralized platform with social networking, cloud storage, blogs, and nomadic identity — your data travels with you, wherever you go."
+slug: hubzilla-account-making
 ---
 # Guide – Create your first Hubzilla account (advanced social network)
 

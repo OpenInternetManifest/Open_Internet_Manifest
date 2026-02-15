@@ -5,7 +5,7 @@ order: 3
 title: "Account maken op Fosstodon (tech- en open-source community)"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Stap-voor-stap guide om Fosstodon account te maken."
-slug: element-migratie
+slug: fosstodon-account-maken
 ---
 # Guide – Account maken op Fosstodon (tech- en open-source community)
 

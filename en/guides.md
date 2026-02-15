@@ -1,224 +1,50 @@
 ---
 layout: default
 lang: en
-title: Guides
+title: All Guides
 ---
 
 <div class="guides-hero">
-  <h1 class="intro-title">Guides for the Open Internet</h1>
+  <h1 class="intro-title">Practical Guides</h1>
+  
   <h2 class="manifest-subtitle">
-    Practical steps to reclaim your digital sovereignty — start today.
+    Concrete steps to break free from Big Tech and take back ownership of your communication and data.
   </h2>
+  
   <p class="intro-text">
-    Step-by-step instructions to run your own node, switch to open alternatives, and break free from gatekeepers.
+    From simple account creation to running your own server — start wherever you are.
   </p>
 </div>
 
 <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/guide-01" class="guide-card">
-    <div class="guide-icon">💾</div>
-    <h3>Create your first sovereign node</h3>
-    <p>Step-by-step: Raspberry Pi + Umbrel – your personal server in 30 minutes. Beginner level.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
 
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/chaos-account-making" class="guide-card">
-    <div class="guide-icon">😶‍🌫️</div>
-    <h3>Create an account on Chaos.social</h3>
-    <p>Chaos.social is a Mastodon instance focused on privacy en bla blan bla bla bla</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
+  {% assign guide_pages = site.pages | where_exp: "p", "p.dir == '/en/guides/'" | sort: "order" %}
 
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/element-migration-coming-soon" class="guide-card">
-    <div class="guide-icon">🧾</div>
-    <h3>Element/whatsApp migration</h3>
-    <p>-coming soon-</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-  
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
+  {% for guide in guide_pages %}
+    {% if guide.url != page.url and guide.title and guide.title != "" %}
+      <a href="{{ guide.url | relative_url }}" class="guide-card" data-difficulty="{{ guide.difficulty | default: 'beginner' }}">
+        <div class="guide-header">
+          <span class="guide-number">{{ forloop.index }}</span>
+          <h3>{{ guide.title }}</h3>
+        </div>
+        <p class="guide-teaser">{{ guide.teaser | default: "Practical step-by-step guide." }}</p>
+        
+        <span class="difficulty-banner {{ guide.difficulty | default: 'beginner' }}">
+          {% case guide.difficulty %}
+            {% when 'beginner' %}Beginner
+            {% when 'intermediate' %}Intermediate
+            {% when 'advanced' %}Advanced
+            {% else %}Beginner
+          {% endcase %}
+        </span>
+        
+        <span class="read-more">Read the guide →</span>
+      </a>
+    {% endif %}
+  {% endfor %}
 
-<div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
+  {% if guide_pages.size == 0 or guide_pages.size == 1 %}
+    <p style="color: #f66; text-align:center;">(debug) No guides found or only this overview page itself.</p>
+  {% endif %}
 
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
-
-  <div class="guides-grid">
-  <a href="{{ site.baseurl }}/en/guides/" class="guide-card">
-    <div class="guide-icon"></div>
-    <h3></h3>
-    <p>.</p>
-    <div class="guide-meta">
-      <span class="difficulty">Beginner</span>
-      <span class="tag"></span>
-      <span class="tag"></span>
-    </div>
-    <span class="read-more">Start guide →</span>
-  </a>
 </div>

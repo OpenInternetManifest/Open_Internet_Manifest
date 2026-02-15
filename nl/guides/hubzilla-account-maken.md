@@ -5,7 +5,7 @@ order: 5
 title: "Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Hubzilla is een krachtig, gedecentraliseerd platform met sociale netwerken, cloud-opslag, blogs en nomadische identiteit – je data reist met je mee, waar je ook heen gaat."
-slug: element-migratie
+slug: hubzilla-account-maken
 ---
 # Guide – Je eerste Hubzilla-account maken (geavanceerd sociaal netwerk)
 

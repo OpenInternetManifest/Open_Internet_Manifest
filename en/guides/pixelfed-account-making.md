@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - pixelfix account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 12
+title: "Create your first Pixelfed account"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Pixelfed is the decentralized alternative to Instagram: share photos, no algorithm controlling your feed, no ads, full data portability."
+slug: pixelfed-account-making
 ---
 # Guide – Create your first Pixelfed account (Instagram alternative)
 

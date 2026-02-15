@@ -4,8 +4,8 @@ lang: nl
 order: 10
 title: "Je eerste Pixelfed-account maken (Instagram-alternatief)"
 difficulty: beginner      # of: gemiddeld / gevorderd
-teaser: "Pixelfed is het gedecentraliseerde alternatief voor Instagram: foto's delen, geen algoritme dat je feed stuurt, geen advertenties, volledige data-portability."
-slug: element-migratie
+teaser: "Pixelfed iselement het gedecentraliseerde alternatief voor Instagram: foto's delen, geen algoritme dat je feed stuurt, geen advertenties, volledige data-portability."
+slug: pixelfed-account-maken
 ---
 # Guide – Je eerste Pixelfed-account maken (Instagram-alternatief)
 

@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: guides - lemmy account making
-# donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
-# donation_text: "Help the writer of this part" # Optional, else default text
+order: 7
+title: "Create your first Lemmy account"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "Lemmy is the decentralized alternative to Reddit: forums (sublemmies), communities, and discussions — without a central owner or algorithm controlling your feed."
+slug: lemmy-account-making
 ---
 # Guide – Create your first Lemmy account (Reddit alternative)
 

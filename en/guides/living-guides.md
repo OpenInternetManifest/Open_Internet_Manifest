@@ -1,9 +1,11 @@
 ---
 layout: default
 lang: en
-title: Guides – Living Guides
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Or Monero/BTC address, Ko-fi, etc.
-# donation_text: "Support the author of this thesis" # Optional, otherwise default text
+order: 500
+title: "The Guides are Living"
+difficulty: beginner      # of: Intermediate  / Advanced
+teaser: "It is a commons, a shared garden that grows as long as we keep building on it."
+slug: living-guides
 ---
 # The Guides are Living
 
