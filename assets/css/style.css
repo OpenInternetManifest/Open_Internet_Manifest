@@ -1400,10 +1400,10 @@ details li {
 .difficulty-banner.Beginner   { background: #4CAF50; }   /* groen */
 
 .difficulty-banner.gemiddeld,
-.difficulty-banner.Intermediate { background: #FF9800; } /* oranje */
+.difficulty-banner.intermediate { background: #FF9800; } /* oranje */
 
 .difficulty-banner.gevorderd,
-.difficulty-banner.Advanced   { background: #F44336; }   /* rood */
+.difficulty-banner.advanced   { background: #F44336; }   /* rood */
 
 /* Inhoud wrapper */
 .guide-content {
