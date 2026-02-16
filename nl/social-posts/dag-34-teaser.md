@@ -1,7 +1,7 @@
 ---
 layout: thesis
 lang: nl
-title: social-posts - dag 34 De nieuwe look – bouwen in plaats van klagen
+title: social-posts - dag 34 Vanavond: stilte voor de onthulling
 previous_social: "/nl/social-posts/dag-34-rvn"
 next_social: "/nl/social-posts/levend-manifest"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.

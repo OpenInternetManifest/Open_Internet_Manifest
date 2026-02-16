@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 14 - portable reputation
+lang: en                 # of en voor de Engelse versie
+title: "Portable identity and reputation"
+order: 14
+teaser: "You build reputation in one place and it travels with you — as it should."
 next_thesis: /en/theses/thesis-15
 previous_thesis: /en/theses/thesis-13
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

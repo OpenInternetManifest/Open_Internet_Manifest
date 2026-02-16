@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 8 - an open internet liberates voice
+lang: en                 # of en voor de Engelse versie
+title: "An open internet frees your voice and creativity from arbitrary control"
+order: 8
+teaser: "Imagine: you build an app that connects small farmers directly with buyers, without a big platform taking commission"
 next_thesis: /en/theses/thesis-09
 previous_thesis: /en/theses/thesis-07
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

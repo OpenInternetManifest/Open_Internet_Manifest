@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 29 - not an utopia
+lang: en                 # of en voor de Engelse versie
+title: "The open internet is no utopia — it is a choice we make every day"
+order: 29
+teaser: "Openness is maintained through daily choices and actions, not wishes."
 next_thesis: /en/theses/thesis-30
 previous_thesis: /en/theses/thesis-28
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

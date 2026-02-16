@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 3 - In the real world we would not accept
+lang: en                 # of en voor de Engelse versie
+title: "In the real world, no one would accept what we’ve been swallowing online for years"
+order: 3
+teaser: "What is unacceptable offline has become normal online — time to stop accepting it."
 next_thesis: /en/theses/thesis-04
 previous_thesis: /en/theses/thesis-02
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

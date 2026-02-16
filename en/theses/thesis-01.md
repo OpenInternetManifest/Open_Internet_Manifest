@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 1- Internet is not dead
+lang: en                 # of en voor de Engelse versie
+title: "The internet is not dead; it has been hijacked by five gatekeepers"
+order: 1
+teaser: "The internet promised freedom, but five gatekeepers now control access, content, and truth."
 next_thesis: /en/theses/thesis-02
 previous_thesis: /en/theses/thesis-00
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 27 - teach
+lang: en                 # of en voor de Engelse versie
+title: "Teach one person an open alternative this week"
+order: 27
+teaser: "Your invitation today is tomorrow’s network effect."
 next_thesis: /en/theses/thesis-28
 previous_thesis: /en/theses/thesis-26
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

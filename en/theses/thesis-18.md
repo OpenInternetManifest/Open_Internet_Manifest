@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 18- searching
+lang: en                 # of en voor de Engelse versie
+title: "Searching without Google"
+order: 18
+teaser: "Google does not decide what is true — Google decides what you get to see."
 next_thesis: /en/theses/thesis-19
 previous_thesis: /en/theses/thesis-17
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

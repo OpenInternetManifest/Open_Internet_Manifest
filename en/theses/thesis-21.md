@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 21 - first step
+lang: en                 # of en voor de Engelse versie
+title: "Practical first step"
+order: 21
+teaser: "The fediverse is waiting for you — and it's easier than you think."
 next_thesis: /en/theses/thesis-22
 previous_thesis: /en/theses/thesis-20
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

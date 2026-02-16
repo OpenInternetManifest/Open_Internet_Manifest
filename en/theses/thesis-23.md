@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 23 - own protocol
+lang: en                 # of en voor de Engelse versie
+title: "No cloud is safer than your own cloud."
+order: 23
+teaser: "Put your photos and files under your own control"
 next_thesis: /en/theses/thesis-24
 previous_thesis: /en/theses/thesis-22
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

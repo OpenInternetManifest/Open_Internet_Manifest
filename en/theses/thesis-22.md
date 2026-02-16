@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 22 - switch to element
+lang: en                 # of en voor de Engelse versie
+title: "Replace WhatsApp with Element"
+order: 22
+teaser: "WhatsApp is not inevitable — it is just still normal."
 next_thesis: /en/theses/thesis-23
 previous_thesis: /en/theses/thesis-21
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

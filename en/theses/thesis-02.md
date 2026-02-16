@@ -1,7 +1,10 @@
 ---
 layout: thesis
-lang: en
-title: theses 2- Freedom was something from the 80's
+lang: en                 # of en voor de Engelse versie
+title: "The enclosers romanticize the past to sell nostalgia instead of real freedom"
+order: 2
+teaser: "Those who enclosed the open internet are now selling you the story that true freedom was something from the eighties"
+
 next_thesis: /en/theses/thesis-03
 previous_thesis: /en/theses/thesis-01
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

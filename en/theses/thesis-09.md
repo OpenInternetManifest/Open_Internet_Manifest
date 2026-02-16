@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 9 - economic freedom
+lang: en                 # of en voor de Engelse versie
+title: "An open internet makes true economic freedom possible again"
+order: 9
+teaser: "In the past, you could build a website, offer a service, or start a community and earn money — without anyone skimming 15 to 30 percent of your revenue."
 next_thesis: /en/theses/thesis-10
 previous_thesis: /en/theses/thesis-08
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

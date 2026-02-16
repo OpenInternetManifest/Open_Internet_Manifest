@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 17 - video content
+lang: en                 # of en voor de Engelse versie
+title: "Video and content without YouTube or TikTok"
+order: 17
+teaser: "YouTube and TikTok are not laws of nature, but choices by a handful of companies."
 next_thesis: /en/theses/thesis-18
 previous_thesis: /en/theses/thesis-16
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

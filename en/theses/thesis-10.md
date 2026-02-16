@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 10 - digital cage 
+lang: en                 # of en voor de Engelse versie
+title: "The digital cage is expanding into the real world"
+order: 10
+teaser: "What we have accepted online for years — mandatory accounts, permanent surveillance, algorithms deciding what you may see or do "
 next_thesis: /en/theses/thesis-11
 previous_thesis: /en/theses/thesis-09
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

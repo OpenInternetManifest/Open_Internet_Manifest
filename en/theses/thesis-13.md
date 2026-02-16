@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 13 - You're data
+lang: en                 # of en voor de Engelse versie
+title: "Your data belongs to you, not to a platform"
+order: 13
+teaser: "Data sovereignty is not a luxury — it is the foundation of a free digital life."
 next_thesis: /en/theses/thesis-14
 previous_thesis: /en/theses/thesis-12
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

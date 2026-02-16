@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 26 - pay the builders
+lang: en                 # of en voor de Engelse versie
+title: "Pay the builders of the open internet"
+order: 26
+teaser: "One euro per month from a million people changes everything."
 next_thesis: /en/theses/thesis-27
 previous_thesis: /en/theses/thesis-25
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

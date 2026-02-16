@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 12 - protocols no one owns
+lang: en                 # of en voor de Engelse versie
+title: "Back to protocols that no one owns"
+order: 12
+teaser: "Email, the world wide web, and IRC still work without a single company in charge"
 next_thesis: /en/theses/thesis-13
 previous_thesis: /en/theses/thesis-11
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

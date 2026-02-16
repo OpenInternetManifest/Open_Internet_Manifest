@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 4 - gate is still open
+lang: en                 # of en voor de Engelse versie
+title: "the last gate is still open"
+order: 4
+teaser: "The five gatekeepers are hammering day and night: app stores are becoming stricter fortresses"
 next_thesis: /en/theses/thesis-05
 previous_thesis: /en/theses/thesis-03
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 6 - exit without building
+lang: en                 # of en voor de Engelse versie
+title: Exit without building is fleeing; building without exit is collaborating"
+order: 6
+teaser: "Those who only complain and walk away from the big platforms disappear into a void where no one ever finds them."
 next_thesis: /en/theses/thesis-07
 previous_thesis: /en/theses/thesis-05
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

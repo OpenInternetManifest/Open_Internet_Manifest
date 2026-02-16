@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 15- social networks no central owner
+lang: en                 # of en voor de Engelse versie
+title: "Social networks without a central owner"
+order: 15
+teaser: "You can always move with all your followers, posts, and media — no more hostage-taking."
 next_thesis: /en/theses/thesis-16
 previous_thesis: /en/theses/thesis-14
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

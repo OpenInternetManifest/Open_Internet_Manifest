@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 0 - introduction
+lang: en                 # of en voor de Engelse versie
+title: "introduction"
+order: 500  
+teaser: ""
 next_thesis: /en/theses/thesis-01
 previous_thesis: 
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

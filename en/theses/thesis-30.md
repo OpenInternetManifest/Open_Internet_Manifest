@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 30 - only the beginning
+lang: en                 # of en voor de Engelse versie
+title: "This manifest is only the beginning"
+order: 30
+teaser: "The real work starts now — join, contribute, build together."
 next_thesis: /en/theses/thesis-00
 previous_thesis: /en/theses/thesis-29
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

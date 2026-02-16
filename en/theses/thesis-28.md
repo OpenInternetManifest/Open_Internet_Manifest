@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 28 - Demand interoperability
+lang: en                 # of en voor de Engelse versie
+title: "Companies and governments: demand interoperability and open standards"
+order: 28
+teaser: "True openness requires mandatory interoperability — force platforms to play nice."
 next_thesis: /en/theses/thesis-29
 previous_thesis: /en/theses/thesis-27
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

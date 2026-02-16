@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 20 - Building communities
+lang: en                 # of en voor de Engelse versie
+title: "From collecting followers to building real communities<"
+order: 20
+teaser: "10 million followers you don't know is not power — it is a hostage situation."
 next_thesis: /en/theses/thesis-21
 previous_thesis: /en/theses/thesis-19
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

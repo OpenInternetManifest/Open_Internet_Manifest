@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 24 - digital identity
+lang: en                 # of en voor de Engelse versie
+title: "Claim your digital identity with Nostr"
+order: 24
+teaser: "One key, valid everywhere, yours forever."
 next_thesis: /en/theses/thesis-25
 previous_thesis: /en/theses/thesis-23
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

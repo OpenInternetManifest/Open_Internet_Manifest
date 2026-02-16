@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 19 - sending money
+lang: en                 # of en voor de Engelse versie
+title: "Sending money without bank or Big Tech"
+order: 19
+teaser: "You can already send a euro, a dollar, or a satoshi to anyone in the world"
 next_thesis: /en/theses/thesis-20
 previous_thesis: /en/theses/thesis-18
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

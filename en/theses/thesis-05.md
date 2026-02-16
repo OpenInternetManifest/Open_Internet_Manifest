@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 5 - A truly open internet gives freedom
+lang: en                 # of en voor de Engelse versie
+title: ">Only a truly open internet provides true digital freedom"
+order: 5
+teaser: "Decentralization” within their apps and stores only builds more luxurious cells with better Wi-Fi"
 next_thesis: /en/theses/thesis-06
 previous_thesis: /en/theses/thesis-04
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

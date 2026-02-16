@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 11 - this manifesto
+lang: en                 # of en voor de Engelse versie
+title: "This manifesto is not a decree from above; it is a fire that burns in open conversations."
+order: 11
+teaser: "It does not arise in a boardroom, not in a government building."
 next_thesis: /en/theses/thesis-12
 previous_thesis: /en/theses/thesis-10
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 16- messaging apps
+lang: en                 # of en voor de Engelse versie
+title: "Messaging apps without Big Tech"
+order: 16
+teaser: "Want to switch to a privacy-friendly messenger?"
 next_thesis: /en/theses/thesis-17
 previous_thesis: /en/theses/thesis-15
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

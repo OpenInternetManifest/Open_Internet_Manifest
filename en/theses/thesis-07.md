@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 7 - the open internet restores power
+lang: en                 # of en voor de Engelse versie
+title: "An open internet restores privacy’s original power"
+order: 7
+teaser: "In the real world, you assume that a conversation behind your own door remains yours."
 next_thesis: /en/theses/thesis-08
 previous_thesis: /en/theses/thesis-06
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.

@@ -1,7 +1,9 @@
 ---
 layout: thesis
-lang: en
-title: theses 25 - community node
+lang: en                 # of en voor de Engelse versie
+title: "Join (or start) a local community node"
+order: 25
+teaser: "Start small. Start local. Start today."
 next_thesis: /en/theses/thesis-26
 previous_thesis: /en/theses/thesis-24
 # donation_link: "https://buy.stripe.com/example" # Or Monero/BTC adress, Ko-fi, etc.
