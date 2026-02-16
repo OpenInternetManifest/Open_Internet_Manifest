@@ -136,4 +136,7 @@ lang: en
 
 **Day 33**     
 → [Epstein files as a boomerang flying back](/en/social-posts/day-33-rvn)       
-→ [Sun Tzu in full glory](/en/social-posts/day-31-teaser) 
+
+**Day 34**     
+→ [The new look – building instead of complaining](/en/social-posts/day-34-rvn)       
+→ [Tonight: silence before the revelation](/en/social-posts/day-34-teaser=x) 

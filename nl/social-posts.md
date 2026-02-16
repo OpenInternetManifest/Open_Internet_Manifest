@@ -146,4 +146,7 @@ lang: nl
 
 **Dag 33**  
 → [De moeder van alle narratieven](/nl/social-posts/dag-33-rvn)   
-→ [Sun Tzu in volle glorie](/nl/social-posts/dag-31-teaser)  
+
+**Dag 34**  
+→ [De nieuwe look – bouwen in plaats van klagen](/nl/social-posts/dag-34-rvn)   
+→ [ Vanavond: stilte voor de onthulling](/nl/social-posts/dag-34-teaser)  
