@@ -3,7 +3,7 @@ layout: thesis
 lang: en
 title: social-posts - Day 33 The mother of all narratives
 previous_social: "/en/social-posts/day-32-teaser-x"
-next_social: "/en/social-posts/living-manifesto"
+next_social: "/en/social-posts/day-34-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
