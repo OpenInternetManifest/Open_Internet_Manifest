@@ -150,3 +150,7 @@ lang: nl
 **Dag 34**  
 → [De nieuwe look – bouwen in plaats van klagen](/nl/social-posts/dag-34-rvn)   
 → [ Vanavond: stilte voor de onthulling](/nl/social-posts/dag-34-teaser)  
+
+**Dag 35**  
+→ [Epstein's blackmail-machine – het onzichtbare touw](/nl/social-posts/dag-35-rvn)   
+→ [ Vanavond: stilte voor de onthulling](/nl/social-posts/dag-34-teaser)  

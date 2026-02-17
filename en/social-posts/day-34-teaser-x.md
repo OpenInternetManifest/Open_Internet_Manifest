@@ -3,7 +3,7 @@ layout: thesis
 lang: en
 title: social-posts - Day 34 Tonight; silence before the revelation
 previous_social: "/en/social-posts/day-34-rvn"
-next_social: "/en/social-posts/living-manifesto"
+next_social: "/en/social-posts/day-35-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

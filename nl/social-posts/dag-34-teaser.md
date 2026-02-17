@@ -1,9 +1,9 @@
 ---
 layout: thesis
 lang: nl
-title: social-posts - dag 34 Vanavond: stilte voor de onthulling
+title: social-posts - dag 34 Vanavond; stilte voor de onthulling
 previous_social: "/nl/social-posts/dag-34-rvn"
-next_social: "/nl/social-posts/levend-manifest"
+next_social: "/nl/social-posts/dag-35-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
