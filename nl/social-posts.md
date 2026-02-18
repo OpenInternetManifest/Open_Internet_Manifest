@@ -153,4 +153,8 @@ lang: nl
 
 **Dag 35**  
 → [Epstein's blackmail-machine – het onzichtbare touw](/nl/social-posts/dag-35-rvn)   
+
+
+**Dag 36**  
+→ [RVN: Epstein → Demmink → Baybaşin – het patroon van stilte](/nl/social-posts/dag-36-rvn)   
 → [ Vanavond: stilte voor de onthulling](/nl/social-posts/dag-34-teaser)  

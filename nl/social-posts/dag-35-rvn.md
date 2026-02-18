@@ -2,8 +2,8 @@
 layout: thesis
 lang: nl
 title: social-posts - dag 35 Epstein's blackmail-machine – het onzichtbare touw
-previous_social: "/nl/social-posts/dag-34-teaser"
-next_social: "/nl/social-posts/levend-manifest"
+previous_social: "/nl/social-posts/dag-35-rvn"
+next_social: "/nl/social-posts/dag-36-rvn"
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
