@@ -6,3 +6,4 @@ Op het huidige internet word je geteleporteerd naar een paar gesloten pretparken
 Dit manifest wil een internet teruggeven met echte wegen, pleinen en paden – een internet waar jij weer zelf de route kiest.
 
 Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouwd en eigendom van de gemeenschap.
+Test
