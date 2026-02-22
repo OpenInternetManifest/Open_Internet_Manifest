@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 4
 rvn_title: "Een monteur in Amsterdam"

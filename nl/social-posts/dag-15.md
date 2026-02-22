@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 15
 rvn_title: "Minneapolis mall"

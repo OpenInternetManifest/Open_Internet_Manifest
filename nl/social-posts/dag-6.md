@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 6
 rvn_title: "Nederland verdedigt Groenland"

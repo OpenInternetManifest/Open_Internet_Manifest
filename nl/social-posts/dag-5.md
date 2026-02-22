@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 
 rvn_title: Starlink gratis voor Iran"

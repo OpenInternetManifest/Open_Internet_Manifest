@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 36
 rvn_title: "Epstein → Demmink → Baybaşin"

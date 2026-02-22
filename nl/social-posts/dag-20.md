@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 20
 rvn_title: "Utrecht Bollendak: viraal filmpje"

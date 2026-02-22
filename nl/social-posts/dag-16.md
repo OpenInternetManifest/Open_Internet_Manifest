@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 16
 rvn_title: "Het 'mostly peaceful' patroon"

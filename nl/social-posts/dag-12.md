@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 12
 rvn_title: "Toeslagenaffaire"

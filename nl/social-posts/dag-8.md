@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 8
 rvn_title: "Verifieerbaarheid"

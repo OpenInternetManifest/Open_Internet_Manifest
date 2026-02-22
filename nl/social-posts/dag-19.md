@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 19
 rvn_title: "DigiD in Amerikaanse handen"

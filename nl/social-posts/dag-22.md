@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 22
 rvn_title: "Warp Speed: Trump's gedwongen vaccin-push"

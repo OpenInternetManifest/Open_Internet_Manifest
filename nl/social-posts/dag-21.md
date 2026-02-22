@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 21
 rvn_title: "Israël-Palestina & Iran"

@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 10
 rvn_title: "EU-blokkade van Odysee"

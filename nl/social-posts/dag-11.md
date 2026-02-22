@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 11
 rvn_title: "Van praatgroepje in heel Europa"

@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 35
 rvn_title: "Epstein's blackmail-machine"

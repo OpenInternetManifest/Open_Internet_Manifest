@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 25
 rvn_title: "Obama, Iran-cash"

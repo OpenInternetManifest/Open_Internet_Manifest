@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 26
 rvn_title: "De laag boven de Rockefellers"

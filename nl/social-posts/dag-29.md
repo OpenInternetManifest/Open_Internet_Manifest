@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 29
 rvn_title: "De cirkel sluit zich"

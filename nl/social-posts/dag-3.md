@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 3
 rvn_title: "Verbanning Dutch Travel Maniac"

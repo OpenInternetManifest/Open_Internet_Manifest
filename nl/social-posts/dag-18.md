@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 18
 rvn_title: "Holocaustherdenking 2026"

@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 1
 rvn_title: "Het vaste patroon bij grote incidenten"

@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 # hashes for later use script
 website_sha256: ""        # site-versie

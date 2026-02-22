@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 31
 rvn_title: "Woorden wegen niet meer op wat ze zeggen"

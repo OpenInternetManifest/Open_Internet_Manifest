@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 17
 rvn_title: "Walz' Rookgordijnen Nu Realiteit"

@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 32
 rvn_title: "Sun Tzu voltooid"

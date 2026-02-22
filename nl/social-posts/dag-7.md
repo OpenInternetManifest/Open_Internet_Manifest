@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 7
 rvn_title: "Polarisatie als wapen"

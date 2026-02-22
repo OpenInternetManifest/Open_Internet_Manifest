@@ -1,5 +1,5 @@
 ---
-layout: social-post
+layout: social-posts
 lang: nl
 day: 33
 rvn_title: "Waarom verdeeldheid de echte macht is"
