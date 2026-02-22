@@ -117,7 +117,7 @@
 <main id="content" class="main-content" role="main">
 
   <!-- Automatische previous/next pijlen -->
-  <div class="thesis-navigation-arrows">
+  <div class="social-post-navigation-arrows">
     {% assign all_posts = site.pages | where_exp: "p", "p.dir == page.dir" | sort: "day" %}
 
     {% assign current_index = nil %}
@@ -147,7 +147,56 @@
     {% endif %}
   </div>
 
-  <div class="thesis-content">
+  <div class="social-post-content">
+    {{ content }}
+  </div>
+
+  {% include reactions.html %}
+  
+  {% include donation.html %}
+
+  {% assign lang = page.lang | default: 'NL' | upcase %}
+  {% include integrity-check-{{ lang }}.html %}
+
+  {% include page-footer.html %}
+
+  <!-- GoatCounter -->
+  <script data-goatcounter="https://openinternetmanifest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</main><main id="content" class="main-content" role="main">
+
+  <!-- Automatische previous/next pijlen -->
+  <div class="social-post-navigation-arrows">
+    {% assign all_posts = site.pages | where_exp: "p", "p.dir == page.dir" | sort: "day" %}
+
+    {% assign current_index = nil %}
+    {% for p in all_posts %}
+      {% if p.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if current_index != nil %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign next_index = current_index | plus: 1 %}
+
+      {% if prev_index >= 0 %}
+        {% assign prev_post = all_posts[prev_index] %}
+        <a href="{{ prev_post.url | relative_url }}" class="nav-arrow nav-arrow-left" aria-label="Vorige post">
+          ‹
+        </a>
+      {% endif %}
+
+      {% if next_index < all_posts.size %}
+        {% assign next_post = all_posts[next_index] %}
+        <a href="{{ next_post.url | relative_url }}" class="nav-arrow nav-arrow-right" aria-label="Volgende post">
+          ›
+        </a>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  <div class="social-post-content">
     {{ content }}
   </div>
 
