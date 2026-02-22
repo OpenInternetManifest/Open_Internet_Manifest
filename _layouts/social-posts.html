@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'nl' | downcase }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% seo %}
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  
+  <!-- Centrale hashes + hash-verify JS -->
+  <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>
+</head>
+<body>
+  
+<nav class="main-nav">
+  <div class="nav-container">
+    <!-- Terug knop – altijd zichtbaar links -->
+    <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
+      ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
+    </a>
+
+    <div class="nav-logo-wrapper">
+      <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
+      <span class="visitor-counter" title="Bezoekers sinds lancering">
+        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="Bezoekers teller" style="border:none; height:1.8em !important; margin-left:0.8em;">
+      </span>
+    </div>
+
+    <!-- Desktop links met dropdowns -->
+    <div class="nav-links desktop-only">
+      {% assign current_lang = page.lang | default: 'nl' | downcase %}
+
+      <!-- Manifest met dropdown -->
+      <div class="nav-item has-dropdown">
+        <a href="{{ site.baseurl }}/{{ current_lang }}/manifest" class="nav-link">
+          {% if current_lang == 'en' %}Manifest{% else %}Manifest{% endif %}
+        </a>
+        <div class="dropdown-menu">
+          <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">All Theses</a>
+          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest" class="highlight">How it Started – Accu-Manifest ⚡</a>
+        </div>
+      </div>
+
+      <!-- Guides -->
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides" class="nav-link">Guides</a>
+
+      <!-- RVN / Socials -->
+      <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts" class="nav-link">
+        {% if current_lang == 'en' %}RVN{% else %}RVN{% endif %}
+      </a>
+
+      <!-- About met dropdown -->
+      <div class="nav-item has-dropdown">
+        <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}" class="nav-link">
+          {% if current_lang == 'en' %}About{% else %}Over{% endif %}
+        </a>
+        <div class="dropdown-menu">
+          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">How it Started ⚡</a>
+          <a href="#">Mission & Vision</a>
+          <a href="#">Contact / Join</a>
+        </div>
+      </div>
+
+      <!-- Verifier -->
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier" class="nav-link">Verifier</a>
+
+      <!-- Home -->
+      <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
+    </div>
+
+    <!-- Hamburger rechts -->
+    <div class="nav-toggle-wrapper">
+      <button class="nav-toggle" aria-label="Menu openen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobiel menu -->
+    <div class="mobile-menu">
+      <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">Manifest / All Theses</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">How it Started – Accu-Manifest ⚡</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides">Guides</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts">RVN / Socials</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">About / Over</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner met overlay -->
+<header class="custom-header" role="banner">
+  <div class="banner">
+    <img src="{{ site.baseurl }}/assets/images/banner-donker.jpg" alt="Open Internet Manifest">
+    <div class="overlay-text">
+      <h1>Open Internet Manifest</h1>
+      <p>
+        {% assign lang_code = page.lang | default: 'nl' | downcase %}
+        {% if lang_code == 'en' %}
+          English version · 100 theses for a free, open and unalienable internet
+        {% else %}
+          Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</header>
+
+<!-- Main content met automatische previous/next navigatie -->
+<main id="content" class="main-content" role="main">
+
+  <!-- Automatische previous/next pijlen -->
+  <div class="thesis-navigation-arrows">
+    {% assign all_posts = site.pages | where_exp: "p", "p.dir == page.dir" | sort: "day" %}
+
+    {% assign current_index = nil %}
+    {% for p in all_posts %}
+      {% if p.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if current_index != nil %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign next_index = current_index | plus: 1 %}
+
+      {% if prev_index >= 0 %}
+        {% assign prev_post = all_posts[prev_index] %}
+        <a href="{{ prev_post.url | relative_url }}" class="nav-arrow nav-arrow-left" aria-label="Vorige post">
+          ‹
+        </a>
+      {% endif %}
+
+      {% if next_index < all_posts.size %}
+        {% assign next_post = all_posts[next_index] %}
+        <a href="{{ next_post.url | relative_url }}" class="nav-arrow nav-arrow-right" aria-label="Volgende post">
+          ›
+        </a>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  <div class="thesis-content">
+    {{ content }}
+  </div>
+
+  {% include reactions.html %}
+  
+  {% include donation.html %}
+
+  {% assign lang = page.lang | default: 'NL' | upcase %}
+  {% include integrity-check-{{ lang }}.html %}
+
+  {% include page-footer.html %}
+
+  <!-- GoatCounter -->
+  <script data-goatcounter="https://openinternetmanifest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</main>
+
+<!-- JS voor mobiel menu -->
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('.mobile-menu');
+  const navContainer = document.querySelector('.nav-container');
+
+  if (toggle && menu) {
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      menu.classList.toggle('open');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (menu.classList.contains('open') && !menu.contains(e.target) && !toggle.contains(e.target)) {
+        menu.classList.remove('open');
+      }
+    });
+
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+      });
+    });
+  }
+</script>
+
+</body>
+</html>

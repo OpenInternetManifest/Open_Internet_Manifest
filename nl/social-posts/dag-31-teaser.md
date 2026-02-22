@@ -1,9 +1,11 @@
 ---
-layout: thesis
+layout: social-post
 lang: nl
-title: social-posts - dag 31 Sun Tzu in volle glorie
-previous_social: "/nl/social-posts/dag-31-rvn"
-next_social: "/nl/social-posts/dag-32-rvn"
+# hashes for later use script
+website_sha256: ""        # site-versie
+social_x_sha256: ""       # X-specifieke versie (optioneel)
+social_fb_sha256: ""      # FB-specifieke versie (optioneel)
+social_share_sha256: ""   # hash van de gekopieerde share-tekst
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---

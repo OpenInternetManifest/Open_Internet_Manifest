@@ -1,14 +1,16 @@
 ---
-layout: thesis
+layout: social-posts
 lang: en
-title: social-posts - Day 1 Iran
-previous_social: "/en/social-posts/day-3-rvn"
-next_social: "/en/social-posts/day-4-rvn"
+# hashes for later use script
+website_sha256: ""        # site-versie
+social_x_sha256: ""       # X-specifieke versie (optioneel)
+social_fb_sha256: ""      # FB-specifieke versie (optioneel)
+social_share_sha256: ""   # hash van de gekopieerde share-tekst
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 
-🇬🇧 Day 3 – Freedom starts today  
+🇬🇧 Day 3 – Freedom starts today 
 No need to wait for a perfect internet.  
 Start now: step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more.  
 Practical freedom in 10 minutes. 🚀

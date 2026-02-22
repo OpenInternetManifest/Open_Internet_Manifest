@@ -1,12 +1,15 @@
 ---
-layout: thesis
+layout: social-posts
 lang: en
-title: social-posts - day 1 fixed patterns
-previous_social: "/en/social-posts/"
-next_social: "/en/social-posts/day-1-teaser"
+# hashes for later use script
+website_sha256: ""        # site-versie
+social_x_sha256: ""       # X-specifieke versie (optioneel)
+social_fb_sha256: ""      # FB-specifieke versie (optioneel)
+social_share_sha256: ""   # hash van de gekopieerde share-tekst
 # donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
 # donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
+
 Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 
 The narrative often says:  
