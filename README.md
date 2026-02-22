@@ -8,3 +8,4 @@ Dit manifest wil een internet teruggeven met echte wegen, pleinen en paden – e
 Een levend manifest voor een vrij, open en gedecentraliseerd internet – gebouwd en eigendom van de gemeenschap.
 Test
 MTU 1480 test
+MTU 1480 test
