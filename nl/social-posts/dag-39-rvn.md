@@ -2,7 +2,7 @@
 layout: social-posts
 lang: nl
 # hashes for later use script
-website_sha256: "6d06bcfb74832790ce1ede8c75972aaecd6fc78c82dc16bdac35d8e40db507dc"        # site-versie
+website_sha256: "a6eee0e09ecf84abeb0274acafde3d57b8fbf44645c74d4ba32c98776ed326bd"        # site-versie
 social_x_sha256: ""       # X-specifieke versie (optioneel)
 social_fb_sha256: "81a04c00193392f27f49b79700b2959a473ab0325227942f283727778e47e63b"      # FB-specifieke versie (optioneel)
 social_share_sha256: ""   # hash van de gekopieerde share-tekst
