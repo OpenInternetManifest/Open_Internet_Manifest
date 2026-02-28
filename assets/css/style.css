@@ -1503,63 +1503,6 @@ details li {
   color: #66b3ff;
 }
 }
-.social-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
-}
-
-
-
-.social-card:hover {
-  transform: translateY(-3px);
-  border-color: #66b3ff50;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.45);
-}
-
-/* Nummer linksboven – hoger en met meer ruimte */
-.social-number {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.8rem;
-  font-size: 1.15rem !important;
-  font-weight: bold;
-  color: #66b3ff;
-  background: #ffffff0d;
-  padding: 0.3rem 0.7rem;
-  border-radius: 6px;
-  min-width: 2.4rem;
-  text-align: center;
-  z-index: 2;
-}
-.teaser-preview strong {
-  color: #88c0ff;
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
-.teaser-preview strong a {
-  color: #66b3ff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.teaser-preview strong a:hover {
-  text-decoration: underline;
-}
-
-.teaser-preview small {
-  display: block;
-  margin-top: 0.2rem;
-  opacity: 0.9;
-  line-height: 1.3;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 /* ==========================================================================
    Social Post pagina – individuele RVN / Teaser (layout: social-post)
    ========================================================================== */
@@ -1673,10 +1616,11 @@ details li {
     padding-left: 0.5rem;
   }
 }
+
 /* ====================== SOCIAL POST NAVIGATIE PIJLEN ====================== */
 .social-post-navigation-arrows {
   position: fixed;
-  top: calc(50% + 200px);
+  top: calc(50% + 200px);  /* zelfde als theses */
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -1728,27 +1672,52 @@ details li {
     padding: 0 2em !important;
   }
 }
-/* ====================== SOCIAL CARD ====================== */
+/* ====================== SOCIAL GRID & CARDS ====================== */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
 .social-card {
   display: flex;
   flex-direction: column;
-  min-height: 320px;           /* totale card hoogte – pas aan tot alles stabiel is */
   background: linear-gradient(to bottom, #141426, #0f0f1a);
   border: 1px solid #222;
-  border-radius: 8px;
-  padding: 1.2rem;
-  transition: all 0.15s ease;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  transition: all 0.2s ease;
+  min-height: 340px;           /* vaste card hoogte – voorkomt zakken */
+  position: relative;
+  overflow: hidden;
+}
+
+.social-card:hover {
+  border-color: #444;
+  box-shadow: 0 4px 20px rgba(102, 179, 255, 0.1);
+  transform: translateY(-4px);
 }
 
 .social-header {
   margin-bottom: 0.8rem;
 }
 
+.social-number {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #eee;                 /* wit/grijs tekst */
+  background: #222;            /* grijs/zwart box – zoals theses */
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  display: inline-block;
+}
+
 .social-card h3 {
   margin: 0 0 0.6rem 0;
-  font-size: 1.1rem;
-  line-height: 1.3;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  font-weight: 600;
 }
 
 .full-title-link {
@@ -1758,67 +1727,189 @@ details li {
 }
 
 .full-title-link:hover {
-  color: #66b3ff;
+  color: #88c0ff;
 }
 
 .rvn-content {
-  min-height: 140px;          /* iets hoger → divider stabiel */
-  margin-bottom: 0.6rem;
-  flex-grow: 1;
+  min-height: 130px;           /* vaste RVN-ruimte – divider blijft op vaste plek */
+  margin-bottom: 0.5rem;       /* minder witruimte onder RVN */
+  flex-grow: 1;                /* vult lege ruimte als teaser leeg */
 }
+
 .divider {
   height: 1px;
   background: linear-gradient(to right, #1e1e2e, #66b3ff, #1e1e2e);
-  margin: 0.6rem 0 0.8rem 0;   /* dichter bij RVN, vaste positie */
+  margin: 0.5rem 0 0.8rem 0;   /* dichter bij RVN, vaste positie */
   width: 100%;
-  display: block !important;   /* ALTIJD tonen, ook zonder teaser */
-
+  display: block !important;   /* ALTIJD tonen */
+}
 
 .teaser-preview {
   margin-top: 0.6rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #ccc;
-  min-height: 80px;           /* vaste ruimte, zelfs als leeg – divider blijft op vaste plek */
-}
-
-.teaser-preview:empty {
-  min-height: 80px;           /* als teaser helemaal leeg → hou ruimte */
+  min-height: 90px;            /* vaste teaser-ruimte – voorkomt zakken */
 }
 
 .social-teaser {
-  font-size: 0.9rem;
-  line-height: 1.4;
+  font-size: 0.95rem;
+  line-height: 1.45;
   color: #ccc;
 }
 
+/* Lege teaser voorkomt zakken */
+.teaser-preview:empty {
+  min-height: 90px;
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-card {
+    min-height: 300px;
+  }
+
+  .rvn-content {
+    min-height: 110px;
+  }
+
+  .teaser-preview {
+    min-height: 80px;
+  }
+  /* ====================== SOCIAL GRID & CARDS ====================== */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
 
 .social-card {
-  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
-  border: 1px solid #444;
-  border-radius: 10px;
-  padding: 1.1rem 1.1rem 1.2rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #141426, #0f0f1a);
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  transition: all 0.2s ease;
+  min-height: 340px;           /* vaste card hoogte – voorkomt zakken */
   position: relative;
-  min-height: 220px;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
-  transition: all 0.18s ease;
 }
-/* Social card fixes voor rustige divider & vaste hoogte */
-.social-card {
-  display: flex;
-  flex-direction: column;
-  min-height: 260px; /* vaste hoogte voor alle cards – pas aan smaak */
+
+.social-card:hover {
+  border-color: #444;
+  box-shadow: 0 4px 20px rgba(102, 179, 255, 0.1);
+  transform: translateY(-4px);
 }
-/* Titel RVN – vaste 3 regels, onder nummer */
+
+.social-header {
+  margin-bottom: 0.8rem;
+}
+
+.social-number {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #eee;                 /* wit/grijs tekst */
+  background: #222;            /* grijs/zwart box – zoals theses */
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  display: inline-block;
+}
+
 .social-card h3 {
-  font-size: 1.02rem !important;
+  margin: 0 0 0.6rem 0;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.full-title-link {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+}
+
+.full-title-link:hover {
+  color: #88c0ff;
+}
+
+.rvn-content {
+  min-height: 130px;           /* vaste RVN-ruimte – divider blijft op vaste plek */
+  margin-bottom: 0.5rem;       /* minder witruimte onder RVN */
+  flex-grow: 1;                /* vult lege ruimte als teaser leeg */
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, #1e1e2e, #66b3ff, #1e1e2e);
+  margin: 0.5rem 0 0.8rem 0;   /* dichter bij RVN, vaste positie */
+  width: 100%;
+  display: block !important;   /* ALTIJD tonen */
+}
+
+.teaser-preview {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  min-height: 90px;            /* vaste teaser-ruimte – voorkomt zakken */
+}
+
+.social-teaser {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #ccc;
+}
+
+/* Lege teaser voorkomt zakken */
+.teaser-preview:empty {
+  min-height: 90px;
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-card {
+    min-height: 300px;
+  }
+
+  .rvn-content {
+    min-height: 110px;
+  }
+
+  .teaser-preview {
+    min-height: 80px;
+  }
+}
+.teaser-preview strong {
+  color: #88c0ff;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.teaser-preview strong a {
+  color: #66b3ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.teaser-preview strong a:hover {
+  text-decoration: underline;
+}
+
+.teaser-preview small {
+  display: block;
+  margin-top: 0.2rem;
+  opacity: 0.9;
   line-height: 1.3;
-  margin: 3.0rem 0 0.5rem 0 !important;   /* nog meer ruimte → geen overlap */
-  padding-right: 1rem;
-  color: #e0e0e0;
   display: -webkit-box;
-  -webkit-line-clamp: 3;                   /* vaste 3 regels */
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
