@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: fd613d343d81fa563a905efe982018cc169600158d6ef1d52162dec232c37fc1
+social_share_sha256: ''
+day: 2
+teaser_title: Internet is niet dood
+teaser_url: /nl/social-posts/dag-2-teaser
+teaser_text: 'het is gevangen '
 ---
 🇳🇱 Dag 2 – Thesis 1: Internet is niet dood – het is gevangen  
 Thesis 1 slaat de spijker op z'n kop:  

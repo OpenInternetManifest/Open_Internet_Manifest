@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 31b16b6a585f8309aa6f3053d08bd03099dfbcf97fce811e020833d34d1bff95
+social_share_sha256: ''
+day: 10
+teaser_title: De Onzichtbare Riem
+teaser_url: /nl/social-posts/dag-10-teaser
+teaser_text: vrijheid is niet veiliger maken, maar loslaten
 ---
-
 🇳🇱 **Dag 10 – De Onzichtbare Riem** 🔗  
 Ze beloven *"transparantie"* en *"bescherming"* met AI-regels en chat-scans (EU 2026 stijl).  
 
@@ -39,7 +39,3 @@ The Open Internet Manifest wants no leash – just a web without one. 🌐
 
 Join: https://openinternetmanifest.org  
 #RealityVsNarrative #OpenInternet #InvisibleLeash #FreeInternet #openinternetmanifest
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de tekst in → check zelf.

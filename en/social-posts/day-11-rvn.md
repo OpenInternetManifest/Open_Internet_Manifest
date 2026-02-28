@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 4c6a0091fc80992ef3d51acc5e4447ea84566dbf32eadf909f6d4a1678c18243
+social_fb_sha256: be25bb5efe43b2872191c8afa10f8aac81ebef04e0a14038d082e49dbe0c9d44
+social_share_sha256: ''
+day: 11
+rvn_title: WEF
+rvn_url: /en/social-posts/day-11-rvn
+rvn_teaser: From talking shop across Europe to real power center
 ---
-
 **Reality vs Narrative** – From "talking shop" across Europe to real power center 🕶️❄️
 For years, Davos/WEF was dismissed in the Netherlands and across Europe as a mere **talking shop**: elites sipping champagne, making empty promises on a Swiss mountain. Rutte himself called it "just a talk club" – harmless networking, nothing more.
 Now? Trump leaks private texts from Rutte ("Dear Donald, incredible... committed on Greenland... Yours, Mark") and Macron ("My friend... I do not understand what you are doing on Greenland... G7 in Paris?").
@@ -23,7 +23,3 @@ Sometimes you can't just tell people. They have to see it themselves – includi
 We want an open web **without sunglasses** – no censorship on truth, no monopoly on info, no double tongues or hidden eyes we have to unmask ourselves. No pilot shades to hide weakness.
 Open Internet Manifest: https://openinternetmanifest.org
 #RealityVsNarrative #MacronSunglasses #DavosTalkShop #TrumpGreenland #SunTzu #OIM ❤️
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

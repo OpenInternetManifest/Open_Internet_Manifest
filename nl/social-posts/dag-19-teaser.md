@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: cdac94d6e746e38d0e9a07504fc02b3cb63226eeb8a8feac89a7b3ef1a9928f4
+social_share_sha256: ''
+day: 19
+teaser_title: Utrecht drama
+teaser_url: /nl/social-posts/dag-19-teaser
+teaser_text: ''
 ---
-
 **Dag 18 – Utrecht drama** 🚔😏  
 Vandaag, 29 januari.  
 Video's exploderen: agent schopt en slaat twee moslima's – narratief: "racisme!" en "politiegeweld!". Aangifte mishandeling + racisme volgt.  
@@ -35,8 +35,3 @@ Keep watching. 👀
 
 https://openinternetmanifest.org/en/social-posts  
 #RealityVsNarrative #Day19Teaser
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives spread fast — reality needs hashes.

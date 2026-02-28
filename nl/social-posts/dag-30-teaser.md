@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 338d3db5d39bc62169ca2505481a5f29b2aa5c17101edd2b6eef6e3600483f00
+social_share_sha256: ''
+day: 30
+teaser_title: 'Vanavond: de stilte voor de storm'
+teaser_url: /nl/social-posts/dag-30-teaser
+teaser_text: Morgen hervatten we de RVN-serie
 ---
 **Dag 30 Teaser – Vanavond: de stilte voor de storm** ☯️🔥  
 Morgen hervatten we de RVN-serie.
@@ -39,9 +40,4 @@ the **Giscus comment section** is now live on almost all pages 🚀
 → no algorithm, no gatekeeper – just open conversation 🌐  
 
 https://openinternetmanifest.org  
-#RVN #FactsOverFrames #RealityVsNarrative #Incitement #Day30Teaser  
-
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/hash-verifier  
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️.  
-Waarom narratieven wild worden... 🌀
+#RVN #FactsOverFrames #RealityVsNarrative #Incitement #Day30Teaser

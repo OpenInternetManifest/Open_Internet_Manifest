@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: da3434b37077d3a1f3c4ea8e1796c4cb6113ec8e5c320626b240b697514a5fbb
+social_share_sha256: ''
+day: 17
+rvn_title: Walz' Rookgordijnen Nu Realiteit
+rvn_url: /nl/social-posts/dag-17-rvn
+rvn_teaser: Dag 9 Voorspeld
 ---
-
 🇳🇱 **Dag 17 – Reality vs Narrative: Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit** 🌐🔥  
 Op Dag 9 waarschuwde ik al voor de daycare-fraude in Minnesota en de passiviteit van gouverneur Tim Walz: https://openinternetmanifest.org/nl/social-posts/dag-9-rvn  
 En al in het allereerste voorwoord (over Renee/Nicole Good) schreef ik hoe triest het is dat mensen omkomen voor of door gepushte narratieven: https://openinternetmanifest.org/.../soci.../rvn-nicole-good  
@@ -34,7 +34,3 @@ Walz dacht hij kon het narratief sturen – maar realiteit haalt altijd in. En i
 https://openinternetmanifest.org  
 Lees de hashes, check bronnen, denk zelf.  
 #RealiteitVsNarratief #OpenInternetManifest #Dag17 #Dag9Voorspeld #WalzRookgordijnen #GeenPoortwachters
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.

@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 56a639aae7aac6dfbd7ea33ecb3d99c0e57ab30c21b490b8363f9b9cc301db90
+social_share_sha256: ''
+day: 31
+rvn_title: Woorden wegen niet meer op wat ze zeggen
+rvn_url: /nl/social-posts/dag-31-rvn
+rvn_teaser: Maar op wat een narratief ervan maakt
 ---
 **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀  
 Waarom een rechter toegeeft: geen directe oproep tot geweld... maar toch schuldig.
@@ -41,8 +42,3 @@ Tot die tijd: lees de speeches zelf (niet alleen headlines). Wat hoor jij? Wat z
 
 https://openinternetmanifest.org  
 (thesis 12-14 over narratief-controle, poortwachters en de illusie van vrije expressie)
-
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/hash-verifier  
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️.  
-Waarom narratieven wild worden... 🌀

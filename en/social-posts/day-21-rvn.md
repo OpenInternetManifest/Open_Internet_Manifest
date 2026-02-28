@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 8c0089a7f6cac7245bdb769c3d44cd6d8360b771fea6bd8f708aa8b49c0aef29
+social_fb_sha256: 1548ffdfcb38ae04cdd34f1a9392e84c77ff44d8999eb51bf6c6665e309fd7ab
+social_share_sha256: ''
+day: 21
+rvn_title: 'Israel-Palestine & Iran:'
+rvn_url: /en/social-posts/day-21-rvn
+rvn_teaser: historical, religious roots vs modern narrative
 ---
 🇬🇧 **Day 21 – Israel-Palestine & Iran: historical, religious roots vs modern narrative** 🕊️📜
 When people reduce the Israel-Palestine conflict and Iran’s role to “occupation since 1948” or “European colonialism”, they miss the deeper picture. The roots go back centuries – historical, political and religious – and today’s layer involves US funding policies and the possible fall of the Iranian regime.

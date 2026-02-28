@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: a0cdf7df2e8fd6093280f5ca9ab1aca1fe04e89e24995f5e5608509999937a5e
+social_share_sha256: ''
+day: 5
+teaser_title: '2026'
+teaser_url: /nl/social-posts/dag--teaser
+teaser_text: wordt het kantelpunt
 ---
 🇳🇱 Dag 5 – 2026 wordt het kantelpunt  
 Vandaag weer een Iraniër op werk gesproken: jong stel, baby van 5 dagen. Geen contact meer met familie. Moeder heeft het zwaar. Beiden hopen dat het regime valt.  

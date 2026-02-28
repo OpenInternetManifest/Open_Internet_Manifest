@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 20f871fe69c5de68ed8a05b3586efb28739cbde8866f0a355d051affa13cb3f7
+social_share_sha256: ''
+day: 24
+teaser_title: 'Tonight: just breathe'
+teaser_url: /en/social-posts/day-24-teaser
+teaser_text: Tomorrow we look at a modern example
 ---
 🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  
 Earlier: 1913. Titanic clears opponents, FED and income tax pushed through, Rockefellers build on.  
@@ -26,9 +27,3 @@ Keep watching. 👀✨
 https://openinternetmanifest.org/en/social-posts  
 #RealityVsNarrative #Day23Teaser 
 @realDonaldTrump
- 
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives get wild — reality stays calm. 🕳️

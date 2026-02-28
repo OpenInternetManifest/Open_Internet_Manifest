@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: d4da407a6c375d90f1dd9c8a276c5fb70ead6208c316e6a6dbf7f8178088f1a9
+social_share_sha256: ''
+day: 2
+rvn_title: Iran
+rvn_url: /nl/social-posts/dag-2-rvn
+rvn_teaser: Censuur en internetblackouts zijn soms nodig
 ---
 Realiteit vs. Narratief – Het Open Internet Manifest (Iran editie).
 Het narratief zegt:  

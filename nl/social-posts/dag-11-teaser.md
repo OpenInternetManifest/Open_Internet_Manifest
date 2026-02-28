@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: d139708dba0c3bf0e8a407899c7aac9bf3ba832bae8f77264cfd94975ffc873d
+social_share_sha256: ''
+day: 11
+teaser_title: De Grote Splitsing
+teaser_url: /nl/social-posts/dag-11-teaser
+teaser_text: Trump's Frontale Aanval
 ---
-
 🇳🇱 **Dag 11 – De Grote Splitsing & Trump's Frontale Aanval** 🐘💥  
 PVV verliest 7 Kamerleden – grootste afsplitsing ooit, onder Gidi Markuszower vormen ze **Groep Markuszower**. Reden: geen democratie, slechte koers op Israël/Oekraïne.  
 
@@ -30,8 +30,3 @@ Open Internet Manifest wants no pens – a web where you think freely, without d
 
 Join: https://openinternetmanifest.org  
 #RealityVsNarrative #openinternetmanifest #PVVSplit #trumpdeepstate #nomorepens
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

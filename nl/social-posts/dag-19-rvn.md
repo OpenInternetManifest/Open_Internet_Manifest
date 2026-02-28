@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 33e9ff877c07fefd746a4f4d1a8604a3c5d59bbe51e81a1ac7b60db315e49b09
+social_share_sha256: ''
+day: 19
+rvn_title: DigiD in Amerikaanse handen
+rvn_url: /nl/social-posts/dag-19-rvn
+rvn_teaser: kans of crisis?
 ---
-
 🇳🇱 **Dag 19 – Reality vs Narrative: DigiD in Amerikaanse handen – kans of crisis?** 🌐🔒  
 Vandaag nieuws dat hard binnenkomt: het bedrijf achter DigiD, eHerkenning en MijnOverheid (Zynyo) komt in Amerikaanse handen via een overname door een private equity-fonds met sterke US-ties. Tegelijkertijd zitten steeds meer kritieke Nederlandse data in Amerikaanse clouds (Azure, AWS, Google).  
 
@@ -37,8 +37,3 @@ https://openinternetmanifest.org
 Geen poortwachters meer.
 
 #RealiteitVsNarratief #Dag19 #DigiD #DataSouvereiniteit #selfhosting
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

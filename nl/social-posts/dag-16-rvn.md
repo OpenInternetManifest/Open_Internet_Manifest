@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: a6a2d00a331ec881ca5211bc7533bcda72deffbc90ce660bf2c2f6fda96465d6
+social_share_sha256: ''
+day: 16
+rvn_title: Het 'mostly peaceful' patroon
+rvn_url: /nl/social-posts/dag-16-rvn
+rvn_teaser: En de hypocrisie
 ---
-
 🇳🇱 **Dag 16 – Reality vs Narrative: Het 'mostly peaceful' patroon & de hypocrisie** 🌐🔥  
 Vannacht en gisteren: Minneapolis kookt na de shooting van Alex Pretti (37, ICU nurse, phone in hand volgens witnesses/video's) door Border Patrol/ICE. Ouders noemen het executie, ACLU lawsuits lopen, protests escaleren. Dit volgt op Renee Good (7 jan, unarmed US citizen, shot in vehicle door ICE).  
 Het narratief dat domineert: "mostly peaceful protests" voor accountability, "systemic overreach", "Trump's Gestapo". Media pusht emotionele beelden van marchers, outrage over fed agents, calls voor ICE out MN.  
@@ -33,7 +33,3 @@ Als je moe bent van selectieve verontwaardiging... wacht op feiten, graaf dieper
 https://openinternetmanifest.org  
 Lees de hashes, check bronnen, denk zelf.  
 #RealiteitVsNarratief #OpenInternetManifest #Dag16 #MostlyPeaceful #Hypocrisie #NoGatekeepers
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.

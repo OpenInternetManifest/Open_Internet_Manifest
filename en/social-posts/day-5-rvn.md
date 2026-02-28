@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 5
+rvn_title: Starlink Free for Iran
+rvn_url: /en/social-posts/day-5-rvn
+rvn_teaser: Satellite internet like Starlink is dangerous!
 ---
-
 Reality vs. Narrative – Starlink Free for Iran.
 The narrative says:
 “Satellite internet like Starlink is dangerous. It undermines regimes and causes instability. Governments have the right to block access for security and order.”

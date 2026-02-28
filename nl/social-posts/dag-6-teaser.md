@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 3d5f565fb7406ac7a50fde0274bfa914f46e9adb99156d52dd0ad704f4b6212a
+social_share_sha256: ''
+day: 6
+teaser_title: 'Vrijheid met grenzen '
+teaser_url: /nl/social-posts/dag-6-teaser
+teaser_text: Grenzen stel je zelf, niet een centrale macht
 ---
-
 🇳🇱 Dag 6 – Vrijheid met grenzen  
 Maximale vrijheid, maar zonder chaos.  
 Daarom pleiten we voor een minimale, vrijwillige constitutionele laag – net als een goed land.  

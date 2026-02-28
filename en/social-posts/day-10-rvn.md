@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 6496f8a4cb8da080b555549514ca3f872a41b1331ff08fa1b9d54f6d57fb8285
+social_fb_sha256: 63a5011f8822b7290e65b09aba3c9b001013afe4dc524711bbb356702dd54e63
+social_share_sha256: ''
+day: 10
+rvn_title: EU blocking Odysee
+rvn_url: /en/social-posts/day-10-rvn
+rvn_teaser: ''
 ---
-
 Reality vs Narrative – EU blocking Odysee (and more)
 Today I got this message when trying to visit odysee.com – a decentralized alternative to YouTube, built on blockchain and censorship-resistant:
 “The page is unreachable. On EU request, this domain is currently blocked. We are aware of the discussion and objections, but are complying with an explicit order from the government. Above all, we hope the war in Ukraine ends soon.”

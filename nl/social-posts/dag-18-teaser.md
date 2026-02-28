@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 2f2f95fc6963c5f752d9241ad221ed6e61e0d6ea23939e437463f7d686c452f2
+social_share_sha256: ''
+day: 18
+teaser_title: Groeien
+teaser_url: /nl/social-posts/dag-18-teaser
+teaser_text: We groeien
 ---
-
 🇳🇱 **Dag 18 – Groeien** 🌐🔒  
 We groeien.  
 Niet met miljoenen views, maar met mensen die blijven lezen, checken, denken.  
@@ -35,8 +35,3 @@ Keep watching. 👀
 
 https://openinternetmanifest.org/nl/social-posts  
 #RealityVsNarrative #Day19Teaser
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

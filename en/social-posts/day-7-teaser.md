@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 7
+teaser_title: 'Tomorrow: Weekly Overview '
+teaser_url: /en/social-posts/day-7-teaser
+teaser_text: ''
 ---
-
 **Day 7 – Weekly Overview & The Promise of Freedom** 🇳🇱✨
 
 This week in teasers:  

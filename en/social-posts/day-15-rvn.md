@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: dca59a094d2f07a9bda13e55672c96b555fed216f595e67659c5552be9ee2986
+social_fb_sha256: d7177d10ed41f26ba8949efd909721098713074cd293edf971c1194ecb0388d4
+social_share_sha256: ''
+day: 15
+rvn_title: Minneapolis mall & the ICE hypocrisy
+rvn_url: /en/social-posts/day-15-rvn
+rvn_teaser: Trump's Gestapo!
 ---
-
 🇬🇧 **Day 15 – Reality vs Narrative: Minneapolis mall & the ICE hypocrisy** 🌐🔥
 Overnight and recent days: ICE hitting Minneapolis hard, especially Somali malls (Karmel Mall, Star City). Arrests, hundreds of Somali-owned businesses shutting down (Jan 23-25 protests), streets filling with demonstrators, and a fatal shooting incident escalating things. National Guard on standby in MN, 1500 troops prepped – while ICE scales nationwide across all 50 states with record manpower.
 Dominant narrative: "racist hunt", "Trump's Gestapo", "unjust terror on migrants". Media pushes emotional footage, outrage, boycott calls.
@@ -26,7 +26,3 @@ If you're tired of selective outrage... dig deeper.
 https://openinternetmanifest.org
 Read the hashes, check sources, think for yourself.
 #RealityVsNarrative #OpenInternetManifest #Day15 #MinneapolisICE #ObamaHypocrisy #NoGatekeepers
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

@@ -13,7 +13,7 @@ window.copyPageText = function() {
     '.language-selector', '.manifest-header', '.manifest-subtitle',
     '.intro-title', '.intro-text',
     '.thesis-navigation-arrows', '.nav-arrow', '.nav-arrow-left', '.nav-arrow-right',
-    'button', 'script', 'code', 'nav', 'footer', 'header'
+    'button', 'script', 'code', 'nav', 'footer', 'header', 'comments-section', 'comment-notice'
   ];
 
   clone.querySelectorAll(unwanted.join(', ')).forEach(el => el.remove());

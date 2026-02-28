@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 2e2f5b5123071e35e65b60349e8798580432be6f4bde4aac4ef041e613484ac9
+social_fb_sha256: 16ca1d422d32f607ab3995164e30861fa253d5288b446b7ecf481b77c5d26f6d
+social_share_sha256: ''
+day: 26
+rvn_title: The layer above the Rockefellers
+rvn_url: /en/social-posts/day-26-rvn
+rvn_teaser: who really holds the buttons?
 ---
-
 **Reality vs Narrative: The layer above the Rockefellers – who really holds the buttons? ♟️🏦🕶️**
 
 Quick recap of the week so far:
@@ -72,8 +72,3 @@ I’m still learning every day.
 Are you?
 
 #RVN #FactsOverFrames #BigThree #BIS #InvisibleLayer
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives get wild — reality stays calm. 🕳️

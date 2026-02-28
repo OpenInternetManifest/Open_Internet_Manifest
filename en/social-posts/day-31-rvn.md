@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 532175d6336cae36b228bf0f2624fb259dc7c5f418bbdea5fcdc12f80d71c73f
+social_share_sha256: ''
+day: 31
+rvn_title: Words don’t count for what they literally say
+rvn_url: /en/social-posts/day-31-rvn
+rvn_teaser: but for the narrative they create
 ---
-
 **Day 31 – RVN: Words don’t count for what they literally say anymore, but for the narrative they create** ⚖️🌀  
 Why a judge admits: no direct call to violence... but still guilty.
 
@@ -42,8 +42,3 @@ For now: read the speeches yourself (not just headlines). What do you hear? What
 
 https://openinternetmanifest.org  
 (thesis 12-14 on narrative control, gatekeepers and the illusion of free expression)
-
-This post is 100% authentic & verifiable via:  
-https://openinternetmanifest.org/hash-verifier  
-Paste full text & check – reality stays calm 🧘‍♂️.  
-Why narratives run wild... 🌀

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 7d369faf2084792cf7f7e73b5902ef915f3e05791329aad729f58cda37c0bc62
+social_share_sha256: ''
+day: 8
+teaser_title: Hashes
+teaser_url: /nl/social-posts/dag-8-teaser
+teaser_text: 'Een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.'
 ---
-
 🇳🇱 Dag 8 – Verifieerbaarheid: hashes liegen niet  
 
 “Een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.”  

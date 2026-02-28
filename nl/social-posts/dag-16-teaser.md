@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: fda25a4e85c45b3d9a6491a013be1aad948d98700d81f019f2cfcfd8107ef9ea
+social_share_sha256: ''
+day: 16
+teaser_title: Stop met gatekeepers
+teaser_url: /nl/social-posts/dag-16-teaser
+teaser_text: Die je voeden wat uitkomt
 ---
-
 🇳🇱 **Dag 16 Teaser** 🌐✂️  
 Het patroon blijft draaien: één kant krijgt altijd "mostly peaceful" als de straat brandt, de andere kant krijgt de schuld als er één klap valt.  
 Hypocrisie op repeat – van corona tot nu.  
@@ -37,8 +37,3 @@ Stay sharp.
 
 https://openinternetmanifest.org/nl/social-posts  
 #RealityVsNarrative #OpenInternetManifest #Hypocrisy #NoGatekeepers
-This post is 100% authentic and verifiable via:
-
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

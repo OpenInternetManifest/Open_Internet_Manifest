@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 700a1a38756015cb7484542dae699e51a56d041114655e29de30f251272e046d
+social_share_sha256: ''
+day: 1
+rvn_title: Het vaste patroon bij grote incidenten
+rvn_url: /nl/social-posts/dag-1-rvn
+rvn_teaser: 'Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin'
 ---
 Realiteit vs. Narratief – Het vaste patroon bij grote incidenten.
 
@@ -39,4 +40,3 @@ Wacht op de feiten. Kijk álle video's. Lees álle bronnen. Pas je mening aan.
 Dat is echte verantwoordelijkheid – ongeacht je kant.
 Zijn we ooit voorbij dit patroon?
 #RealiteitVsNarratief #Polarisatie #FeitenBovenEmotie
-

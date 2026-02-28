@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 701ccb6624aeecb3d3954f62ad285a155035f80e8c68c08a13c33cba9059e560
+social_share_sha256: ''
+day: 7
+rvn_title: Polarisatie als wapen
+rvn_url: /nl/social-posts/dag-7-rvn
+rvn_teaser: Links vs rechts, Joden vs moslims, West vs Oost
 ---
 Realiteit vs Narratief – Polarisatie als wapen (deel 2)  
 

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: a7e041cda94e1b527d684d45c30abcfdf02ab9427c7af150b0151267bb1ee707
+social_share_sha256: ''
+day: 25
+teaser_title: 'Vandaag: Obama / Iran-deal'
+teaser_url: /nl/social-posts/dag-25-teaser
+teaser_text: 'Morgen: The big three'
 ---
-
 🇳🇱 **Dag 25 Teaser – Vanavond: even op adem** 😏🍿  
 Vandaag: Obama / Iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel.  
 
@@ -47,8 +47,3 @@ Keep watching. 👀✨
 
 https://openinternetmanifest.org/en/social-posts  
 #RealityVsNarrative #Day24Teaser
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives get wild — reality stays calm. 🕳️

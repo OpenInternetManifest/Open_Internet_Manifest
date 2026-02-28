@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 496a78e63ef41855929d5941b2bb6de3d177ed9e7d96c50f0c5e67072026ace1
+social_share_sha256: ''
+day: 12
+teaser_title: 'Tomorrow: Why OIM'
+teaser_url: /en/social-posts/day-12-teaser
+teaser_text: We're not fighting for a new layer of truth
 ---
-
 🇬🇧 **Day 12 – Why OIM** 🌐✂️  
 We're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer.  
 
@@ -26,8 +26,3 @@ If you're tired of the pens... read along.
 https://openinternetmanifest.org  
 
 #RealityVsNarrative #OIM #WebWithoutLeash
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

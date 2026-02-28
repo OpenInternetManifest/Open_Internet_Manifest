@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: "a6eee0e09ecf84abeb0274acafde3d57b8fbf44645c74d4ba32c98776ed326bd"        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: "81a04c00193392f27f49b79700b2959a473ab0325227942f283727778e47e63b"      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: a6eee0e09ecf84abeb0274acafde3d57b8fbf44645c74d4ba32c98776ed326bd
+social_x_sha256: ''
+social_fb_sha256: 81a04c00193392f27f49b79700b2959a473ab0325227942f283727778e47e63b
+social_share_sha256: ''
+day: 39
+rvn_title: De eerste stal
+rvn_url: /nl/social-posts/dag-39-rvn
+rvn_teaser: mainstream media als basislaag van de Graduated Animal Farms
 ---
-
 **Dag 39 – RVN: De eerste stal – mainstream media als basislaag van de Graduated Animal Farms** 🐷📺  
 
 Gisteren zagen we het patroon al haarscherp: tijdelijke bondgenoten die ideologisch onverenigbaar lijken, maar toch samenwerken zolang het stemmen of straat-macht oplevert – Queers for Palestine, Iran 1979, Chickens for KFC.  

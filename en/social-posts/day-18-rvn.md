@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: e257410ce9dc8032408bdc8aa34ba297749a4a27fa468bcf411cc1e39936977a
+social_fb_sha256: 64f3041246b34cc5980abd4401e2064bd9a14512a624ab0226fee123426b7e35
+social_share_sha256: ''
+day: 18
+rvn_title: Holocaust Remembrance Day 2026
+rvn_url: /en/social-posts/day-18-rvn
+rvn_teaser: and a friends child is still called cancer Jew
 ---
-
 🇬🇧 **Day 18 – Reality vs Narrative: Holocaust Remembrance Day 2026 – and a friends child is still called “cancer Jew”** 🌐😔url.td/0ZB9M
 Today is January 27. International Holocaust Remembrance Day.
 The world should pause.

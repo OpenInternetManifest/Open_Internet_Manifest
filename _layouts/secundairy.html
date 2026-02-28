@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'nl' | downcase }}">
   <head>
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
     <meta charset="UTF-8">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +22,7 @@
   <div class="nav-container">
     <!-- Terug knop – altijd zichtbaar links -->
     <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
-      ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
+      ← {% if current_lang == 'en' %}Back{% else %}Terug{% endif %}
     </a>
 
     <div class="nav-logo-wrapper">

@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: da3c3314894cdec89601656ba1d1adec625498fdacf6a9e232d69e3b8ba2a517
+social_share_sha256: ''
+day: 23
+rvn_title: '1913'
+rvn_url: /nl/social-posts/dag-23-rvn
+rvn_teaser: Het jaar dat de knoppen werden omgezet?
 ---
 **Reality vs Narratief: 1913 – het jaar dat de knoppen werden omgezet? ♟️🛳️🕳️**
 

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: fbce315a71e9256b56b31eb4984dec3711bc3d26f436221a9388ee4c23af5ebf
+social_fb_sha256: 93cd1c651a686d357967c1359f686701a8fe4ea023d28927239566a1c4812505
+social_share_sha256: ''
+day: 12
+rvn_title: Benefits Scandal
+rvn_url: /en/social-posts/day-12-rvn
+rvn_teaser: The farm that won't break
 ---
-
 **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
 For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.
 Reality: systematic, deliberate, framed as "risk analysis". Report after report confirms: Tax Authority knew, ministers knew, yet it continued.
@@ -19,7 +19,3 @@ Trump assaults deep state narratives in Davos. Here in NL, the benefits farm sti
 Open Internet Manifest wants no pens – a web without centralized control, without algorithms ruining lives, without narrative monopoly.
 Join: https://openinternetmanifest.org
 #RealityVsNarrative #BenefitsScandal #NoMorePens #OIM ❤️
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

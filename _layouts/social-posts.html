@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'nl' | downcase }}">
 <head>
+  {% assign current_lang = page.lang | default: 'nl' | downcase %}
   <meta charset="UTF-8">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,35 +20,42 @@
   
 <nav class="main-nav">
   <div class="nav-container">
+    <!-- Eénmalige taal-variabele bovenaan (geen chained filters meer in if) -->
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
+
     <!-- Terug knop – altijd zichtbaar links -->
     <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
-      ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
+      ← {% if current_lang == 'en' %}Back{% else %}Terug{% endif %}
     </a>
 
     <div class="nav-logo-wrapper">
       <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
-      <span class="visitor-counter" title="Bezoekers sinds lancering">
-        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="Bezoekers teller" style="border:none; height:1.8em !important; margin-left:0.8em;">
+      <span class="visitor-counter" title="{% if current_lang == 'en' %}Visitors since launch{% else %}Bezoekers sinds lancering{% endif %}">
+        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="{% if current_lang == 'en' %}Visitor counter{% else %}Bezoekers teller{% endif %}" style="border:none; height:1.8em !important; margin-left:0.8em;">
       </span>
     </div>
 
     <!-- Desktop links met dropdowns -->
     <div class="nav-links desktop-only">
-      {% assign current_lang = page.lang | default: 'nl' | downcase %}
-
       <!-- Manifest met dropdown -->
       <div class="nav-item has-dropdown">
         <a href="{{ site.baseurl }}/{{ current_lang }}/manifest" class="nav-link">
           {% if current_lang == 'en' %}Manifest{% else %}Manifest{% endif %}
         </a>
         <div class="dropdown-menu">
-          <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">All Theses</a>
-          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest" class="highlight">How it Started – Accu-Manifest ⚡</a>
+          <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
+            {% if current_lang == 'en' %}All Theses{% else %}Alle theses{% endif %}
+          </a>
+          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest" class="highlight">
+            {% if current_lang == 'en' %}How it Started – Accu-Manifest ⚡{% else %}Hoe het begon – Accu-Manifest ⚡{% endif %}
+          </a>
         </div>
       </div>
 
       <!-- Guides -->
-      <a href="{{ site.baseurl }}/{{ current_lang }}/guides" class="nav-link">Guides</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides" class="nav-link">
+        {% if current_lang == 'en' %}Guides{% else %}Guides{% endif %}
+      </a>
 
       <!-- RVN / Socials -->
       <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts" class="nav-link">
@@ -60,22 +68,32 @@
           {% if current_lang == 'en' %}About{% else %}Over{% endif %}
         </a>
         <div class="dropdown-menu">
-          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">How it Started ⚡</a>
-          <a href="#">Mission & Vision</a>
-          <a href="#">Contact / Join</a>
+          <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">
+            {% if current_lang == 'en' %}How it Started ⚡{% else %}Hoe het begon ⚡{% endif %}
+          </a>
+          <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}mission-vision{% else %}missie-visie{% endif %}">
+            {% if current_lang == 'en' %}Mission & Vision{% else %}Missie & Visie{% endif %}
+          </a>
+          <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}contact{% else %}contact{% endif %}">
+            {% if current_lang == 'en' %}Contact & Join{% else %}Contact & Meedoen{% endif %}
+          </a>
         </div>
       </div>
 
       <!-- Verifier -->
-      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier" class="nav-link">Verifier</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier" class="nav-link">
+        {% if current_lang == 'en' %}Verifier{% else %}Verifier{% endif %}
+      </a>
 
       <!-- Home -->
-      <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
+      <a href="{{ site.baseurl }}/" class="nav-link">
+        {% if current_lang == 'en' %}Home{% else %}Home{% endif %}
+      </a>
     </div>
 
     <!-- Hamburger rechts -->
     <div class="nav-toggle-wrapper">
-      <button class="nav-toggle" aria-label="Menu openen">
+      <button class="nav-toggle" aria-label="{% if current_lang == 'en' %}Open menu{% else %}Menu openen{% endif %}">
         <span></span>
         <span></span>
         <span></span>
@@ -84,13 +102,33 @@
 
     <!-- Mobiel menu -->
     <div class="mobile-menu">
-      <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">Manifest / All Theses</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">How it Started – Accu-Manifest ⚡</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/guides">Guides</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts">RVN / Socials</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">About / Over</a>
-      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">Verifier</a>
-      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/manifest">
+        {% if current_lang == 'en' %}Manifest / All Theses{% else %}Manifest / Alle theses{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/accu-manifest">
+        {% if current_lang == 'en' %}How it Started – Accu-Manifest ⚡{% else %}Hoe het begon – Accu-Manifest ⚡{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/guides">
+        {% if current_lang == 'en' %}Guides{% else %}Guides{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/social-posts">
+        {% if current_lang == 'en' %}RVN / Socials{% else %}RVN / Socials{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}about{% else %}over{% endif %}">
+        {% if current_lang == 'en' %}About / Over{% else %}Over{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}mission-vision{% else %}missie-visie{% endif %}">
+        {% if current_lang == 'en' %}Mission & Vision{% else %}Missie & Visie{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/{% if current_lang == 'en' %}contact{% else %}contact{% endif %}">
+        {% if current_lang == 'en' %}Contact & Join{% else %}Contact & Meedoen{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/{{ current_lang }}/hash-verifier">
+        {% if current_lang == 'en' %}Verifier{% else %}Verifier{% endif %}
+      </a>
+      <a href="{{ site.baseurl }}/">
+        {% if current_lang == 'en' %}Home{% else %}Home{% endif %}
+      </a>
     </div>
   </div>
 </nav>
@@ -118,10 +156,51 @@
 
   <!-- Automatische previous/next pijlen -->
   <div class="social-post-navigation-arrows">
-    {% assign all_posts = site.pages | where_exp: "p", "p.dir == page.dir" | sort: "day" %}
+    {% comment %}
+      Bouw een volledige sequence: rvn → teaser (per dag), gesorteerd op day
+      1. Haal ALLE posts uit dezelfde map die -rvn of -teaser bevatten
+      2. Sorteer op 'day' uit frontmatter
+      3. Voor elke dag: rvn eerst, teaser daarna
+    {% endcomment %}
+
+    {% assign lang_dir = page.dir %}
+
+    {% assign relevant_posts = site.pages | where_exp: "p", "p.dir == lang_dir" | where_exp: "p", "p.path contains '-rvn' or p.path contains '-teaser'" | sort: "day" %}
+
+    {% assign sequence = "" | split: "" %}  <!-- lege array -->
+
+    {% assign max_day = 0 %}
+    {% for p in relevant_posts %}
+      {% if p.day and p.day > max_day %}
+        {% assign max_day = p.day %}
+      {% endif %}
+    {% endfor %}
+
+    {% for day in (1..max_day) %}
+      {% assign rvn = nil %}
+      {% assign teaser = nil %}
+
+      {% for p in relevant_posts %}
+        {% if p.day == day %}
+          {% if p.path contains '-rvn' %}
+            {% assign rvn = p %}
+          {% elsif p.path contains '-teaser' %}
+            {% assign teaser = p %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if rvn %}
+        {% assign sequence = sequence | push: rvn %}
+      {% endif %}
+
+      {% if teaser %}
+        {% assign sequence = sequence | push: teaser %}
+      {% endif %}
+    {% endfor %}
 
     {% assign current_index = nil %}
-    {% for p in all_posts %}
+    {% for p in sequence %}
       {% if p.url == page.url %}
         {% assign current_index = forloop.index0 %}
       {% endif %}
@@ -132,63 +211,14 @@
       {% assign next_index = current_index | plus: 1 %}
 
       {% if prev_index >= 0 %}
-        {% assign prev_post = all_posts[prev_index] %}
+        {% assign prev_post = sequence[prev_index] %}
         <a href="{{ prev_post.url | relative_url }}" class="nav-arrow nav-arrow-left" aria-label="Vorige post">
           ‹
         </a>
       {% endif %}
 
-      {% if next_index < all_posts.size %}
-        {% assign next_post = all_posts[next_index] %}
-        <a href="{{ next_post.url | relative_url }}" class="nav-arrow nav-arrow-right" aria-label="Volgende post">
-          ›
-        </a>
-      {% endif %}
-    {% endif %}
-  </div>
-
-  <div class="social-post-content">
-    {{ content }}
-  </div>
-
-  {% include reactions.html %}
-  
-  {% include donation.html %}
-
-  {% assign lang = page.lang | default: 'NL' | upcase %}
-  {% include integrity-check-{{ lang }}.html %}
-
-  {% include page-footer.html %}
-
-  <!-- GoatCounter -->
-  <script data-goatcounter="https://openinternetmanifest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-</main><main id="content" class="main-content" role="main">
-
-  <!-- Automatische previous/next pijlen -->
-  <div class="social-post-navigation-arrows">
-    {% assign all_posts = site.pages | where_exp: "p", "p.dir == page.dir" | sort: "day" %}
-
-    {% assign current_index = nil %}
-    {% for p in all_posts %}
-      {% if p.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-      {% endif %}
-    {% endfor %}
-
-    {% if current_index != nil %}
-      {% assign prev_index = current_index | minus: 1 %}
-      {% assign next_index = current_index | plus: 1 %}
-
-      {% if prev_index >= 0 %}
-        {% assign prev_post = all_posts[prev_index] %}
-        <a href="{{ prev_post.url | relative_url }}" class="nav-arrow nav-arrow-left" aria-label="Vorige post">
-          ‹
-        </a>
-      {% endif %}
-
-      {% if next_index < all_posts.size %}
-        {% assign next_post = all_posts[next_index] %}
+      {% if next_index < sequence.size %}
+        {% assign next_post = sequence[next_index] %}
         <a href="{{ next_post.url | relative_url }}" class="nav-arrow nav-arrow-right" aria-label="Volgende post">
           ›
         </a>

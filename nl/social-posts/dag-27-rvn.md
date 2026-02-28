@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 1b5ffddab497f2b7193577581071cc0462ba5344fd3f934b045aea511603266f
+social_share_sha256: ''
+day: 27
+rvn_title: Politiek - Politika
+rvn_url: /nl/social-posts/dag-27-rvn
+rvn_teaser: Van ‘zaken van de burger’ naar theater
 ---
-
 **Reality vs Narratief: Politiek – van ‘zaken van de burger’ naar theater… en waarom dat verschil ertoe doet ♟️🗳️🪞🙏**
 
 Deze week hebben we laag voor laag de structuur afgepeld:
@@ -89,4 +89,3 @@ Is politiek per definitie verloren?
 Of is het vooral de uitvoering die we moeten terugveroveren — en begint dat bij onszelf?  
 
 #RVN #FeitenBovenFrames #Politiek #Verantwoordelijkheid #Gemeenschap
-

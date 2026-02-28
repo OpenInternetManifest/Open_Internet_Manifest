@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 2f46d43ee4bbcdb0601463256165893c44754955f138ea2c2c52002431fe3f9f
+social_share_sha256: ''
+day: 5
+rvn_title: Starlink gratis voor Iran"
+rvn_url: /nl/social-posts/dag--rvn
+rvn_teaser: Dank Elon
 ---
 Realiteit vs. Narratief – Starlink gratis voor Iran.
 

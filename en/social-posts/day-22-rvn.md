@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 7fa20fd5938025d9fc9747455c27705fe2e4ebcf8ca8fa972d59554179ab1812
+social_fb_sha256: f2626a2832cec8c04113c0a95e0fe31d97215239606cfda446cd5fc9ed9fefdd
+social_share_sha256: ''
+day: 22
+rvn_title: 'Warp Speed: Trump''s forced vaccine push'
+rvn_url: /en/social-posts/day-22-rvn
+rvn_teaser: or a genius asymmetric counter in a spiritual war
 ---
-
 Warp Speed: Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war? ♟️🧬🔥🕊️
 From our corner – where we've seen mRNA as a massive red flag 🚩 for years, CRISPR risks, graphene oxide rumors, and the whole biotech agenda as a potential Trojan horse – the narrative hits hard:
 "Trump is the godfather of vaccines, he pushed Warp Speed into everyone's arm, deep state puppet, controlled op."
@@ -38,7 +38,3 @@ In a multilayered war – physical, strategic, spiritual – what looks like giv
 What do you see? Weakness, or masterful asymmetry in the greater struggle? 👀
 #RVN #FactsOverFrames #RealityVsNarrative
 @realDonaldTrump @elonmusk @PamBondi – truth cuts through the spin. ⚡
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

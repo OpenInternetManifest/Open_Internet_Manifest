@@ -1,5 +1,5 @@
 // Centrale hashes – gebruikt door hash-verify.js
-// Alle hashes handmatig/handmatig bijgewerkt – exact zoals jij ze hebt
+// Alle hashes handmatig/handmatig bijgewerkt 
 
 var officialHashes = {
   // Root en home fallbacks
@@ -122,7 +122,7 @@ var officialHashes = {
   '/nl/social-posts/dag-33-rvn': '07483c64985d8b24aa554dc2137fffd4cdc834ccf77a08a36a89f0c371e58598',
   '/nl/social-posts/dag-34-rvn': '6f7b3dfc15163214dfb182bd13b294a19ed6afde6d66f45a52c242bacd6f5a79',
     '/nl/social-posts/dag-34-teaser': 'dad8ddb73dc022a35c1d8868d6c0e327aabd18e0b414b7919bd7ce3f426be1a3',
-  '/nl/social-posts/dag-=35-rvn': 'b93eec239eeb5f9af18bd045f4b3894ffbdce9b75a1f7e1c41a7463d090fa529',
+  '/nl/social-posts/dag-35-rvn': 'b93eec239eeb5f9af18bd045f4b3894ffbdce9b75a1f7e1c41a7463d090fa529',
   '/nl/social-posts/dag-36-rvn': '5660d667488a50bbcf3cbcede754e4c25ec06fe265454e095e500376',
   '/nl/social-posts/': '3bd323010673c4ff13695b59690d3e8ba89c1db65a39d102a3d15314bf7b7f',
   '/nl/social-posts/': '3bd323010673c4ff10b36959690d3e8ba89c1db65a39d102a3d15314bf7b7f',

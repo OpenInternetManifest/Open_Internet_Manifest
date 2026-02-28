@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: aeabb2a61068566efa0da128c0dd3da4ef1d104b144c59aa8d7cf94b34a1ccb3
+social_share_sha256: ''
+day: 24
+rvn_title: Templars, Moloch
+rvn_url: /nl/social-posts/dag-24-rvn
+rvn_teaser: 'En de echte winnaars van geschiedenis '
 ---
-
 **Reality vs Narratief: Templars, Moloch en de echte winnaars van geschiedenis ♟️🛡️🔥**
 
 Gisteren zagen we 1913 als blauwdruk: Titanic ruimt tegenstanders op, FED en inkomstenbelasting komen erdoor, Rockefellers bouwen verder aan olie, medicijnen en banken.  

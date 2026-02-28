@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 2
+teaser_title: 'Tomorrow: The Internet is not dead'
+teaser_url: /en/social-posts/day-2-teaser
+teaser_text: ''
 ---
-
 🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
 Thesis 1 hits hard:  
 "The Internet is not dead – it is captured."  

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 6
+teaser_title: 'Tomorrow: Freedom with boundaries  '
+teaser_url: /en/social-posts/day-6-teaser
+teaser_text: ''
 ---
-
 🇬🇧 Day 6 – Freedom with boundaries  
 Maximum freedom, but without chaos.  
 That's why we advocate a minimal, voluntary constitutional layer – just like a good country.  

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 597ab21a85ab1088b4ebb6eaff1719935b84f4f5ecce8e2b7c351ee52604e096
+social_share_sha256: ''
+day: 21
+rvn_title: Israël-Palestina & Iran
+rvn_url: /nl/social-posts/dag-21-rvn
+rvn_teaser: van eeuwenoude wortels tot hedendaagse crisis
 ---
-
 🇳🇱 **Dag 21 – Israël-Palestina & Iran: van eeuwenoude wortels tot hedendaagse crisis** 🕊️📜  
 Als je het Israël-Palestina-conflict en de rol van Iran alleen ziet als “bezetting sinds 1948” of “kolonialisme door Europese Joden”, mis je het grotere verhaal. De wortels liggen veel dieper – in geschiedenis, politiek én religie – en het huidige gedrag van het Iraanse regime maakt het plaatje nog completer.
 

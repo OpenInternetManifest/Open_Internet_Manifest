@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: a7d2a981f41ba93a76b5b164cfc2c0f1af9dfd37b2ac3c860e25ffa58a69f6d1
+social_share_sha256: ''
+day: 8
+rvn_title: 'Greenland Escalation: Tariffs Edition'
+rvn_url: /en/social-posts/day-8-rvn
+rvn_teaser: Trump hits allies with tariffs — economy in danger!
 ---
-
 Reality vs Narrative – Greenland Escalation: Tariffs Edition (Jan 18, 2026)
 Narrative:
 Trump hits allies with tariffs — economy in danger! 📉 Export collapse, recession looming, NATO on the brink.

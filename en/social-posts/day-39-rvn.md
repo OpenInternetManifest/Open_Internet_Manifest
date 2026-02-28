@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: "bbf816427b6c4443f8178d810b3f7625731ef2875ef65c288c50603037aa925f"        # site-versie
-social_x_sha256: "2d0a418611c161858b0f27455dd6c629ecbefe71edb226e9d51573dec3558143"       # X-specifieke versie (optioneel)
-social_fb_sha256: "5b5363f794c018000e8ca44faabebd7fcc87531217014f8d52105dbe7abd0363"      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: bbf816427b6c4443f8178d810b3f7625731ef2875ef65c288c50603037aa925f
+social_x_sha256: 2d0a418611c161858b0f27455dd6c629ecbefe71edb226e9d51573dec3558143
+social_fb_sha256: 5b5363f794c018000e8ca44faabebd7fcc87531217014f8d52105dbe7abd0363
+social_share_sha256: ''
+day: 39
+rvn_title: The first stall
+rvn_url: /en/social-posts/day-39-rvn
+rvn_teaser: mainstream media as base layer of the Graduated Animal Farms
 ---
 **Day 39 – RVN: The first stall – mainstream media as base layer of the Graduated Animal Farms** 🐷📺  
 

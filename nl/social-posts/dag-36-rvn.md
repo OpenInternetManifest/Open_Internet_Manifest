@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 5660d667488a50bbcf3cbcede754e4c25ec06fe265454e095e500376
+social_share_sha256: ''
+day: 36
+rvn_title: Epstein → Demmink → Baybaşin
+rvn_url: /nl/social-posts/dag-36-rvn
+rvn_teaser: Het patroon van stilte
 ---
-
 **Dag 36 – RVN: Epstein → Demmink → Baybaşin – het patroon van stilte** 🕸️🔇  
 Waarom sommige zaken nooit echt worden opgelost.
 
@@ -46,10 +46,4 @@ Welke stilte valt jou op? 🕸️🌱
 
 #RVN #OpenInternetManifest #Epstein #Demmink #Baybaşin #FeitenBovenFrames #Dag36  
 
-https://openinternetmanifest.org  
-
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier  
-
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️.  
-Waarom narratieven wild worden... 🌀
+https://openinternetmanifest.org

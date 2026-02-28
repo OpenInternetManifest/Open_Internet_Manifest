@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 3963ecd8b25a0e3f8948662d9ebefa3a224e4bf7c5303c2311a00e58
+social_fb_sha256: 5660d667488a50bbcf3cbcede754e4c25ec06fe265454e095e500376
+social_share_sha256: ''
+day: 36
+rvn_title: Epstein → Demmink → Baybaşin
+rvn_url: /en/social-posts/day-36-rvn
+rvn_teaser: the pattern of silence
 ---
-
 **Day 36 – RVN: Epstein → Demmink → Baybaşin – the pattern of silence** 🕸️🔇  
 Why some cases are never truly solved.
 
@@ -46,10 +46,4 @@ What silence stands out to you? 🕸️🌱
 
 #RVN #OpenInternetManifest #Epstein #Demmink #Baybaşin #FactsOverFrames #Day36  
 
-https://openinternetmanifest.org  
-
-This post is 100% authentic & verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-
-Paste full text & check – reality stays calm 🧘‍♂️.  
-Why narratives run wild... 🌀
+https://openinternetmanifest.org

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: e80c41cd5fb5f786efad368d17922334bdcee356f5e1a70cff56ea35
+social_fb_sha256: 4c14536cb077f445f8ee3461ec81995bad0eee69d5ba84c8521a9a5c
+social_share_sha256: ''
+day: 35
+rvn_title: Epstein's blackmail machine
+rvn_url: /en/social-posts/day-35-rvn
+rvn_teaser: the invisible rope
 ---
-
 **Day 35 – RVN: Epstein's blackmail machine – the invisible rope** 🕸️🔗  
 How extortion keeps entire systems silent.
 
@@ -53,10 +53,4 @@ What ropes do you see? 🕸️🌱
 
 #RVN #OpenInternetManifest #EpsteinBlackmail #Demming #FactsOverFrames #Day35  
 
-https://openinternetmanifest.org  
-
-This post is 100% authentic & verifiable via:  
-https://openinternetmanifest.org/hash-verifier  
-
-Paste full text & check – reality stays calm 🧘‍♂️.  
-Why narratives run wild... 🌀
+https://openinternetmanifest.org

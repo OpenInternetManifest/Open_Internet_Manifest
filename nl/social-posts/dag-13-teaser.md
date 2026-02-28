@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: fd7e6a05fa239e7fb126ed0c6b75ef9a754da3bf01428a6f1807759b7273bd65
+social_share_sha256: ''
+day: 13
+teaser_title: Even stilstaan
+teaser_url: /nl/social-posts/dag-13-teaser
+teaser_text: Soms is het goed om even te ademen
 ---
-
 🇳🇱 **Dag 13 – Even stilstaan** 🌱🌐  
 We pushen al weken dagelijks: teasers, draads, hashes, feiten checken, narratieven ontleden.  
 
@@ -37,8 +37,3 @@ Open Internet Manifest is still small (~140 visitors in 1.5 weeks), but it grows
 Read along if it resonates – or take a break too. It's still here.  
 https://openinternetmanifest.org  
 #RealityVsNarrative #openinternetmanifest #webwithoutleash
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: eee583ea9a7862d1a5016fd21c36a35de077d26af4c8b6a3123772d0044e389a
+social_fb_sha256: 51787428c783f1bb6f41e9c21ea98b658b105133deb0a2cc3fef04c08d1256ba
+social_share_sha256: ''
+day: 14
+rvn_title: Selective outrage on demand
+rvn_url: /en/social-posts/day-14-rvn
+rvn_teaser: 'CNN: ICE raids have always been controversia'
 ---
-
 **Reality vs Narrative** – DHS bill: selective outrage on demand 🚨🇺🇸
 House voted last night on massive border security funding. Trump: "must pass". Left: "defund ICE", "terrorizing children", "Liam drama".
 CNN: "ICE raids have always been controversial."
@@ -24,7 +24,3 @@ Narrative isn't about facts – it's about power. Emotion weaponized: a 5-year-o
 Open Internet Manifest wants no selective outrage, no gatekeepers deciding what's "controversial". A web where you check history, data and context yourself – no algorithm or media setting the tone.
 Join: https://openinternetmanifest.org
 #RealityVsNarrative #OIM #DHSBill #ICE #NoSelectiveOutrage
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

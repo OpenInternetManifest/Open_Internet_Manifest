@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: befbce0c8576cc6bce720be7dac19cd1fbdeaf804e6a857e99ef813512ee11d4
+social_share_sha256: ''
+day: 13
+rvn_title: Fluoride
+rvn_url: /nl/social-posts/dag-13-rvn
+rvn_teaser: 'Het narratief dat eindelijk barst '
 ---
-
 **Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   
 Decennialang: "fluoride in drinkwater is veilig en goed voor tanden". Standaard in bijna alle US publieke systemen, gepusht door CDC, ADA en WHO. Kritiek? "Complotdenkers", "anti-science".
 
@@ -22,7 +22,3 @@ Open Internet Manifest wil geen gecentraliseerde gezondheidsnarratieven die ons 
 
 Lees mee: https://openinternetmanifest.org
 #RealiteitVsNarratief #OIM #Fluoride #MakeAmericaHealthyAgain #GeenNarratiefMonopolie
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.

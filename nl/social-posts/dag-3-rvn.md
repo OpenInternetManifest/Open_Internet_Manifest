@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 5a3aaf994b41bd9ba669ebc1ce0044e396e197c40d35cd06b742d5f39fca2372
+social_share_sha256: ''
+day: 3
+rvn_title: Verbanning Dutch Travel Maniac
+rvn_url: /nl/social-posts/dag-3-rvn
+rvn_teaser: van Facebook
 ---
-
 Realiteit vs. Narratief – Verbanning Dutch Travel Maniac van Facebook.
 
 Het narratief zegt:  

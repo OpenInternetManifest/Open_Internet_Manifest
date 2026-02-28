@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 77327df9f57343a17b38af27ac668d7d5f899018d92610da19fcd515dc5f22f0
+social_share_sha256: ''
+day: 2
+rvn_title: Iran
+rvn_url: /en/social-posts/day-2-rvn
+rvn_teaser: Are censorship & blackouts are sometimes necessary for order?
 ---
-
 English summary:
 Reality vs. Narrative – The Open Internet Manifest (Iran focus).
 Narrative: Censorship & blackouts are sometimes necessary for order.

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: d2ca5ea6617899e04149cdb91c5d02114eea6fd7331a013e782dd8f7fa2d5936
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 16
+rvn_title: mostly peaceful' pattern & the hypocrisy
+rvn_url: /en/social-posts/day-16-rvn
+rvn_teaser: ''
 ---
-
 🇬🇧 **Day 16 – Reality vs Narrative: The 'mostly peaceful' pattern & the hypocrisy** 🌐🔥
 Overnight & yesterday: Minneapolis boils after Alex Pretti (37, ICU nurse, phone in hand per witnesses/videos) shot by Border Patrol/ICE. Parents call it execution, ACLU suits ongoing, protests escalating. Follows Renee Good (Jan 7, unarmed US citizen, shot in vehicle by ICE).
 Dominant narrative: "mostly peaceful protests" for accountability, "systemic overreach", "Trump's Gestapo". Media pushes emotional march footage, outrage at feds, calls for ICE out of MN.
@@ -28,7 +28,3 @@ If you're tired of selective outrage... wait for facts, dig deeper.
 https://openinternetmanifest.org
 Read the hashes, check sources, think for yourself.
 #RealityVsNarrative #OpenInternetManifest #Day16 #MostlyPeaceful #Hypocrisy #NoGatekeepers
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

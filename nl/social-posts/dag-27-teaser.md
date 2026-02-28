@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: e98b0501c23b650319930bf9ed7802e031da62e84eb6ed20ea688b26046c75a6
+social_share_sha256: ''
+day: 27
+teaser_title: Van 1913 tot vandaag
+teaser_url: /nl/social-posts/dag-27-teaser
+teaser_text: macht centraliseert al meer dan 100 jaar
 ---
-
 🇳🇱 **Dag 27 Teaser – Vanavond: even op adem** 😏🍿  
 **Morgen RVN (zaterdag): de drie onzichtbare lagen die alles bij elkaar houden** 🕸️🔍
 
@@ -51,7 +51,3 @@ Facts over frames. Stay tuned.
 
 
 #RVN #FactsOverFrames #RealityVsNarrative #PowerStructures ⚡
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

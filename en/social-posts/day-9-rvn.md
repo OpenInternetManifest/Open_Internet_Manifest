@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 8bff0ca4fc587155cc45ab6b8f7a3ec44eed354271c611b14038a6015cc087da
+social_fb_sha256: 7bce491e8e89ab69c32e6fba4f372218845e3214febcd46376fcbd7450957396
+social_share_sha256: ''
+day: 9
+rvn_title: Daycare fraud
+rvn_url: /en/social-posts/day-9-rvn
+rvn_teaser: ICE and Tim Walz
 ---
-
 Reality vs Narrative – Daycare fraud, ICE and Tim Walz
 The narrative always sounds so sympathetic: “ICE is racist and inhumane, they tear families apart. Fraud is marginal and being addressed. Criticism of migration is xenophobia.”
 But look at the reality in Minnesota.

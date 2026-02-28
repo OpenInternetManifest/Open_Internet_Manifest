@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: a9e50c196b2fdca095040d9949e0e56831e234695c68055ee057cc97959c29a6
+social_share_sha256: ''
+day: 31
+teaser_title: 'Vanavond: de boemerang keert terug'
+teaser_url: /nl/social-posts/dag-31-teaser
+teaser_text: 'Morgen: Sun Tzu in volle glorie'
 ---
-
 **Dag 31 Teaser – Vanavond: de boemerang keert terug** ♟️🔥  
 Morgen RVN: Sun Tzu in volle glorie.
 
@@ -32,9 +32,4 @@ No illusions. No hate. Only reality over frames 🛡️.
 And we keep building: Giscus live, open conversation no gatekeeper 💬🌐  
 
 https://openinternetmanifest.org  
-#RVN #FactsOverFrames #RealityVsNarrative #SunTzu #EpsteinFiles #PamBondi #Day31Teaser  
-
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/hash-verifier  
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️.  
-Waarom narratieven wild worden... 🌀
+#RVN #FactsOverFrames #RealityVsNarrative #SunTzu #EpsteinFiles #PamBondi #Day31Teaser

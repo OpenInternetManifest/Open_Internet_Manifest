@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 6f7b3dfc15163214dfb182bd13b294a19ed6afde6d66f45a52c242bacd6f5a79
+social_share_sha256: ''
+day: 34
+rvn_title: De nieuwe look
+rvn_url: /nl/social-posts/dag-34-rvn
+rvn_teaser: Bouwen in plaats van klagen
 ---
 **Dag 34 – RVN: De nieuwe look – bouwen in plaats van klagen** 🛠️✨  
 Van woorden naar werkelijkheid: de site krijgt vorm.
@@ -45,9 +46,4 @@ Wat ga jij toevoegen? 🛠️🌱
 
 #RVN #OpenInternetManifest #FeitenBovenFrames #SiteUpdate #Decentralisatie #Dag34  
 
-https://openinternetmanifest.org  
-
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/hash-verifier  
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
-Waarom narratieven wild worden... 🌀
+https://openinternetmanifest.org

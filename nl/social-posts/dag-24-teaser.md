@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 13c06eec38452cde9a33d8dea04536ff598a0729cc6988d7513488dd3444cc78
+social_share_sha256: ''
+day: 24
+teaser_title: 'Vanavond: even op adem'
+teaser_url: /nl/social-posts/dag-24-teaser
+teaser_text: 'Morgen: Obama en de Iran-deal'
 ---
-
 🇳🇱 **Dag 24 Teaser – Vanavond: even op adem** 😏🍿  
 Eerder: 1913. Titanic ruimt tegenstanders op, FED en inkomstenbelasting erdoor, Rockefeller bouwt door.  
 Vandaag: Knights Templar – eerste internationale banksysteem, macht boven kerk en koningen, ontbonden maar structuur bleef hangen.  
@@ -39,7 +39,3 @@ Open Internet Manifest: facts over frames.
 Keep watching. 👀✨  
 https://openinternetmanifest.org/en/social-posts  
 #RealityVsNarrative #Day23Teaser
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives get wild — reality stays calm. 🕳️

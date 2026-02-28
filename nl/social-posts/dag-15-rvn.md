@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 04c4598d1ac452c37e85aff1c337d84ed25f8566aad161b2c141520e579e3a11
+social_share_sha256: ''
+day: 15
+rvn_title: Minneapolis mall
+rvn_url: /nl/social-posts/dag-15-rvn
+rvn_teaser: En de ICE-hypocrisie
 ---
-
 🇳🇱 **Dag 15 – Reality vs Narrative: Minneapolis mall & de ICE-hypocrisie** 🌐🔥  
 Vannacht en de afgelopen dagen: ICE slaat toe in Minneapolis, vooral bij Somalische malls (Karmel Mall, Star City). Arrestaties, shutdowns van honderden Somali-owned businesses (23-25 jan protest-sluitingen), straten vol demonstranten, en een dodelijk schietincident dat de boel escaleert. National Guard op standby in MN, 1500 troops ready – terwijl ICE nu nationwide opschaalt in alle 50 staten met record-manpower.  
 
@@ -31,7 +31,3 @@ Als je moe bent van selectieve verontwaardiging... graaf dieper.
 https://openinternetmanifest.org  
 Lees de hashes, check bronnen, denk zelf.  
 #realiteitvsnarratief #openinternetmanifest #dag15 #MinneapolisICE #ObamaHypocrisie #NoGatekeepers
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 0a01ad388ef2aa8a92ac32a331bf97eef0843786434a50dba01d45cd586b9544
+social_share_sha256: ''
+day: 10
+teaser_title: 'Tomorrow: '
+teaser_url: /en/social-posts/day-10-teaser
+teaser_text: On EU request, this domain is currently blocked
 ---
-
 🇬🇧 **Day 10 – The Invisible Leash** 🔗 
 They promise *"transparency"* & *"protection"* via AI rules & chat scans (EU 2026 rollout).  
 But every "safety" layer tightens the leash:  

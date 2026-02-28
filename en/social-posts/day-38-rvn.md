@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: "96a411928c08e82742733fc3cd4820ff6d2e11bad546891400a450248f20cc3c"        # site-versie
-social_x_sha256: "f33f2390b4306ffce524e63795bf3489df51a2f460e55f7432027dabb2805512"       # X-specifieke versie (optioneel)
-social_fb_sha256: "f65dc8855e8f89834c7bf774b2485decf740f40d26f6ae8106884e527c1a4005"      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: 96a411928c08e82742733fc3cd4820ff6d2e11bad546891400a450248f20cc3c
+social_x_sha256: f33f2390b4306ffce524e63795bf3489df51a2f460e55f7432027dabb2805512
+social_fb_sha256: f65dc8855e8f89834c7bf774b2485decf740f40d26f6ae8106884e527c1a4005
+social_share_sha256: ''
+day: 38
+rvn_title: Temporary alliesthe pattern that always returns
+rvn_url: /en/social-posts/day-38-rvn
+rvn_teaser: the pattern that always returns
 ---
-
 **Day 38 – RVN: Temporary allies: the pattern that always returns** 🪢🎪
 
 Some alliances are so absurd they almost seem comical… until you realize the pattern has existed for centuries.

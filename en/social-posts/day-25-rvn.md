@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: e4cd127b1254a082950a5a3535baf8a81e108a3d4804a583d38e8ba7eb0c58ae
+social_share_sha256: ''
+day: 25
+rvn_title: ' Obama, Iran cash and'
+rvn_url: /en/social-posts/day-25-rvn
+rvn_teaser: the eternal good cop / bad cop
 ---
-
 **Reality vs Narrative: Obama, Iran cash and the eternal good cop / bad cop ♟️💰🕳️**
 Quick recap of the week so far:
 - Day 22: Warp Speed / Trump → asymmetric play, no federal mandate, forced exit ramp without total confrontation
@@ -73,7 +73,3 @@ Open discussion allowed.
 I’m still learning every day.
 Are you?
 #RVN #FactsOverFrames #ObamaIran #GoodCopBadCop #FaithVsReligion
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Narratives get wild — reality stays calm. 🕳️

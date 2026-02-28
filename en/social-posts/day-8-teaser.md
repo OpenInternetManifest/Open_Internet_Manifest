@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 8
+teaser_title: 'Tomorrow: Verifiability: hashes don’t lie'
+teaser_url: /en/social-posts/day-8-teaser
+teaser_text: 'A hash is digital sealing wax: break it, and everyone sees it'
 ---
-
 🇬🇧 Day 8 – Verifiability: hashes don’t lie  
 
 “A hash is digital sealing wax: break it, and everyone sees it.”  

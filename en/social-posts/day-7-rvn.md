@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 7c14fc07b7d395ddff4b1db5c0c04ec50f8976410ac642f191ee02e7680a6e57
+social_share_sha256: ''
+day: 7
+rvn_title: Week Recap & The Promise of Freedom
+rvn_url: /en/social-posts/day-7-rvn
+rvn_teaser: ''
 ---
-
 Day 7 – Week Recap & The Promise of Freedom 🇬🇧✨
 This week in teasers:
 🔹 A Jewish woman in Amsterdam hesitates before saying who she is 😔

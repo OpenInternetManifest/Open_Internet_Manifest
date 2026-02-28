@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 06b8a16b29c263eb26b1d1bbbb45f4afc6d9a624cdd504ee50b3c28479dc34dc
+social_share_sha256: ''
+day: 7
+teaser_title: Weekoverzicht & de belofte van vrijheid
+teaser_url: /nl/social-posts/dag-7-teaser
+teaser_text: Narratief wil controle, realiteit wil vrijheid
 ---
-
 Dag 7 – Weekoverzicht & de belofte van vrijheid 🇳🇱✨
 Deze week in teasers:  
 🔹 Een Joodse vrouw in Amsterdam die even aarzelt voor ze durft te zeggen wie ze is 😔  

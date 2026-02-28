@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 7f1b5012032fcf2f65d702847c0a648f70bd7fc50daa206f7962df05dcb3463d
+social_share_sha256: ''
+day: 20
+teaser_title: Vandaag weer een narratief over bezetting en verzet
+teaser_url: /nl/social-posts/dag-20-teaser
+teaser_text: 'Morgen: de wortels die niemand vertelt'
 ---
-
 🇳🇱 Dag 20 Teaser – Morgen: de wortels die niemand vertelt 🌑📜
 
 Vandaag weer een narratief over "bezetting" en "verzet".
@@ -57,9 +57,3 @@ Keep watching. 👀🔍
 
 🔗 https://openinternetmanifest.org/en/social-posts
 #RealityVsNarrative #Day21Teaser
-
-This post is 100% authentic and verifiable via:
-🔗 https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-
-Why? Narratives hide depth — reality reveals it. 🕳️

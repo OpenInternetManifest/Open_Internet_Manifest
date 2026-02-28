@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 07483c64985d8b24aa554dc2137fffd4cdc834ccf77a08a36a89f0c371e58598
+social_share_sha256: ''
+day: 33
+rvn_title: Waarom verdeeldheid de echte macht is
+rvn_url: /nl/social-posts/dag-33-rvn
+rvn_teaser: En hoe de feiten-regen dat doorbreekt
 ---
-
 **Dag 33 – RVN: De moeder van alle narratieven** 🌀🕳️🔥  
 Week-synthese: waarom verdeeldheid de echte macht is – en hoe de feiten-regen dat doorbreekt.
 
@@ -50,9 +50,4 @@ Wat zie jij als de frames wegvallen? 🤔🌱
 
 #RVN #OpenInternetManifest #FeitenBovenFrames #RealityVsNarratief #NarratiefDerNarratieven #FeitenRegen #SunTzu #Soevereiniteit #Dag33 #WeekSynthese  
 
-https://openinternetmanifest.org  
-
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/hash-verifier  
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
-Waarom narratieven wild worden... 🌀
+https://openinternetmanifest.org

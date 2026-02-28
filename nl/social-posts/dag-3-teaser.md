@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: a77c1ee33a8fe97fba16ef6ac910840cccb01373d083055d26db9fde7abe5d7a
+social_share_sha256: ''
+day: 3
+teaser_title: 'Vrijheid begint vandaag  '
+teaser_url: /nl/social-posts/dag-3-teaser
+teaser_text: Praktische vrijheid in 10 minuten
 ---
-
 🇳🇱 Dag 3 – Vrijheid begint vandaag  
 Je hoeft niet te wachten op een perfect internet.  
 Begin nu al: stap-voor-stap guides voor Mastodon, Nextcloud, sovereign nodes en meer.  

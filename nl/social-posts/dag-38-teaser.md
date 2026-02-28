@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: "c6f462c166c2bea072b7d84b41b537e023d4988addd111611a6238fdec45ae20"      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: c6f462c166c2bea072b7d84b41b537e023d4988addd111611a6238fdec45ae20
+social_share_sha256: ''
+day: 38
+teaser_title: 'Vanavond: de ladder van de Graduated Animal Farms'
+teaser_url: /nl/social-posts/dag-36-teaser
+teaser_text: 'Morgen RVN: de eerste stal'
 ---
-
 **Dag 38 Teaser – Vanavond: de ladder van de Graduated Animal Farms** 🪜🐷  
 Morgen RVN: de eerste stal – mainstream media als basislaag GAF.
 

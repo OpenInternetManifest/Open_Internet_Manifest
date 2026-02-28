@@ -1,13 +1,14 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: dbf58cb1858675b6915a1aa40d8c792d179811a0036a991f809ad2af7266a285
+social_share_sha256: ''
+day: 1
+teaser_title: Het begin van iets groots
+teaser_url: /nl/social-posts/dag-1-teaser
+teaser_text: ''
 ---
 🇳🇱 Dag 1 – Het begin van iets groots  
 Begin december 2025 ontstond een droom: een internet dat weer van ons is.  

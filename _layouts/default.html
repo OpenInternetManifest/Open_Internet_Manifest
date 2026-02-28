@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'nl' | downcase }}">
   <head>
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
     <meta charset="UTF-8">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,14 +21,14 @@
 <nav class="main-nav">
   <div class="nav-container">
     <!-- Terug knop – altijd zichtbaar links -->
-    <a href="javascript:history.back()" class="nav-back" aria-label="{% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}">
-      ← {% if page.lang | default: 'nl' | downcase == 'en' %}Back{% else %}Terug{% endif %}
+    <a href="javascript:history.back()" class="nav-back" aria-label="{% if current_lang == 'en' %}Back{% else %}Terug{% endif %}">
+      ← {% if current_lang == 'en' %}Back{% else %}Terug{% endif %}
     </a>
 
     <div class="nav-logo-wrapper">
       <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
-      <span class="visitor-counter" title="{% if page.lang | default: 'nl' | downcase == 'en' %}Visitors since launch{% else %}Bezoekers sinds lancering{% endif %}">
-        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="{% if page.lang | default: 'nl' | downcase == 'en' %}Visitor counter{% else %}Bezoekers teller{% endif %}" style="border:none; height:1.8em !important; margin-left:0.8em;">
+      <span class="visitor-counter" title="{% if current_lang == 'en' %}Visitors since launch{% else %}Bezoekers sinds lancering{% endif %}">
+        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="{% if current_lang == 'en' %}Visitor counter{% else %}Bezoekers teller{% endif %}" style="border:none; height:1.8em !important; margin-left:0.8em;">
       </span>
     </div>
 
@@ -95,7 +96,7 @@
 
     <!-- Hamburger rechts -->
     <div class="nav-toggle-wrapper">
-      <button class="nav-toggle" aria-label="{% if page.lang | default: 'nl' | downcase == 'en' %}Open menu{% else %}Menu openen{% endif %}">
+      <button class="nav-toggle" aria-label="{% if current_lang == 'en' %}Open menu{% else %}Menu openen{% endif %}">
         <span></span>
         <span></span>
         <span></span>

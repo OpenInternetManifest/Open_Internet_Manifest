@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 246376c88e334c35e70b637599ab33500068adb8ac381dbf79ba1282ddbd9d13
+social_share_sha256: ''
+day: 17
+teaser_title: Een kind op school, vandaag
+teaser_url: /nl/social-posts/dag-17-teaser
+teaser_text: Op Holocaustherdenkingsdag
 ---
-
 🇳🇱 **Dag 17 – Een kind op school, vandaag** 🌐😔  
 Vandaag is het 27 januari.  
 Holocaustherdenkingsdag.  
@@ -41,8 +41,3 @@ Keep watching. 👀
 
 https://openinternetmanifest.org/nl/social-posts  
 #RealityVsNarrative #Day18Teaser #NeverAgainIsNow
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

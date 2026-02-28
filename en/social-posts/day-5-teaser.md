@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 5
+teaser_title: 'Tomorrow: 2026 will be the turning point'
+teaser_url: /en/social-posts/day-5-teaser
+teaser_text: Watch LightHouseTV on why 2026 is crucial for privacy and open internet
 ---
-
 🇬🇧 Day 5 – 2026 will be the turning point  
 Today again an Iranian at work: young couple, baby 5 days old. No contact with family anymore. Mother struggling. Both hope the regime falls.  
 

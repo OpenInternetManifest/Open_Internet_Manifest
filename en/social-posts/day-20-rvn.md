@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 3bd323010673c4ff139d102a3d15314bf7b7f
+social_fb_sha256: 27a0ef4b2936957ecf026e86e9d23c7ae242083247876ce58aa9c5e4b5367418
+social_share_sha256: ''
+day: 20
+rvn_title: Utrecht Bollendak
+rvn_url: /en/social-posts/day-20-rvn
+rvn_teaser: ''
 ---
-
 **Day 20 – Utrecht Bollendak: viral clip vs reality + spun narrative** 🚔🔍  
 Videos exploding: cop kicks Muslim woman in stomach, hits other with baton – narrative: "racism! police brutality against Muslim women!" Assault + racism complaint filed, protests follow, massive outrage and calls to action.
 
@@ -37,8 +37,3 @@ Open Internet Manifest: facts over frames. Hashes over hysterical narratives.
 Check hash & share reality. 👀  
 https://openinternetmanifest.org/en/social-posts  
 #RealityVsNarrative #Day20 #UtrechtReality #DoubleStandard
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives shift fast — reality needs hashes.

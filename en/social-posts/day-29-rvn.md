@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: e909d592990b3c185cfaab87532a96295142b1724d8d369e2904901cd9d14449
+social_fb_sha256: 38881a8b773f954f4d32caddb55f5c845f100e309648a79767e781cefc81aaec
+social_share_sha256: ''
+day: 29
+rvn_title: 'The circle closes:'
+rvn_url: /en/social-posts/day-29-rvn
+rvn_teaser: Epstein as visible symptom
 ---
-
 **RVN – Sunday March 1, 2026**  
 **Day 29 – The circle closes: Epstein as visible symptom** 🕸️⚫🔍
 

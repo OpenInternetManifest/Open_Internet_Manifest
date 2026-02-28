@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 3
+rvn_title: Dutch Travel Maniac banned
+rvn_url: /en/social-posts/day-3-rvn
+rvn_teaser: From facebook after Ter Apel videos
 ---
-
 Reality vs. Narrative – Dutch Travel Maniac banned from Facebook after Ter Apel videos.
 Narrative: Hate speech – ban protects community.
 Reality: He filmed real chaos in asylum center – no violence calls, just footage. Permanent ban silences him.

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: dad8ddb73dc022a35c1d8868d6c0e327aabd18e0b414b7919bd7ce3f426be1a3
+social_share_sha256: ''
+day: 34
+teaser_title: 'Vanavond: stilte voor de onthulling'
+teaser_url: /nl/social-posts/dag-34-teaser
+teaser_text: 'Morgen: Epstein''s blackmail-machine'
 ---
-
 **Dag 34 Teaser – Vanavond: stilte voor de onthulling** 🕸️🔥  
 Morgen: Epstein's blackmail-machine.
 Deze week zagen we hoe narratieven ons vasthouden.  
@@ -33,8 +33,4 @@ From static list to living manifest – that's building instead of complaining �
 Tomorrow we go deep.  
 No illusions. No hate. Only facts over frames 🛡️.
 https://openinternetmanifest.org  
-#RVN #OpenInternetManifest #EpsteinBlackmail #FactsOverFrames #Day33Teaser  
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
-Waarom narratieven wild worden... 🌀
+#RVN #OpenInternetManifest #EpsteinBlackmail #FactsOverFrames #Day33Teaser

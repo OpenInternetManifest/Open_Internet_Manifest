@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 3c3e5b2192efa9ea720e9afc69e6520b7ec1d0c03c02685192549312146ef1ef
+social_share_sha256: ''
+day: 22
+rvn_title: 'Warp Speed: Trump''s gedwongen vaccin-push'
+rvn_url: /nl/social-posts/dag-22-rvn
+rvn_teaser: of een geniale asymmetrische counter in een spirituele oorlog?
 ---
-
 Warp Speed: Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? ♟️🧬🔥🕊️
 
 Vanuit ons hoekje – waar we mRNA al jaren als enorme rode vlag zien 🚩, CRISPR-risico's, oxidefraffeen-geruchten, en de hele biotech-agenda als potentieel trojan horse voelen – klinkt het narratief keihard:  

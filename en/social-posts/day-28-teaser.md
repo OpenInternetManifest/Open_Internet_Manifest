@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 8b309bbdf1641b5aebc72d7a1f9657dd7bb4c3e9480ce2ab508d66df2116581f
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 28
+teaser_title: 'Tonight: the circle closes'
+teaser_url: /en/social-posts/day-28-teaser
+teaser_text: 'Tomorrow: Epstein'
 ---
-
 🇬🇧 **Day 29 Teaser – Tonight: the circle closes** 🕸️⚫  
 Tomorrow: Epstein.  
 Not as a standalone scandal, but as the visible tip of everything we’ve covered this week:  
@@ -27,8 +27,3 @@ the **comment section** (Giscus) is now live on almost all pages
 
 https://openinternetmanifest.org  
 #RVN #FactsOverFrames #RealityVsNarrative #Epstein #Day29Teaser
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives get wild — reality stays calm. 🕳️

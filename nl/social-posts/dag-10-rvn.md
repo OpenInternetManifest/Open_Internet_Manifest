@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 6edae6062871c3ea538349a77281d7159de05c98b87101a9ab501dbcdaf94d5f
+social_share_sha256: ''
+day: 10
+rvn_title: EU-blokkade van Odysee
+rvn_url: /nl/social-posts/dag-10-rvn
+rvn_teaser: En een DNS wijziging die de blookkade op heft
 ---
-
 Realiteit vs Narratief – EU-blokkade van Odysee (en meer)  
 Vandaag kreeg ik een melding toen ik naar odysee.com probeerde te gaan – een gedecentraliseerd alternatief voor YouTube, gebouwd op blockchain en censuurbestendig:  
 

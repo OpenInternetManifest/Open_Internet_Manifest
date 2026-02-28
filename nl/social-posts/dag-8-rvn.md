@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 4946882e046857805c07c2ad48d7d5526c332b822d5bda5cce35650ffb269763
+social_fb_sha256: 822e6773bca3b11340f2ef538a24f979bc5b46d6349fb39cfd6d35ae5c8f3bb6
+social_share_sha256: ''
+day: 8
+rvn_title: Verifieerbaarheid
+rvn_url: /nl/social-posts/dag-8-rvn
+rvn_teaser: 'hashes liegen niet  '
 ---
-
 Realiteit vs Narratief – Groenland Escalatie: Tarieven Edition (18 jan 2026)  
 Narratief:  
 Trump slaat toe met tarieven op NL en bondgenoten — economie in gevaar! 📉 Export stort in, recessie dreigt, NAVO op springen.  

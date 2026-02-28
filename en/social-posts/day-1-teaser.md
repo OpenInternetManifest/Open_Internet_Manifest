@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 1
+teaser_title: 'Tomorrow: The start'
+teaser_url: /en/social-posts/day-1-teaser
+teaser_text: Prep for the first full RVN – a dream of an internet that is ours again.
 ---
-
 🇬🇧 Day 1 – The start of something big  
 Started in December 2025: a dream of an internet that is ours again.  
 No gatekeepers, no surveillance, no black boxes.  

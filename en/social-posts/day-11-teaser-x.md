@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: d137d3c8a969f23bc211f192e169b062ed25467bb6db31cc8bf6a33fa0084c8f
+social_share_sha256: ''
+day: 11
+teaser_title: 'Tomorrow: he Big Split'
+teaser_url: /en/social-posts/day-11-teaser
+teaser_text: Trump's Frontal Attack
 ---
-
 🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  
 PVV loses 7 MPs – biggest split ever, led by Gidi Markuszower forming **Group Markuszower**. Reason: no democracy, bad course on Israel/Ukraine.  
 
@@ -21,9 +21,3 @@ Join: https://openinternetmanifest.org
 
 #RealityVsNarrative #OIM #PVVSplit #TrumpDeepState #NoMorePens 
 @realDonaldTrump
- 
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

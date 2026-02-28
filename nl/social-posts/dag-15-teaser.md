@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 68507256625dd75f16ff2020e49da6fa214486884e7fed08e7f2e30a85033b67
+social_share_sha256: ''
+day: 15
+teaser_title: Minneapolis brandt
+teaser_url: /nl/social-posts/dag-15-teaser
+teaser_text: Maar het oude patroon blijft
 ---
-
 🇳🇱 **Dag 15  – Narratief** 🌐✂️  
 Minneapolis brandt door: Pretti's familie schreeuwt om waarheid, DHS blokkeert evidence, protests escaleren.  
 Maar het oude patroon blijft: "mostly peaceful" voor de ene kant, "gerechtvaardigd" voor de andere.  
@@ -40,8 +40,3 @@ Tonight: get ready.
 
 https://openinternetmanifest.org/nl/social-posts  
 #RealityVsNarrative #OpenInternetManifest #MostlyPeaceful #Day15Teaser
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

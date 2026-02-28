@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+day: 4
+rvn_title: A technician in Amsterdam.
+rvn_url: /en/social-posts/day-4-rvn
+rvn_teaser: A 32-year-old Jewish woman hesitates before saying her background
 ---
-
 English summary:
 Reality vs. Narrative – A technician in Amsterdam.
 Narrative: Internet restrictions are necessary for safety and order.

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: 48c8e8de1c6c69ed253c67f46a7ee16235e761f3bf252b20441498eea3c66d49
+social_fb_sha256: 32646dcde1af0d6707a0d7f39b4a69b5ed809f97f1bceedd201181ac030dce01
+social_share_sha256: ''
+day: 23
+rvn_title: '1913'
+rvn_url: /en/social-posts/day-23-rvn
+rvn_teaser: the year the buttons were pushed
 ---
-
 **Reality vs Narrative: 1913 – the year the buttons were pushed? ♟️🛳️🕳️**
 Imagine: April 1912. The Titanic sinks.
 Three of the richest and most powerful men in America on board – and none of them survive.
@@ -61,7 +61,3 @@ Open discussion allowed.
 I’m still learning every day.
 Are you?
 #RVN #FactsOverFrames #1913 #Titanic #FollowTheMoney
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

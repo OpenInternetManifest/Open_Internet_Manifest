@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 0e165759eba2f1a003138e7573f88c0fbbbe3db6f94ecb6d01936a7cfae1e48e
+social_share_sha256: ''
+day: 14
+teaser_title: De nieuwe hub"
+teaser_url: /nl/social-posts/dag-14-teaser
+teaser_text: Dit is geen archief
 ---
-
 🇳🇱 **Dag 16 – De nieuwe hub** 🌐🗂️  
 Dit is geen archief.  
 Dit is geen statische pagina met oude woorden.  
@@ -43,8 +43,3 @@ The social-posts page is the new starting point: copy-paste ready for X, Matrix,
 No gatekeepers anymore. Just you, the text and the open web.  
 https://openinternetmanifest.org/nl/social-posts  
 #OpenInternetManifest #Day16 #SocialsWithoutLeash #RealityVsNarrative
-
-This post is 100% authentic and verifiable via:
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.

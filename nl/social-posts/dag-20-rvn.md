@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 7256ef1ca9b91325e8461c21d0083215dbb391598bf0d52fd5662606959322b9
+social_share_sha256: ''
+day: 20
+rvn_title: 'Utrecht Bollendak: viraal filmpje'
+rvn_url: /nl/social-posts/dag-20-rvn
+rvn_teaser: vs realiteit + gespind narratief
 ---
-
 🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  
 Video's exploderen: agent schopt moslima in buik, mept met wapenstok – narratief: "racisme! politiegeweld tegen moslima's!" Aangifte mishandeling + racisme, demonstraties, massale verontwaardiging en calls tot actie.
 Realiteit (politie 28-30 jan):  
@@ -35,4 +35,3 @@ Check hash & deel realiteit. 👀
 
 https://openinternetmanifest.org/nl/social-posts  
 #RealiteitVsNarratief #Dag20 #UtrechtRealiteit #DubbeleStandaard
-This post is 100% authentic and verifiable via:  

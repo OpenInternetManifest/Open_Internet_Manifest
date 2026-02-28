@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 9032eafefdb6398bad82c910e2491bd8468ea9b4345be5965b69c3e14152888a
+social_share_sha256: ''
+day: 9
+teaser_title: Graduated Animal Farms
+teaser_url: /nl/social-posts/dag-9-teaser
+teaser_text: ''
 ---
-
 🇳🇱 Dag 9  – Wat zijn Graduated Animal Farms?  
 De term komt uit alternatieve kringen en is een knipoog naar George Orwell's Animal Farm 📖: een revolutie die wordt gekaapt door een nieuwe elite.  
 

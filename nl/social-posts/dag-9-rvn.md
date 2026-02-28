@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ebdf56e1346786d05564111b37c758cda4208a0fa1bb8e78979cc0d641660167
+social_share_sha256: ''
+day: 9
+rvn_title: Daycare-fraude
+rvn_url: /nl/social-posts/dag-9-rvn
+rvn_teaser: 'ICE en Tim Walz '
 ---
-
 Realiteit vs Narratief – Daycare-fraude, ICE en Tim Walz  
 Het narratief klinkt altijd zo sympathiek: “ICE is racistisch en inhumaan, ze scheuren families uit elkaar. Fraude is marginaal en wordt aangepakt. Kritiek op migratie is xenofobie.”  
 

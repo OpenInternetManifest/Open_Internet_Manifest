@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ea545c5b8f024c05bd12cebd9baef1849c068a56b4ad969a59f31a288b9f97f5
+social_share_sha256: ''
+day: 28
+rvn_title: De drie onzichtbare lagen
+rvn_url: /nl/social-posts/dag-28-rvn
+rvn_teaser: Die het systeem draaiende houden
 ---
-
 **Realiteit vs narratief – De drie onzichtbare lagen die het systeem draaiende houden** 🕸️🔍
 
 **Recap van de week – de rode draad**  

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 814394c3e7e0dcc3958a8789eb3d6b5429dd5e3ee8640f3cb7ac317b210a86d6
+social_share_sha256: ''
+day: 11
+rvn_title: Van praatgroepje in heel Europa
+rvn_url: /nl/social-posts/dag-11-rvn
+rvn_teaser: naar slagveld
 ---
-
 **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
 
 Jarenlang werd Davos/WEF in Nederland én heel Europa afgedaan als **praatgroepje**: elites met champagne, loze beloftes en netwerkpraat op een Zwitserse berg. Rutte zelf noemde het vaak "slechts een praatclubje" – onschuldig, niks aan de hand.  
@@ -31,7 +31,3 @@ Wij willen een open web **zonder zonnebril** – geen censuur op truth, geen mon
 
 Open Internet Manifest: https://openinternetmanifest.org  
 #realiteitvsnarratief #MacronZonnebril #DavosPraatgroepje #TrumpGreenland #SunTzu #OIM ❤️
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.

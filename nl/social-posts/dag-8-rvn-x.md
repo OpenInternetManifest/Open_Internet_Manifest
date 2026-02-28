@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 4946882e046857805c07c2ad48d7d5526c332b822d5bda5cce35650ffb269763
+social_share_sha256: ''
+day: 8
+rvn_title: Verifieerbaarheid
+rvn_url: /nl/social-posts/dag-8-rvn
+rvn_teaser: 'hashes liegen niet  '
 ---
-
 🇳🇱 Dag 8 – Verifieerbaarheid: hashes liegen niet  
 
 “Een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.”  

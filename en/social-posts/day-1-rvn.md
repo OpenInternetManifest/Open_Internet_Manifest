@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: en
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 6db4e34227156425507966241a1ab871e11975fc14c14e3959e9ccd99b666644
+social_share_sha256: ''
+day: 1
+rvn_title: The Fixed Pattern in Major Incidents
+rvn_url: /en/social-posts/day-1-rvn
+rvn_teaser: How narratives are pushed and reality is forgotten
 ---
-
 Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 
 The narrative often says:  

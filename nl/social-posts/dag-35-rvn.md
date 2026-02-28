@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: b93eec239eeb5f9af18bd045f4b3894ffbdce9b75a1f7e1c41a7463d090fa529
+social_share_sha256: ''
+day: 35
+rvn_title: Epstein's blackmail-machine
+rvn_url: /nl/social-posts/dag-35-rvn
+rvn_teaser: Het onzichtbare touw
 ---
-
 **Dag 35 – RVN: Epstein's blackmail-machine – het onzichtbare touw** 🕸️🔗  
 Hoe chantage hele systemen stil houdt.
 

@@ -1,15 +1,15 @@
 ---
 layout: social-posts
 lang: nl
-# hashes for later use script
-website_sha256: ""        # site-versie
-social_x_sha256: ""       # X-specifieke versie (optioneel)
-social_fb_sha256: ""      # FB-specifieke versie (optioneel)
-social_share_sha256: ""   # hash van de gekopieerde share-tekst
-# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
-# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: 8a3907914e8b9543661e7c24af9ced663cd98d697138f0e3afa5810c62de145c
+social_share_sha256: ''
+day: 12
+teaser_title: Waarom OIM
+teaser_url: /nl/social-posts/dag-12-teaser
+teaser_text: Geen 'stallen' geen nieuwe fakkeldrager
 ---
-
 🇳🇱 **Dag 12 – Waarom OIM** 🌐✂️  
 We vechten niet voor een nieuwe laag "waarheid", niet voor een nieuwe partij, niet voor een nieuwe fakkeldrager.  
 
@@ -40,8 +40,3 @@ Open Internet Manifest is not an end station, but a beginning: a web without lea
 If you're tired of the pens... read along.  
 https://openinternetmanifest.org  
 #RealityVsNarrative #openinternetmanifest #WebWithoutLeash
-This post is 100% authentic and verifiable via:
-
-https://openinternetmanifest.org/en/hash-verifier
-Paste the full text to check authenticity.
-Why? Because narratives are easily distorted — reality is not.
