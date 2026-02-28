@@ -1672,23 +1672,24 @@ details li {
     padding: 0 2em !important;
   }
 }
-/* ====================== SOCIAL GRID & CARDS ====================== */
+/* ====================== SOCIAL GRID ====================== */
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 4 op desktop, kleiner op mobiel */
   gap: 1.5rem;
   margin: 2rem 0;
+  padding: 0 1rem;
 }
 
 .social-card {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, #141426, #0f0f1a);
+  background: linear-gradient(to bottom, #141426, #0f0f1a); /* grijs-gradient terug */
   border: 1px solid #222;
   border-radius: 12px;
-  padding: 1.2rem 1.4rem;
+  padding: 1.2rem;
   transition: all 0.2s ease;
-  min-height: 340px;           /* vaste card hoogte – voorkomt zakken */
+  min-height: 340px; /* vaste hoogte – geen zakken meer */
   position: relative;
   overflow: hidden;
 }
@@ -1706,8 +1707,8 @@ details li {
 .social-number {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #eee;                 /* wit/grijs tekst */
-  background: #222;            /* grijs/zwart box – zoals theses */
+  color: #eee;
+  background: #222; /* grijs/zwart zoals theses */
   padding: 0.35rem 0.7rem;
   border-radius: 6px;
   display: inline-block;
@@ -1715,7 +1716,7 @@ details li {
 
 .social-card h3 {
   margin: 0 0 0.6rem 0;
-  font-size: 1.15rem;
+  font-size: 1.1rem; /* kleiner en rustiger */
   line-height: 1.35;
   font-weight: 600;
 }
@@ -1731,24 +1732,24 @@ details li {
 }
 
 .rvn-content {
-  min-height: 130px;           /* vaste RVN-ruimte – divider blijft op vaste plek */
-  margin-bottom: 0.5rem;       /* minder witruimte onder RVN */
-  flex-grow: 1;                /* vult lege ruimte als teaser leeg */
+  min-height: 130px; /* vaste ruimte voor RVN – divider blijft stabiel */
+  margin-bottom: 0.6rem;
+  flex-grow: 1;
 }
 
 .divider {
   height: 1px;
   background: linear-gradient(to right, #1e1e2e, #66b3ff, #1e1e2e);
-  margin: 0.5rem 0 0.8rem 0;   /* dichter bij RVN, vaste positie */
+  margin: 0.5rem 0 0.8rem 0;
   width: 100%;
-  display: block !important;   /* ALTIJD tonen */
+  display: block !important; /* altijd tonen */
 }
 
 .teaser-preview {
   margin-top: 0.6rem;
   font-size: 0.95rem;
   color: #ccc;
-  min-height: 90px;            /* vaste teaser-ruimte – voorkomt zakken */
+  min-height: 90px; /* vaste teaser-ruimte – voorkomt zakken */
 }
 
 .social-teaser {
@@ -1762,114 +1763,7 @@ details li {
   min-height: 90px;
 }
 
-/* Mobiel */
-@media (max-width: 768px) {
-  .social-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .social-card {
-    min-height: 300px;
-  }
-
-  .rvn-content {
-    min-height: 110px;
-  }
-
-  .teaser-preview {
-    min-height: 80px;
-  }
-  /* ====================== SOCIAL GRID & CARDS ====================== */
-.social-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.social-card {
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to bottom, #141426, #0f0f1a);
-  border: 1px solid #222;
-  border-radius: 12px;
-  padding: 1.2rem 1.4rem;
-  transition: all 0.2s ease;
-  min-height: 340px;           /* vaste card hoogte – voorkomt zakken */
-  position: relative;
-  overflow: hidden;
-}
-
-.social-card:hover {
-  border-color: #444;
-  box-shadow: 0 4px 20px rgba(102, 179, 255, 0.1);
-  transform: translateY(-4px);
-}
-
-.social-header {
-  margin-bottom: 0.8rem;
-}
-
-.social-number {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #eee;                 /* wit/grijs tekst */
-  background: #222;            /* grijs/zwart box – zoals theses */
-  padding: 0.35rem 0.7rem;
-  border-radius: 6px;
-  display: inline-block;
-}
-
-.social-card h3 {
-  margin: 0 0 0.6rem 0;
-  font-size: 1.15rem;
-  line-height: 1.35;
-  font-weight: 600;
-}
-
-.full-title-link {
-  color: #eee;
-  text-decoration: none;
-  display: block;
-}
-
-.full-title-link:hover {
-  color: #88c0ff;
-}
-
-.rvn-content {
-  min-height: 130px;           /* vaste RVN-ruimte – divider blijft op vaste plek */
-  margin-bottom: 0.5rem;       /* minder witruimte onder RVN */
-  flex-grow: 1;                /* vult lege ruimte als teaser leeg */
-}
-
-.divider {
-  height: 1px;
-  background: linear-gradient(to right, #1e1e2e, #66b3ff, #1e1e2e);
-  margin: 0.5rem 0 0.8rem 0;   /* dichter bij RVN, vaste positie */
-  width: 100%;
-  display: block !important;   /* ALTIJD tonen */
-}
-
-.teaser-preview {
-  margin-top: 0.6rem;
-  font-size: 0.95rem;
-  color: #ccc;
-  min-height: 90px;            /* vaste teaser-ruimte – voorkomt zakken */
-}
-
-.social-teaser {
-  font-size: 0.95rem;
-  line-height: 1.45;
-  color: #ccc;
-}
-
-/* Lege teaser voorkomt zakken */
-.teaser-preview:empty {
-  min-height: 90px;
-}
-
-/* Mobiel */
+/* Mobiel: 1 card per rij */
 @media (max-width: 768px) {
   .social-grid {
     grid-template-columns: 1fr;
@@ -1887,31 +1781,4 @@ details li {
     min-height: 80px;
   }
 }
-.teaser-preview strong {
-  color: #88c0ff;
-  display: block;
-  margin-bottom: 0.2rem;
-}
 
-.teaser-preview strong a {
-  color: #66b3ff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.teaser-preview strong a:hover {
-  text-decoration: underline;
-}
-
-.teaser-preview small {
-  display: block;
-  margin-top: 0.2rem;
-  opacity: 0.9;
-  line-height: 1.3;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-}
