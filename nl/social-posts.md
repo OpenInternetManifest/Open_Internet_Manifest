@@ -16,7 +16,10 @@ title: Realiteit vs Narratief – Social Posts
   </p>
 </div>
 
-{% assign all_social_pages = site.pages | where_exp: "item", "item.path contains 'social-posts/'" %}
+{% comment %}
+  Filter alleen posts van de huidige taal (nl)
+{% endcomment %}
+{% assign all_social_pages = site.pages | where: "lang", "nl" | where_exp: "item", "item.path contains 'social-posts/'" %}
 {% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
 {% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
 
@@ -78,12 +81,12 @@ title: Realiteit vs Narratief – Social Posts
         {% if day_rvn %}
           <div class="rvn-title">
             <a href="{{ day_rvn.url | relative_url }}" class="full-title-link">
-              {{ day_rvn.rvn_title | default: day_rvn.title | append: " – Realiteit vs Narratief" }}
+              {{ day_rvn.rvn_title_nl | default: day_rvn.rvn_title | default: day_rvn.title | append: " – Realiteit vs Narratief" }}
             </a>
           </div>
 
           <div class="rvn-teaser">
-            {{ day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Realiteit vs Narratief analyse van de dag." | strip_html | truncatewords: 35 }}
+            {{ day_rvn.rvn_teaser_nl | default: day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Realiteit vs Narratief analyse van de dag." | strip_html | truncatewords: 35 }}
           </div>
         {% else %}
           <div class="rvn-title rvn-missing">Nog geen RVN voor dag {{ this_day }}</div>
@@ -95,12 +98,12 @@ title: Realiteit vs Narratief – Social Posts
         {% if day_teaser %}
           <div class="teaser-title">
             <a href="{{ day_teaser.url | relative_url }}" class="teaser-title-link">
-              {{ day_teaser.teaser_title | default: "Avondteaser – Dag " }}
+              {{ day_teaser.teaser_title_nl | default: day_teaser.teaser_title | default: "Avondteaser – Dag " | append: this_day }}
             </a>
           </div>
 
           <div class="teaser-preview">
-            {{ day_teaser.teaser_text | default: "Avondteaser met de hoogtepunten..." | strip_html | truncatewords: 25 }}
+            {{ day_teaser.teaser_text_nl | default: day_teaser.teaser_text | default: "Avondteaser met de hoogtepunten..." | strip_html | truncatewords: 25 }}
           </div>
         {% else %}
           <div class="teaser-title"></div>
