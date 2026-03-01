@@ -1712,12 +1712,12 @@ details li {
 .social-card {
   display: flex;
   flex-direction: column;
-background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
   border: 1px solid #222;
   border-radius: 12px;
   padding: 1.2rem 1.4rem;
   transition: all 0.2s ease;
-  min-height: 340px;           /* vaste card hoogte – geen zakken */
+  min-height: 340px;           /* hogere vaste hoogte – voorkomt zakken */
   position: relative;
   overflow: hidden;
 }
@@ -1743,14 +1743,14 @@ background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
 }
 
 .social-card h3 {
-  margin: 0 0 0.6rem 0;
+  margin: 0 0 0.6rem 0 !important;
   font-size: 1.1rem !important;           /* kleiner en rustiger */
   line-height: 1.35;
   font-weight: 600;
 }
 
 .full-title-link {
-  color: #eee;
+ color: #66b3ff;
   text-decoration: none;
   display: block;
 }
@@ -1760,16 +1760,16 @@ background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
 }
 
 .rvn-section {
-  min-height: 140px;           /* vaste RVN-ruimte – divider stabiel */
-  margin-bottom: 0.5rem;       /* minder witruimte */
+  min-height: 140px !important;           /* vaste RVN-ruimte – divider stabiel */
+  margin-bottom: 0.4rem !important;       /* minder witruimte */
   flex-grow: 1;
 }
 
 .divider {
   height: 1px;
   background: linear-gradient(to right, #1e1e2e, #66b3ff, #1e1e2e);
-  margin: 0.5rem 0 0.8rem 0;   /* dichter bij RVN, vaste positie */
-  width: 100%;
+  margin: 0.5rem 0 0.5rem 0 !important;   /* dichter bij RVN, vaste positie */
+  width: 100% !important;
   display: block !important;   /* ALTIJD tonen */
 }
 
@@ -1777,9 +1777,14 @@ background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
   margin-top: 0.6rem;
   font-size: 0.95rem !important;
   color: #ccc;
-  min-height: 90px;            /* vaste teaser-ruimte – voorkomt zakken */
+  min-height: 90px !important;            /* vaste teaser-ruimte – voorkomt zakken */
 }
-
+.teaser-preview {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  min-height: 90px !important;     /* vaste teaser-ruimte */
+}
 .social-teaser {
   font-size: 0.95rem;
   line-height: 1.45;
@@ -1788,7 +1793,7 @@ background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
 
 /* Lege teaser voorkomt zakken */
 .teaser-section:empty {
-  min-height: 90px;
+  min-height: 90px !important;
 }
 
 /* Mobiel */
@@ -1798,11 +1803,11 @@ background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
   }
 
   .social-card {
-    min-height: 300px;
+    min-height: 320px;
   }
 
   .rvn-section {
-    min-height: 110px;
+    min-height: 120px;
   }
 
   .teaser-section {
