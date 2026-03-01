@@ -6,7 +6,7 @@ social_x_sha256: e272c6ac680461fa32f5e704cf54e4f9d6140e09c48532b765a228440da2e96
 social_fb_sha256: 0501b854ff5e2f28968ec8c8ce17942af1a17dd9a23720ab5e207922cd67af88
 social_share_sha256: ''
 day: 33
-rvn_title: 'Week synthesis: why division is the real power'
+rvn_title: Week synthesis; why division is the real power
 rvn_url: /en/social-posts/day-33-rvn
 rvn_teaser: and how the facts rain breaks it
 ---

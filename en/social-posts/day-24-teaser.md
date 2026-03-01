@@ -6,7 +6,7 @@ social_x_sha256: ''
 social_fb_sha256: 20f871fe69c5de68ed8a05b3586efb28739cbde8866f0a355d051affa13cb3f7
 social_share_sha256: ''
 day: 24
-teaser_title: 'Tonight: just breathe'
+teaser_title: Tonight; just breathe
 teaser_url: /en/social-posts/day-24-teaser
 teaser_text: Tomorrow we look at a modern example
 ---

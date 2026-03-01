@@ -6,7 +6,7 @@ social_x_sha256: ''
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 3
-teaser_title: 'Tomorrow: Freedom starts today'
+teaser_title: Freedom starts today
 teaser_url: /en/social-posts/day-3-teaser
 teaser_text: No need to wait for a perfect internet
 ---

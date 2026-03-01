@@ -6,7 +6,7 @@ social_x_sha256: e909d592990b3c185cfaab87532a96295142b1724d8d369e2904901cd9d1444
 social_fb_sha256: 38881a8b773f954f4d32caddb55f5c845f100e309648a79767e781cefc81aaec
 social_share_sha256: ''
 day: 29
-rvn_title: 'The circle closes:'
+rvn_title: The circle closes
 rvn_url: /en/social-posts/day-29-rvn
 rvn_teaser: Epstein as visible symptom
 ---

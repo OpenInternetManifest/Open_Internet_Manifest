@@ -6,7 +6,7 @@ social_x_sha256: ''
 social_fb_sha256: ca20e5b77b831b207cecf5df94ee2e31540077ca5b41285cf30dc4db1d1d117e
 social_share_sha256: ''
 day: 30
-teaser_title: 'Tonight: the silence before the storm '
+teaser_title: Tonight; the silence before the storm
 teaser_url: /en/social-posts/day-30-teaser
 teaser_text: Tomorrow we resume the RVN series
 ---

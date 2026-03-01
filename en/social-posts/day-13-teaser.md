@@ -6,9 +6,9 @@ social_x_sha256: ''
 social_fb_sha256: 304bf97b9d4ceff31d8189657741fcd1b7ff22c04ddcf454bb00ebab9472c162
 social_share_sha256: ''
 day: 13
-teaser_title: 'Tomorrow: Just pause'
+teaser_title: Just pause
 teaser_url: /en/social-posts/day-13-teaser
-teaser_text: ''
+teaser_text: Sometimes it’s good to breathe
 ---
 🇬🇧 **Day 13 – Just pause** 🌱🌐 
 We've been pushing daily for weeks: teasers, threads, hashes, fact-checking, peeling narratives.  

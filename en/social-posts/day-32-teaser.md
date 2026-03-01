@@ -6,9 +6,9 @@ social_x_sha256: e9ef3918fa4c356c6aed23fd6a96c215864a663a573a7d75b5940b042066bd3
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 32
-teaser_title: 'Tonight: silence'
+teaser_title: Tonight; silence
 teaser_url: /en/social-posts/day-32-teaser
-teaser_text: 'Tomorrow: the mother of all narratives'
+teaser_text: Tomorrow; the mother of all narratives
 ---
 **Tomorrow 32 Teaser – Tonight: silence before the synthesis** 🌀🌑 
 Tomorrow: the mother of all narratives.

@@ -6,9 +6,9 @@ social_x_sha256: f7552ffd36692e17ff617c2a99db01045c21f3aa4305b1402a512de4201dc01
 social_fb_sha256: b101dd3f140a7da8726fb70ed91bdd6081c4381d67af89af0677e86d61714c5e
 social_share_sha256: ''
 day: 27
-rvn_title: Politics – from ‘affairs of the citizen’ to
+rvn_title: Politics – from ‘affairs of the citizen’ to theater
 rvn_url: /en/social-posts/day-27-rvn
-rvn_teaser: theater… and why that difference matters
+rvn_teaser: And why that difference matters
 ---
 **Reality vs Narrative: Politics – from ‘affairs of the citizen’ to theater… and why that difference matters ♟️🗳️🪞🙏**
 

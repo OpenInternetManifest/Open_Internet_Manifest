@@ -6,7 +6,7 @@ social_x_sha256: 666648c4710d56c35d46cc2fcc79447efd8b7b27a92ae5312e32159f96a4308
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 16
-teaser_title: 'Tomorrow: '
+teaser_title: The pattern keeps spinning
 teaser_url: /en/social-posts/day-16-teaser
 teaser_text: The pattern repeats for years – and the hypocrisy is massive
 ---

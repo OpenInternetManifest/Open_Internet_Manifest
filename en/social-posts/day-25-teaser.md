@@ -6,9 +6,9 @@ social_x_sha256: 74f27ceaad109f495126b41a7bff5260b13def695c601700db23764ecb51bb4
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 25
-teaser_title: 'Tonight: just breathe'
+teaser_title: Tonight; just breathe
 teaser_url: /en/social-posts/day-25-teaser
-teaser_text: 'Tomorrow: the Big Three'
+teaser_text: Tomorrow; the Big Three
 ---
 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
 Today: Obama / Iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  

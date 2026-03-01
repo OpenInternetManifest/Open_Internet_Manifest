@@ -6,9 +6,9 @@ social_x_sha256: ''
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 2
-teaser_title: 'Tomorrow: The Internet is not dead'
+teaser_title: The Internet is not dead
 teaser_url: /en/social-posts/day-2-teaser
-teaser_text: ''
+teaser_text: it is captured
 ---
 🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
 Thesis 1 hits hard:  

@@ -8,7 +8,7 @@ social_share_sha256: ''
 day: 1
 rvn_title: The Fixed Pattern in Major Incidents
 rvn_url: /en/social-posts/day-1-rvn
-rvn_teaser: How narratives are pushed and reality is forgotten
+rvn_teaser: How narratives are pushed and reality is
 ---
 Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 

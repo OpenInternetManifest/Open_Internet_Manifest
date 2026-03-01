@@ -6,9 +6,9 @@ social_x_sha256: 8b309bbdf1641b5aebc72d7a1f9657dd7bb4c3e9480ce2ab508d66df2116581
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 28
-teaser_title: 'Tonight: the circle closes'
+teaser_title: Tonight; the circle closes
 teaser_url: /en/social-posts/day-28-teaser
-teaser_text: 'Tomorrow: Epstein'
+teaser_text: Tomorrow; Epstein
 ---
 🇬🇧 **Day 29 Teaser – Tonight: the circle closes** 🕸️⚫  
 Tomorrow: Epstein.  

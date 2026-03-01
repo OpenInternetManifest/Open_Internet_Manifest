@@ -6,7 +6,7 @@ social_x_sha256: ''
 social_fb_sha256: 2908d40931d2a8951b64d30ead96d57e812f77a3965e434c7caf8e7472c87b38
 social_share_sha256: ''
 day: 28
-rvn_title: ' The three invisible layers'
+rvn_title: The three invisible layers
 rvn_url: /en/social-posts/day-28-rvn
 rvn_teaser: keeping the system running
 ---

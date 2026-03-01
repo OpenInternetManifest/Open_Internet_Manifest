@@ -6,7 +6,7 @@ social_x_sha256: ''
 social_fb_sha256: a7d2a981f41ba93a76b5b164cfc2c0f1af9dfd37b2ac3c860e25ffa58a69f6d1
 social_share_sha256: ''
 day: 8
-rvn_title: 'Greenland Escalation: Tariffs Edition'
+rvn_title: Greenland Escalation; Tariffs Edition
 rvn_url: /en/social-posts/day-8-rvn
 rvn_teaser: Trump hits allies with tariffs — economy in danger!
 ---

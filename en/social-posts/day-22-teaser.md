@@ -6,9 +6,9 @@ social_x_sha256: ''
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 22
-teaser_title: 'Tonight: just breathe '
+teaser_title: Tonight; just breathe
 teaser_url: /en/social-posts/day-22-teaser
-teaser_text: 'Tomorrow: back at it'
+teaser_text: Tomorrow; back at it
 ---
 🇬🇧 **Day 22 Teaser – Tonight: just breathe** 😏🍿  
 Today: Epstein files "exploding", unfriending, threats and "proof" without sources.  

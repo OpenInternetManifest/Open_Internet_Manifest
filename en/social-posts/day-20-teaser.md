@@ -6,9 +6,9 @@ social_x_sha256: e080a8f9aa37cb538a89db6b3dc471c297688292fbbee681dd82e66cd38efbd
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 20
-teaser_title: 'Tomorrow: '
+teaser_title: The roots no one talks about
 teaser_url: /en/social-posts/day-20-teaser
-teaser_text: Double standard in framing
+teaser_text: Tomorrow we go deeper
 ---
 🇬🇧 Day 20 Teaser – Tomorrow: the roots no one talks about 🌑📜
 

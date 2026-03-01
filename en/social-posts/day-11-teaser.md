@@ -6,7 +6,7 @@ social_x_sha256: ''
 social_fb_sha256: d137d3c8a969f23bc211f192e169b062ed25467bb6db31cc8bf6a33fa0084c8f
 social_share_sha256: ''
 day: 11
-teaser_title: 'Tomorrow: he Big Split'
+teaser_title: he Big Split
 teaser_url: /en/social-posts/day-11-teaser
 teaser_text: Trump's Frontal Attack
 ---

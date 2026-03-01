@@ -6,7 +6,7 @@ social_x_sha256: 8c0089a7f6cac7245bdb769c3d44cd6d8360b771fea6bd8f708aa8b49c0aef2
 social_fb_sha256: 1548ffdfcb38ae04cdd34f1a9392e84c77ff44d8999eb51bf6c6665e309fd7ab
 social_share_sha256: ''
 day: 21
-rvn_title: 'Israel-Palestine & Iran:'
+rvn_title: Israel-Palestine & Iran
 rvn_url: /en/social-posts/day-21-rvn
 rvn_teaser: historical, religious roots vs modern narrative
 ---

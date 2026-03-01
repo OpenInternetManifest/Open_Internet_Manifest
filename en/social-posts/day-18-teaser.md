@@ -8,7 +8,7 @@ social_share_sha256: ''
 day: 18
 teaser_title: We're growing
 teaser_url: /en/social-posts/day-18-teaser
-teaser_text: ''
+teaser_text: Keep watching
 ---
 🇬🇧 **Day 19 Teaser – Tonight** 🌐🔒  
 We're growing.  

@@ -6,9 +6,9 @@ social_x_sha256: ''
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 21
-teaser_title: 'Tonight: light mode'
+teaser_title: Tonight; light mode
 teaser_url: /en/social-posts/day-21-teaser
-teaser_text: 'Tomorrow: back at it'
+teaser_text: Tomorrow; back at it
 ---
 🇬🇧 **Day 21 Teaser – Tonight: light mode (yes really)** 😏🍿  
 Today: Epstein files "exploding", unfriending, threats and "proof" without sources.  

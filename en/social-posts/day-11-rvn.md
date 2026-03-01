@@ -6,7 +6,7 @@ social_x_sha256: 4c6a0091fc80992ef3d51acc5e4447ea84566dbf32eadf909f6d4a1678c1824
 social_fb_sha256: be25bb5efe43b2872191c8afa10f8aac81ebef04e0a14038d082e49dbe0c9d44
 social_share_sha256: ''
 day: 11
-rvn_title: WEF
+rvn_title: WEF; World Economic Forum
 rvn_url: /en/social-posts/day-11-rvn
 rvn_teaser: From talking shop across Europe to real power center
 ---

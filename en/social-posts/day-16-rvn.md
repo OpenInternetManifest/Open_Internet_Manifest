@@ -6,9 +6,9 @@ social_x_sha256: d2ca5ea6617899e04149cdb91c5d02114eea6fd7331a013e782dd8f7fa2d593
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 16
-rvn_title: mostly peaceful' pattern & the hypocrisy
+rvn_title: Mostly peaceful pattern & the hypocrisy
 rvn_url: /en/social-posts/day-16-rvn
-rvn_teaser: ''
+rvn_teaser: wait for facts, dig deeper
 ---
 🇬🇧 **Day 16 – Reality vs Narrative: The 'mostly peaceful' pattern & the hypocrisy** 🌐🔥
 Overnight & yesterday: Minneapolis boils after Alex Pretti (37, ICU nurse, phone in hand per witnesses/videos) shot by Border Patrol/ICE. Parents call it execution, ACLU suits ongoing, protests escalating. Follows Renee Good (Jan 7, unarmed US citizen, shot in vehicle by ICE).

@@ -4,7 +4,7 @@ lang: en
 title: Reality vs Narrative – Social Posts
 ---
 
-<div class="social-hero">
+<div class="social-posts-hero">
   <h1 class="intro-title">Reality vs Narrative</h1>
   
   <h2 class="manifest-subtitle">
@@ -16,83 +16,99 @@ title: Reality vs Narrative – Social Posts
   </p>
 </div>
 
+{% assign all_social_pages = site.pages | where_exp: "item", "item.path contains 'social-posts/'" %}
+{% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
+{% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
+
+{% assign social_posts = rvn_only | concat: teaser_only | uniq %}
+
 <div class="social-grid">
-  {% comment %}
-    Groepeer per dag: 1 card per dag met RVN + Teaser (als beide bestaan)
-    Sorteer op 'day' uit frontmatter
-  {% endcomment %}
 
-  {% assign social_posts = site.pages | where_exp: "p", "p.path contains '/social-posts/'" | where_exp: "p", "p.path contains '-rvn' or p.path contains '-teaser'" | sort: "day" %}
-
-  {% assign processed_days = "" | split: "" %}
+  {% assign unique_days_raw = "" | split: "" %}
+  {% assign seen = "" | split: "" %}
 
   {% for post in social_posts %}
-    {% assign this_day = post.day %}
+    {% assign day_str = post.day | string | strip | default: "NO_DAY" %}
+    {% unless seen contains day_str %}
+      {% assign seen = seen | push: day_str %}
+      {% assign unique_days_raw = unique_days_raw | push: day_str %}
+    {% endunless %}
+  {% endfor %}
 
-    {% assign already_processed = false %}
-    {% for pd in processed_days %}
-      {% if pd == this_day %}
-        {% assign already_processed = true %}
-      {% endif %}
-    {% endfor %}
-    {% if already_processed %}
-      {% continue %}
-    {% endif %}
+  {% assign padded = "" | split: "" %}
+  {% for d in unique_days_raw %}
+    {% assign padded_d = d | prepend: "000" | slice: -3, 3 %}
+    {% assign padded = padded | push: padded_d %}
+  {% endfor %}
 
-    {% assign processed_days = processed_days | push: this_day %}
+  {% assign padded = padded | sort_natural %}
 
-    {% assign day_rvn = nil %}
+  {% assign unique_days = "" | split: "" %}
+  {% for p in padded %}
+    {% assign orig = p | plus: 0 | string %}
+    {% assign unique_days = unique_days | push: orig %}
+  {% endfor %}
+
+  {% for this_day in unique_days %}
+    {% if this_day == "NO_DAY" or this_day == "" %}{% continue %}{% endif %}
+
+    {% assign day_rvn    = nil %}
     {% assign day_teaser = nil %}
 
-    {% for p in social_posts %}
-      {% if p.day == this_day %}
-        {% if p.path contains '-rvn' %}
-          {% assign day_rvn = p %}
-        {% elsif p.path contains '-teaser' %}
-          {% assign day_teaser = p %}
+    {% assign this_day_str = this_day | string | strip %}
+
+    {% for post in social_posts %}
+      {% assign post_day_str = post.day | string | strip %}
+      {% if post_day_str == this_day_str %}
+        {% if post.path contains '-rvn' %}
+          {% assign day_rvn = post %}
+        {% elsif post.path contains '-teaser' %}
+          {% assign day_teaser = post %}
         {% endif %}
       {% endif %}
     {% endfor %}
 
     {% if day_rvn or day_teaser %}
       <div class="social-card">
+
         <div class="social-header">
           <span class="social-number">Day {{ this_day }}</span>
         </div>
-        
-        {% if day_rvn %}
-  <h3>
-    <a href="{{ day_rvn.url | relative_url }}" class="full-title-link">
-      RVN: {{ day_rvn.rvn_title | default: day_rvn.title  }}
-    </a>
-  </h3>
-  <div class="rvn-content">
-  <p class="social-teaser">
-    {{ day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Reality vs Narrative analyse van de dag." | truncate: 120 }}
-  </p>
-</div>
-<div class="divider"></div>  <!-- altijd tonen, vaste positie -->
-{% endif %}
 
-{% if day_teaser %}
-  <div class="teaser-preview">
-    <strong>
-      <a href="{{ day_teaser.url | relative_url }}">
-      {{ day_teaser.teaser_title | default: day_teaser.title | default: "Teaser dag " }}
-      </a>
-    </strong><br>
-    <small>
-      {{ day_teaser.teaser_text | default: day_teaser.title | truncate: 80 }}
-    </small>
-  </div>
-{% endif %}
+            {% if day_rvn %}
+          <div class="rvn-title">
+            <a href="{{ day_rvn.url | relative_url }}" class="full-title-link">
+              {{ day_rvn.rvn_title | default: day_rvn.title | append: " – Reality vs Narrative" }}
+            </a>
+          </div>
+
+          <div class="rvn-teaser">
+            {{ day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Reality vs Narrative analysis of the day." | strip_html | truncatewords: 35 }}
+          </div>
+        {% else %}
+          <div class="rvn-title rvn-missing">Geen RVN nog voor dag {{ this_day }}</div>
+          <div class="rvn-teaser"></div>
+        {% endif %}
+
+        <div class="divider"></div>
+
+        {% if day_teaser %}
+          <div class="teaser-title">
+            <a href="{{ day_teaser.url | relative_url }}" class="teaser-title-link">
+              {{ day_teaser.teaser_title | default: "Avond teaser – Dag "  }}
+            </a>
+          </div>
+
+          <div class="teaser-preview">
+            {{ day_teaser.teaser_text | default: "Avond teaser met hoogtepunten..." | strip_html | truncatewords: 25 }}
+          </div>
+        {% else %}
+          <div class="teaser-title"></div>
+          <div class="teaser-preview teaser-missing">Geen teaser nog</div>
+        {% endif %}
+
       </div>
     {% endif %}
   {% endfor %}
 
-  {% if social_posts.size == 0 %}
-    <p style="color: #f66; text-align:center; padding: 3rem;">
-      (debug) No social posts found.
-    </p>
-  {% endif %}
 </div>

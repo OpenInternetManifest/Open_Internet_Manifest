@@ -6,9 +6,9 @@ social_x_sha256: 2b9e5c1afa8ed0c6d0349bea050b732981663903b0181e75d587b581c35a34b
 social_fb_sha256: e09340c35d77c43172aeed4aecec67be5d40ec0421f727f90f4fa6a2e372e16f
 social_share_sha256: ''
 day: 13
-rvn_title: 'Fluoride: the narrative finally cracking'
+rvn_title: Fluoride; the narrative finally cracking
 rvn_url: /en/social-posts/day-13-rvn
-rvn_teaser: 'For decades: fluoride in water is safe'
+rvn_teaser: For decades fluoride in water is safe
 ---
 **Reality vs Narrative** – Fluoride: the narrative finally cracking 🦷☢️
 For decades: "fluoride in water is safe and good for teeth". Standard in US public systems, pushed by CDC, ADA, WHO. Criticism? "Conspiracy theorists", "anti-science".

@@ -8,7 +8,7 @@ social_share_sha256: ''
 day: 10
 rvn_title: EU blocking Odysee
 rvn_url: /en/social-posts/day-10-rvn
-rvn_teaser: ''
+rvn_teaser:  it’s still very easy to bypass
 ---
 Reality vs Narrative – EU blocking Odysee (and more)
 Today I got this message when trying to visit odysee.com – a decentralized alternative to YouTube, built on blockchain and censorship-resistant:

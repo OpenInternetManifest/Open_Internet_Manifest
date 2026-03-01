@@ -6,7 +6,7 @@ social_x_sha256: 7e50a28bd88a7b6625222d4e2c7ac9c8b212c53adc7a6001653cbba7dc7b2e0
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 17
-teaser_title: 'Tomorrow: A child at school, today'
+teaser_title: A child at school, today
 teaser_url: /en/social-posts/day-17-teaser
 teaser_text: On Holocaust Remembrance Day
 ---

@@ -6,9 +6,9 @@ social_x_sha256: ''
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 27
-teaser_title: 'Tonight: just breathe'
+teaser_title: Tonight; just breathe
 teaser_url: /en/social-posts/day-27-teaser
-teaser_text: 'Tomorrow: the three mechanisms'
+teaser_text: Tomorrow; the three mechanisms
 ---
 🇬🇧 **Day 26 Teaser – Tonight: just breathe** 😏🍿  
 **Tomorrow RVN (Saturday): the three invisible layers keeping it all together** 🕸️🔍

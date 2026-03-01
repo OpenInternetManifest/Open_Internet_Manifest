@@ -6,9 +6,9 @@ social_x_sha256: ''
 social_fb_sha256: e4cd127b1254a082950a5a3535baf8a81e108a3d4804a583d38e8ba7eb0c58ae
 social_share_sha256: ''
 day: 25
-rvn_title: ' Obama, Iran cash and'
+rvn_title: Obama, Iran cash and
 rvn_url: /en/social-posts/day-25-rvn
-rvn_teaser: the eternal good cop / bad cop
+rvn_teaser: the eternal good cop-bad cop
 ---
 **Reality vs Narrative: Obama, Iran cash and the eternal good cop / bad cop ♟️💰🕳️**
 Quick recap of the week so far:

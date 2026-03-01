@@ -1219,6 +1219,7 @@ details li {
   font-size: 0.9rem !important;
 }
 
+/* ====================== THESES GRID & CARDS ====================== */
 .theses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -1682,142 +1683,221 @@ details li {
 /* ====================== SOCIAL POSTS HERO ====================== */
 .social-posts-hero {
   text-align: center;
-  padding: 4rem 2rem 3rem;
-  background: linear-gradient(to bottom, #0f0f1a, #141426);
-  border-bottom: 1px solid #222;
+  padding: 3rem 2rem 2.5rem;         /* meer lucht boven/onder */
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  border-radius: 16px;               /* iets ronder dan 10px */
+  margin: 0 auto 2.5rem;             /* centreren + ruimte onder hero */
+  border: 1px solid #333;
+  max-width: 1200px;                 /* breder dan 4 cards (4×280 + gaps ≈ 1150) */
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* subtiel schaduwtje voor diepte */
 }
 
-.social-posts-hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.intro-title {
+  font-size: 2.4rem !important;      /* groter voor hero-gevoel */
+  margin-bottom: 0.8rem;
   color: #66b3ff;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
-.social-posts-hero h2 {
-  font-size: 1.5rem;
-  color: #ccc;
+.manifest-subtitle {
+  font-size: 1.35rem !important;
+  color: #d0d0d0;
   margin-bottom: 1rem;
+  font-weight: 400;
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
 }
 
-.social-posts-hero p {
-  max-width: 800px;
-  margin: 0 auto 2rem;
-  color: #aaa;
-  font-size: 1.1rem;
-  line-height: 1.6;
+.intro-text {
+  max-width: 780px;
+  margin: 0 auto 1rem;
+  color: #b0b0b0;
+  font-size: 1.05rem !important;
+  line-height: 1.65;
 }
 
 /* ====================== SOCIAL GRID & CARDS ====================== */
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.9rem;
-  margin: 2rem 0;
-  padding: 0 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(227px, 1fr)); /* kleiner → makkelijker 4 op rij */
+  gap: 0.9rem;                        /* iets minder gap dan 1.8rem voor strakkere rijen */
+  margin: 1rem 0 5rem;                /* meer ruimte onder de hele grid */
+  padding: 0 1.5rem;
+  max-width: 1200px;                  /* breder totaal voor 4 cards */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-card {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 
+    auto          /* header */
+    4.8rem        /* rvn-title – meer ruimte voor 3 volledige regels */
+    4.9rem        /* rvn-teaser – extra ruimte */
+    45px           /* divider */
+    3.8rem        /* teaser-title – hoger vanaf divider */
+    3.2rem        /* teaser-preview – 3 regels + marge */
+    1fr;
+
+  row-gap: 0.6rem;
+
   background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
   border: 1px solid #222;
   border-radius: 12px;
-  padding: 1.2rem 1.4rem;
-  transition: all 0.2s ease;
-  min-height: 340px !important;           /* hogere vaste hoogte – voorkomt zakken */
-  position: relative;
-  overflow: hidden !important;
+  padding: 1.4rem 1.5rem;
+  height: 440px;                    /* iets hoger om alles adem te geven */
+  overflow: hidden;
+  transition: all 0.25s ease;
 }
 
 .social-card:hover {
   border-color: #444;
-  box-shadow: 0 4px 20px rgba(102, 179, 255, 0.1);
+  box-shadow: 0 6px 24px rgba(102, 179, 255, 0.12);
   transform: translateY(-4px);
 }
 
+/* Dag-nummer header */
 .social-header {
-  margin-bottom: 0.8rem;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.6rem;
 }
 
 .social-number {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #66b3ff !important;
-  background: #ffffff0d;;            /* grijs/zwart zoals theses */
-  padding: 0.35rem 0.7rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #66b3ff;
+  background: #222;
+  padding: 0.4rem 0.8rem;
   border-radius: 6px;
-  display: inline-block;
 }
 
-.social-card h3 {
-  margin: 0 0 0.6rem 0 !important;
-  font-size: 1.1rem !important;           /* kleiner en rustiger */
-  line-height: 1.35;
+/* RVN titel – meer ruimte voor volledige regels */
+.rvn-title {
+  grid-row: 2;
+  margin: 0.1rem 0 0.4rem 0;         /* extra marge onder titel */
+  font-size: 1.03rem;                /* iets kleiner → meer woorden per regel */
+  line-height: 1.38;                 /* strakker dan 1.32 → minder snel afbreken */
   font-weight: 600;
+  color: #e0e0e0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.rvn-title a,
 .full-title-link {
- color: #66b3ff;
+  color: #66b3ff;
   text-decoration: none;
   display: block;
 }
 
+.rvn-title a:hover,
 .full-title-link:hover {
   color: #88c0ff;
+  text-decoration: underline;
 }
 
-.rvn-section {
-  min-height: 140px !important;           /* vaste RVN-ruimte – divider stabiel */
-  margin-bottom: 0.4rem !important;       /* minder witruimte */
-  flex-grow: 1;
+/* RVN teaser */
+.rvn-teaser {
+  grid-row: 3;
+  margin: 0 0 1.0rem 0;              /* meer marge naar divider */
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: #b0b0b0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* Divider – hoger en meer ruimte */
 .divider {
+  grid-row: 4;
   height: 1px;
   background: linear-gradient(to right, #1e1e2e, #66b3ff, #1e1e2e);
-  margin: 0.5rem 0 0.5rem 0 !important;   /* dichter bij RVN, vaste positie */
-  width: 100% !important;
-  display: block !important;   /* ALTIJD tonen */
+  margin: 1.4rem 0 0.9rem 0;         /* meer ruimte erboven → divider "omhoog" */
 }
 
-.teaser-section {
-  margin-top: 0.6rem;
-  font-size: 0.95rem !important;
-  color: #ccc;
-  min-height: 90px !important;            /* vaste teaser-ruimte – voorkomt zakken */
+/* Teaser titel – duidelijke afstand van divider */
+.teaser-title {
+  grid-row: 5;
+  margin: 0.8rem 0 0.4rem 0;         /* extra marge boven teaser-title */
+  font-size: 1.02rem;
+  line-height: 1.42;
+  font-weight: 600;
+  color: #b0b0b0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.teaser-preview {
-  margin-top: 0.6rem;
-  font-size: 0.95rem;
-  color: #ccc;
-  min-height: 90px !important;     /* vaste teaser-ruimte */
+
+.teaser-title a,
+.teaser-title-link {
+  color: #99ccff;
+  text-decoration: none;
 }
+
+.teaser-title a:hover,
+.teaser-title-link:hover {
+  color: #bbddff;
+  text-decoration: underline;
+}
+
+/* Teaser preview – meer regels + ruimte */
+.teaser-preview,
 .social-teaser {
-  font-size: 0.95rem;
-  line-height: 1.45;
-  color: #ccc;
+  grid-row: 6;
+  margin: 0;
+  font-size: 0.93rem;
+  line-height: 1.48;
+ color: #b0b0b0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;             /* 3 regels ipv 2 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 4.6rem;                /* reserveer genoeg ruimte */
 }
 
-/* Lege teaser voorkomt zakken */
-.teaser-section:empty {
-  min-height: 90px !important;
+/* Lege velden ruimte behouden */
+.social-card .rvn-title:empty,
+.social-card .rvn-teaser:empty,
+.social-card .teaser-title:empty,
+.social-card .teaser-preview:empty {
+  visibility: hidden;
 }
 
-/* Mobiel */
+/* ====================== MOBIEL ====================== */
+@media (max-width: 1024px) {
+  .social-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* iets smaller op tablet */
+  }
+}
+
 @media (max-width: 768px) {
   .social-grid {
     grid-template-columns: 1fr;
+    gap: 1.6rem;
+    padding: 0 1rem;
   }
 
   .social-card {
-    min-height: 320px;
+    height: 410px;
+    padding: 1.3rem 1.4rem;
   }
 
-  .rvn-section {
-    min-height: 120px;
-  }
-
-  .teaser-section {
-    min-height: 80px;
+  .rvn-title {
+    font-size: 1.02rem;
+    line-height: 1.36;
   }
 }

@@ -6,9 +6,9 @@ social_x_sha256: 8def4f73a3ef29800912b22a81d062db2173558daf1a48bcb98661a6a968021
 social_fb_sha256: ''
 social_share_sha256: ''
 day: 34
-teaser_title: 'Tonight: silence'
+teaser_title: Tonight; silence
 teaser_url: /en/social-posts/day-34-teaser
-teaser_text: 'Tomorrow: Epstein''s blackmail machine'
+teaser_text: Tomorrow; Epsteins blackmail machine
 ---
 ** Day 33 Teaser – Tonight: silence before the revelation** 🕸️🔥  
 Tomorrow: Epstein's blackmail machine.
