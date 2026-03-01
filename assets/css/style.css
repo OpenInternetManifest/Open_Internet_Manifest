@@ -326,7 +326,7 @@ body {
 }
 
 /* Glow op hover – voor alle drie */
-.integrity-check:hover, .donation-section:hover, .community-box:hover, .thesis-card:hover, .guide-card:hover {
+.integrity-check:hover, .donation-section:hover, .community-box:hover, .thesis-card:hover, .guide-card:hover, .social-card:hover {
   background: rgba(255, 255, 255, 0.08) !important;
   box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
   transform: translateY(-4px);
@@ -1760,7 +1760,7 @@ details li {
 }
 
 .rvn-section {
-  min-height: 240px !important;           /* vaste RVN-ruimte – divider stabiel */
+  min-height: 140px !important;           /* vaste RVN-ruimte – divider stabiel */
   margin-bottom: 0.4rem !important;       /* minder witruimte */
   flex-grow: 1;
 }

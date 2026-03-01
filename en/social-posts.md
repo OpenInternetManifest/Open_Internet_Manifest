@@ -78,11 +78,11 @@ title: Reality vs Narrative – Social Posts
   <div class="teaser-preview">
     <strong>
       <a href="{{ day_teaser.url | relative_url }}">
-        {{ day_teaser.teaser_title | default: day_teaser.title }}
+      {{ day_teaser.teaser_title | default: day_teaser.title | default: "Teaser dag " }}
       </a>
     </strong><br>
     <small>
-      {{ default: "Teaser dag " | default: day_teaser.title | truncate: 80 }}
+      {{ day_teaser.teaser_text | default: day_teaser.title | truncate: 80 }}
     </small>
   </div>
 {% endif %}
