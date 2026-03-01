@@ -16,7 +16,10 @@ title: Reality vs Narrative – Social Posts
   </p>
 </div>
 
-{% assign all_social_pages = site.pages | where_exp: "item", "item.path contains 'social-posts/'" %}
+{% comment %}
+  Only fetch English posts (lang: en)
+{% endcomment %}
+{% assign all_social_pages = site.pages | where: "lang", "en" | where_exp: "item", "item.path contains 'social-posts/'" %}
 {% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
 {% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
 
@@ -75,7 +78,7 @@ title: Reality vs Narrative – Social Posts
           <span class="social-number">Day {{ this_day }}</span>
         </div>
 
-            {% if day_rvn %}
+        {% if day_rvn %}
           <div class="rvn-title">
             <a href="{{ day_rvn.url | relative_url }}" class="full-title-link">
               {{ day_rvn.rvn_title | default: day_rvn.title | append: " – Reality vs Narrative" }}
@@ -86,7 +89,7 @@ title: Reality vs Narrative – Social Posts
             {{ day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Reality vs Narrative analysis of the day." | strip_html | truncatewords: 35 }}
           </div>
         {% else %}
-          <div class="rvn-title rvn-missing">Geen RVN nog voor dag {{ this_day }}</div>
+          <div class="rvn-title rvn-missing">No RVN yet for day {{ this_day }}</div>
           <div class="rvn-teaser"></div>
         {% endif %}
 
@@ -95,16 +98,16 @@ title: Reality vs Narrative – Social Posts
         {% if day_teaser %}
           <div class="teaser-title">
             <a href="{{ day_teaser.url | relative_url }}" class="teaser-title-link">
-              {{ day_teaser.teaser_title | default: "Avond teaser – Dag "  }}
+              {{ day_teaser.teaser_title | default: "Evening teaser – Day "  }}
             </a>
           </div>
 
           <div class="teaser-preview">
-            {{ day_teaser.teaser_text | default: "Avond teaser met hoogtepunten..." | strip_html | truncatewords: 25 }}
+            {{ day_teaser.teaser_text | default: "Evening teaser with highlights..." | strip_html | truncatewords: 25 }}
           </div>
         {% else %}
           <div class="teaser-title"></div>
-          <div class="teaser-preview teaser-missing">Geen teaser nog</div>
+          <div class="teaser-preview teaser-missing">No teaser yet</div>
         {% endif %}
 
       </div>
