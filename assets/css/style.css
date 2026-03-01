@@ -1717,9 +1717,9 @@ details li {
   border-radius: 12px;
   padding: 1.2rem 1.4rem;
   transition: all 0.2s ease;
-  min-height: 340px;           /* hogere vaste hoogte – voorkomt zakken */
+  min-height: 340px !important;           /* hogere vaste hoogte – voorkomt zakken */
   position: relative;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .social-card:hover {
@@ -1760,7 +1760,7 @@ details li {
 }
 
 .rvn-section {
-  min-height: 140px !important;           /* vaste RVN-ruimte – divider stabiel */
+  min-height: 240px !important;           /* vaste RVN-ruimte – divider stabiel */
   margin-bottom: 0.4rem !important;       /* minder witruimte */
   flex-grow: 1;
 }
