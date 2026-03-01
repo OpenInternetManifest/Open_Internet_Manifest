@@ -1748,7 +1748,7 @@ details li {
   border-radius: 12px;
   padding: 1.4rem 1.5rem;
   height: 440px;                    /* iets hoger om alles adem te geven */
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.25s ease;
 }
 
@@ -1787,7 +1787,7 @@ details li {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
 }
 
@@ -1812,9 +1812,9 @@ details li {
   line-height: 1.5;
   color: #b0b0b0;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
 }
 
