@@ -5,6 +5,7 @@
   .desktop-only { display: none !important; }
   .mobile-only { display: block !important; }
 }
+
 /* ====================== BASIS & DARK THEME ====================== */
 .page-header { display: none !important; }
 
@@ -422,7 +423,7 @@ body {
 
 .nav-arrow {
   pointer-events: all;
-  font-size: 3.5em !important;
+  font-size: 3.5em !important;           /* ← voeg eenheid toe, en !important als je dat eerder had */
   color: rgba(102, 179, 255, 0.6) !important;
   background: transparent !important;
   width: 80px !important;
@@ -432,6 +433,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  cursor: pointer;                       /* handig extra */
 }
 
 .nav-arrow:hover {
@@ -525,7 +527,7 @@ a#skip-to-content {
 }
 
 /* Tablet & desktop: groter en perfecte vlag-verhouding */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .language-buttons {
     gap: 3em;
   }
@@ -1287,6 +1289,7 @@ details li {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-clamp: 5;
 }
 
 .thesis-teaser {
@@ -1302,6 +1305,7 @@ details li {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-clamp: 5;
 }
 
 .read-more {
@@ -1427,6 +1431,7 @@ details li {
   text-overflow: ellipsis;
   hyphens: auto;
   overflow-wrap: break-word;
+  line-clamp: 5;
 }
 
 /* Teaser – meer ruimte rechts */
@@ -1446,6 +1451,7 @@ details li {
   padding-right: 1.6rem !important;           /* verhoogd → tekst kan verder naar rechts */
   hyphens: auto;
   overflow-wrap: break-word;
+  line-clamp: 5;
 }
 
 /* Read-more */
@@ -1480,6 +1486,7 @@ details li {
   .guide-card h3 {
     padding-right: 6.5rem !important;
   }
+}
 
   /* Progress label rechtsboven – motiverend en subtiel */
 .thesis-progress {
@@ -1502,7 +1509,7 @@ details li {
   opacity: 1;
   color: #66b3ff;
 }
-}
+
 /* ==========================================================================
    Social Post pagina – individuele RVN / Teaser (layout: social-post)
    ========================================================================== */
