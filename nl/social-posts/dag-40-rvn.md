@@ -6,8 +6,8 @@ website_sha256:
 social_x_sha256: ''
 social_fb_sha256: b8e4d21c89dfe2ce06af9a243cd796340f2852feb1976d91635c0aaa0590c37a
 social_share_sha256: ''
-rvn_title: Sun Tzu voltooid? – Proxy-lus breekt af met precisie-slagen ♟️
-rvn_teaser: Van eeuwige proxy-financiering naar gerichte afbraak. Is Trump de eerste die het oude patroon echt doorbreekt? 🔪
+rvn_title: Sun Tzu voltooid?
+rvn_teaser: Proxy-lus breekt af met precisie-slagen ♟️
 rvn_url: /nl/social-posts/dag-40-rvn
 ---
 
