@@ -1,0 +1,341 @@
+/* ==========================================================================
+   Uniforme content container – centrum + max-width overal gelijk
+   ========================================================================== */
+
+:root {
+  --content-max-width: 1200px;
+  --content-padding-side: 1.5rem;     /* mobiel ruim, desktop ook prima */
+  --content-padding-side-lg: 2rem;    /* optie voor hele grote schermen */
+}
+
+.content-container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--content-padding-side);
+  padding-right: var(--content-padding-side);
+  box-sizing: border-box;
+}
+
+/* Voor secties die bewust breder mogen zijn (bijv. hero met achtergrond) */
+.content-container--wide {
+  max-width: 1440px;   /* pas aan naar wens */
+}
+
+/* Heel soms wil je écht full-bleed (zelden nodig) */
+.content-container--full {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Tijdelijk verbergen bezoekers-teller */
+.visitor-counter {
+  display: none;
+}
+/* Voor full-bleed achtergrond (zoals banner), maar tekst binnen container */
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner .overlay-text {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: var(--content-max-width);
+  padding: 2em;
+  box-sizing: border-box;
+  text-align: center;
+}
+/* ==========================================================================
+   LAYOUT.CSS – Banner, overlay, algemene content wrappers
+   ========================================================================== */
+
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: clamp(280px, 45vh, 500px);   /* betere responsive dan losse vh + min/max */
+  overflow: hidden;
+}
+
+.banner img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Hero op overzichtspagina – perfect gecentreerd binnen container */
+.social-posts-hero {
+  text-align: center;
+  padding: 3rem 2rem 2.5rem;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
+  border-radius: 16px;
+  margin: 0 auto 2.5rem;                 /* auto links/rechts voor centrering */
+  border: 1px solid #333;
+  max-width: var(--content-max-width, 1200px);
+  width: 100%;
+  box-sizing: border-box;                /* zorg dat padding binnen max-width valt */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* Forceer perfecte centrering + geen uitsteeksels */
+.social-posts-hero {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+/* Als de parent (main-content) padding heeft, compenseer */
+.main-content .social-posts-hero {
+  margin-left: calc(-1 * var(--content-padding-side, 1.5rem)) !important;
+  margin-right: calc(-1 * var(--content-padding-side, 1.5rem)) !important;
+  padding-left: var(--content-padding-side, 1.5rem) !important;
+  padding-right: var(--content-padding-side, 1.5rem) !important;
+  width: calc(100% + 2 * var(--content-padding-side, 1.5rem)) !important;
+  max-width: calc(var(--content-max-width, 1200px) + 2 * var(--content-padding-side, 1.5rem)) !important;
+}
+/* Banner overlay – semi-transparant, gecentreerd binnen 1200px */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;                           /* iets smaller dan full voor mobiel */
+  max-width: var(--content-max-width, 1200px);  /* max 1200px */
+  margin: 0 auto;                       /* extra centrering fallback */
+  background: rgba(10, 15, 20, 0.45) !important;  /* semi-transparant donker terug */
+  padding: 2em 2.5em;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(102, 179, 255, 0.3);
+  box-sizing: border-box;
+  z-index: 2;                           /* zorg dat hij boven de img staat */
+}
+.overlay-text h1 {
+  color: var(--primary);
+  font-size: clamp(2.3em, 5vw, 3.6em);
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.overlay-text p {
+  color: #f0f8ff;
+  font-size: clamp(1.35em, 3vw, 1.8em);
+  margin: 0.8em 0 0;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   NAVIGATIE – main-nav, container, logo, back, links, hamburger, mobiel menu
+   ========================================================================== */
+
+.main-nav {
+  background: rgba(15, 20, 25, 0.95);
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-container {
+  max-width: var(--content-max-width, 1200px);
+  margin: 0 auto;
+  padding: 0.8em 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav-logo {
+  font-weight: 900;
+  font-size: 1.3em;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* Back knop – altijd links */
+.nav-back {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+}
+
+.nav-back:hover {
+  color: var(--primary-hover);
+}
+
+/* Desktop links */
+.nav-links {
+  display: flex;
+  gap: 2em;
+}
+
+.nav-links a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* Hamburger toggle */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 28px;               /* breder → beter klikbaar */
+  height: 3px;
+  background: var(--text-light);
+  margin: 5px 0;
+  transition: all 0.3s;
+}
+
+/* Mobiel menu – full-width dropdown */
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: none;
+  background: rgba(15, 20, 25, 0.98);
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+.mobile-menu.open {
+  display: block;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 1em 1.5em;
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid rgba(102, 179, 255, 0.1);
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu a:hover {
+  background: rgba(102, 179, 255, 0.2);
+  color: var(--primary);
+}
+/* ==========================================================================
+   DROPDOWN MENU – in navigatie
+   ========================================================================== */
+
+.nav-item.has-dropdown {
+  position: relative;
+}
+
+.nav-item.has-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a.highlight {
+  background: #333;
+  color: var(--primary);
+}
+/* ==========================================================================
+   SOCIAL POST & THESIS NAVIGATIE PIJLEN – fixed, ronde buttons
+   ========================================================================== */
+
+.social-post-navigation-arrows,
+.thesis-navigation-arrows {
+  position: fixed;
+  top: calc(50% + 200px);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3em;
+  max-width: var(--content-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.nav-arrow {
+  pointer-events: all;
+  font-size: 3.5em;
+  color: rgba(102, 179, 255, 0.6);
+  background: transparent;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-arrow:hover {
+  color: var(--primary);
+  background: rgba(102, 179, 255, 0.15);
+  transform: scale(1.1);
+}
+
+.nav-arrow-left {
+  margin-right: auto;
+}
+
+.nav-arrow-right {
+  margin-left: auto;
+}

@@ -1,0 +1,293 @@
+/* ==========================================================================
+   MEDIA.CSS – Alle responsive aanpassingen, gesorteerd op breakpoint
+   ========================================================================== */
+
+/* Kleinste schermen (onder ~480px) */
+@media (max-width: 480px) {
+  .language-btn {
+    width: 85%;
+    max-width: 280px;
+    padding: 1em 1.5em;
+    font-size: 1.3em;
+  }
+
+  .language-note {
+    padding: 1.2em;
+    font-size: 1em;
+    margin: 3em auto 1.5em;
+  }
+    .social-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .social-card {
+    height: auto;  /* laat hoogte dynamisch worden op heel klein scherm */
+    min-height: 380px;
+  }
+}
+
+/* Standaard mobiel (max 768px) – grootste verzameling */
+@media (max-width: 768px) {
+  /* Algemene content & typografie */
+  .main-content {
+    padding: 1em;
+    font-size: 1.1em;
+  }
+
+  h1, .manifest-header, .overlay-text h1 {
+    font-size: 2.4em;
+  }
+
+  .overlay-text p {
+    font-size: 1.5em;
+  }
+
+  .theses-list li a {
+    font-size: 1.3em;
+  }
+
+  /* Banner & overlay */
+  .banner {
+    height: clamp(260px, 38vh, 360px);
+  }
+
+  .overlay-text {
+    width: 88%;
+    padding: 1.2em 1.6em;
+    background: rgba(10, 15, 20, 0.7);
+    border-radius: 18px;
+  }
+
+  .overlay-text h1 {
+    font-size: 2.3em;
+  }
+
+  .overlay-text p {
+    font-size: 1.35em;
+    margin-top: 0.5em;
+  }
+
+  /* Navigatie */
+  .nav-container {
+    padding: 0.6em 1em;
+    justify-content: center;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-back {
+    left: 1em;
+  }
+
+  .nav-toggle-wrapper {
+    right: 1em;
+  }
+
+  /* Navigatie pijlen */
+  .thesis-navigation-arrows {
+    top: calc(50% + 160px);
+    padding: 0 2em;
+  }
+
+  .nav-arrow {
+    font-size: 3em;
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Taalkeuze & note */
+  .language-buttons {
+    gap: 1.8em;
+  }
+
+  .language-btn {
+    width: 80%;
+    max-width: 300px;
+    padding: 1.1em 1.8em;
+    font-size: 1.35em;
+  }
+
+  .language-note {
+    padding: 1.5em;
+    font-size: 1.1em;
+    margin: 4em auto 2em;
+  }
+
+  /* Donation & integrity blokken */
+  .integrity-check,
+  .donation-section,
+  .community-box {
+    padding: 1.2em;
+    margin: 2em 0;
+  }
+
+  /* Buttons algemeen */
+  button,
+  .verify-btn,
+  .big-copy-btn,
+  .copy-btn {
+    padding: 1em;
+    font-size: 1.1em;
+    width: 100%;
+  }
+
+  /* Hash input / verifier */
+  .hash-input,
+  #input-text {
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  /* Donation table */
+  .donation-table img {
+    max-width: 150px;
+  }
+
+  .donation-table td {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .donation-table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Grotere schermen – banner iets royaler */
+@media (min-width: 1200px) {
+  .banner {
+    height: clamp(400px, 50vh, 600px);
+  }
+}
+
+/* Optioneel: tablet / middengebied (als je later meer wilt toevoegen) */
+@media (max-width: 1024px) {
+  /* Bijv. toekomstige grid: 3 kolommen */
+  /* .social-grid { grid-template-columns: repeat(3, 1fr); } */
+}
+/* Grotere schermen – royalere padding op ultra-wide */
+@media (min-width: 1400px) {
+  .content-container {
+    --content-padding-side: var(--content-padding-side-lg, 2rem);
+  }
+}
+/* ==========================================================================
+   MEDIA.CSS – aanvullingen uit dit blok
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .community-box iframe,
+  .community-box div[class*="element"],
+  .community-box [class*="discussion"] {
+    height: 500px;
+  }
+
+  .section-divider {
+    margin: 2em auto 1.5em;
+    width: 85%;
+    max-width: 350px;
+  }
+
+  .final-call {
+    font-size: 1.3em;
+  }
+
+  .final-call .highlight {
+    font-size: 1.45em;
+  }
+
+  .discussion-ref {
+    font-size: 0.95em;
+  }
+
+  .signature br {
+    display: block; /* mobiel: twee regels */
+  }
+}
+/* Aanvulling op bestaande 768px en kleiner */
+@media (max-width: 640px) {
+  .comments-section {
+    margin: 2.5em auto;
+    padding: 1.5em;
+  }
+
+  .giscus {
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .guide-card {
+    height: 265px;
+    padding: 1rem 1rem 1rem 2.2rem;
+  }
+
+  .guide-teaser {
+    max-height: 115px;
+  }
+
+  .guide-card h3 {
+    padding-right: 6.5rem;
+  }
+}
+/* Aanvullingen social-posts */
+
+@media (max-width: 1024px) {
+  .social-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .social-post-content {
+    font-size: 1rem;
+    padding: 0 0.8rem;
+  }
+
+  .social-post-content blockquote {
+    padding: 0.8rem 1rem;
+  }
+
+  .social-post-content ul,
+  .social-post-content ol {
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .social-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .social-card {
+    height: 410px;
+    padding: 1.3rem 1.4rem;
+  }
+
+  .rvn-title {
+    font-size: 1.02rem;
+    line-height: 1.36;
+  }
+
+  .social-post-navigation-arrows {
+    top: calc(50% + 160px);
+    padding: 0 2em;
+  }
+
+  .social-post-navigation-arrows .nav-arrow {
+    font-size: 3em;
+    width: 70px;
+    height: 70px;
+  }
+}

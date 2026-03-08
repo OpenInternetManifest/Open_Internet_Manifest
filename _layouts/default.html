@@ -141,25 +141,24 @@
 
     <!-- Banner met overlay -->
     <header class="custom-header" role="banner">
-      <div class="banner">
-        <img src="{{ site.baseurl }}/assets/images/banner-donker.jpg" alt="Open Internet Manifest">
-        <div class="overlay-text">
-          <h1>Open Internet Manifest</h1>
-          <p>
-          {% assign lang_code = page.lang | default: 'nl' | downcase %}
-          {% if lang_code == 'en' %}
-          English version · 100 theses for a free, open and unalienable internet
-          {% else %}
-          Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
-          {% endif %}
-          </p>
-        </div>
-      </div>
-    </header>
+  <div class="banner">
+    <img src="{{ site.baseurl }}/assets/images/banner-donker.jpg" alt="Open Internet Manifest">
+    <div class="overlay-text content-container">
+      <h1>Open Internet Manifest</h1>
+      <p>
+        {% assign lang_code = page.lang | default: 'nl' | downcase %}
+        {% if lang_code == 'en' %}
+        English version · 100 theses for a free, open and unalienable internet
+        {% else %}
+        Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</header>
 
     <!-- Main content -->
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+    <main id="content" class="main-content content-container" role="main">      {{ content }}
 
       
       {% include donation.html %}

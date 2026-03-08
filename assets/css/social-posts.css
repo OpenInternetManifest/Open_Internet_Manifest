@@ -1,0 +1,182 @@
+/* ==========================================================================
+   SOCIAL POSTS OVERZICHT – grid, cards, rvn/teaser structuur
+   ========================================================================== */
+
+/* Hero op overzichtspagina – perfect gecentreerd (dubbel block verwijderd) */
+.social-posts-hero {
+  text-align: center;
+  padding: 3rem 2rem 2.5rem;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
+  border-radius: 16px;
+  margin: 0 auto 2.5rem;
+  border: 1px solid #333;
+  max-width: var(--content-max-width, 1200px);
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* Social grid – forceer exacte 1200px vulling, symmetrisch links/rechts */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* minmax(0,1fr) voorkomt minimale breedte-problemen */
+  gap: 2rem;                                        /* uniforme gap, geen aparte row/column */
+  margin: 1rem auto 5rem;
+  padding: 0;
+  max-width: var(--content-max-width, 1200px);
+  width: 100%;
+  box-sizing: border-box;
+  justify-items: stretch;                           /* cards vullen kolom volledig */
+  align-content: start;
+}
+
+/* Card – vaste posities, volle breedte, consistente row heights */
+.social-card {
+  display: grid;
+  grid-template-rows:
+    minmax(2.5rem, auto)     /* header: flexibel maar min 2.5rem */
+    5.4rem                   /* rvn-title: vaste hoogte voor 3 regels */
+    4rem                   /* rvn-teaser: vaste hoogte voor 3 regels */
+    50px                      /* divider: exact 1px */
+    3.5rem                     /* teaser-title: vaste hoogte voor 2 regels */
+    4.2rem                   /* teaser-preview: vaste hoogte voor 3 regels */
+    1fr;                     /* vuller onderaan voor balans */
+  gap: 0.6rem;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;      /* iets symmetrischer padding */
+  height: 440px;               /* totale vaste hoogte */
+  overflow: hidden;
+  transition: all 0.25s ease;
+  box-sizing: border-box;
+  width: 100%;                 /* forceer volle kolombreedte */
+}
+
+/* Hover */
+.social-card:hover {
+  border-color: rgba(102, 179, 255, 0.5);
+  box-shadow: 0 6px 24px rgba(102, 179, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+/* Zorg dat alle interne elementen binnen bounds blijven */
+.social-card * {
+  box-sizing: border-box;
+}
+
+/* Dag-header – vaste positie */
+.social-header {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+/* RVN titel – vaste positie */
+.rvn-title {
+  grid-row: 2;
+  margin: 0;
+  font-size: 1.03rem;
+  line-height: 1.38;
+  font-weight: 600;
+  color: var(--primary) !important;
+  font-smooth: always;                  /* extra anti-aliasing fix */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* RVN titel – vaste, consistente kleur ongeacht zoom */
+.rvn-title,
+.rvn-title a,
+.rvn-title a:link,
+.rvn-title a:visited,
+.rvn-title a:active,
+.full-title-link,
+.full-title-link:link,
+.full-title-link:visited,
+.full-title-link:active {
+  color: var(--primary) !important;          /* forceer exact #66b3ff */
+  -webkit-text-stroke: 0.45px var(--primary); /* subtiele stroke voorkomt anti-aliasing variatie */
+  text-shadow: 0 0 0.5px var(--primary);     /* lichte shadow stabiliseert kleur bij zoom */
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.rvn-title a:hover,
+.full-title-link:hover {
+  color: var(--primary-hover) !important;
+  text-decoration: underline;
+}
+
+/* Extra bescherming tegen parent inherited kleuren */
+.social-card .rvn-title * {
+  color: var(--primary) !important;
+}
+
+/* RVN teaser – vaste positie */
+.rvn-teaser {
+  grid-row: 3;
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: #b0b0b0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Divider – altijd zichtbaar, stabiel bij zoom */
+.divider {
+  grid-row: 4;
+  height: 2px;                                 /* 2px ipv 1px → veel stabieler bij zoom */
+  background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
+  margin: 1.4rem 0 0.9rem;
+  border: none;
+  will-change: transform;                      /* forceert GPU rendering, voorkomt verdwijnen */
+  transform: translateZ(0);                    /* extra stabiliteit bij zoom */
+}
+
+/* Teaser titel – vaste positie */
+.teaser-title {
+  grid-row: 5;
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.42;
+  font-weight: 600;
+  color: #b0b0b0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Teaser preview – vaste positie */
+.teaser-preview,
+.social-teaser {
+  grid-row: 6;
+  margin: 0;
+  font-size: 0.93rem;
+  line-height: 1.48;
+  color: #b0b0b0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Lege velden ruimte behouden */
+.social-card .rvn-title:empty,
+.social-card .rvn-teaser:empty,
+.social-card .teaser-title:empty,
+.social-card .teaser-preview:empty {
+  visibility: hidden;
+}

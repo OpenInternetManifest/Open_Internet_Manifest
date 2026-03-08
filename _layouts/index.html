@@ -22,7 +22,7 @@
     <header class="custom-header" role="banner">
       <div class="banner">
         <img src="{{ site.baseurl }}/assets/images/banner-donker.jpg" alt="Open Internet Manifest">
-        <div class="overlay-text">
+        <div class="overlay-text content-container">
           <h1>Open Internet Manifest</h1>
           <p>
             100 theses for a free, open and unalienable internet
@@ -32,8 +32,7 @@
     </header>
     
     <!-- Main content -->
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+<main id="content" class="main-content content-container" role="main">      {{ content }}
 
       {% assign lang = page.lang | default: 'NL' | upcase %}
 

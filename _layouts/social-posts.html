@@ -137,7 +137,7 @@
 <header class="custom-header" role="banner">
   <div class="banner">
     <img src="{{ site.baseurl }}/assets/images/banner-donker.jpg" alt="Open Internet Manifest">
-    <div class="overlay-text">
+    <div class="overlay-text content-container">
       <h1>Open Internet Manifest</h1>
       <p>
         {% assign lang_code = page.lang | default: 'nl' | downcase %}
@@ -152,10 +152,11 @@
 </header>
 
 <!-- Main content met automatische previous/next navigatie -->
-<main id="content" class="main-content" role="main">
+<main id="content" class="main-content content-container" role="main">
 
   <!-- Automatische previous/next pijlen -->
-  <div class="social-post-navigation-arrows">
+   <div class="social-post-navigation-wrapper">  <!-- nieuwe wrapper -->
+     <div class="social-post-navigation-arrows">
     {% comment %}
       Bouw een volledige sequence: rvn → teaser (per dag), gesorteerd op day
       1. Haal ALLE posts uit dezelfde map die -rvn of -teaser bevatten
@@ -224,6 +225,7 @@
         </a>
       {% endif %}
     {% endif %}
+     </div>
   </div>
 
   <div class="social-post-content">
