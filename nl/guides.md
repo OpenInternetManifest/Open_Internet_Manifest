@@ -3,6 +3,13 @@ layout: default
 lang: nl
 title: Alle Guides
 ---
+<ul>
+{% for p in site.pages %}
+  {% if p.path contains '/nl/guides/' %}
+    <li>{{ p.path }} – title: {{ p.title | default: 'geen' }} – order: {{ p.order | default: 'geen' }}</li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 <div class="guides-hero">
   <h1 class="intro-title">Praktische handleidingen</h1>
@@ -16,7 +23,16 @@ title: Alle Guides
   </p>
 </div>
 
-<p>Debug: {{ guide_pages.size }} guides gevonden + 1 add = {{ guide_pages.size | plus: 1 }} items</p>
+<!-- Debug eerst -->
+<p style="color: lime; text-align: center; font-weight: bold; margin: 2rem 0;">
+  Debug: totaal pages met '/nl/guides/' in path = {{ site.pages | where_exp: "p", "p.path contains '/nl/guides/'" | size }}
+</p>
+
+{% assign guide_pages = site.guides | where: "lang", "nl" | sort: "order" %}
+
+<p style="color: lime; text-align: center;">
+  Debug: guides (NL) geladen = {{ guide_pages.size }} items
+</p>
 
 <div class="guides-grid">
 
@@ -44,37 +60,29 @@ title: Alle Guides
   <span class="read-more">Maak PR →</span>
 </a>
 
-  <!-- Bestaande guides loop -->
-{% assign all_guide_pages = site.pages | where_exp: "p", "p.path contains '/nl/guides/'" %}
-{% assign guide_pages = all_guide_pages | where_exp: "item", "item.title != nil and item.title != '' and item.url != page.url" | sort: "order" %}
-
-<p>Debug: totaal pages met '/nl/guides/' in path = {{ all_guide_pages.size }}</p>
-<p>Debug: na filter title + niet self = {{ guide_pages.size }} → totaal items (incl add-card) = {{ guide_pages.size | plus: 1 }}</p>
   {% for guide in guide_pages %}
-    {% if guide.url != page.url and guide.title and guide.title != "" %}
-      <a href="{{ guide.url | relative_url }}" class="guide-card" data-difficulty="{{ guide.difficulty | default: 'beginner' }}">
-        <div class="guide-header">
-          <span class="guide-number">{{ forloop.index }}</span>
-          <h3>{{ guide.title }}</h3>
-        </div>
-        <p class="guide-teaser">{{ guide.teaser | default: "Praktische stap-voor-stap handleiding." }}</p>
-        
-        <span class="difficulty-banner {{ guide.difficulty | default: 'beginner' }}">
-          {% case guide.difficulty %}
-            {% when 'beginner' %}Beginner
-            {% when 'gemiddeld' %}Gemiddeld
-            {% when 'gevorderd' %}Gevorderd
-            {% else %}Beginner
-          {% endcase %}
-        </span>
-        
-        <span class="read-more">Lees de guide →</span>
-      </a>
-    {% endif %}
+    <a href="{{ guide.url | relative_url }}" class="guide-card" data-difficulty="{{ guide.difficulty | default: 'beginner' }}">
+      <div class="guide-header">
+        <span class="guide-number">{{ forloop.index }}</span>
+        <h3>{{ guide.title }}</h3>
+      </div>
+      <p class="guide-teaser">{{ guide.teaser | default: "Praktische stap-voor-stap handleiding." }}</p>
+      
+      <span class="difficulty-banner {{ guide.difficulty | default: 'beginner' }}">
+        {% case guide.difficulty %}
+          {% when 'beginner' %}Beginner
+          {% when 'gemiddeld' %}Gemiddeld
+          {% when 'gevorderd' %}Gevorderd
+          {% else %}Beginner
+        {% endcase %}
+      </span>
+      
+      <span class="read-more">Lees de guide →</span>
+    </a>
   {% endfor %}
 
-  {% if guide_pages.size == 0 or guide_pages.size == 1 %}
-    <p style="color: #f66; text-align:center;">(debug) Geen guides gevonden of alleen deze overzichtspagina zelf.</p>
+  {% if guide_pages.size == 0 %}
+    <p style="color: #f66; text-align:center;">(debug) Geen guides in collection – check _config.yml en frontmatter</p>
   {% endif %}
 
 </div>

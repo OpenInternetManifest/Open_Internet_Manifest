@@ -34,6 +34,13 @@ collections:
   theses:
     output: true
     permalink: /:lang/theses/:slug/
+  guides:
+    output: true
+    permalink: /guides/:slug/
+  
+    
+include:
+  - nl/guides/
 
 exclude:
   - venv
