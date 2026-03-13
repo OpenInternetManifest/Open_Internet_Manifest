@@ -6,6 +6,8 @@ title: "chaos account maken"
 difficulty: beginner      # of: gemiddeld / gevorderd
 teaser: "Stap-voor-stap je eeerste Chaos.social account aanmaken."
 slug: chaos-account-maken
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 # Guide – Account maken op Chaos.social (actieve, vrije community)
 

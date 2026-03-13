@@ -45,8 +45,11 @@ title: Alle Guides
 </a>
 
   <!-- Bestaande guides loop -->
-  {% assign guide_pages = site.pages | where_exp: "p", "p.dir == '/nl/guides/'" | sort: "order" %}
+{% assign all_guide_pages = site.pages | where_exp: "p", "p.path contains '/nl/guides/'" %}
+{% assign guide_pages = all_guide_pages | where_exp: "item", "item.title != nil and item.title != '' and item.url != page.url" | sort: "order" %}
 
+<p>Debug: totaal pages met '/nl/guides/' in path = {{ all_guide_pages.size }}</p>
+<p>Debug: na filter title + niet self = {{ guide_pages.size }} → totaal items (incl add-card) = {{ guide_pages.size | plus: 1 }}</p>
   {% for guide in guide_pages %}
     {% if guide.url != page.url and guide.title and guide.title != "" %}
       <a href="{{ guide.url | relative_url }}" class="guide-card" data-difficulty="{{ guide.difficulty | default: 'beginner' }}">
