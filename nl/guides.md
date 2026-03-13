@@ -16,8 +16,35 @@ title: Alle Guides
   </p>
 </div>
 
+<p>Debug: {{ guide_pages.size }} guides gevonden + 1 add = {{ guide_pages.size | plus: 1 }} items</p>
+
 <div class="guides-grid">
 
+<!-- + Bijdrage toevoegen als eerste card in de grid -->
+<a href="#" class="guide-card contribution-card">
+  <div class="guide-header">
+    <span class="guide-number">+</span>
+    <h3>Voeg je eigen guide toe</h3>
+  </div>
+  <p class="guide-teaser">
+    Schrijf een nieuwe praktische handleiding – in NL, EN of andere taal.<br>
+    Straks via /admin/ (dit weekend live). Nu via GitHub PR.
+  </p>
+  
+  <div class="contribute-buttons">
+    <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/nl/guides?filename={{ 'now' | date: '%Y-%m-%d' }}-nieuwe-guide.md&value=---%0Alayout%3A%20default%0Alang%3A%20nl%0Atitle%3A%20Nieuwe%20Guide%20Titel%0Ateaser%3A%20Korte%20samenvatting...%0Adifficulty%3A%20beginner%0Aorder%3A%2099%0A---%0A%0A## Inleiding%0A%0ASchrijf%20hier..." class="btn-contribute nl">
+      Start nieuwe Guide (NL)
+    </a>
+    
+    <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/en/guides?filename={{ 'now' | date: '%Y-%m-%d' }}-new-guide.md&value=---%0Alayout%3A%20default%0Alang%3A%20en%0Atitle%3A%20New%20Guide%0Ateaser%3A%20Short%20summary...%0Adifficulty%3A%20beginner%0Aorder%3A%2099%0A---%0A%0A## Intro..." class="btn-contribute en">
+      New Guide (EN)
+    </a>
+  </div>
+  
+  <span class="read-more">Maak PR →</span>
+</a>
+
+  <!-- Bestaande guides loop -->
   {% assign guide_pages = site.pages | where_exp: "p", "p.dir == '/nl/guides/'" | sort: "order" %}
 
   {% for guide in guide_pages %}

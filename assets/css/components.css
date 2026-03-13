@@ -628,13 +628,23 @@ button.copy-btn:hover {
    ========================================================================== */
 
 /* Grid voor theses en guides */
-.theses-grid,
-.guides-grid {
+.guides-grid,
+.theses-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  justify-content: start;               /* ← items links alignen, geen verspreiding */
+  justify-items: start;                 /* extra: items starten links in hun track */
+  padding: 0 0.5rem;                    /* voorkom edge-touch */
+    max-width: 1200px;                    /* pas aan naar wat past bij 3 cards + gaps */
+  margin: 0 auto;  
 }
-
+.guide-card,
+.contribution-card {
+  flex: 1 1 220px;                      /* min 220px, groei als ruimte */
+  max-width: 400px;                     /* voorkom te breed */
+  box-sizing: border-box;
+}
 /* Basis card styling (thesis & guide) */
 .thesis-card,
 .guide-card {
@@ -649,16 +659,10 @@ button.copy-btn:hover {
   flex-direction: column;
   overflow: hidden;
   box-sizing: border-box;
-}
-
-.thesis-card {
-  padding: 1rem 1.2rem 1rem 2.4rem;
-  height: 250px;
-}
-
-.guide-card {
-  padding: 1rem 1.2rem 1rem 2.4rem;
-  height: 250px;
+  
+  padding: 1rem 1.2rem 1.2rem 2.4rem;   /* iets meer bottom padding voor groei */
+  min-height: 250px;                     /* behoud minimale hoogte voor lege/ korte cards */
+  height: auto;                          /* ← cruciaal: laat groeien */
 }
 
 .thesis-card:hover,
@@ -909,4 +913,135 @@ button.copy-btn:hover {
   text-align: center;
   font-weight: 600;
   color: #88c0ff;
+}
+/* ==========================================================================
+   CONTRIBUTION CARD – speciale "add" card in guides/theses grids
+   ========================================================================== */
+
+.contribution-card {
+  border: 2px dashed var(--primary);
+  background: linear-gradient(to bottom, rgba(74,144,226,0.08), rgba(74,144,226,0.03));
+  opacity: 0.92;
+  transition: all 0.3s ease;
+  height: auto;
+  min-height: 260px;             /* iets lager dan 280px voor betere balans */
+  padding: 1rem 1.2rem 1.5rem 2.4rem;  /* meer bottom padding */
+}
+
+.contribution-card:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(102, 179, 255, 0.25);
+  border-color: var(--primary-hover);
+}
+
+.contribution-card .guide-header {
+  margin-bottom: 0.8rem;
+}
+
+.contribution-card .guide-number {
+  font-size: 1.8rem;
+  background: transparent;
+  color: var(--primary);
+  padding: 0;
+  min-width: auto;
+  font-weight: 900;
+}
+
+.contribution-card .guide-teaser {
+  font-size: 0.82rem;
+  line-height: 1.3;
+  color: #c0c0c0;
+}
+
+.contribution-card .read-more {
+  font-size: 0.7rem;
+  opacity: 1;
+  color: var(--primary);
+}
+
+/* Maak interne links mooier */
+.contribution-card a {
+  transition: all 0.2s;
+}
+
+.contribution-card a:hover {
+  background: var(--primary-hover) !important;
+  color: #000 !important;
+  transform: scale(1.05);
+}
+/* Zorg dat contribution-card kan groeien en buttons netjes passen */
+.contribution-card {
+  height: auto !important;               /* force override als er nog ergens height zit */
+  min-height: 280px;                     /* iets hoger ivm buttons + tekst */
+  padding-bottom: 1.5rem;
+}
+
+.contribution-card .contribute-buttons {
+  margin-top: auto;
+  padding-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.contribution-card .btn-contribute {
+  flex: 1 1 48%;                 /* bijna helft, wrap bij te weinig ruimte */
+  min-width: 110px;              /* voorkom te smal */
+  max-width: 180px;              /* voorkom te breed in 1-kolom cards */
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  text-align: center;
+  white-space: nowrap;           /* voorkom tekst-breuk in knop */
+}
+
+/* Op hele smalle schermen (mobile) buttons full-width */
+@media (max-width: 480px) {
+  .contribution-card .contribute-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .contribution-card .btn-contribute {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+/* Extra balans voor teaser-tekst */
+.contribution-card .guide-teaser {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-bottom: 0.8rem;
+  min-height: 50px;              /* voorkom schommeling als tekst kort is */
+}
+/* Laat contribution-card de volle breedte of meerdere kolommen innemen */
+.guides-grid .contribution-card {
+  /*grid-column: 1 / -1;           span ALLE kolommen in de row → full-width */
+  /* Alternatief: grid-column: span 3;   → span exact 3 kolommen (als je max 3-4 wilt) */
+  margin-bottom: 1.5rem;        /* extra ruimte onder de add-card */
+  min-height: 300px;            /* iets hoger voor betere balans */
+}
+
+/* Optioneel: center de tekst/buttons als full-width */
+.guides-grid .contribution-card .guide-header,
+.guides-grid .contribution-card .guide-teaser,
+.guides-grid .contribution-card .contribute-buttons {
+  max-width: 800px;             /* beperk tekstbreedte voor leesbaarheid */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;           /* center alles */
+}
+
+.guides-grid .contribution-card .contribute-buttons {
+  justify-content: center;      /* center buttons */
+}
+
+/* Op mobile: terug naar normale breedte (geen span) */
+@media (max-width: 768px) {
+  .guides-grid .contribution-card {
+    grid-column: auto;          /* reset span op small screens */
+  }
 }
