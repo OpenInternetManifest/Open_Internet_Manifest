@@ -622,32 +622,56 @@ button.copy-btn:hover {
   margin-bottom: 1.2rem;
   border: 1px solid #333;
 }
-
 /* ==========================================================================
-   THESES & GUIDES OVERZICHT – grid, cards, nummers, teasers, difficulty
+   GUIDES & THESES OVERZICHT – grid, cards, nummers, teasers, difficulty
    ========================================================================== */
 
-/* Grid voor theses en guides */
+/* Grid voor guides en theses */
 .guides-grid,
 .theses-grid {
-   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  /* verhoog min naar 240px om ruimte te maken */
-  gap: 1.5rem;                                                 /* meer lucht, oogt rustiger */
-  justify-content: center;                                     /* center de hele grid → geen asymmetrische leegte */
-  max-width: 1400px;                                           /* verhoog van 1200px → past 4 kolommen op 1440px+ */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  /* min 240px → past 4 op 1400px+ */
+  gap: 1.8rem;
+  justify-content: center;                                     /* center hele set cards */
+  max-width: 1400px;                                           /* verhoogd voor 4 kolommen */
   margin: 2.5rem auto 0 auto;
   padding: 0 1rem;
 }
 
-/* .guide-card {
-  width: 100%;
-  max-width: 380px;                                          
-  min-height: 280px;
-  padding: 1.2rem 1.2rem 1.6rem 2.4rem;
-} */
-/* Basis card styling (thesis & guide) */
+/* Responsive fallback */
+@media (max-width: 1300px) {
+  .guides-grid,
+  .theses-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .guides-grid,
+  .theses-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .guides-grid,
+  .theses-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .guides-grid,
+  .theses-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Basis card styling (thesis & guide) – gedeeld */
+.guide-card,
 .thesis-card,
-.guide-card {
+.contribution-card {
   background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -659,22 +683,35 @@ button.copy-btn:hover {
   flex-direction: column;
   overflow: hidden;
   box-sizing: border-box;
-  
-  padding: 1rem 1.2rem 1.2rem 2.4rem;   /* iets meer bottom padding voor groei */
-  min-height: 250px;                     /* behoud minimale hoogte voor lege/ korte cards */
-  height: auto;                          /* ← cruciaal: laat groeien */
+  width: 100%;
+  max-width: 380px;               /* vaste max-breedte voor alle cards */
+  min-height: 240px;              /* consistente minimale hoogte */
+  padding: 1.2rem 1.2rem 1.4rem 2.4rem;
 }
 
+.guide-card:hover,
 .thesis-card:hover,
-.guide-card:hover {
+.contribution-card:hover {
   transform: translateY(-2px);
   border-color: rgba(102, 179, 255, 0.3);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
+.contribution-card .guide-header {
+  margin-bottom: 0.6rem;
+}
+.contribution-card .guide-number {
+  font-size: 2.2rem;
+  line-height: 1;
+  background: transparent;
+  color: var(--primary);
+  padding: 0;
+  font-weight: 900;
+}
 
-/* Nummer linksboven */
-.thesis-number,
-.guide-number {
+
+/* Nummer linksboven – gedeeld */
+.guide-number,
+.thesis-number {
   position: absolute;
   top: 0.4rem;
   left: 0.4rem;
@@ -689,7 +726,7 @@ button.copy-btn:hover {
   z-index: 2;
 }
 
-/* Difficulty banner rechtsboven (guides) – leesbaar gemaakt */
+/* Difficulty banner rechtsboven (guides) */
 .difficulty-banner {
   position: absolute;
   top: 0.4rem;
@@ -706,14 +743,97 @@ button.copy-btn:hover {
   box-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
 
-/* Difficulty kleuren – donkerder voor contrast */
-.difficulty-banner.beginner,
-.difficulty-banner.Beginner     { background: #3a9e45; }
-.difficulty-banner.gemiddeld,
-.difficulty-banner.intermediate { background: #e07a00; }
-.difficulty-banner.gevorderd,
-.difficulty-banner.advanced     { background: #c62828; }
+/* Difficulty kleuren */
+.difficulty-banner.beginner    { background: #3a9e45; }
+.difficulty-banner.gemiddeld   { background: #e07a00; }
+.difficulty-banner.gevorderd   { background: #c62828; }
 
+/* Teaser tekst */
+.guide-teaser,
+.thesis-teaser {
+  font-size: 0.78rem;
+  color: #b0b0b0;
+  line-height: 1.25;
+  margin: 0;
+  flex-grow: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+/* Read more */
+.read-more {
+  font-size: 0.62rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-top: auto;
+  align-self: flex-start;
+  opacity: 0.85;
+}
+
+.guide-card:hover .read-more,
+.thesis-card:hover .read-more {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   CONTRIBUTION CARD – speciale "add" card
+   ========================================================================== */
+
+
+.contribution-card .guide-teaser {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #c0c0c0;
+  margin-bottom: 0.8rem;
+  flex-grow: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.contribution-card .contribute-buttons {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.contribution-card .btn-contribute {
+  flex: 1 1 45%;
+  min-width: 110px;
+  max-width: 160px;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 6px;
+}
+/* Read-more aanpassen voor add-card */
+.contribution-card .read-more {
+  font-size: 0.7rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-top: auto;
+  align-self: flex-start;
+  opacity: 1;                          /* altijd zichtbaar */
+}
+/* Mobile: stack buttons */
+@media (max-width: 600px) {
+  .contribution-card .contribute-buttons {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .contribution-card .btn-contribute {
+    max-width: none;
+    width: 100%;
+  }
+}
 /* Progress label (theses) */
 .thesis-progress {
   position: absolute;
@@ -734,16 +854,6 @@ button.copy-btn:hover {
   opacity: 1;
   color: var(--primary);
 }
-
-/* Content wrapper – extra marge links voor ruimte tussen nummer en titel */
-.thesis-content,
-.guide-content {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  margin-left: 1.4rem;                    /* verhoogd van 1.2rem → nog meer ruimte */
-}
-
 /* Titels – meer marge boven voor afstand tot nummer (theses & guides) */
 .thesis-title,
 .guide-card h3,
@@ -787,6 +897,19 @@ button.copy-btn:hover {
 .guide-card h3:hover {
   text-decoration: none; /* voorkom dubbele underline op container */
 }
+
+
+
+/* Content wrapper – extra marge links voor ruimte tussen nummer en titel */
+.thesis-content,
+.guide-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.4rem;                    /* verhoogd van 1.2rem → nog meer ruimte */
+}
+
+
 /* Teasers */
 .thesis-teaser,
 .guide-teaser {
@@ -819,16 +942,12 @@ button.copy-btn:hover {
   opacity: 0.85;
 }
 
-.thesis-card:hover .read-more,
-.guide-card:hover .read-more {
-  opacity: 1;
-}
 
-/* Globale override grids */
+/* Globale override grids 
 .theses-grid .thesis-card *,
 .guides-grid .guide-card * {
   font-size: 0.84rem;
-}
+} */
 /* ==========================================================================
    INDIVIDUELE SOCIAL POST – content styling
    ========================================================================== */
@@ -913,81 +1032,4 @@ button.copy-btn:hover {
   text-align: center;
   font-weight: 600;
   color: #88c0ff;
-}
-/* CONTRIBUTION CARD – geconsolideerd, rustiger en gelijk aan normale cards */
-.contribution-card {
-  border: 2px dashed var(--primary);
-  background: linear-gradient(to bottom, rgba(74,144,226,0.08), rgba(74,144,226,0.03));
-  opacity: 0.92;
-  transition: all 0.3s ease;
-
-  /* Belangrijk: dezelfde proporties als normale guide-cards */
-  width: 100%;
-  max-width: 380px;               /* zelfde cap als normale cards */
-  min-height: 240px;              /* lager voor balans */
-  height: auto;
-  padding: 1.2rem 1.2rem 1.4rem 2.4rem;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* verdeel + teaser + buttons */
-
-  /* Geen grid-column span meer – hou 1 kolom */
-  grid-column: auto;
-  margin-bottom: 0;               /* geen extra marge onderaan */
-}
-
-/* Hover effect */
-.contribution-card:hover {
-  opacity: 1;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(102, 179, 255, 0.25);
-  border-color: var(--primary-hover);
-}
-
-/* Teaser compacter */
-.contribution-card .guide-teaser {
-  font-size: 0.82rem;
-  line-height: 1.35;
-  color: #c0c0c0;
-  margin-bottom: 0.8rem;
-  flex-grow: 1;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-}
-
-/* Buttons netjes binnen card */
-.contribution-card .contribute-buttons {
-  margin-top: 0.8rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  justify-content: center;
-  width: 100%;
-}
-
-.contribution-card .btn-contribute {
-  flex: 1 1 45%;
-  min-width: 110px;
-  max-width: 160px;
-  padding: 0.5rem 0.9rem;
-  font-size: 0.85rem;
-  white-space: nowrap;
-  text-align: center;
-  border-radius: 6px;
-}
-
-/* Mobile stack */
-@media (max-width: 600px) {
-  .contribution-card .contribute-buttons {
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-  .contribution-card .btn-contribute {
-    max-width: none;
-    width: 100%;
-  }
 }
