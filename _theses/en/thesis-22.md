@@ -1,0 +1,39 @@
+---
+layout: thesis
+lang: en                 # of en voor de Engelse versie
+title: "Replace WhatsApp with Element"
+order: 22
+teaser: "WhatsApp is not inevitable — it is just still normal."
+next_thesis: /en/theses/thesis-23
+previous_thesis: /en/theses/thesis-21
+slug: en-thesis-22
+# donation_link: "https://buy.stripe.com/example-link" # Or Monero/BTC address, Ko-fi, etc.
+# donation_text: "Support the author of this guide" # Optional, otherwise default text
+# Integrity hashes (automatically added after merge)
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+# Git commit info (automatically added after merge)
+git_commit_hash: ''
+git_commit_url: ''
+---
+# Thesis 22 – Replace WhatsApp with Element (Matrix)
+
+Download [**Element**](/en/concepts/element) on your phone and computer.
+
+Create an account on a server of your choice (or run your own).
+
+Invite three people you trust.
+
+Your messages are end-to-end encrypted, you can always move, and your data remains yours.
+
+WhatsApp is not inevitable — it is just still normal.
+
+See also the practical Raspberry [Pi node guide](/en/guides/raspberry-pi-node) – build your own infrastructure.
+
+**Want to migrate from WhatsApp step-by-step?**  
+The full step-by-step guide is coming → [Element migration – coming soon](/en/guides/element-migration-coming-soon)
+
+---
+

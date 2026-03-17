@@ -1,3 +1,23 @@
+/* Media query voor kleinere desktops/tablets: terug naar 3 of 2 */
+@media (max-width: 1300px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guides-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  /* 2-3 kolommen */
+  }
+}
+
+@media (max-width: 600px) {
+  .guides-grid {
+    grid-template-columns: 1fr;  /* 1 kolom op mobile */
+  }
+}
+
 /* ==========================================================================
    MEDIA.CSS – Alle responsive aanpassingen, gesorteerd op breakpoint
    ========================================================================== */
@@ -289,24 +309,5 @@
     font-size: 3em;
     width: 70px;
     height: 70px;
-  }
-}
-/* Media query voor kleinere desktops/tablets: terug naar 3 of 2 */
-@media (max-width: 1300px) {
-  .guides-grid {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    max-width: 1100px;
-  }
-}
-
-@media (max-width: 900px) {
-  .guides-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  /* 2-3 kolommen */
-  }
-}
-
-@media (max-width: 600px) {
-  .guides-grid {
-    grid-template-columns: 1fr;  /* 1 kolom op mobile */
   }
 }

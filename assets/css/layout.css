@@ -3,7 +3,7 @@
    ========================================================================== */
 
 :root {
-  --content-max-width: 1200px;
+  --content-max-width: 1400px;
   --content-padding-side: 1.5rem;     /* mobiel ruim, desktop ook prima */
   --content-padding-side-lg: 2rem;    /* optie voor hele grote schermen */
 }

@@ -1,0 +1,32 @@
+---
+layout: thesis        
+lang: nl                 # of en voor de Engelse versie
+title: "Terug naar protocollen die niemand bezit"
+order:   12               # belangrijk
+teaser: "E-mail, het world wide web en IRC werken nog steeds zonder één bedrijf aan het roer."
+next_thesis: /nl/theses/thesis-13
+previous_thesis: /nl/theses/thesis-11
+slug: nl-thesis-12
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst"
+# Integriteit hashes (automatisch toegevoegd na merge)
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+# Git commit info (automatisch toegevoegd na merge)
+git_commit_hash: ''
+git_commit_url: ''
+---
+
+# Thesis 12 – Terug naar protocollen die niemand bezit
+
+E-mail, het world wide web en IRC werken nog steeds zonder dat één bedrijf de baas is.
+
+Nieuwe open protocollen zoals [**ActivityPub**](/nl/begrippen/activitypub) (Mastodon), [**Nostr**](/nl/begrippen/nostr), [**Matrix**](/nl/begrippen/matrix) en [**IPFS**](/nl/begrippen/ipfs) zijn klaar voor dagelijks gebruik.
+
+Ze zijn niet perfect, maar ze zijn van niemand – en daarom kunnen ze nooit meer worden ingesloten.
+
+Elke dag dat we ze meer gebruiken, wordt het monopolie van de vijf [**poortwachters**](/nl/begrippen/poortwachters) zwakker.
+
+---

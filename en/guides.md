@@ -4,7 +4,7 @@ lang: en
 title: All Guides
 ---
 
-<div class="guides-hero">
+<div class="overview-hero">
   <h1 class="intro-title">Practical Guides</h1>
   
   <h2 class="manifest-subtitle">

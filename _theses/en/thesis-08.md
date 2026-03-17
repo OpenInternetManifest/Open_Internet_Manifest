@@ -1,0 +1,33 @@
+---
+layout: thesis
+lang: en                 # of en voor de Engelse versie
+title: "An open internet frees your voice and creativity from arbitrary control"
+order: 8
+teaser: "Imagine: you build an app that connects small farmers directly with buyers, without a big platform taking commission"
+next_thesis: /en/theses/thesis-09
+previous_thesis: /en/theses/thesis-07
+slug: en-thesis-08
+# donation_link: "https://buy.stripe.com/example-link" # Or Monero/BTC address, Ko-fi, etc.
+# donation_text: "Support the author of this guide" # Optional, otherwise default text
+# Integrity hashes (automatically added after merge)
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+# Git commit info (automatically added after merge)
+git_commit_hash: ''
+git_commit_url: ''
+---
+# Thesis 8
+
+An open internet liberates your voice and your creativity from the arbitrariness of [**gatekeepers**](/en/concepts/gatekeepers).
+
+Imagine: you build an app that connects small farmers directly with buyers, without a big platform taking commission — and suddenly the [**app store**](/en/concepts/app-store) refuses it because it competes with their own service.
+
+Imagine: you share a message that doesn’t fit the policy of the moment, and without warning your account disappears with all your contacts, photos, and years of work.
+
+That is not an exception, that is daily reality under their rule: they decide who is heard, who is allowed to earn money, who is allowed to exist.
+
+By building [**open protocols**](/en/concepts/independent-protocols) and [**independent networks**](/en/concepts/independent-networks), we create a world in which your idea, your voice, and your creation are yours again — without anyone first having to give permission.
+
+---

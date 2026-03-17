@@ -581,14 +581,22 @@ button.copy-btn:hover {
 /* ==========================================================================
    THESES OVERZICHT HERO
    ========================================================================== */
-
-.theses-hero {
-  text-align: center;
-  padding: 1.5rem 1rem 1rem;
+.guides-hero,
+.theses-hero,
+.social-posts-hero {
+  max-width: var(--content-max-width, 1200px);  /* zelfde als main-content */
+  margin: 0 auto;                               /* center */
+  padding: 1.5rem 1rem 1rem;                    /* minder padding links/rechts */
   background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
   border-radius: 10px;
-  margin-bottom: 1.2rem;
   border: 1px solid #333;
+  box-sizing: border-box;                       /* zorg dat padding binnen max-width valt */
+}
+/* Zorg dat de parent-container niet stoort */
+.main-content.content-container {
+  max-width: var(--content-max-width, 1200px) !important;
+  margin: 0 auto;
+  padding: 1.5em 2em 3em;
 }
 
 .intro-title {
@@ -609,19 +617,6 @@ button.copy-btn:hover {
   color: #b0b0b0;
   font-size: 0.9rem;
 }
-
-/* ==========================================================================
-   GUIDES OVERZICHT HERO
-   ========================================================================== */
-
-.guides-hero {
-  text-align: center;
-  padding: 1.5rem 1rem 1rem;
-  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
-  border-radius: 10px;
-  margin-bottom: 1.2rem;
-  border: 1px solid #333;
-}
 /* ==========================================================================
    GUIDES & THESES OVERZICHT – grid, cards, nummers, teasers, difficulty
    ========================================================================== */
@@ -631,41 +626,11 @@ button.copy-btn:hover {
 .theses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  /* min 240px → past 4 op 1400px+ */
-  gap: 1.8rem;
+  gap: 0.8rem;
   justify-content: center;                                     /* center hele set cards */
   max-width: 1400px;                                           /* verhoogd voor 4 kolommen */
   margin: 2.5rem auto 0 auto;
   padding: 0 1rem;
-}
-
-/* Responsive fallback */
-@media (max-width: 1300px) {
-  .guides-grid,
-  .theses-grid {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    max-width: 1200px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .guides-grid,
-  .theses-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
-}
-
-@media (max-width: 700px) {
-  .guides-grid,
-  .theses-grid {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  }
-}
-
-@media (max-width: 500px) {
-  .guides-grid,
-  .theses-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Basis card styling (thesis & guide) – gedeeld */
@@ -699,13 +664,27 @@ button.copy-btn:hover {
 .contribution-card .guide-header {
   margin-bottom: 0.6rem;
 }
-.contribution-card .guide-number {
+/* Gedeelde styling voor het nummer (+ bij add-card) in guides en theses */
+
+.contribution-card .guide-number,
+.contribution-card .thesis-number {
   font-size: 2.2rem;
   line-height: 1;
   background: transparent;
   color: var(--primary);
   padding: 0;
   font-weight: 900;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  z-index: 2;
+}
+
+/* Zorg dat het + teken bij contribution-card nog iets groter of opvallender is (optioneel) */
+.contribution-card .guide-number,
+.contribution-card .thesis-number {
+  font-size: 2.8rem;  /* iets groter voor de + om meer aandacht te trekken */
+  top: 0.2rem;        /* iets hoger positioneren als het nodig is */
 }
 
 
@@ -1032,4 +1011,37 @@ button.copy-btn:hover {
   text-align: center;
   font-weight: 600;
   color: #88c0ff;
+}
+/* ==========================================================================
+   OVERVIEW HERO – gedeelde class voor guides, theses, social-posts etc.
+   ========================================================================== */
+
+.overview-hero {
+  max-width: var(--content-max-width, 1200px);
+  margin: 0 auto 1.5rem auto;
+  padding: 1.5rem 1rem 1rem;
+  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
+  border-radius: 10px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.overview-hero .intro-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.overview-hero .manifest-subtitle {
+  font-size: 1.05rem;
+  color: #b0b0b0;
+  margin-bottom: 0.5rem;
+}
+
+.overview-hero .intro-text {
+  max-width: 720px;
+  margin: 0 auto 0.8rem;
+  color: #b0b0b0;
+  font-size: 0.9rem;
 }

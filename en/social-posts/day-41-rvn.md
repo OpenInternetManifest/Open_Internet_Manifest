@@ -4,7 +4,7 @@ lang: en
 day: 41
 rvn_title: Euro95 suddenly drops - Last week still record highs
 rvn_teaser:  And what does Jetten do? - dead silence
-rvn_url: /nl/social-posts/dag-41-rvn
+rvn_url: /en/social-posts/day-41-rvn
 website_sha256: 
 social_x_sha256: 87bc49d966401ee95daa1b8fb5a308233b3ecff4e6c7f5a0e58a049038197105
 social_fb_sha256: 89026e7351d3f4cdce603c1f0218ea10c33e601e786e47eca5be1b0ad2c876a7

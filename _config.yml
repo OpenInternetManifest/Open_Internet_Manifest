@@ -33,7 +33,7 @@ defaults:
 collections:
   theses:
     output: true
-    permalink: /:lang/theses/:slug/
+    permalink: /theses/:slug/
   guides:
     output: true
     permalink: /guides/:slug/

@@ -1,0 +1,36 @@
+---
+layout: thesis
+lang: en                 # of en voor de Engelse versie
+title: "An open internet makes true economic freedom possible again"
+order: 9
+teaser: "In the past, you could build a website, offer a service, or start a community and earn money — without anyone skimming 15 to 30 percent of your revenue."
+next_thesis: /en/theses/thesis-10
+previous_thesis: /en/theses/thesis-08
+slug: en-thesis-09
+# donation_link: "https://buy.stripe.com/example-link" # Or Monero/BTC address, Ko-fi, etc.
+# donation_text: "Support the author of this guide" # Optional, otherwise default text
+# Integrity hashes (automatically added after merge)
+website_sha256: ''
+social_x_sha256: ''
+social_fb_sha256: ''
+social_share_sha256: ''
+# Git commit info (automatically added after merge)
+git_commit_hash: ''
+git_commit_url: ''
+---
+# Thesis 9
+
+An open internet makes real economic freedom possible again, without five companies owning the toll roads.
+
+In the past, you could build a website, offer a service, or start a community and earn money directly from people all over the world — without anyone skimming 15 to 30 percent of your revenue.
+
+Today, you are a tenant of their marketplaces, advertising networks, and payment systems: they set the rules, visibility, and how much of your work actually reaches you.
+
+That dependence keeps millions of creators, entrepreneurs, and small communities poor and vulnerable.
+
+By building [**open protocols**](/en/concepts/independent-protocols), [**peer-to-peer payments**](/en/concepts/peer-to-peer-payments), and [**independent platforms**](/en/concepts/independent-platforms), we create an internet again where you can earn, trade, and collaborate — without a handful of [**gatekeepers**](/en/concepts/gatekeepers) deciding whether you are allowed to live from your own work.
+
+**Want to pay peer-to-peer yourself?**  
+The full step-by-step guide is coming → [Peer-to-peer payments – coming soon](/en/guides/peer-to-peer-payments-coming-soon)
+
+---

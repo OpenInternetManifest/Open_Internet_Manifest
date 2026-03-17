@@ -11,7 +11,7 @@ title: Alle Guides
 {% endfor %}
 </ul>
 
-<div class="guides-hero">
+<div class="overview-hero">
   <h1 class="intro-title">Praktische handleidingen</h1>
   
   <h2 class="manifest-subtitle">
