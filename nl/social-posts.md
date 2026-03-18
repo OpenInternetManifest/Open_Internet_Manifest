@@ -24,13 +24,9 @@ title: Realiteit vs Narratief – Social Posts
       <span class="social-number">+</span>
     </div>
 
-    <!-- RVN titel placeholder -->
-    <div class="rvn-title">
-      Realiteit vs Narratief
-    </div>
 
-    <!-- RVN teaser / beschrijving -->
-    <div class="rvn-teaser">
+   <!-- RVN titel placeholder -->
+    <div class="rvn-title">
       Schrijf een nieuwe RVN-dag + teaser – in NL, EN of andere taal.<br>
       Straks via /admin/, nu via GitHub PR.
     </div>
@@ -46,14 +42,10 @@ title: Realiteit vs Narratief – Social Posts
     <!-- Divider -->
     <div class="divider"></div>
 
+
     <!-- Teaser titel placeholder -->
     <div class="teaser-title">
-      Avondteaser – Dag
-    </div>
-
-    <!-- Teaser preview placeholder -->
-    <div class="teaser-preview">
-      Hoogtepunten voor de avond...
+      Avondteaser met de hoogtepunten
     </div>
 
     <!-- Button teaser – onder divider -->

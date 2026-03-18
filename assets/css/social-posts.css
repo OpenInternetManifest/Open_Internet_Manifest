@@ -181,6 +181,7 @@
   visibility: hidden;
 }
 /* Add-card specifieke styling – consistent met normale social-cards */
+/* Add-card specifieke styling – rustiger en exact match met normale cards */
 .social-card.contribution-card {
   border: 2px dashed var(--primary);
   background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
@@ -188,109 +189,115 @@
   padding: 1.4rem 1.6rem;
   display: grid;
   grid-template-rows:
-    minmax(1.5rem, auto)     /* header: + groot */
-    1.8rem                   /* rvn-title */
-    3.8rem                     /* rvn-teaser */
+    minmax(2.5rem, auto)     /* header: + groot */
+    5.4rem                   /* rvn-title */
+    0rem                     /* rvn-teaser */
     auto                     /* Voeg RVN toe knop */
-    55px                     /* divider */
-    1.5rem                   /* teaser-title */
-    1.2rem                   /* teaser-preview */
+    50px                     /* divider */
+    3.8rem                   /* teaser-title */
+    0rem                   /* teaser-preview */
     auto;                    /* Voeg teaser toe knop */
-  gap: 0.6rem;
+  gap: 0.4rem;               /* kleiner gap voor rust */
   overflow: hidden;
   text-align: center;
   box-sizing: border-box;
 }
 
-/* + teken groter */
+/* + teken groter en centraal */
 .social-card.contribution-card .social-number {
-  font-size: 3.2rem;           /* groter dan normale dag-nummers */
+  font-size: 3.2rem;           /* groter voor impact */
+  line-height: 1;
   font-weight: 900;
   color: var(--primary);
-  line-height: 1;
 }
 
-/* RVN titel */
+/* RVN titel – iets compacter */
 .social-card.contribution-card .rvn-title {
   grid-row: 2;
-  font-size: 1.03rem;
-  line-height: 1.38;
+  font-size: 1.0rem;           /* kleiner dan normale 1.03rem voor rust */
+  line-height: 1.35;
   font-weight: 600;
   color: var(--primary) !important;
 }
 
-/* RVN teaser */
+/* RVN teaser – iets compacter */
 .social-card.contribution-card .rvn-teaser {
   grid-row: 3;
-  font-size: 0.94rem;
-  line-height: 1.5;
+  font-size: 0.88rem;
+  line-height: 1.4;
   color: #b0b0b0;
+  margin: 0;
 }
 
-/* Button RVN – boven divider */
+/* Button RVN – boven divider, smaller */
 .social-card.contribution-card .contribute-buttons.rvn {
   grid-row: 4;
   display: flex;
   justify-content: center;
-  margin: 0.5rem 0;
+  margin: 0.4rem 0 0.8rem 0;   /* meer marge boven divider */
 }
 
-/* Divider */
+.social-card.contribution-card .btn-contribute.rvn {
+  width: 80%;                  /* smaller dan 100% */
+  max-width: 180px;            /* kleiner dan normale knoppen */
+  padding: 0.7rem 1.1rem;      /* compacter */
+  font-size: 0.95rem;
+  background: var(--primary);
+  color: #0f1419;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Divider – meer marge voor balans */
 .social-card.contribution-card .divider {
   grid-row: 5;
   height: 2px;
   background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
-  margin: 0.5rem 0;
+  margin: 0.8rem 0;            /* meer ruimte boven/onder → lager geplaatst */
   border: none;
 }
 
-/* Teaser titel */
+/* Teaser title – juiste grijze kleur + hoger positioneren */
 .social-card.contribution-card .teaser-title {
   grid-row: 6;
-  font-size: 1.02rem;
-  line-height: 1.42;
+  font-size: 1.0rem;
+  line-height: 1.35;
   font-weight: 600;
-  color: #b0b0b0;
+  color: #b0b0b0 !important;   /* grijs zoals normale teasers */
+  margin: 0.2rem 0 0 0;        /* iets hoger */
 }
 
-/* Teaser preview */
+/* Teaser preview – compacter */
 .social-card.contribution-card .teaser-preview {
   grid-row: 7;
-  font-size: 0.93rem;
-  line-height: 1.48;
+  font-size: 0.9rem;
+  line-height: 1.45;
   color: #b0b0b0;
+  margin: 0;
 }
 
-/* Button teaser – onderaan */
+/* Button teaser – onderaan, smaller */
 .social-card.contribution-card .contribute-buttons.teaser {
   grid-row: 8;
   display: flex;
   justify-content: center;
-  margin: 0.5rem 0;
+  margin: 0.4rem 0 0 0;
 }
 
-/* Knoppen algemeen */
-.social-card.contribution-card .btn-contribute {
-  width: 100%;
-  max-width: 220px;
-  padding: 0.8rem 1.2rem;
+.social-card.contribution-card .btn-contribute.teaser {
+  width: 80%;
+  max-width: 180px;
+  padding: 0.7rem 1.1rem;
+  font-size: 0.95rem;
+  background: #555;
+  color: white;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1rem;
 }
 
-.btn-contribute.rvn {
-  background: var(--primary);
-  color: #0f1419;
-}
-
-.btn-contribute.teaser {
-  background: #555;
-  color: white;
-}
-
-/* Hover */
+/* Hover effect */
 .social-card.contribution-card:hover {
   border-color: rgba(102, 179, 255, 0.5);
   box-shadow: 0 6px 24px rgba(102, 179, 255, 0.12);
