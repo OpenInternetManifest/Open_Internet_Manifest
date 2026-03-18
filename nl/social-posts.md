@@ -15,6 +15,8 @@ title: Realiteit vs Narratief – Social Posts
     Elke dag een teaser ('s avonds) en een volledige RVN-analyse ('s ochtends) — volg dag voor dag of duik in een specifiek moment.
   </p>
 </div>
+
+<div class="social-grid">
 <!-- + Bijdrage toevoegen als eerste card – zelfde grid-structuur als normale cards -->
 <div class="social-card contribution-card">
   <div class="social-header">
@@ -72,7 +74,7 @@ title: Realiteit vs Narratief – Social Posts
 
 {% assign social_posts = rvn_only | concat: teaser_only | uniq %}
 
-<div class="social-grid">
+
 
   {% assign unique_days_raw = "" | split: "" %}
   {% assign seen = "" | split: "" %}
