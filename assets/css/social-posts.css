@@ -184,95 +184,24 @@
 .social-card.contribution-card {
   border: 2px dashed var(--primary);
   background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
-  min-height: 440px;               /* exact zelfde als normale */
+  min-height: 440px;
   padding: 1.4rem 1.6rem;
   display: grid;
   grid-template-rows:
-    minmax(2.5rem, auto)           /* header */
-    5.4rem                         /* rvn-title placeholder */
-    4rem                           /* rvn-teaser */
-    50px                           /* divider */
-    3.5rem                         /* teaser-title placeholder */
-    4.2rem                         /* teaser-preview / knoppen */
-    1fr;                           /* vuller voor balans */
+    minmax(2.5rem, auto)     /* header */
+    5.4rem                   /* rvn-title */
+    4rem                     /* rvn-teaser */
+    50px                     /* divider */
+    3.5rem                   /* teaser-title */
+    4.2rem                   /* teaser-preview / knoppen */
+    1fr;                     /* vuller */
   gap: 0.6rem;
   overflow: hidden;
   text-align: center;
   box-sizing: border-box;
 }
 
-/* Header */
-.social-card.contribution-card .social-header {
-  grid-row: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-}
-
-.social-card.contribution-card .social-number {
-  font-size: 1.8rem;
-  font-weight: 900;
-  color: var(--primary);
-}
-
-.social-card.contribution-card h3 {
-  font-size: 1.03rem;
-  margin: 0;
-  color: var(--primary);
-}
-
-/* Placeholder voor rvn-title (blauw zoals normale) */
-.social-card.contribution-card .rvn-title {
-  grid-row: 2;
-  margin: 0;
-  font-size: 1.03rem;
-  line-height: 1.38;
-  font-weight: 600;
-  color: var(--primary) !important;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* RVN teaser / beschrijving */
-.social-card.contribution-card .rvn-teaser {
-  grid-row: 3;
-  margin: 0;
-  font-size: 0.94rem;
-  line-height: 1.5;
-  color: #b0b0b0;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Divider */
-.social-card.contribution-card .divider {
-  grid-row: 4;
-  height: 2px;
-  background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
-  margin: 0.5rem 0;
-  border: none;
-}
-
-/* Teaser title placeholder */
-.social-card.contribution-card .teaser-title {
-  grid-row: 5;
-  margin: 0;
-  font-size: 1.02rem;
-  line-height: 1.42;
-  font-weight: 600;
-  color: #b0b0b0;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Knoppen in teaser-preview rij */
+/* Knoppen in de teaser-preview rij – onder elkaar */
 .social-card.contribution-card .contribute-buttons {
   grid-row: 6;
   display: flex;
@@ -280,12 +209,12 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  margin-top: 0.5rem;
 }
 
+/* Zorg dat knoppen binnen bounds blijven */
 .social-card.contribution-card .btn-contribute {
   width: 100%;
-  max-width: 220px;
+  max-width: 120px;
   padding: 0.8rem 1.2rem;
   border-radius: 6px;
   font-weight: bold;
@@ -302,11 +231,4 @@
 .btn-contribute.teaser {
   background: #555;
   color: white;
-}
-
-/* Hover */
-.social-card.contribution-card:hover {
-  border-color: rgba(102, 179, 255, 0.5);
-  box-shadow: 0 6px 24px rgba(102, 179, 255, 0.12);
-  transform: translateY(-4px);
 }
