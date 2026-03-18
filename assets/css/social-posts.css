@@ -188,35 +188,88 @@
   padding: 1.4rem 1.6rem;
   display: grid;
   grid-template-rows:
-    minmax(2.5rem, auto)     /* header: + en titel */
-    5.4rem                   /* rvn-title placeholder */
-    4rem                     /* rvn-teaser */
-    50px                     /* divider */
-    3.5rem                   /* teaser-title placeholder */
-    4.2rem                   /* teaser-preview placeholder */
-    auto                     /* knoppen RVN */
-    auto;                    /* knoppen teaser */
+    minmax(1.5rem, auto)     /* header: + groot */
+    1.8rem                   /* rvn-title */
+    3.8rem                     /* rvn-teaser */
+    auto                     /* Voeg RVN toe knop */
+    55px                     /* divider */
+    1.5rem                   /* teaser-title */
+    1.2rem                   /* teaser-preview */
+    auto;                    /* Voeg teaser toe knop */
   gap: 0.6rem;
   overflow: hidden;
   text-align: center;
   box-sizing: border-box;
 }
 
-/* Knop RVN boven divider */
-.social-card.contribution-card .contribute-buttons.rvn {
-  grid-row: 7;
-  display: flex;
-  justify-content: center;
+/* + teken groter */
+.social-card.contribution-card .social-number {
+  font-size: 3.2rem;           /* groter dan normale dag-nummers */
+  font-weight: 900;
+  color: var(--primary);
+  line-height: 1;
 }
 
-/* Knop teaser onder divider */
+/* RVN titel */
+.social-card.contribution-card .rvn-title {
+  grid-row: 2;
+  font-size: 1.03rem;
+  line-height: 1.38;
+  font-weight: 600;
+  color: var(--primary) !important;
+}
+
+/* RVN teaser */
+.social-card.contribution-card .rvn-teaser {
+  grid-row: 3;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: #b0b0b0;
+}
+
+/* Button RVN – boven divider */
+.social-card.contribution-card .contribute-buttons.rvn {
+  grid-row: 4;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+/* Divider */
+.social-card.contribution-card .divider {
+  grid-row: 5;
+  height: 2px;
+  background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
+  margin: 0.5rem 0;
+  border: none;
+}
+
+/* Teaser titel */
+.social-card.contribution-card .teaser-title {
+  grid-row: 6;
+  font-size: 1.02rem;
+  line-height: 1.42;
+  font-weight: 600;
+  color: #b0b0b0;
+}
+
+/* Teaser preview */
+.social-card.contribution-card .teaser-preview {
+  grid-row: 7;
+  font-size: 0.93rem;
+  line-height: 1.48;
+  color: #b0b0b0;
+}
+
+/* Button teaser – onderaan */
 .social-card.contribution-card .contribute-buttons.teaser {
   grid-row: 8;
   display: flex;
   justify-content: center;
+  margin: 0.5rem 0;
 }
 
-/* Zorg dat knoppen binnen bounds blijven */
+/* Knoppen algemeen */
 .social-card.contribution-card .btn-contribute {
   width: 100%;
   max-width: 220px;
@@ -224,7 +277,6 @@
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  text-align: center;
   font-size: 1rem;
 }
 
