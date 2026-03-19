@@ -52,13 +52,65 @@
   box-sizing: border-box;
   width: 100%;                 /* forceer volle kolombreedte */
 }
-
-/* Hover */
+/* Hover voor normale social-cards (Dag X) */
 .social-card:hover {
-  border-color: rgba(102, 179, 255, 0.5);
-  box-shadow: 0 6px 24px rgba(102, 179, 255, 0.12);
+  border-color: var(--primary);               /* #66b3ff */
+  box-shadow: 0 6px 24px rgba(102, 179, 255, 0.25);
   transform: translateY(-4px);
+  transition: all 0.25s ease;
 }
+
+/* Hover voor add-card – uitnodigend lichtblauw */
+.social-card.contribution-card:hover {
+  border-color: #7dd3fc;                      /* voorgestelde 'enter/kom binnen' kleur */
+  box-shadow: 0 8px 28px rgba(125, 211, 252, 0.3);
+  transform: translateY(-4px);
+  background: linear-gradient(to bottom, rgba(125, 211, 252, 0.08), rgba(125, 211, 252, 0.03));
+  transition: all 0.25s ease;
+}
+
+/* + teken hover – lichter/blauwer */
+.social-card:hover .social-number,
+.social-card.contribution-card:hover .social-number {
+  color: #7dd3fc;                             /* zelfde lichtblauw als border */
+  text-shadow: 0 0 8px rgba(125, 211, 252, 0.6);
+}
+
+/* RVN titel hover – lichter */
+.social-card:hover .rvn-title,
+.social-card.contribution-card:hover .rvn-title {
+  color: #7dd3fc !important;
+}
+
+/* Teaser title hover – lichter grijs naar blauw */
+.social-card:hover .teaser-title,
+.social-card.contribution-card:hover .teaser-title {
+  color: #b0b0b0 !important;                  /* blijft grijs, maar kan lichter */
+}
+
+/* Buttons in add-card: basis grijs/zwart */
+.btn-contribute.rvn,
+.btn-contribute.teaser {
+  background: #444;
+  color: #e0e0e0;                             /* grijs/wit font */
+  padding: 0.7rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 80%;
+  max-width: 170px;
+  transition: all 0.25s ease;
+}
+
+/* Hover op buttons: blauw met wit font */
+.btn-contribute.rvn:hover,
+.btn-contribute.teaser:hover {
+  background: var(--primary);                 /* #66b3ff */
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(102, 179, 255, 0.4);
+}
+
 
 /* Zorg dat alle interne elementen binnen bounds blijven */
 .social-card * {
@@ -66,11 +118,45 @@
 }
 
 /* Dag-header – vaste positie */
+/* Header (Dag X of +) – lichtere 'label' look */
 .social-header {
-  grid-row: 1;
+  background: rgba(255, 255, 255, 0.08);  /* lichter grijs/wit accent */
+  border-bottom: 1px solid rgba(102, 179, 255, 0.3);  /* subtiele blauwe rand onder */
+  border-top-left-radius: 12px;   /* ronde hoek bovenaan links */
+  border-top-right-radius: 12px;  /* ronde hoek bovenaan rechts */
+  padding: 0.8rem 1rem;
+  margin: -1.4rem -1.6rem 0rem -1.6rem;  /* trek header over de padding heen */
   display: flex;
   align-items: center;
-  gap: 0.7rem;
+  justify-content: center;
+  gap: 0.8rem;
+  position: relative;
+  z-index: 2;  /* zorg dat het boven de card-content ligt */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);  /* lichte schaduw voor 'opgeplakt' gevoel */
+}
+
+/* Dag-nummer / + teken – iets groter in header */
+.social-header .social-number {
+  font-size: 2.2rem;  /* groter in deze lichtere header */
+  font-weight: 900;
+  color: #e0e0e0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Hover op hele card: header accentueert */
+.social-card:hover .social-header {
+  background: rgba(102, 179, 255, 0.15);  /* lichter blauw accent bij hover */
+  border-bottom-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
+}
+
+/* Voor add-card specifiek: + nog opvallender */
+.social-card.contribution-card .social-header {
+  background: rgba(102, 179, 255, 0.12);  /* lichter blauw voor add-card */
+}
+
+.social-card.contribution-card:hover .social-header {
+  background: rgba(102, 179, 255, 0.25);
 }
 
 /* RVN titel – vaste positie */
@@ -201,14 +287,7 @@
   box-sizing: border-box;
 }
 
-/* + teken groter en centraal */
-.social-card.contribution-card .social-number {
-  font-size: 3.0rem;           /* echt groot voor "toevoegen" gevoel */
-  line-height: 1;
-  font-weight: 600;
-  color: #e0e0e0;
-  margin: 0 auto;
-}
+
 
 /* RVN titel – compacter en rustiger */
 .social-card.contribution-card .rvn-title {
@@ -279,9 +358,3 @@
   text-decoration: none;
 }
 
-/* Hover effect */
-.social-card.contribution-card:hover {
-  border-color: rgba(102, 179, 255, 0.5);
-  box-shadow: 0 6px 24px rgba(102, 179, 255, 0.12);
-  transform: translateY(-4px);
-}
