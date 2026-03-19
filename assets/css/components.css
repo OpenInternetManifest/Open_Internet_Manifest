@@ -669,11 +669,9 @@ button.copy-btn:hover {
   font-weight: 900;
   position: absolute;
   top: 0.2rem;
-  left: 0.4rem;
+  left: 0rem;
   z-index: 2;
 }
-
-
 /* Difficulty banner – rechtsboven, vaste positie */
 .difficulty-banner {
   font-size: 0.78rem;
@@ -686,8 +684,8 @@ button.copy-btn:hover {
   letter-spacing: 0.3px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.4);
   position: absolute;
-  top: 0.6rem;  /* zelfde hoogte als nummer */
-  right: 0.8rem;  /* meer ruimte rechts van rand */
+  top: 0.8rem;  /* zelfde hoogte als nummer */
+  right: 1.0rem;  /* meer ruimte rechts */
   z-index: 3;
 }
 
@@ -832,10 +830,11 @@ button.copy-btn:hover {
 /* Titel iets laten zakken na header */
 .guide-card h3,
 .thesis-card h3 {
-  margin-top: 1.0rem;  /* titel zakt voor betere balans */
+  margin-top: 1.2rem;  /* titel zakt subtiel (geen 10.4rem meer!) */
   font-size: 0.84rem;
   line-height: 1.15;
   color: var(--primary);
+  margin-bottom: 0.5rem;
 }
 /* Hover underline – alleen bij hover 
 .thesis-title:hover,
@@ -907,60 +906,82 @@ button.copy-btn:hover {
 } */
 
 /* ==========================================================================
-   OVERVIEW HEADER – gedeelde lichtere 'label' header voor guides en theses
+   CARD LABEL HEADER – lichte 'label' bovenaan elke card
    ========================================================================== */
 
-.guide-header,
-.thesis-header {
-  background: rgba(255, 255, 255, 0.08);  /* lichte transparante achtergrond */
-  border-bottom: 1px solid rgba(102, 179, 255, 0.25);  /* subtiele blauwe rand */
+.card-label-header {
+  background: rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(102, 179, 255, 0.25);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  padding: 0.8rem 1.2rem;  /* meer ruimte links/rechts */
-  margin: -1.4rem -1.6rem 1.4rem -1.6rem;  /* trek header over card-padding, meer ruimte onder voor titel */
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 1.2rem;  /* ruimte voor de titel */
   display: flex;
   align-items: center;
-  justify-content: space-between;  /* nummer links, difficulty rechts */
+  justify-content: space-between;
   position: relative;
   z-index: 2;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
-  width: calc(120% + 3.2rem);  /* volledige breedte + extra om over randen te lopen */
-  left: -1.6rem;  /* centreer extra breedte */
-  top: 0;
+  width: 100%;  /* volledige breedte */
 }
 
-/* Nummer (+ of guide/thesis-nummer) – meer ruimte op rand, vaste positie */
+/* Nummer (+ of guide/thesis-nummer) – vaste positie */
 .guide-number,
 .thesis-number {
   font-size: 2.0rem;
   line-height: 1;
   font-weight: 900;
-  color: #b0b0b0;  /* grijs standaard */
+  color: #b0b0b0;
   background: rgba(255,255,255,0.05);
   padding: 0.2rem 0.6rem;
   border-radius: 6px;
   min-width: 2.2rem;
   text-align: center;
   position: absolute;
-  top: 0.6rem;  /* iets hoger voor balans met difficulty-banner */
-  left: 0.8rem;  /* meer ruimte links van rand */
+  top: 0.6rem;
+  left: 1.0rem;
   z-index: 3;
 }
 
-/* Hover effect op header – lichter/accent */
-.guide-card:hover .guide-header,
-.thesis-card:hover .thesis-header {
+/* Difficulty banner – rechtsboven */
+.difficulty-banner {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+  -webkit-text-stroke: 0.4px rgba(0,0,0,0.6);
+  letter-spacing: 0.3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0.6rem;
+  right: 1.0rem;
+  z-index: 3;
+}
+
+/* Card titel – zakt onder header */
+.card-title {
+  margin-top: 1.2rem;  /* titel zakt voor balans */
+  font-size: 0.84rem;
+  line-height: 1.15;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Hover effect op header */
+.guide-card:hover .card-label-header,
+.thesis-card:hover .card-label-header {
   background: rgba(102, 179, 255, 0.15);
   border-bottom-color: var(--primary);
   box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
 }
 
-/* Nummer hover – lichter/blauwer */
+/* Nummer hover */
 .guide-card:hover .guide-number,
-.thesis-card:hover .thesis-numbe {
-/*.contribution-card:hover .thesis-number,
-.contribution-card:hover .guide-number { */
+.thesis-card:hover .thesis-number {
   color: var(--primary) !important;
   background: rgba(102, 179, 255, 0.15);
   text-shadow: 0 0 8px rgba(102, 179, 255, 0.6);
