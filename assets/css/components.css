@@ -674,8 +674,7 @@ button.copy-btn:hover {
 }
 
 
-
-/* Difficulty banner – rechtsboven, zelfde hoogte als nummer */
+/* Difficulty banner – rechtsboven, vaste positie */
 .difficulty-banner {
   font-size: 0.78rem;
   font-weight: 700;
@@ -686,11 +685,9 @@ button.copy-btn:hover {
   -webkit-text-stroke: 0.4px rgba(0,0,0,0.6);
   letter-spacing: 0.3px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-  margin-right: 0.6rem;  /* meer ruimte rechts van rand */
-  margin-top: 0.3rem;    /* zelfde hoogte als nummer */
   position: absolute;
-  top: 0.3rem;
-  right: 0.4rem;
+  top: 0.6rem;  /* zelfde hoogte als nummer */
+  right: 0.8rem;  /* meer ruimte rechts van rand */
   z-index: 3;
 }
 
@@ -807,8 +804,6 @@ button.copy-btn:hover {
 }
 /* Titels – meer marge boven voor afstand tot nummer (theses & guides) */
 .thesis-title,
-.guide-card h3,
-.thesis-card h3,
 .thesis-card .thesis-title,
 .guide-card .guide-title {  /* voeg extra selectors toe voor veiligheid */
   font-size: 0.84rem;
@@ -823,14 +818,25 @@ button.copy-btn:hover {
   text-decoration: none;
   transition: text-decoration 0.15s ease;
 }
+/* Zorg dat difficulty-banner niet overlapt met header */
+.guide-card,
+.thesis-card {
+  position: relative;
+}
 
 /* Specifiek voor guide-cards (als er een aparte class is) */
-.guide-card h3,
 .guide-card .thesis-title {
   margin: 3.2rem 0 0.5rem 0 !important;   /* nog meer ruimte voor difficulty banner */
   padding-right: 1.6rem;
 }
-
+/* Titel iets laten zakken na header */
+.guide-card h3,
+.thesis-card h3 {
+  margin-top: 1.0rem;  /* titel zakt voor betere balans */
+  font-size: 0.84rem;
+  line-height: 1.15;
+  color: var(--primary);
+}
 /* Hover underline – alleen bij hover 
 .thesis-title:hover,
 .guide-card h3:hover,
@@ -901,17 +907,17 @@ button.copy-btn:hover {
 } */
 
 /* ==========================================================================
-   OVERVIEW HEADER – lichtere 'label' header voor alle cards (guides, theses, social, add)
+   OVERVIEW HEADER – gedeelde lichtere 'label' header voor guides en theses
    ========================================================================== */
 
 .guide-header,
-.thesis-header{
+.thesis-header {
   background: rgba(255, 255, 255, 0.08);  /* lichte transparante achtergrond */
-  border-bottom: 1px solid rgba(102, 179, 255, 0.3);  /* subtiele blauwe rand */
+  border-bottom: 1px solid rgba(102, 179, 255, 0.25);  /* subtiele blauwe rand */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  padding: 0.7rem 1.2rem;  /* iets meer ruimte links/rechts */
-  margin: -1.4rem -1.6rem 4rem -1.6rem;  /* trek header over card-padding, meer ruimte onder voor titel */
+  padding: 0.8rem 1.2rem;  /* meer ruimte links/rechts */
+  margin: -1.4rem -1.6rem 1.4rem -1.6rem;  /* trek header over card-padding, meer ruimte onder voor titel */
   display: flex;
   align-items: center;
   justify-content: space-between;  /* nummer links, difficulty rechts */
@@ -924,10 +930,10 @@ button.copy-btn:hover {
   top: 0;
 }
 
-/* Nummer (+ of guide/thesis-nummer) – meer ruimte op rand, zelfde hoogte als difficulty */
+/* Nummer (+ of guide/thesis-nummer) – meer ruimte op rand, vaste positie */
 .guide-number,
 .thesis-number {
-  font-size: 1.9rem;  /* iets groter maar nog netjes */
+  font-size: 2.0rem;
   line-height: 1;
   font-weight: 900;
   color: #b0b0b0;  /* grijs standaard */
@@ -936,13 +942,15 @@ button.copy-btn:hover {
   border-radius: 6px;
   min-width: 2.2rem;
   text-align: center;
-  margin-left: 0.6rem;  /* meer ruimte links van rand */
-  margin-top: -2rem;   /* hoger positioneren voor balans met difficulty */
+  position: absolute;
+  top: 0.6rem;  /* iets hoger voor balans met difficulty-banner */
+  left: 0.8rem;  /* meer ruimte links van rand */
+  z-index: 3;
 }
 
 /* Hover effect op header – lichter/accent */
 .guide-card:hover .guide-header,
-.thesis-card:hover .thesis-header{
+.thesis-card:hover .thesis-header {
   background: rgba(102, 179, 255, 0.15);
   border-bottom-color: var(--primary);
   box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
@@ -950,9 +958,9 @@ button.copy-btn:hover {
 
 /* Nummer hover – lichter/blauwer */
 .guide-card:hover .guide-number,
-.thesis-card:hover .thesis-number,
-.contribution-card:hover .thesis-number,
-.contribution-card:hover .guide-number {
+.thesis-card:hover .thesis-numbe {
+/*.contribution-card:hover .thesis-number,
+.contribution-card:hover .guide-number { */
   color: var(--primary) !important;
   background: rgba(102, 179, 255, 0.15);
   text-shadow: 0 0 8px rgba(102, 179, 255, 0.6);
