@@ -681,14 +681,8 @@ button.copy-btn:hover {
   top: 0.2rem;        /* iets hoger positioneren als het nodig is */
 }
 
-
-
-
-/* Difficulty banner rechtsboven (guides) */
+/* Difficulty banner – zelfde hoogte en positie als nummer */
 .difficulty-banner {
-  position: absolute;
-  top: 0.4rem;
-  right: 0.4rem;
   font-size: 0.78rem;
   font-weight: 700;
   padding: 0.2rem 0.6rem;
@@ -697,8 +691,9 @@ button.copy-btn:hover {
   text-shadow: 0 1px 3px rgba(0,0,0,0.9);
   -webkit-text-stroke: 0.4px rgba(0,0,0,0.6);
   letter-spacing: 0.3px;
-  z-index: 2;
   box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  margin-right: 0.3rem;  /* meer ruimte rechts van rand */
+  margin-top: 0.1rem;    /* zelfde hoogte als nummer */
 }
 
 /* Difficulty kleuren */
@@ -1024,53 +1019,66 @@ button.copy-btn:hover {
   color: #b0b0b0;
   font-size: 0.9rem;
 }
-/* Gedeelde header voor guides, theses, social – lichtere 'label' look */
+/* ==========================================================================
+   OVERVIEW HEADER – gedeelde lichtere 'label' header voor alle cards
+   ========================================================================== */
+
 .guide-header,
 .thesis-header,
 .social-header {
-  background: rgba(255, 255, 255, 0.08);  /* lichter grijs/wit accent */
-  border-bottom: 1px solid rgba(102, 179, 255, 0.3);  /* subtiele blauwe rand */
+  background: rgba(255, 255, 255, 0.08);  /* lichte transparante achtergrond */
+  border-bottom: 1px solid rgba(102, 179, 255, 0.25);  /* subtiele blauwe rand */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  padding: 0.8rem 1rem;
-  margin: -1.4rem -1.6rem 0.8rem -1.6rem;  /* trek header over padding heen */
+  padding: 0.8rem 1.2rem;  /* meer ruimte links/rechts */
+  margin: -1.4rem -1.6rem 1.2rem -1.6rem;  /* trek header over card-padding, maar meer ruimte onder voor titel */
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
+  justify-content: space-between;  /* nummer links, difficulty rechts */
   position: relative;
   z-index: 2;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);  /* lichte schaduw voor 'opgeplakt' gevoel */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: calc(100% + 3.2rem);  /* volledige breedte + extra om over randen te lopen */
+  left: -1.6rem;  /* centreer extra breedte */
+  top: 0;  /* stop precies bovenaan */
 }
 
-/* Nummer (+ of thesis/guide-nummer) – grijs standaard */
+/* Nummer (+ of guide/thesis-nummer) – meer ruimte op rand */
 .guide-number,
 .thesis-number,
 .social-number {
-  font-size: 2.2rem;
+  font-size: 2.0rem;  /* iets kleiner maar nog opvallend */
   line-height: 1;
   font-weight: 900;
   color: #b0b0b0;  /* grijs standaard */
-  margin: 0;
+  background: rgba(255,255,255,0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  min-width: 2.2rem;
+  text-align: center;
+  margin-left: 0.3rem;  /* meer ruimte links van rand */
+  margin-top: 0.1rem;   /* iets hoger voor balans met difficulty */
 }
 
-/* Hover: nummer lichter/blauw */
+/* Hover effect op header – lichter/accent */
+.guide-card:hover .guide-header,
+.thesis-card:hover .thesis-header,
+.social-card:hover .social-header,
+.contribution-card:hover .social-header {
+  background: rgba(102, 179, 255, 0.15);
+  border-bottom-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
+}
+
+/* Nummer hover – lichter/blauwer */
 .guide-card:hover .guide-number,
 .thesis-card:hover .thesis-number,
 .social-card:hover .social-number,
 .contribution-card:hover .social-number,
 .contribution-card:hover .thesis-number,
 .contribution-card:hover .guide-number {
-  color: var(--primary) !important;  /* #66b3ff */
+  color: var(--primary) !important;
+  background: rgba(102, 179, 255, 0.15);
   text-shadow: 0 0 8px rgba(102, 179, 255, 0.6);
-}
-
-/* Hover op hele card: header accentueert */
-.guide-card:hover .guide-header,
-.thesis-card:hover .thesis-header,
-.social-card:hover .social-header,
-.contribution-card:hover .social-header {
-  background: rgba(102, 179, 255, 0.15);  /* lichter blauw accent */
-  border-bottom-color: var(--primary);
-  box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
 }
