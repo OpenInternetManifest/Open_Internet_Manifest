@@ -36,10 +36,12 @@
     font-size: 1em;
     margin: 3em auto 1.5em;
   }
-    .social-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+     .social-grid {
+    grid-template-columns: 1fr !important;   /* 1 kolom */
+    gap: 1.5rem;
+    padding: 0 0.5rem;
   }
+
 
   .social-card {
     height: auto;  /* laat hoogte dynamisch worden op heel klein scherm */
@@ -191,11 +193,12 @@
   }
 }
 
-/* Optioneel: tablet / middengebied (als je later meer wilt toevoegen) */
-@media (max-width: 1024px) {
-  /* Bijv. toekomstige grid: 3 kolommen */
-  /* .social-grid { grid-template-columns: repeat(3, 1fr); } */
-}
+/* Mobile landscape: 2 kolommen */
+@media (max-width: 1000px) and (orientation: landscape) {
+  .social-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
 /* Grotere schermen – royalere padding op ultra-wide */
 @media (min-width: 1400px) {
   .content-container {
@@ -262,10 +265,10 @@
 }
 /* Aanvullingen social-posts */
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
   .social-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
+  }*/
 }
 
 @media (max-width: 768px) {
@@ -309,5 +312,19 @@
     font-size: 3em;
     width: 70px;
     height: 70px;
+  }
+}
+/* Tablets / small desktop: 3 kolommen */
+@media (min-width: 501px) and (max-width: 900px) {
+  .social-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+/* Desktop: probeer 4 kolommen */
+@media (min-width: 901px) {
+  .social-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1400px;
   }
 }
