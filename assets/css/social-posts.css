@@ -287,7 +287,14 @@
   box-sizing: border-box;
 }
 
-
+/* + teken groter en centraal */
+.social-card.contribution-card .social-number {
+  font-size: 4.0rem;           /* echt groot voor "toevoegen" gevoel */
+  line-height: 1;
+  font-weight: 700;
+  color: #e0e0e0;
+  margin: 0 auto;
+}
 
 /* RVN titel – compacter en rustiger */
 .social-card.contribution-card .rvn-title {
