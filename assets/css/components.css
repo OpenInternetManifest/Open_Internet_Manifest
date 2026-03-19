@@ -582,8 +582,7 @@ button.copy-btn:hover {
    THESES OVERZICHT HERO
    ========================================================================== */
 .guides-hero,
-.theses-hero,
-.social-posts-hero {
+.theses-hero {
   max-width: var(--content-max-width, 1200px);  /* zelfde als main-content */
   margin: 0 auto;                               /* center */
   padding: 1.5rem 1rem 1rem;                    /* minder padding links/rechts */
@@ -662,26 +661,21 @@ button.copy-btn:hover {
 
 .contribution-card .guide-number,
 .contribution-card .thesis-number {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   line-height: 1;
   background: transparent;
   color: var(--primary);
   padding: 0;
   font-weight: 900;
   position: absolute;
-  top: 0.4rem;
+  top: 0.2rem;
   left: 0.4rem;
   z-index: 2;
 }
 
-/* Zorg dat het + teken bij contribution-card nog iets groter of opvallender is (optioneel) */
-.contribution-card .guide-number,
-.contribution-card .thesis-number {
-  font-size: 2.8rem;  /* iets groter voor de + om meer aandacht te trekken */
-  top: 0.2rem;        /* iets hoger positioneren als het nodig is */
-}
 
-/* Difficulty banner – zelfde hoogte en positie als nummer */
+
+/* Difficulty banner – rechtsboven, zelfde hoogte als nummer */
 .difficulty-banner {
   font-size: 0.78rem;
   font-weight: 700;
@@ -692,8 +686,12 @@ button.copy-btn:hover {
   -webkit-text-stroke: 0.4px rgba(0,0,0,0.6);
   letter-spacing: 0.3px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-  margin-right: 0.3rem;  /* meer ruimte rechts van rand */
-  margin-top: 0.1rem;    /* zelfde hoogte als nummer */
+  margin-right: 0.6rem;  /* meer ruimte rechts van rand */
+  margin-top: 0.3rem;    /* zelfde hoogte als nummer */
+  position: absolute;
+  top: 0.3rem;
+  right: 0.4rem;
+  z-index: 3;
 }
 
 /* Difficulty kleuren */
@@ -901,137 +899,19 @@ button.copy-btn:hover {
 .guides-grid .guide-card * {
   font-size: 0.84rem;
 } */
+
 /* ==========================================================================
-   INDIVIDUELE SOCIAL POST – content styling
-   ========================================================================== */
-
-.social-post-content {
-  max-width: 900px;
-  margin: 0 auto 3rem;
-  padding: 0 1rem;
-  line-height: 1.6;
-  font-size: 1.05rem;
-  color: var(--text-light);
-}
-
-.social-post-content h1,
-.social-post-content h2 {
-  color: var(--primary);
-  margin: 2rem 0 1rem;
-  line-height: 1.3;
-}
-
-.social-post-content p {
-  margin: 1.2rem 0;
-}
-
-.social-post-content ul,
-.social-post-content ol {
-  margin: 1.2rem 0 1.2rem 1.5rem;
-  padding-left: 1rem;
-}
-
-.social-post-content li {
-  margin-bottom: 0.8rem;
-  position: relative;
-}
-
-.social-post-content ul li::marker {
-  color: var(--primary);
-  font-size: 1.2rem;
-}
-
-.social-post-content blockquote {
-  margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
-  border-left: 4px solid var(--primary);
-  background: rgba(255,255,255,0.05);
-  color: #b0b0b0;
-  font-style: italic;
-}
-
-.social-post-content a {
-  color: var(--primary);
-  text-decoration: none;
-  transition: all 0.15s;
-}
-
-.social-post-content a:hover {
-  text-decoration: underline;
-  color: #88c0ff;
-}
-
-.social-post-content .hashtags {
-  margin-top: 2.8rem;
-  font-size: 0.95rem;
-  color: #88c0ff;
-  text-align: center;
-}
-
-.social-post-content .hashtags a {
-  margin: 0 0.4rem;
-}
-
-.social-post-content .hashtags a:hover {
-  text-decoration: none;
-}
-
-.social-post-content .closing-call {
-  margin-top: 2.5rem;
-  padding: 1.5rem;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid #555;
-  border-radius: 8px;
-  text-align: center;
-  font-weight: 600;
-  color: #88c0ff;
-}
-/* ==========================================================================
-   OVERVIEW HERO – gedeelde class voor guides, theses, social-posts etc.
-   ========================================================================== */
-
-.overview-hero {
-  max-width: var(--content-max-width, 1200px);
-  margin: 0 auto 1.5rem auto;
-  padding: 1.5rem 1rem 1rem;
-  background: linear-gradient(to bottom, #ffffff0d, #ffffff0d);
-  border-radius: 10px;
-  border: 1px solid #333;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.overview-hero .intro-title {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  color: var(--primary);
-}
-
-.overview-hero .manifest-subtitle {
-  font-size: 1.05rem;
-  color: #b0b0b0;
-  margin-bottom: 0.5rem;
-}
-
-.overview-hero .intro-text {
-  max-width: 720px;
-  margin: 0 auto 0.8rem;
-  color: #b0b0b0;
-  font-size: 0.9rem;
-}
-/* ==========================================================================
-   OVERVIEW HEADER – gedeelde lichtere 'label' header voor alle cards
+   OVERVIEW HEADER – lichtere 'label' header voor alle cards (guides, theses, social, add)
    ========================================================================== */
 
 .guide-header,
-.thesis-header,
-.social-header {
+.thesis-header{
   background: rgba(255, 255, 255, 0.08);  /* lichte transparante achtergrond */
-  border-bottom: 1px solid rgba(102, 179, 255, 0.25);  /* subtiele blauwe rand */
+  border-bottom: 1px solid rgba(102, 179, 255, 0.3);  /* subtiele blauwe rand */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  padding: 0.8rem 1.2rem;  /* meer ruimte links/rechts */
-  margin: -1.4rem -1.6rem 1.2rem -1.6rem;  /* trek header over card-padding, maar meer ruimte onder voor titel */
+  padding: 0.7rem 1.2rem;  /* iets meer ruimte links/rechts */
+  margin: -1.4rem -1.6rem 4rem -1.6rem;  /* trek header over card-padding, meer ruimte onder voor titel */
   display: flex;
   align-items: center;
   justify-content: space-between;  /* nummer links, difficulty rechts */
@@ -1039,16 +919,15 @@ button.copy-btn:hover {
   z-index: 2;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
-  width: calc(100% + 3.2rem);  /* volledige breedte + extra om over randen te lopen */
+  width: calc(120% + 3.2rem);  /* volledige breedte + extra om over randen te lopen */
   left: -1.6rem;  /* centreer extra breedte */
-  top: 0;  /* stop precies bovenaan */
+  top: 0;
 }
 
-/* Nummer (+ of guide/thesis-nummer) – meer ruimte op rand */
+/* Nummer (+ of guide/thesis-nummer) – meer ruimte op rand, zelfde hoogte als difficulty */
 .guide-number,
-.thesis-number,
-.social-number {
-  font-size: 2.0rem;  /* iets kleiner maar nog opvallend */
+.thesis-number {
+  font-size: 1.9rem;  /* iets groter maar nog netjes */
   line-height: 1;
   font-weight: 900;
   color: #b0b0b0;  /* grijs standaard */
@@ -1057,15 +936,13 @@ button.copy-btn:hover {
   border-radius: 6px;
   min-width: 2.2rem;
   text-align: center;
-  margin-left: 0.3rem;  /* meer ruimte links van rand */
-  margin-top: 0.1rem;   /* iets hoger voor balans met difficulty */
+  margin-left: 0.6rem;  /* meer ruimte links van rand */
+  margin-top: -2rem;   /* hoger positioneren voor balans met difficulty */
 }
 
 /* Hover effect op header – lichter/accent */
 .guide-card:hover .guide-header,
-.thesis-card:hover .thesis-header,
-.social-card:hover .social-header,
-.contribution-card:hover .social-header {
+.thesis-card:hover .thesis-header{
   background: rgba(102, 179, 255, 0.15);
   border-bottom-color: var(--primary);
   box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
@@ -1074,8 +951,6 @@ button.copy-btn:hover {
 /* Nummer hover – lichter/blauwer */
 .guide-card:hover .guide-number,
 .thesis-card:hover .thesis-number,
-.social-card:hover .social-number,
-.contribution-card:hover .social-number,
 .contribution-card:hover .thesis-number,
 .contribution-card:hover .guide-number {
   color: var(--primary) !important;
