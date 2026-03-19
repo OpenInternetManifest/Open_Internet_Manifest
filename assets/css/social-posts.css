@@ -35,7 +35,7 @@
   display: grid;
   grid-template-rows:
     minmax(2.5rem, auto)     /* header: flexibel maar min 2.5rem */
-    5.0rem                   /* rvn-title: vaste hoogte voor 3 regels */
+    4.5rem                   /* rvn-title: vaste hoogte voor 3 regels */
     4rem                   /* rvn-teaser: vaste hoogte voor 3 regels */
     50px                      /* divider: exact 1px */
     2.5rem                     /* teaser-title: vaste hoogte voor 2 regels */
@@ -46,7 +46,7 @@
   border: 1px solid #222;
   border-radius: 12px;
   padding: 1.4rem 1.6rem;      /* iets symmetrischer padding */
-  height: 420px;               /* totale vaste hoogte */
+  height: 400px;               /* totale vaste hoogte */
   overflow: hidden;
   transition: all 0.25s ease;
   box-sizing: border-box;
@@ -73,13 +73,15 @@
 .social-card:hover .social-number,
 .social-card.contribution-card:hover .social-number {
   color: #7dd3fc;                             /* zelfde lichtblauw als border */
-  text-shadow: 0 0 8px rgba(125, 211, 252, 0.6);
+   text-shadow: 0 0 12px rgba(102, 179, 255, 0.6);
+  transform: scale(1.1);
 }
 
-/* RVN titel hover – lichter */
+/* Hover: maak rvn-title blauw in beide gevallen */
 .social-card:hover .rvn-title,
 .social-card.contribution-card:hover .rvn-title {
-  color: #7dd3fc !important;
+  color: var(--primary) !important;
+  text-shadow: 0 0 8px rgba(102, 179, 255, 0.4);
 }
 
 /* Teaser title hover – lichter grijs naar blauw */
@@ -199,11 +201,18 @@
   text-decoration: underline;
 }
 
-/* Extra bescherming tegen parent inherited kleuren */
-.social-card .rvn-title * {
-  color: var(--primary) !important;
+/* RVN titel in normale cards – blauw */
+.social-card .rvn-title {
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #b0b0b0;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
-
 /* RVN teaser – vaste positie */
 .rvn-teaser {
   grid-row: 3;
@@ -271,12 +280,12 @@
 .social-card.contribution-card {
   border: 2px dashed var(--primary);
   background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
-  min-height: 420px;               /* iets compacter dan normale cards */
+  min-height: 400px;               /* iets compacter dan normale cards */
   padding: 1.4rem 1.6rem;
   display: grid;
   grid-template-rows:
     minmax(-2rem, auto)     /* header: groter + teken */
-    5.0rem                   /* rvn-title */
+    5rem                   /* rvn-title */
     auto                     /* Voeg RVN toe knop – ruimte voor button */
     60px                     /* divider + extra marge */
     3.0rem                   /* teaser-title */
@@ -296,14 +305,13 @@
   margin: 0 auto;
 }
 
-/* RVN titel – compacter en rustiger */
+/* RVN titel in add-card – grijs voor rust */
 .social-card.contribution-card .rvn-title {
-  grid-row: 2;
-  font-size: 0.90rem;
-  line-height: 1.3;
-  font-weight: 400;
-  color: var(--primary) !important;
-  margin: 0.3rem 0 0 0;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #b0b0b0 !important;  /* grijs zoals teasers */
+  margin: 0.5rem 0 -1.4rem 0;
 }
 
 /* Button RVN – boven divider, smaller */

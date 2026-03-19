@@ -27,8 +27,7 @@ title: Realiteit vs Narratief – Social Posts
 
    <!-- RVN titel placeholder -->
     <div class="rvn-title">
-      Schrijf een nieuwe RVN-dag + teaser – in NL, EN of andere taal.<br>
-      Straks via /admin/, nu via GitHub PR.
+      Schrijf een nieuwe RVN-dag in NL, EN of andere taal. Straks via /admin/, nu via GitHub PR.
     </div>
 
     <!-- Button RVN – boven divider -->
