@@ -38,7 +38,7 @@
     5.0rem                   /* rvn-title: vaste hoogte voor 3 regels */
     4rem                   /* rvn-teaser: vaste hoogte voor 3 regels */
     50px                      /* divider: exact 1px */
-    3.5rem                     /* teaser-title: vaste hoogte voor 2 regels */
+    2.5rem                     /* teaser-title: vaste hoogte voor 2 regels */
     4.2rem                   /* teaser-preview: vaste hoogte voor 3 regels */
     1fr;                     /* vuller onderaan voor balans */
   gap: 0.6rem;
@@ -77,7 +77,7 @@
 .rvn-title {
   grid-row: 2;
   margin: 0;
-  font-size: 0.84rem;
+  font-size: 0.90rem;
   line-height: 1.38;
   font-weight: 400;
   color: var(--primary) !important;
@@ -147,7 +147,7 @@
 .teaser-title {
   grid-row: 5;
   margin: 0;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   line-height: 1.42;
   font-weight: 400;
   color: #b0b0b0; 
@@ -163,7 +163,7 @@
 .social-teaser {
   grid-row: 6;
   margin: 0;
-  font-size: 0.68rem;
+  font-size: 0.78rem;
   line-height: 1.48;
   color: #b0b0b0;
   display: -webkit-box;
@@ -181,23 +181,21 @@
   visibility: hidden;
 }
 
-/* Add-card specifieke styling – rustiger en exact match met normale cards */
+/* Add-card – finale rustige versie */
 .social-card.contribution-card {
   border: 2px dashed var(--primary);
   background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
-  min-height: 420px;
+  min-height: 420px;               /* iets compacter dan normale cards */
   padding: 1.4rem 1.6rem;
   display: grid;
   grid-template-rows:
-    minmax(2.5rem, auto)     /* header: + groot */
-    5.8rem                   /* rvn-title */
-    0rem                     /* rvn-teaser */
-    auto                     /* Voeg RVN toe knop */
-    40px                     /* divider */
+    minmax(-2rem, auto)     /* header: groter + teken */
+    5.0rem                   /* rvn-title */
+    auto                     /* Voeg RVN toe knop – ruimte voor button */
+    60px                     /* divider + extra marge */
     3.0rem                   /* teaser-title */
-    0rem                   /* teaser-preview */
     auto;                    /* Voeg teaser toe knop */
-  gap: 0.4rem;               /* kleiner gap voor rust */
+  gap: 0.5rem;               /* balans tussen rust en ruimte */
   overflow: hidden;
   text-align: center;
   box-sizing: border-box;
@@ -205,93 +203,77 @@
 
 /* + teken groter en centraal */
 .social-card.contribution-card .social-number {
-  font-size: 2.8rem;           /* groter voor impact */
+  font-size: 3.0rem;           /* echt groot voor "toevoegen" gevoel */
   line-height: 1;
-  font-weight: 700;
+  font-weight: 600;
   color: #e0e0e0;
+  margin: 0 auto;
 }
 
-/* RVN titel – iets compacter */
+/* RVN titel – compacter en rustiger */
 .social-card.contribution-card .rvn-title {
   grid-row: 2;
-  font-size: 0.84rem;           /* kleiner dan normale 1.03rem voor rust */
-  line-height: 1.35;
+  font-size: 0.90rem;
+  line-height: 1.3;
   font-weight: 400;
   color: var(--primary) !important;
-}
-
-/* RVN teaser – iets compacter */
-.social-card.contribution-card .rvn-teaser {
-  grid-row: 3;
-  font-size: 0.88rem;
-  line-height: 1.4;
-  color: #b0b0b0;
-  margin: 0;
+  margin: 0.3rem 0 0 0;
 }
 
 /* Button RVN – boven divider, smaller */
 .social-card.contribution-card .contribute-buttons.rvn {
-  grid-row: 4;
+  grid-row: 3;
   display: flex;
   justify-content: center;
-  margin: 0.4rem 0 0.8rem 0;   /* meer marge boven divider */
+  margin: 1rem 0 0.8rem 0;   /* meer marge boven divider */
 }
 
 .social-card.contribution-card .btn-contribute.rvn {
-  width: 80%;                  /* smaller dan 100% */
-  max-width: 180px;            /* kleiner dan normale knoppen */
-  padding: 0.7rem 1.1rem;      /* compacter */
-  font-size: 0.95rem;
-  background: var(--primary);
+  width: 70%;                  /* smaller */
+  max-width: 170px;            /* compacter */
+  padding: 0.65rem 1rem;
+  font-size: 0.92rem;
+  background: #b0b0b0;
   color: #0f1419;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* Divider – meer marge voor balans */
+/* Divider – meer ruimte voor rust */
 .social-card.contribution-card .divider {
-  grid-row: 5;
+  grid-row: 4;
   height: 2px;
   background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
-  margin: 0.8rem 0;            /* meer ruimte boven/onder → lager geplaatst */
+  margin: 1.5rem 0;            /* meer ruimte → lager en rustiger */
   border: none;
 }
 
-/* Teaser title – juiste grijze kleur + hoger positioneren */
+/* Teaser title – grijze kleur, iets hoger */
 .social-card.contribution-card .teaser-title {
-  grid-row: 6;
-  font-size: 0.88rem;
-  line-height: 1.35;
-  font-weight: 400;
-  color:var(--primary) !important;   /* grijs zoals normale teasers */
-  margin: 0.2rem 0 0 0;        /* iets hoger */
-}
-
-/* Teaser preview – compacter */
-.social-card.contribution-card .teaser-preview {
-  grid-row: 7;
-  font-size: 0.68rem !important;
-  line-height: 1.45;
-  color: #b0b0b0;
-  margin: 0;
+  grid-row: 5;
+  font-size: 0.84rem;
+  line-height: 1.3;
+  font-weight: 500;
+  color:#a0c4ff;   
+  margin: 0rem 0 0 0;        /* hoger positioneren */
 }
 
 /* Button teaser – onderaan, smaller */
 .social-card.contribution-card .contribute-buttons.teaser {
-  grid-row: 8;
+  grid-row: 6;
   display: flex;
   justify-content: center;
-  margin: 0.4rem 0 0 0;
+  margin: 0 0 1.3rem 0;
 }
 
 .social-card.contribution-card .btn-contribute.teaser {
-  width: 80%;
-  max-width: 180px;
-  padding: 0.7rem 1.1rem;
-  font-size: 0.95rem;
-  background: #555;
-  color: white;
+  width: 70%;
+  max-width: 170px;
+  padding: 0.65rem 1rem;
+  font-size: 0.90rem;
+  background: #b0b0b0;
+  color: #0f1419;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
