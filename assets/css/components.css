@@ -654,13 +654,7 @@ button.copy-btn:hover {
   padding: 1.2rem 1.2rem 1.4rem 2.4rem;
 }
 
-.guide-card:hover,
-.thesis-card:hover,
-.contribution-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(102, 179, 255, 0.3);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
+
 .contribution-card .guide-header {
   margin-bottom: 0.6rem;
 }
@@ -688,22 +682,7 @@ button.copy-btn:hover {
 }
 
 
-/* Nummer linksboven – gedeeld */
-.guide-number,
-.thesis-number {
-  position: absolute;
-  top: 0.4rem;
-  left: 0.4rem;
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: var(--primary);
-  background: rgba(255,255,255,0.05);
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  min-width: 1.5rem;
-  text-align: center;
-  z-index: 2;
-}
+
 
 /* Difficulty banner rechtsboven (guides) */
 .difficulty-banner {
@@ -1044,4 +1023,54 @@ button.copy-btn:hover {
   margin: 0 auto 0.8rem;
   color: #b0b0b0;
   font-size: 0.9rem;
+}
+/* Gedeelde header voor guides, theses, social – lichtere 'label' look */
+.guide-header,
+.thesis-header,
+.social-header {
+  background: rgba(255, 255, 255, 0.08);  /* lichter grijs/wit accent */
+  border-bottom: 1px solid rgba(102, 179, 255, 0.3);  /* subtiele blauwe rand */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0.8rem 1rem;
+  margin: -1.4rem -1.6rem 0.8rem -1.6rem;  /* trek header over padding heen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);  /* lichte schaduw voor 'opgeplakt' gevoel */
+}
+
+/* Nummer (+ of thesis/guide-nummer) – grijs standaard */
+.guide-number,
+.thesis-number,
+.social-number {
+  font-size: 2.2rem;
+  line-height: 1;
+  font-weight: 900;
+  color: #b0b0b0;  /* grijs standaard */
+  margin: 0;
+}
+
+/* Hover: nummer lichter/blauw */
+.guide-card:hover .guide-number,
+.thesis-card:hover .thesis-number,
+.social-card:hover .social-number,
+.contribution-card:hover .social-number,
+.contribution-card:hover .thesis-number,
+.contribution-card:hover .guide-number {
+  color: var(--primary) !important;  /* #66b3ff */
+  text-shadow: 0 0 8px rgba(102, 179, 255, 0.6);
+}
+
+/* Hover op hele card: header accentueert */
+.guide-card:hover .guide-header,
+.thesis-card:hover .thesis-header,
+.social-card:hover .social-header,
+.contribution-card:hover .social-header {
+  background: rgba(102, 179, 255, 0.15);  /* lichter blauw accent */
+  border-bottom-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(102, 179, 255, 0.25);
 }
