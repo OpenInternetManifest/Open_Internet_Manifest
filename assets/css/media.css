@@ -328,3 +328,30 @@
     max-width: 1400px;
   }
 }
+
+
+
+
+/* Mobile: stack buttons */
+@media (max-width: 600px) {
+  .contribution-card .contribute-buttons {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .contribution-card .btn-contribute {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+/* Overview-hero responsive aanpassingen */
+@media (max-width: 768px) {
+  .overview-hero {
+    padding: 2.5rem 1.5rem 2rem;
+    border-radius: 12px;
+  }
+  
+  .overview-hero .intro-title {
+    font-size: 1.8rem;
+  }
+}

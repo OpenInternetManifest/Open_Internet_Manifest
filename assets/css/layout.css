@@ -71,37 +71,47 @@
   object-position: center;
 }
 
-/* Hero op overzichtspagina – perfect gecentreerd binnen container */
-.social-posts-hero {
+
+/* ==========================================================================
+   OVERVIEW HERO – voor overzichtspagina's (guides, theses, social-posts, etc.)
+   ========================================================================== */
+
+.overview-hero {
   text-align: center;
   padding: 3rem 2rem 2.5rem;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
-  border-radius: 16px;
-  margin: 0 auto 2.5rem;                 /* auto links/rechts voor centrering */
-  border: 1px solid #333;
+  margin: 0 auto 2.5rem;
   max-width: var(--content-max-width, 1200px);
   width: 100%;
-  box-sizing: border-box;                /* zorg dat padding binnen max-width valt */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.05), rgba(255,255,255,0.05));
+  border: 1px solid #333;
+  border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  box-sizing: border-box;
 }
 
-/* Forceer perfecte centrering + geen uitsteeksels */
-.social-posts-hero {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+/* Binnenste elementen – consistent met guides/theses */
+.overview-hero .intro-title {
+  font-size: 2.2rem;              /* iets groter dan oude 1.8rem voor impact */
+  margin-bottom: 0.6rem;
+  color: var(--primary, #66b3ff);
+  font-weight: 700;
 }
 
-/* Als de parent (main-content) padding heeft, compenseer */
-.main-content .social-posts-hero {
-  margin-left: calc(-1 * var(--content-padding-side, 1.5rem)) !important;
-  margin-right: calc(-1 * var(--content-padding-side, 1.5rem)) !important;
-  padding-left: var(--content-padding-side, 1.5rem) !important;
-  padding-right: var(--content-padding-side, 1.5rem) !important;
-  width: calc(100% + 2 * var(--content-padding-side, 1.5rem)) !important;
-  max-width: calc(var(--content-max-width, 1200px) + 2 * var(--content-padding-side, 1.5rem)) !important;
+.overview-hero .manifest-subtitle {
+  font-size: 1.15rem;
+  color: #b0b0b0;
+  margin-bottom: 0.6rem;
+  font-weight: 400;
 }
+
+.overview-hero .intro-text {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #b0b0b0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 /* Banner overlay – semi-transparant, gecentreerd binnen 1200px */
 .overlay-text {
   position: absolute;

@@ -3,8 +3,8 @@ layout: default
 lang: en
 title: Reality vs Narrative – Social Posts
 ---
-
-<div class="social-posts-hero">
+<link rel="stylesheet" href="/assets/css/components.css">
+<div class="overview-hero">
   <h1 class="intro-title">Reality vs Narrative</h1>
   
   <h2 class="manifest-subtitle">
@@ -18,44 +18,44 @@ title: Reality vs Narrative – Social Posts
 
 <div class="social-grid">
 
-  <!-- + Add contribution as first card – exact grid-match with normal cards -->
-  <div class="social-card contribution-card">
-    <div class="social-header">
-      <span class="social-number">+</span>
-    </div>
-  <!-- RVN title placeholder -->
-    <div class="rvn-title">
-      Write a new RVN-day in EN, NL or other language. Soon via /admin/, now via GitHub PR.
-    </div>
-  <!-- Button RVN – above divider -->
+  <!-- Unified add-card via include -->
+  {% assign now_date = 'now' | date: '%Y-%m-%d' %}
+
+  {% assign rvn_template_url = "https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_social-posts/en?filename=" | append: now_date | append: "-rvn-day.md&value=---%0Alang%3A%20en%0Aday%3A%20%22Enter%20day%20number%22%0Arvn_title%3A%20Reality%20vs%20Narrative%0Arvn_teaser%3A%20Short%20content%20for%20the%20RVN...%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20RVN%22%20%23%20Optional%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A## Reality%0A%0A...%0A%0A## Narrative%0A%0A...%0A%0A## Analysis%0A%0A..." %}
+
+  {% assign teaser_template_url = "https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_social-posts/en?filename=" | append: now_date | append: "-teaser-day.md&value=---%0Alang%3A%20en%0Aday%3A%20%22Enter%20day%20number%22%0Ateaser_title%3A%20Evening%20Teaser%20–%20Day%20%0Ateaser_text%3A%20Highlights%20for%20the%20evening...%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20teaser%22%20%23%20Optional%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A## Evening%20Teaser%0A%0AHighlights%20for%20the%20evening..." %}
+
+  {% capture add_extra_content %}
+    <div class="rvn-title">Write a new RVN-day in EN, NL or other language. Soon via /admin/, now via GitHub PR.</div>
+    
     <div class="contribute-buttons rvn">
-      <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_social-posts/en?filename={{ 'now' | date: '%Y-%m-%d' }}-rvn-day.md&value=---%0Alang%3A%20en%0Aday%3A%20%22Enter%20day%20number%22%0Arvn_title%3A%20Reality%20vs%20Narrative%0Arvn_teaser%3A%20Short%20content%20for%20the%20RVN...%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20RVN%22%20%23%20Optional%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A## Reality%0A%0A...%0A%0A## Narrative%0A%0A...%0A%0A## Analysis%0A%0A..." 
-         class="btn-contribute rvn">
-        Add RVN
-      </a>
+      <a href="{{ rvn_template_url }}" class="btn-contribute rvn">Add RVN</a>
     </div>
-    <!-- Divider -->
+    
     <div class="divider"></div>
-    <!-- Teaser title placeholder -->
-    <div class="teaser-title">
-      Evening Teaser – Day
-    </div>
-    <!-- Button teaser – below divider -->
+    
+    <div class="teaser-title">Evening Teaser – Day</div>
+    
     <div class="contribute-buttons teaser">
-      <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_social-posts/en?filename={{ 'now' | date: '%Y-%m-%d' }}-teaser-day.md&value=---%0Alang%3A%20en%0Aday%3A%20%22Enter%20day%20number%22%0Ateaser_title%3A%20Evening%20Teaser%20–%20Day%20%0Ateaser_text%3A%20Highlights%20for%20the%20evening...%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20teaser%22%20%23%20Optional%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A## Evening%20Teaser%0A%0AHighlights%20for%20the%20evening..." 
-         class="btn-contribute teaser">
-        Add teaser
-      </a>
+      <a href="{{ teaser_template_url }}" class="btn-contribute teaser">Add teaser</a>
     </div>
-  </div>  
-  
-  
+  {% endcapture %}
+
+  {% include card.html 
+    type="contribution" 
+    url="#" 
+    title="Add new RVN / Teaser day" 
+    teaser="" 
+    extra_class="contribution-card social-card" 
+    extra_content=add_extra_content 
+  %}
+
   {% comment %}
     Only English posts (lang: en)
   {% endcomment %}
-  {% assign all_social_pages = site.pages | where: "lang", "en" | where_exp: "item", "item.path contains 'social-posts/'" %}
-  {% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
-  {% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
+ {% assign all_social_pages = site.pages | where: "lang", "en" | where_exp: "item", "item.path contains 'social-posts/'" %}
+{% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
+{% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
 
   {% assign social_posts = rvn_only | concat: teaser_only | uniq %}
 
@@ -63,8 +63,8 @@ title: Reality vs Narrative – Social Posts
   {% assign seen = "" | split: "" %}
 
   {% for post in social_posts %}
-    {% assign day_str = post.day | string | strip | default: "NO_DAY" %}
-    {% unless seen contains day_str %}
+    {% assign day_str = post.day | default: "" | strip %}
+    {% unless day_str == "" or seen contains day_str %}
       {% assign seen = seen | push: day_str %}
       {% assign unique_days_raw = unique_days_raw | push: day_str %}
     {% endunless %}
@@ -84,66 +84,64 @@ title: Reality vs Narrative – Social Posts
     {% assign unique_days = unique_days | push: orig %}
   {% endfor %}
 
-  {% for this_day in unique_days %}
-    {% if this_day == "NO_DAY" or this_day == "" %}{% continue %}{% endif %}
+ {% for this_day in unique_days %}
+  {% if this_day == "" %}{% continue %}{% endif %}
 
-    {% assign day_rvn    = nil %}
-    {% assign day_teaser = nil %}
+  {% assign day_rvn    = nil %}
+  {% assign day_teaser = nil %}
 
-    {% assign this_day_str = this_day | string | strip %}
-
-    {% for post in social_posts %}
-      {% assign post_day_str = post.day | string | strip %}
-      {% if post_day_str == this_day_str %}
-        {% if post.path contains '-rvn' %}
-          {% assign day_rvn = post %}
-        {% elsif post.path contains '-teaser' %}
-          {% assign day_teaser = post %}
-        {% endif %}
+  {% for post in social_posts %}
+    {% assign post_day_str = post.day | default: "" | strip %}
+    {% if post_day_str == this_day %}
+      {% if post.path contains "-rvn" %}
+        {% assign day_rvn = post %}
+      {% elsif post.path contains "-teaser" %}
+        {% assign day_teaser = post %}
       {% endif %}
-    {% endfor %}
-
-    {% if day_rvn or day_teaser %}
-      <div class="social-card">
-
-        <div class="social-header">
-          <span class="social-number">Day {{ this_day }}</span>
-        </div>
-
-        {% if day_rvn %}
-          <div class="rvn-title">
-            <a href="{{ day_rvn.url | relative_url }}" class="full-title-link">
-              {{ day_rvn.rvn_title | default: day_rvn.title | append: " – Reality vs Narrative" }}
-            </a>
-          </div>
-
-          <div class="rvn-teaser">
-            {{ day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Reality vs Narrative analysis of the day." | strip_html | truncatewords: 35 }}
-          </div>
-        {% else %}
-          <div class="rvn-title rvn-missing">No RVN yet for day {{ this_day }}</div>
-          <div class="rvn-teaser"></div>
-        {% endif %}
-
-        <div class="divider"></div>
-
-        {% if day_teaser %}
-          <div class="teaser-title">
-            <a href="{{ day_teaser.url | relative_url }}" class="teaser-title-link">
-              {{ day_teaser.teaser_title | default: "Evening Teaser – Day " }}
-            </a>
-          </div>
-
-          <div class="teaser-preview">
-            {{ day_teaser.teaser_text | default: "Evening teaser with the highlights..." | strip_html | truncatewords: 25 }}
-          </div>
-        {% else %}
-          <div class="teaser-title"></div>
-          <div class="teaser-preview teaser-missing">No teaser yet</div>
-        {% endif %}
-
-      </div>
     {% endif %}
   {% endfor %}
 
+  {% assign card_title = "Day " | append: this_day %}
+  {% assign card_url = "#" %}
+  {% assign rvn_teaser = "" %}
+  {% assign teaser_title = "Evening Teaser – Day " | append: this_day %}
+  {% assign teaser_preview = "" %}
+
+  {% if day_rvn %}
+    {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | append: " – Reality vs Narrative" %}
+    {% assign card_url = day_rvn.url | relative_url %}
+    {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Reality vs Narrative analysis of the day." | strip_html | truncatewords: 35 %}
+  {% endif %}
+
+  {% if day_teaser %}
+    {% assign teaser_title = day_teaser.teaser_title | default: teaser_title %}
+    {% assign teaser_preview = day_teaser.teaser_text | default: "Evening teaser with the highlights..." | strip_html | truncatewords: 25 %}
+  {% endif %}
+
+  {% capture extra_content %}
+    <p class="card-teaser rvn-teaser">{{ rvn_teaser }}</p>
+
+    <div class="divider"></div>
+
+    <h3 class="card-title teaser-title">
+      {% if day_teaser %}
+        <a href="{{ day_teaser.url | relative_url }}">{{ teaser_title }}</a>
+      {% else %}
+        {{ teaser_title }}
+      {% endif %}
+    </h3>
+
+    <p class="card-teaser teaser-preview">{{ teaser_preview }}</p>
+  {% endcapture %}
+
+ {% include card.html 
+  type="social" 
+  url=card_url 
+  title=card_title 
+  teaser=rvn_teaser 
+  difficulty="unknown" 
+  extra_class="social-card" 
+  extra_content=extra_content 
+%}
+{% endfor %}
 </div>
