@@ -9,6 +9,8 @@ day: 1
 rvn_title: Het vaste patroon bij grote incidenten
 rvn_url: /nl/social-posts/dag-1-rvn
 rvn_teaser: 'Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin'
+# donation_link: "https://buy.stripe.com/voorbeeldlink" # Of Monero/BTC adres, Ko-fi, etc.
+# donation_text: "Ondersteun de auteur van deze thesis" # Optioneel, anders default tekst
 ---
 Realiteit vs. Narratief – Het vaste patroon bij grote incidenten.
 
