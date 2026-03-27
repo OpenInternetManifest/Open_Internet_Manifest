@@ -5,42 +5,45 @@
 @import url('media.css');
 
 /* ==========================================================================
-   FINAL UNDERLINE OVERRIDE – allerlaatste regels (hoogste prioriteit)
+   FINAL CARD UNDERLINE FIX – allerlaatste regels in style.css (hoogste prioriteit)
    ========================================================================== */
 
-/* No underline in rest state - for all card elements */
+/* Geen underline in ruststand, nergens in cards */
 .card-title,
 .card-teaser,
 .read-more,
 .rvn-title,
 .teaser-title,
-.card a {
-  text-decoration: none !important;
-  text-underline-offset: 0 !important;
-}
-
-/* Only title gets underline on card hover */
-.card:hover .card-title {
-  text-decoration: underline !important;
-  text-underline-offset: 4px !important;
-  color: #7dd3fc !important;
-}
-
-/* Never underline teaser or read-more */
-.card:hover .card-teaser,
-.card:hover .read-more,
-.card:hover .rvn-title,
-.card:hover .teaser-title {
-  text-decoration: none !important;
-}
-
-/* Extra safety against global link styles */
 .card a,
 .card .card-title a,
 .card-body a {
   text-decoration: none !important;
+  text-underline-offset: 0 !important;
 }
 
-.card:hover .card-body a {
+/* Alleen de titel krijgt underline bij hover op de hele card */
+.card:hover .card-title,
+.card:hover .card-title a {
+  text-decoration: underline !important;
+  text-underline-offset: 4px !important;
+  text-decoration-thickness: 1.5px !important;
+  color: #7dd3fc !important;
+}
+
+/* Nooit underline op teaser, read-more of andere tekst */
+.card:hover .card-teaser,
+.card:hover .read-more,
+.card:hover .rvn-title,
+.card:hover .teaser-title,
+.card:hover .card-teaser a {
+  text-decoration: none !important;
+}
+
+/* Extra veiligheid tegen globale link styles */
+a {
+  text-decoration: none !important;
+}
+
+.card:hover a {
   text-decoration: underline !important;
 }

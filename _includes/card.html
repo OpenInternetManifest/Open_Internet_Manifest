@@ -3,8 +3,8 @@
    class="card card--{{ include.type | default: 'guide' }} {{ include.extra_class | default: '' }}"
    data-difficulty="{{ include.difficulty | default: 'beginner' }}">
 
-  <div class="card-header-light">
-    <span class="card-number">
+    <div class="card-header-light">
+     <span class="card-number">
       {%- if include.type == 'contribution' or include.type == 'add' -%}
         +
       {%- else -%}
@@ -12,7 +12,11 @@
       {%- endif -%}
     </span>
 
-    {%- if include.type == 'guide' -%}
+    {%- if include.type == 'thesis' and include.number -%}
+      <span class="thesis-progress">
+        {{ include.number }} / 100
+      </span>
+    {%- elsif include.type == 'guide' -%}
       <span class="difficulty-badge {{ include.difficulty | default: 'beginner' }}">
         {%- case include.difficulty | default: 'beginner' | downcase -%}
           {%- when 'beginner' or 'basis' or 'eenvoudig' -%} Beginner
