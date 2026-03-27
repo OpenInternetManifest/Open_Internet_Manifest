@@ -1,23 +1,15 @@
 <!-- _includes/card.html -->
 {% comment %}
   Unified card include voor guides, theses, social-posts en contribution/add-kaarten.
-
-  Params:
-  - type:          'guide' | 'thesis' | 'social' | 'contribution' (vereist)
-  - item:          Het page/guide/thesis/social object (meestal vereist)
-  - url:           Override URL als item.url niet bestaat (bijv. contribution)
-  - extra_class:   Extra classes (bijv. 'contribution-card')
-  - extra_content: Optioneel blok HTML/Liquid dat onder de teaser komt (bijv. knoppen)
 {% endcomment %}
 
 {%- assign type          = include.type | default: 'guide' -%}
 {%- assign item          = include.item -%}
-{%- assign url           = item.url | relative_url | default: include.url -%}
-{%- assign title         = item.title | default: 'Untitled' -%}
-{%- assign teaser_text   = item.teaser | default: item.description | default: item.excerpt | default: 'Lees meer over dit onderwerp...' -%}
-{%- assign teaser        = teaser_text | strip_html | truncatewords: 28 -%}
-{%- assign difficulty    = item.difficulty | default: 'beginner' | downcase -%}
-{%- assign number_raw    = item.order | default: item.day | default: item.nummer | default: forloop.index | default: 'X' -%}
+{%- assign url           = include.url | default: item.url | relative_url | default: '#' -%}
+{%- assign title         = include.title | default: item.title | default: 'Untitled' -%}
+{%- assign teaser        = include.teaser | default: item.teaser | default: item.description | default: item.excerpt | default: '' | strip_html | truncatewords: 28 -%}
+{%- assign difficulty    = include.difficulty | default: item.difficulty | default: 'beginner' | downcase -%}
+{%- assign number_raw    = include.number | default: item.day | default: item.order | default: item.nummer | default: forloop.index | default: 'X' -%}
 {%- assign is_contrib    = type == 'contribution' or type == 'add' -%}
 {%- assign is_social     = type == 'social' -%}
 
@@ -29,44 +21,40 @@
     <span class="card-number">
       {%- if is_contrib -%}
         +
-      {%- elsif is_social and item.day -%}
-        Dag {{ item.day }}
+      {%- elsif is_social -%}
+        {%- if page.lang == 'en' or page.lang == 'EN' -%}Day{% else %}Dag{% endif %} {{ number_raw }}
       {%- else -%}
         {{ number_raw }}
       {%- endif -%}
     </span>
 
-    <span class="difficulty-badge {{ difficulty }}">
-      {%- case difficulty -%}
-        {%- when 'beginner' or 'basis' or 'eenvoudig' -%}
-          Beginner
-        {%- when 'intermediate' or 'gemiddeld' or 'tussentijds' -%}
-          Intermediate
-        {%- when 'advanced' or 'gevorderd' or 'expert' -%}
-          Advanced
-        {%- else -%}
-          Beginner
-      {%- endcase -%}
-    </span>
+    {%- unless is_social -%}
+      <span class="difficulty-badge {{ difficulty }}">
+        {%- case difficulty -%}
+          {%- when 'beginner' or 'basis' or 'eenvoudig' -%} Beginner
+          {%- when 'intermediate' or 'gemiddeld' or 'tussentijds' -%} Intermediate
+          {%- when 'advanced' or 'gevorderd' or 'expert' -%} Advanced
+          {%- else -%} Beginner
+        {%- endcase -%}
+      </span>
+    {%- endunless -%}
   </div>
 
   <div class="card-body">
     <h3 class="card-title">{{ title }}</h3>
-    
-    <p class="card-teaser">{{ teaser }}</p>
+
+    {%- if teaser != '' -%}
+      <p class="card-teaser">{{ teaser }}</p>
+    {%- endif -%}
 
     {%- if include.extra_content -%}
       {{ include.extra_content }}
     {%- endif -%}
 
-    <span class="read-more">
-      {%- if is_contrib -%}
-        Add contribution →
-      {%- elsif is_social -%}
-        Bekijk analyse →
-      {%- else -%}
-        Read the guide →
-      {%- endif -%}
-    </span>
+    {%- unless is_social or is_contrib -%}
+      <span class="read-more">
+        {%- if page.lang == 'en' or page.lang == 'EN' -%}Read the guide →{% else %}Lees de gids →{% endif -%}
+      </span>
+    {%- endunless -%}
   </div>
 </a>

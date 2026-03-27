@@ -41,10 +41,11 @@ title: Reality vs Narrative – Social Posts
     </div>
   {% endcapture %}
 
-  {% include card.html 
+   {% include card.html 
     type="contribution" 
     url="#" 
     title="Add new RVN / Teaser day" 
+    number="+" 
     teaser="" 
     extra_class="contribution-card social-card" 
     extra_content=add_extra_content 
@@ -103,18 +104,17 @@ title: Reality vs Narrative – Social Posts
 
   {% assign card_title = "Day " | append: this_day %}
   {% assign card_url = "#" %}
-  {% assign rvn_teaser = "" %}
-  {% assign teaser_title = "Evening Teaser – Day " | append: this_day %}
-  {% assign teaser_preview = "" %}
+  {% assign rvn_teaser = "No RVN yet for day " | append: this_day %}
+  {% assign teaser_part = "No teaser yet" %}
 
   {% if day_rvn %}
     {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | append: " – Reality vs Narrative" %}
     {% assign card_url = day_rvn.url | relative_url %}
-    {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: "Reality vs Narrative analysis of the day." | strip_html | truncatewords: 35 %}
+    {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: rvn_teaser | strip_html | truncatewords: 35 %}
   {% endif %}
 
   {% if day_teaser %}
-    {% assign teaser_title = day_teaser.teaser_title | default: teaser_title %}
+    {% assign teaser_part = day_teaser.teaser_title | default: "Evening Teaser – Day " | append: this_day %}
     {% assign teaser_preview = day_teaser.teaser_text | default: "Evening teaser with the highlights..." | strip_html | truncatewords: 25 %}
   {% endif %}
 
@@ -125,23 +125,23 @@ title: Reality vs Narrative – Social Posts
 
     <h3 class="card-title teaser-title">
       {% if day_teaser %}
-        <a href="{{ day_teaser.url | relative_url }}">{{ teaser_title }}</a>
+        <a href="{{ day_teaser.url | relative_url }}">{{ teaser_part }}</a>
       {% else %}
-        {{ teaser_title }}
+        {{ teaser_part }}
       {% endif %}
     </h3>
 
-    <p class="card-teaser teaser-preview">{{ teaser_preview }}</p>
+    <p class="card-teaser teaser-preview">{{ teaser_preview | default: "" }}</p>
   {% endcapture %}
 
- {% include card.html 
-  type="social" 
-  url=card_url 
-  title=card_title 
-  teaser=rvn_teaser 
-  difficulty="unknown" 
-  extra_class="social-card" 
-  extra_content=extra_content 
-%}
+{% include card.html 
+    type="social" 
+    url=card_url 
+    title=card_title 
+    number=this_day         
+    teaser="" 
+    extra_class="social-card" 
+    extra_content=extra_content 
+  %}
 {% endfor %}
 </div>
