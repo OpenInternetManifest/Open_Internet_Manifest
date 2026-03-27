@@ -33,14 +33,13 @@ title: The 100 Theses
     extra_class="contribution-card" 
   %}
 
-  {% for thesis in thesis_pages %}
+    {% for thesis in thesis_pages %}
     {% include card.html 
       type="thesis" 
       item=thesis 
-      number=thesis.nummer     
+      number=thesis.nummer 
       title=thesis.title 
       teaser=thesis.teaser 
-      difficulty=thesis.difficulty 
     %}
   {% endfor %}
 

@@ -443,3 +443,20 @@ button.copy-btn:hover,
   color: #7dd3fc;
   background: rgba(102,179,255,0.15);
 }
+/* Thesis progress rechts in header */
+.thesis-progress {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #888;
+  background: rgba(255,255,255,0.08);
+  padding: 0.35rem 0.8rem;
+  border-radius: 9999px;
+  margin-left: auto;
+  align-self: center;
+  white-space: nowrap;
+}
+
+.card:hover .thesis-progress {
+  color: #7dd3fc;
+  background: rgba(102,179,255,0.15);
+}

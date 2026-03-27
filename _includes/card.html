@@ -1,10 +1,12 @@
 <!-- _includes/card.html -->
-<a href="{{ include.url | default: '#' }}" 
+{% assign card_url = include.url | default: item.url | relative_url  %}
+
+<a href="{{ card_url }}" 
    class="card card--{{ include.type | default: 'guide' }} {{ include.extra_class | default: '' }}"
    data-difficulty="{{ include.difficulty | default: 'beginner' }}">
 
-    <div class="card-header-light">
-     <span class="card-number">
+  <div class="card-header-light">
+    <span class="card-number">
       {%- if include.type == 'contribution' or include.type == 'add' -%}
         +
       {%- else -%}
@@ -12,10 +14,14 @@
       {%- endif -%}
     </span>
 
-    {%- if include.type == 'thesis' and include.number -%}
+    <!-- Thesis progress -->
+    {%- if include.type == 'thesis' -%}
       <span class="thesis-progress">
-        {{ include.number }} / 100
+        {{ include.number | default: item.nummer | default: item.order | default: forloop.index | default: 'X' }} 
+        / {{ site.theses | where: "lang", page.lang | size }}
       </span>
+
+    <!-- Difficulty badge alleen bij guides -->
     {%- elsif include.type == 'guide' -%}
       <span class="difficulty-badge {{ include.difficulty | default: 'beginner' }}">
         {%- case include.difficulty | default: 'beginner' | downcase -%}
