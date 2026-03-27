@@ -20,24 +20,28 @@ title: All Guides
 
 <div class="guides-grid">
 
-  <!-- Add contribution card – volledige kaart clickable -->
-  {% assign contrib_url = "https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_guides/en?filename=" | append: 'now' | date: '%Y-%m-%d' | append: "-new-guide.md&value=---%0Alayout%3A%20default%0Alang%3A%20en%0Atitle%3A%20New%20Guide%20Title%0Ateaser%3A%20Short%20summary...%0Adifficulty%3A%20beginner%0Aorder%3A%2099%0Aslug%3A%20new-guide-slug%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20guide%22%20%23%20Optional%2C%20otherwise%20default%20text%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A##%20Introduction%0A%0AWrite%20your%20content%20here..." %}
+  <!-- + Add contribution card -->
+  {% assign now_date = 'now' | date: '%Y-%m-%d' %}
+  {% assign contrib_url = "https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_guides/en?filename=" | append: now_date | append: "-new-guide.md&value=---%0Alayout%3A%20default%0Alang%3A%20en%0Atitle%3A%20New%20Guide%20Title%0Ateaser%3A%20Short%20summary...%0Adifficulty%3A%20beginner%0Aorder%3A%2099%0Aslug%3A%20new-guide-slug%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20guide%22%20%23%20Optional%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A##%20Introduction%0A%0AWrite%20your%20content%20here..." %}
 
   {% include card.html 
     type="contribution" 
     url=contrib_url 
     title="Add your own guide" 
     teaser="Write a new practical guide – in EN, NL or other language. Soon via /admin/, now via GitHub PR." 
-    difficulty="beginner" 
+    number="+" 
     extra_class="contribution-card" 
   %}
 
-  {% for guide in guide_pages %}
-    {% include card.html type="guide" item=guide %}
+    {% for guide in guide_pages %}
+    {% include card.html 
+      type="guide" 
+      item=guide 
+      number=forloop.index 
+      title=guide.title 
+      teaser=guide.teaser 
+      difficulty=guide.difficulty 
+    %}
   {% endfor %}
-
-  {% if guide_pages.size == 0 %}
-    <p style="color: #f66; text-align:center;">(debug) No guides in collection – check _config.yml and frontmatter</p>
-  {% endif %}
 
 </div>

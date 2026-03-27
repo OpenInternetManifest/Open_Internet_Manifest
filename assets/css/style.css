@@ -3,3 +3,44 @@
 @import url('components.css');
 @import url('social-posts.css');
 @import url('media.css');
+
+/* ==========================================================================
+   FINAL UNDERLINE OVERRIDE – allerlaatste regels (hoogste prioriteit)
+   ========================================================================== */
+
+/* No underline in rest state - for all card elements */
+.card-title,
+.card-teaser,
+.read-more,
+.rvn-title,
+.teaser-title,
+.card a {
+  text-decoration: none !important;
+  text-underline-offset: 0 !important;
+}
+
+/* Only title gets underline on card hover */
+.card:hover .card-title {
+  text-decoration: underline !important;
+  text-underline-offset: 4px !important;
+  color: #7dd3fc !important;
+}
+
+/* Never underline teaser or read-more */
+.card:hover .card-teaser,
+.card:hover .read-more,
+.card:hover .rvn-title,
+.card:hover .teaser-title {
+  text-decoration: none !important;
+}
+
+/* Extra safety against global link styles */
+.card a,
+.card .card-title a,
+.card-body a {
+  text-decoration: none !important;
+}
+
+.card:hover .card-body a {
+  text-decoration: underline !important;
+}
