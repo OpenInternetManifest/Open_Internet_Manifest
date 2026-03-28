@@ -1,5 +1,6 @@
+
 /* ==========================================================================
-   COMPONENTS.CSS – Opgeschoonde en unified versie
+   COMPONENTS.CSS – globale componenten, interactieve blokken, pagina-specifieke elementen
    ========================================================================== */
 
 /* Algemene main content wrapper */
@@ -16,11 +17,12 @@
 .main-content h2,
 .main-content h3 {
   color: var(--primary);
+  font-size: 1.9em;
   margin-top: 1.5em;
 }
 
 /* ==========================================================================
-   TAALKEUZE BUTTONS – landings-pagina
+   TAALKEUZE BUTTONS – landings-pagina taal-selectie met vlaggen
    ========================================================================== */
 
 .language-buttons {
@@ -43,6 +45,7 @@
   border-radius: 20px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,10 +81,14 @@
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
 }
 
+/* Vlaggen backgrounds */
 .nl-btn { background-image: url('https://flagcdn.com/w640/nl.png'); }
 .en-btn { background-image: url('https://flagcdn.com/w640/gb.png'); }
 
-/* Language note */
+/* ==========================================================================
+   LANGUAGE NOTE – gecentreerde noot onder taalkeuze op landing
+   ========================================================================== */
+
 .language-note {
   text-align: center;
   margin: 5em auto 3em;
@@ -91,8 +98,21 @@
   color: #a0a0a0;
 }
 
+.language-note p {
+  margin: 1em 0;
+}
+
+.language-note a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.language-note a:hover {
+  color: var(--primary-hover);
+}
+
 /* ==========================================================================
-   UNIFORME INTERACTIEVE BLOKKEN
+   UNIFORME INTERACTIEVE BLOKKEN – donation, integrity, community, giscus
    ========================================================================== */
 
 .integrity-check,
@@ -119,14 +139,66 @@
   transform: translateY(-4px);
 }
 
-/* Buttons (unified) */
+/* Summary / header */
+.integrity-check summary,
+.donation-section summary {
+  padding: 1.4em 2em;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.25em;
+  text-align: center;
+  color: #d0d0d0;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.integrity-check summary:hover,
+.donation-section summary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--primary);
+}
+
+.integrity-check[open] summary,
+.donation-section[open] summary {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Inner content */
+.integrity-content,
+.donation-content,
+.community-box > *:not(summary),
+.comments-section > *:not(h3) {
+  padding: 2.5em 3em;
+  text-align: center;
+}
+
+/* Giscus-specifiek */
+.comments-section {
+  text-align: left;
+}
+
+.comments-section .comment-notice,
+.comments-section h3 {
+  text-align: center;
+}
+
+/* QR-codes in donation */
+.donation-table img {
+  max-width: 240px;
+  margin: 2em auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+
 .verify-btn,
-button.copy-btn,
-.integrity-content button {
+button.copy-btn {
   display: block;
   width: 100%;
   max-width: 400px;
-  margin: 1.5em auto;
+  margin: 0 auto 1.5em;
   padding: 1em 1.5em;
   font-size: 1.1em;
   font-weight: bold;
@@ -139,31 +211,184 @@ button.copy-btn,
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-.verify-btn:hover,
-button.copy-btn:hover,
-.integrity-content button:hover {
+#verify-btn:hover {
+  background: var(--primary);
+  color: var(--bg-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(102, 179, 255, 0.4);
+}
+/* Plakbox SHA256 – mooie styling */
+/* Buttons */
+.integrity-content button, .verify-btn, button.copy-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1.5em auto;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #1a2a3a !important;
+  color: #66b3ff !important;
+  border: 2px solid #66b3ff !important;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.integrity-content button:hover, .verify-btn:hover, button.copy-btn:hover {
   background: #66b3ff !important;
   color: #0f1419 !important;
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(102, 179, 255, 0.4);
 }
+.integrity-content ol {
+  list-style-position: inside !important;  /* nummers binnen de tekst */
+  padding-left: 0 !important;              /* verwijder standaard marge */
+  margin-left: 0 !important;
+  margin: 1.5em 0 !important;
+  counter-reset: item;
+}
+.hash-input {
+  background: #1a1f24 !important;
+  color: #e0e0e0 !important;
+  border: 2px solid #333 !important;
+  padding: 1em;
+  border-radius: 12px;
+  font-size: 1.1em;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 
-/* Hash verifier & result boxes */
-.hash-verifier-container,
+/* Accordion animatie */
+.integrity-content,
+.donation-content {
+  transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.integrity-check[open] .integrity-content,
+.donation-section[open] .donation-content {
+  max-height: 3000px;
+  opacity: 1;
+}
+
+/* ==========================================================================
+   HASH VERIFIER PAGE – container, textarea, result feedback
+   ========================================================================== */
+
+.hash-verifier-container {
+  max-width: 900px;                        /* iets breder dan 800px, past bij 1200px container */
+  margin: 3em auto;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.05);   /* semi-transparant terug */
+  border: 1px solid var(--border);
+  border-radius: 12px;                     /* ronde hoeken terug */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.hash-verifier-container:hover {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+/* Textarea */
+#input-text {
+  width: 100%;
+  height: 200px;
+  background: #1a1f24;
+  color: var(--text-light);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 1em;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+  box-sizing: border-box;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+#input-text:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 12px rgba(102, 179, 255, 0.3);
+  outline: none;
+}
+
+/* Verify button */
+#verify-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 1.5em;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #1a2a3a;
+  color: #66b3ff !important;
+  border: 2px solid #66b3ff !important;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#verify-btn:hover {
+  background: var(--primary);
+  color: var(--bg-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(102, 179, 255, 0.4);
+}
+
+/* Copy button  */
+button.copy-btn {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1em auto;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background: #1a2a3a;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.copy-btn:hover {
+  background: var(--primary);
+  color: var(--bg-dark);
+}
+
+/* Result feedback boxes */
 .result-box {
   padding: 1.5em;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 1em;
+  border: 2px solid transparent;
 }
 
 .result-box.success { background: rgba(102, 255, 102, 0.1); border-color: #66ff66; color: #66ff66; }
 .result-box.warning { background: rgba(255, 200, 0, 0.1); border-color: #ffaa00; color: #ffdd66; }
 .result-box.error   { background: rgba(255, 102, 102, 0.1); border-color: #ff6666; color: #ff6666; }
 
+
+.result-box a {
+  color: var(--primary);
+  text-decoration: underline;
+}
 /* ==========================================================================
-   COMMUNITY / GISCUS / DISCUSSION
+   COMMUNITY / ELEMENT / DISCUSSION / GISCUS – volle 1200px, transparant
    ========================================================================== */
 
 .community-box,
@@ -174,12 +399,14 @@ button.copy-btn:hover,
   max-width: var(--content-max-width, 1200px);
   width: 100%;
   background: rgba(255, 255, 255, 0.05);
-  border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+   border: none;
+  border-radius: 16px;                     /* ← ronde hoeken terug (16px mooi groot) */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);  /* subtiele shadow voor diepte */
   overflow: hidden;
   text-align: center;
 }
 
+/* Hover glow */
 .community-box:hover,
 .element-box:hover,
 .discussion-box:hover,
@@ -188,8 +415,109 @@ button.copy-btn:hover,
   box-shadow: 0 8px 25px rgba(102, 179, 255, 0.15);
 }
 
+/* Titel */
+.community-box strong,
+.element-box strong,
+.discussion-box strong,
+.community-box h3,
+.element-box h3,
+.discussion-box h3,
+.comments-section h3 {
+  margin: 1.5em 0 1em;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--primary);
+  text-align: center;
+}
+
+/* Embed / iframe / Giscus volledig vullen */
+.community-box iframe,
+.element-box iframe,
+.discussion-box iframe,
+.community-box div[class*="element"],
+.community-box [class*="discussion"],
+.element-box div[class*="element"],
+.discussion-box div[class*="discussion"],
+.giscus,
+.giscus iframe,
+.giscus .giscus-frame {
+  width: 95% !important;
+  max-width: 100% !important;
+  height: clamp(400px, 70vh, 400px);
+  border: none;
+  margin: 0;
+  display: block;
+  border-radius: 0;
+  background: transparent !important;
+}
+
+/* Giscus dark theme + transparant */
+.giscus,
+.giscus * {
+  --giscus-bg: transparent !important;
+  --giscus-bg-subtle: transparent !important;
+  --giscus-border-color: transparent !important;
+  --giscus-color: var(--text-light);
+  --giscus-color-strong: #ffffff;
+  --giscus-color-muted: #a0a0a0;
+  --giscus-input-bg: rgba(30, 30, 30, 0.8) !important;
+  --giscus-input-text: var(--text-light);
+  --giscus-input-border: var(--border);
+  --giscus-btn-bg: #2a2a2a;
+  --giscus-btn-text: var(--text-light);
+  --giscus-btn-border: var(--border);
+  --giscus-btn-hover-bg: #333;
+}
+
+/* Giscus specifieke elementen */
+.giscus .giscus-comment-box,
+.giscus .giscus-comment,
+.giscus textarea,
+.giscus input {
+ background: rgba(255, 255, 255, 0.08) !important;
+  color: var(--text-light);
+  border-color: var(--border);
+  margin: 0 auto;
+  display: block;
+}
+
+/* Giscus knoppen */
+.giscus button,
+.giscus .btn {
+  background-color: #2a2a2a !important;
+  color: var(--text-light);
+  border-color: var(--border);
+}
+
+.giscus button:hover,
+.giscus .btn:hover {
+  background-color: #333 !important;
+}
+
+.giscus .btn-primary,
+.giscus button:not([disabled]):not(.btn-neutral) {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: var(--bg-dark) !important;
+}
+
+/* Tip / credits gecentreerd */
+.community-box p,
+.element-box p,
+.discussion-box p,
+.comments-section .comment-notice,
+.community-box .site-footer-credits,
+.element-box .site-footer-credits,
+.discussion-box .site-footer-credits,
+.comments-section .site-footer-credits {
+  margin: 1em 0;
+  font-size: 1em;
+  color: #a0a0a0;
+  text-align: center;
+}
+
 /* ==========================================================================
-   SECTION DIVIDER & FINAL CALL
+   SECTION DIVIDER, FINAL CALL, DISCUSSION REF, SIGNATURE
    ========================================================================== */
 
 .section-divider {
@@ -207,256 +535,33 @@ button.copy-btn:hover,
   color: var(--text-light);
   line-height: 1.6;
   margin: 0 0 2.5em;
+  font-weight: 400;
 }
 
 .final-call .highlight {
   font-style: italic;
   color: var(--primary);
   font-weight: 600;
+  font-size: 1.55em;
 }
 
-/* ==========================================================================
-   UNIFIED CARD COMPONENT – guides, theses, social-posts, contribution
-   ========================================================================== */
-
-.guides-grid,
-.theses-grid,
-.social-grid,
-.content-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));   /* verhoogd naar 340px */
-  gap: 2rem;                                                    /* iets ruimere gap */
-  justify-content: center;
-  max-width: 1480px;                                            /* past mooi bij hero */
-  margin: 3.5rem auto;
-  padding: 0 1.5rem;
-  width: 100%;
-  box-sizing: border-box;
+.discussion-ref {
+  text-align: center;
+  font-size: 1em;
+  color: #a0a0a0;
+  font-style: italic;
+  margin: 0 0 3em;
 }
 
-/* Base card */
-.card {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid #222;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: all 0.25s ease;
-  display: flex;
-  flex-direction: column;
-  min-height: 320px;           /* iets hoger voor balans */
-  text-decoration: none;
-  color: inherit;
-  width: 100%;                 /* <--- belangrijk: volle breedte van grid cel */
-  box-sizing: border-box;
+.signature {
+  text-align: center;
+  font-size: 0.95em;
+  color: #a0a0a0;
+  font-style: italic;
+  margin: 1em 0 2em;
+  line-height: 1.4;
 }
 
-.guides-grid,
-.theses-grid {
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-}
-
-.card:hover {
-  border-color: var(--primary, #66b3ff);
-  box-shadow: 0 10px 30px rgba(102,179,255,0.2);
-  transform: translateY(-6px);
-}
-
-/* Header */
-.card-header-light {
-  background: rgba(255,255,255,0.08);
-  border-bottom: 1px solid rgba(102,179,255,0.3);
-  padding: 0.9rem 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 52px;                 /* vaste hoogte voor consistentie */
-  transition: all 0.25s ease;
-}
-
-.card:hover .card-header-light {
-  background: rgba(102,179,255,0.15);
-  border-bottom-color: var(--primary);
-}
-
-/* Nummer / + links */
-.card-number {
-  font-weight: 900;
-  font-size: 1.85rem;
-  line-height: 1;
-  color: #aaa;
-  transition: all 0.25s ease;
-  
-}
-
-.card:hover .card-number {
-  color: #7dd3fc;
-  text-shadow: 0 0 12px rgba(102,179,255,0.6);
-  transform: scale(1.08);
-}
-
-/* Difficulty badge */
-.difficulty-badge {
-  padding: 0.4rem 0.9rem;
-  border-radius: 9999px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: white;
-  margin-left: auto;
-  align-self: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-}
-
-/* Kleuren */
-.difficulty-badge.beginner    { background: #4caf50; }
-.difficulty-badge.intermediate,
-.difficulty-badge.gemiddeld   { background: #ff9800; }
-.difficulty-badge.advanced,
-.difficulty-badge.gevorderd   { background: #f44336; }
-
-/* Verberg badge bij contribution en social */
-.card.contribution-card .difficulty-badge,
-.card--social .difficulty-badge {
+.signature br {
   display: none;
-}
-/* Card body */
-.card-body {
-  padding: 1.4rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-/* ==========================================================================
-   CARD TYPOGRAPHY & HOVER – clean & rustig
-   ========================================================================== */
-
-/* Titel: geen underline in rust, alleen bij hover op hele card */
-.card-title {
-  color: var(--primary);
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 1.3;
-  margin-bottom: 0.6rem;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.card:hover .card-title {
-  text-decoration: underline;
-  text-underline-offset: 4px;     /* iets meer ruimte onder de lijn */
-  color: #7dd3fc;
-}
-
-/* Teaser: nooit underline, subtiele kleur */
-.card-teaser {
-  color: #b0b0b0;
-  font-size: 0.95rem;
-  line-height: 1.45;
-  margin-bottom: 1rem;
-  text-decoration: none;
-}
-
-/* Read-more link: alleen underline bij hover */
-.read-more {
-  color: var(--primary);
-  font-weight: 600;
-  font-size: 0.92rem;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  align-self: flex-start;
-}
-
-.card:hover .read-more {
-  text-decoration: underline;
-  color: #7dd3fc;
-}
-
-/* Optioneel: maak de hele card iets rustiger */
-.card {
-  transition: all 0.25s ease;
-}
-
-.card:hover {
-  border-color: var(--primary);
-  box-shadow: 0 10px 30px rgba(102, 179, 255, 0.18);
-  transform: translateY(-4px);
-}
-
-/* Contribution card */
-.card.contribution-card {
-  border-style: dashed;
-  border-color: #444;
-  background: rgba(255,255,255,0.02);
-  opacity: 0.92;
-}
-
-.card.contribution-card:hover {
-  opacity: 1;
-  border-color: #7dd3fc;
-  background: rgba(125,211,252,0.04);
-  box-shadow: 0 10px 30px rgba(125,211,252,0.3);
-  transform: translateY(-6px);
-}
-
-/* Hover underline alleen op titel */
-.card-title,
-.card-title a {
-  text-decoration: none;
-}
-
-.card:hover .card-title,
-.card:hover .card-title a {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  text-decoration-color: var(--primary);
-}
-
-/* Teaser nooit underline */
-.card-teaser,
-.card-teaser a {
-  text-decoration: none !important;
-}
-
-.card:hover .card-teaser {
-  color: #ccc;
-}
-
-/* Extra voor social-posts (indien nodig) */
-.social-grid .card {
-  height: 440px;
-}
-/* Thesis progress rechts in header */
-.thesis-progress {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #888;
-  background: rgba(255,255,255,0.08);
-  padding: 0.35rem 0.8rem;
-  border-radius: 9999px;
-  margin-left: auto;
-  align-self: center;
-  white-space: nowrap;
-}
-
-.card:hover .thesis-progress {
-  color: #7dd3fc;
-  background: rgba(102,179,255,0.15);
-}
-/* Thesis progress rechts in header */
-.thesis-progress {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #888;
-  background: rgba(255,255,255,0.08);
-  padding: 0.35rem 0.8rem;
-  border-radius: 9999px;
-  margin-left: auto;
-  align-self: center;
-  white-space: nowrap;
-}
-
-.card:hover .thesis-progress {
-  color: #7dd3fc;
-  background: rgba(102,179,255,0.15);
 }

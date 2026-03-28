@@ -1,7 +1,11 @@
 <!-- _includes/card.html -->
-{% assign card_url = include.url | default: item.url | relative_url  %}
+{% comment %}
+  Zeer directe versie - prioriteit aan frontmatter url
+{% endcomment %}
 
-<a href="{{ card_url }}" 
+{% assign card_href = include.url | default: item.url | relative_url | default: '#' %}
+
+<a href="{{ card_href }}" 
    class="card card--{{ include.type | default: 'guide' }} {{ include.extra_class | default: '' }}"
    data-difficulty="{{ include.difficulty | default: 'beginner' }}">
 
@@ -14,14 +18,11 @@
       {%- endif -%}
     </span>
 
-    <!-- Thesis progress -->
     {%- if include.type == 'thesis' -%}
       <span class="thesis-progress">
         {{ include.number | default: item.nummer | default: item.order | default: forloop.index | default: 'X' }} 
         / {{ site.theses | where: "lang", page.lang | size }}
       </span>
-
-    <!-- Difficulty badge alleen bij guides -->
     {%- elsif include.type == 'guide' -%}
       <span class="difficulty-badge {{ include.difficulty | default: 'beginner' }}">
         {%- case include.difficulty | default: 'beginner' | downcase -%}

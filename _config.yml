@@ -1,24 +1,14 @@
 title: Open Internet Manifest
 description: A living manifesto for a free, open and decentralized internet
 
-# Base URL – leeg lokaal, correct op GitHub Pages
-url: "https://openinternetmanifest.org"      # volledige domeinnaam
-baseurl: ""                                  # leeg! geen subpad
+url: "https://openinternetmanifest.org"
+baseurl: ""
 
 include:
   - admin/
-
-# Optioneel maar handig voor lokale testing
-# (dit voorkomt dat je lokaal /Open_Internet_Manifest moet typen)
-# localhost_url: "http://127.0.0.1:4000"   
-
-content_security_policy:
-  default-src: "'self'"
-  script-src: "'self' gc.zgo.at 'unsafe-inline'"
-  img-src: "'self' openinternetmanifest.goatcounter.com data: blob:"
-  style-src: "'self' 'unsafe-inline'"
-  connect-src: "'self' gc.zgo.at"
-  frame-src: "'self' gc.zgo.at"
+  - nl/guides/
+  - nl/theses/
+  - nl/social-posts/
 
 defaults:
   - scope:
@@ -37,15 +27,13 @@ collections:
   guides:
     output: true
     permalink: /guides/:slug/
-  
-    
-include:
-  - nl/guides/
- 
 
 exclude:
   - venv
   - tools
+  - .git
+  - .jekyll-cache
+  - Gemfile.lock
 
-# Forceer rebuild
-rebuild_trigger: v2025-12-30-final
+# Forceer rebuild bij veranderingen
+rebuild_trigger: v2026-03-27

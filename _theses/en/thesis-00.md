@@ -4,6 +4,7 @@ lang: en                 # of en voor de Engelse versie
 title: "introduction"
 order: 500  
 teaser: ""
+url: /en/theses/thesis-00
 next_thesis: /en/theses/thesis-01
 previous_thesis: 
 slug: en-thesis-00
