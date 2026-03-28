@@ -31,11 +31,7 @@
   color: inherit;
   width: 100%;                 /* <--- belangrijk: volle breedte van grid cel */
   box-sizing: border-box;
-}
-
-.guides-grid,
-.theses-grid {
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  transition: all 0.25s ease;
 }
 
 .card:hover {
@@ -54,11 +50,6 @@
   align-items: center;
   min-height: 52px;                 /* vaste hoogte voor consistentie */
   transition: all 0.25s ease;
-}
-
-.card:hover .card-header-light {
-  background: rgba(102,179,255,0.15);
-  border-bottom-color: var(--primary);
 }
 
 /* Nummer / + links */
@@ -154,17 +145,6 @@
   color: #7dd3fc;
 }
 
-/* Optioneel: maak de hele card iets rustiger */
-.card {
-  transition: all 0.25s ease;
-}
-
-.card:hover {
-  border-color: var(--primary);
-  box-shadow: 0 10px 30px rgba(102, 179, 255, 0.18);
-  transform: translateY(-4px);
-}
-
 /* Contribution card */
 .card.contribution-card {
   border-style: dashed;
@@ -208,23 +188,6 @@
 /* Extra voor social-posts (indien nodig) */
 .social-grid .card {
   height: 440px;
-}
-/* Thesis progress rechts in header */
-.thesis-progress {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #888;
-  background: rgba(255,255,255,0.08);
-  padding: 0.35rem 0.8rem;
-  border-radius: 9999px;
-  margin-left: auto;
-  align-self: center;
-  white-space: nowrap;
-}
-
-.card:hover .thesis-progress {
-  color: #7dd3fc;
-  background: rgba(102,179,255,0.15);
 }
 /* Thesis progress rechts in header */
 .thesis-progress {
