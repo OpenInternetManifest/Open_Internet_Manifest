@@ -4,29 +4,38 @@ description: A living manifesto for a free, open and decentralized internet
 url: "https://openinternetmanifest.org"
 baseurl: ""
 
-include:
-  - admin/
-  - nl/guides/
-  - nl/theses/
-  - nl/social-posts/
+collections:
+  guides:
+    output: true
+    # permalink verwijderd → Jekyll gebruikt de folder structuur _guides/en/...
+  theses:
+    output: true
+    # permalink verwijderd
+  social-posts:
+    output: true
 
 defaults:
   - scope:
-      path: "nl"
+      path: ""
+      type: "guides"
     values:
-      lang: "NL"
+      layout: default
+  - scope:
+      path: ""
+      type: "theses"
+    values:
+      layout: default
   - scope:
       path: "en"
     values:
-      lang: "EN"
+      lang: "en"
+  - scope:
+      path: "nl"
+    values:
+      lang: "nl"
 
-collections:
-  theses:
-    output: true
-    permalink: /theses/:slug/
-  guides:
-    output: true
-    permalink: /guides/:slug/
+include:
+  - admin/
 
 exclude:
   - venv
@@ -34,6 +43,6 @@ exclude:
   - .git
   - .jekyll-cache
   - Gemfile.lock
+  - .DS_Store
 
-# Forceer rebuild bij veranderingen
-rebuild_trigger: v2026-03-27
+rebuild_trigger: v2026-03-28

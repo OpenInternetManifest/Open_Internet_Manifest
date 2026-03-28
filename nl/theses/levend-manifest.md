@@ -2,6 +2,7 @@
 
 layout: thesis
 lang: nl
+order: 500   
 title: Levend Manifest — Het manifest is levend
 next_thesis: /nl/theses/thesis-00
 

@@ -1,29 +1,59 @@
 <!-- _includes/card.html -->
 {% comment %}
-  Zeer directe versie - prioriteit aan frontmatter url
+  Robuuste versie met taal-ondersteuning voor submappen (_guides/en/, _guides/nl/, etc.)
+  Werkt samen met jouw huidige _config.yml (zonder :lang in permalink)
 {% endcomment %}
 
-{% assign card_href = include.url | default: item.url | relative_url | default: '#' %}
+{% assign card_type = include.type | default: 'guide' %}
+
+{% comment %} 
+  URL prioriteit:
+  1. Expliciete url (contribution card)
+  2. item.url (van Jekyll)
+  3. Handmatig opbouwen met taal + collection + slug
+{% endcomment %}
+
+{% assign card_href = include.url | default: include.item.url %}
+
+{% if card_href == nil or card_href == '' or card_href == '#' %}
+  {% comment %} Fallback: zelf URL opbouwen {% endcomment %}
+  {% assign lang_prefix = include.item.lang | default: page.lang | default: 'en' | downcase %}
+  
+  {% assign collection_name = card_type %}
+  {% if collection_name == 'thesis' or collection_name == 'theses' %}
+    {% assign collection_name = 'theses' %}
+  {% elsif collection_name == 'guide' or collection_name == 'guides' %}
+    {% assign collection_name = 'guides' %}
+  {% elsif collection_name == 'social' %}
+    {% assign collection_name = 'social-posts' %}
+  {% endif %}
+
+  {% assign slug = include.item.slug | default: include.item.title | slugify | default: 'untitled' %}
+
+  {% assign card_href = '/' | append: lang_prefix | append: '/' | append: collection_name | append: '/' | append: slug | append: '/' %}
+{% endif %}
+
+{% assign card_href = card_href | relative_url %}
 
 <a href="{{ card_href }}" 
-   class="card card--{{ include.type | default: 'guide' }} {{ include.extra_class | default: '' }}"
+   class="card card--{{ card_type }} {{ include.extra_class | default: '' }}"
    data-difficulty="{{ include.difficulty | default: 'beginner' }}">
 
   <div class="card-header-light">
     <span class="card-number">
-      {%- if include.type == 'contribution' or include.type == 'add' -%}
+      {%- if card_type == 'contribution' or card_type == 'add' -%}
         +
       {%- else -%}
-        {{ include.number | default: item.nummer | default: item.order | default: item.day | default: forloop.index | default: 'X' }}
+        {{ include.number | default: include.item.nummer | default: include.item.order | default: include.item.day | default: forloop.index | default: 'X' }}
       {%- endif -%}
     </span>
 
-    {%- if include.type == 'thesis' -%}
+    {%- if card_type == 'thesis' -%}
       <span class="thesis-progress">
-        {{ include.number | default: item.nummer | default: item.order | default: forloop.index | default: 'X' }} 
+        {{ include.number | default: include.item.nummer | default: include.item.order | default: forloop.index | default: 'X' }} 
         / {{ site.theses | where: "lang", page.lang | size }}
       </span>
-    {%- elsif include.type == 'guide' -%}
+    {%- elsif card_type == 'guide' -%}
       <span class="difficulty-badge {{ include.difficulty | default: 'beginner' }}">
         {%- case include.difficulty | default: 'beginner' | downcase -%}
           {%- when 'beginner' or 'basis' or 'eenvoudig' -%} Beginner
@@ -36,17 +66,17 @@
   </div>
 
   <div class="card-body">
-    <h3 class="card-title">{{ include.title | default: item.title | default: 'Untitled' }}</h3>
+    <h3 class="card-title">{{ include.title | default: include.item.title | default: 'Untitled' }}</h3>
     
     {%- if include.teaser and include.teaser != '' -%}
       <p class="card-teaser">{{ include.teaser }}</p>
-    {%- elsif item.teaser and item.teaser != '' -%}
-      <p class="card-teaser">{{ item.teaser }}</p>
-    {%- elsif item.description -%}
-      <p class="card-teaser">{{ item.description | strip_html | truncatewords: 25 }}</p>
+    {%- elsif include.item.teaser and include.item.teaser != '' -%}
+      <p class="card-teaser">{{ include.item.teaser }}</p>
+    {%- elsif include.item.description -%}
+      <p class="card-teaser">{{ include.item.description | strip_html | truncatewords: 25 }}</p>
     {%- endif -%}
 
-    {%- unless include.type == 'social' or include.type == 'contribution' or include.type == 'add' -%}
+    {%- unless card_type == 'social' or card_type == 'contribution' or card_type == 'add' -%}
       <span class="read-more">Read more →</span>
     {%- endunless -%}
   </div>
