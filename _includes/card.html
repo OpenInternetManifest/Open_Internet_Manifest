@@ -1,33 +1,38 @@
 <!-- _includes/card.html -->
-{% comment %}
-  Unified card voor guides, theses en social contribution
-{% endcomment %}
-
 {% assign card_type = include.type | default: 'guide' %}
 
-{% assign card_href = include.url | default: include.item.url %}
+{% if card_type == 'contribution' or card_type == 'add' %}
+  <!-- Contribution cards zijn GEEN link -->
+  <div class="card card--{{ card_type }} {{ include.extra_class | default: '' }}"
+       data-difficulty="{{ include.difficulty | default: 'beginner' }}">
+{% else %}
+  <!-- Normale cards (guides, theses, social) zijn wel een link -->
+  {% assign card_href = include.url | default: include.item.url %}
 
-{% if card_href == nil or card_href == '' or card_href == '#' %}
-  {% assign lang_prefix = include.item.lang | default: page.lang | default: 'en' | downcase %}
-  {% assign collection_name = card_type %}
-  {% if collection_name == 'thesis' or collection_name == 'theses' %}{% assign collection_name = 'theses' %}
-  {% elsif collection_name == 'guide' or collection_name == 'guides' %}{% assign collection_name = 'guides' %}
-  {% elsif collection_name == 'social' %}{% assign collection_name = 'social-posts' %}{% endif %}
-  
-  {% assign slug = include.item.slug | default: include.item.title | slugify | default: 'untitled' %}
-  {% assign card_href = '/' | append: lang_prefix | append: '/' | append: collection_name | append: '/' | append: slug | append: '/' %}
+  {% if card_href == nil or card_href == '' or card_href == '#' %}
+    {% assign lang_prefix = include.item.lang | default: page.lang | default: 'en' | downcase %}
+    {% assign collection_name = card_type %}
+    {% if collection_name == 'thesis' or collection_name == 'theses' %}{% assign collection_name = 'theses' %}
+    {% elsif collection_name == 'guide' or collection_name == 'guides' %}{% assign collection_name = 'guides' %}
+    {% elsif collection_name == 'social' %}{% assign collection_name = 'social-posts' %}{% endif %}
+    
+    {% assign slug = include.item.slug | default: include.item.title | slugify | default: 'untitled' %}
+    {% assign card_href = '/' | append: lang_prefix | append: '/' | append: collection_name | append: '/' | append: slug | append: '/' %}
+  {% endif %}
+
+  {% assign card_href = card_href | relative_url %}
+
+  <a href="{{ card_href }}" 
+     class="card card--{{ card_type }} {{ include.extra_class | default: '' }}"
+     data-difficulty="{{ include.difficulty | default: 'beginner' }}">
 {% endif %}
-
-{% assign card_href = card_href | relative_url %}
-
-<a href="{{ card_href }}" 
-   class="card card--{{ card_type }} {{ include.extra_class | default: '' }}"
-   data-difficulty="{{ include.difficulty | default: 'beginner' }}">
 
   <div class="card-header-light">
     <span class="card-number">
       {%- if card_type == 'contribution' or card_type == 'add' -%}
         +
+      {%- elsif card_type == 'social' and include.number -%}
+        Day {{ include.number }}
       {%- else -%}
         {{ include.number | default: include.item.nummer | default: include.item.order | default: include.item.day | default: forloop.index | default: 'X' }}
       {%- endif -%}
@@ -35,12 +40,25 @@
   </div>
 
   <div class="card-body">
-    <h3 class="card-title">{{ include.title | default: include.item.title | default: 'Untitled' }}</h3>
+        <h3 class="card-title">
+      {%- if card_type == 'social' and include.title -%}
+        {{ include.title }}
+      {%- elsif card_type == 'social' -%}
+        Day {{ include.number }}
+      {%- else -%}
+        {{ include.title | default: include.item.title | default: 'Untitled' }}
+      {%- endif -%}
+    </h3>
 
     {%- if include.extra_content -%}
-      <div class="card-extra-content contribution-extra">
+      <div class="card-extra-content">
         {{ include.extra_content }}
       </div>
     {%- endif -%}
   </div>
-</a>
+
+{% if card_type == 'contribution' or card_type == 'add' %}
+  </div>
+{% else %}
+  </a>
+{% endif %}

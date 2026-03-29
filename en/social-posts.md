@@ -1,9 +1,10 @@
 ---
 layout: default
 lang: en
-title: Reality vs Narrative – Social Posts
+title: Reality vs Narrative - Social Posts
 ---
-<link rel="stylesheet" href="/assets/css/components.css">
+
+<link rel="stylesheet" href="/assets/css/style.css">
 <div class="overview-hero">
   <h1 class="intro-title">Reality vs Narrative</h1>
   
@@ -34,7 +35,7 @@ title: Reality vs Narrative – Social Posts
   
   <div class="divider"></div>
   
-  <div class="teaser-title">Evening Teaser – Day</div>
+  <div class="teaser-title">Evening Teaser - Day</div>
   
   <div class="contribute-buttons">
     <a href="{{ teaser_template_url }}" class="btn-contribute" target="_blank" rel="noopener">Add Teaser</a>
@@ -84,7 +85,6 @@ title: Reality vs Narrative – Social Posts
     {% assign orig = p | plus: 0 | string %}
     {% assign unique_days = unique_days | push: orig %}
   {% endfor %}
-
  {% for this_day in unique_days %}
   {% if this_day == "" %}{% continue %}{% endif %}
 
@@ -103,43 +103,45 @@ title: Reality vs Narrative – Social Posts
   {% endfor %}
 
   {% assign card_title = "Day " | append: this_day %}
-  {% assign card_url = "#" %}
-  {% assign rvn_teaser = "No RVN yet for day " | append: this_day %}
-  {% assign teaser_part = "No teaser yet" %}
 
   {% if day_rvn %}
-    {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | append: " – Reality vs Narrative" %}
+    {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | default: card_title %}
     {% assign card_url = day_rvn.url | relative_url %}
-    {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser_text | default: rvn_teaser | strip_html | truncatewords: 35 %}
+    {% assign rvn_teaser = day_rvn.rvn_teaser | default: "No RVN content yet for day " | append: this_day | strip_html | truncatewords: 45 %}
+  {% else %}
+    {% assign rvn_teaser = "No RVN yet for day " | append: this_day %}
+    {% assign card_url = "#" %}
   {% endif %}
 
   {% if day_teaser %}
     {% assign teaser_part = day_teaser.teaser_title | default: "Evening Teaser – Day " | append: this_day %}
-    {% assign teaser_preview = day_teaser.teaser_text | default: "Evening teaser with the highlights..." | strip_html | truncatewords: 25 %}
+    {% assign teaser_preview = day_teaser.teaser_text | default: day_teaser.teaser | default: "No teaser yet" | strip_html | truncatewords: 28 %}
+  {% else %}
+    {% assign teaser_part = "Evening Teaser – Day " | append: this_day %}
+    {% assign teaser_preview = "No teaser yet" %}
   {% endif %}
 
   {% capture extra_content %}
-    <p class="card-teaser rvn-teaser">{{ rvn_teaser }}</p>
+    <p class="rvn-teaser">{{ rvn_teaser }}</p>
 
     <div class="divider"></div>
 
-    <h3 class="card-title teaser-title">
+    <div class="teaser-title">
       {% if day_teaser %}
         <a href="{{ day_teaser.url | relative_url }}">{{ teaser_part }}</a>
       {% else %}
         {{ teaser_part }}
       {% endif %}
-    </h3>
+    </div>
 
-    <p class="card-teaser teaser-preview">{{ teaser_preview | default: "" }}</p>
+    <p class="teaser-preview">{{ teaser_preview }}</p>
   {% endcapture %}
 
-{% include card.html 
+  {% include card.html 
     type="social" 
     url=card_url 
     title=card_title 
-    number=this_day         
-    teaser="" 
+    number=this_day 
     extra_class="social-card" 
     extra_content=extra_content 
   %}

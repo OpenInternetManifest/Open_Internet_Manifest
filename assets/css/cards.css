@@ -330,19 +330,129 @@
   font-size: 0.95rem;
 }
 /* ==========================================================================
-   SOCIAL CONTRIBUTION CARD – Add RVN / Teaser (definitieve fix)
+   SOCIAL ADD CARD - DEFINITIEVE FIX
    ========================================================================== */
-/* SOCIAL ADD CARD FIX */
+
 .card.contribution-card.social-card {
-  min-height: 520px;
+  min-height: 540px;
   height: auto;
+  border-style: dashed;
+  border-color: #555;
+  background: rgba(255,255,255,0.02);
 }
 
 .card.contribution-card.social-card .card-body {
-  padding: 1.8rem 1.5rem;
+  padding: 2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.card.contribution-card.social-card .card-extra-content.contribution-extra {
+.card.contribution-card.social-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Titels */
+.rvn-title,
+.teaser-title {
+  font-size: 1.08rem;
+  color: #ddd;
+  line-height: 1.45;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Knop containers */
+.contribute-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+}
+
+.btn-contribute {
+  width: 100%;
+  max-width: 220px;
+  padding: 1.05rem 1.6rem;
+  background: #333;
+  color: #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-contribute:hover {
+  background: #66b3ff;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102,179,255,0.35);
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #666, transparent);
+  margin: 0.6rem auto;
+  width: 65%;
+}
+
+/* Extra veiligheid voor hover */
+.card.contribution-card:hover {
+  border-color: #7dd3fc;
+  background: rgba(125,211,252,0.04);
+}
+/* Contribution card is geen link */
+.card.contribution-card {
+  cursor: default;
+  text-decoration: none;
+}
+
+.card.contribution-card .btn-contribute {
+  position: relative;
+  z-index: 5;
+}
+/* Divider in add card centreren */
+.card.contribution-card .divider {
+  margin: 1rem auto;
+  width: 60%;
+}
+.social-grid .rvn-teaser {
+  color: #b0b0b0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+  flex: 1 1 auto;
+}
+
+.social-grid .teaser-preview {
+  color: #b0b0b0;
+  font-size: 0.93rem;
+  line-height: 1.45;
+}
+
+.social-grid .teaser-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #7dd3fc;
+  margin: 0.8rem 0 0.4rem 0;
+}
+
+.social-grid .teaser-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-grid .teaser-title a:hover {
+  text-decoration: underline;
+}
+.card.contribution-card.social-card .card-extra-content {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -353,8 +463,7 @@
 
 .rvn-title, .teaser-title {
   font-size: 1.05rem;
-  color: #ccc;
-  margin-bottom: 0.5rem;
+  color: #ddd;
 }
 
 .contribute-buttons {
@@ -368,22 +477,20 @@
   width: 100%;
   max-width: 210px;
   padding: 1rem 1.5rem;
-  background: #3a3a3a;
+  background: #333;
   color: #eee;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .btn-contribute:hover {
   background: #66b3ff;
   color: white;
-  transform: translateY(-2px);
 }
 
 .divider {
   height: 1px;
   background: linear-gradient(to right, transparent, #666, transparent);
-  margin: 0.8rem auto;
-  width: 70%;
+  margin: 1rem auto;
+  width: 65%;
 }
