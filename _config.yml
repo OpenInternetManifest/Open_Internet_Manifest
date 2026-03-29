@@ -7,10 +7,8 @@ baseurl: ""
 collections:
   guides:
     output: true
-    # permalink verwijderd → Jekyll gebruikt de folder structuur _guides/en/...
   theses:
     output: true
-    # permalink verwijderd
   social-posts:
     output: true
 
@@ -25,6 +23,11 @@ defaults:
       type: "theses"
     values:
       layout: default
+  - scope:
+      path: ""
+      type: "social-posts"
+    values:
+      layout: social-posts      # behoud je eigen layout
   - scope:
       path: "en"
     values:
