@@ -55,9 +55,20 @@ title: Reality vs Narrative - Social Posts
   {% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
   {% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
 
-  {% assign social_posts = rvn_only | concat: teaser_only | uniq %}
+      {% if day_rvn %}
+      <p style="color:lime; background:#222; padding:5px;">DEBUG Day {{ this_day }}: rvn_title = "{{ day_rvn.rvn_title }}"</p>
+    {% endif %}
+    <!-- Robust social posts pairing - final attempt -->
+    <!-- Ultra robust social posts pairing -->
+  {% assign social_posts = site.social-posts | where: "lang", "en" %}
 
-  {% assign unique_days = social_posts | map: "day" | uniq | sort_natural %}
+  {% assign unique_days = "" | split: "" %}
+  {% for post in social_posts %}
+    {% if post.day and post.day != "" %}
+      {% assign unique_days = unique_days | push: post.day %}
+    {% endif %}
+  {% endfor %}
+  {% assign unique_days = unique_days | uniq | sort_natural %}
 
   {% for this_day in unique_days %}
     {% if this_day == "" or this_day == nil %}{% continue %}{% endif %}
@@ -80,7 +91,7 @@ title: Reality vs Narrative - Social Posts
     {% if day_rvn %}
       {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | default: card_title %}
       {% assign card_url = day_rvn.url | relative_url %}
-      {% assign rvn_teaser = day_rvn.rvn_teaser | default: "No RVN content yet for day " | append: this_day | strip_html | truncatewords: 45 %}
+      {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser | default: "No RVN content yet for day " | append: this_day | strip_html | truncatewords: 45 %}
     {% else %}
       {% assign rvn_teaser = "No RVN yet for day " | append: this_day %}
       {% assign card_url = "#" %}
@@ -96,7 +107,9 @@ title: Reality vs Narrative - Social Posts
 
     {% capture extra_content %}
       <p class="rvn-teaser">{{ rvn_teaser }}</p>
+
       <div class="divider"></div>
+
       <div class="teaser-title">
         {% if day_teaser %}
           <a href="{{ day_teaser.url | relative_url }}">{{ teaser_part }}</a>
@@ -104,10 +117,9 @@ title: Reality vs Narrative - Social Posts
           {{ teaser_part }}
         {% endif %}
       </div>
+
       <p class="teaser-preview">{{ teaser_preview }}</p>
     {% endcapture %}
-
-  
 
     {% include card.html 
       type="social" 
@@ -118,5 +130,4 @@ title: Reality vs Narrative - Social Posts
       extra_content=extra_content 
     %}
   {% endfor %}
-
 </div>

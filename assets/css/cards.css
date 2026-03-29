@@ -408,16 +408,7 @@
   border-color: #7dd3fc;
   background: rgba(125,211,252,0.04);
 }
-/* Contribution card is geen link */
-.card.contribution-card {
-  cursor: default;
-  text-decoration: none;
-}
 
-.card.contribution-card .btn-contribute {
-  position: relative;
-  z-index: 5;
-}
 /* Divider in add card centreren */
 .card.contribution-card .divider {
   margin: 1rem auto;
@@ -546,6 +537,27 @@
   margin: 1rem auto;
   width: 65%;
 }
+
+/* Contribution card */
+.card.contribution-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+/* Zorg dat contribution cards niet clickable zijn */
+.card.contribution-card {
+  cursor: default;
+}
+
+.card.contribution-card .btn-contribute {
+  position: relative;
+  z-index: 10;
+}
+
 /* Social cards content fix */
 .card.social-card .card-body {
   display: flex;
@@ -573,48 +585,4 @@
 .card.social-card .teaser-preview {
   color: #b0b0b0;
   font-size: 0.93rem;
-}
-
-/* Contribution card */
-.card.contribution-card .card-extra-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.4rem;
-  text-align: center;
-}
-/* Make contribution cards non-clickable + fix layout */
-.card.contribution-card {
-  cursor: default;
-}
-
-.card.contribution-card .btn-contribute {
-  position: relative;
-  z-index: 10;
-}
-
-/* Social cards content inside */
-.card.social-card .card-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.card.social-card .card-extra-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.card.social-card .rvn-teaser,
-.card.social-card .teaser-preview {
-  color: #b0b0b0;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.card.social-card .teaser-title {
-  color: #7dd3fc;
-  font-weight: 600;
 }

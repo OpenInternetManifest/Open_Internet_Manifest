@@ -2,10 +2,10 @@
 {% assign card_type = include.type | default: 'guide' %}
 
 {% if card_type == 'contribution' or card_type == 'add' %}
-  <!-- Contribution cards zijn GEEN hele link -->
+  <!-- Add cards zijn GEEN link -->
   <div class="card card--{{ card_type }} {{ include.extra_class | default: '' }}">
 {% else %}
-  <!-- Guides, Theses en Social cards zijn wel een link -->
+  <!-- Guides, Theses en Social cards zijn WEL een link -->
   {% assign card_href = include.url | default: include.item.url | relative_url | default: '#' %}
   <a href="{{ card_href }}" class="card card--{{ card_type }} {{ include.extra_class | default: '' }}">
 {% endif %}
