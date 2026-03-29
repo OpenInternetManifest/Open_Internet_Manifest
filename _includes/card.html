@@ -1,35 +1,21 @@
 <!-- _includes/card.html -->
 {% comment %}
-  Robuuste versie met taal-ondersteuning voor submappen (_guides/en/, _guides/nl/, etc.)
-  Werkt samen met jouw huidige _config.yml (zonder :lang in permalink)
+  Unified card - verbeterde ondersteuning voor social contribution card met veel extra_content
 {% endcomment %}
 
 {% assign card_type = include.type | default: 'guide' %}
 
-{% comment %} 
-  URL prioriteit:
-  1. Expliciete url (contribution card)
-  2. item.url (van Jekyll)
-  3. Handmatig opbouwen met taal + collection + slug
-{% endcomment %}
-
+{% comment %} URL handling {% endcomment %}
 {% assign card_href = include.url | default: include.item.url %}
 
 {% if card_href == nil or card_href == '' or card_href == '#' %}
-  {% comment %} Fallback: zelf URL opbouwen {% endcomment %}
   {% assign lang_prefix = include.item.lang | default: page.lang | default: 'en' | downcase %}
-  
   {% assign collection_name = card_type %}
-  {% if collection_name == 'thesis' or collection_name == 'theses' %}
-    {% assign collection_name = 'theses' %}
-  {% elsif collection_name == 'guide' or collection_name == 'guides' %}
-    {% assign collection_name = 'guides' %}
-  {% elsif collection_name == 'social' %}
-    {% assign collection_name = 'social-posts' %}
-  {% endif %}
-
+  {% if collection_name == 'thesis' or collection_name == 'theses' %}{% assign collection_name = 'theses' %}
+  {% elsif collection_name == 'guide' or collection_name == 'guides' %}{% assign collection_name = 'guides' %}
+  {% elsif collection_name == 'social' %}{% assign collection_name = 'social-posts' %}{% endif %}
+  
   {% assign slug = include.item.slug | default: include.item.title | slugify | default: 'untitled' %}
-
   {% assign card_href = '/' | append: lang_prefix | append: '/' | append: collection_name | append: '/' | append: slug | append: '/' %}
 {% endif %}
 
@@ -67,8 +53,12 @@
 
   <div class="card-body">
     <h3 class="card-title">{{ include.title | default: include.item.title | default: 'Untitled' }}</h3>
-    
-    {%- if include.teaser and include.teaser != '' -%}
+
+    {%- if include.extra_content -%}
+      <div class="card-extra-content">
+        {{ include.extra_content }}
+      </div>
+    {%- elsif include.teaser and include.teaser != '' -%}
       <p class="card-teaser">{{ include.teaser }}</p>
     {%- elsif include.item.teaser and include.item.teaser != '' -%}
       <p class="card-teaser">{{ include.item.teaser }}</p>

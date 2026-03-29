@@ -25,21 +25,21 @@ title: Reality vs Narrative – Social Posts
 
   {% assign teaser_template_url = "https://github.com/OpenInternetManifest/Open_Internet_Manifest/new/main/_social-posts/en?filename=" | append: now_date | append: "-teaser-day.md&value=---%0Alang%3A%20en%0Aday%3A%20%22Enter%20day%20number%22%0Ateaser_title%3A%20Evening%20Teaser%20–%20Day%20%0Ateaser_text%3A%20Highlights%20for%20the%20evening...%0A%23%20donation_link%3A%20%22https%3A%2F%2Fbuy.stripe.com%2Fexample-link%22%20%23%20Or%20Monero%2FBTC%20address%2C%20Ko-fi%2C%20etc.%0A%23%20donation_text%3A%20%22Support%20the%20author%20of%20this%20teaser%22%20%23%20Optional%0A%23%20Integrity%20hashes%20(automatically%20added%20after%20merge)%0Awebsite_sha256%3A%20%27%27%0Asocial_x_sha256%3A%20%27%27%0Asocial_fb_sha256%3A%20%27%27%0Asocial_share_sha256%3A%20%27%27%0A%23%20Git%20commit%20info%20(automatically%20added%20after%20merge)%0Agit_commit_hash%3A%20%27%27%0Agit_commit_url%3A%20%27%27%0A---%0A%0A## Evening%20Teaser%0A%0AHighlights%20for%20the%20evening..." %}
 
-  {% capture add_extra_content %}
-    <div class="rvn-title">Write a new RVN-day in EN, NL or other language. Soon via /admin/, now via GitHub PR.</div>
-    
-    <div class="contribute-buttons rvn">
-      <a href="{{ rvn_template_url }}" class="btn-contribute rvn">Add RVN</a>
-    </div>
-    
-    <div class="divider"></div>
-    
-    <div class="teaser-title">Evening Teaser – Day</div>
-    
-    <div class="contribute-buttons teaser">
-      <a href="{{ teaser_template_url }}" class="btn-contribute teaser">Add teaser</a>
-    </div>
-  {% endcapture %}
+{% capture add_extra_content %}
+  <div class="rvn-title">Write a new RVN-day in EN, NL or other language. Soon via /admin/, now via GitHub PR.</div>
+  
+  <div class="contribute-buttons">
+    <a href="{{ rvn_template_url }}" class="btn-contribute" target="_blank" rel="noopener">Add RVN</a>
+  </div>
+  
+  <div class="divider"></div>
+  
+  <div class="teaser-title">Evening Teaser – Day</div>
+  
+  <div class="contribute-buttons">
+    <a href="{{ teaser_template_url }}" class="btn-contribute" target="_blank" rel="noopener">Add Teaser</a>
+  </div>
+{% endcapture %}
 
    {% include card.html 
     type="contribution" 
