@@ -330,76 +330,60 @@
   font-size: 0.95rem;
 }
 /* ==========================================================================
-   SOCIAL ADD / CONTRIBUTION CARD – Fix voor content die buiten de card valt
+   SOCIAL CONTRIBUTION CARD – Add RVN / Teaser (definitieve fix)
    ========================================================================== */
-
+/* SOCIAL ADD CARD FIX */
 .card.contribution-card.social-card {
   min-height: 520px;
   height: auto;
 }
 
 .card.contribution-card.social-card .card-body {
-  padding: 1.6rem 1.4rem 1.8rem;
+  padding: 1.8rem 1.5rem;
 }
 
-.card.contribution-card.social-card .card-extra-content {
+.card.contribution-card.social-card .card-extra-content.contribution-extra {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.3rem;
+  gap: 1.4rem;
   text-align: center;
-  width: 100%;
 }
 
-/* Titels */
-.card.contribution-card.social-card .rvn-title,
-.card.contribution-card.social-card .teaser-title {
+.rvn-title, .teaser-title {
   font-size: 1.05rem;
-  color: #ddd;
-  margin: 0.2rem 0 0.6rem;
-  line-height: 1.4;
+  color: #ccc;
+  margin-bottom: 0.5rem;
 }
 
-/* Knop containers */
 .contribute-buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
-  width: 100%;
+  gap: 0.8rem;
 }
 
 .btn-contribute {
   width: 100%;
-  max-width: 200px;
-  padding: 0.95rem 1.5rem;
-  background: #444;
+  max-width: 210px;
+  padding: 1rem 1.5rem;
+  background: #3a3a3a;
   color: #eee;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.25s ease;
-  position: relative;
-  z-index: 5;                    /* zorgt dat knoppen klikbaar blijven */
 }
 
 .btn-contribute:hover {
-  background: var(--primary, #66b3ff);
+  background: #66b3ff;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(102,179,255,0.4);
 }
 
-/* Divider */
 .divider {
   height: 1px;
-  background: linear-gradient(to right, transparent 15%, #666 50%, transparent 85%);
-  margin: 0.6rem auto;
+  background: linear-gradient(to right, transparent, #666, transparent);
+  margin: 0.8rem auto;
   width: 70%;
-}
-
-/* Voorkom dat de hele card-link de knoppen overneemt */
-.card.contribution-card a.btn-contribute {
-  z-index: 10;
 }

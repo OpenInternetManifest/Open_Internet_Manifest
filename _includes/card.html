@@ -1,11 +1,10 @@
 <!-- _includes/card.html -->
 {% comment %}
-  Unified card - verbeterde ondersteuning voor social contribution card met veel extra_content
+  Unified card voor guides, theses en social contribution
 {% endcomment %}
 
 {% assign card_type = include.type | default: 'guide' %}
 
-{% comment %} URL handling {% endcomment %}
 {% assign card_href = include.url | default: include.item.url %}
 
 {% if card_href == nil or card_href == '' or card_href == '#' %}
@@ -33,41 +32,15 @@
         {{ include.number | default: include.item.nummer | default: include.item.order | default: include.item.day | default: forloop.index | default: 'X' }}
       {%- endif -%}
     </span>
-
-    {%- if card_type == 'thesis' -%}
-      <span class="thesis-progress">
-        {{ include.number | default: include.item.nummer | default: include.item.order | default: forloop.index | default: 'X' }} 
-        / {{ site.theses | where: "lang", page.lang | size }}
-      </span>
-    {%- elsif card_type == 'guide' -%}
-      <span class="difficulty-badge {{ include.difficulty | default: 'beginner' }}">
-        {%- case include.difficulty | default: 'beginner' | downcase -%}
-          {%- when 'beginner' or 'basis' or 'eenvoudig' -%} Beginner
-          {%- when 'intermediate' or 'gemiddeld' or 'tussentijds' -%} Intermediate
-          {%- when 'advanced' or 'gevorderd' or 'expert' -%} Advanced
-          {%- else -%} Beginner
-        {%- endcase -%}
-      </span>
-    {%- endif -%}
   </div>
 
   <div class="card-body">
     <h3 class="card-title">{{ include.title | default: include.item.title | default: 'Untitled' }}</h3>
 
     {%- if include.extra_content -%}
-      <div class="card-extra-content">
+      <div class="card-extra-content contribution-extra">
         {{ include.extra_content }}
       </div>
-    {%- elsif include.teaser and include.teaser != '' -%}
-      <p class="card-teaser">{{ include.teaser }}</p>
-    {%- elsif include.item.teaser and include.item.teaser != '' -%}
-      <p class="card-teaser">{{ include.item.teaser }}</p>
-    {%- elsif include.item.description -%}
-      <p class="card-teaser">{{ include.item.description | strip_html | truncatewords: 25 }}</p>
     {%- endif -%}
-
-    {%- unless card_type == 'social' or card_type == 'contribution' or card_type == 'add' -%}
-      <span class="read-more">Read more →</span>
-    {%- endunless -%}
   </div>
 </a>

@@ -5,7 +5,7 @@ title: Alle Gidsen
 ---
 
 <div class="overview-hero">
-  <h1 class="intro-title">Praktische Gidsen</h1>
+  <h1 class="intro-title">Praktische handleidingen</h1>
   
   <h2 class="manifest-subtitle">
     Concrete stappen om Big Tech te ontvluchten en weer eigenaar te worden van je communicatie en data.
