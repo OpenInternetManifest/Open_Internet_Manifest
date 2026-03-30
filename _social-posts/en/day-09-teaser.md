@@ -7,7 +7,7 @@ social_fb_sha256: 11dcd47c2a67198f7101f772cade64a3a0d42e84acd9e0843178c12c946608
 social_share_sha256: ''
 day: 9
 teaser_title: Graduated Animal Farms (GAFs)
-teaser_url: /en/social-posts/day-9-teaser
+# teaser_url: /en/social-posts/day-9-teaser
 teaser_text: a nod to George Orwell's Animal Farm
 ---
 🇬🇧 Day 9 – What are Graduated Animal Farms?  

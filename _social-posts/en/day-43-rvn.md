@@ -1,10 +1,10 @@
 ---
 layout: social-posts
 lang: en
-day: 99
+day: 43
 rvn_title: Marktplaats (Ebay) Deal Gone Wrong
 rvn_teaser:  A better offer came in, so I can break the deal
-rvn_url: /en/social-posts/day-99-rvn
+# rvn_url: /en/social-posts/day-43-rvn
 website_sha256: 
 social_x_sha256: 
 social_fb_sha256: 

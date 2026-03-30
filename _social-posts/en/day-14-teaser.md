@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 14
 teaser_title: The new hub
-teaser_url: /en/social-posts/day-14-teaser
+# teaser_url: /en/social-posts/day-14-teaser
 teaser_text: This is the living breath of the manifest
 ---
 🇬🇧 **Day 16 – The new hub** 🌐🗂️  

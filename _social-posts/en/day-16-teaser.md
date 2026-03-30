@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 16
 teaser_title: The pattern keeps spinning
-teaser_url: /en/social-posts/day-16-teaser
+# teaser_url: /en/social-posts/day-16-teaser
 teaser_text: The pattern repeats for years – and the hypocrisy is massive
 ---
 🇬🇧 **Day 16 Teaser** 🌐✂️  

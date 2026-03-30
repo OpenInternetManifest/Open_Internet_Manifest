@@ -7,7 +7,7 @@ social_fb_sha256: 532175d6336cae36b228bf0f2624fb259dc7c5f418bbdea5fcdc12f80d71c7
 social_share_sha256: ''
 day: 31
 rvn_title: Words don’t count for what they literally say
-rvn_url: /en/social-posts/day-31-rvn
+# rvn_url: /en/social-posts/day-31-rvn
 rvn_teaser: but for the narrative they create
 ---
 **Day 31 – RVN: Words don’t count for what they literally say anymore, but for the narrative they create** ⚖️🌀  

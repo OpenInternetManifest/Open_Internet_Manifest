@@ -7,7 +7,7 @@ social_fb_sha256: 3d5f565fb7406ac7a50fde0274bfa914f46e9adb99156d52dd0ad704f4b621
 social_share_sha256: ''
 day: 6
 teaser_title: 'Vrijheid met grenzen '
-teaser_url: /nl/social-posts/dag-6-teaser
+# teaser_url: /nl/social-posts/dag-6-teaser
 teaser_text: Grenzen stel je zelf, niet een centrale macht
 ---
 🇳🇱 Dag 6 – Vrijheid met grenzen  

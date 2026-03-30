@@ -7,7 +7,7 @@ social_fb_sha256: c6f462c166c2bea072b7d84b41b537e023d4988addd111611a6238fdec45ae
 social_share_sha256: ''
 day: 38
 teaser_title: 'Vanavond: de ladder van de Graduated Animal Farms'
-teaser_url: /nl/social-posts/dag-36-teaser
+# teaser_url: /nl/social-posts/dag-36-teaser
 teaser_text: 'Morgen RVN: de eerste stal'
 ---
 **Dag 38 Teaser – Vanavond: de ladder van de Graduated Animal Farms** 🪜🐷  

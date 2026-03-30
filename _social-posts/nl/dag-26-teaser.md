@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 26
 teaser_title: 'Vandaag: de onzichtbare laag'
-teaser_url: /nl/social-posts/dag-26-teaser
+# teaser_url: /nl/social-posts/dag-26-teaser
 teaser_text: 'Morgen: Zaken van de burger'
 ---
 🇳🇱 **Dag 26 Teaser – Vanavond: even op adem** 😏🍿  

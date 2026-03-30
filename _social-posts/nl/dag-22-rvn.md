@@ -7,7 +7,7 @@ social_fb_sha256: 3c3e5b2192efa9ea720e9afc69e6520b7ec1d0c03c02685192549312146ef1
 social_share_sha256: ''
 day: 22
 rvn_title: 'Warp Speed: Trump''s gedwongen vaccin-push'
-rvn_url: /nl/social-posts/dag-22-rvn
+# rvn_url: /nl/social-posts/dag-22-rvn
 rvn_teaser: of een geniale asymmetrische counter in een spirituele oorlog?
 ---
 Warp Speed: Trump's gedwongen vaccin-push... of een geniale asymmetrische counter in een spirituele oorlog? ♟️🧬🔥🕊️

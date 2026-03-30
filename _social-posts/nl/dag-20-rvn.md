@@ -7,7 +7,7 @@ social_fb_sha256: 7256ef1ca9b91325e8461c21d0083215dbb391598bf0d52fd5662606959322
 social_share_sha256: ''
 day: 20
 rvn_title: 'Utrecht Bollendak: viraal filmpje'
-rvn_url: /nl/social-posts/dag-20-rvn
+# rvn_url: /nl/social-posts/dag-20-rvn
 rvn_teaser: vs realiteit + gespind narratief
 ---
 🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  

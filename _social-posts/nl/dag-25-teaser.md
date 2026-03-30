@@ -7,7 +7,7 @@ social_fb_sha256: a7e041cda94e1b527d684d45c30abcfdf02ab9427c7af150b0151267bb1ee7
 social_share_sha256: ''
 day: 25
 teaser_title: 'Vandaag: Obama / Iran-deal'
-teaser_url: /nl/social-posts/dag-25-teaser
+# teaser_url: /nl/social-posts/dag-25-teaser
 teaser_text: 'Morgen: The big three'
 ---
 🇳🇱 **Dag 25 Teaser – Vanavond: even op adem** 😏🍿  

@@ -7,7 +7,7 @@ social_fb_sha256: 268b57ff8f64e2802d4589678289575872948a9ba659fbb70806bc0d055bfd
 social_share_sha256: ''
 day: 28
 teaser_title: 'Vanavond: de cirkel sluit zich'
-teaser_url: /nl/social-posts/dag-28-teaser
+# teaser_url: /nl/social-posts/dag-28-teaser
 teaser_text: 'Morgen: Epstein'
 ---
 🇳🇱 **Dag 29 Teaser – Vanavond: de cirkel sluit zich** 🕸️⚫  

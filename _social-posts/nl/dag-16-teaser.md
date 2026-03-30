@@ -7,7 +7,7 @@ social_fb_sha256: fda25a4e85c45b3d9a6491a013be1aad948d98700d81f019f2cfcfd8107ef9
 social_share_sha256: ''
 day: 16
 teaser_title: Stop met gatekeepers
-teaser_url: /nl/social-posts/dag-16-teaser
+# teaser_url: /nl/social-posts/dag-16-teaser
 teaser_text: Die je voeden wat uitkomt
 ---
 🇳🇱 **Dag 16 Teaser** 🌐✂️  

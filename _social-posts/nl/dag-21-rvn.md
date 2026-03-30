@@ -7,7 +7,7 @@ social_fb_sha256: 597ab21a85ab1088b4ebb6eaff1719935b84f4f5ecce8e2b7c351ee52604e0
 social_share_sha256: ''
 day: 21
 rvn_title: Israël-Palestina & Iran
-rvn_url: /nl/social-posts/dag-21-rvn
+# rvn_url: /nl/social-posts/dag-21-rvn
 rvn_teaser: van eeuwenoude wortels tot hedendaagse crisis
 ---
 🇳🇱 **Dag 21 – Israël-Palestina & Iran: van eeuwenoude wortels tot hedendaagse crisis** 🕊️📜  

@@ -7,7 +7,7 @@ social_fb_sha256: cdac94d6e746e38d0e9a07504fc02b3cb63226eeb8a8feac89a7b3ef1a9928
 social_share_sha256: ''
 day: 19
 teaser_title: Utrecht drama
-teaser_url: /nl/social-posts/dag-19-teaser
+# teaser_url: /nl/social-posts/dag-19-teaser
 teaser_text: ''
 ---
 **Dag 18 – Utrecht drama** 🚔😏  

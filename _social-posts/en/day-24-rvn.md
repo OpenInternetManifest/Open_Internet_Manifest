@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 24
 rvn_title: Templars, Moloch and the real winners of history
-rvn_url: /en/social-posts/day-24-rvn
+# rvn_url: /en/social-posts/day-24-rvn
 rvn_teaser: Today we step back — much further back
 ---
 **Reality vs Narrative: Templars, Moloch and the real winners of history ♟️🛡️🔥**

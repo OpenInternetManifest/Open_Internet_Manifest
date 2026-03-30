@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 38
 teaser_title: Tonight the ladder of the Graduated Animal Farms
-teaser_url: /en/social-posts/day-38-teaser
+# teaser_url: /en/social-posts/day-38-teaser
 teaser_text: Tomorrow; the first stall
 ---
 **Day 38 Teaser – Tonight: the ladder of the Graduated Animal Farms** 🪜🐷  

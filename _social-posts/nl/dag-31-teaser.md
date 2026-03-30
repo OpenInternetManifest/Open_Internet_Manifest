@@ -7,7 +7,7 @@ social_fb_sha256: a9e50c196b2fdca095040d9949e0e56831e234695c68055ee057cc97959c29
 social_share_sha256: ''
 day: 31
 teaser_title: 'Vanavond: de boemerang keert terug'
-teaser_url: /nl/social-posts/dag-31-teaser
+# teaser_url: /nl/social-posts/dag-31-teaser
 teaser_text: 'Morgen: Sun Tzu in volle glorie'
 ---
 **Dag 31 Teaser – Vanavond: de boemerang keert terug** ♟️🔥  

@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 3
 rvn_title: Dutch Travel Maniac banned
-rvn_url: /en/social-posts/day-3-rvn
+# rvn_url: /en/social-posts/day-3-rvn
 rvn_teaser: From facebook after Ter Apel videos
 ---
 Reality vs. Narrative – Dutch Travel Maniac banned from Facebook after Ter Apel videos.

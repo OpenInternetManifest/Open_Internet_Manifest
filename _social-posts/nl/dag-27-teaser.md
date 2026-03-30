@@ -7,7 +7,7 @@ social_fb_sha256: e98b0501c23b650319930bf9ed7802e031da62e84eb6ed20ea688b26046c75
 social_share_sha256: ''
 day: 27
 teaser_title: Van 1913 tot vandaag
-teaser_url: /nl/social-posts/dag-27-teaser
+# teaser_url: /nl/social-posts/dag-27-teaser
 teaser_text: macht centraliseert al meer dan 100 jaar
 ---
 🇳🇱 **Dag 27 Teaser – Vanavond: even op adem** 😏🍿  

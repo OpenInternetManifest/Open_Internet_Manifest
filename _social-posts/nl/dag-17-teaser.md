@@ -7,7 +7,7 @@ social_fb_sha256: 246376c88e334c35e70b637599ab33500068adb8ac381dbf79ba1282ddbd9d
 social_share_sha256: ''
 day: 17
 teaser_title: Een kind op school, vandaag
-teaser_url: /nl/social-posts/dag-17-teaser
+# teaser_url: /nl/social-posts/dag-17-teaser
 teaser_text: Op Holocaustherdenkingsdag
 ---
 🇳🇱 **Dag 17 – Een kind op school, vandaag** 🌐😔  

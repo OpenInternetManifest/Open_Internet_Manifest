@@ -7,7 +7,7 @@ social_fb_sha256: 8a3907914e8b9543661e7c24af9ced663cd98d697138f0e3afa5810c62de14
 social_share_sha256: ''
 day: 12
 teaser_title: Waarom OIM
-teaser_url: /nl/social-posts/dag-12-teaser
+# teaser_url: /nl/social-posts/dag-12-teaser
 teaser_text: Geen 'stallen' geen nieuwe fakkeldrager
 ---
 🇳🇱 **Dag 12 – Waarom OIM** 🌐✂️  

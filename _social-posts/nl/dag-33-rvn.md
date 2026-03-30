@@ -7,7 +7,7 @@ social_fb_sha256: 07483c64985d8b24aa554dc2137fffd4cdc834ccf77a08a36a89f0c371e585
 social_share_sha256: ''
 day: 33
 rvn_title: Waarom verdeeldheid de echte macht is
-rvn_url: /nl/social-posts/dag-33-rvn
+# rvn_url: /nl/social-posts/dag-33-rvn
 rvn_teaser: En hoe de feiten-regen dat doorbreekt
 ---
 **Dag 33 – RVN: De moeder van alle narratieven** 🌀🕳️🔥  

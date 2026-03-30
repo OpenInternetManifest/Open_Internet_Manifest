@@ -7,7 +7,7 @@ social_fb_sha256: 2f46d43ee4bbcdb0601463256165893c44754955f138ea2c2c52002431fe3f
 social_share_sha256: ''
 day: 5
 rvn_title: Starlink gratis voor Iran"
-rvn_url: /nl/social-posts/dag--rvn
+# rvn_url: /nl/social-posts/dag--rvn
 rvn_teaser: Dank Elon
 ---
 Realiteit vs. Narratief – Starlink gratis voor Iran.

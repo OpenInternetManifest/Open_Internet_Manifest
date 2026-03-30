@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 12
 rvn_title: Toeslagenaffaire
-rvn_url: /nl/social-posts/dag-12-rvn
+# rvn_url: /nl/social-posts/dag-12-rvn
 rvn_teaser: de stal die niet barst
 ---
 **Realiteit vs Narratief** – Toeslagenaffaire: de stal die niet barst 🏛️💔

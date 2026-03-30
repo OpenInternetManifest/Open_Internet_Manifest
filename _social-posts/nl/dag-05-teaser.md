@@ -7,7 +7,7 @@ social_fb_sha256: a0cdf7df2e8fd6093280f5ca9ab1aca1fe04e89e24995f5e5608509999937a
 social_share_sha256: ''
 day: 5
 teaser_title: '2026'
-teaser_url: /nl/social-posts/dag--teaser
+# teaser_url: /nl/social-posts/dag-05-teaser
 teaser_text: wordt het kantelpunt
 ---
 🇳🇱 Dag 5 – 2026 wordt het kantelpunt  

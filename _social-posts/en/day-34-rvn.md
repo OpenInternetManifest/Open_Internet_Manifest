@@ -7,7 +7,7 @@ social_fb_sha256: 2348aac7e58b70e207b093bbdb904890dc0a083ba38299483e32424ec6fb95
 social_share_sha256: ''
 day: 34
 rvn_title: The new look
-rvn_url: /en/social-posts/day-34-rvn
+# rvn_url: /en/social-posts/day-34-rvn
 rvn_teaser: building instead of complaining
 ---
 **Day 34 – RVN: The new look – building instead of complaining** 🛠️✨  

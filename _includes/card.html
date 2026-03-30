@@ -39,9 +39,9 @@
   </div>
 
   <div class="card-body">
-    <h3 class="card-title">
-      {%- if card_type == 'social' and include.title -%}
-        {{ include.title }}
+      <h3 class="card-title">
+      {%- if card_type == 'social' -%}
+        <!-- Voor social cards gebruiken we de titel uit extra_content -->
       {%- else -%}
         {{ include.title | default: include.item.title | default: 'Untitled' }}
       {%- endif -%}

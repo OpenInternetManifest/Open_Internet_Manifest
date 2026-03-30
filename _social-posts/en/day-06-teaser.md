@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 6
 teaser_title: Freedom with boundaries
-teaser_url: /en/social-posts/day-6-teaser
+# teaser_url: /en/social-posts/day-6-teaser
 teaser_text: Maximum freedom, but without chaos
 ---
 🇬🇧 Day 6 – Freedom with boundaries  

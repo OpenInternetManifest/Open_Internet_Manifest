@@ -7,7 +7,7 @@ social_fb_sha256: 3bd323010673c4ff139d102a3d15314bf7b7f
 social_share_sha256: ''
 day: 19
 rvn_title: DigiD in American hands
-rvn_url: /en/social-posts/day-19-rvn
+# rvn_url: /en/social-posts/day-19-rvn
 rvn_teaser: crisis or opportunity?
 ---
 🇬🇧 **Day 19 – Reality vs Narrative: DigiD in American hands – crisis or opportunity?** 🌐🔒

@@ -7,7 +7,7 @@ social_fb_sha256: 63a5011f8822b7290e65b09aba3c9b001013afe4dc524711bbb356702dd54e
 social_share_sha256: ''
 day: 10
 rvn_title: EU blocking Odysee
-rvn_url: /en/social-posts/day-10-rvn
+# rvn_url: /en/social-posts/day-10-rvn
 rvn_teaser:  it’s still very easy to bypass
 ---
 Reality vs Narrative – EU blocking Odysee (and more)

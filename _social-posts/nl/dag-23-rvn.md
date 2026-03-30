@@ -7,7 +7,7 @@ social_fb_sha256: da3c3314894cdec89601656ba1d1adec625498fdacf6a9e232d69e3b8ba2a5
 social_share_sha256: ''
 day: 23
 rvn_title: '1913'
-rvn_url: /nl/social-posts/dag-23-rvn
+# rvn_url: /nl/social-posts/dag-23-rvn
 rvn_teaser: Het jaar dat de knoppen werden omgezet?
 ---
 **Reality vs Narratief: 1913 – het jaar dat de knoppen werden omgezet? ♟️🛳️🕳️**

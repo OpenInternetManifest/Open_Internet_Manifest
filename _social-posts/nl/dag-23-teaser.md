@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 23
 teaser_title: 'Vanavond: even op adem'
-teaser_url: /nl/social-posts/dag-23-teaser
+# teaser_url: /nl/social-posts/dag-23-teaser
 teaser_text: Morgen gaan we nog verder terug
 ---
 🇳🇱 **Dag 23 Teaser – Vanavond: even op adem** 😏🍿  

@@ -7,7 +7,7 @@ social_fb_sha256: ebdf56e1346786d05564111b37c758cda4208a0fa1bb8e78979cc0d6416601
 social_share_sha256: ''
 day: 9
 rvn_title: Daycare-fraude
-rvn_url: /nl/social-posts/dag-9-rvn
+# rvn_url: /nl/social-posts/dag-9-rvn
 rvn_teaser: 'ICE en Tim Walz '
 ---
 Realiteit vs Narratief – Daycare-fraude, ICE en Tim Walz  

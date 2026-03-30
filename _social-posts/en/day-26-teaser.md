@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 26
 teaser_title: Tonight just breathe
-teaser_url: /en/social-posts/day-26-teaser
+# teaser_url: /en/social-posts/day-26-teaser
 teaser_text: Tomorrow we look at politics
 ---
 🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  

@@ -7,7 +7,7 @@ social_fb_sha256: 338d3db5d39bc62169ca2505481a5f29b2aa5c17101edd2b6eef6e3600483f
 social_share_sha256: ''
 day: 30
 teaser_title: 'Vanavond: de stilte voor de storm'
-teaser_url: /nl/social-posts/dag-30-teaser
+# teaser_url: /nl/social-posts/dag-30-teaser
 teaser_text: Morgen hervatten we de RVN-serie
 ---
 **Dag 30 Teaser – Vanavond: de stilte voor de storm** ☯️🔥  

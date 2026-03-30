@@ -7,7 +7,7 @@ social_fb_sha256: 16ca1d422d32f607ab3995164e30861fa253d5288b446b7ecf481b77c5d26f
 social_share_sha256: ''
 day: 26
 rvn_title: The layer above the Rockefellers
-rvn_url: /en/social-posts/day-26-rvn
+# rvn_url: /en/social-posts/day-26-rvn
 rvn_teaser: who really holds the buttons?
 ---
 **Reality vs Narrative: The layer above the Rockefellers – who really holds the buttons? ♟️🏦🕶️**

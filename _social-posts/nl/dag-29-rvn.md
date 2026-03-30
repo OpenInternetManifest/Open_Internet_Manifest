@@ -7,7 +7,7 @@ social_fb_sha256: 38881a8b773f954f4d32caddb55f5c845f100e309648a79767e781cefc81aa
 social_share_sha256: ''
 day: 29
 rvn_title: De cirkel sluit zich
-rvn_url: /nl/social-posts/dag-29-rvn
+# rvn_url: /nl/social-posts/dag-29-rvn
 rvn_teaser: Epstein als zichtbaar symptoom
 ---
 **RVN – Zondag 1 maart 2026**  

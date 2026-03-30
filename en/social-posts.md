@@ -50,10 +50,31 @@ title: Reality vs Narrative - Social Posts
     extra_content=add_extra_content 
   %}
 
-  <!-- SOCIAL POSTS LOOP - Nieuwste eerst -->
+   <!-- SOCIAL POSTS LOOP - Nieuwste eerst, sortering op bestandsnaam -->
   {% assign social_posts = site.social-posts | where: "lang", "en" %}
 
-  {% assign unique_days = social_posts | map: "day" | uniq | sort_natural | reverse %}
+  <!-- Verzamel unieke dagen uit bestandsnaam (day-01, day-02, ..., day-43) -->
+  {% assign day_list = "" | split: "" %}
+  {% for post in social_posts %}
+    {% if post.path contains "day-" %}
+      {% assign filename = post.path | split: "/" | last | split: "." | first %}
+      {% assign day_num = filename | remove: "day-" | remove: "-rvn" | remove: "-teaser" | strip %}
+      {% if day_num and day_num != "" %}
+        {% assign day_list = day_list | push: day_num %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign unique_days_temp = day_list | uniq | sort_natural %}
+
+  <!-- Reverse → nieuwste eerst -->
+  {% assign unique_days = "" | split: "" %}
+  {% for i in (0..unique_days_temp.size) reversed %}
+    {% assign idx = unique_days_temp.size | minus: 1 | minus: i %}
+    {% if unique_days_temp[idx] %}
+      {% assign unique_days = unique_days | push: unique_days_temp[idx] %}
+    {% endif %}
+  {% endfor %}
 
   {% for this_day in unique_days %}
     {% if this_day == "" or this_day == nil %}{% continue %}{% endif %}
@@ -62,10 +83,11 @@ title: Reality vs Narrative - Social Posts
     {% assign day_teaser = nil %}
 
     {% for post in social_posts %}
-      {% if post.day == this_day %}
-        {% if post.path contains "-rvn" %}
+      {% assign filename = post.path | split: "/" | last %}
+      {% if filename contains this_day %}
+        {% if filename contains "-rvn" %}
           {% assign day_rvn = post %}
-        {% elsif post.path contains "-teaser" %}
+        {% elsif filename contains "-teaser" %}
           {% assign day_teaser = post %}
         {% endif %}
       {% endif %}
@@ -123,5 +145,4 @@ title: Reality vs Narrative - Social Posts
       extra_content=extra_content 
     %}
   {% endfor %}
-
 </div>

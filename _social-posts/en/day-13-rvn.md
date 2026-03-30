@@ -7,7 +7,7 @@ social_fb_sha256: e09340c35d77c43172aeed4aecec67be5d40ec0421f727f90f4fa6a2e372e1
 social_share_sha256: ''
 day: 13
 rvn_title: Fluoride; the narrative finally cracking
-rvn_url: /en/social-posts/day-13-rvn
+# rvn_url: /en/social-posts/day-13-rvn
 rvn_teaser: For decades fluoride in water is safe
 ---
 **Reality vs Narrative** – Fluoride: the narrative finally cracking 🦷☢️

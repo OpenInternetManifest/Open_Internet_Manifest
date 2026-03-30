@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 16
 rvn_title: Mostly peaceful pattern & the hypocrisy
-rvn_url: /en/social-posts/day-16-rvn
+# rvn_url: /en/social-posts/day-16-rvn
 rvn_teaser: wait for facts, dig deeper
 ---
 🇬🇧 **Day 16 – Reality vs Narrative: The 'mostly peaceful' pattern & the hypocrisy** 🌐🔥

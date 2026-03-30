@@ -7,7 +7,7 @@ social_fb_sha256: befbce0c8576cc6bce720be7dac19cd1fbdeaf804e6a857e99ef813512ee11
 social_share_sha256: ''
 day: 13
 rvn_title: Fluoride
-rvn_url: /nl/social-posts/dag-13-rvn
+# rvn_url: /nl/social-posts/dag-13-rvn
 rvn_teaser: 'Het narratief dat eindelijk barst '
 ---
 **Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   

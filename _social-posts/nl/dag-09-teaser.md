@@ -7,7 +7,7 @@ social_fb_sha256: 9032eafefdb6398bad82c910e2491bd8468ea9b4345be5965b69c3e1415288
 social_share_sha256: ''
 day: 9
 teaser_title: Graduated Animal Farms
-teaser_url: /nl/social-posts/dag-9-teaser
+# teaser_url: /nl/social-posts/dag-9-teaser
 teaser_text: ''
 ---
 🇳🇱 Dag 9  – Wat zijn Graduated Animal Farms?  

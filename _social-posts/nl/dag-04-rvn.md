@@ -7,7 +7,7 @@ social_fb_sha256: 9538be5638947088f56765df875643cdd090392030cc2a96b95029e612010d
 social_share_sha256: ''
 day: 4
 rvn_title: Een monteur in Amsterdam
-rvn_url: /nl/social-posts/dag-4-rvn
+# rvn_url: /nl/social-posts/dag-4-rvn
 rvn_teaser: En een klant de situatie weegt voordat ze zegt dat ze Joods is
 ---
 Realiteit vs. Narratief – Een monteur in Amsterdam.

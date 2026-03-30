@@ -7,7 +7,7 @@ social_fb_sha256: dad8ddb73dc022a35c1d8868d6c0e327aabd18e0b414b7919bd7ce3f426be1
 social_share_sha256: ''
 day: 34
 teaser_title: 'Vanavond: stilte voor de onthulling'
-teaser_url: /nl/social-posts/dag-34-teaser
+# teaser_url: /nl/social-posts/dag-34-teaser
 teaser_text: 'Morgen: Epstein''s blackmail-machine'
 ---
 **Dag 34 Teaser – Vanavond: stilte voor de onthulling** 🕸️🔥  

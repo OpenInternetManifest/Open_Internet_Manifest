@@ -7,7 +7,7 @@ social_fb_sha256: 6edae6062871c3ea538349a77281d7159de05c98b87101a9ab501dbcdaf94d
 social_share_sha256: ''
 day: 10
 rvn_title: EU-blokkade van Odysee
-rvn_url: /nl/social-posts/dag-10-rvn
+# rvn_url: /nl/social-posts/dag-10-rvn
 rvn_teaser: En een DNS wijziging die de blookkade op heft
 ---
 Realiteit vs Narratief – EU-blokkade van Odysee (en meer)  

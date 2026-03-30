@@ -7,7 +7,7 @@ social_fb_sha256: 5660d667488a50bbcf3cbcede754e4c25ec06fe265454e095e500376
 social_share_sha256: ''
 day: 36
 rvn_title: Epstein → Demmink → Baybaşin
-rvn_url: /nl/social-posts/dag-36-rvn
+# rvn_url: /nl/social-posts/dag-36-rvn
 rvn_teaser: Het patroon van stilte
 ---
 **Dag 36 – RVN: Epstein → Demmink → Baybaşin – het patroon van stilte** 🕸️🔇  

@@ -7,7 +7,7 @@ social_fb_sha256: a913665df3fbe99aa077e7bedcd8255ca455c37c13d74ae166cf9a8a5cf9b0
 social_share_sha256: ''
 day: 6
 rvn_title: Nederland verdedigt Groenland
-rvn_url: /nl/social-posts/dag-6-rvn
+# rvn_url: /nl/social-posts/dag-6-rvn
 rvn_teaser: Met Flipse, koffie en een stroopwafel
 ---
 Realiteit vs Narratief – Nederland verdedigt Groenland  

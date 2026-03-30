@@ -7,7 +7,7 @@ social_fb_sha256: 0a01ad388ef2aa8a92ac32a331bf97eef0843786434a50dba01d45cd586b95
 social_share_sha256: ''
 day: 10
 teaser_title: The Invisible Leash
-teaser_url: /en/social-posts/day-10-teaser
+# teaser_url: /en/social-posts/day-10-teaser
 teaser_text: On EU request, this domain is currently blocked
 ---
 🇬🇧 **Day 10 – The Invisible Leash** 🔗 

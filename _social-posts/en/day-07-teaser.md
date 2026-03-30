@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 7
 teaser_title:  Weekly Overview
-teaser_url: /en/social-posts/day-7-teaser
+# teaser_url: /en/social-posts/day-7-teaser
 teaser_text: The narrative wants control, Reality wants freedom
 ---
 **Day 7 – Weekly Overview & The Promise of Freedom** 🇳🇱✨

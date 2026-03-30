@@ -8,7 +8,7 @@ social_fb_sha256: 7973c4021ec55a201a5aeb1821284644605f01a08c0578ec14d858e71fa9b7
 social_share_sha256: ''
 rvn_title: Euro95 daalt ineens - Vorige week nog recordhoogtes
 rvn_teaser: En wat doet Jetten? - doodse stilte.
-rvn_url: /nl/social-posts/dag-41-rvn
+# rvn_url: /nl/social-posts/dag-41-rvn
 ---
 **Benzine zakt ineens 10 cent – Jetten zwijgt. Toeval? Of Sun Tzu in volle gang?** 💥🔇
 

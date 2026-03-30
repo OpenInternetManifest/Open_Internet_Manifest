@@ -7,7 +7,7 @@ social_fb_sha256: 31b16b6a585f8309aa6f3053d08bd03099dfbcf97fce811e020833d34d1bff
 social_share_sha256: ''
 day: 10
 teaser_title: De Onzichtbare Riem
-teaser_url: /nl/social-posts/dag-10-teaser
+# teaser_url: /nl/social-posts/dag-10-teaser
 teaser_text: vrijheid is niet veiliger maken, maar loslaten
 ---
 🇳🇱 **Dag 10 – De Onzichtbare Riem** 🔗  

@@ -7,7 +7,7 @@ social_fb_sha256: eeeb8b512a9fedeb63b10a38039c6cf371d8034f6e39956354a9bd1e9f752f
 social_share_sha256: ''
 day: 14
 rvn_title: DHS-bill
-rvn_url: /nl/social-posts/dag-14-rvn
+# rvn_url: /nl/social-posts/dag-14-rvn
 rvn_teaser: selectieve verontwaardiging op bestelling
 ---
 **Realiteit vs Narratief** – DHS-bill: selectieve verontwaardiging op bestelling 🚨🇺🇸   

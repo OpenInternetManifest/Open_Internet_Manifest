@@ -7,7 +7,7 @@ social_fb_sha256: f2626a2832cec8c04113c0a95e0fe31d97215239606cfda446cd5fc9ed9fef
 social_share_sha256: ''
 day: 22
 rvn_title: Warp Speed; Trump's forced vaccine push
-rvn_url: /en/social-posts/day-22-rvn
+# rvn_url: /en/social-posts/day-22-rvn
 rvn_teaser: Or a genius asymmetric counter in a spiritual war
 ---
 Warp Speed: Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war? ♟️🧬🔥🕊️

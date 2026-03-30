@@ -7,7 +7,7 @@ social_fb_sha256: 64f3041246b34cc5980abd4401e2064bd9a14512a624ab0226fee123426b7e
 social_share_sha256: ''
 day: 18
 rvn_title: Holocaust Remembrance Day 2026
-rvn_url: /en/social-posts/day-18-rvn
+# rvn_url: /en/social-posts/day-18-rvn
 rvn_teaser: and a friends child is still called cancer Jew
 ---
 🇬🇧 **Day 18 – Reality vs Narrative: Holocaust Remembrance Day 2026 – and a friends child is still called “cancer Jew”** 🌐😔url.td/0ZB9M

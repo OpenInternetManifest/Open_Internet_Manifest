@@ -7,7 +7,7 @@ social_fb_sha256: d139708dba0c3bf0e8a407899c7aac9bf3ba832bae8f77264cfd94975ffc87
 social_share_sha256: ''
 day: 11
 teaser_title: De Grote Splitsing
-teaser_url: /nl/social-posts/dag-11-teaser
+# teaser_url: /nl/social-posts/dag-11-teaser
 teaser_text: Trump's Frontale Aanval
 ---
 🇳🇱 **Dag 11 – De Grote Splitsing & Trump's Frontale Aanval** 🐘💥  

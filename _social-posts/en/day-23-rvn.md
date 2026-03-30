@@ -7,7 +7,7 @@ social_fb_sha256: 32646dcde1af0d6707a0d7f39b4a69b5ed809f97f1bceedd201181ac030dce
 social_share_sha256: ''
 day: 23
 rvn_title: 1913; the year the buttons were pushed
-rvn_url: /en/social-posts/day-23-rvn
+# rvn_url: /en/social-posts/day-23-rvn
 rvn_teaser: April 1912, The Titanic sinks
 ---
 **Reality vs Narrative: 1913 – the year the buttons were pushed? ♟️🛳️🕳️**

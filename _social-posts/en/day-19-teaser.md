@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 19
 teaser_title: Utrecht drama
-teaser_url: /en/social-posts/day-19-teaser
+# teaser_url: /en/social-posts/day-19-teaser
 teaser_text: cop kicks & hits two Muslim women
 ---
 **Day 18 – Utrecht drama** 🚔😏  

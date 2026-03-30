@@ -7,7 +7,7 @@ social_fb_sha256: 814394c3e7e0dcc3958a8789eb3d6b5429dd5e3ee8640f3cb7ac317b210a86
 social_share_sha256: ''
 day: 11
 rvn_title: Van praatgroepje in heel Europa
-rvn_url: /nl/social-posts/dag-11-rvn
+# rvn_url: /nl/social-posts/dag-11-rvn
 rvn_teaser: naar slagveld
 ---
 **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️

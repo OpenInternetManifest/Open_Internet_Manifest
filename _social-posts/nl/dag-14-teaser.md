@@ -7,7 +7,7 @@ social_fb_sha256: 0e165759eba2f1a003138e7573f88c0fbbbe3db6f94ecb6d01936a7cfae1e4
 social_share_sha256: ''
 day: 14
 teaser_title: De nieuwe hub"
-teaser_url: /nl/social-posts/dag-14-teaser
+# teaser_url: /nl/social-posts/dag-14-teaser
 teaser_text: Dit is geen archief
 ---
 🇳🇱 **Dag 16 – De nieuwe hub** 🌐🗂️  

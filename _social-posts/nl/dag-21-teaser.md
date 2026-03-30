@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 21
 teaser_title: 'Vanavond: even uitblazen'
-teaser_url: /nl/social-posts/dag-21-teaser
+# teaser_url: /nl/social-posts/dag-21-teaser
 teaser_text: 'Morgen: door'
 ---
 🇳🇱 **Dag 21 Teaser – Vanavond: even luchtig (ja echt)** 😏🍿  

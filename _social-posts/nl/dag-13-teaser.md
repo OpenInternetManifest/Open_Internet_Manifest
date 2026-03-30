@@ -7,7 +7,7 @@ social_fb_sha256: fd7e6a05fa239e7fb126ed0c6b75ef9a754da3bf01428a6f1807759b7273bd
 social_share_sha256: ''
 day: 13
 teaser_title: Even stilstaan
-teaser_url: /nl/social-posts/dag-13-teaser
+# teaser_url: /nl/social-posts/dag-13-teaser
 teaser_text: Soms is het goed om even te ademen
 ---
 🇳🇱 **Dag 13 – Even stilstaan** 🌱🌐  

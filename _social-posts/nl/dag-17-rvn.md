@@ -7,7 +7,7 @@ social_fb_sha256: da3434b37077d3a1f3c4ea8e1796c4cb6113ec8e5c320626b240b697514a5f
 social_share_sha256: ''
 day: 17
 rvn_title: Walz' Rookgordijnen Nu Realiteit
-rvn_url: /nl/social-posts/dag-17-rvn
+# rvn_url: /nl/social-posts/dag-17-rvn
 rvn_teaser: Dag 9 Voorspeld
 ---
 🇳🇱 **Dag 17 – Reality vs Narrative: Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit** 🌐🔥  

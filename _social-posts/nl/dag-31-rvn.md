@@ -7,7 +7,7 @@ social_fb_sha256: 56a639aae7aac6dfbd7ea33ecb3d99c0e57ab30c21b490b8363f9b9cc301db
 social_share_sha256: ''
 day: 31
 rvn_title: Woorden wegen niet meer op wat ze zeggen
-rvn_url: /nl/social-posts/dag-31-rvn
+# rvn_url: /nl/social-posts/dag-31-rvn
 rvn_teaser: Maar op wat een narratief ervan maakt
 ---
 **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀  

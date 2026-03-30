@@ -7,7 +7,7 @@ social_fb_sha256: 77327df9f57343a17b38af27ac668d7d5f899018d92610da19fcd515dc5f22
 social_share_sha256: ''
 day: 2
 rvn_title: Iran
-rvn_url: /en/social-posts/day-2-rvn
+# rvn_url: /en/social-posts/day-2-rvn
 rvn_teaser: Are censorship & blackouts are sometimes necessary for order?
 ---
 English summary:

@@ -7,7 +7,7 @@ social_fb_sha256: 6f7b3dfc15163214dfb182bd13b294a19ed6afde6d66f45a52c242bacd6f5a
 social_share_sha256: ''
 day: 34
 rvn_title: De nieuwe look
-rvn_url: /nl/social-posts/dag-34-rvn
+# rvn_url: /nl/social-posts/dag-34-rvn
 rvn_teaser: Bouwen in plaats van klagen
 ---
 **Dag 34 – RVN: De nieuwe look – bouwen in plaats van klagen** 🛠️✨  

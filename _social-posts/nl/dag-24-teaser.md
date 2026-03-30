@@ -7,7 +7,7 @@ social_fb_sha256: 13c06eec38452cde9a33d8dea04536ff598a0729cc6988d7513488dd3444cc
 social_share_sha256: ''
 day: 24
 teaser_title: 'Vanavond: even op adem'
-teaser_url: /nl/social-posts/dag-24-teaser
+# teaser_url: /nl/social-posts/dag-24-teaser
 teaser_text: 'Morgen: Obama en de Iran-deal'
 ---
 🇳🇱 **Dag 24 Teaser – Vanavond: even op adem** 😏🍿  

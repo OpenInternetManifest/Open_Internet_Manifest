@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 25
 rvn_title: Obama, Iran-cash
-rvn_url: /nl/social-posts/dag-25-rvn
+# rvn_url: /nl/social-posts/dag-25-rvn
 rvn_teaser: En de eeuwige good cop / bad cop
 ---
 **Reality vs Narratief: Obama, Iran-cash en de eeuwige good cop / bad cop ♟️💰🕳️**

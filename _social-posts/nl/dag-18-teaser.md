@@ -7,7 +7,7 @@ social_fb_sha256: 2f2f95fc6963c5f752d9241ad221ed6e61e0d6ea23939e437463f7d686c452
 social_share_sha256: ''
 day: 18
 teaser_title: Groeien
-teaser_url: /nl/social-posts/dag-18-teaser
+# teaser_url: /nl/social-posts/dag-18-teaser
 teaser_text: We groeien
 ---
 🇳🇱 **Dag 18 – Groeien** 🌐🔒  

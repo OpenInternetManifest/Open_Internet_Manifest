@@ -7,7 +7,7 @@ social_fb_sha256: 5a3aaf994b41bd9ba669ebc1ce0044e396e197c40d35cd06b742d5f39fca23
 social_share_sha256: ''
 day: 3
 rvn_title: Verbanning Dutch Travel Maniac
-rvn_url: /nl/social-posts/dag-3-rvn
+# rvn_url: /nl/social-posts/dag-3-rvn
 rvn_teaser: van Facebook
 ---
 Realiteit vs. Narratief – Verbanning Dutch Travel Maniac van Facebook.

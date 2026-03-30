@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 4
 teaser_title: privacy as default
-teaser_url: /en/social-posts/day-4-teaser
+# teaser_url: /en/social-posts/day-4-teaser
 teaser_text: No more separate darknet layer needed
 ---
 🇬🇧 Day 4 – What if privacy was the default?  

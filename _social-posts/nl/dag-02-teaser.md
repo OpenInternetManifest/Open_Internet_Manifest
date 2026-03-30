@@ -7,7 +7,7 @@ social_fb_sha256: fd613d343d81fa563a905efe982018cc169600158d6ef1d52162dec232c37f
 social_share_sha256: ''
 day: 2
 teaser_title: Internet is niet dood
-teaser_url: /nl/social-posts/dag-2-teaser
+# teaser_url: /nl/social-posts/dag-2-teaser
 teaser_text: 'het is gevangen '
 ---
 🇳🇱 Dag 2 – Thesis 1: Internet is niet dood – het is gevangen  

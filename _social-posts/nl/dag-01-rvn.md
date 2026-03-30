@@ -7,7 +7,7 @@ social_fb_sha256: 700a1a38756015cb7484542dae699e51a56d041114655e29de30f251272e04
 social_share_sha256: ''
 day: 1
 rvn_title: Het vaste patroon bij grote incidenten
-rvn_url: /nl/social-posts/dag-1-rvn
+# rvn_url: /nl/social-posts/dag-1-rvn
 rvn_teaser: 'Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin'
 ---
 Realiteit vs. Narratief – Het vaste patroon bij grote incidenten.

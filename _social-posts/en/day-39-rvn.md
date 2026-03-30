@@ -7,7 +7,7 @@ social_fb_sha256: 5b5363f794c018000e8ca44faabebd7fcc87531217014f8d52105dbe7abd03
 social_share_sha256: ''
 day: 39
 rvn_title: The first stall
-rvn_url: /en/social-posts/day-39-rvn
+# rvn_url: /en/social-posts/day-39-rvn
 rvn_teaser: mainstream media as base layer of the Graduated Animal Farms
 ---
 **Day 39 – RVN: The first stall – mainstream media as base layer of the Graduated Animal Farms** 🐷📺  

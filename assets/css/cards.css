@@ -571,15 +571,22 @@
   gap: 1.2rem;
 }
 
+/* Verwijder dubbele titel styling en zorg voor goede spacing */
+.card.social-card .card-title {
+  margin-bottom: 0.8rem;
+}
+
 .card.social-card .rvn-teaser {
   color: #b0b0b0;
   font-size: 0.95rem;
   line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .card.social-card .teaser-title {
   color: #7dd3fc;
   font-weight: 600;
+  margin: 0.8rem 0 0.4rem;
 }
 
 .card.social-card .teaser-preview {

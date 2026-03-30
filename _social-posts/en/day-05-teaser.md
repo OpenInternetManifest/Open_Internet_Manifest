@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 5
 teaser_title: 2026 will be the turning point
-teaser_url: /en/social-posts/day-5-teaser
+# teaser_url: /en/social-posts/day-5-teaser
 teaser_text: Watch LightHouseTV on why 2026 is crucial for privacy and open internet
 ---
 🇬🇧 Day 5 – 2026 will be the turning point  

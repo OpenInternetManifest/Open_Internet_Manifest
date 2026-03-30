@@ -7,7 +7,7 @@ social_fb_sha256: 06b8a16b29c263eb26b1d1bbbb45f4afc6d9a624cdd504ee50b3c28479dc34
 social_share_sha256: ''
 day: 7
 teaser_title: Weekoverzicht & de belofte van vrijheid
-teaser_url: /nl/social-posts/dag-7-teaser
+# teaser_url: /nl/social-posts/dag-7-teaser
 teaser_text: Narratief wil controle, realiteit wil vrijheid
 ---
 Dag 7 – Weekoverzicht & de belofte van vrijheid 🇳🇱✨

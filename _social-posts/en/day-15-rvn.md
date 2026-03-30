@@ -7,7 +7,7 @@ social_fb_sha256: d7177d10ed41f26ba8949efd909721098713074cd293edf971c1194ecb0388
 social_share_sha256: ''
 day: 15
 rvn_title: Minneapolis mall & the ICE hypocrisy
-rvn_url: /en/social-posts/day-15-rvn
+# rvn_url: /en/social-posts/day-15-rvn
 rvn_teaser: Trump's Gestapo!
 ---
 🇬🇧 **Day 15 – Reality vs Narrative: Minneapolis mall & the ICE hypocrisy** 🌐🔥

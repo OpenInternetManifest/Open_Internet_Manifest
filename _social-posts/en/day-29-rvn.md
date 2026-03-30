@@ -7,7 +7,7 @@ social_fb_sha256: 38881a8b773f954f4d32caddb55f5c845f100e309648a79767e781cefc81aa
 social_share_sha256: ''
 day: 29
 rvn_title: The circle closes
-rvn_url: /en/social-posts/day-29-rvn
+# rvn_url: /en/social-posts/day-29-rvn
 rvn_teaser: Epstein as visible symptom
 ---
 **RVN – Sunday March 1, 2026**  

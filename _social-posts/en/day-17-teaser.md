@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 17
 teaser_title: A child at school, today
-teaser_url: /en/social-posts/day-17-teaser
+# teaser_url: /en/social-posts/day-17-teaser
 teaser_text: On Holocaust Remembrance Day
 ---
 🇬🇧 **Day 17 – A child at school, today** 🌐😔  

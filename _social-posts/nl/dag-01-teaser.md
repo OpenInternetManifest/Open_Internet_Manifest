@@ -7,7 +7,7 @@ social_fb_sha256: dbf58cb1858675b6915a1aa40d8c792d179811a0036a991f809ad2af7266a2
 social_share_sha256: ''
 day: 1
 teaser_title: Het begin van iets groots
-teaser_url: /nl/social-posts/dag-1-teaser
+# teaser_url: /nl/social-posts/dag-1-teaser
 teaser_text: ''
 ---
 🇳🇱 Dag 1 – Het begin van iets groots  

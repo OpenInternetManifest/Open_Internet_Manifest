@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 15
 teaser_title: Minneapolis burns on
-teaser_url: /en/social-posts/day-15-teaser
+# teaser_url: /en/social-posts/day-15-teaser
 teaser_text: But the old pattern holds
 ---
 🇬🇧 **Day 15  –  Narrative** 🌐✂️ 

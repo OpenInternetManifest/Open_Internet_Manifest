@@ -7,7 +7,7 @@ social_fb_sha256: 535c61f1e25dda9c597824b009d30b216ea1cf54f57a4cfa72929a9f135010
 social_share_sha256: ''
 day: 31
 teaser_title: Tonight; the boomerang returns
-teaser_url: /en/social-posts/day-31-teaser
+# teaser_url: /en/social-posts/day-31-teaser
 teaser_text: Tomorrow RVN; Sun Tzu in full glory
 ---
 **Tomorrow 31 Teaser – Tonight: the boomerang returns** ♟️🔥  

@@ -7,7 +7,7 @@ social_fb_sha256: c8c9c8494107dbb0eba2523c8bea9f91604dbe033404a8e6b08626d77f15d5
 social_share_sha256: ''
 day: 4
 teaser_title: Wat als privacy standaard was
-teaser_url: /nl/social-posts/dag-4-teaser
+# teaser_url: /nl/social-posts/dag-4-teaser
 teaser_text: ''
 ---
 🇳🇱 Dag 4 – Wat als privacy standaard was?  

@@ -7,7 +7,7 @@ social_fb_sha256: ''
 social_share_sha256: ''
 day: 5
 rvn_title: Starlink Free for Iran
-rvn_url: /en/social-posts/day-5-rvn
+# rvn_url: /en/social-posts/day-5-rvn
 rvn_teaser: Satellite internet like Starlink is dangerous!
 ---
 Reality vs. Narrative – Starlink Free for Iran.

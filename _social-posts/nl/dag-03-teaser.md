@@ -7,7 +7,7 @@ social_fb_sha256: a77c1ee33a8fe97fba16ef6ac910840cccb01373d083055d26db9fde7abe5d
 social_share_sha256: ''
 day: 3
 teaser_title: 'Vrijheid begint vandaag  '
-teaser_url: /nl/social-posts/dag-3-teaser
+# teaser_url: /nl/social-posts/dag-3-teaser
 teaser_text: Praktische vrijheid in 10 minuten
 ---
 🇳🇱 Dag 3 – Vrijheid begint vandaag  

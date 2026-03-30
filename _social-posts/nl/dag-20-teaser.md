@@ -7,7 +7,7 @@ social_fb_sha256: 7f1b5012032fcf2f65d702847c0a648f70bd7fc50daa206f7962df05dcb346
 social_share_sha256: ''
 day: 20
 teaser_title: Vandaag weer een narratief over bezetting en verzet
-teaser_url: /nl/social-posts/dag-20-teaser
+# teaser_url: /nl/social-posts/dag-20-teaser
 teaser_text: 'Morgen: de wortels die niemand vertelt'
 ---
 🇳🇱 Dag 20 Teaser – Morgen: de wortels die niemand vertelt 🌑📜

@@ -7,7 +7,7 @@ social_fb_sha256: 441b7761e10a3a3790bd582183620e1f3109479ae8714f511c8920d6cd475c
 social_share_sha256: ''
 day: 6
 rvn_title: Polarization as a weapon
-rvn_url: /en/social-posts/day-6-rvn
+# rvn_url: /en/social-posts/day-6-rvn
 rvn_teaser: Left vs right, Jews vs Muslims, West vs East
 ---
 Reality vs Narrative – Polarization as a weapon (part 2)

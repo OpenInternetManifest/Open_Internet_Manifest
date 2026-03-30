@@ -7,7 +7,7 @@ social_fb_sha256: 68507256625dd75f16ff2020e49da6fa214486884e7fed08e7f2e30a85033b
 social_share_sha256: ''
 day: 15
 teaser_title: Minneapolis brandt
-teaser_url: /nl/social-posts/dag-15-teaser
+# teaser_url: /nl/social-posts/dag-15-teaser
 teaser_text: Maar het oude patroon blijft
 ---
 🇳🇱 **Dag 15  – Narratief** 🌐✂️  

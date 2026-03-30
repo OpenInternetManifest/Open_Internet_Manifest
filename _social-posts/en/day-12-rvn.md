@@ -7,7 +7,7 @@ social_fb_sha256: 93cd1c651a686d357967c1359f686701a8fe4ea023d28927239566a1c48125
 social_share_sha256: ''
 day: 12
 rvn_title: Benefits Scandal
-rvn_url: /en/social-posts/day-12-rvn
+# rvn_url: /en/social-posts/day-12-rvn
 rvn_teaser: The farm that won't break
 ---
 **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
