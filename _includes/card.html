@@ -1,18 +1,28 @@
 <!-- _includes/card.html -->
 {% assign card_type = include.type | default: 'guide' %}
 
-{% if card_type == 'contribution' or card_type == 'add' or card_type == 'social' %}
-  <!-- Contribution en Social cards zijn GEEN hele link (alleen interne links werken) -->
+{% comment %} Alle types die GEEN volledige <a> link mogen zijn {% endcomment %}
+{% assign non_link_types = "contribution|add|social|contribution-guide|contribution-thesis" | split: "|" %}
+
+{% assign is_non_link = false %}
+{% for nt in non_link_types %}
+  {% if card_type == nt %}
+    {% assign is_non_link = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is_non_link %}
+  <!-- Non-link cards: contribution, add, social, contribution-guide, contribution-thesis -->
   <div class="card card--{{ card_type }} {{ include.extra_class | default: '' }}">
 {% else %}
-  <!-- Guides en Theses zijn wel een link -->
+  <!-- Normale clickable cards (guides, theses) -->
   {% assign card_href = include.url | default: include.item.url | relative_url | default: '#' %}
   <a href="{{ card_href }}" class="card card--{{ card_type }} {{ include.extra_class | default: '' }}">
 {% endif %}
 
   <div class="card-header-light">
     <span class="card-number">
-      {%- if card_type == 'contribution' or card_type == 'add' -%}
+      {%- if card_type contains 'contribution' or card_type == 'add' -%}
         +
       {%- elsif card_type == 'social' and include.number -%}
         Day {{ include.number }}
@@ -23,7 +33,7 @@
 
     {%- if card_type == 'thesis' -%}
       <span class="thesis-progress">
-        {{ include.number | default: include.item.nummer | default: include.item.order | default: forloop.index | default: 'X' }} 
+        {{ include.number | default: forloop.index }} 
         / {{ site.theses | where: "lang", page.lang | size }}
       </span>
     {%- elsif card_type == 'guide' -%}
@@ -39,9 +49,9 @@
   </div>
 
   <div class="card-body">
-      <h3 class="card-title">
+    <h3 class="card-title">
       {%- if card_type == 'social' -%}
-        <!-- Voor social cards gebruiken we de titel uit extra_content -->
+        <!-- Social cards gebruiken de titel uit extra_content -->
       {%- else -%}
         {{ include.title | default: include.item.title | default: 'Untitled' }}
       {%- endif -%}
@@ -57,12 +67,12 @@
       <p class="card-teaser">{{ include.item.teaser }}</p>
     {%- endif -%}
 
-    {%- unless card_type == 'social' or card_type == 'contribution' or card_type == 'add' -%}
+    {%- unless is_non_link -%}
       <span class="read-more">Read more →</span>
     {%- endunless -%}
   </div>
 
-{% if card_type == 'contribution' or card_type == 'add' or card_type == 'social' %}
+{% if is_non_link %}
   </div>
 {% else %}
   </a>
