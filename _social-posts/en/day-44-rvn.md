@@ -2,8 +2,8 @@
 layout: social-posts
 lang: en
 day: 44
-rvn_title: Marktplaats (Ebay) Deal Gone Wrong
-rvn_teaser:  A better offer came in, so I can break the deal
+rvn_title: Dit is een test
+rvn_teaser:  Nu staat alleen de laatste post bovenaan
 # rvn_url: /en/social-posts/day-43-rvn
 website_sha256: 
 social_x_sha256: 

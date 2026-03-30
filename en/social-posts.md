@@ -50,10 +50,10 @@ title: Reality vs Narrative - Social Posts
     extra_content=add_extra_content 
   %}
 
-   <!-- SOCIAL POSTS LOOP - Nieuwste eerst, sortering op bestandsnaam -->
+    <!-- SOCIAL POSTS LOOP - Nieuwste eerst, sortering op bestandsnaam (simpel & robuust) -->
   {% assign social_posts = site.social-posts | where: "lang", "en" %}
 
-  <!-- Verzamel unieke dagen uit bestandsnaam (day-01, day-02, ..., day-43) -->
+  <!-- Verzamel dagen uit bestandsnaam -->
   {% assign day_list = "" | split: "" %}
   {% for post in social_posts %}
     {% if post.path contains "day-" %}
@@ -65,16 +65,7 @@ title: Reality vs Narrative - Social Posts
     {% endif %}
   {% endfor %}
 
-  {% assign unique_days_temp = day_list | uniq | sort_natural %}
-
-  <!-- Reverse → nieuwste eerst -->
-  {% assign unique_days = "" | split: "" %}
-  {% for i in (0..unique_days_temp.size) reversed %}
-    {% assign idx = unique_days_temp.size | minus: 1 | minus: i %}
-    {% if unique_days_temp[idx] %}
-      {% assign unique_days = unique_days | push: unique_days_temp[idx] %}
-    {% endif %}
-  {% endfor %}
+  {% assign unique_days = day_list | uniq | sort_natural | reverse %}
 
   {% for this_day in unique_days %}
     {% if this_day == "" or this_day == nil %}{% continue %}{% endif %}
