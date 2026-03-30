@@ -183,10 +183,10 @@
 /* ==========================================================================
    SOCIAL CARDS – specifieke styling
    ========================================================================== */
-
+/*
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
   justify-content: center;
   align-content: start;
@@ -194,7 +194,7 @@
   max-width: 1200px;
   width: 100%;
   padding: 0 1rem;
-}
+}*/
 
 .social-grid .card {
   height: 440px;                    /* vaste hoogte voor social cards */
@@ -395,13 +395,13 @@
   box-shadow: 0 10px 25px rgba(102,179,255,0.35);
 }
 
-/* Divider */
+/* Divider 
 .divider {
   height: 1px;
   background: linear-gradient(to right, transparent, #666, transparent);
   margin: 0.6rem auto;
   width: 65%;
-}
+}*/
 
 /* Extra veiligheid voor hover */
 .card.contribution-card:hover {
@@ -479,12 +479,12 @@
   color: white;
 }
 
-.divider {
-  height: 1px;
+/* .divider {
+  height: 2px;
   background: linear-gradient(to right, transparent, #666, transparent);
   margin: 1rem auto;
   width: 65%;
-}
+} */
 /* SOCIAL CARDS – unified */
 .social-grid .card.social-card {
   min-height: 440px;
@@ -506,7 +506,7 @@
 }
 
 .social-grid .teaser-title {
-  font-size: 1.05rem;
+  font-size: 1.05rem !important;
   font-weight: 600;
   color: #7dd3fc;
   margin: 0.8rem 0 0.4rem;
@@ -531,12 +531,12 @@
   text-align: center;
 }
 
-.divider {
+/* .divider {
   height: 1px;
   background: linear-gradient(to right, transparent, #666, transparent);
   margin: 1rem auto;
   width: 65%;
-}
+} */
 
 /* Contribution card */
 .card.contribution-card .card-extra-content {

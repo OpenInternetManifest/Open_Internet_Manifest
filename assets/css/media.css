@@ -206,12 +206,13 @@
   }
 }
 
-/* Mobile landscape: 2 kolommen */
+/* Mobile landscape: 2 kolommen 
 @media (max-width: 1000px) and (orientation: landscape) {
   .social-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-  }
+    gap: 1.5rem; 
+  }*/
+
 /* Grotere schermen – royalere padding op ultra-wide */
 @media (min-width: 1400px) {
   .content-container {
@@ -281,8 +282,8 @@
 /*@media (max-width: 1024px) {
   .social-grid {
     grid-template-columns: repeat(3, 1fr);
-  }*/
-}
+  }
+}*/
 
 @media (max-width: 768px) {
   .social-post-content {
@@ -300,11 +301,11 @@
     padding-left: 0.5rem;
   }
 
-  .social-grid {
+/*  .social-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
     padding: 0 1rem;
-  }
+  }*/
 
   .social-card {
     height: 410px;
@@ -327,20 +328,20 @@
     height: 70px;
   }
 }
-/* Tablets / small desktop: 3 kolommen */
+/* Tablets / small desktop: 3 kolommen 
 @media (min-width: 501px) and (max-width: 900px) {
   .social-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 
-/* Desktop: probeer 4 kolommen */
+
 @media (min-width: 901px) {
   .social-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     max-width: 1400px;
   }
-}
+}*/
 
 
 

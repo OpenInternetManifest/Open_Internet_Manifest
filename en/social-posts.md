@@ -89,14 +89,14 @@ title: Reality vs Narrative - Social Posts
     {% if day_rvn %}
       {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | default: card_title %}
       {% assign card_url = day_rvn.url | relative_url %}
-      {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser | default: "No RVN content yet for day " | append: this_day | strip_html | truncatewords: 45 %}
+      {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser | default: "No RVN content yet for day "  | strip_html | truncatewords: 45 %}
     {% else %}
       {% assign rvn_teaser = "No RVN yet for day " | append: this_day %}
       {% assign card_url = "#" %}
     {% endif %}
 
     {% if day_teaser %}
-      {% assign teaser_part = day_teaser.teaser_title | default: "Evening Teaser – Day " | append: this_day %}
+      {% assign teaser_part = day_teaser.teaser_title | default: "Evening Teaser – Day "  %}
       {% assign teaser_preview = day_teaser.teaser_text | default: day_teaser.teaser | default: "No teaser yet" | strip_html | truncatewords: 28 %}
     {% else %}
       {% assign teaser_part = "Evening Teaser – Day " | append: this_day %}
