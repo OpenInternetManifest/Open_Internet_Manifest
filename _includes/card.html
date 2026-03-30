@@ -1,11 +1,11 @@
 <!-- _includes/card.html -->
 {% assign card_type = include.type | default: 'guide' %}
 
-{% if card_type == 'contribution' or card_type == 'add' %}
-  <!-- Add cards zijn GEEN link -->
+{% if card_type == 'contribution' or card_type == 'add' or card_type == 'social' %}
+  <!-- Contribution en Social cards zijn GEEN hele link (alleen interne links werken) -->
   <div class="card card--{{ card_type }} {{ include.extra_class | default: '' }}">
 {% else %}
-  <!-- Guides, Theses en Social cards zijn WEL een link -->
+  <!-- Guides en Theses zijn wel een link -->
   {% assign card_href = include.url | default: include.item.url | relative_url | default: '#' %}
   <a href="{{ card_href }}" class="card card--{{ card_type }} {{ include.extra_class | default: '' }}">
 {% endif %}
@@ -62,7 +62,7 @@
     {%- endunless -%}
   </div>
 
-{% if card_type == 'contribution' or card_type == 'add' %}
+{% if card_type == 'contribution' or card_type == 'add' or card_type == 'social' %}
   </div>
 {% else %}
   </a>

@@ -586,3 +586,14 @@
   color: #b0b0b0;
   font-size: 0.93rem;
 }
+/* Social cards zijn geen hele link meer */
+.card.social-card {
+  cursor: default;
+}
+
+/* Zorg dat interne links in social cards klikbaar blijven */
+.card.social-card .teaser-title a,
+.card.social-card .btn-contribute {
+  position: relative;
+  z-index: 10;
+}

@@ -50,25 +50,10 @@ title: Reality vs Narrative - Social Posts
     extra_content=add_extra_content 
   %}
 
-  <!-- Social posts loop -->
-  {% assign all_social_pages = site.pages | where: "lang", "en" | where_exp: "item", "item.path contains 'social-posts/'" %}
-  {% assign rvn_only = all_social_pages | where_exp: "item", "item.path contains '-rvn'" %}
-  {% assign teaser_only = all_social_pages | where_exp: "item", "item.path contains '-teaser'" %}
-
-      {% if day_rvn %}
-      <p style="color:lime; background:#222; padding:5px;">DEBUG Day {{ this_day }}: rvn_title = "{{ day_rvn.rvn_title }}"</p>
-    {% endif %}
-    <!-- Robust social posts pairing - final attempt -->
-    <!-- Ultra robust social posts pairing -->
+  <!-- SOCIAL POSTS LOOP - Nieuwste eerst -->
   {% assign social_posts = site.social-posts | where: "lang", "en" %}
 
-  {% assign unique_days = "" | split: "" %}
-  {% for post in social_posts %}
-    {% if post.day and post.day != "" %}
-      {% assign unique_days = unique_days | push: post.day %}
-    {% endif %}
-  {% endfor %}
-  {% assign unique_days = unique_days | uniq | sort_natural %}
+  {% assign unique_days = social_posts | map: "day" | uniq | sort_natural | reverse %}
 
   {% for this_day in unique_days %}
     {% if this_day == "" or this_day == nil %}{% continue %}{% endif %}
@@ -106,6 +91,14 @@ title: Reality vs Narrative - Social Posts
     {% endif %}
 
     {% capture extra_content %}
+      <div class="rvn-title">
+        {% if day_rvn %}
+          <a href="{{ day_rvn.url | relative_url }}">{{ card_title }}</a>
+        {% else %}
+          {{ card_title }}
+        {% endif %}
+      </div>
+
       <p class="rvn-teaser">{{ rvn_teaser }}</p>
 
       <div class="divider"></div>
@@ -130,4 +123,5 @@ title: Reality vs Narrative - Social Posts
       extra_content=extra_content 
     %}
   {% endfor %}
+
 </div>
