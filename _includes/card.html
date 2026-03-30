@@ -25,7 +25,11 @@
       {%- if card_type contains 'contribution' or card_type == 'add' -%}
         +
       {%- elsif card_type == 'social' and include.number -%}
-        Day {{ include.number }}
+        {%- if page.lang == 'nl' or page.lang == 'NL' -%}
+          Dag {{ include.number }}
+        {%- else -%}
+          Day {{ include.number }}
+        {%- endif -%}
       {%- else -%}
         {{ include.number | default: include.item.nummer | default: include.item.order | default: include.item.day | default: forloop.index | default: 'X' }}
       {%- endif -%}

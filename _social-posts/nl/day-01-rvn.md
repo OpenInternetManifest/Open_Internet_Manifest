@@ -19,7 +19,7 @@ Het narratief zegt vaak:
 
 De realiteit:  
 Bij bijna elk groot incident zien we hetzelfde patroon:  
-- Eén kant mobiliseert meteen op emotie en eerste beelden (“onge wapend! moord!”).  
+- Eén kant mobiliseert meteen op emotie en eerste beelden (“ongewapend! moord!”).  
 - De andere kant roept “gerechtvaardigd” en begint direct te analyseren: frame-by-frame video's, timelines, getuigen, Graham v. Connor-standaard, Supreme Court-rulings.  
 - De emotionele kant negeert vaak nieuwe feiten als ze niet passen (of noemt ze “desinformatie”/“victim blaming”).  
 - De analytische kant past mening aan als feiten veranderen – maar dan is het initiële narratief al viral.
