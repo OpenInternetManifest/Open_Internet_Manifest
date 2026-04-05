@@ -42,7 +42,9 @@ body:
     id: body
     attributes:
       label: Volledige RVN tekst (Markdown)
-      description: Schrijf hier je volledige Reality vs Narrative post. Gebruik Markdown voor opmaak (## headings, **vet**, [links](url), lijsten, etc.).
+      description: |
+        Schrijf hier je volledige Reality vs Narrative post. 
+        Gebruik Markdown voor opmaak (## headings, **vet**, [links](url), - lijsten, etc.).
       placeholder: |
         Het is 1 april 2026.
         
@@ -64,6 +66,7 @@ body:
     id: notes
     attributes:
       label: Extra opmerkingen voor het core team (optioneel)
-      description: 'Bijvoorbeeld: "Gerelateerd aan guide X" of "Graag controleren op feit Y"'
+      description: |
+        Bijvoorbeeld: "Gerelateerd aan guide X" of "Graag controleren op feit Y"
     validations:
       required: false
