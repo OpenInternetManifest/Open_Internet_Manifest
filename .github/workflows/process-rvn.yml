@@ -6,7 +6,6 @@ on:
 
 jobs:
   process-rvn:
-    if: contains(github.event.issue.labels.*.name, 'rvn')
     runs-on: ubuntu-latest
 
     steps:
@@ -14,6 +13,23 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Check if it's an RVN issue
+        id: check
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = context.payload.issue.title.toLowerCase();
+            const labels = context.payload.issue.labels.map(l => l.name.toLowerCase());
+            const isRVN = labels.includes('rvn') || title.includes('[rvn');
+            core.setOutput('is_rvn', isRVN);
+            console.log('Is RVN issue:', isRVN);
+
+      - name: Skip if not RVN
+        if: steps.check.outputs.is_rvn != 'true'
+        run: |
+          echo "Not an RVN issue, skipping."
+          exit 0
 
       - name: Set up Git
         run: |
@@ -23,11 +39,12 @@ jobs:
       - name: Determine next day number
         id: nextday
         run: |
-          # Zoek hoogste dag-nummer in zowel nl als en
-          HIGHEST=$(find _social-posts -name "day-*-rvn.md" | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
+          echo "=== Finding highest day number ==="
+          HIGHEST=$(find _social-posts -name "day-*-rvn.md" 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
           NEXT=$((HIGHEST + 1))
+          echo "Highest day found: $HIGHEST"
+          echo "Next day: $NEXT"
           echo "next_day=$NEXT" >> $GITHUB_OUTPUT
-          echo "Next day number: $NEXT"
 
       - name: Extract issue data
         id: extract
@@ -35,25 +52,26 @@ jobs:
         with:
           script: |
             const issue = context.payload.issue;
-            core.setOutput('title', issue.title.replace(/^\[.*?\]\s*/, '')); // remove [RVN NL] prefix
+            const cleanTitle = issue.title.replace(/^\[.*?\]\s*/, '').trim();
+            core.setOutput('clean_title', cleanTitle);
             core.setOutput('body', issue.body || '');
             core.setOutput('issue_number', issue.number);
 
-      - name: Create RVN files for NL and EN
+      - name: Create RVN files and PR
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Add RVN Day ${{ steps.nextday.outputs.next_day }}"
-          title: "RVN Day ${{ steps.nextday.outputs.next_day }}"
+          title: "RVN Day ${{ steps.nextday.outputs.next_day }} - ${{ steps.extract.outputs.clean_title }}"
           body: |
             Automatically created from Issue #${{ steps.extract.outputs.issue_number }}
 
-            **Original title:** ${{ steps.extract.outputs.title }}
+            **Original title:** ${{ steps.extract.outputs.clean_title }}
 
             ${{ steps.extract.outputs.body }}
 
             ---
-            **Note for core team:** Please review content and merge when ready.
+            **Note for core team:** Please review and merge when ready.
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
           labels: pending-review
           add-paths: |
