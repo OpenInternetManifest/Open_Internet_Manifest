@@ -1,73 +1,61 @@
-name: "RVN Add (English)"
-description: Add a new Reality vs Narrative post in English.
-title: "[RVN EN] "
-labels: ["rvn", "pending-review", "en"]
+name: "Avond Teaser toevoegen (Nederlands)"
+description: Voeg een korte Avond Teaser toe voor een RVN.
+title: "[Teaser NL] "
+labels: ["teaser", "pending-review", "nl"]
 assignees: []
 
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your contribution!  
-        Day number, hashes and filename will be added automatically.
+        Bedankt voor je bijdrage!  
+        De teaser wordt gekoppeld aan een RVN. Nummer en hashes worden automatisch toegevoegd.
 
   - type: dropdown
     id: language
     attributes:
-      label: Language
+      label: Taal
       options:
-        - en
+        - nl
       default: 0
     validations:
       required: true
 
   - type: input
-    id: rvn_title
+    id: teaser_title
     attributes:
-      label: RVN Title
-      placeholder: "April 1st – New Year's Day in the old 13-month calendar"
+      label: Teaser Titel / Dag
+      placeholder: "Dag 46 - Kalenderkaap"
     validations:
       required: true
 
   - type: textarea
-    id: rvn_teaser
+    id: teaser_text
     attributes:
-      label: Teaser
-      description: Short summary (1-3 sentences) that sparks curiosity
-      placeholder: "Why do we still celebrate April 1st as April Fools’ Day when it used to be New Year’s Day?"
-    validations:
-      required: true
-
-  - type: textarea
-    id: body
-    attributes:
-      label: Full RVN text (Markdown)
-      description: |
-        Write your full post here.
-        
-        [→ Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/) (opens in new tab)
+      label: Avond Teaser tekst
+      description: Schrijf een korte, scherpe teaser (max 2-4 zinnen). Dit is wat 's avonds gepost wordt.
       placeholder: |
-        It is April 1st, 2026.
+        Morgen gaan we dieper in op waarom 1 april eigenlijk Nieuwjaarsdag was in het oude 13-maanden stelsel.
         
-        For most people this is April Fools’ Day: a day of jokes and silliness.
+        Spoiler: het heeft niets met grappen te maken.
       render: markdown
     validations:
       required: true
 
   - type: input
-    id: donation_link
+    id: related_rvn_day
     attributes:
-      label: Donation link (optional)
-      description: Ko-fi, Monero, BTC or Stripe link
-      placeholder: "https://ko-fi.com/yourname"
+      label: Gerelateerde RVN dag (optioneel)
+      description: Als deze teaser hoort bij een specifieke RVN, vul dan het dag-nummer in
+      placeholder: "46"
     validations:
       required: false
 
   - type: textarea
     id: notes
     attributes:
-      label: Extra notes for the core team (optional)
+      label: Extra opmerkingen voor het core team (optioneel)
       description: |
-        For example: "Related to guide X" or "Please check fact Y"
+        Bijvoorbeeld: "Hoort bij RVN dag 46" of "Graag iets scherper maken"
     validations:
       required: false
