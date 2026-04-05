@@ -1,0 +1,59 @@
+name: Process New RVN
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-rvn:
+    if: contains(github.event.issue.labels.*.name, 'rvn')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config user.name "OIM Bot"
+          git config user.email "bot@openinternetmanifest.org"
+
+      - name: Extract issue information
+        id: extract
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            core.setOutput('title', issue.title);
+            core.setOutput('body', issue.body || '');
+            core.setOutput('issue_number', issue.number);
+
+      - name: Determine next day number
+        id: nextday
+        run: |
+          # Zoek hoogste dag-nummer in zowel nl als en
+          HIGHEST_EN=$(ls _social-posts/en/day-*-rvn.md 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
+          HIGHEST_NL=$(ls _social-posts/nl/day-*-rvn.md 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
+          NEXT=$(( HIGHEST_EN > HIGHEST_NL ? HIGHEST_EN + 1 : HIGHEST_NL + 1 ))
+          echo "next_day=$NEXT" >> $GITHUB_OUTPUT
+          echo "Next day number: $NEXT"
+
+      - name: Create RVN files and PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add new RVN Day ${{ steps.nextday.outputs.next_day }}"
+          title: "New RVN - Day ${{ steps.nextday.outputs.next_day }}"
+          body: |
+            Automatically created from Issue #${{ steps.extract.outputs.issue_number }}
+
+            **Original Issue Title:** ${{ steps.extract.outputs.title }}
+
+            ${{ steps.extract.outputs.body }}
+          branch: rvn-day-${{ steps.nextday.outputs.next_day }}
+          labels: pending-review
+          add-paths: |
+            _social-posts/en/day-${{ steps.nextday.outputs.next_day }}-rvn.md
+            _social-posts/nl/day-${{ steps.nextday.outputs.next_day }}-rvn.md

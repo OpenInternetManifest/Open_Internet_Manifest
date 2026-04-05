@@ -1,5 +1,5 @@
 name: "Thesis toevoegen (Nederlands)"
-description: Voeg een korte Avond Teaser toe voor een RVN.
+description: Voeg een harde stelling toe aan het Open Internet Manifest.
 title: "[Thesis NL] "
 labels: ["thesis", "pending-review", "nl"]
 assignees: []
@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Bedankt voor je bijdrage!  
-        De teaser wordt gekoppeld aan een RVN. Nummer en hashes worden automatisch toegevoegd.
+        Het nummer en hashes worden automatisch toegevoegd nadat de thesis is goedgekeurd.
 
   - type: dropdown
     id: language
@@ -22,32 +22,21 @@ body:
       required: true
 
   - type: input
-    id: teaser_title
+    id: thesis_title
     attributes:
-      label: Teaser Titel / Dag
-      placeholder: "Dag 46 - Kalenderkaap"
+      label: Thesis (de stelling)
+      placeholder: "Big Tech is niet je vriend, het is je verhuurder."
     validations:
       required: true
 
   - type: textarea
-    id: teaser_text
+    id: explanation
     attributes:
-      label: Avond Teaser tekst
-      description: Schrijf een korte, scherpe teaser (max 2-4 zinnen). Dit is wat 's avonds gepost wordt.
+      label: Korte toelichting (optioneel)
+      description: Een korte uitleg of onderbouwing van de stelling (max 4-6 zinnen)
       placeholder: |
-        Morgen gaan we dieper in op waarom 1 april eigenlijk Nieuwjaarsdag was in het oude 13-maanden stelsel.
-        
-        Spoiler: het heeft niets met grappen te maken.
+        Ze verzamelen niet alleen data — ze bepalen wat je mag zien, denken en kopen.
       render: markdown
-    validations:
-      required: true
-
-  - type: input
-    id: related_rvn_day
-    attributes:
-      label: Gerelateerde RVN dag (optioneel)
-      description: Als deze teaser hoort bij een specifieke RVN, vul dan het dag-nummer in
-      placeholder: "46"
     validations:
       required: false
 
@@ -56,6 +45,6 @@ body:
     attributes:
       label: Extra opmerkingen voor het core team (optioneel)
       description: |
-        Bijvoorbeeld: "Hoort bij RVN dag 46" of "Graag iets scherper maken"
+        Bijvoorbeeld: "Past bij thesis 12" of "Graag controleren op feit X"
     validations:
       required: false
