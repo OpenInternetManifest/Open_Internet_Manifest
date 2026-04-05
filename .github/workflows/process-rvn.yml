@@ -43,7 +43,7 @@ jobs:
             core.setOutput('rvn_title', cleanTitle);
             core.setOutput('body', issue.body || '');
 
-            - name: Create RVN files
+      - name: Create RVN files
         if: steps.check.outputs.is_rvn == 'true'
         run: |
           .github/scripts/create-rvn.sh \
@@ -56,16 +56,13 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          title: "RVN Day ${{ steps.nextday.outputs.next_day }} - ${{ steps.extract.outputs.rvn_title }}"
+          title: "RVN Day ${{ steps.nextday.outputs.next_day }}"
           body: |
-            Automatically created from Issue #${{ github.event.issue.number }}
+            Automatically created from Issue
 
             **RVN Title:** ${{ steps.extract.outputs.rvn_title }}
 
             ${{ steps.extract.outputs.body }}
-
-            ---
-            **Note for core team:** Review the content and merge when ready.
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
           labels: pending-review
           delete-branch: true
