@@ -60,6 +60,6 @@ body:
     id: notes
     attributes:
       label: Extra notes for the core team (optional)
-      description: For example: "Related to guide X" or "Please check fact Y"
+      description: For example; "Related to guide X" or "Please check fact Y"
     validations:
       required: false
