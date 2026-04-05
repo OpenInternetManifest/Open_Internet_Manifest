@@ -14,21 +14,69 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Check if this is an RVN issue
+        id: check
+        run: |
+          TITLE="${{ github.event.issue.title }}"
+          echo "Full Issue Title: $TITLE"
+          
+          if [[ "$TITLE" == *"[RVN"* ]] || [[ "$TITLE" == *"RVN toevoegen"* ]] || [[ "$TITLE" == *"RVN Add"* ]]; then
+            echo "is_rvn=true" >> $GITHUB_OUTPUT
+            echo "Detected as RVN issue"
+          else
+            echo "is_rvn=false" >> $GITHUB_OUTPUT
+            echo "Not detected as RVN issue"
+          fi
+
+      - name: Skip if not RVN
+        if: steps.check.outputs.is_rvn != 'true'
+        run: echo "Skipping because this is not an RVN issue"
+
+      - name: Set up Git
+        if: steps.check.outputs.is_rvn == 'true'
+        run: |
+          git config user.name "OIM Bot"
+          git config user.email "bot@openinternetmanifest.org"
+
       - name: Determine next day number
         id: nextday
+        if: steps.check.outputs.is_rvn == 'true'
         run: |
+          echo "=== Finding highest day number ==="
           HIGHEST=$(find _social-posts -name "day-*-rvn.md" 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
           NEXT=$((HIGHEST + 1))
+          echo "Highest day found: $HIGHEST"
+          echo "Next day: $NEXT"
           echo "next_day=$NEXT" >> $GITHUB_OUTPUT
-          echo "Next day number: $NEXT"
 
-      - name: Create RVN files and PR
+      - name: Extract issue data
+        id: extract
+        if: steps.check.outputs.is_rvn == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const cleanTitle = issue.title.replace(/^\[.*?\]\s*/, '').trim();
+            core.setOutput('clean_title', cleanTitle);
+            core.setOutput('body', issue.body || '');
+            core.setOutput('issue_number', issue.number);
+
+      - name: Create RVN files and Pull Request
+        if: steps.check.outputs.is_rvn == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Add RVN Day ${{ steps.nextday.outputs.next_day }}"
-          title: "RVN Day ${{ steps.nextday.outputs.next_day }}"
-          body: "Automatically created from Issue"
+          title: "RVN Day ${{ steps.nextday.outputs.next_day }} - ${{ steps.extract.outputs.clean_title }}"
+          body: |
+            Automatically created from Issue #${{ steps.extract.outputs.issue_number }}
+
+            **Original title:** ${{ steps.extract.outputs.clean_title }}
+
+            ${{ steps.extract.outputs.body }}
+
+            ---
+            **Note for core team:** Please review the content and merge when ready.
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
           labels: pending-review
           add-paths: |
