@@ -4,6 +4,7 @@ description: A living manifesto for a free, open and decentralized internet
 url: "https://openinternetmanifest.org"
 baseurl: ""
 
+# Collections
 collections:
   guides:
     output: true
@@ -12,34 +13,49 @@ collections:
   social-posts:
     output: true
 
+# Defaults voor alle bestanden
 defaults:
+  # Algemene pagina's in _pages map
+  - scope:
+      path: "_pages"
+    values:
+      layout: default
+      permalink: "/:basename/"     # dit maakt /contribute/ van contribute.md
+
+  # Collections
   - scope:
       path: ""
       type: "guides"
     values:
       layout: default
+
   - scope:
       path: ""
       type: "theses"
     values:
       layout: default
+
   - scope:
       path: ""
       type: "social-posts"
     values:
-      layout: social-posts      # behoud je eigen layout
+      layout: social-posts
+
+  # Taal defaults
   - scope:
       path: "en"
     values:
       lang: "en"
+
   - scope:
       path: "nl"
     values:
       lang: "nl"
-
+      
 include:
   - admin/
-
+  - _pages/ 
+  
 exclude:
   - venv
   - tools

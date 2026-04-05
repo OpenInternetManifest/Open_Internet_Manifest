@@ -1,0 +1,80 @@
+name: "📝 RVN toevoegen (Nederlands)"
+description: Voeg een nieuwe Reality vs Narrative post toe in het Nederlands.
+title: "[RVN] "
+labels: ["rvn", "pending-review", "nl"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Bedankt dat je een RVN wilt bijdragen!**  
+        Vul hieronder alleen de gevraagde velden in. De rest (nummer, hashes, bestandsnaam, etc.) wordt automatisch geregeld.
+
+  - type: dropdown
+    id: lang
+    attributes:
+      label: Taal
+      description: In welke taal schrijf je deze RVN?
+      options:
+        - nl
+      default: "nl"
+    validations:
+      required: true
+
+  - type: input
+    id: rvn_title
+    attributes:
+      label: RVN Titel
+      description: Een duidelijke, pakkende titel voor de RVN (max 80 karakters)
+      placeholder: "1 april – Nieuwjaarsdag in het oude 13-maanden stelsel"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rvn_teaser
+    attributes:
+      label: Teaser / Korte samenvatting
+      description: Een korte teaser (1-3 zinnen) die nieuwsgierigheid opwekt.
+      placeholder: "Waarom vieren we 1 april eigenlijk nog als April Fools’ Day terwijl het ooit Nieuwjaarsdag was?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: Volledige RVN tekst (Markdown)
+      description: Schrijf hier de volledige Reality vs Narrative post. Gebruik Markdown voor opmaak.
+      placeholder: |
+        Het is 1 april 2026.
+        
+        Voor de meeste mensen is dit April Fools’ Day...
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: donation_link
+    attributes:
+      label: Donatie link (optioneel)
+      description: Link naar jouw donatiepagina (Monero, BTC, Ko-fi, Stripe, etc.)
+      placeholder: "https://ko-fi.com/jouwnaam"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra opmerkingen voor het core team (optioneel)
+      description: Bijvoorbeeld; "Dit is gerelateerd aan guide X" of "Graag controleren op feit Y"
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Wat gebeurt er nu?**
+        - Er wordt automatisch een Pull Request aangemaakt met het juiste dag-nummer en placeholders voor hashes.
+        - Het core team reviewt je bijdrage.
+        - Bij goedkeuring wordt alles automatisch ingevuld (hashes, git info, etc.) en gepubliceerd.

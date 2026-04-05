@@ -4,19 +4,52 @@ window.copyPageText = function() {
 
   const clone = mainContent.cloneNode(true);
 
-  const unwanted = [
-    '.integrity-check', '.integrity-content', '.verify-section', '.hash-verifier',
-    '.copy-container', '.copy-feedback', '#verify-feedback', '.verify-feedback',
-    '.community-box', '.donation-section',
-    '.footer-nav', '.site-footer', '.site-footer-credits', '.page-footer',
-    '.banner', '.overlay-text', '.home-container', '.language-buttons',
-    '.language-selector', '.manifest-header', '.manifest-subtitle',
-    '.intro-title', '.intro-text',
-    '.thesis-navigation-arrows', '.nav-arrow', '.nav-arrow-left', '.nav-arrow-right',
-    'button', 'script', 'code', 'nav', 'footer', 'header', 'comments-section', 'comment-notice'
-  ];
+ const unwanted = [
+  // Hash & verify gerelateerd
+  '.integrity-check', '.integrity-content', '.verify-section', '.hash-verifier',
+  '.copy-container', '.copy-feedback', '#verify-feedback', '.verify-feedback',
+
+  // Donatie / community
+  '.community-box', '.donation-section',
+
+  // Footer & navigatie
+  '.footer-nav', '.site-footer', '.site-footer-credits', '.page-footer',
+  '.banner', '.overlay-text',
+
+  // Header / intro elementen
+  '.home-container', '.language-buttons', '.language-selector',
+  '.manifest-header', '.manifest-subtitle', '.intro-title', '.intro-text',
+
+  // Thesis navigatie
+  '.thesis-navigation-arrows', '.nav-arrow', '.nav-arrow-left', '.nav-arrow-right',
+
+  // Algemene elementen die nooit mee mogen
+  'button', 'script', 'code', 'nav', 'footer', 'header',
+
+  // === REACTIES / GISCUS (dit was onvoldoende) ===
+  '.comments-section',          // ← de wrapper uit reactions.html
+  '.comment-notice',            // ← de "Wil je reageren?" paragraaf
+  '#giscus', '.giscus', 'giscus-widget',
+  '.giscus-container', '.giscus-comments', '.giscus-comment', '.giscus-discussion',
+  '[data-giscus]', '.comments', '#comments',
+
+  // Extra veiligheid (soms laadt Giscus extra divs)
+  '.giscus-frame', '.giscus-loading'
+];
 
   clone.querySelectorAll(unwanted.join(', ')).forEach(el => el.remove());
+
+  // Extra agressieve cleanup voor Giscus (want Giscus injecteert soms dynamisch)
+const giscusElements = clone.querySelectorAll('iframe[src*="giscus"], div[class*="giscus"], div[id*="giscus"]');
+giscusElements.forEach(el => el.remove());
+
+// Verwijder ook alle resterende "Reacties" / "Comments" headings
+clone.querySelectorAll('h3, h2').forEach(el => {
+  const txt = el.textContent.trim().toLowerCase();
+  if (txt === 'reacties' || txt === 'comments') {
+    el.remove();
+  }
+});
 
   // Verwijder uitleg over hash (optioneel, maar handig)
   clone.querySelectorAll('p').forEach(p => {
