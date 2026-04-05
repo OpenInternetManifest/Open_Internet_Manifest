@@ -1,0 +1,61 @@
+name: "Evening Teaser Add (English)"
+description: Add a short Evening Teaser for an RVN.
+title: "[Teaser EN] "
+labels: ["teaser", "pending-review", "en"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your contribution!  
+        The teaser will be linked to an RVN. Number and hashes will be added automatically.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - en
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: teaser_title
+    attributes:
+      label: Teaser Title / Day
+      placeholder: "Day 46 - Calendar Hijack"
+    validations:
+      required: true
+
+  - type: textarea
+    id: teaser_text
+    attributes:
+      label: Evening Teaser text
+      description: Write a short, sharp teaser (max 2-4 sentences). This is what will be posted in the evening.
+      placeholder: |
+        Tomorrow we'll dive deeper into why April 1st was actually New Year's Day in the old 13-month calendar.
+        
+        Spoiler: it has nothing to do with jokes.
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: related_rvn_day
+    attributes:
+      label: Related RVN Day (optional)
+      description: If this teaser belongs to a specific RVN, enter the day number here
+      placeholder: "46"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra notes for the core team (optional)
+      description: |
+        For example: "Belongs to RVN Day 46" or "Please make it sharper"
+    validations:
+      required: false

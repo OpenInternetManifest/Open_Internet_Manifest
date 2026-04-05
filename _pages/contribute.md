@@ -22,11 +22,11 @@ lang: nl
       <p>Ontleed een narratief. Laat zien wat ons verteld wordt versus wat er écht gebeurt. Lange, verhaalachtige post met heldere conclusie.</p>
       <div class="add-buttons">
         <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=rvn-nl.yml" 
-           class="add-button primary" target="_blank">
+           class="add-button primary" target="_blank" rel="noopener">
           RVN toevoegen (Nederlands)
         </a>
         <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=rvn-en.yml" 
-           class="add-button secondary" target="_blank">
+           class="add-button secondary" target="_blank" rel="noopener">
           RVN toevoegen (English)
         </a>
       </div>
@@ -47,7 +47,7 @@ lang: nl
     <div class="add-card">
       <div class="add-icon">+</div>
       <h2>Thesis toevoegen</h2>
-      <p>Een harde, beknopte stelling. Max 1-2 zinnen + eventuele korte toelichting.</p>
+      <p>Een harde, beknopte stelling over macht, technologie, centralisatie of vrijheid. Max 1-2 zinnen + korte toelichting.</p>
       <div class="add-buttons">
         <a href="#" class="add-button primary">Thesis toevoegen (Nederlands)</a>
         <a href="#" class="add-button secondary">Thesis toevoegen (English)</a>
@@ -66,4 +66,5 @@ lang: nl
     </div>
 
   </div>
+
 </div>
