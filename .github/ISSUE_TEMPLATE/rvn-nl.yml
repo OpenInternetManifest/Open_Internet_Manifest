@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Bedankt voor je bijdrage!  
-        Vul hieronder de velden in. Nummer, hashes, dag-nummer en bestandsnaam worden automatisch toegevoegd.
+        Nummer, hashes, dag-nummer en bestandsnaam worden automatisch toegevoegd.
 
   - type: dropdown
     id: language
@@ -42,7 +42,9 @@ body:
     id: body
     attributes:
       label: Volledige RVN tekst (Markdown)
-      description: Schrijf hier je volledige Reality vs Narrative post.
+      description: |
+        Schrijf hier je volledige post.  
+        [→ Markdown cheatsheet openen](https://www.markdownguide.org/cheat-sheet/) (nieuw tabblad)
       placeholder: |
         Het is 1 april 2026.
         
