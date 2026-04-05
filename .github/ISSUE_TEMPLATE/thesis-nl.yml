@@ -1,7 +1,7 @@
 name: "Avond Teaser toevoegen (Nederlands)"
 description: Voeg een korte Avond Teaser toe voor een RVN.
-title: "[Teaser NL] "
-labels: ["teaser", "pending-review", "nl"]
+title: "[Thesis NL] "
+labels: ["thesis", "pending-review", "nl"]
 assignees: []
 
 body:
