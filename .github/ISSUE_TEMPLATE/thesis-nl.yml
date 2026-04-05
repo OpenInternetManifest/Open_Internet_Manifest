@@ -1,0 +1,61 @@
+name: "Avond Teaser toevoegen (Nederlands)"
+description: Voeg een korte Avond Teaser toe voor een RVN.
+title: "[Teaser NL] "
+labels: ["teaser", "pending-review", "nl"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor je bijdrage!  
+        De teaser wordt gekoppeld aan een RVN. Nummer en hashes worden automatisch toegevoegd.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Taal
+      options:
+        - nl
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: teaser_title
+    attributes:
+      label: Teaser Titel / Dag
+      placeholder: "Dag 46 - Kalenderkaap"
+    validations:
+      required: true
+
+  - type: textarea
+    id: teaser_text
+    attributes:
+      label: Avond Teaser tekst
+      description: Schrijf een korte, scherpe teaser (max 2-4 zinnen). Dit is wat 's avonds gepost wordt.
+      placeholder: |
+        Morgen gaan we dieper in op waarom 1 april eigenlijk Nieuwjaarsdag was in het oude 13-maanden stelsel.
+        
+        Spoiler: het heeft niets met grappen te maken.
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: related_rvn_day
+    attributes:
+      label: Gerelateerde RVN dag (optioneel)
+      description: Als deze teaser hoort bij een specifieke RVN, vul dan het dag-nummer in
+      placeholder: "46"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra opmerkingen voor het core team (optioneel)
+      description: |
+        Bijvoorbeeld: "Hoort bij RVN dag 46" of "Graag iets scherper maken"
+    validations:
+      required: false

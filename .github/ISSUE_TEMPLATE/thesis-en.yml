@@ -1,0 +1,50 @@
+name: "Thesis Add (English)"
+description: Add a hard thesis to the Open Internet Manifest.
+title: "[Thesis EN] "
+labels: ["thesis", "pending-review", "en"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your contribution!  
+        The number and hashes will be added automatically after approval.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - en
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: thesis_title
+    attributes:
+      label: Thesis (the statement)
+      placeholder: "Big Tech is not your friend, it is your landlord."
+    validations:
+      required: true
+
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Short explanation (optional)
+      description: A short explanation or substantiation of the thesis (max 4-6 sentences)
+      placeholder: |
+        They don't just collect data — they decide what you are allowed to see, think and buy.
+      render: markdown
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra notes for the core team (optional)
+      description: |
+        For example: "Fits with thesis 12" or "Please check fact X"
+    validations:
+      required: false

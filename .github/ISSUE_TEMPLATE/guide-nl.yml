@@ -1,0 +1,74 @@
+name: "Gids toevoegen (Nederlands)"
+description: Voeg een praktische gids toe aan het Open Internet Manifest.
+title: "[Gids NL] "
+labels: ["guide", "pending-review", "nl"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor je bijdrage!  
+        Het nummer, difficulty level en hashes worden automatisch toegevoegd.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Taal
+      options:
+        - nl
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: guide_title
+    attributes:
+      label: Titel van de Gids
+      placeholder: "Je eigen Umbrel node opzetten in 30 minuten"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Moeilijkheidsgraad
+      options:
+        - beginner
+        - intermediate
+        - advanced
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: guide_teaser
+    attributes:
+      label: Korte beschrijving / Teaser
+      description: Een korte introductie van de gids (1-3 zinnen)
+      placeholder: "Leer hoe je een volledige Umbrel node installeert op een oude Intel NUC zonder dat je Linux-expert hoeft te zijn."
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: Volledige Gids (Markdown)
+      description: Schrijf hier de volledige stap-voor-stap handleiding.
+      placeholder: |
+        ## Wat heb je nodig?
+        
+        - Een oude computer of NUC
+        - Een USB-stick met minimaal 16GB
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra opmerkingen voor het core team (optioneel)
+      description: |
+        Bijvoorbeeld: "Bevat screenshots" of "Graag controleren op veiligheid"
+    validations:
+      required: false
