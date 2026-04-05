@@ -21,12 +21,18 @@ lang: nl
       <h2>RVN toevoegen</h2>
       <p>Ontleed een narratief. Laat zien wat ons verteld wordt versus wat er écht gebeurt. Lange, verhaalachtige post met heldere conclusie.</p>
       <div class="add-buttons">
-        <a href="#" class="add-button primary">RVN toevoegen (Nederlands)</a>
-        <a href="#" class="add-button secondary">RVN toevoegen (English)</a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=rvn-nl.yml" 
+           class="add-button primary" target="_blank">
+          RVN toevoegen (Nederlands)
+        </a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=rvn-en.yml" 
+           class="add-button secondary" target="_blank">
+          RVN toevoegen (English)
+        </a>
       </div>
     </div>
 
-    <!-- Teaser -->
+    <!-- Avond Teaser -->
     <div class="add-card">
       <div class="add-icon">+</div>
       <h2>Avond Teaser toevoegen</h2>
@@ -48,7 +54,7 @@ lang: nl
       </div>
     </div>
 
-    <!-- Guide -->
+    <!-- Gids -->
     <div class="add-card">
       <div class="add-icon">+</div>
       <h2>Gids toevoegen</h2>
