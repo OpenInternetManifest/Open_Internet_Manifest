@@ -42,7 +42,11 @@ body:
     id: body
     attributes:
       label: Volledige RVN tekst (Markdown)
-      description: Schrijf hier je volledige Reality vs Narrative post
+      description: Schrijf hier je volledige Reality vs Narrative post. Gebruik Markdown voor opmaak (## headings, **vet**, [links](url), lijsten, etc.).
+      placeholder: |
+        Het is 1 april 2026.
+        
+        Voor de meeste mensen is dit April Fools’ Day: een dag van grappen en gekkigheid.
       render: markdown
     validations:
       required: true
@@ -60,6 +64,6 @@ body:
     id: notes
     attributes:
       label: Extra opmerkingen voor het core team (optioneel)
-      description: Bijvoorbeeld verwijzing naar een guide of iets wat we moeten controleren
+      description: 'Bijvoorbeeld: "Gerelateerd aan guide X" of "Graag controleren op feit Y"'
     validations:
       required: false
