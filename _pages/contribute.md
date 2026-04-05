@@ -38,8 +38,14 @@ lang: nl
       <h2>Avond Teaser toevoegen</h2>
       <p>Korte, scherpe teaser voor een RVN. Ideaal om ’s avonds te posten en nieuwsgierigheid op te wekken.</p>
       <div class="add-buttons">
-        <a href="#" class="add-button primary">Teaser toevoegen (Nederlands)</a>
-        <a href="#" class="add-button secondary">Teaser toevoegen (English)</a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=teaser-nl.yml" 
+           class="add-button primary" target="_blank" rel="noopener">
+          Teaser toevoegen (Nederlands)
+        </a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=teaser-en.yml" 
+           class="add-button secondary" target="_blank" rel="noopener">
+          Teaser toevoegen (English)
+        </a>
       </div>
     </div>
 
@@ -49,8 +55,14 @@ lang: nl
       <h2>Thesis toevoegen</h2>
       <p>Een harde, beknopte stelling over macht, technologie, centralisatie of vrijheid. Max 1-2 zinnen + korte toelichting.</p>
       <div class="add-buttons">
-        <a href="#" class="add-button primary">Thesis toevoegen (Nederlands)</a>
-        <a href="#" class="add-button secondary">Thesis toevoegen (English)</a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=thesis-nl.yml" 
+           class="add-button primary" target="_blank" rel="noopener">
+          Thesis toevoegen (Nederlands)
+        </a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=thesis-en.yml" 
+           class="add-button secondary" target="_blank" rel="noopener">
+          Thesis toevoegen (English)
+        </a>
       </div>
     </div>
 
