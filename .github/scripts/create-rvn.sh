@@ -5,7 +5,7 @@ TITLE=$2
 BODY=$3
 
 # English file
-cat > _social-posts/en/day-${DAY}-rvn.md << EOF
+cat > _social-posts/en/day-${DAY}-rvn.md << 'EOF'
 ---
 layout: social-posts
 lang: en
@@ -26,7 +26,7 @@ ${BODY}
 EOF
 
 # Dutch file
-cat > _social-posts/nl/day-${DAY}-rvn.md << EOF
+cat > _social-posts/nl/day-${DAY}-rvn.md << 'EOF'
 ---
 layout: social-posts
 lang: nl
@@ -46,4 +46,4 @@ git_commit_date: ""
 ${BODY}
 EOF
 
-echo "Created RVN Day ${DAY} for both languages"
+echo "✅ Created RVN Day ${DAY} for EN and NL"
