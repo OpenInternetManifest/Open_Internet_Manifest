@@ -14,72 +14,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Debug - Issue details
-        run: |
-          echo "Issue Title: ${{ github.event.issue.title }}"
-          echo "Labels: ${{ toJson(github.event.issue.labels.*.name) }}"
-          echo "Is RVN? Checking..."
-
-      - name: Check if RVN issue
-        id: is_rvn
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const title = context.payload.issue.title.toLowerCase();
-            const labels = context.payload.issue.labels.map(l => l.name.toLowerCase());
-            const isRVN = labels.includes('rvn') || title.includes('rvn');
-            core.setOutput('is_rvn', isRVN);
-            console.log('Detected as RVN issue:', isRVN);
-
-      - name: Skip if not RVN
-        if: steps.is_rvn.outputs.is_rvn != 'true'
-        run: echo "Not an RVN issue → skipping"
-
-      - name: Set up Git
-        if: steps.is_rvn.outputs.is_rvn == 'true'
-        run: |
-          git config user.name "OIM Bot"
-          git config user.email "bot@openinternetmanifest.org"
-
       - name: Determine next day number
         id: nextday
-        if: steps.is_rvn.outputs.is_rvn == 'true'
         run: |
-          echo "=== Finding highest day number ==="
           HIGHEST=$(find _social-posts -name "day-*-rvn.md" 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
           NEXT=$((HIGHEST + 1))
-          echo "Highest day found: $HIGHEST"
-          echo "Next day: $NEXT"
           echo "next_day=$NEXT" >> $GITHUB_OUTPUT
+          echo "Next day number: $NEXT"
 
-      - name: Extract issue data
-        id: extract
-        if: steps.is_rvn.outputs.is_rvn == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const issue = context.payload.issue;
-            const cleanTitle = issue.title.replace(/^\[.*?\]\s*/, '').trim();
-            core.setOutput('clean_title', cleanTitle);
-            core.setOutput('body', issue.body || '');
-            core.setOutput('issue_number', issue.number);
-
-      - name: Create RVN files and Pull Request
-        if: steps.is_rvn.outputs.is_rvn == 'true'
+      - name: Create RVN files and PR
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Add RVN Day ${{ steps.nextday.outputs.next_day }}"
-          title: "RVN Day ${{ steps.nextday.outputs.next_day }} - ${{ steps.extract.outputs.clean_title }}"
-          body: |
-            Automatically created from Issue #${{ steps.extract.outputs.issue_number }}
-
-            **Original title:** ${{ steps.extract.outputs.clean_title }}
-
-            ${{ steps.extract.outputs.body }}
-
-            ---
-            **Note for core team:** Please review the content and merge when ready.
+          title: "RVN Day ${{ steps.nextday.outputs.next_day }}"
+          body: "Automatically created from Issue"
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
           labels: pending-review
           add-paths: |
