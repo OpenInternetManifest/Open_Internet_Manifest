@@ -72,8 +72,15 @@ lang: nl
       <h2>Gids toevoegen</h2>
       <p>Praktische, stap-voor-stap handleiding om los te komen van Big Tech of je eigen node te bouwen.</p>
       <div class="add-buttons">
-        <a href="#" class="add-button primary">Gids toevoegen (Nederlands)</a>
-        <a href="#" class="add-button secondary">Gids toevoegen (English)</a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=guide-nl.yml" 
+           class="add-button primary" target="_blank" rel="noopener">
+          Guide toevoegen (Nederlands)
+        </a>
+        <a href="https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?template=guide-en.yml" 
+           class="add-button secondary" target="_blank" rel="noopener">
+          Guide toevoegen (English)
+        </a>
+
       </div>
     </div>
 
