@@ -16,50 +16,63 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Check if this is a merged RVN PR
-        id: check
-        run: |
-          if git log --oneline -1 | grep -q "RVN Day"; then
-            echo "is_rvn_merge=true" >> $GITHUB_OUTPUT
-            echo "✅ This is a merged RVN PR"
-          else
-            echo "is_rvn_merge=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: Set up Git
-        if: steps.check.outputs.is_rvn_merge == 'true'
         run: |
           git config user.name "OIM Bot"
           git config user.email "bot@openinternetmanifest.org"
 
       - name: Calculate hashes and update files
-        if: steps.check.outputs.is_rvn_merge == 'true'
         run: |
-          # Find the RVN files that were just merged
-          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E 'day-[0-9]+-rvn\.md$' || echo "")
-          
+          echo "Starting hash calculation for merged RVN files..."
+
+          # Find RVN files changed in this merge
+          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
+
           for file in $FILES; do
-            echo "Processing $file"
-            
-            # Calculate SHA256 of the content (without frontmatter hashes)
-            CONTENT_HASH=$(sed '/^website_sha256:/,/^git_commit_/d' "$file" | sha256sum | awk '{print $1}')
-            
-            COMMIT_HASH=$(git rev-parse HEAD)
-            COMMIT_URL="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${COMMIT_HASH}"
-            COMMIT_DATE=$(git log -1 --format=%cd --date=iso)
-            
-            # Update the file with hashes
-            sed -i "s|website_sha256: \"\"|website_sha256: \"${CONTENT_HASH}\"|" "$file"
-            sed -i "s|git_commit_hash: \"\"|git_commit_hash: \"${COMMIT_HASH}\"|" "$file"
-            sed -i "s|git_commit_url: \"\"|git_commit_url: \"${COMMIT_URL}\"|" "$file"
-            sed -i "s|git_commit_date: \"\"|git_commit_date: \"${COMMIT_DATE}\"|" "$file"
-            
-            echo "Updated hashes for $file"
+            echo "Processing: $file"
+
+            # Extract content after frontmatter
+            raw_content=$(sed -n '/^---$/,/^---$/!p' "$file" | tail -n +2)
+
+            # Create fuzzy canonical text (same for all social platforms)
+            fuzzy=$(echo "$raw_content" | \
+              sed '/^$/d' | \
+              sed 's/^[ \t]*//g' | \
+              sed 's/[ \t]*$//g' | \
+              tr -d '\r' | \
+              tr '[:upper:]' '[:lower:]' | \
+              sed 's/[ \t]\+/ /g' | \
+              sed '/^$/d')
+
+            # Calculate hashes
+            website_hash=$(echo -n "$raw_content" | sha256sum | awk '{print $1}')
+            fuzzy_hash=$(echo -n "$fuzzy" | sha256sum | awk '{print $1}')
+
+            commit_hash=$(git rev-parse HEAD)
+            commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
+            commit_date=$(git log -1 --format=%cd --date=iso-strict)
+
+            # Update frontmatter
+            sed -i "s|website_sha256: \"\"|website_sha256: \"${website_hash}\"|" "$file"
+            sed -i "s|social_x_sha256: \"\"|social_x_sha256: \"${fuzzy_hash}\"|" "$file"
+            sed -i "s|social_fb_sha256: \"\"|social_fb_sha256: \"${fuzzy_hash}\"|" "$file"
+            sed -i "s|social_share_sha256: \"\"|social_share_sha256: \"${fuzzy_hash}\"|" "$file"
+            sed -i "s|git_commit_hash: \"\"|git_commit_hash: \"${commit_hash}\"|" "$file"
+            sed -i "s|git_commit_url: \"\"|git_commit_url: \"${commit_url}\"|" "$file"
+            sed -i "s|git_commit_date: \"\"|git_commit_date: \"${commit_date}\"|" "$file"
+
+            echo "✓ Hashes added to $file"
+            echo "  Website hash : ${website_hash:0:16}..."
+            echo "  Fuzzy hash   : ${fuzzy_hash:0:16}..."
           done
 
       - name: Commit updated hashes
-        if: steps.check.outputs.is_rvn_merge == 'true'
         run: |
-          git add _social-posts/en/day-*-rvn.md _social-posts/nl/day-*-rvn.md
-          git commit -m "Add integrity hashes and git info to merged RVN" || echo "No changes to commit"
-          git push
+          git add _social-posts/*/day-*-rvn.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add integrity hashes and git info to merged RVN posts"
+            git push
+            echo "✅ Hashes committed to main"
+          fi
