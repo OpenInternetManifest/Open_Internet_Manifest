@@ -1,11 +1,11 @@
 #!/bin/bash
 
-DAY=$1
-TITLE=$2
-BODY=$3
+DAY="$1"
+TITLE="$2"
+BODY="$3"
 
 # English file
-cat > _social-posts/en/day-${DAY}-rvn.md << 'EOF'
+cat > _social-posts/en/day-${DAY}-rvn.md << 'EOT'
 ---
 layout: social-posts
 lang: en
@@ -22,11 +22,13 @@ git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
-${BODY}
-EOF
+EOT
+
+# Append the body safely
+printf '%s\n' "$BODY" >> _social-posts/en/day-${DAY}-rvn.md
 
 # Dutch file
-cat > _social-posts/nl/day-${DAY}-rvn.md << 'EOF'
+cat > _social-posts/nl/day-${DAY}-rvn.md << 'EOT'
 ---
 layout: social-posts
 lang: nl
@@ -43,7 +45,9 @@ git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
-${BODY}
-EOF
+EOT
+
+printf '%s\n' "$BODY" >> _social-posts/nl/day-${DAY}-rvn.md
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
+ls -l _social-posts/en/day-${DAY}-rvn.md _social-posts/nl/day-${DAY}-rvn.md
