@@ -6,7 +6,10 @@ BODY_FILE="$3"
 
 echo "Script started with DAY=$DAY, TITLE=$TITLE"
 
-# English file - without single quotes so variables expand
+# Clean the body: remove the form headers and keep only the actual content
+clean_body=$(sed '/^### /d' "$BODY_FILE" | sed '/^_No response_/d' | sed 's/^## .*//')
+
+# English file
 cat > _social-posts/en/day-${DAY}-rvn.md << EOT
 ---
 layout: social-posts
@@ -24,9 +27,8 @@ git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
+${clean_body}
 EOT
-
-cat "$BODY_FILE" >> _social-posts/en/day-${DAY}-rvn.md
 
 # Dutch file
 cat > _social-posts/nl/day-${DAY}-rvn.md << EOT
@@ -46,10 +48,9 @@ git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
+${clean_body}
 EOT
 
-cat "$BODY_FILE" >> _social-posts/nl/day-${DAY}-rvn.md
-
 echo "✅ Successfully created RVN Day ${DAY} for both languages"
-echo "First 25 lines of English file:"
-head -n 25 _social-posts/en/day-${DAY}-rvn.md
+echo "First 30 lines of English file:"
+head -n 30 _social-posts/en/day-${DAY}-rvn.md
