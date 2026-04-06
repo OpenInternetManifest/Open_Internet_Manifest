@@ -2,7 +2,9 @@
 
 DAY="$1"
 TITLE="$2"
-BODY="$3"
+
+# Body comes from a temporary file (safer)
+BODY_FILE="$3"
 
 # English file
 cat > _social-posts/en/day-${DAY}-rvn.md << 'EOT'
@@ -24,8 +26,7 @@ git_commit_date: ""
 ---
 EOT
 
-# Append the body safely
-printf '%s\n' "$BODY" >> _social-posts/en/day-${DAY}-rvn.md
+cat "$BODY_FILE" >> _social-posts/en/day-${DAY}-rvn.md
 
 # Dutch file
 cat > _social-posts/nl/day-${DAY}-rvn.md << 'EOT'
@@ -47,7 +48,8 @@ git_commit_date: ""
 ---
 EOT
 
-printf '%s\n' "$BODY" >> _social-posts/nl/day-${DAY}-rvn.md
+cat "$BODY_FILE" >> _social-posts/nl/day-${DAY}-rvn.md
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
 ls -l _social-posts/en/day-${DAY}-rvn.md _social-posts/nl/day-${DAY}-rvn.md
+cat _social-posts/en/day-${DAY}-rvn.md | head -n 30   # debug: show first 30 lines

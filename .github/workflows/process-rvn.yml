@@ -51,10 +51,15 @@ jobs:
         if: steps.check.outputs.is_rvn == 'true'
         run: |
           echo "Creating files for day ${{ steps.nextday.outputs.next_day }}"
+          
+          # Save body to temporary file to avoid shell interpretation
+          echo "${{ steps.extract.outputs.body }}" > /tmp/rvn_body.txt
+          
           .github/scripts/create-rvn.sh \
             ${{ steps.nextday.outputs.next_day }} \
             "${{ steps.extract.outputs.rvn_title }}" \
-            "${{ steps.extract.outputs.body }}"
+            "/tmp/rvn_body.txt"
+          
           ls -la _social-posts/en/day-*.md _social-posts/nl/day-*.md || echo "No files found"
 
       - name: Create Pull Request
