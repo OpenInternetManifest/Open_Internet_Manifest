@@ -1,12 +1,11 @@
 #!/bin/bash
-# OIM Hash Debug Tool
-# Gebruik: ./tools/debug-hashes.sh path/to/day-XX-rvn.md
+# OIM Hash Debug Tool - Robuuste versie
+# Gebruik: ./tools/debug-hashes.sh _social-posts/nl/day-49-rvn.md
 
 FILE="$1"
 
 if [ -z "$FILE" ] || [ ! -f "$FILE" ]; then
   echo "Usage: $0 path/to/day-XX-rvn.md"
-  echo "Example: $0 _social-posts/nl/day-47-rvn.md"
   exit 1
 fi
 
@@ -14,19 +13,23 @@ echo "=== OIM Hash Debug Tool ==="
 echo "File: $FILE"
 echo "=================================================================="
 
-# 1. Raw content after frontmatter
+# Verwijder Git diff + tekens en extract pure content na frontmatter
+raw=$(sed 's/^\+ //' "$FILE" | \
+      sed -n '/^---$/,/^---$/!p' | \
+      tail -n +2 | \
+      sed '/^$/d')
+
 echo "1. RAW CONTENT (after frontmatter):"
-raw=$(sed -n '/^---$/,/^---$/!p' "$FILE" | tail -n +2)
 echo "$raw"
 echo "------------------------------------------------------------------"
 
-# 2. Website hash (exact zoals de site het zou zien)
+# Website hash (exact zoals Jekyll het zou renderen)
 website_hash=$(echo -n "$raw" | sha256sum | awk '{print $1}')
 echo "2. website_sha256 (raw content):"
 echo "$website_hash"
 echo "------------------------------------------------------------------"
 
-# 3. Fuzzy canonical text (deze gebruiken we voor alle social hashes)
+# Fuzzy canonical text voor alle social platforms
 fuzzy=$(echo "$raw" | \
   sed '/^$/d' | \
   sed 's/^[ \t]*//g' | \
@@ -44,9 +47,10 @@ echo "4. Fuzzy social hash (x, fb, share):"
 echo "$fuzzy_hash"
 echo "------------------------------------------------------------------"
 
-# 5. Huidige hashes uit frontmatter
+# Toon huidige frontmatter hashes
 echo "5. Huidige hashes in frontmatter:"
-grep -E "(website_sha256|social_.*_sha256|git_commit)" "$FILE" || echo "Geen hashes gevonden"
-echo "=================================================================="
+grep -E "(rvn_title|rvn_teaser|donation_link|website_sha256|social_.*_sha256|git_commit)" "$FILE"
 
-echo "Klaar. Vergelijk de berekende hashes met wat er in de file staat."
+echo "=================================================================="
+echo "Vergelijking klaar."
+echo "Als de berekende hashes overeenkomen met de file, is alles correct."
