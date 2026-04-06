@@ -6,16 +6,30 @@ BODY_FILE="$3"
 
 echo "Script started with DAY=$DAY, TITLE=$TITLE"
 
-# Clean the body aggressively: remove form headers, plus signs, empty lines, etc.
+# Very aggressive cleaning of the Issue Form output
 clean_body=$(cat "$BODY_FILE" | \
+  # Remove all lines starting with ### 
   sed '/^### /d' | \
-  sed '/^_No response_/d' | \
+  # Remove all lines starting with ## 
   sed '/^## /d' | \
-  sed 's/^\+ //g' | \
-  sed '/^$/N;/^\n$/D' | \
-  sed 's/^\s*//g' | \
+  # Remove form field labels
+  sed '/^Taal$/d' | \
+  sed '/^RVN Titel$/d' | \
+  sed '/^Teaser$/d' | \
+  sed '/^Volledige RVN tekst (Markdown)$/d' | \
+  sed '/^Donatie link (optioneel)$/d' | \
+  sed '/^Extra opmerkingen voor het core team (optioneel)$/d' | \
+  # Remove "No response" and empty lines
+  sed '/^_No response_$/d' | \
   sed '/^nl$/d' | \
-  sed '/^markdown$/d')
+  sed '/^markdown$/d' | \
+  # Remove leading + signs and extra spaces
+  sed 's/^\+ //g' | \
+  sed 's/^\s*//g' | \
+  # Remove completely empty lines
+  sed '/^$/d' | \
+  # Keep only the actual content after the last form field
+  tail -n +10)
 
 # English file
 cat > _social-posts/en/day-${DAY}-rvn.md << EOT
@@ -38,7 +52,7 @@ git_commit_date: ""
 ${clean_body}
 EOT
 
-# Dutch file
+# Dutch file (same content for now)
 cat > _social-posts/nl/day-${DAY}-rvn.md << EOT
 ---
 layout: social-posts
@@ -59,6 +73,6 @@ git_commit_date: ""
 ${clean_body}
 EOT
 
-echo "✅ Successfully created clean RVN Day ${DAY} for both languages"
-echo "First 40 lines of English file:"
+echo "✅ Successfully created RVN Day ${DAY}"
+echo "=== First 40 lines of English file ==="
 head -n 40 _social-posts/en/day-${DAY}-rvn.md
