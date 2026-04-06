@@ -6,8 +6,16 @@ BODY_FILE="$3"
 
 echo "Script started with DAY=$DAY, TITLE=$TITLE"
 
-# Clean the body: remove the form headers and keep only the actual content
-clean_body=$(sed '/^### /d' "$BODY_FILE" | sed '/^_No response_/d' | sed 's/^## .*//')
+# Clean the body aggressively: remove form headers, plus signs, empty lines, etc.
+clean_body=$(cat "$BODY_FILE" | \
+  sed '/^### /d' | \
+  sed '/^_No response_/d' | \
+  sed '/^## /d' | \
+  sed 's/^\+ //g' | \
+  sed '/^$/N;/^\n$/D' | \
+  sed 's/^\s*//g' | \
+  sed '/^nl$/d' | \
+  sed '/^markdown$/d')
 
 # English file
 cat > _social-posts/en/day-${DAY}-rvn.md << EOT
@@ -51,6 +59,6 @@ git_commit_date: ""
 ${clean_body}
 EOT
 
-echo "✅ Successfully created RVN Day ${DAY} for both languages"
-echo "First 30 lines of English file:"
-head -n 30 _social-posts/en/day-${DAY}-rvn.md
+echo "✅ Successfully created clean RVN Day ${DAY} for both languages"
+echo "First 40 lines of English file:"
+head -n 40 _social-posts/en/day-${DAY}-rvn.md
