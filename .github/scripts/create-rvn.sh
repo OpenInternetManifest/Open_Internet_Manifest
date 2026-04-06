@@ -2,9 +2,9 @@
 
 DAY="$1"
 TITLE="$2"
-
-# Body comes from a temporary file (safer)
 BODY_FILE="$3"
+
+echo "Script started with DAY=$DAY, TITLE=$TITLE, BODY_FILE=$BODY_FILE"
 
 # English file
 cat > _social-posts/en/day-${DAY}-rvn.md << 'EOT'
@@ -26,9 +26,10 @@ git_commit_date: ""
 ---
 EOT
 
+# Append body safely
 cat "$BODY_FILE" >> _social-posts/en/day-${DAY}-rvn.md
 
-# Dutch file
+# Dutch file (same)
 cat > _social-posts/nl/day-${DAY}-rvn.md << 'EOT'
 ---
 layout: social-posts
@@ -50,6 +51,7 @@ EOT
 
 cat "$BODY_FILE" >> _social-posts/nl/day-${DAY}-rvn.md
 
-echo "✅ Created RVN Day ${DAY} for EN and NL"
+echo "✅ Successfully created RVN Day ${DAY} for both languages"
 ls -l _social-posts/en/day-${DAY}-rvn.md _social-posts/nl/day-${DAY}-rvn.md
-cat _social-posts/en/day-${DAY}-rvn.md | head -n 30   # debug: show first 30 lines
+echo "First 30 lines of English file:"
+head -n 30 _social-posts/en/day-${DAY}-rvn.md
