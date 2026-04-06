@@ -26,14 +26,16 @@ jobs:
             echo "❌ Not an RVN issue"
           fi
 
-      - name: Determine next day
+      - name: Determine next day number
         id: nextday
         if: steps.check.outputs.is_rvn == 'true'
         run: |
           HIGHEST=$(find _social-posts -name "day-*-rvn.md" 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
-          NEXT=$((HIGHEST + 1))
+          # Also check open PR branches for pending days
+          PENDING=$(git ls-remote --heads origin "rvn-day-*" | sed 's/.*rvn-day-//' | sort -n | tail -1 || echo "0")
+          NEXT=$(( HIGHEST > PENDING ? HIGHEST + 1 : PENDING + 1 ))
           echo "next_day=$NEXT" >> $GITHUB_OUTPUT
-          echo "Next day number: $NEXT"
+          echo "Highest on main: $HIGHEST | Pending: $PENDING | Next: $NEXT"
 
       - name: Extract data
         id: extract
