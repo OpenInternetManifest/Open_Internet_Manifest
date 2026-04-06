@@ -6,7 +6,8 @@ on:
 
 jobs:
   process-rvn-merge:
-    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'pending-review')
+    # Trigger on merged PRs that contain "RVN" in the title (more reliable)
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.title, 'RVN')
     runs-on: ubuntu-latest
 
     steps:
@@ -25,8 +26,13 @@ jobs:
         run: |
           echo "Starting hash calculation for merged RVN files..."
 
-          # Find RVN files changed in this merge
+          # Find RVN files changed in the last merge
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
+
+          if [ -z "$FILES" ]; then
+            echo "No RVN files found in this merge. Skipping."
+            exit 0
+          fi
 
           for file in $FILES; do
             echo "Processing: $file"
@@ -34,15 +40,14 @@ jobs:
             # Extract content after frontmatter
             raw_content=$(sed -n '/^---$/,/^---$/!p' "$file" | tail -n +2)
 
-            # Create fuzzy canonical text (same for all social platforms)
+            # Fuzzy canonical text for all social platforms
             fuzzy=$(echo "$raw_content" | \
               sed '/^$/d' | \
               sed 's/^[ \t]*//g' | \
               sed 's/[ \t]*$//g' | \
               tr -d '\r' | \
               tr '[:upper:]' '[:lower:]' | \
-              sed 's/[ \t]\+/ /g' | \
-              sed '/^$/d')
+              sed 's/[ \t]\+/ /g')
 
             # Calculate hashes
             website_hash=$(echo -n "$raw_content" | sha256sum | awk '{print $1}')
@@ -62,8 +67,6 @@ jobs:
             sed -i "s|git_commit_date: \"\"|git_commit_date: \"${commit_date}\"|" "$file"
 
             echo "✓ Hashes added to $file"
-            echo "  Website hash : ${website_hash:0:16}..."
-            echo "  Fuzzy hash   : ${fuzzy_hash:0:16}..."
           done
 
       - name: Commit updated hashes
@@ -74,5 +77,5 @@ jobs:
           else
             git commit -m "Add integrity hashes and git info to merged RVN posts"
             git push
-            echo "✅ Hashes committed to main"
+            echo "✅ Hashes successfully committed to main"
           fi
