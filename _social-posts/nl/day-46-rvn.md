@@ -1,7 +1,7 @@
 ---
 layout: social-posts
-lang: en
-day: 51
+lang: nl
+day: 46
 rvn_title: "Why is a Jewish Jesus the reason to be Christian?"
 rvn_teaser: "**RVN: Why is a Jewish Jesus the reason to be Christian? – Easter and Fulfillment** 🌀"
 donation_link: ""
