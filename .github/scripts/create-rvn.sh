@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Final version: robuust tegen lege regels + ### headings
+# create-rvn.sh - Laatste robuuste versie (behoudt headings en newlines)
 
 DAY="$1"
 TITLE="$2"
@@ -22,31 +22,31 @@ DONATION=$(awk '
   flag && NF {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | tr -d '\n' | sed 's/[ \t]\+$//')
 
-# Extract body
+# Extract FULL body - zeer robuust
 clean_body=$(awk '
   /### Volledige RVN tekst \(Markdown\)/ {found=1; next}
   found && /^### / && !/Volledige RVN tekst/ {exit}
   found {print}
 ' "$BODY_FILE")
 
-# Cleanup: verwijder GitHub artifacts + problematische lege regels voor ###
+# Verwijder alleen GitHub artifacts, behoud ALLE Markdown inclusief ###
 clean_body=$(echo "$clean_body" | \
   sed 's/^\+ //g' | \
   sed '/^```markdown$/d' | \
   sed '/^```$/d' | \
-  sed '/^_No response_$/d' | \
-  sed ':a; N; $!ba; s/\n\n###/\n###/g' )   # verwijder lege regel direct voor ###
+  sed '/^_No response_$/d')
 
-# Fallback
+# Fallback als body leeg is
 if [ -z "$(echo "$clean_body" | tr -d ' \n\t')" ]; then
+  echo "Warning: Using full fallback"
   clean_body=$(cat "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```/d' | sed '/^_No response_$/d')
 fi
 
 echo "Body length: ${#clean_body} characters"
 
-# Create files
+# Create files - gebruik heredoc met single quotes om newlines te behouden
 for LANG in en nl; do
-  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT'
+  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOF'
 ---
 layout: social-posts
 lang: LANG_PLACEHOLDER
@@ -63,14 +63,20 @@ git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
-BODY_PLACEHOLDER
-EOT
+EOF
 
-  sed -i "s|LANG_PLACEHOLDER|${LANG}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|DAY_PLACEHOLDER|${DAY}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  # Voeg placeholders toe
+  sed -i "s|LANG_PLACEHOLDER|${LANG}|" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|DAY_PLACEHOLDER|${DAY}|" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|TITLE_PLACEHOLDER|${TITLE}|" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|TEASER_PLACEHOLDER|${TEASER}|" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|DONATION_PLACEHOLDER|${DONATION}|" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+
+  # Voeg de echte body toe (behoudt alle newlines en ###)
+  cat >> "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT2'
+
+BODY_PLACEHOLDER
+EOT2
 
   sed -i '/BODY_PLACEHOLDER/r /dev/stdin' "_social-posts/${LANG}/day-${DAY}-rvn.md" <<< "$clean_body"
   sed -i '/BODY_PLACEHOLDER/d' "_social-posts/${LANG}/day-${DAY}-rvn.md"
@@ -78,5 +84,5 @@ EOT
 done
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
-echo "First 40 lines of NL file:"
-head -n 40 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 50 lines of NL file:"
+head -n 50 "_social-posts/nl/day-${DAY}-rvn.md"
