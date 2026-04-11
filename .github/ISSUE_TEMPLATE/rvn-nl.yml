@@ -17,7 +17,7 @@ body:
       label: Taal
       options:
         - nl
-      default: "nl"
+      default: 0
     validations:
       required: true
 
