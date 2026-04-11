@@ -31,7 +31,6 @@ jobs:
         if: steps.check.outputs.is_rvn == 'true'
         run: |
           HIGHEST=$(find _social-posts -name "day-*-rvn.md" 2>/dev/null | sed 's/.*day-\([0-9]*\)-rvn.md/\1/' | sort -n | tail -1 || echo "0")
-          # Also check open PR branches for pending days
           PENDING=$(git ls-remote --heads origin "rvn-day-*" | sed 's/.*rvn-day-//' | sort -n | tail -1 || echo "0")
           NEXT=$(( HIGHEST > PENDING ? HIGHEST + 1 : PENDING + 1 ))
           echo "next_day=$NEXT" >> $GITHUB_OUTPUT
@@ -54,12 +53,10 @@ jobs:
         run: |
           echo "Creating files for day ${{ steps.nextday.outputs.next_day }}"
           
-          # Save the full body safely to a temp file (this is the most reliable way)
           cat > /tmp/rvn_body.txt << 'EOF'
           ${{ steps.extract.outputs.body }}
           EOF
 
-          # Run the script
           .github/scripts/create-rvn.sh \
             ${{ steps.nextday.outputs.next_day }} \
             "${{ steps.extract.outputs.rvn_title }}" \
@@ -82,4 +79,3 @@ jobs:
           body: "Created automatically from Issue #${{ github.event.issue.number }}"
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
           delete-branch: true
-          # labels: verwijderd of leeg laten
