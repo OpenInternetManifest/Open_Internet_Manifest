@@ -11,14 +11,15 @@ fi
 # Extract pure body after the second ---
 body=$(sed '0,/^[ \t]*---[ \t]*$/d' "$FILE" | sed '0,/^[ \t]*---[ \t]*$/d')
 
-# Clean body exactly like final debug STAP 3
+# Clean body exactly like the working debug STAP 3
 clean_body=$(echo "$body" | 
-  sed 's/^>[ \t]*//g' |                    # remove > from blockquotes
-  sed 's/^[ \t]*[-*+][ \t]*//g' |          # remove list markers
+  sed 's/^>[ \t]*//g' |                    # blockquotes
+  sed 's/^[ \t]*[-*+][ \t]*//g' |          # lists
   sed 's/\*\*\(.*?\)\*\*/\1/g' |           # bold
   sed 's/\*\*//g' |                        # remaining **
   sed 's/\*\(.*?\)\*/\1/g' |               # italic
   sed 's/\*//g' |                          # remaining *
+  sed 's/^[ \t]*###[ \t]*//g' |            # remove ### headings
   sed 's/[ \t]\+/ /g' |                    # normalize spaces
   sed '/./,$!d' |                          # remove leading empty lines
   sed '/^$/N;/^\n$/D' |                    # remove duplicate empty lines
@@ -27,7 +28,7 @@ clean_body=$(echo "$body" |
 # Website hash (exact match with copy button)
 website_sha256=$(echo -n "$clean_body" | sha256sum | awk '{print $1}')
 
-# Fuzzy social hash (one hash for X, FB, share, etc.)
+# Fuzzy social hash
 fuzzy=$(echo "$clean_body" | 
   sed '/^$/d' | 
   tr '[:upper:]' '[:lower:]' | 
@@ -41,7 +42,7 @@ commit_hash=$(git rev-parse HEAD)
 commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
 commit_date=$(git log -1 --format=%cI)
 
-# Output variables for the workflow
+# Output for workflow
 cat << EOF
 WEBSITE_SHA256=${website_sha256}
 FUZZY_SHA256=${fuzzy_sha256}
