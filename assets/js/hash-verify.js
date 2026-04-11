@@ -28,7 +28,7 @@ window.copyPageText = function() {
   // Extra Giscus cleanup
   clone.querySelectorAll('iframe[src*="giscus"], div[class*="giscus"], div[id*="giscus"]').forEach(el => el.remove());
 
-  // Verwijder "Reacties"/"Comments" headings
+  // Verwijder "Reacties" headings
   clone.querySelectorAll('h2, h3').forEach(el => {
     const txt = el.textContent.trim().toLowerCase();
     if (txt.includes('reactie') || txt.includes('comment') || txt.includes('reageren')) {
@@ -36,33 +36,34 @@ window.copyPageText = function() {
     }
   });
 
-  // Verwijder hash-verificatie uitleg
+  // Verwijder hash-verificatie uitleg (laat footer staan)
   clone.querySelectorAll('p').forEach(p => {
     const text = p.textContent.trim().toLowerCase();
-    if (text.includes('hash') || text.includes('verifieer') || text.includes('sha256')) {
+    if (text.includes('hash verificatie') || text.includes('wat is nu eigenlijk hash') || text.includes('sha256 verifier')) {
       p.remove();
     }
   });
 
   let text = clone.innerText || clone.textContent || '';
 
-  // Lichte maar effectieve cleanup
+  // Zeer milde cleanup
   text = text
     .replace(/\r\n/g, '\n')
-    .replace(/\n{4,}/g, '\n\n\n')   // max 3 newlines
+    .replace(/\n{5,}/g, '\n\n\n\n')   // max 4 newlines
     .replace(/[ \t]+/g, ' ')
     .trim();
 
-  // Verwijder dubbele lege regels
+  // Per regel trimmen
   text = text
     .split('\n')
     .map(line => line.trim())
-    .filter((line, i, arr) => !(line === '' && i > 0 && arr[i-1] === ''))
     .join('\n');
 
-  // Specifieke fix voor quotes
-  text = text.replace(/Himself:\s*\n\n+/g, 'Himself:\n');
-  text = text.replace(/:\s*\n\n+/g, ':\n');
+  // Verwijder extra lege regel na ":" (zowel bij "via:" als bij opsomming)
+  text = text.replace(/:[ \t]*\n\n/g, ':\n');
+
+  // Verwijder extra lege regel na opsomming (na laatste item)
+  text = text.replace(/\n\n\n+/g, '\n\n');
 
   navigator.clipboard.writeText(text).then(() => {
     showFeedback('copy-feedback', true, '✓ Pagina tekst gekopieerd!<br>Plak in SHA-256 tool → moet matchen met website_sha256');

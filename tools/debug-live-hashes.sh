@@ -24,24 +24,25 @@ echo "STAP 2: Pure body na frontmatter (raw):"
 echo "$body"
 echo "------------------------------------------------------------------"
 
-# Stap 3: Finale body - STRIP MARKDOWN + sluitende **
+# Stap 3: Finale body voor hashing - exact match met website (lege regel alleen bij opsomming na :)
 final_body=$(echo "$body" | 
-  # Verwijder blockquotes
-  sed 's/^>[ \t]*//g' |
-  # Verwijder lijst-items
-  sed 's/^[ \t]*[-*+][ \t]*//g' |
-  # Verwijder bold **text** en losse ** aan eind van regels
-  sed 's/\*\*\(.*?\)\*\*/\1/g' |
-  sed 's/\*\*//g' |
-  # Verwijder italic *text*
-  sed 's/\*\(.*?\)\*/\1/g' |
-  sed 's/\*//g' |
-  # Normaliseer spaties
-  sed 's/[ \t]\+/ /g' |
-  # Verwijder overtollige lege regels
-  sed '/./,$!d' |
-  sed '/^$/N;/^\n$/D' |
-  sed 's/^[ \t]*//;s/[ \t]*$//' )
+  sed 's/^>[ \t]*//g' |                    # blockquotes
+  sed 's/^[ \t]*[-*+][ \t]*//g' |          # lists
+  sed 's/\*\*\(.*?\)\*\*/\1/g' |           # bold
+  sed 's/\*\*//g' |                        # remaining **
+  sed 's/\*\(.*?\)\*/\1/g' |               # italic
+  sed 's/\*//g' |                          # remaining *
+  sed 's/^[ \t]*###[ \t]*//g' |            # remove ### headings
+  sed 's/[ \t]\+/ /g' |                    # normalize spaces
+  sed '/./,$!d' |                          # remove leading empty lines
+  sed '/^$/N;/^\n$/D' |                    # remove duplicate empty lines
+  # Voeg lege regel toe NA ":" ALLEEN als de volgende regel een lijst-item is
+  sed '/:[ \t]*$/{
+    N
+    /\n[ \t]*[-*+]/ s/:\n/:\n\n/
+    s/\n[ \t]*[-*+]/\n-/
+  }' |
+  sed 's/^[ \t]*//;s/[ \t]*$//' )          # trim each line
 
 echo "STAP 3: Finale body voor hashing (Markdown volledig gestript):"
 echo "$final_body"

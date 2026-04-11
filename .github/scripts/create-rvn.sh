@@ -32,14 +32,14 @@ echo "Body length: ${#clean_body} characters"
 
 # Create files
 for LANG in en nl; do
-  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << EOF
+  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOF'
 ---
 layout: social-posts
-lang: ${LANG}
-day: ${DAY}
-rvn_title: "${TITLE}"
-rvn_teaser: "${TEASER}"
-donation_link: "${DONATION}"
+lang: LANG_PLACEHOLDER
+day: DAY_PLACEHOLDER
+rvn_title: "TITLE_PLACEHOLDER"
+rvn_teaser: "TEASER_PLACEHOLDER"
+donation_link: "DONATION_PLACEHOLDER"
 donation_text: ""
 website_sha256: ""
 social_x_sha256: ""
@@ -49,8 +49,25 @@ git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
-${clean_body}
+
 EOF
+
+  # Voeg placeholders toe
+  sed -i "s|LANG_PLACEHOLDER|${LANG}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|DAY_PLACEHOLDER|${DAY}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+
+  # Voeg de echte body toe met een extra newline voor veiligheid
+  echo "" >> "_social-posts/${LANG}/day-${DAY}-rvn.md"
+  cat >> "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT2'
+BODY_PLACEHOLDER
+EOT2
+
+  sed -i '/BODY_PLACEHOLDER/r /dev/stdin' "_social-posts/${LANG}/day-${DAY}-rvn.md" <<< "$clean_body"
+  sed -i '/BODY_PLACEHOLDER/d' "_social-posts/${LANG}/day-${DAY}-rvn.md"
+
 done
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
