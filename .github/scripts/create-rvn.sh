@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Robuuste versie tegen GitHub + prefix en lege regels
+# create-rvn.sh - Final version: robuust tegen lege regels + ### headings
 
 DAY="$1"
 TITLE="$2"
@@ -22,30 +22,29 @@ DONATION=$(awk '
   flag && NF {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | tr -d '\n' | sed 's/[ \t]\+$//')
 
-# Extract FULL body - stop alleen bij een nieuwe ### sectie
+# Extract body
 clean_body=$(awk '
   /### Volledige RVN tekst \(Markdown\)/ {found=1; next}
   found && /^### / && !/Volledige RVN tekst/ {exit}
   found {print}
 ' "$BODY_FILE")
 
-# Verwijder GitHub + prefix, ``` fences, _No response_, en trim lege regels aan begin/eind
+# Cleanup: verwijder GitHub artifacts + problematische lege regels voor ###
 clean_body=$(echo "$clean_body" | \
   sed 's/^\+ //g' | \
   sed '/^```markdown$/d' | \
   sed '/^```$/d' | \
   sed '/^_No response_$/d' | \
-  sed '/^$/N;/^\n$/D' )   # verwijder dubbele lege regels
+  sed ':a; N; $!ba; s/\n\n###/\n###/g' )   # verwijder lege regel direct voor ###
 
-# Fallback als body leeg is
+# Fallback
 if [ -z "$(echo "$clean_body" | tr -d ' \n\t')" ]; then
-  echo "Warning: Body extraction failed, using full fallback"
   clean_body=$(cat "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```/d' | sed '/^_No response_$/d')
 fi
 
 echo "Body length: ${#clean_body} characters"
 
-# Create files - preserve ALL newlines and Markdown
+# Create files
 for LANG in en nl; do
   cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT'
 ---
@@ -73,12 +72,11 @@ EOT
   sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
 
-  # Insert body while keeping every newline
   sed -i '/BODY_PLACEHOLDER/r /dev/stdin' "_social-posts/${LANG}/day-${DAY}-rvn.md" <<< "$clean_body"
   sed -i '/BODY_PLACEHOLDER/d' "_social-posts/${LANG}/day-${DAY}-rvn.md"
 
 done
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
-echo "First 30 lines of NL file:"
-head -n 30 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 40 lines of NL file:"
+head -n 40 "_social-posts/nl/day-${DAY}-rvn.md"
