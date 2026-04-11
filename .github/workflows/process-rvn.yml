@@ -72,6 +72,7 @@ jobs:
           echo "=== File contents check (NL) ==="
           ls -l _social-posts/nl/day-${{ steps.nextday.outputs.next_day }}-rvn.md || echo "NL file not found"
           head -n 50 _social-posts/nl/day-${{ steps.nextday.outputs.next_day }}-rvn.md || echo "Could not read NL file"
+      
       - name: Create Pull Request
         if: steps.check.outputs.is_rvn == 'true'
         uses: peter-evans/create-pull-request@v7
@@ -80,27 +81,5 @@ jobs:
           title: "RVN Day ${{ steps.nextday.outputs.next_day }} - ${{ steps.extract.outputs.rvn_title }}"
           body: "Created automatically from Issue #${{ github.event.issue.number }}"
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
+          labels: pending-review
           delete-branch: true
-
-      - name: Add pending-review label
-        if: steps.check.outputs.is_rvn == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            // Get the PR number from the create-pull-request output
-            const pr = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              head: `${context.repo.owner}:rvn-day-${{ steps.nextday.outputs.next_day }}`,
-              state: 'open'
-            });
-            if (pr.data.length > 0) {
-              const prNumber = pr.data[0].number;
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: prNumber,
-                labels: ['pending-review']
-              });
-              console.log(`Added pending-review label to PR #${prNumber}`);
-            }
