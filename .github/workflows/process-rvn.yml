@@ -81,5 +81,4 @@ jobs:
           title: "RVN Day ${{ steps.nextday.outputs.next_day }} - ${{ steps.extract.outputs.rvn_title }}"
           body: "Created automatically from Issue #${{ github.event.issue.number }}"
           branch: rvn-day-${{ steps.nextday.outputs.next_day }}
-          labels: pending-review
           delete-branch: true
