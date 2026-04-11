@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Betere Markdown behoud + robuuste body extractie
+# create-rvn.sh - Robuuste versie tegen GitHub + prefix en lege regels
 
 DAY="$1"
 TITLE="$2"
@@ -22,29 +22,30 @@ DONATION=$(awk '
   flag && NF {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | tr -d '\n' | sed 's/[ \t]\+$//')
 
-# Extract FULL RVN body - stop alleen bij een nieuwe ### sectie die NIET de body zelf is
+# Extract FULL body - stop alleen bij een nieuwe ### sectie
 clean_body=$(awk '
   /### Volledige RVN tekst \(Markdown\)/ {found=1; next}
   found && /^### / && !/Volledige RVN tekst/ {exit}
   found {print}
 ' "$BODY_FILE")
 
-# Fallback als extractie faalt
-if [ -z "$(echo "$clean_body" | tr -d ' \n\t')" ]; then
-  echo "Warning: Body extraction failed, using fallback"
-  clean_body=$(cat "$BODY_FILE")
-fi
-
-# Verwijder alleen GitHub-form artifacts, behoud alle Markdown en newlines
+# Verwijder GitHub + prefix, ``` fences, _No response_, en trim lege regels aan begin/eind
 clean_body=$(echo "$clean_body" | \
   sed 's/^\+ //g' | \
   sed '/^```markdown$/d' | \
   sed '/^```$/d' | \
-  sed '/^_No response_$/d')
+  sed '/^_No response_$/d' | \
+  sed '/^$/N;/^\n$/D' )   # verwijder dubbele lege regels
+
+# Fallback als body leeg is
+if [ -z "$(echo "$clean_body" | tr -d ' \n\t')" ]; then
+  echo "Warning: Body extraction failed, using full fallback"
+  clean_body=$(cat "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```/d' | sed '/^_No response_$/d')
+fi
 
 echo "Body length: ${#clean_body} characters"
 
-# Create files - preserve exact newlines and Markdown
+# Create files - preserve ALL newlines and Markdown
 for LANG in en nl; do
   cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT'
 ---
@@ -66,20 +67,18 @@ git_commit_date: ""
 BODY_PLACEHOLDER
 EOT
 
-  # Replace placeholders
   sed -i "s|LANG_PLACEHOLDER|${LANG}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|DAY_PLACEHOLDER|${DAY}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
 
-  # Insert the real body while preserving all newlines
+  # Insert body while keeping every newline
   sed -i '/BODY_PLACEHOLDER/r /dev/stdin' "_social-posts/${LANG}/day-${DAY}-rvn.md" <<< "$clean_body"
   sed -i '/BODY_PLACEHOLDER/d' "_social-posts/${LANG}/day-${DAY}-rvn.md"
 
 done
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
-echo "Teaser: ${TEASER:0:100}..."
-echo "First 20 lines of NL file:"
-head -n 20 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 30 lines of NL file:"
+head -n 30 "_social-posts/nl/day-${DAY}-rvn.md"
