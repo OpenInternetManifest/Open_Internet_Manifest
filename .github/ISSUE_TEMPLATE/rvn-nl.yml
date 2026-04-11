@@ -53,14 +53,9 @@ body:
         
         [→ Markdown cheatsheet openen](https://www.markdownguide.org/cheat-sheet/) (nieuw tabblad)
       placeholder: |
-        **RVN: We zijn terug – De Manipulatie van Realiteit** 🌀
-
-        We zijn even stiller geweest.
-
-        ### De Manipulatie van Realiteit
-
-        De komende weken publiceren we een serie RVN’s over klassieke experimenten...
-      render: markdown
+        It is April 1st, 2026.
+        
+        For most people this is April Fools’ Day: a day of jokes and silliness.
     validations:
       required: true
 
