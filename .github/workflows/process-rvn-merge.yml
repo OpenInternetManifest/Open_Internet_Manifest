@@ -6,7 +6,6 @@ on:
 
 jobs:
   process-rvn-merge:
-    # Trigger on merged PRs that contain "RVN" in the title (more reliable)
     if: github.event.pull_request.merged == true && contains(github.event.pull_request.title, 'RVN')
     runs-on: ubuntu-latest
 
@@ -22,60 +21,49 @@ jobs:
           git config user.name "OIM Bot"
           git config user.email "bot@openinternetmanifest.org"
 
-      - name: Calculate hashes and update files
+      - name: Calculate and update hashes
         run: |
-          echo "Starting hash calculation for merged RVN files..."
+          echo "🔍 Starting hash calculation for merged RVN files..."
 
-          # Find RVN files changed in the last merge
+          # Find all RVN files changed in this merge
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
 
           if [ -z "$FILES" ]; then
-            echo "No RVN files found in this merge. Skipping."
+            echo "No RVN files changed in this merge. Skipping."
             exit 0
           fi
 
           for file in $FILES; do
             echo "Processing: $file"
 
-            # Extract content after frontmatter
-            raw_content=$(sed -n '/^---$/,/^---$/!p' "$file" | tail -n +2)
+            # Calculate hashes using our clean script
+            HASHES=$(.github/scripts/calculate-hashes.sh "$file")
 
-            # Fuzzy canonical text for all social platforms
-            fuzzy=$(echo "$raw_content" | \
-              sed '/^$/d' | \
-              sed 's/^[ \t]*//g' | \
-              sed 's/[ \t]*$//g' | \
-              tr -d '\r' | \
-              tr '[:upper:]' '[:lower:]' | \
-              sed 's/[ \t]\+/ /g')
+            website_sha256=$(echo "$HASHES" | grep '^WEBSITE_SHA256=' | cut -d= -f2)
+            fuzzy_sha256=$(echo "$HASHES" | grep '^FUZZY_SHA256=' | cut -d= -f2)
+            git_commit_hash=$(echo "$HASHES" | grep '^GIT_COMMIT_HASH=' | cut -d= -f2)
+            git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
+            git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
 
-            # Calculate hashes
-            website_hash=$(echo -n "$raw_content" | sha256sum | awk '{print $1}')
-            fuzzy_hash=$(echo -n "$fuzzy" | sha256sum | awk '{print $1}')
+            # Update frontmatter with sed
+            sed -i "s|website_sha256: \".*\"|website_sha256: \"${website_sha256}\"|" "$file"
+            sed -i "s|social_x_sha256: \".*\"|social_x_sha256: \"${fuzzy_sha256}\"|" "$file"
+            sed -i "s|social_fb_sha256: \".*\"|social_fb_sha256: \"${fuzzy_sha256}\"|" "$file"
+            sed -i "s|social_share_sha256: \".*\"|social_share_sha256: \"${fuzzy_sha256}\"|" "$file"
+            sed -i "s|git_commit_hash: \".*\"|git_commit_hash: \"${git_commit_hash}\"|" "$file"
+            sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
+            sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
 
-            commit_hash=$(git rev-parse HEAD)
-            commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
-            commit_date=$(git log -1 --format=%cd --date=iso-strict)
-
-            # Update frontmatter
-            sed -i "s|website_sha256: \"\"|website_sha256: \"${website_hash}\"|" "$file"
-            sed -i "s|social_x_sha256: \"\"|social_x_sha256: \"${fuzzy_hash}\"|" "$file"
-            sed -i "s|social_fb_sha256: \"\"|social_fb_sha256: \"${fuzzy_hash}\"|" "$file"
-            sed -i "s|social_share_sha256: \"\"|social_share_sha256: \"${fuzzy_hash}\"|" "$file"
-            sed -i "s|git_commit_hash: \"\"|git_commit_hash: \"${commit_hash}\"|" "$file"
-            sed -i "s|git_commit_url: \"\"|git_commit_url: \"${commit_url}\"|" "$file"
-            sed -i "s|git_commit_date: \"\"|git_commit_date: \"${commit_date}\"|" "$file"
-
-            echo "✓ Hashes added to $file"
+            echo "✅ Hashes updated in $file"
           done
 
       - name: Commit updated hashes
         run: |
           git add _social-posts/*/day-*-rvn.md
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes to commit."
           else
-            git commit -m "Add integrity hashes and git info to merged RVN posts"
+            git commit -m "Add/refresh integrity hashes after RVN merge"
             git push
-            echo "✅ Hashes successfully committed to main"
+            echo "🚀 Hashes committed to main"
           fi

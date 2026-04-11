@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: 'nl' | downcase }}">
-<head>
-  {% assign current_lang = page.lang | default: 'nl' | downcase %}
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  {% seo %}
+<html lang="{{ page.lang | default: 'nl' | downcase }}" 
+      data-website-sha256="{{ page.website_sha256 | default: '' }}">
+  <head>
+    {% assign current_lang = page.lang | default: 'nl' | downcase %}
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    {% seo %}
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  
-  <!-- Centrale hashes + hash-verify JS -->
-  <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/hash-verifier.js"></script>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+   
+    <!-- Hash verification JS -->
+    <!-- <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script> -->  <!-- niet meer nodig -->
+    <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
+  </head>
+  <body>
   
 <nav class="main-nav">
   <div class="nav-container">
@@ -236,8 +236,7 @@
   
   {% include donation.html %}
 
-  {% assign lang = page.lang | default: 'NL' | upcase %}
-  {% include integrity-check-{{ lang }}.html %}
+ {% include integrity-check.html %}
 
   {% include page-footer.html %}
 
