@@ -54,21 +54,24 @@ jobs:
         run: |
           echo "Creating files for day ${{ steps.nextday.outputs.next_day }}"
           
-          # Save the full body safely to a file
-          cat > /tmp/rvn_body.txt << 'BODY_END'
+          # Save the full body safely to a temp file (this is the most reliable way)
+          cat > /tmp/rvn_body.txt << 'EOF'
           ${{ steps.extract.outputs.body }}
-          BODY_END
+          EOF
 
-          # Run the script with the temp file
+          # Run the script
           .github/scripts/create-rvn.sh \
             ${{ steps.nextday.outputs.next_day }} \
             "${{ steps.extract.outputs.rvn_title }}" \
             "/tmp/rvn_body.txt"
 
-          echo "=== File contents check ==="
-          ls -l _social-posts/en/day-${{ steps.nextday.outputs.next_day }}-rvn.md
-          head -n 40 _social-posts/en/day-${{ steps.nextday.outputs.next_day }}-rvn.md
+          echo "=== File contents check (EN) ==="
+          ls -l _social-posts/en/day-${{ steps.nextday.outputs.next_day }}-rvn.md || echo "EN file not found"
+          head -n 50 _social-posts/en/day-${{ steps.nextday.outputs.next_day }}-rvn.md || echo "Could not read EN file"
 
+          echo "=== File contents check (NL) ==="
+          ls -l _social-posts/nl/day-${{ steps.nextday.outputs.next_day }}-rvn.md || echo "NL file not found"
+          head -n 50 _social-posts/nl/day-${{ steps.nextday.outputs.next_day }}-rvn.md || echo "Could not read NL file"
       - name: Create Pull Request
         if: steps.check.outputs.is_rvn == 'true'
         uses: peter-evans/create-pull-request@v7
