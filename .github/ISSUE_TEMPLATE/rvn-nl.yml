@@ -43,9 +43,10 @@ body:
     attributes:
       label: Volledige RVN tekst (Markdown)
       description: |
-        Schrijf hier je volledige Reality vs Narrative post.  
+        Schrijf hier je volledige Reality vs Narrative post.
+        
         Gebruik Markdown voor opmaak:
-        - Hoofdstukken met ### Hoofdstuk
+        - Hoofdstukken beginnen met ### 
         - **Vetgedrukt** tekst
         - Lijsten met - of *
         - Blockquotes met >
