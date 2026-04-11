@@ -47,15 +47,15 @@ body:
         
         Gebruik Markdown voor opmaak:
         - Hoofdstukken beginnen met  
-        - **Vetgedrukt** tekst
+        - **Vetgedrukt** tekst ###
         - Lijsten met - of *
         - Blockquotes met >
         
         [→ Markdown cheatsheet openen](https://www.markdownguide.org/cheat-sheet/) (nieuw tabblad)
       placeholder: |
-        It is April 1st, 2026.
-        
-        For most people this is April Fools’ Day: a day of jokes and silliness.
+       Waarom vieren we eigenlijk 1 april als "gekke dag" 
+       
+       Terwijl het ooit Nieuwjaarsdag was?
     validations:
       required: true
 
