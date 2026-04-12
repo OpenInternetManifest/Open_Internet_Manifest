@@ -1,5 +1,5 @@
 name: "RVN toevoegen (Nederlands + English)"
-description: Voeg een nieuwe Reality vs Narrative post toe. Vul Nederlands in, Engels is optioneel.
+description: Voeg een nieuwe Reality vs Narrative post toe. Nederlands is verplicht, Engels optioneel.
 title: "[RVN] "
 labels: ["rvn", "pending-review"]
 assignees: []
@@ -60,9 +60,7 @@ body:
     id: body_nl
     attributes:
       label: Volledige RVN tekst (Nederlands – Markdown)
-      description: |
-        Schrijf hier je volledige post in het Nederlands.
-        [→ Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+      description: Schrijf hier je volledige post in het Nederlands. Gebruik Markdown voor opmaak.
       render: markdown
     validations:
       required: true
@@ -71,9 +69,7 @@ body:
     id: body_en
     attributes:
       label: Full RVN text (English – Markdown) – optioneel
-      description: |
-        Schrijf hier de volledige post in het Engels (sterk aanbevolen maar niet verplicht).
-        [→ Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+      description: Write the full post in English here (optional but recommended). Use Markdown for formatting.
       render: markdown
     validations:
       required: false
@@ -91,7 +87,6 @@ body:
     id: notes
     attributes:
       label: Extra opmerkingen voor het core team (optioneel)
-      description: |
-        Bijvoorbeeld: "Graag vertalen naar English" of "Gerelateerd aan guide X"
+      description: Bijvoorbeeld "Graag vertalen naar English" of "Gerelateerd aan guide X"
     validations:
       required: false
