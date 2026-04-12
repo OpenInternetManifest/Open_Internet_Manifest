@@ -1,5 +1,5 @@
 name: "RVN toevoegen (Nederlands + English)"
-description: Voeg een nieuwe Reality vs Narrative post toe. Nederlands is verplicht, Engels optioneel.
+description: Voeg een nieuwe Reality vs Narrative post toe. Nederlands is verplicht, Engels is optioneel.
 title: "[RVN] "
 labels: ["rvn", "pending-review"]
 assignees: []
@@ -60,20 +60,8 @@ body:
     id: body_nl
     attributes:
       label: Volledige RVN tekst (Nederlands – Markdown)
-      description: |
-       Schrijf hier je volledige post in het Nederlands. Gebruik Markdown voor opmaak.
-  
-        	Use Markdown for formatting:
-        - Headings start with ### 
-        - **Bold** text
-        - Lists with - or *
-        - Blockquotes with >
-
-       [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
-      placeholder: |
-        Why do we actually celebrate April 1st as "fools day"?
-        
-        While it was once New Year’s Day?
+      description: Schrijf hier je volledige post in het Nederlands. Gebruik Markdown voor opmaak (toolbar + preview beschikbaar).
+      render: markdown
     validations:
       required: true
 
@@ -81,22 +69,10 @@ body:
     id: body_en
     attributes:
       label: Full RVN text (English – Markdown) – optioneel
-      description: |
-        Write your full Reality vs Narrative post here.
-        
-        Use Markdown for formatting:
-        - Headings start with ### 
-        - **Bold** text
-        - Lists with - or *
-        - Blockquotes with >
-        
-        [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
-      placeholder: |
-        Why do we actually celebrate April 1st as "fools day"?
-        
-        While it was once New Year’s Day?
+      description: Write your full post in English here (optional but recommended). Use Markdown for formatting (toolbar + preview available).
+      render: markdown
     validations:
-      required: true
+      required: false
 
   - type: input
     id: donation_link
