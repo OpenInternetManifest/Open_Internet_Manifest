@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Robuuste versie met betere teaser extractie
+# create-rvn.sh - Finale versie: teaser strippen + body met volledige Markdown behouden
 
 DAY="$1"
 TITLE="$2"
@@ -8,32 +8,38 @@ BODY_FILE="$3"
 echo "=== Creating RVN Day $DAY ==="
 echo "TITLE: $TITLE"
 
-# === Extract Teaser (veel robuuster) ===
+# === 1. Extract Teaser (strippen is oké voor cards) ===
 TEASER=$(awk '
   /### Teaser/ {found=1; next}
   found && /^### / {exit}
-  found && NF {print; exit}   # pak de eerste niet-lege regel na ### Teaser
+  found && NF {print; exit}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//' | tr -d '\n')
 
-# === Extract Donation (optioneel) ===
+# === 2. Extract Donation ===
 DONATION=$(awk '
   /### Donatie link/ {found=1; next}
   found && /^### / {exit}
   found && NF {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | sed 's/[ \t]\+$//' | tr -d '\n')
 
-# === Extract ONLY the real body ===
+# === 3. Extract FULL BODY met volledige Markdown (geen agressief strippen!) ===
 clean_body=$(awk '
   /### Volledige RVN tekst \(Markdown\)/ {found=1; next}
   found && (/### Donatie link/ || /### Extra opmerkingen/) {exit}
   found {print}
-' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
+' "$BODY_FILE")
 
-echo "Teaser length: ${#TEASER} characters"
-echo "Donation: ${DONATION:-<none>}"
+# Verwijder alleen GitHub artifacts, behoud alle Markdown
+clean_body=$(echo "$clean_body" | \
+  sed 's/^\+ //g' | \
+  sed '/^```markdown$/d' | \
+  sed '/^```$/d' | \
+  sed '/^_No response_$/d')
+
+echo "Teaser: ${TEASER:0:120}..."
 echo "Body length: ${#clean_body} characters"
 
-# Create files for both languages
+# Create files
 for LANG in en nl; do
   cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOF'
 ---
@@ -62,7 +68,7 @@ EOF
   sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
 
-  # Voeg body toe met veilige newline
+  # Voeg body toe (met extra newline voor veiligheid)
   echo "" >> "_social-posts/${LANG}/day-${DAY}-rvn.md"
   cat >> "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT2'
 BODY_PLACEHOLDER
@@ -74,5 +80,5 @@ EOT2
 done
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
-echo "First 70 lines of NL file:"
-head -n 70 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 80 lines of NL file:"
+head -n 80 "_social-posts/nl/day-${DAY}-rvn.md"
