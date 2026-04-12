@@ -1,103 +1,116 @@
-name: Process RVN on Merge
+name: "RVN toevoegen (Nederlands + English)"
+description: Voeg een nieuwe Reality vs Narrative post toe. Nederlands is verplicht, Engels is optioneel.
+title: "[RVN] "
+labels: ["rvn", "pending-review"]
+assignees: []
 
-on:
-  pull_request:
-    types: [closed]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor je bijdrage!  
+        Dag-nummer, hashes en bestandsnaam worden automatisch toegevoegd.
 
-jobs:
-  process-rvn-merge:
-    if: github.event.pull_request.merged == true && contains(github.event.pull_request.title, 'RVN')
-    runs-on: ubuntu-latest
+  - type: dropdown
+    id: primary_language
+    attributes:
+      label: Primaire taal van deze post
+      options:
+        - nl
+        - en
+      default: 0
+    validations:
+      required: true
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT_TOKEN }}
+  - type: input
+    id: rvn_title_nl
+    attributes:
+      label: RVN Titel (Nederlands)
+      placeholder: "1 april – Nieuwjaarsdag in het oude 13-maanden stelsel"
+    validations:
+      required: true
 
-      - name: Set up Git
-        run: |
-          git config user.name "OIM Bot"
-          git config user.email "bot@openinternetmanifest.org"
+  - type: input
+    id: rvn_title_en
+    attributes:
+      label: RVN Title (English) – optioneel
+      placeholder: "1 April – New Year’s Day in the old 13-month calendar"
+    validations:
+      required: false
 
-      - name: Clean body, placeholders and calculate hashes
-        run: |
-          echo "🔍 Starting targeted body cleanup..."
+  - type: textarea
+    id: rvn_teaser_nl
+    attributes:
+      label: Teaser (Nederlands)
+      description: Korte samenvatting (1-3 zinnen) die nieuwsgierigheid opwekt.
+      placeholder: "Waarom vieren we 1 april eigenlijk nog als April Fools’ Day terwijl het ooit Nieuwjaarsdag was?"
+    validations:
+      required: true
 
-          # Bepaal of dit een Engelse template is (op basis van titel)
-          IS_ENGLISH=$(echo "${{ github.event.pull_request.title }}" | grep -i "\[RVN EN\]" && echo "true" || echo "false")
+  - type: textarea
+    id: rvn_teaser_en
+    attributes:
+      label: Teaser (English) – optioneel
+      description: Short summary (1-3 sentences) that sparks curiosity.
+      placeholder: "Why do we still celebrate April 1st as April Fools’ Day while it was once New Year’s Day?"
+    validations:
+      required: false
 
-          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
+  - type: textarea
+    id: body_nl
+    attributes:
+      label: Volledige RVN tekst (Nederlands – Markdown)
+      description: |
+        Schrijf hier je volledige Reality vs Narrative post.
+        
+        Gebruik Markdown voor opmaak:
+        - Hoofdstukken beginnen met ###
+        - **Vetgedrukte** tekst
+        - Lijsten met - of *
+        - Blockquotes met >
+        
+        [→ Markdown cheatsheet (opent in nieuw tabblad)](https://www.markdownguide.org/cheat-sheet/)
+      placeholder: |
+        Waarom vieren we 1 april eigenlijk als "gekke dag"?
+        
+        Terwijl het ooit Nieuwjaarsdag was?
+    validations:
+      required: true
 
-          if [ -z "$FILES" ]; then
-            echo "No RVN files changed. Skipping."
-            exit 0
-          fi
+  - type: textarea
+    id: body_en
+    attributes:
+      label: Full RVN text (English – Markdown) – optioneel
+      description: |
+        Write your full Reality vs Narrative post here.
+        
+        Use Markdown for formatting:
+        - Headings start with ###
+        - **Bold** text
+        - Lists with - or *
+        - Blockquotes with >
+        
+        [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
+      placeholder: |
+        Why do we actually celebrate April 1st as "April Fools’ Day"?
+        
+        While it was once New Year’s Day?
+    validations:
+      required: false
 
-          for file in $FILES; do
-            echo "Processing: $file (English template: $IS_ENGLISH)"
+  - type: input
+    id: donation_link
+    attributes:
+      label: Donatie link (optioneel)
+      description: Bijv. Ko-fi, Monero, BTC of Stripe link
+      placeholder: "https://ko-fi.com/jouwnaam"
+    validations:
+      required: false
 
-            if [ "$IS_ENGLISH" = "true" ]; then
-              echo "→ English template detected - aggressive NL cleanup"
-              # Verwijder ALLE Nederlandse form-headers en content uit EN-bestand
-              sed -i '/^### Volledige RVN tekst (Nederlands – Markdown)/,/^### Donatie link/d' "$file"
-              sed -i '/^### RVN Titel (Nederlands)/d' "$file"
-              sed -i '/^### Teaser (Nederlands)/d' "$file"
-              sed -i '/^### Extra opmerkingen/d' "$file"
-            else
-              echo "→ Dutch template detected - standard cleanup"
-              # Standaard cleanup voor NL-template
-              sed -i '/^### Full RVN text (English – Markdown)/,/^### Donatie link/d' "$file"
-            fi
-
-            # Algemene cleanup (altijd)
-            sed -i '/^### .*Markdown.*$/d' "$file"
-            sed -i '/^### Donatie link/d' "$file"
-            sed -i '/^### Donation link/d' "$file"
-            sed -i '/^### Extra opmerkingen/d' "$file"
-            sed -i '/^### Extra notes/d' "$file"
-            sed -i '/^_No response_$/d' "$file"
-            sed -i '/^```markdown$/d' "$file"
-            sed -i '/^```$/d' "$file"
-
-            # Verwijder lege regels na frontmatter
-            sed -i '/^---$/N; /^\n---$/d' "$file"
-            sed -i '/^---\s*$/N; /^\n---\s*$/d' "$file"
-
-            # Nette English placeholders
-            sed -i 's|rvn_title: "_No response_"|rvn_title: "This post has not been translated into English yet."|' "$file"
-            sed -i 's|rvn_teaser: "_No response_"|rvn_teaser: "Translation coming soon."|' "$file"
-            sed -i 's|rvn_title: ""|rvn_title: "This post has not been translated into English yet."|' "$file"
-            sed -i 's|rvn_teaser: ""|rvn_teaser: "Translation coming soon."|' "$file"
-
-            # Calculate and update hashes
-            HASHES=$(.github/scripts/calculate-hashes.sh "$file")
-
-            website_sha256=$(echo "$HASHES" | grep '^WEBSITE_SHA256=' | cut -d= -f2)
-            fuzzy_sha256=$(echo "$HASHES" | grep '^FUZZY_SHA256=' | cut -d= -f2)
-            git_commit_hash=$(echo "$HASHES" | grep '^GIT_COMMIT_HASH=' | cut -d= -f2)
-            git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
-            git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
-
-            sed -i "s|website_sha256: \".*\"|website_sha256: \"${website_sha256}\"|" "$file"
-            sed -i "s|social_x_sha256: \".*\"|social_x_sha256: \"${fuzzy_sha256}\"|" "$file"
-            sed -i "s|social_fb_sha256: \".*\"|social_fb_sha256: \"${fuzzy_sha256}\"|" "$file"
-            sed -i "s|social_share_sha256: \".*\"|social_share_sha256: \"${fuzzy_sha256}\"|" "$file"
-            sed -i "s|git_commit_hash: \".*\"|git_commit_hash: \"${git_commit_hash}\"|" "$file"
-            sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
-            sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
-
-            echo "✅ Body cleaned and hashes updated in $file"
-          done
-
-      - name: Commit updated files
-        run: |
-          git add _social-posts/*/day-*-rvn.md
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Final strict RVN body cleanup after merge"
-            git push
-            echo "🚀 Changes committed to main"
-          fi
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra opmerkingen voor het core team (optioneel)
+      description: Bijvoorbeeld "Graag vertalen naar English" of "Gerelateerd aan guide X"
+    validations:
+      required: false
