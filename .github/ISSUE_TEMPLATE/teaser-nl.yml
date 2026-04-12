@@ -1,7 +1,7 @@
-name: "Avond Teaser toevoegen (Nederlands)"
-description: Voeg een korte Avond Teaser toe voor een RVN.
-title: "[Teaser NL] "
-labels: ["teaser", "pending-review", "nl"]
+name: "RVN toevoegen (Nederlands + English)"
+description: Voeg een nieuwe Reality vs Narrative post toe. Nederlands is verplicht, Engels is sterk aanbevolen.
+title: "[RVN] "
+labels: ["rvn", "pending-review"]
 assignees: []
 
 body:
@@ -9,45 +9,85 @@ body:
     attributes:
       value: |
         Bedankt voor je bijdrage!  
-        De teaser wordt gekoppeld aan een RVN. Nummer en hashes worden automatisch toegevoegd.
+        Dag-nummer, hashes, bestandsnaam en metadata worden automatisch toegevoegd.
 
   - type: dropdown
-    id: language
+    id: primary_language
     attributes:
-      label: Taal
+      label: Primaire taal van deze post
       options:
         - nl
+        - en
       default: 0
     validations:
       required: true
 
   - type: input
-    id: teaser_title
+    id: rvn_title_nl
     attributes:
-      label: Teaser Titel / Dag
-      placeholder: "Dag 46 - Kalenderkaap"
-    validations:
-      required: true
-
-  - type: textarea
-    id: teaser_text
-    attributes:
-      label: Avond Teaser tekst
-      description: Schrijf een korte, scherpe teaser (max 2-4 zinnen). Dit is wat 's avonds gepost wordt.
-      placeholder: |
-        Morgen gaan we dieper in op waarom 1 april eigenlijk Nieuwjaarsdag was in het oude 13-maanden stelsel.
-        
-        Spoiler: het heeft niets met grappen te maken.
-      render: markdown
+      label: RVN Titel (Nederlands)
+      placeholder: "1 april – Nieuwjaarsdag in het oude 13-maanden stelsel"
     validations:
       required: true
 
   - type: input
-    id: related_rvn_day
+    id: rvn_title_en
     attributes:
-      label: Gerelateerde RVN dag (optioneel)
-      description: Als deze teaser hoort bij een specifieke RVN, vul dan het dag-nummer in
-      placeholder: "46"
+      label: RVN Title (English) – optioneel
+      placeholder: "1 April – New Year’s Day in the old 13-month calendar"
+    validations:
+      required: false
+
+  - type: textarea
+    id: rvn_teaser_nl
+    attributes:
+      label: Teaser (Nederlands)
+      description: Korte samenvatting (1-3 zinnen) die nieuwsgierigheid opwekt. Wordt gebruikt in de overzichtskaarten.
+      placeholder: "Waarom vieren we 1 april eigenlijk nog als April Fools’ Day terwijl het ooit Nieuwjaarsdag was?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rvn_teaser_en
+    attributes:
+      label: Teaser (English) – optioneel
+      description: Short summary (1-3 sentences) that sparks curiosity. Used in overview cards.
+      placeholder: "Why do we still celebrate April 1st as April Fools’ Day while it was once New Year’s Day?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: body_nl
+    attributes:
+      label: Volledige RVN tekst (Nederlands – Markdown)
+      description: |
+        Schrijf hier je volledige post in het Nederlands.
+        
+        Gebruik Markdown voor opmaak (toolbar + preview is beschikbaar).
+        [→ Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/) (nieuw tabblad)
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: body_en
+    attributes:
+      label: Full RVN text (English – Markdown) – optioneel maar sterk aanbevolen
+      description: |
+        Write your full post in English here (optional but highly recommended).
+        
+        Use Markdown for formatting (toolbar + preview available).
+        [→ Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/) (opens in new tab)
+      render: markdown
+    validations:
+      required: false
+
+  - type: input
+    id: donation_link
+    attributes:
+      label: Donatie link (optioneel)
+      description: Bijv. Ko-fi, Monero, BTC of Stripe link
+      placeholder: "https://ko-fi.com/jouwnaam"
     validations:
       required: false
 
@@ -56,6 +96,6 @@ body:
     attributes:
       label: Extra opmerkingen voor het core team (optioneel)
       description: |
-        Bijvoorbeeld: "Hoort bij RVN dag 46" of "Graag iets scherper maken"
+        Bijvoorbeeld: "Graag vertalen naar English" of "Gerelateerd aan guide X"
     validations:
       required: false
