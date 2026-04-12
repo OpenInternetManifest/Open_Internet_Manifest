@@ -23,9 +23,9 @@ jobs:
 
       - name: Clean body, placeholders and calculate hashes
         run: |
-          echo "🔍 Starting strict body cleanup + hash calculation..."
+          echo "🔍 Starting final strict body cleanup..."
 
-          # Bepaal of dit een Engelse of Nederlandse inzending is
+          # Bepaal of dit een Engelse template is
           IS_ENGLISH=$(echo "${{ github.event.pull_request.title }}" | grep -i "EN" && echo "true" || echo "false")
 
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
@@ -38,30 +38,26 @@ jobs:
           for file in $FILES; do
             echo "Processing: $file (English template: $IS_ENGLISH)"
 
-            # === Ultra-strenge body cleanup ===
-            # Altijd algemene form rommel verwijderen
+            # === Zeer strenge body cleanup ===
+            # Verwijder alle mogelijke form headers
             sed -i '/^### .*RVN .*text.*Markdown.*$/d' "$file"
-            sed -i '/^### .*Teaser.*$/d' "$file"
-            sed -i '/^### .*Titel.*$/d' "$file"
-            sed -i '/^### .*Title.*$/d' "$file"
+            sed -i '/^### Volledige RVN tekst (Nederlands – Markdown)/d' "$file"
+            sed -i '/^### Full RVN text (English – Markdown)/d' "$file"
+            sed -i '/^### RVN Titel (Nederlands)/d' "$file"
+            sed -i '/^### RVN Title (English)/d' "$file"
+            sed -i '/^### Teaser (Nederlands)/d' "$file"
+            sed -i '/^### Teaser (English)/d' "$file"
             sed -i '/^### Donatie link/d' "$file"
             sed -i '/^### Donation link/d' "$file"
             sed -i '/^### Extra opmerkingen/d' "$file"
             sed -i '/^### Extra notes/d' "$file"
+
+            # Verwijder _No response_ en markdown fences
             sed -i '/^_No response_$/d' "$file"
             sed -i '/^```markdown$/d' "$file"
             sed -i '/^```$/d' "$file"
 
-            # Extra streng als het een Engelse template was (verwijder NL-headers)
-            if [ "$IS_ENGLISH" = "true" ]; then
-              echo "Extra cleanup for English template"
-              sed -i '/^### Volledige RVN tekst (Nederlands – Markdown)/d' "$file"
-              sed -i '/^### Volledige RVN tekst \(Nederlands – Markdown\)/d' "$file"
-              sed -i '/^### RVN Titel (Nederlands)/d' "$file"
-              sed -i '/^### Teaser (Nederlands)/d' "$file"
-            fi
-
-            # Verwijder lege regels na frontmatter
+            # Verwijder lege regels direct na frontmatter
             sed -i '/^---$/N; /^\n---$/d' "$file"
             sed -i '/^---\s*$/N; /^\n---\s*$/d' "$file"
 
@@ -88,6 +84,9 @@ jobs:
             sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
             sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
 
+            # Extra: zorg dat donation_link niet in body terechtkomt
+            sed -i '/^donation_link:/d' "$file"   # verwijder als het per ongeluk in body staat
+
             echo "✅ Body cleaned and hashes updated in $file"
           done
 
@@ -97,7 +96,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Clean RVN body from form metadata and refresh hashes after merge"
+            git commit -m "Final RVN body cleanup and hash refresh after merge"
             git push
             echo "🚀 Changes committed to main"
           fi
