@@ -1,13 +1,10 @@
 #!/bin/bash
-# create-rvn.sh - Tweetalige versie (NL verplicht, EN optioneel met placeholder)
+# create-rvn.sh - Finale tweetalige versie met nette EN placeholders
 
 DAY="$1"
 BODY_FILE="$3"
 
 echo "=== Creating RVN Day $DAY ==="
-
-# Extract primary language (niet echt gebruikt voor bestandskeuze, maar voor logging)
-PRIMARY_LANG=$(grep -oP '(?<=primary_language: ).*' "$BODY_FILE" | head -n1 | tr -d ' ' || echo "nl")
 
 # === Extract NL fields (verplicht) ===
 TITLE_NL=$(awk '
@@ -47,7 +44,15 @@ BODY_EN_RAW=$(awk '
   found {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
 
-# Als BODY_EN leeg of te kort → placeholder
+# === Nette placeholders als EN niet is ingevuld ===
+if [[ -z "$TITLE_EN" || ${#TITLE_EN} -lt 5 ]]; then
+  TITLE_EN="This post has not been translated into English yet."
+fi
+
+if [[ -z "$TEASER_EN" || ${#TEASER_EN} -lt 5 ]]; then
+  TEASER_EN="Translation coming soon."
+fi
+
 if [[ -z "$BODY_EN_RAW" || ${#BODY_EN_RAW} -lt 20 ]]; then
   BODY_EN="This post has not been translated into English yet.
 
@@ -65,11 +70,11 @@ DONATION=$(awk '
 
 [[ -z "${DONATION// /}" ]] && DONATION=""
 
-echo "Primary lang: $PRIMARY_LANG"
 echo "Title NL: ${TITLE_NL:0:60}..."
+echo "Title EN: ${TITLE_EN}"
+echo "Teaser EN: ${TEASER_EN}"
 echo "Body NL length: ${#BODY_NL}"
 echo "Body EN length: ${#BODY_EN}"
-echo "Donation: ${DONATION:-<none>}"
 
 # === Create NL file ===
 cat > "_social-posts/nl/day-${DAY}-rvn.md" << EOF
@@ -99,8 +104,8 @@ cat > "_social-posts/en/day-${DAY}-rvn.md" << EOF
 layout: social-posts
 lang: en
 day: ${DAY}
-rvn_title: "${TITLE_EN:-${TITLE_NL}}"
-rvn_teaser: "${TEASER_EN:-${TEASER_NL}}"
+rvn_title: "${TITLE_EN}"
+rvn_teaser: "${TEASER_EN}"
 donation_link: "${DONATION}"
 donation_text: ""
 website_sha256: ""
@@ -116,7 +121,5 @@ ${BODY_EN}
 EOF
 
 echo "✅ Created RVN Day ${DAY} for NL and EN"
-echo "First 50 lines of NL file:"
-head -n 50 "_social-posts/nl/day-${DAY}-rvn.md"
-echo "First 30 lines of EN file:"
-head -n 30 "_social-posts/en/day-${DAY}-rvn.md"
+echo "First 40 lines of NL file:"
+head -n 40 "_social-posts/nl/day-${DAY}-rvn.md"
