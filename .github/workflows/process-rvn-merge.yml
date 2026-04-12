@@ -23,7 +23,7 @@ jobs:
 
       - name: Clean body, placeholders and calculate hashes
         run: |
-          echo "🔍 Starting body cleanup, placeholder fix and hash calculation..."
+          echo "🔍 Starting strict body cleanup + hash calculation..."
 
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
 
@@ -35,8 +35,10 @@ jobs:
           for file in $FILES; do
             echo "Processing: $file"
 
-            # === Body cleanup: verwijder alles wat op form-metadata lijkt ===
+            # === STRONG Body cleanup - verwijder ALLE form-metadata ===
             sed -i '/^### .*RVN .*text.*Markdown.*$/d' "$file"
+            sed -i '/^### .*Volledige RVN tekst.*$/d' "$file"
+            sed -i '/^### .*Full RVN text.*$/d' "$file"
             sed -i '/^### .*Teaser.*$/d' "$file"
             sed -i '/^### .*Titel.*$/d' "$file"
             sed -i '/^### .*Title.*$/d' "$file"
@@ -48,10 +50,11 @@ jobs:
             sed -i '/^```markdown$/d' "$file"
             sed -i '/^```$/d' "$file"
 
-            # Verwijder lege regels aan het begin van de body (na frontmatter)
-            sed -i '/^---$/N;/^\n---$/d' "$file"
+            # Verwijder overgebleven lege regels direct na frontmatter
+            sed -i '/^---$/N; /^\n---$/d' "$file"
+            sed -i '/^---\s*$/N; /^\n---\s*$/d' "$file"
 
-            # === Nette English placeholders (voor het geval ze nog "_No response_" bevatten) ===
+            # === Nette English placeholders ===
             sed -i 's|rvn_title: "_No response_"|rvn_title: "This post has not been translated into English yet."|' "$file"
             sed -i 's|rvn_teaser: "_No response_"|rvn_teaser: "Translation coming soon."|' "$file"
             sed -i 's|rvn_title: ""|rvn_title: "This post has not been translated into English yet."|' "$file"
@@ -83,7 +86,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Clean RVN body, fix English placeholders and refresh hashes after merge"
+            git commit -m "Clean RVN body from form metadata, fix English placeholders and refresh hashes"
             git push
             echo "🚀 Changes committed to main"
           fi
