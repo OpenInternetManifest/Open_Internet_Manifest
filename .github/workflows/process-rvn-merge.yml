@@ -21,22 +21,21 @@ jobs:
           git config user.name "OIM Bot"
           git config user.email "bot@openinternetmanifest.org"
 
-      - name: Calculate and update hashes
+      - name: Calculate hashes and clean placeholders
         run: |
-          echo "🔍 Starting hash calculation for merged RVN files..."
+          echo "🔍 Starting hash calculation and placeholder cleanup for merged RVN files..."
 
-          # Find all RVN files changed in this merge
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
 
           if [ -z "$FILES" ]; then
-            echo "No RVN files changed in this merge. Skipping."
+            echo "No RVN files changed. Skipping."
             exit 0
           fi
 
           for file in $FILES; do
             echo "Processing: $file"
 
-            # Calculate hashes using our clean script
+            # Run hash calculation
             HASHES=$(.github/scripts/calculate-hashes.sh "$file")
 
             website_sha256=$(echo "$HASHES" | grep '^WEBSITE_SHA256=' | cut -d= -f2)
@@ -45,7 +44,7 @@ jobs:
             git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
             git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
 
-            # Update frontmatter with sed
+            # Update hashes
             sed -i "s|website_sha256: \".*\"|website_sha256: \"${website_sha256}\"|" "$file"
             sed -i "s|social_x_sha256: \".*\"|social_x_sha256: \"${fuzzy_sha256}\"|" "$file"
             sed -i "s|social_fb_sha256: \".*\"|social_fb_sha256: \"${fuzzy_sha256}\"|" "$file"
@@ -54,16 +53,22 @@ jobs:
             sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
             sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
 
-            echo "✅ Hashes updated in $file"
+            # Clean English placeholders if they are still "_No response_" or empty
+            sed -i 's|rvn_title: "_No response_"|rvn_title: "This post has not been translated into English yet."|' "$file"
+            sed -i 's|rvn_teaser: "_No response_"|rvn_teaser: "Translation coming soon."|' "$file"
+            sed -i 's|rvn_title: ""|rvn_title: "This post has not been translated into English yet."|' "$file"
+            sed -i 's|rvn_teaser: ""|rvn_teaser: "Translation coming soon."|' "$file"
+
+            echo "✅ Hashes and placeholders updated in $file"
           done
 
-      - name: Commit updated hashes
+      - name: Commit updated hashes and placeholders
         run: |
           git add _social-posts/*/day-*-rvn.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Add/refresh integrity hashes after RVN merge"
+            git commit -m "Add/refresh integrity hashes and clean English placeholders after RVN merge"
             git push
-            echo "🚀 Hashes committed to main"
+            echo "🚀 Changes committed to main"
           fi
