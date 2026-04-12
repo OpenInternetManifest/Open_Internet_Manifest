@@ -1,28 +1,50 @@
 <details class="integrity-check">
-  <summary>🔒 {% if page.lang == 'en' %}Verify integrity of this page (SHA256){% else %}Verifieer integriteit van deze pagina (SHA256){% endif %}</summary>
+  <summary>🔒 {% if page.lang == 'en' or page.lang == 'EN' %}Verify integrity of this page (SHA256){% else %}Verifieer integriteit van deze pagina (SHA256){% endif %}</summary>
+  
   <div class="integrity-content">
-    <p><strong>{% if page.lang == 'en' %}How to verify?{% else %}Hoe controleren?{% endif %}</strong></p>
+
+    <p><strong>{% if page.lang == 'en' or page.lang == 'EN' %}How to verify?{% else %}Hoe controleren?{% endif %}</strong></p>
+    
     <ol class="integrity-steps">
-      <li>{% if page.lang == 'en' %}Copy the page text with the button below{% else %}Kopieer de pagina tekst met de knop hieronder{% endif %}</li>
-      <li>{% if page.lang == 'en' %}Go to an online SHA256 tool, e.g. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank" rel="noopener">this one</a>{% else %}Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank" rel="noopener">deze</a>{% endif %}</li>
-      <li>{% if page.lang == 'en' %}Paste the text and calculate the hash{% else %}Plak de tekst en bereken de hash{% endif %}</li>
-      <li>{% if page.lang == 'en' %}Paste the hash below and click "Verify"{% else %}Plak de hash hieronder en klik "Verifieer"{% endif %}</li>
+      <li>{% if page.lang == 'en' or page.lang == 'EN' %}Copy the page text with the button below{% else %}Kopieer de pagina tekst met de knop hieronder{% endif %}</li>
+      <li>{% if page.lang == 'en' or page.lang == 'EN' %}Go to an online SHA256 tool, e.g. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank" rel="noopener">this one</a>{% else %}Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank" rel="noopener">deze</a>{% endif %}</li>
+      <li>{% if page.lang == 'en' or page.lang == 'EN' %}Paste the text and calculate the hash{% else %}Plak de tekst en bereken de hash{% endif %}</li>
+      <li>{% if page.lang == 'en' or page.lang == 'EN' %}Paste the hash below and click "Verify"{% else %}Plak de hash hieronder en klik "Verifieer"{% endif %}</li>
     </ol>
 
+    <!-- Kopieer button -->
     <div class="copy-container-inline">
       <button onclick="copyPageText()" class="big-copy-btn">
-        📋 {% if page.lang == 'en' %}Copy page text{% else %}Kopieer pagina tekst{% endif %}
+        📋 {% if page.lang == 'en' or page.lang == 'EN' %}Copy page text{% else %}Kopieer pagina tekst{% endif %}
       </button>
       <p id="copy-feedback" class="copy-feedback"></p>
     </div>
 
+    <!-- Git commit info (altijd tonen) -->
+    {% if page.git_commit_hash and page.git_commit_hash != "" %}
+      <div class="git-info" style="margin: 1.5em 0; padding: 12px; background: #1a1a1a; border-radius: 6px; font-size: 0.95em;">
+        <strong>{% if page.lang == 'en' or page.lang == 'EN' %}Published with commit{% else %}Gepubliceerd met commit{% endif %}:</strong><br>
+        <code style="word-break: break-all;">{{ page.git_commit_hash }}</code><br>
+        <small>
+          {% if page.lang == 'en' or page.lang == 'EN' %}Date{% else %}Datum{% endif %}: 
+          {{ page.git_commit_date | date: "%d %B %Y at %H:%M" }}
+        </small>
+        <br>
+        <a href="{{ page.git_commit_url }}" target="_blank" rel="noopener" style="color: #66ff99;">
+          {% if page.lang == 'en' or page.lang == 'EN' %}View commit on GitHub →{% else %}Bekijk commit op GitHub →{% endif %}
+        </a>
+      </div>
+    {% endif %}
+
+    <!-- Verify sectie -->
     <div class="verify-section">
       <input type="text" id="user-hash" class="hash-input" 
-             placeholder="{% if page.lang == 'en' %}Paste your calculated SHA256 hash here{% else %}Plak hier je berekende SHA256 hash{% endif %}">
+             placeholder="{% if page.lang == 'en' or page.lang == 'EN' %}Paste your calculated SHA256 hash here{% else %}Plak hier je berekende SHA256 hash{% endif %}">
       <button onclick="verifyHash()" class="verify-btn">
-        {% if page.lang == 'en' %}Verify hash{% else %}Verifieer hash{% endif %}
+        {% if page.lang == 'en' or page.lang == 'EN' %}Verify hash{% else %}Verifieer hash{% endif %}
       </button>
       <p id="verify-feedback" class="verify-feedback"></p>
     </div>
+
   </div>
 </details>
