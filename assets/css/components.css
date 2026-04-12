@@ -568,8 +568,8 @@ button.copy-btn:hover {
 .git-info {
   margin: 1.8em 0 1.5em 0;
   padding: 14px 16px;
-  background: #1f1f1f;
-  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
   border-radius: 8px;
   font-size: 0.93em;
   line-height: 1.5;

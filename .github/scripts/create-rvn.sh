@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Finale versie met nette EN placeholders voor cards
+# create-rvn.sh - Definitieve versie: alleen echte body NL/EN, geen form-tekst meer
 
 DAY="$1"
 BODY_FILE="$3"
@@ -21,7 +21,7 @@ TEASER_NL=$(awk '
 
 BODY_NL=$(awk '
   /### Volledige RVN tekst \(Nederlands – Markdown\)/ {found=1; next}
-  found && (/### Full RVN text \(English/ || /### Donatie link/ || /### Extra opmerkingen/) {exit}
+  found && (/### Full RVN text \(English – Markdown\)/ || /### Donatie link/ || /### Extra opmerkingen/) {exit}
   found {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
 
@@ -123,3 +123,5 @@ EOF
 echo "✅ Created RVN Day ${DAY} for NL and EN"
 echo "First 40 lines of NL file:"
 head -n 40 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 30 lines of EN file:"
+head -n 30 "_social-posts/en/day-${DAY}-rvn.md"
