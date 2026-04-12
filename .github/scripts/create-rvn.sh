@@ -15,12 +15,17 @@ TEASER=$(awk '
   found && NF {print; exit}   # pak de eerste niet-lege regel na ### Teaser
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//' | tr -d '\n')
 
-# === Extract Donation (optioneel) ===
+# Extract Donation - alleen echte waarde als ingevuld
 DONATION=$(awk '
   /### Donatie link/ {found=1; next}
   found && /^### / {exit}
   found && NF {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | sed 's/[ \t]\+$//' | tr -d '\n')
+
+# Als DONATION leeg is of alleen whitespace, maak het echt leeg
+if [[ -z "${DONATION// /}" ]]; then
+  DONATION=""
+fi
 
 # === Extract ONLY the real body ===
 clean_body=$(awk '

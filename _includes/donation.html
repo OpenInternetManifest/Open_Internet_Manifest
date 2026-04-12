@@ -1,8 +1,6 @@
-
-
 <details class="donation-section">
   <summary>
-    {% if page.lang == "en" %}
+    {% if page.lang == "en" or page.lang == "EN" %}
       💸 Support the Open Internet Manifest ❤️
     {% else %}
       💸 Ondersteun het Open Internet Manifest ❤️
@@ -10,9 +8,29 @@
   </summary>
 
   <div class="donation-content">
-    <!-- Manifest donatie – alleen als géén auteur donatie -->
-    {% unless page.donation_link %}
-      {% if page.lang == "en" %}
+
+    <!-- === AUTEUR DONATIE (als er een link is ingevuld) === -->
+    {% if page.donation_link and page.donation_link != "" and page.donation_link != " " %}
+      <p style="text-align: center; font-weight: bold;">
+        {% if page.lang == "en" or page.lang == "EN" %}
+          Support the author of this RVN
+        {% else %}
+          Ondersteun de auteur van deze RVN
+        {% endif %}
+      </p>
+      <p style="text-align: center;">
+        <a href="{{ page.donation_link }}" target="_blank" rel="noopener" class="author-donation-link">
+          💰 Doneer hier aan de auteur
+        </a>
+      </p>
+
+      <hr style="border-color: #333; margin: 2em 0;">
+
+    {% endif %}
+
+    <!-- === STANDAARD OIM DONATIE (altijd tonen als er GEEN auteur-link is) === -->
+    {% if page.donation_link == nil or page.donation_link == "" or page.donation_link == " " %}
+      {% if page.lang == "en" or page.lang == "EN" %}
         <p>This manifest only exists thanks to your donations.<br>
         Every satoshi or monero helps enormously (servers, domains, development).</p>
 
@@ -49,8 +67,8 @@
         </table>
 
         <p><strong>Monero tip</strong>: with Cake Wallet or the official GUI every donor automatically gets a unique subaddress → maximum privacy.</p>
-
         <p>Thank you so much for your support — you keep this project alive! 🚀</p>
+
       {% else %}
         <p>Dit manifest blijft alleen bestaan dankzij jullie donaties.<br>
         Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).</p>
@@ -88,30 +106,9 @@
         </table>
 
         <p><strong>Monero-tip</strong>: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.</p>
-
         <p>Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀</p>
       {% endif %}
-    {% endunless %}
-
-    <!-- Auteur donatie – alleen als donation_link bestaat -->
-    {% if page.donation_link %}
-      <hr style="border-color: #333; margin: 2em 0;">
-      <p style="text-align: center;">
-        <strong>
-          {% if page.lang == "EN" %}
-            Support the author of this thesis
-          {% else %}
-            Ondersteun de auteur van deze thesis
-          {% endif %}
-        </strong><br>
-        <a href="{{ page.donation_link }}" target="_blank" class="author-donation-link">
-          {% if page.lang == "EN" %}
-            Donate here
-          {% else %}
-            Doneer hier
-          {% endif %}
-        </a>
-      </p>
     {% endif %}
+
   </div>
 </details>
