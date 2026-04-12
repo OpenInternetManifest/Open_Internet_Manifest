@@ -35,13 +35,20 @@ jobs:
           for file in $FILES; do
             echo "Processing: $file"
 
-            # === STRONG Body cleanup - verwijder ALLE form-metadata ===
-            sed -i '/^### .*RVN .*text.*Markdown.*$/d' "$file"
-            sed -i '/^### .*Volledige RVN tekst.*$/d' "$file"
-            sed -i '/^### .*Full RVN text.*$/d' "$file"
-            sed -i '/^### .*Teaser.*$/d' "$file"
-            sed -i '/^### .*Titel.*$/d' "$file"
-            sed -i '/^### .*Title.*$/d' "$file"
+            # === Ultra-strenge body cleanup - verwijder ALLE form headers ===
+            # Nederlandse headers
+            sed -i '/^### Volledige RVN tekst (Nederlands – Markdown)/d' "$file"
+            sed -i '/^### Volledige RVN tekst \(Nederlands – Markdown\)/d' "$file"
+            sed -i '/^### RVN Titel (Nederlands)/d' "$file"
+            sed -i '/^### Teaser (Nederlands)/d' "$file"
+
+            # Engelse headers
+            sed -i '/^### Full RVN text (English – Markdown)/d' "$file"
+            sed -i '/^### Full RVN text \(English – Markdown\)/d' "$file"
+            sed -i '/^### RVN Title (English)/d' "$file"
+            sed -i '/^### Teaser (English)/d' "$file"
+
+            # Algemene form-headers
             sed -i '/^### Donatie link/d' "$file"
             sed -i '/^### Donation link/d' "$file"
             sed -i '/^### Extra opmerkingen/d' "$file"
@@ -86,7 +93,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Clean RVN body from form metadata, fix English placeholders and refresh hashes"
+            git commit -m "Clean RVN body from all form metadata and refresh hashes after merge"
             git push
             echo "🚀 Changes committed to main"
           fi
