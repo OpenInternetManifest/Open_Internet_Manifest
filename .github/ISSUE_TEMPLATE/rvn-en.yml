@@ -1,4 +1,4 @@
-name: "RVN toevoegen (English)"
+name: "Add RVN (English)"
 description: Add a new Reality vs Narrative post in English.
 title: "[RVN EN] "
 labels: ["rvn", "pending-review", "en"]
@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thank you for your contribution!  
-        Day number, hashes and filename will be added automatically.
+        Day number, hashes, filename and other metadata will be added automatically.
 
   - type: dropdown
     id: language
@@ -25,7 +25,7 @@ body:
     id: rvn_title
     attributes:
       label: RVN Title
-      placeholder: "April 1st – New Year's Day in the old 13-month calendar"
+      placeholder: "1 April – New Year’s Day in the old 13-month calendar"
     validations:
       required: true
 
@@ -33,8 +33,8 @@ body:
     id: rvn_teaser
     attributes:
       label: Teaser
-      description: Short summary (1-3 sentences) that sparks curiosity
-      placeholder: "Why do we still celebrate April 1st as April Fools’ Day when it used to be New Year’s Day?"
+      description: Short summary (1-3 sentences) that sparks curiosity. This is used in the overview cards.
+      placeholder: "Why do we still celebrate April 1st as April Fools’ Day while it was once New Year’s Day?"
     validations:
       required: true
 
@@ -43,14 +43,19 @@ body:
     attributes:
       label: Full RVN text (Markdown)
       description: |
-        Write your full post here.
+        Write your full Reality vs Narrative post here.
         
-        [→ Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/) (opens in new tab)
+        Use Markdown for formatting:
+        - Headings start with ### 
+        - **Bold** text
+        - Lists with - or *
+        - Blockquotes with >
+        
+        [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
       placeholder: |
-        It is April 1st, 2026.
+        Why do we actually celebrate April 1st as "fools day"?
         
-        For most people this is April Fools’ Day: a day of jokes and silliness.
-      render: markdown
+        While it was once New Year’s Day?
     validations:
       required: true
 
@@ -58,7 +63,7 @@ body:
     id: donation_link
     attributes:
       label: Donation link (optional)
-      description: Ko-fi, Monero, BTC or Stripe link
+      description: E.g. Ko-fi, Monero, BTC or Stripe link
       placeholder: "https://ko-fi.com/yourname"
     validations:
       required: false
