@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Definitieve versie: stopt strikt na de body
+# create-rvn.sh - Robuuste body extractie met behoud van Markdown opmaak
 
 DAY="$1"
 TITLE="$2"
@@ -8,38 +8,40 @@ BODY_FILE="$3"
 echo "=== Creating RVN Day $DAY ==="
 echo "TITLE: $TITLE"
 
-# Extract Teaser
-TEASER=$(grep -A 5 "### Teaser" "$BODY_FILE" | grep -v "^### " | head -n 1 | sed 's/^\+ //g' | tr -d '\n' | sed 's/[ \t]\+$//')
+# Extract Teaser (eerste regel na ### Teaser)
+TEASER=$(sed -n '/### Teaser/,/### /p' "$BODY_FILE" | sed '/### /d' | head -n 1 | sed 's/^[ \t+-]*//' | tr -d '\n')
 
-# Extract Donation
-DONATION=$(grep -A 3 "### Donatie link" "$BODY_FILE" | grep -v "^### " | sed '/^_No response_$/d' | sed 's/^\+ //g' | tr -d '\n' | sed 's/[ \t]\+$//')
+# Extract Donation link (optioneel)
+DONATION=$(sed -n '/### Donatie link/,/### /p' "$BODY_FILE" | sed '/### /d' | sed '/^_No response_$/d' | sed 's/^[ \t+-]*//' | tr -d '\n')
 
-# Extract ONLY the real RVN body - stop bij de eerste optionele sectie na de body
-clean_body=$(awk '
-  /### Volledige RVN tekst \(Markdown\)/ {found=1; next}
-  found && (/### Donatie link/ || /### Extra opmerkingen/) {exit}
-  found {print}
-' "$BODY_FILE")
+# Extract ONLY the real RVN body - alles na "Volledige RVN tekst (Markdown)" tot het einde of volgende ###
+clean_body=$(sed -n '/### Volledige RVN tekst (Markdown)/,$p' "$BODY_FILE" \
+  | sed '1d' \
+  | sed '/### Donatie link/q' \
+  | sed '/### Extra opmerkingen/q' \
+  | sed 's/^[ \t+-]*//' \
+  | sed '/^```markdown$/d' \
+  | sed '/^```$/d' \
+  | sed '/^_No response_$/d')
 
-# Verwijder GitHub artifacts
-clean_body=$(echo "$clean_body" | \
-  sed 's/^\+ //g' | \
-  sed '/^```markdown$/d' | \
-  sed '/^```$/d' | \
-  sed '/^_No response_$/d')
+# Verwijder eventuele overgebleven form headers (veiligheidsnet)
+clean_body=$(echo "$clean_body" | sed '/^Taal:/d' | sed '/^RVN Titel:/d' | sed '/^Teaser:/d' | sed '/^Donatie link:/d' | sed '/^Extra opmerkingen:/d')
 
-echo "Body length: ${#clean_body} characters"
+# Zorg voor een nette lege regel na frontmatter
+if [ -z "$clean_body" ]; then
+  echo "⚠️  Waarschuwing: clean_body is leeg"
+fi
 
-# Create files
+# Maak bestanden voor beide talen
 for LANG in en nl; do
-  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOF'
+  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << EOF
 ---
 layout: social-posts
-lang: LANG_PLACEHOLDER
-day: DAY_PLACEHOLDER
-rvn_title: "TITLE_PLACEHOLDER"
-rvn_teaser: "TEASER_PLACEHOLDER"
-donation_link: "DONATION_PLACEHOLDER"
+lang: ${LANG}
+day: ${DAY}
+rvn_title: "${TITLE}"
+rvn_teaser: "${TEASER}"
+donation_link: "${DONATION}"
 donation_text: ""
 website_sha256: ""
 social_x_sha256: ""
@@ -50,26 +52,12 @@ git_commit_url: ""
 git_commit_date: ""
 ---
 
+${clean_body}
 EOF
-
-  # Voeg placeholders toe
-  sed -i "s|LANG_PLACEHOLDER|${LANG}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|DAY_PLACEHOLDER|${DAY}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-
-  # Voeg de echte body toe met een extra newline voor veiligheid
-  echo "" >> "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  cat >> "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT2'
-BODY_PLACEHOLDER
-EOT2
-
-  sed -i '/BODY_PLACEHOLDER/r /dev/stdin' "_social-posts/${LANG}/day-${DAY}-rvn.md" <<< "$clean_body"
-  sed -i '/BODY_PLACEHOLDER/d' "_social-posts/${LANG}/day-${DAY}-rvn.md"
-
 done
 
-echo "✅ Created RVN Day ${DAY} for EN and NL"
-echo "First 60 lines of NL file:"
+echo "✅ Created RVN Day ${DAY} for EN + NL"
+echo "Teaser: ${TEASER:0:80}..."
+echo "Donation: ${DONATION:-<none>}"
+echo "=== First 60 lines of NL file ==="
 head -n 60 "_social-posts/nl/day-${DAY}-rvn.md"
