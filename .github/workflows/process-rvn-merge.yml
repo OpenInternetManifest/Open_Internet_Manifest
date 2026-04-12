@@ -21,9 +21,9 @@ jobs:
           git config user.name "OIM Bot"
           git config user.email "bot@openinternetmanifest.org"
 
-      - name: Calculate hashes and clean placeholders
+      - name: Clean body, placeholders and calculate hashes
         run: |
-          echo "🔍 Starting hash calculation and placeholder cleanup for merged RVN files..."
+          echo "🔍 Starting body cleanup, placeholder fix and hash calculation..."
 
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
 
@@ -35,7 +35,29 @@ jobs:
           for file in $FILES; do
             echo "Processing: $file"
 
-            # Run hash calculation
+            # === Body cleanup: verwijder alles wat op form-metadata lijkt ===
+            sed -i '/^### .*RVN .*text.*Markdown.*$/d' "$file"
+            sed -i '/^### .*Teaser.*$/d' "$file"
+            sed -i '/^### .*Titel.*$/d' "$file"
+            sed -i '/^### .*Title.*$/d' "$file"
+            sed -i '/^### Donatie link/d' "$file"
+            sed -i '/^### Donation link/d' "$file"
+            sed -i '/^### Extra opmerkingen/d' "$file"
+            sed -i '/^### Extra notes/d' "$file"
+            sed -i '/^_No response_$/d' "$file"
+            sed -i '/^```markdown$/d' "$file"
+            sed -i '/^```$/d' "$file"
+
+            # Verwijder lege regels aan het begin van de body (na frontmatter)
+            sed -i '/^---$/N;/^\n---$/d' "$file"
+
+            # === Nette English placeholders (voor het geval ze nog "_No response_" bevatten) ===
+            sed -i 's|rvn_title: "_No response_"|rvn_title: "This post has not been translated into English yet."|' "$file"
+            sed -i 's|rvn_teaser: "_No response_"|rvn_teaser: "Translation coming soon."|' "$file"
+            sed -i 's|rvn_title: ""|rvn_title: "This post has not been translated into English yet."|' "$file"
+            sed -i 's|rvn_teaser: ""|rvn_teaser: "Translation coming soon."|' "$file"
+
+            # === Calculate and update hashes ===
             HASHES=$(.github/scripts/calculate-hashes.sh "$file")
 
             website_sha256=$(echo "$HASHES" | grep '^WEBSITE_SHA256=' | cut -d= -f2)
@@ -44,7 +66,6 @@ jobs:
             git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
             git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
 
-            # Update hashes
             sed -i "s|website_sha256: \".*\"|website_sha256: \"${website_sha256}\"|" "$file"
             sed -i "s|social_x_sha256: \".*\"|social_x_sha256: \"${fuzzy_sha256}\"|" "$file"
             sed -i "s|social_fb_sha256: \".*\"|social_fb_sha256: \"${fuzzy_sha256}\"|" "$file"
@@ -53,22 +74,16 @@ jobs:
             sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
             sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
 
-            # Clean English placeholders if they are still "_No response_" or empty
-            sed -i 's|rvn_title: "_No response_"|rvn_title: "This post has not been translated into English yet."|' "$file"
-            sed -i 's|rvn_teaser: "_No response_"|rvn_teaser: "Translation coming soon."|' "$file"
-            sed -i 's|rvn_title: ""|rvn_title: "This post has not been translated into English yet."|' "$file"
-            sed -i 's|rvn_teaser: ""|rvn_teaser: "Translation coming soon."|' "$file"
-
-            echo "✅ Hashes and placeholders updated in $file"
+            echo "✅ Body cleaned and hashes updated in $file"
           done
 
-      - name: Commit updated hashes and placeholders
+      - name: Commit updated files
         run: |
           git add _social-posts/*/day-*-rvn.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Add/refresh integrity hashes and clean English placeholders after RVN merge"
+            git commit -m "Clean RVN body, fix English placeholders and refresh hashes after merge"
             git push
             echo "🚀 Changes committed to main"
           fi
