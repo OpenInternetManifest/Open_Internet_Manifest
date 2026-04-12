@@ -2,22 +2,16 @@
 # create-rvn.sh - Tweetalige versie (NL verplicht, EN optioneel met placeholder)
 
 DAY="$1"
-TITLE="$2"          # Dit is nu niet meer in gebruik (we gebruiken _nl en _en)
 BODY_FILE="$3"
 
 echo "=== Creating RVN Day $DAY ==="
 
-# === Extract fields from the new bilingual form ===
-PRIMARY_LANG=$(awk -F': ' '/primary_language:/ {print $2; exit}' "$BODY_FILE" | tr -d ' ')
+# Extract primary language (niet echt gebruikt voor bestandskeuze, maar voor logging)
+PRIMARY_LANG=$(grep -oP '(?<=primary_language: ).*' "$BODY_FILE" | head -n1 | tr -d ' ' || echo "nl")
 
-RVN_TITLE_NL=$(awk '
+# === Extract NL fields (verplicht) ===
+TITLE_NL=$(awk '
   /### RVN Titel \(Nederlands\)/ {found=1; next}
-  found && /^### / {exit}
-  found && NF {print; exit}
-' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//')
-
-RVN_TITLE_EN=$(awk '
-  /### RVN Title \(English\)/ {found=1; next}
   found && /^### / {exit}
   found && NF {print; exit}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//')
@@ -28,70 +22,64 @@ TEASER_NL=$(awk '
   found && NF {print; exit}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//')
 
+BODY_NL=$(awk '
+  /### Volledige RVN tekst \(Nederlands – Markdown\)/ {found=1; next}
+  found && (/### Full RVN text \(English/ || /### Donatie link/ || /### Extra opmerkingen/) {exit}
+  found {print}
+' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
+
+# === Extract EN fields (optioneel) ===
+TITLE_EN=$(awk '
+  /### RVN Title \(English\)/ {found=1; next}
+  found && /^### / {exit}
+  found && NF {print; exit}
+' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//')
+
 TEASER_EN=$(awk '
   /### Teaser \(English\)/ {found=1; next}
   found && /^### / {exit}
   found && NF {print; exit}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//')
 
+BODY_EN_RAW=$(awk '
+  /### Full RVN text \(English – Markdown\)/ {found=1; next}
+  found && (/### Donatie link/ || /### Extra opmerkingen/) {exit}
+  found {print}
+' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
+
+# Als BODY_EN leeg of te kort → placeholder
+if [[ -z "$BODY_EN_RAW" || ${#BODY_EN_RAW} -lt 20 ]]; then
+  BODY_EN="This post has not been translated into English yet.
+
+Translation coming soon."
+else
+  BODY_EN="$BODY_EN_RAW"
+fi
+
+# Donation
 DONATION=$(awk '
   /### Donatie link/ {found=1; next}
   found && /^### / {exit}
   found && NF {print}
 ' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | sed 's/[ \t]\+$//' | tr -d '\n')
 
-# Als DONATION leeg is → echt leeg maken
 [[ -z "${DONATION// /}" ]] && DONATION=""
 
-# === Extract body NL (verplicht) ===
-BODY_NL=$(awk '
-  /### Volledige RVN tekst \(Nederlands/ {found=1; next}
-  found && (/### Volledige RVN tekst \(English/ || /### Donatie link/ || /### Extra opmerkingen/) {exit}
-  found {print}
-' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
-
-# === Extract body EN (optioneel) ===
-BODY_EN=$(awk '
-  /### Full RVN text \(English/ {found=1; next}
-  found && (/### Donatie link/ || /### Extra opmerkingen/) {exit}
-  found {print}
-' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
-
-# Als BODY_EN leeg is → placeholder
-if [[ -z "$BODY_EN" || "${#BODY_EN}" -lt 10 ]]; then
-  BODY_EN="This post has not been translated into English yet.
-
-Translation coming soon."
-fi
-
-echo "Primary language: ${PRIMARY_LANG:-nl}"
-echo "Title NL length: ${#RVN_TITLE_NL}"
-echo "Title EN length: ${#RVN_TITLE_EN}"
-echo "Teaser NL length: ${#TEASER_NL}"
+echo "Primary lang: $PRIMARY_LANG"
+echo "Title NL: ${TITLE_NL:0:60}..."
 echo "Body NL length: ${#BODY_NL}"
 echo "Body EN length: ${#BODY_EN}"
 echo "Donation: ${DONATION:-<none>}"
 
-# === Create files ===
-for LANG in nl en; do
-  if [[ "$LANG" == "nl" ]]; then
-    TITLE_TO_USE="${RVN_TITLE_NL}"
-    TEASER_TO_USE="${TEASER_NL}"
-    BODY_TO_USE="${BODY_NL}"
-  else
-    TITLE_TO_USE="${RVN_TITLE_EN:-${RVN_TITLE_NL}}"
-    TEASER_TO_USE="${TEASER_EN:-${TEASER_NL}}"
-    BODY_TO_USE="${BODY_EN}"
-  fi
-
-  cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOF'
+# === Create NL file ===
+cat > "_social-posts/nl/day-${DAY}-rvn.md" << EOF
 ---
 layout: social-posts
-lang: LANG_PLACEHOLDER
-day: DAY_PLACEHOLDER
-rvn_title: "TITLE_PLACEHOLDER"
-rvn_teaser: "TEASER_PLACEHOLDER"
-donation_link: "DONATION_PLACEHOLDER"
+lang: nl
+day: ${DAY}
+rvn_title: "${TITLE_NL}"
+rvn_teaser: "${TEASER_NL}"
+donation_link: "${DONATION}"
 donation_text: ""
 website_sha256: ""
 social_x_sha256: ""
@@ -102,26 +90,33 @@ git_commit_url: ""
 git_commit_date: ""
 ---
 
+${BODY_NL}
 EOF
 
-  # Vervang placeholders
-  sed -i "s|LANG_PLACEHOLDER|${LANG}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|DAY_PLACEHOLDER|${DAY}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|TITLE_PLACEHOLDER|${TITLE_TO_USE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|TEASER_PLACEHOLDER|${TEASER_TO_USE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
+# === Create EN file ===
+cat > "_social-posts/en/day-${DAY}-rvn.md" << EOF
+---
+layout: social-posts
+lang: en
+day: ${DAY}
+rvn_title: "${TITLE_EN:-${TITLE_NL}}"
+rvn_teaser: "${TEASER_EN:-${TEASER_NL}}"
+donation_link: "${DONATION}"
+donation_text: ""
+website_sha256: ""
+social_x_sha256: ""
+social_fb_sha256: ""
+social_share_sha256: ""
+git_commit_hash: ""
+git_commit_url: ""
+git_commit_date: ""
+---
 
-  # Voeg body toe
-  echo "" >> "_social-posts/${LANG}/day-${DAY}-rvn.md"
-  cat >> "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT2'
-BODY_PLACEHOLDER
-EOT2
-
-  sed -i '/BODY_PLACEHOLDER/r /dev/stdin' "_social-posts/${LANG}/day-${DAY}-rvn.md" <<< "$BODY_TO_USE"
-  sed -i '/BODY_PLACEHOLDER/d' "_social-posts/${LANG}/day-${DAY}-rvn.md"
-
-done
+${BODY_EN}
+EOF
 
 echo "✅ Created RVN Day ${DAY} for NL and EN"
-echo "First 60 lines of NL file:"
-head -n 60 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 50 lines of NL file:"
+head -n 50 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 30 lines of EN file:"
+head -n 30 "_social-posts/en/day-${DAY}-rvn.md"
