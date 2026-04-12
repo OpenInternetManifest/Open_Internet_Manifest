@@ -6,13 +6,13 @@ rvn_title: "e van Realiteit"
 rvn_teaser: "e van Realiteit e van Realiteit"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "5684c4a44a57ca5eea9714a3db03cc7a42c0ca31de5a3544b52645c383dcef18"
+social_x_sha256: "c48bdbc3b6f384628940d28c74b51bf97ff6923a32f7e1978a2ded50882e9218"
+social_fb_sha256: "c48bdbc3b6f384628940d28c74b51bf97ff6923a32f7e1978a2ded50882e9218"
+social_share_sha256: "c48bdbc3b6f384628940d28c74b51bf97ff6923a32f7e1978a2ded50882e9218"
+git_commit_hash: "5ac4efc3dda81d67b5a4720e60bb700a325e7a26"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/5ac4efc3dda81d67b5a4720e60bb700a325e7a26"
+git_commit_date: "2026-04-12T14:03:03+02:00"
 ---
 
 
@@ -72,10 +72,8 @@ https://openinternetmanifest.org
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier
 
-### Donation link (optional)
 
 sdfajoidfgj
 
-### Extra notes for the core team (optional)
 
 jhlsfdakhlksda
