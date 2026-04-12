@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Finale tweetalige versie met nette EN placeholders
+# create-rvn.sh - Finale versie met nette EN placeholders voor cards
 
 DAY="$1"
 BODY_FILE="$3"
