@@ -6,13 +6,13 @@ rvn_title: "[RVN] we are back"
 rvn_teaser: "[RVN] we are back"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "c045736b3d8aed80d27f9e3e80fb5a33bbc450aa5678894165a14481fff08dae"
+social_x_sha256: "660aab4442213cd5f165c244330ef706d64951486b38e1d74f4335ee35098e21"
+social_fb_sha256: "660aab4442213cd5f165c244330ef706d64951486b38e1d74f4335ee35098e21"
+social_share_sha256: "660aab4442213cd5f165c244330ef706d64951486b38e1d74f4335ee35098e21"
+git_commit_hash: "fe05b39d329a6ef4b4d58b08c8649e1819e16b9f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/fe05b39d329a6ef4b4d58b08c8649e1819e16b9f"
+git_commit_date: "2026-04-12T13:49:08+02:00"
 ---
 
 
@@ -72,8 +72,6 @@ https://openinternetmanifest.org
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier
 
-### Donation link (optional)
 
 adsf
 
-### Extra notes for the core team (optional)
