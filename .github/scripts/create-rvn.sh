@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Definitieve versie: stopt strikt na de body
+# create-rvn.sh - Robuuste versie met betere teaser extractie
 
 DAY="$1"
 TITLE="$2"
@@ -8,29 +8,32 @@ BODY_FILE="$3"
 echo "=== Creating RVN Day $DAY ==="
 echo "TITLE: $TITLE"
 
-# Extract Teaser
-TEASER=$(grep -A 5 "### Teaser" "$BODY_FILE" | grep -v "^### " | head -n 1 | sed 's/^\+ //g' | tr -d '\n' | sed 's/[ \t]\+$//')
+# === Extract Teaser (veel robuuster) ===
+TEASER=$(awk '
+  /### Teaser/ {found=1; next}
+  found && /^### / {exit}
+  found && NF {print; exit}   # pak de eerste niet-lege regel na ### Teaser
+' "$BODY_FILE" | sed 's/^\+ //g' | sed 's/[ \t]\+$//' | tr -d '\n')
 
-# Extract Donation
-DONATION=$(grep -A 3 "### Donatie link" "$BODY_FILE" | grep -v "^### " | sed '/^_No response_$/d' | sed 's/^\+ //g' | tr -d '\n' | sed 's/[ \t]\+$//')
+# === Extract Donation (optioneel) ===
+DONATION=$(awk '
+  /### Donatie link/ {found=1; next}
+  found && /^### / {exit}
+  found && NF {print}
+' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^_No response_$/d' | sed 's/[ \t]\+$//' | tr -d '\n')
 
-# Extract ONLY the real RVN body - stop bij de eerste optionele sectie na de body
+# === Extract ONLY the real body ===
 clean_body=$(awk '
   /### Volledige RVN tekst \(Markdown\)/ {found=1; next}
   found && (/### Donatie link/ || /### Extra opmerkingen/) {exit}
   found {print}
-' "$BODY_FILE")
+' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
 
-# Verwijder GitHub artifacts
-clean_body=$(echo "$clean_body" | \
-  sed 's/^\+ //g' | \
-  sed '/^```markdown$/d' | \
-  sed '/^```$/d' | \
-  sed '/^_No response_$/d')
-
+echo "Teaser length: ${#TEASER} characters"
+echo "Donation: ${DONATION:-<none>}"
 echo "Body length: ${#clean_body} characters"
 
-# Create files
+# Create files for both languages
 for LANG in en nl; do
   cat > "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOF'
 ---
@@ -52,14 +55,14 @@ git_commit_date: ""
 
 EOF
 
-  # Voeg placeholders toe
+  # Vervang placeholders
   sed -i "s|LANG_PLACEHOLDER|${LANG}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|DAY_PLACEHOLDER|${DAY}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|TITLE_PLACEHOLDER|${TITLE}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|TEASER_PLACEHOLDER|${TEASER}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
   sed -i "s|DONATION_PLACEHOLDER|${DONATION}|g" "_social-posts/${LANG}/day-${DAY}-rvn.md"
 
-  # Voeg de echte body toe met een extra newline voor veiligheid
+  # Voeg body toe met veilige newline
   echo "" >> "_social-posts/${LANG}/day-${DAY}-rvn.md"
   cat >> "_social-posts/${LANG}/day-${DAY}-rvn.md" << 'EOT2'
 BODY_PLACEHOLDER
@@ -71,5 +74,5 @@ EOT2
 done
 
 echo "✅ Created RVN Day ${DAY} for EN and NL"
-echo "First 60 lines of NL file:"
-head -n 60 "_social-posts/nl/day-${DAY}-rvn.md"
+echo "First 70 lines of NL file:"
+head -n 70 "_social-posts/nl/day-${DAY}-rvn.md"
