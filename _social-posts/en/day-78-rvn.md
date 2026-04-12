@@ -6,13 +6,13 @@ rvn_title: " zijn terug – De Manipulatie van Realiteit"
 rvn_teaser: " zijn terug – De Manipulatie van Realiteit"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "676a531a5eaa90cdaf1f90d9278f6f72c42508c4a0e8ef35c1e8f165eede19db"
+social_x_sha256: "99ed2b09b897b30f14f22407b5a2d7208de58f34a74c5fdf4d1bbcae1c60598a"
+social_fb_sha256: "99ed2b09b897b30f14f22407b5a2d7208de58f34a74c5fdf4d1bbcae1c60598a"
+social_share_sha256: "99ed2b09b897b30f14f22407b5a2d7208de58f34a74c5fdf4d1bbcae1c60598a"
+git_commit_hash: "f1eb74b769768811600de50871008d3ae4e90a5b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f1eb74b769768811600de50871008d3ae4e90a5b"
+git_commit_date: "2026-04-12T14:34:17+02:00"
 ---
 
 
@@ -72,7 +72,6 @@ https://openinternetmanifest.org
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier
 
-### Volledige RVN tekst (Nederlands – Markdown) – optional
 
 **RVN: We zijn terug – De Manipulatie van Realiteit** 🌀
 
@@ -130,10 +129,8 @@ https://openinternetmanifest.org
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier
 
-### Donation link (optional)
 
 asd;spfgdej
 
-### Extra notes for the core team (optional)
 
 jsdlkjsdekgldfkl
