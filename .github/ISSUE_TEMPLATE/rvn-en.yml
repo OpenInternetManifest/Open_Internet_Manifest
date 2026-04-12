@@ -1,7 +1,7 @@
-name: "Add RVN (English)"
-description: Add a new Reality vs Narrative post in English.
-title: "[RVN EN] "
-labels: ["rvn", "pending-review", "en"]
+name: "Add RVN (English + Nederlands)"
+description: Add a new Reality vs Narrative post. English is required, Dutch is optional.
+title: "[RVN] "
+labels: ["rvn", "pending-review"]
 assignees: []
 
 body:
@@ -9,55 +9,94 @@ body:
     attributes:
       value: |
         Thank you for your contribution!  
-        Day number, hashes, filename and other metadata will be added automatically.
+        Day number, hashes and filename will be added automatically.
 
   - type: dropdown
-    id: language
+    id: primary_language
     attributes:
-      label: Language
+      label: Primary language of this post
       options:
         - en
+        - nl
       default: 0
     validations:
       required: true
 
   - type: input
-    id: rvn_title
+    id: rvn_title_en
     attributes:
-      label: RVN Title
+      label: RVN Title (English)
       placeholder: "1 April – New Year’s Day in the old 13-month calendar"
     validations:
       required: true
 
-  - type: textarea
-    id: rvn_teaser
+  - type: input
+    id: rvn_title_nl
     attributes:
-      label: Teaser
-      description: Short summary (1-3 sentences) that sparks curiosity. This is used in the overview cards.
+      label: RVN Titel (Nederlands) – optional
+      placeholder: "1 april – Nieuwjaarsdag in het oude 13-maanden stelsel"
+    validations:
+      required: false
+
+  - type: textarea
+    id: rvn_teaser_en
+    attributes:
+      label: Teaser (English)
+      description: Short summary (1-3 sentences) that sparks curiosity.
       placeholder: "Why do we still celebrate April 1st as April Fools’ Day while it was once New Year’s Day?"
     validations:
       required: true
 
   - type: textarea
-    id: body
+    id: rvn_teaser_nl
     attributes:
-      label: Full RVN text (Markdown)
+      label: Teaser (Nederlands) – optional
+      description: Korte samenvatting (1-3 zinnen) die nieuwsgierigheid opwekt.
+      placeholder: "Waarom vieren we 1 april eigenlijk nog als April Fools’ Day terwijl het ooit Nieuwjaarsdag was?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: body_en
+    attributes:
+      label: Full RVN text (English – Markdown)
       description: |
         Write your full Reality vs Narrative post here.
         
         Use Markdown for formatting:
-        - Headings start with ### 
+        - Headings start with ###
         - **Bold** text
         - Lists with - or *
         - Blockquotes with >
         
         [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
       placeholder: |
-        Why do we actually celebrate April 1st as "fools day"?
+        Why do we actually celebrate April 1st as "April Fools’ Day"?
         
         While it was once New Year’s Day?
     validations:
       required: true
+
+  - type: textarea
+    id: body_nl
+    attributes:
+      label: Volledige RVN tekst (Nederlands – Markdown) – optional
+      description: |
+        Schrijf hier je volledige Reality vs Narrative post in het Nederlands.
+        
+        Gebruik Markdown voor opmaak:
+        - Hoofdstukken beginnen met ###
+        - **Vetgedrukte** tekst
+        - Lijsten met - of *
+        - Blockquotes met >
+        
+        [→ Markdown cheatsheet (opent in nieuw tabblad)](https://www.markdownguide.org/cheat-sheet/)
+      placeholder: |
+        Waarom vieren we 1 april eigenlijk als "gekke dag"?
+        
+        Terwijl het ooit Nieuwjaarsdag was?
+    validations:
+      required: false
 
   - type: input
     id: donation_link
@@ -72,7 +111,6 @@ body:
     id: notes
     attributes:
       label: Extra notes for the core team (optional)
-      description: |
-        For example: "Related to guide X" or "Please check fact Y"
+      description: For example "Please translate to Dutch" or "Related to guide X"
     validations:
       required: false

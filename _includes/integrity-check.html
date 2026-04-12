@@ -20,17 +20,17 @@
       <p id="copy-feedback" class="copy-feedback"></p>
     </div>
 
-    <!-- Git commit info (altijd tonen) -->
+    <!-- Git commit info - subtiel en altijd zichtbaar -->
     {% if page.git_commit_hash and page.git_commit_hash != "" %}
-      <div class="git-info" style="margin: 1.5em 0; padding: 12px; background: #1a1a1a; border-radius: 6px; font-size: 0.95em;">
+      <div class="git-info">
         <strong>{% if page.lang == 'en' or page.lang == 'EN' %}Published with commit{% else %}Gepubliceerd met commit{% endif %}:</strong><br>
-        <code style="word-break: break-all;">{{ page.git_commit_hash }}</code><br>
+        <code style="word-break: break-all; font-size: 0.92em;">{{ page.git_commit_hash }}</code><br>
         <small>
           {% if page.lang == 'en' or page.lang == 'EN' %}Date{% else %}Datum{% endif %}: 
           {{ page.git_commit_date | date: "%d %B %Y at %H:%M" }}
         </small>
         <br>
-        <a href="{{ page.git_commit_url }}" target="_blank" rel="noopener" style="color: #66ff99;">
+        <a href="{{ page.git_commit_url }}" target="_blank" rel="noopener" style="color: #66ff99; font-size: 0.95em;">
           {% if page.lang == 'en' or page.lang == 'EN' %}View commit on GitHub →{% else %}Bekijk commit op GitHub →{% endif %}
         </a>
       </div>
