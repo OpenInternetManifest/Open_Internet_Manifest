@@ -61,14 +61,14 @@ body:
     attributes:
       label: Volledige RVN tekst (Nederlands – Markdown)
       description: |
-	Schrijf hier je volledige post in het Nederlands. Gebruik Markdown voor opmaak.
-
-  	Use Markdown for formatting:
+       Schrijf hier je volledige post in het Nederlands. Gebruik Markdown voor opmaak.
+  
+        	Use Markdown for formatting:
         - Headings start with ### 
         - **Bold** text
         - Lists with - or *
         - Blockquotes with >
-	
+
        [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
       placeholder: |
         Why do we actually celebrate April 1st as "fools day"?
