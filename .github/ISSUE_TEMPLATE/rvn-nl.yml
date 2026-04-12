@@ -60,8 +60,20 @@ body:
     id: body_nl
     attributes:
       label: Volledige RVN tekst (Nederlands – Markdown)
-      description: Schrijf hier je volledige post in het Nederlands. Gebruik Markdown voor opmaak (toolbar + preview beschikbaar).
-      render: markdown
+      description: |
+        Schrijf hier je volledige Reality vs Narrative post.
+        
+        Gebruik Markdown voor opmaak:
+        - Hoofdstukken beginnen met ###
+        - **Vetgedrukte** tekst
+        - Lijsten met - of *
+        - Blockquotes met >
+        
+        [→ Markdown cheatsheet (opent in nieuw tabblad)](https://www.markdownguide.org/cheat-sheet/)
+      placeholder: |
+        Waarom vieren we 1 april eigenlijk als "gekke dag"?
+        
+        Terwijl het ooit Nieuwjaarsdag was?
     validations:
       required: true
 
@@ -69,8 +81,20 @@ body:
     id: body_en
     attributes:
       label: Full RVN text (English – Markdown) – optioneel
-      description: Write your full post in English here (optional but recommended). Use Markdown for formatting (toolbar + preview available).
-      render: markdown
+      description: |
+        Write your full Reality vs Narrative post here.
+        
+        Use Markdown for formatting:
+        - Headings start with ### 
+        - **Bold** text
+        - Lists with - or *
+        - Blockquotes with >
+        
+        [→ Markdown cheatsheet (opens in new tab)](https://www.markdownguide.org/cheat-sheet/)
+      placeholder: |
+        Why do we actually celebrate April 1st as "fools day"?
+        
+        While it was once New Year’s Day?
     validations:
       required: false
 
