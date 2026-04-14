@@ -6,13 +6,13 @@ rvn_title: "Het litteken dat er niet was – Hoe perceptie discriminatie creëer
 rvn_teaser: "Wat als de discriminatie die je voelt écht is… maar het litteken niet bestaat?"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "4dcd8e566c0ca5d4bff85ca536c5f68f29b681ad16022c6314a6c1a708b720eb"
+social_x_sha256: "41eb70757624808c3fd3b9a94b828751332bade2e621de5213d7340a422254ff"
+social_fb_sha256: "41eb70757624808c3fd3b9a94b828751332bade2e621de5213d7340a422254ff"
+social_share_sha256: "41eb70757624808c3fd3b9a94b828751332bade2e621de5213d7340a422254ff"
+git_commit_hash: "bb8e379fa536a67909ad8a33a5307430130833d3"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bb8e379fa536a67909ad8a33a5307430130833d3"
+git_commit_date: "2026-04-14T06:46:32+02:00"
 ---
 
 
