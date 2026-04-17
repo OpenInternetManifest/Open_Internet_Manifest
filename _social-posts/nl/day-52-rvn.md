@@ -6,13 +6,13 @@ rvn_title: "De druk van de groep – Waarom we onze eigen ogen niet meer vertrou
 rvn_teaser: "Hoe ver ga je mee als de hele groep iets anders ziet dan jij?"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "7342b48009a5a4d52234f387bd132d5b3c0c431b2b849f04ebc09e491dd22d73"
+social_x_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
+social_fb_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
+social_share_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
+git_commit_hash: "27bafcaf2ea4003d2039071b9894e99c20ff9861"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/27bafcaf2ea4003d2039071b9894e99c20ff9861"
+git_commit_date: "2026-04-17T07:12:49+02:00"
 ---
 
 
