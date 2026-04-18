@@ -11,9 +11,9 @@ website_sha256: ""
 social_x_sha256: ""
 social_fb_sha256: ""
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "0b9881ef55f40304d34944298a78bacb87e84fc2"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/0b9881ef55f40304d34944298a78bacb87e84fc2"
+git_commit_date: "2026-04-18T16:58:54+02:00"
 ---
 
 
