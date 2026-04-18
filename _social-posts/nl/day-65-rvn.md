@@ -6,10 +6,10 @@ rvn_title: "Olie daalt naar $85–90, pompprijs blijft hangen – Waarom?"
 rvn_teaser: "Vandaag daalde de olieprijs fors, maar aan de pomp merken we er weinig van. Dit is geen toeval."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "4ebedce93e3174bf498dff5f76fd985585c27c8c885c1318dca6fe063ff9063e"
+git_commit_hash: "6681bfd9a7d68dd90bc2fe89885601e925bb5a6e"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6681bfd9a7d68dd90bc2fe89885601e925bb5a6e"
+git_commit_date: "2026-04-18T17:53:46+02:00"
 ---
 
 
