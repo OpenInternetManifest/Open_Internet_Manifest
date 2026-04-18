@@ -6,13 +6,13 @@ rvn_title: "Vatprijs daalt, literprijs niet – De asymmetrie van brandstofprijz
 rvn_teaser: "Olie daalt fors, maar aan de pomp merken we er weinig van. Toeval?"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "89cc632357953ea5584825efc787e88635e44f427865121f2ab46e75326de3bd"
+social_x_sha256: "2740732995a727506381a338aa0c1b8c79ba8ffd61556044a74d84e8e7d34e4c"
+social_fb_sha256: "2740732995a727506381a338aa0c1b8c79ba8ffd61556044a74d84e8e7d34e4c"
+social_share_sha256: "2740732995a727506381a338aa0c1b8c79ba8ffd61556044a74d84e8e7d34e4c"
+git_commit_hash: "415834e978567e38e0b6298173b066225cd372e2"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/415834e978567e38e0b6298173b066225cd372e2"
+git_commit_date: "2026-04-18T13:32:25+02:00"
 ---
 
 
