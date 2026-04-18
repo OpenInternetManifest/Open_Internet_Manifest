@@ -45,10 +45,7 @@ jobs:
             git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
 
             # Update frontmatter
-            sed -i "s|website_sha256: \".*\"|website_sha256: \"${website_sha256}\"|" "$file"
-            sed -i "s|social_x_sha256: \".*\"|social_x_sha256: \"${fuzzy_sha256}\"|" "$file"
-            sed -i "s|social_fb_sha256: \".*\"|social_fb_sha256: \"${fuzzy_sha256}\"|" "$file"
-            sed -i "s|social_share_sha256: \".*\"|social_share_sha256: \"${fuzzy_sha256}\"|" "$file"
+            sed -i "s|fuzzy_sha256: \".*\"|fuzzy_sha256: \"${fuzzy_sha256}\"|" "$file"
             sed -i "s|git_commit_hash: \".*\"|git_commit_hash: \"${git_commit_hash}\"|" "$file"
             sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
             sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
