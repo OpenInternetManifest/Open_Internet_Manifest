@@ -21,12 +21,9 @@ jobs:
           git config user.name "OIM Bot"
           git config user.email "bot@openinternetmanifest.org"
 
-      - name: Clean body, placeholders and calculate hashes
+      - name: Clean body and calculate hashes (using debug logic)
         run: |
-          echo "🔍 Starting targeted body cleanup..."
-
-          # Bepaal of dit een Engelse template is (op basis van titel)
-          IS_ENGLISH=$(echo "${{ github.event.pull_request.title }}" | grep -i "\[RVN EN\]" && echo "true" || echo "false")
+          echo "🔍 Starting hash calculation with debug logic v27..."
 
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
 
@@ -36,42 +33,9 @@ jobs:
           fi
 
           for file in $FILES; do
-            echo "Processing: $file (English template: $IS_ENGLISH)"
+            echo "Processing: $file"
 
-            if [ "$IS_ENGLISH" = "true" ]; then
-              echo "→ English template detected - aggressive NL cleanup"
-              # Verwijder ALLE Nederlandse form-headers en content uit EN-bestand
-              sed -i '/^### Volledige RVN tekst (Nederlands – Markdown)/,/^### Donatie link/d' "$file"
-              sed -i '/^### RVN Titel (Nederlands)/d' "$file"
-              sed -i '/^### Teaser (Nederlands)/d' "$file"
-              sed -i '/^### Extra opmerkingen/d' "$file"
-            else
-              echo "→ Dutch template detected - standard cleanup"
-              # Standaard cleanup voor NL-template
-              sed -i '/^### Full RVN text (English – Markdown)/,/^### Donatie link/d' "$file"
-            fi
-
-            # Algemene cleanup (altijd)
-            sed -i '/^### .*Markdown.*$/d' "$file"
-            sed -i '/^### Donatie link/d' "$file"
-            sed -i '/^### Donation link/d' "$file"
-            sed -i '/^### Extra opmerkingen/d' "$file"
-            sed -i '/^### Extra notes/d' "$file"
-            sed -i '/^_No response_$/d' "$file"
-            sed -i '/^```markdown$/d' "$file"
-            sed -i '/^```$/d' "$file"
-
-            # Verwijder lege regels na frontmatter
-            sed -i '/^---$/N; /^\n---$/d' "$file"
-            sed -i '/^---\s*$/N; /^\n---\s*$/d' "$file"
-
-            # Nette English placeholders
-            sed -i 's|rvn_title: "_No response_"|rvn_title: "This post has not been translated into English yet."|' "$file"
-            sed -i 's|rvn_teaser: "_No response_"|rvn_teaser: "Translation coming soon."|' "$file"
-            sed -i 's|rvn_title: ""|rvn_title: "This post has not been translated into English yet."|' "$file"
-            sed -i 's|rvn_teaser: ""|rvn_teaser: "Translation coming soon."|' "$file"
-
-            # Calculate and update hashes
+            # Run the calculate script
             HASHES=$(.github/scripts/calculate-hashes.sh "$file")
 
             website_sha256=$(echo "$HASHES" | grep '^WEBSITE_SHA256=' | cut -d= -f2)
@@ -80,6 +44,7 @@ jobs:
             git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
             git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
 
+            # Update frontmatter
             sed -i "s|website_sha256: \".*\"|website_sha256: \"${website_sha256}\"|" "$file"
             sed -i "s|social_x_sha256: \".*\"|social_x_sha256: \"${fuzzy_sha256}\"|" "$file"
             sed -i "s|social_fb_sha256: \".*\"|social_fb_sha256: \"${fuzzy_sha256}\"|" "$file"
@@ -88,7 +53,7 @@ jobs:
             sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
             sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
 
-            echo "✅ Body cleaned and hashes updated in $file"
+            echo "✅ Hashes updated in $file"
           done
 
       - name: Commit updated files

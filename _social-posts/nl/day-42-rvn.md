@@ -2,13 +2,13 @@
 layout: social-posts
 lang: nl
 day: 42
-website_sha256: 
+website_sha256: ''
 social_x_sha256: ''
 social_fb_sha256: af16a2686096740adad3b77f2f20a553e28712157b7389e74cdb527b076dee1a
 social_share_sha256: ''
 rvn_title: Woorden wegen niet meer op wat ze zeggen
 rvn_teaser: Morgen gemeenteraadsverkiezingen. Vandaag even het terrein lezen
-# rvn_url: /nl/social-posts/dag-41-rvn
+# rvn_url: /nl/social-posts/dag-42-rvn
 ---
 **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀
 

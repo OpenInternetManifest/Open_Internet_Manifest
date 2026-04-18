@@ -2,7 +2,7 @@
 layout: social-posts
 lang: nl
 day: 40
-website_sha256: 
+website_sha256: ''
 social_x_sha256: ''
 social_fb_sha256: b8e4d21c89dfe2ce06af9a243cd796340f2852feb1976d91635c0aaa0590c37a
 social_share_sha256: ''
@@ -10,7 +10,6 @@ rvn_title: Sun Tzu voltooid?
 rvn_teaser: Proxy-lus breekt af met precisie-slagen ♟️
 # rvn_url: /nl/social-posts/dag-40-rvn
 ---
-
 **Korte stilte – even een update**  
 Het was even stil met nieuwe RVN-posts deze week. Niet omdat er niks gebeurt, maar juist omdat er achter de schermen vol gas gegeven wordt 💨. We bouwen momenteel een admin-pagina die posten, herposten op X/Facebook en bijdragen van de community een stuk makkelijker maakt. Dat gaat ons in staat stellen om sneller, consistenter en met input van jullie te blijven draaien. Morgen plaatsen we deze als eenmalige post deze week – daarna komt de flow weer op gang. Bedankt voor het geduld, het wordt de moeite waard 🙏.
 
