@@ -1,4 +1,4 @@
-f<details class="integrity-check">
+<details class="integrity-check">
   <summary>🔒 {% if page.lang == 'en' or page.lang == 'EN' %}Verify integrity of this page (SHA256){% else %}Verifieer integriteit van deze pagina (SHA256){% endif %}</summary>
   
   <div class="integrity-content">
@@ -40,6 +40,8 @@ f<details class="integrity-check">
     <div class="verify-section" style="margin-top: 25px; padding: 20px; background: #1f1f1f; border-radius: 8px;">
       <p><strong>{% if page.lang == 'en' or page.lang == 'EN' %}Verify with SHA256 hash{% else %}Verifieer met SHA256 hash{% endif %}</strong></p>
       
+        <input type="hidden" id="official-website-hash" value="{{ page.website_sha256 | default: '' }}">
+        
       <input type="text" id="user-hash" class="hash-input" 
              placeholder="{% if page.lang == 'en' or page.lang == 'EN' %}Paste your calculated SHA256 hash here{% else %}Plak hier je berekende SHA256 hash{% endif %}"
              style="width: 100%; padding: 12px; margin-bottom: 12px; background: #111; color: #ddd; border: 1px solid #444; border-radius: 6px;">

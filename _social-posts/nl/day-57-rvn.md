@@ -16,6 +16,7 @@ git_commit_date: "2026-04-18T13:32:25+02:00"
 ---
 
 
+
 **RVN: Vatprijs daalt, literprijs niet – De asymmetrie van brandstofprijzen** 🌀
 
 De olieprijzen (Brent en WTI) zijn de afgelopen dagen fors gedaald en staan momenteel rond de $85–90 per vat. Dat is geen extreme piek.
