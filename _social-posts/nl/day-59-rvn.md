@@ -7,12 +7,12 @@ rvn_teaser: "Vandaag daalde de olieprijs fors, maar aan de pomp merken we er wei
 donation_link: ""
 donation_text: ""
 website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+social_x_sha256: "1b7223a56e483c8a887ca7cf7ccd9f1a3d08f1bf92aacef4c4b139b10523b702"
+social_fb_sha256: "1b7223a56e483c8a887ca7cf7ccd9f1a3d08f1bf92aacef4c4b139b10523b702"
+social_share_sha256: "1b7223a56e483c8a887ca7cf7ccd9f1a3d08f1bf92aacef4c4b139b10523b702"
+git_commit_hash: "0c47688d76fb88fae075c389f416025afeeaf8a7"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/0c47688d76fb88fae075c389f416025afeeaf8a7"
+git_commit_date: "2026-04-18T16:35:59+02:00"
 ---
 
 
