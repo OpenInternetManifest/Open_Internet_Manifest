@@ -38,9 +38,9 @@ commit_hash=$(git rev-parse HEAD)
 commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
 commit_date=$(git log -1 --format=%cI)
 
-# Output
+# Output voor workflow
 cat << EOF
-FUZZY_SHA256=${fuzzy_sha256}
+fuzzy_sha256=${fuzzy_sha256}
 GIT_COMMIT_HASH=${commit_hash}
 GIT_COMMIT_URL=${commit_url}
 GIT_COMMIT_DATE=${commit_date}
