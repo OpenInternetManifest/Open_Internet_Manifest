@@ -33,6 +33,9 @@ fuzzy_body=$(echo "$raw_body" | \
   sed 's/[ \t]*$//g' | \
   sed '/^--$/d' | \
   sed '/^---$/d' | \
+  sed 's/| / /g' | \
+  sed 's/ |/ /g' | \
+  sed '/^[-:| ]*$/d' | \
   tr '[:upper:]' '[:lower:]' | \
   sed 's/[ \t]\+/ /g' | \
   tr '\n' ' ' | \

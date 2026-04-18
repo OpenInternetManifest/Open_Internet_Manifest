@@ -88,6 +88,9 @@ document.addEventListener('DOMContentLoaded', function() {
           .replace(/[ \t]+/g, ' ')
           .replace(/\n/g, ' ')               // ALLE nieuwe regels → spatie
           .replace(/[ \t]+/g, ' ')
+          .replace(/\| /g, ' ')
+          .replace(/ \|/g, ' ')
+          .replace(/^[ \t]*[-:| ]+$/gm, '')
           .toLowerCase()                     // hoofdletters weg
           .trim();
 

@@ -11,7 +11,7 @@ fi
 # Extract body after frontmatter
 raw_body=$(sed '0,/^---$/d' "$FILE" | sed '0,/^---$/d')
 
-# FUZZY BODY - zeer fuzzy, maar behoud tabellen beter
+# FUZZY BODY - zeer fuzzy + tabel flattening
 fuzzy_body=$(echo "$raw_body" | \
   sed 's/\*\*\(.*?\)\*\*/\1/g' | \
   sed 's/\*\(.*?\)\*/\1/g' | \
@@ -25,12 +25,15 @@ fuzzy_body=$(echo "$raw_body" | \
   sed 's/[ \t]*$//g' | \
   sed '/^--$/d' | \
   sed '/^---$/d' | \
+  # Tabel flattening: vervang | door spatie en verwijder rij-separators
+  sed 's/| / /g' | \
+  sed 's/ |/ /g' | \
+  sed '/^[-:| ]*$/d' | \
   tr '[:upper:]' '[:lower:]' | \
   sed 's/[ \t]\+/ /g' | \
   tr '\n' ' ' | \
   sed 's/[ \t]\+/ /g' | \
   sed 's/^ //;s/ $//')
-
 fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk '{print $1}')
 
 # Git info
