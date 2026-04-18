@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var userHashInput = document.getElementById('user-hash');
   var verifyFeedback = document.getElementById('verify-feedback');
 
-  var officialHash = document.getElementById('official-website-hash') 
-                   ? document.getElementById('official-website-hash').value.trim() 
+  var officialHash = document.getElementById('official-fuzzy-hash') 
+                   ? document.getElementById('official-fuzzy-hash').value.trim() 
                    : null;
 
   if (verifyBtn && userHashInput && verifyFeedback) {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       if (!officialHash) {
-        showFeedback(verifyFeedback, 'Kan officiële hash niet vinden.', 'error');
+        showFeedback(verifyFeedback, 'Kan officiële fuzzy hash niet vinden.', 'error');
         return;
       }
 

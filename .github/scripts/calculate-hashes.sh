@@ -1,5 +1,5 @@
 #!/bin/bash
-# calculate-hashes.sh - Fuzzy only (match debug tool v41)
+# calculate-hashes.sh - Fuzzy only (exact match debug v41)
 
 FILE="$1"
 
@@ -11,23 +11,25 @@ fi
 # Extract body after frontmatter
 raw_body=$(sed '0,/^---$/d' "$FILE" | sed '0,/^---$/d')
 
-# FUZZY BODY - exact dezelfde stripping als debug tool
+# FUZZY BODY - exact dezelfde als debug tool
 fuzzy_body=$(echo "$raw_body" | \
   sed 's/\*\*\(.*?\)\*\*/\1/g' | \
   sed 's/\*\(.*?\)\*/\1/g' | \
   sed 's/\*\*//g' | \
   sed 's/\*//g' | \
-  sed 's/^>[ \t]*//g' | \
-  sed 's/^[ \t]*###*[ \t]*//g' | \
-  sed 's/^[ \t]*[0-9]\+\.[ \t]*//g' | \
-  sed 's/^[ \t]*[-*+][ \t]*//g' | \
+  sed 's/^>[ \t]*/ /g' | \
+  sed 's/^[ \t]*###*[ \t]*/ /g' | \
+  sed 's/^[ \t]*[0-9]+\.[ \t]*/ /g' | \
+  sed 's/^[ \t]*[-*+][ \t]*/ /g' | \
   sed 's/^[ \t]*//g' | \
   sed 's/[ \t]*$//g' | \
   sed '/^--$/d' | \
   sed '/^---$/d' | \
   tr '[:upper:]' '[:lower:]' | \
-  sed '/^$/d' | \
-  sed 's/[ \t]\+/ /g')
+  sed 's/[ \t]\+/ /g' | \
+  tr '\n' ' ' | \
+  sed 's/[ \t]\+/ /g' | \
+  sed 's/^ //;s/ $//')
 
 fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk '{print $1}')
 
