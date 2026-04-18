@@ -7,12 +7,12 @@ rvn_teaser: " Olie daalt fors, maar aan de pomp merken we er weinig van. Toeval?
 donation_link: ""
 donation_text: ""
 website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+social_x_sha256: "216bf1c7e9fca0061376946524549af5eccf01a2360042c1bfef9172488ab424"
+social_fb_sha256: "216bf1c7e9fca0061376946524549af5eccf01a2360042c1bfef9172488ab424"
+social_share_sha256: "216bf1c7e9fca0061376946524549af5eccf01a2360042c1bfef9172488ab424"
+git_commit_hash: "678832e27ebc49ef2a1d8bc96ae4fe34b4a2147e"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/678832e27ebc49ef2a1d8bc96ae4fe34b4a2147e"
+git_commit_date: "2026-04-18T16:20:13+02:00"
 ---
 
 
