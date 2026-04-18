@@ -6,13 +6,13 @@ rvn_title: "Observatie creëert realiteit – Hawthorne en het Double Slit Exper
 rvn_teaser: "Wat als je waarneming niet alleen kijkt… maar ook vormgeeft aan wat je ziet?"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "8313a848faacb01f3e90a08c6cd97d53e8906dd66b478c7d6c8d772e7fd23fef"
+social_x_sha256: "5067aab3355db5fafc6da5b908334bf13035564b1b45ae7459c7773f4d9e2e64"
+social_fb_sha256: "5067aab3355db5fafc6da5b908334bf13035564b1b45ae7459c7773f4d9e2e64"
+social_share_sha256: "5067aab3355db5fafc6da5b908334bf13035564b1b45ae7459c7773f4d9e2e64"
+git_commit_hash: "795fafda85133d49758bf3a122a048576aa23334"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/795fafda85133d49758bf3a122a048576aa23334"
+git_commit_date: "2026-04-18T07:31:06+02:00"
 ---
 
 

@@ -6,13 +6,13 @@ rvn_title: "Observation Creates Reality – Hawthorne Effect & Double Slit Exper
 rvn_teaser: "What if your observation doesn’t just look… but actually shapes what you see?"
 donation_link: ""
 donation_text: ""
-website_sha256: ""
-social_x_sha256: ""
-social_fb_sha256: ""
-social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+website_sha256: "40b752ac759203a6fe0c5461c2c943aa5da5d9ab68989c2ad0993c92ccf6f871"
+social_x_sha256: "13a950004fe423f361d7f3519868b2f48f93e06e806376d822943882839718ee"
+social_fb_sha256: "13a950004fe423f361d7f3519868b2f48f93e06e806376d822943882839718ee"
+social_share_sha256: "13a950004fe423f361d7f3519868b2f48f93e06e806376d822943882839718ee"
+git_commit_hash: "795fafda85133d49758bf3a122a048576aa23334"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/795fafda85133d49758bf3a122a048576aa23334"
+git_commit_date: "2026-04-18T07:31:06+02:00"
 ---
 
 
