@@ -1,5 +1,5 @@
 #!/bin/bash
-# calculate-hashes.sh - Fuzzy only (exact match debug v41)
+# calculate-hashes.sh - Fuzzy only (exact match debug v41 + tabel-bescherming)
 
 FILE="$1"
 
@@ -11,7 +11,7 @@ fi
 # Extract body after frontmatter
 raw_body=$(sed '0,/^---$/d' "$FILE" | sed '0,/^---$/d')
 
-# FUZZY BODY - exact dezelfde als debug tool
+# FUZZY BODY - zeer fuzzy, maar behoud tabellen beter
 fuzzy_body=$(echo "$raw_body" | \
   sed 's/\*\*\(.*?\)\*\*/\1/g' | \
   sed 's/\*\(.*?\)\*/\1/g' | \
@@ -38,7 +38,7 @@ commit_hash=$(git rev-parse HEAD)
 commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
 commit_date=$(git log -1 --format=%cI)
 
-# Output voor workflow
+# Output
 cat << EOF
 fuzzy_sha256=${fuzzy_sha256}
 GIT_COMMIT_HASH=${commit_hash}
