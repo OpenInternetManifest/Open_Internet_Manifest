@@ -21,9 +21,9 @@ jobs:
           git config user.name "OIM Bot"
           git config user.email "bot@openinternetmanifest.org"
 
-      - name: Clean body and calculate hashes (using debug logic)
+      - name: Calculate hashes and update frontmatter
         run: |
-          echo "🔍 Starting hash calculation with debug logic v27..."
+          echo "🔍 Starting hash calculation with clean logic (v31)..."
 
           FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
 
@@ -35,7 +35,7 @@ jobs:
           for file in $FILES; do
             echo "Processing: $file"
 
-            # Run the calculate script
+            # Run the clean calculate script (exact match with debug tool)
             HASHES=$(.github/scripts/calculate-hashes.sh "$file")
 
             website_sha256=$(echo "$HASHES" | grep '^WEBSITE_SHA256=' | cut -d= -f2)
@@ -62,7 +62,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Final strict RVN body cleanup after merge"
+            git commit -m "Auto: update hashes after RVN merge (clean logic v31)"
             git push
             echo "🚀 Changes committed to main"
           fi
