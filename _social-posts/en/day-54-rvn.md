@@ -6,14 +6,12 @@ rvn_title: "Us vs Them in One Week – Robbers Cave Experiment"
 rvn_teaser: "How quickly can you turn two groups of normal boys into enemies?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "28d39f68058c0f4be94f9c266b456f0355b44dab197c541c9d2a2e27e1e3c5fd"
 social_share_sha256: ""
 git_commit_hash: "255a43b66c58007a553ce815ab163647ccbd1ca8"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/255a43b66c58007a553ce815ab163647ccbd1ca8"
 git_commit_date: "2026-04-19T12:54:57+02:00"
+fuzzy_sha256: "28d39f68058c0f4be94f9c266b456f0355b44dab197c541c9d2a2e27e1e3c5fd"
 ---
-
-
 **RVN: Us vs Them in One Week – Robbers Cave Experiment** 🌀
 
 **Short recap of the series so far**

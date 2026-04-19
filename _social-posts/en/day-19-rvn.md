@@ -9,6 +9,7 @@ day: 19
 rvn_title: DigiD in American hands
 # rvn_url: /en/social-posts/day-19-rvn
 rvn_teaser: crisis or opportunity?
+fuzzy_sha256: "813f4467059f217e211e88b2bb4096c41054d8bf44f5b07132591626ded5b9f1"
 ---
 🇬🇧 **Day 19 – Reality vs Narrative: DigiD in American hands – crisis or opportunity?** 🌐🔒
 Today's news hits hard: the company behind DigiD, eHerkenning and MijnOverheid (Zynyo) is being acquired by a US-linked private equity fund. At the same time, more critical Dutch data is moving into American clouds (Azure, AWS, Google).

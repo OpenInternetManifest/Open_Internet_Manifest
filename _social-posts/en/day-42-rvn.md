@@ -8,8 +8,8 @@ rvn_teaser:  Municipal elections tomorrow – time to read the terrain
 website_sha256: 
 social_fb_sha256: 136b20890f703af58a275315d0eec576e7a0e2e163650e875b0943a028552296
 social_share_sha256: ''
+fuzzy_sha256: "9019b72931c93413621b0131b025162340e72bc52af2da4c67b35d79edf41d85"
 ---
-
 **Day 42 – RVN: Words no longer weigh by what they say, but by what narrative is made of them** ⚖️🌀
 
 Municipal elections tomorrow – time to read the terrain!

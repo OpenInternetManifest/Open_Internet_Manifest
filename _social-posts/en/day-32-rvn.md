@@ -9,6 +9,7 @@ day: 32
 rvn_title: Sun Tzu completed
 # rvn_url: /en/social-posts/day-32-rvn
 rvn_teaser: Epstein files as a boomerang flying back
+fuzzy_sha256: "36bceeb7603f02983bf317ffabbfebd3c6e923f34ec72a0738e3dc52d3c05837"
 ---
 **Day 32 – RVN: Sun Tzu completed – Epstein files as a boomerang flying back** ♟️🌀🔥  
 A story of how a push for transparency shoots itself in the foot 💥

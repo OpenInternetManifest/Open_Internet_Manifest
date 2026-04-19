@@ -3,113 +3,81 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
-  // Check if officialHashes is loaded
-  if (typeof officialHashes === 'undefined') {
-    showResult('Error: hashes niet geladen. Vernieuw de pagina.', 'error');
+  if (typeof window.officialFuzzyHashes === 'undefined') {
+    result.innerHTML = '<span style="color: #ff6666;">Error: Hashes niet geladen. Vernieuw de pagina.</span>';
+    result.style.display = 'block';
     return;
   }
-
-  // preStoredTexts is optioneel – als niet aanwezig, geen fuzzy
-  const hasPreStored = typeof preStoredTexts !== 'undefined' && Object.keys(preStoredTexts).length > 0;
 
   btn.addEventListener('click', () => {
     const rawText = input.value.trim();
     if (!rawText) {
-      showResult('Voer een tekst in.', 'warning');
+      showResult('Plak eerst een tekst om te verifiëren.', 'warning');
       return;
     }
 
-    let cleanText = rawText.trim();
-    cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
+    // Exact dezelfde fuzzy cleaning als in ons Python script + debug script
+    let cleanText = rawText
+      .replace(/\*\*(.*?)\*\*/g, '$1')
+      .replace(/\*(.*?)\*/g, '$1')
+      .replace(/^>[ \t]*/gm, '')
+      .replace(/^[ \t]*###*[ \t]*/gm, '')
+      .replace(/^[ \t]*[0-9]+\.[ \t]*/gm, '')
+      .replace(/^[ \t]*[-*+][ \t]*/gm, '')
+      .replace(/^[ \t]+/gm, '')
+      .replace(/[ \t]+$/gm, '')
+      .replace(/\| ?/g, ' ')
+      .replace(/ \|/g, ' ')
+      .replace(/^[-:| ]+$/gm, '')
+      .replace(/^--$/gm, '')
+      .replace(/^---$/gm, '')
+      .toLowerCase()
+      .replace(/[ \t]+/g, ' ')
+      .replace(/\n/g, ' ')
+      .replace(/[ \t]+/g, ' ')
+      .trim();
 
+    // Calculate hash
     sha256(cleanText).then(hash => {
-      // Exacte match – groen
-      const exactPath = Object.entries(officialHashes).find(([path, h]) => h === hash);
-      if (exactPath) {
-        const path = exactPath[0];
-        const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${path}`;
-        showResult(`✅ <strong>100% authentiek!</strong><br>Deze tekst komt exact overeen met:<br><a href="${url}" target="_blank">${getTitle(path)}</a>`, 'success');
-        return;
-      }
+      // Search in all posts
+      let matchFound = false;
+      let matchUrl = '';
+      let matchTitle = '';
 
-      // Fuzzy match – alleen als preStoredTexts beschikbaar is
-      if (hasPreStored) {
-        let bestMatch = null;
-        let bestRatio = 0;
+      for (let url in window.officialFuzzyHashes) {
+        if (window.officialFuzzyHashes[url] === hash) {
+          matchFound = true;
+          matchUrl = url;
+          const info = window.officialGitInfo[url] || {};
+          matchTitle = info.title || 'Onbekende post';
 
-        for (const [path, storedText] of Object.entries(preStoredTexts)) {
-          const ratio = stringSimilarity(cleanText, storedText);
-          if (ratio > bestRatio && ratio >= 0.85) {
-            bestRatio = ratio;
-            bestMatch = path;
+          let html = `<span style="color: #66ff66; font-size: 1.2em;">✅ 100% AUTHENTIEK!</span><br><br>`;
+          html += `<strong>Post:</strong> <a href="${url}" target="_blank">${matchTitle}</a><br>`;
+          if (info.commit_hash) {
+            html += `<strong>Commit:</strong> <a href="${info.commit_url}" target="_blank">${info.commit_hash.substring(0,12)}</a> (${info.commit_date})`;
           }
-        }
-
-        if (bestMatch) {
-          const url = `https://openinternetmanifest.github.io/Open_Internet_Manifest${bestMatch}`;
-
-          // Bij fuzzy altijd max 99% tonen – 100% is alleen voor exacte hash-match
-          const displayPercentage = bestRatio === 1.0 ? 99 : Math.round(bestRatio * 100);
-
-          showResult(`⚠️ Geen exacte hash-match, maar <strong>${displayPercentage}% overeenkomt</strong> met:<br><a href="${url}" target="_blank">${getTitle(bestMatch)}</a><br><small>Mogelijk kleine kopieerfout of opmaakverschil (bijv. puntje, spatie of enter).</small>`, 'warning');
+          showResult(html, 'success');
           return;
         }
       }
 
-      // Geen match
-      showResult('❌ Geen match gevonden – dit lijkt geen tekst uit het Open Internet Manifest.', 'error');
+      if (!matchFound) {
+        showResult(`❌ Geen match gevonden.<br><br>Je berekende hash:<br><code>${hash}</code>`, 'error');
+      }
     });
   });
 
-  function showResult(message, type) {
-    result.innerHTML = message;
-    result.className = `result-box ${type}`;
+  function showResult(html, type) {
+    result.innerHTML = html;
     result.style.display = 'block';
+    result.style.borderLeftColor = type === 'success' ? '#66ff66' : '#ff6666';
   }
 
-  function getTitle(path) {
-    if (path.includes('/theses/thesis-')) {
-      const num = path.split('-').pop();
-      return path.includes('/nl/') ? `Thesis ${num}` : `Thesis ${num} (EN)`;
-    }
-    if (path.includes('/begrippen/') || path.includes('/concepts/')) {
-      return 'Begrip: ' + path.split('/').pop();
-    }
-    if (path.includes('/guides/')) {
-      return 'Guide: ' + path.split('/').pop();
-    }
-    return path;
-  }
-
-  async function sha256(str) {
-    const encoder = new TextEncoder();
-    const data = encoder.encode(str);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  // Simple sha256 function
+  async function sha256(message) {
+    const msgBuffer = new TextEncoder().encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-  }
-
-  function stringSimilarity(s1, s2) {
-    const longer = s1.length > s2.length ? s1 : s2;
-    const shorter = s1.length > s2.length ? s2 : s1;
-    if (longer.length === 0) return 1.0;
-    const costs = new Array();
-    for (let i = 0; i <= longer.length; i++) {
-      let lastValue = i;
-      for (let j = 0; j <= shorter.length; j++) {
-        if (i === 0) costs[j] = j;
-        else {
-          if (j > 0) {
-            let newValue = costs[j - 1];
-            if (longer.charAt(i - 1) !== shorter.charAt(j - 1))
-              newValue = Math.min(newValue, lastValue, costs[j]) + 1;
-            costs[j - 1] = lastValue;
-            lastValue = newValue;
-          }
-        }
-      }
-      if (i > 0) costs[shorter.length] = lastValue;
-    }
-    return (longer.length - costs[shorter.length]) / longer.length;
   }
 });

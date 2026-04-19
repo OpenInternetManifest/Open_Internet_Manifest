@@ -2,53 +2,70 @@
 layout: default
 title: Hash Verifier
 lang: nl
-
 ---
 
 <div class="hash-verifier">
+
   <h1>Hash Verifier</h1>
-  
-  <p>
-    Wil je controleren of een social post (teaser, Realiteit vs Narratief of andere bijdrage) authentiek is en niet is aangepast?  
-    Plak de volledige tekst hieronder in (inclusief eventuele voetnoot of disclaimer).  
-    De verifier controleert de cryptografische hash en bevestigt of de tekst exact overeenkomt met de versie die is vastgelegd op openinternetmanifest.org.
+
+  <p class="intro">
+    Controleer zelf of een post van het Open Internet Manifest authentiek is.<br>
+    Plak de volledige tekst hieronder (inclusief eventuele voetnoot of hashtags) en klik op Verifieer.
   </p>
 
-  <blockquote>
-    “Een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.”  
-    — Ruben Berkhout, december 2025
-  </blockquote>
+    <!-- Prominente quote - cleaner versie -->
+  <div class="highlight-quote">
+    <blockquote>
+      “Een hash is digitaal zegelwas:<br>
+      <span class="quote-highlight">breek je het, dan ziet iedereen het.</span>”
+    </blockquote>
+    <cite>— Ruben Berkhout, december 2025</cite>
+  </div>
 
-  <p>
-    <strong>Waarom dit bestaat:</strong>  
-    Narratieven worden snel vervormd, woorden uit context gehaald of subtiel gewijzigd.  
-    Hashes bieden een onveranderlijk digitaal zegel: breek je het, dan is het direct zichtbaar.  
-    Dit helpt om de integriteit van bijdragen aan het Open Internet Manifest te beschermen.
+  <div class="section">
+    <strong>Waarom dit bestaat</strong>
+    <p>
+      Narratieven worden dagelijks verdraaid, woorden uit context gehaald of subtiel aangepast. 
+      Daarom gebruiken we hashes: een digitaal zegel dat laat zien of een tekst nog origineel is.
+    </p>
+  </div>
+
+    <div class="section">
+    <strong>Wat is een "fuzzy hash"?</strong>
+    
+    <p>
+      Normale hashes zijn extreem streng: één spatie, één emoji of één vetgedrukt woord en de hash is al anders.
+    </p>
+    
+    <p>
+      Omdat posts vaak worden gedeeld via X, Facebook, Telegram, e-mail of kopieer-plak acties, 
+      veranderen kleine dingen (extra spaties, nieuwe regels, vetgedrukte woorden, etc.).
+    </p>
+    
+    <p>
+      Daarom gebruiken wij een <em>fuzzy hash</em>: een slimme, vergevingsgezinde hash die kleine 
+      opmaak- en formaatverschillen negeert, maar de echte inhoud wel beschermt. 
+      Zo blijft een post herkenbaar als authentiek, zelfs nadat hij meerdere keren 
+      is gedeeld of licht is aangepast.
+    </p>
+  </div>
+
+  <p class="instruction">
+    Plak hier de volledige tekst van een social post, teaser of andere bijdrage:
   </p>
 
-  <p>
-    <strong>Coming soon:</strong> fuzzy matching!  
-    Dan kun je ook posts met kleine variaties (typografische fouten, spaties, emoji-wissels) herkennen als “bijna exact hetzelfde”, zodat de herkomst nog steeds traceerbaar blijft.
-  </p>
+  {% include fuzzy-hashes.html %}
 
-  <p>
-    Het Open Internet Manifest is een community effort.  
-    Elke post die hier wordt vastgelegd, kan door iedereen gecontroleerd worden.  
-    Op termijn groeit dit uit tot een collectief archief van authentieke bijdragen — van iedereen die meedoet.
-  </p>
+  <textarea id="input-text" 
+            placeholder="Plak hier de volledige tekst (incl. voetnoot, hashtags of disclaimer)..." 
+            rows="14"></textarea>
 
-  <p>
-    Plak hier de volledige tekst uit een social post (teaser, Realiteit vs Narratief, etc.) om te controleren of hij authentiek is en bij welke thesis/guide/begrip hij hoort.
-  </p>
-
-  <textarea id="input-text" placeholder="Plak hier de volledige tekst uit de social post (incl. voetnoot/disclaimer)..." rows="12"></textarea>
   <button id="verify-btn" class="verify-button">
-    {% if page.lang == "EN" %}
-      Verify
-    {% else %}
-      Verifieer
-    {% endif %}
+    Verifieer
   </button>
 
   <div id="result" class="result-box" style="display:none;"></div>
+
 </div>
+
+<script src="{{ '/assets/js/hash-verifier.js' | relative_url }}"></script>

@@ -13,7 +13,8 @@ social_share_sha256: "e8a10f6553895c54bb6a96726e0f10173b9cb7b30529389202932bb972
 git_commit_hash: "b3836a13d90aa13821504584ef0ac5c01830d71a"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/b3836a13d90aa13821504584ef0ac5c01830d71a"
 git_commit_date: "2026-04-06T18:09:45+02:00"
----   
+fuzzy_sha256: "3a816d01aeff9a37747a628d047825961a2d97d175a743c231558108609f0a6d"
+---
 **RVN: Why is a Jewish Jesus the reason to be Christian? – Easter and Fulfillment** 🌀
 A very common question, especially around Easter:
 “Christians claim Jesus was a Jew. If he was a Jew, then why are you a Christian?”

@@ -9,6 +9,7 @@ website_sha256:
 social_x_sha256: 87bc49d966401ee95daa1b8fb5a308233b3ecff4e6c7f5a0e58a049038197105
 social_fb_sha256: 89026e7351d3f4cdce603c1f0218ea10c33e601e786e47eca5be1b0ad2c876a7
 social_share_sha256: ''
+fuzzy_sha256: "ecc11cc133f65053eebaef40043400058247a6db2e5d5c349ed0ee74269a4123"
 ---
 **Fuel prices drop 10 cents overnight – Jetten stays silent. Coincidence? Or Sun Tzu in full swing?** 💥🔇
 

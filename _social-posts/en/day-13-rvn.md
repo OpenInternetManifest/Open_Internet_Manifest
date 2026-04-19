@@ -9,6 +9,7 @@ day: 13
 rvn_title: Fluoride; the narrative finally cracking
 # rvn_url: /en/social-posts/day-13-rvn
 rvn_teaser: For decades fluoride in water is safe
+fuzzy_sha256: "88ebff64a4557d8fac235f45e5bc529a45b4489a2d1461c4fe43b1f537811f16"
 ---
 **Reality vs Narrative** – Fluoride: the narrative finally cracking 🦷☢️
 For decades: "fluoride in water is safe and good for teeth". Standard in US public systems, pushed by CDC, ADA, WHO. Criticism? "Conspiracy theorists", "anti-science".

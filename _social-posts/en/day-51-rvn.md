@@ -13,9 +13,8 @@ social_share_sha256: "e242338efa97affaf642d692f1c3fbd3d71f593d4d6fbc7c2791e41926
 git_commit_hash: "5d1cb6e33a338f0fba5358388a43e6512c941868"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/5d1cb6e33a338f0fba5358388a43e6512c941868"
 git_commit_date: "2026-04-16T07:09:33+02:00"
+fuzzy_sha256: "4d795e67390d7af6ff29cb991b4b874ecaea9de071b36a78bdfbcaeafaed13d7"
 ---
-
-
 **RVN: The Prison Inside Ourselves – Stanford Prison Experiment** 🌀
 
 **Short recap of the series so far**

@@ -9,6 +9,7 @@ day: 31
 rvn_title: Words don’t count for what they literally say
 # rvn_url: /en/social-posts/day-31-rvn
 rvn_teaser: but for the narrative they create
+fuzzy_sha256: "d43e0e3ad6e2f6532af34eb4068e0a8a7b25e8f72776ec97edf867c242be097d"
 ---
 **Day 31 – RVN: Words don’t count for what they literally say anymore, but for the narrative they create** ⚖️🌀  
 Why a judge admits: no direct call to violence... but still guilty.

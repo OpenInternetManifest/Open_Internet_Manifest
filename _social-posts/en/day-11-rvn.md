@@ -9,6 +9,7 @@ day: 11
 rvn_title: WEF; World Economic Forum
 # rvn_url: /en/social-posts/day-11-rvn
 rvn_teaser: From talking shop across Europe to real power center
+fuzzy_sha256: "fd8ef0eb9a985955c84448dd76bb3627b9772978dff0b8158c8aec6ab11d5f15"
 ---
 **Reality vs Narrative** – From "talking shop" across Europe to real power center 🕶️❄️
 For years, Davos/WEF was dismissed in the Netherlands and across Europe as a mere **talking shop**: elites sipping champagne, making empty promises on a Swiss mountain. Rutte himself called it "just a talk club" – harmless networking, nothing more.

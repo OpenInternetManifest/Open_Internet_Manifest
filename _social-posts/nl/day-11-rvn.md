@@ -9,6 +9,7 @@ day: 11
 rvn_title: Van praatgroepje in heel Europa
 # rvn_url: /nl/social-posts/dag-11-rvn
 rvn_teaser: naar slagveld
+fuzzy_sha256: "fcf9075319152c3cd593e47a7e819c197c061ff77f31757e62e5d7e4aa69a0b8"
 ---
 **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
 

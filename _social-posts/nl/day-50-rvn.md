@@ -13,9 +13,8 @@ social_share_sha256: "1807abbcd1d49b15d43ddf5beb9e139137465b5c50c31e5745f2ee1b85
 git_commit_hash: "0bdbdb93b63d0e152cb682552720cd7de67aa31c"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/0bdbdb93b63d0e152cb682552720cd7de67aa31c"
 git_commit_date: "2026-04-15T06:39:40+02:00"
+fuzzy_sha256: "ed67299bd0a3d7af5ebd176520ed620741ecc3e4016e2a64751002b4f846dff5"
 ---
-
-
 **RVN: De shock van autoriteit – Hoe gewone mensen extreme dingen doen** 🌀
 
 **Korte recap van de serie tot nu toe**

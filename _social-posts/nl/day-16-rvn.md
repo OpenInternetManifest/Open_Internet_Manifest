@@ -9,6 +9,7 @@ day: 16
 rvn_title: Het 'mostly peaceful' patroon
 # rvn_url: /nl/social-posts/dag-16-rvn
 rvn_teaser: En de hypocrisie
+fuzzy_sha256: "57a70f2c8c3e8b0fb7c08283f5835f6a7423a8d94416d6b5272cabde78656755"
 ---
 🇳🇱 **Dag 16 – Reality vs Narrative: Het 'mostly peaceful' patroon & de hypocrisie** 🌐🔥  
 Vannacht en gisteren: Minneapolis kookt na de shooting van Alex Pretti (37, ICU nurse, phone in hand volgens witnesses/video's) door Border Patrol/ICE. Ouders noemen het executie, ACLU lawsuits lopen, protests escaleren. Dit volgt op Renee Good (7 jan, unarmed US citizen, shot in vehicle door ICE).  

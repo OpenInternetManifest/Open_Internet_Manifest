@@ -9,6 +9,7 @@ day: 38
 rvn_title: Tijdelijke bondgenoten
 # rvn_url: /nl/social-posts/dag-38-rvn
 rvn_teaser: het patroon dat altijd terugkomt
+fuzzy_sha256: "fab81af9e2b9f62539545a89e058ab0ab944c3728d34321c6a0f6036f0814b1c"
 ---
 **Dag 38 – RVN: Tijdelijke bondgenoten: het patroon dat altijd terugkomt** 🪢🕳️  
 

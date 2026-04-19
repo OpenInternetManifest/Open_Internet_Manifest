@@ -9,6 +9,7 @@ day: 4
 rvn_title: Een monteur in Amsterdam
 # rvn_url: /nl/social-posts/dag-4-rvn
 rvn_teaser: En een klant de situatie weegt voordat ze zegt dat ze Joods is
+fuzzy_sha256: "0becd96e54e6909f36755903875bb5927fad86d6d7967229c262ee040f294190"
 ---
 Realiteit vs. Narratief – Een monteur in Amsterdam.
 

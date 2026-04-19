@@ -9,6 +9,7 @@ day: 5
 rvn_title: Starlink gratis voor Iran"
 # rvn_url: /nl/social-posts/dag--rvn
 rvn_teaser: Dank Elon
+fuzzy_sha256: "2fd583bdff25de4a7250f9a3eac067968d8bc53099ca8f818f4ad1486544d841"
 ---
 Realiteit vs. Narratief – Starlink gratis voor Iran.
 

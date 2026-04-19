@@ -2,53 +2,69 @@
 layout: default
 title: Hash Verifier
 lang: en
-
 ---
 
 <div class="hash-verifier">
+
   <h1>Hash Verifier</h1>
-  
-  <p>
-    Want to check if a social post (teaser, Reality vs Narrative, or other contribution) is authentic and hasn’t been altered?  
-    Paste the full text below (including any footnote or disclaimer).  
-    The verifier checks the cryptographic hash and confirms whether it exactly matches the version archived on openinternetmanifest.org.
+
+  <p class="intro">
+    Check for yourself whether a post from the Open Internet Manifest is authentic.<br>
+    Paste the full text below (including any footnote or hashtags) and click Verify.
   </p>
 
-  <blockquote>
-    “A hash is digital sealing wax: break it, and everyone sees it.”  
-    — Ruben Berkhout, December 2025
-  </blockquote>
+  <!-- Prominente quote - cleaner versie -->
+  <div class="highlight-quote">
+    <blockquote>
+      “A hash is digital sealing wax:<br>
+      <span class="quote-highlight">break it, and everyone will see it.</span>”
+    </blockquote>
+    <cite>— Ruben Berkhout, December 2025</cite>
+  </div>
 
-  <p>
-    <strong>Why this exists:</strong>  
-    Narratives are easily distorted, words taken out of context, or subtly changed.  
-    Hashes provide an immutable digital seal: break it, and the change is immediately visible.  
-    This helps protect the integrity of contributions to the Open Internet Manifest.
+  <div class="section">
+    <strong>Why this exists</strong>
+    <p>
+      Narratives are distorted daily, words are taken out of context or subtly altered. 
+      That’s why we use hashes: a digital seal that shows whether a text is still the original version.
+    </p>
+  </div>
+
+  <div class="section">
+    <strong>What is a "fuzzy hash"?</strong>
+    
+    <p>
+      Normal hashes are extremely strict: one space, one emoji or one bold word and the hash is already different.
+    </p>
+    
+    <p>
+      Because posts are often shared via X, Facebook, Telegram, email or copy-paste actions, 
+      small things change (extra spaces, new lines, bold words, etc.).
+    </p>
+    
+    <p>
+      That’s why we use a <em>fuzzy hash</em>: a smart, forgiving hash that ignores minor formatting 
+      and layout differences, but still protects the real content. 
+      This way a post remains recognisable as authentic, even after being shared multiple times or slightly modified.
+    </p>
+  </div>
+
+  <p class="instruction">
+    Paste the full text of a social post, teaser or other contribution here:
   </p>
 
-  <p>
-    <strong>Coming soon:</strong> fuzzy matching!  
-    Soon you’ll be able to recognize posts with minor variations (typos, spacing changes, emoji swaps) as “nearly exact”, keeping the origin traceable.
-  </p>
+  {% include fuzzy-hashes.html %}
 
-  <p>
-    The Open Internet Manifest is a community effort.  
-    Every post archived here can be verified by anyone.  
-    Over time, this will grow into a collective archive of authentic contributions — from everyone who participates.
-  </p>
+  <textarea id="input-text" 
+            placeholder="Paste the full text here (incl. footnote, hashtags or disclaimer)..." 
+            rows="14"></textarea>
 
-  <p>
-    Paste the full text from a social post (teaser, Reality vs Narrative, etc.) here to verify if it’s authentic and which thesis/guide/concept it belongs to.
-  </p>
-
-  <textarea id="input-text" placeholder="Paste the full text from the social post here (incl. footnote/disclaimer)..." rows="12"></textarea>
   <button id="verify-btn" class="verify-button">
-    {% if page.lang == "EN" %}
-      Verify
-    {% else %}
-      Verifier
-    {% endif %}
+    Verify
   </button>
 
   <div id="result" class="result-box" style="display:none;"></div>
+
 </div>
+
+<script src="{{ '/assets/js/hash-verifier.js' | relative_url }}"></script>

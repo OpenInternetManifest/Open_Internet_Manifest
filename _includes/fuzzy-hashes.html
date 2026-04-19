@@ -1,0 +1,40 @@
+<script>
+  window.officialFuzzyHashes = {
+{% for post in site.social-posts %}
+    "{{ post.url | relative_url }}": "{{ post.fuzzy_sha256 }}",
+{% endfor %}
+{% for post in site.theses %}
+    "{{ post.url | relative_url }}": "{{ post.fuzzy_sha256 }}",
+{% endfor %}
+{% for post in site.guides %}
+    "{{ post.url | relative_url }}": "{{ post.fuzzy_sha256 }}",
+{% endfor %}
+  };
+
+  window.officialGitInfo = {
+{% for post in site.social-posts %}
+    "{{ post.url | relative_url }}": {
+      "title": "{{ post.rvn_title | escape }}",
+      "commit_hash": "{{ post.git_commit_hash }}",
+      "commit_url": "{{ post.git_commit_url }}",
+      "commit_date": "{{ post.git_commit_date }}"
+    },
+{% endfor %}
+{% for post in site.theses %}
+    "{{ post.url | relative_url }}": {
+      "title": "{{ post.title | escape }}",
+      "commit_hash": "{{ post.git_commit_hash }}",
+      "commit_url": "{{ post.git_commit_url }}",
+      "commit_date": "{{ post.git_commit_date }}"
+    },
+{% endfor %}
+{% for post in site.guides %}
+    "{{ post.url | relative_url }}": {
+      "title": "{{ post.title | escape }}",
+      "commit_hash": "{{ post.git_commit_hash }}",
+      "commit_url": "{{ post.git_commit_url }}",
+      "commit_date": "{{ post.git_commit_date }}"
+    },
+{% endfor %}
+  };
+</script>

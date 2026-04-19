@@ -9,6 +9,7 @@ day: 26
 rvn_title: The layer above the Rockefellers
 # rvn_url: /en/social-posts/day-26-rvn
 rvn_teaser: who really holds the buttons?
+fuzzy_sha256: "b7e0d0c23f70dc9c0715988f436bec64272c01d1ed241819e113e57c0280f51f"
 ---
 **Reality vs Narrative: The layer above the Rockefellers – who really holds the buttons? ♟️🏦🕶️**
 

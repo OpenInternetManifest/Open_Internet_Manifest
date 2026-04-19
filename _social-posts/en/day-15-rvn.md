@@ -9,6 +9,7 @@ day: 15
 rvn_title: Minneapolis mall & the ICE hypocrisy
 # rvn_url: /en/social-posts/day-15-rvn
 rvn_teaser: Trump's Gestapo!
+fuzzy_sha256: "0580f187baed192fe2b8a9ecb27b553c939e1fadff95fd34933e196b0a4966ad"
 ---
 🇬🇧 **Day 15 – Reality vs Narrative: Minneapolis mall & the ICE hypocrisy** 🌐🔥
 Overnight and recent days: ICE hitting Minneapolis hard, especially Somali malls (Karmel Mall, Star City). Arrests, hundreds of Somali-owned businesses shutting down (Jan 23-25 protests), streets filling with demonstrators, and a fatal shooting incident escalating things. National Guard on standby in MN, 1500 troops prepped – while ICE scales nationwide across all 50 states with record manpower.

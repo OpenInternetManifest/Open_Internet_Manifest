@@ -9,6 +9,7 @@ day: 20
 rvn_title: 'Utrecht Bollendak: viraal filmpje'
 # rvn_url: /nl/social-posts/dag-20-rvn
 rvn_teaser: vs realiteit + gespind narratief
+fuzzy_sha256: "015e8d0174a3e5f7a828885aeba6c5a6c1cd27e8be6f90f4523f7a9f913d3bf0"
 ---
 🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  
 Video's exploderen: agent schopt moslima in buik, mept met wapenstok – narratief: "racisme! politiegeweld tegen moslima's!" Aangifte mishandeling + racisme, demonstraties, massale verontwaardiging en calls tot actie.

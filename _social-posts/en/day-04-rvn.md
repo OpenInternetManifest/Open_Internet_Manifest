@@ -9,6 +9,7 @@ day: 4
 rvn_title: A technician in Amsterdam
 # rvn_url: /en/social-posts/day-4-rvn
 rvn_teaser: A 32-year-old Jewish woman hesitates before saying her background
+fuzzy_sha256: "f456c89588329170aa5b517c26453dc4b891f90a149c3cdbdd2a857631062f6e"
 ---
 English summary:
 Reality vs. Narrative – A technician in Amsterdam.

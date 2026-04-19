@@ -9,8 +9,8 @@ website_sha256:
 social_x_sha256: 
 social_fb_sha256: 
 social_share_sha256: 
+fuzzy_sha256: "ff9e5b7d3d94b0f2474b33b80e1ccc0859ea3897c07e97a4c018146844f213b1"
 ---
-
 # RVN – Marktplaats (Ebay) Deal Gone Wrong: Reality vs Narrative (my experience)
 
 **Narrative (what the seller pushes and many people swallow):**  

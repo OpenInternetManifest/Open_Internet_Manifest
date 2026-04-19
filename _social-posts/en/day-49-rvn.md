@@ -13,9 +13,8 @@ social_share_sha256: "db4713ae097afe069b5fb73d09020e69e31dc206a2a133bfb132b99406
 git_commit_hash: "bb8e379fa536a67909ad8a33a5307430130833d3"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bb8e379fa536a67909ad8a33a5307430130833d3"
 git_commit_date: "2026-04-14T06:46:32+02:00"
+fuzzy_sha256: "98f43b3c0f82ef5820d89a7e7509e208938857956100d584b7716300c6e7c5e2"
 ---
-
-
 **RVN: The Scar That Wasn’t There – How Perception Creates Discrimination** 🌀
 
 **Short recap from yesterday**  

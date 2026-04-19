@@ -1,58 +1,56 @@
-import os
+#!/usr/bin/env python3
+import sys
 import hashlib
-from pathlib import Path
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
+import re
 
-# Local URL for your site (run jekyll serve first)
-LOCAL_URL = "http://127.0.0.1:4000/Open_Internet_Manifest"
+if len(sys.argv) < 2:
+    print("Usage: python3 fix-fuzzy-hash.py path/to/day-XX-rvn.md")
+    sys.exit(1)
 
-options = Options()
-options.add_argument("--headless")  # Run without browser window
-options.add_argument("--no-sandbox")  # Nodig in WSL
-options.add_argument("--disable-dev-shm-usage")  # Nodig in WSL
+file_path = sys.argv[1]
 
-service = Service(executable_path="/usr/bin/chromedriver")
-driver = webdriver.Chrome(service=service, options=options)
+with open(file_path, 'r', encoding='utf-8') as f:
+    content = f.read()
 
-hashes = {}
+# Find the FIRST frontmatter block only (first --- ... ---)
+match = re.search(r'^(---\s*.*?^---\s*)', content, re.DOTALL | re.MULTILINE)
+if not match:
+    print("Could not find frontmatter")
+    sys.exit(1)
 
-print("Zoeken in _site en hash via browser...")
+frontmatter_block = match.group(1)
+body = content[match.end():].lstrip()   # remove leading whitespace/newlines
 
-for root, dirs, files in os.walk(Path("_site")):
-    for file in files:
-        if file.endswith(".html"):
-            file_path = Path(root) / file
-            if "assets" in str(file_path):
-                continue
-            rel_path = file_path.relative_to(Path("_site")).as_posix()
-            clean_path = "/" + rel_path.rsplit(".", 1)[0].replace("/index", "")
-            if clean_path.endswith("/"):
-                clean_path = clean_path[:-1]
-            if clean_path == "/":
-                clean_path = "/"
-            url = LOCAL_URL + clean_path
-            driver.get(url)
-            try:
-                main = driver.find_element(By.CSS_SELECTOR, '.main-content')
-                text = main.text
-                text = text.strip()
-                # Exact zoals JS: replace 3+ newlines met \n\n
-                while '\n\n\n' in text:
-                    text = text.replace('\n\n\n', '\n\n')
-                hash_obj = hashlib.sha256(text.encode('utf-8'))
-                hash_value = hash_obj.hexdigest()
-                hashes[clean_path] = hash_value
-                print(f"'{clean_path}': '{hash_value}',")
-            except Exception as e:
-                print(f"Skip {clean_path} – no main-content or error: {e}")
+# Calculate fuzzy hash
+def fuzzy_clean(text):
+    text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)
+    text = re.sub(r'\*(.*?)\*', r'\1', text)
+    text = re.sub(r'^>[ \t]*', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^[ \t]*###*[ \t]*', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^[ \t]*[0-9]+\.[ \t]*', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^[ \t]*[-*+][ \t]*', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^[ \t]+', '', text, flags=re.MULTILINE)
+    text = re.sub(r'[ \t]+$', '', text, flags=re.MULTILINE)
+    text = re.sub(r'\| ?', ' ', text)
+    text = re.sub(r'^[-:| ]+$', '', text, flags=re.MULTILINE)
+    text = text.lower()
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
-driver.quit()
+fuzzy_text = fuzzy_clean(body)
+fuzzy_hash = hashlib.sha256(fuzzy_text.encode('utf-8')).hexdigest()
 
-print("\nKopieer dit in hash-verify.js:")
-print("const hashes = {")
-for path, h in sorted(hashes.items()):
-    print(f"  '{path}': '{h}',")
-print("};")
+print(f"Calculated fuzzy_sha256: {fuzzy_hash}")
+
+# Clean frontmatter (remove old fuzzy lines)
+clean_front = re.sub(r'^\s*fuzzy_sha256:.*\n?', '', frontmatter_block, flags=re.MULTILINE)
+
+# Build final content - exactly one frontmatter block
+new_content = clean_front.rstrip() + "\n" + f'fuzzy_sha256: "{fuzzy_hash}"\n---\n\n' + body
+
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(new_content)
+
+print("✅ File fixed with clean single frontmatter!")
+print("\nFirst 45 lines:")
+print('\n'.join(new_content.splitlines()[:45]))

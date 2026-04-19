@@ -9,6 +9,7 @@ social_share_sha256: ''
 rvn_title: Woorden wegen niet meer op wat ze zeggen
 rvn_teaser: Morgen gemeenteraadsverkiezingen. Vandaag even het terrein lezen
 # rvn_url: /nl/social-posts/dag-42-rvn
+fuzzy_sha256: "e845c1b3d1ecfc2fdb36229a99c2e986eeb1afe3fdf920953016a90295035ccf"
 ---
 **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀
 

@@ -9,6 +9,7 @@ day: 25
 rvn_title: Obama, Iran cash and
 # rvn_url: /en/social-posts/day-25-rvn
 rvn_teaser: the eternal good cop-bad cop
+fuzzy_sha256: "ea5b8f3823c16927efda7d6e3fe5d3c9c6debe0cb4beb23be101e1721d23d422"
 ---
 **Reality vs Narrative: Obama, Iran cash and the eternal good cop / bad cop ♟️💰🕳️**
 Quick recap of the week so far:
