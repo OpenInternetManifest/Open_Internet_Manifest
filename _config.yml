@@ -13,6 +13,15 @@ collections:
   social-posts:
     output: true
 
+# Markdown settings - optimale tabel ondersteuning
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  table_of_contents: false
+ 
+
 # Defaults voor alle bestanden
 defaults:
   # Algemene pagina's in _pages map
@@ -20,7 +29,7 @@ defaults:
       path: "_pages"
     values:
       layout: default
-      permalink: "/:basename/"     # dit maakt /contribute/ van contribute.md
+      permalink: "/:basename/"
 
   # Collections
   - scope:
@@ -64,4 +73,4 @@ exclude:
   - Gemfile.lock
   - .DS_Store
 
-rebuild_trigger: v2026-03-28
+rebuild_trigger: v2026-04-18

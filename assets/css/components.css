@@ -581,3 +581,39 @@ button.copy-btn:hover {
   padding: 2px 6px;
   border-radius: 4px;
 }
+/* Tabel styling - robuust voor RVN posts */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  background: #1f1f1f;
+  border: 1px solid #444;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #555;
+  vertical-align: top;
+}
+
+table th {
+  background: #2a2a2a;
+  font-weight: 600;
+  color: #66ff99;
+}
+
+table tr:nth-child(even) {
+  background: #252525;
+}
+
+/* Responsive tabel */
+@media (max-width: 768px) {
+  table {
+    font-size: 0.95em;
+  }
+  table th, table td {
+    padding: 10px 8px;
+  }
+}
