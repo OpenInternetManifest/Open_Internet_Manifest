@@ -6,10 +6,10 @@ rvn_title: "Niemand helpt – Het Bystander Effect"
 rvn_teaser: "Hoe meer mensen er zijn, hoe kleiner de kans dat iemand ingrijpt?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "670b8f34d4b726789a26f3930409a94bbb21ea073b6cffa451c9e852b5b2299a"
+git_commit_hash: "ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
+git_commit_date: "2026-04-20T06:53:39+02:00"
 ---
 
 
