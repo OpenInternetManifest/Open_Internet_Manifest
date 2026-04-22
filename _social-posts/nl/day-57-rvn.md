@@ -6,10 +6,10 @@ rvn_title: "De goede Samaritaan die haast had"
 rvn_teaser: "Zelfs theologiestudenten die op weg waren naar een lezing over de Barmhartige Samaritaan, hielpen nauwelijks."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "b5a3d375ca86df7682854b499e57937e8f7c921c94fab244dde64621a5dc6b97"
+git_commit_hash: "3a5072640d91304754d93b83bf683022f5c42a92"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/3a5072640d91304754d93b83bf683022f5c42a92"
+git_commit_date: "2026-04-22T07:42:08+02:00"
 ---
 
 
