@@ -6,10 +6,10 @@ rvn_title: "Onbewuste vooroordelen – Implicit Association Test (IAT)"
 rvn_teaser: " We hebben vooroordelen die we zelf niet eens doorhebben."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "9607f5351f80298c27b7bea7d04d6f63ce8a2b9f371ccccec138b1cbd5264435"
+git_commit_hash: "e7540522ad257f5ff71f49f2e70bf9d2952ad145"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7540522ad257f5ff71f49f2e70bf9d2952ad145"
+git_commit_date: "2026-04-23T06:39:18+02:00"
 ---
 
 
