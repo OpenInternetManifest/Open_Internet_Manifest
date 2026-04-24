@@ -6,11 +6,11 @@ rvn_title: " Small Step, Big Surrender – Foot-in-the-Door & Door-in-the-Face"
 rvn_teaser: "How do you get someone to do something big? Start small."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "cf5054a12e02da047fa5c1f9cda54b195ca04e5b6b8493b8c99ea0ef8a02769c"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "1bbb136317e2a150c55732179c9ed02def7cc57f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1bbb136317e2a150c55732179c9ed02def7cc57f"
+git_commit_date: "2026-04-24T09:25:31+02:00"
 ---
 
 

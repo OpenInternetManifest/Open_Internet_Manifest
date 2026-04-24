@@ -6,10 +6,10 @@ rvn_title: "Kleine stap, grote overgave – Foot-in-the-Door & Door-in-the-Face"
 rvn_teaser: "Hoe krijg je iemand zover dat hij iets groots doet? Begin klein."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "79ea81255f43abeb70b13dec08c41776eeb8fdbd55ee99fea8f92b6dd7f277e6"
+git_commit_hash: "1bbb136317e2a150c55732179c9ed02def7cc57f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1bbb136317e2a150c55732179c9ed02def7cc57f"
+git_commit_date: "2026-04-24T09:25:31+02:00"
 ---
 
 
