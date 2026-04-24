@@ -5,7 +5,7 @@
 FILE="$1"
 
 if [ -z "$FILE" ] || [ ! -f "$FILE" ]; then
-  echo "Usage: $0 path/to/day-XX-rvn.md"
+  echo "Usage: $0 path/to/day-59-rvn.md"
   exit 1
 fi
 

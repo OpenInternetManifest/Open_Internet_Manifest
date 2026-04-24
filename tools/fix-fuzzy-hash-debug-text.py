@@ -4,7 +4,7 @@ import hashlib
 import re
 
 if len(sys.argv) < 2:
-    print("Usage: python3 fix-fuzzy-hash.py path/to/day-XX-rvn.md")
+    print("Usage: python3 fix-fuzzy-hash.py path/to/day-59-rvn.md")
     sys.exit(1)
 
 file_path = sys.argv[1]
