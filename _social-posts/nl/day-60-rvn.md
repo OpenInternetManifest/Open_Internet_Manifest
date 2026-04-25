@@ -6,13 +6,11 @@ rvn_title: "Gijzelaar wordt verliefd op gijzelnemer – Stockholm Syndrome"
 rvn_teaser: "Soms gaan slachtoffers hun eigen onderdrukker verdedigen. Dit is geen zwakte – dit is overlevingsmechanisme."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "5d47d16f642d058e889131928f4e8b570664b6e098154d053016fe34bbd88a6d"
 git_commit_hash: "af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_date: "2026-04-25T08:11:29+02:00"
+fuzzy_sha256: "5d47d16f642d058e889131928f4e8b570664b6e098154d053016fe34bbd88a6d"
 ---
-
-
 **RVN: Gijzelaar wordt verliefd op gijzelnemer – Stockholm Syndrome** 🌀
 
 **Korte recap van de hele serie “De Manipulatie van Realiteit”**

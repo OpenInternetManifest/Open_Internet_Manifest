@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Exact dezelfde fuzzy cleaning als in ons Python script + debug script
+    // === EXACTE fuzzy cleaning + emoji handling ===
     let cleanText = rawText
+      .replace(/\*\*\(.*?\)\*\*/g, '$1')
       .replace(/\*\*(.*?)\*\*/g, '$1')
       .replace(/\*(.*?)\*/g, '$1')
       .replace(/^>[ \t]*/gm, '')
@@ -31,28 +32,45 @@ document.addEventListener('DOMContentLoaded', () => {
       .replace(/^[-:| ]+$/gm, '')
       .replace(/^--$/gm, '')
       .replace(/^---$/gm, '')
+      
+      // Emoji cleanup - belangrijk voor social media
+      .replace(/😎/g, '8)')           // sunglasses emoji → 8)
+      .replace(/😊/g, ':)')           // smile
+      .replace(/😂/g, 'haha')         // laugh
+      .replace(/❤️/g, 'hart')         // heart
+      .replace(/👍/g, 'duim')         // thumbs up
+      .replace(/👎/g, 'duim omlaag')
+      .replace(/🚀/g, 'rocket')
+      .replace(/🔥/g, 'vuur')
+      
       .toLowerCase()
       .replace(/[ \t]+/g, ' ')
       .replace(/\n/g, ' ')
       .replace(/[ \t]+/g, ' ')
       .trim();
 
-    // Calculate hash
+    // === DEBUG OUTPUT ===
+    console.log("=== RAW TEXT ===");
+    console.log(rawText);
+    console.log("\n=== CLEANED FUZZY TEXT (wat de verifier gebruikt) ===");
+    console.log(cleanText);
+    console.log("\n=== LENGTH ===");
+    console.log("Raw:", rawText.length, "| Clean:", cleanText.length);
+
     sha256(cleanText).then(hash => {
-      // Search in all posts
+      console.log("=== CALCULATED HASH ===");
+      console.log(hash);
+
       let matchFound = false;
-      let matchUrl = '';
-      let matchTitle = '';
 
       for (let url in window.officialFuzzyHashes) {
         if (window.officialFuzzyHashes[url] === hash) {
           matchFound = true;
-          matchUrl = url;
           const info = window.officialGitInfo[url] || {};
-          matchTitle = info.title || 'Onbekende post';
+          const title = info.title || 'Onbekende post';
 
-          let html = `<span style="color: #66ff66; font-size: 1.2em;">✅ 100% AUTHENTIEK!</span><br><br>`;
-          html += `<strong>Post:</strong> <a href="${url}" target="_blank">${matchTitle}</a><br>`;
+          let html = `<span style="color: #66ff66; font-size: 1.3em;">✅ 100% AUTHENTIEK!</span><br><br>`;
+          html += `<strong>Post:</strong> <a href="${url}" target="_blank">${title}</a><br>`;
           if (info.commit_hash) {
             html += `<strong>Commit:</strong> <a href="${info.commit_url}" target="_blank">${info.commit_hash.substring(0,12)}</a> (${info.commit_date})`;
           }
@@ -61,9 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
 
-      if (!matchFound) {
-        showResult(`❌ Geen match gevonden.<br><br>Je berekende hash:<br><code>${hash}</code>`, 'error');
-      }
+      showResult(`❌ Geen match gevonden.<br><br>Je berekende hash:<br><code>${hash}</code>`, 'error');
     });
   });
 
@@ -73,7 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
     result.style.borderLeftColor = type === 'success' ? '#66ff66' : '#ff6666';
   }
 
-  // Simple sha256 function
   async function sha256(message) {
     const msgBuffer = new TextEncoder().encode(message);
     const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);

@@ -6,13 +6,11 @@ rvn_title: "De illusie van consensus – False Consensus Effect"
 rvn_teaser: "We overschatten systematisch hoe normaal onze eigen mening is."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "966c18a2863c5928ac8e4c69bbe5f8bdecc08abf506b5b9e1cf170815bee3a65"
 git_commit_hash: "271b0104baaf1869640c3bb85acbde95bb5eaf91"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/271b0104baaf1869640c3bb85acbde95bb5eaf91"
 git_commit_date: "2026-04-21T06:51:19+02:00"
+fuzzy_sha256: "966c18a2863c5928ac8e4c69bbe5f8bdecc08abf506b5b9e1cf170815bee3a65"
 ---
-
-
 **RVN: De illusie van consensus – False Consensus Effect** 🌀
 
 **Korte recap van de serie tot nu toe**

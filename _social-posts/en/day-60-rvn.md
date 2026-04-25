@@ -6,14 +6,12 @@ rvn_title: "Hostage Falls in Love with Captor – Stockholm Syndrome"
 rvn_teaser: "Sometimes victims start defending their own oppressors. This is not weakness — it is a survival mechanism."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "4bcc067018f6427798513d59a6defb87d12ded396d958209910356bb1a86185a"
 social_share_sha256: ""
 git_commit_hash: "af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_date: "2026-04-25T08:11:29+02:00"
+fuzzy_sha256: "4bcc067018f6427798513d59a6defb87d12ded396d958209910356bb1a86185a"
 ---
-
-
 **RVN: Hostage Falls in Love with Captor – Stockholm Syndrome** 🌀
 
 **Short recap of the entire “Manipulation of Reality” series**

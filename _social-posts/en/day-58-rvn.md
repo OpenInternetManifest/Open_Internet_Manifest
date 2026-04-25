@@ -6,14 +6,12 @@ rvn_title: "Unconscious Bias – Implicit Association Test (IAT)"
 rvn_teaser: "We all have biases we’re not even aware of."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "f73eb73a975ecce01629fe3111cb21e090fe77c6c36f7d6ff3117877282feda8"
 social_share_sha256: ""
 git_commit_hash: "e7540522ad257f5ff71f49f2e70bf9d2952ad145"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7540522ad257f5ff71f49f2e70bf9d2952ad145"
 git_commit_date: "2026-04-23T06:39:18+02:00"
+fuzzy_sha256: "f73eb73a975ecce01629fe3111cb21e090fe77c6c36f7d6ff3117877282feda8"
 ---
-
-
 **RVN: Unconscious Bias – Implicit Association Test (IAT)** 🌀
 
 **Short recap of the series so far**
