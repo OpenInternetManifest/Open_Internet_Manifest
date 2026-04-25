@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  // ==================== DEBUG INSTELLING ====================
+  const DEBUG = true;        // Zet dit op false als je de console schoon wilt
+
   btn.addEventListener('click', () => {
     const rawText = input.value.trim();
     if (!rawText) {
@@ -16,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // === EXACTE fuzzy cleaning + emoji handling ===
+    // === EXACTE fuzzy cleaning (zelfde als Python + bash) ===
     let cleanText = rawText
       .replace(/\*\*\(.*?\)\*\*/g, '$1')
       .replace(/\*\*(.*?)\*\*/g, '$1')
@@ -33,12 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
       .replace(/^--$/gm, '')
       .replace(/^---$/gm, '')
       
-      // Emoji cleanup - belangrijk voor social media
-      .replace(/😎/g, '8)')           // sunglasses emoji → 8)
-      .replace(/😊/g, ':)')           // smile
-      .replace(/😂/g, 'haha')         // laugh
-      .replace(/❤️/g, 'hart')         // heart
-      .replace(/👍/g, 'duim')         // thumbs up
+      // Emoji normalisatie
+      .replace(/😎/g, '8)')
+      .replace(/😊/g, ':)')
+      .replace(/😂/g, 'haha')
+      .replace(/❤️/g, 'hart')
+      .replace(/👍/g, 'duim')
       .replace(/👎/g, 'duim omlaag')
       .replace(/🚀/g, 'rocket')
       .replace(/🔥/g, 'vuur')
@@ -49,17 +52,18 @@ document.addEventListener('DOMContentLoaded', () => {
       .replace(/[ \t]+/g, ' ')
       .trim();
 
-    // === DEBUG OUTPUT ===
-    console.log("=== RAW TEXT ===");
-    console.log(rawText);
-    console.log("\n=== CLEANED FUZZY TEXT (wat de verifier gebruikt) ===");
-    console.log(cleanText);
-    console.log("\n=== LENGTH ===");
-    console.log("Raw:", rawText.length, "| Clean:", cleanText.length);
+    // ==================== DEBUG OUTPUT ====================
+    if (DEBUG) {
+      console.log("%c=== HASH VERIFIER DEBUG ===", "color:#66ff66; font-weight:bold");
+      console.log("Raw length:", rawText.length);
+      console.log("Cleaned fuzzy text:", cleanText);
+      console.log("Cleaned length:", cleanText.length);
+    }
 
     sha256(cleanText).then(hash => {
-      console.log("=== CALCULATED HASH ===");
-      console.log(hash);
+      if (DEBUG) {
+        console.log("Calculated hash:", hash);
+      }
 
       let matchFound = false;
 
