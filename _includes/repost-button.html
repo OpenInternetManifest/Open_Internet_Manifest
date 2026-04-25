@@ -23,15 +23,42 @@
 </div>
 
 <script>
-  // === ALTIJD productie-URL gebruiken (ook bij lokaal testen) ===
   const baseUrl = "https://openinternetmanifest.org";
 
   const title = "{{ page.rvn_title | escape }}";
   const url = baseUrl + "{{ page.url }}";
-  const verifyUrl = baseUrl + "/hash-verify/?url=" + encodeURIComponent(url);
 
   const shortExcerpt = "{{ page.content | strip_html | truncatewords: 38 | escape | replace: '\n', ' ' }}";
-  const fullRawText = `{{ page.content | strip_html | escape | replace: '\n', '\\n' | replace: '"', '\\"' }}`;
+
+  let fullHtml = `{{ page.content | replace: '\\', '\\\\' | replace: '"', '\\"' | replace: '\n', '\\n' | replace: '`', '\\`' }}`;
+
+  function htmlToMarkdown(html) {
+    return html
+      .replace(/<hr\s*\/?>/gi, '\n---\n')
+      .replace(/<h[1-6][^>]*>/gi, '\n### ')
+      .replace(/<\/h[1-6]>/gi, '\n')
+      .replace(/<p>/gi, '\n\n')
+      .replace(/<\/p>/gi, '')
+      .replace(/<strong>/gi, '**')
+      .replace(/<\/strong>/gi, '**')
+      .replace(/<em>/gi, '*')
+      .replace(/<\/em>/gi, '*')
+      .replace(/<ul>|<ol>/gi, '\n')
+      .replace(/<\/ul>|<\/ol>/gi, '\n')
+      .replace(/<li>/gi, '\n- ')
+      .replace(/<\/li>/gi, '\n')
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      // === Strakke witregels: max 1 lege regel tussen alinea's ===
+      .replace(/\n{3,}/g, '\n\n')
+      .replace(/^\n+|\n+$/g, '')
+      .trim();
+  }
+
+  const fullRawText = htmlToMarkdown(fullHtml);
 
   function copyRepostShort() {
     const text = `🔍 ${title}
@@ -45,26 +72,20 @@ Lees + verificatie: ${url}
   }
 
   function copyRepostFull() {
-    const text = `🔍 ${title}
+    const text = `
 
-${fullRawText}
-
-Lees het volledige verhaal: ${url}
-
-Controleer integriteit: ${verifyUrl}
-
-#OpenInternetManifest #RealiteitVsNarratief`;
+${fullRawText}`;
     copyToClipboard(text, "✅ Volledige raw tekst gekopieerd!");
   }
 
   function shareOnX() {
-    const text = `🔍 ${title} — ${shortExcerpt.substring(0, 160)}...`;
+    const text = ` — ${shortExcerpt.substring(0, 160)}...`;
     const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
     window.open(shareUrl, '_blank');
   }
 
   function copyAndOpenFacebook() {
-    copyRepostFull();                    // kopieert eerst de volledige tekst
+    copyRepostFull();
     setTimeout(() => {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
     }, 600);
