@@ -23,30 +23,29 @@
 </div>
 
 <script>
-function getBaseUrl() {
-  return "{{ site.url }}";
-}
+  // === ALTIJD productie-URL gebruiken (ook bij lokaal testen) ===
+  const baseUrl = "https://openinternetmanifest.org";
 
-const title = "{{ page.rvn_title | escape }}";
-const url = getBaseUrl() + "{{ page.url }}";
-const verifyUrl = getBaseUrl() + "/hash-verify/?url=" + encodeURIComponent(url);
+  const title = "{{ page.rvn_title | escape }}";
+  const url = baseUrl + "{{ page.url }}";
+  const verifyUrl = baseUrl + "/hash-verify/?url=" + encodeURIComponent(url);
 
-const shortExcerpt = "{{ page.content | strip_html | truncatewords: 38 | escape | replace: '\n', ' ' }}";
-const fullRawText = `{{ page.content | strip_html | escape | replace: '\n', '\\n' | replace: '"', '\\"' }}`;
+  const shortExcerpt = "{{ page.content | strip_html | truncatewords: 38 | escape | replace: '\n', ' ' }}";
+  const fullRawText = `{{ page.content | strip_html | escape | replace: '\n', '\\n' | replace: '"', '\\"' }}`;
 
-function copyRepostShort() {
-  const text = `
+  function copyRepostShort() {
+    const text = `🔍 ${title}
 
 ${shortExcerpt}...
 
 Lees + verificatie: ${url}
 
 #OpenInternetManifest`;
-  copyToClipboard(text, "✅ Korte versie gekopieerd!");
-}
+    copyToClipboard(text, "✅ Korte versie gekopieerd!");
+  }
 
-function copyRepostFull() {
-  const text = `
+  function copyRepostFull() {
+    const text = `🔍 ${title}
 
 ${fullRawText}
 
@@ -55,27 +54,27 @@ Lees het volledige verhaal: ${url}
 Controleer integriteit: ${verifyUrl}
 
 #OpenInternetManifest #RealiteitVsNarratief`;
-  copyToClipboard(text, "✅ Volledige raw tekst gekopieerd!");
-}
+    copyToClipboard(text, "✅ Volledige raw tekst gekopieerd!");
+  }
 
-function shareOnX() {
-  const text = ` — ${shortExcerpt.substring(0, 160)}...`;
-  const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
-  window.open(shareUrl, '_blank');
-}
+  function shareOnX() {
+    const text = `🔍 ${title} — ${shortExcerpt.substring(0, 160)}...`;
+    const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+    window.open(shareUrl, '_blank');
+  }
 
-function copyAndOpenFacebook() {
-  copyRepostFull();                    // kopieert eerst de volledige raw tekst
-  setTimeout(() => {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-  }, 600);
-}
+  function copyAndOpenFacebook() {
+    copyRepostFull();                    // kopieert eerst de volledige tekst
+    setTimeout(() => {
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+    }, 600);
+  }
 
-function copyToClipboard(text, message) {
-  navigator.clipboard.writeText(text).then(() => {
-    const feedback = document.getElementById('repost-feedback');
-    feedback.innerHTML = message;
-    setTimeout(() => { feedback.innerHTML = ''; }, 4000);
-  });
-}
+  function copyToClipboard(text, message) {
+    navigator.clipboard.writeText(text).then(() => {
+      const feedback = document.getElementById('repost-feedback');
+      feedback.innerHTML = message;
+      setTimeout(() => { feedback.innerHTML = ''; }, 4000);
+    });
+  }
 </script>
