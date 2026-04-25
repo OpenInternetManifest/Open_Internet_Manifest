@@ -1,0 +1,105 @@
+---
+layout: social-posts
+lang: nl
+day: 60
+rvn_title: "Gijzelaar wordt verliefd op gijzelnemer – Stockholm Syndrome"
+rvn_teaser: "Soms gaan slachtoffers hun eigen onderdrukker verdedigen. Dit is geen zwakte – dit is overlevingsmechanisme."
+donation_link: ""
+donation_text: ""
+fuzzy_sha256: ""
+git_commit_hash: ""
+git_commit_url: ""
+git_commit_date: ""
+---
+
+
+**RVN: Gijzelaar wordt verliefd op gijzelnemer – Stockholm Syndrome** 🌀
+
+**Korte recap van de hele serie “De Manipulatie van Realiteit”**
+
+In **Dag 2** zagen we hoe perceptie discriminatie kan creëren die er niet is (Dartmouth Scar). 🪞  
+In **Dag 3** toonde Milgram hoe gewone mensen extreme dingen doen onder autoriteit. ⚡  
+In **Dag 4** liet Stanford Prison zien hoe snel we ons aanpassen aan toebedeelde rollen. 🚪  
+In **Dag 5** demonstreerde Asch hoe groepsdruk ons eigen waarnemingsvermogen uitschakelt. 👥  
+In **Dag 6** ontdekten we dat observatie zelf realiteit kan veranderen (Hawthorne + Double Slit). 🔬  
+In **Dag 7** liet Robbers Cave zien hoe razendsnel “Wij vs Zij”-denken gecreëerd kan worden. ⚔️  
+In **Dag 8** toonde Bystander Effect hoe verantwoordelijkheid verdunt.  
+In **Dag 9** zagen we False Consensus Effect.  
+In **Dag 10** liet Good Samaritan zien hoe haast moreel gedrag ondermijnt.  
+In **Dag 11** ontdekten we onbewuste vooroordelen (IAT).  
+In **Dag 12** bekeken we Foot-in-the-Door & Door-in-the-Face: kleine stappen leiden tot grote overgave.
+
+Vandaag sluiten we de serie af met een van de meest extreme en tegelijkertijd meest herkenbare vormen van psychologische manipulatie.
+
+---
+
+### Stockholm Syndrome (1973)
+
+Tijdens een mislukte bankoverval in Stockholm werden vier gijzelaars zes dagen vastgehouden.  
+Toen de politie hen eindelijk bevrijdde, gebeurde er iets schokkends:
+
+- De gijzelaars verdedigden hun gijzelnemers.
+- Ze wilden niet getuigen tegen hen.
+- Eén gijzelaar raakte zelfs verloofd met een van de overvallers.
+
+Dit fenomeen kreeg wereldwijd de naam **Stockholm Syndrome**.
+
+**Hoe werkt het?**
+
+Het is een overlevingsmechanisme van het brein:
+- **Traumabinding**: kleine beetjes vriendelijkheid (niet vermoord worden, wat eten) worden enorm opgeblazen.
+- **Cognitive Dissonance**: “Als ik de gijzelnemer haat, blijf ik in gevaar. Dus ga ik hem aardig vinden.”
+- **Identificatie met de agressor**: het slachtoffer gaat de denkwijze van de machthebber overnemen om veiligheid te voelen.
+
+**Narratief:**  
+“Alleen zwakke mensen vallen hier voor.”
+
+**Realiteit:**  
+Dit is een normaal, evolutionair overlevingsmechanisme dat bij veel mensen optreedt in langdurige, machtsongelijke situaties. Het is geen karakterzwakte — het is biologie.
+
+**Hoe zien we dit vandaag terug?**
+
+- **Overheid en burgers**: mensen verdedigen het systeem dat hen armer, minder vrij en afhankelijker maakt (“ze doen het voor onze veiligheid”).
+- **Social media en cancel culture**: mensen identificeren zich met de platforms die hen censureren en manipuleren.
+- **Relaties en sekten**: slachtoffers verdedigen hun misbruiker.
+- **Politiek**: burgers nemen de framing van de elite over (“we moeten meer regels hebben”, “we moeten solidair zijn met…”, etc.).
+
+**De grote verbinding – afsluiting van de serie**
+
+Deze hele serie laat één harde waarheid zien:
+
+**We zijn veel makkelijker te manipuleren dan we willen toegeven.**
+
+Of het nu gaat om perceptie (Dag 2), autoriteit (Dag 3), rollen (Dag 4), groepsdruk (Dag 5), observatie (Dag 6), wij-zij-denken (Dag 7), passiviteit (Dag 8), illusie van consensus (Dag 9), tijdsdruk (Dag 10), onbewuste bias (Dag 11), kleine stappen (Dag 12) of trauma-binding (Dag 13) — ons brein heeft talloze kwetsbaarheden.
+
+De echte macht ligt niet alleen bij degenen die de knoppen bedienen.  
+De echte macht ligt bij degenen die ons laten geloven dat we vrij zijn terwijl we vrijwillig meespelen.
+
+**De OIM-boodschap**
+
+We hoeven niet perfect te zijn.  
+We hoeven niet immuun te zijn voor manipulatie.
+
+We hoeven alleen maar te weigeren om willoze slachtoffers te blijven.
+
+Daarom bouwen we geen nieuwe beweging die weer een “Wij vs Zij” creëert.  
+We bouwen parallelle structuren waarin mensen weer als **individuen** kunnen denken, handelen en verantwoordelijkheid nemen.
+
+Dank dat je deze serie hebt gevolgd.  
+Ik hoop dat je nu met andere ogen kijkt — naar de wereld, naar de media, naar autoriteiten, maar vooral naar jezelf.
+
+De serie is klaar.  
+Maar het echte werk begint nu pas.
+
+Lees zelf.  
+Check zelf.  
+En vooral: **weiger mee te spelen**.
+
+Welkom in de realiteit.
+
+#RVN #StockholmSyndrome #ManipulatieVanRealiteit #SerieEinde #OpenInternetManifest
+
+https://openinternetmanifest.org
+
+Deze post is 100% authentiek en verifieerbaar via:  
+https://openinternetmanifest.org/nl/hash-verifier
