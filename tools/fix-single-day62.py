@@ -99,7 +99,7 @@ def fix_file(file_path, log_file):
 
 # ==================== SINGLE FILE TEST ====================
 if __name__ == "__main__":
-    file_path = Path("_social-posts/nl/day-60-rvn.md")
+    file_path = Path("_social-posts/nl/day-62-rvn.md")
     
     if not file_path.exists():
         print(f"❌ Bestand niet gevonden: {file_path}")
@@ -116,8 +116,8 @@ if __name__ == "__main__":
         
         if success:
             log_file.write(f"✅ Success: {file_path.name}\n")
-            print("\n🎉 Klaar! day-60-rvn.md is bijgewerkt.")
+            print("\n🎉 Klaar! day-62-rvn.md is bijgewerkt.")
         else:
             log_file.write(f"❌ Failed: {file_path.name}\n")
 
-            # python3 fix-single-day60.py
+            # python3 fix-single-day62.py

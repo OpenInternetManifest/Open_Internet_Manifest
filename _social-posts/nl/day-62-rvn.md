@@ -6,13 +6,11 @@ rvn_title: "Poging tot aanslag op President Trump – Wanneer haat en hypocrisie
 rvn_teaser: "Vandaag opnieuw een schietpoging op President Trump. Terwijl feiten nog niet helder zijn, vieren sommigen openlijk dat het ‘weer mislukte’. Wat zegt dit over de diepte van onze tribale manipulatie?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 git_commit_hash: "d5cdc7d8157ea0d1b939dca3b330192374a4ac62"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d5cdc7d8157ea0d1b939dca3b330192374a4ac62"
 git_commit_date: "2026-04-26T12:44:39+02:00"
+fuzzy_sha256: "961c18fae88f5da77b2347b5b16ddcd5adefd3d76f590aa6b409cd7bb48af5af"
 ---
-
-
 **RVN: Poging tot aanslag op President Trump – Wanneer haat en hypocrisie de realiteit overnemen** 🌀
 
 Vandaag opnieuw een schietincident rond **President Trump**. Schoten bij een evenement, Secret Service grijpt in, een verdachte is aangehouden. Trump zelf ongedeerd. Details volgen nog.
