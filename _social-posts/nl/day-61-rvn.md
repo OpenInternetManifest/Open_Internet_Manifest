@@ -6,10 +6,10 @@ rvn_title: "De Manipulatie van Realiteit – Wrap-up van de 13-delige serie"
 rvn_teaser: ""We zijn klaar met de 13-delige serie. Wat hebben we écht geleerd over hoe onze realiteit dagelijks gemanipuleerd wordt – en wat doen we ermee?""
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "1c6b4bfd01a0ec591f3443bf2aaef2da467211a7a7bcba7a45107fdc35487c24"
+git_commit_hash: "40a4272a05f7a131f853ad3a7dafc44217a378cf"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/40a4272a05f7a131f853ad3a7dafc44217a378cf"
+git_commit_date: "2026-04-26T07:38:25+02:00"
 ---
 
 

@@ -6,11 +6,11 @@ rvn_title: "The Manipulation of Reality – Wrap-up of the 13-part series"
 rvn_teaser: ""We’ve completed the 13-part series. What have we really learned about how our reality is manipulated daily – and what are we going to do about it?""
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "1bab942eede3ee4b7f840b0d0c98feb0154499239afaf91b5d01911ff35c7edc"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "40a4272a05f7a131f853ad3a7dafc44217a378cf"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/40a4272a05f7a131f853ad3a7dafc44217a378cf"
+git_commit_date: "2026-04-26T07:38:25+02:00"
 ---
 
 
