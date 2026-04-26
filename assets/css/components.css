@@ -155,6 +155,7 @@
 /* Inner content */
 .integrity-content,
 .donation-content,
+.repost-explain,
 .community-box > *:not(summary),
 .comments-section > *:not(h3) {
   padding: 2.5em 3em;
