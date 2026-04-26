@@ -3,94 +3,55 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
-  if (typeof window.officialFuzzyHashes === 'undefined') {
-    result.innerHTML = '<span style="color: #ff6666;">Error: Hashes niet geladen. Vernieuw de pagina.</span>';
-    result.style.display = 'block';
+  if (!btn) {
+    console.error("Button #verify-btn niet gevonden!");
     return;
   }
 
-  // ==================== DEBUG INSTELLING ====================
-  const DEBUG = true;        // Zet dit op false als je de console schoon wilt
+  const DEBUG = true;
 
   btn.addEventListener('click', () => {
+    console.log("✅ Button clicked!");   // Dit moet in de console verschijnen
+
     const rawText = input.value.trim();
     if (!rawText) {
       showResult('Plak eerst een tekst om te verifiëren.', 'warning');
       return;
     }
 
-    // === EXACTE fuzzy cleaning (zelfde als Python + bash) ===
+    // Simpele maar robuuste cleaning
     let cleanText = rawText
-      .replace(/\*\*\(.*?\)\*\*/g, '$1')
-      .replace(/\*\*(.*?)\*\*/g, '$1')
-      .replace(/\*(.*?)\*/g, '$1')
-      .replace(/^>[ \t]*/gm, '')
-      .replace(/^[ \t]*###*[ \t]*/gm, '')
-      .replace(/^[ \t]*[0-9]+\.[ \t]*/gm, '')
-      .replace(/^[ \t]*[-*+][ \t]*/gm, '')
-      .replace(/^[ \t]+/gm, '')
-      .replace(/[ \t]+$/gm, '')
-      .replace(/\| ?/g, ' ')
-      .replace(/ \|/g, ' ')
-      .replace(/^[-:| ]+$/gm, '')
-      .replace(/^--$/gm, '')
-      .replace(/^---$/gm, '')
-      
-      // Emoji normalisatie
-      .replace(/😎/g, '8)')
-      .replace(/😊/g, ':)')
-      .replace(/😂/g, 'haha')
-      .replace(/❤️/g, 'hart')
-      .replace(/👍/g, 'duim')
-      .replace(/👎/g, 'duim omlaag')
-      .replace(/🚀/g, 'rocket')
-      .replace(/🔥/g, 'vuur')
-      
-      .toLowerCase()
-      .replace(/[ \t]+/g, ' ')
-      .replace(/\n/g, ' ')
-      .replace(/[ \t]+/g, ' ')
-      .trim();
+      .replace(/\*\*(.+?)\*\*/g, '$1')
+      .replace(/\*(.+?)\*/g, '$1')
+      .replace(/__(.+?)__/g, '$1')
+      .replace(/_(.+?)_/g, '$1')
+      // Unicode bold/italic (meest voorkomende)
+      .replace(/[\u1D400-\u1D7FF]/g, m => {
+        const code = m.charCodeAt(0);
+        if (code >= 0x1D400 && code <= 0x1D433) return String.fromCharCode(code - 0x1D400 + 65);
+        if (code >= 0x1D434 && code <= 0x1D467) return String.fromCharCode(code - 0x1D434 + 97);
+        return m;
+      })
+      .replace(/<[^>]+>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
 
-    // ==================== DEBUG OUTPUT ====================
     if (DEBUG) {
-      console.log("%c=== HASH VERIFIER DEBUG ===", "color:#66ff66; font-weight:bold");
       console.log("Raw length:", rawText.length);
-      console.log("Cleaned fuzzy text:", cleanText);
-      console.log("Cleaned length:", cleanText.length);
+      console.log("Cleaned:", cleanText.substring(0, 200) + "...");
     }
 
     sha256(cleanText).then(hash => {
-      if (DEBUG) {
-        console.log("Calculated hash:", hash);
-      }
-
-      let matchFound = false;
-
-      for (let url in window.officialFuzzyHashes) {
-        if (window.officialFuzzyHashes[url] === hash) {
-          matchFound = true;
-          const info = window.officialGitInfo[url] || {};
-          const title = info.title || 'Onbekende post';
-
-          let html = `<span style="color: #66ff66; font-size: 1.3em;">✅ 100% AUTHENTIEK!</span><br><br>`;
-          html += `<strong>Post:</strong> <a href="${url}" target="_blank">${title}</a><br>`;
-          if (info.commit_hash) {
-            html += `<strong>Commit:</strong> <a href="${info.commit_url}" target="_blank">${info.commit_hash.substring(0,12)}</a> (${info.commit_date})`;
-          }
-          showResult(html, 'success');
-          return;
-        }
-      }
-
-      showResult(`❌ Geen match gevonden.<br><br>Je berekende hash:<br><code>${hash}</code>`, 'error');
+      console.log("Hash:", hash);
+      // Hier komt je matching-logica (tijdelijk uitgeschakeld voor test)
+      showResult(`<span style="color:#66ff66;">Hash berekend: ${hash}</span><br><br>Test modus - matching uitgeschakeld`, 'success');
     });
   });
 
   function showResult(html, type) {
     result.innerHTML = html;
     result.style.display = 'block';
-    result.style.borderLeftColor = type === 'success' ? '#66ff66' : '#ff6666';
   }
 
   async function sha256(message) {
