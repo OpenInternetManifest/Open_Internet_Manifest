@@ -9,7 +9,7 @@ day: 27
 rvn_title: Politiek - Politika
 # rvn_url: /nl/social-posts/dag-27-rvn
 rvn_teaser: Van ‘zaken van de burger’ naar theater
-fuzzy_sha256: "efa9ea630cfa944e8d8950975a58184fda638765bf2c6dec690a16ca65db6330"
+fuzzy_sha256: "6cb722ef68c64187ff43e48b9bb2312037194d4486902ed3793b282f94e38dc8"
 ---
 **Reality vs Narratief: Politiek – van ‘zaken van de burger’ naar theater… en waarom dat verschil ertoe doet ♟️🗳️🪞🙏**
 

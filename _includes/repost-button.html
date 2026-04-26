@@ -1,21 +1,27 @@
 <div class="repost-section">
   <h3>Deel dit bericht</h3>
   
+  <p class="repost-explain">
+    <strong>Korte versie / X:</strong> Teaser<br>
+    <strong>Volledige raw tekst:</strong> Strakke Markdown (voor verifier)<br>
+    <strong>Facebook:</strong> Unicode-opmaak → plak zelf met Ctrl+V
+  </p>
+
   <div class="repost-buttons">
     <button onclick="copyRepostShort()" class="btn-repost">
-      📋 Korte versie 
+      📋 Korte versie (Teaser)
     </button>
     
     <button onclick="copyRepostFull()" class="btn-repost secondary">
-      📋 Volledige raw tekst (voor verifier)
+      📋 Volledige raw tekst
     </button>
 
     <button onclick="shareOnX()" class="btn-repost social">
-      Post op 𝕏 (korte versie)
+      Post op 𝕏
     </button>
 
     <button onclick="copyAndOpenFacebook()" class="btn-repost social">
-      Kopieer + open Facebook (mooie opmaak)
+      Kopieer + open Facebook
     </button>
   </div>
 
@@ -26,9 +32,8 @@
   const baseUrl = "https://openinternetmanifest.org";
 
   const title = "{{ page.rvn_title | escape }}";
+  const teaser = "{{ page.rvn_teaser | strip_html | escape | replace: '\n', ' ' }}" || "{{ page.content | strip_html | truncatewords: 35 | escape | replace: '\n', ' ' }}";
   const url = baseUrl + "{{ page.url }}";
-
-  const shortExcerpt = "{{ page.content | strip_html | truncatewords: 38 | escape | replace: '\n', ' ' }}";
 
   let fullHtml = `{{ page.content | replace: '\\', '\\\\' | replace: '"', '\\"' | replace: '\n', '\\n' | replace: '`', '\\`' }}`;
 
@@ -37,7 +42,7 @@
       .replace(/<hr\s*\/?>/gi, '\n---\n')
       .replace(/<h[1-6][^>]*>/gi, '\n### ')
       .replace(/<\/h[1-6]>/gi, '\n')
-      .replace(/<p>/gi, '\n')
+      .replace(/<p>/gi, '\n\n')
       .replace(/<\/p>/gi, '')
       .replace(/<strong>/gi, '**')
       .replace(/<\/strong>/gi, '**')
@@ -52,6 +57,11 @@
       .replace(/&amp;/g, '&')
       .replace(/&lt;/g, '<')
       .replace(/&gt;/g, '>')
+
+      // === ZEER AGRESSIEVE OPSOMMING CLEANING (voor zowel - als •) ===
+      .replace(/\n\s*\n(\s*[-•]\s)/g, '\n$1')        // geen lege regel vóór bullet
+      .replace(/(\s*[-•]\s.+?)\n\s*\n(\s*[-•]\s)/g, '$1\n$2') // bullets direct onder elkaar
+      .replace(/(\s*[-•]\s.+?)\n\s*\n/g, '$1\n\n')   // na LAATSTE bullet wél 1 witregel
       .replace(/\n{3,}/g, '\n\n')
       .replace(/^\n+|\n+$/g, '')
       .trim();
@@ -59,7 +69,6 @@
 
   const fullRawText = htmlToMarkdown(fullHtml);
 
-  // === Mooie Unicode bold voor Facebook ===
   function toFacebookUnicode(text) {
     const boldMap = {
       'A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈',
@@ -74,32 +83,32 @@
     );
   }
 
-  function copyRepostShort() { /* blijft hetzelfde */ 
-    const text = `🔍 ${title}\n\n${shortExcerpt}...\n\nLees + verificatie: ${url}\n\n#OpenInternetManifest`;
-    copyToClipboard(text, "✅ Korte versie gekopieerd!");
+  function copyRepostShort() {
+    const text = `🔍 ${title}\n\n${teaser}\n\nLees het volledige verhaal: ${url}\n\n#OpenInternetManifest`;
+    copyToClipboard(text, "✅ Teaser gekopieerd!");
   }
 
   function copyRepostFull() {
-    const text = `🔍 ${title}\n\n${fullRawText}`;
-    copyToClipboard(text, "✅ Volledige raw tekst (verifieerbaar) gekopieerd!");
+    const text = `\n\n${fullRawText}`;
+    copyToClipboard(text, "✅ Volledige raw tekst gekopieerd!");
   }
 
-  function shareOnX() { /* blijft hetzelfde */ 
-    const text = `🔍 ${title} — ${shortExcerpt.substring(0, 160)}...`;
-    const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+  function shareOnX() {
+    const text = `🔍 ${title}\n\n${teaser}\n\nLees het volledige verhaal:\n${url}\n\n#OpenInternetManifest #RealiteitVsNarratief`;
+    const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(shareUrl, '_blank');
   }
 
   function copyAndOpenFacebook() {
-    const fbText = `🔍 ${title}\n\n${toFacebookUnicode(fullRawText)}`;
+    const fbText = `\n\n${toFacebookUnicode(fullRawText)}`;
     navigator.clipboard.writeText(fbText).then(() => {
       const feedback = document.getElementById('repost-feedback');
-      feedback.innerHTML = "✅ Unicode-opmaak voor Facebook gekopieerd!";
+      feedback.innerHTML = "✅ Unicode voor Facebook gekopieerd!";
       setTimeout(() => { feedback.innerHTML = ''; }, 3000);
     });
     setTimeout(() => {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-    }, 800);
+    }, 700);
   }
 
   function copyToClipboard(text, message) {

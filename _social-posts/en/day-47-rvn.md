@@ -9,7 +9,7 @@ day: 47
 rvn_title: “In violation of the rules” – When tolerance becomes censorship
 rvn_url: /en/social-posts/rvn-tolerance-censorship
 rvn_teaser: Amsterdam Durft te Vragen… but only if you say what they want to hear.
-fuzzy_sha256: "4f40aaee6de1acf9a85e21ee445184d5ebc6938ae6484f45f36a1e4b5fe87aea"
+fuzzy_sha256: "508b6da21204ae46a0e37bdcd36371bb1af2e44bcb67f30499470926c6f05012"
 ---
 **RVN: “In violation of the rules” – When tolerance becomes censorship** 🌀
 

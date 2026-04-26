@@ -6,13 +6,11 @@ rvn_title: "De Manipulatie van Realiteit – Wrap-up van de 13-delige serie"
 rvn_teaser: "We zijn klaar met de 13-delige serie. Wat hebben we écht geleerd over hoe onze realiteit dagelijks gemanipuleerd wordt – en wat doen we ermee?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "1c6b4bfd01a0ec591f3443bf2aaef2da467211a7a7bcba7a45107fdc35487c24"
 git_commit_hash: "a07dcb9404c18a50a9cdeac936cd029b18e04eec"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a07dcb9404c18a50a9cdeac936cd029b18e04eec"
 git_commit_date: "2026-04-26T07:47:29+02:00"
+fuzzy_sha256: "9fbed43d9b4e1dbfb1d3b3535e89256fc0e9c54ab718c3bf6e744f3a61a69dbc"
 ---
-
-
 **RVN: De Manipulatie van Realiteit – Wrap-up van de 13-delige serie** 🌀
 
 Vandaag sluiten we een intensieve 13-delige serie af. Twee weken lang hebben we gekeken naar klassieke experimenten, psychologische mechanismen en zelfs quantuminzichten die laten zien hoe kwetsbaar ons brein is voor beïnvloeding.

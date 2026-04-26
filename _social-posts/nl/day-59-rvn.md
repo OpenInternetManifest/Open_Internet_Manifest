@@ -9,7 +9,7 @@ donation_text: ""
 git_commit_hash: "1bbb136317e2a150c55732179c9ed02def7cc57f"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1bbb136317e2a150c55732179c9ed02def7cc57f"
 git_commit_date: "2026-04-24T09:25:31+02:00"
-fuzzy_sha256: "34266b0cab220f778dc3a4a156026236465470aeb8a02871f208e825f706f001"
+fuzzy_sha256: "6c131e30135693ca7cf6c0369b0d1d76f9404f79fefa245f9e43c13ed1bd6b38"
 ---
 **RVN: Kleine stap, grote overgave – Foot-in-the-Door & Door-in-the-Face** 🌀
 

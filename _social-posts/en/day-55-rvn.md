@@ -10,7 +10,7 @@ social_share_sha256: ""
 git_commit_hash: "ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
 git_commit_date: "2026-04-20T06:53:39+02:00"
-fuzzy_sha256: "0d4cf33fcd9ae5d6d443a55056b642154780facec1d34f27a9c0624bc4433b9f"
+fuzzy_sha256: "8c17fdeb6c71dbbba29a05f0fcea190a6eb567794d45a96bfe17f2a51726aaa7"
 ---
 **RVN: Nobody Helps – The Bystander Effect** 🌀
 

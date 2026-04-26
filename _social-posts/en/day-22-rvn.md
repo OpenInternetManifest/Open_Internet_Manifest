@@ -9,7 +9,7 @@ day: 22
 rvn_title: Warp Speed; Trump's forced vaccine push
 # rvn_url: /en/social-posts/day-22-rvn
 rvn_teaser: Or a genius asymmetric counter in a spiritual war
-fuzzy_sha256: "1160c8e8d3ec4c9726dd55f604f0edee962ec6e45cd283a39cca682be027fd38"
+fuzzy_sha256: "3a60c107c7b71d291ad158d574d60373a04dab15a4a53cf15504ee26a9033f16"
 ---
 Warp Speed: Trump's forced vaccine push... or a genius asymmetric counter in a spiritual war? ♟️🧬🔥🕊️
 From our corner – where we've seen mRNA as a massive red flag 🚩 for years, CRISPR risks, graphene oxide rumors, and the whole biotech agenda as a potential Trojan horse – the narrative hits hard:

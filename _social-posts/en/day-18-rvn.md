@@ -9,7 +9,7 @@ day: 18
 rvn_title: Holocaust Remembrance Day 2026
 # rvn_url: /en/social-posts/day-18-rvn
 rvn_teaser: and a friends child is still called cancer Jew
-fuzzy_sha256: "1ceb6690f7eec1ac74734becfa32d6c1a75ee40b93f787d9573fa8b597e369a0"
+fuzzy_sha256: "062594f07973770a36c21d858916189e309ce501fc3fd964e6a0dbb8aae0501a"
 ---
 🇬🇧 **Day 18 – Reality vs Narrative: Holocaust Remembrance Day 2026 – and a friends child is still called “cancer Jew”** 🌐😔url.td/0ZB9M
 Today is January 27. International Holocaust Remembrance Day.

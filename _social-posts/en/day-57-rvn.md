@@ -10,7 +10,7 @@ social_share_sha256: ""
 git_commit_hash: "3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_date: "2026-04-22T07:42:08+02:00"
-fuzzy_sha256: "ed6deed1fb9aa38d57f1a0c3ca8f5ac3bbafcaebd91ac9a68bddf31bd758bf69"
+fuzzy_sha256: "a514a3288a5b1c188ee13d8da344e29e48d65c44396b4b1893c683699205c605"
 ---
 **RVN: The Good Samaritan Who Was in a Hurry** 🌀
 

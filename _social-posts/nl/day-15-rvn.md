@@ -9,7 +9,7 @@ day: 15
 rvn_title: Minneapolis mall
 # rvn_url: /nl/social-posts/dag-15-rvn
 rvn_teaser: En de ICE-hypocrisie
-fuzzy_sha256: "dc2da699e239d019a11d7d94ea70fc9c51396dd4c2e352a2299e3a5e71cfdf49"
+fuzzy_sha256: "15feebaa0b3c27ec86be64a9d492b79f020a301ae1570ae453b75f6e51cc56b4"
 ---
 🇳🇱 **Dag 15 – Reality vs Narrative: Minneapolis mall & de ICE-hypocrisie** 🌐🔥  
 Vannacht en de afgelopen dagen: ICE slaat toe in Minneapolis, vooral bij Somalische malls (Karmel Mall, Star City). Arrestaties, shutdowns van honderden Somali-owned businesses (23-25 jan protest-sluitingen), straten vol demonstranten, en een dodelijk schietincident dat de boel escaleert. National Guard op standby in MN, 1500 troops ready – terwijl ICE nu nationwide opschaalt in alle 50 staten met record-manpower.  

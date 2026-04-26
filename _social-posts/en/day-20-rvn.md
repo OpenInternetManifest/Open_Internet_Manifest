@@ -9,7 +9,7 @@ day: 20
 rvn_title: Utrecht Bollendak
 # rvn_url: /en/social-posts/day-20-rvn
 rvn_teaser: viral clip vs reality + spun narrative
-fuzzy_sha256: "e487c1a1afe03e8db1bfd7664a6903387d05ac626309eba2a91ca39d0b97235b"
+fuzzy_sha256: "c81b65cc940abcc59ae5b016452df73023c79b208b8846cf523f782316d99af3"
 ---
 **Day 20 – Utrecht Bollendak: viral clip vs reality + spun narrative** 🚔🔍  
 Videos exploding: cop kicks Muslim woman in stomach, hits other with baton – narrative: "racism! police brutality against Muslim women!" Assault + racism complaint filed, protests follow, massive outrage and calls to action.

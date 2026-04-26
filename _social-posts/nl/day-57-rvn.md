@@ -9,7 +9,7 @@ donation_text: ""
 git_commit_hash: "3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_date: "2026-04-22T07:42:08+02:00"
-fuzzy_sha256: "b5a3d375ca86df7682854b499e57937e8f7c921c94fab244dde64621a5dc6b97"
+fuzzy_sha256: "1e173b9d9eaa484dd438e19e74efa9bfc7225559582ca048b6aa671bba4d8687"
 ---
 **RVN: De goede Samaritaan die haast had** 🌀
 

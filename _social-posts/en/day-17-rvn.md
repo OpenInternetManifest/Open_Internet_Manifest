@@ -9,7 +9,7 @@ day: 17
 rvn_title: Predicted – Walz' Smoke Screens Now Reality
 # rvn_url: /en/social-posts/day-17-rvn
 rvn_teaser: Gatekeepers always choose which fire to extinguish
-fuzzy_sha256: "3a2bd0ea8c6c48b9c9791b5f4be0b0026aa58cfbb0e85d5a47032c30818c07e4"
+fuzzy_sha256: "85d3ad1df01bb2f974f914ed149cde1e9c7df3fdb77b21384ae5c993ded7b4e0"
 ---
 🇬🇧 **Day 17 – Reality vs Narrative: Day 9 Predicted – Walz' Smoke Screens Now Reality** 🌐🔥
 On Day 9 I already warned about daycare fraud in Minnesota and Gov. Tim Walz' passivity:

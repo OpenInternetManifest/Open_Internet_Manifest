@@ -13,7 +13,7 @@ social_share_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2
 git_commit_hash: "27bafcaf2ea4003d2039071b9894e99c20ff9861"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/27bafcaf2ea4003d2039071b9894e99c20ff9861"
 git_commit_date: "2026-04-17T07:12:49+02:00"
-fuzzy_sha256: "f88f4825ba92d32023f0db37783cc2ddd14bf2c209358d3ad3e1511aa921d45b"
+fuzzy_sha256: "2176c79cc5a88540fe9d41be532f518663059d324be9e2fb3f94b1681b0be124"
 ---
 **RVN: De druk van de groep – Waarom we onze eigen ogen niet meer vertrouwen** 🌀
 

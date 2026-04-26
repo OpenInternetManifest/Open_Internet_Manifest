@@ -10,7 +10,7 @@ social_share_sha256: ""
 git_commit_hash: "1bbb136317e2a150c55732179c9ed02def7cc57f"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1bbb136317e2a150c55732179c9ed02def7cc57f"
 git_commit_date: "2026-04-24T09:25:31+02:00"
-fuzzy_sha256: "4332a767cb544e11742856ed1334b4a2afcd53ef127a979af2f8f6f16342df3d"
+fuzzy_sha256: "659dccb5929a32af6cb412a0659d742a085af1aa562060fca963b8632ea8d467"
 ---
 **RVN: Small Step, Big Surrender – Foot-in-the-Door & Door-in-the-Face** 🌀
 

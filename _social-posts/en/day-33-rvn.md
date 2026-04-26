@@ -9,7 +9,7 @@ day: 33
 rvn_title: Week synthesis; why division is the real power
 # rvn_url: /en/social-posts/day-33-rvn
 rvn_teaser: and how the facts rain breaks it
-fuzzy_sha256: "b50c3f91d9d20c93a03f8987538339ed41a7b73d66b72a8472955e8ab401add1"
+fuzzy_sha256: "48d51946fefdeb318d93be34bca6abed7d646d937f445d06c8804224d5c30ecf"
 ---
 **Day 33 – RVN: The mother of all narratives** 🌀🕳️🔥 
 Week synthesis: why division is the real power – and how the facts rain breaks it.

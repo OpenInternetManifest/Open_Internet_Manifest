@@ -9,7 +9,7 @@ day: 12
 rvn_title: Benefits Scandal
 # rvn_url: /en/social-posts/day-12-rvn
 rvn_teaser: The farm that won't break
-fuzzy_sha256: "b8059d534bc11319917cc7b4e15b74abef486cce7ee7b3deb3194a1c22f462b7"
+fuzzy_sha256: "7ed33bc0cec137cdf6698d93fcfb52fab56eda58d89c2d329bac7f914f242d99"
 ---
 **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
 For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.

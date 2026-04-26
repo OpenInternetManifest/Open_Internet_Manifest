@@ -9,7 +9,7 @@ day: 36
 rvn_title: Epstein → Demmink → Baybaşin
 # rvn_url: /nl/social-posts/dag-36-rvn
 rvn_teaser: Het patroon van stilte
-fuzzy_sha256: "4255e1163013fe2499cc98989ecf280b563a9de8dedd8ad1bfe3cc80e51a6bbc"
+fuzzy_sha256: "5d66840c9a4ccbba7cc9af56666b7bdd1a4aff17a0dd6bf4f2297a5392409074"
 ---
 **Dag 36 – RVN: Epstein → Demmink → Baybaşin – het patroon van stilte** 🕸️🔇  
 Waarom sommige zaken nooit echt worden opgelost.

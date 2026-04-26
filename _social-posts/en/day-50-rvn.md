@@ -13,7 +13,7 @@ social_share_sha256: "d5ed1728d010e42066ae2e3c4750c236a4bb3f7ecfe82beb5772c34c9c
 git_commit_hash: "0bdbdb93b63d0e152cb682552720cd7de67aa31c"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/0bdbdb93b63d0e152cb682552720cd7de67aa31c"
 git_commit_date: "2026-04-15T06:39:40+02:00"
-fuzzy_sha256: "88edd9a912dc9f05b974a9b34c0a0941bca16dccedf96f282131ad45a17df48c"
+fuzzy_sha256: "75e625502034e2fe058bf9578fda04b601a82b422c9ed966d5686d2b3edf38cd"
 ---
 **RVN: The Shock of Authority – How Ordinary People Do Extreme Things** 🌀
 

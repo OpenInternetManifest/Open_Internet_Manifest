@@ -6,14 +6,12 @@ rvn_title: "The Manipulation of Reality – Wrap-up of the 13-part series"
 rvn_teaser: "We’ve completed the 13-part series. What have we really learned about how our reality is manipulated daily – and what are we going to do about it?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "1bab942eede3ee4b7f840b0d0c98feb0154499239afaf91b5d01911ff35c7edc"
 social_share_sha256: ""
 git_commit_hash: "a07dcb9404c18a50a9cdeac936cd029b18e04eec"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a07dcb9404c18a50a9cdeac936cd029b18e04eec"
 git_commit_date: "2026-04-26T07:47:29+02:00"
+fuzzy_sha256: "0193f76cc291006eef47540609e7cefb49156a4420536f17e01b0c99d3daed0f"
 ---
-
-
 **RVN: The Manipulation of Reality – Wrap-up of the 13-part series** 🌀
 
 Today we conclude an intensive 13-part series. For two weeks we have examined classic experiments, psychological mechanisms and even quantum insights that show how vulnerable our brain is to influence.

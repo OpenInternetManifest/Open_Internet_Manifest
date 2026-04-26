@@ -9,7 +9,7 @@ website_sha256:
 social_x_sha256: 2d8c0051cc4ccb9067ae97ebe633cb633ea683e2eb77662d6cdcff81159752b1
 social_fb_sha256: 2f58fd6692bee6e08f9e401ee8afb31e58d33375fc74cb89bf466d2000f1803e
 social_share_sha256: ''
-fuzzy_sha256: "8d2a6d42d03513fcead1f0b77bb5d9666d0a0103ebd12e36889906cca3dc3ef0"
+fuzzy_sha256: "e847e074126d0231e25fa9cb13f30588fcbfe96c409e3b8bf63dfa9c38e2ee44"
 ---
 **Short silence – quick update**  
 It’s been quiet on new RVN posts this week. Not because nothing is happening, but because we’re going full throttle behind the scenes 💨. We’re currently building an admin page that will make posting, reposting on X/Facebook, and community contributions much easier. This will allow us to run faster, more consistently, and with your input. We’ll drop this as a one-off post this week – after that the flow will resume. Thanks for your patience, it will be worth it 🙏.

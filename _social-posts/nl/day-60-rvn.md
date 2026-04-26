@@ -9,7 +9,7 @@ donation_text: ""
 git_commit_hash: "af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_date: "2026-04-25T08:11:29+02:00"
-fuzzy_sha256: "5d47d16f642d058e889131928f4e8b570664b6e098154d053016fe34bbd88a6d"
+fuzzy_sha256: "5fd0081a68c91fc71cc1924516b629aec67049b323ba6fe691b860add823ffb1"
 ---
 **RVN: Gijzelaar wordt verliefd op gijzelnemer – Stockholm Syndrome** 🌀
 

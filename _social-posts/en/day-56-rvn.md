@@ -10,7 +10,7 @@ social_share_sha256: ""
 git_commit_hash: "271b0104baaf1869640c3bb85acbde95bb5eaf91"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/271b0104baaf1869640c3bb85acbde95bb5eaf91"
 git_commit_date: "2026-04-21T06:51:19+02:00"
-fuzzy_sha256: "28ad32d827e1e6d7b22c2821cb1aee47a80d54cd72f580be341c1959f7471141"
+fuzzy_sha256: "a8f95944f555faf5810eddca238abd73078449457ab03a8eca539115df7d46c0"
 ---
 **RVN: The Illusion of Consensus – False Consensus Effect** 🌀
 

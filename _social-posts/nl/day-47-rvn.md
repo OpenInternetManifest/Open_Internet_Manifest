@@ -13,7 +13,7 @@ social_share_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e
 git_commit_hash: "6a46f85ddba362b65aa487fba3d891cb0334765a"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6a46f85ddba362b65aa487fba3d891cb0334765a"
 git_commit_date: "2026-04-10T13:30:40+02:00"
-fuzzy_sha256: "93785d7244390eab3e65f40594a02245cc8a69274e5517e6a5c9da9de1a1f26c"
+fuzzy_sha256: "2b7728cbd91bbea74ccdb798a1b22b7c49dda8d805c3ab44359fb3ed5bdad40b"
 ---
 **RVN: "In strijd met de regels" – Wanneer tolerantie censuur wordt** 🌀
 Vandaag gebeurde het weer.

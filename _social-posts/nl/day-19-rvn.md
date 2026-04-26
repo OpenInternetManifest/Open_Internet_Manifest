@@ -9,7 +9,7 @@ day: 19
 rvn_title: DigiD in Amerikaanse handen
 # rvn_url: /nl/social-posts/dag-19-rvn
 rvn_teaser: kans of crisis?
-fuzzy_sha256: "71a715eca919479357250bd24e4b742ccb63de14c009ffae0181884d2f6f94af"
+fuzzy_sha256: "6c30c53bee76fa38741d68c13e27182dc67e182841b132de4bc4fe9b1cec48a1"
 ---
 🇳🇱 **Dag 19 – Reality vs Narrative: DigiD in Amerikaanse handen – kans of crisis?** 🌐🔒  
 Vandaag nieuws dat hard binnenkomt: het bedrijf achter DigiD, eHerkenning en MijnOverheid (Zynyo) komt in Amerikaanse handen via een overname door een private equity-fonds met sterke US-ties. Tegelijkertijd zitten steeds meer kritieke Nederlandse data in Amerikaanse clouds (Azure, AWS, Google).  

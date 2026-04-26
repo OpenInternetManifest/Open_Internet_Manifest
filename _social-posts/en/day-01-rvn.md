@@ -9,7 +9,7 @@ day: 1
 rvn_title: The Fixed Pattern in Major Incidents
 # rvn_url: /en/social-posts/day-1-rvn
 rvn_teaser: How narratives are pushed and reality is
-fuzzy_sha256: "24d3f0cfd0dade51814d87c0d68c7d6f605c7f29ee0477f016cf40b25862da49"
+fuzzy_sha256: "a57de801947d4eef39576557b72b2eeea9f70d0c9c4699cd3885dd84373748e3"
 ---
 Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 

@@ -9,7 +9,7 @@ donation_text: ""
 git_commit_hash: "255a43b66c58007a553ce815ab163647ccbd1ca8"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/255a43b66c58007a553ce815ab163647ccbd1ca8"
 git_commit_date: "2026-04-19T12:54:57+02:00"
-fuzzy_sha256: "fb8618c7b5ded90e45cb187faa8f2d8f02f4cc3ae35abaa4b457f0022bb61230"
+fuzzy_sha256: "1df018a15b81b45d84c1a995ce02449515320901f22ffa755ddcae78ffbe0e50"
 ---
 **RVN: Wij vs Zij in één week – Robbers Cave Experiment** 🌀
 

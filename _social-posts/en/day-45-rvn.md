@@ -9,7 +9,7 @@ day: 40
 rvn_title: 1 april – Nieuwjaarsdag in het oude 13-maanden stelsel
 rvn_url: /nl/social-posts/rvn-nieuwjaarsdag-13-maanden
 rvn_teaser: Waarom vieren we eigenlijk 1 april als "gekke dag" terwijl het ooit Nieuwjaarsdag was?
-fuzzy_sha256: "de532239a75e68e53de34fc88a648b16201334a74dbabada2fc44eb219dd2549"
+fuzzy_sha256: "35505bbb101e287103bc65f633ed843470c0071afa22320b666339154fe47163"
 ---
 **RVN: 1 april – Nieuwjaarsdag in het oude 13-maanden stelsel** 🌀
 

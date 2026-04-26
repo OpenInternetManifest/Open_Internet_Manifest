@@ -9,7 +9,7 @@ day: 8
 rvn_title: Verifieerbaarheid
 # rvn_url: /nl/social-posts/dag-8-rvn
 rvn_teaser: 'hashes liegen niet  '
-fuzzy_sha256: "2f3803e5881163726336bea2bae3ec54c536587ab495a3a6ee735d45f40623bb"
+fuzzy_sha256: "a73065c830dfc0a5cf3dfdce6652502f6ef0bd36eff98aca2887a97a13d0b88e"
 ---
 Realiteit vs Narratief – Groenland Escalatie: Tarieven Edition (18 jan 2026)  
 Narratief:  

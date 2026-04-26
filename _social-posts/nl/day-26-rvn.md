@@ -9,7 +9,7 @@ day: 26
 rvn_title: De laag boven de Rockefellers
 # rvn_url: /nl/social-posts/dag-26-rvn
 rvn_teaser: Wie heeft de echte knoppen?
-fuzzy_sha256: "0eb4f37b3fba71af5a1b3dec4143997e0fa3b29d9aaabfcdded10f01548f8060"
+fuzzy_sha256: "fb2b98589f941bc4dc2e5f342f9c0ee162b4ad882b08b1fe9b43b906660c03d2"
 ---
 **Reality vs Narratief: De laag boven de Rockefellers – wie heeft de echte knoppen? ♟️🏦🕶️**
 

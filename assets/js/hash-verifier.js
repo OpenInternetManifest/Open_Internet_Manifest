@@ -1,57 +1,80 @@
 document.addEventListener('DOMContentLoaded', () => {
+  console.log("🔥 Hash Verifier v2 loaded");
+
   const input = document.getElementById('input-text');
   const btn = document.getElementById('verify-btn');
   const result = document.getElementById('result');
 
-  if (!btn) {
-    console.error("Button #verify-btn niet gevonden!");
+  if (!input || !btn || !result) {
+    console.error("Elements missing");
     return;
   }
 
-  const DEBUG = true;
-
   btn.addEventListener('click', () => {
-    console.log("✅ Button clicked!");   // Dit moet in de console verschijnen
+    console.log("Button clicked");
 
-    const rawText = input.value.trim();
+    let rawText = input.value.trim();
     if (!rawText) {
-      showResult('Plak eerst een tekst om te verifiëren.', 'warning');
+      showResult('Plak eerst een tekst.', 'warning');
       return;
     }
 
-    // Simpele maar robuuste cleaning
+    // FUZZY CLEANING - Probeert Python zo dicht mogelijk te benaderen
     let cleanText = rawText
-      .replace(/\*\*(.+?)\*\*/g, '$1')
-      .replace(/\*(.+?)\*/g, '$1')
-      .replace(/__(.+?)__/g, '$1')
-      .replace(/_(.+?)_/g, '$1')
-      // Unicode bold/italic (meest voorkomende)
-      .replace(/[\u1D400-\u1D7FF]/g, m => {
-        const code = m.charCodeAt(0);
+      // Unicode fancy letters → normaal
+      .replace(/[\uD835\uDC00-\uD835\uDFFF]/gu, (m) => {
+        const code = m.codePointAt(0);
         if (code >= 0x1D400 && code <= 0x1D433) return String.fromCharCode(code - 0x1D400 + 65);
         if (code >= 0x1D434 && code <= 0x1D467) return String.fromCharCode(code - 0x1D434 + 97);
         return m;
       })
-      .replace(/<[^>]+>/g, '')
-      .replace(/\s+/g, ' ')
-      .trim()
-      .toLowerCase();
+      .replace(/[𝐀-𝐙]/g, m => String.fromCharCode(m.charCodeAt(0) - 0x1D400 + 65))
+      .replace(/[𝐚-𝐳]/g, m => String.fromCharCode(m.charCodeAt(0) - 0x1D41A + 97))
 
-    if (DEBUG) {
-      console.log("Raw length:", rawText.length);
-      console.log("Cleaned:", cleanText.substring(0, 200) + "...");
-    }
+      // Markdown
+      .replace(/\*\*(.*?)\*\*/g, '$1')
+      .replace(/\*(.*?)\*/g, '$1')
+      .replace(/~~(.*?)~~/g, '$1')
+      .replace(/`(.*?)`/g, '$1')
+      .replace(/^>\s*/gm, '')
+      .replace(/^#{1,6}\s*/gm, '')
+      .replace(/^\s*[-*+]\s+/gm, '')
+      .replace(/^\s*\d+\.\s+/gm, '')
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
+
+      // Finale cleanup - GEEN emoji vervanging
+      .toLowerCase()
+      .replace(/[ \t]+/g, ' ')
+      .replace(/\n+/g, ' ')
+      .replace(/[ \t]+/g, ' ')
+      .trim();
+
+    console.log("=== RAW ===\n", rawText);
+    console.log("=== CLEANED ===\n", cleanText);
 
     sha256(cleanText).then(hash => {
-      console.log("Hash:", hash);
-      // Hier komt je matching-logica (tijdelijk uitgeschakeld voor test)
-      showResult(`<span style="color:#66ff66;">Hash berekend: ${hash}</span><br><br>Test modus - matching uitgeschakeld`, 'success');
+      console.log("=== HASH ===\n", hash);
+
+      // Match check
+      let matchFound = false;
+      for (let url in window.officialFuzzyHashes) {
+        if (window.officialFuzzyHashes[url] === hash) {
+          matchFound = true;
+          const info = window.officialGitInfo[url] || {};
+          showResult(`✅ 100% AUTHENTIEK!<br><strong>${info.title || 'Post'}</strong>`, 'success');
+          return;
+        }
+      }
+
+      showResult(`❌ Geen match<br>Hash: <code>${hash}</code>`, 'error');
     });
   });
 
   function showResult(html, type) {
     result.innerHTML = html;
     result.style.display = 'block';
+    result.style.borderLeftColor = type === 'success' ? '#66ff66' : '#ff6666';
   }
 
   async function sha256(message) {

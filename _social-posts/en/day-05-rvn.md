@@ -9,7 +9,7 @@ day: 5
 rvn_title: Starlink Free for Iran
 # rvn_url: /en/social-posts/day-5-rvn
 rvn_teaser: Satellite internet like Starlink is dangerous!
-fuzzy_sha256: "4010425932b9c39c5b5c770f62578a5f6c93790b69b53ba3689fbbb360cd8bc4"
+fuzzy_sha256: "8aff7f6ea4bb76b230d3ca58ce859aebce7e695ca7ee562e157a4b9fc64d88d4"
 ---
 Reality vs. Narrative – Starlink Free for Iran.
 The narrative says:

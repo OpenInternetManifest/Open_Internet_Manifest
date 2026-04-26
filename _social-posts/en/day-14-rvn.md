@@ -9,7 +9,7 @@ day: 14
 rvn_title: Selective outrage on demand
 # rvn_url: /en/social-posts/day-14-rvn
 rvn_teaser: CNN; ICE raids have always been controversial
-fuzzy_sha256: "55c3979614f8cfa971c409485ce7ebdead47682d91d80dbddb47a278429871a4"
+fuzzy_sha256: "d28d838054e55f57b9b09f83b8e3ce4db1597dbe3d4a040182296d56b82e8888"
 ---
 **Reality vs Narrative** – DHS bill: selective outrage on demand 🚨🇺🇸
 House voted last night on massive border security funding. Trump: "must pass". Left: "defund ICE", "terrorizing children", "Liam drama".

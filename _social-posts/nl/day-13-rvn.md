@@ -9,7 +9,7 @@ day: 13
 rvn_title: Fluoride
 # rvn_url: /nl/social-posts/dag-13-rvn
 rvn_teaser: 'Het narratief dat eindelijk barst '
-fuzzy_sha256: "50969a00380ee7cebd710f522600ed446105d29d57ecd6d58ca9e1d02b8cff3b"
+fuzzy_sha256: "4fb1ae3d0ba30c11c9c750d048f48319dd7cb0e08e5c8ceb8894717c5f7bc45b"
 ---
 **Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   
 Decennialang: "fluoride in drinkwater is veilig en goed voor tanden". Standaard in bijna alle US publieke systemen, gepusht door CDC, ADA en WHO. Kritiek? "Complotdenkers", "anti-science".
