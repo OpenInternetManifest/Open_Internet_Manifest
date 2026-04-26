@@ -6,11 +6,11 @@ rvn_title: "Assassination Attempt on President Trump – When Hatred and Hypocri
 rvn_teaser: "Today another shooting incident involving President Trump. While facts are still unclear, some are openly celebrating that 'it failed again'. What does this say about the depth of our tribal manipulation?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "fdd2e240e204824f29545d54bd0dec3ad087abf9"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/fdd2e240e204824f29545d54bd0dec3ad087abf9"
+git_commit_date: "2026-04-26T12:56:36+02:00"
 ---
 
 
