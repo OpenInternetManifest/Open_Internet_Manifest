@@ -6,10 +6,10 @@ rvn_title: "Poging tot aanslag op President Trump – Wanneer haat en hypocrisie
 rvn_teaser: "Vandaag opnieuw een schietpoging op President Trump. Terwijl feiten nog niet helder zijn, vieren sommigen openlijk dat het ‘weer mislukte’. Wat zegt dit over de diepte van onze tribale manipulatie?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "961c18fae88f5da77b2347b5b16ddcd5adefd3d76f590aa6b409cd7bb48af5af"
+git_commit_hash: "db1aa487674485e8187a21d6614626afdf26d1d7"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/db1aa487674485e8187a21d6614626afdf26d1d7"
+git_commit_date: "2026-04-26T13:16:45+02:00"
 ---
 
 
