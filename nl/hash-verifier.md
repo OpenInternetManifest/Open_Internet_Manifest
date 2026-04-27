@@ -68,4 +68,6 @@ lang: nl
 
 </div>
 
+<!-- Na de andere scripts, maar VÓÓR hash-verifier.js -->
+<script src="{{ '/static/js/official-clean-texts.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/hash-verifier.js' | relative_url }}"></script>
