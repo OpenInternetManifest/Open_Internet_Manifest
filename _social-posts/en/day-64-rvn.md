@@ -6,11 +6,11 @@ rvn_title: "The Graduated Animal Farm – How We Are Led from Pen to Pen"
 rvn_teaser: "You think you're awake. But what if you're simply placed in a larger, nicer pen?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "c77ab08f908b5cddb8a48d394f5b845065d999b97427ffae01278bf2d166a21a"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "8b1046d4852944ab2bf08f0c343f43805bf43ef3"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8b1046d4852944ab2bf08f0c343f43805bf43ef3"
+git_commit_date: "2026-04-28T06:32:12+02:00"
 ---
 
 
