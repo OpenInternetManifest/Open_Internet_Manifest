@@ -80,28 +80,49 @@ fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk "{print \$1}")
 # ==================== UPDATE official-clean-texts.js ====================
 CLEAN_FILE="static/js/official-clean-texts.js"
 
-# Zorg dat het bestand bestaat
+# Zorg dat map en bestand bestaan
+mkdir -p static/js
+
 if [ ! -f "$CLEAN_FILE" ]; then
-  mkdir -p static/js
-  echo "// ==================== OFFICIAL CLEAN TEXTS ====================" > "$CLEAN_FILE"
-  echo "// Gegenereerd op: $(date)" >> "$CLEAN_FILE"
-  echo "" >> "$CLEAN_FILE"
-  echo "window.officialCleanTexts = {" >> "$CLEAN_FILE"
-  echo "};" >> "$CLEAN_FILE"
+  cat > "$CLEAN_FILE" << 'EOF'
+// ==================== OFFICIAL CLEAN TEXTS ====================
+// Gegenereerd op: $(date)
+
+window.officialCleanTexts = {
+};
+EOF
 fi
 
-# Escape voor JS
+# Escape voor veilige JS string
 escaped_clean=$(echo "$fuzzy_body" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
 
-# Vervang of voeg toe
-if grep -q "\"$FILE\":" "$CLEAN_FILE"; then
-  # Update bestaande entry
-  sed -i "/\"$FILE\":/c\  \"$FILE\": \"$escaped_clean\"," "$CLEAN_FILE"
-else
-  # Voeg nieuwe entry toe (voor de laatste } )
-  sed -i "/^};$/i\  \"$FILE\": \"$escaped_clean\"," "$CLEAN_FILE"
-fi
+# Verwijder oude entry als die bestaat en voeg nieuwe toe
+temp_file=$(mktemp)
+awk -v key="$FILE" -v value="$escaped_clean" '
+  BEGIN { found = 0 }
+  $0 ~ "^  \"" key "\":" { 
+    print "  \"" key "\": \"" value "\",";
+    found = 1;
+    next 
+  }
+  { print }
+  END {
+    if (found == 0) {
+      # Voeg toe voor de laatste }
+      while (getline < "'"$CLEAN_FILE"'") {
+        if ($0 ~ /^\};$/) {
+          print "  \"" key "\": \"" value "\",";
+        }
+        print
+      }
+    }
+  }
+' "$CLEAN_FILE" > "$temp_file" 2>/dev/null || cp "$CLEAN_FILE" "$temp_file"
 
+# Veilig overschrijven
+mv "$temp_file" "$CLEAN_FILE"
+
+echo "=== DEBUG: Added/updated clean text for $FILE in official-clean-texts.js ===" >&2
 # ==================== DEBUG + OUTPUT ====================
 echo "=== DEBUG: Raw body length = ${#raw_body} ===" >&2
 echo "=== DEBUG: Cleaned length = ${#fuzzy_body} ===" >&2
