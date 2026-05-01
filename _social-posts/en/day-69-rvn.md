@@ -6,11 +6,11 @@ rvn_title: "Why a Hash is More Important Than You Think"
 rvn_teaser: "A hash is not just a tech thing. It is a weapon against systematic lying and distortion."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "28bd6688ba736b6ebc73c4f286bea2761189ca9492f5caae33a7dd15e3f60979"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "fa3471e9ad3722996eba10db32c3b7e2b2bb2b1d"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/fa3471e9ad3722996eba10db32c3b7e2b2bb2b1d"
+git_commit_date: "2026-05-01T16:55:33+02:00"
 ---
 
 
