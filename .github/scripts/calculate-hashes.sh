@@ -78,56 +78,12 @@ print(fuzzy_clean(text), end="")
 fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk "{print \$1}")
 
 # ==================== UPDATE official-clean-texts.js ====================
-CLEAN_FILE="static/js/official-clean-texts.js"
+python3 tools/update-clean-texts.py "$FILE" "$fuzzy_body"
 
-# Zorg dat map en bestand bestaan
-mkdir -p static/js
-
-if [ ! -f "$CLEAN_FILE" ]; then
-  cat > "$CLEAN_FILE" << 'EOF'
-// ==================== OFFICIAL CLEAN TEXTS ====================
-// Gegenereerd op: $(date)
-
-window.officialCleanTexts = {
-};
-EOF
-fi
-
-# Escape voor veilige JS string
-escaped_clean=$(echo "$fuzzy_body" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
-
-# Verwijder oude entry als die bestaat en voeg nieuwe toe
-temp_file=$(mktemp)
-awk -v key="$FILE" -v value="$escaped_clean" '
-  BEGIN { found = 0 }
-  $0 ~ "^  \"" key "\":" { 
-    print "  \"" key "\": \"" value "\",";
-    found = 1;
-    next 
-  }
-  { print }
-  END {
-    if (found == 0) {
-      # Voeg toe voor de laatste }
-      while (getline < "'"$CLEAN_FILE"'") {
-        if ($0 ~ /^\};$/) {
-          print "  \"" key "\": \"" value "\",";
-        }
-        print
-      }
-    }
-  }
-' "$CLEAN_FILE" > "$temp_file" 2>/dev/null || cp "$CLEAN_FILE" "$temp_file"
-
-# Veilig overschrijven
-mv "$temp_file" "$CLEAN_FILE"
-
-echo "=== DEBUG: Added/updated clean text for $FILE in official-clean-texts.js ===" >&2
 # ==================== DEBUG + OUTPUT ====================
 echo "=== DEBUG: Raw body length = ${#raw_body} ===" >&2
 echo "=== DEBUG: Cleaned length = ${#fuzzy_body} ===" >&2
 echo "=== DEBUG: fuzzy_sha256 = $fuzzy_sha256 ===" >&2
-echo "=== DEBUG: Added/updated clean text for $FILE in official-clean-texts.js ===" >&2
 
 commit_hash=$(git rev-parse HEAD 2>/dev/null || echo "unknown")
 commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
