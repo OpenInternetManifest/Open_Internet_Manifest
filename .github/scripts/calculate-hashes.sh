@@ -1,5 +1,5 @@
 #!/bin/bash
-# calculate-hashes.sh - FIXED body extraction (now includes everything after frontmatter)
+# calculate-hashes.sh - Fuzzy + automatic official-clean-texts.js update
 
 FILE="$1"
 
@@ -12,18 +12,13 @@ fi
 raw_body=$(awk '
   BEGIN { in_body = 0 }
   /^---$/ {
-    if (in_body == 0) {
-      in_body = 1;   # first --- → start counting
-      next;
-    } else {
-      in_body = 2;   # second --- → start printing body
-      next;
-    }
+    if (in_body == 0) { in_body = 1; next }
+    else { in_body = 2; next }
   }
   in_body == 2 { print }
 ' "$FILE")
 
-# Ultimate fallback (meest robuust)
+# Fallback
 if [ ${#raw_body} -lt 500 ]; then
   raw_body=$(sed -n '/^---$/,/^---$/!p' "$FILE" | sed '/^---$/d')
 fi
@@ -37,11 +32,9 @@ import unicodedata
 text = sys.stdin.read()
 
 def fuzzy_clean(t):
-    if not t:
-        return ""
+    if not t: return ""
     t = unicodedata.normalize("NFKC", t)
     
-    # Emoji remove
     emoji_pattern = re.compile("[" 
         "\U0001F600-\U0001F64F"  
         "\U0001F300-\U0001F5FF"  
@@ -54,7 +47,6 @@ def fuzzy_clean(t):
         "]+", flags=re.UNICODE)
     t = emoji_pattern.sub("", t)
     
-    # Markdown
     t = re.sub(r"\*\*(.*?)\*\*", r"\1", t, flags=re.DOTALL)
     t = re.sub(r"__(.*?)__", r"\1", t, flags=re.DOTALL)
     t = re.sub(r"\*(.*?)\*", r"\1", t, flags=re.DOTALL)
@@ -68,7 +60,6 @@ def fuzzy_clean(t):
     t = re.sub(r"!\[.*?\]\(.*?\)", "", t)
     t = re.sub(r"`([^`]+)`", r"\1", t)
     t = re.sub(r"^-{3,}\s*$", " ", t, flags=re.MULTILINE)
-    
     t = re.sub(r"<[^>]+>", "", t)
     
     title_colons = r"(narratief|realiteit|hoe werkt het|hoe zien we dit|de grote verbinding|de oim-boodschap|traumabinding|cognitive dissonance|identificatie|overheid en burgers|social media|relaties en sekten|politiek|dank dat je|lees zelf|check zelf|weiger mee te spelen|schokkends|en vooral)"
@@ -81,24 +72,42 @@ def fuzzy_clean(t):
     t = re.sub(r"\s+", " ", t).strip().lower()
     return t
 
-cleaned = fuzzy_clean(text)
-print(cleaned, end="")
+print(fuzzy_clean(text), end="")
 ' <<< "$raw_body")
 
 fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk "{print \$1}")
 
-# ==================== DEBUG ====================
-echo "=== DEBUG: Raw body length = ${#raw_body} ===" >&2
-echo "=== DEBUG: First 700 chars RAW ===" >&2
-echo "${raw_body:0:700}..." >&2
-echo "" >&2
-echo "=== DEBUG: Cleaned length = ${#fuzzy_body} ===" >&2
-echo "=== DEBUG: First 800 chars CLEANED ===" >&2
-echo "${fuzzy_body:0:800}..." >&2
-echo "=== DEBUG: fuzzy_sha256 = $fuzzy_sha256 ===" >&2
-echo "" >&2
+# ==================== UPDATE official-clean-texts.js ====================
+CLEAN_FILE="static/js/official-clean-texts.js"
 
-# ==================== FINAL OUTPUT ====================
+# Zorg dat het bestand bestaat
+if [ ! -f "$CLEAN_FILE" ]; then
+  mkdir -p static/js
+  echo "// ==================== OFFICIAL CLEAN TEXTS ====================" > "$CLEAN_FILE"
+  echo "// Gegenereerd op: $(date)" >> "$CLEAN_FILE"
+  echo "" >> "$CLEAN_FILE"
+  echo "window.officialCleanTexts = {" >> "$CLEAN_FILE"
+  echo "};" >> "$CLEAN_FILE"
+fi
+
+# Escape voor JS
+escaped_clean=$(echo "$fuzzy_body" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+
+# Vervang of voeg toe
+if grep -q "\"$FILE\":" "$CLEAN_FILE"; then
+  # Update bestaande entry
+  sed -i "/\"$FILE\":/c\  \"$FILE\": \"$escaped_clean\"," "$CLEAN_FILE"
+else
+  # Voeg nieuwe entry toe (voor de laatste } )
+  sed -i "/^};$/i\  \"$FILE\": \"$escaped_clean\"," "$CLEAN_FILE"
+fi
+
+# ==================== DEBUG + OUTPUT ====================
+echo "=== DEBUG: Raw body length = ${#raw_body} ===" >&2
+echo "=== DEBUG: Cleaned length = ${#fuzzy_body} ===" >&2
+echo "=== DEBUG: fuzzy_sha256 = $fuzzy_sha256 ===" >&2
+echo "=== DEBUG: Added/updated clean text for $FILE in official-clean-texts.js ===" >&2
+
 commit_hash=$(git rev-parse HEAD 2>/dev/null || echo "unknown")
 commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
 commit_date=$(git log -1 --format=%cI 2>/dev/null || echo "unknown")
