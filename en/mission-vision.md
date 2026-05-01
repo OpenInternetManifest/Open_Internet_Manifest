@@ -34,45 +34,68 @@ The current system concentrates power in fewer and fewer hands: Big Tech, govern
 It sows division (narrative of narratives), steals attention, and makes us dependent.  
 But dependency is not inevitable – it’s a choice. And we choose differently.
 
-## A Digital Constitution – within national borders, but rising above them ⚖️🌐
+### A Digital Constitution  
+**Within the borders of the country, but rising above them** ⚖️🌐
 
-We, free individuals and communities, recognize that the digital realm is a new space where traditional fundamental rights must be reaffirmed and expanded. Within the physical borders of our nation-states, we build a parallel digital order based on sovereignty, mathematics, and voluntariness.
+We, free individuals and communities, recognize that the digital domain is a new space where traditional fundamental rights must be reaffirmed and expanded.
 
-This is not a call to break laws. It is a call to build a parallel, sovereign digital ecosystem within those laws – a **digital constitution** for people who choose to live this way.
+Within the physical borders of our nation-states, we are building a **parallel digital order** based on sovereignty, mathematics, and voluntariness.
 
-**Article 1: Sovereignty over own data & AI**  
-Every human (and every AI) has the inalienable right to full control over their own data, attention, digital identity, and AI systems.  
-- No mandatory cloud AI or central models that monitor, predict, or censor behavior.  
-- Own models (local on node) or open-source models with full transparency (weights, training data, prompts).  
-- Right to explanation: every AI decision must be traceable, revocable, and controllable.  
-- AI may not push narratives without explicit user consent.
+This is not a call to break the law.  
+It is a voluntary pact to claim **maximum autonomy within existing laws**.
 
-**Article 2: No gatekeepers**  
-Access to information, communication, and storage must not depend on central platforms, app stores, or identity services. Own nodes, peer-to-peer protocols, and cryptographic verification are the standard.
+---
 
-**Article 3: Freedom of expression without interference**  
-Words, images, and code may be shared freely as long as they comply with national laws. No de-platforming, shadowbans, or algorithmic censorship.
+**Article 1 – Sovereignty over own data and AI**  
+Every human being has the inalienable right to full control over their own data, attention, digital identity, and AI systems.
 
-**Article 4: Decentralization as duty**  
-Dependence on a single provider is a risk. Every household strives for its own infrastructure (node, backups, mesh communication) as the basis for digital autonomy.
+- No mandatory cloud-AI or central models that monitor, predict, or censor behavior.  
+- Right to local, open-source models with full transparency (weights, training data, prompts).  
+- Right to explanation: every AI decision must be traceable, revocable, and controllable.
 
-**Article 5: Transparency and verification**  
-All claims, documents, and updates must be cryptographically verifiable. Trust comes from mathematics, not authority.
+**Article 2 – No gatekeepers**  
+Access to information, communication, and storage must not be dependent on central platforms, app stores, or identity services.  
+Own nodes, peer-to-peer protocols, and cryptographic verification are the standard.
 
-**Article 6: Voluntary pact & exit right**  
-Participation is voluntary. Anyone may exit at any time without loss of basic rights (data export, no lock-in). Small communities may make their own sub-rules as long as they stay within national laws.
+**Article 3 – Freedom of expression**  
+Words, images, and code may be shared freely as long as they remain within national laws.  
+No de-platforming, shadowbans, or algorithmic censorship.
 
-**Article 7: Decentralized dispute resolution**  
-Conflicts are resolved through cryptographically verifiable agreements or community arbitration – no appeal to state or Big Tech for digital disputes.
+**Article 4 – Decentralization as a duty**  
+Dependence on a single provider is a risk.  
+Every household strives for its own infrastructure (node, backups, mesh communication) as the foundation for digital autonomy.
 
-This pact is similar to cooperatives or religious communities within a country: within the law, but with own rules.  
-Practical example: you run your own Umbrel node → within Dutch law, but your data is not with Google/Apple. You communicate via Matrix → encrypted, decentralized, no central server watching.
+**Article 5 – Transparency and verification**  
+All claims, documents, and updates must be cryptographically verifiable.  
+Trust comes from mathematics, not from authority.
 
-This is the next step: from manifesto to **constitutional practice**.  
-Not waiting for The Hague or Brussels. Build ourselves, govern ourselves – within borders, but rising above them.
+**Article 6 – Voluntary pact & exit right**  
+Participation is voluntary. Everyone may exit at any time without loss of basic rights (data export, no lock-in).  
+Small communities may create their own sub-rules, as long as they remain within national laws.
 
-Who signs on?  
-(Figuratively – by setting up your own node and linking to this manifesto.)
+**Article 7 – Decentralized dispute resolution**  
+Conflicts are preferably resolved through cryptographically verifiable agreements or community arbitration — no appeal to the state or Big Tech for digital disputes.
+
+---
+
+This pact is comparable to cooperatives, religious communities, or local self-governance: **within the law, but with its own rules**.
+
+**Practical example:**  
+You run your own node with Umbrel → within Dutch law, but your data is not with Google or Apple.  
+You communicate via Matrix → encrypted, decentralized, no central server watching.
+
+---
+
+**This is the next step:**  
+From manifesto to constitutional practice.  
+
+Not waiting for The Hague or Brussels.  
+Building ourselves. Governing ourselves.  
+
+**Within the borders of the country — but rising above them.**
+
+Who signs along?  
+(By setting up your own node and linking it to this pact.)
 
 — Ruben Berkhout  
-February 2026
+May 2026
