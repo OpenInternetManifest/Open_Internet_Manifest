@@ -1,0 +1,213 @@
+
+  .nexus-quick-post-container {
+    max-width: var(--content-max-width, 1200px);
+    margin: 2em auto;
+    padding: 2.5em;
+    background: #f8fafc;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+  }
+
+  .quick-post-header {
+    text-align: center;
+    margin-bottom: 2.5em;
+    padding-bottom: 1.8em;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .quick-post-header h1 {
+    font-size: 2.4em;
+    background: linear-gradient(90deg, #1e40af, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 0.4em 0;
+  }
+
+  .quick-post-header .subtitle {
+    color: #475569;
+    font-size: 1.15em;
+    margin: 0;
+  }
+
+  .powered-by {
+    margin-top: 1em;
+    font-size: 0.95em;
+    color: #64748b;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .editor-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+
+  @media (max-width: 900px) {
+    .editor-split {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .editor-panel, .preview-panel {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+
+  .toolbar {
+    background: #f1f5f9;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .toolbar button {
+    padding: 0.6em 1em;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.2s;
+  }
+
+  .toolbar button:hover {
+    background: #e0f2fe;
+    border-color: #22d3ee;
+    transform: translateY(-1px);
+  }
+
+  #post-input {
+    width: 100%;
+    min-height: 420px;
+    padding: 1.4em;
+    border: none;
+    font-size: 1.08em;
+    line-height: 1.65;
+    resize: vertical;
+    font-family: inherit;
+  }
+
+  #post-input:focus {
+    outline: none;
+    background: #f8fafc;
+  }
+
+  .facebook-preview-box {
+    padding: 1.4em;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    min-height: 420px;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  .actions-bar {
+    display: flex;
+    gap: 1.2em;
+    justify-content: center;
+    margin: 2.5em 0 1em 0;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 1.1em 2.2em;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary {
+    background: linear-gradient(90deg, #1e40af, #22d3ee);
+    color: white;
+    border: none;
+  }
+
+  .btn-secondary {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(34, 211, 238, 0.35);
+  }
+
+  .result-area {
+    background: #f0fdf4;
+    border: 1px solid #86efac;
+    border-radius: 12px;
+    padding: 1.8em;
+    margin-top: 1.5em;
+    font-family: monospace;
+    white-space: pre-wrap;
+    display: none;
+  }
+.facebook-preview-box {
+  padding: 1.4em;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  min-height: 420px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.04);
+  overflow-y: auto;
+}
+
+/* Force headings */
+.facebook-preview-box h1, 
+.facebook-preview-box h2, 
+.facebook-preview-box h3, 
+.facebook-preview-box h4 {
+  color: #1e40af !important;
+  margin: 1.2em 0 0.6em 0 !important;
+}
+
+.facebook-preview-box h3 {
+  border-bottom: 2px solid #22d3ee !important;
+}
+
+.facebook-preview-box h4 {
+  border-bottom: 1px solid #94a3b8 !important;
+}
+
+/* Table */
+.facebook-preview-box table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin: 1em 0 !important;
+}
+
+.facebook-preview-box th, 
+.facebook-preview-box td {
+  border: 1px solid #94a3b8 !important;
+  padding: 8px 12px !important;
+  text-align: left !important;
+}
+
+.facebook-preview-box th {
+  background: #e0f2fe !important;
+  font-weight: 600 !important;
+}
+
+/* Quote */
+.facebook-preview-box blockquote {
+  border-left: 4px solid #22d3ee !important;
+  padding-left: 1em !important;
+  color: #334155 !important;
+  font-style: italic !important;
+  margin: 1em 0 !important;
+}
+
+/* Horizontal line */
+.facebook-preview-box hr {
+  border: none !important;
+  border-top: 1px solid #cbd5e1 !important;
+  margin: 1.5em 0 !important;
+}

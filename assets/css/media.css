@@ -22,6 +22,12 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));  /* 2-3 kolommen */
   }
 }
+@media (max-width: 900px) {
+    .editor-split {
+      grid-template-columns: 1fr;
+    }
+  }
+
 
 @media (max-width: 600px) {
    .guides-grid,
@@ -30,7 +36,7 @@
     grid-template-columns: 1fr;  /* 1 kolom op mobile */
   }
 }
-
+ 
 /* ==========================================================================
    MEDIA.CSS – Alle responsive aanpassingen, gesorteerd op breakpoint
    ========================================================================== */
