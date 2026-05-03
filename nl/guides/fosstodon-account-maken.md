@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 3
 title: "Account maken op Fosstodon (tech- en open-source community)"

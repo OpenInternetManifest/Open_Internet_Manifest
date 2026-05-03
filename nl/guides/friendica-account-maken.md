@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 5
 title: "Je eerste Friendica-account maken"

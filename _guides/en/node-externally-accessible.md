@@ -1,112 +1,72 @@
 ---
-layout: default
+layout: guides
 lang: en
-order: 10
-title: "Make Your Node Externally Accessible"
-difficulty: advanced      # of: Intermediate  / Advanced
-teaser: "Access you're node securely from the internet, no port forwarding, multiple methods from beginner to advanced"
-slug: node-externally-accessible
+order: 9
+title: "Make your node accessible from outside"
+difficulty: advanced
+teaser: "Your Umbrel node is now only accessible locally. How do you reach it safely from anywhere in the world? From simple to advanced."
+slug: node-remote-access
 ---
 
-# Make Your Node Externally Accessible – Choose the Method That Suits You
+# Make your node accessible from outside
 
-Your Umbrel node is now running locally (http://umbrel.local), but how do you access it securely from your phone or laptop when you're away from home? There are several ways, from super simple to advanced. We recommend starting with the easiest one.
+Your Umbrel node now only runs locally (`http://umbrel.local`). How do you reach it safely from your phone or laptop when you're not at home?
 
-### Which Method Should You Choose?
+Below are the best methods, from simple to advanced.
 
-| Method                           | Difficulty | Speed   | Privacy/Security | When to Choose?                              | Setup Time     | Platform Notes                        |
-|----------------------------------|------------|---------|------------------|----------------------------------------------|----------------|---------------------------------------|
-| **Tor Onion** (recommended start) | ★☆☆☆☆     | Slow    | Maximum          | Maximum privacy, no extra account            | 2 minutes      | Android good, iPhone slow (Orbot)    |
-| **Tailscale HTTP**               | ★★☆☆☆     | Fast    | High (WireGuard) | Daily use, file sync from phone              | 5-10 minutes   | Works on all devices                  |
-| **Tailscale HTTPS**              | ★★★★☆     | Fast    | Very high        | Green padlock, apps requiring HTTPS          | 15-30 minutes  | Requires terminal (see advanced)      |
-| Other (Zerotier, Headscale, etc.)| ★★★★★     | Variable| High             | No Tailscale account                         | 30+ minutes    | For hardcore decentralists            |
+### Overview of methods
 
-**Why start with Tor?** No hassle with accounts or opening ports.  
-**Why upgrade to Tailscale?** Much faster for Nextcloud sync, photo uploads, etc.
+| Method                   | Difficulty   | Speed        | Privacy / Security    | Best for                                | Setup time          |
+|--------------------------|--------------|--------------|-----------------------|-----------------------------------------|---------------------|
+| **Tor Onion** (start)    | ★☆☆☆☆       | Slow         | Maximum               | Maximum privacy, no account             | 2 minutes           |
+| **Tailscale HTTP**       | ★★☆☆☆       | Fast         | High (WireGuard)      | Daily use, Nextcloud sync               | 5–10 minutes        |
+| **Tailscale HTTPS**      | ★★★★☆       | Fast         | Very high             | Apps that require HTTPS, green padlock  | 15–30 minutes       |
 
-### Option 1: Tor Onion – The Easiest & Most Private Way
+**Recommendation:** Start with **Tor**. Upgrade to Tailscale when you want speed and convenience.
 
-**Why choose this?**  
-No extra installations, no account, no ports open → maximum privacy. Works everywhere (behind CG-NAT, carrier NAT).
+### Option 1: Tor Onion – easiest & most private method
 
-**Drawbacks:** Slow for large files (photos, videos).
+**Why Tor?**  
+No account, no port forwarding, works everywhere.
 
 **Steps (2 minutes):**
+1. Open Umbrel dashboard (`http://umbrel.local`)
+2. Go to **Settings → Advanced Settings → Remote Access**
+3. Enable **Tor**
+4. Copy the generated `.onion` link
 
-1. Open Umbrel dashboard (http://umbrel.local).
-2. Go to **Settings** → **Advanced Settings** → **Remote Access**.
-3. Enable **Via Tor**.
-4. Umbrel generates an .onion link (e.g., http://long-string.onion).
-5. Copy the link and store it securely.
+**Access:**
+- **Android:** Tor Browser
+- **iPhone:** Onion Browser or Orbot
+- **Laptop:** Tor Browser (torproject.org)
 
-**Access from your device:**
+Nextcloud: `http://your-onion-link/nextcloud` (in Tor Browser).
 
-- **Android:** Install Tor Browser (Play Store) → paste .onion link → dashboard opens.
-- **iPhone:** Install Onion Browser or Orbot (App Store). **Note:** Orbot often loads slowly or is unstable on iOS. Try Onion Browser as alternative.
-- **Laptop/PC:** Download Tor Browser (torproject.org) → paste link.
-
-For Nextcloud: http://[your-onion]/nextcloud (use Tor Browser).  
-For mobile Nextcloud app: Tor not directly supported → use web version in Tor Browser.
-
-**Screenshot:**  [Umbrel: Remote Access → Tor toggle + .onion link]
-
-**Tip:** Bookmark the .onion link in Tor Browser. Test on laptop first if it feels slow on phone.
-
-### Option 2: Tailscale HTTP – Faster for Daily Use (No Terminal Required)
-
-**Why?**  
-Fast (WireGuard), nice link (umbrel.your-tailnet.ts.net), secure end-to-end encrypted. No ports open.
+### Option 2: Tailscale HTTP – fast for daily use
 
 **Steps:**
+1. Umbrel App Store → search **Tailscale** → install
+2. Open Tailscale → log in with Google/Apple/GitHub
+3. Enable Tailscale on your node
+4. Install Tailscale on your phone/laptop and log in with the same account
+5. Copy the **Magic DNS name** (e.g. `umbrel.abcdef123.ts.net`)
+6. Open in browser: `http://umbrel.abcdef123.ts.net`
 
-1. Umbrel App Store → search “Tailscale” → Install.
-2. Open Tailscale app → Authenticate → log in with Google/Apple/GitHub (free account).
-3. Toggle VPN on.
-4. On phone/laptop: login.tailscale.com → log in with same account → see your “umbrel” node.
-5. Click the node → copy **Magic DNS name** (e.g., umbrel.tail12345c.ts.net).
-6. Open browser → **http://"serverName".tail2345c.ts.net** (without https!).
-7. Dashboard loads → Nextcloud at http://.../nextcloud.
+Nextcloud: `http://umbrel.abcdef123.ts.net/nextcloud`
 
-**Mobile:**
-- Install Tailscale app (iOS/Android) → login → auto-connect.
-- Nextcloud app: server = http://"serverName.tail12345c.ts.net/nextcloud.
-
-**Screenshot:** [Tailscale admin → Magic DNS name]
-
-**Warning:** Some apps require HTTPS → choose Option 3 or stick with Tor.
-
-### Option 3: Tailscale HTTPS – Advanced (Green Padlock)
-
-**Warning:** This requires terminal commands. Not for beginners. HTTP is often sufficient (secure via Tailscale).
+### Option 3: Tailscale HTTPS – green padlock (advanced)
 
 **Steps:**
+1. Install Tailscale (see Option 2)
+2. In Umbrel Terminal: `tailscale serve 8080` (or correct port)
+3. Configure trusted domains in Nextcloud via occ commands (see below)
 
-1. Umbrel App Store → install & authenticate Tailscale (as in Option 2).
-2. Settings → Advanced → Terminal → select App: Tailscale.
-3. Run: `tailscale serve 8080` (or 8081 if Umbrel uses 8081 – check with netstat in main terminal).
-4. Check: `tailscale serve status` → see proxy to 127.0.0.1:8080.
-5. Test: https://umbrel.tail63975b.ts.net (should now load with green padlock).
+**Common errors & fixes:**
+- "Access through untrusted domain" → add domain with:  
+  `sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set trusted_domains 1 --value="umbrel.abcdef123.ts.net"`  
+  `sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwriteprotocol --value="https"`  
+  `sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwrite.cli.url --value="https://umbrel.abcdef123.ts.net/nextcloud"`
 
-**Make persistent (optional):** Run in screen or create startup script via Portainer.
+- Restart container: `sudo docker restart nextcloud_web_1`
 
-**Common Mistakes & Fixes:**
-- Permission denied on docker? Use sudo: `sudo docker ps | grep nextcloud` → container name is often nextcloud_web_1.
-- “Access through untrusted domain”? Fix trusted_domains:
-
-  1. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set trusted_domains 1 --value="umbrel'name server'.tail12345c.ts.net"
-  2. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwriteprotocol --value="https"
-  3. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwrite.cli.url --value="https://'name server.tai12345c.ts.net/nextcloud"
-  4. sudo docker restart nextcloud_web_1
-
-  - Wrong entries in trusted_domains (e.g., with :8081 or duplicate ts.net)? Delete:
-
-  sudo docker exec --user www-data nextcloud_web_1 php occ config:system:delete trusted_domains [index]
-
-Check with `... get trusted_domains`.
-
-**Screenshot:** [tailscale serve status, trusted_domains list, mobile login screen]
-
-Once this works → continue to the next guide: Practical Applications (Nextcloud sync, wallets, Immich) and Redundancy (Syncthing mirror).
-
----
-
+Your node is now accessible from anywhere. Next step: practical applications (Nextcloud sync, Immich, wallets) and redundancy.

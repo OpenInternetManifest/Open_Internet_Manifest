@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 9
 title: " Node van buitenaf bereikbaar maken – kies de methode die bij jou past"

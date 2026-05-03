@@ -1,95 +1,70 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 11
-title: "Je eigen sovereign node draaien (Raspberry Pi + Umbrel)"
-difficulty: gemiddeld      # of: gemiddeld / gevorderd
-teaser: "Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou."
-slug: raspberry-pi-node
+title: "Je eigen sovereign node draaien"
+difficulty: gemiddeld
+teaser: "Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Lightning, Nostr, Nextcloud, foto-backup — alles thuis en volledig van jou."
+slug: sovereign-node
 ---
-# Guide – Je eigen sovereign node draaien (Raspberry Pi + Umbrel)
 
-Dit is dé manier om je eigen stukje internet te bezitten: Bitcoin-node, Nostr-relay, Nextcloud, foto-backup, alles thuis, alles van jou.
+# Je eigen sovereign node draaien
 
-**Totale eenmalige kosten:** € 180 – € 280  
-**Maandkosten:** ± € 3 (stroom)
+Dit is een van de krachtigste stappen die je kunt zetten: je eigen **sovereign node** thuis draaien. Een complete, onafhankelijke server onder jouw controle.
 
-### Wat je nodig hebt (vergelijk prijzen via Tweakers – opent in nieuw tabblad)
+### Hardware-keuze (2026)
+
+- **Raspberry Pi 5 (8 GB)** → Beste keuze voor beginners. Laag verbruik, stil, goedkoop.
+- **Refurbished Mini-PC (i5/i7)** → Vaak dezelfde prijs als een Pi, maar krachtiger en stiller. Goed als je geen AI wilt draaien.
+- **Krachtige Mini-PC (Ryzen 7 8845HS of hoger, 32 GB RAM)** → Aanbevolen als je later een **eigen AI-model** (LLM) lokaal wilt draaien.
+
+We focussen in deze guide op de **Raspberry Pi 5**, omdat die het meest toegankelijk is. Voor Mini-PC setups komt een aparte, uitgebreide guide.
+
+**Totale eenmalige kosten (Pi-setup):** € 180 – € 280  
+**Maandkosten:** ± € 3 (elektriciteit)
+
+### Wat je nodig hebt (Pi-setup)
+
 <details>
-<summary>Ik weet niet wat ik moet kopen → klik hier</summary>
+<summary>Hardware-aanbevelingen + prijsvergelijking (Tweakers)</summary>
 
-- **Raspberry Pi 5 (8 GB)** → <a href="https://tweakers.net/pricewatch/1986384/raspberry-pi-5-8gb-ram.html" target="_blank">Vergelijk prijzen op Tweakers (€99,99 bij 46 winkels)</a>  
-- **Of goedkoper: Raspberry Pi 4 (8 GB)** → <a href="https://tweakers.net/pricewatch/1562568/raspberry-pi-4-model-b-8gb-ram.html" target="_blank">Vergelijk prijzen op Tweakers (€89 bij 15 winkels)</a>  
-- **Micro-SD-kaart 128 GB** → <a href="https://tweakers.net/pricewatch/450844/samsung-evo-plus-128gb-microsdxc-card-sd-adapter.html" target="_blank">Vergelijk prijzen op Tweakers (€12,50 bij 55 winkels)</a>  
-- **Externe SSD 1 TB (aanrader!)** → <a href="https://tweakers.net/pricewatch/1807446/samsung-portable-ssd-t7-shield-1tb-zwart.html" target="_blank">Vergelijk prijzen op Tweakers (€137 bij 24 winkels)</a>  
-- **Voeding + ethernetkabel** zitten meestal bij de starter-kit
+- **Raspberry Pi 5 (8 GB)** → [Prijsvergelijking Tweakers](https://tweakers.net/pricewatch/1986384/raspberry-pi-5-8gb-ram.html)
+- **Micro-SD-kaart 128 GB** → [Prijsvergelijking Tweakers](https://tweakers.net/pricewatch/450844/samsung-evo-plus-128gb-microsdxc-card-sd-adapter.html)
+- **Externe SSD 1 TB** (sterk aanbevolen) → [Prijsvergelijking Tweakers](https://tweakers.net/pricewatch/1807446/samsung-portable-ssd-t7-shield-1tb-zwart.html)
+- Voeding + ethernetkabel
+
 </details>
 
-### Stap 1 – Umbrel downloaden
-<details>
-<summary>Ik weet niet waar ik Umbrel vind</summary>
-Ga naar <a href="https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5#installing-umbrelos-on-the-nvme-or-usb-drive" target="_blank">umbrel</a> → Kies voor de juiste versie voor jouw Pi4, Pi5 of AMD64".
-</details>
+### Stap 1 – UmbrelOS downloaden
+
+Ga naar de [Umbrel installatiepagina](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5) en kies de juiste versie voor jouw Pi.
 
 ### Stap 2 – Image flashen met Balena Etcher
-<details>
-<summary>Ik heb nog nooit iets geflasht</summary>
 
-1. Download Balena Etcher: <a href="https://etcher.balena.io" target="_blank">etcher.balena.io</a>  
-2. Start Etcher  
-3. Klik "Flash from file" → kies het gedownloade umbrel-bestand  
-4. Klik "Select target" → kies je SD-kaart  
-5. Klik "Flash!" → koffie halen (5-10 minuten)  
-6. Etcher zegt "Flash Complete" → klaar!
-</details>
+1. Download [Balena Etcher](https://etcher.balena.io)
+2. Selecteer het UmbrelOS-bestand
+3. Selecteer je SD-kaart
+4. Klik op **Flash!**
 
-### Stap 3 – Alles aansluiten
-<details>
-<summary>Hoe sluit ik de Pi aan?</summary>
+### Stap 3 – Hardware aansluiten
 
-1. SD-kaart in de Pi stoppen  
-2. SSD via USB aansluiten (als je die hebt)  
-3. Ethernetkabel in je router  
-4. Voeding erin → Pi gaat vanzelf aan (lampjes gaan knipperen)
-</details>
+1. SD-kaart in de Pi
+2. SSD via USB aansluiten (als je die hebt)
+3. Ethernetkabel in je router
+4. Voeding aansluiten → Pi start automatisch op
 
 ### Stap 4 – Umbrel opstarten
-<details>
-<summary>Hoe kom ik bij mijn Umbrel?</summary>
 
-Open je browser en typ:  
-http://umbrel.local  
-
-(of zoek in je router-app naar een apparaat "umbrel")
-</details>
+Open in je browser: **http://umbrel.local**
 
 ### Stap 5 – Eerste setup
-Wachtwoord kiezen → klaar!  
-Je hebt nu thuis:
-- Bitcoin + Lightning node  
-- Nostr relay  
-- Nextcloud (je eigen Dropbox)  
-- PhotoPrism (je eigen Google Photos)  
-- Mastodon-server (optioneel)  
-- 40+ apps met één klik
 
-### Wat als het niet werkt?
-<details>
-<summary>Ik zie geen umbrel.local</summary>
+Kies een sterk wachtwoord → je node is live!
 
-- Probeer http://[IP-adres van de Pi] (staat in je router)  
-- Of sluit een scherm + toetsenbord aan en log in met gebruiker "umbrel", wachtwoord "moneyprintergobrrr"
-</details>
+Je hebt nu direct toegang tot:
+- Bitcoin + Lightning node
+- Nostr relay
+- Nextcloud (eigen cloud)
+- PhotoPrism (eigen Google Photos)
+- Veel andere apps met één klik
 
-Kosten per maand: ± € 3 elektriciteit  
-Veiligheid: jij hebt de enige sleutel  
-Niemand kan je ooit nog deactiveren
-
----
-
-### Disclaimer
-Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
-Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
-Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
-
----

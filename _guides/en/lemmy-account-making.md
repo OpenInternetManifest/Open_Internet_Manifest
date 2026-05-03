@@ -1,70 +1,55 @@
 ---
-layout: default
+layout: guides
 lang: en
-order: 7
+order: 6
 title: "Create your first Lemmy account"
-difficulty: beginner      # of: Intermediate  / Advanced
-teaser: "Lemmy is the decentralized alternative to Reddit: forums (sublemmies), communities, and discussions — without a central owner or algorithm controlling your feed."
+difficulty: beginner
+teaser: "Lemmy is the decentralized Reddit alternative: communities and discussions without a central owner or algorithm."
 slug: lemmy-account-making
 ---
-# Guide – Create your first Lemmy account (Reddit alternative)
 
-Lemmy is the decentralized alternative to Reddit: forums (sublemmies), communities, and discussions — without a central owner or algorithm controlling your feed.
+# Create your first Lemmy account
+
+Lemmy is the decentralized alternative to Reddit: forums (sublemmies), communities and discussions — without a central owner or algorithm controlling your feed.
 
 **Time:** 10–20 minutes  
 **Cost:** €0
 
-### Step 1 – Choose a server (instance)
-<details markdown="1">
-<summary>I don't know which server to choose → click here</summary>
+### Step 1 – Choose an instance (server)
 
 Good starters:
-- <a href="https://lemmy.ml" target="_blank">lemmy.ml</a> – large general community
-- <a href="https://beehaw.org" target="_blank">beehaw.org</a> – friendly, moderated, focus on positive discussions
-- <a href="https://lemmy.world" target="_blank">lemmy.world</a> – largest instance, many communities
+- [lemmy.ml](https://lemmy.ml) – large general community
+- [beehaw.org](https://beehaw.org) – friendly, well-moderated, positive vibe
+- [lemmy.world](https://lemmy.world) – very large, lots of communities
 
-Or find an instance on <a href="https://join-lemmy.org/instances" target="_blank">join-lemmy.org/instances</a> (filter by language, size, or topic).
-</details>
+Or browse instances at [join-lemmy.org/instances](https://join-lemmy.org/instances).
 
 ### Step 2 – Create an account
-<details markdown="1">
-<summary>Step-by-step</summary>
 
-1. Go to the website of your chosen server (e.g. lemmy.world)
-2. Click “Sign Up” or “Register”
-3. Fill in username, email (optional on some instances), and password
-4. Answer the registration question (to prevent bots)
-5. Verify your email (if required) → done!
-</details>
+1. Go to your chosen instance
+2. Click **Sign Up** or **Register**
+3. Enter a username, email (sometimes optional) and strong password
+4. Answer any registration question (anti-bot measure)
+5. Verify your email if required → done!
 
 ### Step 3 – Set up your profile
-<details markdown="1">
-<summary>Make it recognizable</summary>
 
-- Use the same profile picture and bio as on Reddit
-- Add your old Reddit handle in your bio (e.g. “Previously u/yourname on Reddit”)
-- Pin a post: “Hello Lemmy! I’ve moved from Reddit.”
-</details>
+- Use a recognizable profile picture and bio
+- Mention your old Reddit username (e.g. “Formerly u/yourname on Reddit”)
+- Pin a welcome post: “Hello Lemmy! I switched from Reddit.”
 
-### Step 4 – Find and join communities
-<details markdown="1">
-<summary>How do I find my old subreddits?</summary>
+### Step 4 – Find and follow communities
 
-- Search for the subreddit name (e.g. r/technology → !technology@lemmy.world)
-- Or use <a href="https://sub.rehab" target="_blank">sub.rehab</a> – list of Lemmy alternatives for popular subreddits
-- Subscribe to communities across instances
-</details>
+- Search for your old subreddits (e.g. `!technology@lemmy.world`)
+- Use [sub.rehab](https://sub.rehab) for a list of Reddit → Lemmy alternatives
+- Subscribe to communities across different instances
 
 ### Step 5 – Make your first post
+
 Post in a community or create your own sublemmy.
 
-You are now outside the enclosure.
+You are now outside the fence of centralized platforms.
 
 ---
 
- ### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-
----
+{% include disclaimer-guide.html %}

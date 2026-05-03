@@ -349,3 +349,40 @@
 .nav-arrow-right {
   margin-left: auto;
 }
+/* ==================== NOOD-OPLOSSING MARKDOWN LIJSTEN ==================== */
+
+.main-content ul,
+.main-content ol,
+article ul,
+article ol,
+.content-container ul,
+.content-container ol {
+    display: block !important;
+    margin: 1.3em 0 !important;
+    padding-left: 2em !important;
+    list-style: disc outside !important;
+    white-space: normal !important;
+}
+
+.main-content li,
+article li,
+.content-container li {
+    display: list-item !important;
+    margin-bottom: 0.6em !important;
+    line-height: 1.6 !important;
+    white-space: normal !important;
+}
+
+/* Specifiek voor genummerde lijsten */
+.main-content ol,
+article ol,
+.content-container ol {
+    list-style: decimal outside !important;
+}
+
+.main-content h3 + ul,
+.main-content h3 + ol,
+.main-content p + ul,
+.main-content p + ol {
+    margin-top: 1em !important;
+}

@@ -1,63 +1,48 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 3
-title: "Account maken op Fosstodon (tech- en open-source community)"
-difficulty: beginner      # of: gemiddeld / gevorderd
-teaser: "Stap-voor-stap guide om Fosstodon account te maken."
+title: "Account maken op Fosstodon"
+difficulty: beginner
+teaser: "Stap-voor-stap guide om een Fosstodon account te maken (tech- en open-source community)."
 slug: fosstodon-account-maken
 ---
-# Guide – Account maken op Fosstodon (tech- en open-source community)
 
-Fosstodon is een Mastodon-instance met focus op open-source, tech, privacy en vrije software – perfect voor developers, makers en privacy-bewuste mensen.
+# Account maken op Fosstodon
+
+Fosstodon is een Mastodon-instance met sterke focus op open-source, tech, privacy en vrije software — perfect voor developers, makers en privacy-bewuste mensen.
 
 **Tijd:** 10–15 minuten  
 **Kosten:** €0
 
 ### Stap 1 – Naar Fosstodon gaan
-Ga direct naar <a href="https://fosstodon.org" target="_blank">fosstodon.org</a>
+
+Ga direct naar [fosstodon.org](https://fosstodon.org)
 
 ### Stap 2 – Account aanmaken
-<details>
-<summary>Stap-voor-stap</summary>
 
-1. Klik op “Join” of “Create account”
-2. Vul een gebruikersnaam in (bijv. @jouwnaam)
-3. Vul e-mail en wachtwoord in
-4. Accepteer de regels (fosstodon is vriendelijk maar gemodereerd)
+1. Klik op **Join** of **Create account**
+2. Vul een gebruikersnaam in (bijv. `@jouwnaam`)
+3. Vul je e-mailadres en een sterk wachtwoord in
+4. Accepteer de regels (Fosstodon is vriendelijk maar actief gemodereerd)
 5. Verifieer je e-mail → klaar!
-</details>
 
 ### Stap 3 – Je profiel instellen
-<details>
-<summary>Maak het herkenbaar</summary>
 
-- Gebruik een profielfoto die bij je past (tech-gerelateerd of niet)
-- Bio: vertel kort wie je bent en wat je interesseert (open-source, privacy, etc.)
-- Zet je oude X/Twitter-handle in je bio als je wilt
-- Pin een bericht: “Net begonnen op Fosstodon – hallo open-source wereld!”
-</details>
+- Kies een herkenbare profielfoto (tech-gerelateerd mag, maar hoeft niet)
+- Schrijf een korte bio (wie je bent en wat je interesseert: open-source, privacy, Linux…)
+- Zet eventueel je oude X/Twitter-handle in je bio
+- Pin een welkomstbericht: “Net begonnen op Fosstodon – hallo open-source wereld!”
 
 ### Stap 4 – Mensen volgen
-<details>
-<summary>Tips voor de tech-community</summary>
 
-- Volg hashtags zoals #FOSS, #Linux, #Privacy, #OpenSource
+- Volg hashtags zoals #FOSS, #OpenSource, #Linux, #Privacy, #SelfHosting
 - Zoek op namen van projecten of mensen die je kent
-- Gebruik <a href="https://fedifinder.glitch.me" target="_blank">Fedifinder</a> om je oude X-volgers te vinden op Mastodon
-</details>
+- Gebruik [Fedifinder](https://fedifinder.glitch.me) om je oude X-volgers terug te vinden
 
 ### Stap 5 – Je eerste post maken
-Post iets over open-source, privacy of waarom je bent overgestapt.
+
+Post iets over open-source, privacy, een tool die je gebruikt of waarom je bent overgestapt.
 
 Je bent nu deel van een community die kwaliteit boven kwantiteit stelt.
-
----
-
-### Disclaimer
-Alle guides worden door de community voorgesteld en door het OIM-coreteam gecontroleerd voordat ze live gaan.  
-Toch blijft het uitvoeren van technische stappen jouw eigen verantwoordelijkheid.  
-Het Open Internet Manifest is niet aansprakelijk voor schade, dataverlies of andere problemen die kunnen ontstaan door het volgen van een guide.
-
----
 

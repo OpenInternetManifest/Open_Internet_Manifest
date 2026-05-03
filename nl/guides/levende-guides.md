@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 500
 title: "De Guides zijn levend"

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 7
 title: "Je eerste Mastodon-account maken en migreren van X/Twitter"

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 11
 title: "Je eigen sovereign node draaien (Raspberry Pi + Umbrel)"

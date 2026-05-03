@@ -105,12 +105,17 @@
   margin: 3em auto;
   max-width: var(--content-max-width, 1200px);
   width: 100%;
+  padding-top: 1.8em;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(102, 179, 255, 0.25);
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   transition: all 0.3s ease;
+}
+.community-box > *:first-child,
+.community-box h3:first-child {
+  margin-top: 0.4em;
 }
 .comments-section {
     margin: 3em auto;
@@ -599,4 +604,75 @@ input[placeholder*="berekende SHA256"] {
   outline: none;
   border-color: #66ff99;
   box-shadow: 0 0 0 3px rgba(102, 255, 153, 0.2);
+}
+/* Guide Disclaimer - uniforme stijl met andere blokken */
+.guide-disclaimer {
+    margin: 3em auto;
+    max-width: var(--content-max-width, 1200px);
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(102, 179, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    padding: 2em 2.8em;
+    transition: all 0.3s ease;
+}
+
+.guide-disclaimer:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
+}
+
+.guide-disclaimer h3 {
+    margin: 0 0 1.2em 0;
+    color: #ffcc00;
+    font-size: 1.35em;
+    text-align: center;
+}
+
+.guide-disclaimer p {
+    margin-bottom: 1em;
+}
+
+.guide-disclaimer p:last-child {
+    margin-bottom: 0;
+}
+
+.guide-disclaimer strong {
+    color: #ff9999;
+}
+/* ==========================================================================
+   GUIDE DISCLAIMER - uniforme interactieve blokken
+   ========================================================================== */
+
+.guide-disclaimer {
+    margin: 3em auto;
+    max-width: var(--content-max-width, 1200px);
+    width: 94%;                    /* zelfde breedte als comments-section */
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(102, 179, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    padding: 2.2em 2.8em;
+    transition: all 0.3s ease;
+}
+
+.guide-disclaimer:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(102, 179, 255, 0.2);
+}
+
+.guide-disclaimer h3 {
+    margin: 0 0 1.2em 0;
+    color: #ffcc00;
+    font-size: 1.35em;
+    text-align: center;
+}
+
+.guide-disclaimer strong {
+    color: #ff9999;
+}
+
+.guide-disclaimer p:last-child {
+    margin-bottom: 0;
 }

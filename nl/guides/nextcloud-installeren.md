@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 8
 title: "Nextcloud installeren (je eigen cloud)"

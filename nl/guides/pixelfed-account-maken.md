@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 10
 title: "Je eerste Pixelfed-account maken (Instagram-alternatief)"

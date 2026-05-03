@@ -1,78 +1,60 @@
 ---
-layout: default
+layout: guides
 lang: en
-order: 8
-title: "Create your first Mastodon account and migrate from X/Twitte"
-difficulty: beginner      # of: Intermediate  / Advanced
+order: 7
+title: "Create your first Mastodon account and migrate from X/Twitter"
+difficulty: beginner
 teaser: "Mastodon is not a replacement for Twitter — it is better: you choose your own server, your data is yours, and you can always move."
 slug: mastodon-account-making
 ---
-# Guide – Create your first Mastodon account and migrate from X/Twitter
 
-Mastodon is not a replacement for Twitter — it is better: you choose your own server, your data is yours, and you can always move.
+# Create your first Mastodon account and migrate from X/Twitter
+
+Mastodon is not a replacement for Twitter — it is better. You choose your own server, your data truly belongs to you, and you can always move.
 
 **Time:** 15–30 minutes  
 **Cost:** €0
 
-### Step 1 – Choose a server (instance)
-<details markdown="1">
-<summary>I don't know which server to choose → click here</summary>
+### Step 1 – Choose an instance (server)
 
-Good starters for English speakers:
-- <a href="https://mastodon.social" target="_blank">mastodon.social</a> – large general community
-- <a href="https://fosstodon.org" target="_blank">fosstodon.org</a> – focus on open-source and tech
-- <a href="https://chaos.social" target="_blank">chaos.social</a> – active, free, and privacy-friendly
+Good starters:
+- [mastodon.nl](https://mastodon.nl) – Dutch community, beginner-friendly
+- [fosstodon.org](https://fosstodon.org) – focused on open-source and tech
+- [chaos.social](https://chaos.social) – active, free and creative
 
-Or find a server on <a href="https://instances.social" target="_blank">instances.social</a> (filter by language, topic, or country).
-</details>
+Or browse more instances at [instances.social](https://instances.social).
 
 ### Step 2 – Create an account
-<details markdown="1">
-<summary>Step-by-step</summary>
 
-1. Go to the website of your chosen server (e.g. mastodon.social)
-2. Click “Sign up” or “Create account”
-3. Fill in username, email, and password
+1. Go to your chosen instance
+2. Click **Sign up** or **Create account**
+3. Enter a username, email address and strong password
 4. Verify your email → done!
-</details>
 
 ### Step 3 – Set up your profile
-<details markdown="1">
-<summary>Make it recognizable for your old followers</summary>
 
 - Use the same profile picture and bio as on X/Twitter
-- Add your old X/Twitter handle in your bio (e.g. “Previously @yourname on Twitter”)
-- Pin a post: “Hello Mastodon! I’ve moved from Twitter. Follow me here.”
-</details>
+- Mention your old handle in your bio (e.g. “Formerly @yourname on Twitter”)
+- Pin a welcome post: “I’ve moved to Mastodon! Follow me here.”
 
 ### Step 4 – Follow people
-<details markdown="1">
-<summary>How do I find my old followers?</summary>
 
-- Use <a href="https://fedifinder.glitch.me" target="_blank">Fedifinder</a>: enter your X/Twitter handle → it finds Mastodon accounts of your followers
-- Or search manually by name or handle
-- Follow them — they get a notification
-</details>
+- Use [Fedifinder](https://fedifinder.glitch.me): enter your X/Twitter handle to find Mastodon accounts of your followers
+- Search manually by name or handle
+- Follow them — they will get a notification
 
-### Step 5 – Import your old posts (optional)
-<details markdown="1">
-<summary>I don't want to lose my old tweets</summary>
+### Step 5 – Bring your old posts (optional)
 
-- Use Twitter archive or tools like <a href="https://twexport.github.io" target="_blank">Twexport</a> to download your tweets
-- Upload them manually or use tools like <a href="https://crossposter.masto.donte.com.br" target="_blank">Crossposter</a> for limited automatic import
-</details>
+- Download your Twitter archive using [Twexport](https://twexport.github.io) or Twitter’s own tool
+- Use tools like [Crossposter](https://crossposter.masto.donte.com.br) to import posts (limited)
 
 ### Step 6 – Start posting
+
 Post your first message:  
-“Hello Mastodon! I’ve moved from Twitter. Who do I know here?”
+“Hello Mastodon! I’ve switched from Twitter. Who should I follow here?”
 
-You are now outside the enclosure.
-
----
-
- ### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
+You are now outside the fence.
 
 ---
+
+{% include disclaimer-guide.html %}

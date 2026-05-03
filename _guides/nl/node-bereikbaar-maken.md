@@ -1,110 +1,73 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 9
-title: " Node van buitenaf bereikbaar maken – kies de methode die bij jou past"
-difficulty: gevorderd      # of: gemiddeld / gevorderd
-teaser: "Je Umbrel-node draait nu lokaal (http://umbrel.local), maar hoe bereik je 'm veilig vanaf je telefoon of laptop als je niet thuis bent? Er zijn meerdere manieren, van super simpel tot geavanceerd. We raden aan te beginnen met de makkelijkste."
+title: "Node van buitenaf bereikbaar maken"
+difficulty: gevorderd
+teaser: "Je Umbrel-node draait lokaal. Hoe maak je hem veilig bereikbaar vanaf overal? Van simpel tot geavanceerd."
 slug: node-bereikbaar-maken
 ---
-# Node van buitenaf bereikbaar maken – kies de methode die bij jou past
 
-Je Umbrel-node draait nu lokaal (http://umbrel.local), maar hoe bereik je 'm veilig vanaf je telefoon of laptop als je niet thuis bent? Er zijn meerdere manieren, van super simpel tot geavanceerd. We raden aan te beginnen met de makkelijkste.
+# Node van buitenaf bereikbaar maken
 
-### Welke methode kies jij?
+Je Umbrel-node draait nu alleen lokaal (http://umbrel.local). Hoe bereik je hem veilig vanaf je telefoon of laptop als je niet thuis bent?
 
-| Methode                          | Moeilijkheid | Snelheid | Privacy/Security | Wanneer kiezen?                              | Tijd om op te zetten | Platform-opmerkingen                  |
-|----------------------------------|--------------|----------|------------------|----------------------------------------------|----------------------|---------------------------------------|
-| **Tor Onion** (aanbevolen start) | ★☆☆☆☆       | Traag    | Maximaal         | Maximale privacy, geen extra account         | 2 minuten           | Android goed, iPhone traag (Orbot)   |
-| **Tailscale HTTP**               | ★★☆☆☆       | Snel     | Hoog (WireGuard) | Dagelijks gebruik, filesync vanaf telefoon   | 5-10 minuten        | Werkt op alle apparaten               |
-| **Tailscale HTTPS**              | ★★★★☆       | Snel     | Zeer hoog        | Groen slotje, apps die HTTPS eisen           | 15-30 minuten       | Vereist terminal (zie geavanceerd)    |
-| Andere (Zerotier, Headscale, etc.) | ★★★★★     | Variabel | Hoog             | Geen Tailscale-account                       | 30+ minuten         | Voor hardcore decentralisten          |
+Hieronder de beste methodes, van eenvoudig naar geavanceerd.
 
-**Waarom Tor als start?** Geen gedoe met accounts of poorten openzetten.  
-**Waarom Tailscale als upgrade?** Veel sneller voor Nextcloud-sync, foto's uploaden etc.
+### Overzicht methodes
 
-### Optie 1: Tor Onion – de makkelijkste & meest private manier
+| Methode                  | Moeilijkheid | Snelheid     | Privacy / Beveiliging | Beste voor                              | Tijd om op te zetten |
+|--------------------------|--------------|--------------|-----------------------|-----------------------------------------|----------------------|
+| **Tor Onion** (start)    | ★☆☆☆☆       | Traag        | Maximaal              | Maximale privacy, geen account          | 2 minuten           |
+| **Tailscale HTTP**       | ★★☆☆☆       | Snel         | Hoog (WireGuard)      | Dagelijks gebruik, Nextcloud-sync       | 5–10 minuten        |
+| **Tailscale HTTPS**      | ★★★★☆       | Snel         | Zeer hoog             | Apps die HTTPS eisen, groen slotje      | 15–30 minuten       |
 
-**Waarom?**  
-Geen extra installaties, geen account, geen poorten open → maximale privacy. Werkt overal (achter CG-NAT, carrier NAT).  
-Nadelen: traag voor grote bestanden (foto's, video's).
+**Aanbeveling:** Begin met Tor. Upgrade naar Tailscale als je snelheid en gemak wilt.
+
+### Optie 1: Tor Onion – makkelijkste & meest private manier
+
+**Waarom Tor?**  
+Geen account, geen poorten openzetten, werkt overal.
 
 **Stappen (2 minuten):**
+1. Open Umbrel-dashboard (http://umbrel.local)
+2. Ga naar Settings → Advanced Settings → Remote Access
+3. Zet Tor aan
+4. Kopieer de gegenereerde .onion-link
 
-1. Open Umbrel-dashboard (http://umbrel.local).
-2. Ga naar **Instellingen** → **Geavanceerde instellingen** → **Toegang op afstand**.
-3. Zet **Via Tor** aan.
-4. Umbrel genereert een .onion-link (bijv. http://lange-string.onion).
-5. Kopieer de link en bewaar veilig.
+**Toegang:**
+- Android: Tor Browser
+- iPhone: Onion Browser of Orbot
+- Laptop: Tor Browser (torproject.org)
 
-**Toegang vanaf je apparaat:**
+Nextcloud gebruik je via http://jouw-onion-link/nextcloud in de Tor Browser.
 
-- **Android:** Installeer Tor Browser (Play Store) → plak .onion-link → dashboard opent.
-- **iPhone:** Installeer Onion Browser of Orbot (App Store). **Let op:** Orbot laadt vaak traag of is instabiel op iOS. Probeer Onion Browser als alternatief.
-- **Laptop/PC:** Tor Browser downloaden (torproject.org) → plak link.
-
-Voor Nextcloud: http://[jouw-onion]/nextcloud (gebruik Tor Browser).  
-Voor mobiele Nextcloud-app: Tor niet direct ondersteund → gebruik webversie in Tor Browser.
-
-**Screenshot:** [Umbrel: Toegang op afstand → Tor toggle + .onion link]
-
-**Tip:** Bookmark de .onion-link in Tor Browser. Test eerst op laptop als het traag voelt op telefoon.
-
-### Optie 2: Tailscale HTTP – sneller voor dagelijks gebruik (geen terminal nodig)
-
-**Waarom?**  
-Snel (WireGuard), mooie link (umbrel.jouwtailnet.ts.net), veilig end-to-end encrypted. Geen poorten open.
+### Optie 2: Tailscale HTTP – snel voor dagelijks gebruik
 
 **Stappen:**
+1. Umbrel App Store → zoek Tailscale → installeer
+2. Open Tailscale → log in met Google/Apple/GitHub
+3. Zet Tailscale aan op je node
+4. Installeer Tailscale op je telefoon/laptop en log in met hetzelfde account
+5. Kopieer de Magic DNS-naam (bijv. umbrel.abcdef123.ts.net)
+6. Open in browser: http://umbrel.abcdef123.ts.net
 
-1. Umbrel App Store → zoek "Tailscale" → Install.
-2. Open Tailscale app → Authenticate → log in met Google/Apple/GitHub (gratis account).
-3. Toggle VPN aan.
-4. Op telefoon/laptop: login.tailscale.com → log in met hetzelfde account → zie je "umbrel" node.
-5. Klik op de node → copy **Magic DNS name** (bijv. umbrel.tai123456.ts.net).
-6. Open browser → **http://"naam server"."tail123456".ts.net** (zonder https!).
-7. Dashboard laadt → Nextcloud op http://.../nextcloud.
-
-**Mobiel:**
-- Installeer Tailscale app (iOS/Android) → login → auto-connect.
-- Nextcloud app: server = http://http://"naam server"."....".ts.net/nextcloud.
-
-**Screenshot:** [Tailscale admin → Magic DNS naam]
-
-**Waarschuwing:** Sommige apps eisen HTTPS → kies dan Optie 3 of blijf bij Tor.
+Nextcloud: http://umbrel.abcdef123.ts.net/nextcloud
 
 ### Optie 3: Tailscale HTTPS – geavanceerd (groen slotje)
 
-**Waarschuwing:** Dit vereist terminal-commando's. Niet voor beginners. HTTP is vaak genoeg (veilig via Tailscale).
-
 **Stappen:**
-
-1. Umbrel App Store → Tailscale install & authenticate (zoals Optie 2).
-2. Settings → Advanced → Terminal → selecteer App: Tailscale.
-3. Run: `tailscale serve 8080` (of 8081 als Umbrel op 8081 draait – check met netstat in hoofdterminal).
-4. Check: `tailscale serve status` → zie proxy naar 127.0.0.1:8080.
-5. Test: https://"naam server"."tail123456".ts.net (moet nu met groen slot laden).
-
-**Persistent maken (optioneel):** Run in screen of maak startup script via Portainer.
+1. Installeer Tailscale (zie Optie 2)
+2. Via Terminal in Umbrel: tailscale serve 8080 (of de juiste poort)
+3. Configureer trusted domains in Nextcloud via occ-commando’s (zie onder)
 
 **Veelgemaakte fouten & fixes:**
-- Permission denied op docker? Gebruik sudo: `sudo docker ps | grep nextcloud` → container-naam is vaak nextcloud_web_1.
-- "Access through untrusted domain"? Fix trusted_domains:
+- "Access through untrusted domain" → voeg domein toe met:  
+  sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set trusted_domains 1 --value="umbrel.abcdef123.ts.net"  
+  sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwriteprotocol --value="https"  
+  sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwrite.cli.url --value="https://umbrel.abcdef123.ts.net/nextcloud"
 
- 1. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set trusted_domains 1 --value="umbrel.tail63975b.ts.net"
- 2. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwriteprotocol --value="https"
- 3. sudo docker exec --user www-data nextcloud_web_1 php occ config:system:set overwrite.cli.url --value="https://umbrel.tail63975b.ts.net/nextcloud"
- 4. sudo docker restart nextcloud_web_1
+- Herstart container: sudo docker restart nextcloud_web_1
 
- - Foute entries in trusted_domains (bijv. met :8081 of dubbele ts.net)? Verwijder:
-
-   sudo docker exec --user www-data nextcloud_web_1 php occ config:system:delete trusted_domains [index]
-
-Check met `... get trusted_domains`.
-
-**Screenshot:** [tailscale serve status, trusted_domains lijst, login-scherm mobiel]
-
-Zodra dit werkt → ga naar de volgende guide: Praktische toepassingen (Nextcloud sync, wallets, Immich) en redundancy (Syncthing mirror).
-
-
+Je node is nu van buitenaf bereikbaar. Volgende stap: praktische toepassingen (Nextcloud-sync, Immich, wallets) en redundancy.
 

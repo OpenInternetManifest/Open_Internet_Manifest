@@ -1,31 +1,40 @@
 ---
-layout: default
+layout: guides
 lang: en
 order: 14
 title: "Searching without Google"
-difficulty: beginner      # of: Intermediate  / Advanced
-teaser: "-coming soon-"
-slug: searching-without-google-coming-soon
----
-# Searching without Google – coming soon
-
-Good news! You've found a thesis that deserves a practical guide — and we're working on it.
-
-The Open Internet Manifest is alive: theses, concepts, and guides grow through community contributions.
-
-**Want to help write this guide?**  
-Open an issue or PR on GitHub: https://github.com/OpenInternetManifest/Open_Internet_Manifest
-
-Or talk along in Matrix:  
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a>
-
-Thanks for your patience — together we make the open internet doable.
-
+difficulty: beginner
+teaser: "Privacy-friendly and independent alternatives to Google Search."
+slug: searching-without-google
 ---
 
- ### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
+# Searching without Google
 
----
+Google dominates search, but at the cost of massive surveillance, result manipulation, and filter bubbles. Here are better alternatives.
+
+### Best privacy-friendly search engines (2026)
+
+| Search Engine       | Privacy       | Result Quality | Unique Strength                     | Recommended for                  |
+|---------------------|---------------|----------------|-------------------------------------|----------------------------------|
+| **DuckDuckGo**      | High          | Good           | Easy to use, !bangs                 | Daily use                        |
+| **Brave Search**    | High          | Very Good      | Independent index, Goggles          | Balanced choice                  |
+| **SearXNG**         | Very High     | Good           | Self-hostable, meta-search          | Privacy maximalists              |
+| **Kagi**            | High          | Excellent      | Paid, no ads, very accurate         | Power users                      |
+| **Mojeek**          | High          | Good           | Independent index, no tracking      | Supporting independent search    |
+
+### Recommended start: Brave Search + DuckDuckGo
+
+**Why?**
+- Good balance between privacy and result quality
+- Brave has its own index (less reliant on Google)
+- DuckDuckGo is excellent for quick searches
+
+**Pro tips:**
+- Use **!bangs** (e.g. `!w` for Wikipedia, `!r` for Reddit)
+- Self-host **SearXNG** for maximum privacy
+- Combine multiple engines with browser extensions
+
+**Advanced:** Run your own SearXNG instance on your Umbrel node or VPS.
+
+You no longer need to feed Google your every query.
+

@@ -1,95 +1,67 @@
 ---
-layout: default
+layout: guides
 lang: en
-order: 13
+order: 11
 title: "Run your own sovereign node at home (Raspberry Pi + Umbrel)"
-difficulty: advanced    # of: intermediate  / advanced
-teaser: "This is the way to own your own piece of the internet: Bitcoin node, Nostr relay, Nextcloud, photo backup – all at home, all yours."
-slug: raspberry-pi-node-en
+difficulty: medium
+teaser: "This is the way to own your own piece of the internet: Bitcoin node, Lightning, Nostr, Nextcloud, photo backup – all at home, all yours."
+slug: sovereign-node
 ---
-# Guide – Run your own sovereign node at home (Raspberry Pi + Umbrel)
 
-This is the way to own your own piece of the internet: Bitcoin node, Nostr relay, Nextcloud, photo backup – all at home, all yours.
+# Run your own sovereign node at home (Raspberry Pi + Umbrel)
 
-**One-time cost:** €180 – €280 (or equivalent in your currency)  
+This is one of the most powerful steps you can take: running your own **sovereign node** at home. A complete, independent server under your full control.
+
+**Hardware choice (2026):**
+- **Raspberry Pi 5 (8 GB)** → Best for beginners.
+- **Refurbished Mini-PC (i5/i7)** → Often similar price but more powerful (good if no AI planned).
+- **Powerful Mini-PC (Ryzen 7 8845HS or higher, 32 GB RAM)** → Recommended if you want to run your own local AI model later.
+
+This guide focuses on the **Raspberry Pi 5**. A separate guide for Mini-PC setups is coming.
+
+**One-time cost (Pi setup):** €180 – €280 (or equivalent)  
 **Monthly cost:** ≈ €3 (electricity)
 
-### What you need (compare prices on Amazon, AliExpress or local stores)
-<details markdown="1">
-<summary>I don't know what to buy → click here</summary>
+### What you need (Pi setup)
 
-- **Raspberry Pi 5 (8 GB)** → <a href="https://www.amazon.com/s?k=raspberry+pi+5+8gb" target="_blank">Search on Amazon</a> or <a href="https://www.aliexpress.com/w/wholesale-raspberry-pi-5-8gb.html" target="_blank">AliExpress</a>  
-- **Cheaper alternative: Raspberry Pi 4 (8 GB)** → <a href="https://www.amazon.com/s?k=raspberry+pi+4+8gb" target="_blank">Search on Amazon</a>  
-- **Micro-SD card 128 GB** → <a href="https://www.amazon.com/s?k=micro+sd+128gb" target="_blank">Search on Amazon</a>  
-- **External SSD 1 TB (recommended!)** → <a href="https://www.amazon.com/s?k=samsung+t7+shield+1tb" target="_blank">Search Samsung T7 Shield 1TB on Amazon</a>  
-- **Power supply + ethernet cable** usually included in starter kits
-</details>
+Hardware recommendations + price comparison
 
-### Step 1 – Download Umbrel
-<details markdown="1">
-<summary>I don't know where to find Umbrel</summary>
-Go to <a href="https://umbrel.com" target="_blank">umbrel.com</a> → click the big blue button "Download Umbrel OS".
-</details>
+- **Raspberry Pi 5 (8 GB)** → [Search on Amazon](https://www.amazon.com/s?k=raspberry+pi+5+8gb) 
+- **Micro-SD card 128 GB** → [Search on Amazon](https://www.amazon.com/s?k=micro+sd+128gb)
+- **External SSD 1 TB (recommended!)** → [Search Samsung T7 Shield 1TB on Amazon](https://www.amazon.com/s?k=samsung+t7+shield+1tb)
+- **Power supply + Ethernet cable (usually included in starter kits)**
+
+
+### Step 1 – Download UmbrelOS
+
+Go to the [Umbrel installation page](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5) and choose the correct version for your Pi.
 
 ### Step 2 – Flash the image with Balena Etcher
-<details markdown="1">
-<summary>I've never flashed anything before</summary>
 
-1. Download Balena Etcher: <a href="https://etcher.balena.io" target="_blank">etcher.balena.io</a>  
-2. Start Etcher  
-3. Click "Flash from file" → choose the downloaded umbrel file  
-4. Click "Select target" → choose your SD card  
-5. Click "Flash!" → grab a coffee (5–10 minutes)  
-6. Etcher says "Flash Complete" → done!
-</details>
+1. Download [Balena Etcher](https://etcher.balena.io)
+2. Select the UmbrelOS file
+3. Select your SD card
+4. Click **Flash!**
 
-### Step 3 – Connect everything
-<details markdown="1">
-<summary>How do I connect the Pi?</summary>
+### Step 3 – Connect the hardware
 
-1. Insert SD card into the Pi  
-2. Connect SSD via USB (if you have one)  
-3. Ethernet cable into your router  
-4. Plug in power → Pi starts automatically (lights will blink)
-</details>
+1. Insert SD card into the Pi
+2. Connect SSD via USB (if you have one)
+3. Plug Ethernet cable into your router
+4. Plug in power → Pi starts automatically
 
 ### Step 4 – Start Umbrel
-<details markdown="1">
-<summary>How do I reach my Umbrel?</summary>
 
-Open your browser and type:  
-http://umbrel.local  
-
-(or find the IP address in your router app and use http://[IP-address])
-</details>
+Open your browser and go to:  
+**http://umbrel.local**
 
 ### Step 5 – First setup
-Choose a password → done!  
-You now have at home:
-- Bitcoin + Lightning node  
-- Nostr relay  
-- Nextcloud (your own Dropbox)  
-- PhotoPrism (your own Google Photos)  
-- Mastodon server (optional)  
-- 40+ apps with one click
 
-### What if it doesn't work?
-<details markdown="1">
-<summary>I don't see umbrel.local</summary>
+Choose a strong password → your node is live!
 
-- Try http://[IP address of the Pi] (find in your router)  
-- Or connect a screen + keyboard and log in with user "umbrel", password "moneyprintergobrrr"
-</details>
-
-Monthly cost: ≈ €3 electricity  
-Security: you have the only key  
-No one can ever deactivate you
-
----
-
- ### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-
----
+You now have direct access to:
+- Bitcoin + Lightning node
+- Nostr relay
+- Nextcloud (your own Dropbox)
+- PhotoPrism (your own Google Photos)
+- Many other apps with one click

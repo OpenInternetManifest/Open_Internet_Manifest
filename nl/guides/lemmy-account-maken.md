@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 6
 title: "Je eerste Lemmy-account maken (Reddit-alternatief)"

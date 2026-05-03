@@ -1,73 +1,54 @@
 ---
-layout: default
+layout: guides
 lang: en
 order: 5
 title: "Create your first Friendica account"
-difficulty: beginner      # of: Intermediate  / Advanced
-teaser: "Friendica is a decentralized social network that connects with Mastodon, Diaspora, Bluesky, and even old systems like email."
+difficulty: beginner
+teaser: "Friendica is a decentralized social network that connects with Mastodon, Diaspora, Bluesky and even email."
 slug: friendica-account-making
 ---
-# Guide – Create your first Friendica account (versatile social network)
 
-Friendica is a decentralized social network that connects with Mastodon, Diaspora, Bluesky, and even old systems like email.
+# Create your first Friendica account
 
-Ideal if you have friends on different platforms and want one place to talk to everyone.
+Friendica is a decentralized social network that connects with Mastodon, Diaspora, Bluesky and even older systems like email.
+
+Ideal if you have friends on different platforms and want to manage everything from one place.
 
 **Time:** 15–25 minutes  
 **Cost:** €0
 
-### Step 1 – Choose a node
-<details markdown="1">
-<summary>I don't know which node to choose → click here</summary>
+### Step 1 – Choose a server (node)
 
-Good starters:
-- <a href="https://friendica.mrpetovan.com" target="_blank">friendica.mrpetovan.com</a> – active, English/French
-- <a href="https://libranet.de" target="_blank">libranet.de</a> – German, privacy-focused
-- <a href="https://friendica.feneas.org" target="_blank">friendica.feneas.org</a> – general community
+Good starters for beginners:
+- [friendica.mrpetovan.com](https://friendica.mrpetovan.com) – active, English/French
+- [libranet.de](https://libranet.de) – privacy-focused, German
+- [friendica.feneas.org](https://friendica.feneas.org) – general community
 
-Or find a node on <a href="https://dir.friendica.social/servers" target="_blank">dir.friendica.social/servers</a>.
-</details>
+Or browse servers at [dir.friendica.social/servers](https://dir.friendica.social/servers).
 
 ### Step 2 – Create an account
-<details markdown="1">
-<summary>Step-by-step</summary>
 
-1. Go to the website of your chosen node
-2. Click “Register” or “New account”
-3. Fill in username, email, and password
-4. Complete the registration (sometimes moderated, sometimes immediate)
+1. Go to your chosen server’s website
+2. Click **Register** or **Create account**
+3. Enter a username, email address and strong password
+4. Complete registration (sometimes moderated, sometimes instant)
 5. Verify your email → done!
-</details>
 
-### Step 3 – Set up your profile and identity
-<details markdown="1">
-<summary>Make it powerful</summary>
+### Step 3 – Set up your profile
 
-- Use a profile picture and bio
-- Add channels (Friendica supports multiple identities)
-- Enable nomadic identity — you can always move without losing data
-- Connect to other networks (Mastodon, Diaspora, etc.)
-</details>
+- Use the same profile picture and bio as on your other networks
+- Add your old accounts (Mastodon, Twitter, Facebook, etc.) for better connectivity
+- Pin a welcome post: “Hello Friendica! I’ve switched and am now connected to everyone.”
 
 ### Step 4 – Make connections
-<details markdown="1">
-<summary>Friendica can connect to almost everything</summary>
 
-- Search and add contacts from the Zot network
-- Connect to fediverse (Mastodon, Friendica)
-- Import contacts from other systems
-</details>
+- Search and add contacts from Friendica, Mastodon, Diaspora or Bluesky
+- Use connectors to link with Twitter, email and other systems
+- Follow interesting groups and forums
 
 ### Step 5 – Make your first post
-Post a message, photo, or file — Friendica distributes it across your networks.
 
-You now have a full, portable digital presence.
+Write a post — Friendica automatically distributes it to all connected networks.
 
----
+You are now connected without a central gatekeeper.
 
-  ### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
-
----

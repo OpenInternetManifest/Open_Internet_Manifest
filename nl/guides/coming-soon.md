@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guides
 lang: nl
 order: 12
 title: "Goed nieuws! Je hebt een thesis gevonden die een praktische guide verdient"

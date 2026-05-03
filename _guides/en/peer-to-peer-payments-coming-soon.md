@@ -1,32 +1,50 @@
 ---
-layout: default
+layout: guides
 lang: en
 order: 11
-title: "Peer-to-peer payments"
-difficulty: beginner      # of: Intermediate  / Advanced
-teaser: "-coming soon-"
-slug: peer-to-peer-payments-coming-soon
----
-# Peer-to-peer payments – coming soon
-
-Good news! You've found a thesis that deserves a practical guide — and we're working on it.
-
-The Open Internet Manifest is alive: theses, concepts, and guides grow through community contributions.
-
-**Want to help write this guide?**  
-Open an issue or PR on GitHub: https://github.com/OpenInternetManifest/Open_Internet_Manifest
-
-Or talk along in Matrix:  
-<a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org">Open Element and join the discussion</a>
-
-Thanks for your patience — together we make the open internet doable.
-
+title: "Peer-to-peer payments without Big Tech"
+difficulty: beginner
+teaser: "Send and receive money privately and without intermediaries using Bitcoin, Lightning and other open protocols."
+slug: peer-to-peer-payments
 ---
 
- ### Disclaimer
-All guides are proposed by the community and reviewed by the OIM core team before going live.  
-Nevertheless, executing technical steps remains your own responsibility.  
-The Open Internet Manifest is not liable for damage, data loss, or other issues that may arise from following a guide.
+# Peer-to-peer payments without Big Tech
+
+True peer-to-peer payments mean sending value directly to someone else — without banks, payment processors or Big Tech in the middle.
+
+### Best options (2026)
+
+| Method              | Speed     | Fees          | Privacy       | Ease of use     | Recommended for                  |
+|---------------------|-----------|---------------|---------------|-----------------|----------------------------------|
+| **Lightning Network** (Bitcoin) | Instant   | Very low      | High          | Good            | Daily small payments             |
+| **Bitcoin on-chain** | 10–60 min | Medium        | High          | Medium          | Larger amounts                   |
+| **Monero**          | Fast      | Low           | Very High     | Medium          | Maximum privacy                  |
+| **Cashu / Ecash**   | Instant   | Very low      | Good          | Easy            | Private small payments           |
+| **Strike / Blink**  | Instant   | Low           | Medium        | Very Easy       | Easy USD → Lightning             |
+
+### Recommended start: Lightning Network
+
+**Why Lightning?**
+- Very fast and cheap
+- Built on Bitcoin (most secure settlement layer)
+- Growing adoption worldwide
+
+**How to get started:**
+
+1. Download a good Lightning wallet:
+   - **Phoenix** (Android/iOS) – easy, non-custodial
+   - **Wallet of Satoshi** (beginner friendly)
+   - **Muun** or **BlueWallet**
+
+2. Buy some Bitcoin (via exchange or P2P) and send it to your Lightning wallet
+
+3. Send money:
+   - Scan a Lightning invoice (QR code)
+   - Or use a Lightning address (like email: name@domain.com)
+
+**Pro tip:** Use **Bolt12** offers (static payment links) for recurring payments.
+
+**Privacy note:**  
+For maximum privacy combine Lightning with good coin selection or mixers (advanced).
 
 ---
-
