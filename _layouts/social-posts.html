@@ -26,6 +26,11 @@
 {% assign current_lang = page.lang | default: 'nl' | downcase %}
     <meta charset="UTF-8">
     <title>{{ page.title | default: site.title }}</title>
+    
+    <!-- OIM Favicon -->
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description | default: site.description }}">
     {% seo %}
@@ -34,10 +39,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
    
     <!-- Hash verification JS -->
-    <!-- <script src="{{ site.baseurl }}/assets/js/official-hashes.js"></script> -->  <!-- niet meer nodig -->
     <script src="{{ site.baseurl }}/assets/js/hash-verify.js"></script>
   </head>
-  <body>
   
 <nav class="main-nav">
   <div class="nav-container">
@@ -163,9 +166,11 @@
       <p>
         {% assign lang_code = page.lang | default: 'nl' | downcase %}
         {% if lang_code == 'en' %}
-          English version · 100 theses for a free, open and unalienable internet
+          For a Free, Open and Sovereign Internet
         {% else %}
-          Nederlandse versie · 100 theses voor een vrij, open en onvervreemdbaar internet
+          Voor een vrij, open en onvervreemdbaar internet
+
+
         {% endif %}
       </p>
     </div>
