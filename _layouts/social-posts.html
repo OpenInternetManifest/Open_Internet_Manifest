@@ -2,6 +2,20 @@
 <html lang="{{ page.lang | default: 'nl' | downcase }}" 
       data-website-sha256="{{ page.website_sha256 | default: '' }}">
   <head>
+
+  <!-- Open Graph / Facebook Meta Tags -->
+<meta property="og:title" content="{{ page.rvn_title | escape | default: site.title }}">
+<meta property="og:description" content="{{ page.rvn_teaser | escape | default: site.description }}">
+<meta property="og:url" content="https://openinternetmanifest.org{{ page.url }}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Open Internet Manifest">
+
+<!-- Optioneel: vaste og:image (aanbevolen) -->
+<meta property="og:image" content="https://openinternetmanifest.org/assets/og-image.jpg">
+
+<!-- Extra aanbevolen tags -->
+<meta property="og:locale" content="nl_NL">
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
     {% assign current_lang = page.lang | default: 'nl' | downcase %}
     <meta charset="UTF-8">
     <title>{{ page.title | default: site.title }}</title>

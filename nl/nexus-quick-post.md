@@ -9,7 +9,7 @@ slug: nexus-quick-post
   <header class="quick-post-header">
     <h1>Nexus Quick Post</h1>
     <p class="subtitle">Maak een mooie post met Unicode-opmaak + automatische hash-verificatie</p>
-    <div class="powered-by">Powered by OIM × Nexus</div>
+    <div class="powered-by">Powered by OIM ╳ Nexus</div>
   </header>
 
   <div class="editor-split">
