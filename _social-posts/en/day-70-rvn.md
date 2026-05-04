@@ -6,11 +6,11 @@ rvn_title: "Illusory Progress 2.0 – What is it really?"
 rvn_teaser: "We are constantly told we are making progress. But do we really feel freer, richer and more independent?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "6a7fdcdab895cf2a5f9033f007ca7e371ee596ed0a78fee41c254c89d3729361"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
+git_commit_date: "2026-05-04T06:37:43+02:00"
 ---
 
 

@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang 2.0 – Wat is het eigenlijk?"
 rvn_teaser: "We worden continu verteld dat we vooruitgaan. Maar voelen we ons écht vrijer, rijker en zelfstandiger? Start van een nieuwe serie"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "94e5c46fcf15ffc16adb2a2dc7eab14ccf4293f0c2e4d4e7f7c87787c542229a"
+git_commit_hash: "4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
+git_commit_date: "2026-05-04T06:37:43+02:00"
 ---
 
 
