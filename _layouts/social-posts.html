@@ -15,13 +15,15 @@
 <meta name="twitter:description" content="{{ page.rvn_teaser | escape }}">
 <meta name="twitter:image" content="https://openinternetmanifest.org/assets/images/og-image.jpg">
 
-<!-- Optioneel: vaste og:image (aanbevolen) -->
+<!--  vaste og:image -->
 <meta property="og:image" content="https://openinternetmanifest.org/assets/images/og-image.jpg">
 
 <!-- Extra aanbevolen tags -->
 <meta property="og:locale" content="nl_NL">
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    {% assign current_lang = page.lang | default: 'nl' | downcase %}
+   
+
+{% assign current_lang = page.lang | default: 'nl' | downcase %}
     <meta charset="UTF-8">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
