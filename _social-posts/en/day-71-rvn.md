@@ -6,11 +6,11 @@ rvn_title: " Illusory Progress #2: Leasing = Freedom?"
 rvn_teaser: "Newest car, low monthly payment, always up-to-date. Sounds like freedom. But is it really?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "59bc5b5a0d25df0fd433cc853a7c29a8a8e296f9dfdda59eeeba3996689c03ee"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "1b5a16d5d2563d0a23aa91406846c79a383efd44"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1b5a16d5d2563d0a23aa91406846c79a383efd44"
+git_commit_date: "2026-05-05T06:54:40+02:00"
 ---
 
 

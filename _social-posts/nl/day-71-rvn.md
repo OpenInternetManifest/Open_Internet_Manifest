@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang #2: Lease = vrijheid?"
 rvn_teaser: "Nieuwste auto, laag maandbedrag, altijd up-to-date. Klinkt als vrijheid. Maar is het dat ook echt?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "4ab4651a1c7e091a84f4e6002d2bc05fd99da71994f937d5c2371886bd40537d"
+git_commit_hash: "1b5a16d5d2563d0a23aa91406846c79a383efd44"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1b5a16d5d2563d0a23aa91406846c79a383efd44"
+git_commit_date: "2026-05-05T06:54:40+02:00"
 ---
 
 
