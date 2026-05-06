@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang #3: De warmtepomp als groene redding?"
 rvn_teaser: "Duurzaam, energiezuinig en de toekomst. Maar klopt dat verhaal eigenlijk wel?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "944d0b6e0aa4a49948e0cd72d57c122e54d83699d04a670f36e1090efef191f9"
+git_commit_hash: "4000bc090405c36f56cd4621bf25d155e4d25f16"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4000bc090405c36f56cd4621bf25d155e4d25f16"
+git_commit_date: "2026-05-06T08:16:27+02:00"
 ---
 
 
