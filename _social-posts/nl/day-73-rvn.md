@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang #4: De elektrische auto als toekomst?"
 rvn_teaser: "Zero emissie, stil, hightech en goed voor het klimaat. Maar is de EV écht vooruitgang?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "f4fb13393b4fb36b8a6a390aebe897f55998ccbcfe817eb70bef7b19e007d42e"
+git_commit_hash: "7fb890e0aa81b79fa52e96b7696d445367ed561c"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7fb890e0aa81b79fa52e96b7696d445367ed561c"
+git_commit_date: "2026-05-07T06:42:51+02:00"
 ---
 
 

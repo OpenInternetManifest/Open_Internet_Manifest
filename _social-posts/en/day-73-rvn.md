@@ -6,11 +6,11 @@ rvn_title: "Illusory Progress #4: The Electric Car as the Future?"
 rvn_teaser: "Zero emissions, silent, high-tech and good for the climate. But is the EV really progress?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "a4aeaa39c6f6c22c9536b4b7dc7d0614946770c14ffa49177e1fcc46231c4377"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "7fb890e0aa81b79fa52e96b7696d445367ed561c"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7fb890e0aa81b79fa52e96b7696d445367ed561c"
+git_commit_date: "2026-05-07T06:42:51+02:00"
 ---
 
 
