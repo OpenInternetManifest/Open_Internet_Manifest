@@ -6,10 +6,10 @@ rvn_title: "Waarom we de serie onderbreken: De brand in het Almere datacentrum"
 rvn_teaser: "Eén brand in Almere legt hele systemen plat. Dit is waarom centralisatie zo gevaarlijk is."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "987e421249caa12b60ecc5d8d4db871cb831f22792c8acc962fc06ce75073dd6"
+git_commit_hash: "107f6628b688c1c30e15539e444a6b4808863e91"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/107f6628b688c1c30e15539e444a6b4808863e91"
+git_commit_date: "2026-05-08T06:40:14+02:00"
 ---
 
 
