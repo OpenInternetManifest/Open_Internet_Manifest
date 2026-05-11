@@ -6,11 +6,11 @@ rvn_title: "Illusory Progress #7: The Cashless Society"
 rvn_teaser: "Cash is dirty and old-fashioned, they say. But what do we really gain by abolishing it?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "2d83249958fc9298a94d7e7d25655be7cbd3dba9061d7d013744bb6d17999f6d"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
+git_commit_date: "2026-05-11T06:40:55+02:00"
 ---
 
 

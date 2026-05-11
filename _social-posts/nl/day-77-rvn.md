@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang #7: De cashloze samenleving"
 rvn_teaser: "Contant geld is ouderwets en gevaarlijk, zeggen ze. Maar wat winnen we er werkelijk mee?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "445056c69dbf9d3e6796678870dc76224dc937baf2bd200b757f77148ee63fbe"
+git_commit_hash: "2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
+git_commit_date: "2026-05-11T06:40:55+02:00"
 ---
 
 
