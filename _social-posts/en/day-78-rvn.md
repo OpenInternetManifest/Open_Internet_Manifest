@@ -6,11 +6,11 @@ rvn_title: "Illusory Progress #8: Feminism as Liberation?"
 rvn_teaser: "Women are finally liberated. But are they actually happier and freer?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "b2975fd17dff38719acac899feafe53f039278c0ad713eb8db7865905e11ba76"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "8c139182e542abcf470df4ae99a1b8dfab2a68ca"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8c139182e542abcf470df4ae99a1b8dfab2a68ca"
+git_commit_date: "2026-05-12T06:52:01+02:00"
 ---
 
 
