@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang #10: De jeugdzorg als redding"
 rvn_teaser: "Meer jeugdzorg = betere zorg voor onze kinderen. Toch?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "c4e0ff8bcf6cd8dd1b59d611e2283d0712aa2b3605049b59d30909739a1a9062"
+git_commit_hash: "7188f982b69209b44120d3fce5e12aa7c59a4fb7"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7188f982b69209b44120d3fce5e12aa7c59a4fb7"
+git_commit_date: "2026-05-13T06:41:30+02:00"
 ---
 
 
