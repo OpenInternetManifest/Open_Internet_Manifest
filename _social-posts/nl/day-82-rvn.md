@@ -6,10 +6,10 @@ rvn_title: "“Ik hoor en ik vergeet. Ik zie en ik herinner me. Ik doe en ik beg
 rvn_teaser: "Waarom praten en wakker worden niet genoeg is"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "fde935e05b412c56b39fe49127ad8cdd1927dc588d612252173fa1e0aa0d9680"
+git_commit_hash: "2e15b59d35d12ca12d32f5a3b1f6b4a8cc163040"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2e15b59d35d12ca12d32f5a3b1f6b4a8cc163040"
+git_commit_date: "2026-05-14T18:56:45+02:00"
 ---
 
 
