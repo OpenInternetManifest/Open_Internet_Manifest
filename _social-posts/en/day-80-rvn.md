@@ -6,11 +6,11 @@ rvn_title: "Illusory Progress #11: The Nitrogen Crisis and the Farmer as Scapego
 rvn_teaser: "We must get rid of the farmers for the climate and nature. Really?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "1224a4221e1a043c3d4006d814e7a9953c8f8b6b1a68a689786774a3fc71662f"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
+git_commit_date: "2026-05-14T07:27:38+02:00"
 ---
 
 
