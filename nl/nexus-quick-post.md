@@ -34,7 +34,7 @@ slug: nexus-quick-post
     </div>
   </div>
 
-  <div class="actions-bar">
+   <div class="actions-bar">
     <label class="toggle-label">
       <input type="checkbox" id="include-hash" checked>
       <span>Include Hash + Signature</span>
@@ -43,11 +43,9 @@ slug: nexus-quick-post
     <div class="copy-buttons">
       <button onclick="copyForFacebook()" class="btn-facebook">📘 Facebook</button>
       <button onclick="copyUnicodeOnly()" class="btn-secondary">🔄 Unicode</button>
-      <button onclick="copyMarkdown()" class="btn-secondary">📄 Markdown</button>
       <button onclick="copyForX()" class="btn-secondary">𝕏 X/Twitter</button>
     </div>
   </div>
-</div>
 
 <script>
   const input = document.getElementById('post-input');
@@ -78,27 +76,27 @@ slug: nexus-quick-post
     return `\n\n────────────────────────────\n#OIM • Nexus Quick Post\nGeverifieerd via openinternetmanifest.org\nSHA256: demo-hash...`;
   }
 
+  // ==================== COPY FUNCTIONS ====================
   function copyForFacebook() {
     let text = input.value.trim() + getSignature();
     navigator.clipboard.writeText(text).then(() => {
-      alert("✅ Gekopieerd voor Facebook!\n\nGa naar Facebook en plak (Ctrl+V) in een nieuw bericht.");
-      window.open('https://www.facebook.com/', '_blank');
+      alert("✅ Gekopieerd voor Facebook!\n\nGa naar Facebook en plak (Ctrl+V).");
+      window.open('https://www.facebook.com/sharer/sharer.php', '_blank');
     });
   }
 
   function copyUnicodeOnly() {
-    navigator.clipboard.writeText(input.value.trim()).then(() => alert("✅ Unicode gekopieerd!"));
+    let text = input.value.trim() + getSignature();
+    navigator.clipboard.writeText(text).then(() => {
+      alert("✅ Unicode versie (met opmaak + hash) gekopieerd!");
+    });
   }
 
-  function copyMarkdown() {
-    navigator.clipboard.writeText(input.value.trim()).then(() => alert("✅ Rauwe Markdown gekopieerd!"));
-  }
-
-  function copyForX() {
+   function copyForX() {
     let text = input.value.trim() + getSignature();
     navigator.clipboard.writeText(text).then(() => {
       alert("✅ Gekopieerd voor X!\n\nGa naar X en plak (Ctrl+V).");
-      window.open('https://x.com/', '_blank');
+      window.open('https://x.com/intent/post', '_blank');
     });
   }
 

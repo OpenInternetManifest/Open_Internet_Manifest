@@ -145,19 +145,25 @@
   padding-top: 25px;
   border-top: 1px solid #334155;
 }
+/* Toggle label tekst leesbaar maken */
 .toggle-label {
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #e2e8f0;
-  font-size: 1.15em;
+  color: #1e2937;           /* Donker, goed leesbaar op wit */
+  font-size: 1.1em;
+  font-weight: 500;
   cursor: pointer;
   user-select: none;
 }
+
 .toggle-label input[type="checkbox"] {
   accent-color: #22d3ee;
   width: 22px;
   height: 22px;
+}
+.toggle-label:hover {
+  color: #0f172a;
 }
 /* Knoppen */
 .copy-buttons {
