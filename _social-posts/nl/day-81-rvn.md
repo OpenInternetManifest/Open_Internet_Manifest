@@ -1,0 +1,83 @@
+---
+layout: social-posts
+lang: nl
+day: 81
+rvn_title: "Schijnvooruitgang: De grote samenvatting"
+rvn_teaser: "We zijn 11 dagen lang schijnvooruitgang langsgegaan. Wat is het patroon?"
+donation_link: ""
+donation_text: ""
+fuzzy_sha256: ""
+git_commit_hash: ""
+git_commit_url: ""
+git_commit_date: ""
+---
+
+
+**Schijnvooruitgang – Dag 38: De grote samenvatting** 🔄
+
+**Dit was de serie**
+
+We hebben de afgelopen dagen een aantal heilige huisjes onder de loep genomen:
+
+- Leasing → je bezit niks meer, je least alleen  
+- Warmtepompen → dure, complexe afhankelijkheid met een groen jasje  
+- Elektrische auto’s → van olie- naar batterij- en netafhankelijkheid  
+- De 15-minutenstad → je leven in een klein, bestuurd hokje  
+- Alles als abonnement → je wordt een betalende gebruiker  
+- Cashloze samenleving → totale traceerbaarheid en programmeerbaar geld  
+- Feminisme → bevrijding die leidde tot lagere geboortes en meer pillen  
+- Jeugdzorg → een industrie die groeit naarmate ze faalt  
+- Landbouw & stikstof → de systematische vernietiging van de boerenstand  
+- Middenstand tijdens en na corona → de grootste slachting van kleine zelfstandigen in decennia
+
+**Het patroon is kristalhelder**
+
+Telkens hetzelfde recept:
+
+1. **Probleem creëren of overdrijven** (stikstof, corona, klimaat, inclusiviteit)  
+2. **Oplossing aanbieden** die complexer, duurder en afhankelijker maakt  
+3. **Zelfstandige mensen uitschakelen** (boeren, winkeliers, horeca, zzp’ers)  
+4. **Macht centraliseren** bij overheid, banken en grote bedrijven  
+5. **Kritiek criminaliseren** als “extreem-rechts”, “complotdenker” of “gevaar voor de democratie”
+
+**Het ultieme bewijs**  
+Tijdens corona werden kleine winkels, horeca en zelfstandigen massaal kapotgemaakt door lockdowns, terwijl grote ketens en webshops floreerden.  
+Nu worden de boeren via stikstof aangepakt.  
+Het patroon is hetzelfde: **zelfstandige, onafhankelijke mensen** worden systematisch uitgeschakeld.  
+
+Zowel boeren als middenstanders zijn te eigenzinnig, te productief en te weinig afhankelijk van de staat. Dat moet kapot. Precies zoals dictators door de geschiedenis heen altijd als eerste de boeren en de middenstand aanpakken.
+
+**De OIM-uitweg**
+
+We bouwen niet mee aan dit systeem.  
+We bouwen er parallel aan:
+
+- Eigenaarschap in plaats van abonnementen  
+- Decentralisatie in plaats van centralisatie  
+- Verifieerbaarheid in plaats van blind vertrouwen  
+- Lokale, kleine structuren in plaats van kwetsbare megasystemen  
+- Echte vrijheid in plaats van geprogrammeerde afhankelijkheid
+
+De serie is klaar, maar het werk begint nu pas.
+
+We gaan door.  
+Niet met klagen over het systeem.  
+Maar met het bouwen van een alternatief.
+
+---
+
+Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+
+Probeer hem gerust uit:  
+https://openinternetmanifest.org/nl/nexus-quick-post
+
+**Vraag aan jou**  
+Zie jij het patroon?  
+En belangrijker: ga je mee bouwen aan iets beters?
+
+#Schijnvooruitgang #Boeren #Middenstand #Corona #Stikstof #Onafhankelijkheid #OpenInternetManifest
+
+---
+
+Deze post is 100% authentiek en verifieerbaar via:  
+https://openinternetmanifest.org/nl/hash-verifier
