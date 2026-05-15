@@ -65,7 +65,7 @@ slug: nexus-quick-post
   };
 
   function showEmojiMenu() {
-    const emoji = prompt("Emoji:", "😊");
+    const emoji = prompt("Emoji (bijv. 🔥):", "😊");
     if (emoji) insertAtCursor(emoji + " ");
   }
 
@@ -78,7 +78,6 @@ slug: nexus-quick-post
     return `\n\n────────────────────────────\n#OIM • Nexus Quick Post\nGeverifieerd via openinternetmanifest.org\nSHA256: demo-hash...`;
   }
 
-  // ==================== COPY FUNCTIONS ====================
   function copyForFacebook() {
     let text = input.value.trim() + getSignature();
     navigator.clipboard.writeText(text).then(() => {
