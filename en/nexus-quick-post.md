@@ -9,7 +9,7 @@ slug: nexus-quick-post
   <header class="quick-post-header">
     <h1>Nexus Quick Post</h1>
     <p class="subtitle">Create a beautiful post with Unicode formatting + automatic hash verification</p>
-    <div class="powered-by">Powered by OIM × Nexus</div>
+    <div class="powered-by">Powered by OIM ╳ Nexus</div>
   </header>
 
   <div class="editor-split">
@@ -40,9 +40,18 @@ slug: nexus-quick-post
   </div>
 
   <div class="actions-bar">
-    <button onclick="generateHashAndSignature()" class="btn-primary">🔐 Generate Hash + Signature</button>
-    <button onclick="copyForFacebook()" class="btn-secondary">📋 Copy for Facebook</button>
+  <label class="toggle-label">
+    <input type="checkbox" id="include-hash" checked>
+    <span>Include Hash + Signature</span>
+  </label>
+
+  <div class="copy-buttons">
+    <button onclick="copyForFacebook()" class="btn-facebook">📘 Facebook</button>
+    <button onclick="copyUnicodeOnly()" class="btn-secondary">🔄 Unicode</button>
+    <button onclick="copyMarkdown()" class="btn-secondary">📄 Markdown</button>
+    <button onclick="copyForX()" class="btn-secondary">𝕏 X/Twitter</button>
   </div>
+</div>
 
   <div id="result" class="result-area"></div>
 </div>
@@ -52,51 +61,98 @@ slug: nexus-quick-post
   const preview = document.getElementById('fb-preview');
 
   // Toolbar functions
-  function formatBold() {
-    insertAtCursor('**', '**');
-  }
-
-  function formatItalic() {
-    insertAtCursor('*', '*');
-  }
-
-  function formatH3() {
-    insertAtCursor('### ', '');
-  }
-
-  function formatH4() {
-    insertAtCursor('#### ', '');
-  }
-
-  function insertQuote() {
-    insertAtCursor('> ', '');
-  }
-
+  function formatBold() { insertAtCursor('**', '**'); }
+  function formatItalic() { insertAtCursor('*', '*'); }
+  function formatH3() { insertAtCursor('### ', ''); }
+  function formatH4() { insertAtCursor('#### ', ''); }
+  function insertQuote() { insertAtCursor('> ', ''); }
   function insertLink() {
     const url = prompt("Link URL:");
     if (url) insertAtCursor('[Text]', '(' + url + ')');
   }
+  function insertCode() { insertAtCursor('`', '`'); }
 
-  function insertCode() {
-    insertAtCursor('`', '`');
+ // ==================== MODAL SYSTEM (werkende versie + titel fix) ====================
+function showModal(title, contentHTML) {
+  console.log("Modal geopend met titel:", title);
+
+  let modal = document.getElementById('nexus-modal');
+  
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'nexus-modal';
+    modal.style.cssText = `
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+      background: rgba(0,0,0,0.9); z-index: 99999; 
+      display: flex; align-items: center; justify-content: center;
+    `;
+    modal.innerHTML = `
+      <div style="background:#1e2937; padding:25px; border-radius:16px; max-width:560px; width:94%; 
+                  box-shadow:0 10px 40px rgba(0,0,0,0.8); color:white;">
+        <div id="modal-header" style="color:#67e8f9; font-size:1.4em; text-align:center; margin-bottom:20px;"></div>
+        <div id="modal-body" style="max-height:60vh; overflow-y:auto;"></div>
+        <button onclick="closeModal()" style="margin-top:20px; width:100%; padding:14px; background:#334155; border:none; border-radius:12px; color:white; font-size:1.1em;">Sluiten</button>
+      </div>`;
+    document.body.appendChild(modal);
   }
 
-   function showListMenu() {
-    const message = `Choose list type (type number):\n\n` +
-                    `1. Numbered (1. 2. 3.)\n` +
-                    `2. Bullet (-)\n` +
-                    `3. Sub-bullet (  - )\n\n` +
-                    `Type 1, 2 or 3:`;
+  // Titel altijd updaten
+  document.getElementById('modal-header').textContent = title;
+  
+  // Content updaten
+  document.getElementById('modal-body').innerHTML = contentHTML;
+  
+  modal.style.display = 'flex';
+}
 
-    const choice = prompt(message, "1");
-    if (choice === "1") insertAtCursor('\n1. ', '');
-    else if (choice === "2") insertAtCursor('\n- ', '');
-    else if (choice === "3") insertAtCursor('\n  - ', '');
+function closeModal() {
+  const modal = document.getElementById('nexus-modal');
+  if (modal) modal.style.display = 'none';
+}
+
+  // ==================== EMOJI PICKER ====================
+  function showEmojiMenu() {
+    const emojis = [
+       '😊','🙂','😌','😉','😎','🤓','🥳','🎉','🔥','💡','🚀','🌍','🛡️','🕊️',
+    '👍','❤️','💙','💚','💜','🤍','👏','🙌','💪','🧠','📖','🔗','⚡','🌱',
+    '📌','✅','❌','❗','❓','💭','💬','🗣️','👥','🤝','🏛️','⚖️','📊','📈',
+    '😂','😍','😢','😠','🤔','🤯','🥺','🙏','✨','⭐','🌟','🏆','🎯','♻️',
+    '📜','🔦','☀️','🌙','⚡','🔋','📱','💻','🖥️','📚','🏅','🧩','💰','🌍',
+    '🗽','⚖️','🔍','🕵️','🧭','🏛️','📜','🛡️','🌐','🔬','📡','🛰️','📻','📢',
+    '🗝️','🔑','🗳️','🕊️','🌿','🌳','🏔️','🏠','🛠️','🔨','📝','✍️','📋','📌',
+    '⏳','⌛','🔄','♾️','🧬','🧪','🧬','🧩','🧠','📊','📉','📈','💾','☁️'
+     ];
+
+    let html = '<div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; font-size: 2.1em; padding: 20px 10px;">';
+    emojis.forEach(emoji => {
+      html += `<span onclick="insertAtCursor('${emoji}', ''); closeModal();" style="cursor:pointer; padding:10px; text-align:center;">${emoji}</span>`;
+    });
+    html += '</div>';
+
+    showModal('Choose an emoji', html);
   }
+
+  // ==================== LIST PICKER ====================
+  function showListMenu() {
+    const html = `
+      <div style="display:flex; flex-direction:column; gap:14px; padding:20px;">
+        <button onclick="insertAtCursor('\\n1. ', ''); closeModal()" style="padding:18px; font-size:1.1em; background:#334155; color:white; border:none; border-radius:12px;">1. Numbered list</button>
+        <button onclick="insertAtCursor('\\n- ', ''); closeModal()" style="padding:18px; font-size:1.1em; background:#334155; color:white; border:none; border-radius:12px;">2. Bullet list (-)</button>
+        <button onclick="insertAtCursor('\\n  - ', ''); closeModal()" style="padding:18px; font-size:1.1em; background:#334155; color:white; border:none; border-radius:12px;">3. Sub-bullet list</button>
+      </div>`;
+
+    showModal('Choose list type', html);
+  }
+
+  window.insertListType = function(type) {
+    if (type === 1) insertAtCursor('\n1. ', '');
+    else if (type === 2) insertAtCursor('\n- ', '');
+    else if (type === 3) insertAtCursor('\n  - ', '');
+  };
 
   let ignoreNextEnter = false;
 
-  // Auto-continue list on Enter
+  // Auto-continue lijst bij Enter (origineel behouden)
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       if (ignoreNextEnter) {
@@ -138,24 +194,6 @@ slug: nexus-quick-post
     }
   });
 
-  function showEmojiMenu() {
-    const commonEmojis = ['😊','👍','❤️','🔥','🚀','💡','🌍','🛡️','🎉','📌','✅','❌','😂','😍','🙌','⭐','🌟','💪','🧠','📖','🔗','⚡','🌱','🕊️'];
-    let message = "Choose emoji (type the number):\n\n";
-    commonEmojis.forEach((emoji, i) => {
-      message += `${i+1}. ${emoji}   `;
-      if ((i+1) % 6 === 0) message += "\n";
-    });
-    const choice = prompt(message, "");
-    if (choice) {
-      const index = parseInt(choice) - 1;
-      if (index >= 0 && index < commonEmojis.length) {
-        insertAtCursor(commonEmojis[index], '');
-      } else {
-        insertAtCursor(choice.trim(), '');
-      }
-    }
-  }
-
   function insertAtCursor(before, after) {
     const start = input.selectionStart;
     const end = input.selectionEnd;
@@ -170,9 +208,9 @@ slug: nexus-quick-post
   }
 
   function updatePreview() {
-    let text = input.value || "Your post appears here...";
+    let text = input.value || "Je post verschijnt hier...";
 
-    // Bold + Italic
+    // Vet + Cursief
     text = text.replace(/\*\*(.+?)\*\*/g, (match, p1) => p1.split('').map(c => {
       const m = {'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢',
                  'j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫',
@@ -192,13 +230,21 @@ slug: nexus-quick-post
                  'S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡'};
       return m[c] || c;
     }).join(''));
-
+ 
+    // HTML voor preview
     let html = text
       .replace(/^#### (.*$)/gm, '<h4 style="color:#1e40af; border-bottom:1px solid #94a3b8; margin:1.2em 0 0.6em 0;">$1</h4>')
       .replace(/^### (.*$)/gm, '<h3 style="color:#1e40af; border-bottom:2px solid #22d3ee; margin:1.2em 0 0.6em 0;">$1</h3>')
       .replace(/^## (.*$)/gm, '<h2 style="color:#1e40af; margin:1.2em 0 0.6em 0;">$1</h2>')
       .replace(/^# (.*$)/gm, '<h1 style="color:#1e40af; margin:1.2em 0 0.6em 0;">$1</h1>')
-      .replace(/^> (.*$)/gm, '<blockquote style="border-left:4px solid #22d3ee; padding-left:1em; color:#334155; font-style:italic; margin:1em 0;">“$1”</blockquote>')
+
+      // Blockquote voor live preview
+      .replace(/<blockquote>([\s\S]*?)<\/blockquote>/gi, (match, content) => {
+        const lines = content.trim().split('\n').filter(line => line.trim() !== '');
+        return lines.map(line => `<span style="color:#22d3ee;">💬</span> <em>${line.trim()}</em>`).join('<br>');
+      })
+      .replace(/^>\s?(.*)$/gm, (match, p1) => `<span style="color:#22d3ee;">💬</span> <em>${p1.trim()}</em>`)
+
       .replace(/\[(.*?)\]\((.*?)\)/g, '$1 ($2)')
       .replace(/^---+$/gm, '<hr style="border:none; border-top:1px solid #cbd5e1; margin:1.5em 0;">')
       .replace(/\n/g, '<br>');
@@ -214,18 +260,17 @@ slug: nexus-quick-post
     input.style.height = input.scrollHeight + 'px';
   }
 
-  input.addEventListener('input', () => {
-    updatePreview();
-    autoResize();
-  });
+  input.addEventListener('input', autoResize);
+  autoResize();
 
   function copyForFacebook() {
+    // ... (jouw volledige copyForFacebook functie blijft ongewijzigd)
     let text = input.value.trim();
     if (!text) return;
 
-    // Bold + Italic
+    // Vet + Cursief (jouw code)
     text = text.replace(/\*\*(.+?)\*\*/g, (match, p1) => p1.split('').map(c => {
-      const m = {'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢',
+      const m =  {'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢',
                  'j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫',
                  's':'𝐬','t':'𝐭','u':'𝐮','v':'𝐯','w':'𝐰','x':'𝐱','y':'𝐲','z':'𝐳',
                  'A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈',
@@ -235,16 +280,17 @@ slug: nexus-quick-post
     }).join(''));
 
     text = text.replace(/\*(.+?)\*/g, (match, p1) => p1.split('').map(c => {
-      const m = {'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪',
+      const m =  {'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪',
                  'j':'𝘫','k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳',
                  's':'𝘴','t':'𝘵','u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻',
                  'A':'𝘈','B':'𝘉','C':'𝘊','D':'𝘋','E':'𝘌','F':'𝘍','G':'𝘎','H':'𝘏','I':'𝘐',
                  'J':'𝘑','K':'𝘒','L':'𝘓','M':'𝘔','N':'𝘕','O':'𝘖','P':'𝘗','Q':'𝘘','R':'𝘙',
                  'S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡'};
+
       return m[c] || c;
     }).join(''));
 
-    // H3 and H4 bold + subtle line
+    // H3 en H4 vet + subtiele streep
     text = text
       .replace(/^#### (.*$)/gm, (match, p1) => {
         const bold = p1.split('').map(c => {
@@ -271,9 +317,33 @@ slug: nexus-quick-post
         return bold + '\n──────────────';
       });
 
-  // Quote with quotes + italic
-  text = text.replace(/^> (.*$)/gm, (match, p1) => {
-    const italic = p1.split('').map(c => {
+  // ==================== BLOCKQUOTE / CITATEN (schoon) ====================
+  // Verwijder eerst alle oude quotes die misschien al bestaan
+  text = text.replace(/[“”"]/g, '');
+
+  // <blockquote> tags
+  text = text.replace(/<blockquote>([\s\S]*?)<\/blockquote>/gi, (match, content) => {
+    const lines = content.trim().split('\n');
+    const formatted = lines.map(line => {
+      if (!line.trim()) return '';
+      const italic = line.trim().split('').map(c => {
+        const m = {'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪',
+                   'j':'𝘫','k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳',
+                   's':'𝘴','t':'𝘵','u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻',
+                   'A':'𝘈','B':'𝘉','C':'𝘊','D':'𝘋','E':'𝘌','F':'𝘍','G':'𝘎','H':'𝘏','I':'𝘐',
+                   'J':'𝘑','K':'𝘒','L':'𝘓','M':'𝘔','N':'𝘕','O':'𝘖','P':'𝘗','Q':'𝘘','R':'𝘙',
+                   'S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡'};
+        return m[c] || c;
+      }).join('');
+      return `💬 ${italic}`;
+    }).filter(line => line !== '');
+
+    return formatted.join('\n');
+  });
+
+  // Gewone > blockquotes
+  text = text.replace(/^>\s?(.*)$/gm, (match, p1) => {
+    const italic = p1.trim().split('').map(c => {
       const m = {'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪',
                  'j':'𝘫','k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳',
                  's':'𝘴','t':'𝘵','u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻',
@@ -282,7 +352,7 @@ slug: nexus-quick-post
                  'S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡'};
       return m[c] || c;
     }).join('');
-    return '“' + italic + '”';
+    return `💬 ${italic}`;
   });
 
   // Inline code → typewriter
@@ -300,33 +370,20 @@ slug: nexus-quick-post
     return '`' + mono + '`';
   });
 
-  // Link with URL
+  // Link met URL
   text = text.replace(/\[(.*?)\]\((.*?)\)/g, '$1 ($2)');
 
-  // Horizontal line
+  // Horizontale lijn
   text = text.replace(/^---+$/gm, '────────────────────────────');
 
-  navigator.clipboard.writeText(text).then(() => {
-    const alertMsg = "✅ Copied for Facebook!\n\nClick OK to open Facebook.\nPaste the text there (Ctrl+V).";
-    if (confirm(alertMsg)) {
-      window.open('https://www.facebook.com/sharer/sharer.php', '_blank');
-    }
-  });
-}
-
-  updatePreview();
-
-  // Auto-resize textarea
-  function autoResize() {
-    input.style.height = 'auto';
-    input.style.height = input.scrollHeight + 'px';
+    navigator.clipboard.writeText(text).then(() => {
+      const alertMsg = "✅ Gekopieerd voor Facebook!\n\nKlik OK om Facebook te openen.\nPlak de tekst daar (Ctrl+V).";
+      if (confirm(alertMsg)) {
+        window.open('https://www.facebook.com/sharer/sharer.php', '_blank');
+      }
+    });
   }
 
-  input.addEventListener('input', () => {
-    updatePreview();
-    autoResize();
-  });
-
-  // Initial resize
+  updatePreview();
   autoResize();
 </script>

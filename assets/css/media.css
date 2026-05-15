@@ -375,3 +375,14 @@
     font-size: 1.8rem;
   }
 }
+/* Optioneel: nog bredere versie op grote schermen */
+@media (min-width: 600px) {
+  .modal-content {
+    max-width: 580px;
+  }
+  
+  .emoji-grid {
+    grid-template-columns: repeat(9, 1fr);
+    gap: 18px;
+  }
+}
