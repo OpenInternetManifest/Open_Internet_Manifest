@@ -6,10 +6,10 @@ rvn_title: "Schijnvooruitgang: De grote samenvatting"
 rvn_teaser: "We zijn 11 dagen lang schijnvooruitgang langsgegaan. Wat is het patroon?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "5e4eb1b8dc51c0fa5139d0750fd0c369ad296e6b711e58e0d2cc7c1acd77b08c"
+git_commit_hash: "34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
+git_commit_date: "2026-05-15T06:47:44+02:00"
 ---
 
 

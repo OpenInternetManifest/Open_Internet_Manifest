@@ -6,11 +6,11 @@ rvn_title: "Illusory Progress: The Grand Summary"
 rvn_teaser: "We’ve spent 11 days exposing illusory progress. What is the real pattern?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "cc8d6b6a34a769f1f5befef07097caa7b9b3fcb62dc9cf0a7c4b10bc29765242"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
+git_commit_date: "2026-05-15T06:47:44+02:00"
 ---
 
 
