@@ -6,11 +6,11 @@ rvn_title: "The Expats Are Good for the City"
 rvn_teaser: "The often overlooked layer that is draining the soul from our cities."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "e049bca4b58ba16b17fc75af6f4ef0ac05fd552543f6f98f79a33a134048b0ad"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
+git_commit_date: "2026-05-16T18:42:35+02:00"
 ---
 
 

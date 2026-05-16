@@ -6,10 +6,10 @@ rvn_title: "De expats zijn goed voor de stad"
 rvn_teaser: "De vaak vergeten laag die de ziel uit onze steden trekt."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "4d632381301a1f060684e9ad61fa48694c72917649252b5bd426f83590bf9939"
+git_commit_hash: "7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
+git_commit_date: "2026-05-16T18:42:35+02:00"
 ---
 
 
