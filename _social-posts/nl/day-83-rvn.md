@@ -6,10 +6,10 @@ rvn_title: "We hebben er geen last van"
 rvn_teaser: "De meest comfortabele leugen van dit moment."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "4bdf01d8fe9150102b2f5e6d8330921f34b3932b05b981b831f58e5339d3c427"
+git_commit_hash: "78f73f9852750f8614058f2529b241cfa127dc6f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/78f73f9852750f8614058f2529b241cfa127dc6f"
+git_commit_date: "2026-05-16T08:24:46+02:00"
 ---
 
 
