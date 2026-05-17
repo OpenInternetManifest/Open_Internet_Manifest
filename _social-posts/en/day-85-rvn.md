@@ -6,11 +6,11 @@ rvn_title: "The Dutchman Does Not Exist"
 rvn_teaser: "The ultimate rhetorical trick to make replacement possible."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "57454dd766323a0ea2817488d9342b31c9c0f4580e0f2d7bf5ade6af13d007bf"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "f21a704c71faf1927ffee49cb6b511becac63e56"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f21a704c71faf1927ffee49cb6b511becac63e56"
+git_commit_date: "2026-05-17T08:23:28+02:00"
 ---
 
 
