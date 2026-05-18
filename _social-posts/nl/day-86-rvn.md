@@ -6,10 +6,10 @@ rvn_title: "Rusland zit achter de anti-AZC demonstraties"
 rvn_teaser: "De Nederlandse versie van de ‘Russia Russia Hoax"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "85159f8fb5936b6d412f9d2b418f696a86d8fbf78c8c55e0c8b4681642163341"
+git_commit_hash: "53778d662f8d91eddd7458932d329e9037c3c2bc"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/53778d662f8d91eddd7458932d329e9037c3c2bc"
+git_commit_date: "2026-05-18T06:38:58+02:00"
 ---
 
 
