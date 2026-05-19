@@ -6,10 +6,10 @@ rvn_title: "January 6 was an armed insurrection"
 rvn_teaser: "De meest succesvolle framing-operatie van de 21e eeuw."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "1b85de2d5c56d2274e0f1212463c6e598b8970fba528195a361c0b4da31feae1"
+git_commit_hash: "798f2e539644016d87b28fc4b32712f72f86abea"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/798f2e539644016d87b28fc4b32712f72f86abea"
+git_commit_date: "2026-05-19T06:32:07+02:00"
 ---
 
 
