@@ -6,10 +6,10 @@ rvn_title: "De Romeo’s en andere provocateurs"
 rvn_teaser: "De Nederlandse variant van infiltratie en uitlokking"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "c4a7296df4fa7382b63b12ba3d408a77eeaf7395ceb1df9a6bda1d6f9d352c3e"
+git_commit_hash: "5c3ad80ecbea8043408e08f828050216ab7a7c41"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/5c3ad80ecbea8043408e08f828050216ab7a7c41"
+git_commit_date: "2026-05-20T06:29:33+02:00"
 ---
 
 
