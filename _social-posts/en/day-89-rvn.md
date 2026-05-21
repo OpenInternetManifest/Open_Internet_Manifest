@@ -6,11 +6,11 @@ rvn_title: "Why Does It Always Hit Only One Side?"
 rvn_teaser: "The pattern that explains everything."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "a50dd59da02fd8bd363f0eeefc1d649c846f63859e3638c297abbd4f73bdf837"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "2c92a97b6d84f1c96ab62ae2f2468f628574fdbf"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2c92a97b6d84f1c96ab62ae2f2468f628574fdbf"
+git_commit_date: "2026-05-21T06:43:18+02:00"
 ---
 
 
