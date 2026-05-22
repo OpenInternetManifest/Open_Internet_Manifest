@@ -6,11 +6,11 @@ rvn_title: "27 Crew Members Arrested on Disney Ships for Child Pornography"
 rvn_teaser: "The magical world of Disney has a very dark underbelly."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "a795f4282dead2ef82e03903dd049553121d79913b5e0bf6359be5c857d32e67"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "a160238f0dad0d57f4ba8243b33f6d51c838aab1"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a160238f0dad0d57f4ba8243b33f6d51c838aab1"
+git_commit_date: "2026-05-22T07:31:27+02:00"
 ---
 
 
