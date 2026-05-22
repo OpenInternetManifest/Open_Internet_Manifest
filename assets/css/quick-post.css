@@ -118,15 +118,17 @@
 
   .facebook-preview-box h3 {
     color: #1e40af;
-    border-bottom: 2px solid #22d3ee;
-    margin: 1.2em 0 0.6em 0;
-  }
+    margin: 1.8em 0 0.6em 0;
+    font-weight: 700;
+    border-bottom: none !important;
+}
 
-  .facebook-preview-box h4 {
+.facebook-preview-box h4 {
     color: #1e40af;
-    border-bottom: 1px solid #94a3b8;
-    margin: 1.2em 0 0.6em 0;
-  }
+    margin: 1.5em 0 0.5em 0;
+    font-weight: 700;
+    border-bottom: none !important;
+}
 
   .facebook-preview-box blockquote {
     border-left: 4px solid #22d3ee;
@@ -165,40 +167,143 @@
 .toggle-label:hover {
   color: #0f172a;
 }
-/* Knoppen */
+/* ==========================================================================
+   COPY BUTTONS (Facebook, Unicode, X)
+   ========================================================================== */
+
 .copy-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  margin-top: 16px;
 }
+
 .copy-buttons button {
-  padding: 14px 24px;
-  font-size: 1.1em;
+  padding: 14px 20px;
+  font-size: 1.05em;
   font-weight: 600;
   border: none;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.25s ease;
   min-width: 160px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  flex: 1;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
+/* Facebook - herkenbaar blauw */
 .btn-facebook {
-  background: linear-gradient(90deg, #1877f2, #22d3ee);
+  background: linear-gradient(90deg, #1877f2, #1e9bff);
   color: white;
 }
 
 .btn-facebook:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(34, 211, 238, 0.5);
+  box-shadow: 0 8px 25px rgba(24, 119, 242, 0.5);
 }
 
-.btn-secondary {
-  background: #334155;
-  color: #e2e8f0;
+/* Unicode + Signature - donkere Nexus kleur */
+.btn-unicode {
+  background: linear-gradient(90deg, #1e40af, #22d3ee);
+  color: white;
 }
 
-.btn-secondary:hover {
-  background: #475569;
+.btn-unicode:hover {
   transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(34, 211, 238, 0.4);
+}
+
+/* X/Twitter - donker, maar met lichte X-accent */
+.btn-x {
+  background: linear-gradient(90deg, #0f172a, #1e2937);
+  color: white;
+}
+
+.btn-x:hover {
+  background: #1e2937;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.6);
+}
+
+/* Unicode zonder signature - lichtere variant */
+.btn-unicode-no-sig {
+  background: #475569;
+  color: white;
+}
+
+.btn-unicode-no-sig:hover {
+  background: #64748b;
+  transform: translateY(-3px);
+}
+/* HASH + SIGNATURE BOX */
+.hash-box {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f8fafc;
+  border: 2px solid #67e8f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(103, 232, 249, 0.15);
+}
+
+.hash-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #1e2937;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.hash-toggle input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #22d3ee;
+}
+
+.hash-content {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-top: 8px;
+}
+
+.hash-content strong {
+  color: #1e2937;           /* donkere tekst */
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hash-value {
+  display: block;
+  font-family: monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+  word-break: break-all;
+  color: #1e40af;
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.btn-copy-signature {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #22d3ee, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.2s;
+}
+
+.btn-copy-signature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(34, 211, 238, 0.4);
 }

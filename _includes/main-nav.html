@@ -1,0 +1,75 @@
+<!-- _includes/main-nav.html -->
+<nav class="main-nav">
+  <div class="nav-container">
+    <!-- Terug knop -->
+    <a href="javascript:history.back()" class="nav-back" aria-label="{% if current_lang == 'en' %}Back{% else %}Terug{% endif %}">
+      ← {% if current_lang == 'en' %}Back{% else %}Terug{% endif %}
+    </a>
+
+    <div class="nav-logo-wrapper">
+      <a href="{{ site.baseurl }}/" class="nav-logo">#OIM</a>
+      <span class="visitor-counter" title="{% if current_lang == 'en' %}Visitors since launch{% else %}Bezoekers sinds lancering{% endif %}">
+        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="{% if current_lang == 'en' %}Visitor counter{% else %}Bezoekers teller{% endif %}" style="border:none; height:1.8em !important; margin-left:0.8em;">
+      </span>
+    </div>
+
+    <!-- Desktop navigation -->
+    <div class="nav-links desktop-only">
+      {% assign lang = page.lang | default: 'nl' | downcase %}
+
+      <!-- Manifest -->
+      <div class="nav-item has-dropdown">
+        <a href="{{ site.baseurl }}/{{ lang }}/manifest" class="nav-link">Manifest</a>
+        <div class="dropdown-menu">
+          <a href="{{ site.baseurl }}/{{ lang }}/manifest">Alle Theses</a>
+          <a href="{{ site.baseurl }}/{{ lang }}/accu-manifest" class="highlight">Hoe het begon – Accu-Manifest ⚡</a>
+        </div>
+      </div>
+
+      <!-- Guides -->
+      <a href="{{ site.baseurl }}/{{ lang }}/guides" class="nav-link">Guides</a>
+
+      <!-- RVN -->
+      <a href="{{ site.baseurl }}/{{ lang }}/social-posts" class="nav-link">RVN</a>
+
+      <!-- Nexus (nieuw!) -->
+      <a href="{{ site.baseurl }}/{{ lang }}/nexus" class="nav-link">Nexus</a>
+
+      <!-- Over -->
+      <div class="nav-item has-dropdown">
+        <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}about{% else %}over{% endif %}" class="nav-link">Over</a>
+        <div class="dropdown-menu">
+          <a href="{{ site.baseurl }}/{{ lang }}/accu-manifest">Hoe het begon ⚡</a>
+          <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}about{% else %}over{% endif %}">Over ons</a>
+          <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}mission-vision{% else %}missie-visie{% endif %}">Missie & Visie</a>
+          <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}contact{% else %}contact{% endif %}">Contact & Meedoen</a>
+        </div>
+      </div>
+
+      <!-- Verifier -->
+      <a href="{{ site.baseurl }}/{{ lang }}/hash-verifier" class="nav-link">Verifier</a>
+
+      <!-- Home -->
+      <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="nav-toggle-wrapper">
+      <button class="nav-toggle" aria-label="{% if current_lang == 'en' %}Open menu{% else %}Menu openen{% endif %}">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      {% assign lang = page.lang | default: 'nl' | downcase %}
+      <a href="{{ site.baseurl }}/{{ lang }}/manifest">Manifest</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/guides">Guides</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/social-posts">RVN</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/nexus">Nexus</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/{% if lang == 'en' %}about{% else %}over{% endif %}">Over</a>
+      <a href="{{ site.baseurl }}/{{ lang }}/hash-verifier">Verifier</a>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </div>
+  </div>
+</nav>
