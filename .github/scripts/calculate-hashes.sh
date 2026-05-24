@@ -1,5 +1,5 @@
 #!/bin/bash
-# calculate-hashes.sh - Volledige automatische hash + raw_markdown handling
+# calculate-hashes.sh - Verbeterde versie voor nieuwe + bestaande posts
 
 FILE="$1"
 
@@ -10,7 +10,7 @@ fi
 
 echo "=== Processing $FILE ==="
 
-# Extract body (na de eerste twee ---)
+# Extract body
 raw_body=$(awk '
   BEGIN { in_body = 0 }
   /^---$/ {
@@ -24,53 +24,47 @@ if [ ${#raw_body} -lt 100 ]; then
   raw_body=$(sed -n '/^---$/,/^---$/!p' "$FILE" | sed '/^---$/d')
 fi
 
-# 1. Zorg dat raw_markdown bestaat
-if ! grep -q "raw_markdown:" "$FILE"; then
-  echo "→ Generating raw_markdown..."
-  # Escape voor YAML block scalar
-  escaped_body=$(echo "$raw_body" | sed 's/^/  /')  # 2 spaties indent
-  sed -i "/^---$/ {N; s/^\(---\)\n/\1\nraw_markdown: |\n$escaped_body\n/}" "$FILE"
+# 1. Generate raw_markdown if missing
+if ! grep -q "^raw_markdown:" "$FILE"; then
+  echo "→ Generating raw_markdown for new post..."
+  # Indent with 2 spaces for YAML block scalar
+  indented_body=$(echo "$raw_body" | sed 's/^/  /')
+  # Insert after the opening --- block
+  sed -i "/^---$/ {N; s/^\(---\)\n/\1\nraw_markdown: |\n$indented_body\n/}" "$FILE"
 fi
 
-# 2. Bereken hashes met nieuwe clean functie
+# 2. Calculate hashes
 fuzzy_body=$(python3 tools/fuzzy_clean.py <<< "$raw_body")
 fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk '{print $1}')
 
-full_sha256=$(python3 -c "
-import hashlib
-import re
-import sys
+full_sha256=$(python3 -c '
+import hashlib, re, sys
 text = sys.stdin.read()
-# Extract raw_markdown if present, else use body
-match = re.search(r'raw_markdown:\s*\|\s*\n((?:[ \t].*?\n?)+?)(?=\n[^\s]|\Z)', text, re.MULTILINE)
-if match:
-    raw = match.group(1).rstrip('\n')
-else:
-    raw = text
-print(hashlib.sha256(raw.encode('utf-8')).hexdigest())
-" < "$FILE")
+match = re.search(r"raw_markdown:\s*\|\s*\n((?:[ \t].*?\n?)+?)(?=\n[^\s]|\Z)", text, re.MULTILINE)
+raw = match.group(1).rstrip("\n") if match else text
+print(hashlib.sha256(raw.encode("utf-8")).hexdigest())
+' < "$FILE")
 
-# 3. Update official-clean-texts.js
+# 3. Update clean texts
 python3 tools/update-clean-texts.py "$FILE" "$fuzzy_body"
 
 # 4. Update frontmatter
-python3 -c "
+python3 -c '
 import re, sys
-file = sys.argv[1]
-fuzzy = sys.argv[2]
-full = sys.argv[3]
-with open(file, 'r', encoding='utf-8') as f:
+file, fuzzy, full = sys.argv[1:]
+with open(file, "r", encoding="utf-8") as f:
     content = f.read()
 
-content = re.sub(r'fuzzy_sha256:.*', f'fuzzy_sha256: \"{fuzzy}\"', content)
-content = re.sub(r'full_sha256:.*', f'full_sha256: \"{full}\"', content)
+content = re.sub(r"fuzzy_sha256:\s*\".*?\"", f"fuzzy_sha256: \"{fuzzy}\"", content)
+content = re.sub(r"full_sha256:\s*\".*?\"", f"full_sha256: \"{full}\"", content)
 
-if 'full_sha256:' not in content:
-    content = re.sub(r'(fuzzy_sha256:.*?\n)', rf'\1full_sha256: \"{full}\"\n', content)
+if "full_sha256:" not in content:
+    content = re.sub(r"(fuzzy_sha256:.*?\n)", rf"\1full_sha256: \"{full}\"\n", content)
 
-with open(file, 'w', encoding='utf-8') as f:
+with open(file, "w", encoding="utf-8") as f:
     f.write(content)
-" "$FILE" "$fuzzy_sha256" "$full_sha256"
+' "$FILE" "$fuzzy_sha256" "$full_sha256"
 
-echo "✅ Done: fuzzy = $fuzzy_sha256"
-echo "✅ Done: full  = $full_sha256"
+echo "✅ Done: $FILE"
+echo "   fuzzy = $fuzzy_sha256"
+echo "   full  = $full_sha256"
