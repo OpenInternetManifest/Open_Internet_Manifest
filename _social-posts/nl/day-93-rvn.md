@@ -6,14 +6,15 @@ rvn_title: "Pinksteren – De Geest die grenzen doorbreekt"
 rvn_teaser: "Van vervulling naar een wereldwijde beweging"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
+fuzzy_sha256: "d4924a6f82c86fe3696144734a34f39c614889fa807bab210394f90ea9bf7c5a"
+full_sha256: "ebaa6bdb0198f52641ee4753a987df55a06e999e0cb6aa562d270e6b0bc4a26c"
 git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
 ---
 
 
-**RVN: “Pinksteren – De Geest die grenzen doorbreekt”** 🌀
+### RVN: “Pinksteren – De Geest die grenzen doorbreekt”🌀
 
 **Narratief:**  
 Pinksteren is het moment waarop het christendom een aparte religie werd, los van het Jodendom. De Heilige Geest kwam om een nieuwe kerk te stichten, los van de oude wet en tradities.
