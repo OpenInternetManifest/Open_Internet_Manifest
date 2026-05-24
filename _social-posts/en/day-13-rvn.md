@@ -9,8 +9,20 @@ day: 13
 rvn_title: Fluoride; the narrative finally cracking
 # rvn_url: /en/social-posts/day-13-rvn
 rvn_teaser: For decades fluoride in water is safe
-fuzzy_sha256: "6db24bfa35875604417741eac133ad83735c0f6639be62c75125fb8c4086a978"
+fuzzy_sha256: "88ebff64a4557d8fac235f45e5bc529a45b4489a2d1461c4fe43b1f537811f16"
+full_sha256: "dada29ef3156472c104afe714348a15f0bd9de10f94489df76ad939acd22a421"
+raw_markdown: |
+  **Reality vs Narrative** – Fluoride: the narrative finally cracking 🦷☢️
+  For decades: "fluoride in water is safe and good for teeth". Standard in US public systems, pushed by CDC, ADA, WHO. Criticism? "Conspiracy theorists", "anti-science".
+  Yesterday (Jan 20, 2026): RFK Jr. announces Trump White House will advise all US water systems to remove fluoride. Reason: industrial waste linked to arthritis, bone fractures, bone cancer, IQ loss, neurodevelopmental disorders, thyroid disease.
+  Reality: not conspiracy anymore – studies pile up (Harvard, NIH, Lancet), but narrative held because it was cheap and protected industry. Trump/RFK now break it head-on: "Make America Healthy Again".
+  In NL: fluoride in toothpaste and some water supplies. Same pattern: "safe" until undeniable.
+  Open Internet Manifest wants no centralized health narratives dictating what goes in our bodies. A web without monopoly on "science", without hidden interests shaping lives.
+  Join: https://openinternetmanifest.org
+  #RealityVsNarrative #OIM #Fluoride #MakeAmericaHealthyAgain #NoNarrativeMonopoly
+
 ---
+
 **Reality vs Narrative** – Fluoride: the narrative finally cracking 🦷☢️
 For decades: "fluoride in water is safe and good for teeth". Standard in US public systems, pushed by CDC, ADA, WHO. Criticism? "Conspiracy theorists", "anti-science".
 Yesterday (Jan 20, 2026): RFK Jr. announces Trump White House will advise all US water systems to remove fluoride. Reason: industrial waste linked to arthritis, bone fractures, bone cancer, IQ loss, neurodevelopmental disorders, thyroid disease.

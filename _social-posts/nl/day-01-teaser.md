@@ -9,7 +9,32 @@ day: 1
 teaser_title: Het begin van iets groots
 # teaser_url: /nl/social-posts/dag-1-teaser
 teaser_text: ''
+raw_markdown: |
+  🇳🇱 Dag 1 – Het begin van iets groots  
+  Begin december 2025 ontstond een droom: een internet dat weer van ons is.  
+  Geen gatekeepers, geen surveillance, geen black-boxes.  
+  
+  Nu al 30 theses  –  en het groeit door jullie. 🚀 
+  
+   https://openinternetmanifest.org  
+  Kijk ook:  https://www.youtube.com/watch?v=lxEektSWfLw
+  
+  ---
+  
+  🇬🇧 Day 1 – The start of something big  
+  Started in December 2025: a dream of an internet that is ours again.  
+  No gatekeepers, no surveillance, no black boxes.  
+  
+  Already 30 theses  –  and it grows with you. 🚀
+  
+   https://openinternetmanifest.org  
+  #openinternetmanifest #FreeInternet  #decentralization #Cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
+  ❤️
+
+fuzzy_sha256: "d9e7d9448af0f02d311dbf46cc57e67d9acfe574e92a36cdf55c9c9e245302f7"
+full_sha256: "e209f5d6c5d4fe1f09232b8f566feb2ffa2eb18d92490b7ec972aee30e8b4de4"
 ---
+
 🇳🇱 Dag 1 – Het begin van iets groots  
 Begin december 2025 ontstond een droom: een internet dat weer van ons is.  
 Geen gatekeepers, geen surveillance, geen black-boxes.  

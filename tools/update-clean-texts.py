@@ -1,39 +1,43 @@
 #!/usr/bin/env python3
 import sys
-import json
-import re
+from hashlib import sha256
 from pathlib import Path
 
-def escape_for_js(text):
-    text = text.replace('\\', '\\\\')
-    text = text.replace('"', '\\"')
-    text = text.replace('\n', '\\n')
-    return text
+file_path = sys.argv[1]
+cleaned_text = sys.argv[2]
 
-def update_clean_texts(file_path, cleaned_text):
-    js_file = Path("static/js/official-clean-texts.js")
-    js_file.parent.mkdir(parents=True, exist_ok=True)
+fuzzy_sha256 = sha256(cleaned_text.encode('utf-8')).hexdigest()
 
-    if not js_file.exists():
-        js_file.write_text('// ==================== OFFICIAL CLEAN TEXTS ====================\n'
-                           '// Gegenereerd op: ' + __import__('datetime').datetime.now().strftime('%Y-%m-%d') + '\n\n'
-                           'window.officialCleanTexts = {\n};\n')
+# Frontmatter
+with open(file_path, 'r', encoding='utf-8') as f:
+    content = f.read()
 
-    content = js_file.read_text(encoding='utf-8')
+if 'fuzzy_sha256:' in content:
+    content = re.sub(r'fuzzy_sha256:\s*["\']?[^"\']*["\']?', f'fuzzy_sha256: "{fuzzy_sha256}"', content)
+else:
+    content = re.sub(r'(\n---\s*\n)', rf'\nfuzzy_sha256: "{fuzzy_sha256}"\n', content, count=1)
 
-    # Verwijder oude entry als die bestaat
-    content = re.sub(rf'"{re.escape(file_path)}":\s*".*?",?\s*', '', content, flags=re.DOTALL)
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(content)
 
-    # Voeg nieuwe entry toe (vóór de laatste })
-    new_entry = f'  "{file_path}": "{escape_for_js(cleaned_text)}",\n'
-    content = re.sub(r'(\s*)\};', r'\1' + new_entry + r'\1};', content)
+# JS append
+js_file = Path("static/js/official-clean-texts.js")
+js_content = js_file.read_text(encoding='utf-8')
 
-    js_file.write_text(content, encoding='utf-8')
-    print(f"✅ Updated clean text for {file_path} in official-clean-texts.js")
+# Hash
+if fuzzy_sha256 not in js_content:
+    js_content = js_content.replace(
+        'officialFuzzyHashes = {};',
+        f'officialFuzzyHashes = {{\n  "{fuzzy_sha256}": "{file_path}",\n}};'
+    )
 
-if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python update-clean-texts.py <file_path> <cleaned_text>")
-        sys.exit(1)
-    
-    update_clean_texts(sys.argv[1], sys.argv[2])
+# Clean text
+if str(file_path) not in js_content:
+    escaped = cleaned_text.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n')
+    js_content = js_content.replace(
+        'officialCleanTexts = {};',
+        f'officialCleanTexts = {{\n  "{file_path}": "{escaped}",\n}};'
+    )
+
+js_file.write_text(js_content, encoding='utf-8')
+print(f"Added {file_path}")

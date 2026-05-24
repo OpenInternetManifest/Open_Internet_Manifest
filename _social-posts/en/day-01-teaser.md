@@ -9,7 +9,19 @@ day: 1
 teaser_title:  The start
 # teaser_url: /en/social-posts/day-1-teaser
 teaser_text: Prep for the first full RVN – a dream of an internet that is ours again
+raw_markdown: |
+  🇬🇧 Day 1 – The start of something big  
+  Started in December 2025: a dream of an internet that is ours again.  
+  No gatekeepers, no surveillance, no black boxes.  
+  Already 30 theses  –  and it grows with you. 🚀
+   https://openinternetmanifest.org  
+  #openinternetmanifest #FreeInternet  #decentralization #Cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
+  ❤️
+
+fuzzy_sha256: "6ee2543217a96f8253dc8331c7a9e3a9a4e689ffb77ab15aa244c88261889fc0"
+full_sha256: "ba5b4ab02153b0c0cf2c6e50853db8492971236905a37e67ee8b6de3d358d9fd"
 ---
+
 🇬🇧 Day 1 – The start of something big  
 Started in December 2025: a dream of an internet that is ours again.  
 No gatekeepers, no surveillance, no black boxes.  

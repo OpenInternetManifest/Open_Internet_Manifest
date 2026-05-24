@@ -6,12 +6,72 @@ rvn_title: "Illusory Progress #6: Everything as a Subscription"
 rvn_teaser: "No more ownership, just monthly payments. Convenience above all… right?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "f11a2b7ea9333231f4b03c53f32bdd9f6c7f26a0742b4b70ebb97ec44cbe13b6"
+fuzzy_sha256: "3e59e41ce711f628dae60dfbf9509163daebaab6a11b949ebd17caf2ae51f6d8"
+full_sha256: "9d113a1da86c4b38e97d6ddca1f069080dbc90488abfbaef4822dc0bb43ad7b4"
 social_share_sha256: ""
 git_commit_hash: "a0dc538702626ac86762591c799dc93d58cb7e1d"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a0dc538702626ac86762591c799dc93d58cb7e1d"
 git_commit_date: "2026-05-10T08:00:27+02:00"
+raw_markdown: |
+  **Illusory Progress – Day 32: Everything as a Subscription** 📦
+  
+  **Short Recap of the Series**  
+  Day 2: Leasing – you no longer own anything, you just lease.  
+  Day 3: Heat pumps – expensive dependence with a green coat.  
+  Day 4: Electric cars – trading oil dependence for battery and grid dependence.  
+  Day 5: The 15-minute city – locking your life into a small, controlled box.
+  
+  **The Narrative**  
+  The subscription economy is the future.  
+  No big investments, low monthly fees, always the latest version, no hassle with maintenance or selling. Everything “as a service”. So easy and flexible!
+  
+  **The Reality – Multiple Layers**
+  
+  **Layer 1: You Own Nothing**  
+  Car, phone, software, tools, music, movies, furniture, heating, transport — everything becomes a subscription. At the end of the day you own nothing, only recurring costs.
+  
+  **Layer 2: More Expensive in the Long Run**  
+  What starts as a “low monthly fee” often ends up much more expensive than buying outright. Companies build in high margins, automatic price increases, and cancellation penalties.
+  
+  **Layer 3: Total Dependence**  
+  - Software that stops working when the subscription ends  
+  - Car that can be remotely disabled  
+  - Heating that shuts off if you don’t pay  
+  - Tools that stop functioning after 30 days
+  
+  **Layer 4: Your Data as the New Currency**  
+  Every subscription continuously collects data about your behavior. That data is sold or used to personalize prices (“you drive a lot, so you pay more”).
+  
+  **Layer 5: The Great Reset of Ownership**  
+  This is not just an economic trend — it is a cultural shift: from “I own” to “I may use as long as I pay.”  
+  The ultimate form of engineered dependence.
+  
+  **The OIM Way Out**  
+  Buy where possible and pay it off.  
+  Maintain things yourself or through independent parties.  
+  Refuse unnecessary subscriptions.  
+  Build real assets instead of monthly obligations.  
+  True freedom starts with ownership.
+  
+  ---
+  
+  You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
+  
+  Feel free to try it:  
+  https://openinternetmanifest.org/nl/nexus-quick-post
+  
+  **Question to you**  
+  Do you want a life in which you own nothing and must ask permission every month to keep using things, or do you want real independence?
+  
+  #IllusoryProgress #SubscriptionEconomy #Ownership #RealFreedom #ParasiticEconomy #OpenInternetManifest
+  
+  ---
+  
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
 ---
+
 
 
 **Illusory Progress – Day 32: Everything as a Subscription** 📦

@@ -9,8 +9,81 @@ donation_text: ""
 git_commit_hash: "3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_date: "2026-04-22T07:42:08+02:00"
-fuzzy_sha256: "1e173b9d9eaa484dd438e19e74efa9bfc7225559582ca048b6aa671bba4d8687"
+fuzzy_sha256: "8ca180bb62ff1588dfe2d4d90d121fa0dbb7cc8b356d1d4d0be74f97bc546fa4"
+full_sha256: "38105bf199c51ad4071cf9cdf81cba64a45db10bfcdee01bf0c55cfe0f7492dd"
+raw_markdown: |
+  **RVN: De goede Samaritaan die haast had** 🌀
+  
+  **Korte recap van de serie tot nu toe**
+  
+  In **Dag 2** zagen we hoe perceptie discriminatie kan creëren die er niet is (Dartmouth Scar). 🪞  
+  In **Dag 3** toonde Milgram hoe gewone mensen extreme dingen doen onder autoriteit. ⚡  
+  In **Dag 4** liet Stanford Prison zien hoe snel we ons aanpassen aan toebedeelde rollen. 🚪  
+  In **Dag 5** demonstreerde Asch hoe groepsdruk ons eigen waarnemingsvermogen uitschakelt. 👥  
+  In **Dag 6** ontdekten we dat observatie zelf realiteit kan veranderen (Hawthorne + Double Slit). 🔬  
+  In **Dag 7** liet Robbers Cave zien hoe razendsnel “Wij vs Zij”-denken gecreëerd kan worden. ⚔️  
+  In **Dag 8** toonde het Bystander Effect hoe verantwoordelijkheid verdunt naarmate er meer mensen aanwezig zijn.  
+  In **Dag 9** zagen we het False Consensus Effect: we overschatten systematisch hoe normaal onze eigen mening is.
+  
+  Vandaag kijken we naar een experiment dat laat zien hoe druk en haast zelfs moreel gedrag kunnen ondermijnen — zelfs bij mensen die er expliciet over nadenken.
+  
+  ---
+  
+  **Good Samaritan Experiment (Darley & Batson, 1973)**
+  
+  Theologiestudenten aan Princeton werden gevraagd een korte lezing te geven.  
+  De ene groep moest spreken over de gelijkenis van de Barmhartige Samaritaan (die een gewonde man helpt), de andere groep over iets neutraals.
+  
+  Onderweg naar de lezing kwamen ze een acteur tegen die zichtbaar hulp nodig had: hij zat in elkaar gezakt, kreunde en zag er slecht uit.
+  
+  **Resultaat:**
+  
+  - Van de studenten die **geen haast** hadden, hielp **63%**.
+  - Van de studenten die **wel haast** hadden (ze dachten dat ze te laat waren), hielp slechts **10%**.
+  
+  Zelfs degenen die op weg waren om te spreken over de Barmhartige Samaritaan, liepen in de meeste gevallen gewoon door als ze haast hadden.
+  
+  **Narratief:**  
+  “Goede mensen doen goede dingen. Mensen met een sterk moreel kompas helpen altijd.”
+  
+  **Realiteit:**  
+  Moreel gedrag wordt extreem sterk beïnvloed door **context en druk** (vooral tijdnood).  
+  Zelfs mensen die expliciet nadenken over compassie en hulpvaardigheid, laten het vaak afweten als ze haast hebben.
+  
+  **Hoe wordt dit vandaag gebruikt?**
+  
+  - In crisissituaties en mediadruk: mensen krijgen constant het gevoel dat ze “haast” hebben (nieuws, social media, werkdruk).
+  - Politieke en maatschappelijke campagnes: men roept op tot actie, maar creëert tegelijk zoveel ruis en urgentie dat mensen passief worden (“iemand anders doet het wel”).
+  - Bureaucratie en systemen: door alles complex en tijdrovend te maken, vermindert de bereidheid om moreel te handelen.
+  
+  **De OIM-les:**
+  
+  Moraal is niet alleen een kwestie van karakter.  
+  Het is ook een kwestie van omstandigheden.
+  
+  Als we willen dat mensen beter handelen, moeten we systemen bouwen die moreel gedrag makkelijker maken in plaats van moeilijker.
+  
+  Daarom is het zo belangrijk om parallelle structuren te creëren waarin mensen niet constant onder tijdsdruk en ruis staan, maar ruimte hebben om te doen wat juist is.
+  
+  Want als zelfs theologiestudenten die op weg zijn naar een lezing over de Barmhartige Samaritaan niet helpen omdat ze haast hebben…  
+  hoeveel gewone mensen laten dan kansen liggen om iets goeds te doen?
+  
+  Wat denk jij?  
+  Hoe vaak heb jij iets goeds niet gedaan omdat je “haast” had of dacht dat iemand anders het wel zou doen?
+  
+  En hoe kunnen we systemen bouwen waarin moreel handelen makkelijker wordt in plaats van moeilijker?
+  
+  Lees zelf. Check zelf. Maak tijd om te helpen.
+  
+  #RVN #GoodSamaritan #Haast #MoreelGedrag #Manipulatie #OpenInternetManifest
+  
+  https://openinternetmanifest.org
+  
+  Deze post is 100% authentiek en verifieerbaar via:  
+  https://openinternetmanifest.org/nl/hash-verifier
+
 ---
+
 **RVN: De goede Samaritaan die haast had** 🌀
 
 **Korte recap van de serie tot nu toe**

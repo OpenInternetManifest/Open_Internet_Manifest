@@ -9,8 +9,24 @@ day: 13
 rvn_title: Fluoride
 # rvn_url: /nl/social-posts/dag-13-rvn
 rvn_teaser: 'Het narratief dat eindelijk barst '
-fuzzy_sha256: "4fb1ae3d0ba30c11c9c750d048f48319dd7cb0e08e5c8ceb8894717c5f7bc45b"
+fuzzy_sha256: "50969a00380ee7cebd710f522600ed446105d29d57ecd6d58ca9e1d02b8cff3b"
+full_sha256: "e68fe2825dedf96c49efd41f48268374b301f91939c41242eff14f44c89591fb"
+raw_markdown: |
+  **Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   
+  Decennialang: "fluoride in drinkwater is veilig en goed voor tanden". Standaard in bijna alle US publieke systemen, gepusht door CDC, ADA en WHO. Kritiek? "Complotdenkers", "anti-science".
+  
+  Gisteren (20 jan 2026): RFK Jr. kondigt aan dat het Trump Witte Huis alle US waterbedrijven adviseert om fluoride te verwijderen. Reden: het is industrieel afval, gelinkt aan artritis, botbreuken, botkanker, IQ-verlies, neuro-ontwikkelingsstoornissen en schildklierproblemen.
+  
+  Realiteit: dit is geen complottheorie meer – studies stapelen zich op (Harvard, NIH, Lancet), maar het narratief hield stand omdat het goedkoop was en industrieën beschermde. Nu breekt Trump/RFK het frontaal: "Make America Healthy Again".
+  
+  Voor ons in NL: fluoride zit ook in veel tandpasta en soms in drinkwater (vooral in regio's). Hetzelfde patroon: "veilig" tot het niet meer te ontkennen valt.  
+  Open Internet Manifest wil geen gecentraliseerde gezondheidsnarratieven die ons voorschrijven wat we in ons lichaam stoppen. Een web zonder monopolie op "wetenschap", zonder verborgen belangen die levens beïnvloeden.
+  
+  Lees mee: https://openinternetmanifest.org
+  #RealiteitVsNarratief #OIM #Fluoride #MakeAmericaHealthyAgain #GeenNarratiefMonopolie
+
 ---
+
 **Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   
 Decennialang: "fluoride in drinkwater is veilig en goed voor tanden". Standaard in bijna alle US publieke systemen, gepusht door CDC, ADA en WHO. Kritiek? "Complotdenkers", "anti-science".
 

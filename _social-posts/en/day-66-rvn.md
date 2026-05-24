@@ -6,12 +6,61 @@ rvn_title: "Abiotic Oil – Is Oil Truly a Finite Fossil Fuel or a Regenerating 
 rvn_teaser: "Yesterday we looked at the game of sweet vs heavy oil and refining. Today we go one layer deeper."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "bc8b15da9bc7d8843ed32703de5ab970f63f0c651f281500c74ac8a0c5d31b2c"
+fuzzy_sha256: "a6653e2664cda1afed5f30d0e02eabd94ee487b2521fef42d9f637b137cce83e"
+full_sha256: "8fa19f5aaa88079a6f60e403cc48454b143c8637b4fdd258e959e2087395810d"
 social_share_sha256: ""
 git_commit_hash: "e7cc7d89a794fda561333ccdb2055b6b194cdb87"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7cc7d89a794fda561333ccdb2055b6b194cdb87"
 git_commit_date: "2026-04-30T07:34:13+02:00"
+raw_markdown: |
+  **RVN: Abiotic Oil – Is Oil Truly a Finite Fossil Fuel or a Regenerating Mineral?** 🛢️
+  
+  **Yesterday** we explored the asymmetric game of sweet versus heavy oil, refining capacity, and geopolitics — and why the price at the pump often has little to do with how much oil is physically in the ground.
+  
+  Today we go **one layer deeper**.
+  
+  **Narrative:**  
+  “Oil is a fossil fuel made from dinosaurs and plants. The reserves are running out. That’s why we must switch quickly.”
+  
+  **Reality – A Deeper Layer:**
+  
+  There has been a serious alternative theory for decades: the **Abiotic (Abiogenic) Oil Theory**.
+  
+  It proposes that oil is **not** (primarily) of biological origin, but is formed deep in the Earth from inorganic substances (methane, water, minerals) under extreme heat and pressure. Oil could therefore be a **naturally regenerating mineral**.
+  
+  **Sweet vs Heavy Oil in This Theory**
+  - **Light sweet oil** is thought to form at greater depths (often >10 km) under more extreme conditions and migrates upward more easily.
+  - **Heavy sour oil** is believed to form at slightly shallower levels or have longer contact with surrounding rock, picking up more sulfur and heavy components.
+  
+  According to this theory (especially the Russian-Ukrainian school), this explains why some oil fields appear to (partially) replenish themselves and why oil is found in places where, according to the biogenic theory, life could never have existed.
+  
+  **Why This Matters**
+  If oil is (partly) abiotic and regenerating, the entire “peak oil” and “we’re running out” narrative becomes much weaker.  
+  Then it’s not primarily about physical scarcity, but about **access, refining, transport, and geopolitical control**.
+  
+  **OIM Way Out**
+  Whether oil is fully biogenic, abiotic, or a mix — the lesson remains the same:  
+  **Question official scarcity narratives.**
+  
+  See through the mechanisms of artificial scarcity.  
+  Build real energy independence instead of remaining dependent on a global system that can be disrupted with the stroke of a pen.
+  
+  **Question to you**  
+  Do you believe oil is a finite fossil fuel, or could it (partly) be a regenerating process of the Earth?  
+  
+  How does this change your view on energy prices and independence?
+  
+  We keep building. Facts above frames.
+  
+  #AbioticOil #PeakOil #EnergyManipulation #RVN #OpenInternetManifest
+  
+  https://openinternetmanifest.org
+  
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
 ---
+
 
 
 **RVN: Abiotic Oil – Is Oil Truly a Finite Fossil Fuel or a Regenerating Mineral?** 🛢️

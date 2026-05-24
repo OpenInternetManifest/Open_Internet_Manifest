@@ -9,7 +9,35 @@ day: 2
 teaser_title: Internet is niet dood
 # teaser_url: /nl/social-posts/dag-2-teaser
 teaser_text: 'het is gevangen '
+raw_markdown: |
+  🇳🇱 Dag 2 – Thesis 1: Internet is niet dood – het is gevangen  
+  Thesis 1 slaat de spijker op z'n kop:  
+  "Internet is niet dood – het is gevangen."  
+  We zijn gasten in gesloten platforms, zonder controle over onze eigen data en communicatie.🤯  
+  
+  Lees hem nu: https://openinternetmanifest.org/nl/theses/thesis-01  
+  
+  Het manifest begint hier – en het groeit door jou. 🚀
+  
+  ---
+  
+  🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
+  Thesis 1 hits hard:  
+  "The Internet is not dead – it is captured."  
+  We are guests in closed platforms, with no control over our own data and communication.🤯 
+  
+  Read it now: https://openinternetmanifest.org/en/theses/thesis-01
+  
+  The manifesto starts here – and it grows with you.🚀
+  
+   https://openinternetmanifest.org  
+  #openinternetmanifest #FreeInternet  #decentralization #cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
+  ❤️
+
+fuzzy_sha256: "fe0cd027c9b9c46ef15ccbc11a63f07c063d9601b671bb2008784d81e759c3fd"
+full_sha256: "adbcd229afa3fcd0b1bfa6c60f5d30a2f77106d95f774fcc2622f29821c3dfd3"
 ---
+
 🇳🇱 Dag 2 – Thesis 1: Internet is niet dood – het is gevangen  
 Thesis 1 slaat de spijker op z'n kop:  
 "Internet is niet dood – het is gevangen."  

@@ -9,8 +9,33 @@ day: 11
 rvn_title: Van praatgroepje in heel Europa
 # rvn_url: /nl/social-posts/dag-11-rvn
 rvn_teaser: naar slagveld
-fuzzy_sha256: "70c68e0d2f08c2691c2ecb660994979b392ca23d2c41b4469b463274cba4f482"
+fuzzy_sha256: "fcf9075319152c3cd593e47a7e819c197c061ff77f31757e62e5d7e4aa69a0b8"
+full_sha256: "7d60da9689caaffd96b9861987323815d5db75fd262b298e7dae4eb72ef18527"
+raw_markdown: |
+  **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
+  
+  Jarenlang werd Davos/WEF in Nederland én heel Europa afgedaan als **praatgroepje**: elites met champagne, loze beloftes en netwerkpraat op een Zwitserse berg. Rutte zelf noemde het vaak "slechts een praatclubje" – onschuldig, niks aan de hand.  
+  
+  Nu? Trump lekt privé-sms'en van Rutte ("Dear Donald, incredible... committed on Greenland... Yours, Mark") en Macron ("My friend... I do not understand what you are doing on Greenland... G7 in Paris?").  
+  Hij pusht Greenland met AI-memes (US-vlag erop, Est. 2026), dreigt met tarieven 10-200% op EU-landen, en forceert side-meetings in Davos.  
+  
+  Europa countert met theater: Duitsland stuurt 13 soldaten op "verkenning" (binnen 24u terug), Frankrijk 15.  
+  Macron speelt bad cop: stoer roepen over "respect over bullies" en "no to new colonialism"... met aviator-zonnebril **binnen** op. Officieel "harmless eye condition", maar memes exploderen: Eye of the Tiger, Bond-villain, verborgen zwakte? 🕶️😂
+  
+  Good cop Rutte slijmt privé, bad cop Macron zet shades op – maar Trump lekt het script.  
+  
+  En gisteren, vlak voor vertrek: Trump houdt in een lange briefing mugshots omhoog van "criminal illegal aliens" gearresteerd in Minnesota – "murderers, drug lords, mentally insane" die "make Hells Angels look like the sweetest people on Earth". Duizenden arrests, foto's één voor één getoond.  
+  
+  Sun Tzu in actie: deception, expose the roles, laat ze struikelen. Van praatgroepje naar centrum van macht in één week – terwijl hij visueel "de monsters" toont die hij wegstuurt.  
+  
+  Soms kan je het niet vertellen. Mensen moeten het zelf zien – inclusief die pilot shades.  
+  Wij willen een open web **zonder zonnebril** – geen censuur op truth, geen monopolie op info, geen dubbele tongen of verborgen ogen die we zelf moeten ontmaskeren. Geen pilot shades om zwakte te verbergen.  
+  
+  Open Internet Manifest: https://openinternetmanifest.org  
+  #realiteitvsnarratief #MacronZonnebril #DavosPraatgroepje #TrumpGreenland #SunTzu #OIM ❤️
+
 ---
+
 **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
 
 Jarenlang werd Davos/WEF in Nederland én heel Europa afgedaan als **praatgroepje**: elites met champagne, loze beloftes en netwerkpraat op een Zwitserse berg. Rutte zelf noemde het vaak "slechts een praatclubje" – onschuldig, niks aan de hand.  

@@ -9,7 +9,22 @@ day: 3
 teaser_title: Freedom starts today
 # teaser_url: /en/social-posts/day-3-teaser
 teaser_text: No need to wait for a perfect internet
+raw_markdown: |
+  🇬🇧 Day 3 – Freedom starts today 
+  No need to wait for a perfect internet.  
+  Start now: step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more.  
+  Practical freedom in 10 minutes. 🚀
+  
+  https://openinternetmanifest.org/en/guides  
+   https://openinternetmanifest.org  
+   
+  #openinternetmanifest #FreeInternet  #decentralization #cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon - Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
+  ❤️
+
+fuzzy_sha256: "64c7319334b2b9547c61067d8f476da304d3c9ef643620db7606a61b340b206e"
+full_sha256: "d5b2b112f3ef63ee7002c0a39a05560aee28a9098cfa6913a2c75421c4bceef1"
 ---
+
 🇬🇧 Day 3 – Freedom starts today 
 No need to wait for a perfect internet.  
 Start now: step-by-step guides for Mastodon, Nextcloud, sovereign nodes and more.  

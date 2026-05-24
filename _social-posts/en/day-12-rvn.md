@@ -9,8 +9,21 @@ day: 12
 rvn_title: Benefits Scandal
 # rvn_url: /en/social-posts/day-12-rvn
 rvn_teaser: The farm that won't break
-fuzzy_sha256: "7ed33bc0cec137cdf6698d93fcfb52fab56eda58d89c2d329bac7f914f242d99"
+fuzzy_sha256: "b8059d534bc11319917cc7b4e15b74abef486cce7ee7b3deb3194a1c22f462b7"
+full_sha256: "47c9f41fa6165e8b4369619153abfdec17da06a85e0d86e5c3c5ded51f4bddb4"
+raw_markdown: |
+  **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
+  For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.
+  Reality: systematic, deliberate, framed as "risk analysis". Report after report confirms: Tax Authority knew, ministers knew, yet it continued.
+  In 2026: still no real accountability. Cabinet apologies, but no heads roll, no structural reform, no independent control on algorithms and risk profiles. The machine keeps running, just with a new label.
+  For victims: trauma that never ends, debts that linger, trust destroyed. For all of us: proof the state can lie, deny, and destroy – and "waking up" often stops at the next layer (new party, new promise, new pen).
+  Trump assaults deep state narratives in Davos. Here in NL, the benefits farm still stands: the system protects itself, victims pay the price.
+  Open Internet Manifest wants no pens – a web without centralized control, without algorithms ruining lives, without narrative monopoly.
+  Join: https://openinternetmanifest.org
+  #RealityVsNarrative #BenefitsScandal #NoMorePens #OIM ❤️
+
 ---
+
 **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
 For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.
 Reality: systematic, deliberate, framed as "risk analysis". Report after report confirms: Tax Authority knew, ministers knew, yet it continued.

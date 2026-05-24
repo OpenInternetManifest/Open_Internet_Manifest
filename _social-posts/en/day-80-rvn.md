@@ -6,12 +6,68 @@ rvn_title: "Illusory Progress #11: The Nitrogen Crisis and the Farmer as Scapego
 rvn_teaser: "We must get rid of the farmers for the climate and nature. Really?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "1224a4221e1a043c3d4006d814e7a9953c8f8b6b1a68a689786774a3fc71662f"
+fuzzy_sha256: "cf45f35766367e968400eb746013422ece34afdde16bedf4e6a2cc50ed7a6b4c"
+full_sha256: "cdc1419e3a60f55c32c1e3f63563ed6cba1b3044a89bc6c589ca8abed110986f"
 social_share_sha256: ""
 git_commit_hash: "47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
 git_commit_date: "2026-05-14T07:27:38+02:00"
+raw_markdown: |
+  **Illusory Progress – Day 37: The Nitrogen Crisis and the Farmer as Scapegoat** 🐄🌾
+  
+  **Short Recap of the Series**  
+  We’ve covered leasing, heat pumps, electric cars, 15-minute cities, subscriptions, cashless society, and feminism. Today: one of the largest expropriations of productive assets in the Netherlands since World War II.
+  
+  **The Narrative**  
+  Farmers are the big polluters. Their nitrogen emissions are destroying nature and the climate. We must buy them out, expropriate them or force them to shrink so we can create beautiful nature areas. This is necessary for European climate goals.
+  
+  **The Reality – Hard Truth**
+  
+  **Layer 1: The Nitrogen Myth**  
+  The Netherlands has some of the strictest nitrogen rules in the world. The “crisis” is largely based on calculation models (AERIUS) that scientists themselves criticize as unreliable and politically driven.
+  
+  **Layer 2: Economic Suicide**  
+  The Netherlands is one of the most efficient food producers on the planet. We feed over 100 million people from a small area. By destroying our own farmers, we import food from countries with much lower standards (Brazil, Argentina, Ukraine). Result: higher global CO₂ footprint, more deforestation elsewhere, and loss of food sovereignty.
+  
+  **Layer 3: Land Expropriation**  
+  Under the guise of “nitrogen”, the largest redistribution of land since the war is being prepared. Farmers’ land is being converted en masse into “nature” (often low-quality nature) or housing for immigration and population growth. This is not environmental policy. This is spatial planning by using nitrogen as a weapon.
+  
+  **Layer 4: Hypocrisy**  
+  - Schiphol Airport and aviation get exemptions.  
+  - Mega-stables of multinationals get permits more easily than family farms.  
+  - While we cripple our own farmers, we import meat and dairy from countries with far lower environmental standards.
+  
+  **Layer 5: The Real Goal**  
+  This is not about nitrogen or nature. This is about control over land, food production, and rural culture. Farmers are too independent, too stubborn, and not dependent enough on the state. That must be broken.
+  
+  **The OIM Way Out**  
+  - Stop destroying the most efficient food producers in the world.  
+  - Choose real innovation (precision agriculture, manure processing, improved breeds) instead of shrinkage.  
+  - Keep food sovereignty as a top priority.  
+  - Farmers are not the enemy — they are the foundation of our civilization.
+  
+  Without farmers, there is no food.  
+  Without food, there is no civilization.
+  
+  ---
+  
+  You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
+  
+  Feel free to try it:  
+  https://openinternetmanifest.org/nl/nexus-quick-post
+  
+  **Question to you**  
+  Are farmers really being targeted for the climate and nature, or is nitrogen mainly a convenient weapon to eliminate the last independent food producers?
+  
+  #IllusoryProgress #NitrogenCrisis #Farmers #FoodSovereignty #LandExpropriation #OpenInternetManifest
+  
+  ---
+  
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
 ---
+
 
 
 **Illusory Progress – Day 37: The Nitrogen Crisis and the Farmer as Scapegoat** 🐄🌾

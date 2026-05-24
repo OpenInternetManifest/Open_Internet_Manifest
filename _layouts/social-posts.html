@@ -147,6 +147,8 @@
  
   </div>
 
+  {% include raw-markdown.html %}
+
   {% include repost-button.html %}
   
   {% include reactions.html %}
@@ -156,6 +158,9 @@
  {% include integrity-check.html %}
 
   {% include page-footer.html %}
+
+  <!-- Full SHA256 voor handmatige verificatie -->
+<input type="hidden" id="official-full-hash" value="{{ page.full_sha256 | default: '' }}">
 
   <!-- GoatCounter -->
   <script data-goatcounter="https://openinternetmanifest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

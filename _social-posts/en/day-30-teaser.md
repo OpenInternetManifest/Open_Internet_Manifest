@@ -9,7 +9,27 @@ day: 30
 teaser_title: Tonight; the silence before the storm
 # teaser_url: /en/social-posts/day-30-teaser
 teaser_text: Tomorrow we resume the RVN series
+raw_markdown: |
+  **Day 30 Teaser – Tonight: the silence before the storm** ☯️⚡  
+  Tomorrow we resume the RVN series.
+  
+  A step back was needed – rest recharges 🔋, silence speaks louder than noise 🌌.  
+  Tomorrow: why words sometimes don’t count for what they literally say, but for the narrative they create.  
+  A judge, a politician, and the boundary of ‘incitement’ ⚖️🔥.  
+  No illusions. No hate. Only reality. Facts over frames 🛡️.
+  
+  And we’re not standing still:  
+  the **Giscus comment section** is now live on almost all pages 🚀  
+  → reply directly under every thesis, guide and RVN post 💬  
+  → no algorithm, no gatekeeper – just open conversation 🌐  
+  
+  https://openinternetmanifest.org  
+  #RVN #FactsOverFrames #RealityVsNarrative #Incitement #Day30Teaser
+
+fuzzy_sha256: "ff5560af37ef85c607a4486c79bc673a28a6232556e3fca5c877074e80f337db"
+full_sha256: "18ef2f59c5c1afebcd60e7d7c9129b594614dece02de397ecdb2288fe30bfdc3"
 ---
+
 **Day 30 Teaser – Tonight: the silence before the storm** ☯️⚡  
 Tomorrow we resume the RVN series.
 

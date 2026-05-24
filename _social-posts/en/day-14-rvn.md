@@ -9,8 +9,26 @@ day: 14
 rvn_title: Selective outrage on demand
 # rvn_url: /en/social-posts/day-14-rvn
 rvn_teaser: CNN; ICE raids have always been controversial
-fuzzy_sha256: "d28d838054e55f57b9b09f83b8e3ce4db1597dbe3d4a040182296d56b82e8888"
+fuzzy_sha256: "55c3979614f8cfa971c409485ce7ebdead47682d91d80dbddb47a278429871a4"
+full_sha256: "0b8d800f4b755338dac6887b44d9bf4f550969ea79d5fc0a4e6fc404c4fcb32a"
+raw_markdown: |
+  **Reality vs Narrative** – DHS bill: selective outrage on demand 🚨🇺🇸
+  House voted last night on massive border security funding. Trump: "must pass". Left: "defund ICE", "terrorizing children", "Liam drama".
+  CNN: "ICE raids have always been controversial."
+  Ben Ferguson: "Not really! Under Obama you rode along and it wasn't an issue!"
+  Reality:
+  - ICE created in 2003.
+  - Obama deported ~3 million (more than Trump first term).
+  - Media mostly silent or rode along.
+  - Now suddenly "systematic terror" and "children as hostages".
+  Same tool (ICE arrests, deportations), different framing depending on who's in the White House. Obama = quiet. Trump = outrage.
+  Narrative isn't about facts – it's about power. Emotion weaponized: a 5-year-old temporarily in protective custody (mother arrested for drugs/violence, child returned to family) becomes "hostage". Facts drowned in feeling.
+  Open Internet Manifest wants no selective outrage, no gatekeepers deciding what's "controversial". A web where you check history, data and context yourself – no algorithm or media setting the tone.
+  Join: https://openinternetmanifest.org
+  #RealityVsNarrative #OIM #DHSBill #ICE #NoSelectiveOutrage
+
 ---
+
 **Reality vs Narrative** – DHS bill: selective outrage on demand 🚨🇺🇸
 House voted last night on massive border security funding. Trump: "must pass". Left: "defund ICE", "terrorizing children", "Liam drama".
 CNN: "ICE raids have always been controversial."

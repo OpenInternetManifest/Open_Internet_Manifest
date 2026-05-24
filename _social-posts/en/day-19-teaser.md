@@ -9,7 +9,28 @@ day: 19
 teaser_title: Utrecht drama
 # teaser_url: /en/social-posts/day-19-teaser
 teaser_text: cop kicks & hits two Muslim women
+raw_markdown: |
+  **Day 18 – Utrecht drama** 🚔😏  
+  Today, January 29.  
+  Videos blowing up: cop kicks & hits two Muslim women – narrative: "racism!" & "brutality!". Complaint assault + racism filed.  
+  Reality? Police: nuisance + insults first, arrest for insult & obstruction, force under review.  
+  
+  Tomorrow: full context (and why comments full of "brothers").  
+  Open Internet Manifest: hashes over viral narratives. Facts over frames.  
+  Keep watching. 👀  
+  
+  https://openinternetmanifest.org/en/social-posts  
+  #RealityVsNarrative #Day19Teaser
+  
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier  
+  Paste the full text to check authenticity.  
+  Why? Narratives spread fast — reality needs hashes.
+
+fuzzy_sha256: "df9ae598c32670ff2d18258990ea20fa5e4b7185646d55e423814b3c540154e1"
+full_sha256: "0f6672fef729a330f0e96f69f62ebb330a9771c2da8c2d7dda924212203c9652"
 ---
+
 **Day 18 – Utrecht drama** 🚔😏  
 Today, January 29.  
 Videos blowing up: cop kicks & hits two Muslim women – narrative: "racism!" & "brutality!". Complaint assault + racism filed.  

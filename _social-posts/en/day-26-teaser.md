@@ -9,7 +9,26 @@ day: 26
 teaser_title: Tonight just breathe
 # teaser_url: /en/social-posts/day-26-teaser
 teaser_text: Tomorrow we look at politics
+raw_markdown: |
+  🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
+  Today: the invisible layer above. Big Three (BlackRock, Vanguard, State Street) + BIS — who really holds the buttons while we watch visible players?
+  
+  Tonight: just breathe.  
+  Tomorrow: back at it.
+  
+  Tomorrow we look at politics itself.  
+  From “affairs of the citizen” (taking responsibility) to the theater it often is now.  
+  And why that difference matters.
+  
+  Open Internet Manifest: facts over frames.  
+  Keep watching. 👀✨  
+  https://openinternetmanifest.org/en/social-posts  
+  #RealityVsNarrative #Day25Teaser
+
+fuzzy_sha256: "13d294c0d3c903a7715c7515465cb9c1712b54d72f558f80a0d95cd7d03b52b2"
+full_sha256: "f26462927a653918d94584bf258392ff7e46c052b0120fdb0cc93e1e7058db98"
 ---
+
 🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
 Today: the invisible layer above. Big Three (BlackRock, Vanguard, State Street) + BIS — who really holds the buttons while we watch visible players?
 

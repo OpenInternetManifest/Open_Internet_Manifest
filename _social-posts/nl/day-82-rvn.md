@@ -6,11 +6,66 @@ rvn_title: "“Ik hoor en ik vergeet. Ik zie en ik herinner me. Ik doe en ik beg
 rvn_teaser: "Waarom praten en wakker worden niet genoeg is"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "fde935e05b412c56b39fe49127ad8cdd1927dc588d612252173fa1e0aa0d9680"
+fuzzy_sha256: "ab192f96efdefe7bdd3a3846f6d8e808763baf4b2a6345657f02e2b6f28f4b27"
+full_sha256: "fd9b8f4ecd026e212d16d65f0edfdc0d2c4e9df7443bbaff5ee5fcd83ec9a818"
 git_commit_hash: "2e15b59d35d12ca12d32f5a3b1f6b4a8cc163040"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2e15b59d35d12ca12d32f5a3b1f6b4a8cc163040"
 git_commit_date: "2026-05-14T18:56:45+02:00"
+raw_markdown: |
+  **RVN: “Ik hoor en ik vergeet. Ik zie en ik herinner me. Ik doe en ik begrijp.”** 🌀
+  
+  **Narratief:**  
+  “Als mensen maar wakker worden, dan komt alles goed.”
+  
+  **Realiteit:**
+  
+  Confucius zei het al eeuwen geleden:
+  
+  > “Ik hoor en ik vergeet.  
+  > Ik zie en ik herinner me.  
+  > Ik doe en ik begrijp.”
+  
+  Dit is precies waarom alleen “wakker maken” niet werkt.
+  
+  Mensen kunnen jarenlang documentaires kijken, boeken lezen en posts delen over corruptie, manipulatie en schijnvooruitgang — en toch blijven ze in dezelfde patronen hangen.
+  
+  Pas als ze **zelf gaan doen** — bouwen, creëren, eigenaarschap nemen — ontstaat echt begrip en verandering.
+  
+  Dit is waarom OIM niet alleen praat over problemen, maar vooral bouwt aan oplossingen:
+  - Niet alleen roepen dat leasing slecht is, maar zelf focussen op eigenaarschap.
+  - Niet alleen klagen over afhankelijkheid, maar lokale veerkracht opbouwen.
+  - Niet alleen kritiek leveren op centralisatie, maar parallelle structuren neerzetten.
+  
+  **De shift van horen → zien → doen** is de echte overgang van consument naar soeverein mens.
+  
+  **OIM-uitweg**
+  
+  Stop met alleen maar informeren en wakker maken.  
+  Begin met **doen**.
+  
+  - Schrijf je eigen thesis of RVN
+  - Bouw iets lokaal (moestuin, ruilnetwerk, kennisgroep)
+  - Verifieer zelf in plaats van klakkeloos geloven
+  - Neem eigenaarschap terug, hoe klein ook
+  
+  Alleen door te doen gaan we écht begrijpen.
+  
+  **Vraag aan jou**  
+  Waar ben jij de laatste tijd van “horen/zien” naar “doen” gegaan?  
+  
+  En wat is de volgende kleine stap die je kunt zetten?
+  
+  We bouwen door. Niet alleen praten — maar doen.
+  
+  #IkDoeEnIkBegrijp #Actie #ParallelleStructuren #RVN #OpenInternetManifest
+  
+  https://openinternetmanifest.org
+  
+  Deze post is 100% authentiek en verifieerbaar via:  
+  https://openinternetmanifest.org/nl/hash-verifier
+
 ---
+
 
 
 **RVN: “Ik hoor en ik vergeet. Ik zie en ik herinner me. Ik doe en ik begrijp.”** 🌀

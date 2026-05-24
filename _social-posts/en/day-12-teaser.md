@@ -9,7 +9,28 @@ day: 12
 teaser_title: Why Open Internet Manifest (OIM)
 # teaser_url: /en/social-posts/day-12-teaser
 teaser_text: We're not fighting for a new layer of truth
+raw_markdown: |
+  🇬🇧 **Day 12 – Why OIM** 🌐✂️  
+  We're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer.  
+  
+  We're fighting for a web where you get to think, doubt, stumble and stand up yourself – without anyone playing gatekeeper.  
+  
+  No centralized algorithms predicting your thoughts.  
+  No narrative monopoly deciding what's real.  
+  No graduated farms with friendly managers.  
+  
+  Open Internet Manifest is not an end station, but a beginning: a web without leash, without sunglasses, without deep state control.  
+  
+  If you're tired of the pens... read along.  
+  
+  https://openinternetmanifest.org  
+  
+  #RealityVsNarrative #OIM #WebWithoutLeash
+
+fuzzy_sha256: "bcf949ba1454be6b3bc83aca929b441cedc4a15f2e5b51a186792fa2a4bab24f"
+full_sha256: "390a592adc9c0519370d43cf65159321b3eacd38ac4ab2817df94a90f6234850"
 ---
+
 🇬🇧 **Day 12 – Why OIM** 🌐✂️  
 We're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer.  
 

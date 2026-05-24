@@ -9,8 +9,18 @@ day: 2
 rvn_title: Iran
 # rvn_url: /en/social-posts/day-2-rvn
 rvn_teaser: Are censorship & blackouts are sometimes necessary for order?
-fuzzy_sha256: "b44cacb9a2aa9b3b02ff5da2af5635a88b662a0abfbfca8beb16a35e28ee049f"
+fuzzy_sha256: "f27b1fa7415ecdc4698411a94459b968361cac034051da5fa27e1e5587212dfc"
+full_sha256: "d9b481e9d70b419e065971b90b0b0a1fde700bd9f17c5c8e19d14f91de738ce6"
+raw_markdown: |
+  English summary:
+  Reality vs. Narrative – The Open Internet Manifest (Iran focus).
+  Narrative: Censorship & blackouts are sometimes necessary for order.
+  Reality: Iran's total internet shutdown since Jan 8 crushes protests – that's what happens when information control wins. If the dark web is the only free space left, the regular web is already a cage.
+  The OIM demands: digital rights must mirror real-life constitutional rights (free speech, privacy, assembly, anonymity) – no exceptions, no blackouts.
+  Teasers tonight 19:00 CET – join to fight for a truly open, uncensored internet.
+
 ---
+
 English summary:
 Reality vs. Narrative – The Open Internet Manifest (Iran focus).
 Narrative: Censorship & blackouts are sometimes necessary for order.

@@ -9,7 +9,7 @@ slug: nexus-quick-post
   <header class="quick-post-header">
     <h1>Nexus Quick Post</h1>
     <p class="subtitle">Create beautiful posts with Unicode formatting + automatic hash verification</p>
-    <div class="powered-by">Powered by OIM × Nexus</div>
+    <div class="powered-by">Powered by OIM ╳ Nexus</div>
   </header>
 
   <div class="editor-split">
@@ -64,6 +64,8 @@ slug: nexus-quick-post
   </div>
 </div>
 
+{% include unicode-converter.html %}
+
 <script>
   const input = document.getElementById('post-input');
   const preview = document.getElementById('fb-preview');
@@ -93,7 +95,7 @@ slug: nexus-quick-post
 
   function insertCode() { insertAtCursor('`', '`'); }
 
-  // Modals
+  // ==================== MODALS ====================
   function showModal(title, contentHTML) {
     let modal = document.getElementById('nexus-modal');
     if (!modal) {
@@ -138,134 +140,42 @@ slug: nexus-quick-post
     showModal('Choose list type', html);
   }
 
-   // ==================== CENTRALE UNICODE CONVERTER ====================
-  function convertToUnicode(text) {
-    let result = text;
+  // ==================== AUTO-CONTINUE LISTS ====================
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      const cursorPos = input.selectionStart;
+      const textBefore = input.value.substring(0, cursorPos);
+      const lines = textBefore.split('\n');
+      const currentLine = lines[lines.length - 1];
 
-    // Bold
-    result = result.replace(/\*\*(.+?)\*\*/g, (match, p1) => p1.split('').map(c => {
-      const m = {'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢',
-                 'j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫',
-                 's':'𝐬','t':'𝐭','u':'𝐮','v':'𝐯','w':'𝐰','x':'𝐱','y':'𝐲','z':'𝐳',
-                 'A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈',
-                 'J':'𝐉','K':'𝐊','L':'𝐋','M':'𝐌','N':'𝐍','O':'𝐎','P':'𝐏','Q':'𝐐','R':'𝐑',
-                 'S':'𝐒','T':'𝐓','U':'𝐔','V':'𝐕','W':'𝐖','X':'𝐗','Y':'𝐘','Z':'𝐙'};
-      return m[c] || c;
-    }).join(''));
+      const bulletMatch = currentLine.match(/^(\s*)([-•]|\d+\.)\s+/);
 
-    // Italic
-    result = result.replace(/\*(.+?)\*/g, (match, p1) => p1.split('').map(c => {
-      const m = {'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪',
-                 'j':'𝘫','k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳',
-                 's':'𝘴','t':'𝘵','u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻',
-                 'A':'𝘈','B':'𝘉','C':'𝘊','D':'𝘋','E':'𝘌','F':'𝘍','G':'𝘎','H':'𝘏','I':'𝘐',
-                 'J':'𝘑','K':'𝘒','L':'𝘓','M':'𝘔','N':'𝘕','O':'𝘖','P':'𝘗','Q':'𝘘','R':'𝘙',
-                 'S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡'};
-      return m[c] || c;
-    }).join(''));
+      if (bulletMatch) {
+        const indent = bulletMatch[1];
+        const marker = bulletMatch[2];
 
-       // Headers met duidelijk Unicode font + emoji (blijft in copy)
-    result = result.replace(/^### (.*$)/gm, (match, p1) => {
-      const bold = p1.split('').map(c => {
-        const m = {'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢',
-                   'j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫',
-                   's':'𝐬','t':'𝐭','u':'𝐮','v':'𝐯','w':'𝐰','x':'𝐱','y':'𝐲','z':'𝐳',
-                   'A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈',
-                   'J':'𝐉','K':'𝐊','L':'𝐋','M':'𝐌','N':'𝐍','O':'𝐎','P':'𝐏','Q':'𝐐','R':'𝐑',
-                   'S':'𝐒','T':'𝐓','U':'𝐔','V':'𝐕','W':'𝐖','X':'𝐗','Y':'𝐘','Z':'𝐙'};
-        return m[c] || c;
-      }).join('');
-      return `📌 ${bold}`;
-    });
+        e.preventDefault();
 
-    result = result.replace(/^#### (.*$)/gm, (match, p1) => {
-      const bold = p1.split('').map(c => {
-        const m = {'a':'𝗮','b':'𝗯','c':'𝗰','d':'𝗱','e':'𝗲','f':'𝗳','g':'𝗴','h':'𝗵','i':'𝗶',
-                   'j':'𝗷','k':'𝗸','l':'𝗹','m':'𝗺','n':'𝗻','o':'𝗼','p':'𝗽','q':'𝗾','r':'𝗿',
-                   's':'𝘀','t':'𝘁','u':'𝘂','v':'𝘃','w':'𝘄','x':'𝘅','y':'𝘆','z':'𝘇',
-                   'A':'𝗔','B':'𝗕','C':'𝗖','D':'𝗗','E':'𝗘','F':'𝗙','G':'𝗚','H':'𝗛','I':'𝗜',
-                   'J':'𝗝','K':'𝗞','L':'𝗟','M':'𝗠','N':'𝗡','O':'𝗢','P':'𝗣','Q':'𝗤','R':'𝗥',
-                   'S':'𝗦','T':'𝗧','U':'𝗨','V':'𝗩','W':'𝗪','X':'𝗫','Y':'𝗬','Z':'𝗭'};
-        return m[c] || c;
-      }).join('');
-      return `🔹 ${bold}`;
-      });
-
-    // Blockquote
-    result = result.replace(/^>\s?(.*)$/gm, (match, p1) => {
-      const italic = p1.trim().split('').map(c => {
-        const m = {'a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪',
-                   'j':'𝘫','k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳',
-                   's':'𝘴','t':'𝘵','u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻',
-                   'A':'𝘈','B':'𝘉','C':'𝘊','D':'𝘋','E':'𝘌','F':'𝘍','G':'𝘎','H':'𝘏','I':'𝘐',
-                   'J':'𝘑','K':'𝘒','L':'𝘓','M':'𝘔','N':'𝘕','O':'𝘖','P':'𝘗','Q':'𝘘','R':'𝘙',
-                   'S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡'};
-        return m[c] || c;
-      }).join('');
-      return `💬 ${italic}`;
-    });
-
-    // Inline code
-    result = result.replace(/`(.+?)`/g, (match, p1) => {
-      const mono = p1.split('').map(c => {
-        const m = {'a':'𝚊','b':'𝚋','c':'𝚌','d':'𝚍','e':'𝚎','f':'𝚏','g':'𝚐','h':'𝚑','i':'𝚒',
-                   'j':'𝚓','k':'𝚔','l':'𝚕','m':'𝚖','n':'𝚗','o':'𝚘','p':'𝚙','q':'𝚚','r':'𝚛',
-                   's':'𝚜','t':'𝚝','u':'𝚞','v':'𝚟','w':'𝚠','x':'𝚡','y':'𝚢','z':'𝚣',
-                   'A':'𝙰','B':'𝙱','C':'𝙲','D':'𝙳','E':'𝙴','F':'𝙵','G':'𝙶','H':'𝙷','I':'𝙸',
-                   'J':'𝙹','K':'𝙺','L':'𝙻','M':'𝙼','N':'𝙽','O':'𝙾','P':'𝙿','Q':'𝚀','R':'𝚁',
-                   'S':'𝚂','T':'𝚃','U':'𝚄','V':'𝚅','W':'𝚆','X':'𝚇','Y':'𝚈','Z':'𝚉',
-                   '0':'𝟶','1':'𝟷','2':'𝟸','3':'𝟹','4':'𝟺','5':'𝟻','6':'𝟼','7':'𝟽','8':'𝟾','9':'𝟿'};
-        return m[c] || c;
-      }).join('');
-      return '`' + mono + '`';
-    });
-
-    return result;
-  }
- // ==================== AUTO-CONTINUE LIJSTEN (met extra witregel) ====================
-input.addEventListener('keydown', function(e) {
-  if (e.key === 'Enter' && !e.shiftKey) {
-    const cursorPos = input.selectionStart;
-    const textBefore = input.value.substring(0, cursorPos);
-    const lines = textBefore.split('\n');
-    const currentLine = lines[lines.length - 1];
-
-    const bulletMatch = currentLine.match(/^(\s*)([-•]|\d+\.)\s+/);
-
-    if (bulletMatch) {
-      const indent = bulletMatch[1];
-      const marker = bulletMatch[2];
-
-      e.preventDefault();
-
-      if (currentLine.trim() === marker || currentLine.trim() === '') {
-        // Lege bullet → verwijder bullet + voeg extra witregel toe
-        let newText = textBefore.substring(0, textBefore.lastIndexOf('\n') + 1);
-        
-        // Extra lege regel toevoegen
-        newText += '\n';
-
-        input.value = newText + input.value.substring(cursorPos);
-        input.selectionStart = input.selectionEnd = newText.length;
-      } else {
-        // Nieuwe lijstregel aanmaken
-        let newLine = '\n' + indent;
-
-        if (marker.match(/^\d+\.$/)) {
-          const num = parseInt(marker) + 1;
-          newLine += num + '. ';
+        if (currentLine.trim() === marker || currentLine.trim() === '') {
+          let newText = textBefore.substring(0, textBefore.lastIndexOf('\n') + 1);
+          newText += '\n';
+          input.value = newText + input.value.substring(cursorPos);
+          input.selectionStart = input.selectionEnd = newText.length;
         } else {
-          newLine += marker + ' ';
+          let newLine = '\n' + indent;
+          if (marker.match(/^\d+\.$/)) {
+            const num = parseInt(marker) + 1;
+            newLine += num + '. ';
+          } else {
+            newLine += marker + ' ';
+          }
+          input.value = textBefore + newLine + input.value.substring(cursorPos);
+          input.selectionStart = input.selectionEnd = textBefore.length + newLine.length;
         }
-
-        input.value = textBefore + newLine + input.value.substring(cursorPos);
-        input.selectionStart = input.selectionEnd = textBefore.length + newLine.length;
+        updatePreview();
       }
-
-      updatePreview();
     }
-  }
-});
+  });
 
   function insertAtCursor(before, after) {
     const start = input.selectionStart;
@@ -282,7 +192,7 @@ input.addEventListener('keydown', function(e) {
 
   // ==================== PREVIEW ====================
   function updatePreview() {
-    let text = input.value || "Your post appears here...";
+    let text = input.value || "Your post will appear here...";
 
     let html = text
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -296,125 +206,106 @@ input.addEventListener('keydown', function(e) {
     preview.innerHTML = html;
   }
 
- // ==================== HASH FUNCTIONS ====================
-
-// Normalisatie voor clean hash (voor verifier + prob check)
-function normalizeForHash(text) {
-  return text
-    .toLowerCase()
-    .replace(/[\*\_\`\~\#\>\-\|\•\•\s\n\r\t]+/g, ' ')
-    .replace(/[^\p{L}\p{N}\p{P}\p{S}]/gu, '')
-    .trim();
-}
-
-// SHA256 berekenen
-async function calculateSHA256(text) {
-  const encoder = new TextEncoder();
-  const data = encoder.encode(text);
-  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-}
-
-// Live hash updaten (beide hashes tonen)
-async function updateHash() {
-  const rawText = input.value.trim();
-  if (!rawText) {
-    document.getElementById('hash-signature').style.display = 'none';
-    return;
+  // ==================== HASH FUNCTIONS ====================
+  function normalizeForHash(text) {
+    return text
+      .toLowerCase()
+      .replace(/[\*\_\`\~\#\>\-\|\•\s\n\r\t]+/g, ' ')
+      .replace(/[^\p{L}\p{N}\p{P}\p{S}]/gu, '')
+      .trim();
   }
 
-  const unicodeText = convertToUnicode(rawText);
-  const fullHash = await calculateSHA256(unicodeText);
-  const clean = normalizeForHash(rawText);
-  const cleanHash = await calculateSHA256(clean);
+  async function calculateSHA256(text) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(text);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  }
 
-  document.getElementById('hash-value').innerHTML = `
-    <strong>SHA256 (volledige post):</strong> ${fullHash}<br><br>
-    <strong>Clean SHA256:</strong> ${cleanHash}
-  `;
+  async function updateHash() {
+    const rawText = input.value.trim();
+    if (!rawText) {
+      document.getElementById('hash-signature').style.display = 'none';
+      return;
+    }
 
-  document.getElementById('hash-signature').style.display = 'block';
-}
-  // Submit voor verificatie (GitHub Issue)
-async function submitForVerification() {
-  const text = input.value.trim();
-  if (!text) return;
-
-  const fullHash = await calculateSHA256(convertToUnicode(text));
-  const clean = normalizeForHash(text);
-  const cleanHash = await calculateSHA256(clean);
-
-  const issueTitle = encodeURIComponent("Nexus Quick Post - Verificatie verzoek");
-  const issueBody = encodeURIComponent(`**Post tekst:**\n\n${text}\n\n**SHA256 (volledige post):** ${fullHash}\n**Clean SHA256:** ${cleanHash}\n\nAutomatisch ingediend via Nexus Quick Post.`);
-
-  const url = `https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?title=${issueTitle}&body=${issueBody}&labels=quick-post,verification`;
-
-  window.open(url, '_blank');
-}
-
-async function copyWithSignature(type) {
-  let content = input.value.trim();
-  if (!content) return;
-
-  const includeHash = document.getElementById('include-hash').checked;
-  let finalText = convertToUnicode(content);
-
-  if (includeHash) {
-    const clean = normalizeForHash(content);
+    const unicodeText = convertToUnicode(rawText);
+    const fullHash = await calculateSHA256(unicodeText);
+    const clean = normalizeForHash(rawText);
     const cleanHash = await calculateSHA256(clean);
 
-    const signature = `\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    document.getElementById('hash-value').innerHTML = `
+      <strong>SHA256 (full post):</strong> ${fullHash}<br><br>
+      <strong>Clean SHA256:</strong> ${cleanHash}
+    `;
+
+    document.getElementById('hash-signature').style.display = 'block';
+  }
+
+  // ==================== COPY FUNCTIONS ====================
+  async function copyWithSignature(type) {
+    let content = input.value.trim();
+    if (!content) return;
+
+    const includeHash = document.getElementById('include-hash').checked;
+    let finalText = convertToUnicode(content);
+
+    if (includeHash) {
+      const clean = normalizeForHash(content);
+      const cleanHash = await calculateSHA256(clean);
+
+      const signature = `\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔐 #OIM × Nexus Quick Post
-Geverifieerd via openinternetmanifest.org
+Verified via openinternetmanifest.org
 
 Clean SHA256: ${cleanHash}
 
-→ Beste verificatie:
-   Plak de volledige post (inclusief deze handtekening) in:
-   https://openinternetmanifest.org/nl/hash-verifier
-
-→ Handmatig checken:
-   Gebruik alleen de tekst bóven deze streep in een online SHA256 tool
+→ Verify: https://openinternetmanifest.org/en/hash-verifier
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
 
-    finalText += signature;
+      finalText += signature;
+    }
+
+    navigator.clipboard.writeText(finalText).then(() => {
+      if (type === 'facebook') {
+        alert("✅ Copied for Facebook!");
+        window.open('https://www.facebook.com', '_blank');
+      } else if (type === 'unicode') {
+        alert("✅ Pure Unicode version copied!");
+      } else if (type === 'x') {
+        alert("✅ Copied for X/Twitter!");
+        window.open('https://x.com', '_blank');
+      }
+    });
   }
 
-  navigator.clipboard.writeText(finalText).then(() => {
-    if (type === 'facebook') {
-      alert("✅ Gekopieerd voor Facebook!");
-      window.open('https://www.facebook.com', '_blank');
-    } else if (type === 'unicode') {
-      alert("✅ Pure Unicode versie gekopieerd!");
-    } else if (type === 'x') {
-      alert("✅ Gekopieerd voor X/Twitter!");
-      window.open('https://x.com', '_blank');
-    }
-  });
-}
-// ==================== COPY FUNCTIONS ====================
+  function copyForFacebook() { copyWithSignature('facebook'); }
+  function copyUnicodeWithSignature() { copyWithSignature('unicode'); }
+  function copyForX() { copyWithSignature('x'); }
+  function copyUnicodeNoSignature() {
+    const text = convertToUnicode(input.value.trim());
+    navigator.clipboard.writeText(text).then(() => {
+      alert("✅ Pure Unicode version (no signature) copied!");
+    });
+  }
 
-function copyForFacebook() {
-  copyWithSignature('facebook');
-}
+  async function submitForVerification() {
+    const text = input.value.trim();
+    if (!text) return;
 
-function copyUnicodeWithSignature() {
-  copyWithSignature('unicode');
-}
+    const fullHash = await calculateSHA256(convertToUnicode(text));
+    const clean = normalizeForHash(text);
+    const cleanHash = await calculateSHA256(clean);
 
-function copyForX() {
-  copyWithSignature('x');
-}
+    const issueTitle = encodeURIComponent("Nexus Quick Post - Verification request");
+    const issueBody = encodeURIComponent(`**Post text:**\n\n${text}\n\n**SHA256 (full post):** ${fullHash}\n**Clean SHA256:** ${cleanHash}\n\nSubmitted via Nexus Quick Post.`);
 
-function copyUnicodeNoSignature() {
-  const text = convertToUnicode(input.value.trim());
-  navigator.clipboard.writeText(text).then(() => {
-    alert("✅ Pure Unicode versie (zonder handtekening) gekopieerd!");
-  });
-}
+    const url = `https://github.com/OpenInternetManifest/Open_Internet_Manifest/issues/new?title=${issueTitle}&body=${issueBody}&labels=quick-post,verification`;
+    window.open(url, '_blank');
+  }
 
-  // Event listeners
+  // ==================== EVENT LISTENERS ====================
   input.addEventListener('input', () => {
     updatePreview();
     autoResize();

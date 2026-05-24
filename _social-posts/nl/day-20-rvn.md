@@ -9,8 +9,37 @@ day: 20
 rvn_title: 'Utrecht Bollendak: viraal filmpje'
 # rvn_url: /nl/social-posts/dag-20-rvn
 rvn_teaser: vs realiteit + gespind narratief
-fuzzy_sha256: "16f2423ebeedbb660518e0cb49b91ea357ba61208016c8d70dfb1a22fb3a2024"
+fuzzy_sha256: "015e8d0174a3e5f7a828885aeba6c5a6c1cd27e8be6f90f4523f7a9f913d3bf0"
+full_sha256: "84125ce49e4c0c101beefcc0d0a075ad9ea64562df1a9663d7f14abc0abc04fd"
+raw_markdown: |
+  🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  
+  Video's exploderen: agent schopt moslima in buik, mept met wapenstok – narratief: "racisme! politiegeweld tegen moslima's!" Aangifte mishandeling + racisme, demonstraties, massale verontwaardiging en calls tot actie.
+  Realiteit (politie 28-30 jan):  
+  - Overlastincident met groep ~20 onder Bollendak/Hoog Catharijne.  
+  - Agent hield 23-jarige aan voor belediging/uitschelden.  
+  - Man (39) belemmerde aanhouding → ook gearresteerd (belediging + belemmering).  
+  - Geweld getoetst (CCTV, getuigen, medische zorg), schokkende beelden serieus, maar context vooraf telt. Geen winkeldiefstal bevestigd (wel geruchten).
+  
+  Dubbele standaard in framing:  
+  Tijdens corona-demos (2020-2022) sloeg politie vaak harder (waterkanon op hoofd, wapenstok, honden – zelfs bij weglopende groepen of veldjes). Reactie toen: "eigen schuld dikke bult", "harder slaan", "ze zochten het op" – weinig empathie, zelfs bij diverse deelnemers (conservatieve homo’s, mensen van kleur). Nu volledige outrage over excessief geweld. Waarom?  
+  Zelfde patroon in VS:  
+  - Jan 6 Capitol: peaceful buiten, breuk binnen → "blanke insurrection", "aanval op democratie", massale vervolgingen.  
+  - George Floyd-rellen: steden branden → "mostly peaceful", "begrijpelijke woede".  
+  - Alex Pretti (ICU nurse shot door Border Patrol jan 2026): video's tonen spugen + schop achterlicht ICE-voertuig 11 dagen eerder → tackled; narratief: "onschuldig slachtoffer ICE-geweld".  
+  
+  Waarom verschuift framing altijd naar shaming van "witte schuld" of collectief schuldgevoel? Realiteit is diverser (deelnemers, motieven, context) – maar narratief reduceert tot één frame. Feiten checken i.p.v. frames slikken.
+  
+  Waarom OIM?  
+  Virale clips + selectieve outrage knippen context weg. Hashes laten je zelf verifiëren, niet meegaan in gespinde narratieven.  
+  In comments: meer corona/US-vergelijking + waarom framing zo voorspelbaar is.  
+  Open Internet Manifest: feiten boven frames. Hashes boven hysterische narratieven.  
+  Check hash & deel realiteit. 👀  
+  
+  https://openinternetmanifest.org/nl/social-posts  
+  #RealiteitVsNarratief #Dag20 #UtrechtRealiteit #DubbeleStandaard
+
 ---
+
 🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  
 Video's exploderen: agent schopt moslima in buik, mept met wapenstok – narratief: "racisme! politiegeweld tegen moslima's!" Aangifte mishandeling + racisme, demonstraties, massale verontwaardiging en calls tot actie.
 Realiteit (politie 28-30 jan):  

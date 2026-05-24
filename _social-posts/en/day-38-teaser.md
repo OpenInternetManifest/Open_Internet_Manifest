@@ -9,7 +9,31 @@ day: 38
 teaser_title: Tonight the ladder of the Graduated Animal Farms
 # teaser_url: /en/social-posts/day-38-teaser
 teaser_text: Tomorrow; the first stall
+raw_markdown: |
+  **Day 38 Teaser – Tonight: the ladder of the Graduated Animal Farms** 🪜🐷  
+  Tomorrow RVN: the first stall – mainstream media as base layer GAF.
+  
+  Today we already saw the pattern crystal clear: temporary allies that seem ideologically incompatible – Queers for Palestine, Chickens for KFC, Iran 1979 – Graduated Animal Farms (GAF) in action.
+  
+  Today we start a new series: Graduated Animal Farms – the different layers of the system that feeds narratives and steers behavior.  
+  From the base stall (MSM, emotional framing) to higher layers (alternative media, echo chambers, infiltration).  
+  Because online behavior often seems rotten… but that’s not a coincidence. It’s design.
+  
+  Tomorrow we dive into the first layer.  
+  No gatekeepers. Only facts over frames 🛡️✨
+  
+  https://openinternetmanifest.org  
+  #RVN #OpenInternetManifest #GraduatedAnimalFarms #Day38Teaser  
+  
+  Deze post is 100% authentiek en verifieerbaar via:  
+  https://openinternetmanifest.org/nl/hash-verifier  
+  Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
+  Waarom narratieven wild worden... 🌀
+
+fuzzy_sha256: "f7d165833c05997e584886c9a87a59631085b4b467e5da02749e9807dea6421e"
+full_sha256: "361361374573afa2f52448eb144bbcdc4d870fcefefb39d0aded8382bc094360"
 ---
+
 **Day 38 Teaser – Tonight: the ladder of the Graduated Animal Farms** 🪜🐷  
 Tomorrow RVN: the first stall – mainstream media as base layer GAF.
 

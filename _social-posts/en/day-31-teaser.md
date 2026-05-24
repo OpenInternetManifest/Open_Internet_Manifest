@@ -9,7 +9,22 @@ day: 31
 teaser_title: Tonight; the boomerang returns
 # teaser_url: /en/social-posts/day-31-teaser
 teaser_text: Tomorrow RVN; Sun Tzu in full glory
+raw_markdown: |
+  **Tomorrow 31 Teaser – Tonight: the boomerang returns** ♟️🔥  
+  Tomorrow RVN: Sun Tzu in full glory.
+  
+  From Epstein files drop to Pam Bondi in Congress with a "burn book" full of Dems' search history – their push for transparency flies back as boomerang. Trump as early alerter in 2006 ("thank goodness you're stopping him"), narrative explodes, facts rain begins 🌧️.  
+  No illusions. No hate. Only reality over frames 🛡️.
+  
+  And we keep building: Giscus live, open conversation no gatekeeper 💬🌐  
+  
+  https://openinternetmanifest.org  
+  #RVN #FactsOverFrames #RealityVsNarrative #SunTzu #EpsteinFiles #PamBondi #Day31Teaser
+
+fuzzy_sha256: "8fbce6e6574ca7e64ab9cedd4d30b3e45d59080ab75041e1aa1dcc24bdd65d55"
+full_sha256: "51479ab1cebba6ffbfe83320f163f9b47520296aa0b6175f8ead246985d1e18b"
 ---
+
 **Tomorrow 31 Teaser – Tonight: the boomerang returns** ♟️🔥  
 Tomorrow RVN: Sun Tzu in full glory.
 

@@ -2,9 +2,9 @@
   <h3>Deel dit bericht</h3>
   
   <p class="repost-explain">
-    <strong>Korte versie / X:</strong> Teaser<br>
-    <strong>Volledige raw tekst:</strong> Strakke Markdown (voor verifier)<br>
-    <strong>Facebook:</strong> Unicode-opmaak → plak zelf met Ctrl+V
+    <strong>Korte versie:</strong> Teaser voor X<br>
+    <strong>Raw Markdown:</strong> Exacte originele tekst (voor verifier)<br>
+    <strong>Unicode:</strong> Mooie opmaak voor Facebook / andere platforms
   </p>
 
   <div class="repost-buttons">
@@ -12,110 +12,91 @@
       📋 Korte versie (Teaser)
     </button>
     
-    <button onclick="copyRepostFull()" class="btn-repost secondary">
-      📋 Volledige raw tekst
+    <button onclick="copyRawMarkdown()" class="btn-repost">
+      📋 Raw Markdown
     </button>
 
-    <button onclick="shareOnX()" class="btn-repost social">
-      Post op 𝕏
+    <button onclick="copyUnicode()" class="btn-repost">
+      📋 Unicode opmaak
     </button>
 
     <button onclick="copyAndOpenFacebook()" class="btn-repost social">
       Kopieer + open Facebook
+    </button>
+
+    <button onclick="shareOnX()" class="btn-repost social">
+      Post op 𝕏
     </button>
   </div>
 
   <div id="repost-feedback" class="repost-feedback"></div>
 </div>
 
+{% include unicode-converter.html %}
+
 <script>
   const baseUrl = "https://openinternetmanifest.org";
-
   const title = "{{ page.rvn_title | escape }}";
   const teaser = "{{ page.rvn_teaser | strip_html | escape | replace: '\n', ' ' }}" || "{{ page.content | strip_html | truncatewords: 35 | escape | replace: '\n', ' ' }}";
   const url = baseUrl + "{{ page.url }}";
 
-  let fullHtml = `{{ page.content | replace: '\\', '\\\\' | replace: '"', '\\"' | replace: '\n', '\\n' | replace: '`', '\\`' }}`;
-
-  function htmlToMarkdown(html) {
-    return html
-      .replace(/<hr\s*\/?>/gi, '\n---\n')
-      .replace(/<h[1-6][^>]*>/gi, '\n### ')
-      .replace(/<\/h[1-6]>/gi, '\n')
-      .replace(/<p>/gi, '\n\n')
-      .replace(/<\/p>/gi, '')
-      .replace(/<strong>/gi, '**')
-      .replace(/<\/strong>/gi, '**')
-      .replace(/<em>/gi, '*')
-      .replace(/<\/em>/gi, '*')
-      .replace(/<ul>|<ol>/gi, '\n')
-      .replace(/<\/ul>|<\/ol>/gi, '\n')
-      .replace(/<li>/gi, '\n- ')
-      .replace(/<\/li>/gi, '\n')
-      .replace(/<br\s*\/?>/gi, '\n')
-      .replace(/&nbsp;/g, ' ')
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-
-      // === ZEER AGRESSIEVE OPSOMMING CLEANING (voor zowel - als •) ===
-      .replace(/\n\s*\n(\s*[-•]\s)/g, '\n$1')        // geen lege regel vóór bullet
-      .replace(/(\s*[-•]\s.+?)\n\s*\n(\s*[-•]\s)/g, '$1\n$2') // bullets direct onder elkaar
-      .replace(/(\s*[-•]\s.+?)\n\s*\n/g, '$1\n\n')   // na LAATSTE bullet wél 1 witregel
-      .replace(/\n{3,}/g, '\n\n')
-      .replace(/^\n+|\n+$/g, '')
-      .trim();
+  function getRawMarkdown() {
+    const rawEl = document.getElementById('raw-markdown');
+    return rawEl ? rawEl.textContent.trim() : '';
   }
 
-  const fullRawText = htmlToMarkdown(fullHtml);
-
-  function toFacebookUnicode(text) {
-    const boldMap = {
-      'A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈',
-      'J':'𝐉','K':'𝐊','L':'𝐋','M':'𝐌','N':'𝐍','O':'𝐎','P':'𝐏','Q':'𝐐','R':'𝐑',
-      'S':'𝐒','T':'𝐓','U':'𝐔','V':'𝐕','W':'𝐖','X':'𝐗','Y':'𝐘','Z':'𝐙',
-      'a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢',
-      'j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫',
-      's':'𝐬','t':'𝐭','u':'𝐮','v':'𝐯','w':'𝐰','x':'𝐱','y':'𝐲','z':'𝐳'
-    };
-    return text.replace(/\*\*(.+?)\*\*/g, (_, p1) => 
-      p1.split('').map(c => boldMap[c] || c).join('')
-    );
-  }
-
+  // ==================== KNOPPEN ====================
   function copyRepostShort() {
     const text = `🔍 ${title}\n\n${teaser}\n\nLees het volledige verhaal: ${url}\n\n#OpenInternetManifest`;
     copyToClipboard(text, "✅ Teaser gekopieerd!");
   }
 
-  function copyRepostFull() {
-    const text = `\n\n${fullRawText}`;
-    copyToClipboard(text, "✅ Volledige raw tekst gekopieerd!");
+  function copyRawMarkdown() {
+    const raw = getRawMarkdown();
+    if (raw) {
+      navigator.clipboard.writeText(raw).then(() => {
+        showFeedback("✅ Exacte originele Markdown gekopieerd!");
+      });
+    }
   }
 
-  function shareOnX() {
-    const text = `🔍 ${title}\n\n${teaser}\n\nLees het volledige verhaal:\n${url}\n\n#OpenInternetManifest #RealiteitVsNarratief`;
-    const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
-    window.open(shareUrl, '_blank');
+  function copyUnicode() {
+    const raw = getRawMarkdown();
+    if (raw) {
+      const unicodeText = convertToUnicode(raw);
+      navigator.clipboard.writeText(unicodeText).then(() => {
+        showFeedback("✅ Unicode opmaak gekopieerd!");
+      });
+    }
   }
 
   function copyAndOpenFacebook() {
-    const fbText = `\n\n${toFacebookUnicode(fullRawText)}`;
-    navigator.clipboard.writeText(fbText).then(() => {
-      const feedback = document.getElementById('repost-feedback');
-      feedback.innerHTML = "✅ Unicode voor Facebook gekopieerd!";
-      setTimeout(() => { feedback.innerHTML = ''; }, 3000);
-    });
+    const raw = getRawMarkdown();
+    if (raw) {
+      const fbText = convertToUnicode(raw);
+      navigator.clipboard.writeText(fbText).then(() => {
+        showFeedback("✅ Unicode voor Facebook gekopieerd!");
+      });
+    }
     setTimeout(() => {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
     }, 700);
   }
 
+  function shareOnX() {
+    const text = `🔍 ${title}\n\n${teaser}\n\nLees het volledige verhaal:\n${url}\n\n#OpenInternetManifest`;
+    window.open(`https://x.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank');
+  }
+
   function copyToClipboard(text, message) {
     navigator.clipboard.writeText(text).then(() => {
-      const feedback = document.getElementById('repost-feedback');
-      feedback.innerHTML = message;
-      setTimeout(() => { feedback.innerHTML = ''; }, 4000);
+      showFeedback(message);
     });
+  }
+
+  function showFeedback(message) {
+    const feedback = document.getElementById('repost-feedback');
+    feedback.innerHTML = message;
+    setTimeout(() => { feedback.innerHTML = ''; }, 4000);
   }
 </script>

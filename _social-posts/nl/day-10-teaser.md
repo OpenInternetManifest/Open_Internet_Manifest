@@ -9,7 +9,41 @@ day: 10
 teaser_title: De Onzichtbare Riem
 # teaser_url: /nl/social-posts/dag-10-teaser
 teaser_text: vrijheid is niet veiliger maken, maar loslaten
+raw_markdown: |
+  🇳🇱 **Dag 10 – De Onzichtbare Riem** 🔗  
+  Ze beloven *"transparantie"* en *"bescherming"* met AI-regels en chat-scans (EU 2026 stijl).  
+  
+  Maar elke laag "veiligheid" trekt de riem strakker:  
+  • algoritmes die je gedachten voorspellen 🧠  
+  • age checks die anonimiteit killen 🕵️  
+  • data die nooit meer loslaat 📊  
+  
+  **Realiteit:** vrijheid is niet veiliger maken, maar loslaten. ✂️  
+  The Open Internet Manifest wil geen riem – maar een web zonder leiband. 🌐  
+  
+  Lees mee: https://openinternetmanifest.org  
+  
+  ---
+  
+  🇬🇧 **Day 10 – The Invisible Leash** 🔗  
+  They promise *"transparency"* & *"protection"* via AI rules & chat scans (EU 2026 rollout).  
+  
+  But every "safety" layer tightens the leash:  
+  • algorithms predicting your thoughts 🧠  
+  • age verification killing anonymity 🕵️  
+  • data you can't escape 📊  
+  
+  **Reality:** freedom isn't more safety nets – it's cutting the cord. ✂️  
+  
+  The Open Internet Manifest wants no leash – just a web without one. 🌐  
+  
+  Join: https://openinternetmanifest.org  
+  #RealityVsNarrative #OpenInternet #InvisibleLeash #FreeInternet #openinternetmanifest
+
+fuzzy_sha256: "4b37183d0fd3d38b486ec81f20f3a0f52b92f3cc84d91810b84647ed4cdbdbeb"
+full_sha256: "7093c7bc52dc3f69bfa29c9aee98cc8c83e44ee67f7a99848c4216cdeac16e96"
 ---
+
 🇳🇱 **Dag 10 – De Onzichtbare Riem** 🔗  
 Ze beloven *"transparantie"* en *"bescherming"* met AI-regels en chat-scans (EU 2026 stijl).  
 

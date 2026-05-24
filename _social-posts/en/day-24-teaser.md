@@ -9,7 +9,29 @@ day: 24
 teaser_title: Tonight; just breathe
 # teaser_url: /en/social-posts/day-24-teaser
 teaser_text: Tomorrow we look at a modern example
+raw_markdown: |
+  🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  
+  Earlier: 1913. Titanic clears opponents, FED and income tax pushed through, Rockefellers build on.  
+  Today: Knights Templar – first international banking system, power above church and kings, dissolved but structure survived.  
+  Coincidence? Or a pattern running for centuries?
+  
+  Tonight: just breathe.  
+  Tomorrow: back at it.
+  
+  Tomorrow we look at a modern example of the same game.  
+  Obama and the Iran deal: $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  
+  Good cop / bad cop — but who really wins?
+  
+  Open Internet Manifest: facts over frames.  
+  Keep watching. 👀✨  
+  https://openinternetmanifest.org/en/social-posts  
+  #RealityVsNarrative #Day23Teaser 
+  @realDonaldTrump
+
+fuzzy_sha256: "76429174dfb16d0f2b80eb57caaeb53db653496aabd0dc187036b84f6b348980"
+full_sha256: "a88013232443ef2011c64964eee1897eef2e539e36e4e77597e14a05887d58b2"
 ---
+
 🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  
 Earlier: 1913. Titanic clears opponents, FED and income tax pushed through, Rockefellers build on.  
 Today: Knights Templar – first international banking system, power above church and kings, dissolved but structure survived.  

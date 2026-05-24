@@ -9,7 +9,43 @@ day: 30
 teaser_title: 'Vanavond: de stilte voor de storm'
 # teaser_url: /nl/social-posts/dag-30-teaser
 teaser_text: Morgen hervatten we de RVN-serie
+raw_markdown: |
+  **Dag 30 Teaser – Vanavond: de stilte voor de storm** ☯️🔥  
+  Morgen hervatten we de RVN-serie.
+  
+  Even een stap terug was nodig – rust laadt op ⚡, stilte spreekt luider dan lawaai 🌙.  
+  Morgen: waarom woorden soms niet tellen wat ze letterlijk zeggen, maar wat een narratief ervan maakt.  
+  Een rechter, een politicus, en de grens van 'opruiing' ⚖️🔥.  
+  Geen illusies. Geen haat. Alleen realiteit. Feiten boven frames 🛡️.
+  
+  En we staan niet stil:  
+  de **Giscus comment-sectie** staat nu live op bijna alle pagina’s 🚀  
+  → direct reageren onder elke thesis, guide en RVN-post 💬  
+  → geen algoritme, geen poortwachter – gewoon open gesprek 🌐  
+  
+  https://openinternetmanifest.org  
+  #RVN #FeitenBovenFrames #RealityVsNarratief #Opruiing #Dag30Teaser  
+  
+  **Tomorrow 30 Teaser – Tonight: the silence before the storm** ☯️⚡  
+  Tomorrow we resume the RVN series.
+  
+  A step back was needed – rest recharges 🔋, silence speaks louder than noise 🌌.  
+  Tomorrow: why words sometimes don’t count for what they literally say, but for the narrative they create.  
+  A judge, a politician, and the boundary of ‘incitement’ ⚖️🔥.  
+  No illusions. No hate. Only reality. Facts over frames 🛡️.
+  
+  And we’re not standing still:  
+  the **Giscus comment section** is now live on almost all pages 🚀  
+  → reply directly under every thesis, guide and RVN post 💬  
+  → no algorithm, no gatekeeper – just open conversation 🌐  
+  
+  https://openinternetmanifest.org  
+  #RVN #FactsOverFrames #RealityVsNarrative #Incitement #Day30Teaser
+
+fuzzy_sha256: "a74bfad8f8aa622a62e9d17eda1f3ff2c1ccb59ab482c937c8330e8ed5aa9adb"
+full_sha256: "62ea60dee98bcf64a1258202b80abbecb6f4caa21eade5d759639087406e1699"
 ---
+
 **Dag 30 Teaser – Vanavond: de stilte voor de storm** ☯️🔥  
 Morgen hervatten we de RVN-serie.
 

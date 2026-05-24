@@ -9,7 +9,24 @@ day: 2
 teaser_title: The Internet is not dead
 # teaser_url: /en/social-posts/day-2-teaser
 teaser_text: it is captured
+raw_markdown: |
+  🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
+  Thesis 1 hits hard:  
+  "The Internet is not dead – it is captured."  
+  We are guests in closed platforms, with no control over our own data and communication.🤯 
+  
+  Read it now: https://openinternetmanifest.org/en/theses/thesis-01
+  
+  The manifesto starts here – and it grows with you.🚀
+  
+   https://openinternetmanifest.org  
+  #openinternetmanifest #FreeInternet  #decentralization #cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
+  ❤️
+
+fuzzy_sha256: "9a57e46d25708ca39a3b761531cd40c984082c3ccf0939ba12fd2cab9b5b216c"
+full_sha256: "bc1c05ef0d51fb97e23c7837a55701d44f74c4eabf1bdf312205e4cd8057541b"
 ---
+
 🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
 Thesis 1 hits hard:  
 "The Internet is not dead – it is captured."  

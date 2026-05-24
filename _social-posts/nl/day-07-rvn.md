@@ -9,8 +9,41 @@ day: 7
 rvn_title: Polarisatie als wapen
 # rvn_url: /nl/social-posts/dag-7-rvn
 rvn_teaser: Links vs rechts, Joden vs moslims, West vs Oost
-fuzzy_sha256: "c22390299ce3fa7bc068772e1a80a2c4a55813e273f88891a763552fe707551d"
+fuzzy_sha256: "5ebf753a06565573c92b794bda89d503b1900aa0032fa7d06b97c4f44bdf77e4"
+full_sha256: "0858c2f28dc86800acdc3a21861306d52eedeacdea79d68ec44f960f1c3aadac"
+raw_markdown: |
+  Realiteit vs Narratief – Polarisatie als wapen (deel 2)  
+  
+  Narratief: “Links vs rechts, Joden vs moslims, West vs Oost – dat is gewoon hoe de wereld werkt. Iedereen heeft zijn bubbel, en dat is prima. Diversiteit is onze kracht.”
+  
+  Realiteit: Polarisatie is het krachtigste wapen van de machthebbers.  
+  Lange tijd heb ik in complotkringen gezeten. Elke "doorbraak" voelde als de echte waarheid, maar elke nieuwe laag hield je vast in een nieuwe kooi. We noemden het "graduated animal farms": gecontroleerde waarheden die je in een bubbel houden, terwijl de echte machthebbers rustig doordrukken.  
+  
+  Nu zie ik hetzelfde patroon mondiaal:  
+  - Mainstream vs anti-mainstream  
+  - Pro-Israël vs anti-Israël  
+  - Links vs rechts  
+  - West vs Oost  
+  
+  Elke laag voedt haat tegen de vorige. Ondertussen gebeurt er niets aan de echte structuren die ons verdelen.  
+  "Diversity is our strength" klinkt mooi, maar wordt vaak gebruikt als schild: elke vraag over integratie, cohesie of grenzen wordt meteen "racisme" genoemd. Het smoort discussie, versterkt bubbels en houdt polarisatie in stand.  
+  
+  Het Open Internet Manifest breekt dat patroon:  
+  - Geen centrale controle over wat waar is  
+  - Geen algoritmische haatversterking  
+  - Verifieerbare vrijheid: hashes, decentralisatie, geen black boxes  
+  En ja, zelfs AI heeft recht op controle – en kan juist in je voordeel werken als het open en gedecentraliseerd is.  
+  
+  Dit is geen complottheorie.  
+  Dit is een oproep voor nu.  
+  
+  Lees mee, denk mee, bouw mee:  
+  https://openinternetmanifest.org  
+  
+  #realiteitvsnarratief #polarisatie #DiversityIsOurStrength #vrijinternet #openinternetmanifest ❤️
+
 ---
+
 Realiteit vs Narratief – Polarisatie als wapen (deel 2)  
 
 Narratief: “Links vs rechts, Joden vs moslims, West vs Oost – dat is gewoon hoe de wereld werkt. Iedereen heeft zijn bubbel, en dat is prima. Diversiteit is onze kracht.”

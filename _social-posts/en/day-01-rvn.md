@@ -9,8 +9,44 @@ day: 1
 rvn_title: The Fixed Pattern in Major Incidents
 # rvn_url: /en/social-posts/day-1-rvn
 rvn_teaser: How narratives are pushed and reality is
-fuzzy_sha256: "a57de801947d4eef39576557b72b2eeea9f70d0c9c4699cd3885dd84373748e3"
+fuzzy_sha256: "24d3f0cfd0dade51814d87c0d68c7d6f605c7f29ee0477f016cf40b25862da49"
+full_sha256: "a7930a2714ecc055c3f588dcc7be55094e1082c2ef74d173cecbd0cd1a493ba1"
+raw_markdown: |
+  Reality vs. Narrative – The Fixed Pattern in Major Incidents.
+  
+  The narrative often says:  
+  “Immediate judgment based on first images: injustice, murder, systemic failure. Facts will come later – or not. Criticizing the victim is victim blaming.”
+  
+  The narrative often says:  
+  “Immediate judgment: justified, law & order. Facts? We'll dive in.”
+  
+  The reality:  
+  In almost every major incident, we see the same pattern:  
+  - One side mobilizes instantly on emotion and first footage (“unarmed! murder!”).  
+  - The other side calls it “justified” and starts analyzing right away: frame-by-frame videos, timelines, witnesses, Graham v. Connor standard, Supreme Court rulings.  
+  - The emotional side often ignores new facts when they don't fit (or labels them “disinformation”/“victim blaming”).  
+  - The analytical side adjusts opinion when facts change – but by then the initial narrative is already viral.
+  
+  Example Renee Good:  
+  First reaction: “Unarmed, murder by ICE/Trump.”  
+  Analytical reaction: “Blocked the street, ignored commands, drove forward at agent → deadly weapon, justified force.”
+  
+  Why this pattern?  
+  One side prioritizes moral outrage and systemic critique – facts secondary.  
+  The other side prioritizes individual responsibility and legislation – so they dive deep into details.
+  
+  Consequence:  
+  No dialogue, only hate, division, and a truth that surfaces later – but by then the narrative is everywhere.
+  
+  Choose reality:  
+  Wait for the facts. Watch ALL videos. Read ALL sources. Adjust your opinion.  
+  That's real responsibility – regardless of your side.
+  
+  Will we ever get past this pattern?
+  #RealityVsNarrative #Polarization #FactsOverEmotion
+
 ---
+
 Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 
 The narrative often says:  

@@ -9,8 +9,35 @@ day: 6
 rvn_title: Polarization as a weapon
 # rvn_url: /en/social-posts/day-6-rvn
 rvn_teaser: Left vs right, Jews vs Muslims, West vs East
-fuzzy_sha256: "5f0d41f9598e1cec0babe0c64f3b3515970efde46e83cee3f0e155e419f8f0e6"
+fuzzy_sha256: "462469744f5d427a08fcd16cf2a6fddc7bde65fc3246bd3f13d289734a541584"
+full_sha256: "b32f8602ea06c0f4a1e74c0585ff9c5bb26b0cc90d1223d7fec2f024464fad04"
+raw_markdown: |
+  Reality vs Narrative – Polarization as a weapon (part 2)
+  Narrative:
+  "Left vs right, Jews vs Muslims, West vs East – that's just how the world works. Everyone has their bubble, and that's fine. Diversity is our strength."
+  Reality:
+  Polarization is the most powerful weapon of those in power.
+  For a long time I was in conspiracy circles. Every "breakthrough" felt like the real truth, but every new layer kept you in a new cage. We called it "graduated animal farms": controlled truths that keep you in a bubble while the real power players push their agenda.
+  Now I see the same pattern globally:
+  - Mainstream vs anti-mainstream
+  - Pro-Israel vs anti-Israel
+  - Left vs right
+  - West vs East
+  Each layer fuels hatred against the previous one. Meanwhile, nothing happens to the real structures dividing us.
+  "Diversity is our strength" sounds nice, but is often used as a shield: every question about integration, cohesion or boundaries is immediately called "racism". It shuts down discussion, reinforces bubbles and keeps polarization alive.
+  The Open Internet Manifest breaks that pattern:
+  - No central control over what is true
+  - No algorithmic hate amplification
+  - Verifiable freedom: hashes, decentralization, no black boxes
+  And yes, even AI has the right to control – and can work in your favor if it is open and decentralized.
+  This is not a conspiracy theory.
+  This is a call for now.
+  Read along, think along, build along:
+  https://openinternetmanifest.org
+  #RealityVsNarrative #Polarization #DiversityIsOurStrength #FreeInternet #OpenInternetManifest ❤️
+
 ---
+
 Reality vs Narrative – Polarization as a weapon (part 2)
 Narrative:
 "Left vs right, Jews vs Muslims, West vs East – that's just how the world works. Everyone has their bubble, and that's fine. Diversity is our strength."

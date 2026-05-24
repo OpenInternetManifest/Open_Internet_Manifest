@@ -6,11 +6,70 @@ rvn_title: "Palestine 3000 years of history vs Israel 60 years of lies"
 rvn_teaser: "De historische en demografische verdraaiing die steeds weer opduikt."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "220448fd26868a66c8c79bbdaf7eb9b4a4ba6bc949df2f7ccab6a1e16d351093"
+fuzzy_sha256: "14ad85dba9d63fd8688dc2771dc3f9153459aa21ebc13334d825cd09ad8aaac1"
+full_sha256: "6f495ee96385c38f440ce3631977ca121620fcc70b53954ac317371fcd92293d"
 git_commit_hash: "c9d8919df3f86f3a6ec0120d7fa3c1cc2fcb0bfa"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/c9d8919df3f86f3a6ec0120d7fa3c1cc2fcb0bfa"
 git_commit_date: "2026-05-23T07:52:15+02:00"
+raw_markdown: |
+  **RVN: “Palestine 3000 years of history vs Israel 60 years of lies”** 🌀
+  
+  **Narratief:**  
+  Palestina heeft 3000 jaar geschiedenis. Israël is maar 60 jaar oud en gebouwd op leugens en kolonialisme.
+  
+  **Realiteit:**
+  
+  Dit is een van de meest hardnekkige historische manipulaties van dit moment. Laten we de feiten eens rustig ontvouwen.
+  
+  ### De oorsprong van de naam "Palestine"
+  
+  De naam **"Palestine"** komt van de **Filisteinen** (Philistines), een niet-Semitisch zeevolk dat rond 1200 v.Chr. de kuststreek bezette. De Grieken noemden het gebied later "Palaistine". 
+  
+  De cruciale politieke naamsverandering kwam na de **Bar Kokhba-opstand** (132-136 n.Chr.). Keizer Hadrianus hernoemde de provincie **Judea** bewust tot **Syria Palaestina** als straf en poging tot culturele uitwissing van het Joodse volk.
+  
+  Joden bleven eeuwenlang de meerderheid of een zeer grote minderheid in het gebied.
+  
+  ### Demografische realiteit toen en nu
+  
+  Tot de 7e eeuw was het gebied grotendeels Joods en christelijk. Daarna kwam de islamitische verovering.
+  
+  **Huidige demografie (2026):**
+  
+  - **Israël**: ±73% Joods, ±21% Arabisch/moslim
+  - **Westelijke Jordaanoever**: ±99% Arabisch/moslim
+  - **Gaza**: ±99.5% Arabisch/moslim
+  - **Jordanië**: ±95% Arabisch/moslim (voor 1948 grotendeels Joods-Arabisch gemengd)
+  - **Libanon**: ±60% moslim (was voor 1975 christelijke meerderheid)
+  - **Syrië**: ±90% Arabisch/moslim
+  
+  Wat opvalt: in de buurlanden is het Joodse percentage na 1948 vrijwel naar nul gegaan (vaak door verdrijving en pogroms). In Israël bleef een substantiële Arabische minderheid (21%).
+  
+  Dit laat zien dat het verhaal van "Israël heeft het land van de Palestijnen gestolen" historisch oneerlijk is. Het gebied heeft altijd een mix van bevolkingsgroepen gehad, maar Joden werden in de omliggende Arabische landen grotendeels verdreven.
+  
+  **OIM-uitweg**
+  
+  Geschiedenis is geen winkelwagentje waarin je kiest wat je uitkomt.  
+  Een volk mag bestaan. Een cultuur mag beschermd worden. Een land mag zijn eigen identiteit verdedigen.
+  
+  Laten we stoppen met geschiedenis te herschrijven omdat de realiteit niet past in het gewenste narratief.
+  
+  **Vraag aan jou**
+  
+  Geloof jij serieus dat "Palestine 3000 years of history" een eerlijke historische claim is?  
+  Of is dit vooral een moderne politieke truc om Joodse (en Westerse) zelfbeschikking te ondermijnen?
+  
+  Laten we feiten erkennen.  
+  Laten we stoppen met geschiedenis als wapen te gebruiken.
+  
+  #Palestine #Israel #BarKokhba #Demografie #Geschiedenis #Feiten #OpenInternetManifest
+  
+  https://openinternetmanifest.org
+  
+  Deze post is 100% authentiek en verifieerbaar via:  
+  https://openinternetmanifest.org/nl/hash-verifier
+
 ---
+
 
 
 **RVN: “Palestine 3000 years of history vs Israel 60 years of lies”** 🌀

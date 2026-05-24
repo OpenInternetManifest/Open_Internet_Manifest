@@ -9,7 +9,49 @@ day: 25
 teaser_title: 'Vandaag: Obama / Iran-deal'
 # teaser_url: /nl/social-posts/dag-25-teaser
 teaser_text: 'Morgen: The big three'
+raw_markdown: |
+  🇳🇱 **Dag 25 Teaser – Vanavond: even op adem** 😏🍿  
+  Vandaag: Obama / Iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel.  
+  
+  Good cop / bad cop — maar wie wint er écht?
+  
+  Vanavond: even lucht.  
+  Morgen: door.  
+  
+  Morgen kijken we naar de laag die bijna nooit in het nieuws komt.  
+  Big Three (BlackRock, Vanguard, State Street) + BIS: wie beheert de echte knoppen terwijl wij naar Musk of Soros kijken?
+  
+  Open Internet Manifest: feiten boven frames.  
+  
+  Blijf kijken. 👀✨  
+  
+  https://openinternetmanifest.org/nl/social-posts  
+  #RealiteitVsNarratief #Dag24Teaser
+  
+  ---
+  
+  🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
+  Today: Obama / Iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  
+  
+  Good cop / bad cop — but who really wins?
+  
+  Tonight: just breathe.  
+  Tomorrow: back at it.
+  
+  Tomorrow we look at the layer that almost never makes the news.  
+  Big Three (BlackRock, Vanguard, State Street) + BIS: who holds the real buttons while we watch Musk or Soros?
+  
+  Open Internet Manifest: facts over frames.  
+  
+  Keep watching. 👀✨  
+  
+  https://openinternetmanifest.org/en/social-posts  
+  #RealityVsNarrative #Day24Teaser
+
+fuzzy_sha256: "96e2c8cf9278cd27bdce4fb96667de8e32d40a6c19038dbb4083008a1f723f0b"
+full_sha256: "14b3f5cb49176d8ffa111a584477789ac06a255e1e95f3ac3e9ad8169b1406c4"
 ---
+
 🇳🇱 **Dag 25 Teaser – Vanavond: even op adem** 😏🍿  
 Vandaag: Obama / Iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel.  
 
