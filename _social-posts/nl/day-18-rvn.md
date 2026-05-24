@@ -10,7 +10,7 @@ rvn_title: Holocaustherdenking 2026
 # rvn_url: /nl/social-posts/dag-18-rvn
 rvn_teaser: en een kind wordt nog steeds “kankerjood” genoemd 😢
 fuzzy_sha256: "7fb9b0a78bd1c3c5cd92bcc2b7741f7fe6ce25e86022445d48154938f4bd0aeb"
-full_sha256: "ef1aa3aa22cb06a935742d286e7f0f6b8c1d8a6790240dab83f6ec80d5aef4bb"
+full_sha256: "2a1d673ee40e3283e5b729b8f1eb6ee0f61704dddc8c50fe9f71048d3fe8bd23"
 raw_markdown: |
   🇳🇱 **Dag 18 – Reality vs Narrative: Holocaustherdenking 2026 – en een kind wordt nog steeds “kankerjood” genoemd** 🌐😔url.td/0ZB9M   
   

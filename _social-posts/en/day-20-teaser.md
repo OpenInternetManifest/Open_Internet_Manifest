@@ -35,7 +35,7 @@ raw_markdown: |
   #RealityVsNarrative #Day21Teaser
 
 fuzzy_sha256: "b7976fc74dbfa70ffab8407fa4c990883e32e2d88efc4fc9b5800e8bfde31705"
-full_sha256: "7f671e8bcbd93c35e11a42228e60a6bdcd7ae7b2a05fc71832d2a7549a33fe3f"
+full_sha256: "a925f2e74d48c64bdf11ee23f6425dd6753e0f7a9cc669260fce499b679da105"
 ---
 
 🇬🇧 Day 20 Teaser – Tomorrow: the roots no one talks about 🌑📜

@@ -10,7 +10,7 @@ git_commit_hash: "ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
 git_commit_date: "2026-04-20T06:53:39+02:00"
 fuzzy_sha256: "a54010493a3b0c60deda7ce972a04019ac97bd89eba2d1e1156639a60ebd4de4"
-full_sha256: "3e188e30f739fe651333a7921e091c3ee573987b638c89c17e5816ccd98c5708"
+full_sha256: "1db7dfe700cbc4f490caf87956da9f57a4d5b04a471a98a51ba11b6e7f4b65ad"
 raw_markdown: |
   **RVN: Niemand helpt – Het Bystander Effect** 🌀
   

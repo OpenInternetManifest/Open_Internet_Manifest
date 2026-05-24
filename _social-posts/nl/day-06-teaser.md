@@ -32,7 +32,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "b0216f61a66c9c54a5de0fac6758af907294c3de68d6f9fcd6c51c7e5856ac2b"
-full_sha256: "bc58ab40eda1c9beca488f91194d346fd5ae82b04266b3d6814af1a7ff1eb859"
+full_sha256: "61119f4e2ab28a9de993c131423ae0bcffa3b00625cc7e3ed5e88c2de6a1ed9a"
 ---
 
 🇳🇱 Dag 6 – Vrijheid met grenzen  

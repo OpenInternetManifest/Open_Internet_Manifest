@@ -28,7 +28,7 @@ raw_markdown: |
   #RealityVsNarrative #openinternetmanifest #webwithoutleash
 
 fuzzy_sha256: "347e600bf57865a83ef73857ca1e76361d5bcc7d92aeed7e310fe94059193f1a"
-full_sha256: "73a5d7382c582e46c7fcec1c2502f86157b9c58a9e92863c09babbc4f518ea20"
+full_sha256: "276986ccc71508dbee450b2f50fa081900c99609083841bd598cb8d93c9bd04b"
 ---
 
 🇬🇧 **Day 13 – Just pause** 🌱🌐 

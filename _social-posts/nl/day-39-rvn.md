@@ -10,7 +10,7 @@ rvn_title: De eerste stal
 # rvn_url: /nl/social-posts/dag-39-rvn
 rvn_teaser: mainstream media als basislaag van de Graduated Animal Farms
 fuzzy_sha256: "9ff2a10136ba5242c012654c09b06146021dc21b680ed68ad59b327fc13d54f7"
-full_sha256: "087c2ce8206546443676bb9c7f870f69eb604056ce690bc2e20ff9c395b66566"
+full_sha256: "e4e9be6563d06d05f1cefd4a240f629e3fcf87623e78be90ad4d23324a71eaa3"
 raw_markdown: |
   **Dag 39 – RVN: De eerste stal – mainstream media als basislaag van de Graduated Animal Farms** 🐷📺  
   

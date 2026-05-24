@@ -7,7 +7,7 @@ rvn_teaser: "Cash is dirty and old-fashioned, they say. But what do we really ga
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "c25f7ca75dded257c325ea557578851a9e1ad05b6a34d7194d623f83ca84b24f"
-full_sha256: "3f3be4352698f7cdc1a1e185267a116130b716bbbaab20b3d7b041677847e6e4"
+full_sha256: "d3084b9ffa73c6160fb39732080b9fcf2bffe54899bdcaca61529758e9d17766"
 social_share_sha256: ""
 git_commit_hash: "2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"

@@ -33,7 +33,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "8cfdcb7ad279cf260fb7f3ea49f51802babc9042d13584d803444d1c599df8ff"
-full_sha256: "e57e08b14b48ab8dc50ab26319e17a117bcb208b4841f748def450ad1ea92101"
+full_sha256: "6e84d91ae573e2f9ddd84647f1862b6dd420ac739166024a745d970ab938309c"
 ---
 
 🇳🇱 Dag 4 – Wat als privacy standaard was?  

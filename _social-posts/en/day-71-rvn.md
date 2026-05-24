@@ -7,7 +7,7 @@ rvn_teaser: "Newest car, low monthly payment, always up-to-date. Sounds like fre
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "83ab47bea279b6f3676281a359d5e2916c942c3ced28c6f6d878fd1a7f24ef5b"
-full_sha256: "1e806dbd6f5ebe272a7b9d6acc03e53c7ca35132c389b337a4ccb873540bbb5e"
+full_sha256: "c3d5c635ff6a0524bbb7c744921642379663f0d1483d34cfeb7ce899985e452b"
 social_share_sha256: ""
 git_commit_hash: "1b5a16d5d2563d0a23aa91406846c79a383efd44"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1b5a16d5d2563d0a23aa91406846c79a383efd44"

@@ -7,7 +7,7 @@ rvn_teaser: "Today another shooting incident involving President Trump. While fa
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "a33e1522bb097cc4cb91c57f993a653c577501d0171c435fd8da4ffacf164240"
-full_sha256: "d6892aab6f4e470c53d82ad950ce5a3e5076180e83ec840a7f87312d228aaffa"
+full_sha256: "af9661480bc409059050ff2020c4ff3c76bbcfe3afd2649e15e75ab6fb79ddc4"
 social_share_sha256: ""
 git_commit_hash: "db1aa487674485e8187a21d6614626afdf26d1d7"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/db1aa487674485e8187a21d6614626afdf26d1d7"

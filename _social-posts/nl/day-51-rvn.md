@@ -14,7 +14,7 @@ git_commit_hash: "5d1cb6e33a338f0fba5358388a43e6512c941868"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/5d1cb6e33a338f0fba5358388a43e6512c941868"
 git_commit_date: "2026-04-16T07:09:33+02:00"
 fuzzy_sha256: "6d1553e06b9e929eb4c89d8b0dc6cb5528859a6e36a1da4bde1441a253277964"
-full_sha256: "e989c26f0de69e2f2cef4ba0d42b2b21494865a97d6627a4de9d15345001a09c"
+full_sha256: "4313bf52ee15b898230520f1a23a4fc9282e1bfde5f7b127edb2208897bf69fb"
 raw_markdown: |
   **RVN: De gevangenis in onszelf – Stanford Prison Experiment** 🌀
   

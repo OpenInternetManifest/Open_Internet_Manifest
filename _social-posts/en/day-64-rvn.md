@@ -7,7 +7,7 @@ rvn_teaser: "You think you're awake. But what if you're simply placed in a large
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "bcbc43254c649745a96d9b1d46ce42e5a540ef316b9717b7b091434704f4d81e"
-full_sha256: "aadc79494786bdaad49b88cccf3b1d238a46f138b80e39e45e2d5e490f349fdf"
+full_sha256: "bb9920da78a31ec3be70b421dedc5881c39edd7d7c3b899c30c14638b63b8d2c"
 social_share_sha256: ""
 git_commit_hash: "8b1046d4852944ab2bf08f0c343f43805bf43ef3"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8b1046d4852944ab2bf08f0c343f43805bf43ef3"

@@ -7,7 +7,7 @@ rvn_teaser: "Every crisis is immediately linked to one big agenda. But what if c
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "f5ed9a8abbfc77f7df5e7e25d927d7fe9230e99e78cec6feecf8bbada1e6f71c"
-full_sha256: "541ee55801a01853af0de40f2f7d8b0ba0ec61ca011bdb9d4b4049db38d9bcef"
+full_sha256: "243e7fc032cfa02ce191b971bbb847044eb54650d5249c0e6f1cfca57c80fe74"
 social_share_sha256: ""
 git_commit_hash: "d2af626151355ca5317d08ab320133bf4260cfa5"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d2af626151355ca5317d08ab320133bf4260cfa5"

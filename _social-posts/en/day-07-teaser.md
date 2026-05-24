@@ -42,7 +42,7 @@ raw_markdown: |
   #openinternetmanifest #OIM #realityvsnarrative #freeinternet #promisedland #Sabbath
 
 fuzzy_sha256: "6987364062c2b9d30bcba6d6e46510cad108a2c99bde90665ced6c1b3b3abd9f"
-full_sha256: "8b0d16430ef4c2bc719ce7f00017da37ce9942d09d93a525b03a8e9aabaf7305"
+full_sha256: "971b1d69ef23fe5ad4230f42384530419e02a8e5dc181de95d0eb0fd205d39ee"
 ---
 
 **Day 7 – Weekly Overview & The Promise of Freedom** 🇳🇱✨

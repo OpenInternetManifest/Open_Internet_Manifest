@@ -41,7 +41,7 @@ raw_markdown: |
   #openinternetmanifest #OIM #realiteitvsnarratief #vrijinternet #beloofdland #Sabbath
 
 fuzzy_sha256: "48201a48e42fd84ebd8f8361024d88b4ce7fbf168b6e0175898365588c5eefec"
-full_sha256: "796fcda8f43419da9b47d7b2e7be2538dca0f1515cbbb86165181319c211d348"
+full_sha256: "638b1a201c1bcb708131208d0fb32b1a57ab27cdb0e7783fd079a4bbe68d643c"
 ---
 
 Dag 7 – Weekoverzicht & de belofte van vrijheid 🇳🇱✨

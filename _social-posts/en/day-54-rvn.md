@@ -11,7 +11,7 @@ git_commit_hash: "255a43b66c58007a553ce815ab163647ccbd1ca8"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/255a43b66c58007a553ce815ab163647ccbd1ca8"
 git_commit_date: "2026-04-19T12:54:57+02:00"
 fuzzy_sha256: "29b0af55fe250b4df9ecba89def30d63949134efbd96ee2794e4420897763710"
-full_sha256: "42fad618cd7756abedeb46b0742ba381a2452be38613b7fca52db0eebaa5b209"
+full_sha256: "d951e56707d2940cdd18563861fd222fead83354799a84adfedcdee683be21cb"
 raw_markdown: |
   **RVN: Us vs Them in One Week – Robbers Cave Experiment** 🌀
   

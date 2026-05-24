@@ -10,7 +10,7 @@ rvn_title: EU blocking Odysee
 # rvn_url: /en/social-posts/day-10-rvn
 rvn_teaser:  it’s still very easy to bypass
 fuzzy_sha256: "29841df5dbdfd1f3a3e36f755989835fa9664cd0d5eb75b90abd432170e12876"
-full_sha256: "b0fa104d9612ee6b5d75009f017cc6fff2c78981c2b69be9a8dda44daab30c10"
+full_sha256: "63a5011f8822b7290e65b09aba3c9b001013afe4dc524711bbb356702dd54e63"
 raw_markdown: |
   Reality vs Narrative – EU blocking Odysee (and more)
   Today I got this message when trying to visit odysee.com – a decentralized alternative to YouTube, built on blockchain and censorship-resistant:

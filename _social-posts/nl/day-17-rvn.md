@@ -10,7 +10,7 @@ rvn_title: Walz' Rookgordijnen Nu Realiteit
 # rvn_url: /nl/social-posts/dag-17-rvn
 rvn_teaser: Dag 9 Voorspeld
 fuzzy_sha256: "53a80034c8d07ff2e660e997de564affb0c5db29c3dc75f0d5f5e09b61de3e49"
-full_sha256: "abf2ac09f5f95fa3474a7f6b0a4c4a9ff23e8848e76acb5cf94ce9011f83b091"
+full_sha256: "c71c39f216da8ee53fac3ff1e66d0da9b8cb2fc6aba36a17d26aebe350c1e9e3"
 raw_markdown: |
   🇳🇱 **Dag 17 – Reality vs Narrative: Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit** 🌐🔥  
   Op Dag 9 waarschuwde ik al voor de daycare-fraude in Minnesota en de passiviteit van gouverneur Tim Walz: https://openinternetmanifest.org/nl/social-posts/dag-9-rvn  

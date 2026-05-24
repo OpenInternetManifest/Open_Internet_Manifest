@@ -52,7 +52,7 @@ raw_markdown: |
   Paste the full text to check authenticity. Why? Because narratives are easily distorted — reality is not.
 
 fuzzy_sha256: "0c34056a9cb696bb7c73f13c0b0fe824e36b8dcc61bdc92880f101d2f5e62fbd"
-full_sha256: "53252c2f25ee43f056cfaf7ccf2878e0a449449fa246b01266caad7aac43ee75"
+full_sha256: "ed3bd403dcd9c35b131ee91353f83f9ac9ca202f2cb623b30fd1e9679840e006"
 ---
 
 🇳🇱 Dag 9  – Wat zijn Graduated Animal Farms?  

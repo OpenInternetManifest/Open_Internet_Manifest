@@ -14,7 +14,7 @@ git_commit_hash: "b3836a13d90aa13821504584ef0ac5c01830d71a"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/b3836a13d90aa13821504584ef0ac5c01830d71a"
 git_commit_date: "2026-04-06T18:09:45+02:00"
 fuzzy_sha256: "deba4cd47bd2b193e8a1dcd1f7e3ea9a7e040c3bb81e8b398c3e94b2ac4f9070"
-full_sha256: "adffa3ba325811ac0569b4f2467f0bf494241e43b51ba580c5476c6b8bf5d986"
+full_sha256: "3d66febb00b6538b9171fccb47c7aa7899916ca4c53ba53391f9f693cda527f7"
 raw_markdown: |
   **RVN: Why is a Jewish Jesus the reason to be Christian? – Easter and Fulfillment** 🌀
   A very common question, especially around Easter:

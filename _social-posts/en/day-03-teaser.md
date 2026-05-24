@@ -22,7 +22,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "64c7319334b2b9547c61067d8f476da304d3c9ef643620db7606a61b340b206e"
-full_sha256: "d5b2b112f3ef63ee7002c0a39a05560aee28a9098cfa6913a2c75421c4bceef1"
+full_sha256: "4f7f5425f5729282f179aadd7856fbb26a42b621dfc249847f94629e0085eb37"
 ---
 
 🇬🇧 Day 3 – Freedom starts today 

@@ -29,7 +29,7 @@ raw_markdown: |
   @realDonaldTrump
 
 fuzzy_sha256: "76429174dfb16d0f2b80eb57caaeb53db653496aabd0dc187036b84f6b348980"
-full_sha256: "a88013232443ef2011c64964eee1897eef2e539e36e4e77597e14a05887d58b2"
+full_sha256: "b51987f5266e5ea41c8518e4224d91a77480f084918ca1e44fcd6984ad5afdd7"
 ---
 
 🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  

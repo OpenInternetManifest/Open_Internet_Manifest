@@ -24,7 +24,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "9a57e46d25708ca39a3b761531cd40c984082c3ccf0939ba12fd2cab9b5b216c"
-full_sha256: "bc1c05ef0d51fb97e23c7837a55701d44f74c4eabf1bdf312205e4cd8057541b"
+full_sha256: "ddb08c30c5a21a772af94ba49881aa59541f1bdda514d8d8ef87cefcb1206847"
 ---
 
 🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  

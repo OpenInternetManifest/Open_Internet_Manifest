@@ -7,7 +7,7 @@ rvn_teaser: "Zero emissions, silent, high-tech and good for the climate. But is 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "c0715daa1b151c493c9076ebec31a9ddf9ac2ce8fb9439f4e23c7bd448119f33"
-full_sha256: "5523a2c693775b6bed5189c672d846d8d6c348c3253332af4603966b14c1ffa7"
+full_sha256: "18fdd467f314a7d4efc95ab366ee68ab888911460965ddecf200990f2ac87092"
 social_share_sha256: ""
 git_commit_hash: "7fb890e0aa81b79fa52e96b7696d445367ed561c"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7fb890e0aa81b79fa52e96b7696d445367ed561c"

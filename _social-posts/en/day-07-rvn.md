@@ -10,7 +10,7 @@ rvn_title: Week Recap & The Promise of Freedom
 # rvn_url: /en/social-posts/day-7-rvn
 rvn_teaser: ''
 fuzzy_sha256: "b85d8a6fe02a7e087475c74537b611a62da9ff68d5e5dfec298266cf84015e0a"
-full_sha256: "88a7ebdd6e650006fe76890c91365a4c4713656b75b898bace9b5e2ba7e1d3c6"
+full_sha256: "7c14fc07b7d395ddff4b1db5c0c04ec50f8976410ac642f191ee02e7680a6e57"
 raw_markdown: |
   Day 7 – Week Recap & The Promise of Freedom 🇬🇧✨
   This week in teasers:

@@ -25,7 +25,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "eca01c55b1b1f7d2a05c5497d0a1d028fe41b50d543d7ff93c6fb0fcc5c1c30c"
-full_sha256: "2915d8b66d509e46a6e999e872226b7ab375ff28c4ab40ded0922b070839f18e"
+full_sha256: "26f26728d72208ec7072479b76cdba2db0c260f337834e58bd9138d4d6b0f4e8"
 ---
 
 🇬🇧 Day 5 – 2026 will be the turning point  

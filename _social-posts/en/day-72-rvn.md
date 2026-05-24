@@ -7,7 +7,7 @@ rvn_teaser: "Sustainable, energy-efficient and the future. But does that story a
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "390a07d817aec42b1079e663f216fd90ea09e82ddb236fb4a4aa37c4f188e32a"
-full_sha256: "c94c42945903ba27cada6327652ca5035fcd5fedb8d7508c1e61a69b385e2c8c"
+full_sha256: "d2f743b14e7606b09676f5ecd06e398a83a8c8ecd80b8f6002e30597bf2ae8c7"
 social_share_sha256: ""
 git_commit_hash: "4000bc090405c36f56cd4621bf25d155e4d25f16"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4000bc090405c36f56cd4621bf25d155e4d25f16"

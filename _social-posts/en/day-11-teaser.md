@@ -23,7 +23,7 @@ raw_markdown: |
   @realDonaldTrump
 
 fuzzy_sha256: "bb6695954d78c6b43faba04f4268f63893ee96d63ab638b835c1a715daba479e"
-full_sha256: "44a8e76c13e6f177ecdcba71cb87d37f3a8997bf2a9cba55524c3f8d60bdad2a"
+full_sha256: "f7ba2f119f215370b87653d139c1d70f6513013ba8cac572c1787289eb098bfb"
 ---
 
 🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  

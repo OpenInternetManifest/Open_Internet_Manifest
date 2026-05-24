@@ -1,63 +1,56 @@
-name: Process RVN on Merge
+name: Process RVN Merge
 
 on:
-  pull_request:
-    types: [closed]
+  push:
+    branches: [ main ]
+    paths:
+      - '_social-posts/**/day-*.md'
 
 jobs:
-  process-rvn-merge:
-    if: github.event.pull_request.merged == true && contains(github.event.pull_request.title, 'RVN')
+  process-rvn:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0  # Nodig voor git commit info
 
-      - name: Set up Git
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
         run: |
-          git config user.name "OIM Bot"
-          git config user.email "bot@openinternetmanifest.org"
+          python -m pip install --upgrade pip
 
-      - name: Calculate hashes and update frontmatter
+      - name: Calculate hashes & update clean texts
         run: |
-          echo "🔍 Starting hash calculation with clean logic..."
-
-          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
-
-          if [ -z "$FILES" ]; then
-            echo "No RVN files changed. Skipping."
-            exit 0
-          fi
-
-          for file in $FILES; do
-            echo "Processing: $file"
-
-            HASHES=$(.github/scripts/calculate-hashes.sh "$file")
-
-            fuzzy_sha256=$(echo "$HASHES" | grep '^fuzzy_sha256=' | cut -d= -f2)
-            git_commit_hash=$(echo "$HASHES" | grep '^GIT_COMMIT_HASH=' | cut -d= -f2)
-            git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
-            git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
-
-            # Update frontmatter
-            sed -i "s|fuzzy_sha256: \".*\"|fuzzy_sha256: \"${fuzzy_sha256}\"|" "$file"
-            sed -i "s|git_commit_hash: \".*\"|git_commit_hash: \"${git_commit_hash}\"|" "$file"
-            sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
-            sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
-
-            echo "✅ Hashes updated in $file"
+          chmod +x .github/scripts/calculate-hashes.sh
+          
+          # Verwerk alle gewijzigde RVN bestanden
+          for file in $(git diff --name-only HEAD^ | grep -E '_social-posts/.*/day-.*\.md'); do
+            echo "Processing $file"
+            .github/scripts/calculate-hashes.sh "$file"
           done
 
       - name: Commit updated files
         run: |
-          git add _social-posts/*/day-*-rvn.md
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          if git diff --quiet; then
+            echo "No changes to commit"
           else
-            git commit -m "Auto: update hashes after RVN merge (clean logic v31)"
+            git add _social-posts/ static/js/official-clean-texts.js
+            git commit -m "chore: update hashes + clean texts after merge [skip ci]"
             git push
-            echo "🚀 Changes committed to main"
           fi
+
+      - name: Trigger Jekyll build
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: OpenInternetManifest/Open_Internet_Manifest
+          event-type: jekyll-build

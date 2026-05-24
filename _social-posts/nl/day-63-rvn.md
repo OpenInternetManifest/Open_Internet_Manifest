@@ -7,7 +7,7 @@ rvn_teaser: "Veel mensen vragen: wat is OIM eigenlijk en waarom doen we dit? Van
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "590de128d7d65202ec4c3a0b7140963588e4dc083adaf1d49212fec6835daee4"
-full_sha256: "492bb0e00e73e629f16b15fbacfeb4c6bb43ececd9f2852d9bc3832f2f53fe3e"
+full_sha256: "df18e58f08c97bff3f032a9be74554facedd51177857b6a826fc0fdabf230c23"
 git_commit_hash: "ce9aa15e7ed9e1aa98a71430c1bb19aa2afc0271"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/ce9aa15e7ed9e1aa98a71430c1bb19aa2afc0271"
 git_commit_date: "2026-04-27T11:36:16+02:00"

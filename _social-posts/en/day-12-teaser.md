@@ -28,7 +28,7 @@ raw_markdown: |
   #RealityVsNarrative #OIM #WebWithoutLeash
 
 fuzzy_sha256: "bcf949ba1454be6b3bc83aca929b441cedc4a15f2e5b51a186792fa2a4bab24f"
-full_sha256: "390a592adc9c0519370d43cf65159321b3eacd38ac4ab2817df94a90f6234850"
+full_sha256: "3267cbb92184396209a0a316c9e2fa1bd5250363b39c6b5cae72380170a7f9b7"
 ---
 
 🇬🇧 **Day 12 – Why OIM** 🌐✂️  

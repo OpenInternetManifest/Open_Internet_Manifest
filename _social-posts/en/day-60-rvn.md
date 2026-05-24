@@ -11,7 +11,7 @@ git_commit_hash: "af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af1c326f6b55db269994c2a24ca261b80f58def2"
 git_commit_date: "2026-04-25T08:11:29+02:00"
 fuzzy_sha256: "3f537037091e1a1ac9c8eb2a629c8b8200574e0fd86f3ed24ee55025c50f80eb"
-full_sha256: "ddfabc6de4f011d2eb6cd99dd80efdc9d32f885fd0607bb412667d423845e718"
+full_sha256: "63e72d5dd35e1a60325204362d06178d3750b374146b9031004a20623eb0e76f"
 raw_markdown: |
   **RVN: Hostage Falls in Love with Captor – Stockholm Syndrome** 🌀
   

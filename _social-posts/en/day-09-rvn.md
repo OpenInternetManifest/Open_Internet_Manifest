@@ -10,7 +10,7 @@ rvn_title: Daycare fraud
 # rvn_url: /en/social-posts/day-9-rvn
 rvn_teaser: ICE and Tim Walz
 fuzzy_sha256: "22470e79377a37ce1f72f520b35497a91be547bd2418b178dc8525b125b20f90"
-full_sha256: "7247b91618aed17b626078eb89d0e5d0c944b857d5c97212627cb164cb77e8f2"
+full_sha256: "7bce491e8e89ab69c32e6fba4f372218845e3214febcd46376fcbd7450957396"
 raw_markdown: |
   Reality vs Narrative – Daycare fraud, ICE and Tim Walz
   The narrative always sounds so sympathetic: “ICE is racist and inhumane, they tear families apart. Fraud is marginal and being addressed. Criticism of migration is xenophobia.”

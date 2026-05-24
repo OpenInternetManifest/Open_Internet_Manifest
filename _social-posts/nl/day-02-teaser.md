@@ -35,7 +35,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "fe0cd027c9b9c46ef15ccbc11a63f07c063d9601b671bb2008784d81e759c3fd"
-full_sha256: "adbcd229afa3fcd0b1bfa6c60f5d30a2f77106d95f774fcc2622f29821c3dfd3"
+full_sha256: "1fa94127dc4fd66b1b8303b25e0d08627c7577ab00bfab2adbd953d5d0454731"
 ---
 
 🇳🇱 Dag 2 – Thesis 1: Internet is niet dood – het is gevangen  

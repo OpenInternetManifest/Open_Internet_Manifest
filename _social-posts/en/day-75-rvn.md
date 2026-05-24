@@ -7,7 +7,7 @@ rvn_teaser: "Everything within 15 minutes. Sounds like the dream of the future. 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "70048c48690130fd05578cca37f130673cde00d8c41e91f3447d08cb26b152a6"
-full_sha256: "1f624a3f516d4384400b4590443170869168d8bef1c3e45c0ce631b439e2a93e"
+full_sha256: "ecd74a37ff30fc14e1896dc0eda854e4ef3f148c31e4405bdb3849502dbebc39"
 social_share_sha256: ""
 git_commit_hash: "f913680e0dcdb3b0e9b468502d530cdd2dd298a2"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f913680e0dcdb3b0e9b468502d530cdd2dd298a2"

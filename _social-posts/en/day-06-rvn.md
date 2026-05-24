@@ -10,7 +10,7 @@ rvn_title: Polarization as a weapon
 # rvn_url: /en/social-posts/day-6-rvn
 rvn_teaser: Left vs right, Jews vs Muslims, West vs East
 fuzzy_sha256: "462469744f5d427a08fcd16cf2a6fddc7bde65fc3246bd3f13d289734a541584"
-full_sha256: "b32f8602ea06c0f4a1e74c0585ff9c5bb26b0cc90d1223d7fec2f024464fad04"
+full_sha256: "441b7761e10a3a3790bd582183620e1f3109479ae8714f511c8920d6cd475c6c"
 raw_markdown: |
   Reality vs Narrative – Polarization as a weapon (part 2)
   Narrative:

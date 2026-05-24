@@ -10,7 +10,7 @@ rvn_title: DHS-bill
 # rvn_url: /nl/social-posts/dag-14-rvn
 rvn_teaser: selectieve verontwaardiging op bestelling
 fuzzy_sha256: "d8dabf8cf3c0d23265d77b1418f3ec657f22554c3068f5755ab41c1685db83e8"
-full_sha256: "1f310f3b691475e9868964e5d1fedd26b99b0b70850fe1e97fdb7aaf816fa4f4"
+full_sha256: "d727cf69d26725ab7cc37b8705e8883104fee8726ef9754bc78e9f9652228166"
 raw_markdown: |
   **Realiteit vs Narratief** – DHS-bill: selectieve verontwaardiging op bestelling 🚨🇺🇸   
   Vannacht stemde het Huis over de DHS-bill (massale border security funding). Trump: "must pass, biggest ever". Links: "defund ICE", "terroriseren van kinderen", "Liam-achtig drama".

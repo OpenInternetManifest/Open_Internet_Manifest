@@ -53,7 +53,7 @@ raw_markdown: |
   #RVN #FactsOverFrames #RealityVsNarrative #PowerStructures ⚡
 
 fuzzy_sha256: "026271e7d61773ed988803dd9b35a0783656c3498cc99a22b12103a4a587d5dc"
-full_sha256: "27ed3c27bd1ead7ca2d8e889d572247c78e707d474a06b1f40ae273d5eadfdc6"
+full_sha256: "003e458963c6012b4b81e7a59e47e9cb66acbb8f1dacb25f832d536b890505fb"
 ---
 
 🇳🇱 **Dag 27 Teaser – Vanavond: even op adem** 😏🍿  

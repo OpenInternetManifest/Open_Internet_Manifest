@@ -10,7 +10,7 @@ rvn_title: Woorden wegen niet meer op wat ze zeggen
 # rvn_url: /nl/social-posts/dag-31-rvn
 rvn_teaser: Maar op wat een narratief ervan maakt
 fuzzy_sha256: "6f3c1e430d27419b5f5b73d09535f4e98aa168c7ff49dbf23eecf51fd13385f5"
-full_sha256: "de371b61068e53505ef5baf56bbd71f9dec943c2e186b1c3c82b726c6305a9e3"
+full_sha256: "1d74e46c1a43d3767d935dbf076f83e20a4d4e86ceae2ee9d1ae851fcf0869b0"
 raw_markdown: |
   **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀  
   Waarom een rechter toegeeft: geen directe oproep tot geweld... maar toch schuldig.

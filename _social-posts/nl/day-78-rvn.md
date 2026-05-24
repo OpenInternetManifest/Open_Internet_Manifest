@@ -7,7 +7,7 @@ rvn_teaser: "Vrouwen zijn eindelijk bevrijd. Maar zijn ze ook gelukkiger en vrij
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "76a985495e608f84c0dd1630437748ffe2d90ac686d4b3b2f63eaf1fb346b12b"
-full_sha256: "55f656a813bed622e0fddce25f0129a5516f5172878f8cacf9d94891abe94466"
+full_sha256: "010b1f64237b93c4d5214f17745c34a3d90112897447a3791893651765a5eae2"
 git_commit_hash: "8c139182e542abcf470df4ae99a1b8dfab2a68ca"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8c139182e542abcf470df4ae99a1b8dfab2a68ca"
 git_commit_date: "2026-05-12T06:52:01+02:00"

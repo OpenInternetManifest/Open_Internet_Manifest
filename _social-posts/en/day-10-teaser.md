@@ -30,7 +30,7 @@ raw_markdown: |
   Why? Because narratives are easily distorted — reality is not.
 
 fuzzy_sha256: "af18525fbe58dbea21aaafc815eb2c2eeda6272fbf83b106219c17cce61c2b14"
-full_sha256: "5d900c8fc8ee3728735daac7808ee687063fea8f870410f3832d0c007269d1a1"
+full_sha256: "f3591c5fafcb353f34b65c23191a12e0bce846dd842b5c1a2089ac0e5507cc48"
 ---
 
 🇬🇧 **Day 10 – The Invisible Leash** 🔗 

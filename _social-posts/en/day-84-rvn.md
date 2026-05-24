@@ -7,7 +7,7 @@ rvn_teaser: "The often overlooked layer that is draining the soul from our citie
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "88424514b9b1ac633706365699e2291e961636f4fce9f30d248552a6f59125a8"
-full_sha256: "0a9e38c648860140a14e01ff9d61c82fee8af45ba33073ca906bc99ad8c69965"
+full_sha256: "74b633c7592c92e6345058225ad821607c466cbb36613f3d87a9700ed605503e"
 social_share_sha256: ""
 git_commit_hash: "7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"

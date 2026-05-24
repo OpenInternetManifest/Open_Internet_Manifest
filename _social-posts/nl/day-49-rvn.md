@@ -14,7 +14,7 @@ git_commit_hash: "bb8e379fa536a67909ad8a33a5307430130833d3"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bb8e379fa536a67909ad8a33a5307430130833d3"
 git_commit_date: "2026-04-14T06:46:32+02:00"
 fuzzy_sha256: "c5585168d30d7917355eb91c991bc5b7f12e16683d97ca696e83853e06b7733b"
-full_sha256: "7bb91c326f53cf6d7ef31f5c460785e7db91512ddf736c60d0b4057274f2d6ab"
+full_sha256: "9977e0e659baba28abc233594088df4bb0ffb063ad8ecc50cc0788469ca2b340"
 raw_markdown: |
   **RVN: Het litteken dat er niet was – Hoe perceptie discriminatie creëert** 🌀
   

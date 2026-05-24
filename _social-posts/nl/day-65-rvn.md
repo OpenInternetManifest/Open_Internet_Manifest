@@ -7,7 +7,7 @@ rvn_teaser: "Waarom blijft de prijs aan de pomp hoog terwijl er genoeg olie is? 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "14c66355a0f66c244dc11304493c35892a3059c90271524dcf378629b90e16a4"
-full_sha256: "e13745aef51f99a37159245b72831303b21fa35d42dce1f4ac7e0bf961596534"
+full_sha256: "5b2f337d279c9935d9ae01777c8704ebafe05208ebfb64e8aab5f95c0374f3d4"
 git_commit_hash: "69d2153f2f48b9f9e3be0a228f48810a9d008c38"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/69d2153f2f48b9f9e3be0a228f48810a9d008c38"
 git_commit_date: "2026-04-29T06:47:06+02:00"

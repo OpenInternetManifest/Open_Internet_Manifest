@@ -10,7 +10,7 @@ git_commit_hash: "e7540522ad257f5ff71f49f2e70bf9d2952ad145"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7540522ad257f5ff71f49f2e70bf9d2952ad145"
 git_commit_date: "2026-04-23T06:39:18+02:00"
 fuzzy_sha256: "a1e39522807d5c1d76b448edc2cce5bc317e59f59dc2665076dc1313eb6bcc96"
-full_sha256: "3d56ed45bae215179a4b324bf8ebd17e67eb11989572c47e64ba40f9afafb3fd"
+full_sha256: "e6a5d0cc40aa07b751a485b351c0e68db0b571df8776f7d785e7227215497932"
 raw_markdown: |
   **RVN: Onbewuste vooroordelen – Implicit Association Test (IAT)** 🌀
   

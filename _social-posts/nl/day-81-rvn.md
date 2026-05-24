@@ -7,7 +7,7 @@ rvn_teaser: "We zijn 11 dagen lang schijnvooruitgang langsgegaan. Wat is het pat
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "1fc57cbc6bc25b0e1d4948e3f09032560d10758f3e1cfbd44cb7496f48236ee1"
-full_sha256: "a5105714d1b4d7707d1bb5336ba3cefa9f7d7bf463dca8c99eb61683e450eac2"
+full_sha256: "d3319b554ca40aa3aa439ff6eaf8e9f8c794db0b504fe4eb93be24046ec5bb9a"
 git_commit_hash: "34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
 git_commit_date: "2026-05-15T06:47:44+02:00"

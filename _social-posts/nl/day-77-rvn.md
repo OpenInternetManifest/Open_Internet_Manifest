@@ -7,7 +7,7 @@ rvn_teaser: "Contant geld is ouderwets en gevaarlijk, zeggen ze. Maar wat winnen
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "93ffb2c9cee4c59489a2826653f5798d598e29793cd03902043bc9e2d39d72bd"
-full_sha256: "4d7a9862d53408f832a34709531800995668cf28bd09496a51cef66361131e17"
+full_sha256: "0d7b8d3d9b24148af90a561f4147be5114c05cf1e6670d1b5aa495e768a34ffd"
 git_commit_hash: "2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2aa8dfa4245dc60c6b77b616c4d03c23f2b971c4"
 git_commit_date: "2026-05-11T06:40:55+02:00"

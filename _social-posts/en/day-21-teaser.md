@@ -28,7 +28,7 @@ raw_markdown: |
   Why? Narratives get wild — reality stays calm. 🕳️
 
 fuzzy_sha256: "51cd46898ddf468a0e26f5981492c1e848489c69385c10f0a79f6cbf0ac8b3f7"
-full_sha256: "1911d2f0cd06c8044e0eadea1adc22ec23948b767dd8914787d5d9f1ac31b348"
+full_sha256: "c0f13c4506fcdee53780b83117647435d72397984351dbf8317f099f61b7514b"
 ---
 
 🇬🇧 **Day 21 Teaser – Tonight: light mode (yes really)** 😏🍿  

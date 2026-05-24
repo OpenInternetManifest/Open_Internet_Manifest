@@ -7,7 +7,7 @@ rvn_teaser: "Women are finally liberated. But are they actually happier and free
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "dc66630d9ae61f95e1add11427477eceea01a16a254f6010f024efb142fafc3f"
-full_sha256: "27bb3da695c3c31ac015958cc3651b1eba0f126ac94c74be5487aaf55039d6f0"
+full_sha256: "10ba422276b08ef7e76d9aec75d1b18ca98875d0bc31b96c2c44d719a31a7a3f"
 social_share_sha256: ""
 git_commit_hash: "8c139182e542abcf470df4ae99a1b8dfab2a68ca"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8c139182e542abcf470df4ae99a1b8dfab2a68ca"

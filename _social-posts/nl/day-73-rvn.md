@@ -7,7 +7,7 @@ rvn_teaser: "Zero emissie, stil, hightech en goed voor het klimaat. Maar is de E
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "331e235d747eb88d511fdceabcc7dd982be3998e934675d856804d512dd320f7"
-full_sha256: "3710cca8446d380b06d2765e05ff5376d4f11f4ad3d398854e08d823b28e8482"
+full_sha256: "92d2b0bac16d3a833a3875407dfcf27649a102aeba30a702b82517e462fb50e0"
 git_commit_hash: "7fb890e0aa81b79fa52e96b7696d445367ed561c"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7fb890e0aa81b79fa52e96b7696d445367ed561c"
 git_commit_date: "2026-05-07T06:42:51+02:00"

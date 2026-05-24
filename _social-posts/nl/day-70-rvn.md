@@ -7,7 +7,7 @@ rvn_teaser: "We worden continu verteld dat we vooruitgaan. Maar voelen we ons é
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "594efd7922c59859cb6f8d27a20eba657ad97e5b42b2b0735c954d88d72253e0"
-full_sha256: "39a9ec5e43c41ae5e725466046c6ebfe75ac6dfccf1378703022c58c6e194630"
+full_sha256: "4efa497f647bd4f46bf437b98d678a57ea19c5748655d83b6fcb143855e7f9ea"
 git_commit_hash: "4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
 git_commit_date: "2026-05-04T06:37:43+02:00"

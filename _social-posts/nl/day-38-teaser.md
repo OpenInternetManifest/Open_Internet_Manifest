@@ -46,7 +46,7 @@ raw_markdown: |
   Waarom narratieven wild worden... 🌀
 
 fuzzy_sha256: "08789b09da9b648e918f38dccdb40438619d7cb9a98f8dfedb69f872f3aedc78"
-full_sha256: "c81557d2c58c06acce18726156c11df898cbe5272bb25fa90904e737e97a1bad"
+full_sha256: "a4d6b55e29a2e2883d97b33450792050f508e9ade1d0e244d357697755e6f6b1"
 ---
 
 **Dag 38 Teaser – Vanavond: de ladder van de Graduated Animal Farms** 🪜🐷  

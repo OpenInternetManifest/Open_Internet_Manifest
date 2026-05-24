@@ -29,7 +29,7 @@ raw_markdown: |
   #RVN #FactsOverFrames #RealityVsNarrative #NarrativeOfNarratives #Day32Teaser
 
 fuzzy_sha256: "58a689c182e45483eb39254a1ce77c6a44a8e2212917a266cefac0e8fa6f2324"
-full_sha256: "94c8a42374f3904bb94ced04c95d55ea6a647853a30998e7b583ebd5388bec61"
+full_sha256: "ba6604c458c1155138ba4a46a1848479b84e83fba6025da3cdef9477e0de780f"
 ---
 
 **Tomorrow 32 Teaser – Tonight: silence before the synthesis** 🌀🌑 

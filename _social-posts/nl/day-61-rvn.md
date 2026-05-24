@@ -10,7 +10,7 @@ git_commit_hash: "a07dcb9404c18a50a9cdeac936cd029b18e04eec"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a07dcb9404c18a50a9cdeac936cd029b18e04eec"
 git_commit_date: "2026-04-26T07:47:29+02:00"
 fuzzy_sha256: "1c6b4bfd01a0ec591f3443bf2aaef2da467211a7a7bcba7a45107fdc35487c24"
-full_sha256: "a7fe21c18613750d59f3edaacce99ddc59ebc2f681d271a11a151d60c653de66"
+full_sha256: "2de4628c01d3a9db52d6ec9c2c44add4fa15caf424b38270381b355407c1ff16"
 raw_markdown: |
   **RVN: De Manipulatie van Realiteit – Wrap-up van de 13-delige serie** 🌀
   

@@ -10,7 +10,7 @@ rvn_title: “In violation of the rules” – When tolerance becomes censorship
 rvn_url: /en/social-posts/rvn-tolerance-censorship
 rvn_teaser: Amsterdam Durft te Vragen… but only if you say what they want to hear.
 fuzzy_sha256: "4f40aaee6de1acf9a85e21ee445184d5ebc6938ae6484f45f36a1e4b5fe87aea"
-full_sha256: "0196e7eca6791dfd39d80166b8c8c9c3fe189281f511cd6eb30890630aa9b994"
+full_sha256: "83bf73b5e5675f8e8d44ce30968b32013119a39e7bd6b3fadd202287ece38d72"
 raw_markdown: |
   **RVN: “In violation of the rules” – When tolerance becomes censorship** 🌀
   

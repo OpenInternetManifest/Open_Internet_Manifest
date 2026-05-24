@@ -7,7 +7,7 @@ rvn_teaser: "We are constantly told we are making progress. But do we really fee
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "fee7f79e949a724b075f2251705a552fa5a5ff30e086cd4a12bc29e1829b84a7"
-full_sha256: "c4097ea2fc66b41fee56b7f02a9cc9f397ca5cf605fe7f9ceef4ed34c7d2401d"
+full_sha256: "bf88e413c1b0d4d9e1df394e383b160c21362f85d171bcf46f65826abf9566b7"
 social_share_sha256: ""
 git_commit_hash: "4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4c9aa4ad0f6f7b9e8e1741c5d480ac92af6836e4"

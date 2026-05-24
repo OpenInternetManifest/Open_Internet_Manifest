@@ -7,7 +7,7 @@ rvn_teaser: "Vandaag opnieuw een schietpoging op President Trump. Terwijl feiten
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "8a6d561bc835576b4c64d90ac8f0a34a0c4d199f6ce4d26e321657a3fa9e8790"
-full_sha256: "e8edfe1d7a0dc3f1d8a646e50c30320aadbf43802a6e672b49221432c5b977f7"
+full_sha256: "0a0dbe53edc59b0b4a358ef2e2bdb28636c20f12cd034febedbffefec9e2a9ff"
 git_commit_hash: "db1aa487674485e8187a21d6614626afdf26d1d7"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/db1aa487674485e8187a21d6614626afdf26d1d7"
 git_commit_date: "2026-04-26T13:16:45+02:00"

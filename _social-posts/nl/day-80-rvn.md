@@ -7,7 +7,7 @@ rvn_teaser: "We moeten de boeren weg hebben voor het klimaat en de natuur. Echt 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "1c7bd407a759178186cbb55a9c9d91db576875d4ccc7f2f4a543e53223ed9e19"
-full_sha256: "fdc6850d51a69d41a37bafe23bf082487e4027fcf4ddc2e28e2e8a5a7dfd4dff"
+full_sha256: "2da8b1f75646576c1a63676a2f6f8ff0cab685c72dd904270bc3de573584b72a"
 git_commit_hash: "47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
 git_commit_date: "2026-05-14T07:27:38+02:00"

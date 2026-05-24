@@ -33,7 +33,7 @@ raw_markdown: |
   http://openinternetmanifest.org/en/hash-verifierPaste the full text to check authenticity. Why? Because narratives are easily distorted — reality is not.
 
 fuzzy_sha256: "7b0da63e3a48e3cbd7454d62894d876a84ef0038852992095b80b45009c99278"
-full_sha256: "6599caff436933579c8041ad40e65b061bac8b848da8d21b900cb44ec0dd50fb"
+full_sha256: "11dcd47c2a67198f7101f772cade64a3a0d42e84acd9e0843178c12c9466087c"
 ---
 
 🇬🇧 Day 9 – What are Graduated Animal Farms?  

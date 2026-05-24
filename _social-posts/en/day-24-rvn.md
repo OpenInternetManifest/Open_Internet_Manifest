@@ -10,7 +10,7 @@ rvn_title: Templars, Moloch and the real winners of history
 # rvn_url: /en/social-posts/day-24-rvn
 rvn_teaser: Today we step back — much further back
 fuzzy_sha256: "68baf3e39e619c798f4f5b342268bfd2f3612e9741cc60c149a7e07eaad8974a"
-full_sha256: "021703950a9341d31aa544718a4fced097ebfb15706ff704aeb81645d909507c"
+full_sha256: "7cff845764b38cb11677a4bd23a6b078fecd2612f4bcd5a0e7b4ec9b2ecb914e"
 raw_markdown: |
   **Reality vs Narrative: Templars, Moloch and the real winners of history ♟️🛡️🔥**
   

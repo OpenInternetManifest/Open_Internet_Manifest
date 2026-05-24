@@ -7,7 +7,7 @@ rvn_teaser: "Duurzaam, energiezuinig en de toekomst. Maar klopt dat verhaal eige
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "cbe2d0cfb437acb73005458ab7542bb4a336ab9ac8c0d5b303b339b0acd2c7e5"
-full_sha256: "c14034c04384893890134bdcfa825d73ecdb39c5f0b52f6ff6029d23f627043a"
+full_sha256: "acb69e2baa6aec8c6d3e827c69d1108a271f31f392e54d6565dfca5ad12c62a7"
 git_commit_hash: "4000bc090405c36f56cd4621bf25d155e4d25f16"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4000bc090405c36f56cd4621bf25d155e4d25f16"
 git_commit_date: "2026-05-06T08:16:27+02:00"

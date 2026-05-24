@@ -28,7 +28,7 @@ raw_markdown: |
   Why? Narratives spread fast — reality needs hashes.
 
 fuzzy_sha256: "df9ae598c32670ff2d18258990ea20fa5e4b7185646d55e423814b3c540154e1"
-full_sha256: "0f6672fef729a330f0e96f69f62ebb330a9771c2da8c2d7dda924212203c9652"
+full_sha256: "164db29ed944e25feaa70908d638bc714977ad7e1eaf7d5af4bc252bd8e65836"
 ---
 
 **Day 18 – Utrecht drama** 🚔😏  

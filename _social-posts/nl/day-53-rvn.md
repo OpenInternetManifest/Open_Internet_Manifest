@@ -14,7 +14,7 @@ git_commit_hash: "795fafda85133d49758bf3a122a048576aa23334"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/795fafda85133d49758bf3a122a048576aa23334"
 git_commit_date: "2026-04-18T07:31:06+02:00"
 fuzzy_sha256: "961f0ac0e88fae40d72520a88d8801eaeb292803492b14a9fc78628501c8b503"
-full_sha256: "adc67fdab50e47ee8cbe103e7701f51970e65344f115e145777cead4ab00b2d5"
+full_sha256: "1431e97292575048bdf372d773d3080a4cc9b874590ad380c3483363831c9dad"
 raw_markdown: |
   **RVN: Observatie creëert realiteit – Hawthorne en het Double Slit Experiment** 🌀
   

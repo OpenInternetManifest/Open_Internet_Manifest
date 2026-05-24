@@ -42,7 +42,7 @@ raw_markdown: |
   #RealityVsNarrative #openinternetmanifest #WebWithoutLeash
 
 fuzzy_sha256: "852ca132ac2784d4dd3128ea4cb328edcaa63b6b1e7950da27353d27d034a328"
-full_sha256: "bd99978f1a7a9a23a88d4c9fe626b3e39367d285b9b7c2e5c910febaabb1180a"
+full_sha256: "d1899c6398c8db12893f3abdcbf7dfa35310dca5ef897d5f908d24cc876e99b1"
 ---
 
 🇳🇱 **Dag 12 – Waarom OIM** 🌐✂️  

@@ -7,7 +7,7 @@ rvn_teaser: "Een hash is geen technische nerd-ding. Het is een wapen tegen syste
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "285620a090cc85ee2066cf0da9e930658f06413979f7ebd279034655a8bef39a"
-full_sha256: "89a6f9a3239207398afd93ecfb33da458380858c4c369da5bdc5d32f11e7d785"
+full_sha256: "d1b5135047e722001ca5095a96907c74cbea263c72deb79f75432b17c9c5eb5c"
 git_commit_hash: "d563c817a50e85f66fa3602a0a90351e7c3d685c"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d563c817a50e85f66fa3602a0a90351e7c3d685c"
 git_commit_date: "2026-05-01T17:09:11+02:00"

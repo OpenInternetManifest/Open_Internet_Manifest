@@ -1,5 +1,5 @@
 #!/bin/bash
-# calculate-hashes.sh - Fuzzy hash (consistent met Nexus Quick Post + verifier)
+# calculate-hashes.sh - Volledige automatische hash + raw_markdown handling
 
 FILE="$1"
 
@@ -8,9 +8,9 @@ if [ ! -f "$FILE" ]; then
   exit 1
 fi
 
-echo "=== Processing: $FILE ===" >&2
+echo "=== Processing $FILE ==="
 
-# ==================== BODY EXTRACTION ====================
+# Extract body (na de eerste twee ---)
 raw_body=$(awk '
   BEGIN { in_body = 0 }
   /^---$/ {
@@ -20,35 +20,57 @@ raw_body=$(awk '
   in_body == 2 { print }
 ' "$FILE")
 
-# Fallback als awk niet goed werkt
-if [ ${#raw_body} -lt 300 ]; then
+if [ ${#raw_body} -lt 100 ]; then
   raw_body=$(sed -n '/^---$/,/^---$/!p' "$FILE" | sed '/^---$/d')
 fi
 
-# ==================== FUZZY CLEAN ====================
-fuzzy_body=$(python3 tools/fuzzy_clean.py <<< "$raw_body")
+# 1. Zorg dat raw_markdown bestaat
+if ! grep -q "raw_markdown:" "$FILE"; then
+  echo "→ Generating raw_markdown..."
+  # Escape voor YAML block scalar
+  escaped_body=$(echo "$raw_body" | sed 's/^/  /')  # 2 spaties indent
+  sed -i "/^---$/ {N; s/^\(---\)\n/\1\nraw_markdown: |\n$escaped_body\n/}" "$FILE"
+fi
 
+# 2. Bereken hashes met nieuwe clean functie
+fuzzy_body=$(python3 tools/fuzzy_clean.py <<< "$raw_body")
 fuzzy_sha256=$(echo -n "$fuzzy_body" | sha256sum | awk '{print $1}')
 
-# Full hash van raw body (ter info, niet meer primair gebruikt)
-full_sha256=$(echo -n "$raw_body" | sha256sum | awk '{print $1}')
+full_sha256=$(python3 -c "
+import hashlib
+import re
+import sys
+text = sys.stdin.read()
+# Extract raw_markdown if present, else use body
+match = re.search(r'raw_markdown:\s*\|\s*\n((?:[ \t].*?\n?)+?)(?=\n[^\s]|\Z)', text, re.MULTILINE)
+if match:
+    raw = match.group(1).rstrip('\n')
+else:
+    raw = text
+print(hashlib.sha256(raw.encode('utf-8')).hexdigest())
+" < "$FILE")
 
-# ==================== UPDATE official-clean-texts.js ====================
+# 3. Update official-clean-texts.js
 python3 tools/update-clean-texts.py "$FILE" "$fuzzy_body"
 
-# ==================== DEBUG OUTPUT ====================
-echo "=== DEBUG: Raw body length   = ${#raw_body} ===" >&2
-echo "=== DEBUG: Fuzzy body length = ${#fuzzy_body} ===" >&2
-echo "=== DEBUG: fuzzy_sha256      = $fuzzy_sha256 ===" >&2
+# 4. Update frontmatter
+python3 -c "
+import re, sys
+file = sys.argv[1]
+fuzzy = sys.argv[2]
+full = sys.argv[3]
+with open(file, 'r', encoding='utf-8') as f:
+    content = f.read()
 
-commit_hash=$(git rev-parse HEAD 2>/dev/null || echo "unknown")
-commit_url="https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/${commit_hash}"
-commit_date=$(git log -1 --format=%cI 2>/dev/null || echo "unknown")
+content = re.sub(r'fuzzy_sha256:.*', f'fuzzy_sha256: \"{fuzzy}\"', content)
+content = re.sub(r'full_sha256:.*', f'full_sha256: \"{full}\"', content)
 
-cat << EOF
-fuzzy_sha256=${fuzzy_sha256}
-full_sha256=${full_sha256}
-GIT_COMMIT_HASH=${commit_hash}
-GIT_COMMIT_URL=${commit_url}
-GIT_COMMIT_DATE=${commit_date}
-EOF
+if 'full_sha256:' not in content:
+    content = re.sub(r'(fuzzy_sha256:.*?\n)', rf'\1full_sha256: \"{full}\"\n', content)
+
+with open(file, 'w', encoding='utf-8') as f:
+    f.write(content)
+" "$FILE" "$fuzzy_sha256" "$full_sha256"
+
+echo "✅ Done: fuzzy = $fuzzy_sha256"
+echo "✅ Done: full  = $full_sha256"

@@ -32,7 +32,7 @@ raw_markdown: |
   #RealityVsNarrative #openinternetmanifest #PVVSplit #trumpdeepstate #nomorepens
 
 fuzzy_sha256: "32c6be151db858780d5ad71fb6fdb65eeb26f6a97d6ba7a6ba854bddc3ab4261"
-full_sha256: "21557b5dcadb30d01e74d0f706eae9f2d5f529d0d6ed12bb659072a789e3645b"
+full_sha256: "2bcf2979bc70f9ce480eed6ab1bed4bab2a4dfffe33ca5d282031eeddcb28bd1"
 ---
 
 🇳🇱 **Dag 11 – De Grote Splitsing & Trump's Frontale Aanval** 🐘💥  

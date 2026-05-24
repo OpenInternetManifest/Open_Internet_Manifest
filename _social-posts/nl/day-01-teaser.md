@@ -32,7 +32,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "d9e7d9448af0f02d311dbf46cc57e67d9acfe574e92a36cdf55c9c9e245302f7"
-full_sha256: "e209f5d6c5d4fe1f09232b8f566feb2ffa2eb18d92490b7ec972aee30e8b4de4"
+full_sha256: "f3356765b19333adbb780b9e5ab4b067cbc2a7734e878a39d07dfda9ada106bc"
 ---
 
 🇳🇱 Dag 1 – Het begin van iets groots  

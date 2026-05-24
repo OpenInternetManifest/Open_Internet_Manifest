@@ -43,7 +43,7 @@ raw_markdown: |
   #RealityVsNarrative #Day18Teaser #NeverAgainIsNow
 
 fuzzy_sha256: "7fdb92d99f137d3de44d8324bbd3d9e72b797c62f93d62202e243f8bca002238"
-full_sha256: "ad05fa061e346f2f5dd6023f1824e2c9e877040e3b75df3dcfee2e572ed7e44d"
+full_sha256: "12f12d21943b1c8e08d9cf2afeed1e2543b1529fc269c72dc481624be51941c9"
 ---
 
 🇳🇱 **Dag 17 – Een kind op school, vandaag** 🌐😔  

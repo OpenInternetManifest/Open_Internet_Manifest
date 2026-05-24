@@ -59,7 +59,7 @@ raw_markdown: |
   #RealityVsNarrative #Day21Teaser
 
 fuzzy_sha256: "92e9126547846915a6d4fa85baf92d1957e64f8b5c29ff5504ace522e93f8f5e"
-full_sha256: "e62e76b5a0a8979f2b508befee0286ea667786e48ddae165c11fef739aec1792"
+full_sha256: "1615f6ef21642536e7f3bced63d9c952b8ddfba96dc1c37c1de33b26f4bd7a19"
 ---
 
 🇳🇱 Dag 20 Teaser – Morgen: de wortels die niemand vertelt 🌑📜

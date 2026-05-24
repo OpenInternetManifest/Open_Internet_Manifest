@@ -31,7 +31,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "683aecc14c253eb2434a644e8445a0c799a8ae593cc3e9502bf11f12ee0fa40f"
-full_sha256: "50f960b69e64f170a4c511d3e82e83301586adeebec720060088400170c4ee3e"
+full_sha256: "9db6615ccb115066323b719b46c2757c5cce05224bb63c48b3b028c689232b8d"
 ---
 
 🇳🇱 Dag 3 – Vrijheid begint vandaag  

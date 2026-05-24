@@ -7,7 +7,7 @@ rvn_teaser: "Je denkt dat je wakker bent. Maar wat als je gewoon in een grotere,
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "db2b510f9ee23eafbbd5bcaa5ef39b5c4d2b783c59f5d9f7a39681eebc9f03d5"
-full_sha256: "3f3805af42b878b2e515330159fea0c797bd305ffe880992cc1c6009899238fa"
+full_sha256: "edc9bdd8b6a99b5f8cc467ac00b8c05dcd96c997c194122e672e1317edd5ad5b"
 git_commit_hash: "8b1046d4852944ab2bf08f0c343f43805bf43ef3"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8b1046d4852944ab2bf08f0c343f43805bf43ef3"
 git_commit_date: "2026-04-28T06:32:12+02:00"

@@ -54,7 +54,7 @@ raw_markdown: |
   #FreeInternet  #decentralization #NoBlackouts #iran #cruciaal2026 #privacy #OpenSource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton Lighthousetv.nl  blckbx.tv
 
 fuzzy_sha256: "5f559788f4b56b5c78e8d666e7994431d5e3ba2e324241599e42f76f69c123d2"
-full_sha256: "43e16af37e49e7c40457320a1c6203bd083e3de254cee84b24fadd36ca94443f"
+full_sha256: "bc0ef332d1f70a362614ebe9862c735e6045eb4a9494ffd1ace60a6f0a8ec978"
 ---
 
 🇳🇱 Dag 8 – Verifieerbaarheid: hashes liegen niet  

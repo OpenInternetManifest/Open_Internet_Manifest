@@ -41,7 +41,7 @@ raw_markdown: |
   #RealityVsNarrative #OpenInternet #InvisibleLeash #FreeInternet #openinternetmanifest
 
 fuzzy_sha256: "4b37183d0fd3d38b486ec81f20f3a0f52b92f3cc84d91810b84647ed4cdbdbeb"
-full_sha256: "7093c7bc52dc3f69bfa29c9aee98cc8c83e44ee67f7a99848c4216cdeac16e96"
+full_sha256: "c6a352b54be63512d2dda2c0b7d04679e4d6fcbeb3bbda979fd67375d2e5e49f"
 ---
 
 🇳🇱 **Dag 10 – De Onzichtbare Riem** 🔗  

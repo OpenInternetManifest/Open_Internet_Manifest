@@ -14,7 +14,7 @@ git_commit_hash: "27bafcaf2ea4003d2039071b9894e99c20ff9861"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/27bafcaf2ea4003d2039071b9894e99c20ff9861"
 git_commit_date: "2026-04-17T07:12:49+02:00"
 fuzzy_sha256: "61da1851a872efb139b98f823270c2867d2a449152b9ab83ec2a8fcacfd05e16"
-full_sha256: "4cd1d572af535b07cf364d7c5974918f50d2b8534bda97db5a37a1078237b38e"
+full_sha256: "269d4e58d7cf84b3588e24fd8cac3290d24c19cdffd3b0d02f0a2fdc30d7237a"
 raw_markdown: |
   **RVN: The Pressure of the Group – Why We Stop Trusting Our Own Eyes** 🌀
   

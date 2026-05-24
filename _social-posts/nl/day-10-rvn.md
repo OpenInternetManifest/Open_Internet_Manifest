@@ -10,7 +10,7 @@ rvn_title: EU-blokkade van Odysee
 # rvn_url: /nl/social-posts/dag-10-rvn
 rvn_teaser: En een DNS wijziging die de blookkade op heft
 fuzzy_sha256: "0c65ebab7b44635f2d9ea358044e7b0ee212b1b7a5ba7f75f1e0b201afb57ae0"
-full_sha256: "4d8c0ddce4cd4c79b6140d2b84b267a6d988776cc814bea1bb6815fdec737394"
+full_sha256: "f09217ae47764f0624e90f1fb557b7397205182356260c4166b48d15eadfd06e"
 raw_markdown: |
   Realiteit vs Narratief – EU-blokkade van Odysee (en meer)  
   Vandaag kreeg ik een melding toen ik naar odysee.com probeerde te gaan – een gedecentraliseerd alternatief voor YouTube, gebouwd op blockchain en censuurbestendig:  

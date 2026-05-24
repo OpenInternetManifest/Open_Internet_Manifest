@@ -1,43 +1,79 @@
 #!/usr/bin/env python3
+"""
+update-clean-texts.py - Volledige rebuild versie (meest robuust)
+"""
+
 import sys
-from hashlib import sha256
+import re
+import hashlib
 from pathlib import Path
 
-file_path = sys.argv[1]
-cleaned_text = sys.argv[2]
+def escape_for_js(text):
+    if not text:
+        return ""
+    text = text.replace('\\', '\\\\')
+    text = text.replace('"', '\\"')
+    text = text.replace('\n', '\\n')
+    return text
 
-fuzzy_sha256 = sha256(cleaned_text.encode('utf-8')).hexdigest()
+def rebuild_clean_texts():
+    """Volledig herbouwen van official-clean-texts.js uit alle posts"""
+    js_file = Path("static/js/official-clean-texts.js")
+    js_file.parent.mkdir(parents=True, exist_ok=True)
 
-# Frontmatter
-with open(file_path, 'r', encoding='utf-8') as f:
-    content = f.read()
+    fuzzy_hashes = {}
+    clean_texts = {}
 
-if 'fuzzy_sha256:' in content:
-    content = re.sub(r'fuzzy_sha256:\s*["\']?[^"\']*["\']?', f'fuzzy_sha256: "{fuzzy_sha256}"', content)
-else:
-    content = re.sub(r'(\n---\s*\n)', rf'\nfuzzy_sha256: "{fuzzy_sha256}"\n', content, count=1)
+    patterns = ["_social-posts/nl/day-*.md", "_social-posts/en/day-*.md"]
 
-with open(file_path, 'w', encoding='utf-8') as f:
-    f.write(content)
+    for pattern in patterns:
+        for file_path in sorted(Path(".").glob(pattern)):
+            content = file_path.read_text(encoding='utf-8')
+            
+            # Extract raw_markdown als aanwezig, anders body
+            match = re.search(r'raw_markdown:\s*\|\s*\n((?:[ \t].*?\n?)+?)(?=\n[^\s]|\Z)', content, re.MULTILINE)
+            if match:
+                raw_text = match.group(1).rstrip('\n')
+            else:
+                # fallback body
+                body_match = re.search(r'^---\s*\n[\s\S]*?^---\s*\n(.*)', content, re.MULTILINE)
+                raw_text = body_match.group(1) if body_match else content
 
-# JS append
-js_file = Path("static/js/official-clean-texts.js")
-js_content = js_file.read_text(encoding='utf-8')
+            clean_text = re.sub(r'\s+', ' ', raw_text.strip()).strip()
+            fuzzy_hash = hashlib.sha256(clean_text.encode('utf-8')).hexdigest()
 
-# Hash
-if fuzzy_sha256 not in js_content:
-    js_content = js_content.replace(
-        'officialFuzzyHashes = {};',
-        f'officialFuzzyHashes = {{\n  "{fuzzy_sha256}": "{file_path}",\n}};'
-    )
+            web_path = str(file_path).replace('\\', '/')
 
-# Clean text
-if str(file_path) not in js_content:
-    escaped = cleaned_text.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n')
-    js_content = js_content.replace(
-        'officialCleanTexts = {};',
-        f'officialCleanTexts = {{\n  "{file_path}": "{escaped}",\n}};'
-    )
+            fuzzy_hashes[fuzzy_hash] = web_path
+            clean_texts[web_path] = clean_text
 
-js_file.write_text(js_content, encoding='utf-8')
-print(f"Added {file_path}")
+            print(f"✓ {file_path.name}")
+
+    # Bouw JS bestand op
+    js_content = """// ==================== OFFICIAL FUZZY HASHES + CLEAN TEXTS ====================
+// Auto generated - do not edit manually
+
+window.officialFuzzyHashes = {
+"""
+
+    for h, p in fuzzy_hashes.items():
+        js_content += f'  "{h}": "{p}",\n'
+
+    js_content = js_content.rstrip(',\n') + "\n};\n\nwindow.officialCleanTexts = {\n"
+
+    for p, t in clean_texts.items():
+        js_content += f'  "{p}": "{escape_for_js(t)}",\n'
+
+    js_content = js_content.rstrip(',\n') + "\n};\n"
+
+    js_file.write_text(js_content, encoding='utf-8')
+    print(f"\n🎉 Volledig herbouwd met {len(fuzzy_hashes)} entries!")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        # Single file mode (voor calculate-hashes.sh)
+        file_path = sys.argv[1]
+        # Voor nu gewoon full rebuild (simpelst en veiligst)
+        rebuild_clean_texts()
+    else:
+        rebuild_clean_texts()

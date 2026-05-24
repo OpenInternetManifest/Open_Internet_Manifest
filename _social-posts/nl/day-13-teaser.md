@@ -39,7 +39,7 @@ raw_markdown: |
   #RealityVsNarrative #openinternetmanifest #webwithoutleash
 
 fuzzy_sha256: "d3d14c1a35705b1cdfc8a7a64bda5c9a7ba69c2039b19f70e6c0fdcd46a40f85"
-full_sha256: "8550504606beef6351c01e992633e469d6fef3bb17e3531f03da360cc06b0864"
+full_sha256: "b3504e3932a965b9493507fa1bd79629640494e78d2705941c923d125d994bcf"
 ---
 
 🇳🇱 **Dag 13 – Even stilstaan** 🌱🌐  

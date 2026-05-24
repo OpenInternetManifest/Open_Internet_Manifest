@@ -45,7 +45,7 @@ raw_markdown: |
   #OpenInternetManifest #Day16 #SocialsWithoutLeash #RealityVsNarrative
 
 fuzzy_sha256: "0a0eae86b5622d4d3e9989087d461bd4ba009b7d3f54086918c67dc4c1374012"
-full_sha256: "355bfe29bde12e52c18a811f623a13bb008761ec187a0ab3aad6111a96917687"
+full_sha256: "42e77b67e95cbdac98011b4d37a2b187bc1a705ce4866137af01e80e129fd17f"
 ---
 
 🇳🇱 **Dag 16 – De nieuwe hub** 🌐🗂️  

@@ -7,7 +7,7 @@ rvn_teaser: "Geen bezit meer, alleen maar maandelijkse betalingen. Gemak dient d
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "2b5b2257eba2e5bd7601372bd3d7da50d25bed5be715e19ac2e30750b31fe68c"
-full_sha256: "b1a3ab0767880cefb0284efcfd072627a450f1ea7e09c4aa2ee933fa894789ef"
+full_sha256: "01bffbe3bd3617b939fe64090a9ad99ab7acb13860371e7a0b549a103ffde503"
 git_commit_hash: "a0dc538702626ac86762591c799dc93d58cb7e1d"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a0dc538702626ac86762591c799dc93d58cb7e1d"
 git_commit_date: "2026-05-10T08:00:27+02:00"

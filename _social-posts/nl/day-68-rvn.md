@@ -7,7 +7,7 @@ rvn_teaser: "James Comey geeft zich over. Hoe vaak hebben we al gehoord “er ge
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "f228488ade163979f4354c372863c66a489f1ccb3a283b59a3b7de9d13a952c9"
-full_sha256: "afac2d84fd0434554077adbb257388d2e267ab7bfddb84aaf608ea2e4624fdca"
+full_sha256: "c5daa7d7772a6adeed015b502f134cff33ad43dead384e522a711d3e3a1fde82"
 git_commit_hash: "cdab98b0476f001cfb379bc77877387034fcd46f"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/cdab98b0476f001cfb379bc77877387034fcd46f"
 git_commit_date: "2026-05-01T16:34:56+02:00"

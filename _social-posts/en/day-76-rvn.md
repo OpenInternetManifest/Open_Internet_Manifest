@@ -7,7 +7,7 @@ rvn_teaser: "No more ownership, just monthly payments. Convenience above all… 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "3e59e41ce711f628dae60dfbf9509163daebaab6a11b949ebd17caf2ae51f6d8"
-full_sha256: "9d113a1da86c4b38e97d6ddca1f069080dbc90488abfbaef4822dc0bb43ad7b4"
+full_sha256: "60ae0d8cb84284aab74717ea24a7c98a8f600d43c8a559f96dfa3c37478e1c7c"
 social_share_sha256: ""
 git_commit_hash: "a0dc538702626ac86762591c799dc93d58cb7e1d"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a0dc538702626ac86762591c799dc93d58cb7e1d"

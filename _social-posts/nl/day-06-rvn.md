@@ -10,7 +10,7 @@ rvn_title: Nederland verdedigt Groenland
 # rvn_url: /nl/social-posts/dag-6-rvn
 rvn_teaser: Met Flipse, koffie en een stroopwafel
 fuzzy_sha256: "05b58b065128b73642134504612595237c019057f863d96abb4ee14f36674ef4"
-full_sha256: "2846bcaa3c1bf4708fa25262882a2fa49bb0e9ad20076da18306e0958659dd90"
+full_sha256: "66c6994b6f180d41b6575277193870b0efc75d70816e25fa4c290a3ab1ec843f"
 raw_markdown: |
   Realiteit vs Narratief – Nederland verdedigt Groenland  
   

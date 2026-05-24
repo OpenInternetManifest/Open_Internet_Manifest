@@ -7,7 +7,7 @@ rvn_teaser: "Eén brand in Almere legt hele systemen plat. Dit is waarom central
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "d463cbba33f365f1cfe67e704203ff888f1d0b3c7541f35e00d3b8e2dbbeb0a4"
-full_sha256: "62f30d68595df48cbe590c5c4a1a06331f91ac17e42ebd17fa191789ad998a0b"
+full_sha256: "3ed474c7ab5681b2f25c7531fd267ea6b751395b1557518a0f4b68764e2c3a85"
 git_commit_hash: "107f6628b688c1c30e15539e444a6b4808863e91"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/107f6628b688c1c30e15539e444a6b4808863e91"
 git_commit_date: "2026-05-08T06:40:14+02:00"

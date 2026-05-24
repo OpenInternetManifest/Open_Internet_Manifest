@@ -21,7 +21,7 @@ raw_markdown: |
   #RealityVsNarrative #OpenInternetManifest #Hypocrisy #NoGatekeepers
 
 fuzzy_sha256: "b4fe6c288335c60bd26fc3285c1c753e925f3372f3a5ad311c6b4e21ce1ceabf"
-full_sha256: "88270dc6f35618228292cced2345b854d7fe76eb5e6a27dabc6ae7bc81d9e998"
+full_sha256: "8267a1dcae43b67f569c49d5d2b762e4bd06c7bc67e4aec6ed1e4b76ab2a6f92"
 ---
 
 🇬🇧 **Day 16 Teaser** 🌐✂️  

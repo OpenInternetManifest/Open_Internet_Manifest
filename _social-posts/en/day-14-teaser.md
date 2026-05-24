@@ -28,7 +28,7 @@ raw_markdown: |
   Why? Because narratives are easily distorted — reality is not.
 
 fuzzy_sha256: "600a57ae789b2ff6598662fb413c452d8469b41d34bb2967dd58b8773bc79f41"
-full_sha256: "6cc10e0c7185dd63edd86cc8880f8e338266d072ec682aa4933d612a083efe80"
+full_sha256: "3360450f0e8d3b2028819f87ceff3b8b29a9728b887940a38e3a13eddf6add34"
 ---
 
 🇬🇧 **Day 16 – The new hub** 🌐🗂️  

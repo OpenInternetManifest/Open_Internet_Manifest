@@ -9,7 +9,7 @@ website_sha256:
 social_fb_sha256: 136b20890f703af58a275315d0eec576e7a0e2e163650e875b0943a028552296
 social_share_sha256: ''
 fuzzy_sha256: "9019b72931c93413621b0131b025162340e72bc52af2da4c67b35d79edf41d85"
-full_sha256: "998038c78cb2aab518923daead29e963d294e2f5b8c045b72ede76bd4a84595b"
+full_sha256: "11f9b042a6a53fe1d3f020636f81d8164f075bf4d4fb509c1d0870b787df3911"
 raw_markdown: |
   **Day 42 – RVN: Words no longer weigh by what they say, but by what narrative is made of them** ⚖️🌀
   

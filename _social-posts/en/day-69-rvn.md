@@ -7,7 +7,7 @@ rvn_teaser: "A hash is not just a tech thing. It is a weapon against systematic 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "1c321d9d74c2a1ff0b523e58501088db27a8c75beb8d40a36b158c58d3b9964c"
-full_sha256: "70a2f05bc2162139ce054019f558e3509550729846c10496244c4cc0d6834fc5"
+full_sha256: "61f82c3e0746585da6d7557f46fbad5db6ac0f6c996d7b1a9bacf954fd3ae026"
 social_share_sha256: ""
 git_commit_hash: "d563c817a50e85f66fa3602a0a90351e7c3d685c"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d563c817a50e85f66fa3602a0a90351e7c3d685c"

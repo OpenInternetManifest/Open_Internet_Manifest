@@ -23,7 +23,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "c71516ba391be233456ef78ff11199f95e3503d2211f4f563e6ff545d9e503da"
-full_sha256: "66c04e662cf044a08976b1d69b0c6c5c05edba8f8f38c3a708ccbc7d04774b84"
+full_sha256: "24eb3405ed49f1964d5573782a4a47b82a2b9f5eb305452b25134da5771e0b08"
 ---
 
 🇬🇧 Day 6 – Freedom with boundaries  

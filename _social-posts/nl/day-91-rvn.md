@@ -7,7 +7,7 @@ rvn_teaser: "De historische en demografische verdraaiing die steeds weer opduikt
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "14ad85dba9d63fd8688dc2771dc3f9153459aa21ebc13334d825cd09ad8aaac1"
-full_sha256: "6f495ee96385c38f440ce3631977ca121620fcc70b53954ac317371fcd92293d"
+full_sha256: "761373a732effe4e34795e83da2b48ac4472ef90d2022e3af96b332e2ee262d7"
 git_commit_hash: "c9d8919df3f86f3a6ec0120d7fa3c1cc2fcb0bfa"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/c9d8919df3f86f3a6ec0120d7fa3c1cc2fcb0bfa"
 git_commit_date: "2026-05-23T07:52:15+02:00"

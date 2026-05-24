@@ -10,7 +10,7 @@ rvn_title: Sun Tzu voltooid
 # rvn_url: /nl/social-posts/dag-32-rvn
 rvn_teaser: Epstein-files als boemerang die terugvliegt
 fuzzy_sha256: "42e3c33b1f72ba63c56fbbb464e1338a6e620e17a51b20568b0c640a37c7c4ca"
-full_sha256: "0773f675f43682c6d91fdf6375e67c59f38230a04818602b4f8559c0ba026376"
+full_sha256: "135bc0f941ee2b69df6e2507939c189c179f8105f4df361887e9158dc0c341fa"
 raw_markdown: |
   **Dag 32 – RVN: Sun Tzu voltooid – Epstein-files als boemerang die terugvliegt** ♟️🌀🔥  
   Een verhaal over hoe een push voor transparantie zichzelf in de voet schiet 💥

@@ -37,7 +37,7 @@ raw_markdown: |
   #RealityVsNarrative #Day19Teaser
 
 fuzzy_sha256: "01146ea260e9cf17bf16b565556398421ee1349deb28afba2402e94198a555b0"
-full_sha256: "5bbd4904bebb5b9eb318a6d40bc4e516edb9f131df2d0a50dd7173e231a16451"
+full_sha256: "4d6c5b0980540a27f0effcf63fb71862772f237e7707daeb97fade6956852fdd"
 ---
 
 🇳🇱 **Dag 18 – Groeien** 🌐🔒  

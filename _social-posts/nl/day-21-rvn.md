@@ -10,7 +10,7 @@ rvn_title: Israël-Palestina & Iran
 # rvn_url: /nl/social-posts/dag-21-rvn
 rvn_teaser: van eeuwenoude wortels tot hedendaagse crisis
 fuzzy_sha256: "2f6ffc454e9c44b416c719df70e8f4a014e35094f3e896d797da6d39776e262b"
-full_sha256: "4265acb32b55c1a071e64102772716d1f8bdb1848b2f62e3c06fd1491ce77d67"
+full_sha256: "92302b67a72c79b8c57c960ef442db32a7f1635290ef3c740c0fcfab03b29eb0"
 raw_markdown: |
   🇳🇱 **Dag 21 – Israël-Palestina & Iran: van eeuwenoude wortels tot hedendaagse crisis** 🕊️📜  
   Als je het Israël-Palestina-conflict en de rol van Iran alleen ziet als “bezetting sinds 1948” of “kolonialisme door Europese Joden”, mis je het grotere verhaal. De wortels liggen veel dieper – in geschiedenis, politiek én religie – en het huidige gedrag van het Iraanse regime maakt het plaatje nog completer.

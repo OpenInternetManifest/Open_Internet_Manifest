@@ -19,7 +19,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "6ee2543217a96f8253dc8331c7a9e3a9a4e689ffb77ab15aa244c88261889fc0"
-full_sha256: "ba5b4ab02153b0c0cf2c6e50853db8492971236905a37e67ee8b6de3d358d9fd"
+full_sha256: "90fa445d20d6303ca24f6313dc7b36c693bc9b0eb8d039d8ecb2926fe6c7240b"
 ---
 
 🇬🇧 Day 1 – The start of something big  

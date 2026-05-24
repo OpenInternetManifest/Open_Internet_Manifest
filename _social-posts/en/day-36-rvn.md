@@ -10,7 +10,7 @@ rvn_title: Epstein → Demmink → Baybaşin
 # rvn_url: /en/social-posts/day-36-rvn
 rvn_teaser: the pattern of silence
 fuzzy_sha256: "f6a7aad8dd1d7b72c2f50dd7a71ad765a9d457987a2f2fee9dde90efdd685e60"
-full_sha256: "d7685b6dfd05b04e043711bd9f8f117ef30cc4757832d4dbbc00e12c4a009e06"
+full_sha256: "a19507aaec8daac3eb26f1ffae8c8ea0c192402db3d12cf0becd3a22b5197377"
 raw_markdown: |
   **Day 36 – RVN: Epstein → Demmink → Baybaşin – the pattern of silence** 🕸️🔇  
   Why some cases are never truly solved.

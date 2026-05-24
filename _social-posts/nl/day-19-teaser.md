@@ -37,7 +37,7 @@ raw_markdown: |
   #RealityVsNarrative #Day19Teaser
 
 fuzzy_sha256: "9437371cc0826b0ac4c0424fce740f1ea9b21909dbb6b91bdea4c2dd1130dcfb"
-full_sha256: "28ff2430b5e53d20930dee71b0162d9cd8618c8cec05e1adc13c951ef3be7fd6"
+full_sha256: "ce181dde3dcc02d19705a39f4cb0c1a5d80b244b71d9f9304e59c8621cc70dec"
 ---
 
 **Dag 18 – Utrecht drama** 🚔😏  

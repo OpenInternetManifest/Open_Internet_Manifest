@@ -34,7 +34,7 @@ raw_markdown: |
   @fvdemocratie
 
 fuzzy_sha256: "5fff62a2ce248827003416342fd320e480fb1459207d13d1bd70b1c88701de4b"
-full_sha256: "1b04a94ec28cd0c3459132b2c2d04aaf72e5111dc4e986d7eb02bed1e89a5685"
+full_sha256: "c19fc58c56ee6040e67a7d3a546aeb52196045a98ee05af54e7d74d9f67dcd9e"
 ---
 
 🇬🇧 **Day 17 – A child at school, today** 🌐😔  

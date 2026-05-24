@@ -27,7 +27,7 @@ raw_markdown: |
   #RealityVsNarrative #Day19Teaser
 
 fuzzy_sha256: "8edbf18c71d54b5bc46bfb4c325d8d2cd9c822b9570143b3b0ba09d7a4de9992"
-full_sha256: "b6c89f0c3457cfda353cc8ded3f2ac1d429cf14d1b5cf8c466f90fc920b1ece0"
+full_sha256: "51b5cec1fc652c8fa8aae8dde28b88fa7e6f9a48c39894bf26f615f8a32297d3"
 ---
 
 🇬🇧 **Day 19 Teaser – Tonight** 🌐🔒  

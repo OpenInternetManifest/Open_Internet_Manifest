@@ -23,7 +23,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "0f345193b2476d2e07fe50564862556f5e229b995d50ca67f847f4c0e39d459e"
-full_sha256: "a9ed11cccf91968f017c3f85a049bc1822af784d78966dd88b08a12edb57964b"
+full_sha256: "c85bb102d016e4906625f0f3c8c0a8125872165b302142a054559e849df5c618"
 ---
 
 🇬🇧 Day 4 – What if privacy was the default?  

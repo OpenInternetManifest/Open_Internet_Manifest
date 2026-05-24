@@ -7,7 +7,7 @@ rvn_teaser: "Gisteren keken we naar het spel van zoete vs zware olie en raffinag
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "9e6683c90165230ad1cfc1f40967e987030178e87099fa6c13d163151c6025d7"
-full_sha256: "d9c2b6dc3cdcd4c46dde81c44593278a42016a837057a5926a4f999e0917f696"
+full_sha256: "3777dc76754c011cde2f4bd90613d36d8f1ed9a5c4bad3900deba2533e3723ee"
 git_commit_hash: "e7cc7d89a794fda561333ccdb2055b6b194cdb87"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7cc7d89a794fda561333ccdb2055b6b194cdb87"
 git_commit_date: "2026-04-30T07:34:13+02:00"

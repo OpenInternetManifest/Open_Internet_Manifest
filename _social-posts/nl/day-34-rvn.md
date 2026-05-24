@@ -10,7 +10,7 @@ rvn_title: De nieuwe look
 # rvn_url: /nl/social-posts/dag-34-rvn
 rvn_teaser: Bouwen in plaats van klagen
 fuzzy_sha256: "eb8bc82edc814dcf3d7d316e1e034a591b9e4381bf56ed02cbed69a34f730be5"
-full_sha256: "e32cd64565c06f8c5a83e4eca7c3b0cf5a32e542cca333fe53daeac7c3420f45"
+full_sha256: "a8636ca9d6c459e45feb2af032daac59d674d5bf40b1d43bc5725e316fe38632"
 raw_markdown: |
   **Dag 34 – RVN: De nieuwe look – bouwen in plaats van klagen** 🛠️✨  
   Van woorden naar werkelijkheid: de site krijgt vorm.

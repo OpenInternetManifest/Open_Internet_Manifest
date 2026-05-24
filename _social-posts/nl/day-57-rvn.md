@@ -10,7 +10,7 @@ git_commit_hash: "3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_date: "2026-04-22T07:42:08+02:00"
 fuzzy_sha256: "8ca180bb62ff1588dfe2d4d90d121fa0dbb7cc8b356d1d4d0be74f97bc546fa4"
-full_sha256: "38105bf199c51ad4071cf9cdf81cba64a45db10bfcdee01bf0c55cfe0f7492dd"
+full_sha256: "595125bd00b11e20ea99879d2be7a22cda02bffb1339b791798b68d9569994a3"
 raw_markdown: |
   **RVN: De goede Samaritaan die haast had** 🌀
   

@@ -10,7 +10,7 @@ rvn_title: Templars, Moloch
 # rvn_url: /nl/social-posts/dag-24-rvn
 rvn_teaser: 'En de echte winnaars van geschiedenis '
 fuzzy_sha256: "be3f48a0b0e35e8367ec915cdb33cda1bfb9033904e55187da5e6037121a6406"
-full_sha256: "31076d203ff36e723ca46d92bdfe9e831f3cd7b5ce27d65e7f92f9c947c77c39"
+full_sha256: "ef3cb0a6721738c8c7fe4b5de4098e2e8d16787e8de0a3af66fe76897539bf89"
 raw_markdown: |
   **Reality vs Narratief: Templars, Moloch en de echte winnaars van geschiedenis ♟️🛡️🔥**
   

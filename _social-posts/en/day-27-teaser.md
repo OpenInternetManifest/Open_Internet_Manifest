@@ -35,7 +35,7 @@ raw_markdown: |
   Why? Because narratives are easily distorted — reality is not.
 
 fuzzy_sha256: "8f41269ba4275a3d873b3bb0f95a20445bfe2d99adcad9e760dff9e564f23858"
-full_sha256: "9eb2cec028e8343822814d903b22358fda068ff38b249cf7c7e462beb81bb0b8"
+full_sha256: "1ce37722008c22a7049652fb7acf66aedc904789749b4d54ae517265ddc04a7d"
 ---
 
 🇬🇧 **Day 26 Teaser – Tonight: just breathe** 😏🍿  

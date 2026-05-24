@@ -10,7 +10,7 @@ rvn_title: Iran
 # rvn_url: /en/social-posts/day-2-rvn
 rvn_teaser: Are censorship & blackouts are sometimes necessary for order?
 fuzzy_sha256: "f27b1fa7415ecdc4698411a94459b968361cac034051da5fa27e1e5587212dfc"
-full_sha256: "d9b481e9d70b419e065971b90b0b0a1fde700bd9f17c5c8e19d14f91de738ce6"
+full_sha256: "0400e29ea093f6e791405d862641319eab87c8c8fb36e15f2f18ed9696c0b2d0"
 raw_markdown: |
   English summary:
   Reality vs. Narrative – The Open Internet Manifest (Iran focus).

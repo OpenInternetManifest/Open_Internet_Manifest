@@ -11,7 +11,7 @@ git_commit_hash: "3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/3a5072640d91304754d93b83bf683022f5c42a92"
 git_commit_date: "2026-04-22T07:42:08+02:00"
 fuzzy_sha256: "c0de0ac0f832dd0396a3cd010c248aae3fc4a1e37260b074de743961ee04b5be"
-full_sha256: "c3eff5478370120f9793386abeff4b7d8c6d3243462344869dcafeb72e7db107"
+full_sha256: "a0fe257a36cd871592e822280d715eec9a3878d7bc6d0d0ca2981cbf6241044a"
 raw_markdown: |
   **RVN: The Good Samaritan Who Was in a Hurry** 🌀
   

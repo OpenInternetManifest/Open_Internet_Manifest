@@ -7,7 +7,7 @@ rvn_teaser: "Why does the price at the pump stay high even when there is enough 
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "6e0e9db03dd0deaef4d74ab83b2612df0d58d62868b34dd084f752b632b4a240"
-full_sha256: "1a82c9c61c1455af96c5bf58fa872dfe93d8bcf6d2475c9a90116bd078c48090"
+full_sha256: "a70d1176b9d0924e32efb37e1e18f9451581eb90f4c5c3f072cc25292448c581"
 social_share_sha256: ""
 git_commit_hash: "69d2153f2f48b9f9e3be0a228f48810a9d008c38"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/69d2153f2f48b9f9e3be0a228f48810a9d008c38"

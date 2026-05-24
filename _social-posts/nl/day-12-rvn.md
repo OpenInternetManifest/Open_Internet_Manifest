@@ -10,7 +10,7 @@ rvn_title: Toeslagenaffaire
 # rvn_url: /nl/social-posts/dag-12-rvn
 rvn_teaser: de stal die niet barst
 fuzzy_sha256: "9402ff050415dc9f88bb33cb62b594ba342f252f3dd1bf9ae9c0d09f718a14d7"
-full_sha256: "e9b8ffef23a000faeb168cb6c016e05c8f88e48d29d67c6a84192aa1af7cfa2f"
+full_sha256: "553d303cc66f8c07bb6f9039a513e211dc7b00261977ea0cf1b46fd7043ac952"
 raw_markdown: |
   **Realiteit vs Narratief** – Toeslagenaffaire: de stal die niet barst 🏛️💔
   

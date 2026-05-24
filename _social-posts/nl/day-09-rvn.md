@@ -10,7 +10,7 @@ rvn_title: Daycare-fraude
 # rvn_url: /nl/social-posts/dag-9-rvn
 rvn_teaser: 'ICE en Tim Walz '
 fuzzy_sha256: "f9c9f7feb10bdf9345d4c3f8c8accf07604027682c88666917880deb78666a9d"
-full_sha256: "a90d5511cf9eaf42c1b363f43dbbe36c40dc2dd7104d3b3b08eda5ed6225315d"
+full_sha256: "f2d83f86311996f48b29034bd8cc7232150a18aa7551af234551256d6dd4e39a"
 raw_markdown: |
   Realiteit vs Narratief – Daycare-fraude, ICE en Tim Walz  
   Het narratief klinkt altijd zo sympathiek: “ICE is racistisch en inhumaan, ze scheuren families uit elkaar. Fraude is marginaal en wordt aangepakt. Kritiek op migratie is xenofobie.”  

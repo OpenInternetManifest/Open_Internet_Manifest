@@ -7,7 +7,7 @@ rvn_teaser: "Yesterday we looked at the game of sweet vs heavy oil and refining.
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "a6653e2664cda1afed5f30d0e02eabd94ee487b2521fef42d9f637b137cce83e"
-full_sha256: "8fa19f5aaa88079a6f60e403cc48454b143c8637b4fdd258e959e2087395810d"
+full_sha256: "b564d3bac6856ab47464ce149a7d9ac21ee67f738182fa6a5ef760340c2c79a3"
 social_share_sha256: ""
 git_commit_hash: "e7cc7d89a794fda561333ccdb2055b6b194cdb87"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7cc7d89a794fda561333ccdb2055b6b194cdb87"

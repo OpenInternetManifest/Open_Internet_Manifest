@@ -42,7 +42,7 @@ raw_markdown: |
   #RealityVsNarrative #OpenInternetManifest #MostlyPeaceful #Day15Teaser
 
 fuzzy_sha256: "d99ff9078c0859884f9ea8fbba578a033a3475eda83739c256df342ddfb5754a"
-full_sha256: "1ef4ae00eb89dd5c265ba202ac62ce84d49ec9e2755d07b05ca4a9db0ab2679b"
+full_sha256: "37cf227728168ede1ad476dbde186b315976ff2a931c88b5d00c132fdf53e13c"
 ---
 
 🇳🇱 **Dag 15  – Narratief** 🌐✂️  
