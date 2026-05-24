@@ -6,10 +6,10 @@ rvn_title: "Pinksteren – De vervulling van de Joodse belofte"
 rvn_teaser: "Van Joodse feestdag naar het begin van iets nieuws."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "8516b01e5f6513fb014019992b492ea281cbe37ff3330afe5baba6c9100c173d"
+git_commit_hash: "7b9bf0c16dae18f1cccb1ee91b543ffaf6a1d1cd"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7b9bf0c16dae18f1cccb1ee91b543ffaf6a1d1cd"
+git_commit_date: "2026-05-24T08:10:22+02:00"
 ---
 
 
