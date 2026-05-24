@@ -14,28 +14,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Nodig voor git commit info
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}   # expliciet meegeven
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-
-      - name: Calculate hashes & update clean texts
+      - name: Calculate hashes & update files
         run: |
           chmod +x .github/scripts/calculate-hashes.sh
           
-          # Verwerk alle gewijzigde RVN bestanden
           for file in $(git diff --name-only HEAD^ | grep -E '_social-posts/.*/day-.*\.md'); do
             echo "Processing $file"
             .github/scripts/calculate-hashes.sh "$file"
           done
 
-      - name: Commit updated files
+      - name: Commit & Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,11 +42,5 @@ jobs:
             git add _social-posts/ static/js/official-clean-texts.js
             git commit -m "chore: update hashes + clean texts after merge [skip ci]"
             git push
+            echo "✅ Changes committed and pushed"
           fi
-
-      - name: Trigger Jekyll build
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: OpenInternetManifest/Open_Internet_Manifest
-          event-type: jekyll-build
