@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "916dd84cec6e2bb3549f835b43f4130598ce07ce01d54d90a3181a6268283998"
 full_sha256: "3acb251f5f414c7b9f6e49223f9041bb337d2a29178974913869037fa42f5560"
-git_commit_hash: "e6f86aaefeba89cc58688b7322f79bcbbf99c385"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e6f86aaefeba89cc58688b7322f79bcbbf99c385"
-git_commit_date: "2026-05-25T14:18:36.029502"
+git_commit_hash: "d1a6d60e48065b01fb011caf2e8613ab7518eaf9"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d1a6d60e48065b01fb011caf2e8613ab7518eaf9"
+git_commit_date: "2026-05-25T12:20:43.361039"
 raw_markdown: |
   
   **RVN: “Pinksteren – De Geest die grenzen doorbreekt”** 🌀
