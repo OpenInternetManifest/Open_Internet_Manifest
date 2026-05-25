@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-calculate-hashes.py - Simpel, alleen de meegegeven post, geen rommel
+calculate-hashes.py - Na merge: hashes berekenen + git info + JS update
 """
 
 import re
 import hashlib
 import sys
+import subprocess
 from pathlib import Path
+from datetime import datetime
 
 def sha256(text):
     return hashlib.sha256(text.encode('utf-8')).hexdigest()
@@ -21,57 +23,48 @@ def main(file_path):
 
     content = file.read_text(encoding='utf-8')
 
-    # Extract body after frontmatter
-    body_match = re.search(r'^---\s*\n[\s\S]*?^---\s*\n(.*)', content, re.MULTILINE | re.DOTALL)
-    raw_body = body_match.group(1) if body_match else content
-
-    # 1. Add raw_markdown if missing
-    if "raw_markdown:" not in content:
-        print("→ Adding raw_markdown...")
-        clean_body = raw_body.strip()
-        indented = "\n".join("  " + line for line in clean_body.splitlines())
-        
-        new_content = re.sub(
-            r"(^---\s*\n[\s\S]*?)(^---\s*?$)",
-            rf"\1raw_markdown: |\n{indented}\n\2",
-            content,
-            flags=re.MULTILINE
-        )
-        file.write_text(new_content, encoding='utf-8')
-        print("   ✅ raw_markdown added")
-        content = new_content
-
-    # 2. Calculate hashes
-    fuzzy_body = re.sub(r'\s+', ' ', raw_body.strip()).strip()
-    fuzzy_sha256 = sha256(fuzzy_body)
-
+    # Extract raw_markdown (voorkeur) of body
     raw_match = re.search(r'raw_markdown:\s*\|\s*\n((?:[ \t].*?\n?)+?)(?=\n[^\s]|\Z)', content, re.MULTILINE | re.DOTALL)
-    raw_md = raw_match.group(1).rstrip('\n') if raw_match else raw_body
+    if raw_match:
+        raw_md = raw_match.group(1).rstrip('\n')
+        print("   Using raw_markdown from frontmatter")
+    else:
+        body_match = re.search(r'^---\s*\n[\s\S]*?^---\s*\n(.*)', content, re.MULTILINE | re.DOTALL)
+        raw_md = body_match.group(1) if body_match else content
+        print("   Using body (no raw_markdown found)")
+
+    # Calculate hashes
+    fuzzy_body = re.sub(r'\s+', ' ', raw_md.strip()).strip()
+    fuzzy_sha256 = sha256(fuzzy_body)
     full_sha256 = sha256(raw_md)
 
-    # 3. Update frontmatter
+    # Update frontmatter
     content = re.sub(r'fuzzy_sha256:\s*".*?"', f'fuzzy_sha256: "{fuzzy_sha256}"', content)
     content = re.sub(r'full_sha256:\s*".*?"', f'full_sha256: "{full_sha256}"', content)
 
-    if "full_sha256:" not in content:
-        content = re.sub(r'(fuzzy_sha256:.*?\n)', rf'\1full_sha256: "{full_sha256}"\n', content)
+    # Add git info
+    commit_hash = subprocess.getoutput("git rev-parse HEAD")
+    commit_url = f"https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/{commit_hash}"
+    commit_date = datetime.now().isoformat()
 
-    # Add git info if missing
-    if "git_commit_hash:" not in content:
-        content = re.sub(r'(full_sha256:.*?\n)', rf'\1git_commit_hash: ""\ngit_commit_url: ""\ngit_commit_date: ""\n', content)
+    content = re.sub(r'git_commit_hash:\s*".*?"', f'git_commit_hash: "{commit_hash}"', content)
+    content = re.sub(r'git_commit_url:\s*".*?"', f'git_commit_url: "{commit_url}"', content)
+    content = re.sub(r'git_commit_date:\s*".*?"', f'git_commit_date: "{commit_date}"', content)
 
     file.write_text(content, encoding='utf-8')
 
-    print(f"✅ Done {file.name}")
     print(f"   fuzzy = {fuzzy_sha256}")
     print(f"   full  = {full_sha256}")
+    print(f"   git   = {commit_hash[:8]}...")
 
-    # 4. Update JS (single file)
+    # Update JS
     try:
         subprocess.run(["python3", "tools/update-clean-texts.py", str(file), fuzzy_body], check=True)
-        print("   ✅ JS updated")
-    except:
-        print("   ⚠️ JS update failed")
+        print("   ✅ official-clean-texts.js updated")
+    except Exception as e:
+        print(f"   ⚠️ JS update failed: {e}")
+
+    print(f"✅ Done {file.name}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
