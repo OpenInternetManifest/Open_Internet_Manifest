@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-update-clean-texts.py - Volledige rebuild versie (meest robuust)
+update-clean-texts.py - Correcte comma handling
 """
 
 import sys
@@ -16,64 +16,43 @@ def escape_for_js(text):
     text = text.replace('\n', '\\n')
     return text
 
-def rebuild_clean_texts():
-    """Volledig herbouwen van official-clean-texts.js uit alle posts"""
+def main():
+    if len(sys.argv) < 3:
+        print("Usage: python3 update-clean-texts.py <file_path> <cleaned_text>")
+        sys.exit(1)
+
+    file_path_str = sys.argv[1]
+    cleaned_text = sys.argv[2]
+
     js_file = Path("static/js/official-clean-texts.js")
-    js_file.parent.mkdir(parents=True, exist_ok=True)
-
-    fuzzy_hashes = {}
-    clean_texts = {}
-
-    patterns = ["_social-posts/nl/day-*.md", "_social-posts/en/day-*.md"]
-
-    for pattern in patterns:
-        for file_path in sorted(Path(".").glob(pattern)):
-            content = file_path.read_text(encoding='utf-8')
-            
-            # Extract raw_markdown als aanwezig, anders body
-            match = re.search(r'raw_markdown:\s*\|\s*\n((?:[ \t].*?\n?)+?)(?=\n[^\s]|\Z)', content, re.MULTILINE)
-            if match:
-                raw_text = match.group(1).rstrip('\n')
-            else:
-                # fallback body
-                body_match = re.search(r'^---\s*\n[\s\S]*?^---\s*\n(.*)', content, re.MULTILINE)
-                raw_text = body_match.group(1) if body_match else content
-
-            clean_text = re.sub(r'\s+', ' ', raw_text.strip()).strip()
-            fuzzy_hash = hashlib.sha256(clean_text.encode('utf-8')).hexdigest()
-
-            web_path = str(file_path).replace('\\', '/')
-
-            fuzzy_hashes[fuzzy_hash] = web_path
-            clean_texts[web_path] = clean_text
-
-            print(f"✓ {file_path.name}")
-
-    # Bouw JS bestand op
-    js_content = """// ==================== OFFICIAL FUZZY HASHES + CLEAN TEXTS ====================
+    
+    if not js_file.exists():
+        js_file.write_text("""// ==================== OFFICIAL FUZZY HASHES + CLEAN TEXTS ====================
 // Auto generated - do not edit manually
 
-window.officialFuzzyHashes = {
-"""
+window.officialFuzzyHashes = {};
+window.officialCleanTexts = {};
+""", encoding='utf-8')
 
-    for h, p in fuzzy_hashes.items():
-        js_content += f'  "{h}": "{p}",\n'
+    content = js_file.read_text(encoding='utf-8')
 
-    js_content = js_content.rstrip(',\n') + "\n};\n\nwindow.officialCleanTexts = {\n"
+    # Verwijder oude entries voor dit bestand
+    content = re.sub(rf'"{re.escape(file_path_str)}":\s*".*?",?\s*', '', content, flags=re.DOTALL)
+    content = re.sub(rf'"[a-f0-9]{{64}}":\s*"{re.escape(file_path_str)}",?\s*', '', content, flags=re.DOTALL)
 
-    for p, t in clean_texts.items():
-        js_content += f'  "{p}": "{escape_for_js(t)}",\n'
+    fuzzy_hash = hashlib.sha256(cleaned_text.encode('utf-8')).hexdigest()
 
-    js_content = js_content.rstrip(',\n') + "\n};\n"
+    new_fuzzy = f'  "{fuzzy_hash}": "{file_path_str}",\n'
+    new_clean = f'  "{file_path_str}": "{escape_for_js(cleaned_text)}",\n'
 
-    js_file.write_text(js_content, encoding='utf-8')
-    print(f"\n🎉 Volledig herbouwd met {len(fuzzy_hashes)} entries!")
+    # Update FuzzyHashes
+    content = re.sub(r'(window\.officialFuzzyHashes\s*=\s*\{[\s\S]*?)\s*\};', r'\1' + new_fuzzy + r'\1};', content, count=1)
+    
+    # Update CleanTexts
+    content = re.sub(r'(window\.officialCleanTexts\s*=\s*\{[\s\S]*?)\s*\};', r'\1' + new_clean + r'\1};', content, count=1)
+
+    js_file.write_text(content, encoding='utf-8')
+    print(f"✅ Updated JS for {file_path_str} ({fuzzy_hash[:12]}...)")
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        # Single file mode (voor calculate-hashes.sh)
-        file_path = sys.argv[1]
-        # Voor nu gewoon full rebuild (simpelst en veiligst)
-        rebuild_clean_texts()
-    else:
-        rebuild_clean_texts()
+    main()

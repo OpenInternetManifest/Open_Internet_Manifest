@@ -25,34 +25,32 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Calculate hashes & update files
+      - name: Calculate hashes for changed RVN files
         run: |
           chmod +x .github/scripts/calculate-hashes.sh
           
-          echo "🔍 Checking changed RVN files..."
+          echo "🔍 Checking changed files..."
           CHANGED_FILES=$(git diff --name-only HEAD^ | grep -E '_social-posts/.*/day-.*\.md' || echo "")
 
           if [ -z "$CHANGED_FILES" ]; then
-            echo "ℹ️ No RVN files changed in this push."
+            echo "No RVN files changed"
           else
-            echo "Found changed files:"
-            echo "$CHANGED_FILES"
             for file in $CHANGED_FILES; do
               echo "→ Processing $file"
               .github/scripts/calculate-hashes.sh "$file"
             done
           fi
 
-      - name: Commit & Push changes
+      - name: Commit & Push updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           if git diff --quiet; then
-            echo "✅ No changes to commit"
+            echo "No changes to commit"
           else
             git add _social-posts/ static/js/official-clean-texts.js
-            git commit -m "chore: update hashes + clean texts after merge [skip ci]"
+            git commit -m "chore: update hashes + raw_markdown after merge [skip ci]"
             git push
-            echo "✅ Changes committed and pushed successfully"
+            echo "✅ Changes committed and pushed"
           fi

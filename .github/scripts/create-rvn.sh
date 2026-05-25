@@ -99,7 +99,7 @@ EOF
 cat > "_social-posts/en/day-${DAY}-rvn.md" << EOF
 ---
 layout: social-posts
-lang: en
+lang: en(code hieronder) daat moeten we dan natuurlijk al de rauwe markdown voor FM maken 
 day: ${DAY}
 rvn_title: "${TITLE_EN}"
 rvn_teaser: "${TEASER_EN}"
