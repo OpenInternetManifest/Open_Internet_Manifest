@@ -1,4 +1,4 @@
-name: Process RVN Merge
+name: Process RVN Merge + Deploy
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  process-rvn:
+  process-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,32 +25,36 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Calculate hashes for changed RVN files
+      - name: Calculate hashes
         run: |
           chmod +x .github/scripts/calculate-hashes.sh
           
-          echo "🔍 Checking changed files..."
-          CHANGED_FILES=$(git diff --name-only HEAD^ | grep -E '_social-posts/.*/day-.*\.md' || echo "")
-
-          if [ -z "$CHANGED_FILES" ]; then
-            echo "No RVN files changed"
-          else
-            for file in $CHANGED_FILES; do
+          CHANGED=$(git diff --name-only HEAD^ | grep -E '_social-posts/.*/day-.*\.md' || echo "")
+          if [ -n "$CHANGED" ]; then
+            for file in $CHANGED; do
               echo "→ Processing $file"
               .github/scripts/calculate-hashes.sh "$file"
             done
           fi
 
-      - name: Commit & Push updates
+      - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           if git diff --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             git add _social-posts/ static/js/official-clean-texts.js
-            git commit -m "chore: update hashes + raw_markdown after merge [skip ci]"
+            git commit -m "chore: update hashes + raw_markdown [skip ci]"
             git push
-            echo "✅ Changes committed and pushed"
+            echo "✅ Hashes committed"
           fi
+
+      - name: Build and Deploy Jekyll
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          force_orphan: true
+          publish_branch: gh-pages
