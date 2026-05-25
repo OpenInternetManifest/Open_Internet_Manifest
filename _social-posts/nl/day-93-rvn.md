@@ -8,8 +8,8 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "36f1bf9cc4d6a24c7341e70d30abf76e02ecdce2850180441e62bdaa598de52f"
 full_sha256: "d1991f266d15a26886d3fd17143e0816cc6079f8f6773c4dfeaef8cf701fb1ec"
-git_commit_hash: "5898d5333622e94ac4b28283ebae531dcf78dee5"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/5898d5333622e94ac4b28283ebae531dcf78dee5"
+git_commit_hash: "7503b42b5f510955042925471f37b7afe267d9fe"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7503b42b5f510955042925471f37b7afe267d9fe"
 git_commit_date: 
 
 ---
