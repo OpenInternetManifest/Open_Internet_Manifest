@@ -6,11 +6,11 @@ rvn_title: "Pinksteren – De Geest die grenzen doorbreekt"
 rvn_teaser: "Van vervulling naar een wereldwijde beweging."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "36f1bf9cc4d6a24c7341e70d30abf76e02ecdce2850180441e62bdaa598de52f"
+full_sha256: "70cb4bc7c8d95b362c183c77d352a0f52810a38724d7c8fd647c0306dff57177"
+git_commit_hash: "457d45f1ec8eac18bf9af489857ba86dae7cf50a"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/457d45f1ec8eac18bf9af489857ba86dae7cf50a"
+git_commit_date: "2026-05-25T08:59:55.241150"
 raw_markdown: |
   
   **RVN: “Pinksteren – De Geest die grenzen doorbreekt”** 🌀

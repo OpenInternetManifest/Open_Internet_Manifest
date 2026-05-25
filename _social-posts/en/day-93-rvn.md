@@ -6,11 +6,11 @@ rvn_title: "Pentecost – The Spirit That Breaks Boundaries"
 rvn_teaser: "From fulfillment to a worldwide movement."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "b2084eb66edc45eb5e53825660c9783af6a9eac4d30c63b86289842177f26ff2"
+full_sha256: "adc27f6a4a7789ba5f0738a8e600cfe3f4e6b6020bf96a713cfa3040e9d5e8b7"
+git_commit_hash: "457d45f1ec8eac18bf9af489857ba86dae7cf50a"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/457d45f1ec8eac18bf9af489857ba86dae7cf50a"
+git_commit_date: "2026-05-25T08:59:55.080740"
 raw_markdown: |
   
   **RVN: “Pentecost – The Spirit That Breaks Boundaries”** 🌀
