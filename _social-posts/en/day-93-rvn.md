@@ -9,13 +9,13 @@ donation_text: ""
 fuzzy_sha256: "8008383e2ea801bcd7c59dea29fbba787cbd4c501b2d144dbf4040793ff3fc0b"
 full_sha256: "f58281e44f6dfd99cb8afe86daeb22ed854750c9e6db3038b6de372462a2a6ad"
 <<<<<<< HEAD
-git_commit_hash: "d1a6d60e48065b01fb011caf2e8613ab7518eaf9"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d1a6d60e48065b01fb011caf2e8613ab7518eaf9"
-git_commit_date: "2026-05-25T14:51:57.093015"
+git_commit_hash: "9e54abccb7317096bc1665174454997eb280ada3"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9e54abccb7317096bc1665174454997eb280ada3"
+git_commit_date: "2026-05-25T14:57:18.998736"
 =======
-git_commit_hash: "995fbea0f9c37c38b0582f66ac9bbf8309ac82ef"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/995fbea0f9c37c38b0582f66ac9bbf8309ac82ef"
-git_commit_date: "2026-05-25T12:36:27.195127"
+git_commit_hash: "9e54abccb7317096bc1665174454997eb280ada3"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9e54abccb7317096bc1665174454997eb280ada3"
+git_commit_date: "2026-05-25T14:57:18.998736"
 >>>>>>> 44591a9e7ab091356365a7d1a78aa0df02ed0955
 raw_markdown: |
   
