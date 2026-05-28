@@ -6,11 +6,11 @@ rvn_title: "What is Q actually?"
 rvn_teaser: "Why Trump is now openly reposting Q-related messages."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "94f0460eb6ed706e16b936b5735089d208bef140e76e9b52697a86483fb18cb6"
+full_sha256: "72fbe6b57541ef23577addb57c8f5f7ed943276ea209c2ccce9eebc4853721c8"
+git_commit_hash: "db604d918eee707f50794309d94007c9861a74dd"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/db604d918eee707f50794309d94007c9861a74dd"
+git_commit_date: "2026-05-28T06:02:33.979005"
 raw_markdown: |
   
   ### RVN: “What is Q actually? 🌀
