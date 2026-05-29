@@ -6,11 +6,11 @@ rvn_title: "The Core Messages of Q"
 rvn_teaser: "What did Q actually say?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "31d6b9233a33d3be3c5bd3ad4fcdd49f198758b470b6b8400c58ed064ec3d5a7"
+full_sha256: "c772a232f5c855ba3b9142e9f0dfe2b41fc298432593907073901e12085b141a"
+git_commit_hash: "9c25fd60516f4b707c37e5e01e9c0e99d646884d"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c25fd60516f4b707c37e5e01e9c0e99d646884d"
+git_commit_date: "2026-05-29T07:37:25.017412"
 raw_markdown: |
   
   ###  RVN: “The Core Messages of Q” 🌀
