@@ -1,0 +1,114 @@
+---
+layout: social-posts
+lang: nl
+day: 97
+rvn_title: "De informatie-oorlog rond Q en QAnon"
+rvn_teaser: "Hoe een fenomeen werd veranderd in een monster."
+donation_link: ""
+donation_text: ""
+fuzzy_sha256: ""
+full_sha256: ""
+git_commit_hash: ""
+git_commit_url: ""
+git_commit_date: ""
+raw_markdown: |
+  
+  ### RVN: “De informatie-oorlog rond Q en QAnon” 🌀
+  
+  **Narratief:**  
+  Q was een gevaarlijke complotbeweging (QAnon) vol gewelddadige extremisten die geloofden in een satanische elite die kinderen misbruikte. Het was een bedreiging voor de democratie.
+  
+  **Realiteit:**
+  
+  Wat begon als anonieme cryptische berichten op 4chan, groeide uit tot een wereldwijd fenomeen. Maar al snel werd het verhaal gekaapt en verdraaid.
+  
+  De mainstream media en grote techbedrijven creëerden een nieuw label: **QAnon**.  
+  Dit label werd gebruikt als een brede kwast om iedereen die vragen stelde over:
+  - Kinderhandel en elite-misbruik
+  - Corruptie in de deep state
+  - Media-manipulatie
+  
+  … af te schilderen als gevaarlijke gekken.
+  
+  **De echte informatie-oorlog**
+  
+  - Platforms (YouTube, Facebook, Twitter) begonnen massaal Q-gerelateerde content te censureren.
+  - Media noemden het consequent “QAnon” en koppelden het aan geweld, terwijl de meeste “Anons” juist vreedzaam onderzoek deden.
+  - De term “QAnon” werd een soort all-purpose smear: alles wat niet in het officiële narratief paste, werd erin gegooid.
+  
+  Dit was geen organische reactie. Dit was een gecoördineerde poging om een gedecentraliseerde beweging die kritisch naar macht keek, te demoniseren en te isoleren.
+  
+  **Ironie**
+  
+  Terwijl men QAnon afschilderde als gevaarlijk, bleken veel van de onderliggende claims (Epstein, elite-netwerken, censuur, corruptie) later juist bevestigd te worden. Maar het label bleef plakken.
+  
+  **OIM-uitweg**
+  
+  Dit is precies waarom we verifieerbare, gedecentraliseerde systemen nodig hebben.  
+  Wanneer centrale instituties (media, tech, overheid) samenwerken om een narratief af te dwingen, is onafhankelijk denken en onderzoek essentieel.
+  
+  Q (en de Anons) waren een vroeg voorbeeld van wat we nu verder proberen te bouwen: mensen die zelf denken, zelf verifiëren en niet klakkeloos instituties vertrouwen.
+  
+  **Vraag aan jou**
+  
+  Werd Q echt een gevaarlijke beweging, of werd een beweging die lastige vragen stelde systematisch gecriminaliseerd?
+  
+  Morgen (Dag 4 – slot): De grotere betekenis van Q en de connectie met Trump.
+  
+  #Q #QAnon #InformatieOorlog #Censuur #DeepState #OIM
+  
+  https://openinternetmanifest.org
+  
+  Deze post is 100% authentiek en verifieerbaar via:  
+  https://openinternetmanifest.org/nl/hash-verifier
+---
+
+
+### RVN: “De informatie-oorlog rond Q en QAnon” 🌀
+
+**Narratief:**  
+Q was een gevaarlijke complotbeweging (QAnon) vol gewelddadige extremisten die geloofden in een satanische elite die kinderen misbruikte. Het was een bedreiging voor de democratie.
+
+**Realiteit:**
+
+Wat begon als anonieme cryptische berichten op 4chan, groeide uit tot een wereldwijd fenomeen. Maar al snel werd het verhaal gekaapt en verdraaid.
+
+De mainstream media en grote techbedrijven creëerden een nieuw label: **QAnon**.  
+Dit label werd gebruikt als een brede kwast om iedereen die vragen stelde over:
+- Kinderhandel en elite-misbruik
+- Corruptie in de deep state
+- Media-manipulatie
+
+… af te schilderen als gevaarlijke gekken.
+
+**De echte informatie-oorlog**
+
+- Platforms (YouTube, Facebook, Twitter) begonnen massaal Q-gerelateerde content te censureren.
+- Media noemden het consequent “QAnon” en koppelden het aan geweld, terwijl de meeste “Anons” juist vreedzaam onderzoek deden.
+- De term “QAnon” werd een soort all-purpose smear: alles wat niet in het officiële narratief paste, werd erin gegooid.
+
+Dit was geen organische reactie. Dit was een gecoördineerde poging om een gedecentraliseerde beweging die kritisch naar macht keek, te demoniseren en te isoleren.
+
+**Ironie**
+
+Terwijl men QAnon afschilderde als gevaarlijk, bleken veel van de onderliggende claims (Epstein, elite-netwerken, censuur, corruptie) later juist bevestigd te worden. Maar het label bleef plakken.
+
+**OIM-uitweg**
+
+Dit is precies waarom we verifieerbare, gedecentraliseerde systemen nodig hebben.  
+Wanneer centrale instituties (media, tech, overheid) samenwerken om een narratief af te dwingen, is onafhankelijk denken en onderzoek essentieel.
+
+Q (en de Anons) waren een vroeg voorbeeld van wat we nu verder proberen te bouwen: mensen die zelf denken, zelf verifiëren en niet klakkeloos instituties vertrouwen.
+
+**Vraag aan jou**
+
+Werd Q echt een gevaarlijke beweging, of werd een beweging die lastige vragen stelde systematisch gecriminaliseerd?
+
+Morgen (Dag 4 – slot): De grotere betekenis van Q en de connectie met Trump.
+
+#Q #QAnon #InformatieOorlog #Censuur #DeepState #OIM
+
+https://openinternetmanifest.org
+
+Deze post is 100% authentiek en verifieerbaar via:  
+https://openinternetmanifest.org/nl/hash-verifier
