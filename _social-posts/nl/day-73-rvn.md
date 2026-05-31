@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "7e92f927b1f467f08a40fbc892325b544c9a7d13ba6d8c6da25f02f0469fb517"
 full_sha256: "8be35d95da63417e8a2fba7482b318967ceac942056f9b21de272e6249d982c6"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:08.233420"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:05.739683"
 raw_markdown: |
   **Schijnvooruitgang – Dag 29: De elektrische auto als toekomst?** ⚡🚗
   

@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "f567ea6bbe22aa203214fb48265fa9c5beaf6b90e41bf745699594723824493b"
 full_sha256: "23136e5fd4d9de1baa6e61b8b2be6296192172d8ab6bf5d72982b116bc4b9e4e"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:08.550978"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:06.047272"
 raw_markdown: |
   **Schijnvooruitgang – Dag 31: De 15-minutenstad als ideale woonplek?** 🏙️
   

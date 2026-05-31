@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "914898477b2a98632b7b103db8c6f75d71119889fd8c101d7264cacb32383ee9"
 full_sha256: "0d7b8d3d9b24148af90a561f4147be5114c05cf1e6670d1b5aa495e768a34ffd"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:08.868916"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:06.351776"
 raw_markdown: |
   **Schijnvooruitgang – Dag 33: De cashloze samenleving** 💳
   

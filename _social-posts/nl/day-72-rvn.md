@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "47f16a0deca283988a42d878bd249d0af58f318256d2541702eede62dd221896"
 full_sha256: "d56f845afbb0b1f4b31c5b9b7b0863fe5c8198770717ba0049788c0c86948efa"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:08.073983"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:05.585414"
 raw_markdown: |
   **Schijnvooruitgang – Dag 28: De warmtepomp als groene redding?** ♨️
   

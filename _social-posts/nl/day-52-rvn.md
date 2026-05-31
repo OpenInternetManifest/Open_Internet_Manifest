@@ -10,9 +10,9 @@ website_sha256: "7342b48009a5a4d52234f387bd132d5b3c0c431b2b849f04ebc09e491dd22d7
 social_x_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
 social_fb_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
 social_share_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:04.923550"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:04.055876"
 fuzzy_sha256: "c6bf90c7b4a388f02c18712592a2f04c649e38435a1e4e5e24a37e70a14e0442"
 full_sha256: "5f8a8974d90715fb459d3a89bfbfab98d4ed8886bdb999beb948fd16bb8fa4d5"
 raw_markdown: |

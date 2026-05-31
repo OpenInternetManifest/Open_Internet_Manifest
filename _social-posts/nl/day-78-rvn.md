@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "217d57e1a6c8a0830f81139ae15f9ff2bbecfadca74a6749ed10f4be141c8363"
 full_sha256: "010b1f64237b93c4d5214f17745c34a3d90112897447a3791893651765a5eae2"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:09.028502"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:06.506271"
 raw_markdown: |
   **Schijnvooruitgang – Dag 34: Feminisme als bevrijding?** 👩
   

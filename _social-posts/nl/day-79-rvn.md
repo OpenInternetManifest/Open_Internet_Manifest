@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "3e7a06c6c0d11e96c647eb56b984ede287d60942e967635718717563a9ce2ec0"
 full_sha256: "a4b019bbe9a965f2dd0f6be44a93db0f2399d8e58321fd335bc81bb951abef76"
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:09.186613"
+git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
+git_commit_date: "2026-05-31T09:50:06.660607"
 raw_markdown: |
   **Schijnvooruitgang – Dag 36: De jeugdzorg als redding** 🧸
   
