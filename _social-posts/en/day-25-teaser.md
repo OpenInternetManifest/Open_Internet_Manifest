@@ -27,6 +27,9 @@ raw_markdown: |
 
 fuzzy_sha256: "acaa2f19bd9faafdfa243fa7902fbb5842eaa17a449920569e2c6d104772ab9a"
 full_sha256: "f86a1dc1d8372e2b7b0e23d7db200edd9db02c6543af603b08cc82bb4a4f2fb9"
+clean_text: |-
+  day 25 teaser – tonight: just breathe 😏🍿 today: obama / iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? tonight: just breathe. tomorrow: back at it. tomorrow we look at the layer that almost never makes the news. big three (blackrock, vanguard, state street) + bis: who holds the real buttons while we watch musk or soros? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day24teaser
+
 ---
 
 **Day 25 Teaser – Tonight: just breathe** 😏🍿  

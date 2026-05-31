@@ -31,6 +31,9 @@ raw_markdown: |
 
 fuzzy_sha256: "af18525fbe58dbea21aaafc815eb2c2eeda6272fbf83b106219c17cce61c2b14"
 full_sha256: "f3591c5fafcb353f34b65c23191a12e0bce846dd842b5c1a2089ac0e5507cc48"
+clean_text: |-
+  🇬🇧 day 10 – the invisible leash 🔗 they promise "transparency" & "protection" via ai rules & chat scans (eu 2026 rollout). but every "safety" layer tightens the leash: • algorithms predicting your thoughts 🧠 • age verification killing anonymity 🕵️ • data you can't escape 📊 reality: freedom isn't more safety nets – it's cutting the cord. ✂️ the open internet manifest wants no leash – just a web without one. 🌐 join: https://openinternetmanifest.org #realityvsnarrative #openinternet #invisibleleash #freeinternet #openinternetmanifest https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+
 ---
 
 🇬🇧 **Day 10 – The Invisible Leash** 🔗 

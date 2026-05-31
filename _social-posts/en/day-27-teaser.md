@@ -36,6 +36,9 @@ raw_markdown: |
 
 fuzzy_sha256: "8f41269ba4275a3d873b3bb0f95a20445bfe2d99adcad9e760dff9e564f23858"
 full_sha256: "1ce37722008c22a7049652fb7acf66aedc904789749b4d54ae517265ddc04a7d"
+clean_text: |-
+  🇬🇧 day 26 teaser – tonight: just breathe 😏🍿 tomorrow rvn (saturday): the three invisible layers keeping it all together 🕸️🔍 from 1913 to today: power has been centralizing for over 100 years. but who keeps this system running so smoothly? tomorrow we dive into the three mechanisms quietly holding it in place: intelligence agencies that don’t just observe — they actively shape narratives ngos and philanthropy as untouchable moral authorities algorithms deliberately maximizing polarization why does division work so perfectly? who really benefits from permanent opposition? facts only — no wild theories. just the questions that follow. facts over frames. stay tuned. #rvn #factsoverframes #realityvsnarrative #powerstructures ⚡ this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+
 ---
 
 🇬🇧 **Day 26 Teaser – Tonight: just breathe** 😏🍿  

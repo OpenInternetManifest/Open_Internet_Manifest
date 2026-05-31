@@ -24,6 +24,8 @@ raw_markdown: |
   
   Lees mee: https://openinternetmanifest.org
   #RealiteitVsNarratief #OIM #Fluoride #MakeAmericaHealthyAgain #GeenNarratiefMonopolie
+clean_text: |-
+  realiteit vs narratief – fluoride: het narratief dat eindelijk barst 🦷☢️ decennialang: "fluoride in drinkwater is veilig en goed voor tanden". standaard in bijna alle us publieke systemen, gepusht door cdc, ada en who. kritiek? "complotdenkers", "anti-science". gisteren (20 jan 2026): rfk jr. kondigt aan dat het trump witte huis alle us waterbedrijven adviseert om fluoride te verwijderen. reden: het is industrieel afval, gelinkt aan artritis, botbreuken, botkanker, iq-verlies, neuro-ontwikkelingsstoornissen en schildklierproblemen. realiteit: dit is geen complottheorie meer – studies stapelen zich op (harvard, nih, lancet), maar het narratief hield stand omdat het goedkoop was en industrieën beschermde. nu breekt trump/rfk het frontaal: "make america healthy again". voor ons in nl: fluoride zit ook in veel tandpasta en soms in drinkwater (vooral in regio's). hetzelfde patroon: "veilig" tot het niet meer te ontkennen valt. open internet manifest wil geen gecentraliseerde gezondheidsnarratieven die ons voorschrijven wat we in ons lichaam stoppen. een web zonder monopolie op "wetenschap", zonder verborgen belangen die levens beïnvloeden. lees mee: https://openinternetmanifest.org #realiteitvsnarratief #oim #fluoride #makeamericahealthyagain #geennarratiefmonopolie
 
 ---
 

@@ -30,6 +30,9 @@ raw_markdown: |
 
 fuzzy_sha256: "76429174dfb16d0f2b80eb57caaeb53db653496aabd0dc187036b84f6b348980"
 full_sha256: "b51987f5266e5ea41c8518e4224d91a77480f084918ca1e44fcd6984ad5afdd7"
+clean_text: |-
+  🇬🇧 day 24 teaser – tonight: just breathe 😏🍿 earlier: 1913. titanic clears opponents, fed and income tax pushed through, rockefellers build on. today: knights templar – first international banking system, power above church and kings, dissolved but structure survived. coincidence? or a pattern running for centuries? tonight: just breathe. tomorrow: back at it. tomorrow we look at a modern example of the same game. obama and the iran deal: $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day23teaser @realdonaldtrump
+
 ---
 
 🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  

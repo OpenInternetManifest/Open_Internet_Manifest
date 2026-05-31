@@ -17,6 +17,8 @@ raw_markdown: |
   Reality: He filmed real chaos in asylum center – no violence calls, just footage. Permanent ban silences him.
   What is a constitutional right offline (free speech, filming public places) must be the same online – no Big Tech blackout button.
   Support the Open Internet Manifest for a truly free web.
+clean_text: |-
+  reality vs. narrative – dutch travel maniac banned from facebook after ter apel videos. narrative: hate speech – ban protects community. reality: he filmed real chaos in asylum center – no violence calls, just footage. permanent ban silences him. what is a constitutional right offline (free speech, filming public places) must be the same online – no big tech blackout button. support the open internet manifest for a truly free web.
 
 ---
 

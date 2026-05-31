@@ -30,6 +30,9 @@ raw_markdown: |
 
 fuzzy_sha256: "77175bad47a3d1346a7dab8388a9c9fe96bd731fad490b0d8e99f8fbbfd71920"
 full_sha256: "5530636fdb7d93e31e3ca8d209346746d4de6ddbe4d57c517996623e44957d01"
+clean_text: |-
+  🇬🇧 day 29 teaser – tonight: the circle closes 🕸️⚫ tomorrow: epstein. not as a standalone scandal, but as the visible tip of everything we’ve covered this week: from sun tzu to 1913, good cop / bad cop, algorithmic polarization... to systematic blackmail as a control mechanism. pizzagate (2016) was the first wave of suspicion. epstein made it concrete – yet even then the core remained protected. tonight: just breathe. tomorrow morning the full rvn. facts over frames. no hate. no illusions. only reality. and we’re not standing still: the comment section (giscus) is now live on almost all pages → reply directly under every thesis, guide and rvn post → no algorithm, no gatekeeper – just open conversation https://openinternetmanifest.org #rvn #factsoverframes #realityvsnarrative #epstein #day29teaser
+
 ---
 
 🇬🇧 **Day 29 Teaser – Tonight: the circle closes** 🕸️⚫  

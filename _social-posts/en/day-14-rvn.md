@@ -26,6 +26,8 @@ raw_markdown: |
   Open Internet Manifest wants no selective outrage, no gatekeepers deciding what's "controversial". A web where you check history, data and context yourself – no algorithm or media setting the tone.
   Join: https://openinternetmanifest.org
   #RealityVsNarrative #OIM #DHSBill #ICE #NoSelectiveOutrage
+clean_text: |-
+  reality vs narrative – dhs bill: selective outrage on demand 🚨🇺🇸 house voted last night on massive border security funding. trump: "must pass". left: "defund ice", "terrorizing children", "liam drama". cnn: "ice raids have always been controversial." ben ferguson: "not really! under obama you rode along and it wasn't an issue!" reality: ice created in 2003. obama deported ~3 million (more than trump first term). media mostly silent or rode along. now suddenly "systematic terror" and "children as hostages". same tool (ice arrests, deportations), different framing depending on who's in the white house. obama = quiet. trump = outrage. narrative isn't about facts – it's about power. emotion weaponized: a 5-year-old temporarily in protective custody (mother arrested for drugs/violence, child returned to family) becomes "hostage". facts drowned in feeling. open internet manifest wants no selective outrage, no gatekeepers deciding what's "controversial". a web where you check history, data and context yourself – no algorithm or media setting the tone. join: https://openinternetmanifest.org #realityvsnarrative #oim #dhsbill #ice #noselectiveoutrage
 
 ---
 

@@ -41,6 +41,8 @@ raw_markdown: |
   #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest 
   https://openinternetmanifest.org
   #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest
+clean_text: |-
+  realiteit vs. narratief – verbanning dutch travel maniac van facebook. het narratief zegt: “tom verspreidde haatzaaiende content over ter apel. facebook deed het juiste door hem te bannen – dat beschermt tegen racisme en desinformatie.” de realiteit: tom filmde wat er in ter apel écht gebeurt: chaos in het azc, messenincidenten, overlast voor omwonenden – rauwe beelden van een plek in nederland. geen oproep tot geweld, geen nepnieuws – gewoon wat hij zag. resultaat: permanente ban. kanaal weg, stem gedempt, werk onzichtbaar gemaakt. in het echte leven: filmen op openbare plaatsen is grondrecht (vrijheid van meningsuiting + persvrijheid, art. 7 grondwet). kritiek op beleid mag, ook als het ongemakkelijk is. digitaal zou dat hetzelfde moeten zijn: geen ban zonder rechterlijk bevel, geen big tech die grondrechten overrult. het open internet manifest zegt: grondrechten digitaal net zo beschermen als fysiek: vrije meningsuiting, filmen, delen – zonder cancel-knop. steun jij tom? ja❤️ of nee😡? deel dit bericht, tag hem als je kunt, en laat zien dat we censuur niet pikken. https://youtu.be/7xz5xclnbka?si=t6kmpyjldt28biqh https://openinternetmanifest.org tom van den heuvel #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest https://openinternetmanifest.org #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest
 
 ---
 

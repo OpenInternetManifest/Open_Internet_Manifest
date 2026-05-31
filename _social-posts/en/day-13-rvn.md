@@ -20,6 +20,8 @@ raw_markdown: |
   Open Internet Manifest wants no centralized health narratives dictating what goes in our bodies. A web without monopoly on "science", without hidden interests shaping lives.
   Join: https://openinternetmanifest.org
   #RealityVsNarrative #OIM #Fluoride #MakeAmericaHealthyAgain #NoNarrativeMonopoly
+clean_text: |-
+  reality vs narrative – fluoride: the narrative finally cracking 🦷☢️ for decades: "fluoride in water is safe and good for teeth". standard in us public systems, pushed by cdc, ada, who. criticism? "conspiracy theorists", "anti-science". yesterday (jan 20, 2026): rfk jr. announces trump white house will advise all us water systems to remove fluoride. reason: industrial waste linked to arthritis, bone fractures, bone cancer, iq loss, neurodevelopmental disorders, thyroid disease. reality: not conspiracy anymore – studies pile up (harvard, nih, lancet), but narrative held because it was cheap and protected industry. trump/rfk now break it head-on: "make america healthy again". in nl: fluoride in toothpaste and some water supplies. same pattern: "safe" until undeniable. open internet manifest wants no centralized health narratives dictating what goes in our bodies. a web without monopoly on "science", without hidden interests shaping lives. join: https://openinternetmanifest.org #realityvsnarrative #oim #fluoride #makeamericahealthyagain #nonarrativemonopoly
 
 ---
 

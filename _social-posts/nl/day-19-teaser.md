@@ -38,6 +38,9 @@ raw_markdown: |
 
 fuzzy_sha256: "9437371cc0826b0ac4c0424fce740f1ea9b21909dbb6b91bdea4c2dd1130dcfb"
 full_sha256: "ce181dde3dcc02d19705a39f4cb0c1a5d80b244b71d9f9304e59c8621cc70dec"
+clean_text: |-
+  dag 18 – utrecht drama 🚔😏 vandaag, 29 januari. video's exploderen: agent schopt en slaat twee moslima's – narratief: "racisme!" en "politiegeweld!". aangifte mishandeling + racisme volgt. realiteit? politie: overlast + belediging vooraf, aanhouding voor belediging & belemmering, geweld onder review. morgen: de volledige context (en waarom comments vol "broeders" staan). open internet manifest: hashes boven virale narratieven. feiten boven frames. blijf kijken. 👀 https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag19teaser --- day 18 – utrecht drama 🚔😏 today, january 29. videos blowing up: cop kicks & hits two muslim women – narrative: "racism!" & "brutality!". complaint assault + racism filed. reality? police: nuisance + insults first, arrest for insult & obstruction, force under review. tomorrow: full context (and why comments full of "brothers"). open internet manifest: hashes over viral narratives. facts over frames. keep watching. 👀 https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day19teaser
+
 ---
 
 **Dag 18 – Utrecht drama** 🚔😏  

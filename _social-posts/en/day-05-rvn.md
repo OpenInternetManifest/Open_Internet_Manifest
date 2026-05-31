@@ -42,6 +42,8 @@ raw_markdown: |
   
   What internet do you want: a blackout or an open line?
   #RealityVsNarrative #StarlinkIran #OpenInternetManifest #OIM #IranProtests
+clean_text: |-
+  reality vs. narrative – starlink free for iran. the narrative says: “satellite internet like starlink is dangerous. it undermines regimes and causes instability. governments have the right to block access for security and order.” the reality: iran's internet has been largely blacked out for weeks. people can't reach family, coordinate protests, or show the world what's happening. yesterday, elon musk announced: starlink is now free for people in iran. but now the real story from inside (see screenshot): the regime is going door-to-door, confiscating satellite dishes and starlink terminals – just like in the early 2000s. people are risking everything to get a message out. the narrative says: “this is interference, illegal, dangerous.” the reality: a normal person in amsterdam with iranian roots can now perhaps reconnect with family trapped in the dark. a dissident can post without the mullahs pulling the plug – unless they come take your dish. this is exactly what the open internet manifest stands for: information and connection as a constitutional right – not a privilege controlled by regimes or corporations. the narrative wants control. reality wants freedom. choose reality: support initiatives that break blackouts. support the open internet manifest for a world where no one is cut off because a regime flips a switch. thank you, elon – and to all iranians: keep fighting. what internet do you want: a blackout or an open line? #realityvsnarrative #starlinkiran #openinternetmanifest #oim #iranprotests
 
 ---
 

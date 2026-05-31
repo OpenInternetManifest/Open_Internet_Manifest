@@ -33,6 +33,9 @@ raw_markdown: |
 
 fuzzy_sha256: "7e0169cab536fc61a8d893f7e3721a9f277215e6e8659db581d391ba71609290"
 full_sha256: "92e430a3877c6793e95a04e90b28cd656bd584c38a69d675f9208350604aa5de"
+clean_text: |-
+  🇬🇧 day 22 teaser – tonight: just breathe 😏🍿 today: epstein files "exploding", unfriending, threats and "proof" without sources. tonight: just breathe. tomorrow: back at it. tomorrow we dive into 1913. the year the fed, income tax and a disaster with three anti-bank billionaires lined up. coincidence? or a blueprint we’re still living? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day22teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+
 ---
 
 🇬🇧 **Day 22 Teaser – Tonight: just breathe** 😏🍿  

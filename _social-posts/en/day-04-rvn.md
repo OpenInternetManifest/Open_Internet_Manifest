@@ -18,6 +18,8 @@ raw_markdown: |
   Reality: A 32-year-old Jewish woman hesitates before saying her background. An Iranian woman in Amsterdam has no contact with family because of a total blackout.
   These are everyday people in 2026 Amsterdam. The Open Internet Manifest says: digital rights must mirror real-life constitutional rights – no blackouts, no forced silence.
   Which world do you want for your neighbours?
+clean_text: |-
+  english summary: reality vs. narrative – a technician in amsterdam. narrative: internet restrictions are necessary for safety and order. reality: a 32-year-old jewish woman hesitates before saying her background. an iranian woman in amsterdam has no contact with family because of a total blackout. these are everyday people in 2026 amsterdam. the open internet manifest says: digital rights must mirror real-life constitutional rights – no blackouts, no forced silence. which world do you want for your neighbours?
 
 ---
 

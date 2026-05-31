@@ -29,6 +29,9 @@ raw_markdown: |
 
 fuzzy_sha256: "bcf949ba1454be6b3bc83aca929b441cedc4a15f2e5b51a186792fa2a4bab24f"
 full_sha256: "3267cbb92184396209a0a316c9e2fa1bd5250363b39c6b5cae72380170a7f9b7"
+clean_text: |-
+  🇬🇧 day 12 – why oim 🌐✂️ we're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer. we're fighting for a web where you get to think, doubt, stumble and stand up yourself – without anyone playing gatekeeper. no centralized algorithms predicting your thoughts. no narrative monopoly deciding what's real. no graduated farms with friendly managers. open internet manifest is not an end station, but a beginning: a web without leash, without sunglasses, without deep state control. if you're tired of the pens... read along. https://openinternetmanifest.org #realityvsnarrative #oim #webwithoutleash
+
 ---
 
 🇬🇧 **Day 12 – Why OIM** 🌐✂️  

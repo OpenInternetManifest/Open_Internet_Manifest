@@ -43,6 +43,9 @@ raw_markdown: |
 
 fuzzy_sha256: "d99ff9078c0859884f9ea8fbba578a033a3475eda83739c256df342ddfb5754a"
 full_sha256: "37cf227728168ede1ad476dbde186b315976ff2a931c88b5d00c132fdf53e13c"
+clean_text: |-
+  🇳🇱 dag 15 – narratief 🌐✂️ minneapolis brandt door: pretti's familie schreeuwt om waarheid, dhs blokkeert evidence, protests escaleren. maar het oude patroon blijft: "mostly peaceful" voor de ene kant, "gerechtvaardigd" voor de andere. open internet manifest herinnert je: geen gatekeepers die beslissen wat "peaceful" is. alleen jij, de rauwe beelden, de hashes en de realiteit. morgen duiken we dieper in het 'mostly peaceful' patroon – van floyd tot corona-wappies tot nu. vanavond: bereid je voor. https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #openinternetmanifest #mostlypeaceful #dag15teaser --- 🇬🇧 day 15 – narrative 🌐✂️ minneapolis burns on: pretti's family demands truth, dhs blocked from destroying evidence, protests escalate. but the old pattern holds: "mostly peaceful" for one side, "justified" for the other. open internet manifest reminds you: no gatekeepers deciding what's "peaceful". just you, raw footage, hashes, and reality. tomorrow we dive deeper into the 'mostly peaceful' pattern – from floyd to corona "wappies" to now. tonight: get ready. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #mostlypeaceful #day15teaser
+
 ---
 
 🇳🇱 **Dag 15  – Narratief** 🌐✂️  

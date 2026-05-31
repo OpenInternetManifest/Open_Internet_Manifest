@@ -22,6 +22,9 @@ raw_markdown: |
 
 fuzzy_sha256: "b4fe6c288335c60bd26fc3285c1c753e925f3372f3a5ad311c6b4e21ce1ceabf"
 full_sha256: "8267a1dcae43b67f569c49d5d2b762e4bd06c7bc67e4aec6ed1e4b76ab2a6f92"
+clean_text: |-
+  🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #hypocrisy #nogatekeepers
+
 ---
 
 🇬🇧 **Day 16 Teaser** 🌐✂️  

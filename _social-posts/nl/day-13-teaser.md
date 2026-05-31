@@ -40,6 +40,9 @@ raw_markdown: |
 
 fuzzy_sha256: "d3d14c1a35705b1cdfc8a7a64bda5c9a7ba69c2039b19f70e6c0fdcd46a40f85"
 full_sha256: "b3504e3932a965b9493507fa1bd79629640494e78d2705941c923d125d994bcf"
+clean_text: |-
+  🇳🇱 dag 13 – even stilstaan 🌱🌐 we pushen al weken dagelijks: teasers, draads, hashes, feiten checken, narratieven ontleden. soms is het goed om even te ademen. dit is geen race naar viraliteit. dit is geen strijd om likes. dit is een uitnodiging: stel je een web voor zonder leiband, zonder zonnebril, zonder poortwachter die zegt wat waar is. open internet manifest is nog klein (~140 bezoekers in 1,5 week), maar het groeit omdat mensen het herkennen: moe van stallen, klaar voor iets echts. lees mee als het resoneert – of neem ook even pauze. het staat er toch. https://openinternetmanifest.org #realiteitvsnarratief #oim #webzonderleiband --- 🇬🇧 day 13 – just pause 🌱🌐 we've been pushing daily for weeks: teasers, threads, hashes, fact-checking, peeling narratives. sometimes it's good to breathe. this isn't a race for virality. this isn't a fight for likes. this is an invitation: imagine a web without leash, without sunglasses, without a gatekeeper telling you what's true. open internet manifest is still small (~140 visitors in 1.5 weeks), but it grows because people recognize it: tired of pens, ready for something real. read along if it resonates – or take a break too. it's still here. https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #webwithoutleash
+
 ---
 
 🇳🇱 **Dag 13 – Even stilstaan** 🌱🌐  

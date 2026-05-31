@@ -41,6 +41,8 @@ raw_markdown: |
   https://openinternetmanifest.org  
   
   #realiteitvsnarratief #polarisatie #DiversityIsOurStrength #vrijinternet #openinternetmanifest ❤️
+clean_text: |-
+  realiteit vs narratief – polarisatie als wapen (deel 2) narratief: “links vs rechts, joden vs moslims, west vs oost – dat is gewoon hoe de wereld werkt. iedereen heeft zijn bubbel, en dat is prima. diversiteit is onze kracht.” realiteit: polarisatie is het krachtigste wapen van de machthebbers. lange tijd heb ik in complotkringen gezeten. elke "doorbraak" voelde als de echte waarheid, maar elke nieuwe laag hield je vast in een nieuwe kooi. we noemden het "graduated animal farms": gecontroleerde waarheden die je in een bubbel houden, terwijl de echte machthebbers rustig doordrukken. nu zie ik hetzelfde patroon mondiaal: mainstream vs anti-mainstream pro-israël vs anti-israël links vs rechts west vs oost elke laag voedt haat tegen de vorige. ondertussen gebeurt er niets aan de echte structuren die ons verdelen. "diversity is our strength" klinkt mooi, maar wordt vaak gebruikt als schild: elke vraag over integratie, cohesie of grenzen wordt meteen "racisme" genoemd. het smoort discussie, versterkt bubbels en houdt polarisatie in stand. het open internet manifest breekt dat patroon: geen centrale controle over wat waar is geen algoritmische haatversterking verifieerbare vrijheid: hashes, decentralisatie, geen black boxes en ja, zelfs ai heeft recht op controle – en kan juist in je voordeel werken als het open en gedecentraliseerd is. dit is geen complottheorie. dit is een oproep voor nu. lees mee, denk mee, bouw mee: https://openinternetmanifest.org #realiteitvsnarratief #polarisatie #diversityisourstrength #vrijinternet #openinternetmanifest ❤️
 
 ---
 

@@ -44,6 +44,9 @@ raw_markdown: |
 
 fuzzy_sha256: "7fdb92d99f137d3de44d8324bbd3d9e72b797c62f93d62202e243f8bca002238"
 full_sha256: "12f12d21943b1c8e08d9cf2afeed1e2543b1529fc269c72dc481624be51941c9"
+clean_text: |-
+  🇳🇱 dag 17 – een kind op school, vandaag 🌐😔 vandaag is het 27 januari. holocaustherdenkingsdag. maar op deze dag moet een moeder opnieuw tellen hoeveel keer haar kind al is aangevallen. morgen: een verhaal dat pijn doet. dat je niet wilt horen. maar dat je móét horen. want als dit nog gebeurt op een dag als vandaag... dan is er iets grondig mis met wat we zeggen te hebben "geleerd". open internet manifest: feiten boven gevoelens. hashes boven narratieven. blijf kijken. 👀 https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag18teaser #nooitmeerisnu --- 🇬🇧 day 17 – a child at school, today 🌐😔 today is january 27. holocaust remembrance day. but on this day, a mother has to count again how many times her child has been attacked. tomorrow: a story that hurts. one you don’t want to hear. but one you need to hear. because if this still happens on a day like today... something is deeply wrong with what we claim to have "learned". open internet manifest: facts over feelings. hashes over narratives. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #day18teaser #neveragainisnow
+
 ---
 
 🇳🇱 **Dag 17 – Een kind op school, vandaag** 🌐😔  

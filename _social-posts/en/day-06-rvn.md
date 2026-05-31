@@ -35,6 +35,8 @@ raw_markdown: |
   Read along, think along, build along:
   https://openinternetmanifest.org
   #RealityVsNarrative #Polarization #DiversityIsOurStrength #FreeInternet #OpenInternetManifest ❤️
+clean_text: |-
+  reality vs narrative – polarization as a weapon (part 2) narrative: "left vs right, jews vs muslims, west vs east – that's just how the world works. everyone has their bubble, and that's fine. diversity is our strength." reality: polarization is the most powerful weapon of those in power. for a long time i was in conspiracy circles. every "breakthrough" felt like the real truth, but every new layer kept you in a new cage. we called it "graduated animal farms": controlled truths that keep you in a bubble while the real power players push their agenda. now i see the same pattern globally: mainstream vs anti-mainstream pro-israel vs anti-israel left vs right west vs east each layer fuels hatred against the previous one. meanwhile, nothing happens to the real structures dividing us. "diversity is our strength" sounds nice, but is often used as a shield: every question about integration, cohesion or boundaries is immediately called "racism". it shuts down discussion, reinforces bubbles and keeps polarization alive. the open internet manifest breaks that pattern: no central control over what is true no algorithmic hate amplification verifiable freedom: hashes, decentralization, no black boxes and yes, even ai has the right to control – and can work in your favor if it is open and decentralized. this is not a conspiracy theory. this is a call for now. read along, think along, build along: https://openinternetmanifest.org #realityvsnarrative #polarization #diversityisourstrength #freeinternet #openinternetmanifest ❤️
 
 ---
 

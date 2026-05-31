@@ -33,6 +33,9 @@ raw_markdown: |
 
 fuzzy_sha256: "32c6be151db858780d5ad71fb6fdb65eeb26f6a97d6ba7a6ba854bddc3ab4261"
 full_sha256: "2bcf2979bc70f9ce480eed6ab1bed4bab2a4dfffe33ca5d282031eeddcb28bd1"
+clean_text: |-
+  🇳🇱 dag 11 – de grote splitsing & trump's frontale aanval 🐘💥 pvv verliest 7 kamerleden – grootste afsplitsing ooit, onder gidi markuszower vormen ze groep markuszower. reden: geen democratie, slechte koers op israël/oekraïne. realiteit: "rechts" splijt terwijl trump in davos deep state aanvalt – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). hij vecht voor de mensen, breekt de graduated farms, no more nice guy. versnelling in actie! open internet manifest wil geen stallen – een web waar je zelf denkt, zonder deep state-controle of loyaliteitstest. lees mee: https://openinternetmanifest.org --- 🇬🇧 day 11 – the big split & trump's frontal attack 🐘💥 pvv loses 7 mps – biggest split ever, led by gidi markuszower forming group markuszower. reason: no democracy, bad course on israel/ukraine. reality: "right" fractures while trump assaults deep state in davos – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). he's fighting for the people, breaking the graduated farms, no more nice guy. acceleration in motion! open internet manifest wants no pens – a web where you think freely, without deep state control or loyalty tests. join: https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #pvvsplit #trumpdeepstate #nomorepens
+
 ---
 
 🇳🇱 **Dag 11 – De Grote Splitsing & Trump's Frontale Aanval** 🐘💥  

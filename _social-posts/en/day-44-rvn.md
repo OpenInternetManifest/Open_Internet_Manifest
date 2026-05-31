@@ -13,6 +13,8 @@ fuzzy_sha256: "0cf1e28c667cdd403ec284f71e6ac7379dd903ab5076bb24b96c3208e1853724"
 full_sha256: "0cf1e28c667cdd403ec284f71e6ac7379dd903ab5076bb24b96c3208e1853724"
 raw_markdown: |
   dit is een test
+clean_text: |-
+  dit is een test
 
 ---
 

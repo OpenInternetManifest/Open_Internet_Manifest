@@ -44,6 +44,8 @@ raw_markdown: |
   
   Will we ever get past this pattern?
   #RealityVsNarrative #Polarization #FactsOverEmotion
+clean_text: |-
+  reality vs. narrative – the fixed pattern in major incidents. the narrative often says: “immediate judgment based on first images: injustice, murder, systemic failure. facts will come later – or not. criticizing the victim is victim blaming.” the narrative often says: “immediate judgment: justified, law & order. facts? we'll dive in.” the reality: in almost every major incident, we see the same pattern: one side mobilizes instantly on emotion and first footage (“unarmed! murder!”). the other side calls it “justified” and starts analyzing right away: frame-by-frame videos, timelines, witnesses, graham v. connor standard, supreme court rulings. the emotional side often ignores new facts when they don't fit (or labels them “disinformation”/“victim blaming”). the analytical side adjusts opinion when facts change – but by then the initial narrative is already viral. example renee good: first reaction: “unarmed, murder by ice/trump.” analytical reaction: “blocked the street, ignored commands, drove forward at agent → deadly weapon, justified force.” why this pattern? one side prioritizes moral outrage and systemic critique – facts secondary. the other side prioritizes individual responsibility and legislation – so they dive deep into details. consequence: no dialogue, only hate, division, and a truth that surfaces later – but by then the narrative is everywhere. choose reality: wait for the facts. watch all videos. read all sources. adjust your opinion. that's real responsibility – regardless of your side. will we ever get past this pattern? #realityvsnarrative #polarization #factsoveremotion
 
 ---
 

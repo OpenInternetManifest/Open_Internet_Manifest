@@ -53,6 +53,9 @@ raw_markdown: |
 
 fuzzy_sha256: "82f3cc8af3d4388f233eceab2308b78e726db9138aa43c05ac1e028d8a82b97d"
 full_sha256: "25e9266e7be6d4d8b6904fb4c55e0b688ca303d27adaccf8dccbf1d499c394bc"
+clean_text: |-
+  🇳🇱 dag 23 teaser – vanavond: even op adem 😏🍿 vandaag doken we in 1913: titanic, fed, inkomstenbelasting en drie anti-bank-miljardairs die niet overleefden. toeval? of een blauwdruk die we nog steeds leven? vanavond: even lucht. morgen: door. morgen gaan we nog verder terug. knights templar: christelijke ridderorde die het eerste internationale banksysteem bouwde... en vervolgens werd opgerold. toeval? of een oervoorbeeld van hoe macht via geld al eeuwen werkt? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag23teaser --- 🇬🇧 day 23 teaser – tonight: just breathe 😏🍿 today we dove into 1913: titanic, fed, income tax and three anti-bank billionaires who didn’t survive. coincidence? or a blueprint we’re still living? tonight: just breathe. tomorrow: back at it. tomorrow we go even further back. knights templar: christian knight order that built the first international banking system... and then got taken down. coincidence? or an ancient example of how power through money has worked for centuries? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day23teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+
 ---
 
 🇳🇱 **Dag 23 Teaser – Vanavond: even op adem** 😏🍿  

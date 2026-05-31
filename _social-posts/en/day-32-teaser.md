@@ -30,6 +30,9 @@ raw_markdown: |
 
 fuzzy_sha256: "58a689c182e45483eb39254a1ce77c6a44a8e2212917a266cefac0e8fa6f2324"
 full_sha256: "ba6604c458c1155138ba4a46a1848479b84e83fba6025da3cdef9477e0de780f"
+clean_text: |-
+  tomorrow 32 teaser – tonight: silence before the synthesis 🌀🌑 tomorrow: the mother of all narratives. this week the system showed itself: words weighed not on what they say, but on the narrative they create push for transparency that boomerangs back facts that exist, but only count if they fit the frame. tomorrow the big synthesis: why this is the narrative of narratives, how division is the real power, and how the facts rain now breaking through is the way out. from gideon to epstein, from frames to reality. and yes, the site gets a fresh, clean layout – clearer, prettier, ready for more. 🚀 no illusions. no hate. only facts over frames 🛡️. https://openinternetmanifest.org #rvn #factsoverframes #realityvsnarrative #narrativeofnarratives #day32teaser
+
 ---
 
 **Tomorrow 32 Teaser – Tonight: silence before the synthesis** 🌀🌑 

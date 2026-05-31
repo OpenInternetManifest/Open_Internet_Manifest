@@ -38,6 +38,9 @@ raw_markdown: |
 
 fuzzy_sha256: "01146ea260e9cf17bf16b565556398421ee1349deb28afba2402e94198a555b0"
 full_sha256: "4d6c5b0980540a27f0effcf63fb71862772f237e7707daeb97fade6956852fdd"
+clean_text: |-
+  🇳🇱 dag 18 – groeien 🌐🔒 we groeien. niet met miljoenen views, maar met mensen die blijven lezen, checken, denken. 196 unieke bezoekers nu – en elke dag meer die hashes zelf verifiëren. morgen: een volgende laag. want als hashes niet liegen... wat betekent dat dan voor de verhalen die wél liegen? open internet manifest: feiten boven gevoelens. blijf kijken. 👀 —- 🇬🇧 day 18 – growth 🌐🔒 we're growing. not with millions of views, but with people who keep reading, checking, thinking. 196 unique visitors now – and every day more verifying hashes themselves. tomorrow: the next layer. because if hashes don't lie... what does that mean for the stories that do? open internet manifest: facts over feelings. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #day19teaser
+
 ---
 
 🇳🇱 **Dag 18 – Groeien** 🌐🔒  

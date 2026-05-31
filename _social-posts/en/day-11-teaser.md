@@ -24,6 +24,9 @@ raw_markdown: |
 
 fuzzy_sha256: "bb6695954d78c6b43faba04f4268f63893ee96d63ab638b835c1a715daba479e"
 full_sha256: "f7ba2f119f215370b87653d139c1d70f6513013ba8cac572c1787289eb098bfb"
+clean_text: |-
+  🇬🇧 day 11 – the big split & trump's frontal attack 🐘💥 pvv loses 7 mps – biggest split ever, led by gidi markuszower forming group markuszower. reason: no democracy, bad course on israel/ukraine. reality: "right" fractures while trump assaults deep state in davos – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). he's fighting for the people, breaking the graduated farms, no more nice guy. acceleration in motion! open internet manifest wants no pens – a web where you think freely, without deep state control or loyalty tests. join: https://openinternetmanifest.org #realityvsnarrative #oim #pvvsplit #trumpdeepstate #nomorepens @realdonaldtrump
+
 ---
 
 🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  

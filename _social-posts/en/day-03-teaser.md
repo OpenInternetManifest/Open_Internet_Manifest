@@ -23,6 +23,9 @@ raw_markdown: |
 
 fuzzy_sha256: "64c7319334b2b9547c61067d8f476da304d3c9ef643620db7606a61b340b206e"
 full_sha256: "4f7f5425f5729282f179aadd7856fbb26a42b621dfc249847f94629e0085eb37"
+clean_text: |-
+  🇬🇧 day 3 – freedom starts today no need to wait for a perfect internet. start now: step-by-step guides for mastodon, nextcloud, sovereign nodes and more. practical freedom in 10 minutes. 🚀 https://openinternetmanifest.org/en/guides https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon - social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+
 ---
 
 🇬🇧 Day 3 – Freedom starts today 

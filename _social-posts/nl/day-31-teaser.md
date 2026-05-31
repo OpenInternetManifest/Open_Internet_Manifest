@@ -36,6 +36,9 @@ raw_markdown: |
 
 fuzzy_sha256: "edc410743276b4d5897216e34e8199233d0d8b296067139f56a87251c96946bb"
 full_sha256: "22f2dc805082512b523f6944d57cebf8e00e4e0e4d6c6f8238de03984b25410a"
+clean_text: |-
+  dag 31 teaser – vanavond: de boemerang keert terug ♟️🔥 morgen rvn: sun tzu in volle glorie. van epstein-files drop tot pam bondi in congress met een "burn book" vol search history van dems – hun push voor transparantie vliegt terug als boemerang. trump als early alerter in 2006 ("thank goodness you're stopping him"), narratief explodeert, feiten-regen begint te vallen 🌧️. geen illusies. geen haat. alleen realiteit boven frames 🛡️. en we bouwen door: giscus live, open gesprek zonder poortwachter 💬🌐 https://openinternetmanifest.org #rvn #feitenbovenframes #realityvsnarratief #suntzu #epsteinfiles #pambondi #dag31teaser --- tomorrow 31 teaser – tonight: the boomerang returns ♟️🔥 tomorrow rvn: sun tzu in full glory. from epstein files drop to pam bondi in congress with a "burn book" full of dems' search history – their push for transparency flies back as boomerang. trump as early alerter in 2006 ("thank goodness you're stopping him"), narrative explodes, facts rain begins 🌧️. no illusions. no hate. only reality over frames 🛡️. and we keep building: giscus live, open conversation no gatekeeper 💬🌐 https://openinternetmanifest.org #rvn #factsoverframes #realityvsnarrative #suntzu #epsteinfiles #pambondi #day31teaser
+
 ---
 
 **Dag 31 Teaser – Vanavond: de boemerang keert terug** ♟️🔥  

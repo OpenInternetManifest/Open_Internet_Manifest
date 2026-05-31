@@ -34,6 +34,8 @@ raw_markdown: |
   Read along, think along, build along:
   https://openinternetmanifest.org
   #OpenInternetManifest #OIM #RealityVsNarrative #FreeInternet #PromisedLand #Sabbath
+clean_text: |-
+  day 7 – week recap & the promise of freedom 🇬🇧✨ this week in teasers: 🔹 a jewish woman in amsterdam hesitates before saying who she is 😔 🔹 an iranian woman can't reach her family because the internet is blacked out 🌑 🔹 creators banned for showing what others hide 🚫 🔹 blackouts silencing voices, but starlink offering a lifeline 🛰️ the narrative wants control. reality wants freedom 🕊️ in the bible, israel is called the promised land, and the jewish people the chosen people. not as superiority, but as responsibility: a light for the nations, an example of freedom and covenant with god 🌟 but every promise can be abused. what if identity is used for power? ⚠️ what if polarization is stoked to pit peoples against each other? 🔥 the open internet manifest advocates for an internet where identity is verifiable, where freedom is not selective, and where boundaries are voluntary and distributed – not centrally imposed 🚀 no gatekeepers deciding who may speak 🚫 no black boxes watching 👀 no manipulation of narratives 🧠 this is not a dream from december 2025. this is a call for now. 🙏 read along, think along, build along: https://openinternetmanifest.org #openinternetmanifest #oim #realityvsnarrative #freeinternet #promisedland #sabbath
 
 ---
 
