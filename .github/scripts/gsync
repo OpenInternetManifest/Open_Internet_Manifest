@@ -1,30 +1,47 @@
 #!/bin/bash
 # gsync - Veilige sync voor OIM project
 
-echo "🚀 Starting safe sync..."
+echo "🚀 Starting gsync..."
 
-# 1. Abort eventuele hangende merges/rebase
+# 1. Abort hangende operaties
 git rebase --abort 2>/dev/null
 git merge --abort 2>/dev/null
 
-# 2. Fetch & pull schoon
-git fetch origin
-echo "📥 Pulling latest changes..."
-git pull origin main --strategy-option=theirs
+# 2. Branch check
+current_branch=$(git branch --show-current)
+if [ "$current_branch" != "main" ]; then
+  echo "⚠️  Je staat niet op main (je zit op: $current_branch)"
+  echo "   Doe eerst: git checkout main"
+  exit 1
+fi
 
-# 3. Herbouw critical files
-echo "🔨 Rebuilding generated files..."
+# 3. Pull
+echo "📥 Fetching & pulling..."
+git fetch origin
+git pull origin main --strategy-option=theirs --no-rebase
+
+# 4. Rebuild
+echo "🔨 Rebuilding clean files..."
 python3 tools/safe-add-clean-text.py
 python3 tools/update-clean-texts.py
 
-# 4. Opruimen
+# 5. Opruimen (zeer specifiek)
 echo "🧹 Cleaning up..."
-find _social-posts -name "*.bak" -delete 2>/dev/null
-rm -rf tmp/ __pycache__/ 2>/dev/null
 
-# 5. Status
-echo "✅ Sync completed!"
+# Alleen project-gerelateerde rommel
+find _social-posts -name "*.bak" -delete 2>/dev/null
+
+# Python cache ALLEEN buiten venv
+find . -name "__pycache__" -type d ! -path "*/venv/*" ! -path "*/.venv/*" -exec rm -rf {} + 2>/dev/null
+find . -name "*.pyc" ! -path "*/venv/*" ! -path "*/.venv/*" -delete 2>/dev/null
+
+# Overige rommel
+rm -rf tmp/ .jekyll-cache/ _site/ 2>/dev/null
+
+# 6. Status
+echo ""
+echo "✅ gsync completed successfully!"
 git status -sb
 
 echo ""
-echo "Tip: gebruik gewoon 'gsync' vanaf nu"
+echo "💡 Tip: Gebruik altijd 'gsync' voordat je pusht."
