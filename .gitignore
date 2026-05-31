@@ -1,16 +1,30 @@
+# Jekyll / Site
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-Gemfile.local
-vendor/bundlevenv/
-tmp/
-__pycache__/
-*.pyc
+
+# Python / Virtual Environment
 venv/
-tmp/
+.venv/
+env/
+ENV/
 __pycache__/
 *.pyc
-static/js/old/
+*.pyo
+*.pyd
+
+# Project rommel
+tmp/
 vendor/
+vendor/bundle/
+static/js/old/
+
+# Overig
+Gemfile.local
 pyrightconfig.json
+.DS_Store
+*.bak
+
+# Logs / caches
+*.log
