@@ -3,4 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.local
-vendor/bundle
+vendor/bundlevenv/
+tmp/
+__pycache__/
+*.pyc

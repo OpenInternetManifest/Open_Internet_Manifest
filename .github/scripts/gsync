@@ -1,0 +1,30 @@
+#!/bin/bash
+# gsync - Veilige sync voor OIM project
+
+echo "🚀 Starting safe sync..."
+
+# 1. Abort eventuele hangende merges/rebase
+git rebase --abort 2>/dev/null
+git merge --abort 2>/dev/null
+
+# 2. Fetch & pull schoon
+git fetch origin
+echo "📥 Pulling latest changes..."
+git pull origin main --strategy-option=theirs
+
+# 3. Herbouw critical files
+echo "🔨 Rebuilding generated files..."
+python3 tools/safe-add-clean-text.py
+python3 tools/update-clean-texts.py
+
+# 4. Opruimen
+echo "🧹 Cleaning up..."
+find _social-posts -name "*.bak" -delete 2>/dev/null
+rm -rf tmp/ __pycache__/ 2>/dev/null
+
+# 5. Status
+echo "✅ Sync completed!"
+git status -sb
+
+echo ""
+echo "Tip: gebruik gewoon 'gsync' vanaf nu"
