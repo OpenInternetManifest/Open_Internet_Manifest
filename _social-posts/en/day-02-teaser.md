@@ -24,7 +24,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "9a57e46d25708ca39a3b761531cd40c984082c3ccf0939ba12fd2cab9b5b216c"
-full_sha256: "ddb08c30c5a21a772af94ba49881aa59541f1bdda514d8d8ef87cefcb1206847"
+full_sha256: "72c656327ce0bb4a82300d413d8ef78a554a30b45fcf5b35c1cf9e3f796a2394"
 clean_text: |-
   🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
 

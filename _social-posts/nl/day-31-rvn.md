@@ -9,7 +9,7 @@ day: 31
 rvn_title: Woorden wegen niet meer op wat ze zeggen
 # rvn_url: /nl/social-posts/dag-31-rvn
 rvn_teaser: Maar op wat een narratief ervan maakt
-fuzzy_sha256: "6f3c1e430d27419b5f5b73d09535f4e98aa168c7ff49dbf23eecf51fd13385f5"
+fuzzy_sha256: "17a4cef511e069b91e41cf4ae6b19b322236cdb9367a7391b9f16ee51499809b"
 full_sha256: "1d74e46c1a43d3767d935dbf076f83e20a4d4e86ceae2ee9d1ae851fcf0869b0"
 raw_markdown: |
   **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀  

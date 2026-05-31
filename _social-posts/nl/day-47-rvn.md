@@ -10,10 +10,10 @@ website_sha256: "ea68571eb350c3cfd76600b7af5521805208c2a910ca4c14509ba26986febd2
 social_x_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e9cc2c3"
 social_fb_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e9cc2c3"
 social_share_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e9cc2c3"
-git_commit_hash: "6a46f85ddba362b65aa487fba3d891cb0334765a"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6a46f85ddba362b65aa487fba3d891cb0334765a"
-git_commit_date: "2026-04-10T13:30:40+02:00"
-fuzzy_sha256: "93785d7244390eab3e65f40594a02245cc8a69274e5517e6a5c9da9de1a1f26c"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:04.119950"
+fuzzy_sha256: "ed15c6e2dade54993c49e494a03d53c9960c7c1e696ce6b392ca948db25658f0"
 full_sha256: "72bb08e135a53eceb2210d97e8e01387f44aa175fa43481e273b7583bbaade41"
 raw_markdown: |
   **RVN: "In strijd met de regels" – Wanneer tolerantie censuur wordt** 🌀

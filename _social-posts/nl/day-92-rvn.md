@@ -6,11 +6,11 @@ rvn_title: "Pinksteren – De vervulling van de Joodse belofte"
 rvn_teaser: "Van Joodse feestdag naar het begin van iets nieuws."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "39007b4752933c6eea72b10ccd39c5b8a8b7f13fa3a0aa39c3a61363bbb5917e"
+fuzzy_sha256: "b4a26831c576751843c084e75ea9175485ca1fb7151eab448fbdcf3f0b2eedad"
 full_sha256: "dfc173dfc23fe3a4c24e5269f98b5fba92860ef6ac764207e45c4fbf06a3f755"
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:11.263984"
 raw_markdown: |
   **RVN: “Pinksteren – De vervulling van de Joodse belofte”** 🌀
   

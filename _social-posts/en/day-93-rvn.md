@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "8008383e2ea801bcd7c59dea29fbba787cbd4c501b2d144dbf4040793ff3fc0b"
 full_sha256: "f58281e44f6dfd99cb8afe86daeb22ed854750c9e6db3038b6de372462a2a6ad"
-git_commit_hash: "a0e3a3c4e71cfaf59a86583da1fba171bed6120a"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a0e3a3c4e71cfaf59a86583da1fba171bed6120a"
-git_commit_date: "2026-05-25T13:50:07.936110"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:51.368314"
 raw_markdown: |
   
   **RVN: “Pentecost – The Spirit That Breaks Boundaries”** 🌀

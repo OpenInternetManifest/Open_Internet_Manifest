@@ -9,7 +9,7 @@ day: 19
 rvn_title: DigiD in Amerikaanse handen
 # rvn_url: /nl/social-posts/dag-19-rvn
 rvn_teaser: kans of crisis?
-fuzzy_sha256: "71a715eca919479357250bd24e4b742ccb63de14c009ffae0181884d2f6f94af"
+fuzzy_sha256: "6d37134e7d006adda0e79bdbc4a494ad55ed1f804ae8cdc2b48c9b0b8008895d"
 full_sha256: "4ef53cae931288dfe80f21e76987ccd35f97804ae74f285cf41f72092b624c9f"
 raw_markdown: |
   🇳🇱 **Dag 19 – Reality vs Narrative: DigiD in Amerikaanse handen – kans of crisis?** 🌐🔒  

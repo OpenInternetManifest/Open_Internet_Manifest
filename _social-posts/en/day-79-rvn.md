@@ -6,12 +6,12 @@ rvn_title: "Illusory Progress #10: Youth Care as Salvation?"
 rvn_teaser: "More youth care = better care for our children. Right?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "6c0d639e8ecc6b6bc6b0925be0717fa395976e99e025c029efaaf1642bc4a6c2"
+fuzzy_sha256: "3aba69edecccf2b80af0e0171a723749547e815cf85115aade2211319e1285bf"
 full_sha256: "ffdcf9dd88c936f096b8bd5264165eaf4603138ad43f9bc7ca75401be78d52c6"
 social_share_sha256: ""
-git_commit_hash: "7188f982b69209b44120d3fce5e12aa7c59a4fb7"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7188f982b69209b44120d3fce5e12aa7c59a4fb7"
-git_commit_date: "2026-05-13T06:41:30+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:49.187618"
 raw_markdown: |
   **Illusory Progress – Day 36: Youth Care as Salvation?** 🧸
   

@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "8e04a67e37231c0bbd5103e438c7711fd867669a6c7518b22b2ee56b5cd7f5d2"
 full_sha256: "06229a3fc4128b01ab96956abaa7612884a32afe23c38106e3f3f5947ac390ca"
-git_commit_hash: "53778d662f8d91eddd7458932d329e9037c3c2bc"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/53778d662f8d91eddd7458932d329e9037c3c2bc"
-git_commit_date: "2026-05-18T06:38:58+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:10.307057"
 raw_markdown: |
   **RVN: “Rusland zit achter de anti-AZC demonstraties”** 🌀
   

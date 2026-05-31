@@ -6,11 +6,11 @@ rvn_title: "De Nederlander bestaat niet"
 rvn_teaser: "De ultieme retorische truc om vervanging mogelijk te maken."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "c8ccbf1e68b7c7a629517484d995f3e737575dea79025caf8dd213e5dd67d6eb"
+fuzzy_sha256: "03e02268340feb80f246f6d0de74b613090b74abee7cc2eba0e32e9a32213645"
 full_sha256: "8cab0afe1eb918e5bf4a80eced7afba9e3a2c13a5fef4b9bfcca47231ba313ab"
-git_commit_hash: "f21a704c71faf1927ffee49cb6b511becac63e56"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f21a704c71faf1927ffee49cb6b511becac63e56"
-git_commit_date: "2026-05-17T08:23:28+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:10.147115"
 raw_markdown: |
   ### RVN: “De Nederlander bestaat niet” 🌀
   

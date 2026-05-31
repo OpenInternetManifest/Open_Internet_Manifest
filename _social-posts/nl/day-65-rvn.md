@@ -6,11 +6,11 @@ rvn_title: "Olieprijzen en het asymmetrische spel – Wie verdient er echt aan?"
 rvn_teaser: "Waarom blijft de prijs aan de pomp hoog terwijl er genoeg olie is? Vandaag het spel van zoete vs zware olie, raffinage en geopolitiek"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "14c66355a0f66c244dc11304493c35892a3059c90271524dcf378629b90e16a4"
-full_sha256: "5b2f337d279c9935d9ae01777c8704ebafe05208ebfb64e8aab5f95c0374f3d4"
-git_commit_hash: "69d2153f2f48b9f9e3be0a228f48810a9d008c38"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/69d2153f2f48b9f9e3be0a228f48810a9d008c38"
-git_commit_date: "2026-04-29T06:47:06+02:00"
+fuzzy_sha256: "82863a13fa3a20b2ffa17a8ce3c3301e39026915b69ba150d99555acb03ea513"
+full_sha256: "493c36099b3545eb608315c6877d1a598b732af88bf5a411246ecc03f84f8a33"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:06.970101"
 raw_markdown: |
   **RVN: Olieprijzen en het asymmetrische spel – Wie verdient er echt aan?** 🛢️
   

@@ -6,12 +6,12 @@ rvn_title: "Abiotic Oil – Is Oil Truly a Finite Fossil Fuel or a Regenerating 
 rvn_teaser: "Yesterday we looked at the game of sweet vs heavy oil and refining. Today we go one layer deeper."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "a6653e2664cda1afed5f30d0e02eabd94ee487b2521fef42d9f637b137cce83e"
+fuzzy_sha256: "bc79a4595c8a974bb2dcee719fbf51f6e2cd06c5f4b304c32eb3fb3b2ed70276"
 full_sha256: "b564d3bac6856ab47464ce149a7d9ac21ee67f738182fa6a5ef760340c2c79a3"
 social_share_sha256: ""
-git_commit_hash: "e7cc7d89a794fda561333ccdb2055b6b194cdb87"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e7cc7d89a794fda561333ccdb2055b6b194cdb87"
-git_commit_date: "2026-04-30T07:34:13+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:47.162251"
 raw_markdown: |
   **RVN: Abiotic Oil – Is Oil Truly a Finite Fossil Fuel or a Regenerating Mineral?** 🛢️
   

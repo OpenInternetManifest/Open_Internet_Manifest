@@ -6,11 +6,11 @@ rvn_title: "“Dit is allemaal aangesticht voor…” – De valkuil van DE waar
 rvn_teaser: "Elke crisis wordt meteen gekoppeld aan één grote agenda. Maar wat als crises meerdere doelen dienen?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "2e6db8253051c8f569b0305ae71b5a4703a506d5d10f005ab68008284e70e431"
+fuzzy_sha256: "a68906354017fc51b04e0b8b7cc683bfb55c0e9f7463eb936943a0812bc2ea3a"
 full_sha256: "32d815807def92cc52ba878d5b9f0097761d4cf6f77f6fdb7cc22ed2d9d922a9"
-git_commit_hash: "d2af626151355ca5317d08ab320133bf4260cfa5"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d2af626151355ca5317d08ab320133bf4260cfa5"
-git_commit_date: "2026-05-01T08:54:02+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:07.284624"
 raw_markdown: |
   **RVN: “Dit is allemaal aangesticht voor…” – De valkuil van DE waarheid** 🌀
   

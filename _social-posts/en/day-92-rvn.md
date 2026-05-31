@@ -6,12 +6,12 @@ rvn_title: "Pentecost – The Fulfillment of the Jewish Promise"
 rvn_teaser: "From a Jewish feast to the birth of something new."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "63887a14bc17223c69977076532e33104804faccb4e6222f1ea8fa0afa20a534"
+fuzzy_sha256: "6fe0d6052cb0347043abfb75f99ada690a13869ffc884ef7c659031fcac6a877"
 full_sha256: "6ec8b83ab4eb154ea084da74871bbd33ddfabb44d1a97c4177546d6f80043f19"
 social_share_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:51.213657"
 raw_markdown: |
   **RVN: “Pentecost – The Fulfillment of the Jewish Promise”** 🌀
   

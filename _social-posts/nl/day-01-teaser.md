@@ -32,7 +32,7 @@ raw_markdown: |
   ❤️
 
 fuzzy_sha256: "d9e7d9448af0f02d311dbf46cc57e67d9acfe574e92a36cdf55c9c9e245302f7"
-full_sha256: "f3356765b19333adbb780b9e5ab4b067cbc2a7734e878a39d07dfda9ada106bc"
+full_sha256: "95b56221a45b9dd0b67f673abf0250a96c2c6a474f422b0da751f22f876e269b"
 clean_text: |-
   🇳🇱 dag 1 – het begin van iets groots begin december 2025 ontstond een droom: een internet dat weer van ons is. geen gatekeepers, geen surveillance, geen black-boxes. nu al 30 theses – en het groeit door jullie. 🚀 https://openinternetmanifest.org kijk ook: https://www.youtube.com/watch?v=lxeektswflw --- 🇬🇧 day 1 – the start of something big started in december 2025: a dream of an internet that is ours again. no gatekeepers, no surveillance, no black boxes. already 30 theses – and it grows with you. 🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
 

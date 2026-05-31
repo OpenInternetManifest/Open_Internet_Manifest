@@ -6,11 +6,11 @@ rvn_title: "De expats zijn goed voor de stad"
 rvn_teaser: "De vaak vergeten laag die de ziel uit onze steden trekt."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "039ec95a5828b84580efd08cdaeb4c19cd5a221160ddea2f6c15a0cb4d0e040e"
+fuzzy_sha256: "47a0d3f639db4289df876f97e71a8f5bb3a390a76f880e0abfad52569b2eceba"
 full_sha256: "959e68b115ee934fa6c95ca029ea91e4a466565225784f9e45458dc03b70a560"
-git_commit_hash: "7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7f9cb0b1c4d23a722b8bd864d1270de21442dfe5"
-git_commit_date: "2026-05-16T18:42:35+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.988373"
 raw_markdown: |
   **RVN: “De expats zijn goed voor de stad”** 🌀
   

@@ -6,12 +6,12 @@ rvn_title: "Illusory Progress #6: Everything as a Subscription"
 rvn_teaser: "No more ownership, just monthly payments. Convenience above all… right?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "3e59e41ce711f628dae60dfbf9509163daebaab6a11b949ebd17caf2ae51f6d8"
+fuzzy_sha256: "4697172088275de2c1e07c57e92c55cfc6f454c7bc1d50a1bde46978adb88f05"
 full_sha256: "60ae0d8cb84284aab74717ea24a7c98a8f600d43c8a559f96dfa3c37478e1c7c"
 social_share_sha256: ""
-git_commit_hash: "a0dc538702626ac86762591c799dc93d58cb7e1d"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a0dc538702626ac86762591c799dc93d58cb7e1d"
-git_commit_date: "2026-05-10T08:00:27+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:48.718994"
 raw_markdown: |
   **Illusory Progress – Day 32: Everything as a Subscription** 📦
   

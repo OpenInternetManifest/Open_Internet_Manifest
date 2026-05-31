@@ -9,7 +9,7 @@ day: 28
 rvn_title: The three invisible layers
 # rvn_url: /en/social-posts/day-28-rvn
 rvn_teaser: keeping the system running
-fuzzy_sha256: "9aa18897398aeee3f4aa925558047dbcf221fd40e43e81180a6367ae08ba8308"
+fuzzy_sha256: "8acc5212851f24576b39c590a8c4ac63275d24bc901e02b6bd07d204356d86ad"
 full_sha256: "24d86630914d8afb9e76c7867e82db30c391ac40ffcb9c4b40ec7bf94a83c16c"
 raw_markdown: |
   **Reality vs Narrative – The three invisible layers keeping the system running** 🕸️🔍

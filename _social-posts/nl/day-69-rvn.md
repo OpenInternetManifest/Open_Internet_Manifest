@@ -6,11 +6,11 @@ rvn_title: "Waarom een hash belangrijker is dan je denkt"
 rvn_teaser: "Een hash is geen technische nerd-ding. Het is een wapen tegen systematisch liegen en verdraaien."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "285620a090cc85ee2066cf0da9e930658f06413979f7ebd279034655a8bef39a"
+fuzzy_sha256: "51b6a4113aefd5b2bf49caa0a9c0f0dc72a01a6dcd367a44cf903785ff0642bb"
 full_sha256: "d1b5135047e722001ca5095a96907c74cbea263c72deb79f75432b17c9c5eb5c"
-git_commit_hash: "d563c817a50e85f66fa3602a0a90351e7c3d685c"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d563c817a50e85f66fa3602a0a90351e7c3d685c"
-git_commit_date: "2026-05-01T17:09:11+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:07.601134"
 raw_markdown: |
   **RVN: Waarom een hash belangrijker is dan je denkt** 🔐
   

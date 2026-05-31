@@ -52,8 +52,8 @@ raw_markdown: |
   
   #RVN #FactsOverFrames #RealityVsNarrative #PowerStructures ⚡
 
-fuzzy_sha256: "026271e7d61773ed988803dd9b35a0783656c3498cc99a22b12103a4a587d5dc"
-full_sha256: "003e458963c6012b4b81e7a59e47e9cb66acbb8f1dacb25f832d536b890505fb"
+fuzzy_sha256: "d2ebc4ea67c116bce3897b8e4b06aff1b49d65d163e07fd437e2bc42c1b3ccca"
+full_sha256: "6e41b4ad4b53381e91fa51e3cee534f45dacc97884d286e24c80e521d2fa28e0"
 clean_text: |-
   🇳🇱 dag 27 teaser – vanavond: even op adem 😏🍿 morgen rvn (zaterdag): de drie onzichtbare lagen die alles bij elkaar houden 🕸️🔍 van 1913 tot vandaag: macht centraliseert al meer dan 100 jaar. maar wie houdt dit systeem draaiende? morgen duiken we in de drie mechanismen die het stilzwijgend in stand houden: inlichtingendiensten die niet alleen kijken, maar actief narratieven sturen ngo’s en filantropie als onkritiseerbare morele autoriteit algoritmes die polarisatie bewust maximaliseren waarom blijft verdeeldheid zo perfect werken? wie wint er écht bij dat mensen constant tegen elkaar worden opgezet? geen wilde theorieën – alleen feiten en de vragen die eruit volgen. feiten boven frames. hou het in de gaten. #rvn #feitenbovenframes #realityvsnarrative #machtsstructuren ⚡ --- 🇬🇧 day 26 teaser – tonight: just breathe 😏🍿 tomorrow rvn (saturday): the three invisible layers keeping it all together 🕸️🔍 from 1913 to today: power has been centralizing for over 100 years. but who keeps this system running so smoothly? tomorrow we dive into the three mechanisms quietly holding it in place: intelligence agencies that don’t just observe — they actively shape narratives ngos and philanthropy as untouchable moral authorities algorithms deliberately maximizing polarization why does division work so perfectly? who really benefits from permanent opposition? facts only — no wild theories. just the questions that follow. facts over frames. stay tuned. #rvn #factsoverframes #realityvsnarrative #powerstructures ⚡
 

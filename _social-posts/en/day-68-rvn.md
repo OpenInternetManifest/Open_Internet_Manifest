@@ -6,12 +6,12 @@ rvn_title: "Nothing ever happens” – The Controlled Information War"
 rvn_teaser: "James Comey has surrendered. How often have we heard 'nothing ever happens'... while the layers are slowly dripped out?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "eb1dfa41a81df15a70adf9188f3f5cb2348fd9ba1417b43603e144a9c09d7066"
+fuzzy_sha256: "10f9ca23b37e68cb49df0f8130e3c171744f8f02bbd903ac7bb5350fd56420cc"
 full_sha256: "cf62ef3578619b2db98e4e6ba3f131fa0376bb90923dc4385d55c70e0b2f98da"
 social_share_sha256: ""
-git_commit_hash: "cdab98b0476f001cfb379bc77877387034fcd46f"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/cdab98b0476f001cfb379bc77877387034fcd46f"
-git_commit_date: "2026-05-01T16:34:56+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:47.474015"
 raw_markdown: |
   **RVN: “Nothing ever happens” – The Controlled Information War** 🌀
   

@@ -6,11 +6,11 @@ rvn_title: "Schijnvooruitgang #11: De stikstofcrisis en de boer als zondebok"
 rvn_teaser: "We moeten de boeren weg hebben voor het klimaat en de natuur. Echt waar?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "1c7bd407a759178186cbb55a9c9d91db576875d4ccc7f2f4a543e53223ed9e19"
+fuzzy_sha256: "36c037068caf1b9688e0426ce74ddde40305ec35eae9c975849491f1a102c7fc"
 full_sha256: "2da8b1f75646576c1a63676a2f6f8ff0cab685c72dd904270bc3de573584b72a"
-git_commit_hash: "47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/47ff742bad1a39a1d257303586fc7ffa6ca9a1d1"
-git_commit_date: "2026-05-14T07:27:38+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.346549"
 raw_markdown: |
   **Schijnvooruitgang – Dag 37: De stikstofcrisis en de boer als zondebok** 🐄🌾
   

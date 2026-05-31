@@ -9,7 +9,7 @@ day: 15
 rvn_title: Minneapolis mall & the ICE hypocrisy
 # rvn_url: /en/social-posts/day-15-rvn
 rvn_teaser: Trump's Gestapo!
-fuzzy_sha256: "0580f187baed192fe2b8a9ecb27b553c939e1fadff95fd34933e196b0a4966ad"
+fuzzy_sha256: "0abfba68569974424f76fd2150ed0ecdd825bdd0b2c4937288b0ec971044bd16"
 full_sha256: "a65a0f7fbc9fe59956b64d8fa14216c0aa8f2ec5908969421e3f5c762937f39b"
 raw_markdown: |
   🇬🇧 **Day 15 – Reality vs Narrative: Minneapolis mall & the ICE hypocrisy** 🌐🔥

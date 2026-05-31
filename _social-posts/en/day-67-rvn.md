@@ -6,12 +6,12 @@ rvn_title: "“This was all staged for…” – The Trap of THE Truth"
 rvn_teaser: "Every crisis is immediately linked to one big agenda. But what if crises serve multiple goals at once?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "f5ed9a8abbfc77f7df5e7e25d927d7fe9230e99e78cec6feecf8bbada1e6f71c"
+fuzzy_sha256: "ba38e06e300f7af4c7a4bab6057520e40757f7526417b0f092d81218ebecab6f"
 full_sha256: "243e7fc032cfa02ce191b971bbb847044eb54650d5249c0e6f1cfca57c80fe74"
 social_share_sha256: ""
-git_commit_hash: "d2af626151355ca5317d08ab320133bf4260cfa5"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/d2af626151355ca5317d08ab320133bf4260cfa5"
-git_commit_date: "2026-05-01T08:54:02+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:47.319083"
 raw_markdown: |
   **RVN: “This was all staged for…” – The Trap of THE Truth** 🌀
   

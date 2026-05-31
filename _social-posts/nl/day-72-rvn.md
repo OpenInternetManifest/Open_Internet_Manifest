@@ -6,11 +6,11 @@ rvn_title: "Schijnvooruitgang #3: De warmtepomp als groene redding?"
 rvn_teaser: "Duurzaam, energiezuinig en de toekomst. Maar klopt dat verhaal eigenlijk wel?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "cbe2d0cfb437acb73005458ab7542bb4a336ab9ac8c0d5b303b339b0acd2c7e5"
-full_sha256: "acb69e2baa6aec8c6d3e827c69d1108a271f31f392e54d6565dfca5ad12c62a7"
-git_commit_hash: "4000bc090405c36f56cd4621bf25d155e4d25f16"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/4000bc090405c36f56cd4621bf25d155e4d25f16"
-git_commit_date: "2026-05-06T08:16:27+02:00"
+fuzzy_sha256: "47f16a0deca283988a42d878bd249d0af58f318256d2541702eede62dd221896"
+full_sha256: "d56f845afbb0b1f4b31c5b9b7b0863fe5c8198770717ba0049788c0c86948efa"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.073983"
 raw_markdown: |
   **Schijnvooruitgang – Dag 28: De warmtepomp als groene redding?** ♨️
   

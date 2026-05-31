@@ -6,11 +6,11 @@ rvn_title: "Schijnvooruitgang #5: De 15-minutenstad als ideale woonplek?"
 rvn_teaser: "Alles binnen 15 minuten bereikbaar. Klinkt als de droom van de toekomst. Maar wat is de werkelijke prijs?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "6085e8030f2c7b39d26ed94820e23618ec1d7ba13b961ff0a59527977bb24f6a"
+fuzzy_sha256: "f567ea6bbe22aa203214fb48265fa9c5beaf6b90e41bf745699594723824493b"
 full_sha256: "23136e5fd4d9de1baa6e61b8b2be6296192172d8ab6bf5d72982b116bc4b9e4e"
-git_commit_hash: "f913680e0dcdb3b0e9b468502d530cdd2dd298a2"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f913680e0dcdb3b0e9b468502d530cdd2dd298a2"
-git_commit_date: "2026-05-09T06:58:17+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.550978"
 raw_markdown: |
   **Schijnvooruitgang – Dag 31: De 15-minutenstad als ideale woonplek?** 🏙️
   

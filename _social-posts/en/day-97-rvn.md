@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "87551d29016073b34459585ef0b1b4949133061aeef03fd793553c4c59b32f42"
 full_sha256: "43fec80feeaf62dbc3c576abe8d6573a087aea25f1d2fe5ad670306cae2f52eb"
-git_commit_hash: "f9285f1625abddccea9445d260a716d15f3e987c"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f9285f1625abddccea9445d260a716d15f3e987c"
-git_commit_date: "2026-05-30T07:07:37.701066"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:51.999873"
 raw_markdown: |
   
   ### RVN: “The Information War surrounding Q and QAnon” 🌀

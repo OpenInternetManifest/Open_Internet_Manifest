@@ -6,12 +6,12 @@ rvn_title: "Palestine 3000 years of history vs Israel 60 years of lies"
 rvn_teaser: "The historical and demographic distortion that keeps coming back."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "79981ddec8e0c1f0eb3fc0bb88c90e67aec54d61649d0eb038f44861009fdbd1"
+fuzzy_sha256: "40119d42bfe38d47f75bdb181d9f2e2e7fb89c7be3c832f13f273174f0d9bd6c"
 full_sha256: "c7a330eec11328d4edd66f80d1d2bbe06b1d978999de0b0646cb0683e1039472"
 social_share_sha256: ""
-git_commit_hash: "c9d8919df3f86f3a6ec0120d7fa3c1cc2fcb0bfa"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/c9d8919df3f86f3a6ec0120d7fa3c1cc2fcb0bfa"
-git_commit_date: "2026-05-23T07:52:15+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:51.056301"
 raw_markdown: |
   **RVN: “Palestine 3000 years of history vs Israel 60 years of lies”** 🌀
   

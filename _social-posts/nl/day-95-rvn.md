@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "d512f144b67f2b8187afec1405eabeac43c0c2a48acbe9a527932514ce3f390e"
 full_sha256: "0a21a5af0fae0da612d1c69159a28e01c27fe0e31686a023473d032034ed3662"
-git_commit_hash: "9c25fd60516f4b707c37e5e01e9c0e99d646884d"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c25fd60516f4b707c37e5e01e9c0e99d646884d"
-git_commit_date: "2026-05-29T07:37:25.172455"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:11.741765"
 raw_markdown: |
   
   ### RVN: “De kernboodschappen van Q” 🌀

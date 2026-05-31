@@ -9,7 +9,7 @@ day: 15
 rvn_title: Minneapolis mall
 # rvn_url: /nl/social-posts/dag-15-rvn
 rvn_teaser: En de ICE-hypocrisie
-fuzzy_sha256: "dc2da699e239d019a11d7d94ea70fc9c51396dd4c2e352a2299e3a5e71cfdf49"
+fuzzy_sha256: "36df0677749e235e962361def28f1ac347a6905d9c4334a815db149d2fa4c271"
 full_sha256: "245323f9a431cd67d2e950a59882932be4e33d9ea4faf92a6c6d5c764196262b"
 raw_markdown: |
   🇳🇱 **Dag 15 – Reality vs Narrative: Minneapolis mall & de ICE-hypocrisie** 🌐🔥  

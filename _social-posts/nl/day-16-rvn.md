@@ -9,7 +9,7 @@ day: 16
 rvn_title: Het 'mostly peaceful' patroon
 # rvn_url: /nl/social-posts/dag-16-rvn
 rvn_teaser: En de hypocrisie
-fuzzy_sha256: "57a70f2c8c3e8b0fb7c08283f5835f6a7423a8d94416d6b5272cabde78656755"
+fuzzy_sha256: "9be2e9f7b5a748c6170a265c67c56c41c5cdd2c756237f8fcedd193c2a266dea"
 full_sha256: "3e5a93560ee754612a8bbd54412806efe81a64234a8b1a8cb9a8124fce611f8b"
 raw_markdown: |
   🇳🇱 **Dag 16 – Reality vs Narrative: Het 'mostly peaceful' patroon & de hypocrisie** 🌐🔥  

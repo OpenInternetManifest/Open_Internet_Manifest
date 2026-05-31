@@ -6,12 +6,12 @@ rvn_title: "I hear and I forget. I see and I remember. I do and I understand"
 rvn_teaser: "Why just waking up isn't enough."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "e5f523ef7e445cd979d97dd1e6645bb391f5eca7b6e1b6f9a726f06a82580bfc"
+fuzzy_sha256: "955b8c33b6cbdf534aa65ab823d120bc9c4758b467edba811c9732552fe08f4e"
 full_sha256: "34dcf1030aa830ba89db8e9fafa6ae4eb6eae89f8577f4a486147b8b20d8d5a0"
 social_share_sha256: ""
-git_commit_hash: "2e15b59d35d12ca12d32f5a3b1f6b4a8cc163040"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2e15b59d35d12ca12d32f5a3b1f6b4a8cc163040"
-git_commit_date: "2026-05-14T18:56:45+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:49.652229"
 raw_markdown: |
   **RVN: “I hear and I forget. I see and I remember. I do and I understand.”** 🌀
   

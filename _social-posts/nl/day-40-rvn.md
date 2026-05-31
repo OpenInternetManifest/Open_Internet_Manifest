@@ -9,7 +9,7 @@ social_share_sha256: ''
 rvn_title: Sun Tzu voltooid?
 # rvn_url: /nl/social-posts/dag-40-rvn
 rvn_teaser: Proxy-lus breekt af met precisie-slagen ♟️
-fuzzy_sha256: "3c6bc1901449a9d59f23d858b96e3326dfe98f8496061c042fdd139f824895fa"
+fuzzy_sha256: "7c94b52c1d46a407bfff0c3ae5ec9244ef213ca7da7db27bc6419a481586d0bd"
 full_sha256: "9312b48d10068d2bedf2c8cfc07694d83cfbd514e50f21b971c803af1ca39926"
 raw_markdown: |
   **Korte stilte – even een update**  

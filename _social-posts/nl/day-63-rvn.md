@@ -6,11 +6,11 @@ rvn_title: "Hoe OIM ontstond – Van theses naar een levend, verifieerbaar manif
 rvn_teaser: "Veel mensen vragen: wat is OIM eigenlijk en waarom doen we dit? Vandaag het volledige verhaal – inclusief de technische ziel en de toekomstvisie."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "590de128d7d65202ec4c3a0b7140963588e4dc083adaf1d49212fec6835daee4"
+fuzzy_sha256: "b5aad102a91a08fe676663471d4338f81c5f8abb1764ceaabeb3c388c9bb5d43"
 full_sha256: "df18e58f08c97bff3f032a9be74554facedd51177857b6a826fc0fdabf230c23"
-git_commit_hash: "ce9aa15e7ed9e1aa98a71430c1bb19aa2afc0271"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/ce9aa15e7ed9e1aa98a71430c1bb19aa2afc0271"
-git_commit_date: "2026-04-27T11:36:16+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:06.655482"
 raw_markdown: |
   **RVN: Hoe OIM ontstond – Van theses naar een levend, verifieerbaar manifest** 🌀
   

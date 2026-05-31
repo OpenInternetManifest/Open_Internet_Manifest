@@ -6,12 +6,12 @@ rvn_title: "We Have No Problem With It"
 rvn_teaser: "The most comfortable lie of this moment."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "7eef04ab8e18dee9671766aac6d440c2a879f8626673af3e44dd77170d1bc8ef"
-full_sha256: "e4a8f780fb18cb1ab997076261b53f208dbee88b746deff921fbed3aad76f547"
+fuzzy_sha256: "e2cc858805ca1b30a7c2ba0cfe529a91b83bf69d6e36108d2de5af004b72d35f"
+full_sha256: "82801247e98e1b67338fd748b19486b7c68f7569557c6666048d7e08bad71e37"
 social_share_sha256: ""
-git_commit_hash: "78f73f9852750f8614058f2529b241cfa127dc6f"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/78f73f9852750f8614058f2529b241cfa127dc6f"
-git_commit_date: "2026-05-16T08:24:46+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:49.807187"
 raw_markdown: |
   ### RVN: “We Have No Problem With It 🌀
   

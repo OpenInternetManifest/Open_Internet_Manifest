@@ -6,11 +6,11 @@ rvn_title: "We hebben er geen last van"
 rvn_teaser: "De meest comfortabele leugen van dit moment."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "875256e02b4786c162344d5c74cab5227ce04afd10d903d1589d3f187c3751fd"
+fuzzy_sha256: "8de0e250fe28c6f3f4faa1c2585a64e72278dada58886e218c5302d17e6d928b"
 full_sha256: "bda41f5f998334abaa1dc8c642d31c59736f7ce2b53ab82a410c31ae703b7b31"
-git_commit_hash: "78f73f9852750f8614058f2529b241cfa127dc6f"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/78f73f9852750f8614058f2529b241cfa127dc6f"
-git_commit_date: "2026-05-16T08:24:46+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.828330"
 raw_markdown: |
   ### RVN: “We hebben er geen last van” 🌀
   

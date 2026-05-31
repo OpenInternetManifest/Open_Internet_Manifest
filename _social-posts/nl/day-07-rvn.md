@@ -9,7 +9,7 @@ day: 7
 rvn_title: Polarisatie als wapen
 # rvn_url: /nl/social-posts/dag-7-rvn
 rvn_teaser: Links vs rechts, Joden vs moslims, West vs Oost
-fuzzy_sha256: "5ebf753a06565573c92b794bda89d503b1900aa0032fa7d06b97c4f44bdf77e4"
+fuzzy_sha256: "450d329bfa15d0534253227e4423d6e0d20dad7b1bec957242f52385be235271"
 full_sha256: "14368d3c7956b0f99fdccf41f3b02206edfe7b1a332140dd1503161ab33d386c"
 raw_markdown: |
   Realiteit vs Narratief – Polarisatie als wapen (deel 2)  

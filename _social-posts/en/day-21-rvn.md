@@ -9,7 +9,7 @@ day: 21
 rvn_title: Israel-Palestine & Iran
 # rvn_url: /en/social-posts/day-21-rvn
 rvn_teaser: historical, religious roots vs modern narrative
-fuzzy_sha256: "89b5fe3cd5cff78fcbe3534c5db1eeed05487924adde3b563bf98c119622d86d"
+fuzzy_sha256: "1e7b4b1b82f5482f9701c93ab0747617a7feda1b8ceee730e862dacf5f24900a"
 full_sha256: "e9fc6f24bc71f52d795f8fa818d049538bfa2b3d44ab40a6ed79298c1c9fe36b"
 raw_markdown: |
   🇬🇧 **Day 21 – Israel-Palestine & Iran: historical, religious roots vs modern narrative** 🕊️📜

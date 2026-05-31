@@ -34,7 +34,7 @@ raw_markdown: |
   @fvdemocratie
 
 fuzzy_sha256: "5fff62a2ce248827003416342fd320e480fb1459207d13d1bd70b1c88701de4b"
-full_sha256: "c19fc58c56ee6040e67a7d3a546aeb52196045a98ee05af54e7d74d9f67dcd9e"
+full_sha256: "a02a88bcb41ca02e323b772eb5b163d45755d0d1b4c41b2496784319de02900d"
 clean_text: |-
   🇬🇧 day 17 – a child at school, today 🌐😔 today is january 27. holocaust remembrance day. but on this day, a mother has to count again how many times her child has been attacked. tomorrow: a story that hurts. one you don’t want to hear. but one you need to hear. because if this still happens on a day like today... something is deeply wrong with what we claim to have "learned". open internet manifest: facts over feelings. hashes over narratives. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #day18teaser #neveragainisnow @realdonaldtrump @fvdemocratie
 

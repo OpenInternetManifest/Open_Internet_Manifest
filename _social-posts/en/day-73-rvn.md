@@ -6,12 +6,12 @@ rvn_title: "Illusory Progress #4: The Electric Car as the Future?"
 rvn_teaser: "Zero emissions, silent, high-tech and good for the climate. But is the EV really progress?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "c0715daa1b151c493c9076ebec31a9ddf9ac2ce8fb9439f4e23c7bd448119f33"
-full_sha256: "18fdd467f314a7d4efc95ab366ee68ab888911460965ddecf200990f2ac87092"
+fuzzy_sha256: "04376c537c1c86650e093a831eeb7e6bc1719d9aa77c7e2b0c67d8b5adffa64a"
+full_sha256: "746dd5d45cd3283020d28a29c65827ebd135532d7f7d2094fb26d65d862e0eed"
 social_share_sha256: ""
-git_commit_hash: "7fb890e0aa81b79fa52e96b7696d445367ed561c"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7fb890e0aa81b79fa52e96b7696d445367ed561c"
-git_commit_date: "2026-05-07T06:42:51+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:48.251027"
 raw_markdown: |
   **Illusory Progress – Day 29: The Electric Car as the Future?** ⚡🚗
   

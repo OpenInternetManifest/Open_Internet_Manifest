@@ -6,11 +6,11 @@ rvn_title: "Trump Forces Iran into a Deal – The Uranium One Connection"
 rvn_teaser: "Is this just a nuclear deal… or something much bigger?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "5bb57d368ff717279f17c189b6f75573e87caf0188221c6d6a213bcb81344bda"
+full_sha256: "f750239e63dff8b7c2f83945b044b6ac236494b68ed65fc66eb42c7a0c5a39f5"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:51.841656"
 raw_markdown: |
   
   ### RVN: “Trump Forces Iran into a Deal – The Uranium One Connection” 🌀

@@ -10,10 +10,10 @@ website_sha256: "905cc742ceb928fc4edf733b35118c2a92ca161438b013ac6cd79238f983976
 social_x_sha256: "e242338efa97affaf642d692f1c3fbd3d71f593d4d6fbc7c2791e41926e27508"
 social_fb_sha256: "e242338efa97affaf642d692f1c3fbd3d71f593d4d6fbc7c2791e41926e27508"
 social_share_sha256: "e242338efa97affaf642d692f1c3fbd3d71f593d4d6fbc7c2791e41926e27508"
-git_commit_hash: "5d1cb6e33a338f0fba5358388a43e6512c941868"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/5d1cb6e33a338f0fba5358388a43e6512c941868"
-git_commit_date: "2026-04-16T07:09:33+02:00"
-fuzzy_sha256: "4258c4ee27fef490a3e180c645fa68e95528075fd8149dc60fa590a1728a0d21"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:44.784416"
+fuzzy_sha256: "36aa5701ee5da119cc43ddfa527d85bf4057dbdbe2ab1cd25de213f3e719df42"
 full_sha256: "b760ab03912633c15f16a06c62cd0b03710c9058b5d4a9576e4ca8c90cdf7df2"
 raw_markdown: |
   **RVN: The Prison Inside Ourselves – Stanford Prison Experiment** 🌀

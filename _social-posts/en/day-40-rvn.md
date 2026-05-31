@@ -9,7 +9,7 @@ website_sha256:
 social_x_sha256: 2d8c0051cc4ccb9067ae97ebe633cb633ea683e2eb77662d6cdcff81159752b1
 social_fb_sha256: 2f58fd6692bee6e08f9e401ee8afb31e58d33375fc74cb89bf466d2000f1803e
 social_share_sha256: ''
-fuzzy_sha256: "8d2a6d42d03513fcead1f0b77bb5d9666d0a0103ebd12e36889906cca3dc3ef0"
+fuzzy_sha256: "092927e00f6c73093344ff0f8c286cd898059681db489b639b5b94284cb913f1"
 full_sha256: "2d8c0051cc4ccb9067ae97ebe633cb633ea683e2eb77662d6cdcff81159752b1"
 raw_markdown: |
   **Short silence – quick update**  

@@ -10,10 +10,10 @@ website_sha256: "7342b48009a5a4d52234f387bd132d5b3c0c431b2b849f04ebc09e491dd22d7
 social_x_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
 social_fb_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
 social_share_sha256: "9421e52357aa21f93041521c641bf210f6f5a92d8c5a2faba1fa888fa2b5f611"
-git_commit_hash: "27bafcaf2ea4003d2039071b9894e99c20ff9861"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/27bafcaf2ea4003d2039071b9894e99c20ff9861"
-git_commit_date: "2026-04-17T07:12:49+02:00"
-fuzzy_sha256: "4072e300b238bc1f417810e99c894781f71868c2d8337e4da1e5e7473a4d60f6"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:04.923550"
+fuzzy_sha256: "c6bf90c7b4a388f02c18712592a2f04c649e38435a1e4e5e24a37e70a14e0442"
 full_sha256: "5f8a8974d90715fb459d3a89bfbfab98d4ed8886bdb999beb948fd16bb8fa4d5"
 raw_markdown: |
   **RVN: De druk van de groep – Waarom we onze eigen ogen niet meer vertrouwen** 🌀

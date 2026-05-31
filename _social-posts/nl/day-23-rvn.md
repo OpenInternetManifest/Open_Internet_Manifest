@@ -9,7 +9,7 @@ day: 23
 rvn_title: '1913'
 # rvn_url: /nl/social-posts/dag-23-rvn
 rvn_teaser: Het jaar dat de knoppen werden omgezet?
-fuzzy_sha256: "9a689554bed1921daf6c9a96eae6fa0c2b13bbc819633aeb74874331fd50fbb0"
+fuzzy_sha256: "9c0932997bd71e491a27f36cbfdc15cbe07aa08987bb2e442d7f49ebee78c690"
 full_sha256: "06054216fdabdcdc8d8aeaaf9407c064eb113e3006ac57e5e6a8165b1a5a7036"
 raw_markdown: |
   **Reality vs Narratief: 1913 – het jaar dat de knoppen werden omgezet? ♟️🛳️🕳️**

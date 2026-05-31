@@ -9,7 +9,7 @@ day: 20
 rvn_title: 'Utrecht Bollendak: viraal filmpje'
 # rvn_url: /nl/social-posts/dag-20-rvn
 rvn_teaser: vs realiteit + gespind narratief
-fuzzy_sha256: "015e8d0174a3e5f7a828885aeba6c5a6c1cd27e8be6f90f4523f7a9f913d3bf0"
+fuzzy_sha256: "f81ffa2b5da81f7ff43dad74c8f229549ecf2f1ddca05217f09a65df970e11a7"
 full_sha256: "40576a7ea761d3505d8732a0b57590bd5954a301bd0574448cd4cabdc2cd5684"
 raw_markdown: |
   🇳🇱 **Dag 20 – Utrecht Bollendak: viraal filmpje vs realiteit + gespind narratief** 🚔🔍  

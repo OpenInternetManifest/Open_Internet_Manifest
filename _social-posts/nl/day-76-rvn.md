@@ -6,11 +6,11 @@ rvn_title: "Schijnvooruitgang #6: Alles als abonnement"
 rvn_teaser: "Geen bezit meer, alleen maar maandelijkse betalingen. Gemak dient de mens… toch?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "2b5b2257eba2e5bd7601372bd3d7da50d25bed5be715e19ac2e30750b31fe68c"
+fuzzy_sha256: "6d3aeec9aeeb28d089bca19db19ab552bc2419de4d063dc3d1e6371d6ed81b0b"
 full_sha256: "01bffbe3bd3617b939fe64090a9ad99ab7acb13860371e7a0b549a103ffde503"
-git_commit_hash: "a0dc538702626ac86762591c799dc93d58cb7e1d"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a0dc538702626ac86762591c799dc93d58cb7e1d"
-git_commit_date: "2026-05-10T08:00:27+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.710974"
 raw_markdown: |
   **Schijnvooruitgang – Dag 32: Alles als abonnement** 📦
   

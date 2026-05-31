@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "bc0bd1fb85be18dafe6f124d72e80eea7b2c787c005aaa0eaca4ce027d4f9d2c"
 full_sha256: "cbedb383961b5bd3abdfffe4364c64587e51845f132658921efeec810b6070cc"
-git_commit_hash: "18cce22d4c99f39fd652599a0ba201dbcc6b0aac"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/18cce22d4c99f39fd652599a0ba201dbcc6b0aac"
-git_commit_date: "2026-05-31T06:38:33.757246"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:12.216292"
 raw_markdown: |
   
   ### RVN: “De grotere betekenis van Q” 🌀

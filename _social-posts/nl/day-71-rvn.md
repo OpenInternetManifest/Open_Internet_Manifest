@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "5144ba50abd67ec2522d5c7d191cc5692c2d6306ebf8525797efea0b34378c78"
 full_sha256: "f9e99aab5972cda949d1b299ac85af43866259ea861c3e0165af8f46c4aacde1"
-git_commit_hash: "1b5a16d5d2563d0a23aa91406846c79a383efd44"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/1b5a16d5d2563d0a23aa91406846c79a383efd44"
-git_commit_date: "2026-05-05T06:54:40+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:07.916801"
 raw_markdown: |
   **Schijnvooruitgang – Dag 27: Lease = vrijheid?** 🚗
   

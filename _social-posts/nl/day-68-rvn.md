@@ -6,11 +6,11 @@ rvn_title: "Er gebeurt nooit iets” – De gecontroleerde Informatie Oorlog"
 rvn_teaser: "James Comey geeft zich over. Hoe vaak hebben we al gehoord “er gebeurt nooit iets”… terwijl de lagen langzaam worden gedruppeld?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "f228488ade163979f4354c372863c66a489f1ccb3a283b59a3b7de9d13a952c9"
+fuzzy_sha256: "09ea5a11cfffacbb45cf90076ccad8d5c169f45062977ac32e83dbffa34e8252"
 full_sha256: "c5daa7d7772a6adeed015b502f134cff33ad43dead384e522a711d3e3a1fde82"
-git_commit_hash: "cdab98b0476f001cfb379bc77877387034fcd46f"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/cdab98b0476f001cfb379bc77877387034fcd46f"
-git_commit_date: "2026-05-01T16:34:56+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:07.442240"
 raw_markdown: |
   **RVN: “Er gebeurt nooit iets” – De gecontroleerde Informatie Oorlog** 🌀
   

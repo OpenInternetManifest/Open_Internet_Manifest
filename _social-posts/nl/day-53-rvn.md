@@ -10,10 +10,10 @@ website_sha256: "8313a848faacb01f3e90a08c6cd97d53e8906dd66b478c7d6c8d772e7fd23fe
 social_x_sha256: "5067aab3355db5fafc6da5b908334bf13035564b1b45ae7459c7773f4d9e2e64"
 social_fb_sha256: "5067aab3355db5fafc6da5b908334bf13035564b1b45ae7459c7773f4d9e2e64"
 social_share_sha256: "5067aab3355db5fafc6da5b908334bf13035564b1b45ae7459c7773f4d9e2e64"
-git_commit_hash: "795fafda85133d49758bf3a122a048576aa23334"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/795fafda85133d49758bf3a122a048576aa23334"
-git_commit_date: "2026-04-18T07:31:06+02:00"
-fuzzy_sha256: "961f0ac0e88fae40d72520a88d8801eaeb292803492b14a9fc78628501c8b503"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:05.082985"
+fuzzy_sha256: "a6becc4b9ed8d2ac5b4ede8b0d8c64cbf8b3099e744e30af23dd528921944fd6"
 full_sha256: "1431e97292575048bdf372d773d3080a4cc9b874590ad380c3483363831c9dad"
 raw_markdown: |
   **RVN: Observatie creëert realiteit – Hawthorne en het Double Slit Experiment** 🌀

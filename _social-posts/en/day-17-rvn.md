@@ -9,7 +9,7 @@ day: 17
 rvn_title: Predicted – Walz' Smoke Screens Now Reality
 # rvn_url: /en/social-posts/day-17-rvn
 rvn_teaser: Gatekeepers always choose which fire to extinguish
-fuzzy_sha256: "3a2bd0ea8c6c48b9c9791b5f4be0b0026aa58cfbb0e85d5a47032c30818c07e4"
+fuzzy_sha256: "7e5ac42bd2e3a4b18d13be853e855f871ed28108dff4d8a01fd36ab6a288160a"
 full_sha256: "7f6b3d91b8d04ad41460181814a6a26a83d715752d24ba99632d055dbbd08932"
 raw_markdown: |
   🇬🇧 **Day 17 – Reality vs Narrative: Day 9 Predicted – Walz' Smoke Screens Now Reality** 🌐🔥

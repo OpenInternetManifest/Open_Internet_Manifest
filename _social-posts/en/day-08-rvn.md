@@ -9,7 +9,7 @@ day: 8
 rvn_title: Greenland Escalation; Tariffs Edition
 # rvn_url: /en/social-posts/day-8-rvn
 rvn_teaser: Trump hits allies with tariffs — economy in danger!
-fuzzy_sha256: "35e2f1c509adb7a39ae719515ed3143353fd10c34d85500f319d4228c9554ccd"
+fuzzy_sha256: "6b115ae05d6b13cd7996b5531fbf94ba8ea8e748c7cdbb7d27aaa3eaf5615eba"
 full_sha256: "588af04f0a13b8139154142c99f2a9e9a71eadf84ce4e78f646b548520f127e1"
 raw_markdown: |
   Reality vs Narrative – Greenland Escalation: Tariffs Edition (Jan 18, 2026)

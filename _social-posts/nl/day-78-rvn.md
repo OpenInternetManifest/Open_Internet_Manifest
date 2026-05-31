@@ -6,11 +6,11 @@ rvn_title: "Schijnvooruitgang #8: Feminisme als bevrijding?"
 rvn_teaser: "Vrouwen zijn eindelijk bevrijd. Maar zijn ze ook gelukkiger en vrijer geworden?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "76a985495e608f84c0dd1630437748ffe2d90ac686d4b3b2f63eaf1fb346b12b"
+fuzzy_sha256: "217d57e1a6c8a0830f81139ae15f9ff2bbecfadca74a6749ed10f4be141c8363"
 full_sha256: "010b1f64237b93c4d5214f17745c34a3d90112897447a3791893651765a5eae2"
-git_commit_hash: "8c139182e542abcf470df4ae99a1b8dfab2a68ca"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8c139182e542abcf470df4ae99a1b8dfab2a68ca"
-git_commit_date: "2026-05-12T06:52:01+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.028502"
 raw_markdown: |
   **Schijnvooruitgang – Dag 34: Feminisme als bevrijding?** 👩
   

@@ -9,9 +9,9 @@ donation_text: ""
 fuzzy_sha256: "6f23b3fb7bcd35d014d35e869db901e11787e1b4eb08a35bc5b44d87846ef34a"
 full_sha256: "2d53a3a538d4d6c3106c3192227a6b2b55e65332038642b3b601953bde5b1f89"
 social_share_sha256: ""
-git_commit_hash: "a160238f0dad0d57f4ba8243b33f6d51c838aab1"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/a160238f0dad0d57f4ba8243b33f6d51c838aab1"
-git_commit_date: "2026-05-22T07:31:27+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:50.900618"
 raw_markdown: |
   **RVN: “27 Crew Members Arrested on Disney Ships for Child Pornography”** 🌀
   

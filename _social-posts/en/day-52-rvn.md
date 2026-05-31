@@ -10,10 +10,10 @@ website_sha256: "c9385018697327d9e06e9cced2086805ee736ee91b784eb9520831440833b33
 social_x_sha256: "9b1f76ceaaa09d24025028fd7e2366205c4135dd64bd20cb7932c7b614be91f0"
 social_fb_sha256: "9b1f76ceaaa09d24025028fd7e2366205c4135dd64bd20cb7932c7b614be91f0"
 social_share_sha256: "9b1f76ceaaa09d24025028fd7e2366205c4135dd64bd20cb7932c7b614be91f0"
-git_commit_hash: "27bafcaf2ea4003d2039071b9894e99c20ff9861"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/27bafcaf2ea4003d2039071b9894e99c20ff9861"
-git_commit_date: "2026-04-17T07:12:49+02:00"
-fuzzy_sha256: "61da1851a872efb139b98f823270c2867d2a449152b9ab83ec2a8fcacfd05e16"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:44.943569"
+fuzzy_sha256: "2b41a8b9c89e24d72366acfb287675cced935b5f80d8a5450b6e7c2b593cbba9"
 full_sha256: "269d4e58d7cf84b3588e24fd8cac3290d24c19cdffd3b0d02f0a2fdc30d7237a"
 raw_markdown: |
   **RVN: The Pressure of the Group – Why We Stop Trusting Our Own Eyes** 🌀

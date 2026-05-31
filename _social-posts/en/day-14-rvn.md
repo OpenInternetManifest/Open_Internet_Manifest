@@ -9,7 +9,7 @@ day: 14
 rvn_title: Selective outrage on demand
 # rvn_url: /en/social-posts/day-14-rvn
 rvn_teaser: CNN; ICE raids have always been controversial
-fuzzy_sha256: "55c3979614f8cfa971c409485ce7ebdead47682d91d80dbddb47a278429871a4"
+fuzzy_sha256: "4cc2f5201067d0d17419f80104d9aeede9e0aa33046cada9707ab667ce3d65f4"
 full_sha256: "cce540b97793deb4d861c8b543cf3d8986d142fcc657ec547ddab509dbfa0a74"
 raw_markdown: |
   **Reality vs Narrative** – DHS bill: selective outrage on demand 🚨🇺🇸

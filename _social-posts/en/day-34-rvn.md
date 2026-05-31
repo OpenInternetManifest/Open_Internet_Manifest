@@ -9,7 +9,7 @@ day: 34
 rvn_title: The new look
 # rvn_url: /en/social-posts/day-34-rvn
 rvn_teaser: building instead of complaining
-fuzzy_sha256: "6080989228badb47d98661caaa68094dc3fd02bb89249f25996b343563884239"
+fuzzy_sha256: "361e59b2b95817a6b2f6077e0d1b71156e7ba3398ab1f7fa9e92b6e9a0e6a544"
 full_sha256: "6122085449ff06f500375eaf11c683f8a5dc4af8b8f869daf0c96a04e05a7e4f"
 raw_markdown: |
   **Day 34 – RVN: The new look – building instead of complaining** 🛠️✨  

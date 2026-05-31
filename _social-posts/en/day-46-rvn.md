@@ -10,10 +10,10 @@ website_sha256: "76d97469d193a2e4f4ee598786210708dd11012e8ed61104e8e8ed12b6ba315
 social_x_sha256: "e8a10f6553895c54bb6a96726e0f10173b9cb7b30529389202932bb9727c56f4"
 social_fb_sha256: "e8a10f6553895c54bb6a96726e0f10173b9cb7b30529389202932bb9727c56f4"
 social_share_sha256: "e8a10f6553895c54bb6a96726e0f10173b9cb7b30529389202932bb9727c56f4"
-git_commit_hash: "b3836a13d90aa13821504584ef0ac5c01830d71a"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/b3836a13d90aa13821504584ef0ac5c01830d71a"
-git_commit_date: "2026-04-06T18:09:45+02:00"
-fuzzy_sha256: "deba4cd47bd2b193e8a1dcd1f7e3ea9a7e040c3bb81e8b398c3e94b2ac4f9070"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:43.991674"
+fuzzy_sha256: "a85770434fe4d95dd1982ff61e7555bff4ea59e8544927cb2f92c1827ca83853"
 full_sha256: "3d66febb00b6538b9171fccb47c7aa7899916ca4c53ba53391f9f693cda527f7"
 raw_markdown: |
   **RVN: Why is a Jewish Jesus the reason to be Christian? – Easter and Fulfillment** 🌀

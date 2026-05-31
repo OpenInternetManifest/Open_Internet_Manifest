@@ -7,10 +7,10 @@ rvn_teaser: "Sometimes victims start defending their own oppressors. This is not
 donation_link: ""
 donation_text: ""
 social_share_sha256: ""
-git_commit_hash: "af1c326f6b55db269994c2a24ca261b80f58def2"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af1c326f6b55db269994c2a24ca261b80f58def2"
-git_commit_date: "2026-04-25T08:11:29+02:00"
-fuzzy_sha256: "3f537037091e1a1ac9c8eb2a629c8b8200574e0fd86f3ed24ee55025c50f80eb"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:46.216842"
+fuzzy_sha256: "93150105f445c830da5e93e71c6086cf6cd8190a160789ad056feeb7a5421fae"
 full_sha256: "63e72d5dd35e1a60325204362d06178d3750b374146b9031004a20623eb0e76f"
 raw_markdown: |
   **RVN: Hostage Falls in Love with Captor – Stockholm Syndrome** 🌀

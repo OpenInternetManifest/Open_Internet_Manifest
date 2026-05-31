@@ -6,11 +6,11 @@ rvn_title: "Waarom treft het altijd één kant?"
 rvn_teaser: "Het patroon dat alles verklaart."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "f624b189d01ba2becadf4d9f81d59941a675b7548765f62fb04ee82de1127778"
+fuzzy_sha256: "9d5b0a247e48acc3a12ecabc2197405ee74533ef8e4a02a6703f1fec98b236d4"
 full_sha256: "034ad63a221816872a32b90113eabb962437ec95680be1104da2dc51b69f2fbf"
-git_commit_hash: "2c92a97b6d84f1c96ab62ae2f2468f628574fdbf"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/2c92a97b6d84f1c96ab62ae2f2468f628574fdbf"
-git_commit_date: "2026-05-21T06:43:18+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:10.786127"
 raw_markdown: |
   **RVN: “Waarom treft het altijd één kant?”** 🌀
   

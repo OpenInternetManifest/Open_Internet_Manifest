@@ -10,11 +10,11 @@ website_sha256: "05abe3231e21a950cfbae6367b7492558d8de4146ce971fb3276b8f265bb942
 social_x_sha256: "9aa05089f01a9389760de046998aa8b4d2b4403b929b7d95eb77c1dae5a57f84"
 social_fb_sha256: "9aa05089f01a9389760de046998aa8b4d2b4403b929b7d95eb77c1dae5a57f84"
 social_share_sha256: "9aa05089f01a9389760de046998aa8b4d2b4403b929b7d95eb77c1dae5a57f84"
-git_commit_hash: "86e014d5d76bbf885e17ba4b79a9a2980d43bc93"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/86e014d5d76bbf885e17ba4b79a9a2980d43bc93"
-git_commit_date: "2026-04-13T06:46:28+02:00"
-fuzzy_sha256: "46fd25b98836166ec9f5e7c686e81963ae1683abcde18ba400635f89d02f760c"
-full_sha256: "ea7738482eee55ffb4b11b84c151df14d5dde7a14e0a098772d85d735ac66678"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:04.278454"
+fuzzy_sha256: "f429ca4efdc1d797e2a3ae7d1c8666a7b8707e300e1dd7b5670603a4986e072c"
+full_sha256: "6ab84f3aaf8d6d87c62ef57cfdcd6d13ddd5adcb4efc36a82c2fd6a0145be744"
 raw_markdown: |
   **RVN: We zijn terug – De Manipulatie van Realiteit** 🌀
   

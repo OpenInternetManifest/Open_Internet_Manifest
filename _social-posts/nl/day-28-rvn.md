@@ -9,7 +9,7 @@ day: 28
 rvn_title: De drie onzichtbare lagen
 # rvn_url: /nl/social-posts/dag-28-rvn
 rvn_teaser: Die het systeem draaiende houden
-fuzzy_sha256: "a7026d6b61bbf44d3cfc31c45596023775f3452cb193bb92c1a1c0d9fea2a77f"
+fuzzy_sha256: "5aec63c9910e528dc26b42d6cf5e60fb035edcb04a9646831b1208d14eb23c80"
 full_sha256: "9f96272457405212422bb0be643b8e8aad79efe3caeed61ba5ebd2ac12819259"
 raw_markdown: |
   **Realiteit vs narratief – De drie onzichtbare lagen die het systeem draaiende houden** 🕸️🔍

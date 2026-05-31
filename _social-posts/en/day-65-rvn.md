@@ -6,12 +6,12 @@ rvn_title: "Oil Prices and the Asymmetric Game – Who Really Profits?"
 rvn_teaser: "Why does the price at the pump stay high even when there is enough oil? Today we look at the game of sweet vs heavy oil, refining, and geopolitics."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "6e0e9db03dd0deaef4d74ab83b2612df0d58d62868b34dd084f752b632b4a240"
-full_sha256: "a70d1176b9d0924e32efb37e1e18f9451581eb90f4c5c3f072cc25292448c581"
+fuzzy_sha256: "69bad0b4f6675276c6e796379d67b8fd348def899efa56bae5956b1612ef39ff"
+full_sha256: "356628b385d7730979ef44b55190922975fc765ecf44a6b1527b98e9d5abdda2"
 social_share_sha256: ""
-git_commit_hash: "69d2153f2f48b9f9e3be0a228f48810a9d008c38"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/69d2153f2f48b9f9e3be0a228f48810a9d008c38"
-git_commit_date: "2026-04-29T06:47:06+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:47.006406"
 raw_markdown: |
   **RVN: Oil Prices and the Asymmetric Game – Who Really Profits?** 🛢️
   

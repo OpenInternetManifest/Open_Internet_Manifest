@@ -9,7 +9,7 @@ day: 31
 rvn_title: Words don’t count for what they literally say
 # rvn_url: /en/social-posts/day-31-rvn
 rvn_teaser: but for the narrative they create
-fuzzy_sha256: "d43e0e3ad6e2f6532af34eb4068e0a8a7b25e8f72776ec97edf867c242be097d"
+fuzzy_sha256: "e28e29ba72e7be73bdf039c2c0c95a495246b0ec2599833730cd14aa0a8150cf"
 full_sha256: "23dc4d9e79b06e8dc7e3f6cde2edf241d83f31af7370c101d0f52e7930f3697b"
 raw_markdown: |
   **Day 31 – RVN: Words don’t count for what they literally say anymore, but for the narrative they create** ⚖️🌀  

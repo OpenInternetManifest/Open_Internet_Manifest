@@ -6,12 +6,12 @@ rvn_title: " Illusory Progress #5: The 15-Minute City as the Ideal Place to Live
 rvn_teaser: "Everything within 15 minutes. Sounds like the dream of the future. But what is the real price?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "70048c48690130fd05578cca37f130673cde00d8c41e91f3447d08cb26b152a6"
+fuzzy_sha256: "21e3fb15cd7d722f1b8f04dabbf1423cf9ef5839e68473ffe14fbedd037c8e55"
 full_sha256: "ecd74a37ff30fc14e1896dc0eda854e4ef3f148c31e4405bdb3849502dbebc39"
 social_share_sha256: ""
-git_commit_hash: "f913680e0dcdb3b0e9b468502d530cdd2dd298a2"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/f913680e0dcdb3b0e9b468502d530cdd2dd298a2"
-git_commit_date: "2026-05-09T06:58:17+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:48.563832"
 raw_markdown: |
   **Illusory Progress – Day 31: The 15-Minute City as the Ideal Place to Live?** 🏙️
   

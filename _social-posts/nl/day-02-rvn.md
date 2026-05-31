@@ -9,7 +9,7 @@ day: 2
 rvn_title: Iran
 # rvn_url: /nl/social-posts/dag-2-rvn
 rvn_teaser: Censuur en internetblackouts zijn soms nodig
-fuzzy_sha256: "27576da3c2ef9de48a5fa79977ea270f941dd0d203ee69299a53d4e06a45df84"
+fuzzy_sha256: "0183f6445b3b2310027a4644d4a1794f703fc958db9ebee554cb74454263bc83"
 full_sha256: "03bf6bb7d372303362432a42900bee6d8b0fdbad1cbe46a484fe72a4e38625dc"
 raw_markdown: |
   Realiteit vs. Narratief – Het Open Internet Manifest (Iran editie).

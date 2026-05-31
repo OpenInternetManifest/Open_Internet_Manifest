@@ -6,11 +6,11 @@ rvn_title: "Trump dwingt Iran tot deal – de Uranium One connectie"
 rvn_teaser: "Is dit alleen een nucleaire deal… of veel meer?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "3e878fedc64221fc67ba738800e811d41c19d4992a55f1ffec8a90c66a4a0870"
+full_sha256: "bd479d932812560036b40b71663e9555432827bf238ea254e509d5ab14beabec"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:11.899631"
 raw_markdown: |
   
   ### RVN: “Trump dwingt Iran tot deal – de Uranium One connectie” 🌀

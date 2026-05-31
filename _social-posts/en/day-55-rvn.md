@@ -7,10 +7,10 @@ rvn_teaser: "The more people there are, the smaller the chance that someone will
 donation_link: ""
 donation_text: ""
 social_share_sha256: ""
-git_commit_hash: "ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/ec50c9d90f440c5b4dabdc18fbe1177af2e64b1a"
-git_commit_date: "2026-04-20T06:53:39+02:00"
-fuzzy_sha256: "8a0df86c43c1df702af30ef0c1fecd5db3392d8387240c27eaf9862298f2432f"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:48:45.421513"
+fuzzy_sha256: "278d60c9350ade0bc43cd9ddfb4b491b46a573b92f6b4243b3cdfc1268ae508c"
 full_sha256: "abb34dc4964a37d84afe73108aa88232488e2a7cb778ab5b0aec4c2eb55bee9f"
 raw_markdown: |
   **RVN: Nobody Helps – The Bystander Effect** 🌀

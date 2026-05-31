@@ -9,7 +9,7 @@ day: 38
 rvn_title: Temporary alliesthe pattern that always returns
 # rvn_url: /en/social-posts/day-38-rvn
 rvn_teaser: the pattern that always returns
-fuzzy_sha256: "a107632653cef235f75cc48e38c8d25596d1ffff87299c9c336111e0473ba6b0"
+fuzzy_sha256: "4b62a485a36c86358ec3bcf7f2fab30674ef60b2077a73741edcf2526684f725"
 full_sha256: "f33f2390b4306ffce524e63795bf3489df51a2f460e55f7432027dabb2805512"
 raw_markdown: |
   **Day 38 – RVN: Temporary allies: the pattern that always returns** 🪢🎪

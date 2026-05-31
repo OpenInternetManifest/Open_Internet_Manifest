@@ -8,9 +8,9 @@ donation_link: ""
 donation_text: ""
 fuzzy_sha256: "e07f299e439db176b77bfa855aed9200e47a63d50156e9304bda02a7c3fa6d33"
 full_sha256: "a605fcdda71ae6d49414f29a6cbf92f8b6d7509bf20cef1c8552bb2d6149600a"
-git_commit_hash: "db604d918eee707f50794309d94007c9861a74dd"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/db604d918eee707f50794309d94007c9861a74dd"
-git_commit_date: "2026-05-28T06:02:34.110949"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:11.582501"
 raw_markdown: |
   
   ### RVN: “Wat is Q eigenlijk?” 🌀

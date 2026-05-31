@@ -6,11 +6,11 @@ rvn_title: "Schijnvooruitgang: De grote samenvatting"
 rvn_teaser: "We zijn 11 dagen lang schijnvooruitgang langsgegaan. Wat is het patroon?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "1fc57cbc6bc25b0e1d4948e3f09032560d10758f3e1cfbd44cb7496f48236ee1"
+fuzzy_sha256: "08310c6193b8f310c39a42a3ebf5fdc8c55f9bb7a7695d14d35a17a01df9b84f"
 full_sha256: "d3319b554ca40aa3aa439ff6eaf8e9f8c794db0b504fe4eb93be24046ec5bb9a"
-git_commit_hash: "34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/34a2b74c9e2c2305543a569826ff2b6d1faa3e52"
-git_commit_date: "2026-05-15T06:47:44+02:00"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.508519"
 raw_markdown: |
   **Schijnvooruitgang – Dag 38: De grote samenvatting** 🔄
   
