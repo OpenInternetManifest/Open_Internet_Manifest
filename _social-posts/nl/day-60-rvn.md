@@ -30,7 +30,7 @@ raw_markdown: |
   
   Vandaag sluiten we de serie af met een van de meest extreme en tegelijkertijd meest herkenbare vormen van psychologische manipulatie.
   
-  ---
+     ---
   
   ### Stockholm Syndrome (1973)
   

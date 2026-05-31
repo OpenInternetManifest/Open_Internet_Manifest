@@ -19,7 +19,7 @@ raw_markdown: |
   
   Lees mee: https://openinternetmanifest.org  
   
-  ---
+    ---
   
   🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  
   PVV loses 7 MPs – biggest split ever, led by Gidi Markuszower forming **Group Markuszower**. Reason: no democracy, bad course on Israel/Ukraine.  

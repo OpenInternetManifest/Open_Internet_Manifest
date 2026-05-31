@@ -23,7 +23,7 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #RealiteitVsNarratief #OpenInternetManifest #Hypocrisie #NoGatekeepers
   
-  ---
+    ---
   
   🇬🇧 **Day 16 Teaser** 🌐✂️  
   The pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap.  

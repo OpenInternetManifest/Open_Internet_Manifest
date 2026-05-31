@@ -57,7 +57,7 @@ raw_markdown: |
   Contant geld is niet ouderwets.  
   Contant geld is vrijheid.
   
-  ---
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -69,7 +69,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #CashlessSociety #CBDC #Privacy #ContantGeld #Vrijheid #OpenInternetManifest
   
-  ---
+    ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

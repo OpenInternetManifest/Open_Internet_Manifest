@@ -62,8 +62,8 @@ raw_markdown: |
   
   Zonder economische noodzaak, sociale druk of staatsbemoeienis.  
   Een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal.
-  
-  ---
+
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -75,7 +75,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #Feminisme #Antidepressiva #Echtscheiding #Geboortecijfer #EchteVrijheid #OpenInternetManifest
   
-  ---
+    ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

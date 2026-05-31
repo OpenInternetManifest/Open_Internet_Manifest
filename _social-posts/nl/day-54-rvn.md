@@ -24,7 +24,7 @@ raw_markdown: |
   
   Vandaag gaan we naar een experiment dat laat zien hoe razendsnel “Wij vs Zij”-denken gecreëerd kan worden — en hoe makkelijk het weer afgebroken kan worden.
   
-  ---
+    ---
   
   **Robbers Cave Experiment (Muzafer Sherif, 1954)**
   

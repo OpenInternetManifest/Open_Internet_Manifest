@@ -27,7 +27,7 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #RealiteitVsNarratief #Dag23Teaser
   
-  ---
+      ---
   
   🇬🇧 **Day 23 Teaser – Tonight: just breathe** 😏🍿  
   Today we dove into 1913: Titanic, FED, income tax and three anti-bank billionaires who didn’t survive.  

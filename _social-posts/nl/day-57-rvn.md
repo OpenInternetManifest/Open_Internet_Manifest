@@ -27,7 +27,7 @@ raw_markdown: |
   
   Vandaag kijken we naar een experiment dat laat zien hoe druk en haast zelfs moreel gedrag kunnen ondermijnen — zelfs bij mensen die er expliciet over nadenken.
   
-  ---
+     ---
   
   **Good Samaritan Experiment (Darley & Batson, 1973)**
   

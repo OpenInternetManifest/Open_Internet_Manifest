@@ -63,7 +63,7 @@ raw_markdown: |
   Niet met klagen over het systeem.  
   Maar met het bouwen van een alternatief.
   
-  ---
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -76,7 +76,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #Boeren #Middenstand #Corona #Stikstof #Onafhankelijkheid #OpenInternetManifest
   
-  ---
+    ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

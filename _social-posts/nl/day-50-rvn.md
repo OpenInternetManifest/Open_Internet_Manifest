@@ -24,7 +24,7 @@ raw_markdown: |
   
   Vandaag gaan we verder met een experiment dat laat zien hoe sterk **autoriteit** ons gedrag kan beïnvloeden.
   
-  ---
+    ---
   
   **Milgram Obedience Experiment (1961)**
   

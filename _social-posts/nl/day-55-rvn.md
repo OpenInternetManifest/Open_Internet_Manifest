@@ -25,7 +25,7 @@ raw_markdown: |
   
   Vandaag kijken we naar een fenomeen dat ons allemaal raakt: waarom doen mensen vaak niets als er hulp nodig is?
   
-  ---
+    ---
   
   **Bystander Effect (Darley & Latané, 1968)**
   

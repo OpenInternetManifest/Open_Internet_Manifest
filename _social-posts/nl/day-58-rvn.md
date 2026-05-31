@@ -28,7 +28,7 @@ raw_markdown: |
   
   Vandaag kijken we naar een test die laat zien dat we vooroordelen hebben die we zelf vaak niet eens bewust doorhebben.
   
-  ---
+    ---
   
   **Implicit Association Test (IAT)**
   

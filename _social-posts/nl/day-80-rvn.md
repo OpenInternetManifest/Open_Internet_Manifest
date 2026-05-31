@@ -48,7 +48,7 @@ raw_markdown: |
   Zonder boeren geen voedsel.  
   Zonder voedsel geen beschaving.
   
-  ---
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -60,7 +60,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #Stikstofcrisis #Boeren #Voedselsoevereiniteit #Landonteigening #OpenInternetManifest
   
-  ---
+     ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

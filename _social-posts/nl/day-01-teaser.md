@@ -19,7 +19,7 @@ raw_markdown: |
    https://openinternetmanifest.org  
   Kijk ook:  https://www.youtube.com/watch?v=lxEektSWfLw
   
-  ---
+    ---
   
   🇬🇧 Day 1 – The start of something big  
   Started in December 2025: a dream of an internet that is ours again.  

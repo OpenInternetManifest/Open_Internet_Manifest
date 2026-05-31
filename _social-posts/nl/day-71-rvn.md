@@ -31,7 +31,7 @@ raw_markdown: |
   **OIM-uitweg**  
   Koop waar mogelijk cash of tweedehands. Betaal af. Bouw eigenaarschap op in plaats van maandelijkse abonnementen. Kies voor kleine teams, open-boek financiën en echte winstdeling.
   
-  ---
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -43,7 +43,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #AccuManifest #Lease #Eigenaarschap #ParasitaireEconomie #OpenInternetManifest
   
-  ---
+     ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

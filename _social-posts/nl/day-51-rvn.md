@@ -26,7 +26,7 @@ raw_markdown: |
   
   Vandaag gaan we verder met een experiment dat laat zien hoe snel normale mensen zich volledig aanpassen aan de rol die ze toebedeeld krijgen.
   
-  ---
+    ---
   
   ### Stanford Prison Experiment (Philip Zimbardo, 1971)
   

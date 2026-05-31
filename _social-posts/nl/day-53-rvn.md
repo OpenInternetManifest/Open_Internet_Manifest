@@ -30,7 +30,7 @@ raw_markdown: |
   
   Vandaag komen we bij een van de meest fascinerende verbindingen in deze serie: twee experimenten uit totaal verschillende werelden die precies hetzelfde onthullen.
   
-  ---
+    ---
   
   ### 1. Het Hawthorne Effect (1924–1932)
   

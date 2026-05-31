@@ -17,7 +17,7 @@ raw_markdown: |
   
   https://openinternetmanifest.org  
   
-  ---
+    ---
   
   🇬🇧 Day 6 – Freedom with boundaries  
   Maximum freedom, but without chaos.  

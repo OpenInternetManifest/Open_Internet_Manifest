@@ -29,7 +29,7 @@ raw_markdown: |
   Waarom? Omdat woorden makkelijk aangepast worden — hashes niet.  
   #RealiteitVsNarratief #OpenInternetManifest
   
-  ---
+    ---
   
   🇬🇧 Day 8 – Verifiability: hashes don’t lie  
   

@@ -47,7 +47,7 @@ raw_markdown: |
   Rijd minder in plaats van duurder.  
   Echte vrijheid is niet een nieuwe auto – het is een auto die van jou is en blijft werken zonder toestemming van een app.
   
-  ---
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -59,7 +59,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #ElektrischeAuto #EV #EchteVrijheid #Onafhankelijkheid #OpenInternetManifest
   
-  ---
+    ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

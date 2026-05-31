@@ -23,7 +23,7 @@ raw_markdown: |
   
   Lees mee: https://openinternetmanifest.org  
   
-  ---
+     ---
   
   🇬🇧 **Day 10 – The Invisible Leash** 🔗  
   They promise *"transparency"* & *"protection"* via AI rules & chat scans (EU 2026 rollout).  

@@ -19,7 +19,7 @@ raw_markdown: |
   
   Het manifest begint hier – en het groeit door jou. 🚀
   
-  ---
+    ---
   
   🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
   Thesis 1 hits hard:  

@@ -52,7 +52,7 @@ raw_markdown: |
   Bouw vermogen op in plaats van maandelijkse verplichtingen.  
   Echte vrijheid begint bij eigenaarschap.
   
-  ---
+     ---
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -64,7 +64,7 @@ raw_markdown: |
   
   #Schijnvooruitgang #AbonnementenEconomie #Ownership #EchteVrijheid #ParasitaireEconomie #OpenInternetManifest
   
-  ---
+    ---
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier

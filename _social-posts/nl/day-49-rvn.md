@@ -24,7 +24,7 @@ raw_markdown: |
   
   Vandaag starten we écht met de serie.
   
-  ---
+     ---
   ### Dartmouth Scar Experiment
   
   Vrouwen kregen met make-up een realistisch litteken op hun gezicht aangebracht voor een “onderzoek naar discriminatie”.  

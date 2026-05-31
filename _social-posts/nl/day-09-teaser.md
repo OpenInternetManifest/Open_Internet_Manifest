@@ -28,7 +28,7 @@ raw_markdown: |
   
   #openinternetmanifest #graduatedanimalfarm #Orwell #OrwellWasRight #vrijinternet #realiteitvsnarratief ❤️
   
-  ---
+     ---
   
   🇬🇧 Day 9 – What are Graduated Animal Farms?  
   The term comes from alternative circles and is a nod to George Orwell's Animal Farm 📖: a revolution hijacked by a new elite.  

@@ -28,7 +28,7 @@ raw_markdown: |
   
   Vandaag gaan we verder met een experiment dat laat zien hoe sterk **groepsdruk** ons eigen waarnemingsvermogen kan uitschakelen.
   
-  ---
+    ---
   
   ### Asch Conformity Experiment (Solomon Asch, 1951)
   
