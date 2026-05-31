@@ -6,11 +6,11 @@ rvn_title: "The Greater Meaning of Q"
 rvn_teaser: "What remained after Q?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "947ad72ab2136a70a1358e8a006e45312693fc96e3eb35990b46161d948d0b4f"
+full_sha256: "5ee7cfcb6ef5c054387a982d21b7969d61ccc1c0ad1b70a9d6afca08705280a2"
+git_commit_hash: "18cce22d4c99f39fd652599a0ba201dbcc6b0aac"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/18cce22d4c99f39fd652599a0ba201dbcc6b0aac"
+git_commit_date: "2026-05-31T06:38:33.599330"
 raw_markdown: |
   
   ### RVN: “The Greater Meaning of Q” 🌀
