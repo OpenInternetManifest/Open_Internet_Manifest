@@ -44,7 +44,7 @@ raw_markdown: |
   - The Politionele Acties were wrong, but Indonesian independence still came.  
   - Today we are one of the most generous countries in development aid and asylum — while simultaneously facing massive integration problems.
   
-  **The real question @Chrisklomp avoids:**
+  **The real question Chrisklomp avoids:**
   
   Why is it only allowed for Western countries to **not** feel pride in their culture and history, while it is encouraged (and even demanded) for almost all other cultures?
   
