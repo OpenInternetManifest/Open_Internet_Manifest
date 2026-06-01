@@ -33,7 +33,7 @@ raw_markdown: |
   - Politionele Acties waren fout, maar de Indonesische onafhankelijkheid kwam er alsnog.  
   - Vandaag de dag zijn we een van de meest genereuze landen qua ontwikkelingssamenwerking en opvang — terwijl we tegelijk te maken hebben met enorme integratieproblemen.
   
-  **De echte vraag die  @Chrisklomp ontwijkt:**
+  **De echte vraag die Chrisklomp ontwijkt:**
   
   Waarom mogen alleen Westerse landen zich niet trots voelen op hun cultuur en geschiedenis, terwijl dat bij vrijwel alle andere culturen wél mag (en zelfs aangemoedigd wordt)?  
   
