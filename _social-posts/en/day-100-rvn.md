@@ -6,11 +6,11 @@ rvn_title: "Proud to be Dutch? That’s dangerous and small-minded"
 rvn_teaser: "Why national pride is suddenly the greatest evil."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "a60185b1064da61932e60679f41df18481e1b3e81db17ffb17c8f4b301c73c5c"
+full_sha256: "400c3b71e4c0edbd2d3227e1b76760af6b42ec86f0620ca68e011c2bcbe10a52"
+git_commit_hash: "6da1604994a7ff23b5389c9019d3b84f378e360f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6da1604994a7ff23b5389c9019d3b84f378e360f"
+git_commit_date: "2026-06-01T19:33:21.939284"
 raw_markdown: |
   
   **RVN: “Proud to be Dutch? That’s dangerous and small-minded”** 🌀

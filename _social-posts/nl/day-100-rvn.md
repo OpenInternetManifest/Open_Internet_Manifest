@@ -6,11 +6,11 @@ rvn_title: "Trots op Nederland? Dat is gevaarlijk en kleinburgerlijk"
 rvn_teaser: "Waarom nationale trots ineens het grootste kwaad zou zijn."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "6dc838617f35c240c0e181a5ee45bd069c6078a97329427d03e88d915e31ef57"
+full_sha256: "1dab8f5fa44dafbaa8650158ce599346c371041d93e9c6f6a6cfa8025489c1ee"
+git_commit_hash: "6da1604994a7ff23b5389c9019d3b84f378e360f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6da1604994a7ff23b5389c9019d3b84f378e360f"
+git_commit_date: "2026-06-01T19:33:22.099240"
 raw_markdown: |
   
   ### RVN: “Trots op Nederland? Dat is gevaarlijk en kleinburgerlijk” 🌀
