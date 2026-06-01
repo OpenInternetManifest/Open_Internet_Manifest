@@ -6,11 +6,11 @@ rvn_title: "Deel 1 – Waarom je Chrome moet dumpen (en direct overstappen naar 
 rvn_teaser: "Je eerste echte stap uit Google-slavernij."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "472e6ed733101f4e865c6fd2fb22fe0d2554e3aa3b123b3b670b125ba225b3ba"
+full_sha256: "7c8052fb1b2b505b002e390df13ca2ebc2ce01aec433df026012d714495174a3"
+git_commit_hash: "152dd1d9cafd2fb8f457aac0977039be755c373f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/152dd1d9cafd2fb8f457aac0977039be755c373f"
+git_commit_date: "2026-06-01T04:43:26.842885"
 raw_markdown: |
   
   ### RVN: Deel 1 – Waarom je Chrome moet dumpen (en direct overstappen naar Brave) 🛡️

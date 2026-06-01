@@ -6,11 +6,11 @@ rvn_title: "Why you should ditch Chrome (and switch to Brave today)"
 rvn_teaser: "Your first real step out of Google slavery"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "25634d3ecf453c2bfab6511aa06c8f07427bfb8548a1bc0793b1f7550258a126"
+full_sha256: "0faca473cde436f8e6794d3ffcce26815186f349405e97cfd347d07fb479a119"
+git_commit_hash: "152dd1d9cafd2fb8f457aac0977039be755c373f"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/152dd1d9cafd2fb8f457aac0977039be755c373f"
+git_commit_date: "2026-06-01T04:43:26.679256"
 raw_markdown: |
   
   ### RVN: Part 1 – Why you should ditch Chrome (and switch to Brave today) 🛡️
