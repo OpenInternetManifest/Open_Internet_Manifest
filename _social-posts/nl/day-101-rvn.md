@@ -6,11 +6,11 @@ rvn_title: " Deel 2 – Vervang Google Search (en stop met jezelf uitleveren)"
 rvn_teaser: "Je tweede stap uit Google-slavernij"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "787175720cfc0ce38f7d49d5acda914a5b25ebc14c4759e493ee9a3a34e118e7"
+full_sha256: "422ab139cfb3e9d1eb441b3ca54d4bef58a371ef5b32250057d307b47679c7e2"
+git_commit_hash: "8d4299e273b39602bcb26410a95631075cb1934b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8d4299e273b39602bcb26410a95631075cb1934b"
+git_commit_date: "2026-06-02T04:43:40.939472"
 raw_markdown: |
   
   ### RVN: Deel 2 – Vervang Google Search (en stop met jezelf uitleveren) 🔍

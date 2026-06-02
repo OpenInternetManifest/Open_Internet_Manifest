@@ -6,11 +6,11 @@ rvn_title: "Part 2 – Replace Google Search (and stop handing over your life)"
 rvn_teaser: "Your second step out of Google slavery"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "9c5ac52685dd2bf7d3be82d45c504926591254aab01fb22e88ef559afcf3ef59"
+full_sha256: "642a04eb7770a4943ad764de65c0d5ffada70dccd37fffe97e5085bc9fedaafe"
+git_commit_hash: "8d4299e273b39602bcb26410a95631075cb1934b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8d4299e273b39602bcb26410a95631075cb1934b"
+git_commit_date: "2026-06-02T04:43:40.776390"
 raw_markdown: |
   
   ## # VN: Part 2 – Replace Google Search (and stop handing over your life) 🔍
