@@ -6,11 +6,11 @@ rvn_title: "Deel 3 – Vervang Gmail (je mail is niet privé)"
 rvn_teaser: "Je derde stap uit Google-slavernij."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "1d06e26e43ac8174d0e252d0c3b213c5325ed4319fc253b66b16b02a7b09f8ec"
+full_sha256: "f897ee06df836c99bc2ec46f4084e95ea86a16c2b876b4847665d6b0e27e21a0"
+git_commit_hash: "992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a"
+git_commit_date: "2026-06-03T06:49:15.257274"
 raw_markdown: |
   
   ### RVN: Deel 3 – Vervang Gmail (je mail is niet privé) ✉️

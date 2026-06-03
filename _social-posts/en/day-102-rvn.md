@@ -6,11 +6,11 @@ rvn_title: "Part 3 – Replace Gmail (your email is not private)"
 rvn_teaser: "Your third step out of Google slavery"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "ff8ffaec2bad98bb78fb9999c1a5c9b3890eba28ed490e52da63caff068e637b"
+full_sha256: "52a70020e294f105b99cea3825bdb22b483f89f30e7dd4998ccb1e010c20f34e"
+git_commit_hash: "992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a"
+git_commit_date: "2026-06-03T06:49:15.128085"
 raw_markdown: |
   
   ### RVN: Part 3 – Replace Gmail (your email is not private) ✉️
