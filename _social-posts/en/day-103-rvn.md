@@ -6,11 +6,11 @@ rvn_title: "Part 4 – Replace Windows (your computer is not yours)"
 rvn_teaser: "Your fourth step out of Big Tech slavery."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "fa1f4aae7e9a194e53ba01d895a0fc999f66d535a3b32b3a1eaf4562e8939aeb"
+full_sha256: "fa2236c01a783ea71da8c319a73d08f7352ca9072da27700ca2ce891fee849d3"
+git_commit_hash: "af359e93ca94b57659f8249f194cc8b177946f3e"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af359e93ca94b57659f8249f194cc8b177946f3e"
+git_commit_date: "2026-06-04T04:43:35.283872"
 raw_markdown: |
   
   ### RVN: Part 4 – Replace Windows (your computer is not yours)💻
