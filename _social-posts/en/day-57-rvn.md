@@ -6,9 +6,9 @@ rvn_title: "The Good Samaritan Who Was in a Hurry"
 rvn_teaser: " Even theology students on their way to a lecture about the Good Samaritan barely helped."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:48:45.739467"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:36:43.096887"
 raw_markdown: |
   **RVN: The Good Samaritan Who Was in a Hurry** 🌀
   

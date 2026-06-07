@@ -6,9 +6,9 @@ rvn_title: "De gevangenis in onszelf – Stanford Prison Experiment"
 rvn_teaser: "Wat gebeurt er als je gewone studenten willekeurig als gevangene of bewaker indeelt?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:04.763880"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:37:44.008526"
 raw_markdown: |
   **RVN: De gevangenis in onszelf – Stanford Prison Experiment** 🌀
   

@@ -6,9 +6,9 @@ rvn_title: "Observatie creëert realiteit – Hawthorne en het Double Slit Exper
 rvn_teaser: "Wat als je waarneming niet alleen kijkt… maar ook vormgeeft aan wat je ziet?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:05.082985"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:37:44.328811"
 raw_markdown: |
   **RVN: Observatie creëert realiteit – Hawthorne en het Double Slit Experiment** 🌀
   
