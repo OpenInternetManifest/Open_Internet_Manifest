@@ -4,7 +4,7 @@ lang: nl
 
 day: 28
 rvn_title: De drie onzichtbare lagen
-# rvn_url: /nl/social-posts/dag-28-rvn
+
 rvn_teaser: Die het systeem draaiende houden
 raw_markdown: |
   **Realiteit vs narratief – De drie onzichtbare lagen die het systeem draaiende houden** 🕸️🔍

@@ -3,7 +3,7 @@ layout: social-posts
 lang: nl
 day: 25
 teaser_title: 'Vandaag: Obama / Iran-deal'
-# teaser_url: /nl/social-posts/dag-25-teaser
+
 teaser_text: 'Morgen: The big three'
 raw_markdown: |
   🇳🇱 **Dag 25 Teaser – Vanavond: even op adem** 😏🍿  
