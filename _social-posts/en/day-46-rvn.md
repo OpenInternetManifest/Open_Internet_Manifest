@@ -6,9 +6,9 @@ rvn_title: "Why is a Jewish Jesus the reason to be Christian?"
 rvn_teaser: "**RVN: Why is a Jewish Jesus the reason to be Christian? – Easter and Fulfillment** 🌀"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:41.323155"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:09.280127"
 raw_markdown: |
   **RVN: Why is a Jewish Jesus the reason to be Christian? – Easter and Fulfillment** 🌀
   A very common question, especially around Easter:

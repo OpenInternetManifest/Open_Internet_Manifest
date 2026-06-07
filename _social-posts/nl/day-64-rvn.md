@@ -6,9 +6,9 @@ rvn_title: "De Graduated Animal Farm – Hoe we van pen naar pen worden geleid"
 rvn_teaser: "Je denkt dat je wakker bent. Maar wat als je gewoon in een grotere, mooiere pen bent geplaatst?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:37:46.105908"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:36.736454"
 raw_markdown: |
   **RVN: De Graduated Animal Farm – Hoe we van pen naar pen worden geleid** 🌀
   

@@ -6,9 +6,9 @@ rvn_title: "The Pressure of the Group – Why We Stop Trusting Our Own Eyes"
 rvn_teaser: "How far will you go when the whole group sees something different than you do?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:42.292055"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:10.068234"
 raw_markdown: |
   **RVN: The Pressure of the Group – Why We Stop Trusting Our Own Eyes** 🌀
   

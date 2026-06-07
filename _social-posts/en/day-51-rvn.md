@@ -6,9 +6,9 @@ rvn_title: "The Prison Inside Ourselves – Stanford Prison Experiment"
 rvn_teaser: "What happens when you randomly assign ordinary students as prisoners or guards?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:42.127301"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:09.909647"
 raw_markdown: |
   **RVN: The Prison Inside Ourselves – Stanford Prison Experiment** 🌀
   

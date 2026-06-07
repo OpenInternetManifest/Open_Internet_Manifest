@@ -6,9 +6,9 @@ rvn_title: " Why we pause the series: The fire at the Almere datacenter"
 rvn_teaser: "One fire in Almere takes down multiple services. This perfectly shows why we need to build OIM."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:45.831510"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:13.565340"
 raw_markdown: |
   **RVN – Day 30: The fire at the Almere datacenter** 🔥
   

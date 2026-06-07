@@ -6,9 +6,9 @@ rvn_title: "The Scar That Wasn’t There – How Perception Creates Discriminati
 rvn_teaser: "What if the discrimination you feel is real… but the scar doesn’t actually exist?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:41.806798"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:09.597657"
 raw_markdown: |
   **RVN: The Scar That Wasn’t There – How Perception Creates Discrimination** 🌀
   

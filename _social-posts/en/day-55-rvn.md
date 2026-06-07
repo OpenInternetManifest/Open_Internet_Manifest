@@ -6,9 +6,9 @@ rvn_title: "Nobody Helps – The Bystander Effect"
 rvn_teaser: "The more people there are, the smaller the chance that someone will intervene?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:42.773638"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:10.543887"
 raw_markdown: |
   **RVN: Nobody Helps – The Bystander Effect** 🌀
   

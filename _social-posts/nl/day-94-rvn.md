@@ -6,9 +6,9 @@ rvn_title: "Wat is Q eigenlijk?"
 rvn_teaser: "Waarom Trump nu opeens Q-gerelateerde berichten repost."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:37:50.935992"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:41.465020"
 raw_markdown: |
   
   ### RVN: “Wat is Q eigenlijk?” 🌀

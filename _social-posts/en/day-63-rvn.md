@@ -6,9 +6,9 @@ rvn_title: "How OIM Was Born – From Theses to a Living, Verifiable Manifesto"
 rvn_teaser: "Many people ask: what is OIM actually and why are we doing this? Today the full story – including the technical soul and future vision."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:44.063322"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:11.812626"
 raw_markdown: |
   **RVN: How OIM Was Born – From Theses to a Living, Verifiable Manifesto** 🌀
   

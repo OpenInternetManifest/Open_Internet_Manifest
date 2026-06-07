@@ -6,9 +6,9 @@ rvn_title: "Illusory Progress #3: The Heat Pump as Green Salvation?"
 rvn_teaser: "Sustainable, energy-efficient and the future. But does that story actually hold up?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
-git_commit_date: "2026-06-07T12:36:45.509588"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:13.242109"
 raw_markdown: |
   **Illusory Progress – Day 28: The Heat Pump as Green Salvation?** ♨️
   
