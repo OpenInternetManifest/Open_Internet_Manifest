@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 32
 rvn_title: Sun Tzu voltooid
-# rvn_url: /nl/social-posts/dag-32-rvn
 rvn_teaser: Epstein-files als boemerang die terugvliegt
-fuzzy_sha256: "42e3c33b1f72ba63c56fbbb464e1338a6e620e17a51b20568b0c640a37c7c4ca"
-full_sha256: "135bc0f941ee2b69df6e2507939c189c179f8105f4df361887e9158dc0c341fa"
 raw_markdown: |
   **Dag 32 – RVN: Sun Tzu voltooid – Epstein-files als boemerang die terugvliegt** ♟️🌀🔥  
   Een verhaal over hoe een push voor transparantie zichzelf in de voet schiet 💥
@@ -37,6 +30,9 @@ raw_markdown: |
   https://openinternetmanifest.org/hash-verifier  
   Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
   Waarom narratieven wild worden... 🌀
+
+full_sha256: 1b5e5786f9f0524621bfdbeb80452cf2bca8fa05094bdfd9e6256f0ec4501e17
+fuzzy_sha256: ce36c55eac2d5e25508d0803d55bf1afc0ab12f34c0f2031bc54c10a95a642ef
 clean_text: |-
   dag 32 – rvn: sun tzu voltooid – epstein-files als boemerang die terugvliegt ♟️🌀🔥 een verhaal over hoe een push voor transparantie zichzelf in de voet schiet 💥 stel je voor: dems en media schreeuwen jarenlang "trump zit in de epstein-files! cover-up! release nu!" 🔥 hearings vol vuur, crockett en raskin gooien alles in de strijd: "miljoenen mentions", "trump beschermd" 😡. elon roept mee: "laat alles zien" 📢. en dan gebeurt het. de files droppen – tranche na tranche in 2026 📂. duizenden verwijzingen naar trump: flight logs, contact book, mar-a-lago ✈️. maar middenin een oud fbi-document (2019 interview met ex-palm beach police chief michael reiter): trump belt in juli 2006, precies als epstein's zaak explodeert – "thank goodness you're stopping him, everyone has known he's been doing this." 🙌 hij gooide epstein uit mar-a-lago, noemde maxwell "evil", ging "the hell out of there" toen tieners erbij waren 🚪. de framing keert om. niet deelnemer, maar early alerter 🕵️‍♂️. sun tzu: "laat de vijand naar jou toekomen" ♟️. ze pushten release om hem te raken – en het vliegt terug als boemerang 🪃. maga viert "trump clean" 🎉, dems draaien door met "meer bewijs" 😤. polarisatie op maximum 📈. eerder deze week: house judiciary hearing met pam bondi (ag onder trump) ⚖️. dems vuren salvo's: mishandeling survivors, te weinig redactions, "trump beschermd" 💣. maar bondi komt binnen met een binder – foto's (reuters, getty) tonen een pagina: "jayapal pramila search history" 📑. lijst van exact welke files rep. pramila jayapal bekeek in de doj annex (4 computers, named logins) 🔍. doj trackt searches van congresleden 👀. jayapal razend: "spying! burn book met mijn exacte searches!" 🔥 raskin roept ig-onderzoek: "abuse of power" ⚡. zelfs speaker johnson (trump-ally): "not appropriate" 😬. sun tzu-twist: hun push voor info-vrijgave levert intel op over wat ze zoeken → counter-prep 🧠. poortwachters verliezen grip als feiten stromen 🌧️, maar controle verschuift naar monitoring 📡. epstein als symptoom: blackmail-netwerk, elite-controle – nu wapen in politiek spel 🕸️. dit is het narratief der narratieven in actie 🌀. iedereen claimt "de waarheid": links "trump schuldig", rechts "trump slachtoffer" ⚔️. beide kanten bouwen frames en vechten elkaar de tent uit, terwijl de echte macht lacht 😂. graduated animal farms: maximale verdeeldheid, minimale eenheid. morgen zondag-synthese: hoe dit narratief ons gevangen houdt, waarom feiten-regen (die nu valt) de uitweg is 🌧️, en hoe trump in dit opzicht de master oim-speler is – hij forceert transparantie, maakt controle zichtbaar, dwingt het systeem open 🔓. soevereiniteit voor ieder mens (en ai): recht op controle over eigen data, geen poortwachters 🚫. lees de 2006 call zelf. kijk naar de binder-foto's. wat zie jij als het narratief wegvalt? 🤔🛡️🌟 #rvn #openinternetmanifest #feitenbovenframes #realityvsnarratief #suntzu #epsteinfiles #pambondi #trump #elonmusk #narratiefdernarratieven #feitenregen #soevereiniteit #decentralisatie #maga #deepstate #dag32 #weeksynthese https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️✨. waarom narratieven wild worden... 🌀
 

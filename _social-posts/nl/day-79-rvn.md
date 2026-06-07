@@ -6,11 +6,9 @@ rvn_title: "Schijnvooruitgang #10: De jeugdzorg als redding"
 rvn_teaser: "Meer jeugdzorg = betere zorg voor onze kinderen. Toch?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "3e7a06c6c0d11e96c647eb56b984ede287d60942e967635718717563a9ce2ec0"
-full_sha256: "a4b019bbe9a965f2dd0f6be44a93db0f2399d8e58321fd335bc81bb951abef76"
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:06.660607"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.186613"
 raw_markdown: |
   **Schijnvooruitgang – Dag 36: De jeugdzorg als redding** 🧸
   
@@ -52,7 +50,7 @@ raw_markdown: |
   De jeugdzorg is het ultieme voorbeeld van schijnvooruitgang:  
   Hoe meer we “helpen”, hoe meer problemen we creëren.
   
-    ---
+  ***
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -64,12 +62,15 @@ raw_markdown: |
   
   #Schijnvooruitgang #Jeugdzorg #VermisteKinderen #Uithuisplaatsing #Bureaucratie #OpenInternetManifest
   
-    ---
+  ***
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 842827073cce39e94b4e9a27370e0f43efe298e3da7467cbfc8af8009398f31f
+fuzzy_sha256: b560179d404b04a0449d358dad4432aa754807fbb30d33a6f4744dbb830c06d1
 clean_text: |-
-  schijnvooruitgang – dag 36: de jeugdzorg als redding 🧸 korte recap we hebben al gezien hoe leasing, warmtepompen, ev’s, 15-minutensteden, abonnementen en cashloosheid ons steeds afhankelijker maken. vandaag: de jeugdzorg. narratief jeugdzorg is onmisbaar en nobel. kinderen die het moeilijk hebben verdienen professionele hulp. meer geld, meer hulpverleners en meer indicaties betekenen betere zorg. wie kritiek heeft, wil kinderen laten lijden. realiteit – keihard en bitter laag 1: explosie van de vraag in 10 jaar tijd is het aantal kinderen in de jeugdzorg verdubbeld. honderdduizenden kinderen zitten nu in een of andere vorm van zorg. dit is geen natuurlijk fenomeen. laag 2: geld als drijfveer hoe meer kinderen geïndiceerd worden, hoe meer geld er naar instellingen, gemeenten en zorgaanbieders vloeit. falende zorg = meer budget. dit is een perverse prikkel. laag 3: vermiste kinderen jaarlijks krijgt de politie duizenden meldingen van vermiste kinderen uit de jeugdzorg. in één jaar alleen al 1.761 meldingen uit gesloten instellingen (argos, 2020). er circuleren cijfers van rond de 2000 kinderen die op enig moment uit het zicht verdwijnen. dit zijn geen weglopers die even bij een vriendje zitten — dit zijn vaak kwetsbare jongeren die uit de zorg “verdwijnen”. laag 4: matige tot desastreuze resultaten ondanks miljarden euro’s per jaar zijn de uitkomsten dramatisch: hoge percentages suïcide, criminaliteit en langdurige uitkeringsafhankelijkheid onder ex-jeugdzorgcliënten. veel jongeren komen beschadigd uit uithuisplaatsingen en wisselen van pleeggezin naar instelling. ouders worden vaak als probleem gezien in plaats van als oplossing. laag 5: ouders buitenspel & machtsmisbruik ouders moeten vechten tegen een enorme bureaucratie. eén ambtenaar of hulpverlener kan met een pennenstreek een gezin ontwrichten. kritiek leidt snel tot het label “probleemgezin”. dit is geen zorgsysteem. dit is een industrie die draait op afhankelijkheid, macht en geld. oim-uitweg ouders moeten weer primair verantwoordelijk zijn. drastische vermindering van bureaucratie en indicatiemodel. hulp moet lokaal, klein, vrijwillig en tijdelijk zijn — geen jarenlange trajecten met perverse prikkels. terug naar het principe: gezin eerst, overheid als allerlaatste redmiddel. de jeugdzorg is het ultieme voorbeeld van schijnvooruitgang: hoe meer we “helpen”, hoe meer problemen we creëren. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de explosie van jeugdzorg een teken dat we betere zorg bieden, of dat we als samenleving massaal falen en het probleem alleen maar institutionaliseren? #schijnvooruitgang #jeugdzorg #vermistekinderen #uithuisplaatsing #bureaucratie #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  schijnvooruitgang – dag 36: de jeugdzorg als redding 🧸 korte recap we hebben al gezien hoe leasing, warmtepompen, ev’s, 15-minutensteden, abonnementen en cashloosheid ons steeds afhankelijker maken. vandaag: de jeugdzorg. narratief jeugdzorg is onmisbaar en nobel. kinderen die het moeilijk hebben verdienen professionele hulp. meer geld, meer hulpverleners en meer indicaties betekenen betere zorg. wie kritiek heeft, wil kinderen laten lijden. realiteit – keihard en bitter laag 1: explosie van de vraag in 10 jaar tijd is het aantal kinderen in de jeugdzorg verdubbeld. honderdduizenden kinderen zitten nu in een of andere vorm van zorg. dit is geen natuurlijk fenomeen. laag 2: geld als drijfveer hoe meer kinderen geïndiceerd worden, hoe meer geld er naar instellingen, gemeenten en zorgaanbieders vloeit. falende zorg = meer budget. dit is een perverse prikkel. laag 3: vermiste kinderen jaarlijks krijgt de politie duizenden meldingen van vermiste kinderen uit de jeugdzorg. in één jaar alleen al 1.761 meldingen uit gesloten instellingen (argos, 2020). er circuleren cijfers van rond de 2000 kinderen die op enig moment uit het zicht verdwijnen. dit zijn geen weglopers die even bij een vriendje zitten — dit zijn vaak kwetsbare jongeren die uit de zorg “verdwijnen”. laag 4: matige tot desastreuze resultaten ondanks miljarden euro’s per jaar zijn de uitkomsten dramatisch: hoge percentages suïcide, criminaliteit en langdurige uitkeringsafhankelijkheid onder ex-jeugdzorgcliënten. veel jongeren komen beschadigd uit uithuisplaatsingen en wisselen van pleeggezin naar instelling. ouders worden vaak als probleem gezien in plaats van als oplossing. laag 5: ouders buitenspel & machtsmisbruik ouders moeten vechten tegen een enorme bureaucratie. eén ambtenaar of hulpverlener kan met een pennenstreek een gezin ontwrichten. kritiek leidt snel tot het label “probleemgezin”. dit is geen zorgsysteem. dit is een industrie die draait op afhankelijkheid, macht en geld. oim-uitweg ouders moeten weer primair verantwoordelijk zijn. drastische vermindering van bureaucratie en indicatiemodel. hulp moet lokaal, klein, vrijwillig en tijdelijk zijn — geen jarenlange trajecten met perverse prikkels. terug naar het principe: gezin eerst, overheid als allerlaatste redmiddel. de jeugdzorg is het ultieme voorbeeld van schijnvooruitgang: hoe meer we “helpen”, hoe meer problemen we creëren. *** misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de explosie van jeugdzorg een teken dat we betere zorg bieden, of dat we als samenleving massaal falen en het probleem alleen maar institutionaliseren? #schijnvooruitgang #jeugdzorg #vermistekinderen #uithuisplaatsing #bureaucratie #openinternetmanifest *** deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -115,7 +116,7 @@ Dit is een **industrie** die draait op afhankelijkheid, macht en geld.
 De jeugdzorg is het ultieme voorbeeld van schijnvooruitgang:  
 Hoe meer we “helpen”, hoe meer problemen we creëren.
 
----
+***
 
 Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
 
@@ -127,7 +128,7 @@ Is de explosie van jeugdzorg een teken dat we betere zorg bieden, of dat we als 
 
 #Schijnvooruitgang #Jeugdzorg #VermisteKinderen #Uithuisplaatsing #Bureaucratie #OpenInternetManifest
 
----
+***
 
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier

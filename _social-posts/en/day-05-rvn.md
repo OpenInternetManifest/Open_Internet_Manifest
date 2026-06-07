@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 5
 rvn_title: Starlink Free for Iran
-# rvn_url: /en/social-posts/day-5-rvn
 rvn_teaser: Satellite internet like Starlink is dangerous!
-fuzzy_sha256: "4010425932b9c39c5b5c770f62578a5f6c93790b69b53ba3689fbbb360cd8bc4"
-full_sha256: "bf1563add03b4a696087944a834e4946ee8c28371069e5212dd20b5153c3fd4c"
 raw_markdown: |
   Reality vs. Narrative – Starlink Free for Iran.
   The narrative says:
@@ -42,6 +35,9 @@ raw_markdown: |
   
   What internet do you want: a blackout or an open line?
   #RealityVsNarrative #StarlinkIran #OpenInternetManifest #OIM #IranProtests
+
+full_sha256: d1dbda127bfb83fa031da5b5885f03b405bcb22389e114f7f3c37be28dc37a99
+fuzzy_sha256: e97aaf1f9311ddef997238e3c169813790aa3d5e5b37fbc41c5cf99778b50303
 clean_text: |-
   reality vs. narrative – starlink free for iran. the narrative says: “satellite internet like starlink is dangerous. it undermines regimes and causes instability. governments have the right to block access for security and order.” the reality: iran's internet has been largely blacked out for weeks. people can't reach family, coordinate protests, or show the world what's happening. yesterday, elon musk announced: starlink is now free for people in iran. but now the real story from inside (see screenshot): the regime is going door-to-door, confiscating satellite dishes and starlink terminals – just like in the early 2000s. people are risking everything to get a message out. the narrative says: “this is interference, illegal, dangerous.” the reality: a normal person in amsterdam with iranian roots can now perhaps reconnect with family trapped in the dark. a dissident can post without the mullahs pulling the plug – unless they come take your dish. this is exactly what the open internet manifest stands for: information and connection as a constitutional right – not a privilege controlled by regimes or corporations. the narrative wants control. reality wants freedom. choose reality: support initiatives that break blackouts. support the open internet manifest for a world where no one is cut off because a regime flips a switch. thank you, elon – and to all iranians: keep fighting. what internet do you want: a blackout or an open line? #realityvsnarrative #starlinkiran #openinternetmanifest #oim #iranprotests
 

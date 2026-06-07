@@ -6,8 +6,6 @@ rvn_title: "Abiotische Olie – Is olie echt een eindig fossiel of een regenerer
 rvn_teaser: "Gisteren keken we naar het spel van zoete vs zware olie en raffinage. Vandaag een nog diepere laag."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "9bc95854f044d796e79175c2a2ac209a848832654340eef9df811f8c03860107"
-full_sha256: "3777dc76754c011cde2f4bd90613d36d8f1ed9a5c4bad3900deba2533e3723ee"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:07.126245"
@@ -57,6 +55,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 99cba1bb6c8bd4f1d28e466c3e8d5a30ee738bbd703021a3844c0d5157dc99df
+fuzzy_sha256: 0af41191fdb323cdc12a53add2ec861aea7a65f0ac4d397ffb3a1ec3b2786ebf
 clean_text: |-
   rvn: abiotische olie – is olie echt een eindig fossiel of een regenererend mineraal? 🛢️ gisteren hebben we gekeken naar het asymmetrische spel van zoete versus zware olie, raffinage en geopolitiek — en waarom de prijs aan de pomp vaak weinig te maken heeft met hoeveel olie er fysiek uit de grond komt. vandaag gaan we een laag dieper. narratief: “olie is een fossiele brandstof, gemaakt van dino’s en planten. de voorraden raken op. daarom moeten we snel overschakelen.” realiteit – een diepere laag: er bestaat namelijk al decennia een serieuze alternatieve theorie: de abiotische (abiogene) olie theorie. deze stelt dat olie niet (voornamelijk) biologisch is ontstaan, maar diep in de aarde wordt gevormd uit anorganische stoffen (methaan, water, mineralen) onder extreme hitte en druk. olie zou dus een natuurlijk regenererend mineraal kunnen zijn. zoete vs zware olie binnen deze theorie lichte zoete olie zou vaak op grotere dieptes ontstaan en makkelijker omhoog migreren. zware, zure olie zou vaker op iets minder diepe lagen gevormd worden of langer contact hebben gehad met gesteente. volgens deze theorie (vooral de russisch-oekraïense school) verklaart dit waarom sommige velden zich (deels) lijken te herstellen en waarom olie wordt gevonden op plekken waar volgens de biogene theorie nooit leven kan hebben bestaan. waarom dit belangrijk is als olie (deels) abiotisch en regenererend is, dan is het “peak oil” en “we raken op”-verhaal veel zwakker. dan gaat het niet primair om fysieke schaarste, maar vooral om toegang, raffinage, transport en geopolitieke controle. oim-uitweg of olie nu volledig biogeen, abiotisch of een mix is — de les blijft dezelfde: twijfel aan officiële schaarste-narratieven. doorzie de mechanismen van kunstmatige schaarste. bouw echte energie-onafhankelijkheid in plaats van afhankelijk te blijven van een globaal systeem dat met één pennenstreek ontwricht kan worden. vraag aan jou geloof jij dat olie een eindige fossiele brandstof is, of zou het (deels) een regenererend proces van de aarde kunnen zijn? hoe beïnvloedt dit jouw beeld van energieprijzen en onafhankelijkheid? we bouwen door. feiten boven frames. #abiotischeolie #peakoil #energiemanipulatie #rvn #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

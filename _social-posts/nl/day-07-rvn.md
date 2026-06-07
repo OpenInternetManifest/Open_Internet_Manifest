@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 701ccb6624aeecb3d3954f62ad285a155035f80e8c68c08a13c33cba9059e560
-social_share_sha256: ''
 day: 7
 rvn_title: Polarisatie als wapen
-# rvn_url: /nl/social-posts/dag-7-rvn
 rvn_teaser: Links vs rechts, Joden vs moslims, West vs Oost
-fuzzy_sha256: "450d329bfa15d0534253227e4423d6e0d20dad7b1bec957242f52385be235271"
-full_sha256: "14368d3c7956b0f99fdccf41f3b02206edfe7b1a332140dd1503161ab33d386c"
 raw_markdown: |
   Realiteit vs Narratief – Polarisatie als wapen (deel 2)  
   
@@ -41,6 +34,9 @@ raw_markdown: |
   https://openinternetmanifest.org  
   
   #realiteitvsnarratief #polarisatie #DiversityIsOurStrength #vrijinternet #openinternetmanifest ❤️
+
+full_sha256: 3f879df068d0bba73686102b3c5b047db5ebd28b8f398dec076a528c1d68399c
+fuzzy_sha256: 24b8d182bfc14aa993e2b0ebfbadc55a9adc6f366b384ffe3865d7d1c5d32725
 clean_text: |-
   realiteit vs narratief – polarisatie als wapen (deel 2) narratief: “links vs rechts, joden vs moslims, west vs oost – dat is gewoon hoe de wereld werkt. iedereen heeft zijn bubbel, en dat is prima. diversiteit is onze kracht.” realiteit: polarisatie is het krachtigste wapen van de machthebbers. lange tijd heb ik in complotkringen gezeten. elke "doorbraak" voelde als de echte waarheid, maar elke nieuwe laag hield je vast in een nieuwe kooi. we noemden het "graduated animal farms": gecontroleerde waarheden die je in een bubbel houden, terwijl de echte machthebbers rustig doordrukken. nu zie ik hetzelfde patroon mondiaal: mainstream vs anti-mainstream pro-israël vs anti-israël links vs rechts west vs oost elke laag voedt haat tegen de vorige. ondertussen gebeurt er niets aan de echte structuren die ons verdelen. "diversity is our strength" klinkt mooi, maar wordt vaak gebruikt als schild: elke vraag over integratie, cohesie of grenzen wordt meteen "racisme" genoemd. het smoort discussie, versterkt bubbels en houdt polarisatie in stand. het open internet manifest breekt dat patroon: geen centrale controle over wat waar is geen algoritmische haatversterking verifieerbare vrijheid: hashes, decentralisatie, geen black boxes en ja, zelfs ai heeft recht op controle – en kan juist in je voordeel werken als het open en gedecentraliseerd is. dit is geen complottheorie. dit is een oproep voor nu. lees mee, denk mee, bouw mee: https://openinternetmanifest.org #realiteitvsnarratief #polarisatie #diversityisourstrength #vrijinternet #openinternetmanifest ❤️
 

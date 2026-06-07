@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: befbce0c8576cc6bce720be7dac19cd1fbdeaf804e6a857e99ef813512ee11d4
-social_share_sha256: ''
 day: 13
 rvn_title: Fluoride
-# rvn_url: /nl/social-posts/dag-13-rvn
 rvn_teaser: 'Het narratief dat eindelijk barst '
-fuzzy_sha256: "50969a00380ee7cebd710f522600ed446105d29d57ecd6d58ca9e1d02b8cff3b"
-full_sha256: "2fadf9c5928992a3db38db65551ee423e67820131c3f21a78295522ed81040d4"
 raw_markdown: |
   **Realiteit vs Narratief** – Fluoride: het narratief dat eindelijk barst 🦷☢️   
   Decennialang: "fluoride in drinkwater is veilig en goed voor tanden". Standaard in bijna alle US publieke systemen, gepusht door CDC, ADA en WHO. Kritiek? "Complotdenkers", "anti-science".
@@ -24,6 +17,9 @@ raw_markdown: |
   
   Lees mee: https://openinternetmanifest.org
   #RealiteitVsNarratief #OIM #Fluoride #MakeAmericaHealthyAgain #GeenNarratiefMonopolie
+
+full_sha256: 964531259d81150672cce532fffcd1cef918f3a1e1a46af31ce653a95a994a1f
+fuzzy_sha256: 505249b6ca5315398706ac67045952961e0638beaf42cf68320670e48780d809
 clean_text: |-
   realiteit vs narratief – fluoride: het narratief dat eindelijk barst 🦷☢️ decennialang: "fluoride in drinkwater is veilig en goed voor tanden". standaard in bijna alle us publieke systemen, gepusht door cdc, ada en who. kritiek? "complotdenkers", "anti-science". gisteren (20 jan 2026): rfk jr. kondigt aan dat het trump witte huis alle us waterbedrijven adviseert om fluoride te verwijderen. reden: het is industrieel afval, gelinkt aan artritis, botbreuken, botkanker, iq-verlies, neuro-ontwikkelingsstoornissen en schildklierproblemen. realiteit: dit is geen complottheorie meer – studies stapelen zich op (harvard, nih, lancet), maar het narratief hield stand omdat het goedkoop was en industrieën beschermde. nu breekt trump/rfk het frontaal: "make america healthy again". voor ons in nl: fluoride zit ook in veel tandpasta en soms in drinkwater (vooral in regio's). hetzelfde patroon: "veilig" tot het niet meer te ontkennen valt. open internet manifest wil geen gecentraliseerde gezondheidsnarratieven die ons voorschrijven wat we in ons lichaam stoppen. een web zonder monopolie op "wetenschap", zonder verborgen belangen die levens beïnvloeden. lees mee: https://openinternetmanifest.org #realiteitvsnarratief #oim #fluoride #makeamericahealthyagain #geennarratiefmonopolie
 

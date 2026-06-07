@@ -6,15 +6,9 @@ rvn_title: "We zijn terug – De Manipulatie van Realiteit"
 rvn_teaser: " We waren even stil. Niet omdat we niets te zeggen hadden, maar omdat we aan het bouwen waren. Nu komen we terug met een scherpe serie."
 donation_link: ""
 donation_text: ""
-website_sha256: "05abe3231e21a950cfbae6367b7492558d8de4146ce971fb3276b8f265bb942a"
-social_x_sha256: "9aa05089f01a9389760de046998aa8b4d2b4403b929b7d95eb77c1dae5a57f84"
-social_fb_sha256: "9aa05089f01a9389760de046998aa8b4d2b4403b929b7d95eb77c1dae5a57f84"
-social_share_sha256: "9aa05089f01a9389760de046998aa8b4d2b4403b929b7d95eb77c1dae5a57f84"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:04.278454"
-fuzzy_sha256: "f429ca4efdc1d797e2a3ae7d1c8666a7b8707e300e1dd7b5670603a4986e072c"
-full_sha256: "6ab84f3aaf8d6d87c62ef57cfdcd6d13ddd5adcb4efc36a82c2fd6a0145be744"
 raw_markdown: |
   **RVN: We zijn terug – De Manipulatie van Realiteit** 🌀
   
@@ -87,6 +81,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: f46006721939a363f0eae6707fb9ee6e8996b861e94ad97c2070912f831c066f
+fuzzy_sha256: e7084eb1002bd9861db359c523fd9f97e70703742814e4b074cfacaf81e69bab
 clean_text: |-
   rvn: we zijn terug – de manipulatie van realiteit 🌀 we zijn even stiller geweest. niet omdat we niets te zeggen hadden. niet omdat we het zat waren. maar omdat we keihard aan het bouwen waren. 🛠️ de afgelopen weken hebben we de technische basis van open internet manifest flink verstevigd. en vandaag kunnen we met trots zeggen: de add-pagina staat live! 🎉 ### wat is er precies veranderd? er is nu een tweetalig contribution form (nederlands + engels) waarmee iedereen eenvoudig nieuwe rvn’s, thesis of guides kan toevoegen ✍️ twee geautomatiseerde workflows draaien in de backend: eén workflow die een nette issue + pull request aanmaakt die eerst door het core team moet worden goedgekeurd 🔄 een tweede workflow die de markdown automatisch omzet in een mooie, gepubliceerde pagina 📄 alles krijgt automatisch gegenereerde sha-256 hashes en commit-hashes voor volledige verificatie en transparantie 🔐 geen gedoe meer met handmatig frontmatter invullen. je schrijft gewoon de titel, teaser en de inhoud in markdown — de rest regelt het systeem. de fundering staat. nu kunnen we weer vol gas content maken. 🔥 ### de manipulatie van realiteit daarom starten we vandaag met een nieuwe serie: de manipulatie van realiteit in de komende weken publiceren we een reeks rvn’s over klassieke, wetenschappelijk onderbouwde experimenten die laten zien hoe ongelooflijk makkelijk onze waarneming, ons gedrag en zelfs onze beleving van de “realiteit” gemanipuleerd kunnen worden. we beginnen met perceptie-experimenten die discriminatie creëren die er niet is, gaan door naar studies over autoriteit, groepsdruk, rollen en observatie die de uitkomst zelf verandert. deze experimenten zijn geen droge wetenschap uit stoffige boeken. het zijn spiegels. ze laten zien hoe narratieven, verwachtingen en machtssystemen onze wereld vormgeven — vaak zonder dat we het doorhebben. 🪞 in deze serie komen onder andere aan bod: dartmouth scar experiment (perceptie creëert discriminatie) milgram obedience stanford prison experiment asch conformity (groepsdruk) bystander effect hawthorne effect + double slit (observatie creëert realiteit) robbers cave stockholm syndrome en meer. elke rvn is feitelijk onderbouwd met de originele studie, de les en de link naar hoe dit mechanisme vandaag de dag nog steeds wordt ingezet. waarom deze serie? omdat alleen maar roepen dat “alles fake is” of “alles is complot is” uiteindelijk even passief is als blind vertrouwen in de mainstream. echte wakkerheid begint met begrijpen hoe manipulatie werkt — en daarna bewust kiezen om je eigen realiteit mede vorm te geven in plaats van alleen maar te reageren. we waren even stil om te bouwen. nu komen we terug om te spiegelen, te ontleden en vooral: om te bouwen. 🛠️ lees zelf. check zelf. en vooral: observeer zelf. welkom terug. 👋 #rvn #manipulatievanrealiteit #serie #openinternetmanifest #nieuwestructuur https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

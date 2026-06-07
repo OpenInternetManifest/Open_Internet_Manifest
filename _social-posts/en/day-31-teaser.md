@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 535c61f1e25dda9c597824b009d30b216ea1cf54f57a4cfa72929a9f13501068
-social_share_sha256: ''
 day: 31
 teaser_title: Tonight; the boomerang returns
-# teaser_url: /en/social-posts/day-31-teaser
 teaser_text: Tomorrow RVN; Sun Tzu in full glory
 raw_markdown: |
   **Tomorrow 31 Teaser – Tonight: the boomerang returns** ♟️🔥  
@@ -21,8 +16,9 @@ raw_markdown: |
   https://openinternetmanifest.org  
   #RVN #FactsOverFrames #RealityVsNarrative #SunTzu #EpsteinFiles #PamBondi #Day31Teaser
 
-fuzzy_sha256: "8fbce6e6574ca7e64ab9cedd4d30b3e45d59080ab75041e1aa1dcc24bdd65d55"
-full_sha256: "95476ad81c81f47d2cdb7d4729f7d80809dcd2ae4d989731429d40d98fbf891f"
+
+full_sha256: 95476ad81c81f47d2cdb7d4729f7d80809dcd2ae4d989731429d40d98fbf891f
+fuzzy_sha256: 76a61220ffbb4d8e66d8c502a5cfe0396dda81b10548f053b4e2d4b3f637d79f
 clean_text: |-
   tomorrow 31 teaser – tonight: the boomerang returns ♟️🔥 tomorrow rvn: sun tzu in full glory. from epstein files drop to pam bondi in congress with a "burn book" full of dems' search history – their push for transparency flies back as boomerang. trump as early alerter in 2006 ("thank goodness you're stopping him"), narrative explodes, facts rain begins 🌧️. no illusions. no hate. only reality over frames 🛡️. and we keep building: giscus live, open conversation no gatekeeper 💬🌐 https://openinternetmanifest.org #rvn #factsoverframes #realityvsnarrative #suntzu #epsteinfiles #pambondi #day31teaser
 

@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: eee583ea9a7862d1a5016fd21c36a35de077d26af4c8b6a3123772d0044e389a
-social_fb_sha256: 51787428c783f1bb6f41e9c21ea98b658b105133deb0a2cc3fef04c08d1256ba
-social_share_sha256: ''
 day: 14
 rvn_title: Selective outrage on demand
-# rvn_url: /en/social-posts/day-14-rvn
 rvn_teaser: CNN; ICE raids have always been controversial
-fuzzy_sha256: "4cc2f5201067d0d17419f80104d9aeede9e0aa33046cada9707ab667ce3d65f4"
-full_sha256: "cce540b97793deb4d861c8b543cf3d8986d142fcc657ec547ddab509dbfa0a74"
 raw_markdown: |
   **Reality vs Narrative** – DHS bill: selective outrage on demand 🚨🇺🇸
   House voted last night on massive border security funding. Trump: "must pass". Left: "defund ICE", "terrorizing children", "Liam drama".
@@ -26,6 +19,9 @@ raw_markdown: |
   Open Internet Manifest wants no selective outrage, no gatekeepers deciding what's "controversial". A web where you check history, data and context yourself – no algorithm or media setting the tone.
   Join: https://openinternetmanifest.org
   #RealityVsNarrative #OIM #DHSBill #ICE #NoSelectiveOutrage
+
+full_sha256: 8c715259e0e1a7618df2dab53e0d5bd7078c90e3ad497684bf767bd6e8d67049
+fuzzy_sha256: 130262ecfa4003b7e27dcf3caaba3471e49caeebd7d7b2a50386d0f66abb15b7
 clean_text: |-
   reality vs narrative – dhs bill: selective outrage on demand 🚨🇺🇸 house voted last night on massive border security funding. trump: "must pass". left: "defund ice", "terrorizing children", "liam drama". cnn: "ice raids have always been controversial." ben ferguson: "not really! under obama you rode along and it wasn't an issue!" reality: ice created in 2003. obama deported ~3 million (more than trump first term). media mostly silent or rode along. now suddenly "systematic terror" and "children as hostages". same tool (ice arrests, deportations), different framing depending on who's in the white house. obama = quiet. trump = outrage. narrative isn't about facts – it's about power. emotion weaponized: a 5-year-old temporarily in protective custody (mother arrested for drugs/violence, child returned to family) becomes "hostage". facts drowned in feeling. open internet manifest wants no selective outrage, no gatekeepers deciding what's "controversial". a web where you check history, data and context yourself – no algorithm or media setting the tone. join: https://openinternetmanifest.org #realityvsnarrative #oim #dhsbill #ice #noselectiveoutrage
 

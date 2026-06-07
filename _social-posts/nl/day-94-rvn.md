@@ -6,8 +6,6 @@ rvn_title: "Wat is Q eigenlijk?"
 rvn_teaser: "Waarom Trump nu opeens Q-gerelateerde berichten repost."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "e07f299e439db176b77bfa855aed9200e47a63d50156e9304bda02a7c3fa6d33"
-full_sha256: "a605fcdda71ae6d49414f29a6cbf92f8b6d7509bf20cef1c8552bb2d6149600a"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:11.582501"
@@ -59,6 +57,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: a12991d25da4435b8078f13dc33908b922ec159be18534285f00c0d82c7bfe40
+fuzzy_sha256: b3948b5a8d6676e40fb914b34a87b158c2cddeb4561c322d760e34860f2b816f
 clean_text: |-
   rvn: “wat is q eigenlijk?” 🌀 waarom deze serie nu? de afgelopen weken repost trump opvallend vaak berichten die sterk verwijzen naar q. eerder hield hij altijd afstand met de bekende zin: >i don’t know much about them, but they are against pedophilia — is that a bad thing? dat hij nu een duidelijke stap verder gaat, is geen toeval. daarom is dit het perfecte moment om objectief en feitelijk te kijken naar wat q eigenlijk was. narratief: q is een gevaarlijke complotbeweging (qanon) vol extremisten die geloven in een geheime cabal van pedofielen die de wereld besturen. realiteit: q begon in oktober 2017 op 4chan met anonieme posts van iemand (of een groep) met de naam q. de methode was uniek: korte, cryptische berichten (“drops”) vragen in plaats van kant-en-klare antwoorden (“think mirror”, “what is a key?”, “future proves past”) een oproep aan iedereen om zelf te onderzoeken (“do your own research”) de anons het echte genie zat niet alleen in de drops, maar vooral in de anons — duizenden gewone mensen die zelf onderzoek deden, bronnen checkten en verbanden legden. dit was gedecentraliseerde, crowdsourced research op een schaal die nooit eerder was gezien. oim-uitweg dit is precies waar open internet manifest voor staat: zelf denken, zelf verifiëren, eigen nodes draaien, informatie cryptografisch controleerbaar maken en soeverein zijn in plaats van afhankelijk van centrale autoriteiten. of q nu één persoon was, een groep, een operatie of iets anders — het effect was onmiskenbaar: miljoenen mensen werden wakker en begonnen zelf te graven. vraag aan jou was q een hoax, een operatie, of iets daartussenin? en herken jij de geest van de anons in wat wij met oim proberen te doen? morgen: de kernboodschappen van q. #q #anons #informatieoorlog #decentralisatie #oim #feiten https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

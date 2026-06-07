@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 3d5f565fb7406ac7a50fde0274bfa914f46e9adb99156d52dd0ad704f4b6212a
-social_share_sha256: ''
 day: 6
 teaser_title: 'Vrijheid met grenzen '
-# teaser_url: /nl/social-posts/dag-6-teaser
 teaser_text: Grenzen stel je zelf, niet een centrale macht
 raw_markdown: |
   🇳🇱 Dag 6 – Vrijheid met grenzen  
@@ -17,8 +12,8 @@ raw_markdown: |
   
   https://openinternetmanifest.org  
   
-    ---
-  
+  ***
+
   🇬🇧 Day 6 – Freedom with boundaries  
   Maximum freedom, but without chaos.  
   That's why we advocate a minimal, voluntary constitutional layer – just like a good country.  
@@ -31,10 +26,11 @@ raw_markdown: |
   #FreeInternet  #decentralization #NoBlackouts #iran #cruciaal2026 #privacy #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton  Lighthousetv.nl blckbx.tv 
   ❤️
 
-fuzzy_sha256: "b0216f61a66c9c54a5de0fac6758af907294c3de68d6f9fcd6c51c7e5856ac2b"
-full_sha256: "61119f4e2ab28a9de993c131423ae0bcffa3b00625cc7e3ed5e88c2de6a1ed9a"
+
+full_sha256: 5bb2a52fad9548458e5602c0bc5c4547d003fbd4ee47bc0b37d7f87087c26e25
+fuzzy_sha256: e401709ebe78e140f1bdc9583abca27ae755b222575cfce782e02cc6c92ae82e
 clean_text: |-
-  🇳🇱 dag 6 – vrijheid met grenzen maximale vrijheid, maar zonder chaos. daarom pleiten we voor een minimale, vrijwillige constitutionele laag – net als een goed land. grenzen stel je zelf, niet een centrale macht. https://openinternetmanifest.org --- 🇬🇧 day 6 – freedom with boundaries maximum freedom, but without chaos. that's why we advocate a minimal, voluntary constitutional layer – just like a good country. boundaries are set by you, not a central power. https://openinternetmanifest.org #openinternetmanifest #freedomwithboundaries #freeinternet #decentralization #noblackouts #iran #cruciaal2026 #privacy #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv ❤️
+  🇳🇱 dag 6 – vrijheid met grenzen maximale vrijheid, maar zonder chaos. daarom pleiten we voor een minimale, vrijwillige constitutionele laag – net als een goed land. grenzen stel je zelf, niet een centrale macht. https://openinternetmanifest.org *** 🇬🇧 day 6 – freedom with boundaries maximum freedom, but without chaos. that's why we advocate a minimal, voluntary constitutional layer – just like a good country. boundaries are set by you, not a central power. https://openinternetmanifest.org #openinternetmanifest #freedomwithboundaries #freeinternet #decentralization #noblackouts #iran #cruciaal2026 #privacy #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv ❤️
 
 ---
 
@@ -45,7 +41,7 @@ Grenzen stel je zelf, niet een centrale macht.
 
 https://openinternetmanifest.org  
 
----
+***
 
 🇬🇧 Day 6 – Freedom with boundaries  
 Maximum freedom, but without chaos.  

@@ -6,8 +6,6 @@ rvn_title: "Waarom een hash belangrijker is dan je denkt"
 rvn_teaser: "Een hash is geen technische nerd-ding. Het is een wapen tegen systematisch liegen en verdraaien."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "51b6a4113aefd5b2bf49caa0a9c0f0dc72a01a6dcd367a44cf903785ff0642bb"
-full_sha256: "d1b5135047e722001ca5095a96907c74cbea263c72deb79f75432b17c9c5eb5c"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:07.601134"
@@ -75,6 +73,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: edab9de340127173fb93e085c196c343cabeb644a71d81f09b8d934fd6e27da6
+fuzzy_sha256: 942597296e74f8d1e10b0c2bef614ab6fe3bbe07744c3630349d6babbaa0fad3
 clean_text: |-
   rvn: waarom een hash belangrijker is dan je denkt 🔐 narratief: “een hash? dat is toch alleen voor it-mensen en programmeurs. wat heb ik daar als normaal mens aan?” realiteit: een hash is een van de simpelste en krachtigste tools die we hebben om verifieerbaarheid af te dwingen in een wereld vol leugens, verdraaiingen en “geen actieve herinnering”. wat is een hash eigenlijk? een hash is een unieke digitale vingerafdruk van een tekst, bestand of bericht. het is een vaste reeks tekens die gegenereerd wordt uit de inhoud. verander je ook maar één letter, één spatie of één leesteken... dan verandert de hele hash compleet. > “een hash is digitaal zegelwas. breek je het, dan ziet iedereen het.” waarom dit zo cruciaal is we leven in een tijd waarin woorden als elastiek worden gebruikt: politici zeggen iets, en later: “ik heb geen actieve herinnering.” media schrijven een verhaal, en later: “dat was uit zijn verband gerukt.” instellingen doen beloftes, en later: “de context was anders.” zonder verifieerbare teksten kunnen ze altijd alles ontkennen of verdraaien. met hashes wordt dat spelletje veel moeilijker. je kunt altijd bewijzen wat er écht stond op een bepaald moment. we gaan nog een stap verder naast hashes hebben we een probability checker gebouwd. deze tool analyseert een willekeurige tekst en geeft aan hoe groot de kans is dat (delen van) die tekst van oim afkomstig is. bijvoorbeeld: “92% match met day-24-rvn”. dit maakt het mogelijk om te zien of iemand iets van ons heeft overgenomen, licht verdraaid, of juist volledig authentiek is. waarom we dit doen hashes en probability checks zijn geen technische hobby. het is een bewuste keuze tegen een cultuur waarin waarheid steeds vloeibaarder wordt gemaakt. dit is de basis van echt vertrouwen: niet “ik geloof je op je woord”, maar “ik kan het zelf controleren”. oim-uitweg dit is waarom elke rvn, thesis en guide op oim een hash heeft. niet omdat we zo technisch willen doen, maar omdat we weigeren mee te spelen in een wereld waarin woorden geen waarde meer hebben. verifieerbaarheid is de basis van soevereiniteit. zonder dat zijn we overgeleverd aan wie het hardst schreeuwt of het beste kan verdraaien. vraag aan jou hoe vaak heb jij al meegemaakt dat iemand later ontkende wat hij eerder duidelijk had gezegd? en hoe zou het zijn als iedereen gedwongen werd om achteraf verifieerbaar te blijven? we bouwen door. niet alleen woorden — maar verifieerbare woorden. #hashverificatie #probabilitycheck #verifieerbaarheid #geenactieveherinnering #rvn #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

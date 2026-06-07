@@ -6,11 +6,9 @@ rvn_title: "De goede Samaritaan die haast had"
 rvn_teaser: "Zelfs theologiestudenten die op weg waren naar een lezing over de Barmhartige Samaritaan, hielpen nauwelijks."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:04.819402"
-fuzzy_sha256: "f859f910e8a9c8aa632af867b20abaa4ecaed009e996e915d073c70730a9c435"
-full_sha256: "595125bd00b11e20ea99879d2be7a22cda02bffb1339b791798b68d9569994a3"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:05.715314"
 raw_markdown: |
   **RVN: De goede Samaritaan die haast had** 🌀
   
@@ -27,7 +25,7 @@ raw_markdown: |
   
   Vandaag kijken we naar een experiment dat laat zien hoe druk en haast zelfs moreel gedrag kunnen ondermijnen — zelfs bij mensen die er expliciet over nadenken.
   
-     ---
+  ***
   
   **Good Samaritan Experiment (Darley & Batson, 1973)**
   
@@ -81,8 +79,11 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 7ffe1705149c34b40c6f9cf5cdb99a979a66ecc422af20d80044bc6d544439c4
+fuzzy_sha256: 87b0e7eb53715ef8a8dd05ea659f94d92ecc15151c2fda09b7c64735305c0bf5
 clean_text: |-
-  rvn: de goede samaritaan die haast had 🌀 korte recap van de serie tot nu toe in dag 2 zagen we hoe perceptie discriminatie kan creëren die er niet is (dartmouth scar). 🪞 in dag 3 toonde milgram hoe gewone mensen extreme dingen doen onder autoriteit. ⚡ in dag 4 liet stanford prison zien hoe snel we ons aanpassen aan toebedeelde rollen. 🚪 in dag 5 demonstreerde asch hoe groepsdruk ons eigen waarnemingsvermogen uitschakelt. 👥 in dag 6 ontdekten we dat observatie zelf realiteit kan veranderen (hawthorne + double slit). 🔬 in dag 7 liet robbers cave zien hoe razendsnel “wij vs zij”-denken gecreëerd kan worden. ⚔️ in dag 8 toonde het bystander effect hoe verantwoordelijkheid verdunt naarmate er meer mensen aanwezig zijn. in dag 9 zagen we het false consensus effect: we overschatten systematisch hoe normaal onze eigen mening is. vandaag kijken we naar een experiment dat laat zien hoe druk en haast zelfs moreel gedrag kunnen ondermijnen — zelfs bij mensen die er expliciet over nadenken. --- good samaritan experiment (darley & batson, 1973) theologiestudenten aan princeton werden gevraagd een korte lezing te geven. de ene groep moest spreken over de gelijkenis van de barmhartige samaritaan (die een gewonde man helpt), de andere groep over iets neutraals. onderweg naar de lezing kwamen ze een acteur tegen die zichtbaar hulp nodig had: hij zat in elkaar gezakt, kreunde en zag er slecht uit. resultaat: van de studenten die geen haast hadden, hielp 63%. van de studenten die wel haast hadden (ze dachten dat ze te laat waren), hielp slechts 10%. zelfs degenen die op weg waren om te spreken over de barmhartige samaritaan, liepen in de meeste gevallen gewoon door als ze haast hadden. narratief: “goede mensen doen goede dingen. mensen met een sterk moreel kompas helpen altijd.” realiteit: moreel gedrag wordt extreem sterk beïnvloed door context en druk (vooral tijdnood). zelfs mensen die expliciet nadenken over compassie en hulpvaardigheid, laten het vaak afweten als ze haast hebben. hoe wordt dit vandaag gebruikt? in crisissituaties en mediadruk: mensen krijgen constant het gevoel dat ze “haast” hebben (nieuws, social media, werkdruk). politieke en maatschappelijke campagnes: men roept op tot actie, maar creëert tegelijk zoveel ruis en urgentie dat mensen passief worden (“iemand anders doet het wel”). bureaucratie en systemen: door alles complex en tijdrovend te maken, vermindert de bereidheid om moreel te handelen. de oim-les: moraal is niet alleen een kwestie van karakter. het is ook een kwestie van omstandigheden. als we willen dat mensen beter handelen, moeten we systemen bouwen die moreel gedrag makkelijker maken in plaats van moeilijker. daarom is het zo belangrijk om parallelle structuren te creëren waarin mensen niet constant onder tijdsdruk en ruis staan, maar ruimte hebben om te doen wat juist is. want als zelfs theologiestudenten die op weg zijn naar een lezing over de barmhartige samaritaan niet helpen omdat ze haast hebben... hoeveel gewone mensen laten dan kansen liggen om iets goeds te doen? wat denk jij? hoe vaak heb jij iets goeds niet gedaan omdat je “haast” had of dacht dat iemand anders het wel zou doen? en hoe kunnen we systemen bouwen waarin moreel handelen makkelijker wordt in plaats van moeilijker? lees zelf. check zelf. maak tijd om te helpen. #rvn #goodsamaritan #haast #moreelgedrag #manipulatie #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  rvn: de goede samaritaan die haast had 🌀 korte recap van de serie tot nu toe in dag 2 zagen we hoe perceptie discriminatie kan creëren die er niet is (dartmouth scar). 🪞 in dag 3 toonde milgram hoe gewone mensen extreme dingen doen onder autoriteit. ⚡ in dag 4 liet stanford prison zien hoe snel we ons aanpassen aan toebedeelde rollen. 🚪 in dag 5 demonstreerde asch hoe groepsdruk ons eigen waarnemingsvermogen uitschakelt. 👥 in dag 6 ontdekten we dat observatie zelf realiteit kan veranderen (hawthorne + double slit). 🔬 in dag 7 liet robbers cave zien hoe razendsnel “wij vs zij”-denken gecreëerd kan worden. ⚔️ in dag 8 toonde het bystander effect hoe verantwoordelijkheid verdunt naarmate er meer mensen aanwezig zijn. in dag 9 zagen we het false consensus effect: we overschatten systematisch hoe normaal onze eigen mening is. vandaag kijken we naar een experiment dat laat zien hoe druk en haast zelfs moreel gedrag kunnen ondermijnen — zelfs bij mensen die er expliciet over nadenken. *** good samaritan experiment (darley & batson, 1973) theologiestudenten aan princeton werden gevraagd een korte lezing te geven. de ene groep moest spreken over de gelijkenis van de barmhartige samaritaan (die een gewonde man helpt), de andere groep over iets neutraals. onderweg naar de lezing kwamen ze een acteur tegen die zichtbaar hulp nodig had: hij zat in elkaar gezakt, kreunde en zag er slecht uit. resultaat: van de studenten die geen haast hadden, hielp 63%. van de studenten die wel haast hadden (ze dachten dat ze te laat waren), hielp slechts 10%. zelfs degenen die op weg waren om te spreken over de barmhartige samaritaan, liepen in de meeste gevallen gewoon door als ze haast hadden. narratief: “goede mensen doen goede dingen. mensen met een sterk moreel kompas helpen altijd.” realiteit: moreel gedrag wordt extreem sterk beïnvloed door context en druk (vooral tijdnood). zelfs mensen die expliciet nadenken over compassie en hulpvaardigheid, laten het vaak afweten als ze haast hebben. hoe wordt dit vandaag gebruikt? in crisissituaties en mediadruk: mensen krijgen constant het gevoel dat ze “haast” hebben (nieuws, social media, werkdruk). politieke en maatschappelijke campagnes: men roept op tot actie, maar creëert tegelijk zoveel ruis en urgentie dat mensen passief worden (“iemand anders doet het wel”). bureaucratie en systemen: door alles complex en tijdrovend te maken, vermindert de bereidheid om moreel te handelen. de oim-les: moraal is niet alleen een kwestie van karakter. het is ook een kwestie van omstandigheden. als we willen dat mensen beter handelen, moeten we systemen bouwen die moreel gedrag makkelijker maken in plaats van moeilijker. daarom is het zo belangrijk om parallelle structuren te creëren waarin mensen niet constant onder tijdsdruk en ruis staan, maar ruimte hebben om te doen wat juist is. want als zelfs theologiestudenten die op weg zijn naar een lezing over de barmhartige samaritaan niet helpen omdat ze haast hebben... hoeveel gewone mensen laten dan kansen liggen om iets goeds te doen? wat denk jij? hoe vaak heb jij iets goeds niet gedaan omdat je “haast” had of dacht dat iemand anders het wel zou doen? en hoe kunnen we systemen bouwen waarin moreel handelen makkelijker wordt in plaats van moeilijker? lees zelf. check zelf. maak tijd om te helpen. #rvn #goodsamaritan #haast #moreelgedrag #manipulatie #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -101,7 +102,7 @@ In **Dag 9** zagen we het False Consensus Effect: we overschatten systematisch h
 
 Vandaag kijken we naar een experiment dat laat zien hoe druk en haast zelfs moreel gedrag kunnen ondermijnen — zelfs bij mensen die er expliciet over nadenken.
 
----
+***
 
 **Good Samaritan Experiment (Darley & Batson, 1973)**
 

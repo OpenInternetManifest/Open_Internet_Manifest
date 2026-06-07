@@ -6,12 +6,9 @@ rvn_title: "The Illusion of Consensus – False Consensus Effect"
 rvn_teaser: "We systematically overestimate how normal our own opinion is."
 donation_link: ""
 donation_text: ""
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:45.580499"
-fuzzy_sha256: "aab29ba5b4d229024553908e2ab6271201c760ccc8382c3088eb4377564f137e"
-full_sha256: "2bc137bfca7349764b5b195eb5f66623dda1339cee91ca072b54107e4fa2f3ff"
 raw_markdown: |
   **RVN: The Illusion of Consensus – False Consensus Effect** 🌀
   
@@ -26,7 +23,7 @@ raw_markdown: |
   
   Today we look at a phenomenon that almost everyone recognizes in their own bubble.
   
-  ---
+  ***
   
   **False Consensus Effect**
   
@@ -75,8 +72,11 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: b64b634343d948ddb1e56771f2ba78eb40922b76274983a7ae98849bf6a6f9b8
+fuzzy_sha256: bc6266fe9098af6863491f16566c0a17504d779a3ccd460955ba60cda59f622e
 clean_text: |-
-  rvn: the illusion of consensus – false consensus effect 🌀 short recap of the series so far in day 2 we saw how perception can create discrimination that doesn’t exist (dartmouth scar). 🪞 in day 3 milgram showed how ordinary people do extreme things under authority. ⚡ in day 4 stanford prison revealed how quickly we adapt to assigned roles. 🚪 in day 5 asch demonstrated how group pressure overrides our own senses. 👥 in day 6 we discovered that observation itself can change reality (hawthorne + double slit). 🔬 in day 7 robbers cave showed how rapidly “us vs them” thinking can be created. ⚔️ today we look at a phenomenon that almost everyone recognizes in their own bubble. --- false consensus effect people have a strong tendency to overestimate how often others think, feel, and behave the same way they do. simple examples: a vegan thinks “almost everyone” is already almost vegan or will be soon. someone strongly anti-trump thinks “almost everyone” hates trump. someone strongly pro-trump thinks “almost everyone” supports trump. this effect has been demonstrated countless times in science. people systematically overestimate the prevalence of their own opinion. narratief: “most people think the same as i do. my opinion is the norm.” realiteit: our own bubble is much smaller than we think. we live in filter bubbles and overestimate how representative our own views are. how is this used today? social media algorithms massively reinforce this by showing us mostly content that confirms our own opinion. media and politicians act as if “everyone” agrees with them (“the whole society thinks...”). activists and conspiracy thinkers use it: “everyone who is awake sees this too”. the false consensus effect makes people feel stronger in their own right than is objectively justified — and makes them see dissenting opinions as abnormal or “in need of waking up”. the oim-lesson: real realism begins with the realization that your bubble is not the world. whoever always thinks that “almost everyone” thinks the same as they do, lives in an illusion. that makes you vulnerable to manipulation — both by mainstream and alternative media. the strength of open internet manifest is precisely that we try to look outside our own bubble, check facts and substantiate patterns — even if that means admitting that our own opinion is less common than we thought. what do you think? how often do you overestimate how many people think the same as you? and how often have you thought “everyone sees this, right?” while that wasn’t the case at all? read for yourself. check for yourself. break your own bubble. #rvn #falseconsensuseffect #bubble #manipulation #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+  rvn: the illusion of consensus – false consensus effect 🌀 short recap of the series so far in day 2 we saw how perception can create discrimination that doesn’t exist (dartmouth scar). 🪞 in day 3 milgram showed how ordinary people do extreme things under authority. ⚡ in day 4 stanford prison revealed how quickly we adapt to assigned roles. 🚪 in day 5 asch demonstrated how group pressure overrides our own senses. 👥 in day 6 we discovered that observation itself can change reality (hawthorne + double slit). 🔬 in day 7 robbers cave showed how rapidly “us vs them” thinking can be created. ⚔️ today we look at a phenomenon that almost everyone recognizes in their own bubble. *** false consensus effect people have a strong tendency to overestimate how often others think, feel, and behave the same way they do. simple examples: a vegan thinks “almost everyone” is already almost vegan or will be soon. someone strongly anti-trump thinks “almost everyone” hates trump. someone strongly pro-trump thinks “almost everyone” supports trump. this effect has been demonstrated countless times in science. people systematically overestimate the prevalence of their own opinion. narratief: “most people think the same as i do. my opinion is the norm.” realiteit: our own bubble is much smaller than we think. we live in filter bubbles and overestimate how representative our own views are. how is this used today? social media algorithms massively reinforce this by showing us mostly content that confirms our own opinion. media and politicians act as if “everyone” agrees with them (“the whole society thinks...”). activists and conspiracy thinkers use it: “everyone who is awake sees this too”. the false consensus effect makes people feel stronger in their own right than is objectively justified — and makes them see dissenting opinions as abnormal or “in need of waking up”. the oim-lesson: real realism begins with the realization that your bubble is not the world. whoever always thinks that “almost everyone” thinks the same as they do, lives in an illusion. that makes you vulnerable to manipulation — both by mainstream and alternative media. the strength of open internet manifest is precisely that we try to look outside our own bubble, check facts and substantiate patterns — even if that means admitting that our own opinion is less common than we thought. what do you think? how often do you overestimate how many people think the same as you? and how often have you thought “everyone sees this, right?” while that wasn’t the case at all? read for yourself. check for yourself. break your own bubble. #rvn #falseconsensuseffect #bubble #manipulation #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 
 ---
 
@@ -93,7 +93,7 @@ In **Day 7** Robbers Cave showed how rapidly “Us vs Them” thinking can be cr
 
 Today we look at a phenomenon that almost everyone recognizes in their own bubble.
 
----
+***
 
 **False Consensus Effect**
 

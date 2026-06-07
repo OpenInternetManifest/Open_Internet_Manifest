@@ -6,9 +6,6 @@ rvn_title: "Nothing ever happens” – The Controlled Information War"
 rvn_teaser: "James Comey has surrendered. How often have we heard 'nothing ever happens'... while the layers are slowly dripped out?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "10f9ca23b37e68cb49df0f8130e3c171744f8f02bbd903ac7bb5350fd56420cc"
-full_sha256: "cf62ef3578619b2db98e4e6ba3f131fa0376bb90923dc4385d55c70e0b2f98da"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:47.474015"
@@ -73,6 +70,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 710ea153cd6870b43e919408483062160878ad1eacf250515b65f8f6b3aaadeb
+fuzzy_sha256: 66094f8b4514bc804aadce28edd8558ec8dc349d2753485d5571b965c05ab764
 clean_text: |-
   rvn: “nothing ever happens” – the controlled information war 🌀 narrative: “see? nothing ever really happens to the real power players. epstein, comey, jan 6, election fraud... it’s all theater.” reality: this is not a failure of the system. this is the system: a controlled information war with multiple factions fighting for narrative dominance. the players in this sun tzu game: old power structure (permanent bureaucracy, intelligence community, big tech, parts of wall street) new power faction (trump-wing, populists, alternative media) controlled opposition (figures who say just enough to vent energy) media platforms as the battlefield the weapon: controlled disclosure + lightning rods the pattern is always the same: big bomb → massive excitement then silence → “see, nothing ever happens” slow drip of documents, testimonies, arrests public attention shifts again trump is strategically used by both sides. the old power calls him a danger to democracy. parts of the alternative circuit throw him into the “cabal/elite” bucket. this keeps everyone fighting a symbol, while the structural power often remains untouched. many critical thinkers pierce through the official narrative, but often end up in a new, more intellectual pen with a different enemy image. they think they’ve escaped, but they’ve simply moved to a nicer cage. the core this is sun tzu on the information level: let your opponent fight shadows and each other, while you maintain the real power structures. oim way out stop playing as a spectator in this information war. the real shift is: no longer chasing every new drip verifying and archiving information yourself building parallel structures that are not dependent on which side wins this pattern exists because we keep watching the theater instead of building our own stage. question to you how often have you thought “nothing ever happens”... only to later see yet another layer emerge? are you still a spectator in this information war, or are you already building outside the battlefield? time to step out of the pen. #informationwar #suntzu #manageddisclosure #graduatedanimalfarm #rvn #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: b93eec239eeb5f9af18bd045f4b3894ffbdce9b75a1f7e1c41a7463d090fa529
-social_share_sha256: ''
 day: 35
 rvn_title: Epstein's blackmail-machine
-# rvn_url: /nl/social-posts/dag-35-rvn
 rvn_teaser: Het onzichtbare touw
-fuzzy_sha256: "85334541eab3edd497f754ebc62a4c0fd35eb7777858e660a158c0b7cc009f8d"
-full_sha256: "1b5029918878e5cd26b094c3c0813c9372e24be8b011dbfea15d904be5a04d7d"
 raw_markdown: |
   **Dag 35 – RVN: Epstein's blackmail-machine – het onzichtbare touw** 🕸️🔗  
   Hoe chantage hele systemen stil houdt.
@@ -62,6 +55,9 @@ raw_markdown: |
   
   Plak de volledige tekst en check – reality stays calm 🧘‍♂️.  
   Waarom narratieven wild worden... 🌀
+
+full_sha256: bb34757d1b65d423459b4c200940692bf4ef50ed287b106e469855fee636eff6
+fuzzy_sha256: 067304272f473cd5a682e44022c66e16ea15724805f959c79efe7ed8fed6ba0d
 clean_text: |-
   dag 35 – rvn: epstein's blackmail-machine – het onzichtbare touw 🕸️🔗 hoe chantage hele systemen stil houdt. de epstein-files blijven vallen, maar het meest onthullende is wat er níét in staat: de volledige werking van zijn blackmail-netwerk. duizenden uren video, foto's, logs – allemaal bedoeld om mensen te binden, te breken, te laten zwijgen. blackmail is geen bijzaak; het is de kern. het maakt zwijgen lucratiever dan spreken het verbindt elites over politiek, financiën, wetenschap en media het zorgt ervoor dat bepaalde verhalen nooit boven water komen, terwijl andere juist worden gepusht voorbeelden uit de files: wetenschappers die jarenlang epstein-geld aannamen en daarna stil bleven over de bron politici die beleid maakten dat hun eigen compromitterende bezoekjes beschermde journalisten die verhalen niet publiceerden omdat ze zelf op de lijst stonden dit sluit aan bij alles wat we deze weken zagen: woorden wegen niet op inhoud, maar op interpretatie (gideon) transparantie keert zich om in surveillance (bondi burn book) feiten bestaan, maar alleen als ze in het frame passen en dan is er nog een nederlandse parallel die niemand wil aanraken: de zaak-demming. turkse jongens misbruikt door een netwerk van machtige mannen, barbassin veroordeeld maar geruchten over hogere bescherming blijven hangen. waarom stopt het onderzoek altijd als het te dichtbij komt? waarom verdwijnen getuigen of dossiers? het patroon is hetzelfde als bij epstein en dutroux: kindermisbruik als instrument van chantage en controle – en een systeem dat zichzelf beschermt. de feiten-regen valt nu, maar de vraag is: wie filtert hem? wie bepaalt welke stukken aandacht krijgen en welke blijven sluimeren? morgen verder: demming als epstein van de lage landen – wat weten we echt, en waarom blijft het stil? de uitweg blijft dezelfde: niet wachten tot het systeem zichzelf opruimt. zelf bouwen. eigen node → eigen data, geen afhankelijkheid van big tech of overheden eigen ai → lokale modellen, geen gecentraliseerde waarheidsbepalers open gesprek → giscus, matrix, geen algoritmische censuur 100 theses, 35 dagen rvn, een groeiende site – dit is geen theorie meer. het is praktijk. en het groeit door mensen zoals jij. lees zelf. check zelf. bouw zelf. welke touwtjes zie jij? 🕸️🌱 #rvn #openinternetmanifest #epsteinblackmail #demming #feitenbovenframes #dag35 https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️. waarom narratieven wild worden... 🌀
 

@@ -6,11 +6,9 @@ rvn_title: "Schijnvooruitgang #4: De elektrische auto als toekomst?"
 rvn_teaser: "Zero emissie, stil, hightech en goed voor het klimaat. Maar is de EV écht vooruitgang?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "7e92f927b1f467f08a40fbc892325b544c9a7d13ba6d8c6da25f02f0469fb517"
-full_sha256: "8be35d95da63417e8a2fba7482b318967ceac942056f9b21de272e6249d982c6"
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:05.739683"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.233420"
 raw_markdown: |
   **Schijnvooruitgang – Dag 29: De elektrische auto als toekomst?** ⚡🚗
   
@@ -47,7 +45,7 @@ raw_markdown: |
   Rijd minder in plaats van duurder.  
   Echte vrijheid is niet een nieuwe auto – het is een auto die van jou is en blijft werken zonder toestemming van een app.
   
-     ---
+  ***
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -59,12 +57,15 @@ raw_markdown: |
   
   #Schijnvooruitgang #ElektrischeAuto #EV #EchteVrijheid #Onafhankelijkheid #OpenInternetManifest
   
-    ---
+  ***
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 2c266b2e08987b68ebc96667bd2a2c7836d7cad92add336d3a314acb2ac09687
+fuzzy_sha256: 9b8be2534ade6af01e1e77b2bc38c6b8f96b37d71ab04a9c3287c7c3f8f568dd
 clean_text: |-
-  schijnvooruitgang – dag 29: de elektrische auto als toekomst? ⚡🚗 korte recap dag 2: leasing – hoe “flexibel rijden” vooral afhankelijkheid creëert. dag 3: warmtepompen – hoe een “groene” oplossing vaak duurder en complexer uitpakt. narratief de elektrische auto is de toekomst. zero emissie, stil, snel, hightech, goed voor het klimaat en je bespaart op brandstof. over een paar jaar rijden we allemaal elektrisch – wie dat niet doet is achterhaald. realiteit – meerdere lagen laag 1 – kosten hoge aanschafprijs, dure batterijvervanging na 8-12 jaar (€10.000–20.000), hogere verzekering en wegenbelasting (totdat die ook weer omhoog gaat). laag 2 – afhankelijkheid je ruilt afhankelijkheid van olie in voor afhankelijkheid van zeldzame metalen (lithium, kobalt, nikkel), china (batterijproductie) en het elektriciteitsnet. laag 3 – praktijk in de winter daalt het bereik fors. snelladen is duur, thuisladen vraagt een sterke aansluiting, en bij massaal gebruik loopt het net vast. laag 4 – milieu winning van batterijmaterialen veroorzaakt enorme milieuschade in zuid-amerika en afrika. de “groene” auto is vooral groen op papier. laag 5 – controle software-updates van afstand, “kill switches”, kilometerbeperkingen via abonnementen en data-verzameling door de fabrikant. je bezit de auto niet meer echt. dit is hetzelfde patroon als leasing en warmtepompen: je verliest eigenaarschap en eenvoud, en krijgt er complexiteit, hogere kosten en meer afhankelijkheid voor terug. oim-uitweg koop een betrouwbare tweedehands benzine- of dieselauto die je volledig bezit en begrijpt. onderhoud hem zelf of via onafhankelijke garages. rijd minder in plaats van duurder. echte vrijheid is niet een nieuwe auto – het is een auto die van jou is en blijft werken zonder toestemming van een app. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de elektrische auto echte vooruitgang, of vooral een nieuwe vorm van dure afhankelijkheid met een groen jasje? #schijnvooruitgang #elektrischeauto #ev #echtevrijheid #onafhankelijkheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  schijnvooruitgang – dag 29: de elektrische auto als toekomst? ⚡🚗 korte recap dag 2: leasing – hoe “flexibel rijden” vooral afhankelijkheid creëert. dag 3: warmtepompen – hoe een “groene” oplossing vaak duurder en complexer uitpakt. narratief de elektrische auto is de toekomst. zero emissie, stil, snel, hightech, goed voor het klimaat en je bespaart op brandstof. over een paar jaar rijden we allemaal elektrisch – wie dat niet doet is achterhaald. realiteit – meerdere lagen laag 1 – kosten hoge aanschafprijs, dure batterijvervanging na 8-12 jaar (€10.000–20.000), hogere verzekering en wegenbelasting (totdat die ook weer omhoog gaat). laag 2 – afhankelijkheid je ruilt afhankelijkheid van olie in voor afhankelijkheid van zeldzame metalen (lithium, kobalt, nikkel), china (batterijproductie) en het elektriciteitsnet. laag 3 – praktijk in de winter daalt het bereik fors. snelladen is duur, thuisladen vraagt een sterke aansluiting, en bij massaal gebruik loopt het net vast. laag 4 – milieu winning van batterijmaterialen veroorzaakt enorme milieuschade in zuid-amerika en afrika. de “groene” auto is vooral groen op papier. laag 5 – controle software-updates van afstand, “kill switches”, kilometerbeperkingen via abonnementen en data-verzameling door de fabrikant. je bezit de auto niet meer echt. dit is hetzelfde patroon als leasing en warmtepompen: je verliest eigenaarschap en eenvoud, en krijgt er complexiteit, hogere kosten en meer afhankelijkheid voor terug. oim-uitweg koop een betrouwbare tweedehands benzine- of dieselauto die je volledig bezit en begrijpt. onderhoud hem zelf of via onafhankelijke garages. rijd minder in plaats van duurder. echte vrijheid is niet een nieuwe auto – het is een auto die van jou is en blijft werken zonder toestemming van een app. *** misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de elektrische auto echte vooruitgang, of vooral een nieuwe vorm van dure afhankelijkheid met een groen jasje? #schijnvooruitgang #elektrischeauto #ev #echtevrijheid #onafhankelijkheid #openinternetmanifest *** deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -105,7 +106,7 @@ Onderhoud hem zelf of via onafhankelijke garages.
 Rijd minder in plaats van duurder.  
 Echte vrijheid is niet een nieuwe auto – het is een auto die van jou is en blijft werken zonder toestemming van een app.
 
----
+***
 
 Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
 
@@ -117,7 +118,7 @@ Is de elektrische auto echte vooruitgang, of vooral een nieuwe vorm van dure afh
 
 #Schijnvooruitgang #ElektrischeAuto #EV #EchteVrijheid #Onafhankelijkheid #OpenInternetManifest
 
----
+***
 
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier

@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 7d369faf2084792cf7f7e73b5902ef915f3e05791329aad729f58cda37c0bc62
-social_share_sha256: ''
 day: 8
 teaser_title: Hashes
-# teaser_url: /nl/social-posts/dag-8-teaser
 teaser_text: 'Een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.'
 raw_markdown: |
   🇳🇱 Dag 8 – Verifieerbaarheid: hashes liegen niet  
@@ -29,8 +24,8 @@ raw_markdown: |
   Waarom? Omdat woorden makkelijk aangepast worden — hashes niet.  
   #RealiteitVsNarratief #OpenInternetManifest
   
-    ---
-  
+  ***
+
   🇬🇧 Day 8 – Verifiability: hashes don’t lie  
   
   “A hash is digital sealing wax: break it, and everyone sees it.”  
@@ -53,10 +48,11 @@ raw_markdown: |
   
   #FreeInternet  #decentralization #NoBlackouts #iran #cruciaal2026 #privacy #OpenSource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton Lighthousetv.nl  blckbx.tv
 
-fuzzy_sha256: "5f559788f4b56b5c78e8d666e7994431d5e3ba2e324241599e42f76f69c123d2"
-full_sha256: "bc0ef332d1f70a362614ebe9862c735e6045eb4a9494ffd1ace60a6f0a8ec978"
+
+full_sha256: f203001c337b5c9fe4b2cb4dc97148dbe4450e568bfbf8e5c179414bb0e551d7
+fuzzy_sha256: 2da559ddb1f8118d63fd07a17e935948d9f21aab100474d5a607d4b2ebd40e10
 clean_text: |-
-  🇳🇱 dag 8 – verifieerbaarheid: hashes liegen niet “een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.” — ruben berkhout vanaf nu check je zelf of een teaser of volledige post écht van mij komt. plak de volledige tekst (inclusief deze voetnoot) in de hash verifier → exact match = authentiek origineel. https://openinternetmanifest.org/nl/hash-verifier narratieven worden makkelijk vervormd of uit context gehaald. realiteit blijft onveranderd. 🔒 deze social post is vastgelegd en verifieerbaar op openinternetmanifest.org. check zelf via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst (incl. voetnoot) in om authenticiteit te bevestigen. waarom? omdat woorden makkelijk aangepast worden — hashes niet. #realiteitvsnarratief #openinternetmanifest --- 🇬🇧 day 8 – verifiability: hashes don’t lie “a hash is digital sealing wax: break it, and everyone sees it.” — ruben berkhout from now on, verify for yourself if a teaser or full post is really mine. paste the full text (including this footnote) into the hash verifier → exact match = authentic original. https://openinternetmanifest.org/nl/hash-verifier narratives get distorted or taken out of context easily. reality stays unchanged. 🔒 this social post is archived and verifiable on openinternetmanifest.org. check it yourself at: https://openinternetmanifest.org/nl/hash-verifier paste the full text (incl. footnote) to confirm authenticity. why? because words can be twisted — hashes cannot. #openinternetmanifest #freedomwithboundaries #freeinternet #decentralization #noblackouts #iran #cruciaal2026 #privacy #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv
+  🇳🇱 dag 8 – verifieerbaarheid: hashes liegen niet “een hash is digitaal zegelwas: breek je het, dan ziet iedereen het.” — ruben berkhout vanaf nu check je zelf of een teaser of volledige post écht van mij komt. plak de volledige tekst (inclusief deze voetnoot) in de hash verifier → exact match = authentiek origineel. https://openinternetmanifest.org/nl/hash-verifier narratieven worden makkelijk vervormd of uit context gehaald. realiteit blijft onveranderd. 🔒 deze social post is vastgelegd en verifieerbaar op openinternetmanifest.org. check zelf via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst (incl. voetnoot) in om authenticiteit te bevestigen. waarom? omdat woorden makkelijk aangepast worden — hashes niet. #realiteitvsnarratief #openinternetmanifest *** 🇬🇧 day 8 – verifiability: hashes don’t lie “a hash is digital sealing wax: break it, and everyone sees it.” — ruben berkhout from now on, verify for yourself if a teaser or full post is really mine. paste the full text (including this footnote) into the hash verifier → exact match = authentic original. https://openinternetmanifest.org/nl/hash-verifier narratives get distorted or taken out of context easily. reality stays unchanged. 🔒 this social post is archived and verifiable on openinternetmanifest.org. check it yourself at: https://openinternetmanifest.org/nl/hash-verifier paste the full text (incl. footnote) to confirm authenticity. why? because words can be twisted — hashes cannot. #openinternetmanifest #freedomwithboundaries #freeinternet #decentralization #noblackouts #iran #cruciaal2026 #privacy #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv
 
 ---
 
@@ -79,7 +75,7 @@ Plak de volledige tekst (incl. voetnoot) in om authenticiteit te bevestigen.
 Waarom? Omdat woorden makkelijk aangepast worden — hashes niet.  
 #RealiteitVsNarratief #OpenInternetManifest
 
----
+***
 
 🇬🇧 Day 8 – Verifiability: hashes don’t lie  
 

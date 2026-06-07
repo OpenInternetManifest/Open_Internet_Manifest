@@ -6,9 +6,6 @@ rvn_title: "Why a Hash is More Important Than You Think"
 rvn_teaser: "A hash is not just a tech thing. It is a weapon against systematic lying and distortion."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "c437e78da0cb5a09358af81d497c2fed9c944311401171292a2c0d59e24f693b"
-full_sha256: "61f82c3e0746585da6d7557f46fbad5db6ac0f6c996d7b1a9bacf954fd3ae026"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:47.629758"
@@ -76,6 +73,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: ecd4fcb56311366024a032420367626b7e8b6194011d4d4d3e5c54950e5cbb87
+fuzzy_sha256: 813b2fe0e46992e6777f48b1f5ba6bdbad5c14382931bc32b5ad7b854690330f
 clean_text: |-
   rvn: why a hash is more important than you think 🔐 narrative: “a hash? that’s only for it people and programmers. what do i need that for as a normal person?” reality: a hash is one of the simplest and most powerful tools we have to enforce verifiability in a world full of lies, distortions, and “i have no active recollection.” what is a hash? a hash is a unique digital fingerprint of a text, file, or message. change even one letter, one space, or one punctuation mark... and the entire hash changes completely. > “a hash is digital sealing wax. break it and everyone sees it.” why this is so crucial we live in an era where words are treated like elastic: politicians say something, and later: “i have no active recollection.” media write a story, and later: “that was taken out of context.” institutions make promises, and later: “the context was different.” without verifiable texts, they can always deny or twist everything afterward. with hashes, that game becomes much harder. you can always prove what was really said at a certain moment. we go one step further in addition to hashes, we built a probability checker. this tool analyses any random text and shows how likely it is that (parts of) that text comes from oim. for example: “92% match with day-24-rvn”. this makes it possible to see if someone copied, slightly altered, or fully authentically used our content. why we do this hashes and probability checks are not a technical hobby. they are a conscious choice against a culture in which truth is increasingly made fluid. this is the foundation of real trust: not “i believe you on your word,” but “i can check it myself.” oim way out this is why every rvn, thesis, and guide on oim has a hash. not because we want to be technical, but because we refuse to play along in a world where words have no value anymore. verifiability is the basis of sovereignty. without it, we are at the mercy of whoever shouts the loudest or distorts the best. question to you how often have you experienced someone later denying what they clearly said before? and how would it be if everyone was forced to remain verifiable afterward? we keep building. not just words — but verifiable words. #hashverification #probabilitycheck #verifiability #noactiverecollection #rvn #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

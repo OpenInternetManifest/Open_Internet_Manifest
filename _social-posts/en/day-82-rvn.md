@@ -6,9 +6,6 @@ rvn_title: "I hear and I forget. I see and I remember. I do and I understand"
 rvn_teaser: "Why just waking up isn't enough."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "955b8c33b6cbdf534aa65ab823d120bc9c4758b467edba811c9732552fe08f4e"
-full_sha256: "34dcf1030aa830ba89db8e9fafa6ae4eb6eae89f8577f4a486147b8b20d8d5a0"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:49.652229"
@@ -64,6 +61,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 59f063b09505a1fada1fd9884e67252d7e54118aa408c2cf6a98062fe9bbeb36
+fuzzy_sha256: a20c2542cf4be4dd1b62c053cb82ba7f872d448aa49e3a914506383ce5b7c001
 clean_text: |-
   rvn: “i hear and i forget. i see and i remember. i do and i understand.” 🌀 narrative: “if people just wake up, everything will be fine.” reality: confucius already said it centuries ago: > “i hear and i forget. > i see and i remember. > i do and i understand.” this is exactly why simply “waking people up” doesn’t work. people can watch documentaries for years, read books, share posts about corruption, manipulation and fake progress — and still remain stuck in the same patterns. real understanding and change only arise when they start doing — building, creating, taking ownership. this is why oim is not just about talking about problems, but mainly about building solutions: not just complaining that leasing is bad, but focusing on ownership ourselves. not just ranting about dependency, but building local resilience. not just criticising centralisation, but creating parallel structures. the shift from hearing → seeing → doing is the real transition from consumer to sovereign human being. oim way out stop only informing and waking people up. start doing. write your own thesis or rvn build something local (vegetable garden, barter network, knowledge group) verify things yourself instead of blindly believing take back ownership, no matter how small only by doing will we truly understand. question to you where have you recently moved from “hearing/seeing” to “doing”? and what is the next small step you can take? we keep building. not just talking — but doing. #idoandiunderstand #action #parallelstructures #rvn #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

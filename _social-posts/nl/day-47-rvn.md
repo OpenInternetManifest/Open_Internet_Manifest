@@ -6,15 +6,9 @@ rvn_title: "In strijd met de regels"
 rvn_teaser: "Wanneer tolerantie censuur wordt"
 donation_link: ""
 donation_text: ""
-website_sha256: "ea68571eb350c3cfd76600b7af5521805208c2a910ca4c14509ba26986febd2b"
-social_x_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e9cc2c3"
-social_fb_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e9cc2c3"
-social_share_sha256: "0c9c339a19aebc6259b7bd310a7af1403ff3f0b17e043c689a371abe7e9cc2c3"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:04.119950"
-fuzzy_sha256: "ed15c6e2dade54993c49e494a03d53c9960c7c1e696ce6b392ca948db25658f0"
-full_sha256: "72bb08e135a53eceb2210d97e8e01387f44aa175fa43481e273b7583bbaade41"
 raw_markdown: |
   **RVN: "In strijd met de regels" – Wanneer tolerantie censuur wordt** 🌀
   Vandaag gebeurde het weer.
@@ -60,6 +54,9 @@ raw_markdown: |
   https://openinternetmanifest.org
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 8bc7c06cd23eb43ee2087ffb3efda984c2ccc0d5479419d989295696fcf75550
+fuzzy_sha256: f428d15a71d098915068fbe50539faa4a78782500c0e86cd13c581107c98ebb3
 clean_text: |-
   rvn: "in strijd met de regels" – wanneer tolerantie censuur wordt 🌀 vandaag gebeurde het weer. ik plaatste een reactie in de groep “amsterdam durft te vragen” over de woningcrisis en de voorrang voor statushouders. niets extreems. gewoon feiten en een cynische opmerking over paspoorten. een paar uur later: verwijderd. reden: “in strijd met de regels”. narratief: de groep is “tolerant” en “durft te vragen”. moderators beschermen alleen tegen haat en discriminatie. realiteit: “tolerantie” blijkt in de praktijk vaak te betekenen: je mag alles zeggen, zolang je maar binnen het goedgekeurde narratief blijft. wanneer je vraagt waarom mensen die hier al 6+ jaar ingeschreven staan met lage totaalpuntjes achteraan bungelen, terwijl statushouders met voorrang een woning krijgen, is dat blijkbaar “in strijd met de regels”. wanneer je de cijfers noemt over hoeveel procent van de starterswoningen naar statushouders gaat, is dat “haat”. wanneer je cynisch opmerkt dat je beste kans op een woning misschien is je paspoort weg te gooien en je in ter apel aan te melden, is dat “discriminatie”. dit is geen tolerantie. dit is selectieve tolerantie. dit is het klassieke patroon dat we overal zien: vrije meningsuiting zolang je het officiële verhaal onderschrijft. censuur zodra je ongemakkelijke feiten of kritiek op het huidige beleid uit. de groep heet “amsterdam durft te vragen”. maar blijkbaar durven ze alleen te vragen wat binnen het veilige frame past. de diepere laag: dit is geen incident in één facebook-groep. dit is de hedendaagse versie van “tolerantie” in veel westerse steden: je mag kritiek hebben, zolang het niet de heilige koeien aanraakt: migratie, woningtoewijzing, diversiteit als hoogste goed. wie dat toch doet, krijgt het label “haat”, “discriminatie” of “in strijd met de regels”. ironisch genoeg is precies dit mechanisme een van de redenen waarom veel mensen gefrustreerd raken en radicaliseren. de echte vraag: hoe tolerant is een groep die “durft te vragen” heet, maar reacties verwijdert zodra de vraag te ongemakkelijk wordt? en hoe lang blijven we doen alsof censuur “bescherming tegen haat” is, terwijl het eigenlijk bescherming is van een ideologie die niet tegen kritiek kan? bij open internet manifest kiezen we voor het andere pad: feiten checken. patronen blootleggen. gesprek aangaan – ook als het schuurt. zonder censuur. zonder heilige koeien. zonder “in strijd met de regels” als excuus om lastige vragen te vermijden. wat denk jij? is het verwijderen van kritische reacties “bescherming van de groep”, of juist het bewijs dat de groep niet echt durft te vragen? lees zelf. check zelf. durf zelf te vragen. #rvn #censuur #tolerantie #amsterdamdurfttevragen #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

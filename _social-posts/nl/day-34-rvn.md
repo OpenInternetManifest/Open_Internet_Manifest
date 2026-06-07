@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 6f7b3dfc15163214dfb182bd13b294a19ed6afde6d66f45a52c242bacd6f5a79
-social_share_sha256: ''
 day: 34
 rvn_title: De nieuwe look
-# rvn_url: /nl/social-posts/dag-34-rvn
 rvn_teaser: Bouwen in plaats van klagen
-fuzzy_sha256: "224f65286759d7e5f43b033f9b202d575626ef3efefbc64b4b18dec96e59e493"
-full_sha256: "a8636ca9d6c459e45feb2af032daac59d674d5bf40b1d43bc5725e316fe38632"
 raw_markdown: |
   **Dag 34 – RVN: De nieuwe look – bouwen in plaats van klagen** 🛠️✨  
   Van woorden naar werkelijkheid: de site krijgt vorm.
@@ -49,6 +42,9 @@ raw_markdown: |
   #RVN #OpenInternetManifest #FeitenBovenFrames #SiteUpdate #Decentralisatie #Dag34  
   
   https://openinternetmanifest.org
+
+full_sha256: 738c1762a0b2d158e38e3e7a186f0a3ffbe62d8e841b52de9192c2965c26803d
+fuzzy_sha256: ac5d1fd2afb9aac69dba96d858ab034e98216cf2dc633cb20cea723e1d9f5cf7
 clean_text: |-
   dag 34 – rvn: de nieuwe look – bouwen in plaats van klagen 🛠️✨ van woorden naar werkelijkheid: de site krijgt vorm. deze week zagen we hoe narratieven ons gevangen houden: woorden die niet tellen op wat ze zeggen, maar op wat een frame ervan maakt transparantie die terugkaatst als boemerang feiten die alleen waarde hebben als ze in het eigen verhaal passen. maar terwijl het systeem zichzelf blootgeeft, bouwen wij door. vanochtend live: de nieuwe theses- en guides-pagina's in card-grid stijl. alle 30 theses overzichtelijk, scanbaar, met teaser en nummer prominent guides met icon, difficulty-banner, tags – klaar voor tientallen meer dynamisch met liquid + frontmatter (title, teaser, order, difficulty) responsive, donker thema, blauwe accenten – precies zoals de rest van de site dit is geen toeval. het is wat oim wil: zelf bouwen in plaats van klagen over het oude systeem. van een lege accu in november naar een levende site in februari – elke commit, elke css-tweak, elke frontmatter-regel is een stap uit de arena. de komende weken: collection _theses activeren → automatische nummering /100 meer guides (node-redundantie, mesh-communicatie, lokale ai) community-inbreng via frontmatter: suggesties voor nieuwe theses/guides eventueel giscus-threads per thema of "feature request"-sectie het internet wordt niet open door te wachten op anderen. het wordt open door zelf te bouwen – klein beginnen, stap voor stap. dank voor deze week. van synthese naar actie. morgen verder: wat wordt de eerste nieuwe guide? of een thema voor de volgende rvn-reeks? lees zelf. check zelf. bouw zelf. wat ga jij toevoegen? 🛠️🌱 #rvn #openinternetmanifest #feitenbovenframes #siteupdate #decentralisatie #dag34 https://openinternetmanifest.org
 

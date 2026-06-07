@@ -1,10 +1,6 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: a7e041cda94e1b527d684d45c30abcfdf02ab9427c7af150b0151267bb1ee707
-social_share_sha256: ''
 day: 25
 teaser_title: 'Vandaag: Obama / Iran-deal'
 # teaser_url: /nl/social-posts/dag-25-teaser
@@ -28,8 +24,8 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #RealiteitVsNarratief #Dag24Teaser
   
-    ---
-  
+  ***
+
   🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
   Today: Obama / Iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  
   
@@ -48,10 +44,11 @@ raw_markdown: |
   https://openinternetmanifest.org/en/social-posts  
   #RealityVsNarrative #Day24Teaser
 
-fuzzy_sha256: "96e2c8cf9278cd27bdce4fb96667de8e32d40a6c19038dbb4083008a1f723f0b"
-full_sha256: "b1e1aba0671d9c8fc3693f11560ba978be2d01076a325f98094d5c066e11b36b"
+
+full_sha256: 1ff61dbf1860a6a1976957868ffb4c63c8269f306abf24d118584cdf1ed14124
+fuzzy_sha256: 391d9ed18c243dd996cd7632bb7a98c2f9beaf9805b1d14669b244b1fb1565b5
 clean_text: |-
-  🇳🇱 dag 25 teaser – vanavond: even op adem 😏🍿 vandaag: obama / iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel. good cop / bad cop — maar wie wint er écht? vanavond: even lucht. morgen: door. morgen kijken we naar de laag die bijna nooit in het nieuws komt. big three (blackrock, vanguard, state street) + bis: wie beheert de echte knoppen terwijl wij naar musk of soros kijken? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag24teaser --- 🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: obama / iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? tonight: just breathe. tomorrow: back at it. tomorrow we look at the layer that almost never makes the news. big three (blackrock, vanguard, state street) + bis: who holds the real buttons while we watch musk or soros? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day24teaser
+  🇳🇱 dag 25 teaser – vanavond: even op adem 😏🍿 vandaag: obama / iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel. good cop / bad cop — maar wie wint er écht? vanavond: even lucht. morgen: door. morgen kijken we naar de laag die bijna nooit in het nieuws komt. big three (blackrock, vanguard, state street) + bis: wie beheert de echte knoppen terwijl wij naar musk of soros kijken? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag24teaser *** 🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: obama / iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? tonight: just breathe. tomorrow: back at it. tomorrow we look at the layer that almost never makes the news. big three (blackrock, vanguard, state street) + bis: who holds the real buttons while we watch musk or soros? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day24teaser
 
 ---
 
@@ -73,7 +70,7 @@ Blijf kijken. 👀✨
 https://openinternetmanifest.org/nl/social-posts  
 #RealiteitVsNarratief #Dag24Teaser
 
----
+***
 
 🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
 Today: Obama / Iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model.  

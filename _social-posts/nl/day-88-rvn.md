@@ -6,8 +6,6 @@ rvn_title: "De Romeo’s en andere provocateurs"
 rvn_teaser: "De Nederlandse variant van infiltratie en uitlokking"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "fc6a6f3a964c41c07416827f4dac898e3611c999908737476769a73aa3895f55"
-full_sha256: "bf28f03f8016462549022aec88e5e15754c87f54e90810788ad85ef6ec5cc09a"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:10.627250"
@@ -60,6 +58,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: dee83be96823b373f8ecf6958e04655a5bcce8126a85868751d24ef334adcacf
+fuzzy_sha256: de61d8074068c667e4db3e910807613657d7e158b3b70d4aca1f394e82057132
 clean_text: |-
   rvn: “de romeo’s en andere provocateurs” 🌀 narratief: de demonstraties tegen azc’s en asielbeleid zitten vol extremisten en racisten. de media en politiek wijzen meteen met beschuldigende vinger naar de demonstranten zelf. realiteit: net als bij january 6 zien we ook in nederland een terugkerend patroon van infiltratie en provocatie. de beruchte “romeo’s” — undercover agenten of informanten — zijn al jaren actief bij rechtse en anti-asiel demonstraties. ze mengen zich in de menigte, roepen extremere leuzen, dragen soms verboden symbolen, filmen alles en zorgen actief voor escalatie. dit is geen complottheorie. het is gedocumenteerd in meerdere rechtszaken en undercover-operaties. het patroon is altijd hetzelfde: een vreedzaam protest begint. plots duiken figuren op die extreem taal uitslaan of agressie aanmoedigen. media en politie focussen vervolgens vooral op die incidenten. het hele protest wordt weggezet als “extreem-rechts” of “gevaarlijk”. dit is precies dezelfde tactiek als bij january 6: laat een protest escaleren → blame de demonstranten → rechtvaardig repressie en delegitimering. waarom doen ze dit? omdat echte, massale volkswoede veel gevaarlijker is dan een paar extremisten. door provocateurs in te zetten en die vervolgens uit te vergroten, kunnen ze het hele protest criminaliseren. zo hoeven ze de échte problemen (woningnood, criminaliteit, culturele spanningen, demografische vervanging) niet serieus te nemen. dit is geen incident. dit is een systeem. oim-uitweg we moeten veel scherper worden in het herkennen van provocateurs. filmen, documenteren, signalementen delen en vooral: niet meegaan in provocaties. dit is waarom decentrale, verifieerbare communicatie en parallelle structuren zo belangrijk zijn. zodat we ons eigen verhaal kunnen vertellen zonder afhankelijk te zijn van media en autoriteiten die alleen maar frames zoeken. vraag aan jou heb jij ook weleens het gevoel gehad dat er tijdens een demonstratie mensen actief probeerden te escaleren? hoe herken je een provocateur in de praktijk? laten we slimmer worden dan zij. #romeos #provocateurs #infiltratie #azc #framing #feiten #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

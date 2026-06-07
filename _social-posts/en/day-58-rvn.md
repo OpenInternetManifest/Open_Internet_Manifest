@@ -6,12 +6,9 @@ rvn_title: "Unconscious Bias – Implicit Association Test (IAT)"
 rvn_teaser: "We all have biases we’re not even aware of."
 donation_link: ""
 donation_text: ""
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:45.897327"
-fuzzy_sha256: "8ee71161bf409513a07bf0e9d4037dfeb7e0dbcba582b8ce7e81bd977acf93b0"
-full_sha256: "5763fe417dfa7f4d604f6f6d8a10fa884a50e08567fb0a9cdf258d49c758fcf3"
 raw_markdown: |
   **RVN: Unconscious Bias – Implicit Association Test (IAT)** 🌀
   
@@ -29,7 +26,7 @@ raw_markdown: |
   
   Today we look at a test that reveals biases we often don’t even know we have.
   
-  ---
+  ***
   
   **Implicit Association Test (IAT)**
   
@@ -77,8 +74,11 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: ae60985b7abc33a0a4bbb503cd33f4867702c7f17ebfa482ba79e4677d4e007e
+fuzzy_sha256: b0f2c058fb0aaadb2e6135ef071f44de9c502852305481d248a05069693a6b9d
 clean_text: |-
-  rvn: unconscious bias – implicit association test (iat) 🌀 short recap of the series so far in day 2 we saw how perception can create discrimination that doesn’t exist (dartmouth scar). 🪞 in day 3 milgram showed how ordinary people do extreme things under authority. ⚡ in day 4 stanford prison revealed how quickly we adapt to assigned roles. 🚪 in day 5 asch demonstrated how group pressure overrides our own senses. 👥 in day 6 we discovered that observation itself can change reality (hawthorne + double slit). 🔬 in day 7 robbers cave showed how rapidly “us vs them” thinking can be created. ⚔️ in day 8 the bystander effect showed how responsibility diffuses with more people present. in day 9 we saw the false consensus effect. in day 10 the good samaritan experiment showed how hurry undermines moral behaviour. today we look at a test that reveals biases we often don’t even know we have. --- implicit association test (iat) the iat measures how quickly people can associate words and faces. example: you have to quickly pair positive words with white faces and negative words with black faces — and then reverse it. result: even people who consciously hold no racist views are often faster at pairing positive words with white faces and negative with black faces (and vice versa for other categories like gender, age, etc.). this effect has been shown repeatedly with tens of thousands of participants worldwide. narratief: “only bad people have prejudices. i am not racist/sexist/etc.” realiteit: unconscious associations (implicit bias) exist in almost everyone. our brain makes rapid, automatic connections based on culture, media and experiences — often without us being aware of it. how is this used today? identity politics and “woke” activism use the iat to claim that “everyone” is unconsciously racist/sexist and that structural measures are therefore needed. companies and governments use it as “proof” for diversity programs and quotas. at the same time, the effect is often exaggerated: a slightly slower reaction time in a lab test is presented as evidence of deep systemic oppression. the oim-lesson: unconscious biases exist. but they are not an excuse to collectively condemn entire groups of people or to sacrifice freedom and meritocracy. true maturity means acknowledging our unconscious biases and refusing to use them as an excuse to bypass individual responsibility and rational thinking. whoever constantly claims that “everyone is unconsciously racist” actually creates more division and distrust. the way forward is not denying unconscious associations, but refusing to let them determine how we treat each other. what do you think? how aware are you of your own unconscious associations? and how often are those associations used as a weapon instead of as a mirror? read for yourself. check for yourself. be honest with yourself. #rvn #implicitassociationtest #unconsciousbias #manipulation #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+  rvn: unconscious bias – implicit association test (iat) 🌀 short recap of the series so far in day 2 we saw how perception can create discrimination that doesn’t exist (dartmouth scar). 🪞 in day 3 milgram showed how ordinary people do extreme things under authority. ⚡ in day 4 stanford prison revealed how quickly we adapt to assigned roles. 🚪 in day 5 asch demonstrated how group pressure overrides our own senses. 👥 in day 6 we discovered that observation itself can change reality (hawthorne + double slit). 🔬 in day 7 robbers cave showed how rapidly “us vs them” thinking can be created. ⚔️ in day 8 the bystander effect showed how responsibility diffuses with more people present. in day 9 we saw the false consensus effect. in day 10 the good samaritan experiment showed how hurry undermines moral behaviour. today we look at a test that reveals biases we often don’t even know we have. *** implicit association test (iat) the iat measures how quickly people can associate words and faces. example: you have to quickly pair positive words with white faces and negative words with black faces — and then reverse it. result: even people who consciously hold no racist views are often faster at pairing positive words with white faces and negative with black faces (and vice versa for other categories like gender, age, etc.). this effect has been shown repeatedly with tens of thousands of participants worldwide. narratief: “only bad people have prejudices. i am not racist/sexist/etc.” realiteit: unconscious associations (implicit bias) exist in almost everyone. our brain makes rapid, automatic connections based on culture, media and experiences — often without us being aware of it. how is this used today? identity politics and “woke” activism use the iat to claim that “everyone” is unconsciously racist/sexist and that structural measures are therefore needed. companies and governments use it as “proof” for diversity programs and quotas. at the same time, the effect is often exaggerated: a slightly slower reaction time in a lab test is presented as evidence of deep systemic oppression. the oim-lesson: unconscious biases exist. but they are not an excuse to collectively condemn entire groups of people or to sacrifice freedom and meritocracy. true maturity means acknowledging our unconscious biases and refusing to use them as an excuse to bypass individual responsibility and rational thinking. whoever constantly claims that “everyone is unconsciously racist” actually creates more division and distrust. the way forward is not denying unconscious associations, but refusing to let them determine how we treat each other. what do you think? how aware are you of your own unconscious associations? and how often are those associations used as a weapon instead of as a mirror? read for yourself. check for yourself. be honest with yourself. #rvn #implicitassociationtest #unconsciousbias #manipulation #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 
 ---
 
@@ -98,7 +98,7 @@ In **Day 10** the Good Samaritan Experiment showed how hurry undermines moral be
 
 Today we look at a test that reveals biases we often don’t even know we have.
 
----
+***
 
 **Implicit Association Test (IAT)**
 

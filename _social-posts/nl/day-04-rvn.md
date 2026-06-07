@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 9538be5638947088f56765df875643cdd090392030cc2a96b95029e612010def
-social_share_sha256: ''
 day: 4
 rvn_title: Een monteur in Amsterdam
-# rvn_url: /nl/social-posts/dag-4-rvn
 rvn_teaser: En een klant de situatie weegt voordat ze zegt dat ze Joods is
-fuzzy_sha256: "0becd96e54e6909f36755903875bb5927fad86d6d7967229c262ee040f294190"
-full_sha256: "e88cee0c6d0d3fff76f8a899527986b95a739fda8e359d3b1ebcb603a52188c4"
 raw_markdown: |
   Realiteit vs. Narratief – Een monteur in Amsterdam.
   
@@ -38,6 +31,9 @@ raw_markdown: |
   Steun een internet waar niemand meer hoeft te zwijgen of te wachten tot de ander belt.
   Welke wereld wil jij voor je buren, je klanten, je kinderen?
   #realiteitvsnarratief #openinternetmanifest  #IranBlackout #amsterdam
+
+full_sha256: 95d322ace692f28cab74cb280476d7843039f40b25a76e654579db85207928c0
+fuzzy_sha256: a07aec4d650c715f9ea39e764e51e0a61b1b7a745a57987292c05592370b8e4f
 clean_text: |-
   realiteit vs. narratief – een monteur in amsterdam. vorige week bij een klant in amsterdam. achternaam klinkt joods. ik vraag voorzichtig: “mag ik vragen of je joods bent?” ze wordt even stil. kijkt me aan, weegt de situatie. zegt zachtjes ja. je ziet de spanning: 32 jaar, geboren hier, maar toch altijd even checken of het veilig is om dat te zeggen. vandaag weer een klant. vraag waar ze oorspronkelijk vandaan komt: iran. praatje over internet. ze vertelt dat ze vorige week donderdag nog telefonisch contact had met familie – maar alleen als zij vanuit iran belden. nu is het alweer zwart. helemaal zwart. ze kijkt naar haar scherm. zucht. “ik weet niet eens of het goed gaat daar.” het narratief zegt: “internetbeperkingen zijn nodig voor veiligheid en orde. censuur beschermt tegen chaos.” de realiteit: een jonge vrouw in amsterdam die niet weet of haar familie nog leeft, omdat een regime een knop kan indrukken. een jonge vrouw in amsterdam die even moet nadenken voor ze durft te zeggen dat ze joods is. dit is geen ver-van-mijn-bed-show. dit is amsterdam, 2026. dit is de echte wereld achter de nieuwsberichten. het open internet manifest zegt: wat in het echte leven grondrecht is – vrije meningsuiting, privacy, contact met familie, jezelf mogen zijn zonder angst – moet digitaal precies hetzelfde zijn. geen blackout-knop. geen stilteplicht. geen “veiligheids”-censuur die mensen isoleert. kies realiteit. luister naar de mensen die het dagelijks voelen. steun een internet waar niemand meer hoeft te zwijgen of te wachten tot de ander belt. welke wereld wil jij voor je buren, je klanten, je kinderen? #realiteitvsnarratief #openinternetmanifest #iranblackout #amsterdam
 

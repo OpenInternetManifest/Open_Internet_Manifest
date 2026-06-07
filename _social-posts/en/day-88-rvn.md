@@ -6,9 +6,6 @@ rvn_title: "The Romeos and Other Provocateurs"
 rvn_teaser: "The Dutch version of infiltration and provocation."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "81edfaa897f8851675a0060150c3e742fc60432876072376f788764359fb7d86"
-full_sha256: "6b931911d13b43676fa94bff46f6eac82e8ff0240109ea88a8504b032f811ac3"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:50.590131"
@@ -61,6 +58,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 842fd0df1af94be3452f780e738bcb66da88e8e557e0d25cdd791ac0e6e02549
+fuzzy_sha256: 4fd28a5c734350991308f68ae6334f3731205ce869d8c7366a907ee79aae0d47
 clean_text: |-
   rvn: “the romeos and other provocateurs” 🌀 narrative: the protests against azcs and asylum policy are full of extremists and racists. the media and politicians immediately point the finger at the demonstrators themselves. reality: just like with january 6, we see a recurring pattern in the netherlands of infiltration and provocation. the infamous “romeos” — undercover police officers or informants — have been active for years at right-wing and anti-asylum demonstrations. they blend into the crowd, shout more extreme slogans, sometimes carry banned symbols, film everything, and actively try to escalate the situation. this is not a conspiracy theory. it has been documented in multiple court cases and undercover operations. the pattern is always the same: a peaceful protest begins. suddenly figures appear who shout extreme slogans or encourage aggression. the media and police then focus mainly on those incidents. the entire protest is labeled as “far-right” or “dangerous”. this is exactly the same tactic as january 6: let a protest escalate → blame the demonstrators → justify repression and delegitimization. why do they do this? because real, mass public anger is far more dangerous than a few extremists. by using provocateurs and then amplifying them, they can criminalize the entire protest. this way they don’t have to seriously address the real problems (housing shortage, crime, cultural tensions, demographic replacement). this is not an incident. this is a system. oim way out we need to become much sharper at recognizing provocateurs. film, document, share descriptions, and above all: do not fall for provocations. this is why decentralized, verifiable communication and parallel structures are so important. so we can tell our own story without depending on media and authorities who are only looking for frames. question to you have you ever had the feeling during a demonstration that people were actively trying to escalate things? how do you recognize a provocateur in practice? let’s become smarter than they are. #romeos #provocateurs #infiltration #azc #framing #facts #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

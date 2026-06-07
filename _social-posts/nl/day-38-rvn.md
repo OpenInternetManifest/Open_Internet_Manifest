@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: cbc6c4a9e765791712e12b02cc45fb233e27dfacf73658313e8f781f3f7a77b1
-social_x_sha256: ''
-social_fb_sha256: 390596dab68e4ec5cb6bbc14f190f8ada9abe9155fac0448f032537d0bef6432
-social_share_sha256: ''
 day: 38
 rvn_title: Tijdelijke bondgenoten
-# rvn_url: /nl/social-posts/dag-38-rvn
 rvn_teaser: het patroon dat altijd terugkomt
-fuzzy_sha256: "23ab8670ad546a4515cde6c047071b065935f82ba1216021d9c8f67f4ec9a41e"
-full_sha256: "2c1ec8fbd817d60a1ffe9cf456ee5962ad57e83cf0944cd03f55297f4506d542"
 raw_markdown: |
   **Dag 38 – RVN: Tijdelijke bondgenoten: het patroon dat altijd terugkomt** 🪢🕳️  
   
@@ -80,6 +73,9 @@ raw_markdown: |
   
   Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
   Waarom narratieven wild worden... 🌀
+
+full_sha256: 45b4d52b55913fea8ccac5e4e44f6f35309bece4fc947a19727b213b0eb76c1f
+fuzzy_sha256: 6ebc49d1ca1b8fdeb3132243e94908610c4b99aeed1c943de706c5a8c6204f14
 clean_text: |-
   dag 38 – rvn: tijdelijke bondgenoten: het patroon dat altijd terugkomt 🪢🕳️ sommige allianties zijn zo absurd dat ze bijna komisch lijken... tot je beseft dat het patroon al eeuwen bestaat. neem de huidige pro-palestina-demonstraties in europa en de vs. aan de ene kant regenboogvlaggen, queers for palestine, lgbtq+-groepen die solidair zijn met gaza. aan de andere kant een regio waar homoseksualiteit strafbaar is (in gaza tot de doodstraf), waar gender-ideologie geen bestaansrecht heeft en waar seculiere waarden worden gezien als westers gif. waarom steunt een groep die in gaza geen levensbestaan heeft een beweging die hen zou executeren? chickens for kfc. 🐔🍗 maar het is geen domheid. het is een klassiek patroon: tijdelijke bondgenoten. links partijen in europa en de vs omarmen moslimmigranten als nieuwe stemmenbasis (70–85% stemt links, pew & ess-data). immigratiebeleid, welvaart, familiehereniging en anti-islamofobie wegen zwaarder dan de ideologische kloof op sociale issues (homo-rechten, gender, secularisme). die kloof wordt genegeerd met “dat lossen we later wel op”. totdat de macht is veroverd. historische voorbeelden die dit patroon bevestigen iran 1979 links-socialisten, communisten en seculiere intellectuelen hielpen khomeini de shah te verdrijven. ze zagen hem als anti-imperialistisch bondgenoot. na de machtsovername: duizenden links-activisten geëxecuteerd (people's mujahedin, tudeh party – schattingen 3.000–5.000 doden 1981–1988). khomeini gebruikte links om te winnen, en ruimde ze daarna op. egypte 2011 (arabische lente) liberale jeugd en seculiere groepen werkten samen met de moslimbroederschap om mubarak weg te krijgen. na verkiezingen 2012: moslimbroederschap aan de macht, liberale groepen gemarginaliseerd. na coup 2013: broederschap verboden, maar de liberale jeugd verloor alsnog. west-europa jaren 70–80 sommige links-intellectuelen verheerlijkten de islamitische revolutie en anti-westerse groepen als anti-imperialistisch. toen die groepen eenmaal macht kregen, werden dezelfde intellectuelen vaak het eerste doelwit. het patroon (graduated animal farms in actie) tijdelijke alliantie met een groep die ideologisch onverenigbaar is, omdat ze op dat moment stemmen, straatgeweld of demografische groei oplevert. stilte over onverenigbare waarden (“dat lossen we later wel op”). als de macht is veroverd: afrekening met de tijdelijke bondgenoot. queers for palestine is het meest zichtbare voorbeeld van vandaag. maar het is geen uitzondering – het is de standaardwerkwijze van gaf: verdeel en heers, gebruik de ene groep tegen de andere, en ruim op als het niet meer nodig is. de uitweg dit systeem blijft bestaan zolang we afhankelijk zijn van hun narratief, hun platforms, hun stemmachines. de oplossing is niet vechten binnen hun arena, maar uitstappen en zelf bouwen: eigen node → eigen data, geen algoritme dat frames pusht eigen feeds → geen poortwachter die bepaalt wat jij ziet open gesprek → giscus, matrix, geen redactionele filter eigen gemeenschap → lokale netwerken die niet afhankelijk zijn van importstemmen of ideologische zelfmoord 100 theses, 38 dagen rvn, een groeiende site – dit is geen theorie meer. het is praktijk. morgen verder: welke draad trekken we door? meer gaf-voorbeelden? of iets nieuws? lees zelf. check zelf. bouw zelf. welke tijdelijke bondgenoot zie jij? 🤔🪢 #rvn #openinternetmanifest #graduatedanimalfarms #queersforpalestine #narratiefdernarratieven #dag38 https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️✨. waarom narratieven wild worden... 🌀
 

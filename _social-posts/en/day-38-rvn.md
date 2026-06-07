@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: 96a411928c08e82742733fc3cd4820ff6d2e11bad546891400a450248f20cc3c
-social_x_sha256: f33f2390b4306ffce524e63795bf3489df51a2f460e55f7432027dabb2805512
-social_fb_sha256: f65dc8855e8f89834c7bf774b2485decf740f40d26f6ae8106884e527c1a4005
-social_share_sha256: ''
 day: 38
 rvn_title: Temporary alliesthe pattern that always returns
-# rvn_url: /en/social-posts/day-38-rvn
 rvn_teaser: the pattern that always returns
-fuzzy_sha256: "4b62a485a36c86358ec3bcf7f2fab30674ef60b2077a73741edcf2526684f725"
-full_sha256: "f33f2390b4306ffce524e63795bf3489df51a2f460e55f7432027dabb2805512"
 raw_markdown: |
   **Day 38 – RVN: Temporary allies: the pattern that always returns** 🪢🎪
   
@@ -80,6 +73,9 @@ raw_markdown: |
   
   Paste full text & check – reality stays calm 🧘‍♂️✨.  
   Why narratives run wild... 🌀
+
+full_sha256: 0d38a7e02591995e881bdb8ab1a90da2c91c36bb33a98badbd0d4a7730667ee6
+fuzzy_sha256: d540afd75c4c32422b63485eb878c5c791e2f36dbab232b194870e7c13ed0b27
 clean_text: |-
   day 38 – rvn: temporary allies: the pattern that always returns 🪢🎪 some alliances are so absurd they almost seem comical... until you realize the pattern has existed for centuries. take the current pro-palestine demonstrations in europe and the us. on one side rainbow flags, queers for palestine, lgbtq+ groups showing solidarity with gaza. on the other side a region where homosexuality is punishable (in gaza up to the death penalty), where gender ideology has no right to exist and where secular values are seen as western poison. why does a group that has no right to exist in gaza support a movement that would execute them? chickens for kfc. 🐔🍗 but it’s not stupidity. it’s a classic pattern: temporary allies. left parties in europe and the us embrace muslim migrants as new voting base (70–85% vote left, pew & ess data). immigration policy, welfare, family reunification and anti-islamophobia outweigh the ideological gap on social issues (gay rights, gender, secularism). that gap is ignored with “we’ll deal with that later”. until power is secured. historical examples that confirm this pattern iran 1979 left-wing socialists, communists and secular intellectuals helped khomeini overthrow the shah. they saw him as anti-imperialist ally. after the takeover: thousands of left activists executed (people's mujahedin, tudeh party – estimates 3,000–5,000 deaths 1981–1988). khomeini used the left to win, then eliminated them. egypt 2011 (arab spring) liberal youth and secular groups worked with the muslim brotherhood to remove mubarak. after elections 2012: brotherhood in power, liberals marginalized. after coup 2013: brotherhood banned, but the liberal youth still lost. western europe 1970s–80s some left intellectuals glorified the islamic revolution and anti-western groups as anti-imperialist. when those groups gained power, the same intellectuals often became the first targets. the pattern (graduated animal farms in action) temporary alliance with an ideologically incompatible group because they deliver votes, street power or demographic growth at that moment. silence about incompatible values (“we’ll deal with that later”). once power is secured: settling scores with the temporary ally. queers for palestine is the most visible example today. but it’s not an exception – it’s the standard gaf playbook: divide and rule, use one group against another, eliminate the weaker partner when no longer needed. the way out this system persists as long as we depend on their narrative, their platforms, their voting machines. the solution is not fighting inside their arena, but stepping out and building ourselves: own node → own data, no algorithm deciding what you see own feeds → no gatekeeper pushing frames open conversation → giscus, matrix, no editorial filter own community → local networks not dependent on imported votes or ideological suicide 100 theses, 38 days rvn, a growing site – this is no longer theory. it’s practice. tomorrow we continue: more gaf examples? or something new? read yourself. check yourself. build yourself. which temporary ally do you see? 🤔🪢 #rvn #openinternetmanifest #graduatedanimalfarms #queersforpalestine #narrativeofnarratives #day38 https://openinternetmanifest.org this post is 100% authentic & verifiable via: https://openinternetmanifest.org/en/hash-verifier paste full text & check – reality stays calm 🧘‍♂️✨. why narratives run wild... 🌀
 

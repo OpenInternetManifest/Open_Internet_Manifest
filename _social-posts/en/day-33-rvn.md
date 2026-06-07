@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: e272c6ac680461fa32f5e704cf54e4f9d6140e09c48532b765a228440da2e964
-social_fb_sha256: 0501b854ff5e2f28968ec8c8ce17942af1a17dd9a23720ab5e207922cd67af88
-social_share_sha256: ''
 day: 33
 rvn_title: Week synthesis; why division is the real power
-# rvn_url: /en/social-posts/day-33-rvn
 rvn_teaser: and how the facts rain breaks it
-fuzzy_sha256: "511c96834ea0d3fad8e7a3103d60d5026e76932916fb9a014b95a29bcb44c136"
-full_sha256: "3e27ea43e25c5a4563b0acb742a998e845fd553b321949c355c9f008253cd6ad"
 raw_markdown: |
   **Day 33 – RVN: The mother of all narratives** 🌀🕳️🔥 
   Week synthesis: why division is the real power – and how the facts rain breaks it.
@@ -55,6 +48,9 @@ raw_markdown: |
   @GideonvMeijeren  @fvdemocratie @realDonaldTrump @PamBondi @andweknow 
   
   https://openinternetmanifest.org
+
+full_sha256: b0c4b6a825749ac1e2951bdd7bc0ff36180d0777df3fe7ccb316f96fbd43fecf
+fuzzy_sha256: 4902b62fcab035b865d84f901fed7e83a48a29a7c4e2c24b12867c32f9ef2305
 clean_text: |-
   day 33 – rvn: the mother of all narratives 🌀🕳️🔥 week synthesis: why division is the real power – and how the facts rain breaks it. this week was a mirror of the system: gideon van meijeren: judge admits no direct call to violence, but convicts on "narrative" others might interpret. words weighed not on content, but on possible reception ⚖️🌀. pam bondi in congress: dems push epstein files for transparency, but doj tracks their searches – "burn book" with jayapal's exact views. push for info becomes intel against themselves 📑🔍. epstein files drop: trump as early alerter in 2006 ("thank goodness you're stopping him"), but polarization explodes anyway. facts exist, but count only if they fit the own narrative 📂💥. trump plays sun tzu at master level ♟️: he forces the release, lets the enemy come, and the boomerang returns. through his move the facts rain now falls – documents free, tracking visible, control exposed 🌧️⚡. the system cracks, gatekeepers lose grip. this is the narrative of narratives. everyone claims "truth": left "trump guilty" 😡, right "trump victim" 🎉. both build frames and fight each other. real power watches and laughs 😂. graduated animal farms in action: maximum division, minimum unity ⚔️. people carry on – work, kids, netflix 📺 – epstein doesn't exist unless it hits trump. cognitive dissonance at max: facts count only if they fit the frame 🧠🔒. the cabal doesn't even need to lie. we build the frames ourselves and lock each other in 🔐. as long as we fight narratives, we lose collectively. they win through division. but the facts rain falls hard now 🌧️⚡. that's the power of decentralization: info flows, narratives break, gatekeepers lose grip. the way out is not fighting inside their arena. it is stepping out and building ourselves: own node (raspberry pi, umbrel, btrfs raid1 + restic backups) 💾🛡️ own feeds (no algorithm, no gatekeeper) 📡 open conversation (giscus live – reply directly under every thesis/rvn) 💬 reclaim symbolic order: beauty, harmony, shared values 🌿 start small. build your cathedral 🏰. the facts rain helps – use it. thanks for this week. from rest to rhythm, from gideon to epstein, from division to insight. next week: deepen hardware guides? back to culture/architecture? or new angle? read yourself. check yourself. think yourself. what do you see when the frames fall away? 🤔🌱 #rvn #openinternetmanifest #factsoverframes #realityvsnarrative #narrativeofnarratives #factsrain #suntzu #sovereignty #day33 #weeksynthesis @gideonvmeijeren @fvdemocratie @realdonaldtrump @pambondi @andweknow https://openinternetmanifest.org
 

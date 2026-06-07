@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 1
 teaser_title:  The start
-# teaser_url: /en/social-posts/day-1-teaser
 teaser_text: Prep for the first full RVN – a dream of an internet that is ours again
 raw_markdown: |
   🇬🇧 Day 1 – The start of something big  
@@ -18,8 +13,9 @@ raw_markdown: |
   #openinternetmanifest #FreeInternet  #decentralization #Cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
   ❤️
 
-fuzzy_sha256: "6ee2543217a96f8253dc8331c7a9e3a9a4e689ffb77ab15aa244c88261889fc0"
-full_sha256: "6a788ac1daa8c7db1846ec9b0210e407a885a66c95c3f08b881ddfdbae7c7a13"
+
+full_sha256: 90fa445d20d6303ca24f6313dc7b36c693bc9b0eb8d039d8ecb2926fe6c7240b
+fuzzy_sha256: 280f08850011588ac253f0cfa4cb9b6df66bc88dbb07b7653ad4b85987f3f643
 clean_text: |-
   🇬🇧 day 1 – the start of something big started in december 2025: a dream of an internet that is ours again. no gatekeepers, no surveillance, no black boxes. already 30 theses – and it grows with you. 🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
 

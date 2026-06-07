@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: e4cd127b1254a082950a5a3535baf8a81e108a3d4804a583d38e8ba7eb0c58ae
-social_share_sha256: ''
 day: 25
 rvn_title: Obama, Iran cash and
-# rvn_url: /en/social-posts/day-25-rvn
 rvn_teaser: the eternal good cop-bad cop
-fuzzy_sha256: "9d57e8436b63eb434ebbb5f48d5b396cbfbb53fa654add7dc0f811c54f7b33ea"
-full_sha256: "d5b9089f7cce088bd6b8f555f65924efc8685b5a10bb6a79458f03de7103674e"
 raw_markdown: |
   **Reality vs Narrative: Obama, Iran cash and the eternal good cop / bad cop ♟️💰🕳️**
   Quick recap of the week so far:
@@ -75,6 +68,9 @@ raw_markdown: |
   I’m still learning every day.
   Are you?
   #RVN #FactsOverFrames #ObamaIran #GoodCopBadCop #FaithVsReligion
+
+full_sha256: b5ed9a4c031bacf4973ed30a7ff02956b69a5d245d4bda61549e80f701723e78
+fuzzy_sha256: 7d4293bdb8d67aa2f8e96d48ff580a508ac1f506aaac21f317f9131d3becfa40
 clean_text: |-
   reality vs narrative: obama, iran cash and the eternal good cop / bad cop ♟️💰🕳️ quick recap of the week so far: day 22: warp speed / trump → asymmetric play, no federal mandate, forced exit ramp without total confrontation day 23: 1913 → the blueprint (titanic clears opponents, fed + income tax pushed through, rockefellers build into oil, medicine & central control) day 24: templars → early banking power abuse (above church & kings), dissolved but structure survived, religion as system vs personal faith today: a modern-day example of exactly the same pattern. obama / iran deal – facts in short 2015: jcpoa (nuclear deal) – iran limits program, sanctions lifted → tens of billions of iranian assets (their own money, frozen in foreign banks) become accessible. january 2016: $1.7 billion cash (euros & swiss francs, flown in by plane) to iran – official reason: old pre-1979 debt (military goods never delivered) + interest. same day: 4 american hostages released. obama administration: “no ransom, coincidental timing.” critics (republicans, israel): “ransom + funding terrorism.” what happened next? large parts of the money flowed to irgc (revolutionary guard), hezbollah, houthis, hamas. syria, yemen, gaza: more conflict, more proxies, more destabilization. oil prices, weapons sales, geopolitical tension — all fueled. the layer most bubbles hate good cop (us / israel / west): “we’re trying for peace, making a deal”. bad cop (iran / proxies): “terror sponsor, anti-west”. but who really profits from the endless fight? arms trade. oil prices. regional division. attention diverted from the real structures. the pattern running through the whole week templars lent to both sides of the crusades. rockefellers / morgan funded wars on both sides (wwi / wwii). obama-iran cash → proxies stronger → more conflict. it repeats: destabilization feeds power. important distinction religion as institution (hierarchy, rules, power structures) is abused to divide. personal faith — the inner relationship with god, grace, choice, hope — is something completely different. that last part is not the problem. that last part is often exactly what the higher layer wants to break. because when people become united in their personal conviction, manifestation power becomes dangerous. mindfuck while bubbles fight over “obama good/bad”, “israel vs iran”, “zionists vs muslims”, the higher layer remains untouched. religious conflicts are theater for the masses. the real worship? power itself — or what some call moloch. history is his story the victor writes the tale. templars lost → heretics. iran gets cash → “deal for peace”. but who decides who the victor is? facts over frames. check for yourself: jcpoa text + state dept cash settlement (jan 2016) iran proxy financing (congressional research service reports 2016–2025) de molay final words (villani chronicle) what do you see? is obama-iran a failed deal... or a perfect good cop / bad cop move? and what if the real layer above doesn’t care at all about which personal faith you have — only about how to keep us divided? open discussion allowed. i’m still learning every day. are you? #rvn #factsoverframes #obamairan #goodcopbadcop #faithvsreligion
 

@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 814394c3e7e0dcc3958a8789eb3d6b5429dd5e3ee8640f3cb7ac317b210a86d6
-social_share_sha256: ''
 day: 11
 rvn_title: Van praatgroepje in heel Europa
-# rvn_url: /nl/social-posts/dag-11-rvn
 rvn_teaser: naar slagveld
-fuzzy_sha256: "fcf9075319152c3cd593e47a7e819c197c061ff77f31757e62e5d7e4aa69a0b8"
-full_sha256: "35aa8af1514322f2a412b3892065d2daf293b89e1e54d1f726b7ce44b970ae50"
 raw_markdown: |
   **Realiteit vs Narratief** – Van "praatgroepje" in heel Europa naar slagveld 🕶️❄️
   
@@ -33,6 +26,9 @@ raw_markdown: |
   
   Open Internet Manifest: https://openinternetmanifest.org  
   #realiteitvsnarratief #MacronZonnebril #DavosPraatgroepje #TrumpGreenland #SunTzu #OIM ❤️
+
+full_sha256: 0e6b8a45120523c281ee07dc79da42060ce59192e2f1fe7fad15d9eaf1ecfb6d
+fuzzy_sha256: 728ca08e4adbb9084d3e331c35f8a9c389f49e95a35ab50303beab83d42b454f
 clean_text: |-
   realiteit vs narratief – van "praatgroepje" in heel europa naar slagveld 🕶️❄️ jarenlang werd davos/wef in nederland én heel europa afgedaan als praatgroepje: elites met champagne, loze beloftes en netwerkpraat op een zwitserse berg. rutte zelf noemde het vaak "slechts een praatclubje" – onschuldig, niks aan de hand. nu? trump lekt privé-sms'en van rutte ("dear donald, incredible... committed on greenland... yours, mark") en macron ("my friend... i do not understand what you are doing on greenland... g7 in paris?"). hij pusht greenland met ai-memes (us-vlag erop, est. 2026), dreigt met tarieven 10-200% op eu-landen, en forceert side-meetings in davos. europa countert met theater: duitsland stuurt 13 soldaten op "verkenning" (binnen 24u terug), frankrijk 15. macron speelt bad cop: stoer roepen over "respect over bullies" en "no to new colonialism"... met aviator-zonnebril binnen op. officieel "harmless eye condition", maar memes exploderen: eye of the tiger, bond-villain, verborgen zwakte? 🕶️😂 good cop rutte slijmt privé, bad cop macron zet shades op – maar trump lekt het script. en gisteren, vlak voor vertrek: trump houdt in een lange briefing mugshots omhoog van "criminal illegal aliens" gearresteerd in minnesota – "murderers, drug lords, mentally insane" die "make hells angels look like the sweetest people on earth". duizenden arrests, foto's één voor één getoond. sun tzu in actie: deception, expose the roles, laat ze struikelen. van praatgroepje naar centrum van macht in één week – terwijl hij visueel "de monsters" toont die hij wegstuurt. soms kan je het niet vertellen. mensen moeten het zelf zien – inclusief die pilot shades. wij willen een open web zonder zonnebril – geen censuur op truth, geen monopolie op info, geen dubbele tongen of verborgen ogen die we zelf moeten ontmaskeren. geen pilot shades om zwakte te verbergen. open internet manifest: https://openinternetmanifest.org #realiteitvsnarratief #macronzonnebril #davospraatgroepje #trumpgreenland #suntzu #oim ❤️
 

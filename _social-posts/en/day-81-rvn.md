@@ -6,9 +6,6 @@ rvn_title: "Illusory Progress: The Grand Summary"
 rvn_teaser: "We’ve spent 11 days exposing illusory progress. What is the real pattern?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "7f4f429e2b781db47a2659386490742b0ea12a222e04e38b491bd46b37edba1b"
-full_sha256: "e27acc311c25d679a1fbde50b100eaf2ed81c1422e6a982620e88a80d829023d"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:49.498234"
@@ -65,7 +62,7 @@ raw_markdown: |
   Not by complaining about the system,  
   but by building a better alternative.
   
-  ---
+  ***
   
   You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
@@ -78,12 +75,15 @@ raw_markdown: |
   
   #IllusoryProgress #Farmers #SmallBusiness #Nitrogen #FoodSovereignty #Independence #OpenInternetManifest
   
-  ---
+  ***
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 5bd27a182a66a1170f379f7ba9c984ebc6a81b0b71147499a956027ad712dd5a
+fuzzy_sha256: 1c84e20d75293914dcb11eef56a0eae2a9fb80840b8693e64e7fa4f41a1ed89b
 clean_text: |-
-  illusory progress – day 38: the grand summary 🔄 this was the series over the past days we examined several sacred cows: leasing → you own nothing, you just lease heat pumps → expensive, complex dependence with a green coat electric cars → trading oil dependence for battery and grid dependence the 15-minute city → locking your life into a small, controlled box everything as a subscription → you become a paying user instead of an owner cashless society → total traceability and programmable money feminism → “liberation” that led to lower birth rates and more pills youth care → an industry that grows as it fails agriculture & nitrogen → the systematic destruction of the farming class small businesses during and after corona → the largest destruction of independent entrepreneurs in decades the pattern is crystal clear the same recipe every single time: create or exaggerate a problem (nitrogen, corona, climate, inclusivity) offer a solution that is more complex, more expensive, and makes people more dependent eliminate independent people (farmers, shopkeepers, hospitality, self-employed) centralize power with government, banks and big corporations criminalize criticism as “far-right”, “conspiracy theorist” or “danger to democracy” the ultimate proof during corona, small shops, restaurants and self-employed people were destroyed by lockdowns, while big chains and webshops flourished. now farmers are being targeted through nitrogen rules. the pattern is identical: independent, self-reliant people are systematically eliminated. both farmers and small business owners are too stubborn, too productive, and not dependent enough on the state. that must be broken. exactly what dictators have always done throughout history: first destroy the farmers and the middle class. the oim way out we are not participating in this system. we are building in parallel: ownership instead of subscriptions decentralization instead of centralization verifiability instead of blind trust local, small structures instead of vulnerable mega-systems real freedom instead of engineered dependence the series is finished, but the real work is only just beginning. we continue. not by complaining about the system, but by building a better alternative. --- you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you do you see the pattern? and more importantly: are you going to help build something better? #illusoryprogress #farmers #smallbusiness #nitrogen #foodsovereignty #independence #openinternetmanifest --- this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+  illusory progress – day 38: the grand summary 🔄 this was the series over the past days we examined several sacred cows: leasing → you own nothing, you just lease heat pumps → expensive, complex dependence with a green coat electric cars → trading oil dependence for battery and grid dependence the 15-minute city → locking your life into a small, controlled box everything as a subscription → you become a paying user instead of an owner cashless society → total traceability and programmable money feminism → “liberation” that led to lower birth rates and more pills youth care → an industry that grows as it fails agriculture & nitrogen → the systematic destruction of the farming class small businesses during and after corona → the largest destruction of independent entrepreneurs in decades the pattern is crystal clear the same recipe every single time: create or exaggerate a problem (nitrogen, corona, climate, inclusivity) offer a solution that is more complex, more expensive, and makes people more dependent eliminate independent people (farmers, shopkeepers, hospitality, self-employed) centralize power with government, banks and big corporations criminalize criticism as “far-right”, “conspiracy theorist” or “danger to democracy” the ultimate proof during corona, small shops, restaurants and self-employed people were destroyed by lockdowns, while big chains and webshops flourished. now farmers are being targeted through nitrogen rules. the pattern is identical: independent, self-reliant people are systematically eliminated. both farmers and small business owners are too stubborn, too productive, and not dependent enough on the state. that must be broken. exactly what dictators have always done throughout history: first destroy the farmers and the middle class. the oim way out we are not participating in this system. we are building in parallel: ownership instead of subscriptions decentralization instead of centralization verifiability instead of blind trust local, small structures instead of vulnerable mega-systems real freedom instead of engineered dependence the series is finished, but the real work is only just beginning. we continue. not by complaining about the system, but by building a better alternative. *** you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you do you see the pattern? and more importantly: are you going to help build something better? #illusoryprogress #farmers #smallbusiness #nitrogen #foodsovereignty #independence #openinternetmanifest *** this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 
 ---
 
@@ -141,7 +141,7 @@ We continue.
 Not by complaining about the system,  
 but by building a better alternative.
 
----
+***
 
 You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
@@ -154,7 +154,7 @@ And more importantly: are you going to help build something better?
 
 #IllusoryProgress #Farmers #SmallBusiness #Nitrogen #FoodSovereignty #Independence #OpenInternetManifest
 
----
+***
 
 This post is 100% authentic and verifiable via:  
 https://openinternetmanifest.org/en/hash-verifier

@@ -6,8 +6,6 @@ rvn_title: "“Dit is allemaal aangesticht voor…” – De valkuil van DE waar
 rvn_teaser: "Elke crisis wordt meteen gekoppeld aan één grote agenda. Maar wat als crises meerdere doelen dienen?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "a68906354017fc51b04e0b8b7cc683bfb55c0e9f7463eb936943a0812bc2ea3a"
-full_sha256: "32d815807def92cc52ba878d5b9f0097761d4cf6f77f6fdb7cc22ed2d9d922a9"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:07.284624"
@@ -61,6 +59,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 3dd8716da6083c1ccd36d4c23adc719b33adf70483be86ea8e7b92f26f31abe8
+fuzzy_sha256: 8f43d46a842ff066d2429dba66fd953e1083bd15f7ef247cfe06262248bb7f9c
 clean_text: |-
   rvn: “dit is allemaal aangesticht voor...” – de valkuil van de waarheid 🌀 narratief: “alle branden op militaire terreinen zijn aangesticht. dit is duidelijk voorbereiding voor de smart city en 15-minutensteden. wake up!” realiteit: steeds vaker claimt men direct de waarheid bij een gebeurtenis. eén simpele, allesverklarende oorzaak. neem de recente branden op militaire terreinen. direct werd geroepen: “dit is voor de 15-minutenstad / smart city!” maar een crisis heeft zelden één doel. meerdere lagen tegelijk mogelijk: versnelling van digitalisering en controle (smart city agenda) argument voor meer eu-defensiesamenwerking (“we hebben europa nodig voor een sterk leger – alleen is maar alleen”) versterking van het klimaatnarratief (“zie je wel, extreem weer door klimaatverandering”) afleiding van andere gevoelige dossiers budgetverhoging voor defensie en veiligheid dit is geen complotdenken, maar simpelweg hoe macht werkt: never waste a good crisis. meerdere vliegen in één klap. het gevaar van de waarheid claimen door direct “dit is voor de 15-minutenstad” te roepen: reduceer je complexe realiteit tot één narratief creëer je meteen vijanden (“jij gelooft dat niet? dan ben je blind!”) voed je polarisatie en divide & conquer oim-uitweg stop met het claimen van de waarheid. zoek in plaats daarvan naar lagen en bouw erbuiten. welke belangen spelen er écht? welke mechanismen zien we terug? en vooral: wat ga jij zelf bouwen in plaats van alleen reageren? vraag aan jou herken je het patroon dat elke gebeurtenis meteen wordt gekoppeld aan één grote agenda? durf je meerdere lagen toe te staan, of claim je snel “dit is het”? laten we stoppen met het voeden van polarisatie en beginnen met bouwen aan echte alternatieven. #crisismisbruik #meerderelagen #divideandconquer #rvn #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

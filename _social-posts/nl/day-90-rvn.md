@@ -6,8 +6,6 @@ rvn_title: "27 crewleden gearresteerd op Disney-schepen voor kinderporno"
 rvn_teaser: "De magische wereld van Disney heeft een hele duistere onderkant"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "55769cc88208ff4d6cf390a7f256ab591400c52c09cd9cbd566caa7793900cd3"
-full_sha256: "68a655cd0bb5e88ac64ecd3806a297124a28a3fc0460028dd81f07cc800f6d22"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:10.944034"
@@ -55,6 +53,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: e702e04714f0f70eb3cc26939ffcbb84a193ffec3e85c4950eea8dd7341b1c54
+fuzzy_sha256: a41991e6f2e67a521435a177b91ac1501b2faafc4521b295521024484fd82451
 clean_text: |-
   rvn: “27 crewleden gearresteerd op disney-schepen voor kinderporno” 🌀 narratief: disney is het ultieme symbool van onschuld, magie en familieplezier. kritiek op disney is complotdenken van zieke mensen. realiteit: in april 2026 werden tijdens controles in de haven van san diego 27 crewleden van cruiseschepen gearresteerd voor het bezit, ontvangen en verspreiden van kinderporno. tien van hen werkten direct voor disney cruise line. tien. disney — het bedrijf dat zichzelf al decennia profileert als de veiligste, meest kindvriendelijke entertainmentgigant ter wereld — had op één van haar schepen tien medewerkers die kinderporno verspreidden. dit is geen “één rotte appel”. dit is een structureel probleem op schepen die vol zitten met families en kinderen. de mainstream media? bijna complete radiostilte. een ander groot bedrijf zou wekenlang voorpaginanieuws zijn. bij disney? een klein berichtje en dan snel door naar de volgende feelgood-story. dit past in een groter, smerig patroon: grote instituties (disney, hollywood, kerken, sportclubs, elites) die een puur, onschuldig imago verkopen, terwijl de realiteit vaak extreem duister is. walt disney zelf was een complexe man met nauwe banden met de amerikaanse overheid en inlichtingendiensten. het bedrijf dat hij naliet draagt al jaren geruchten met zich mee over pedofiele netwerken en occulte symboliek — geruchten die door klokkenluiders en insiders al decennia worden herhaald. oim-uitweg stop met blind vertrouwen op grote merken die “voor de kinderen” zeggen te zijn. ze liegen. al decennia. bescherm je eigen kinderen. verifieer zelf. bouw eigen systemen. word niet afhankelijk van instituties die hun eigen vuile was verbergen. vraag aan jou hoe vaak moeten we dit nog zien (disney, hollywood, elites) voordat we stoppen met doen alsof deze instituties moreel superieur zijn? feiten boven sprookjes. altijd. #disney #childexploitation #kinderporno #elite #framing #feiten #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

@@ -13,25 +13,22 @@ collections:
   social-posts:
     output: true
 
-# Markdown settings - optimale tabel ondersteuning
+# Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
   table_of_contents: false
- 
 
-# Defaults voor alle bestanden
+# Defaults
 defaults:
-  # Algemene pagina's in _pages map
   - scope:
       path: "_pages"
     values:
       layout: default
       permalink: "/:basename/"
 
-  # Collections
   - scope:
       path: ""
       type: "guides"
@@ -50,7 +47,6 @@ defaults:
     values:
       layout: social-posts
 
-  # Taal defaults
   - scope:
       path: "en"
     values:
@@ -60,11 +56,11 @@ defaults:
       path: "nl"
     values:
       lang: "nl"
-      
+
 include:
   - admin/
   - _pages/ 
-  
+
 exclude:
   - venv
   - tools
@@ -72,5 +68,19 @@ exclude:
   - .jekyll-cache
   - Gemfile.lock
   - .DS_Store
+  - .github
+  - README.md
+  - LICENSE
+  
+  # Backup en oude mappen
+  - _social-posts/nl/old
+  - _social-posts/en/old
+  - "**/*.bak*"
+  - "**/*.bak_clean"
+  - "**/*.bak_restore*"
+  - "**/*.bak_final*"
+  - "**/*.bak_body*"
+  - "**/*.bak_test*"
+  - "**/*.bak_nuclear*"
 
-rebuild_trigger: v2026-05-25-1
+rebuild_trigger: v2026-05-31-cleanup

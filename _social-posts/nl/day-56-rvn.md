@@ -6,11 +6,9 @@ rvn_title: "De illusie van consensus – False Consensus Effect"
 rvn_teaser: "We overschatten systematisch hoe normaal onze eigen mening is."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:04.666944"
-fuzzy_sha256: "b036d44a72d4bb0e8ee830bf86454ec526cbc317154b7c901fb3fcef6efe4ff2"
-full_sha256: "097c8be53e0b623dd0c8ba6373739c55cd051808ef76711186bbff2a323d505d"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:05.558087"
 raw_markdown: |
   **RVN: De illusie van consensus – False Consensus Effect** 🌀
   
@@ -25,8 +23,8 @@ raw_markdown: |
   
   Vandaag kijken we naar een fenomeen dat bijna iedereen in zijn eigen bubbel herkent.
   
-    ---
-  
+  ***
+
   **False Consensus Effect**
   
   Mensen hebben de sterke neiging om te overschatten hoe vaak anderen hetzelfde denken, voelen en doen als zijzelf.
@@ -75,8 +73,11 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: f860244f31b8f558c5ede9fb84a574e5e0d5f6510e5429a49bfacc59b1ed9b59
+fuzzy_sha256: e9b757d3d1d755696e094f3936efd045d848196e9cb3d0cf78d83205ce0ecb68
 clean_text: |-
-  rvn: de illusie van consensus – false consensus effect 🌀 korte recap van de serie tot nu toe in dag 2 zagen we hoe perceptie discriminatie kan creëren die er niet is (dartmouth scar). 🪞 in dag 3 toonde milgram hoe gewone mensen extreme dingen doen onder autoriteit. ⚡ in dag 4 liet stanford prison zien hoe snel we ons aanpassen aan toebedeelde rollen. 🚪 in dag 5 demonstreerde asch hoe groepsdruk ons eigen waarnemingsvermogen uitschakelt. 👥 in dag 6 ontdekten we dat observatie zelf realiteit kan veranderen (hawthorne + double slit). 🔬 in dag 7 liet robbers cave zien hoe razendsnel “wij vs zij”-denken gecreëerd kan worden. ⚔️ vandaag kijken we naar een fenomeen dat bijna iedereen in zijn eigen bubbel herkent. --- false consensus effect mensen hebben de sterke neiging om te overschatten hoe vaak anderen hetzelfde denken, voelen en doen als zijzelf. simpele voorbeelden: iemand die vegan is, denkt dat “bijna iedereen” al bijna vegan is of het binnenkort wordt. iemand die sterk anti-trump is, denkt dat “bijna iedereen” trump haat. iemand die sterk pro-trump is, denkt dat “bijna iedereen” trump steunt. iemand die vindt dat alle problemen door “de elite” komen, denkt dat “bijna iedereen” dat ook vindt. dit effect is talloze keren wetenschappelijk aangetoond. mensen schatten de prevalentie van hun eigen mening systematisch hoger in dan die in werkelijkheid is. narratief: “de meeste mensen denken er net zo over als ik. mijn mening is de norm.” realiteit: onze eigen bubbel is veel kleiner dan we denken. we leven in filterbubbels (zowel offline als online) en overschatten hoe representatief onze eigen opvattingen zijn. hoe wordt dit vandaag gebruikt? social media algoritmes versterken dit effect enorm: ze tonen ons vooral content die onze eigen mening bevestigt. media en politici doen alsof “iedereen” het met hen eens is (“de hele samenleving vindt...”). activisten en complotdenkers gebruiken het: “iedereen die wakker is, ziet dit ook”. het false consensus effect zorgt ervoor dat mensen zich sterker voelen in hun eigen gelijk dan objectief gerechtvaardigd is — en dat ze afwijkende meningen als abnormaal of “wakker worden”-behoeftig zien. de oim-les: echte realiteitszin begint met het besef dat jouw bubbel niet de wereld is. wie altijd denkt dat “bijna iedereen” er net zo over denkt als hijzelf, leeft in een illusie. dat maakt je kwetsbaar voor manipulatie — zowel door mainstream als alternatieve media. de kracht van open internet manifest is juist dat we proberen buiten de eigen bubbel te kijken, feiten te checken en patronen te onderbouwen — ook als dat betekent dat we moeten toegeven dat onze eigen mening minder gangbaar is dan we dachten. wat denk jij? hoe vaak overschat jij hoeveel mensen er hetzelfde over denken als jij? en hoe vaak heb je al eens gedacht “iedereen ziet dit toch?” terwijl dat helemaal niet zo was? lees zelf. check zelf. doorbreek je eigen bubbel. #rvn #falseconsensuseffect #bubbel #manipulatie #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  rvn: de illusie van consensus – false consensus effect 🌀 korte recap van de serie tot nu toe in dag 2 zagen we hoe perceptie discriminatie kan creëren die er niet is (dartmouth scar). 🪞 in dag 3 toonde milgram hoe gewone mensen extreme dingen doen onder autoriteit. ⚡ in dag 4 liet stanford prison zien hoe snel we ons aanpassen aan toebedeelde rollen. 🚪 in dag 5 demonstreerde asch hoe groepsdruk ons eigen waarnemingsvermogen uitschakelt. 👥 in dag 6 ontdekten we dat observatie zelf realiteit kan veranderen (hawthorne + double slit). 🔬 in dag 7 liet robbers cave zien hoe razendsnel “wij vs zij”-denken gecreëerd kan worden. ⚔️ vandaag kijken we naar een fenomeen dat bijna iedereen in zijn eigen bubbel herkent. *** false consensus effect mensen hebben de sterke neiging om te overschatten hoe vaak anderen hetzelfde denken, voelen en doen als zijzelf. simpele voorbeelden: iemand die vegan is, denkt dat “bijna iedereen” al bijna vegan is of het binnenkort wordt. iemand die sterk anti-trump is, denkt dat “bijna iedereen” trump haat. iemand die sterk pro-trump is, denkt dat “bijna iedereen” trump steunt. iemand die vindt dat alle problemen door “de elite” komen, denkt dat “bijna iedereen” dat ook vindt. dit effect is talloze keren wetenschappelijk aangetoond. mensen schatten de prevalentie van hun eigen mening systematisch hoger in dan die in werkelijkheid is. narratief: “de meeste mensen denken er net zo over als ik. mijn mening is de norm.” realiteit: onze eigen bubbel is veel kleiner dan we denken. we leven in filterbubbels (zowel offline als online) en overschatten hoe representatief onze eigen opvattingen zijn. hoe wordt dit vandaag gebruikt? social media algoritmes versterken dit effect enorm: ze tonen ons vooral content die onze eigen mening bevestigt. media en politici doen alsof “iedereen” het met hen eens is (“de hele samenleving vindt...”). activisten en complotdenkers gebruiken het: “iedereen die wakker is, ziet dit ook”. het false consensus effect zorgt ervoor dat mensen zich sterker voelen in hun eigen gelijk dan objectief gerechtvaardigd is — en dat ze afwijkende meningen als abnormaal of “wakker worden”-behoeftig zien. de oim-les: echte realiteitszin begint met het besef dat jouw bubbel niet de wereld is. wie altijd denkt dat “bijna iedereen” er net zo over denkt als hijzelf, leeft in een illusie. dat maakt je kwetsbaar voor manipulatie — zowel door mainstream als alternatieve media. de kracht van open internet manifest is juist dat we proberen buiten de eigen bubbel te kijken, feiten te checken en patronen te onderbouwen — ook als dat betekent dat we moeten toegeven dat onze eigen mening minder gangbaar is dan we dachten. wat denk jij? hoe vaak overschat jij hoeveel mensen er hetzelfde over denken als jij? en hoe vaak heb je al eens gedacht “iedereen ziet dit toch?” terwijl dat helemaal niet zo was? lees zelf. check zelf. doorbreek je eigen bubbel. #rvn #falseconsensuseffect #bubbel #manipulatie #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -93,7 +94,7 @@ In **Dag 7** liet Robbers Cave zien hoe razendsnel “Wij vs Zij”-denken gecre
 
 Vandaag kijken we naar een fenomeen dat bijna iedereen in zijn eigen bubbel herkent.
 
----
+***
 
 **False Consensus Effect**
 

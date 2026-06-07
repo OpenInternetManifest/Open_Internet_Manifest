@@ -2,15 +2,8 @@
 layout: social-posts
 lang: nl
 day: 40
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: b8e4d21c89dfe2ce06af9a243cd796340f2852feb1976d91635c0aaa0590c37a
-social_share_sha256: ''
 rvn_title: Sun Tzu voltooid?
-# rvn_url: /nl/social-posts/dag-40-rvn
 rvn_teaser: Proxy-lus breekt af met precisie-slagen ♟️
-fuzzy_sha256: "7c94b52c1d46a407bfff0c3ae5ec9244ef213ca7da7db27bc6419a481586d0bd"
-full_sha256: "9312b48d10068d2bedf2c8cfc07694d83cfbd514e50f21b971c803af1ca39926"
 raw_markdown: |
   **Korte stilte – even een update**  
   Het was even stil met nieuwe RVN-posts deze week. Niet omdat er niks gebeurt, maar juist omdat er achter de schermen vol gas gegeven wordt 💨. We bouwen momenteel een admin-pagina die posten, herposten op X/Facebook en bijdragen van de community een stuk makkelijker maakt. Dat gaat ons in staat stellen om sneller, consistenter en met input van jullie te blijven draaien. Morgen plaatsen we deze als eenmalige post deze week – daarna komt de flow weer op gang. Bedankt voor het geduld, het wordt de moeite waard 🙏.
@@ -56,6 +49,9 @@ raw_markdown: |
   Open discussie mag. Ik leer nog elke dag. Jij ook?
   
   #RVN #SunTzu #ProxyAfbraak #TrumpIran #EpsteinBoemerang #Dag25Dag32Update #FeitenBovenFrames #OpenInternetManifest
+
+full_sha256: a3a9793da04dfd157c1303e7ab54373d963a105a7912c9116853afd8d0a45f68
+fuzzy_sha256: 0a467fbf675d47e7bdb27a0f195786e3d110a636d7852c320f7fc81a6e02533b
 clean_text: |-
   korte stilte – even een update het was even stil met nieuwe rvn-posts deze week. niet omdat er niks gebeurt, maar juist omdat er achter de schermen vol gas gegeven wordt 💨. we bouwen momenteel een admin-pagina die posten, herposten op x/facebook en bijdragen van de community een stuk makkelijker maakt. dat gaat ons in staat stellen om sneller, consistenter en met input van jullie te blijven draaien. morgen plaatsen we deze als eenmalige post deze week – daarna komt de flow weer op gang. bedankt voor het geduld, het wordt de moeite waard 🙏. terug naar het patroon herinner je dag 32? epstein-files drop als boemerang 🪃: de push voor transparantie keerde zich tegen de eisende partij. pam bondi binder toonde searches van congresleden. polarisatie op maximum, terwijl de echte macht onaangetast bleef. en ga nog verder terug naar dag 25 (obama / iran-deal rvn): 2015-2016: jcpoa + $1.7 miljard cash naar iran (officieel “oude schuld”, maar timing met gijzelaarsvrijlating). grote delen vloeiden naar irgc, hezbollah, houthis, hamas → proxy-oorlogen in syrië, jemen, gaza sterker → olieprijzen omhoog, wapenhandel bloeiend 📈. good cop (deal voor vrede) vs bad cop (terror sponsor) – beide kanten gefinancierd, conflict eeuwig sudderend. dat was het klassieke patroon: destabilisatie = winst. nu iran 2026: dezelfde spelers, maar een andere speelstijl. trump forceert precisie-aanvallen: irgc-leiders eruit, raketopslag geraakt, proxy-commandocentra uitgeschakeld – snel, gericht, zonder grondtroepen of miljarden cash die naar proxies vloeien 🔴. geen uitgerekte oorlog, geen eindeloze lage-intensiteit chaos. dat is anders dan de vorige decennia: obama-era: miljarden vrij → proxies sterker → proxy-conflicten sudderen eeuwig nu: geen geldinfusie meer → proxies kwetsbaar, denken twee keer na voordat ze escaleren ⚖️ sun tzu in actie ♟️ “laat de vijand naar jou toekomen” – iran provoceert, vs/israël reageert gericht “aanval waar hij niet voorbereid is” – drone/missile strikes op sleutelfiguren “de beste overwinning is zonder te vechten” – dreigen + precisie → capitulatie zonder totale oorlog breekt dit echt de eeuwige proxy-lus? eeuwenlang financierden hogere lagen beide kanten: templars in kruistochten, rockefellers in woi/wwii, obama-cash naar proxies. conflict = winst (wapens, olie, schuldcreatie, verdeeldheid). trump’s stijl oogt als een breuk: asymmetrisch, snel, geen zuurstof voor de tegenstander. maar is het permanent? of gewoon een nieuwe fase in hetzelfde spel – good cop wordt harder, bad cop krijgt een tik, maar de structuur blijft? wat zie jij? 🤔 zijn dit de eerste echte stappen naar afbraak van het proxy-model? of is het theater: laat de plebs denken dat er een shift is, terwijl de diepere laag beide kanten blijft bespelen? check zelf dag 25 rvn: obama / iran-deal (https://openinternetmanifest.org/nl/social-posts/dag-25-rvn.html) dag 32 rvn: epstein-files als boemerang (https://openinternetmanifest.org/nl/social-posts/dag-32-rvn.html) irgc strikes & proxy-financiering rapporten (crs 2025–2026) flight logs & 2006 call (epstein-files tranche 2026) pam bondi binder-foto’s (house judiciary hearing 2026) feiten boven frames. altijd. open discussie mag. ik leer nog elke dag. jij ook? #rvn #suntzu #proxyafbraak #trumpiran #epsteinboemerang #dag25dag32update #feitenbovenframes #openinternetmanifest
 

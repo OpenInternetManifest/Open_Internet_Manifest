@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: a913665df3fbe99aa077e7bedcd8255ca455c37c13d74ae166cf9a8a5cf9b0da
-social_share_sha256: ''
 day: 6
 rvn_title: Nederland verdedigt Groenland
-# rvn_url: /nl/social-posts/dag-6-rvn
 rvn_teaser: Met Flipse, koffie en een stroopwafel
-fuzzy_sha256: "05b58b065128b73642134504612595237c019057f863d96abb4ee14f36674ef4"
-full_sha256: "66c6994b6f180d41b6575277193870b0efc75d70816e25fa4c290a3ab1ec843f"
 raw_markdown: |
   Realiteit vs Narratief – Nederland verdedigt Groenland  
   
@@ -31,8 +24,8 @@ raw_markdown: |
   
   #RealiteitVsNarratief #Groenland #FlipseDeMilitair #NAVO #Nederland
   
-    ---
-  
+  ***
+
   Reality vs Narrative – The Netherlands is defending Greenland  
   Narrative: “The Netherlands stands firm with NATO in the Arctic struggle. Full commitment against Russia and China. Flipse is our forward deployed asset.”
   
@@ -50,8 +43,11 @@ raw_markdown: |
   We participate, but don’t expect anything.  
   
   #RealityVsNarrative #greenland #FlipseTheSoldier #NATO #netherlands
+
+full_sha256: e43a60dbde01bb086a1345491f7cdfcd667089a1e5f2533b02c6b83fd61d3dda
+fuzzy_sha256: 3f1db6d3cb786ea8fa9c7f118d6a4b5a885ee0b15efe647c5137649ee5f9f8ba
 clean_text: |-
-  realiteit vs narratief – nederland verdedigt groenland narratief: “nederland staat pal voor de navo in de arctische strijd. volledige inzet tegen rusland en china. flipse is onze forward deployed asset.” realiteit: we sturen 1 (één) militair. flipse. alleen. groenland = 2,1 miljoen km2. flipse = 2,1 miljoen km2 per militair. duitsland stuurt er 13. dat is nog steeds een scoutinggroep, maar flipse staat daar nu solo op het ijs met een dampende thermoskan koffie en een stroopwafel: “hé poetin, xi, trump... koffie? stroopwafel erbij?” ☕🍪❄️ nederlandse buitenlandpolitiek in één zin: we doen mee, maar verwacht geen moer. #realiteitvsnarratief #groenland #flipsedemilitair #navo #nederland --- reality vs narrative – the netherlands is defending greenland narrative: “the netherlands stands firm with nato in the arctic struggle. full commitment against russia and china. flipse is our forward deployed asset.” reality: we send 1 (one) soldier. flipse. alone. greenland = 2.1 million km2. flipse = 2.1 million km2 per soldier. germany sends 13. still a scout group, but flipse is out there solo on the ice with a steaming thermos of coffee and a stroopwafel: “hey putin, xi, trump... coffee? stroopwafel on the side?” ☕🍪❄️ dutch foreign policy in one sentence: we participate, but don’t expect anything. #realityvsnarrative #greenland #flipsethesoldier #nato #netherlands
+  realiteit vs narratief – nederland verdedigt groenland narratief: “nederland staat pal voor de navo in de arctische strijd. volledige inzet tegen rusland en china. flipse is onze forward deployed asset.” realiteit: we sturen 1 (één) militair. flipse. alleen. groenland = 2,1 miljoen km2. flipse = 2,1 miljoen km2 per militair. duitsland stuurt er 13. dat is nog steeds een scoutinggroep, maar flipse staat daar nu solo op het ijs met een dampende thermoskan koffie en een stroopwafel: “hé poetin, xi, trump... koffie? stroopwafel erbij?” ☕🍪❄️ nederlandse buitenlandpolitiek in één zin: we doen mee, maar verwacht geen moer. #realiteitvsnarratief #groenland #flipsedemilitair #navo #nederland *** reality vs narrative – the netherlands is defending greenland narrative: “the netherlands stands firm with nato in the arctic struggle. full commitment against russia and china. flipse is our forward deployed asset.” reality: we send 1 (one) soldier. flipse. alone. greenland = 2.1 million km2. flipse = 2.1 million km2 per soldier. germany sends 13. still a scout group, but flipse is out there solo on the ice with a steaming thermos of coffee and a stroopwafel: “hey putin, xi, trump... coffee? stroopwafel on the side?” ☕🍪❄️ dutch foreign policy in one sentence: we participate, but don’t expect anything. #realityvsnarrative #greenland #flipsethesoldier #nato #netherlands
 
 ---
 
@@ -74,7 +70,7 @@ We doen mee, maar verwacht geen moer.
 
 #RealiteitVsNarratief #Groenland #FlipseDeMilitair #NAVO #Nederland
 
----
+***
 
 Reality vs Narrative – The Netherlands is defending Greenland  
 Narrative: “The Netherlands stands firm with NATO in the Arctic struggle. Full commitment against Russia and China. Flipse is our forward deployed asset.”

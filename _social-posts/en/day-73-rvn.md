@@ -6,9 +6,6 @@ rvn_title: "Illusory Progress #4: The Electric Car as the Future?"
 rvn_teaser: "Zero emissions, silent, high-tech and good for the climate. But is the EV really progress?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "04376c537c1c86650e093a831eeb7e6bc1719d9aa77c7e2b0c67d8b5adffa64a"
-full_sha256: "746dd5d45cd3283020d28a29c65827ebd135532d7f7d2094fb26d65d862e0eed"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:48.251027"
@@ -48,7 +45,7 @@ raw_markdown: |
   Drive less instead of more expensively.  
   Real freedom is not a new car — it’s a car that is truly yours and keeps working without needing permission from an app.
   
-  ---
+  ***
   
   You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
@@ -60,12 +57,15 @@ raw_markdown: |
   
   #IllusoryProgress #ElectricCar #EV #RealFreedom #Independence #OpenInternetManifest
   
-  ---
+  ***
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 81cf5a764e0577cb7a0542163c2364175d9caa204ad286e8898aeb7a28678a32
+fuzzy_sha256: b664b3fdceb62fd8c3b91b449d71fd22963c07d5a169e2e16d30b79c842fcfde
 clean_text: |-
-  illusory progress – day 29: the electric car as the future? ⚡🚗 short recap day 2: leasing – how “flexible driving” mostly creates dependence. day 3: heat pumps – how a “green” solution often turns out more expensive and complex. the narrative the electric vehicle (ev) is the future. zero emissions, silent, fast, high-tech, climate-friendly and you save on fuel. in a few years we will all drive electric — anyone who doesn’t is outdated. the reality – multiple layers layer 1 – costs high purchase price, very expensive battery replacement after 8-12 years (€10,000–20,000), higher insurance and road tax. layer 2 – dependence you trade dependence on oil for dependence on rare earth minerals (lithium, cobalt, nickel), china (battery production) and the electricity grid. layer 3 – practical issues range drops significantly in winter. fast charging is expensive, home charging requires a strong connection, and mass adoption will overload the grid. layer 4 – environmental impact mining for battery materials causes massive environmental damage in south america and africa. the “green” car is mostly green on paper. layer 5 – control remote software updates, “kill switches”, usage restrictions via subscriptions, and constant data collection by the manufacturer. you no longer truly own the car. this is the same pattern as leasing and heat pumps: you lose ownership and simplicity, and get complexity, higher costs and more dependence in return. the oim way out buy a reliable second-hand petrol or diesel car that you fully own and understand. maintain it yourself or through independent garages. drive less instead of more expensively. real freedom is not a new car — it’s a car that is truly yours and keeps working without needing permission from an app. --- you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you is the electric car real progress, or just a new form of expensive dependence with a green coat of paint? #illusoryprogress #electriccar #ev #realfreedom #independence #openinternetmanifest --- this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+  illusory progress – day 29: the electric car as the future? ⚡🚗 short recap day 2: leasing – how “flexible driving” mostly creates dependence. day 3: heat pumps – how a “green” solution often turns out more expensive and complex. the narrative the electric vehicle (ev) is the future. zero emissions, silent, fast, high-tech, climate-friendly and you save on fuel. in a few years we will all drive electric — anyone who doesn’t is outdated. the reality – multiple layers layer 1 – costs high purchase price, very expensive battery replacement after 8-12 years (€10,000–20,000), higher insurance and road tax. layer 2 – dependence you trade dependence on oil for dependence on rare earth minerals (lithium, cobalt, nickel), china (battery production) and the electricity grid. layer 3 – practical issues range drops significantly in winter. fast charging is expensive, home charging requires a strong connection, and mass adoption will overload the grid. layer 4 – environmental impact mining for battery materials causes massive environmental damage in south america and africa. the “green” car is mostly green on paper. layer 5 – control remote software updates, “kill switches”, usage restrictions via subscriptions, and constant data collection by the manufacturer. you no longer truly own the car. this is the same pattern as leasing and heat pumps: you lose ownership and simplicity, and get complexity, higher costs and more dependence in return. the oim way out buy a reliable second-hand petrol or diesel car that you fully own and understand. maintain it yourself or through independent garages. drive less instead of more expensively. real freedom is not a new car — it’s a car that is truly yours and keeps working without needing permission from an app. *** you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you is the electric car real progress, or just a new form of expensive dependence with a green coat of paint? #illusoryprogress #electriccar #ev #realfreedom #independence #openinternetmanifest *** this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 
 ---
 
@@ -106,7 +106,7 @@ Maintain it yourself or through independent garages.
 Drive less instead of more expensively.  
 Real freedom is not a new car — it’s a car that is truly yours and keeps working without needing permission from an app.
 
----
+***
 
 You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
@@ -118,7 +118,7 @@ Is the electric car real progress, or just a new form of expensive dependence wi
 
 #IllusoryProgress #ElectricCar #EV #RealFreedom #Independence #OpenInternetManifest
 
----
+***
 
 This post is 100% authentic and verifiable via:  
 https://openinternetmanifest.org/en/hash-verifier

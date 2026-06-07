@@ -6,11 +6,9 @@ rvn_title: "Schijnvooruitgang #6: Alles als abonnement"
 rvn_teaser: "Geen bezit meer, alleen maar maandelijkse betalingen. Gemak dient de mens… toch?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "6d3aeec9aeeb28d089bca19db19ab552bc2419de4d063dc3d1e6371d6ed81b0b"
-full_sha256: "01bffbe3bd3617b939fe64090a9ad99ab7acb13860371e7a0b549a103ffde503"
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:06.199972"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.710974"
 raw_markdown: |
   **Schijnvooruitgang – Dag 32: Alles als abonnement** 📦
   
@@ -52,7 +50,7 @@ raw_markdown: |
   Bouw vermogen op in plaats van maandelijkse verplichtingen.  
   Echte vrijheid begint bij eigenaarschap.
   
-     ---
+  ***
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -64,12 +62,15 @@ raw_markdown: |
   
   #Schijnvooruitgang #AbonnementenEconomie #Ownership #EchteVrijheid #ParasitaireEconomie #OpenInternetManifest
   
-    ---
+  ***
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 92276013889bbea8f59cb2655337466d1602997487a2c10772483e913578c33f
+fuzzy_sha256: 232e6b73cfe8fe0e82d8d75780d33f61962986536b741dfb033c38708d4e0c82
 clean_text: |-
-  schijnvooruitgang – dag 32: alles als abonnement 📦 korte recap van de serie dag 2: leasing – je “bezit” niets meer, je least alleen. dag 3: warmtepompen – dure afhankelijkheid met een groen jasje. dag 4: elektrische auto’s – van olie- naar batterij- en netafhankelijkheid. dag 5: de 15-minutenstad – je leven in een klein, bestuurd hokje. narratief de abonnementeneconomie is de toekomst. geen grote investeringen meer, lage maandlasten, altijd de nieuwste versie, geen gedoe met onderhoud of verkoop. alles “as a service”. zo makkelijk en flexibel! realiteit – meerdere lagen laag 1: je bezit niets meer auto, telefoon, software, gereedschap, muziek, films, meubels, verwarming, vervoer — alles wordt een abonnement. aan het eind van de rit heb je niks opgebouwd, alleen maandelijkse kosten. laag 2: duurder op termijn wat begint als “laag maandbedrag” eindigt vaak veel duurder dan kopen. bedrijven rekenen hoge marges, indexeringen en boetes bij opzegging. laag 3: volledige afhankelijkheid software die na een abonnementsstop niet meer werkt auto die op afstand uitgeschakeld kan worden verwarming die niet meer aangaat als je niet betaalt gereedschap dat na 30 dagen niet meer functioneert laag 4: gegevens als nieuw betaalmiddel elk abonnement verzamelt continue data over jouw gedrag. die data wordt verkocht of gebruikt om prijzen te personaliseren (“je rijdt veel, dus je betaalt meer”). laag 5: de grote reset van eigenaarschap dit is geen economische trend, dit is een culturele verschuiving: van “ik bezit” naar “ik mag gebruiken zolang ik betaal”. de ultieme vorm van geprogrammeerde afhankelijkheid. oim-uitweg koop waar mogelijk en betaal af. onderhoud zelf of via onafhankelijke partijen. weiger onnodige abonnementen. bouw vermogen op in plaats van maandelijkse verplichtingen. echte vrijheid begint bij eigenaarschap. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou wil jij een leven waarin je niks meer écht bezit en elke maand toestemming moet vragen om te mogen gebruiken, of wil je echte onafhankelijkheid? #schijnvooruitgang #abonnementeneconomie #ownership #echtevrijheid #parasitaireeconomie #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  schijnvooruitgang – dag 32: alles als abonnement 📦 korte recap van de serie dag 2: leasing – je “bezit” niets meer, je least alleen. dag 3: warmtepompen – dure afhankelijkheid met een groen jasje. dag 4: elektrische auto’s – van olie- naar batterij- en netafhankelijkheid. dag 5: de 15-minutenstad – je leven in een klein, bestuurd hokje. narratief de abonnementeneconomie is de toekomst. geen grote investeringen meer, lage maandlasten, altijd de nieuwste versie, geen gedoe met onderhoud of verkoop. alles “as a service”. zo makkelijk en flexibel! realiteit – meerdere lagen laag 1: je bezit niets meer auto, telefoon, software, gereedschap, muziek, films, meubels, verwarming, vervoer — alles wordt een abonnement. aan het eind van de rit heb je niks opgebouwd, alleen maandelijkse kosten. laag 2: duurder op termijn wat begint als “laag maandbedrag” eindigt vaak veel duurder dan kopen. bedrijven rekenen hoge marges, indexeringen en boetes bij opzegging. laag 3: volledige afhankelijkheid software die na een abonnementsstop niet meer werkt auto die op afstand uitgeschakeld kan worden verwarming die niet meer aangaat als je niet betaalt gereedschap dat na 30 dagen niet meer functioneert laag 4: gegevens als nieuw betaalmiddel elk abonnement verzamelt continue data over jouw gedrag. die data wordt verkocht of gebruikt om prijzen te personaliseren (“je rijdt veel, dus je betaalt meer”). laag 5: de grote reset van eigenaarschap dit is geen economische trend, dit is een culturele verschuiving: van “ik bezit” naar “ik mag gebruiken zolang ik betaal”. de ultieme vorm van geprogrammeerde afhankelijkheid. oim-uitweg koop waar mogelijk en betaal af. onderhoud zelf of via onafhankelijke partijen. weiger onnodige abonnementen. bouw vermogen op in plaats van maandelijkse verplichtingen. echte vrijheid begint bij eigenaarschap. *** misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou wil jij een leven waarin je niks meer écht bezit en elke maand toestemming moet vragen om te mogen gebruiken, of wil je echte onafhankelijkheid? #schijnvooruitgang #abonnementeneconomie #ownership #echtevrijheid #parasitaireeconomie #openinternetmanifest *** deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -115,7 +116,7 @@ Weiger onnodige abonnementen.
 Bouw vermogen op in plaats van maandelijkse verplichtingen.  
 Echte vrijheid begint bij eigenaarschap.
 
----
+***
 
 Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
 
@@ -127,7 +128,7 @@ Wil jij een leven waarin je niks meer écht bezit en elke maand toestemming moet
 
 #Schijnvooruitgang #AbonnementenEconomie #Ownership #EchteVrijheid #ParasitaireEconomie #OpenInternetManifest
 
----
+***
 
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier

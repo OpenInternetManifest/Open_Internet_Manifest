@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 12
 rvn_title: Toeslagenaffaire
-# rvn_url: /nl/social-posts/dag-12-rvn
 rvn_teaser: de stal die niet barst
-fuzzy_sha256: "9402ff050415dc9f88bb33cb62b594ba342f252f3dd1bf9ae9c0d09f718a14d7"
-full_sha256: "553d303cc66f8c07bb6f9039a513e211dc7b00261977ea0cf1b46fd7043ac952"
 raw_markdown: |
   **Realiteit vs Narratief** – Toeslagenaffaire: de stal die niet barst 🏛️💔
   
@@ -32,6 +25,9 @@ raw_markdown: |
   Deze post is 100% authentiek en verifieerbaar via:
   https://openinternetmanifest.org/nl/hash-verifier
   Plak de volledige tekst in → check zelf.
+
+full_sha256: e68b4bd350b359bd249889b3bd1bb409541aeea3acd1821125665a3a2547b9db
+fuzzy_sha256: 059141d22e7a73ceb35d302dde171453fff9cbc229508e0a9f66053454f60613
 clean_text: |-
   realiteit vs narratief – toeslagenaffaire: de stal die niet barst 🏛️💔 jarenlang: "geen etnisch profileren", "geen racisme", "fouten, maar geen opzet". duizenden ouders in de ellende gedreven, huizen kwijt, relaties kapot, kinderen uit huis geplaatst. realiteit: het was systematisch, bewust, en racistisch geframed als "risico-analyse". rapport na rapport (parlementaire ondervragingscommissie, auditdienst rijk, kinderombudsman) bevestigt: de belastingdienst wist het, ministers wisten het, en toch ging het door. nu, in 2026: nog steeds geen echte verantwoording. excuses van het demissionair kabinet, maar geen koppen rollen, geen structurele hervorming, geen onafhankelijke controle op algoritmes en risicoprofielen. dezelfde machine draait door, alleen met een ander label. voor de slachtoffers: trauma dat nooit overgaat, schulden die blijven, vertrouwen dat kapot is. voor ons allemaal: bewijs dat de staat kan liegen, ontkennen en vernietigen – en dat "wakker worden" vaak stopt bij de volgende laag (nieuwe partij, nieuwe belofte, nieuwe stal). trump in davos breekt frontaal met deep state-narratieven. hier in nl barst de toeslagenstal nog niet: het systeem beschermt zichzelf, en de slachtoffers betalen de prijs. open internet manifest wil geen stallen – een web zonder gecentraliseerde controle, zonder algoritmes die levens verwoesten, zonder narratief-monopolie. lees mee: https://openinternetmanifest.org #realiteitvsnarratief #toeslagenaffaire #geenstal #oim ❤️ deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst in → check zelf.
 

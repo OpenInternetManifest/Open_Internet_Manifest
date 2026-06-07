@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: b8ceb0fcd8637b1409633731da4884b927bf9e0c9cf62ebb06fc4076aac01e46
-social_share_sha256: ''
 day: 26
 rvn_title: De laag boven de Rockefellers
-# rvn_url: /nl/social-posts/dag-26-rvn
 rvn_teaser: Wie heeft de echte knoppen?
-fuzzy_sha256: "5800714a7d6661dad7b9bfc7fa7283f4c773dd42863aa58e063eda80f53d4897"
-full_sha256: "5aa2a93233590bbc13fa2f46298bd9143d41e3f6a4b332fc7f825506fd0235fd"
 raw_markdown: |
   **Reality vs Narratief: De laag boven de Rockefellers – wie heeft de echte knoppen? ♟️🏦🕶️**
   
@@ -74,6 +67,9 @@ raw_markdown: |
   Jij ook?
   
   #RVN #FeitenBovenFrames #BigThree #BIS #OnzichtbareLaag
+
+full_sha256: c48d5640860a700e872906e314682a9b726b39043d12f9fbeb163820afd3a939
+fuzzy_sha256: f5451e09e179bb76a89e5005fb93b4f4680fd7e3768e61ad30e92ee99d889ec0
 clean_text: |-
   reality vs narratief: de laag boven de rockefellers – wie heeft de echte knoppen? ♟️🏦🕶️ korte recap van de week tot nu toe: dag 22: warp speed / trump → asymmetrisch spel, geen federal mandate, exit-ramp zonder totale confrontatie dag 23: 1913 → blauwdruk neergezet (titanic ruimt tegenstanders op, fed + inkomstenbelasting erdoor, rockefeller bouwt olie / medicijnen / centrale controle) dag 24: templars → al in de 12e eeuw banking als machtsinstrument, ontbonden maar structuur bleef hangen, religie als systeem vs persoonlijk geloof dag 25: obama / iran → $1.7 miljard cash + miljarden assets ontdooid → proxies sterker → conflict als businessmodel, good cop / bad cop in actie vandaag: de laag die bijna nooit in het nieuws komt. de big three – blackrock, vanguard, state street samen beheren ze meer dan $20 biljoen (2026). ze zijn de grootste aandeelhouders in bijna elke grote amerikaanse (en veel europese) beursgenoteerde bedrijven: apple, microsoft, google, amazon, pfizer, exxon, chevron, boeing, disney, coca-cola, enz. ze stemmen op aandeelhoudersvergaderingen namens biljoenen dollars — vaak zonder dat iemand het doorheeft. blackrock alleen al beheert ~$10 biljoen (2026), vanguard ~$9 biljoen, state street ~$4 biljoen. ze zijn geen “complot”, het is openbaar: hun eigen websites en sec-filings tonen de ownership. bis – bank for international settlements de “centrale bank der centrale banken” in bazel, zwitserland. onaantastbaar: immuun voor nationale wetten, geen democratische controle bepaalt veel achter de schermen van wereldwijd monetair beleid centrale banken (fed, ecb, etc.) zijn lid — de bis is hun club weinig mensen weten hoe groot hun invloed is — ze publiceren zelden harde beslissingen, maar sturen wel de richting family offices & trusts de oude geldstromen (rockefellers, mellons, duponts, astors, etc.) zitten vaak in private vehicles. ze staan niet in forbes-lijsten. ze hoeven niet zichtbaar te zijn. ze stemmen via de big three, ze lenen via bis-netwerken, ze beïnvloeden via stichtingen. de rode draad door de hele week 1913: de blauwdruk wordt neergezet templars: het prototype van banking boven de wet obama-iran: good cop / bad cop in actie en nu: de big three + bis als hedendaagse beheerders van diezelfde structuur zichtbare spelers (musk, gates, soros, trump) krijgen alle aandacht. de onzichtbare laag? blijft stil. maar ze stemmen, ze beheersen, ze sturen — zonder dat iemand het merkt. mindfuck terwijl bubbels vechten over “musk vs soros”, “trump vs biden”, “zionisten vs moslims”, blijft de echte controle onaangetast. de big three stemmen op alle grote bedrijven — van media tot medicijnen tot wapens tot energie. en wij denken dat we keuze hebben. feiten boven frames. check zelf: blackrock / vanguard / state street ownership in s&p 500 (sec-filings, bloomberg terminals) bis website (immuniteit, centrale bank-leden) rockefeller foundation jaarverslagen (invloed op beleid) wat zie jij? is dit gewoon “normaal kapitalisme”? of de laag boven de zichtbare spelers — die nooit in de krant hoeft te staan omdat ze de krant mede bezitten? open discussie mag. ik leer nog elke dag. jij ook? #rvn #feitenbovenframes #bigthree #bis #onzichtbarelaag
 

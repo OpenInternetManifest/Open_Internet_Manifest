@@ -6,9 +6,6 @@ rvn_title: " Why we pause the series: The fire at the Almere datacenter"
 rvn_teaser: "One fire in Almere takes down multiple services. This perfectly shows why we need to build OIM."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "bdb4bc61df010acf92fcc7803c93a0f5e6d8d02a38271ea63cbb2e17e6099832"
-full_sha256: "170e61f85248bfa1b870ddab66de652f59c1a47a6fedeec6a134065a884d5ae1"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:48.407359"
@@ -49,7 +46,7 @@ raw_markdown: |
   
   This is resilience instead of fragility. This is real sustainability instead of the illusion of it.
   
-  ---
+  ***
   
   You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
@@ -61,12 +58,15 @@ raw_markdown: |
   
   #Datacenter #Almere #Centralization #Decentralization #Nodes #Redundancy #OpenInternetManifest
   
-  ---
+  ***
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 80975210a0d3b73bb3b081790be8d0ea34c0de27d9c6dee7dad9986b47278f0e
+fuzzy_sha256: dd4a8612dfcf6ed25ef582113b83e9a03c0c0e161e51ef94b8f0a821e52f11ea
 clean_text: |-
-  rvn – day 30: the fire at the almere datacenter 🔥 why we are pausing the illusory progress series today we were in the middle of a good series, but sometimes something happens in the real world that so clearly demonstrates the core problem that we need to address it immediately. the narrative “there was a fire in a datacenter in almere. unfortunate, but it will be resolved soon.” the reality layer 1: extreme vulnerability one fire in one building immediately takes down numerous websites, webshops, payment systems, and government portals. layer 2: massive resource consumption datacenters consume enormous amounts of electricity (equivalent to a medium-sized city) and millions of liters of water per day for cooling. layer 3: concentration of power most large datacenters in the netherlands and europe are controlled by a small number of (mostly american) hyperscalers. we have outsourced our critical digital infrastructure. layer 4: single point of failure the netherlands is small and densely populated. if a few large datacenters go down at the same time, a large part of our digital life can collapse. layer 5: who pays the bill? the costs and risks are ultimately passed on to citizens and businesses. the oim solution: decentralized nodes instead of putting everything in one vulnerable, energy-guzzling building, we are building a network of small, independent nodes. a node can be a small server (raspberry pi, mini-pc, or even an old laptop) running at someone’s home or small office. power consumption: a typical node uses only 5 to 30 watts — comparable to an energy-saving light bulb. tens of thousands of nodes together use far less energy than one large datacenter. redundancy: if one node fails (fire, power outage, internet issue), all other nodes continue to work. information is distributed and copied multiple times. verifiability: thanks to hashes, everyone can check whether the information is authentic, no matter where it comes from. this is resilience instead of fragility. this is real sustainability instead of the illusion of it. --- you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you do we want a digital system that collapses from one fire, or a system that becomes stronger the more people participate? #datacenter #almere #centralization #decentralization #nodes #redundancy #openinternetmanifest --- this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+  rvn – day 30: the fire at the almere datacenter 🔥 why we are pausing the illusory progress series today we were in the middle of a good series, but sometimes something happens in the real world that so clearly demonstrates the core problem that we need to address it immediately. the narrative “there was a fire in a datacenter in almere. unfortunate, but it will be resolved soon.” the reality layer 1: extreme vulnerability one fire in one building immediately takes down numerous websites, webshops, payment systems, and government portals. layer 2: massive resource consumption datacenters consume enormous amounts of electricity (equivalent to a medium-sized city) and millions of liters of water per day for cooling. layer 3: concentration of power most large datacenters in the netherlands and europe are controlled by a small number of (mostly american) hyperscalers. we have outsourced our critical digital infrastructure. layer 4: single point of failure the netherlands is small and densely populated. if a few large datacenters go down at the same time, a large part of our digital life can collapse. layer 5: who pays the bill? the costs and risks are ultimately passed on to citizens and businesses. the oim solution: decentralized nodes instead of putting everything in one vulnerable, energy-guzzling building, we are building a network of small, independent nodes. a node can be a small server (raspberry pi, mini-pc, or even an old laptop) running at someone’s home or small office. power consumption: a typical node uses only 5 to 30 watts — comparable to an energy-saving light bulb. tens of thousands of nodes together use far less energy than one large datacenter. redundancy: if one node fails (fire, power outage, internet issue), all other nodes continue to work. information is distributed and copied multiple times. verifiability: thanks to hashes, everyone can check whether the information is authentic, no matter where it comes from. this is resilience instead of fragility. this is real sustainability instead of the illusion of it. *** you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you do we want a digital system that collapses from one fire, or a system that becomes stronger the more people participate? #datacenter #almere #centralization #decentralization #nodes #redundancy #openinternetmanifest *** this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 
 ---
 
@@ -108,7 +108,7 @@ Instead of putting everything in one vulnerable, energy-guzzling building, we ar
 
 This is resilience instead of fragility. This is real sustainability instead of the illusion of it.
 
----
+***
 
 You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
@@ -120,7 +120,7 @@ Do we want a digital system that collapses from one fire, or a system that becom
 
 #Datacenter #Almere #Centralization #Decentralization #Nodes #Redundancy #OpenInternetManifest
 
----
+***
 
 This post is 100% authentic and verifiable via:  
 https://openinternetmanifest.org/en/hash-verifier

@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: aeabb2a61068566efa0da128c0dd3da4ef1d104b144c59aa8d7cf94b34a1ccb3
-social_share_sha256: ''
 day: 24
 rvn_title: Templars, Moloch
-# rvn_url: /nl/social-posts/dag-24-rvn
 rvn_teaser: 'En de echte winnaars van geschiedenis '
-fuzzy_sha256: "be3f48a0b0e35e8367ec915cdb33cda1bfb9033904e55187da5e6037121a6406"
-full_sha256: "ef3cb0a6721738c8c7fe4b5de4098e2e8d16787e8de0a3af66fe76897539bf89"
 raw_markdown: |
   **Reality vs Narratief: Templars, Moloch en de echte winnaars van geschiedenis ♟️🛡️🔥**
   
@@ -72,6 +65,9 @@ raw_markdown: |
   Jij ook?
   
   #RVN #FeitenBovenFrames #Templars #Moloch #GeloofVsReligie
+
+full_sha256: a0866975946e4f7cf0090aba6428c636f21df2d9ccaa5d981f8b2c591f452fac
+fuzzy_sha256: 3aa4e236b64adde9ff7e26cb04ed9101d55c1f3dc3f77d2d7943864949058391
 clean_text: |-
   reality vs narratief: templars, moloch en de echte winnaars van geschiedenis ♟️🛡️🔥 gisteren zagen we 1913 als blauwdruk: titanic ruimt tegenstanders op, fed en inkomstenbelasting komen erdoor, rockefellers bouwen verder aan olie, medicijnen en banken. vandaag een stap terug – veel verder terug. knights templar (1119–1312) christelijke ridderorde die pelgrims beschermde, maar al snel het eerste internationale banksysteem bouwde: leningen aan koningen, belastingvrij door pauselijke bul. te machtig geworden. koning filips iv (zware schulden) liet ze 1307 arresteren op valse aanklachten. paus ontbond de orde in 1312. grootmeester jacques de molay op de brandstapel (18 maart 1314) sprak zijn laatste woorden: “paus clemens! koning filips! voor het einde van dit jaar zal ik jullie beiden voor de hoogste rechter roepen om rekenschap af te leggen. vervloekt zij jullie tot in het veertiende geslacht!” beiden stierven binnen een jaar. de schat? verdwenen. history is his story geschiedenis wordt geschreven door de overwinnaar. templars verloren → ketters en duivelsaanbidders. hun kant van het verhaal? weg. de victors bepaalden het narratief: “de kerk ruimde gevaar op”. maar wie profiteerde echt? de laag erboven: religie als systeem, geloof als iets persoonlijks templars waren christelijk → maar gebruikten hun geloof als kostuum voor macht via banking. rothschilds joods → macht via banking. rockefellers protestants-christelijk → macht via olie en stichtingen. wat als de labels (christelijk, joods, islamitisch) vooral dienen als systeem? religie als instituut, hiërarchie en controle – dat is wat machthebbers misbruiken. persoonlijk geloof – de relatie met god, genade, keuze, innerlijke overtuiging – is iets heel anders. dat interesseert de hogere laag vaak geen barst. zolang het verdeelt en heerst. zolang het manifestatiekracht breekt. moloch als symbool bijbels: god waarvoor kinderen in vuur werden geofferd (leviticus 18:21). in complot-lore: elites die macht offeren aan macht zelf. bohemian grove (rockefellers, politici, ceo’s): “cremation of care” bij een 40 ft uil – vaak gelinkt aan moloch. korte brug naar obama 2016: $1.7 miljard cash naar iran (oude schuld + interest), zelfde moment als gijzelaars-vrijlating. tientallen miljarden assets ontdooid via jcpoa. geld vloeit naar proxies (hezbollah, houthis). conflict voedt conflict. good cop / bad cop – maar wie wint er echt? feiten boven frames. check zelf: de molay woorden (villani kroniek), vox in excelso (1312), bohemian grove, obama-iran cash (2016). wat zie jij? is religie (als systeem) het theater voor de plebs, terwijl persoonlijk geloof iets heel anders is? en wat als de echte laag erboven zich geen barst interesseert voor welk geloof je hebt – alleen voor hoe ze ons verdeeld houden? open discussie mag. ik leer nog elke dag. jij ook? #rvn #feitenbovenframes #templars #moloch #geloofvsreligie
 

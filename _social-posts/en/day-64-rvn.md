@@ -6,9 +6,6 @@ rvn_title: "The Graduated Animal Farm – How We Are Led from Pen to Pen"
 rvn_teaser: "You think you're awake. But what if you're simply placed in a larger, nicer pen?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "a8ab8c46fcb9b2f5cec3ed2a40bdeb36338018cce11b49fc5876773fe22e0ca8"
-full_sha256: "bb9920da78a31ec3be70b421dedc5881c39edd7d7c3b899c30c14638b63b8d2c"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:46.849569"
@@ -67,6 +64,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 6eae5e5083014d593ad42db02838a3624910ab704584d63234b66bbc7fe6a763
+fuzzy_sha256: e58f0a48d192836dfcac8838defcc890353032d224b9862483179364f1b554d5
 clean_text: |-
   rvn: the graduated animal farm – how we are led from pen to pen 🌀 narrative: “finally we are awake! we see through the matrix. this time it’s really going to change.” reality: we are often just moved to the next pen of the graduated animal farm. like orwell’s animal farm, but far more sophisticated. not a simple farm, but a system of successive enclosures that always feel a bit more spacious: pen 1: trust in government and mainstream media pen 2: “everything is corrupt” → anger and protests pen 3: “there is a hero / party / movement that will save us” (trump, wilders, bbb, etc.) pen 4: “everything is fake, nothing can be done” → apathy pen 5: “we must return to normal” → new hope in the old system pen 6: controlled opposition, limited hangouts, and new heroes who say just enough to calm the herd every time too many people wake up and unrest grows, the next pen opens. slightly larger. slightly more hopeful. just enough to release the pressure. this is why after elections, riots, revelations or assassination attempts you often see the same pattern: → short surge → media circus → new hero or scandal → the herd calms down again. the graduated animal farm works because it uses our own mechanisms (the ones we covered in the 13-part series): false consensus foot-in-the-door stockholm bonding to the system dehumanization of “the others” oim way out stop jumping from pen to pen. build parallel structures outside the farm: your own verifiable information channels local networks that are not dependent on the hague or brussels your own sovereignty instead of always waiting for a new savior no salvation from above. no new pen. only breaking out by building ourselves. question to you in which pen do you recognize yourself right now? and more importantly: what small step will you take this week to build outside the graduated animal farm? we keep building. not in the next pen — but next to it. #graduatedanimalfarm #gaf #parallelstructures #rvn #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

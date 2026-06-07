@@ -1,16 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ebdf56e1346786d05564111b37c758cda4208a0fa1bb8e78979cc0d641660167
-social_share_sha256: ''
 day: 9
-rvn_title: Daycare-fraude
-# rvn_url: /nl/social-posts/dag-9-rvn
-rvn_teaser: 'ICE en Tim Walz '
-fuzzy_sha256: "f9c9f7feb10bdf9345d4c3f8c8accf07604027682c88666917880deb78666a9d"
-full_sha256: "f2d83f86311996f48b29034bd8cc7232150a18aa7551af234551256d6dd4e39a"
+rvn_title: Daycare-fraudervn_teaser; 'ICE en Tim Walz'
 raw_markdown: |
   Realiteit vs Narratief – Daycare-fraude, ICE en Tim Walz  
   Het narratief klinkt altijd zo sympathiek: “ICE is racistisch en inhumaan, ze scheuren families uit elkaar. Fraude is marginaal en wordt aangepakt. Kritiek op migratie is xenofobie.”  
@@ -34,6 +26,9 @@ raw_markdown: |
   Lees mee: https://openinternetmanifest.org  
   
   #RealiteitVsNarratief #DaycareFraud #ICE #TimWalz #Fraude #Amsterdam #VrijInternet #OpenInternetManifest ❤️
+
+full_sha256: ec04c7b7d2f711fba8774345f17c384c82a78f15193be89cb07493b887f6f8be
+fuzzy_sha256: 79503d7fedf132de5fa92ff5d4dccf7c978ce8c8cbf9931ab787ade8c61bfcdd
 clean_text: |-
   realiteit vs narratief – daycare-fraude, ice en tim walz het narratief klinkt altijd zo sympathiek: “ice is racistisch en inhumaan, ze scheuren families uit elkaar. fraude is marginaal en wordt aangepakt. kritiek op migratie is xenofobie.” maar kijk eens naar de realiteit in minnesota. daar werd voor honderden miljoenen dollars gefraudeerd met subsidies voor kinderdagverblijven – vooral door somalische netwerken. fictieve centra, niet-bestaande kinderen, geld dat gewoon verdween. het kwam aan het licht door audits, rechtszaken en klokkenluiders die jarenlang misstanden meldden. tim walz was gouverneur tijdens die escalatie (2019–2023). ondanks waarschuwingen en bewijs greep hij nauwelijks in – en toch werd hij in 2024 bijna vicepresident van de verenigde staten. een groot deel van dat geld werd weggesluisd via amsterdam – nederland als doorvoerhaven voor deze fraude. en de vraag die blijft hangen: hoeveel hiervan gebeurt er ook hier, onder onze neus? ice (opgericht in 2001 na 9/11) probeert juist de criminele kant van deze netwerken aan te pakken: bendes, drugshandel, mensenhandel. maar het narratief draait het om: elke deportatie wordt “racisme” genoemd, terwijl belastingbetalers en slachtoffers van bendes genegeerd worden. ice is actief in alle 50 staten, maar minnesota (minneapolis) is een hotspot – elders veel minder problemen. en laten we eerlijk zijn: als biden-harris niet meer dan 10 miljoen illegale migranten hadden binnengelaten, was er veel minder noodzaak geweest voor ice. onder trump werden meer criminele migranten gedeporteerd dan onder biden – maar het narratief keert het om. polarisatie als wapen: verdeel de mensen, laat de problemen liggen. het open internet manifest breekt dat patroon: verifieerbare systemen, geen centrale potten geld die misbruikt kunnen worden, geen black boxes. lees mee: https://openinternetmanifest.org #realiteitvsnarratief #daycarefraud #ice #timwalz #fraude #amsterdam #vrijinternet #openinternetmanifest ❤️
 

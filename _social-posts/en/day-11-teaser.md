@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: d137d3c8a969f23bc211f192e169b062ed25467bb6db31cc8bf6a33fa0084c8f
-social_share_sha256: ''
 day: 11
 teaser_title: he Big Split
-# teaser_url: /en/social-posts/day-11-teaser
 teaser_text: Trump's Frontal Attack
 raw_markdown: |
   🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  
@@ -22,8 +17,9 @@ raw_markdown: |
   #RealityVsNarrative #OIM #PVVSplit #TrumpDeepState #NoMorePens 
   @realDonaldTrump
 
-fuzzy_sha256: "bb6695954d78c6b43faba04f4268f63893ee96d63ab638b835c1a715daba479e"
-full_sha256: "f7ba2f119f215370b87653d139c1d70f6513013ba8cac572c1787289eb098bfb"
+
+full_sha256: f7ba2f119f215370b87653d139c1d70f6513013ba8cac572c1787289eb098bfb
+fuzzy_sha256: 04ec7553a885a4a9c7f3ac2630c76ce01e517e1a6fe3937a88235d0d95b4aae0
 clean_text: |-
   🇬🇧 day 11 – the big split & trump's frontal attack 🐘💥 pvv loses 7 mps – biggest split ever, led by gidi markuszower forming group markuszower. reason: no democracy, bad course on israel/ukraine. reality: "right" fractures while trump assaults deep state in davos – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). he's fighting for the people, breaking the graduated farms, no more nice guy. acceleration in motion! open internet manifest wants no pens – a web where you think freely, without deep state control or loyalty tests. join: https://openinternetmanifest.org #realityvsnarrative #oim #pvvsplit #trumpdeepstate #nomorepens @realdonaldtrump
 

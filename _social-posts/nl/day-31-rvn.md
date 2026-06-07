@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 56a639aae7aac6dfbd7ea33ecb3d99c0e57ab30c21b490b8363f9b9cc301db90
-social_share_sha256: ''
 day: 31
 rvn_title: Woorden wegen niet meer op wat ze zeggen
-# rvn_url: /nl/social-posts/dag-31-rvn
 rvn_teaser: Maar op wat een narratief ervan maakt
-fuzzy_sha256: "17a4cef511e069b91e41cf4ae6b19b322236cdb9367a7391b9f16ee51499809b"
-full_sha256: "1d74e46c1a43d3767d935dbf076f83e20a4d4e86ceae2ee9d1ae851fcf0869b0"
 raw_markdown: |
   **Dag 31 – RVN: Woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt** ⚖️🌀  
   Waarom een rechter toegeeft: geen directe oproep tot geweld... maar toch schuldig.
@@ -44,6 +37,9 @@ raw_markdown: |
   
   https://openinternetmanifest.org  
   (thesis 12-14 over narratief-controle, poortwachters en de illusie van vrije expressie)
+
+full_sha256: 6a9d54c343c8aec583f025ab2dc61eb692495e0ee24f087bbc1aa9387bb75e22
+fuzzy_sha256: 65027e87522f5395c517744c2ca81badc747f9b980ec4dd519f497e3b8370ff4
 clean_text: |-
   dag 31 – rvn: woorden wegen niet meer op wat ze zeggen, maar op wat een narratief ervan maakt ⚖️🌀 waarom een rechter toegeeft: geen directe oproep tot geweld... maar toch schuldig. we namen rust. goed voor de ziel ⚡, goed voor de site. nu terug met iets dat recht in het hart slaat van de serie: narratief-controle op steroïden. kijk naar gideon van meijeren. tweede kamerlid (fvd), veroordeeld in juni 2024 tot 200 uur taakstraf voor "opruiing" – speech bij boerenprotest tuil (2022) + interview over "revolutionair verzet" en marcheren naar het parlement. altijd met toevoeging: vreedzaam, geweldloos, geen geweld. de rechtbank erkende dat expliciet: van meijeren riep niet letterlijk op tot geweld. hij benadrukte herhaaldelijk het tegendeel. toch schuldig. waarom? omdat zijn woorden in de context van boze boeren een "narratief" konden voeden – een verhaal dat anderen zouden interpreteren als oproep tot geweld. niet wat hij zei, maar wat het publiek eruit zou kunnen halen. dat woog zwaarder. hoger beroep diende eind januari 2026 (28-29 jan). om eist opnieuw 200 uur. uitspraak volgt 5 maart. in alternatieve media (robin de boer, de andere krant, nieuwrechts) klinkt het hard: rechter erkent geen directe opruiing, maar veroordeelt op "een narratief". een precedent dat woorden criminaliseert op basis van mogelijke ontvangst, niet op letterlijke inhoud. dit is geen los geval. het past in het patroon: boerenprotesten geframed als "extremisme" terwijl vreedzame blokkades centraal stonden 🌾 good/bad cop: staat als orde-beschermer, dissidenten als bedreiging 👮‍♂️ vs. burger algoritmische polarisatie: narratieven die oppositie isoleren en delegitimeren 📱 epstein als symptoom: systemen negeren feiten ten gunste van gecontroleerd verhaal 🕳️ wanneer vrije meningsuiting hangt aan hoe een rechter denkt dat het publiek iets "zou kunnen interpreteren"... waar blijft dan artikel 7 grondwet? waar echte oppositie? de grens verschuift van daden naar intentie-projectie. naar narratief-controle. van meijeren noemt het een "politiek strafproces" dat democratie ondermijnt. of je het met hem eens bent of niet: dit raakt de kern van het manifest. wie bepaalt welk verhaal mag? wie weegt woorden op letterlijke betekenis vs. "gevaarlijke potentie"? morgen verder: hoe dit mechanisme werkt in rechtszalen, media en tech – en wie de nieuwe priesters zijn die het handhaven 🧑‍⚖️🔥. en overmorgen: sun tzu in actie – epstein-files als boemerang die terugvliegt. tot die tijd: lees de speeches zelf (niet alleen headlines). wat hoor jij? wat zegt het systeem dat jij hoort? 🤔 #rvn #openinternetmanifest #feitenbovenframes #realityvsnarratief #opruiing #narratiefcontrole #vrijemeningsuiting #boerenprotesteren #politiekproces #dag30 #suntzu https://openinternetmanifest.org (thesis 12-14 over narratief-controle, poortwachters en de illusie van vrije expressie)
 

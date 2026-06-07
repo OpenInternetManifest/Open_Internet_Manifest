@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: c6f462c166c2bea072b7d84b41b537e023d4988addd111611a6238fdec45ae20
-social_share_sha256: ''
 day: 38
 teaser_title: 'Vanavond: de ladder van de Graduated Animal Farms'
-# teaser_url: /nl/social-posts/dag-36-teaser
 teaser_text: 'Morgen RVN: de eerste stal'
 raw_markdown: |
   **Dag 38 Teaser – Vanavond: de ladder van de Graduated Animal Farms** 🪜🐷  
@@ -45,8 +40,9 @@ raw_markdown: |
   Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
   Waarom narratieven wild worden... 🌀
 
-fuzzy_sha256: "08789b09da9b648e918f38dccdb40438619d7cb9a98f8dfedb69f872f3aedc78"
-full_sha256: "a4d6b55e29a2e2883d97b33450792050f508e9ade1d0e244d357697755e6f6b1"
+
+full_sha256: a4d6b55e29a2e2883d97b33450792050f508e9ade1d0e244d357697755e6f6b1
+fuzzy_sha256: 0bf41ed45fc883bd61efff80b4cf091096399b977430c249f4706d28f0f1770d
 clean_text: |-
   dag 38 teaser – vanavond: de ladder van de graduated animal farms 🪜🐷 morgen rvn: de eerste stal – mainstream media als basislaag gaf. vandaag zagen we het patroon al haarscherp: tijdelijke bondgenoten die ideologisch onverenigbaar lijken – queers for palestine, chickens for kfc, iran 1979 – graduated animal farms (gaf) in actie. vandaag starten we een nieuwe reeks: graduated animal farms – de verschillende lagen van het systeem dat narratieven voedt en gedrag stuurt. van de basisstal (msm, emotionele framing) tot de hogere lagen (alternatieve media, echo chambers, infiltratie). want online gedrag lijkt vaak verrot... maar dat is geen toeval. het is ontwerp. morgen duiken we in de eerste laag. geen poortwachters. alleen feiten boven frames 🛡️✨ https://openinternetmanifest.org #rvn #openinternetmanifest #graduatedanimalfarms #dag38teaser day 38 teaser – tonight: the ladder of the graduated animal farms 🪜🐷 tomorrow rvn: the first stall – mainstream media as base layer gaf. today we already saw the pattern crystal clear: temporary allies that seem ideologically incompatible – queers for palestine, chickens for kfc, iran 1979 – graduated animal farms (gaf) in action. today we start a new series: graduated animal farms – the different layers of the system that feeds narratives and steers behavior. from the base stall (msm, emotional framing) to higher layers (alternative media, echo chambers, infiltration). because online behavior often seems rotten... but that’s not a coincidence. it’s design. tomorrow we dive into the first layer. no gatekeepers. only facts over frames 🛡️✨ https://openinternetmanifest.org #rvn #openinternetmanifest #graduatedanimalfarms #day38teaser deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️✨. waarom narratieven wild worden... 🌀
 

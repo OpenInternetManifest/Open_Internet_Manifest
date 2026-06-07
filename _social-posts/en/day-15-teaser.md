@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: 3a37cd4f1bb2905b640ade91627a1bb68b11ca9d6300c97d97b60ace117dc465
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 15
 teaser_title: Minneapolis burns on
-# teaser_url: /en/social-posts/day-15-teaser
 teaser_text: But the old pattern holds
 raw_markdown: |
   🇬🇧 **Day 15  –  Narrative** 🌐✂️ 
@@ -25,8 +20,9 @@ raw_markdown: |
   
   #RealityVsNarrative #OpenInternetManifest #MostlyPeaceful #Day15Teaser
 
-fuzzy_sha256: "e640b06837f3af0865b19af78ccbd765109c29519f0ecb9f0185e1c02aef8d4d"
-full_sha256: "7a7ac7ca78f8a558051fe1a5bd922c66cad5240f9ee3fbbec90ebf225c7f33dd"
+
+full_sha256: 7a7ac7ca78f8a558051fe1a5bd922c66cad5240f9ee3fbbec90ebf225c7f33dd
+fuzzy_sha256: 38b7ef88539da6336b194018b26859420b59fb126cb29c4661bf4e86a3d76cd0
 clean_text: |-
   🇬🇧 day 15 – narrative 🌐✂️ minneapolis burns on: pretti's family demands truth, dhs blocked from destroying evidence, protests escalate. but the old pattern holds: "mostly peaceful" for one side, "justified" for the other. open internet manifest reminds you: no gatekeepers deciding what's "peaceful". just you, raw footage, hashes, and reality. tomorrow we dive deeper into the 'mostly peaceful' pattern – from floyd to corona "wappies" to now. tonight: get ready. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #mostlypeaceful #day15teaser
 

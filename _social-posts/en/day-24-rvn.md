@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: 1f4e376e1bba75d26b91744d43a958fd98851359d8fadcf85c9a64d99bd371c0
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 24
 rvn_title: Templars, Moloch and the real winners of history
-# rvn_url: /en/social-posts/day-24-rvn
 rvn_teaser: Today we step back — much further back
-fuzzy_sha256: "68baf3e39e619c798f4f5b342268bfd2f3612e9741cc60c149a7e07eaad8974a"
-full_sha256: "7cff845764b38cb11677a4bd23a6b078fecd2612f4bcd5a0e7b4ec9b2ecb914e"
 raw_markdown: |
   **Reality vs Narrative: Templars, Moloch and the real winners of history ♟️🛡️🔥**
   
@@ -72,6 +65,9 @@ raw_markdown: |
   Are you?
   
   #RVN #FactsOverFrames #Templars #Moloch #FaithVsReligion
+
+full_sha256: 5c2c4c1ac4ee4a70c0675a1131189247cc680c2cf2876ea9e5e5287a27f1e7af
+fuzzy_sha256: 1eb4fb69b0c6a57abb97621254ffbec1983b29ee4a4e4c913c268a8120feb20e
 clean_text: |-
   reality vs narrative: templars, moloch and the real winners of history ♟️🛡️🔥 yesterday we saw 1913 as the blueprint: titanic clears out opponents, fed and income tax get pushed through, rockefellers build further into oil, medicine and central control. today we step back — much further back. knights templar (1119–1312) christian knight order that protected pilgrims, but quickly built the first international banking system: loans to kings, tax-exempt by papal bull. they became too powerful. king philip iv of france (heavily in debt to them) had them arrested in 1307 on false charges. pope dissolved the order in 1312. grand master jacques de molay at the stake (18 march 1314) spoke his final words: “pope clement! king philip! before the end of this year i will summon both of you before the highest judge to render account. cursed be you to the fourteenth generation!” both died within a year. the treasure? vanished. history is his story history is written by the victor. templars lost → heretics and devil-worshippers. their side of the story? gone. the victors determined the narrative: “the church cleaned up a danger”. but who really profited? the layer above: religion as system, faith as something personal templars were christian → but used their faith as a costume for power through banking. rothschilds jewish → power through banking. rockefellers protestant-christian → power through oil and foundations. what if the labels (christian, jewish, islamic) mainly serve as a system? religion as institution, hierarchy and control — that’s what power-holders abuse. personal faith — the relationship with god, grace, choice, inner conviction — is something completely different. that often doesn’t interest the higher layer at all. as long as it divides and rules. as long as it breaks manifestation power. moloch as symbol biblical: god to whom children were sacrificed in fire (leviticus 18:21). in conspiracy lore: elites who sacrifice to power itself. bohemian grove (rockefellers, politicians, ceos): “cremation of care” at a 40 ft owl — often linked to moloch. short bridge to obama 2016: $1.7 billion cash to iran (old debt + interest), same moment as hostage release. tens of billions in assets unfrozen via jcpoa. money flows to proxies (hezbollah, houthis). conflict feeds conflict. good cop / bad cop — but who really wins? facts over frames. check for yourself: de molay’s words (villani chronicle), vox in excelso (1312), bohemian grove, obama-iran cash (2016). what do you see? is religion (as a system) the theater for the masses, while personal faith is something completely different? and what if the real layer above doesn’t care at all about which faith you have — only about how to keep us divided? open discussion allowed. i’m still learning every day. are you? #rvn #factsoverframes #templars #moloch #faithvsreligion
 

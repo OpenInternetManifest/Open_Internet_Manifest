@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 0e165759eba2f1a003138e7573f88c0fbbbe3db6f94ecb6d01936a7cfae1e48e
-social_share_sha256: ''
 day: 14
 teaser_title: De nieuwe hub"
-# teaser_url: /nl/social-posts/dag-14-teaser
 teaser_text: Dit is geen archief
 raw_markdown: |
   🇳🇱 **Dag 16 – De nieuwe hub** 🌐🗂️  
@@ -26,8 +21,8 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #OpenInternetManifest #Dag16 #SocialsZonderLeiband #RealiteitVsNarratief
   
-     ---
-  
+  ***
+
   🇬🇧 **Day 16 – The new hub** 🌐🗂️  
   This is not an archive.  
   This is not a static page with old words.  
@@ -44,10 +39,11 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #OpenInternetManifest #Day16 #SocialsWithoutLeash #RealityVsNarrative
 
-fuzzy_sha256: "0a0eae86b5622d4d3e9989087d461bd4ba009b7d3f54086918c67dc4c1374012"
-full_sha256: "42e77b67e95cbdac98011b4d37a2b187bc1a705ce4866137af01e80e129fd17f"
+
+full_sha256: 8fbca8d9abc8fcc3fd26da1ef724c84d0a21060348a53fe1ad29246c721daa37
+fuzzy_sha256: bf3043ed3e77db4d259a915534eb367bbd99b309f71cd8d95d35715764aaeecd
 clean_text: |-
-  🇳🇱 dag 16 – de nieuwe hub 🌐🗂️ dit is geen archief. dit is geen statische pagina met oude woorden. dit is de levende adem van het manifest: elke dag een nieuwe scheur in het narratief, elke post een reminder dat het web nog van ons kan zijn. hier vind je de volledige posts, de rauwe teasers, de hashes die niet liegen. geen feeds die je voeden wat big tech wil. geen algoritme dat beslist wat je ziet. alleen chronologie, integriteit en een directe lijn naar de realiteit. de social-posts pagina is het nieuwe startpunt: copy-paste klaar voor x, matrix, odysee of waar je maar vrij wilt spreken. geen poortwachters meer. alleen jij, de tekst en het open web. https://openinternetmanifest.org/nl/social-posts #openinternetmanifest #dag16 #socialszonderleiband #realiteitvsnarratief --- 🇬🇧 day 16 – the new hub 🌐🗂️ this is not an archive. this is not a static page with old words. this is the living breath of the manifest: every day a new tear in the narrative, every post a reminder that the web can still be ours. here you find the full posts, the raw teasers, the hashes that don't lie. no feeds feeding you what big tech wants. no algorithm deciding what you see. just chronology, integrity and a direct line to reality. the social-posts page is the new starting point: copy-paste ready for x, matrix, odysee or wherever you want to speak freely. no gatekeepers anymore. just you, the text and the open web. https://openinternetmanifest.org/nl/social-posts #openinternetmanifest #day16 #socialswithoutleash #realityvsnarrative
+  🇳🇱 dag 16 – de nieuwe hub 🌐🗂️ dit is geen archief. dit is geen statische pagina met oude woorden. dit is de levende adem van het manifest: elke dag een nieuwe scheur in het narratief, elke post een reminder dat het web nog van ons kan zijn. hier vind je de volledige posts, de rauwe teasers, de hashes die niet liegen. geen feeds die je voeden wat big tech wil. geen algoritme dat beslist wat je ziet. alleen chronologie, integriteit en een directe lijn naar de realiteit. de social-posts pagina is het nieuwe startpunt: copy-paste klaar voor x, matrix, odysee of waar je maar vrij wilt spreken. geen poortwachters meer. alleen jij, de tekst en het open web. https://openinternetmanifest.org/nl/social-posts #openinternetmanifest #dag16 #socialszonderleiband #realiteitvsnarratief *** 🇬🇧 day 16 – the new hub 🌐🗂️ this is not an archive. this is not a static page with old words. this is the living breath of the manifest: every day a new tear in the narrative, every post a reminder that the web can still be ours. here you find the full posts, the raw teasers, the hashes that don't lie. no feeds feeding you what big tech wants. no algorithm deciding what you see. just chronology, integrity and a direct line to reality. the social-posts page is the new starting point: copy-paste ready for x, matrix, odysee or wherever you want to speak freely. no gatekeepers anymore. just you, the text and the open web. https://openinternetmanifest.org/nl/social-posts #openinternetmanifest #day16 #socialswithoutleash #realityvsnarrative
 
 ---
 
@@ -67,7 +63,7 @@ Geen poortwachters meer. Alleen jij, de tekst en het open web.
 https://openinternetmanifest.org/nl/social-posts  
 #OpenInternetManifest #Dag16 #SocialsZonderLeiband #RealiteitVsNarratief
 
----
+***
 
 🇬🇧 **Day 16 – The new hub** 🌐🗂️  
 This is not an archive.  

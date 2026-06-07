@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: d139708dba0c3bf0e8a407899c7aac9bf3ba832bae8f77264cfd94975ffc873d
-social_share_sha256: ''
 day: 11
 teaser_title: De Grote Splitsing
-# teaser_url: /nl/social-posts/dag-11-teaser
 teaser_text: Trump's Frontale Aanval
 raw_markdown: |
   🇳🇱 **Dag 11 – De Grote Splitsing & Trump's Frontale Aanval** 🐘💥  
@@ -19,8 +14,8 @@ raw_markdown: |
   
   Lees mee: https://openinternetmanifest.org  
   
-    ---
-  
+  ***
+
   🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  
   PVV loses 7 MPs – biggest split ever, led by Gidi Markuszower forming **Group Markuszower**. Reason: no democracy, bad course on Israel/Ukraine.  
   
@@ -31,10 +26,11 @@ raw_markdown: |
   Join: https://openinternetmanifest.org  
   #RealityVsNarrative #openinternetmanifest #PVVSplit #trumpdeepstate #nomorepens
 
-fuzzy_sha256: "32c6be151db858780d5ad71fb6fdb65eeb26f6a97d6ba7a6ba854bddc3ab4261"
-full_sha256: "2bcf2979bc70f9ce480eed6ab1bed4bab2a4dfffe33ca5d282031eeddcb28bd1"
+
+full_sha256: 8aba9816869f1fd1b7f75c6ffda3bcd66b86f251fc260185ef4135024d252bf2
+fuzzy_sha256: b1bc1a4921ba8005681290b6c8117b04e9e98644c5b5c69f8b9a7474de23735f
 clean_text: |-
-  🇳🇱 dag 11 – de grote splitsing & trump's frontale aanval 🐘💥 pvv verliest 7 kamerleden – grootste afsplitsing ooit, onder gidi markuszower vormen ze groep markuszower. reden: geen democratie, slechte koers op israël/oekraïne. realiteit: "rechts" splijt terwijl trump in davos deep state aanvalt – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). hij vecht voor de mensen, breekt de graduated farms, no more nice guy. versnelling in actie! open internet manifest wil geen stallen – een web waar je zelf denkt, zonder deep state-controle of loyaliteitstest. lees mee: https://openinternetmanifest.org --- 🇬🇧 day 11 – the big split & trump's frontal attack 🐘💥 pvv loses 7 mps – biggest split ever, led by gidi markuszower forming group markuszower. reason: no democracy, bad course on israel/ukraine. reality: "right" fractures while trump assaults deep state in davos – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). he's fighting for the people, breaking the graduated farms, no more nice guy. acceleration in motion! open internet manifest wants no pens – a web where you think freely, without deep state control or loyalty tests. join: https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #pvvsplit #trumpdeepstate #nomorepens
+  🇳🇱 dag 11 – de grote splitsing & trump's frontale aanval 🐘💥 pvv verliest 7 kamerleden – grootste afsplitsing ooit, onder gidi markuszower vormen ze groep markuszower. reden: geen democratie, slechte koers op israël/oekraïne. realiteit: "rechts" splijt terwijl trump in davos deep state aanvalt – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). hij vecht voor de mensen, breekt de graduated farms, no more nice guy. versnelling in actie! open internet manifest wil geen stallen – een web waar je zelf denkt, zonder deep state-controle of loyaliteitstest. lees mee: https://openinternetmanifest.org *** 🇬🇧 day 11 – the big split & trump's frontal attack 🐘💥 pvv loses 7 mps – biggest split ever, led by gidi markuszower forming group markuszower. reason: no democracy, bad course on israel/ukraine. reality: "right" fractures while trump assaults deep state in davos – rigged election ("prosecutions coming"), green energy "scam", no force on greenland ("but we will remember"). he's fighting for the people, breaking the graduated farms, no more nice guy. acceleration in motion! open internet manifest wants no pens – a web where you think freely, without deep state control or loyalty tests. join: https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #pvvsplit #trumpdeepstate #nomorepens
 
 ---
 
@@ -47,7 +43,7 @@ Open Internet Manifest wil geen stallen – een web waar je zelf denkt, zonder d
 
 Lees mee: https://openinternetmanifest.org  
 
----
+***
 
 🇬🇧 **Day 11 – The Big Split & Trump's Frontal Attack** 🐘💥  
 PVV loses 7 MPs – biggest split ever, led by Gidi Markuszower forming **Group Markuszower**. Reason: no democracy, bad course on Israel/Ukraine.  

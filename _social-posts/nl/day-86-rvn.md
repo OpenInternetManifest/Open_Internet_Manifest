@@ -6,8 +6,6 @@ rvn_title: "Rusland zit achter de anti-AZC demonstraties"
 rvn_teaser: "De Nederlandse versie van de ‘Russia Russia Hoax"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "8e04a67e37231c0bbd5103e438c7711fd867669a6c7518b22b2ee56b5cd7f5d2"
-full_sha256: "06229a3fc4128b01ab96956abaa7612884a32afe23c38106e3f3f5947ac390ca"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:10.307057"
@@ -58,6 +56,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 72223f0379b93eaeb52c49eeba52ab09d785a48e3475390b07e76406ed554667
+fuzzy_sha256: 74b94aac73d8b3f926af49bcc9d6e19a73051b04634fbf23b57b1f7a5542d56b
 clean_text: |-
   rvn: “rusland zit achter de anti-azc demonstraties” 🌀 narratief: boze burgers die demonstreren tegen azc’s zijn geen echte nederlanders met legitieme zorgen. het zijn extremisten die gemanipuleerd worden door rusland. “in elk geval niet allemaal racisten”, maar toch... rusland! realiteit: dit is de nederlandse uitvoering van een script dat we al jaren in het westen zien. in de verenigde staten werd jarenlang het verhaal gepusht dat donald trump en zijn campagne samenspanden met rusland. dit verhaal was grotendeels gebaseerd op het steele dossier — een rapport vol onbevestigde en later ontkrachte beweringen, betaald door de clinton-campagne. de fbi startte een groot onderzoek (crossfire hurricane) op basis van deze dubieuze informatie. na jaren concludeerde de mueller report (2019): geen bewijs van samenspanning. de durham report (2023) ging nog verder: het was een ernstig gebrekkig en politiek gemotiveerd onderzoek. kortom: jarenlang een enorm media-verhaal, betaald en aangestuurd vanuit de clinton-kamp, gebaseerd op weinig tot niets. nu in nederland hetzelfde liedje. zodra burgers in loosdrecht, ter apel en elders massaal demonstreren tegen azc’s, komt direct het frame: rusland zit erachter. alsof mensen niet zelf kunnen nadenken over woningnood, criminaliteit, kosten en culturele spanningen. alsof het weer poetin is die via tiktok nederlanders boos maakt. dit is geen analyse. dit is framing om de échte oorzaken niet onder ogen te hoeven zien. de echte vraag die ze niet willen beantwoorden: waarom worden vreedzame burgers die hun eigen leefomgeving en cultuur willen beschermen, meteen verdacht gemaakt als “extremisten” of “russische pionnen”? oim-uitweg dit patroon herhaalt zich steeds: legitieme volkswoede → labelen als buitenlands complot → problemen niet hoeven oplossen. wij bouwen aan iets beters: verifieerbare feiten, open discussie en parallelle structuren. zonder dat we ons laten afleiden door “rusland deed het”. vraag aan jou geloof jij serieus dat de boze mensen in loosdrecht vooral door poetin worden aangestuurd? of is dit gewoon de zoveelste manier om echte problemen te ontkennen? laten we stoppen met complotdenken over rusland. laten we beginnen met het serieus nemen van de realiteit. #ruslandhoax #azc #woningnood #framing #feiten #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

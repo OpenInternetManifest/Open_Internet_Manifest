@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: dca59a094d2f07a9bda13e55672c96b555fed216f595e67659c5552be9ee2986
-social_fb_sha256: d7177d10ed41f26ba8949efd909721098713074cd293edf971c1194ecb0388d4
-social_share_sha256: ''
 day: 15
 rvn_title: Minneapolis mall & the ICE hypocrisy
-# rvn_url: /en/social-posts/day-15-rvn
 rvn_teaser: Trump's Gestapo!
-fuzzy_sha256: "0abfba68569974424f76fd2150ed0ecdd825bdd0b2c4937288b0ec971044bd16"
-full_sha256: "a65a0f7fbc9fe59956b64d8fa14216c0aa8f2ec5908969421e3f5c762937f39b"
 raw_markdown: |
   🇬🇧 **Day 15 – Reality vs Narrative: Minneapolis mall & the ICE hypocrisy** 🌐🔥
   Overnight and recent days: ICE hitting Minneapolis hard, especially Somali malls (Karmel Mall, Star City). Arrests, hundreds of Somali-owned businesses shutting down (Jan 23-25 protests), streets filling with demonstrators, and a fatal shooting incident escalating things. National Guard on standby in MN, 1500 troops prepped – while ICE scales nationwide across all 50 states with record manpower.
@@ -28,6 +21,9 @@ raw_markdown: |
   https://openinternetmanifest.org
   Read the hashes, check sources, think for yourself.
   #RealityVsNarrative #OpenInternetManifest #Day15 #MinneapolisICE #ObamaHypocrisy #NoGatekeepers
+
+full_sha256: d97d88205023c2b18949ea6b01a79d709a61ae25db4a5bd65f18ea8a18672dea
+fuzzy_sha256: 674ea948871965fd22620ba1b38d580a73efef23579ec21f234fe3ff635f1f12
 clean_text: |-
   🇬🇧 day 15 – reality vs narrative: minneapolis mall & the ice hypocrisy 🌐🔥 overnight and recent days: ice hitting minneapolis hard, especially somali malls (karmel mall, star city). arrests, hundreds of somali-owned businesses shutting down (jan 23-25 protests), streets filling with demonstrators, and a fatal shooting incident escalating things. national guard on standby in mn, 1500 troops prepped – while ice scales nationwide across all 50 states with record manpower. dominant narrative: "racist hunt", "trump's gestapo", "unjust terror on migrants". media pushes emotional footage, outrage, boycott calls. reality? ice deportations hit records under obama (over 3 million in 8 years – dubbed "deporter-in-chief", including family separations and workplace raids). yet he was celebrated as a pro-immigrant icon. same tools now, suddenly "fascism". raids aren't just status: many tied to years-long daycare/child care fraud in mn (millions in subsidy fraud via cacfp meal programs, especially somali providers). federal probes ongoing since 2019 – ice leverages it for enforcement multiplier. nationwide ice in 50 states, but only minneapolis explodes: organized protests with escalation (antifa-style). a self-proclaimed antifa influencer openly calls for "guerrilla war" against ice post-shooting – with language on armed resistance and mobilization. messages circulate about fundraising for "defense" or escalation, while mainstream downplays or ignores. added escalation: a protester bit off the finger of an hsi agent (part of ice) during the riots – the perpetrator has been arrested, per ag pam bondi. this shows the violent side of the protests, but is often omitted or minimized in the narrative. why only here? narrative hits hardest – somali community as symbol, rhetoric fueling polarization. why this matters for open internet? gatekeepers (big tech + legacy media) decide what you see: pro-ice content gets "misinfo" labels or shadow-bans, while outrage goes viral unchecked. calls to "guerrilla war" often stay up as "activism", counter-voices get suppressed. no algorithms pushing nuance, just polarization. open internet manifest fights for a web where you check obama's records yourself, read the fraud investigations, verify influencer posts – without gatekeepers dictating "truth". no narrative monopoly hiding hypocrisy or escalation. just raw, unfiltered reality. if you're tired of selective outrage... dig deeper. https://openinternetmanifest.org read the hashes, check sources, think for yourself. #realityvsnarrative #openinternetmanifest #day15 #minneapolisice #obamahypocrisy #nogatekeepers
 

@@ -6,8 +6,6 @@ rvn_title: "Pentecost – The Spirit That Breaks Boundaries"
 rvn_teaser: "From fulfillment to a worldwide movement."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "8008383e2ea801bcd7c59dea29fbba787cbd4c501b2d144dbf4040793ff3fc0b"
-full_sha256: "f58281e44f6dfd99cb8afe86daeb22ed854750c9e6db3038b6de372462a2a6ad"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:51.368314"
@@ -59,6 +57,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 336422b6dc1b41462070384cd5bd89466a3826971387ce9cb9863c5f46c8f0fc
+fuzzy_sha256: 4ffa71e15f2902336e38cf9066e71142e63f4797144f0b5a9b4d398136f76515
 clean_text: |-
   rvn: “pentecost – the spirit that breaks boundaries” 🌀 narrative: pentecost is the moment christianity became a separate religion, detached from judaism. the holy spirit came to establish a new church, free from the old law and traditions. reality: pentecost is not a break — it is an explosive fulfillment. exactly on shavuot (the jewish feast of weeks), 50 days after passover, the holy spirit descended upon the disciples in jerusalem. fire, wind, and suddenly they spoke in other languages so that jews from every nation could understand them. this was symbolic: on shavuot, the jewish people received the torah on stone tablets (old covenant). on pentecost, the disciples received the spirit that would write the law on the hearts of people (new covenant, as prophesied by jeremiah). the great breakthrough from that moment, the message went not only to jews, but to all nations. pentecost is the moment when the jewish story opens up to the whole world — without denying its roots. this immediately created tension: did non-jewish believers have to follow the entire jewish law? the council of jerusalem (acts 15) was one of the first major theological debates in the church. today while some draw a hard line between judaism and christianity, pentecost reminds us that christianity without its jewish roots cannot stand. it is like a tree denying its trunk. at the same time, pentecost shows that identity and universality do not have to be opposites. you can cherish your own people and culture and still be open to others. oim way out true unity does not arise by denying roots, but by recognizing and honoring them. we can respect different faiths without denying ourselves or our history. let’s stop tearing history apart to make the present look prettier. let’s look at the fulfillment. at the spirit. at the truth. question to you do you see pentecost as a break with judaism, or as the logical and explosive fulfillment of it? and what does that mean for how we view identity, culture, and faith today? #pentecost #shavuot #holyspirit #judaism #christianity #fulfillment #identity #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

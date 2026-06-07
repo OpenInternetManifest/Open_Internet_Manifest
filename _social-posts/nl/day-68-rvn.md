@@ -6,8 +6,6 @@ rvn_title: "Er gebeurt nooit iets” – De gecontroleerde Informatie Oorlog"
 rvn_teaser: "James Comey geeft zich over. Hoe vaak hebben we al gehoord “er gebeurt nooit iets”… terwijl de lagen langzaam worden gedruppeld?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "09ea5a11cfffacbb45cf90076ccad8d5c169f45062977ac32e83dbffa34e8252"
-full_sha256: "c5daa7d7772a6adeed015b502f134cff33ad43dead384e522a711d3e3a1fde82"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:07.442240"
@@ -70,6 +68,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: c9ef67e06d408f118b577c79efb892602ec1a58255de472b224632196841e6b0
+fuzzy_sha256: cbcead5d3fdad5aa3fc3eb6087305708037ac6e2416b86dbf17a2e3c638371e3
 clean_text: |-
   rvn: “er gebeurt nooit iets” – de gecontroleerde informatie oorlog 🌀 narratief: “zie je wel? er gebeurt nooit echt iets. epstein, comey, jan 6, verkiezingsfraude... het is allemaal theater.” realiteit: dit is geen falen van het systeem. dit is deel van het systeem: een gecontroleerde informatie oorlog met meerdere fracties die vechten om narratief-dominantie. de spelers in dit sun tzu-spel: oude machtsstructuur (permanente bureaucratie, intelligence, big tech) nieuwe machtsfractie (trump-wing, populisten, alternatieve media) gecontroleerde oppositie (figuren die nét genoeg zeggen om energie af te voeren) mediaplatformen als slagveld het wapen: gecontroleerde onthulling + bliksemafleiders het patroon is altijd hetzelfde: grote bom → massale opwinding daarna stilte → “zie je wel, er gebeurt nooit iets” langzaam druppelen van documenten, getuigenissen, arrestaties publieke aandacht verplaatst zich weer trump wordt hierbij door beide kanten strategisch gebruikt. de oude macht noemt hem gevaar. delen van het alternatieve circuit gooien hem in de “cabal”-bucket. zo blijft iedereen vechten tegen een symbool, terwijl de structurele macht vaak buiten schot blijft. veel kritische denkers prikken door het officiële narratief heen, maar belanden vaak in een nieuwe, intellectuelere pen met een ander vijandbeeld. ze denken dat ze eruit zijn, maar wandelen gewoon door een mooiere kooi. de kern dit is sun tzu op informatie-niveau: laat je tegenstander vechten tegen schaduwen en elkaar, terwijl jij de echte machtsstructuren behoudt. oim-uitweg stop met meespelen als toeschouwer in deze informatie oorlog. de echte shift is: niet meer elke nieuwe druppel najagen zelf informatie verifiëren en archiveren bouwen aan parallelle structuren die niet afhankelijk zijn van welk kamp dan ook wint vraag aan jou hoe vaak heb jij al gedacht “er gebeurt nooit iets”... om later te zien dat er tóch weer een laag bijkwam? ben je nog steeds toeschouwer in deze informatie-oorlog, of bouw je al buiten het slagveld? tijd om uit de pen te stappen. #informatieoorlog #suntzu #manageddisclosure #graduatedanimalfarm #rvn #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

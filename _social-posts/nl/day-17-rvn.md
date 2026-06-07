@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: da3434b37077d3a1f3c4ea8e1796c4cb6113ec8e5c320626b240b697514a5fbb
-social_share_sha256: ''
 day: 17
 rvn_title: Walz' Rookgordijnen Nu Realiteit
-# rvn_url: /nl/social-posts/dag-17-rvn
 rvn_teaser: Dag 9 Voorspeld
-fuzzy_sha256: "83b6dbdbccd1f030263c056d2ee101920268f7e8610364f799ee180a9f26c392"
-full_sha256: "c71c39f216da8ee53fac3ff1e66d0da9b8cb2fc6aba36a17d26aebe350c1e9e3"
 raw_markdown: |
   🇳🇱 **Dag 17 – Reality vs Narrative: Dag 9 Voorspeld – Walz' Rookgordijnen Nu Realiteit** 🌐🔥  
   Op Dag 9 waarschuwde ik al voor de daycare-fraude in Minnesota en de passiviteit van gouverneur Tim Walz: https://openinternetmanifest.org/nl/social-posts/dag-9-rvn  
@@ -36,6 +29,9 @@ raw_markdown: |
   https://openinternetmanifest.org  
   Lees de hashes, check bronnen, denk zelf.  
   #RealiteitVsNarratief #OpenInternetManifest #Dag17 #Dag9Voorspeld #WalzRookgordijnen #GeenPoortwachters
+
+full_sha256: a5f73b6edc9b2efc09de11f6c3d7ec41a78fa52854a31a5aaa9822be7318c71e
+fuzzy_sha256: edbcd599756c7d24a7d3f4f24134c8c5857af8838e41f105fb8119494a472f5c
 clean_text: |-
   🇳🇱 dag 17 – reality vs narrative: dag 9 voorspeld – walz' rookgordijnen nu realiteit 🌐🔥 op dag 9 waarschuwde ik al voor de daycare-fraude in minnesota en de passiviteit van gouverneur tim walz: https://openinternetmanifest.org/nl/social-posts/dag-9-rvn en al in het allereerste voorwoord (over renee/nicole good) schreef ik hoe triest het is dat mensen omkomen voor of door gepushte narratieven: https://openinternetmanifest.org/.../soci.../rvn-nicole-good ik voel nog steeds dezelfde pijn als toen: een ongewapende amerikaan neergeschoten tijdens een ice-operatie, terwijl het narratief al klaarstaat om alles te framen als "racisme" of "executie". families rouwen 😔, agenten worden gedemoniseerd, en de echte context (fraude, weerstand, mogelijke dreiging) verdwijnt achter rookgordijnen. en kijk wat er nu gebeurt: eind 2025 exposeert een viral video lege "daycares" die miljoenen aan subsidies trekken → federal freeze, doj/house oversight hearings. walz geeft zijn herverkiezingsrace op (5 januari 2026) onder fraude-druk. ice-raids richten zich op fraude-links + illegale immigratie → escalatie met shootings (good, pretti), protests, clashes. walz reageert met: "stop de operatie", "haal de gewelddadige ongetrainde agenten weg" – geen oproep tot kalmte, geen "wacht op de feiten", maar harde anti-fed taal die het vuur alleen maar aanwakkert ("minnesota heeft er genoeg van. dit is misselijkmakend"). 🔥 ondertussen blokkeert minnesota al jaren ice-samenwerking via sanctuary policies, en de doj onderzoekt walz en frey voor "samenzwering om federale agenten te belemmeren". het narratief flipte razendsnel: van "fraude aanpakken" naar "fed gestapo terroriseert communities". walz veegt de fraude-achtergrond onder het tapijt en maximaliseert alleen de "brutaliteit". rookgordijnen van de bovenste plank. 🕶️ ik word er verdrietig van: mensen sterven aan beide kanten van dit narratief – slachtoffers van geweld, families die rouwen, agenten die in een onmogelijke positie worden geduwd. en telkens weer wint het verhaal het van de rauwe realiteit. 😞 gatekeepers kiezen welk vuur ze doven: hun kant slachtoffer, de andere kant dader. emotie eerst, feiten later. daarom vecht ik met open internet manifest voor een web zonder die rookgordijnen: ik wil dat jij en ik zelf dag 9 vs nu kunnen checken (fraude-rapporten, walz-statements, doj-probe, video-analyses). hashes liegen niet. narratieven wel. 🔒 walz dacht hij kon het narratief sturen – maar realiteit haalt altijd in. en ik blijf kijken, zonder filter. jij ook? 👀 https://openinternetmanifest.org lees de hashes, check bronnen, denk zelf. #realiteitvsnarratief #openinternetmanifest #dag17 #dag9voorspeld #walzrookgordijnen #geenpoortwachters
 

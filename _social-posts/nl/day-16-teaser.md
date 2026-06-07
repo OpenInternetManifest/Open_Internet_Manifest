@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: fda25a4e85c45b3d9a6491a013be1aad948d98700d81f019f2cfcfd8107ef9ea
-social_share_sha256: ''
 day: 16
 teaser_title: Stop met gatekeepers
-# teaser_url: /nl/social-posts/dag-16-teaser
 teaser_text: Die je voeden wat uitkomt
 raw_markdown: |
   🇳🇱 **Dag 16 Teaser** 🌐✂️  
@@ -23,8 +18,8 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #RealiteitVsNarratief #OpenInternetManifest #Hypocrisie #NoGatekeepers
   
-    ---
-  
+  ***
+
   🇬🇧 **Day 16 Teaser** 🌐✂️  
   The pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap.  
   Hypocrisy on repeat – from corona to now.  
@@ -38,10 +33,11 @@ raw_markdown: |
   https://openinternetmanifest.org/nl/social-posts  
   #RealityVsNarrative #OpenInternetManifest #Hypocrisy #NoGatekeepers
 
-fuzzy_sha256: "5f9f0598021205579070a4aaf855bc9b97f1809ec05833872c1186d53f9dc3c3"
-full_sha256: "ab4e3051dd791d54ecc52ad24759f9befdc1bce6928ebe0a758b9ea1a05ab048"
+
+full_sha256: 2f8d840b299ce6e8b1567944b315f6747621a3e80d2a819c8cd154a2a05ab9de
+fuzzy_sha256: ee691564cbb762df9ac8021266d196ba19a278cb7101e5c17b5e552ca267f93f
 clean_text: |-
-  🇳🇱 dag 16 teaser 🌐✂️ het patroon blijft draaien: één kant krijgt altijd "mostly peaceful" als de straat brandt, de andere kant krijgt de schuld als er één klap valt. hypocrisie op repeat – van corona tot nu. open internet manifest: stop met gatekeepers die je voeden wat uitkomt. check zelf de beelden, de hashes, de tijdlijnen. realiteit wacht niet op toestemming. volgende post duikt in de volgende laag. blijf scherp. https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #openinternetmanifest #hypocrisie #nogatekeepers --- 🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #hypocrisy #nogatekeepers
+  🇳🇱 dag 16 teaser 🌐✂️ het patroon blijft draaien: één kant krijgt altijd "mostly peaceful" als de straat brandt, de andere kant krijgt de schuld als er één klap valt. hypocrisie op repeat – van corona tot nu. open internet manifest: stop met gatekeepers die je voeden wat uitkomt. check zelf de beelden, de hashes, de tijdlijnen. realiteit wacht niet op toestemming. volgende post duikt in de volgende laag. blijf scherp. https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #openinternetmanifest #hypocrisie #nogatekeepers *** 🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #hypocrisy #nogatekeepers
 
 ---
 
@@ -58,7 +54,7 @@ Blijf scherp.
 https://openinternetmanifest.org/nl/social-posts  
 #RealiteitVsNarratief #OpenInternetManifest #Hypocrisie #NoGatekeepers
 
----
+***
 
 🇬🇧 **Day 16 Teaser** 🌐✂️  
 The pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap.  

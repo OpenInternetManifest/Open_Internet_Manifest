@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 700a1a38756015cb7484542dae699e51a56d041114655e29de30f251272e046d
-social_share_sha256: ''
 day: 1
 rvn_title: Het vaste patroon bij grote incidenten
-# rvn_url: /nl/social-posts/dag-1-rvn
 rvn_teaser: 'Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin'
-fuzzy_sha256: "fbcce9cc09b29ab5a8512ecc54a0da59371ed1f3b40d213cc38d494bf1226ac9"
-full_sha256: "e73b54fb6b1cb8ed38b85c75764f2216d86056e5bf4c8d319d9705d15d481744"
 raw_markdown: |
   Realiteit vs. Narratief – Het vaste patroon bij grote incidenten.
   
@@ -42,6 +35,9 @@ raw_markdown: |
   Dat is echte verantwoordelijkheid – ongeacht je kant.
   Zijn we ooit voorbij dit patroon?
   #RealiteitVsNarratief #Polarisatie #FeitenBovenEmotie
+
+full_sha256: 00b332bc4a85ec38f0cbfa875be08a28d238438fe87283e1d64b49e876a1f41c
+fuzzy_sha256: a519ebd55bdcf2054cb50862d641529a2307e658d20ad4fd6e5048662989518f
 clean_text: |-
   realiteit vs. narratief – het vaste patroon bij grote incidenten. het narratief zegt vaak: “direct oordeel op basis van eerste beelden: onrecht, moord, systeemfalen. feiten komen later wel – of niet. kritiek op het slachtoffer is victim blaming.” het narratief zegt vaak: “direct oordeel: gerechtvaardigd, wet & orde. feiten? we duiken erin.” de realiteit: bij bijna elk groot incident zien we hetzelfde patroon: eén kant mobiliseert meteen op emotie en eerste beelden (“ongewapend! moord!”). de andere kant roept “gerechtvaardigd” en begint direct te analyseren: frame-by-frame video's, timelines, getuigen, graham v. connor-standaard, supreme court-rulings. de emotionele kant negeert vaak nieuwe feiten als ze niet passen (of noemt ze “desinformatie”/“victim blaming”). de analytische kant past mening aan als feiten veranderen – maar dan is het initiële narratief al viral. voorbeeld renee good: eerste reactie: “ongewapend, moord door ice/trump.” analytische reactie: “blokkeerde straat, negeerde bevelen, reed vooruit op agent → deadly weapon, justified force.” waarom dit patroon? eén kant prioriteert morele verontwaardiging en systeemkritiek – feiten secundair. de andere kant prioriteert individuele verantwoordelijkheid en wetgeving – dus diep in details duiken. gevolg: geen dialoog, alleen haat, verdeeldheid en een waarheid die pas later op tafel komt – maar dan is het narratief al overal. kies realiteit: wacht op de feiten. kijk álle video's. lees álle bronnen. pas je mening aan. dat is echte verantwoordelijkheid – ongeacht je kant. zijn we ooit voorbij dit patroon? #realiteitvsnarratief #polarisatie #feitenbovenemotie
 

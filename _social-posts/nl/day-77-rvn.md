@@ -6,11 +6,9 @@ rvn_title: "Schijnvooruitgang #7: De cashloze samenleving"
 rvn_teaser: "Contant geld is ouderwets en gevaarlijk, zeggen ze. Maar wat winnen we er werkelijk mee?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "914898477b2a98632b7b103db8c6f75d71119889fd8c101d7264cacb32383ee9"
-full_sha256: "0d7b8d3d9b24148af90a561f4147be5114c05cf1e6670d1b5aa495e768a34ffd"
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:06.351776"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.868916"
 raw_markdown: |
   **Schijnvooruitgang – Dag 33: De cashloze samenleving** 💳
   
@@ -57,7 +55,7 @@ raw_markdown: |
   Contant geld is niet ouderwets.  
   Contant geld is vrijheid.
   
-     ---
+  ***
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -69,12 +67,15 @@ raw_markdown: |
   
   #Schijnvooruitgang #CashlessSociety #CBDC #Privacy #ContantGeld #Vrijheid #OpenInternetManifest
   
-    ---
+  ***
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: c6928e479fa767e49903f24774af0b45c43ac9ee63208268691c603810c6d64e
+fuzzy_sha256: a3570b16ed2a35ddd83c93f77491044ea81dd4c55ed969ee20672b8261ff57ae
 clean_text: |-
-  schijnvooruitgang – dag 33: de cashloze samenleving 💳 korte recap van de serie dag 2: leasing dag 3: warmtepompen dag 4: elektrische auto’s dag 5: de 15-minutenstad dag 6: alles als abonnement narratief contant geld is vies, ouderwets en wordt vooral gebruikt door criminelen. een cashloze samenleving is veiliger, makkelijker, efficiënter en beter voor het klimaat. iedereen betaalt met pin of telefoon. wie wil er nou nog met munten en briefjes sjouwen? realiteit – keihard laag 1: total loss of privacy elke betaling wordt permanent vastgelegd. waar je bent, wat je koopt, wanneer, hoe vaak en met wie. je hele economische leven wordt één groot, traceerbaar dossier. laag 2: complete afhankelijkheid geen cash = volledig afhankelijk van banken, internet, stroom en systemen. eén storing, één geblokkeerd account of één “technisch probleem” en je kunt letterlijk niks meer kopen. laag 3: programmeerbaar geld in een volledig digitale wereld kan geld geprogrammeerd worden. geld dat automatisch verloopt geld dat alleen voor bepaalde producten mag worden gebruikt geld dat niet meer werkt buiten je eigen wijk dit is geen complottheorie. dit wordt wereldwijd getest met cbdc’s. laag 4: sociale en gedragscontrole te veel vlees gekocht? te vaak met de auto gereden? te lage co2-score? je betaalmogelijkheden kunnen beperkt of aangepast worden. dit is social credit met een glimlach. laag 5: machtsverschuiving jij verliest controle. banken en overheden krijgen totale controle over wie nog mag deelnemen aan de economie. oim-uitweg betaal zoveel mogelijk contant. houd altijd een noodvoorraad cash achter de hand. ondersteun winkels en bedrijven die cash accepteren. weiger mee te werken aan de afschaffing van contant geld. contant geld is niet ouderwets. contant geld is vrijheid. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou wil jij een samenleving waarin elke euro die je uitgeeft traceerbaar en programmeerbaar is, of wil je een deel van je vrijheid behouden? #schijnvooruitgang #cashlesssociety #cbdc #privacy #contantgeld #vrijheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  schijnvooruitgang – dag 33: de cashloze samenleving 💳 korte recap van de serie dag 2: leasing dag 3: warmtepompen dag 4: elektrische auto’s dag 5: de 15-minutenstad dag 6: alles als abonnement narratief contant geld is vies, ouderwets en wordt vooral gebruikt door criminelen. een cashloze samenleving is veiliger, makkelijker, efficiënter en beter voor het klimaat. iedereen betaalt met pin of telefoon. wie wil er nou nog met munten en briefjes sjouwen? realiteit – keihard laag 1: total loss of privacy elke betaling wordt permanent vastgelegd. waar je bent, wat je koopt, wanneer, hoe vaak en met wie. je hele economische leven wordt één groot, traceerbaar dossier. laag 2: complete afhankelijkheid geen cash = volledig afhankelijk van banken, internet, stroom en systemen. eén storing, één geblokkeerd account of één “technisch probleem” en je kunt letterlijk niks meer kopen. laag 3: programmeerbaar geld in een volledig digitale wereld kan geld geprogrammeerd worden. geld dat automatisch verloopt geld dat alleen voor bepaalde producten mag worden gebruikt geld dat niet meer werkt buiten je eigen wijk dit is geen complottheorie. dit wordt wereldwijd getest met cbdc’s. laag 4: sociale en gedragscontrole te veel vlees gekocht? te vaak met de auto gereden? te lage co2-score? je betaalmogelijkheden kunnen beperkt of aangepast worden. dit is social credit met een glimlach. laag 5: machtsverschuiving jij verliest controle. banken en overheden krijgen totale controle over wie nog mag deelnemen aan de economie. oim-uitweg betaal zoveel mogelijk contant. houd altijd een noodvoorraad cash achter de hand. ondersteun winkels en bedrijven die cash accepteren. weiger mee te werken aan de afschaffing van contant geld. contant geld is niet ouderwets. contant geld is vrijheid. *** misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou wil jij een samenleving waarin elke euro die je uitgeeft traceerbaar en programmeerbaar is, of wil je een deel van je vrijheid behouden? #schijnvooruitgang #cashlesssociety #cbdc #privacy #contantgeld #vrijheid #openinternetmanifest *** deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -125,7 +126,7 @@ Jij verliest controle. Banken en overheden krijgen totale controle over wie nog 
 Contant geld is niet ouderwets.  
 Contant geld is vrijheid.
 
----
+***
 
 Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
 
@@ -137,7 +138,7 @@ Wil jij een samenleving waarin elke euro die je uitgeeft traceerbaar en programm
 
 #Schijnvooruitgang #CashlessSociety #CBDC #Privacy #ContantGeld #Vrijheid #OpenInternetManifest
 
----
+***
 
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier

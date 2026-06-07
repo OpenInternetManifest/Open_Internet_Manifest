@@ -6,8 +6,6 @@ rvn_title: "Trump dwingt Iran tot deal – de Uranium One connectie"
 rvn_teaser: "Is dit alleen een nucleaire deal… of veel meer?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "3e878fedc64221fc67ba738800e811d41c19d4992a55f1ffec8a90c66a4a0870"
-full_sha256: "bd479d932812560036b40b71663e9555432827bf238ea254e509d5ab14beabec"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:11.899631"
@@ -60,6 +58,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: a25455bd40da57c1eb039b7a032db1b0b4b75a3992d6bc6d5389697ddda5aa1c
+fuzzy_sha256: b948b952db2fbff82a473a0ba649125c22aa0f95c8278be1f1ddfcfb9aa39265
 clean_text: |-
   rvn: “trump dwingt iran tot deal – de uranium one connectie” 🌀 narratief: trump probeert een nieuwe nucleaire deal met iran te sluiten. het gaat om het beperken van het nucleaire programma en het opgeven van verrijkt uranium. gewoon klassieke diplomatie. realiteit: dit is veel meer dan een gewone deal. trump past opnieuw zijn maximum pressure-strategie toe: maximale economische druk, steun aan israël om proxies (hamas, hezbollah, houthis) uit te schakelen, en iran dwingen tot concessies. iran is economisch uitgeput en staat onder enorme interne druk. het meest explosieve deel is wat er met het verrijkte uranium gebeurt. als iran grote hoeveelheden moet overdragen en dit isotopisch getraceerd kan worden, ontstaat een interessante mogelijkheid: de uranium one-link in 2010, onder obama en hillary clinton, werd uranium one (met amerikaanse uraniummijnen) verkocht aan het russische staatsbedrijf rosatom. er waren grote donaties aan de clinton foundation door betrokken partijen. veel critici vermoeden dat een deel van dit uranium later via rusland of andere kanalen naar iran is gegaan. als trump nu eist dat iran verrijkt uranium opgeeft en dit traceerbaar blijkt te zijn naar materiaal uit de uranium one-deal, zou dat een politieke bom zijn. trumps sun tzu-spel trump speelt schaak op meerdere borden tegelijk: iran economisch laten bloeden israël de ruimte geven om proxies te raken mogelijk bewijs verzamelen van de obama/clinton-era deals een deal forceren die iran structureel verzwakt of de uranium one-connectie hard bewezen wordt, is nog de vraag. maar de timing en de eisen zijn te specifiek om toeval te zijn. oim-uitweg dit laat weer zien waarom we verifieerbare informatie en onafhankelijke analyse nodig hebben. te veel grote verhalen (zowel mainstream als alternatief) worden gestuurd door narratieven in plaats van feiten. laten we zelf blijven graven, traceren en verifiëren. zonder blind vertrouwen op welke kant dan ook. vraag aan jou denk jij dat trump puur een nucleaire deal wil, of speelt hij een veel groter spel waarbij oude zonden (uranium one, iran-deal 2015) ook aan de orde komen? morgen meer over de bredere informatie-oorlog. #trump #iran #uraniumone #deepstate #informatieoorlog #feiten #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

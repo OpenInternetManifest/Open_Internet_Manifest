@@ -6,8 +6,6 @@ rvn_title: "Waarom treft het altijd één kant?"
 rvn_teaser: "Het patroon dat alles verklaart."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "9d5b0a247e48acc3a12ecabc2197405ee74533ef8e4a02a6703f1fec98b236d4"
-full_sha256: "034ad63a221816872a32b90113eabb962437ec95680be1104da2dc51b69f2fbf"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:10.786127"
@@ -69,6 +67,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: b21d16459fbaa0d00337985897d146914e9ec7c991484bfe941da4711f453ee8
+fuzzy_sha256: 434dbbc1c19f722367bea0be6bf06048ee5cb5b5ab99925f72d2425698a2f889
 clean_text: |-
   rvn: “waarom treft het altijd één kant?” 🌀 narratief: elke demonstratie die uit de hand loopt is de schuld van extreem-rechts. bij linkse protesten is het “begrijpelijke woede” of “een paar rotte appels”. realiteit: dit is geen toeval. dit is two-tier justice — een systeem met twee maten. we hebben het nu drie dagen gezien: day 1 (j6): vreedzame demonstranten worden jarenlang vervolgd, terwijl de echte relschoppers van 2020 vaak vrijuit gingen. day 2 (romeo’s): provocateurs en infiltranten worden ingezet om rechtse en anti-asielprotesten te laten escaleren. day 3: het systeem beschermt altijd dezelfde kant. klassiek voorbeeld van de dubbele standaard: kijk naar extinction rebellion (xr). zij blokkeerden jarenlang regelmatig snelwegen, luchthavens en bruggen. de politie kwam dan met speciale brancards om de activisten voorzichtig weg te dragen, vaak met glimlach en begrip. weinig arrestaties, nog minder veroordelingen. vergelijk dat met anti-azc demonstranten of boeren die een rotonde blokkeren: direct harde charges, traangas, arrestaties en media die ze “extreem-rechts” noemen. in de vs was het nog extremer: blm-rellen in 2020 veroorzaakten miljarden schade en tientallen doden → nauwelijks serieuze vervolging. january 6 → jarenlange gevangenisstraffen voor mensen die alleen maar naar binnen liepen. dit is geen toeval. dit is een systeem. de gevestigde orde, media en justitie hebben een duidelijk belang: legitieme onvrede van de autochtone bevolking moet worden geframed als haat en extremisme, zodat de grote transformatie (demografisch, cultureel, economisch) kan doorgaan zonder al te veel weerstand. oim-uitweg dit is precies waarom we niet meer afhankelijk mogen zijn van instituties die hun eigen legitimiteit hebben verspeeld. we bouwen parallelle structuren: eigen communicatiekanalen verifieerbare informatie lokale netwerken documentatie van provocateurs en ongelijke behandeling alleen zo kunnen we het echte verhaal vertellen. vraag aan jou zie jij het patroon ook? waarom lijkt het altijd één kant te treffen — en waarom mag je dat niet hardop zeggen? laten we stoppen met het slikken van de dubbele moraal. laten we kijken. documenteren. en bouwen. #twotierjustice #romeos #j6 #azc #xr #framing #feiten #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

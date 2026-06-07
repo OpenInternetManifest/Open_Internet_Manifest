@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 1b5ffddab497f2b7193577581071cc0462ba5344fd3f934b045aea511603266f
-social_share_sha256: ''
 day: 27
 rvn_title: Politiek - Politika
-# rvn_url: /nl/social-posts/dag-27-rvn
 rvn_teaser: Van ‘zaken van de burger’ naar theater
-fuzzy_sha256: "9f85c5eafee2aa8a94e0ed5c1607267cf74770f3227dec0732a396de9f937175"
-full_sha256: "bb7950a0aa1006ac3d25584bea5cd1e79e9869a47e03f616a496d28aab7282b9"
 raw_markdown: |
   **Reality vs Narratief: Politiek – van ‘zaken van de burger’ naar theater… en waarom dat verschil ertoe doet ♟️🗳️🪞🙏**
   
@@ -91,6 +84,9 @@ raw_markdown: |
   Of is het vooral de uitvoering die we moeten terugveroveren — en begint dat bij onszelf?  
   
   #RVN #FeitenBovenFrames #Politiek #Verantwoordelijkheid #Gemeenschap
+
+full_sha256: 72049dd4ea2233376c406a1f7660eddda15d466d84ccb6aa0e81dc4537ce0a08
+fuzzy_sha256: 44947e72321fb6bb4895252e35fb8f4db27c2d9807713cbbe284341aa32b479a
 clean_text: |-
   reality vs narratief: politiek – van ‘zaken van de burger’ naar theater... en waarom dat verschil ertoe doet ♟️🗳️🪞🙏 deze week hebben we laag voor laag de structuur afgepeld: dag 22: trump & warp speed → asymmetrisch spel, sun tzu in actie, exit-ramp zonder frontale clash dag 23: 1913 → de blauwdruk (titanic ruimt tegenstanders op, fed + inkomstenbelasting erdoor, rockefeller bouwt door) dag 24: templars → eeuwenoud prototype van banking-macht boven kerk en koningen, religie als kostuum vs persoonlijk geloof dag 25: obama / iran → $1.7 miljard cash + miljarden assets → proxies sterker → conflict als businessmodel, good cop / bad cop dag 26: de onzichtbare laag erboven → big three (blackrock, vanguard, state street) + bis + family offices die de touwtjes vasthouden zonder ooit in de krant te hoeven staan vandaag: politiek zelf. vorige week weer gehoord: “jij gelooft nog steeds in politiek.” 😏 alsof politiek per definitie een leugen is. alsof stemmen = meedoen aan de matrix. alsof de enige optie is om passief vanaf de zijlijn te roepen wat er allemaal mis is. maar laten we even terug naar de oorsprong. het woord politiek komt van het griekse “politika” — zaken van de polis. de polis = de gemeenschap, de stad, de burgers. het gaat over hoe mensen samenleven, beslissingen nemen, verantwoordelijkheid dragen voor het geheel. dat is geen complot. dat is geen illusie. dat is de basis van samenleven als vrije mensen. de huidige invulling? ja, die is vaak corrupt. theater. deep state-laag. lobbyisten. partijtjesbelang boven burgerbelang. dat zie ik ook. dat stoort mij ook. maar dat maakt het idee zelf niet slecht. dat maakt de uitvoering slecht. het is het verschil tussen het originele recept en wat er in de loop der eeuwen van gemaakt is. zelfs de bijbel verwijst meermaals naar bestuurlijke structuren — zonder ooit het woord “politiek” te gebruiken: mozes die rechters aanstelt om recht te spreken (exodus 18) ⚖️ de wetten over koningen die rechtvaardig moeten regeren en niet hebzuchtig mogen zijn (deuteronomium 17) jezus die zegt: “geef de keizer wat des keizers is, en god wat gods is” (matteüs 22) — erkenning van wereldse autoriteit, maar niet als ultieme autoriteit paulus in romeinen 13: gezag is van god ingesteld, maar ook beperkt door god en door rechtvaardigheid dat zijn geen goedkeuringen van corruptie. dat zijn oproepen tot verantwoordelijkheid binnen de wereld die we hebben. niet passief afwachten tot alles vanzelf goed komt. niet alleen klagen. maar handelen, kiezen, mee vormgeven — vanuit geloof, vanuit geweten. want laten we eerlijk zijn: we hebben liggen slapen. 😴 we hebben te lang de verantwoordelijkheid uit handen gegeven. we hebben te lang gedacht dat “iemand het wel oplost”. en precies daardoor konden de structuren worden overgenomen: door lobbyisten, door geldstromen, door ideologieën die ons verdelen terwijl we ruzie maken over links-rechts of vaccin ja/nee. we hebben de polis — de gemeenschap — te lang aan anderen overgelaten. en nu verbaast het ons dat het systeem ons niet meer dient? ik geloof niet in de huidige invulling van politiek. ik geloof wél in verantwoordelijkheid nemen als burger. in zaken van de gemeenschap niet uit handen geven. in niet alleen zien wat er mis is, maar ook vragen: wat dan wél? want als we dat niet doen, dan bepalen anderen het verhaal. en dan is het narratief weer een stap verder van de realiteit. feiten boven frames. open discussie mag. ik leer nog elke dag. jij ook? wat denk jij? is politiek per definitie verloren? of is het vooral de uitvoering die we moeten terugveroveren — en begint dat bij onszelf? #rvn #feitenbovenframes #politiek #verantwoordelijkheid #gemeenschap
 

@@ -6,9 +6,6 @@ rvn_title: "Oil Prices and the Asymmetric Game – Who Really Profits?"
 rvn_teaser: "Why does the price at the pump stay high even when there is enough oil? Today we look at the game of sweet vs heavy oil, refining, and geopolitics."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "69bad0b4f6675276c6e796379d67b8fd348def899efa56bae5956b1612ef39ff"
-full_sha256: "356628b385d7730979ef44b55190922975fc765ecf44a6b1527b98e9d5abdda2"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:47.006406"
@@ -68,6 +65,9 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: fa9821d4310a603baa24566e198576db869161f88103e309ab7e2859a47c3256
+fuzzy_sha256: ab1d569750976ae800dba5d1bcf84e314c80205773d50c04382cc67e562e6fc6
 clean_text: |-
   rvn: oil prices and the asymmetric game – who really profits? 🛢️ narrative: “it’s because of wars, sanctions and supply & demand.” reality: the oil market is not a simple free market. it is a complex asymmetric game of different oil types, refining costs and political power. extraction costs (what it costs to get it out of the ground): middle east (saudi arabia, kuwait, etc.): often $5 – $15 per barrel. extremely cheap. usa (shale oil): $40 – $60 per barrel. more expensive, but still profitable. north sea (nl, uk, denmark): around $30 – $50 per barrel. sweet vs heavy oil light sweet oil (usa, norway): easy to refine, low sulfur. the usa produces enormous amounts of this. heavy sour oil (russia, venezuela, parts of middle east): cheap to extract, but expensive and complex to refine. who benefits from which type? refineries often make the most money from heavy oil. they buy it cheaply and sell expensive diesel and gasoline after refining. rotterdam is one of the largest refining hubs in europe and runs largely on heavy oil. the usa mainly produces sweet oil → exports a lot of it, but sometimes has to import refined products because many of its own refineries are geared toward heavy oil. political levers trump: “drill baby drill” → production up. biden: keystone xl pipeline shut down, new drilling restricted. sanctions on russia (heavy oil) → disruption of the european refining chain. this creates artificial scarcity: enough crude oil worldwide, but the wrong type in the wrong place, leading to high refining and transport costs. the core big players (governments, oil companies, refineries) don’t just profit from the price of crude oil itself, but especially from margins on refining, transport and geopolitical tension. high futures prices caused by tensions in hormuz or the red sea are often more profitable than a stable, cheap market. oim way out understand the chain instead of just looking at the pump price. becoming less dependent on this global game means: local energy storage and diversification real resilience instead of always being a victim of the next geopolitical move realizing that the price at the pump often says more about power than about physical scarcity. question to you do you think the price you pay is mainly determined by “war and supply”, or do you also see the game of refining, politics and margins behind it? what small step can you take to become less dependent on this system? we keep building. not just complaining about the pump price, but understanding the mechanisms. #oilprices #refining #geopolitics #asymmetricgame #rvn #openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 

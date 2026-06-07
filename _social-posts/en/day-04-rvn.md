@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 4
 rvn_title: A technician in Amsterdam
-# rvn_url: /en/social-posts/day-4-rvn
 rvn_teaser: A 32-year-old Jewish woman hesitates before saying her background
-fuzzy_sha256: "f456c89588329170aa5b517c26453dc4b891f90a149c3cdbdd2a857631062f6e"
-full_sha256: "5c51e248b7de193a25db8743535a53d3ae59befca3d00dbfc720f55e65077ee8"
 raw_markdown: |
   English summary:
   Reality vs. Narrative – A technician in Amsterdam.
@@ -18,6 +11,9 @@ raw_markdown: |
   Reality: A 32-year-old Jewish woman hesitates before saying her background. An Iranian woman in Amsterdam has no contact with family because of a total blackout.
   These are everyday people in 2026 Amsterdam. The Open Internet Manifest says: digital rights must mirror real-life constitutional rights – no blackouts, no forced silence.
   Which world do you want for your neighbours?
+
+full_sha256: 7ea862ad900777cbe1fd1a0d7e1792cd7e2f2cb9f4ceb7621882f6fc687e1f3d
+fuzzy_sha256: 47ceaa4c28be88a18c05502acc72000cc6a04df7affa66e71de4230ac1eba3d5
 clean_text: |-
   english summary: reality vs. narrative – a technician in amsterdam. narrative: internet restrictions are necessary for safety and order. reality: a 32-year-old jewish woman hesitates before saying her background. an iranian woman in amsterdam has no contact with family because of a total blackout. these are everyday people in 2026 amsterdam. the open internet manifest says: digital rights must mirror real-life constitutional rights – no blackouts, no forced silence. which world do you want for your neighbours?
 

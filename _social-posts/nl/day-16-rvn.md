@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: a6a2d00a331ec881ca5211bc7533bcda72deffbc90ce660bf2c2f6fda96465d6
-social_share_sha256: ''
 day: 16
 rvn_title: Het 'mostly peaceful' patroon
-# rvn_url: /nl/social-posts/dag-16-rvn
 rvn_teaser: En de hypocrisie
-fuzzy_sha256: "9be2e9f7b5a748c6170a265c67c56c41c5cdd2c756237f8fcedd193c2a266dea"
-full_sha256: "3e5a93560ee754612a8bbd54412806efe81a64234a8b1a8cb9a8124fce611f8b"
 raw_markdown: |
   🇳🇱 **Dag 16 – Reality vs Narrative: Het 'mostly peaceful' patroon & de hypocrisie** 🌐🔥  
   Vannacht en gisteren: Minneapolis kookt na de shooting van Alex Pretti (37, ICU nurse, phone in hand volgens witnesses/video's) door Border Patrol/ICE. Ouders noemen het executie, ACLU lawsuits lopen, protests escaleren. Dit volgt op Renee Good (7 jan, unarmed US citizen, shot in vehicle door ICE).  
@@ -35,6 +28,9 @@ raw_markdown: |
   https://openinternetmanifest.org  
   Lees de hashes, check bronnen, denk zelf.  
   #RealiteitVsNarratief #OpenInternetManifest #Dag16 #MostlyPeaceful #Hypocrisie #NoGatekeepers
+
+full_sha256: e957cc999d16febe8346c9f447607e9ad6237bf7cadf5506106b24d0d9324ad7
+fuzzy_sha256: 4066a5a1c326a7e32a10f901c373063e154d99c9067163d19201dd261659e70f
 clean_text: |-
   🇳🇱 dag 16 – reality vs narrative: het 'mostly peaceful' patroon & de hypocrisie 🌐🔥 vannacht en gisteren: minneapolis kookt na de shooting van alex pretti (37, icu nurse, phone in hand volgens witnesses/video's) door border patrol/ice. ouders noemen het executie, aclu lawsuits lopen, protests escaleren. dit volgt op renee good (7 jan, unarmed us citizen, shot in vehicle door ice). het narratief dat domineert: "mostly peaceful protests" voor accountability, "systemic overreach", "trump's gestapo". media pusht emotionele beelden van marchers, outrage over fed agents, calls voor ice out mn. de realiteit? het patroon herhaalt zich al jaren – en de hypocrisie is enorm: george floyd (2020): protests "mostly peaceful" (cnn live met brandende gebouwen op achtergrond). 93% peaceful volgens acled, maar miljarden schade, deaths, riots in tientallen steden – narratief focuste op justice, minimaliseerde arson/looting als "fringe". kyle rittenhouse (kenosha 2020): protests na jacob blake shooting "mostly peaceful" framed, maar escalated tot deadly confrontaties. rittenhouse schoot in self-defense (acquitted), maar narratief: "vigilante killer" vs realiteit: chased & threatened. media minimaliseerde protester-geweld. renee good & alex pretti (2026): protests na ice shootings "peaceful marches" voor justice. realiteit: clashes, finger bitten off hsi agent, antifa-style calls tot "guerrilla war", mall shutdowns, national guard standby. dhs claimt armed threats/justified force; video's disputed. nederlandse coronaprotesten (2020-2022): "wappies" (anti-lockdown demonstranten) werden massaal in elkaar geslagen door politie – batons, waterkanonnen, waarschuwingsschoten in rotterdam/the hague, arrestaties, "pure violence" door "idiots" (rutte). corona-gelovers juichten het toe: "eigen schuld, dikke bult", "geweld tegen ordehandhaving". nu bij anti-ice of blm-style protests? politie ineens de grote boosdoener, systemic probleem, protesters "mostly peaceful" ondanks escalatie. narratief schakelt altijd: wat uitkomt voor "hun kant" krijgt pass, andere kant krijgt de schuld. waarom dit patroon? links/protest-kant mobiliseert op morele outrage & victim narrative – geweld van hun kant wordt "mostly peaceful" of "understandable anger". mainstream amplificeert, dempt counter-evidence als "disinfo". andere kant duikt in feiten (self-defense, probable cause, graham v. connor), maar narratief is al viral. gevolg: geen nuance, alleen polarisatie – protests escaleren, realiteit verdwijnt achter framing. waarom cruciaal voor open internet? gatekeepers (big tech + legacy media) beslissen wat "mostly peaceful" betekent: outrage viraal, nuance shadow-banned. geen algoritmes die alle kanten pushen – alleen het dominante narratief. open internet manifest vecht voor een web waar jij zelf video's checkt (pretti phone footage, rittenhouse trial, floyd riots damage, rotterdam waterkanon-clips), hashes verifieert, en oordeelt – zonder poortwachters die hypocrisie verbergen. als je moe bent van selectieve verontwaardiging... wacht op feiten, graaf dieper. https://openinternetmanifest.org lees de hashes, check bronnen, denk zelf. #realiteitvsnarratief #openinternetmanifest #dag16 #mostlypeaceful #hypocrisie #nogatekeepers
 

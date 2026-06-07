@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: 9a4b60d7b4bb5f8e873f144db97668e70e46f0ba68e84cbde502bc9b7d1dddac
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 38
 teaser_title: Tonight the ladder of the Graduated Animal Farms
-# teaser_url: /en/social-posts/day-38-teaser
 teaser_text: Tomorrow; the first stall
 raw_markdown: |
   **Day 38 Teaser – Tonight: the ladder of the Graduated Animal Farms** 🪜🐷  
@@ -30,8 +25,9 @@ raw_markdown: |
   Plak de volledige tekst en check – reality stays calm 🧘‍♂️✨.  
   Waarom narratieven wild worden... 🌀
 
-fuzzy_sha256: "f7d165833c05997e584886c9a87a59631085b4b467e5da02749e9807dea6421e"
-full_sha256: "191aa9c91cf047b697951665f070c5b62cf2d04acdda64e75d2d034408410d4f"
+
+full_sha256: 191aa9c91cf047b697951665f070c5b62cf2d04acdda64e75d2d034408410d4f
+fuzzy_sha256: e10d74372d86b6c6b51eeea1736360fb9868e990f54abd3ada5c8a76daac716a
 clean_text: |-
   day 38 teaser – tonight: the ladder of the graduated animal farms 🪜🐷 tomorrow rvn: the first stall – mainstream media as base layer gaf. today we already saw the pattern crystal clear: temporary allies that seem ideologically incompatible – queers for palestine, chickens for kfc, iran 1979 – graduated animal farms (gaf) in action. today we start a new series: graduated animal farms – the different layers of the system that feeds narratives and steers behavior. from the base stall (msm, emotional framing) to higher layers (alternative media, echo chambers, infiltration). because online behavior often seems rotten... but that’s not a coincidence. it’s design. tomorrow we dive into the first layer. no gatekeepers. only facts over frames 🛡️✨ https://openinternetmanifest.org #rvn #openinternetmanifest #graduatedanimalfarms #day38teaser deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️✨. waarom narratieven wild worden... 🌀
 

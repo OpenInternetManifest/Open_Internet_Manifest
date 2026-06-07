@@ -6,11 +6,9 @@ rvn_title: "Schijnvooruitgang #8: Feminisme als bevrijding?"
 rvn_teaser: "Vrouwen zijn eindelijk bevrijd. Maar zijn ze ook gelukkiger en vrijer geworden?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "217d57e1a6c8a0830f81139ae15f9ff2bbecfadca74a6749ed10f4be141c8363"
-full_sha256: "010b1f64237b93c4d5214f17745c34a3d90112897447a3791893651765a5eae2"
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:06.506271"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:09.028502"
 raw_markdown: |
   **Schijnvooruitgang – Dag 34: Feminisme als bevrijding?** 👩
   
@@ -63,7 +61,7 @@ raw_markdown: |
   Zonder economische noodzaak, sociale druk of staatsbemoeienis.  
   Een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal.
 
-     ---
+  ***
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -75,12 +73,15 @@ raw_markdown: |
   
   #Schijnvooruitgang #Feminisme #Antidepressiva #Echtscheiding #Geboortecijfer #EchteVrijheid #OpenInternetManifest
   
-    ---
+  ***
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: 42bb5a68f6632fa4d8d10690a6b752dcada7e011665ce6c0ff438aa8159395be
+fuzzy_sha256: 3c2292497ae947bf44c076049634108541c54afe722b21bb8af01eaaedb8521c
 clean_text: |-
-  schijnvooruitgang – dag 34: feminisme als bevrijding? 👩 korte recap van de serie dag 2: leasing dag 3: warmtepompen dag 4: elektrische auto’s dag 5: 15-minutenstad dag 6: alles als abonnement dag 7: cashloze samenleving narratief het moderne feminisme heeft vrouwen bevrijd. ze zijn economisch onafhankelijk, hoeven niet meer afhankelijk te zijn van een man en zijn gelukkiger dan ooit. kritiek hierop is seksistisch en achterhaald. realiteit – meerdere lagen laag 1: economische afhankelijkheid vrouwen zijn niet vrijer, ze zijn vooral afhankelijk geworden van de arbeidsmarkt en de overheid. twee fulltime inkomens zijn nu vaak nodig om een gemiddeld huishouden te kunnen onderhouden. laag 2: demografische klap om een bevolking stabiel te houden is een fertiliteitscijfer van 2,1 kinderen per vrouw nodig. in nederland ligt dit al decennia rond de 1,4 – 1,5 (cbs). dit is een van de laagste cijfers ooit gemeten. laag 3: mentale gezondheid ondanks alle beloftes van bevrijding gebruiken vrouwen significant meer psychofarmaca dan mannen: vrouwen gebruiken ruim 2x zoveel antidepressiva als mannen (cbs, 2023-2024). de stijging is vooral zichtbaar onder vrouwen van 25-45 jaar. studies (o.a. who en verschillende longitudinale onderzoeken) tonen aan dat vrouwen in westerse landen sinds de jaren ’70 niet gelukkiger zijn geworden, ondanks enorme toename in opleiding, carrière en rechten. laag 4: echtscheidingen en relatieleed ruim 70% van de echtscheidingen wordt aangevraagd door vrouwen (cbs). na scheiding gaat het vaak slechter met vrouwen (vooral financieel en emotioneel) en met kinderen (meerdere studies over eenoudergezinnen). het aantal eenoudergezinnen (vooral moeder met kind) is sterk gestegen, met alle bijbehorende uitdagingen. laag 5: de verdwenen keuze de keuze om fulltime moeder/huisvrouw te zijn, is in de praktijk bijna verdwenen door: economische druk (huizenprijzen, belastingen) sociale veroordeling (“je bent toch geen onderdanige huisvrouw?”) fiscaal systeem dat tweeverdieners sterk bevoordeelt laag 6: de ideologische prijs het moderne feminisme heeft moederschap en traditionele mannelijke rollen systematisch gedevalueerd. resultaat: veel jonge mannen en vrouwen vinden het steeds moeilijker om stabiele, langdurige relaties aan te gaan. oim-uitweg echte bevrijding is niet “vrouwen tegen mannen” of “carrière boven alles”, maar echte keuzevrijheid: fulltime carrière fulltime moeder/vader een bewuste combinatie zonder economische noodzaak, sociale druk of staatsbemoeienis. een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou heeft het moderne feminisme vrouwen écht gelukkiger en vrijer gemaakt, of hebben we vooral nieuwe vormen van afhankelijkheid, eenzaamheid en demografische achteruitgang gecreëerd? #schijnvooruitgang #feminisme #antidepressiva #echtscheiding #geboortecijfer #echtevrijheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  schijnvooruitgang – dag 34: feminisme als bevrijding? 👩 korte recap van de serie dag 2: leasing dag 3: warmtepompen dag 4: elektrische auto’s dag 5: 15-minutenstad dag 6: alles als abonnement dag 7: cashloze samenleving narratief het moderne feminisme heeft vrouwen bevrijd. ze zijn economisch onafhankelijk, hoeven niet meer afhankelijk te zijn van een man en zijn gelukkiger dan ooit. kritiek hierop is seksistisch en achterhaald. realiteit – meerdere lagen laag 1: economische afhankelijkheid vrouwen zijn niet vrijer, ze zijn vooral afhankelijk geworden van de arbeidsmarkt en de overheid. twee fulltime inkomens zijn nu vaak nodig om een gemiddeld huishouden te kunnen onderhouden. laag 2: demografische klap om een bevolking stabiel te houden is een fertiliteitscijfer van 2,1 kinderen per vrouw nodig. in nederland ligt dit al decennia rond de 1,4 – 1,5 (cbs). dit is een van de laagste cijfers ooit gemeten. laag 3: mentale gezondheid ondanks alle beloftes van bevrijding gebruiken vrouwen significant meer psychofarmaca dan mannen: vrouwen gebruiken ruim 2x zoveel antidepressiva als mannen (cbs, 2023-2024). de stijging is vooral zichtbaar onder vrouwen van 25-45 jaar. studies (o.a. who en verschillende longitudinale onderzoeken) tonen aan dat vrouwen in westerse landen sinds de jaren ’70 niet gelukkiger zijn geworden, ondanks enorme toename in opleiding, carrière en rechten. laag 4: echtscheidingen en relatieleed ruim 70% van de echtscheidingen wordt aangevraagd door vrouwen (cbs). na scheiding gaat het vaak slechter met vrouwen (vooral financieel en emotioneel) en met kinderen (meerdere studies over eenoudergezinnen). het aantal eenoudergezinnen (vooral moeder met kind) is sterk gestegen, met alle bijbehorende uitdagingen. laag 5: de verdwenen keuze de keuze om fulltime moeder/huisvrouw te zijn, is in de praktijk bijna verdwenen door: economische druk (huizenprijzen, belastingen) sociale veroordeling (“je bent toch geen onderdanige huisvrouw?”) fiscaal systeem dat tweeverdieners sterk bevoordeelt laag 6: de ideologische prijs het moderne feminisme heeft moederschap en traditionele mannelijke rollen systematisch gedevalueerd. resultaat: veel jonge mannen en vrouwen vinden het steeds moeilijker om stabiele, langdurige relaties aan te gaan. oim-uitweg echte bevrijding is niet “vrouwen tegen mannen” of “carrière boven alles”, maar echte keuzevrijheid: fulltime carrière fulltime moeder/vader een bewuste combinatie zonder economische noodzaak, sociale druk of staatsbemoeienis. een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal. *** misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou heeft het moderne feminisme vrouwen écht gelukkiger en vrijer gemaakt, of hebben we vooral nieuwe vormen van afhankelijkheid, eenzaamheid en demografische achteruitgang gecreëerd? #schijnvooruitgang #feminisme #antidepressiva #echtscheiding #geboortecijfer #echtevrijheid #openinternetmanifest *** deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -137,7 +138,7 @@ Echte bevrijding is niet “vrouwen tegen mannen” of “carrière boven alles�
 Zonder economische noodzaak, sociale druk of staatsbemoeienis.  
 Een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal.
 
----
+***
 
 Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
 
@@ -149,7 +150,7 @@ Heeft het moderne feminisme vrouwen écht gelukkiger en vrijer gemaakt, of hebbe
 
 #Schijnvooruitgang #Feminisme #Antidepressiva #Echtscheiding #Geboortecijfer #EchteVrijheid #OpenInternetManifest
 
----
+***
 
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier

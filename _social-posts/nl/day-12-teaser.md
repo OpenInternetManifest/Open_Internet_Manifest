@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 8a3907914e8b9543661e7c24af9ced663cd98d697138f0e3afa5810c62de145c
-social_share_sha256: ''
 day: 12
 teaser_title: Waarom OIM
-# teaser_url: /nl/social-posts/dag-12-teaser
 teaser_text: Geen 'stallen' geen nieuwe fakkeldrager
 raw_markdown: |
   🇳🇱 **Dag 12 – Waarom OIM** 🌐✂️  
@@ -25,7 +20,7 @@ raw_markdown: |
   https://openinternetmanifest.org  
   #realiteitvsnarratief #openinternetmanifest #WebZonderLeiband  
   
-    ---
+  ***
   
   🇬🇧 **Day 12 – Why OIM** 🌐✂️  
   We're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer.  
@@ -41,10 +36,11 @@ raw_markdown: |
   https://openinternetmanifest.org  
   #RealityVsNarrative #openinternetmanifest #WebWithoutLeash
 
-fuzzy_sha256: "852ca132ac2784d4dd3128ea4cb328edcaa63b6b1e7950da27353d27d034a328"
-full_sha256: "d1899c6398c8db12893f3abdcbf7dfa35310dca5ef897d5f908d24cc876e99b1"
+
+full_sha256: 4baeeaf1803fd08d3b98aef7809dcbfd8080ccaa64b367fb8a100e02ebbf8406
+fuzzy_sha256: 9f651049ad656ef11fa3df34b1e72185c6f7d9554f327df9ac968f57ae681e85
 clean_text: |-
-  🇳🇱 dag 12 – waarom oim 🌐✂️ we vechten niet voor een nieuwe laag "waarheid", niet voor een nieuwe partij, niet voor een nieuwe fakkeldrager. we vechten voor een web waar jij zelf mag denken, twijfelen, struikelen en opstaan – zonder dat iemand de poortwachter speelt. geen gecentraliseerde algoritmes die je gedachten voorspellen. geen narratief-monopolie dat beslist wat echt is. geen graduated farms met vriendelijke beheerders. open internet manifest is geen eindstation, maar een begin: een web zonder leiband, zonder zonnebril, zonder deep state-controle. als je moe bent van de stallen... lees mee. https://openinternetmanifest.org #realiteitvsnarratief #openinternetmanifest #webzonderleiband --- 🇬🇧 day 12 – why oim 🌐✂️ we're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer. we're fighting for a web where you get to think, doubt, stumble and stand up yourself – without anyone playing gatekeeper. no centralized algorithms predicting your thoughts. no narrative monopoly deciding what's real. no graduated farms with friendly managers. open internet manifest is not an end station, but a beginning: a web without leash, without sunglasses, without deep state control. if you're tired of the pens... read along. https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #webwithoutleash
+  🇳🇱 dag 12 – waarom oim 🌐✂️ we vechten niet voor een nieuwe laag "waarheid", niet voor een nieuwe partij, niet voor een nieuwe fakkeldrager. we vechten voor een web waar jij zelf mag denken, twijfelen, struikelen en opstaan – zonder dat iemand de poortwachter speelt. geen gecentraliseerde algoritmes die je gedachten voorspellen. geen narratief-monopolie dat beslist wat echt is. geen graduated farms met vriendelijke beheerders. open internet manifest is geen eindstation, maar een begin: een web zonder leiband, zonder zonnebril, zonder deep state-controle. als je moe bent van de stallen... lees mee. https://openinternetmanifest.org #realiteitvsnarratief #openinternetmanifest #webzonderleiband *** 🇬🇧 day 12 – why oim 🌐✂️ we're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer. we're fighting for a web where you get to think, doubt, stumble and stand up yourself – without anyone playing gatekeeper. no centralized algorithms predicting your thoughts. no narrative monopoly deciding what's real. no graduated farms with friendly managers. open internet manifest is not an end station, but a beginning: a web without leash, without sunglasses, without deep state control. if you're tired of the pens... read along. https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #webwithoutleash
 
 ---
 
@@ -63,7 +59,7 @@ Als je moe bent van de stallen... lees mee.
 https://openinternetmanifest.org  
 #realiteitvsnarratief #openinternetmanifest #WebZonderLeiband  
 
----
+***
 
 🇬🇧 **Day 12 – Why OIM** 🌐✂️  
 We're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer.  

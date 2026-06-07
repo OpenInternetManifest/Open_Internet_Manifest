@@ -4,15 +4,11 @@ lang: en
 day: 44
 rvn_title: Dit is een test
 rvn_teaser:  Nu staat alleen de laatste post bovenaan
-# rvn_url: /en/social-posts/day-43-rvn
-website_sha256: 
-social_x_sha256: 
-social_fb_sha256: 
-social_share_sha256: 
-fuzzy_sha256: "0cf1e28c667cdd403ec284f71e6ac7379dd903ab5076bb24b96c3208e1853724"
-full_sha256: "0cf1e28c667cdd403ec284f71e6ac7379dd903ab5076bb24b96c3208e1853724"
 raw_markdown: |
   dit is een test
+
+full_sha256: de1a16f21c33e2ad338b576141f2f3e187f65668456358e12de9e4b2e388d056
+fuzzy_sha256: c1f0717df3797572ef9993e49383eb887e29a29de5fc36cceff7de80c8d6d100
 clean_text: |-
   dit is een test
 

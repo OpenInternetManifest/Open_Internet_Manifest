@@ -6,11 +6,9 @@ rvn_title: "Schijnvooruitgang #3: De warmtepomp als groene redding?"
 rvn_teaser: "Duurzaam, energiezuinig en de toekomst. Maar klopt dat verhaal eigenlijk wel?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "47f16a0deca283988a42d878bd249d0af58f318256d2541702eede62dd221896"
-full_sha256: "d56f845afbb0b1f4b31c5b9b7b0863fe5c8198770717ba0049788c0c86948efa"
-git_commit_hash: "e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/e4a421b8e5a334c3b8b30d81955552936f41666b"
-git_commit_date: "2026-05-31T09:50:05.585414"
+git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
+git_commit_date: "2026-05-31T07:49:08.073983"
 raw_markdown: |
   **Schijnvooruitgang – Dag 28: De warmtepomp als groene redding?** ♨️
   
@@ -50,7 +48,7 @@ raw_markdown: |
   Denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt.  
   Echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen.
   
-    ---
+  ***
   
   Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
   
@@ -62,12 +60,15 @@ raw_markdown: |
   
   #Schijnvooruitgang #Warmtepomp #Energietransitie #EchteDuurzaamheid #Onafhankelijkheid #OpenInternetManifest
   
-     ---
+  ***
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: a677b2173d198396431887567fb4a559689c63e54e8194dd709625ef099a6a29
+fuzzy_sha256: 487c69aa368ce730ed95d5bee7fc9292d7067a758b35cb7aff80b952b3dc9c2b
 clean_text: |-
-  schijnvooruitgang – dag 28: de warmtepomp als groene redding? ♨️ korte recap dag 1: introductie van de serie. dag 2: leasing – hoe “flexibel rijden” vooral meer afhankelijkheid en hogere kosten oplevert. narratief de warmtepomp is dé oplossing voor de toekomst. geen gas meer, superzuinig, goed voor het klimaat, royaal gesubsidieerd en je doet mee aan de energietransitie. wie niet meedoet is achterlijk of anti-duurzaam. realiteit – meerdere lagen laag 1 – kosten aanschaf €8.000 tot €18.000 (inclusief installatie). terugverdientijd vaak 12-20 jaar, áls hij überhaupt goed werkt. laag 2 – praktijk in nederlandse huizen veel huizen zijn matig tot slecht geïsoleerd. resultaat: extreem hoog stroomverbruik en torenhoge maandlasten, vooral in de winter. laag 3 – prestaties bij kou bij vorst daalt het rendement dramatisch. veel systemen schakelen dan over op elektrische weerstand of moeten bijverwarmd worden met... gas. laag 4 – afhankelijkheid je ruilt gas (waarvan we een redelijke voorraad hadden) in voor volledige afhankelijkheid van het elektriciteitsnet én de sterk fluctuerende stroomprijzen. laag 5 – wie verdient er echt aan? subsidies, installateurs, fabrikanten, netbeheerders en consultants. het geld stroomt vooral naar de bovenkant van de keten, niet naar échte co2-reductie. persoonlijke laag sinds de gasprijzen fors stegen, verwarm ik zelf al jaren met een petroleumkachel. simpel, direct warmte, lage aanschafkosten, en ik bepaal zelf wanneer en hoeveel ik stook. geen dure installateur, geen subsidie, geen complexe techniek die stuk kan gaan. het werkt. dit is precies waar het om draait: echte oplossingen zijn vaak eenvoudiger, goedkoper en onafhankelijker dan de gesubsidieerde “toekomst” die ons wordt voorgeschoteld. oim-uitweg investeer eerst in goede isolatie. overweeg alternatieven zoals pelletkachels, infraroodpanelen, of petroleumkachels als back-up. denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt. echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de warmtepomp échte duurzame vooruitgang, of vooral een dure, complexe en afhankelijke oplossing met een groen jasje? #schijnvooruitgang #warmtepomp #energietransitie #echteduurzaamheid #onafhankelijkheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+  schijnvooruitgang – dag 28: de warmtepomp als groene redding? ♨️ korte recap dag 1: introductie van de serie. dag 2: leasing – hoe “flexibel rijden” vooral meer afhankelijkheid en hogere kosten oplevert. narratief de warmtepomp is dé oplossing voor de toekomst. geen gas meer, superzuinig, goed voor het klimaat, royaal gesubsidieerd en je doet mee aan de energietransitie. wie niet meedoet is achterlijk of anti-duurzaam. realiteit – meerdere lagen laag 1 – kosten aanschaf €8.000 tot €18.000 (inclusief installatie). terugverdientijd vaak 12-20 jaar, áls hij überhaupt goed werkt. laag 2 – praktijk in nederlandse huizen veel huizen zijn matig tot slecht geïsoleerd. resultaat: extreem hoog stroomverbruik en torenhoge maandlasten, vooral in de winter. laag 3 – prestaties bij kou bij vorst daalt het rendement dramatisch. veel systemen schakelen dan over op elektrische weerstand of moeten bijverwarmd worden met... gas. laag 4 – afhankelijkheid je ruilt gas (waarvan we een redelijke voorraad hadden) in voor volledige afhankelijkheid van het elektriciteitsnet én de sterk fluctuerende stroomprijzen. laag 5 – wie verdient er echt aan? subsidies, installateurs, fabrikanten, netbeheerders en consultants. het geld stroomt vooral naar de bovenkant van de keten, niet naar échte co2-reductie. persoonlijke laag sinds de gasprijzen fors stegen, verwarm ik zelf al jaren met een petroleumkachel. simpel, direct warmte, lage aanschafkosten, en ik bepaal zelf wanneer en hoeveel ik stook. geen dure installateur, geen subsidie, geen complexe techniek die stuk kan gaan. het werkt. dit is precies waar het om draait: echte oplossingen zijn vaak eenvoudiger, goedkoper en onafhankelijker dan de gesubsidieerde “toekomst” die ons wordt voorgeschoteld. oim-uitweg investeer eerst in goede isolatie. overweeg alternatieven zoals pelletkachels, infraroodpanelen, of petroleumkachels als back-up. denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt. echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen. *** misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de warmtepomp échte duurzame vooruitgang, of vooral een dure, complexe en afhankelijke oplossing met een groen jasje? #schijnvooruitgang #warmtepomp #energietransitie #echteduurzaamheid #onafhankelijkheid #openinternetmanifest *** deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 
 ---
 
@@ -111,7 +112,7 @@ Overweeg alternatieven zoals pelletkachels, infraroodpanelen, of petroleumkachel
 Denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt.  
 Echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen.
 
----
+***
 
 Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
 
@@ -123,7 +124,7 @@ Is de warmtepomp échte duurzame vooruitgang, of vooral een dure, complexe en af
 
 #Schijnvooruitgang #Warmtepomp #Energietransitie #EchteDuurzaamheid #Onafhankelijkheid #OpenInternetManifest
 
----
+***
 
 Deze post is 100% authentiek en verifieerbaar via:  
 https://openinternetmanifest.org/nl/hash-verifier

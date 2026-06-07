@@ -1,10 +1,7 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 8e0e5b1890cb3d73e3d5a100914c872918c2e3edce4380862010d140e1a204bc
-social_share_sha256: ''
+
 ---
 Realiteit vs. Narratief – Immigratiebeleid en ICE.  
 (English version in the Comments) 

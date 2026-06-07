@@ -1,10 +1,7 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: e1507f8011a1c2dc8ccc2df9bea409a13f56d4b6ca1742b2bfd6215e0f798a0e
-social_share_sha256: ''
+
 ---
 Realiteit vs. Narratief – De boerenprotesten.   
 Het narratief zegt:  

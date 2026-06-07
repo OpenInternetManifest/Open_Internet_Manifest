@@ -1,16 +1,10 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: [fill in when publishing]
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 47
 rvn_title: “In violation of the rules” – When tolerance becomes censorship
 rvn_url: /en/social-posts/rvn-tolerance-censorship
 rvn_teaser: Amsterdam Durft te Vragen… but only if you say what they want to hear.
-fuzzy_sha256: "e87d5c60bf2d9333b9a3aa6ea29e6800b06f2da6b38112097a5d5266888f0420"
-full_sha256: "83bf73b5e5675f8e8d44ce30968b32013119a39e7bd6b3fadd202287ece38d72"
 raw_markdown: |
   **RVN: “In violation of the rules” – When tolerance becomes censorship** 🌀
   
@@ -77,6 +71,9 @@ raw_markdown: |
   Read for yourself. Check for yourself. Dare to ask for yourself.
   
   #RVN #Censorship #Tolerance #AmsterdamDurftTeV
+
+full_sha256: 7566142e27aa71d335dc753522c4ffb05e4da156ddeedc5a4fc68a3a88d2516d
+fuzzy_sha256: 9014e9feea98648cb4eb1b3090f2fa25647ca4be28a6d9f5a93cba4389f06500
 clean_text: |-
   rvn: “in violation of the rules” – when tolerance becomes censorship 🌀 it happened again today. i posted a reaction in the facebook group “amsterdam durft te vragen” about the housing crisis and the priority given to status holders. nothing extreme. just facts and a slightly cynical remark about passports. a few hours later: deleted. reason: “in violation of the rules”. narratief: the group is “tolerant” and “dares to ask questions”. moderators only protect against hate and discrimination. realiteit: “tolerance” in practice often means: you may say anything, as long as you stay within the approved narrative. when you ask why people who have been registered for 6+ years with low points are still waiting, while status holders get priority housing, that is apparently “in violation of the rules”. when you mention the percentage of starter homes going to status holders, that is “hate”. when you cynically note that your best chance at a house might be to throw away your passport and register in ter apel, that is “discrimination”. this is not tolerance. this is selective tolerance. this is the classic pattern we see everywhere: free speech as long as you support the official story. censorship as soon as you raise uncomfortable facts or criticism of current policy. the group is called “amsterdam durft te vragen” (amsterdam dares to ask). but apparently they only dare to ask questions that fit safely inside the frame. the deeper layer: this is not an incident in one facebook group. this is the modern version of “tolerance” in many western cities: you may criticise, as long as you don’t touch the sacred cows: migration, housing allocation, diversity as the highest good. whoever does so anyway gets labelled “hate”, “discrimination” or “in violation of the rules”. ironically, this very mechanism is one of the reasons why many people become frustrated and radicalised. the real question: how tolerant is a group called “dares to ask” that deletes reactions the moment the question becomes too uncomfortable? and how long will we keep pretending that censorship is “protection against hate”, when it is actually protection of an ideology that cannot handle criticism? at open internet manifest we choose a different path: check facts. expose patterns. engage in conversation – even when it stings. without censorship. without sacred cows. without “in violation of the rules” as an excuse to avoid difficult questions. what do you think? is deleting critical reactions “protecting the group”, or is it proof that the group doesn’t actually dare to ask? read for yourself. check for yourself. dare to ask for yourself. #rvn #censorship #tolerance #amsterdamdurfttev
 

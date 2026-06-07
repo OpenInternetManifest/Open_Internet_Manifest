@@ -1,16 +1,9 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: 48c8e8de1c6c69ed253c67f46a7ee16235e761f3bf252b20441498eea3c66d49
-social_fb_sha256: 32646dcde1af0d6707a0d7f39b4a69b5ed809f97f1bceedd201181ac030dce01
-social_share_sha256: ''
 day: 23
 rvn_title: 1913; the year the buttons were pushed
-# rvn_url: /en/social-posts/day-23-rvn
 rvn_teaser: April 1912, The Titanic sinks
-fuzzy_sha256: "f3285b3546c97c713db1ea2b2edc282db0bafb0ccf50ce9cb3f2be71b7bc44ee"
-full_sha256: "4011f1fd528a4d8befefe29462d302aeeebc950087273ee1c743628d1fd55822"
 raw_markdown: |
   **Reality vs Narrative: 1913 – the year the buttons were pushed? ♟️🛳️🕳️**
   Imagine: April 1912. The Titanic sinks.
@@ -63,6 +56,9 @@ raw_markdown: |
   I’m still learning every day.
   Are you?
   #RVN #FactsOverFrames #1913 #Titanic #FollowTheMoney
+
+full_sha256: 25dc17121384444e86852d4ba4760424644d390ab456bce145d2bcd1c697cca2
+fuzzy_sha256: f012e8359d0879fb589839011de5189dd615b74842ab8ff026c152d3c7dfeef0
 clean_text: |-
   reality vs narrative: 1913 – the year the buttons were pushed? ♟️🛳️🕳️ imagine: april 1912. the titanic sinks. three of the richest and most powerful men in america on board – and none of them survive. john jacob astor iv – richest passenger, hotel magnate, fiercely against a central bank. benjamin guggenheim – mining & smelting magnate, also opposed to the fed. isidor straus – macy’s founder, elite member, likewise skeptical of central bank plans. j.p. morgan – the banker who owned the titanic through his international mercantile marine – had booked a private suite. he canceled at the last minute and stayed in france. three weeks after the disaster, the federal reserve act starts gaining momentum. february 1913: 16th amendment (income tax) ratified. december 1913: the fed becomes law – a private system that calls itself “federal” but isn’t federal at all. coincidence? or a very convenient “accident” that cleared the biggest opponents of a central bank out of the way? the players who took the reins afterward oil — john d. rockefeller (standard oil) → built monopoly, antitrust breakup in 1911, but family stays dominant through successors (exxon, chevron) medicine — rockefeller foundation funds flexner report (1910) → medical schools standardized, alternative medicine (homeopathy, herbs) marginalized → petrochemicals become the base of the pharmaceutical industry banking — j.p. morgan + rockefeller interests in fed creation → david rockefeller later chairman chase manhattan, founder trilateral commission later media — control through advertising, ownership and influence (rockefeller foundation also funds journalism & communication studies) and today? the richest man in the world is elon musk. he’s in the news every day, on x, in memes. but where are the names of the old players? why do we almost never hear about the rockefeller and morgan branches anymore, while their structures (fed, oil, medicine, think tanks) are still everywhere? david rockefeller himself wrote in his memoirs (2002): “some even believe we are part of a secret cabal working against the best interests of the united states... if that’s the charge, i stand guilty, and i am proud of it.” that’s not a conspiracy theory – that’s a direct quote. the mindfuck layer 1912–1913 looks like a blueprint: opponents disappear (titanic) central bank + income tax get pushed through oil becomes “scarce fossil” narrative (while abiotic theories exist) medicine becomes petrochemical-driven media and education get influenced through foundations divide and conquer at its finest: bubbles fight over trump vs biden, vax vs virus, zionists vs muslims meanwhile the structure set in 1910–1913 remains untouched the real names stay out of the news facts over frames. check for yourself: titanic passenger list (astor, guggenheim, straus) federal reserve act 1913 16th amendment ratification david rockefeller memoirs p. 405 flexner report 1910 (rockefeller funding) what do you see? was the titanic a disaster... or a cleanup? is 1913 coincidence... or the moment the current world order was set? open discussion allowed. i’m still learning every day. are you? #rvn #factsoverframes #1913 #titanic #followthemoney
 

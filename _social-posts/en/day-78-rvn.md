@@ -6,9 +6,6 @@ rvn_title: "Illusory Progress #8: Feminism as Liberation?"
 rvn_teaser: "Women are finally liberated. But are they actually happier and freer?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "ff2c06e2730e9c5fc59c5027709ea93c154bd0eddbac22c57e01299c3496a750"
-full_sha256: "10ba422276b08ef7e76d9aec75d1b18ca98875d0bc31b96c2c44d719a31a7a3f"
-social_share_sha256: ""
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:48:49.029575"
@@ -63,7 +60,7 @@ raw_markdown: |
   Without economic necessity, social pressure, or government interference.  
   A healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold.
   
-  ---
+  ***
   
   You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
@@ -75,12 +72,15 @@ raw_markdown: |
   
   #IllusoryProgress #Feminism #Antidepressants #Divorce #FertilityRate #RealFreedom #OpenInternetManifest
   
-  ---
+  ***
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+full_sha256: 06469588359f84f5f0dd9a20a85200c954373477a27b74928c0d944abcf0f4bc
+fuzzy_sha256: f39e52395a5f35ae85da1be2d7eb8a09ab03007d14b98b68b401520919267236
 clean_text: |-
-  illusory progress – day 34: feminism as liberation? 👩 short recap of the series day 2: leasing day 3: heat pumps day 4: electric cars day 5: the 15-minute city day 6: everything as a subscription day 7: the cashless society the narrative modern feminism has liberated women. they are economically independent, no longer dependent on a man, and happier than ever before. criticism of this is sexist and outdated. the reality – multiple layers layer 1: economic dependence women have not become freer — they have mostly become dependent on the job market and the state instead of a man. two full-time incomes are now often required to afford an average household. layer 2: demographic impact to maintain a stable population, a fertility rate of 2.1 children per woman is needed. in the netherlands it has been hovering around 1.4 – 1.5 for decades (cbs). one of the lowest figures ever recorded. layer 3: mental health despite all the promises of liberation, women use significantly more psychotropic drugs than men: women use more than twice as many antidepressants as men (cbs, 2023-2024). the increase is especially visible among women aged 25-45. multiple long-term studies show that women in western countries have not become happier since the 1970s, despite massive gains in education, careers, and rights. layer 4: divorce and relationship breakdown over 70% of divorces are initiated by women (cbs). after divorce, women often fare worse financially and emotionally, as do the children (multiple studies on single-parent households). layer 5: the disappearing choice the choice to be a full-time mother and homemaker has practically disappeared due to: economic pressure (house prices, taxes, cost of living) social condemnation (“you’re not one of those submissive housewives, are you?”) a tax system that heavily favors dual earners layer 6: the ideological price modern feminism has systematically devalued motherhood and traditional male roles. result: many young men and women are struggling to form stable, long-term relationships. the oim way out real liberation means real choice for both women and men: full-time career full-time mother/father a conscious combination without economic necessity, social pressure, or government interference. a healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold. --- you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you has modern feminism actually made women happier and freer, or have we mainly created new forms of dependence, loneliness, and demographic decline? #illusoryprogress #feminism #antidepressants #divorce #fertilityrate #realfreedom #openinternetmanifest --- this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+  illusory progress – day 34: feminism as liberation? 👩 short recap of the series day 2: leasing day 3: heat pumps day 4: electric cars day 5: the 15-minute city day 6: everything as a subscription day 7: the cashless society the narrative modern feminism has liberated women. they are economically independent, no longer dependent on a man, and happier than ever before. criticism of this is sexist and outdated. the reality – multiple layers layer 1: economic dependence women have not become freer — they have mostly become dependent on the job market and the state instead of a man. two full-time incomes are now often required to afford an average household. layer 2: demographic impact to maintain a stable population, a fertility rate of 2.1 children per woman is needed. in the netherlands it has been hovering around 1.4 – 1.5 for decades (cbs). one of the lowest figures ever recorded. layer 3: mental health despite all the promises of liberation, women use significantly more psychotropic drugs than men: women use more than twice as many antidepressants as men (cbs, 2023-2024). the increase is especially visible among women aged 25-45. multiple long-term studies show that women in western countries have not become happier since the 1970s, despite massive gains in education, careers, and rights. layer 4: divorce and relationship breakdown over 70% of divorces are initiated by women (cbs). after divorce, women often fare worse financially and emotionally, as do the children (multiple studies on single-parent households). layer 5: the disappearing choice the choice to be a full-time mother and homemaker has practically disappeared due to: economic pressure (house prices, taxes, cost of living) social condemnation (“you’re not one of those submissive housewives, are you?”) a tax system that heavily favors dual earners layer 6: the ideological price modern feminism has systematically devalued motherhood and traditional male roles. result: many young men and women are struggling to form stable, long-term relationships. the oim way out real liberation means real choice for both women and men: full-time career full-time mother/father a conscious combination without economic necessity, social pressure, or government interference. a healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold. *** you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you has modern feminism actually made women happier and freer, or have we mainly created new forms of dependence, loneliness, and demographic decline? #illusoryprogress #feminism #antidepressants #divorce #fertilityrate #realfreedom #openinternetmanifest *** this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
 
 ---
 
@@ -136,7 +136,7 @@ Real liberation means **real choice** for both women and men:
 Without economic necessity, social pressure, or government interference.  
 A healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold.
 
----
+***
 
 You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
@@ -148,7 +148,7 @@ Has modern feminism actually made women happier and freer, or have we mainly cre
 
 #IllusoryProgress #Feminism #Antidepressants #Divorce #FertilityRate #RealFreedom #OpenInternetManifest
 
----
+***
 
 This post is 100% authentic and verifiable via:  
 https://openinternetmanifest.org/en/hash-verifier

@@ -1,10 +1,7 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: db292f138b03ee21260c99087f7c57c7925b04a57196d17df80ee64b3bed615b
-social_share_sha256: ''
+
 ---
 Diep triest wat er in Minneapolis gebeurd is met Renee Nicole Good – een moeder die onnodig haar leven verloor.
 

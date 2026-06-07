@@ -6,8 +6,6 @@ rvn_title: "January 6 was an armed insurrection"
 rvn_teaser: "De meest succesvolle framing-operatie van de 21e eeuw."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "7bc181379d4da4de190243860693d41a0e6b139733b6ee726ac94630b383b708"
-full_sha256: "ab49608149b83c14444ace1e4b195bf3f5d76ac9f2057547fd24157e4542297e"
 git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
 git_commit_date: "2026-05-31T07:49:10.466636"
@@ -56,6 +54,9 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+full_sha256: f35d216e63e22883d0bb21b098753637acd099c7e488d342d6eb22c127eff750
+fuzzy_sha256: 85c4f863394c8ee1df43c1e28dcb97542325a7510a224133bbab117b5705a72a
 clean_text: |-
   rvn: “january 6 was an armed insurrection” 🌀 narratief: 6 januari 2021 was een gewapende opstand van gevaarlijke extremisten die de democratie wilden omverwerpen. trump-supporters stormden het capitool, vijf mensen kwamen om, en het was de grootste bedreiging voor de democratie sinds de burgeroorlog. realiteit: drieënhalf jaar later, na vrijgegeven bodycam-beelden, getuigenissen en rapporten, weten we hoe absurd dit narratief is. meest verontrustend zijn de bodycam-opnames waarop politieagenten aan collega’s vertellen over infiltranten in de menigte — herkenbaar aan bandjes om de pols en specifieke kleding. agenten waarschuwen elkaar letterlijk: “die met het oranje bandje is van ons” en “laat die met het groene bandje door”. dit zijn geen complottheorieën meer. dit zijn primaire beelden die suggereren dat er provocateurs en undercover-elementen actief waren om de situatie te laten escaleren. verder: de meeste mensen liepen gewoon door open deuren naar binnen. de enige dode demonstrant was ashli babbitt, doodgeschoten door een capitol police agent. duizenden vreedzame demonstranten zijn jarenlang vervolgd, terwijl degenen die in 2020 steden lieten platbranden vaak vrijuit gingen. dit was geen “armed insurrection”. dit was een protest dat uit de hand liep — mogelijk zelfs aangemoedigd en uitgelokt. het echte schandaal is de two-tier justice: vreedzame trump-aanhangers zitten nog steeds vast, vaak zonder eerlijk proces, terwijl linkse relschoppers, antifa-leden en blm-activisten met fluwelen handschoenen werden aangepakt. oim-uitweg dit is precies waarom we verifieerbare informatie en parallelle structuren nodig hebben. zodra een narratief eenmaal is gevestigd (“insurrection”), wordt het bijna onmogelijk om het nog te ontmantelen via officiële kanalen. we moeten zelf documenteren, archiveren en feiten controleren. vraag aan jou geloof jij nog steeds dat 6 januari 2021 een “gewapende opstand” was? of zie je het patroon: protesten van de ene kant worden verheerlijkt, protesten van de andere kant worden uitgelokt én gecriminaliseerd? laten we stoppen met het slikken van narratieven. laten we kijken naar de bodycam-beelden. naar de feiten. naar de ongelijkheid. #january6 #twotierjustice #politicalprisoners #provocateurs #framing #feiten #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
 

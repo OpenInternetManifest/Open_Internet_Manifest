@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: fd613d343d81fa563a905efe982018cc169600158d6ef1d52162dec232c37fc1
-social_share_sha256: ''
 day: 2
 teaser_title: Internet is niet dood
-# teaser_url: /nl/social-posts/dag-2-teaser
 teaser_text: 'het is gevangen '
 raw_markdown: |
   🇳🇱 Dag 2 – Thesis 1: Internet is niet dood – het is gevangen  
@@ -19,8 +14,8 @@ raw_markdown: |
   
   Het manifest begint hier – en het groeit door jou. 🚀
   
-    ---
-  
+  ***  
+
   🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
   Thesis 1 hits hard:  
   "The Internet is not dead – it is captured."  
@@ -34,8 +29,9 @@ raw_markdown: |
   #openinternetmanifest #FreeInternet  #decentralization #cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
   ❤️
 
-fuzzy_sha256: "fe0cd027c9b9c46ef15ccbc11a63f07c063d9601b671bb2008784d81e759c3fd"
-full_sha256: "ee56deabc0854e289025ac542d12886daeb723695105743b75518b8253c159b4"
+
+full_sha256: 366558e345f5dcb94a4a1424479dba25125efc0f26fff377792dd28358522dfc
+fuzzy_sha256: dfd5732d0a3e4cc0757411b1314f4d5496a038af4375422c970607a267dacd38
 clean_text: |-
   🇳🇱 dag 2 – thesis 1: internet is niet dood – het is gevangen thesis 1 slaat de spijker op z'n kop: "internet is niet dood – het is gevangen." we zijn gasten in gesloten platforms, zonder controle over onze eigen data en communicatie.🤯 lees hem nu: https://openinternetmanifest.org/nl/theses/thesis-01 het manifest begint hier – en het groeit door jou. 🚀 --- 🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
 
@@ -50,7 +46,7 @@ Lees hem nu: https://openinternetmanifest.org/nl/theses/thesis-01
 
 Het manifest begint hier – en het groeit door jou. 🚀
 
----
+***
 
 🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
 Thesis 1 hits hard:  
