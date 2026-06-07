@@ -6,9 +6,9 @@ rvn_title: "Abiotische Olie – Is olie echt een eindig fossiel of een regenerer
 rvn_teaser: "Gisteren keken we naar het spel van zoete vs zware olie en raffinage. Vandaag een nog diepere laag."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:07.126245"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:37:46.427158"
 raw_markdown: |
   **RVN: Abiotische Olie – Is olie echt een eindig fossiel of een regenererend mineraal?** 🛢️
   

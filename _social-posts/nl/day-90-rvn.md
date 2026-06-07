@@ -6,9 +6,9 @@ rvn_title: "27 crewleden gearresteerd op Disney-schepen voor kinderporno"
 rvn_teaser: "De magische wereld van Disney heeft een hele duistere onderkant"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:10.944034"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:37:50.290897"
 raw_markdown: |
   **RVN: “27 crewleden gearresteerd op Disney-schepen voor kinderporno”** 🌀
   

@@ -6,9 +6,9 @@ rvn_title: "Assassination Attempt on President Trump – When Hatred and Hypocri
 rvn_teaser: "Today another shooting incident involving President Trump. While facts are still unclear, some are openly celebrating that 'it failed again'. What does this say about the depth of our tribal manipulation?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:48:46.533498"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:36:43.902873"
 raw_markdown: |
   **RVN: Assassination Attempt on President Trump – When Hatred and Hypocrisy Take Over Reality** 🌀
   

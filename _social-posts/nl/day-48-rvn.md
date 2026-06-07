@@ -6,9 +6,9 @@ rvn_title: "We zijn terug – De Manipulatie van Realiteit"
 rvn_teaser: " We waren even stil. Niet omdat we niets te zeggen hadden, maar omdat we aan het bouwen waren. Nu komen we terug met een scherpe serie."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:04.278454"
+git_commit_hash: "9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9c1ccdf4eacf3340a64ea9f014c4a4c320efa791"
+git_commit_date: "2026-06-07T12:37:43.527192"
 raw_markdown: |
   **RVN: We zijn terug – De Manipulatie van Realiteit** 🌀
   
