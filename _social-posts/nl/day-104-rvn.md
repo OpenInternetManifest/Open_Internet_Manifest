@@ -6,11 +6,11 @@ rvn_title: " “We hebben er geen last van” – De brute mesaanval in Belfast 
 rvn_teaser: "Een Sudanese asielzoeker probeert iemand op straat te onthoofden. Waar is de verontwaardiging gebleven?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "82543bf3baef78fe087d30df9589830f95177aeb2a1088ee6c180cec6f6fe100"
+full_sha256: "53edcb287a3405e19da093e5368864c8682752df512028ecdc52bb51d2cbd816"
+git_commit_hash: "9d22f55aae183ec443a5567341538b59f4430403"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9d22f55aae183ec443a5567341538b59f4430403"
+git_commit_date: "2026-06-09T16:47:32.985163"
 raw_markdown: |
   
   ### RVN: “We hebben er geen last van” – De brute mesaanval in Belfast en de stilte 🌀

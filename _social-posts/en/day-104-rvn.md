@@ -6,11 +6,11 @@ rvn_title: "“We Have No Problem With It” – The Brutal Knife Attack in Belf
 rvn_teaser: "A Sudanese asylum seeker tried to behead a man on the street. Where is the outrage?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "5fa8c5c1dab51704121bcf1f802dec4ab6d6f21bbcd6f000457be3c2f3639bfe"
+full_sha256: "316edbf35eabd9d71f0090e0acacf7bf0344f514760190d7875f2df08de9957b"
+git_commit_hash: "9d22f55aae183ec443a5567341538b59f4430403"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9d22f55aae183ec443a5567341538b59f4430403"
+git_commit_date: "2026-06-09T16:47:32.822210"
 raw_markdown: |
   
   ### RVN: “We Have No Problem With It” – The Brutal Knife Attack in Belfast and the Silence 🌀
