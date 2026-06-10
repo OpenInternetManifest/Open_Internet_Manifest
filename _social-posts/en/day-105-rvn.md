@@ -6,11 +6,11 @@ rvn_title: "We Have No Problem With It – The Flame in Belfast and the Irish So
 rvn_teaser: "A Sudanese asylum seeker tried to behead a man on the street. Now riots in Belfast. How long will the Irish people tolerate this?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "a540d7295c7f64dcffb9f26b15e241be6688cb524a8632117da072df64c0be43"
+full_sha256: "ba0d099990c19983e905b1900f93ff9e13df349d5561f1021aed4b1732ae8c46"
+git_commit_hash: "511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9"
+git_commit_date: "2026-06-10T04:43:09.120381"
 raw_markdown: |
   
   ### RVN: “We Have No Problem With It” – The Flame in Belfast and the Irish Soul🔥

@@ -6,11 +6,11 @@ rvn_title: "We hebben er geen last van – De vlam in Belfast en de Ierse ziel"
 rvn_teaser: "Een Sudanese asielzoeker probeert iemand te onthoofden. Nu rellen in Belfast. Hoe lang houdt het Ierse volk dit vol?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "b5ab9decb075d66bc07464aac51e6ae19e671ecf3b4a378bb0abb6c5f749a597"
+full_sha256: "8d615b7c3a18f3aea85e48af9268bf5db931eea29a9d095e0d373b2b5fff6491"
+git_commit_hash: "511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9"
+git_commit_date: "2026-06-10T04:43:09.279580"
 raw_markdown: |
   
   ### RVN: “We hebben er geen last van” – De vlam in Belfast en de Ierse ziel 🔥
