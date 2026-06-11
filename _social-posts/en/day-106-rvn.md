@@ -6,11 +6,11 @@ rvn_title: "Who Actually Abolished Slavery First?"
 rvn_teaser: ""White Europeans are often portrayed as the biggest slave owners in history. But what does history really say?""
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "201f1869d9f6f2988c047df8b0d3240d05da97e3458481bbdf901230a1fb2c91"
+full_sha256: "a52f1b827510a04d5255128395ec2b79aafdc6ef6724ffde1c5cbe0b7fc17941"
+git_commit_hash: "384d8680443219d41c1f7920fb917eb1e5dac78c"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/384d8680443219d41c1f7920fb917eb1e5dac78c"
+git_commit_date: "2026-06-11T03:14:04.735883"
 raw_markdown: |
   
   ### RVN: Who Actually Abolished Slavery First? ⛓️

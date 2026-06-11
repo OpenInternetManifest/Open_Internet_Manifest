@@ -6,11 +6,11 @@ rvn_title: "Wie schafte slavernij eigenlijk als eerste formeel af?"
 rvn_teaser: "De blanke Europeaan wordt vaak neergezet als de grootste slavenhouder. Maar wat zegt de geschiedenis écht?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "cf0a39f916f9e30611f356877d3a69cfa9d0d1354e6bf6527384acb34c67193c"
+full_sha256: "b82b0a30b166c8742979bd3869e487caf54ed99b3451d4874eaff344bd96d3da"
+git_commit_hash: "384d8680443219d41c1f7920fb917eb1e5dac78c"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/384d8680443219d41c1f7920fb917eb1e5dac78c"
+git_commit_date: "2026-06-11T03:14:04.896912"
 raw_markdown: |
   
   ### RVN: Wie schafte slavernij eigenlijk als eerste formeel af? ⛓️
