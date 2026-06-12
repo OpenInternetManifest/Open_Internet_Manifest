@@ -6,11 +6,11 @@ rvn_title: "6,8 miljard wegenbelasting… en geen geld voor wegen?"
 rvn_teaser: "Elk jaar betalen we miljarden aan wegenbelasting. Waarom vallen de wegen dan toch uit elkaar?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "f16b0bc25d581b4f6d14678479c000bfea0dcc8498be29e3472102ad5b89a609"
+full_sha256: "6fcfa5fb288587fca45d997601adccf29d03d9626a56b577742e235c7bd78839"
+git_commit_hash: "7a2097f18b1aa13d5d35097fa6f69542f4b0b175"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7a2097f18b1aa13d5d35097fa6f69542f4b0b175"
+git_commit_date: "2026-06-12T06:34:34.231118"
 raw_markdown: |
   
   ### RVN: 6,8 miljard wegenbelasting… en geen geld voor wegen? 🛣️

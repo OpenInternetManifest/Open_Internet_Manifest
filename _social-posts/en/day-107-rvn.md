@@ -6,11 +6,11 @@ rvn_title: "€6.8 billion in road tax… and no money for roads?"
 rvn_teaser: ""Every year we pay billions in road tax. So why are our roads falling apart?""
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "13db36b8b18d66fca913373d147c4eede975052c33f303ba1f3e6c269678e56c"
+full_sha256: "a8b8c338c6cd027dd93f6f9c3ccd26093ca3f810a3a44d1204806b2743c04441"
+git_commit_hash: "7a2097f18b1aa13d5d35097fa6f69542f4b0b175"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7a2097f18b1aa13d5d35097fa6f69542f4b0b175"
+git_commit_date: "2026-06-12T06:34:34.063863"
 raw_markdown: |
   
   ### RVN: €6.8 billion in road tax… and no money for roads? 🛣️
