@@ -3,7 +3,7 @@ layout: social-posts
 lang: en
 day: 107
 rvn_title: "€6.8 billion in road tax… and no money for roads?"
-rvn_teaser: ""Every year we pay billions in road tax. So why are our roads falling apart?""
+rvn_teaser: "Every year we pay billions in road tax. So why are our roads falling apart?"
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "13db36b8b18d66fca913373d147c4eede975052c33f303ba1f3e6c269678e56c"
