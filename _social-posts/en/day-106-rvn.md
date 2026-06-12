@@ -3,7 +3,7 @@ layout: social-posts
 lang: en
 day: 106
 rvn_title: "Who Actually Abolished Slavery First?"
-rvn_teaser: ""White Europeans are often portrayed as the biggest slave owners in history. But what does history really say?""
+rvn_teaser: "White Europeans are often portrayed as the biggest slave owners in history. But what does history really say?"
 donation_link: ""
 donation_text: ""
 fuzzy_sha256: "201f1869d9f6f2988c047df8b0d3240d05da97e3458481bbdf901230a1fb2c91"
