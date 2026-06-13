@@ -6,11 +6,11 @@ rvn_title: "Feiten zijn niet racistisch"
 rvn_teaser: "Wanneer statistieken ineens 'racistisch' worden genoemd, weet je dat het narratief de werkelijkheid heeft ingehaald."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "dba1958120188a42cf404646278651c76c319cad9cfd755ef343616d1bd7b8a9"
+full_sha256: "3df4328b01e32c1a96582ba9ec96687603af08c1680171ad22021fbafad3935e"
+git_commit_hash: "96e2195fb3ee3b06ed57a449e8e06aa265926046"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/96e2195fb3ee3b06ed57a449e8e06aa265926046"
+git_commit_date: "2026-06-13T06:02:54.865692"
 raw_markdown: |
   
   ### RVN: Feiten zijn niet racistisch 📊

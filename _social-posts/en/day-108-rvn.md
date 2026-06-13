@@ -6,11 +6,11 @@ rvn_title: "Facts are not racist"
 rvn_teaser: "When statistics suddenly get called 'racist', you know the narrative has overtaken reality"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "5a53f0a5f8d78e514aa72517119670fa54f10f03474965db3a5bcdfb624cee95"
+full_sha256: "c34bb1dee771fb352e7af332c3c2ea8971682ef77ad8c0b76196690cecbc1fc4"
+git_commit_hash: "96e2195fb3ee3b06ed57a449e8e06aa265926046"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/96e2195fb3ee3b06ed57a449e8e06aa265926046"
+git_commit_date: "2026-06-13T06:02:54.701938"
 raw_markdown: |
   
   ### RVN: Facts are not racist 📊
