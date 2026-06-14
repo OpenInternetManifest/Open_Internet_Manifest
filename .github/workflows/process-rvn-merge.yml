@@ -67,3 +67,21 @@ jobs:
           publish_dir: ./_site
           force_orphan: true
           publish_branch: gh-pages
+
+      - name: Rebuild official-clean-texts.js
+        run: |
+          python3 tools/update-clean-texts.py
+          echo "official-clean-texts.js rebuilt with $(grep -c officialFuzzyHashes static/js/official-clean-texts.js) entries"
+
+      - name: Commit updated clean texts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          if git diff --quiet static/js/official-clean-texts.js; then
+            echo "No changes in official-clean-texts.js"
+          else
+            git add static/js/official-clean-texts.js
+            git commit -m "Update official-clean-texts.js after RVN merge"
+            git push
+          fi
