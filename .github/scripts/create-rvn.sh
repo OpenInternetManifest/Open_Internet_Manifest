@@ -1,5 +1,5 @@
 #!/bin/bash
-# create-rvn.sh - Maakt NL + EN RVN met raw_markdown, clean_text + hashes
+# create-rvn.sh - Maakt NL + EN RVN met raw_markdown, clean_text + correcte hashes
 
 DAY="$1"
 BODY_FILE="$3"
@@ -17,36 +17,32 @@ TEASER_EN=$(awk '/### Teaser \(English\)/ {found=1; next} found && /^### / {exit
 
 BODY_EN=$(awk '/### Full RVN text \(English – Markdown\)/ {found=1; next} found && /### Donatie link/ {exit} found {print}' "$BODY_FILE" | sed 's/^\+ //g' | sed '/^```markdown$/d' | sed '/^```$/d' | sed '/^_No response_$/d')
 
-# Placeholders Engels
+# Placeholders
 [[ -z "$TITLE_EN" ]] && TITLE_EN="This post has not been translated into English yet."
 [[ -z "$TEASER_EN" ]] && TEASER_EN="Translation coming soon."
 [[ -z "$BODY_EN" ]] && BODY_EN="This post has not been translated into English yet.\n\nTranslation coming soon."
 
-# === Clean_text genereren ===
-CLEAN_NL=$(echo "$BODY_NL" | python3 tools/fuzzy_clean.py)
-CLEAN_EN=$(echo "$BODY_EN" | python3 tools/fuzzy_clean.py)
+# === Clean_text via centraal script ===
+CLEAN_NL=$(echo "$BODY_NL" | python3 tools/fuzzy_clean.py | tr -d '\n\r' | sed 's/  */ /g')
+CLEAN_EN=$(echo "$BODY_EN" | python3 tools/fuzzy_clean.py | tr -d '\n\r' | sed 's/  */ /g')
 
-# === Hashes berekenen ===
-FULL_SHA_NL=$(echo "$BODY_NL" | python3 -c '
-import sys
-import hashlib
-print(hashlib.sha256(sys.stdin.read().encode("utf-8")).hexdigest())
+# === Hashes berekenen (exacte methode) ===
+FULL_SHA_NL=$(echo -n "$BODY_NL" | python3 -c '
+import sys, hashlib
+print(hashlib.sha256(sys.stdin.buffer.read()).hexdigest())
 ')
-FUZZY_SHA_NL=$(echo "$CLEAN_NL" | python3 -c '
-import sys
-import hashlib
-print(hashlib.sha256(sys.stdin.read().encode("utf-8")).hexdigest())
+FUZZY_SHA_NL=$(echo -n "$CLEAN_NL" | python3 -c '
+import sys, hashlib
+print(hashlib.sha256(sys.stdin.buffer.read()).hexdigest())
 ')
 
-FULL_SHA_EN=$(echo "$BODY_EN" | python3 -c '
-import sys
-import hashlib
-print(hashlib.sha256(sys.stdin.read().encode("utf-8")).hexdigest())
+FULL_SHA_EN=$(echo -n "$BODY_EN" | python3 -c '
+import sys, hashlib
+print(hashlib.sha256(sys.stdin.buffer.read()).hexdigest())
 ')
-FUZZY_SHA_EN=$(echo "$CLEAN_EN" | python3 -c '
-import sys
-import hashlib
-print(hashlib.sha256(sys.stdin.read().encode("utf-8")).hexdigest())
+FUZZY_SHA_EN=$(echo -n "$CLEAN_EN" | python3 -c '
+import sys, hashlib
+print(hashlib.sha256(sys.stdin.buffer.read()).hexdigest())
 ')
 
 # === NL bestand aanmaken ===
@@ -103,6 +99,6 @@ git_commit_date: ""
 ${BODY_EN}
 EOF
 
-echo "✅ Created RVN Day ${DAY} with raw_markdown + clean_text + hashes"
-echo "   NL  → full: ${FULL_SHA_NL:0:12}... | fuzzy: ${FUZZY_SHA_NL:0:12}..."
-echo "   EN  → full: ${FULL_SHA_EN:0:12}... | fuzzy: ${FUZZY_SHA_EN:0:12}..."
+echo "✅ Created RVN Day ${DAY} with correct hashes"
+echo "   NL fuzzy: ${FUZZY_SHA_NL:0:16}..."
+echo "   EN fuzzy: ${FUZZY_SHA_EN:0:16}..."
