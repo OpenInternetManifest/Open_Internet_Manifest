@@ -28,10 +28,13 @@ raw_markdown: |
   https://openinternetmanifest.org
   #OpenInternetManifest #OIM #RealityVsNarrative #FreeInternet #PromisedLand #Sabbath
 
-full_sha256: b4f571499e714f475e4adbfb94d57fae66398319c738fae2b17f11154c6dd93b
-fuzzy_sha256: 2bcc79be923c6cd4a60b5afacd78b40b2c8de4deb5be0a2d523445ad98dd4aeb
+
+
+
 clean_text: |-
-  day 7 – week recap & the promise of freedom 🇬🇧✨ this week in teasers: 🔹 a jewish woman in amsterdam hesitates before saying who she is 😔 🔹 an iranian woman can't reach her family because the internet is blacked out 🌑 🔹 creators banned for showing what others hide 🚫 🔹 blackouts silencing voices, but starlink offering a lifeline 🛰️ the narrative wants control. reality wants freedom 🕊️ in the bible, israel is called the promised land, and the jewish people the chosen people. not as superiority, but as responsibility: a light for the nations, an example of freedom and covenant with god 🌟 but every promise can be abused. what if identity is used for power? ⚠️ what if polarization is stoked to pit peoples against each other? 🔥 the open internet manifest advocates for an internet where identity is verifiable, where freedom is not selective, and where boundaries are voluntary and distributed – not centrally imposed 🚀 no gatekeepers deciding who may speak 🚫 no black boxes watching 👀 no manipulation of narratives 🧠 this is not a dream from december 2025. this is a call for now. 🙏 read along, think along, build along: https://openinternetmanifest.org #openinternetmanifest #oim #realityvsnarrative #freeinternet #promisedland #sabbath
+  day 7 – week recap & the promise of freedom 🇬🇧✨ this week in teasers: 🔹 a jewish woman in amsterdam hesitates before saying who she is 😔 🔹 an iranian woman can't reach her family because the internet is blacked out 🌑 🔹 creators banned for showing what others hide 🚫 🔹 blackouts silencing voices, but starlink offering a lifeline 🛰️ the narrative wants control. reality wants freedom 🕊️ in the bible, israel is called the promised land, and the jewish people the chosen people. not as superiority, but as responsibility: a light for the nations, an example of freedom and covenant with god 🌟 but every promise can be abused. what if identity is used for power? ⚠️ what if polarization is stoked to pit peoples against each other? 🔥 the open internet manifest advocates for an internet where identity is verifiable, where freedom is not selective, and where boundaries are voluntary and distributed – not centrally imposed 🚀 no gatekeepers deciding who may speak 🚫 no black boxes watching 👀 no manipulation of narratives 🧠 this is not a dream from december 2025. this is a call for now. 🙏 read along, think along, build along: https://openinternetmanifest.org openinternetmanifest oim realityvsnarrative freeinternet promisedland sabbath
+fuzzy_sha256: 405471dd7113c091e669e6eed2a9252926f0ebbf7719be60feaeb0d468dd958d
+full_sha256: 7c14fc07b7d395ddff4b1db5c0c04ec50f8976410ac642f191ee02e7680a6e57
 
 ---
 

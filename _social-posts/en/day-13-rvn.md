@@ -14,10 +14,13 @@ raw_markdown: |
   Join: https://openinternetmanifest.org
   #RealityVsNarrative #OIM #Fluoride #MakeAmericaHealthyAgain #NoNarrativeMonopoly
 
-full_sha256: 66990422b2e956a4c8b6e04af4917d2bba81ff8dbd828fda9583e08b5ca3e913
-fuzzy_sha256: f5a68579bd87994ec69ae9f9cde60386771a50a2bc23eae61a3f6a980a3778a1
+
+
+
 clean_text: |-
-  reality vs narrative – fluoride: the narrative finally cracking 🦷☢️ for decades: "fluoride in water is safe and good for teeth". standard in us public systems, pushed by cdc, ada, who. criticism? "conspiracy theorists", "anti-science". yesterday (jan 20, 2026): rfk jr. announces trump white house will advise all us water systems to remove fluoride. reason: industrial waste linked to arthritis, bone fractures, bone cancer, iq loss, neurodevelopmental disorders, thyroid disease. reality: not conspiracy anymore – studies pile up (harvard, nih, lancet), but narrative held because it was cheap and protected industry. trump/rfk now break it head-on: "make america healthy again". in nl: fluoride in toothpaste and some water supplies. same pattern: "safe" until undeniable. open internet manifest wants no centralized health narratives dictating what goes in our bodies. a web without monopoly on "science", without hidden interests shaping lives. join: https://openinternetmanifest.org #realityvsnarrative #oim #fluoride #makeamericahealthyagain #nonarrativemonopoly
+  reality vs narrative – fluoride: the narrative finally cracking 🦷☢️ for decades: "fluoride in water is safe and good for teeth". standard in us public systems, pushed by cdc, ada, who. criticism? "conspiracy theorists", "anti-science". yesterday (jan 20, 2026): rfk jr. announces trump white house will advise all us water systems to remove fluoride. reason: industrial waste linked to arthritis, bone fractures, bone cancer, iq loss, neurodevelopmental disorders, thyroid disease. reality: not conspiracy anymore – studies pile up (harvard, nih, lancet), but narrative held because it was cheap and protected industry. trump/rfk now break it head-on: "make america healthy again". in nl: fluoride in toothpaste and some water supplies. same pattern: "safe" until undeniable. open internet manifest wants no centralized health narratives dictating what goes in our bodies. a web without monopoly on "science", without hidden interests shaping lives. join: https://openinternetmanifest.org realityvsnarrative oim fluoride makeamericahealthyagain nonarrativemonopoly
+fuzzy_sha256: c93d64793c4e126b80e0d340af926d7ad03f4544e05586b3b8c4836f90b892ce
+full_sha256: 03af144df9c9f533526ff7fd9f4142f0bc54f102f6337b31ec6c6beb89b4366a
 
 ---
 

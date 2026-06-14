@@ -6,8 +6,6 @@ rvn_title: "“We Have No Problem With It” – The Brutal Knife Attack in Belf
 rvn_teaser: "A Sudanese asylum seeker tried to behead a man on the street. Where is the outrage?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "5fa8c5c1dab51704121bcf1f802dec4ab6d6f21bbcd6f000457be3c2f3639bfe"
-full_sha256: "316edbf35eabd9d71f0090e0acacf7bf0344f514760190d7875f2df08de9957b"
 git_commit_hash: "9d22f55aae183ec443a5567341538b59f4430403"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9d22f55aae183ec443a5567341538b59f4430403"
 git_commit_date: "2026-06-09T16:47:32.822210"
@@ -60,6 +58,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+
+
+clean_text: |-
+  rvn: “we have no problem with it” – the brutal knife attack in belfast and the silence 🌀 narrative: “immigration and asylum seekers are not a problem. these are just isolated incidents. anyone who says otherwise is racist.” reality: this week in belfast, a man was pinned down on the street and stabbed multiple times in the head and neck in what was clearly an attempt to behead him. the suspect is a sudanese asylum seeker. this is not an isolated incident. it fits a pattern of serious violent crimes — particularly stabbings and sexual violence — involving asylum seekers and non-western migrants that has been visible for years in ireland, sweden, germany, france, and the netherlands. the silence is deafening. where are the media that usually draw a “red line” immediately when violence occurs? where are the demonstrators who take to the streets for other incidents? where are the politicians who are usually so quick to talk about “hate” and “far-right”? this is the classic pattern of selective outrage: victim fits the narrative → maximum attention and indignation. victim does not fit the narrative (or the perpetrator does not) → silence or downplaying. this is not a coincidence. it is a mechanism to make any discussion about mass immigration, integration failures, and cultural incompatibility impossible. whoever states the facts is immediately put in a box. oim way out we refuse to participate in this selective reality. the safety of women and children is universal — not only when it fits a politically correct story. stating facts is not hate. staying silent about certain perpetrators is not compassion. question to you how often do you see this pattern of selective outrage? and how long will we still accept that some victims count and others do not? time for real honesty. facts above frames. selectiveoutrage immigration safety rvn openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 44c642d6e2813b59050bd6f41709210f9251a9cdefc517463fb34bd2e7552cd9
+full_sha256: 316edbf35eabd9d71f0090e0acacf7bf0344f514760190d7875f2df08de9957b
+
 ---
 
 

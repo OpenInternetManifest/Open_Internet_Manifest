@@ -6,8 +6,6 @@ rvn_title: " “We hebben er geen last van” – De brute mesaanval in Belfast 
 rvn_teaser: "Een Sudanese asielzoeker probeert iemand op straat te onthoofden. Waar is de verontwaardiging gebleven?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "82543bf3baef78fe087d30df9589830f95177aeb2a1088ee6c180cec6f6fe100"
-full_sha256: "53edcb287a3405e19da093e5368864c8682752df512028ecdc52bb51d2cbd816"
 git_commit_hash: "9d22f55aae183ec443a5567341538b59f4430403"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9d22f55aae183ec443a5567341538b59f4430403"
 git_commit_date: "2026-06-09T16:47:32.985163"
@@ -61,6 +59,14 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+
+
+clean_text: |-
+  rvn: “we hebben er geen last van” – de brute mesaanval in belfast en de stilte 🌀 narratief: “immigratie en asiel hebben we geen last van. het zijn allemaal incidenten. wie hier iets van zegt is racist.” realiteit: deze week werd in belfast een man op straat vastgepind en meerdere keren in hoofd en nek gestoken in wat duidelijk een poging tot onthoofding was. de verdachte is een sudanese asielzoeker. dit is geen geïsoleerd voorval. het past in een patroon van ernstige geweldsincidenten waarbij asielzoekers betrokken zijn, met name seksueel geweld en steekpartijen, dat al jaren zichtbaar is in ierland, zweden, duitsland, frankrijk en nederland. de stilte is oorverdovend. waar zijn de media die normaal direct een “rode lijn” trekken bij geweld? waar zijn de demonstranten die bij andere incidenten massaal de straat op gaan? waar zijn de politici die anders zo snel spreken over “haat” en “extreem-rechts”? dit is het klassieke patroon van selectieve verontwaardiging: slachtoffer past in het narratief → maximale aandacht. slachtoffer past niet in het narratief (of dader past niet) → stilte of bagatelliseren. dit is geen toeval. het is een mechanisme om discussie over massa-immigratie, integratie en culturele onverenigbaarheid onmogelijk te maken. wie de feiten benoemt, wordt direct in een hokje gezet. oim-uitweg we weigeren mee te spelen in dit selectieve verdriet. veiligheid van vrouwen en kinderen is universeel. niet alleen als het past in een politiek correct verhaal. feiten benoemen is geen haat. stilte houden over bepaalde daders is geen compassie. vraag aan jou hoe vaak zie je dit patroon van selectieve verontwaardiging? en hoe lang accepteren we nog dat sommige slachtoffers wel tellen en andere niet? tijd voor echte openheid. feiten boven frames. selectieveverontwaardiging immigratie veiligheid rvn openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+fuzzy_sha256: 158a0e9ecba040ded8f93d72e4229e12d92d294c3e04f53d981bc9553c58e1ef
+full_sha256: 53edcb287a3405e19da093e5368864c8682752df512028ecdc52bb51d2cbd816
+
 ---
 
 

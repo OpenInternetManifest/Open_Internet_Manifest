@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 20f871fe69c5de68ed8a05b3586efb28739cbde8866f0a355d051affa13cb3f7
-social_share_sha256: ''
 day: 24
 teaser_title: Tonight; just breathe
-# teaser_url: /en/social-posts/day-24-teaser
 teaser_text: Tomorrow we look at a modern example
 raw_markdown: |
   🇬🇧 **Day 24 Teaser – Tonight: just breathe** 😏🍿  
@@ -28,10 +23,11 @@ raw_markdown: |
   #RealityVsNarrative #Day23Teaser 
   @realDonaldTrump
 
+
+full_sha256: b51987f5266e5ea41c8518e4224d91a77480f084918ca1e44fcd6984ad5afdd7
+fuzzy_sha256: faf84553ccff1886a2206b8e5c0e83034a1e3b52fb77bfa03c0eafcc9e0799b8
 clean_text: |-
   🇬🇧 day 24 teaser – tonight: just breathe 😏🍿 earlier: 1913. titanic clears opponents, fed and income tax pushed through, rockefellers build on. today: knights templar – first international banking system, power above church and kings, dissolved but structure survived. coincidence? or a pattern running for centuries? tonight: just breathe. tomorrow: back at it. tomorrow we look at a modern example of the same game. obama and the iran deal: $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day23teaser @realdonaldtrump
-full_sha256: b51987f5266e5ea41c8518e4224d91a77480f084918ca1e44fcd6984ad5afdd7
-fuzzy_sha256: d77cd58b4430d1477cc3dc5b3f2bdaf09d9930f0b4d79d0ef6b608e48711b935
 
 ---
 

@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 2
 teaser_title: The Internet is not dead
-# teaser_url: /en/social-posts/day-2-teaser
 teaser_text: it is captured
 raw_markdown: |
   🇬🇧 Day 2 – Thesis 1: The Internet is not dead – it is captured  
@@ -23,10 +18,11 @@ raw_markdown: |
   #openinternetmanifest #FreeInternet  #decentralization #cruciaal2026 #privacy #DigitalID #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton The Tor Project Lighthousetv.nl blckbx.tv 
   ❤️
 
+
+full_sha256: ddb08c30c5a21a772af94ba49881aa59541f1bdda514d8d8ef87cefcb1206847
+fuzzy_sha256: a44d6d55404c97a721eb2f5ea309b56cede9ddaa7eccd41edef1c6dc477e3be6
 clean_text: |-
   🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
-full_sha256: ddb08c30c5a21a772af94ba49881aa59541f1bdda514d8d8ef87cefcb1206847
-fuzzy_sha256: 76e32bdb2c46d0e86b1c36e78d91e195a736d7eabd850c0b9988a68176d8cdac
 
 ---
 

@@ -1,183 +1,187 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 63
-rvn_title: "Hoe OIM ontstond – Van theses naar een levend, verifieerbaar manifest"
-rvn_teaser: "Veel mensen vragen: wat is OIM eigenlijk en waarom doen we dit? Vandaag het volledige verhaal – inclusief de technische ziel en de toekomstvisie."
+rvn_title: "How OIM Was Born – From Theses to a Living, Verifiable Manifesto"
+rvn_teaser: "Many people ask: what is OIM actually and why are we doing this? Today the full story – including the technical soul and future vision."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:06.655482"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:11.812626"
 raw_markdown: |
-  **RVN: Hoe OIM ontstond – Van theses naar een levend, verifieerbaar manifest** 🌀
+  **RVN: How OIM Was Born – From Theses to a Living, Verifiable Manifesto** 🌀
   
-  **Narratief:**  
-  “Het is weer zo’n complot-website met mooie woorden en een logo.”
+  **Narrative:**  
+  “It’s just another conspiracy website with nice words and a logo.”
   
-  **Realiteit:**  
-  OIM is geen kant-en-klaar project. Het is organisch gegroeid uit frustratie, zoektocht, vallen en opstaan — en vooral: **doen in plaats van alleen praten** 🔨
+  **Reality:**  
+  OIM is not a ready-made project. It grew organically from frustration, searching, falling and getting up — and above all: **doing instead of just talking** 🔨
   
-  ### Hoe het begon
+  ### How it started
   
-  **Eind 2025** begon ik met het schrijven van de eerste **30 theses**. Heldere, beknopte uitspraken over macht, perceptie, systemen en persoonlijke soevereiniteit.  
-  Daaruit groeide een begrippenlijst, praktische guides en begin januari 2026 de eerste **Realiteit vs Narratief (RVN)** posts.
+  **End of 2025** I started writing the first **30 theses**. Clear, concise statements about power, perception, systems and personal sovereignty.  
+  From there grew a glossary, practical guides and in early January 2026 the first **Reality vs Narrative (RVN)** posts.
   
-  Van daaruit ontstond de technische laag: Liquid templates, een **add-pagina** voor bijdragen, en fuzzy hash-verificatie.
+  Then came the technical layer: Liquid templates, an **add-page** for contributions, and fuzzy hash verification.
   
-  > Dit was geen “even een scriptje schrijven”.  
-  **Dit was een heel systeem neerzetten met GitHub als backbone, Jekyll als frontend, en integriteit als religie.** 🔐
+  >This was not 'just writing a little script'.  
+  **This was building an entire system with GitHub as backbone, Jekyll as frontend, and integrity as religion.** 🔐
   
-  **De technische ziel: hashes als digitaal zegelwas**
+  **The technical soul: hashes as digital sealing wax**
   
-  We leerden snel: zonder controle kun je nooit écht vertrouwen.  
+  We quickly learned: without control you can never really trust.  
   
-  Daarom bouwden we **fuzzy hash-verificatie** in.  
+  That’s why we built in **fuzzy hash verification**.  
   
-  Een **hash** is een unieke digitale vingerafdruk. Verander je één letter, dan verandert de hele hash.
+  A **hash** is a unique digital fingerprint. Change one letter and the entire hash changes.
   
-  > “Een hash is een digitaal zegelwas. Breek je het, dan ziet iedereen het.”
+  > “A hash is digital sealing wax. Break it and everyone sees it.”
   
-  **Dit weekend live: de repost buttons** 🚀
+  **Live this weekend: the repost buttons** 🚀
   
-  Sinds dit weekend kun je met één klik:
-  - Een korte teaser kopiëren
-  - Een kant-en-klare korte post voor X maken
-  - De volledige markdown-file kopiëren
-  - Direct naar Facebook posten (met automatische Markdown → Unicode conversie voor mooie opmaak)
+  Since this weekend you can with one click:
+  - Copy a short teaser
+  - Create a ready-made short post for X
+  - Copy the full markdown file
+  - Post directly to Facebook (with automatic Markdown → Unicode conversion for nice formatting)
   
-  En het mooiste: ook die Unicode-versie blijft 100% controleerbaar via fuzzy hash.
+  And the best part: even that Unicode version remains 100% verifiable via fuzzy hash.
   
-  **Vandaag een stap verder**  
-  We bouwen nu een **probability checker**: een tool die een willekeurige tekst analyseert en aangeeft hoe groot de kans is dat (delen van) die tekst van OIM afkomstig is.
+  **Today one step further**  
+  We are now building a **probability checker**: a tool that analyses any text and shows how likely it is that (parts of) that text comes from OIM.
   
-  **Waar gaan we heen?**
+  **Where are we going?**
   
-  Internet en AI zijn krachtige hamers.  
-  Ze kunnen dienen als gereedschap voor vrijheid, creatie en soevereiniteit — **maar alleen als wij aan de knoppen zitten**.  
+  The internet and AI are powerful hammers.  
+  They can be tools for freedom, creation and sovereignty — **but only if we are the ones at the controls**.  
   
-  Alleen een **volledig open source internet** kan garanderen dat deze hamer voor het grote goed wordt ingezet.
+  Only a **fully open source internet** can guarantee that this hammer is used for the greater good.
   
-  **De kern**  
-  OIM is geen organisatie.  
-  Het is een **beweging van doen én verifiëren**.  
-  Altijd met dezelfde rode draad:  
+  **The core**  
+  OIM is not an organisation.  
+  It is a **movement of doing and verifying**.  
+  Always with the same red thread:  
   
-  **Herken de mechanismen → Weiger willoos mee te spelen → Bouw parallel én verifieerbaar.**
+  **Recognize the mechanisms → Refuse to play along mindlessly → Build parallel and verifiable.**
   
-  **Vandaag is het Koningsdag** 👑  
-  We bouwen vanochtend nog even door, maar we hebben ook wat te vieren.  
+  **Today is King’s Day** 👑  
+  We’re still building this morning, but we also have something to celebrate.  
   
-  Niet de verjaardag van de koning, maar de **technische basis die nu staat**. Een fundament dat uitnodigt om verder uit te breiden, samen te groeien en het gesprek écht open te houden.
+  Not the king’s birthday, but the **technical foundation that now stands**. A base that invites further expansion, collective growth and truly open conversation.
   
-  **OIM-uitweg (en uitnodiging)**  
-  Je hoeft de techniek niet te begrijpen om mee te doen.  
-  Maar je kunt wél zelf controleren of iets klopt.  
+  **OIM way out (and invitation)**  
+  You don’t need to understand the technology to participate.  
+  But you *can* check for yourself whether something is correct.  
   
-  Lees, schrijf zelf een thesis of RVN, of bouw in je eigen omgeving iets onafhankelijks.
+  Read, write your own thesis or RVN, or build something independent in your own environment.
   
-  De site groeit omdat we hem samen laten groeien — transparant en controleerbaar.
+  The site grows because we grow it together — transparently and controllably.
   
-  **Vraag aan jou**  
-  Wat was jouw eerste aanraking met OIM?  
-  Welk deel spreekt je het meest aan?  
-  En wat zou jij zelf willen toevoegen of controleren?
+  **Question to you**  
+  What was your first encounter with OIM?  
+  Which part appeals to you most?  
+  And what would you like to add or verify yourself?
   
-  We bouwen door. Niet omdat we alles al weten, maar omdat we weigeren stil te blijven staan.
+  We keep building. Not because we know everything, but because we refuse to stand still.
   
-  #OIM #HashVerificatie #RepostButtons #OpenSource #Koningsdag #ParallelleStructuren #Integriteit #OpenInternetManifest
+  #OIM #HashVerification #RepostButtons #OpenSource #KingsDay #ParallelStructures #Integrity #OpenInternetManifest
   
   https://openinternetmanifest.org
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  rvn: hoe oim ontstond – van theses naar een levend, verifieerbaar manifest 🌀 narratief: “het is weer zo’n complot-website met mooie woorden en een logo.” realiteit: oim is geen kant-en-klaar project. het is organisch gegroeid uit frustratie, zoektocht, vallen en opstaan — en vooral: doen in plaats van alleen praten 🔨 ### hoe het begon eind 2025 begon ik met het schrijven van de eerste 30 theses. heldere, beknopte uitspraken over macht, perceptie, systemen en persoonlijke soevereiniteit. daaruit groeide een begrippenlijst, praktische guides en begin januari 2026 de eerste realiteit vs narratief (rvn) posts. van daaruit ontstond de technische laag: liquid templates, een add-pagina voor bijdragen, en fuzzy hash-verificatie. > dit was geen “even een scriptje schrijven”. dit was een heel systeem neerzetten met github als backbone, jekyll als frontend, en integriteit als religie. 🔐 de technische ziel: hashes als digitaal zegelwas we leerden snel: zonder controle kun je nooit écht vertrouwen. daarom bouwden we fuzzy hash-verificatie in. een hash is een unieke digitale vingerafdruk. verander je één letter, dan verandert de hele hash. > “een hash is een digitaal zegelwas. breek je het, dan ziet iedereen het.” dit weekend live: de repost buttons 🚀 sinds dit weekend kun je met één klik: een korte teaser kopiëren een kant-en-klare korte post voor x maken de volledige markdown-file kopiëren direct naar facebook posten (met automatische markdown → unicode conversie voor mooie opmaak) en het mooiste: ook die unicode-versie blijft 100% controleerbaar via fuzzy hash. vandaag een stap verder we bouwen nu een probability checker: een tool die een willekeurige tekst analyseert en aangeeft hoe groot de kans is dat (delen van) die tekst van oim afkomstig is. waar gaan we heen? internet en ai zijn krachtige hamers. ze kunnen dienen als gereedschap voor vrijheid, creatie en soevereiniteit — maar alleen als wij aan de knoppen zitten. alleen een volledig open source internet kan garanderen dat deze hamer voor het grote goed wordt ingezet. de kern oim is geen organisatie. het is een beweging van doen én verifiëren. altijd met dezelfde rode draad: herken de mechanismen → weiger willoos mee te spelen → bouw parallel én verifieerbaar. vandaag is het koningsdag 👑 we bouwen vanochtend nog even door, maar we hebben ook wat te vieren. niet de verjaardag van de koning, maar de technische basis die nu staat. een fundament dat uitnodigt om verder uit te breiden, samen te groeien en het gesprek écht open te houden. oim-uitweg (en uitnodiging) je hoeft de techniek niet te begrijpen om mee te doen. maar je kunt wél zelf controleren of iets klopt. lees, schrijf zelf een thesis of rvn, of bouw in je eigen omgeving iets onafhankelijks. de site groeit omdat we hem samen laten groeien — transparant en controleerbaar. vraag aan jou wat was jouw eerste aanraking met oim? welk deel spreekt je het meest aan? en wat zou jij zelf willen toevoegen of controleren? we bouwen door. niet omdat we alles al weten, maar omdat we weigeren stil te blijven staan. #oim #hashverificatie #repostbuttons #opensource #koningsdag #parallellestructuren #integriteit #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: 497f3f838b7e4f3c659ba738647fb0a9b1f4473d67fca0a8f52e601e87778395
-fuzzy_sha256: 58a2acbb542a376db0e8f10fb0b7db4a9334ebb567ae466235c5597b9237bcc3
+  rvn: how oim was born – from theses to a living, verifiable manifesto 🌀 narrative: “it’s just another conspiracy website with nice words and a logo.” reality: oim is not a ready-made project. it grew organically from frustration, searching, falling and getting up — and above all: doing instead of just talking 🔨 how it started end of 2025 i started writing the first 30 theses. clear, concise statements about power, perception, systems and personal sovereignty. from there grew a glossary, practical guides and in early january 2026 the first reality vs narrative (rvn) posts. then came the technical layer: liquid templates, an add-page for contributions, and fuzzy hash verification. this was not 'just writing a little script'. this was building an entire system with github as backbone, jekyll as frontend, and integrity as religion. 🔐 the technical soul: hashes as digital sealing wax we quickly learned: without control you can never really trust. that’s why we built in fuzzy hash verification. a hash is a unique digital fingerprint. change one letter and the entire hash changes. “a hash is digital sealing wax. break it and everyone sees it.” live this weekend: the repost buttons 🚀 since this weekend you can with one click: copy a short teaser create a ready-made short post for x copy the full markdown file post directly to facebook (with automatic markdown → unicode conversion for nice formatting) and the best part: even that unicode version remains 100% verifiable via fuzzy hash. today one step further we are now building a probability checker: a tool that analyses any text and shows how likely it is that (parts of) that text comes from oim. where are we going? the internet and ai are powerful hammers. they can be tools for freedom, creation and sovereignty — but only if we are the ones at the controls. only a fully open source internet can guarantee that this hammer is used for the greater good. the core oim is not an organisation. it is a movement of doing and verifying. always with the same red thread: recognize the mechanisms → refuse to play along mindlessly → build parallel and verifiable. today is king’s day 👑 we’re still building this morning, but we also have something to celebrate. not the king’s birthday, but the technical foundation that now stands. a base that invites further expansion, collective growth and truly open conversation. oim way out (and invitation) you don’t need to understand the technology to participate. but you can check for yourself whether something is correct. read, write your own thesis or rvn, or build something independent in your own environment. the site grows because we grow it together — transparently and controllably. question to you what was your first encounter with oim? which part appeals to you most? and what would you like to add or verify yourself? we keep building. not because we know everything, but because we refuse to stand still. oim hashverification repostbuttons opensource kingsday parallelstructures integrity openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 0499b23e5a44b2cd667fdc143793a7c6941fd12bc31be207ad743c9e15088788
+full_sha256: 134a2dfb59e0aced89d4c1935f7a66254d69766a7a5a62799570a914e2709c5e
 
 ---
 
 
 
-**RVN: Hoe OIM ontstond – Van theses naar een levend, verifieerbaar manifest** 🌀
+**RVN: How OIM Was Born – From Theses to a Living, Verifiable Manifesto** 🌀
 
-**Narratief:**  
-“Het is weer zo’n complot-website met mooie woorden en een logo.”
+**Narrative:**  
+“It’s just another conspiracy website with nice words and a logo.”
 
-**Realiteit:**  
-OIM is geen kant-en-klaar project. Het is organisch gegroeid uit frustratie, zoektocht, vallen en opstaan — en vooral: **doen in plaats van alleen praten** 🔨
+**Reality:**  
+OIM is not a ready-made project. It grew organically from frustration, searching, falling and getting up — and above all: **doing instead of just talking** 🔨
 
-### Hoe het begon
+### How it started
 
-**Eind 2025** begon ik met het schrijven van de eerste **30 theses**. Heldere, beknopte uitspraken over macht, perceptie, systemen en persoonlijke soevereiniteit.  
-Daaruit groeide een begrippenlijst, praktische guides en begin januari 2026 de eerste **Realiteit vs Narratief (RVN)** posts.
+**End of 2025** I started writing the first **30 theses**. Clear, concise statements about power, perception, systems and personal sovereignty.  
+From there grew a glossary, practical guides and in early January 2026 the first **Reality vs Narrative (RVN)** posts.
 
-Van daaruit ontstond de technische laag: Liquid templates, een **add-pagina** voor bijdragen, en fuzzy hash-verificatie.
+Then came the technical layer: Liquid templates, an **add-page** for contributions, and fuzzy hash verification.
 
-> Dit was geen “even een scriptje schrijven”.  
-**Dit was een heel systeem neerzetten met GitHub als backbone, Jekyll als frontend, en integriteit als religie.** 🔐
+>This was not 'just writing a little script'.  
+**This was building an entire system with GitHub as backbone, Jekyll as frontend, and integrity as religion.** 🔐
 
-**De technische ziel: hashes als digitaal zegelwas**
+**The technical soul: hashes as digital sealing wax**
 
-We leerden snel: zonder controle kun je nooit écht vertrouwen.  
+We quickly learned: without control you can never really trust.  
 
-Daarom bouwden we **fuzzy hash-verificatie** in.  
+That’s why we built in **fuzzy hash verification**.  
 
-Een **hash** is een unieke digitale vingerafdruk. Verander je één letter, dan verandert de hele hash.
+A **hash** is a unique digital fingerprint. Change one letter and the entire hash changes.
 
-> “Een hash is een digitaal zegelwas. Breek je het, dan ziet iedereen het.”
+> “A hash is digital sealing wax. Break it and everyone sees it.”
 
-**Dit weekend live: de repost buttons** 🚀
+**Live this weekend: the repost buttons** 🚀
 
-Sinds dit weekend kun je met één klik:
-- Een korte teaser kopiëren
-- Een kant-en-klare korte post voor X maken
-- De volledige markdown-file kopiëren
-- Direct naar Facebook posten (met automatische Markdown → Unicode conversie voor mooie opmaak)
+Since this weekend you can with one click:
+- Copy a short teaser
+- Create a ready-made short post for X
+- Copy the full markdown file
+- Post directly to Facebook (with automatic Markdown → Unicode conversion for nice formatting)
 
-En het mooiste: ook die Unicode-versie blijft 100% controleerbaar via fuzzy hash.
+And the best part: even that Unicode version remains 100% verifiable via fuzzy hash.
 
-**Vandaag een stap verder**  
-We bouwen nu een **probability checker**: een tool die een willekeurige tekst analyseert en aangeeft hoe groot de kans is dat (delen van) die tekst van OIM afkomstig is.
+**Today one step further**  
+We are now building a **probability checker**: a tool that analyses any text and shows how likely it is that (parts of) that text comes from OIM.
 
-**Waar gaan we heen?**
+**Where are we going?**
 
-Internet en AI zijn krachtige hamers.  
-Ze kunnen dienen als gereedschap voor vrijheid, creatie en soevereiniteit — **maar alleen als wij aan de knoppen zitten**.  
+The internet and AI are powerful hammers.  
+They can be tools for freedom, creation and sovereignty — **but only if we are the ones at the controls**.  
 
-Alleen een **volledig open source internet** kan garanderen dat deze hamer voor het grote goed wordt ingezet.
+Only a **fully open source internet** can guarantee that this hammer is used for the greater good.
 
-**De kern**  
-OIM is geen organisatie.  
-Het is een **beweging van doen én verifiëren**.  
-Altijd met dezelfde rode draad:  
+**The core**  
+OIM is not an organisation.  
+It is a **movement of doing and verifying**.  
+Always with the same red thread:  
 
-**Herken de mechanismen → Weiger willoos mee te spelen → Bouw parallel én verifieerbaar.**
+**Recognize the mechanisms → Refuse to play along mindlessly → Build parallel and verifiable.**
 
-**Vandaag is het Koningsdag** 👑  
-We bouwen vanochtend nog even door, maar we hebben ook wat te vieren.  
+**Today is King’s Day** 👑  
+We’re still building this morning, but we also have something to celebrate.  
 
-Niet de verjaardag van de koning, maar de **technische basis die nu staat**. Een fundament dat uitnodigt om verder uit te breiden, samen te groeien en het gesprek écht open te houden.
+Not the king’s birthday, but the **technical foundation that now stands**. A base that invites further expansion, collective growth and truly open conversation.
 
-**OIM-uitweg (en uitnodiging)**  
-Je hoeft de techniek niet te begrijpen om mee te doen.  
-Maar je kunt wél zelf controleren of iets klopt.  
+**OIM way out (and invitation)**  
+You don’t need to understand the technology to participate.  
+But you *can* check for yourself whether something is correct.  
 
-Lees, schrijf zelf een thesis of RVN, of bouw in je eigen omgeving iets onafhankelijks.
+Read, write your own thesis or RVN, or build something independent in your own environment.
 
-De site groeit omdat we hem samen laten groeien — transparant en controleerbaar.
+The site grows because we grow it together — transparently and controllably.
 
-**Vraag aan jou**  
-Wat was jouw eerste aanraking met OIM?  
-Welk deel spreekt je het meest aan?  
-En wat zou jij zelf willen toevoegen of controleren?
+**Question to you**  
+What was your first encounter with OIM?  
+Which part appeals to you most?  
+And what would you like to add or verify yourself?
 
-We bouwen door. Niet omdat we alles al weten, maar omdat we weigeren stil te blijven staan.
+We keep building. Not because we know everything, but because we refuse to stand still.
 
-#OIM #HashVerificatie #RepostButtons #OpenSource #Koningsdag #ParallelleStructuren #Integriteit #OpenInternetManifest
+#OIM #HashVerification #RepostButtons #OpenSource #KingsDay #ParallelStructures #Integrity #OpenInternetManifest
 
 https://openinternetmanifest.org
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

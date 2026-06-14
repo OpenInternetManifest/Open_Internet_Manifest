@@ -30,10 +30,13 @@ raw_markdown: |
   ❤️
 
 
-full_sha256: 366558e345f5dcb94a4a1424479dba25125efc0f26fff377792dd28358522dfc
-fuzzy_sha256: dfd5732d0a3e4cc0757411b1314f4d5496a038af4375422c970607a267dacd38
+
+
+
 clean_text: |-
-  🇳🇱 dag 2 – thesis 1: internet is niet dood – het is gevangen thesis 1 slaat de spijker op z'n kop: "internet is niet dood – het is gevangen." we zijn gasten in gesloten platforms, zonder controle over onze eigen data en communicatie.🤯 lees hem nu: https://openinternetmanifest.org/nl/theses/thesis-01 het manifest begint hier – en het groeit door jou. 🚀 --- 🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+  🇳🇱 dag 2 – thesis 1: internet is niet dood – het is gevangen thesis 1 slaat de spijker op z'n kop: "internet is niet dood – het is gevangen." we zijn gasten in gesloten platforms, zonder controle over onze eigen data en communicatie.🤯 lees hem nu: https://openinternetmanifest.org/nl/theses/thesis-01 het manifest begint hier – en het groeit door jou. 🚀 🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org openinternetmanifest freeinternet decentralization cruciaal2026 privacy digitalid opensource internetfreedom selfhost nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+fuzzy_sha256: f90f83d952885bbcdf6d3b5f5c1335018e69c48764a8b8680efd49b68e9c7d66
+full_sha256: 9d3f900e47c0d73ae2bc189126d9cb0bb9ce3d38063475aefa546f9806581275
 
 ---
 

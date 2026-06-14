@@ -6,8 +6,6 @@ rvn_title: "Proud to be Dutch? That’s dangerous and small-minded"
 rvn_teaser: "Why national pride is suddenly the greatest evil."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "a60185b1064da61932e60679f41df18481e1b3e81db17ffb17c8f4b301c73c5c"
-full_sha256: "400c3b71e4c0edbd2d3227e1b76760af6b42ec86f0620ca68e011c2bcbe10a52"
 git_commit_hash: "6da1604994a7ff23b5389c9019d3b84f378e360f"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6da1604994a7ff23b5389c9019d3b84f378e360f"
 git_commit_date: "2026-06-01T19:33:21.939284"
@@ -74,6 +72,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+
+
+clean_text: |-
+  rvn: “proud to be dutch? that’s dangerous and small-minded” 🌀 narrative: “my family has lived here for centuries and i’m proud of that!” oh really? what exactly are you proud of? more than 200 years of slavery and colonialism? robbing other countries and enslaving their people? forcing our religion on them with fanaticism and bloodlust that even islam could learn from? the police actions? the politionele acties where entire villages were massacred? or how we looked away while the majority of dutch jews were sent to their deaths? and now we’re doing it again by ignoring genocide — this time with israel as the perpetrator? i personally feel zero pride in a country or nationality. because i know exactly where that leads. besides, ethnicity is a complex and ever-changing concept. “the dutchman” of fifty years ago is not the same as today — let alone in 100 or 200 years. people talking about “pride” and “identity” these days are simply using it as a cover to oppose “the other”. it’s pure fear. not wanting to share. wanting to keep our bizarre level of prosperity for ourselves. it’s petty, narrow-minded and dangerous. reality: this is the classic guilt package used for years to make any form of national pride or identity suspicious. yes, the netherlands has dark pages in its history — like almost every country on earth. but the story is never only guilt. it is deliberately one-sided: the netherlands was also a pioneer during the golden age: trade, science, art, tolerance, and one of the first modern republics. we were among the first countries to abolish slavery (at great economic cost). during wwii there were relatively many resistance fighters and people hiding jews. the politionele acties were wrong, but indonesian independence still came. today we are one of the most generous countries in development aid and asylum — while simultaneously facing massive integration problems. the real question @chrisklomp avoids: why is it only allowed for western countries to not feel pride in their culture and history, while it is encouraged (and even demanded) for almost all other cultures? national identity is not some “complex given” you can just dismiss. it is language, norms, values, trust, architecture, humor, manners and a shared story. countries with a strong, shared identity score higher on social cohesion, trust and safety. that is not an opinion — it is measurable. people are not just “people”. cultures clash. values clash. especially when you mass-import people from societies with very different views on women’s rights, gay rights, freedom of speech and separation of church and state. oim way out we don’t have to choose between shame and hate. we can be proud of what is good, honest about what was wrong, and above all: take responsibility for the future. that means protecting our borders, cherishing our own culture, and building parallel structures so we are not dependent on a state that prefers to erase our identity. question to you are you proud to be dutch? or do you think that’s “dangerous and small-minded”? and why are other peoples allowed to be proud of their identity, but we are not? thedutchexist nationalidentity pride culture digitalsovereignty oim https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: a309e1644b61204418cbb1a6235c80069503bffbfb93743592e816c1c0d2b3fe
+full_sha256: 400c3b71e4c0edbd2d3227e1b76760af6b42ec86f0620ca68e011c2bcbe10a52
+
 ---
 
 

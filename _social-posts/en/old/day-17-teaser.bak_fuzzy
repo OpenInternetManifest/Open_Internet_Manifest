@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: 7e50a28bd88a7b6625222d4e2c7ac9c8b212c53adc7a6001653cbba7dc7b2e0f
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 17
 teaser_title: A child at school, today
-# teaser_url: /en/social-posts/day-17-teaser
 teaser_text: On Holocaust Remembrance Day
 raw_markdown: |
   🇬🇧 **Day 17 – A child at school, today** 🌐😔  
@@ -33,10 +28,11 @@ raw_markdown: |
    
   @fvdemocratie
 
+
+full_sha256: a02a88bcb41ca02e323b772eb5b163d45755d0d1b4c41b2496784319de02900d
+fuzzy_sha256: b290ab59f7e4fdef00396b6e41b33c3ffdd169d31fc7748284db53452c0359b7
 clean_text: |-
   🇬🇧 day 17 – a child at school, today 🌐😔 today is january 27. holocaust remembrance day. but on this day, a mother has to count again how many times her child has been attacked. tomorrow: a story that hurts. one you don’t want to hear. but one you need to hear. because if this still happens on a day like today... something is deeply wrong with what we claim to have "learned". open internet manifest: facts over feelings. hashes over narratives. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #day18teaser #neveragainisnow @realdonaldtrump @fvdemocratie
-full_sha256: a02a88bcb41ca02e323b772eb5b163d45755d0d1b4c41b2496784319de02900d
-fuzzy_sha256: 85ed2d7a27bb5938d38bf3355f926735e35c12dc0ec9b523a6be3f0f237c02f1
 
 ---
 

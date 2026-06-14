@@ -22,10 +22,13 @@ raw_markdown: |
   #RVN #FactsOverFrames #RealityVsNarrative #Incitement #Day30Teaser
 
 
-full_sha256: 4a54c452eb4569ba0b32b1554c76f867f3fe99ff8a2fa1fa54f1b8a439368a93
-fuzzy_sha256: 3a2c07197f8d40103ab4ee64a49229747f5883e8e2f802703a499ef4dddb8083
+
+
+
 clean_text: |-
-  day 30 teaser – tonight: the silence before the storm ☯️⚡ tomorrow we resume the rvn series. a step back was needed – rest recharges 🔋, silence speaks louder than noise 🌌. tomorrow: why words sometimes don’t count for what they literally say, but for the narrative they create. a judge, a politician, and the boundary of ‘incitement’ ⚖️🔥. no illusions. no hate. only reality. facts over frames 🛡️. and we’re not standing still: the giscus comment section is now live on almost all pages 🚀 → reply directly under every thesis, guide and rvn post 💬 → no algorithm, no gatekeeper – just open conversation 🌐 https://openinternetmanifest.org #rvn #factsoverframes #realityvsnarrative #incitement #day30teaser
+  day 30 teaser – tonight: the silence before the storm ☯️⚡ tomorrow we resume the rvn series. a step back was needed – rest recharges 🔋, silence speaks louder than noise 🌌. tomorrow: why words sometimes don’t count for what they literally say, but for the narrative they create. a judge, a politician, and the boundary of ‘incitement’ ⚖️🔥. no illusions. no hate. only reality. facts over frames 🛡️. and we’re not standing still: the giscus comment section is now live on almost all pages 🚀 → reply directly under every thesis, guide and rvn post 💬 → no algorithm, no gatekeeper – just open conversation 🌐 https://openinternetmanifest.org rvn factsoverframes realityvsnarrative incitement day30teaser
+fuzzy_sha256: 51ae582bd11ae1ff43b902fba6739385b781639223962e2b5612abe354f68d63
+full_sha256: 4a54c452eb4569ba0b32b1554c76f867f3fe99ff8a2fa1fa54f1b8a439368a93
 
 ---
 

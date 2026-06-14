@@ -4,10 +4,6 @@ lang: en
 day: 42
 rvn_title: Words no longer weigh by what they say
 rvn_teaser:  Municipal elections tomorrow – time to read the terrain
-# rvn_url: /en/social-posts/day-42-rvn
-website_sha256: 
-social_fb_sha256: 136b20890f703af58a275315d0eec576e7a0e2e163650e875b0943a028552296
-social_share_sha256: ''
 raw_markdown: |
   **Day 42 – RVN: Words no longer weigh by what they say, but by what narrative is made of them** ⚖️🌀
   
@@ -41,10 +37,11 @@ raw_markdown: |
   What do you choose tomorrow: passively watch, or actively win terrain?
   
   #Elections #Plato #CityPattern #VoterBase #OIM #VoteOrNot
+
+full_sha256: 46de9cd1c299cba48d5b361f104abb2390c0b54e52f4a4d442a761bd624b2766
+fuzzy_sha256: ebad31ff3649f4fa4247ea2eb6902f3cce1c6d0185649095611520949d83158e
 clean_text: |-
   day 42 – rvn: words no longer weigh by what they say, but by what narrative is made of them ⚖️🌀 municipal elections tomorrow – time to read the terrain! look at left-leaning cities worldwide (amsterdam, nyc, san francisco, la): progressive policy pushes car-free zones, more bike racks and flower beds, higher parking rates, “livability” and inclusion as the ultimate goal. reality: parking becomes absurdly expensive (€12–13/hour in garages – i paid €45.50 for 3.5 hours recently), streets get dirtier, rat plague increases, basic maintenance lags, debts rise (€9–10 billion in amsterdam, $5.4 billion deficit in nyc). pattern: ideology over practice. higher costs for average citizens, more revenue for the city, but livability declines instead of improves. and then the voter base twist no one dares say out loud: progressive policy allows high immigration – often framed as “inclusive” and “humanitarian”. hence the claim circulating everywhere: “illegals vote 100% dem/left” → import voters to hold power. reality is in the gray area: official audits find non-citizen voting extremely rare (0.0001–0.02% of votes), with only dozens of confirmed cases over years. but evidence is hard to gather (no national citizenship check at registration, audits limited). so “almost none found” does not automatically mean “almost none happened”. naturalized immigrants (who can vote) lean heavily dem/left (pew research: 60–75% in recent cycles). that fuels narrative-spinning about “demographic replacement” and “import voters”. at the same time we see strange alliances: lgbtq+ groups demonstrating pro-palestine (while hamas executes homosexuals), “chickens for kfc”-style ideological inconsistencies, progressives defending high immigration while their own cities struggle with nuisance, rats, trash, and rising crime. not voting does not solve this. it strengthens exactly the vacuum plato warned about: when good people withdraw, they end up governed by inferiors. tomorrow the full plato rvn: “one of the penalties for refusing to participate in politics is that you end up being governed by your inferiors.” today's question: voting as a tool to force cracks in this pattern, or silence and hope inferior rule fades away by itself? https://openinternetmanifest.org what do you choose tomorrow: passively watch, or actively win terrain? #elections #plato #citypattern #voterbase #oim #voteornot
-full_sha256: 46de9cd1c299cba48d5b361f104abb2390c0b54e52f4a4d442a761bd624b2766
-fuzzy_sha256: 66a534c59c68b5d009ce37524dee4a5fc1c635732b13a6b472631f804ac29f4b
 
 ---
 

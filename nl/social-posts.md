@@ -39,23 +39,23 @@ title: Realiteit vs Narratief - Social Posts
     extra_content=add_extra_content 
   %}
 
-  <!-- SOCIAL POSTS LOOP - Numerieke sortering -->
+  <!-- SOCIAL POSTS LOOP - ECHTE NUMERIEKE SORTERING + FIX -->
   {% assign social_posts = site.social-posts | where: "lang", "nl" %}
 
-  <!-- Verzamel dagen als numerieke waarden -->
   {% assign day_list = "" | split: "" %}
+
   {% for post in social_posts %}
     {% if post.path contains "day-" %}
       {% assign filename = post.path | split: "/" | last | split: "." | first %}
       {% assign day_str = filename | remove: "day-" | remove: "-rvn" | remove: "-teaser" | strip %}
-      {% if day_str and day_str != "" %}
-        {% assign day_num = day_str | plus: 0 %}   <!-- Forceer naar nummer -->
+      {% if day_str != "" and day_str != nil %}
+        {% assign day_num = day_str | plus: 0 %}
         {% assign day_list = day_list | push: day_num %}
       {% endif %}
     {% endif %}
   {% endfor %}
 
-  {% assign unique_days = day_list | uniq | sort | reverse %}   <!-- sort = numeriek -->
+  {% assign unique_days = day_list | uniq | sort | reverse %}
 
   {% for this_day in unique_days %}
     {% if this_day == "" or this_day == nil %}{% continue %}{% endif %}
@@ -64,8 +64,10 @@ title: Realiteit vs Narratief - Social Posts
     {% assign day_teaser = nil %}
 
     {% for post in social_posts %}
-      {% assign filename = post.path | split: "/" | last %}
-      {% if filename contains this_day %}
+      {% assign filename = post.path | split: "/" | last | split: "." | first %}
+      {% assign day_in_filename = filename | remove: "day-" | remove: "-rvn" | remove: "-teaser" | strip | plus: 0 %}
+
+      {% if day_in_filename == this_day %}
         {% if filename contains "-rvn" %}
           {% assign day_rvn = post %}
         {% elsif filename contains "-teaser" %}
@@ -79,7 +81,7 @@ title: Realiteit vs Narratief - Social Posts
     {% if day_rvn %}
       {% assign card_title = day_rvn.rvn_title | default: day_rvn.title | default: card_title %}
       {% assign card_url = day_rvn.url | relative_url %}
-      {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser | default: "Nog geen RVN voor dag " | strip_html | truncatewords: 45 %}
+      {% assign rvn_teaser = day_rvn.rvn_teaser | default: day_rvn.teaser | default: "Nog geen RVN voor dag " | append: this_day | strip_html | truncatewords: 45 %}
     {% else %}
       {% assign rvn_teaser = "Nog geen RVN voor dag " | append: this_day %}
       {% assign card_url = "#" %}

@@ -1,155 +1,157 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 78
-rvn_title: "Schijnvooruitgang #8: Feminisme als bevrijding?"
-rvn_teaser: "Vrouwen zijn eindelijk bevrijd. Maar zijn ze ook gelukkiger en vrijer geworden?"
+rvn_title: "Illusory Progress #8: Feminism as Liberation?"
+rvn_teaser: "Women are finally liberated. But are they actually happier and freer?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:09.028502"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:14.195698"
 raw_markdown: |
-  **Schijnvooruitgang – Dag 34: Feminisme als bevrijding?** 👩
+  **Illusory Progress – Day 34: Feminism as Liberation?** 👩
   
-  **Korte recap van de serie**  
-  Dag 2: Leasing  
-  Dag 3: Warmtepompen  
-  Dag 4: Elektrische auto’s  
-  Dag 5: 15-minutenstad  
-  Dag 6: Alles als abonnement  
-  Dag 7: Cashloze samenleving
+  **Short Recap of the Series**  
+  Day 2: Leasing  
+  Day 3: Heat pumps  
+  Day 4: Electric cars  
+  Day 5: The 15-minute city  
+  Day 6: Everything as a subscription  
+  Day 7: The cashless society
   
-  **Narratief**  
-  Het moderne feminisme heeft vrouwen bevrijd. Ze zijn economisch onafhankelijk, hoeven niet meer afhankelijk te zijn van een man en zijn gelukkiger dan ooit. Kritiek hierop is seksistisch en achterhaald.
+  **The Narrative**  
+  Modern feminism has liberated women. They are economically independent, no longer dependent on a man, and happier than ever before. Criticism of this is sexist and outdated.
   
-  **Realiteit – meerdere lagen**
+  **The Reality – Multiple Layers**
   
-  **Laag 1: Economische afhankelijkheid**  
-  Vrouwen zijn niet vrijer, ze zijn vooral afhankelijk geworden van de arbeidsmarkt en de overheid. Twee fulltime inkomens zijn nu vaak nodig om een gemiddeld huishouden te kunnen onderhouden.
+  **Layer 1: Economic Dependence**  
+  Women have not become freer — they have mostly become dependent on the job market and the state instead of a man. Two full-time incomes are now often required to afford an average household.
   
-  **Laag 2: Demografische klap**  
-  Om een bevolking stabiel te houden is een fertiliteitscijfer van **2,1 kinderen per vrouw** nodig.  
-  In Nederland ligt dit al decennia rond de **1,4 – 1,5** (CBS). Dit is een van de laagste cijfers ooit gemeten.
+  **Layer 2: Demographic Impact**  
+  To maintain a stable population, a fertility rate of **2.1 children per woman** is needed.  
+  In the Netherlands it has been hovering around **1.4 – 1.5** for decades (CBS). One of the lowest figures ever recorded.
   
-  **Laag 3: Mentale gezondheid**  
-  Ondanks alle beloftes van bevrijding gebruiken vrouwen significant meer psychofarmaca dan mannen:
-  - Vrouwen gebruiken **ruim 2x zoveel antidepressiva** als mannen (CBS, 2023-2024).
-  - De stijging is vooral zichtbaar onder vrouwen van 25-45 jaar.
-  - Studies (o.a. WHO en verschillende longitudinale onderzoeken) tonen aan dat vrouwen in Westerse landen sinds de jaren ’70 niet gelukkiger zijn geworden, ondanks enorme toename in opleiding, carrière en rechten.
+  **Layer 3: Mental Health**  
+  Despite all the promises of liberation, women use significantly more psychotropic drugs than men:  
+  - Women use **more than twice as many antidepressants** as men (CBS, 2023-2024).  
+  - The increase is especially visible among women aged 25-45.  
+  - Multiple long-term studies show that women in Western countries have not become happier since the 1970s, despite massive gains in education, careers, and rights.
   
-  **Laag 4: Echtscheidingen en relatieleed**  
-  - Ruim **70% van de echtscheidingen** wordt aangevraagd door vrouwen (CBS).
-  - Na scheiding gaat het vaak slechter met vrouwen (vooral financieel en emotioneel) en met kinderen (meerdere studies over eenoudergezinnen).
-  - Het aantal eenoudergezinnen (vooral moeder met kind) is sterk gestegen, met alle bijbehorende uitdagingen.
+  **Layer 4: Divorce and Relationship Breakdown**  
+  - Over **70% of divorces** are initiated by women (CBS).  
+  - After divorce, women often fare worse financially and emotionally, as do the children (multiple studies on single-parent households).
   
-  **Laag 5: De verdwenen keuze**  
-  De keuze om fulltime moeder/huisvrouw te zijn, is in de praktijk bijna verdwenen door:
-  - Economische druk (huizenprijzen, belastingen)
-  - Sociale veroordeling (“je bent toch geen onderdanige huisvrouw?”)
-  - Fiscaal systeem dat tweeverdieners sterk bevoordeelt
+  **Layer 5: The Disappearing Choice**  
+  The choice to be a full-time mother and homemaker has practically disappeared due to:  
+  - Economic pressure (house prices, taxes, cost of living)  
+  - Social condemnation (“you’re not one of those submissive housewives, are you?”)  
+  - A tax system that heavily favors dual earners
   
-  **Laag 6: De ideologische prijs**  
-  Het moderne feminisme heeft moederschap en traditionele mannelijke rollen systematisch gedevalueerd. Resultaat: veel jonge mannen en vrouwen vinden het steeds moeilijker om stabiele, langdurige relaties aan te gaan.
+  **Layer 6: The Ideological Price**  
+  Modern feminism has systematically devalued motherhood and traditional male roles. Result: many young men and women are struggling to form stable, long-term relationships.
   
-  **OIM-uitweg**  
-  Echte bevrijding is niet “vrouwen tegen mannen” of “carrière boven alles”, maar **echte keuzevrijheid**:
-  - Fulltime carrière  
-  - Fulltime moeder/vader  
-  - Een bewuste combinatie  
+  **The OIM Way Out**  
+  Real liberation means **real choice** for both women and men:  
+  - Full-time career  
+  - Full-time mother/father  
+  - A conscious combination  
   
-  Zonder economische noodzaak, sociale druk of staatsbemoeienis.  
-  Een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal.
-
-     ---
+  Without economic necessity, social pressure, or government interference.  
+  A healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold.
   
-  Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+  ***
   
-  Probeer hem gerust uit:  
+  You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
+  
+  Feel free to try it:  
   https://openinternetmanifest.org/nl/nexus-quick-post
   
-  **Vraag aan jou**  
-  Heeft het moderne feminisme vrouwen écht gelukkiger en vrijer gemaakt, of hebben we vooral nieuwe vormen van afhankelijkheid, eenzaamheid en demografische achteruitgang gecreëerd?
+  **Question to you**  
+  Has modern feminism actually made women happier and freer, or have we mainly created new forms of dependence, loneliness, and demographic decline?
   
-  #Schijnvooruitgang #Feminisme #Antidepressiva #Echtscheiding #Geboortecijfer #EchteVrijheid #OpenInternetManifest
+  #IllusoryProgress #Feminism #Antidepressants #Divorce #FertilityRate #RealFreedom #OpenInternetManifest
   
-    ---
+  ***
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  schijnvooruitgang – dag 34: feminisme als bevrijding? 👩 korte recap van de serie dag 2: leasing dag 3: warmtepompen dag 4: elektrische auto’s dag 5: 15-minutenstad dag 6: alles als abonnement dag 7: cashloze samenleving narratief het moderne feminisme heeft vrouwen bevrijd. ze zijn economisch onafhankelijk, hoeven niet meer afhankelijk te zijn van een man en zijn gelukkiger dan ooit. kritiek hierop is seksistisch en achterhaald. realiteit – meerdere lagen laag 1: economische afhankelijkheid vrouwen zijn niet vrijer, ze zijn vooral afhankelijk geworden van de arbeidsmarkt en de overheid. twee fulltime inkomens zijn nu vaak nodig om een gemiddeld huishouden te kunnen onderhouden. laag 2: demografische klap om een bevolking stabiel te houden is een fertiliteitscijfer van 2,1 kinderen per vrouw nodig. in nederland ligt dit al decennia rond de 1,4 – 1,5 (cbs). dit is een van de laagste cijfers ooit gemeten. laag 3: mentale gezondheid ondanks alle beloftes van bevrijding gebruiken vrouwen significant meer psychofarmaca dan mannen: vrouwen gebruiken ruim 2x zoveel antidepressiva als mannen (cbs, 2023-2024). de stijging is vooral zichtbaar onder vrouwen van 25-45 jaar. studies (o.a. who en verschillende longitudinale onderzoeken) tonen aan dat vrouwen in westerse landen sinds de jaren ’70 niet gelukkiger zijn geworden, ondanks enorme toename in opleiding, carrière en rechten. laag 4: echtscheidingen en relatieleed ruim 70% van de echtscheidingen wordt aangevraagd door vrouwen (cbs). na scheiding gaat het vaak slechter met vrouwen (vooral financieel en emotioneel) en met kinderen (meerdere studies over eenoudergezinnen). het aantal eenoudergezinnen (vooral moeder met kind) is sterk gestegen, met alle bijbehorende uitdagingen. laag 5: de verdwenen keuze de keuze om fulltime moeder/huisvrouw te zijn, is in de praktijk bijna verdwenen door: economische druk (huizenprijzen, belastingen) sociale veroordeling (“je bent toch geen onderdanige huisvrouw?”) fiscaal systeem dat tweeverdieners sterk bevoordeelt laag 6: de ideologische prijs het moderne feminisme heeft moederschap en traditionele mannelijke rollen systematisch gedevalueerd. resultaat: veel jonge mannen en vrouwen vinden het steeds moeilijker om stabiele, langdurige relaties aan te gaan. oim-uitweg echte bevrijding is niet “vrouwen tegen mannen” of “carrière boven alles”, maar echte keuzevrijheid: fulltime carrière fulltime moeder/vader een bewuste combinatie zonder economische noodzaak, sociale druk of staatsbemoeienis. een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou heeft het moderne feminisme vrouwen écht gelukkiger en vrijer gemaakt, of hebben we vooral nieuwe vormen van afhankelijkheid, eenzaamheid en demografische achteruitgang gecreëerd? #schijnvooruitgang #feminisme #antidepressiva #echtscheiding #geboortecijfer #echtevrijheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: 42bb5a68f6632fa4d8d10690a6b752dcada7e011665ce6c0ff438aa8159395be
-fuzzy_sha256: cfd1a5823caf3f0003878179c2adf46c704e2ff1d870faaa460cb5335736cd02
+  illusory progress – day 34: feminism as liberation? 👩 short recap of the series day 2: leasing day 3: heat pumps day 4: electric cars day 5: the 15-minute city day 6: everything as a subscription day 7: the cashless society the narrative modern feminism has liberated women. they are economically independent, no longer dependent on a man, and happier than ever before. criticism of this is sexist and outdated. the reality – multiple layers layer 1: economic dependence women have not become freer — they have mostly become dependent on the job market and the state instead of a man. two full-time incomes are now often required to afford an average household. layer 2: demographic impact to maintain a stable population, a fertility rate of 2.1 children per woman is needed. in the netherlands it has been hovering around 1.4 – 1.5 for decades (cbs). one of the lowest figures ever recorded. layer 3: mental health despite all the promises of liberation, women use significantly more psychotropic drugs than men: women use more than twice as many antidepressants as men (cbs, 2023-2024). the increase is especially visible among women aged 25-45. multiple long-term studies show that women in western countries have not become happier since the 1970s, despite massive gains in education, careers, and rights. layer 4: divorce and relationship breakdown over 70% of divorces are initiated by women (cbs). after divorce, women often fare worse financially and emotionally, as do the children (multiple studies on single-parent households). layer 5: the disappearing choice the choice to be a full-time mother and homemaker has practically disappeared due to: economic pressure (house prices, taxes, cost of living) social condemnation (“you’re not one of those submissive housewives, are you?”) a tax system that heavily favors dual earners layer 6: the ideological price modern feminism has systematically devalued motherhood and traditional male roles. result: many young men and women are struggling to form stable, long-term relationships. the oim way out real liberation means real choice for both women and men: full-time career full-time mother/father a conscious combination without economic necessity, social pressure, or government interference. a healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold. you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you has modern feminism actually made women happier and freer, or have we mainly created new forms of dependence, loneliness, and demographic decline? illusoryprogress feminism antidepressants divorce fertilityrate realfreedom openinternetmanifest this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: aa033d149dce33e826eac23168def80e7dedc5714391c075ac63ee8388f39fd3
+full_sha256: 6c13572e5a3f72fa1e70cb855e2be64472a29d1dabc07a4b70e455c21360dcf7
 
 ---
 
 
 
-**Schijnvooruitgang – Dag 34: Feminisme als bevrijding?** 👩
+**Illusory Progress – Day 34: Feminism as Liberation?** 👩
 
-**Korte recap van de serie**  
-Dag 2: Leasing  
-Dag 3: Warmtepompen  
-Dag 4: Elektrische auto’s  
-Dag 5: 15-minutenstad  
-Dag 6: Alles als abonnement  
-Dag 7: Cashloze samenleving
+**Short Recap of the Series**  
+Day 2: Leasing  
+Day 3: Heat pumps  
+Day 4: Electric cars  
+Day 5: The 15-minute city  
+Day 6: Everything as a subscription  
+Day 7: The cashless society
 
-**Narratief**  
-Het moderne feminisme heeft vrouwen bevrijd. Ze zijn economisch onafhankelijk, hoeven niet meer afhankelijk te zijn van een man en zijn gelukkiger dan ooit. Kritiek hierop is seksistisch en achterhaald.
+**The Narrative**  
+Modern feminism has liberated women. They are economically independent, no longer dependent on a man, and happier than ever before. Criticism of this is sexist and outdated.
 
-**Realiteit – meerdere lagen**
+**The Reality – Multiple Layers**
 
-**Laag 1: Economische afhankelijkheid**  
-Vrouwen zijn niet vrijer, ze zijn vooral afhankelijk geworden van de arbeidsmarkt en de overheid. Twee fulltime inkomens zijn nu vaak nodig om een gemiddeld huishouden te kunnen onderhouden.
+**Layer 1: Economic Dependence**  
+Women have not become freer — they have mostly become dependent on the job market and the state instead of a man. Two full-time incomes are now often required to afford an average household.
 
-**Laag 2: Demografische klap**  
-Om een bevolking stabiel te houden is een fertiliteitscijfer van **2,1 kinderen per vrouw** nodig.  
-In Nederland ligt dit al decennia rond de **1,4 – 1,5** (CBS). Dit is een van de laagste cijfers ooit gemeten.
+**Layer 2: Demographic Impact**  
+To maintain a stable population, a fertility rate of **2.1 children per woman** is needed.  
+In the Netherlands it has been hovering around **1.4 – 1.5** for decades (CBS). One of the lowest figures ever recorded.
 
-**Laag 3: Mentale gezondheid**  
-Ondanks alle beloftes van bevrijding gebruiken vrouwen significant meer psychofarmaca dan mannen:
-- Vrouwen gebruiken **ruim 2x zoveel antidepressiva** als mannen (CBS, 2023-2024).
-- De stijging is vooral zichtbaar onder vrouwen van 25-45 jaar.
-- Studies (o.a. WHO en verschillende longitudinale onderzoeken) tonen aan dat vrouwen in Westerse landen sinds de jaren ’70 niet gelukkiger zijn geworden, ondanks enorme toename in opleiding, carrière en rechten.
+**Layer 3: Mental Health**  
+Despite all the promises of liberation, women use significantly more psychotropic drugs than men:  
+- Women use **more than twice as many antidepressants** as men (CBS, 2023-2024).  
+- The increase is especially visible among women aged 25-45.  
+- Multiple long-term studies show that women in Western countries have not become happier since the 1970s, despite massive gains in education, careers, and rights.
 
-**Laag 4: Echtscheidingen en relatieleed**  
-- Ruim **70% van de echtscheidingen** wordt aangevraagd door vrouwen (CBS).
-- Na scheiding gaat het vaak slechter met vrouwen (vooral financieel en emotioneel) en met kinderen (meerdere studies over eenoudergezinnen).
-- Het aantal eenoudergezinnen (vooral moeder met kind) is sterk gestegen, met alle bijbehorende uitdagingen.
+**Layer 4: Divorce and Relationship Breakdown**  
+- Over **70% of divorces** are initiated by women (CBS).  
+- After divorce, women often fare worse financially and emotionally, as do the children (multiple studies on single-parent households).
 
-**Laag 5: De verdwenen keuze**  
-De keuze om fulltime moeder/huisvrouw te zijn, is in de praktijk bijna verdwenen door:
-- Economische druk (huizenprijzen, belastingen)
-- Sociale veroordeling (“je bent toch geen onderdanige huisvrouw?”)
-- Fiscaal systeem dat tweeverdieners sterk bevoordeelt
+**Layer 5: The Disappearing Choice**  
+The choice to be a full-time mother and homemaker has practically disappeared due to:  
+- Economic pressure (house prices, taxes, cost of living)  
+- Social condemnation (“you’re not one of those submissive housewives, are you?”)  
+- A tax system that heavily favors dual earners
 
-**Laag 6: De ideologische prijs**  
-Het moderne feminisme heeft moederschap en traditionele mannelijke rollen systematisch gedevalueerd. Resultaat: veel jonge mannen en vrouwen vinden het steeds moeilijker om stabiele, langdurige relaties aan te gaan.
+**Layer 6: The Ideological Price**  
+Modern feminism has systematically devalued motherhood and traditional male roles. Result: many young men and women are struggling to form stable, long-term relationships.
 
-**OIM-uitweg**  
-Echte bevrijding is niet “vrouwen tegen mannen” of “carrière boven alles”, maar **echte keuzevrijheid**:
-- Fulltime carrière  
-- Fulltime moeder/vader  
-- Een bewuste combinatie  
+**The OIM Way Out**  
+Real liberation means **real choice** for both women and men:  
+- Full-time career  
+- Full-time mother/father  
+- A conscious combination  
 
-Zonder economische noodzaak, sociale druk of staatsbemoeienis.  
-Een gezonde samenleving waardeert zowel mannelijke als vrouwelijke bijdragen en dwingt niemand in één ideologisch mal.
+Without economic necessity, social pressure, or government interference.  
+A healthy society values both masculine and feminine contributions and does not force everyone into one ideological mold.
 
----
+***
 
-Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
-Probeer hem gerust uit:  
+Feel free to try it:  
 https://openinternetmanifest.org/nl/nexus-quick-post
 
-**Vraag aan jou**  
-Heeft het moderne feminisme vrouwen écht gelukkiger en vrijer gemaakt, of hebben we vooral nieuwe vormen van afhankelijkheid, eenzaamheid en demografische achteruitgang gecreëerd?
+**Question to you**  
+Has modern feminism actually made women happier and freer, or have we mainly created new forms of dependence, loneliness, and demographic decline?
 
-#Schijnvooruitgang #Feminisme #Antidepressiva #Echtscheiding #Geboortecijfer #EchteVrijheid #OpenInternetManifest
+#IllusoryProgress #Feminism #Antidepressants #Divorce #FertilityRate #RealFreedom #OpenInternetManifest
 
----
+***
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

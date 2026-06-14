@@ -26,10 +26,13 @@ raw_markdown: |
   Waarom narratieven wild worden... 🌀
 
 
-full_sha256: 191aa9c91cf047b697951665f070c5b62cf2d04acdda64e75d2d034408410d4f
-fuzzy_sha256: e10d74372d86b6c6b51eeea1736360fb9868e990f54abd3ada5c8a76daac716a
+
+
+
 clean_text: |-
-  day 38 teaser – tonight: the ladder of the graduated animal farms 🪜🐷 tomorrow rvn: the first stall – mainstream media as base layer gaf. today we already saw the pattern crystal clear: temporary allies that seem ideologically incompatible – queers for palestine, chickens for kfc, iran 1979 – graduated animal farms (gaf) in action. today we start a new series: graduated animal farms – the different layers of the system that feeds narratives and steers behavior. from the base stall (msm, emotional framing) to higher layers (alternative media, echo chambers, infiltration). because online behavior often seems rotten... but that’s not a coincidence. it’s design. tomorrow we dive into the first layer. no gatekeepers. only facts over frames 🛡️✨ https://openinternetmanifest.org #rvn #openinternetmanifest #graduatedanimalfarms #day38teaser deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️✨. waarom narratieven wild worden... 🌀
+  day 38 teaser – tonight: the ladder of the graduated animal farms 🪜🐷 tomorrow rvn: the first stall – mainstream media as base layer gaf. today we already saw the pattern crystal clear: temporary allies that seem ideologically incompatible – queers for palestine, chickens for kfc, iran 1979 – graduated animal farms (gaf) in action. today we start a new series: graduated animal farms – the different layers of the system that feeds narratives and steers behavior. from the base stall (msm, emotional framing) to higher layers (alternative media, echo chambers, infiltration). because online behavior often seems rotten... but that’s not a coincidence. it’s design. tomorrow we dive into the first layer. no gatekeepers. only facts over frames 🛡️✨ https://openinternetmanifest.org rvn openinternetmanifest graduatedanimalfarms day38teaser deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst en check – reality stays calm 🧘‍♂️✨. waarom narratieven wild worden... 🌀
+fuzzy_sha256: b661e998c5e6338b48269b419180c0d37072210590364deadd1cf0541a4ef1d4
+full_sha256: 191aa9c91cf047b697951665f070c5b62cf2d04acdda64e75d2d034408410d4f
 
 ---
 

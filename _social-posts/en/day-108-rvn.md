@@ -6,8 +6,6 @@ rvn_title: "Facts are not racist"
 rvn_teaser: "When statistics suddenly get called 'racist', you know the narrative has overtaken reality"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "5a53f0a5f8d78e514aa72517119670fa54f10f03474965db3a5bcdfb624cee95"
-full_sha256: "c34bb1dee771fb352e7af332c3c2ea8971682ef77ad8c0b76196690cecbc1fc4"
 git_commit_hash: "96e2195fb3ee3b06ed57a449e8e06aa265926046"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/96e2195fb3ee3b06ed57a449e8e06aa265926046"
 git_commit_date: "2026-06-13T06:02:54.701938"
@@ -81,6 +79,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+
+
+clean_text: |-
+  rvn: facts are not racist 📊 facts have no colour. facts have no intention. facts are simply true. yet in the netherlands and western europe, they are increasingly labelled “racist” as soon as they reveal an uncomfortable pattern. not because the numbers lie, but because they disrupt the official story. some hard, official figures (cbs, justice & police): non-western migration background: ±14-17% of the population. yet they account for over 50-60% of suspects in many forms of street crime, youth crime, robberies, muggings and certain sexual offences. second generation (both parents born abroad): suspect rate 2.8% in 2023 versus 0.6% for native dutch — a factor of 4-5x higher (and even higher in specific groups). these are per capita figures — corrected for population share. the classic statistical manipulation you often hear: “most violence is still committed by white/native men, especially in the domestic sphere.” that sounds plausible... until you realise these are absolute numbers. there are simply far more native men in the netherlands. as soon as you look at rates per 100,000 inhabitants or per demographic group (per capita), the picture changes completely. street violence, group attacks, robberies and public disorder problems disproportionately come from certain non-western groups. domestic violence often stays within the group and is less visible on the street — but the overall violence picture doesn’t lie. entire books have been written about this kind of statistical manipulation: absolute numbers versus relative risks, cherry-picking of crime categories, and ignoring age and gender corrections. the goal is always the same: to deny the pattern. the big lie the narrative wants us to believe that all groups perform exactly the same — and that any difference must therefore be “systemic racism” or “discrimination”. facts that contradict this are not allowed to exist. discussion is taboo. policy remains based on wishful thinking. anyone who simply mentions the figures receives no counter-argument with better data. they get moral outrage, cancellation attempts and often a label. oim way out facts are the starting point of every honest solution. we must stop lying to ourselves: stop criminalising statistics. stop playing with absolute versus relative numbers to hide patterns. dare to apply differentiation in immigration, integration, crime policy and education. acknowledge that culture, behaviour, selection and demography do matter. a mature society can handle the truth. a sick society forbids the truth and calls it “inclusion”. question to you do you still dare to look at the real figures — both absolute and relative — even when they are uncomfortable? or do you keep quiet because you’re afraid of the “racist” label? facts are not racist. they are simply facts. time to let them back into the conversation. factsarenotracist statisticalmanipulation realityvsnarrative rvn openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/nl/hash-verifier
+fuzzy_sha256: ba695f9008b7b5e2be6a30edd1d144718a9a820e44c183238d4c11010e08aef4
+full_sha256: 5547ffcc4f7cb5fa36f3ad882ca92cd00bee3ffa4a0ab5d8e23f6e6a75e8941f
+
 ---
 
 

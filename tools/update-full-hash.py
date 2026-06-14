@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# tools/update-full-hash.py
+# tools/update-full-hash.py - Robuuste full_sha256 update op basis van raw_markdown
 
 import sys
 import re
@@ -10,42 +10,51 @@ from pathlib import Path
 def sha256(text):
     return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
+def extract_raw_markdown(content):
+    """Extract raw_markdown block"""
+    match = re.search(r'raw_markdown\s*:\s*\|-?\s*\n([\s\S]*?)(?=\n\w+\s*:|\n---\s*$|\Z)', content, re.DOTALL)
+    if match:
+        return textwrap.dedent(match.group(1)).strip()
+    return ""
+
 def update_full(filepath, update=False):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    match = re.match(r'^(---\s*\n)([\s\S]*?)(\n---\s*\n)([\s\S]*)$', content)
-    if not match:
+    raw_markdown = extract_raw_markdown(content)
+    if not raw_markdown:
+        print(f"❌ Geen raw_markdown gevonden: {filepath.name}")
         return False
-
-    front_start = match.group(1)
-    front_body = match.group(2)
-    front_end = match.group(3)
-    body = match.group(4)
-
-    raw_match = re.search(r'raw_markdown\s*:\s*\|-?\s*\n((?:.*?(?:\n|$))*?)(?=\n\w+\s*:|\n---|\Z)', front_body, re.DOTALL)
-    raw_markdown = textwrap.dedent(raw_match.group(1)).strip() if raw_match else ""
 
     full_sha = sha256(raw_markdown)
 
-    new_front = re.sub(r'full_sha256\s*:\s*[^\n]+\n?', '', front_body)
-    new_front = new_front.strip() + f"\nfull_sha256: {full_sha}\n"
+    if not update:
+        print(f"Would update → {filepath.name} | length: {len(raw_markdown)} | sha: {full_sha[:12]}...")
+        return True
 
-    new_content = front_start + new_front.strip() + "\n" + front_end + body
+    # Backup + update
+    backup = filepath.with_suffix('.bak_full')
+    backup.write_text(content, encoding='utf-8')
 
-    if update:
-        backup = filepath.with_suffix('.bak_full')
-        backup.write_text(content, encoding='utf-8')
-        filepath.write_text(new_content, encoding='utf-8')
-        print(f"✅ full updated: {filepath.name}")
-    else:
-        print(f"DRY full: {filepath.name} → {full_sha[:12]}...")
+    # Vervang bestaande full_sha256
+    new_content = re.sub(
+        r'full_sha256\s*:\s*[^\n\r]+',
+        f'full_sha256: {full_sha}',
+        content
+    )
 
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+
+    print(f"✅ Updated full_sha256 → {filepath.name}")
     return True
 
+
 if __name__ == "__main__":
-    dry_run = "--dry-run" in sys.argv or "-d" in sys.argv
-    base_dir = Path("_social-posts")
-    for lang in ["nl", "en"]:
-        for file in sorted((base_dir / lang).glob("day-*.md")):
-            update_full(file, not dry_run)
+    if len(sys.argv) < 2:
+        print("Gebruik: python3 tools/update-full-hash.py <bestand.md> [--update]")
+        sys.exit(1)
+
+    filepath = Path(sys.argv[1])
+    update = "--update" in sys.argv
+    update_full(filepath, update)

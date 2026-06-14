@@ -1,129 +1,133 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 72
-rvn_title: "Schijnvooruitgang #3: De warmtepomp als groene redding?"
-rvn_teaser: "Duurzaam, energiezuinig en de toekomst. Maar klopt dat verhaal eigenlijk wel?"
+rvn_title: "Illusory Progress #3: The Heat Pump as Green Salvation?"
+rvn_teaser: "Sustainable, energy-efficient and the future. But does that story actually hold up?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:08.073983"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:13.242109"
 raw_markdown: |
-  **Schijnvooruitgang – Dag 28: De warmtepomp als groene redding?** ♨️
+  **Illusory Progress – Day 28: The Heat Pump as Green Salvation?** ♨️
   
-  **Korte recap**  
-  Dag 1: Introductie van de serie.  
-  Dag 2: Leasing – hoe “flexibel rijden” vooral meer afhankelijkheid en hogere kosten oplevert.
+  **Short Recap**  
+  Day 1: Introduction to the series.  
+  Day 2: Leasing – how “flexible driving” mostly creates more dependence and higher costs.
   
-  **Narratief**  
-  De warmtepomp is dé oplossing voor de toekomst.  
-  Geen gas meer, superzuinig, goed voor het klimaat, royaal gesubsidieerd en je doet mee aan de energietransitie. Wie niet meedoet is achterlijk of anti-duurzaam.
+  **The Narrative**  
+  The heat pump is *the* solution for the future.  
+  No more gas, highly efficient, good for the climate, heavily subsidized by the government, and you’re doing your part for the energy transition. Anyone who doesn’t participate is backward or anti-sustainable.
   
-  **Realiteit – meerdere lagen**
+  **The Reality – Multiple Layers**
   
-  - **Laag 1 – Kosten**  
-    Aanschaf €8.000 tot €18.000 (inclusief installatie). Terugverdientijd vaak 12-20 jaar, áls hij überhaupt goed werkt.
+  - **Layer 1 – Costs**  
+    Purchase price €8,000 to €18,000+ (including installation). Payback period often 12–20 years, *if* it even performs well.
   
-  - **Laag 2 – Praktijk in Nederlandse huizen**  
-    Veel huizen zijn matig tot slecht geïsoleerd. Resultaat: extreem hoog stroomverbruik en torenhoge maandlasten, vooral in de winter.
+  - **Layer 2 – Reality in Dutch homes**  
+    Many houses are poorly insulated. Result: extremely high electricity consumption and very high monthly bills, especially in winter.
   
-  - **Laag 3 – Prestaties bij kou**  
-    Bij vorst daalt het rendement dramatisch. Veel systemen schakelen dan over op elektrische weerstand of moeten bijverwarmd worden met… gas.
+  - **Layer 3 – Performance in cold weather**  
+    Efficiency drops dramatically when it freezes. Many systems then switch to electric resistance heating or need additional gas backup.
   
-  - **Laag 4 – Afhankelijkheid**  
-    Je ruilt gas (waarvan we een redelijke voorraad hadden) in voor volledige afhankelijkheid van het elektriciteitsnet én de sterk fluctuerende stroomprijzen.
+  - **Layer 4 – Increased Dependence**  
+    You trade gas (of which we had reasonable reserves) for complete dependence on the electricity grid and strongly fluctuating electricity prices.
   
-  - **Laag 5 – Wie verdient er echt aan?**  
-    Subsidies, installateurs, fabrikanten, netbeheerders en consultants. Het geld stroomt vooral naar de bovenkant van de keten, niet naar échte CO₂-reductie.
+  - **Layer 5 – Who actually profits?**  
+    Subsidies, installers, manufacturers, grid operators and consultants. The money mainly flows to the top of the chain, not to real CO₂ reduction.
   
-  **Persoonlijke laag**  
-  Sinds de gasprijzen fors stegen, verwarm ik zelf al jaren met een petroleumkachel. Simpel, direct warmte, lage aanschafkosten, en ik bepaal zelf wanneer en hoeveel ik stook. Geen dure installateur, geen subsidie, geen complexe techniek die stuk kan gaan. Het werkt.
+  **Personal Layer**  
+  Since gas prices rose sharply, I have been heating my home for years with a petroleum heater. Simple, direct heat, low purchase cost, and I decide for myself when and how much I use. No expensive installer, no subsidy, no complex technology that can break down. It just works.
   
-  Dit is precies waar het om draait: echte oplossingen zijn vaak eenvoudiger, goedkoper en onafhankelijker dan de gesubsidieerde “toekomst” die ons wordt voorgeschoteld.
+  This is exactly what it’s about: real solutions are often simpler, cheaper and more independent than the subsidized “future” we are being sold.
   
-  **OIM-uitweg**  
-  Investeer eerst in goede isolatie.  
-  Overweeg alternatieven zoals pelletkachels, infraroodpanelen, of petroleumkachels als back-up.  
-  Denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt.  
-  Echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen.
+  **The OIM Way Out**  
+  First invest in proper insulation (roof, floor, walls, HR+++ glass).  
+  Consider alternatives such as pellet stoves, infrared panels, or petroleum heaters as backup.  
+  Think critically before jumping on the subsidy train that mainly makes others richer.  
+  Real sustainability starts with independence and common sense, not with forced complexity.
   
-    ---
+  ***
   
-  Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+  You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
-  Probeer hem gerust uit:  
+  Feel free to try it:  
   https://openinternetmanifest.org/nl/nexus-quick-post
   
-  **Vraag aan jou**  
-  Is de warmtepomp échte duurzame vooruitgang, of vooral een dure, complexe en afhankelijke oplossing met een groen jasje?
+  **Question to you**  
+  Is the heat pump real sustainable progress, or mainly an expensive, complex and dependent solution with a green coat of paint?
   
-  #Schijnvooruitgang #Warmtepomp #Energietransitie #EchteDuurzaamheid #Onafhankelijkheid #OpenInternetManifest
+  #IllusoryProgress #HeatPump #EnergyTransition #RealSustainability #Independence #OpenInternetManifest
   
-     ---
+  ***
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  schijnvooruitgang – dag 28: de warmtepomp als groene redding? ♨️ korte recap dag 1: introductie van de serie. dag 2: leasing – hoe “flexibel rijden” vooral meer afhankelijkheid en hogere kosten oplevert. narratief de warmtepomp is dé oplossing voor de toekomst. geen gas meer, superzuinig, goed voor het klimaat, royaal gesubsidieerd en je doet mee aan de energietransitie. wie niet meedoet is achterlijk of anti-duurzaam. realiteit – meerdere lagen laag 1 – kosten aanschaf €8.000 tot €18.000 (inclusief installatie). terugverdientijd vaak 12-20 jaar, áls hij überhaupt goed werkt. laag 2 – praktijk in nederlandse huizen veel huizen zijn matig tot slecht geïsoleerd. resultaat: extreem hoog stroomverbruik en torenhoge maandlasten, vooral in de winter. laag 3 – prestaties bij kou bij vorst daalt het rendement dramatisch. veel systemen schakelen dan over op elektrische weerstand of moeten bijverwarmd worden met... gas. laag 4 – afhankelijkheid je ruilt gas (waarvan we een redelijke voorraad hadden) in voor volledige afhankelijkheid van het elektriciteitsnet én de sterk fluctuerende stroomprijzen. laag 5 – wie verdient er echt aan? subsidies, installateurs, fabrikanten, netbeheerders en consultants. het geld stroomt vooral naar de bovenkant van de keten, niet naar échte co2-reductie. persoonlijke laag sinds de gasprijzen fors stegen, verwarm ik zelf al jaren met een petroleumkachel. simpel, direct warmte, lage aanschafkosten, en ik bepaal zelf wanneer en hoeveel ik stook. geen dure installateur, geen subsidie, geen complexe techniek die stuk kan gaan. het werkt. dit is precies waar het om draait: echte oplossingen zijn vaak eenvoudiger, goedkoper en onafhankelijker dan de gesubsidieerde “toekomst” die ons wordt voorgeschoteld. oim-uitweg investeer eerst in goede isolatie. overweeg alternatieven zoals pelletkachels, infraroodpanelen, of petroleumkachels als back-up. denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt. echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is de warmtepomp échte duurzame vooruitgang, of vooral een dure, complexe en afhankelijke oplossing met een groen jasje? #schijnvooruitgang #warmtepomp #energietransitie #echteduurzaamheid #onafhankelijkheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: a677b2173d198396431887567fb4a559689c63e54e8194dd709625ef099a6a29
-fuzzy_sha256: d2e3525f6464a1e886bdeacc2ed32d0fc6a9fb2e3790c6b64b36ae0a5c96289b
+  illusory progress – day 28: the heat pump as green salvation? ♨️ short recap day 1: introduction to the series. day 2: leasing – how “flexible driving” mostly creates more dependence and higher costs. the narrative the heat pump is the solution for the future. no more gas, highly efficient, good for the climate, heavily subsidized by the government, and you’re doing your part for the energy transition. anyone who doesn’t participate is backward or anti-sustainable. the reality – multiple layers layer 1 – costs purchase price €8,000 to €18,000+ (including installation). payback period often 12–20 years, if it even performs well. layer 2 – reality in dutch homes many houses are poorly insulated. result: extremely high electricity consumption and very high monthly bills, especially in winter. layer 3 – performance in cold weather efficiency drops dramatically when it freezes. many systems then switch to electric resistance heating or need additional gas backup. layer 4 – increased dependence you trade gas (of which we had reasonable reserves) for complete dependence on the electricity grid and strongly fluctuating electricity prices. layer 5 – who actually profits? subsidies, installers, manufacturers, grid operators and consultants. the money mainly flows to the top of the chain, not to real co2 reduction. personal layer since gas prices rose sharply, i have been heating my home for years with a petroleum heater. simple, direct heat, low purchase cost, and i decide for myself when and how much i use. no expensive installer, no subsidy, no complex technology that can break down. it just works. this is exactly what it’s about: real solutions are often simpler, cheaper and more independent than the subsidized “future” we are being sold. the oim way out first invest in proper insulation (roof, floor, walls, hr+++ glass). consider alternatives such as pellet stoves, infrared panels, or petroleum heaters as backup. think critically before jumping on the subsidy train that mainly makes others richer. real sustainability starts with independence and common sense, not with forced complexity. you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you is the heat pump real sustainable progress, or mainly an expensive, complex and dependent solution with a green coat of paint? illusoryprogress heatpump energytransition realsustainability independence openinternetmanifest this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 61a1f35a547c1c0172b39d3e9630d289e65fbe40715fa9167f322875aa40e598
+full_sha256: 7f9874f1046c524e39cce13cd55781967d2c433eb910d7a588f7c84d932a123c
 
 ---
 
 
 
-**Schijnvooruitgang – Dag 28: De warmtepomp als groene redding?** ♨️
+**Illusory Progress – Day 28: The Heat Pump as Green Salvation?** ♨️
 
-**Korte recap**  
-Dag 1: Introductie van de serie.  
-Dag 2: Leasing – hoe “flexibel rijden” vooral meer afhankelijkheid en hogere kosten oplevert.
+**Short Recap**  
+Day 1: Introduction to the series.  
+Day 2: Leasing – how “flexible driving” mostly creates more dependence and higher costs.
 
-**Narratief**  
-De warmtepomp is dé oplossing voor de toekomst.  
-Geen gas meer, superzuinig, goed voor het klimaat, royaal gesubsidieerd en je doet mee aan de energietransitie. Wie niet meedoet is achterlijk of anti-duurzaam.
+**The Narrative**  
+The heat pump is *the* solution for the future.  
+No more gas, highly efficient, good for the climate, heavily subsidized by the government, and you’re doing your part for the energy transition. Anyone who doesn’t participate is backward or anti-sustainable.
 
-**Realiteit – meerdere lagen**
+**The Reality – Multiple Layers**
 
-- **Laag 1 – Kosten**  
-  Aanschaf €8.000 tot €18.000 (inclusief installatie). Terugverdientijd vaak 12-20 jaar, áls hij überhaupt goed werkt.
+- **Layer 1 – Costs**  
+  Purchase price €8,000 to €18,000+ (including installation). Payback period often 12–20 years, *if* it even performs well.
 
-- **Laag 2 – Praktijk in Nederlandse huizen**  
-  Veel huizen zijn matig tot slecht geïsoleerd. Resultaat: extreem hoog stroomverbruik en torenhoge maandlasten, vooral in de winter.
+- **Layer 2 – Reality in Dutch homes**  
+  Many houses are poorly insulated. Result: extremely high electricity consumption and very high monthly bills, especially in winter.
 
-- **Laag 3 – Prestaties bij kou**  
-  Bij vorst daalt het rendement dramatisch. Veel systemen schakelen dan over op elektrische weerstand of moeten bijverwarmd worden met… gas.
+- **Layer 3 – Performance in cold weather**  
+  Efficiency drops dramatically when it freezes. Many systems then switch to electric resistance heating or need additional gas backup.
 
-- **Laag 4 – Afhankelijkheid**  
-  Je ruilt gas (waarvan we een redelijke voorraad hadden) in voor volledige afhankelijkheid van het elektriciteitsnet én de sterk fluctuerende stroomprijzen.
+- **Layer 4 – Increased Dependence**  
+  You trade gas (of which we had reasonable reserves) for complete dependence on the electricity grid and strongly fluctuating electricity prices.
 
-- **Laag 5 – Wie verdient er echt aan?**  
-  Subsidies, installateurs, fabrikanten, netbeheerders en consultants. Het geld stroomt vooral naar de bovenkant van de keten, niet naar échte CO₂-reductie.
+- **Layer 5 – Who actually profits?**  
+  Subsidies, installers, manufacturers, grid operators and consultants. The money mainly flows to the top of the chain, not to real CO₂ reduction.
 
-**Persoonlijke laag**  
-Sinds de gasprijzen fors stegen, verwarm ik zelf al jaren met een petroleumkachel. Simpel, direct warmte, lage aanschafkosten, en ik bepaal zelf wanneer en hoeveel ik stook. Geen dure installateur, geen subsidie, geen complexe techniek die stuk kan gaan. Het werkt.
+**Personal Layer**  
+Since gas prices rose sharply, I have been heating my home for years with a petroleum heater. Simple, direct heat, low purchase cost, and I decide for myself when and how much I use. No expensive installer, no subsidy, no complex technology that can break down. It just works.
 
-Dit is precies waar het om draait: echte oplossingen zijn vaak eenvoudiger, goedkoper en onafhankelijker dan de gesubsidieerde “toekomst” die ons wordt voorgeschoteld.
+This is exactly what it’s about: real solutions are often simpler, cheaper and more independent than the subsidized “future” we are being sold.
 
-**OIM-uitweg**  
-Investeer eerst in goede isolatie.  
-Overweeg alternatieven zoals pelletkachels, infraroodpanelen, of petroleumkachels als back-up.  
-Denk na voordat je meegaat in de subsidietrein die vooral anderen rijker maakt.  
-Echte duurzaamheid begint bij onafhankelijkheid en gezond verstand, niet bij verplicht complex doen.
+**The OIM Way Out**  
+First invest in proper insulation (roof, floor, walls, HR+++ glass).  
+Consider alternatives such as pellet stoves, infrared panels, or petroleum heaters as backup.  
+Think critically before jumping on the subsidy train that mainly makes others richer.  
+Real sustainability starts with independence and common sense, not with forced complexity.
 
----
+***
 
-Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
-Probeer hem gerust uit:  
+Feel free to try it:  
 https://openinternetmanifest.org/nl/nexus-quick-post
 
-**Vraag aan jou**  
-Is de warmtepomp échte duurzame vooruitgang, of vooral een dure, complexe en afhankelijke oplossing met een groen jasje?
+**Question to you**  
+Is the heat pump real sustainable progress, or mainly an expensive, complex and dependent solution with a green coat of paint?
 
-#Schijnvooruitgang #Warmtepomp #Energietransitie #EchteDuurzaamheid #Onafhankelijkheid #OpenInternetManifest
+#IllusoryProgress #HeatPump #EnergyTransition #RealSustainability #Independence #OpenInternetManifest
 
----
+***
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# tools/update-fuzzy-hash.py
+# tools/update-fuzzy-hash.py - Herberekent fuzzy_sha256 op basis van clean_text
 
 import sys
 import re
@@ -10,41 +10,52 @@ def sha256(text):
     return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
 def update_fuzzy(filepath, update=False):
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
+    filepath = Path(filepath)
+    content = filepath.read_text(encoding='utf-8')
 
-    match = re.match(r'^(---\s*\n)([\s\S]*?)(\n---\s*\n)([\s\S]*)$', content)
+    # Extract clean_text (multi-line met |- of |)
+    match = re.search(r'clean_text\s*:\s*\|-?\s*\n([\s\S]*?)(?=\n\w+\s*:|\n---\s*$|\Z)', content, re.DOTALL)
     if not match:
+        print(f"⚠️  Geen clean_text gevonden: {filepath.name}")
         return False
 
-    front_start = match.group(1)
-    front_body = match.group(2)
-    front_end = match.group(3)
-    body = match.group(4)
-
-    clean_match = re.search(r'clean_text\s*:\s*\|-?\s*\n((?:[ \t].*?(?:\n|$))*?)(?=\n\w+\s*:|\n---|\Z)', front_body, re.DOTALL)
-    clean_text = clean_match.group(1).strip() if clean_match else ""
-
+    clean_text = match.group(1).strip()
     fuzzy_sha = sha256(clean_text)
 
-    new_front = re.sub(r'fuzzy_sha256\s*:\s*[^\n]+\n?', '', front_body)
-    new_front = new_front.strip() + f"\nfuzzy_sha256: {fuzzy_sha}\n"
+    if not update:
+        print(f"DRY-RUN → {filepath.name} | fuzzy: {fuzzy_sha[:16]}...")
+        return True
 
-    new_content = front_start + new_front.strip() + "\n" + front_end + body
+    # Backup + update
+    backup = filepath.with_suffix('.bak_fuzzy')
+    backup.write_text(content, encoding='utf-8')
 
-    if update:
-        backup = filepath.with_suffix('.bak_fuzzy')
-        backup.write_text(content, encoding='utf-8')
-        filepath.write_text(new_content, encoding='utf-8')
-        print(f"✅ fuzzy updated: {filepath.name}")
-    else:
-        print(f"DRY fuzzy: {filepath.name} → {fuzzy_sha[:12]}...")
+    # Vervang oude fuzzy_sha256
+    new_content = re.sub(
+        r'fuzzy_sha256\s*:\s*[^\n\r]+',
+        f'fuzzy_sha256: {fuzzy_sha}',
+        content
+    )
 
+    filepath.write_text(new_content, encoding='utf-8')
+    print(f"✅ fuzzy_sha256 bijgewerkt: {filepath.name}")
     return True
 
+
 if __name__ == "__main__":
-    dry_run = "--dry-run" in sys.argv or "-d" in sys.argv
-    base_dir = Path("_social-posts")
-    for lang in ["nl", "en"]:
-        for file in sorted((base_dir / lang).glob("day-*.md")):
-            update_fuzzy(file, not dry_run)
+    update_mode = "--update" in sys.argv
+    files = [arg for arg in sys.argv[1:] if arg != "--update"]
+
+    if not files:
+        # Bulk mode
+        print("🔄 Bulk fuzzy_sha256 update started...\n")
+        total = 0
+        for lang in ["nl", "en"]:
+            for file in sorted(Path(f"_social-posts/{lang}").glob("*.md")):
+                if update_fuzzy(file, update_mode):
+                    total += 1
+        print(f"\n🎉 Klaar! {total} bestanden verwerkt.")
+    else:
+        # Single file(s)
+        for f in files:
+            update_fuzzy(f, update_mode)

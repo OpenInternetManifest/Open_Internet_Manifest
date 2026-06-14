@@ -1,59 +1,36 @@
 ---
 layout: social-posts
-lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
+lang: en
 day: 12
-rvn_title: Toeslagenaffaire
-# rvn_url: /nl/social-posts/dag-12-rvn
-rvn_teaser: de stal die niet barst
+rvn_title: Benefits Scandal
+rvn_teaser: The farm that won't break
 raw_markdown: |
-  **Realiteit vs Narratief** – Toeslagenaffaire: de stal die niet barst 🏛️💔
-  
-  Jarenlang: "geen etnisch profileren", "geen racisme", "fouten, maar geen opzet". Duizenden ouders in de ellende gedreven, huizen kwijt, relaties kapot, kinderen uit huis geplaatst.  
-  
-  Realiteit: het was systematisch, bewust, en racistisch geframed als "risico-analyse". Rapport na rapport (Parlementaire Ondervragingscommissie, Auditdienst Rijk, Kinderombudsman) bevestigt: de Belastingdienst wist het, ministers wisten het, en toch ging het door.  
-  
-  Nu, in 2026: nog steeds geen echte verantwoording. Excuses van het demissionair kabinet, maar geen koppen rollen, geen structurele hervorming, geen onafhankelijke controle op algoritmes en risicoprofielen. Dezelfde machine draait door, alleen met een ander label.  
-  
-  Voor de slachtoffers: trauma dat nooit overgaat, schulden die blijven, vertrouwen dat kapot is. Voor ons allemaal: bewijs dat de staat kan liegen, ontkennen en vernietigen – en dat "wakker worden" vaak stopt bij de volgende laag (nieuwe partij, nieuwe belofte, nieuwe stal).  
-  
-  Trump in Davos breekt frontaal met deep state-narratieven. Hier in NL barst de toeslagenstal nog niet: het systeem beschermt zichzelf, en de slachtoffers betalen de prijs.  
-  
-  Open Internet Manifest wil geen stallen – een web zonder gecentraliseerde controle, zonder algoritmes die levens verwoesten, zonder narratief-monopolie.  
-  
-  Lees mee: https://openinternetmanifest.org  
-  #RealiteitVsNarratief #Toeslagenaffaire #GeenStal #OIM ❤️
-  
-  Deze post is 100% authentiek en verifieerbaar via:
-  https://openinternetmanifest.org/nl/hash-verifier
-  Plak de volledige tekst in → check zelf.
+  **Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
+  For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.
+  Reality: systematic, deliberate, framed as "risk analysis". Report after report confirms: Tax Authority knew, ministers knew, yet it continued.
+  In 2026: still no real accountability. Cabinet apologies, but no heads roll, no structural reform, no independent control on algorithms and risk profiles. The machine keeps running, just with a new label.
+  For victims: trauma that never ends, debts that linger, trust destroyed. For all of us: proof the state can lie, deny, and destroy – and "waking up" often stops at the next layer (new party, new promise, new pen).
+  Trump assaults deep state narratives in Davos. Here in NL, the benefits farm still stands: the system protects itself, victims pay the price.
+  Open Internet Manifest wants no pens – a web without centralized control, without algorithms ruining lives, without narrative monopoly.
+  Join: https://openinternetmanifest.org
+  #RealityVsNarrative #BenefitsScandal #NoMorePens #OIM ❤️
+
+
+
+
 clean_text: |-
-  realiteit vs narratief – toeslagenaffaire: de stal die niet barst 🏛️💔 jarenlang: "geen etnisch profileren", "geen racisme", "fouten, maar geen opzet". duizenden ouders in de ellende gedreven, huizen kwijt, relaties kapot, kinderen uit huis geplaatst. realiteit: het was systematisch, bewust, en racistisch geframed als "risico-analyse". rapport na rapport (parlementaire ondervragingscommissie, auditdienst rijk, kinderombudsman) bevestigt: de belastingdienst wist het, ministers wisten het, en toch ging het door. nu, in 2026: nog steeds geen echte verantwoording. excuses van het demissionair kabinet, maar geen koppen rollen, geen structurele hervorming, geen onafhankelijke controle op algoritmes en risicoprofielen. dezelfde machine draait door, alleen met een ander label. voor de slachtoffers: trauma dat nooit overgaat, schulden die blijven, vertrouwen dat kapot is. voor ons allemaal: bewijs dat de staat kan liegen, ontkennen en vernietigen – en dat "wakker worden" vaak stopt bij de volgende laag (nieuwe partij, nieuwe belofte, nieuwe stal). trump in davos breekt frontaal met deep state-narratieven. hier in nl barst de toeslagenstal nog niet: het systeem beschermt zichzelf, en de slachtoffers betalen de prijs. open internet manifest wil geen stallen – een web zonder gecentraliseerde controle, zonder algoritmes die levens verwoesten, zonder narratief-monopolie. lees mee: https://openinternetmanifest.org #realiteitvsnarratief #toeslagenaffaire #geenstal #oim ❤️ deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier plak de volledige tekst in → check zelf.
-full_sha256: e68b4bd350b359bd249889b3bd1bb409541aeea3acd1821125665a3a2547b9db
-fuzzy_sha256: f823a310d83d75f3f39cb0123466f610999d8c7b08b3af7f70d177c1780fd8d3
+  reality vs narrative – benefits scandal: the farm that won't break 🏛️💔 for years: "no ethnic profiling", "no racism", "mistakes but no intent". thousands of parents ruined, homes lost, children taken away. reality: systematic, deliberate, framed as "risk analysis". report after report confirms: tax authority knew, ministers knew, yet it continued. in 2026: still no real accountability. cabinet apologies, but no heads roll, no structural reform, no independent control on algorithms and risk profiles. the machine keeps running, just with a new label. for victims: trauma that never ends, debts that linger, trust destroyed. for all of us: proof the state can lie, deny, and destroy – and "waking up" often stops at the next layer (new party, new promise, new pen). trump assaults deep state narratives in davos. here in nl, the benefits farm still stands: the system protects itself, victims pay the price. open internet manifest wants no pens – a web without centralized control, without algorithms ruining lives, without narrative monopoly. join: https://openinternetmanifest.org realityvsnarrative benefitsscandal nomorepens oim ❤️
+fuzzy_sha256: b8059d534bc11319917cc7b4e15b74abef486cce7ee7b3deb3194a1c22f462b7
+full_sha256: 24427ce72ee7d71b03f216fc5542674ff1f8586e47acf4c8e08d001b2e4158ab
 
 ---
 
-**Realiteit vs Narratief** – Toeslagenaffaire: de stal die niet barst 🏛️💔
-
-Jarenlang: "geen etnisch profileren", "geen racisme", "fouten, maar geen opzet". Duizenden ouders in de ellende gedreven, huizen kwijt, relaties kapot, kinderen uit huis geplaatst.  
-
-Realiteit: het was systematisch, bewust, en racistisch geframed als "risico-analyse". Rapport na rapport (Parlementaire Ondervragingscommissie, Auditdienst Rijk, Kinderombudsman) bevestigt: de Belastingdienst wist het, ministers wisten het, en toch ging het door.  
-
-Nu, in 2026: nog steeds geen echte verantwoording. Excuses van het demissionair kabinet, maar geen koppen rollen, geen structurele hervorming, geen onafhankelijke controle op algoritmes en risicoprofielen. Dezelfde machine draait door, alleen met een ander label.  
-
-Voor de slachtoffers: trauma dat nooit overgaat, schulden die blijven, vertrouwen dat kapot is. Voor ons allemaal: bewijs dat de staat kan liegen, ontkennen en vernietigen – en dat "wakker worden" vaak stopt bij de volgende laag (nieuwe partij, nieuwe belofte, nieuwe stal).  
-
-Trump in Davos breekt frontaal met deep state-narratieven. Hier in NL barst de toeslagenstal nog niet: het systeem beschermt zichzelf, en de slachtoffers betalen de prijs.  
-
-Open Internet Manifest wil geen stallen – een web zonder gecentraliseerde controle, zonder algoritmes die levens verwoesten, zonder narratief-monopolie.  
-
-Lees mee: https://openinternetmanifest.org  
-#RealiteitVsNarratief #Toeslagenaffaire #GeenStal #OIM ❤️
-
-Deze post is 100% authentiek en verifieerbaar via:
-https://openinternetmanifest.org/nl/hash-verifier
-Plak de volledige tekst in → check zelf.
+**Reality vs Narrative** – Benefits Scandal: the farm that won't break 🏛️💔
+For years: "no ethnic profiling", "no racism", "mistakes but no intent". Thousands of parents ruined, homes lost, children taken away.
+Reality: systematic, deliberate, framed as "risk analysis". Report after report confirms: Tax Authority knew, ministers knew, yet it continued.
+In 2026: still no real accountability. Cabinet apologies, but no heads roll, no structural reform, no independent control on algorithms and risk profiles. The machine keeps running, just with a new label.
+For victims: trauma that never ends, debts that linger, trust destroyed. For all of us: proof the state can lie, deny, and destroy – and "waking up" often stops at the next layer (new party, new promise, new pen).
+Trump assaults deep state narratives in Davos. Here in NL, the benefits farm still stands: the system protects itself, victims pay the price.
+Open Internet Manifest wants no pens – a web without centralized control, without algorithms ruining lives, without narrative monopoly.
+Join: https://openinternetmanifest.org
+#RealityVsNarrative #BenefitsScandal #NoMorePens #OIM ❤️

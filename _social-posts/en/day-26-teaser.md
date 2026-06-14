@@ -21,10 +21,13 @@ raw_markdown: |
   #RealityVsNarrative #Day25Teaser
 
 
-full_sha256: 0502cfc6453f44212dcd75c284a0ef143a09e905f28fa717587db48c1496ee26
-fuzzy_sha256: 787ea12d6697ba6e0fcf47e9219ff6dd2eb13721013f998965610335b3e985a1
+
+
+
 clean_text: |-
-  🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: the invisible layer above. big three (blackrock, vanguard, state street) + bis — who really holds the buttons while we watch visible players? tonight: just breathe. tomorrow: back at it. tomorrow we look at politics itself. from “affairs of the citizen” (taking responsibility) to the theater it often is now. and why that difference matters. open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day25teaser
+  🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: the invisible layer above. big three (blackrock, vanguard, state street) + bis — who really holds the buttons while we watch visible players? tonight: just breathe. tomorrow: back at it. tomorrow we look at politics itself. from “affairs of the citizen” (taking responsibility) to the theater it often is now. and why that difference matters. open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day25teaser
+fuzzy_sha256: f585898b6b5e0e62fbde708aefae47ed4b22ecb46476f072d66e26777df0ca4e
+full_sha256: 0502cfc6453f44212dcd75c284a0ef143a09e905f28fa717587db48c1496ee26
 
 ---
 

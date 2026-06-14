@@ -12,10 +12,13 @@ raw_markdown: |
   The OIM demands: digital rights must mirror real-life constitutional rights (free speech, privacy, assembly, anonymity) – no exceptions, no blackouts.
   Teasers tonight 19:00 CET – join to fight for a truly open, uncensored internet.
 
-full_sha256: b44af2994aa8cb46c188d5f0abba5f9f155a3d36d0ced31f912c54b57f3ec2ea
-fuzzy_sha256: dafe66d9ba3a7085af956a4e4025193dcc9a805ab40d3af7c78ba3a9a626db77
+
+
+
 clean_text: |-
   english summary: reality vs. narrative – the open internet manifest (iran focus). narrative: censorship & blackouts are sometimes necessary for order. reality: iran's total internet shutdown since jan 8 crushes protests – that's what happens when information control wins. if the dark web is the only free space left, the regular web is already a cage. the oim demands: digital rights must mirror real-life constitutional rights (free speech, privacy, assembly, anonymity) – no exceptions, no blackouts. teasers tonight 19:00 cet – join to fight for a truly open, uncensored internet.
+fuzzy_sha256: f27b1fa7415ecdc4698411a94459b968361cac034051da5fa27e1e5587212dfc
+full_sha256: 0400e29ea093f6e791405d862641319eab87c8c8fb36e15f2f18ed9696c0b2d0
 
 ---
 

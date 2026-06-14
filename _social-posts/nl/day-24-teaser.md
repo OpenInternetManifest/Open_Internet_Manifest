@@ -36,10 +36,13 @@ raw_markdown: |
   #RealityVsNarrative #Day23Teaser
 
 
-full_sha256: 3dca313d5add05da433143524b640ce8f11a76d01388f12a6f61b67c3ddaaa3e
-fuzzy_sha256: f7a82c903b445977d1f4546bee9b9fbe2b54c2ff297cf841ade244f016c489c5
+
+
+
 clean_text: |-
-  🇳🇱 dag 24 teaser – vanavond: even op adem 😏🍿 eerder: 1913. titanic ruimt tegenstanders op, fed en inkomstenbelasting erdoor, rockefeller bouwt door. vandaag: knights templar – eerste internationale banksysteem, macht boven kerk en koningen, ontbonden maar structuur bleef hangen. toeval? of een patroon dat al eeuwen draait? vanavond: even lucht. morgen: door. morgen kijken we naar een hedendaags voorbeeld van hetzelfde spel. obama en de iran-deal: $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel. good cop / bad cop — maar wie wint er echt? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag23teaser *** 🇬🇧 day 24 teaser – tonight: just breathe 😏🍿 earlier: 1913. titanic clears opponents, fed and income tax pushed through, rockefellers build on. today: knights templar – first international banking system, power above church and kings, dissolved but structure survived. coincidence? or a pattern running for centuries? tonight: just breathe. tomorrow: back at it. tomorrow we look at a modern example of the same game. obama and the iran deal: $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day23teaser
+  🇳🇱 dag 24 teaser – vanavond: even op adem 😏🍿 eerder: 1913. titanic ruimt tegenstanders op, fed en inkomstenbelasting erdoor, rockefeller bouwt door. vandaag: knights templar – eerste internationale banksysteem, macht boven kerk en koningen, ontbonden maar structuur bleef hangen. toeval? of een patroon dat al eeuwen draait? vanavond: even lucht. morgen: door. morgen kijken we naar een hedendaags voorbeeld van hetzelfde spel. obama en de iran-deal: $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel. good cop / bad cop — maar wie wint er echt? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts realiteitvsnarratief dag23teaser 🇬🇧 day 24 teaser – tonight: just breathe 😏🍿 earlier: 1913. titanic clears opponents, fed and income tax pushed through, rockefellers build on. today: knights templar – first international banking system, power above church and kings, dissolved but structure survived. coincidence? or a pattern running for centuries? tonight: just breathe. tomorrow: back at it. tomorrow we look at a modern example of the same game. obama and the iran deal: $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day23teaser
+fuzzy_sha256: de1e56e31e7dfe74b926f63ccb655f3ed73ae72a7fa23ccd62ed46660756719b
+full_sha256: ce668cbd5ca516f19ccc686daab7b19f313eb2b7c2398e0ce94b518e925d8bdb
 
 ---
 

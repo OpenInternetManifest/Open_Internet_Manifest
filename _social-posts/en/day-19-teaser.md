@@ -23,10 +23,13 @@ raw_markdown: |
   Why? Narratives spread fast — reality needs hashes.
 
 
-full_sha256: 164db29ed944e25feaa70908d638bc714977ad7e1eaf7d5af4bc252bd8e65836
-fuzzy_sha256: e5bfdf622f5a20bd4da18581afda7fdbdc511550ad817a98190c277d955c9ce9
+
+
+
 clean_text: |-
-  day 18 – utrecht drama 🚔😏 today, january 29. videos blowing up: cop kicks & hits two muslim women – narrative: "racism!" & "brutality!". complaint assault + racism filed. reality? police: nuisance + insults first, arrest for insult & obstruction, force under review. tomorrow: full context (and why comments full of "brothers"). open internet manifest: hashes over viral narratives. facts over frames. keep watching. 👀 https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day19teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives spread fast — reality needs hashes.
+  day 18 – utrecht drama 🚔😏 today, january 29. videos blowing up: cop kicks & hits two muslim women – narrative: "racism!" & "brutality!". complaint assault + racism filed. reality? police: nuisance + insults first, arrest for insult & obstruction, force under review. tomorrow: full context (and why comments full of "brothers"). open internet manifest: hashes over viral narratives. facts over frames. keep watching. 👀 https://openinternetmanifest.org/en/social-posts realityvsnarrative day19teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives spread fast — reality needs hashes.
+fuzzy_sha256: c5ef15bc9d23f845db0d12fe6582301530c04e1c134135c5d43b52b97d20b3f7
+full_sha256: 164db29ed944e25feaa70908d638bc714977ad7e1eaf7d5af4bc252bd8e65836
 
 ---
 

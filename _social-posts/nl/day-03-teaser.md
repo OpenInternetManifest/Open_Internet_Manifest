@@ -26,10 +26,13 @@ raw_markdown: |
   ❤️
 
 
-full_sha256: bb9c34bd75039427447b26c2b8d9be2bdc22b958fbaea113402836d25a34ed94
-fuzzy_sha256: b454a0e101d743752ea0da1ed5725b6094c80cefa4c0b657cdfb9078ca9189f3
+
+
+
 clean_text: |-
-  🇳🇱 dag 3 – vrijheid begint vandaag je hoeft niet te wachten op een perfect internet. begin nu al: stap-voor-stap guides voor mastodon, nextcloud, sovereign nodes en meer. praktische vrijheid in 10 minuten. 🚀 https://openinternetmanifest.org/nl/guides *** 🇬🇧 day 3 – freedom starts today no need to wait for a perfect internet. start now: step-by-step guides for mastodon, nextcloud, sovereign nodes and more. practical freedom in 10 minutes. 🚀 https://openinternetmanifest.org/en/guides https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon - social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+  🇳🇱 dag 3 – vrijheid begint vandaag je hoeft niet te wachten op een perfect internet. begin nu al: stap-voor-stap guides voor mastodon, nextcloud, sovereign nodes en meer. praktische vrijheid in 10 minuten. 🚀 https://openinternetmanifest.org/nl/guides 🇬🇧 day 3 – freedom starts today no need to wait for a perfect internet. start now: step-by-step guides for mastodon, nextcloud, sovereign nodes and more. practical freedom in 10 minutes. 🚀 https://openinternetmanifest.org/en/guides https://openinternetmanifest.org openinternetmanifest freeinternet decentralization cruciaal2026 privacy digitalid opensource internetfreedom selfhost nosurveillance @umbrel mastodon - social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+fuzzy_sha256: 1bac51d0f18566c0342cf02549c27f8a4355e34993b1e643c38b5f18f937a99d
+full_sha256: 476d1c0be25e2351427973e293533d40aa2a4f128b2034998e4a03b0153def20
 
 ---
 

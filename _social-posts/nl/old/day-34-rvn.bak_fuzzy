@@ -1,93 +1,94 @@
 ---
 layout: social-posts
-lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 6f7b3dfc15163214dfb182bd13b294a19ed6afde6d66f45a52c242bacd6f5a79
-social_share_sha256: ''
+lang: en
 day: 34
-rvn_title: De nieuwe look
-# rvn_url: /nl/social-posts/dag-34-rvn
-rvn_teaser: Bouwen in plaats van klagen
+rvn_title: The new look
+rvn_teaser: building instead of complaining
 raw_markdown: |
-  **Dag 34 – RVN: De nieuwe look – bouwen in plaats van klagen** 🛠️✨  
-  Van woorden naar werkelijkheid: de site krijgt vorm.
+  **Day 34 – RVN: The new look – building instead of complaining** 🛠️✨  
+  From words to reality: the site takes shape.
   
-  Deze week zagen we hoe narratieven ons gevangen houden:  
-  woorden die niet tellen op wat ze zeggen, maar op wat een frame ervan maakt  
-  transparantie die terugkaatst als boemerang  
-  feiten die alleen waarde hebben als ze in het eigen verhaal passen.
+  This week we saw how narratives keep us trapped:  
+  words weighed not on what they say, but on the frame they create  
+  transparency that boomerangs back  
+  facts that only have value if they fit the own story.
   
-  Maar terwijl het systeem zichzelf blootgeeft, bouwen wij door.  
-  Vanochtend live: de nieuwe theses- en guides-pagina's in card-grid stijl.  
-  - Alle 30 theses overzichtelijk, scanbaar, met teaser en nummer prominent  
-  - Guides met icon, difficulty-banner, tags – klaar voor tientallen meer  
-  - Dynamisch met Liquid + frontmatter (title, teaser, order, difficulty)  
-  - Responsive, donker thema, blauwe accenten – precies zoals de rest van de site
+  But while the system exposes itself, we keep building.  
+  Live this morning: the new theses and guides pages in card-grid style.  
+  - All 30 theses neatly organized, scannable, with teaser and number prominent  
+  - Guides with icon, difficulty banner, tags – ready for dozens more  
+  - Dynamic with Liquid + frontmatter (title, teaser, order, difficulty)  
+  - Responsive, dark theme, blue accents – exactly matching the rest of the site
   
-  Dit is geen toeval.  
-  Het is wat OIM wil: zelf bouwen in plaats van klagen over het oude systeem.  
-  Van een lege accu in november naar een levende site in februari – elke commit, elke CSS-tweak, elke frontmatter-regel is een stap uit de arena.
+  This is no coincidence.  
+  This is what OIM stands for: build yourself instead of complaining about the old system.  
+  From an empty battery in November to a living site in February – every commit, every CSS tweak, every frontmatter line is a step out of the arena.
   
-  De komende weken:  
-  - Collection _theses activeren → automatische nummering /100  
-  - Meer guides (node-redundantie, mesh-communicatie, lokale AI)  
-  - Community-inbreng via frontmatter: suggesties voor nieuwe theses/guides  
-  - Eventueel Giscus-threads per thema of "feature request"-sectie
+  Coming weeks:  
+  - Activate collection _theses → automatic numbering /100  
+  - More guides (node redundancy, mesh communication, local AI)  
+  - Community contributions via frontmatter: suggestions for new theses/guides  
+  - Possibly Giscus threads per theme or "feature request" section
   
-  Het internet wordt niet open door te wachten op anderen.  
-  Het wordt open door zelf te bouwen – klein beginnen, stap voor stap.
+  The internet doesn't become open by waiting for others.  
+  It becomes open by building ourselves – start small, step by step.
   
-  Dank voor deze week. Van synthese naar actie.  
-  Morgen verder: wat wordt de eerste nieuwe guide? Of een thema voor de volgende RVN-reeks?
+  Thanks for this week. From synthesis to action.  
+  Tomorrow: what will be the first new guide? Or a theme for the next RVN series?
   
-  Lees zelf. Check zelf. Bouw zelf.  
-  Wat ga jij toevoegen? 🛠️🌱
+  Read yourself. Check yourself. Build yourself.  
+  What will you add? 🛠️🌱
   
-  #RVN #OpenInternetManifest #FeitenBovenFrames #SiteUpdate #Decentralisatie #Dag34  
+  #RVN #OpenInternetManifest #FactsOverFrames #SiteUpdate #Decentralization #Day34  
   
-  https://openinternetmanifest.org
+  https://openinternetmanifest.org/en/manifest  
+  https://openinternetmanifest.org/en/guides
+
+
+
+
 clean_text: |-
-  dag 34 – rvn: de nieuwe look – bouwen in plaats van klagen 🛠️✨ van woorden naar werkelijkheid: de site krijgt vorm. deze week zagen we hoe narratieven ons gevangen houden: woorden die niet tellen op wat ze zeggen, maar op wat een frame ervan maakt transparantie die terugkaatst als boemerang feiten die alleen waarde hebben als ze in het eigen verhaal passen. maar terwijl het systeem zichzelf blootgeeft, bouwen wij door. vanochtend live: de nieuwe theses- en guides-pagina's in card-grid stijl. alle 30 theses overzichtelijk, scanbaar, met teaser en nummer prominent guides met icon, difficulty-banner, tags – klaar voor tientallen meer dynamisch met liquid + frontmatter (title, teaser, order, difficulty) responsive, donker thema, blauwe accenten – precies zoals de rest van de site dit is geen toeval. het is wat oim wil: zelf bouwen in plaats van klagen over het oude systeem. van een lege accu in november naar een levende site in februari – elke commit, elke css-tweak, elke frontmatter-regel is een stap uit de arena. de komende weken: collection _theses activeren → automatische nummering /100 meer guides (node-redundantie, mesh-communicatie, lokale ai) community-inbreng via frontmatter: suggesties voor nieuwe theses/guides eventueel giscus-threads per thema of "feature request"-sectie het internet wordt niet open door te wachten op anderen. het wordt open door zelf te bouwen – klein beginnen, stap voor stap. dank voor deze week. van synthese naar actie. morgen verder: wat wordt de eerste nieuwe guide? of een thema voor de volgende rvn-reeks? lees zelf. check zelf. bouw zelf. wat ga jij toevoegen? 🛠️🌱 #rvn #openinternetmanifest #feitenbovenframes #siteupdate #decentralisatie #dag34 https://openinternetmanifest.org
-full_sha256: 738c1762a0b2d158e38e3e7a186f0a3ffbe62d8e841b52de9192c2965c26803d
-fuzzy_sha256: 917f14dd903cd0250864e243e4ff44ff79ccb8c399c461b44c3ba79ee0545121
+  day 34 – rvn: the new look – building instead of complaining 🛠️✨ from words to reality: the site takes shape. this week we saw how narratives keep us trapped: words weighed not on what they say, but on the frame they create transparency that boomerangs back facts that only have value if they fit the own story. but while the system exposes itself, we keep building. live this morning: the new theses and guides pages in card-grid style. all 30 theses neatly organized, scannable, with teaser and number prominent guides with icon, difficulty banner, tags – ready for dozens more dynamic with liquid + frontmatter (title, teaser, order, difficulty) responsive, dark theme, blue accents – exactly matching the rest of the site this is no coincidence. this is what oim stands for: build yourself instead of complaining about the old system. from an empty battery in november to a living site in february – every commit, every css tweak, every frontmatter line is a step out of the arena. coming weeks: activate collection theses → automatic numbering /100 more guides (node redundancy, mesh communication, local ai) community contributions via frontmatter: suggestions for new theses/guides possibly giscus threads per theme or "feature request" section the internet doesn't become open by waiting for others. it becomes open by building ourselves – start small, step by step. thanks for this week. from synthesis to action. tomorrow: what will be the first new guide? or a theme for the next rvn series? read yourself. check yourself. build yourself. what will you add? 🛠️🌱 rvn openinternetmanifest factsoverframes siteupdate decentralization day34 https://openinternetmanifest.org/en/manifest https://openinternetmanifest.org/en/guides
+fuzzy_sha256: 6080989228badb47d98661caaa68094dc3fd02bb89249f25996b343563884239
+full_sha256: 6122085449ff06f500375eaf11c683f8a5dc4af8b8f869daf0c96a04e05a7e4f
 
 ---
 
-**Dag 34 – RVN: De nieuwe look – bouwen in plaats van klagen** 🛠️✨  
-Van woorden naar werkelijkheid: de site krijgt vorm.
+**Day 34 – RVN: The new look – building instead of complaining** 🛠️✨  
+From words to reality: the site takes shape.
 
-Deze week zagen we hoe narratieven ons gevangen houden:  
-woorden die niet tellen op wat ze zeggen, maar op wat een frame ervan maakt  
-transparantie die terugkaatst als boemerang  
-feiten die alleen waarde hebben als ze in het eigen verhaal passen.
+This week we saw how narratives keep us trapped:  
+words weighed not on what they say, but on the frame they create  
+transparency that boomerangs back  
+facts that only have value if they fit the own story.
 
-Maar terwijl het systeem zichzelf blootgeeft, bouwen wij door.  
-Vanochtend live: de nieuwe theses- en guides-pagina's in card-grid stijl.  
-- Alle 30 theses overzichtelijk, scanbaar, met teaser en nummer prominent  
-- Guides met icon, difficulty-banner, tags – klaar voor tientallen meer  
-- Dynamisch met Liquid + frontmatter (title, teaser, order, difficulty)  
-- Responsive, donker thema, blauwe accenten – precies zoals de rest van de site
+But while the system exposes itself, we keep building.  
+Live this morning: the new theses and guides pages in card-grid style.  
+- All 30 theses neatly organized, scannable, with teaser and number prominent  
+- Guides with icon, difficulty banner, tags – ready for dozens more  
+- Dynamic with Liquid + frontmatter (title, teaser, order, difficulty)  
+- Responsive, dark theme, blue accents – exactly matching the rest of the site
 
-Dit is geen toeval.  
-Het is wat OIM wil: zelf bouwen in plaats van klagen over het oude systeem.  
-Van een lege accu in november naar een levende site in februari – elke commit, elke CSS-tweak, elke frontmatter-regel is een stap uit de arena.
+This is no coincidence.  
+This is what OIM stands for: build yourself instead of complaining about the old system.  
+From an empty battery in November to a living site in February – every commit, every CSS tweak, every frontmatter line is a step out of the arena.
 
-De komende weken:  
-- Collection _theses activeren → automatische nummering /100  
-- Meer guides (node-redundantie, mesh-communicatie, lokale AI)  
-- Community-inbreng via frontmatter: suggesties voor nieuwe theses/guides  
-- Eventueel Giscus-threads per thema of "feature request"-sectie
+Coming weeks:  
+- Activate collection _theses → automatic numbering /100  
+- More guides (node redundancy, mesh communication, local AI)  
+- Community contributions via frontmatter: suggestions for new theses/guides  
+- Possibly Giscus threads per theme or "feature request" section
 
-Het internet wordt niet open door te wachten op anderen.  
-Het wordt open door zelf te bouwen – klein beginnen, stap voor stap.
+The internet doesn't become open by waiting for others.  
+It becomes open by building ourselves – start small, step by step.
 
-Dank voor deze week. Van synthese naar actie.  
-Morgen verder: wat wordt de eerste nieuwe guide? Of een thema voor de volgende RVN-reeks?
+Thanks for this week. From synthesis to action.  
+Tomorrow: what will be the first new guide? Or a theme for the next RVN series?
 
-Lees zelf. Check zelf. Bouw zelf.  
-Wat ga jij toevoegen? 🛠️🌱
+Read yourself. Check yourself. Build yourself.  
+What will you add? 🛠️🌱
 
-#RVN #OpenInternetManifest #FeitenBovenFrames #SiteUpdate #Decentralisatie #Dag34  
+#RVN #OpenInternetManifest #FactsOverFrames #SiteUpdate #Decentralization #Day34  
 
-https://openinternetmanifest.org
+https://openinternetmanifest.org/en/manifest  
+https://openinternetmanifest.org/en/guides

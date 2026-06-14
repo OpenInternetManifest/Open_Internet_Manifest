@@ -54,10 +54,13 @@ raw_markdown: |
   #RealityVsNarrative #Day21Teaser
 
 
-full_sha256: 1615f6ef21642536e7f3bced63d9c952b8ddfba96dc1c37c1de33b26f4bd7a19
-fuzzy_sha256: 6c03f8c0826ae541f7aabbadcb66323bd57bfde12dde47b4394c733b9945ccdc
+
+
+
 clean_text: |-
-  🇳🇱 dag 20 teaser – morgen: de wortels die niemand vertelt 🌑📜 vandaag weer een narratief over "bezetting" en "verzet". morgen duiken we dieper. ✨ veel dieper. ✨ 🔍 van: romeinse strafnamen 7e-eeuwse verzen exodus uit arabische landen wat er gebeurt als een regime écht wankelt een verhaal dat begint bij filistijnen en eindigt bij pallets vol cash. je wilt dit niet horen. maar je móét het horen. 👉 open internet manifest: feiten boven frames. hashes boven verhalen. blijf kijken. 👀🔍 🔗 https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag21teaser 🇬🇧 day 20 teaser – tomorrow: the roots no one talks about 🌑📜 today another narrative about "occupation" and "resistance." tomorrow we go deeper. ✨ much deeper. ✨ 🔍 from: roman punitive names 7th-century verses exodus out of arab countries what happens when a regime truly falters a story that starts with philistines and ends with pallets of cash. you don’t want to hear this. but you need to hear it. 👉 open internet manifest: facts over frames. hashes over stories. keep watching. 👀🔍 🔗 https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day21teaser
+  🇳🇱 dag 20 teaser – morgen: de wortels die niemand vertelt 🌑📜 vandaag weer een narratief over "bezetting" en "verzet". morgen duiken we dieper. ✨ veel dieper. ✨ 🔍 van: romeinse strafnamen 7e-eeuwse verzen exodus uit arabische landen wat er gebeurt als een regime écht wankelt een verhaal dat begint bij filistijnen en eindigt bij pallets vol cash. je wilt dit niet horen. maar je móét het horen. 👉 open internet manifest: feiten boven frames. hashes boven verhalen. blijf kijken. 👀🔍 🔗 https://openinternetmanifest.org/nl/social-posts realiteitvsnarratief dag21teaser 🇬🇧 day 20 teaser – tomorrow: the roots no one talks about 🌑📜 today another narrative about "occupation" and "resistance." tomorrow we go deeper. ✨ much deeper. ✨ 🔍 from: roman punitive names 7th-century verses exodus out of arab countries what happens when a regime truly falters a story that starts with philistines and ends with pallets of cash. you don’t want to hear this. but you need to hear it. 👉 open internet manifest: facts over frames. hashes over stories. keep watching. 👀🔍 🔗 https://openinternetmanifest.org/en/social-posts realityvsnarrative day21teaser
+fuzzy_sha256: d89eaefdb4c92568a311eb3245ab025e3420429f547360388faedd91906b04ae
+full_sha256: 1615f6ef21642536e7f3bced63d9c952b8ddfba96dc1c37c1de33b26f4bd7a19
 
 ---
 

@@ -47,10 +47,13 @@ raw_markdown: |
   Why? Narratives get wild — reality stays calm. 🕳️
 
 
-full_sha256: 3e026473f5d0707ada4f3f9c7de35686676f676ed91ca1032ef65129649401a4
-fuzzy_sha256: 8807287c83c2e671666adec2ba0c96751a0381f9384231af0b9ecd6f1b2f10f3
+
+
+
 clean_text: |-
-  🇳🇱 dag 23 teaser – vanavond: even op adem 😏🍿 vandaag doken we in 1913: titanic, fed, inkomstenbelasting en drie anti-bank-miljardairs die niet overleefden. toeval? of een blauwdruk die we nog steeds leven? vanavond: even lucht. morgen: door. morgen gaan we nog verder terug. knights templar: christelijke ridderorde die het eerste internationale banksysteem bouwde... en vervolgens werd opgerold. toeval? of een oervoorbeeld van hoe macht via geld al eeuwen werkt? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag23teaser *** 🇬🇧 day 23 teaser – tonight: just breathe 😏🍿 today we dove into 1913: titanic, fed, income tax and three anti-bank billionaires who didn’t survive. coincidence? or a blueprint we’re still living? tonight: just breathe. tomorrow: back at it. tomorrow we go even further back. knights templar: christian knight order that built the first international banking system... and then got taken down. coincidence? or an ancient example of how power through money has worked for centuries? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day23teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+  🇳🇱 dag 23 teaser – vanavond: even op adem 😏🍿 vandaag doken we in 1913: titanic, fed, inkomstenbelasting en drie anti-bank-miljardairs die niet overleefden. toeval? of een blauwdruk die we nog steeds leven? vanavond: even lucht. morgen: door. morgen gaan we nog verder terug. knights templar: christelijke ridderorde die het eerste internationale banksysteem bouwde... en vervolgens werd opgerold. toeval? of een oervoorbeeld van hoe macht via geld al eeuwen werkt? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts realiteitvsnarratief dag23teaser 🇬🇧 day 23 teaser – tonight: just breathe 😏🍿 today we dove into 1913: titanic, fed, income tax and three anti-bank billionaires who didn’t survive. coincidence? or a blueprint we’re still living? tonight: just breathe. tomorrow: back at it. tomorrow we go even further back. knights templar: christian knight order that built the first international banking system... and then got taken down. coincidence? or an ancient example of how power through money has worked for centuries? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day23teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+fuzzy_sha256: 0971377c717d0381641f07cd0992120fe1bd801d7fb6cf3a26551017b10d098a
+full_sha256: f766e20870111e84909991ce1372059d88ef422b36e5900fd180bb0d76be1aa6
 
 ---
 

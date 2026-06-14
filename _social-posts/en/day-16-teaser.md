@@ -16,10 +16,13 @@ raw_markdown: |
   #RealityVsNarrative #OpenInternetManifest #Hypocrisy #NoGatekeepers
 
 
-full_sha256: 8267a1dcae43b67f569c49d5d2b762e4bd06c7bc67e4aec6ed1e4b76ab2a6f92
-fuzzy_sha256: 098fb76343131ac0f06ec601baa9ce37301733558965310bbc261d114b983517
+
+
+
 clean_text: |-
-  🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #hypocrisy #nogatekeepers
+  🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts realityvsnarrative openinternetmanifest hypocrisy nogatekeepers
+fuzzy_sha256: 22a1107e699179f20c5cc996d6a82aefda3d9352d08d3f722948b63a753e09aa
+full_sha256: 8267a1dcae43b67f569c49d5d2b762e4bd06c7bc67e4aec6ed1e4b76ab2a6f92
 
 ---
 

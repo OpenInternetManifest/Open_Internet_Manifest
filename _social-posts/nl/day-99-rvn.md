@@ -6,14 +6,13 @@ rvn_title: "Deel 1 – Waarom je Chrome moet dumpen (en direct overstappen naar 
 rvn_teaser: "Je eerste echte stap uit Google-slavernij."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "472e6ed733101f4e865c6fd2fb22fe0d2554e3aa3b123b3b670b125ba225b3ba"
-full_sha256: "7c8052fb1b2b505b002e390df13ca2ebc2ce01aec433df026012d714495174a3"
 git_commit_hash: "152dd1d9cafd2fb8f457aac0977039be755c373f"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/152dd1d9cafd2fb8f457aac0977039be755c373f"
 git_commit_date: "2026-06-01T04:43:26.842885"
 raw_markdown: |
   
-  ### RVN: Deel 1 – Waarom je Chrome moet dumpen (en direct overstappen naar Brave) 🛡️
+  ### RVN: Deel 1 – Waarom je Chro
+  me moet dumpen (en direct overstappen naar Brave) 🛡️
   
   **Narratief:**  
   "Chrome is gewoon de beste en snelste browser, iedereen gebruikt hem toch?"
@@ -71,9 +70,18 @@ raw_markdown: |
   #DigitaleSoevereiniteit #DumpChrome #BraveBrowser #VanGoogleSlavernij #OIM
   
   https://openinternetmanifest.org
+
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+
+
+clean_text: |-
+  rvn: deel 1 – waarom je chro me moet dumpen (en direct overstappen naar brave) 🛡️ narratief: "chrome is gewoon de beste en snelste browser, iedereen gebruikt hem toch?" realiteit: chrome is niet zomaar een browser. het is het meest geavanceerde surveillance-instrument dat google ooit heeft gebouwd. elke zoekopdracht, elke website die je bezoekt, elke muisklik, elk getypt woord — alles wordt vastgelegd, geprofileerd en gebruikt om je te manipuleren. google verdient miljarden aan jouw data en gedrag. jij bent het product. wat chrome écht doet: volgt je via unieke browser fingerprint synchroniseert al je data (zoekgeschiedenis, wachtwoorden, bookmarks) naar google-servers stuurt continue data terug naar google (ook in incognitomodus!) heeft ingebouwde google-diensten die je moeilijk uit kunt zetten update zichzelf automatisch en forceert veranderingen die jij niet wilt de simpele oplossing: brave brave is gebouwd op dezelfde engine als chrome (chromium), dus alle websites werken perfect. maar dan zonder de spionage. wat brave standaard doet (en chrome niet): blokkeert trackers en advertenties automatisch blokkeert fingerprinting heeft ingebouwde tor-tabbladen (echte privacy) geeft je bat (basic attention tokens) als je kiest om privacy-vriendelijke ads te zien (opt-in) synchroniseert end-to-end versleuteld (geen google die meekijkt) verbruikt minder ram en is vaak sneller actie voor vandaag (doe dit nu): download brave → https://brave.com stel brave in als standaardbrowser importeer je bookmarks & wachtwoorden (duurt 2 minuten) verwijder chrome (of zet hem minstens uit) dit is geen kleine stap. dit is je eerste daad van digitale soevereiniteit. oim-uitweg we bouwen niet alleen alternatieven — we bouwen een heel ecosysteem. brave is de poort. nexus search en nexus ai worden de volgende stappen. vraag aan jou heb jij de overstap al gemaakt van chrome naar brave? of gebruik je nog stiekem google’s spionage-apparaat? deel gerust je ervaring hieronder. morgen: deel 2 – waarom je google search moet vervangen. digitalesoevereiniteit dumpchrome bravebrowser vangoogleslavernij oim https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+fuzzy_sha256: e0114957f3d7c27bf9b921f5f789ee5f1b97010d6cf6f3ed5b93175fdb69f5f5
+full_sha256: d2c80ea50551ce8743dbcfbc7a7204282d6e350e623c3c791d3239dd89bdbad7
+
 ---
 
 

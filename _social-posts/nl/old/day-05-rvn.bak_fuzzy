@@ -1,87 +1,78 @@
 ---
 layout: social-posts
-lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 2f46d43ee4bbcdb0601463256165893c44754955f138ea2c2c52002431fe3f9f
-social_share_sha256: ''
+lang: en
 day: 5
-rvn_title: Starlink gratis voor Iran"
-# rvn_url: /nl/social-posts/dag--rvn
-rvn_teaser: Dank Elon
+rvn_title: Starlink Free for Iran
+rvn_teaser: Satellite internet like Starlink is dangerous!
 raw_markdown: |
-  Realiteit vs. Narratief – Starlink gratis voor Iran.
+  Reality vs. Narrative – Starlink Free for Iran.
+  The narrative says:
+  “Satellite internet like Starlink is dangerous. It undermines regimes and causes instability. Governments have the right to block access for security and order.”
   
-  Het narratief zegt:  
-  “Satelliet-internet zoals Starlink is gevaarlijk. Het ondermijnt regimes en veroorzaakt instabiliteit. Overheden hebben het recht om toegang te blokkeren voor veiligheid en orde.”
   
-  De realiteit:  
-  Iran heeft het internet al weken grotendeels zwart. Mensen kunnen familie niet bereiken, protesten niet coördineren, de wereld niet laten zien wat er gebeurt.  
+  The reality:
+  Iran's internet has been largely blacked out for weeks. People can't reach family, coordinate protests, or show the world what's happening.
+  Yesterday, Elon Musk announced: Starlink is now **free** for people in Iran.
+  But now the real story from inside (see screenshot): the regime is going **door-to-door**, confiscating satellite dishes and Starlink terminals – just like in the early 2000s. People are risking everything to get a message out.
   
-  Gisteren kondigde Elon Musk aan: Starlink wordt **gratis** beschikbaar gesteld voor mensen in Iran.  
+  The narrative says:
+  “This is interference, illegal, dangerous.”
   
-  Maar nu komt het echte verhaal van binnenuit (zie screenshot): het regime gaat **deur-aan-deur** satellietontvangers en Starlink-schotels confisceren – net als in de vroege 2000s. Mensen riskeren alles om een bericht naar buiten te krijgen.
+  The reality:
+  A normal person in Amsterdam with Iranian roots can now perhaps reconnect with family trapped in the dark.
+  A dissident can post without the mullahs pulling the plug – unless they come take your dish.
   
-  Het narratief zegt:  
-  “Dit is inmenging, illegaal, gevaarlijk.”
+  This is exactly what the Open Internet Manifest stands for: information and connection as a constitutional right – not a privilege controlled by regimes or corporations.
   
-  De realiteit:  
-  Een normaal mens in Amsterdam met Iraanse roots kan nu misschien weer contact krijgen met familie die in het donker zit.  
+  The narrative wants control.
+  Reality wants freedom.
+  Choose reality:
   
-  Een dissident kan posten zonder dat de mullahs de stekker eruit trekken – tenzij ze je schotel komen afpakken.
-  Dit is wat het Open Internet Manifest bedoelt: informatie en verbinding als grondrecht – niet als gunst van een regering of bedrijf.
+  Support initiatives that break blackouts.
+  Support the Open Internet Manifest for a world where no one is cut off because a regime flips a switch.
   
-  Het narratief wil controle.  
-  De realiteit wil vrijheid.
+  Thank you, Elon – and to all Iranians: keep fighting.
   
-  Kies realiteit:  
-  Steun initiatieven die blackouts doorbreken.  
-  Steun het Open Internet Manifest voor een wereld waar niemand meer afhankelijk is van een regime-knop.
-  
-  Dank Elon – en aan alle Iranianen: blijf doorvechten.
-  
-  Welk internet wil jij: een blackout of een open lijn?
-  
-  www.openinternetmanifest.org
-  #realiteitvsnarratief #StarlinkIran #openinternetmanifest #IranProtests #Starlink
+  What internet do you want: a blackout or an open line?
+  #RealityVsNarrative #StarlinkIran #OpenInternetManifest #OIM #IranProtests
+
+
+
+
 clean_text: |-
-  realiteit vs. narratief – starlink gratis voor iran. het narratief zegt: “satelliet-internet zoals starlink is gevaarlijk. het ondermijnt regimes en veroorzaakt instabiliteit. overheden hebben het recht om toegang te blokkeren voor veiligheid en orde.” de realiteit: iran heeft het internet al weken grotendeels zwart. mensen kunnen familie niet bereiken, protesten niet coördineren, de wereld niet laten zien wat er gebeurt. gisteren kondigde elon musk aan: starlink wordt gratis beschikbaar gesteld voor mensen in iran. maar nu komt het echte verhaal van binnenuit (zie screenshot): het regime gaat deur-aan-deur satellietontvangers en starlink-schotels confisceren – net als in de vroege 2000s. mensen riskeren alles om een bericht naar buiten te krijgen. het narratief zegt: “dit is inmenging, illegaal, gevaarlijk.” de realiteit: een normaal mens in amsterdam met iraanse roots kan nu misschien weer contact krijgen met familie die in het donker zit. een dissident kan posten zonder dat de mullahs de stekker eruit trekken – tenzij ze je schotel komen afpakken. dit is wat het open internet manifest bedoelt: informatie en verbinding als grondrecht – niet als gunst van een regering of bedrijf. het narratief wil controle. de realiteit wil vrijheid. kies realiteit: steun initiatieven die blackouts doorbreken. steun het open internet manifest voor een wereld waar niemand meer afhankelijk is van een regime-knop. dank elon – en aan alle iranianen: blijf doorvechten. welk internet wil jij: een blackout of een open lijn? www.openinternetmanifest.org #realiteitvsnarratief #starlinkiran #openinternetmanifest #iranprotests #starlink
-full_sha256: a1d1853c31bff40795666adb6f7723a829d994cf976138a12c5dfa5a5e9bea62
-fuzzy_sha256: b95a336d10f0673848af3077e61b7f2906ff447e440c175f55857a08fe9c35ca
+  reality vs. narrative – starlink free for iran. the narrative says: “satellite internet like starlink is dangerous. it undermines regimes and causes instability. governments have the right to block access for security and order.” the reality: iran's internet has been largely blacked out for weeks. people can't reach family, coordinate protests, or show the world what's happening. yesterday, elon musk announced: starlink is now free for people in iran. but now the real story from inside (see screenshot): the regime is going door-to-door, confiscating satellite dishes and starlink terminals – just like in the early 2000s. people are risking everything to get a message out. the narrative says: “this is interference, illegal, dangerous.” the reality: a normal person in amsterdam with iranian roots can now perhaps reconnect with family trapped in the dark. a dissident can post without the mullahs pulling the plug – unless they come take your dish. this is exactly what the open internet manifest stands for: information and connection as a constitutional right – not a privilege controlled by regimes or corporations. the narrative wants control. reality wants freedom. choose reality: support initiatives that break blackouts. support the open internet manifest for a world where no one is cut off because a regime flips a switch. thank you, elon – and to all iranians: keep fighting. what internet do you want: a blackout or an open line? realityvsnarrative starlinkiran openinternetmanifest oim iranprotests
+fuzzy_sha256: 4010425932b9c39c5b5c770f62578a5f6c93790b69b53ba3689fbbb360cd8bc4
+full_sha256: 3972a9430334c54fed4b2205ea83986e949c6c083251d1df1cc79ad9e7180aa5
 
 ---
 
-Realiteit vs. Narratief – Starlink gratis voor Iran.
+Reality vs. Narrative – Starlink Free for Iran.
+The narrative says:
+“Satellite internet like Starlink is dangerous. It undermines regimes and causes instability. Governments have the right to block access for security and order.”
 
-Het narratief zegt:  
-“Satelliet-internet zoals Starlink is gevaarlijk. Het ondermijnt regimes en veroorzaakt instabiliteit. Overheden hebben het recht om toegang te blokkeren voor veiligheid en orde.”
 
-De realiteit:  
-Iran heeft het internet al weken grotendeels zwart. Mensen kunnen familie niet bereiken, protesten niet coördineren, de wereld niet laten zien wat er gebeurt.  
+The reality:
+Iran's internet has been largely blacked out for weeks. People can't reach family, coordinate protests, or show the world what's happening.
+Yesterday, Elon Musk announced: Starlink is now **free** for people in Iran.
+But now the real story from inside (see screenshot): the regime is going **door-to-door**, confiscating satellite dishes and Starlink terminals – just like in the early 2000s. People are risking everything to get a message out.
 
-Gisteren kondigde Elon Musk aan: Starlink wordt **gratis** beschikbaar gesteld voor mensen in Iran.  
+The narrative says:
+“This is interference, illegal, dangerous.”
 
-Maar nu komt het echte verhaal van binnenuit (zie screenshot): het regime gaat **deur-aan-deur** satellietontvangers en Starlink-schotels confisceren – net als in de vroege 2000s. Mensen riskeren alles om een bericht naar buiten te krijgen.
+The reality:
+A normal person in Amsterdam with Iranian roots can now perhaps reconnect with family trapped in the dark.
+A dissident can post without the mullahs pulling the plug – unless they come take your dish.
 
-Het narratief zegt:  
-“Dit is inmenging, illegaal, gevaarlijk.”
+This is exactly what the Open Internet Manifest stands for: information and connection as a constitutional right – not a privilege controlled by regimes or corporations.
 
-De realiteit:  
-Een normaal mens in Amsterdam met Iraanse roots kan nu misschien weer contact krijgen met familie die in het donker zit.  
+The narrative wants control.
+Reality wants freedom.
+Choose reality:
 
-Een dissident kan posten zonder dat de mullahs de stekker eruit trekken – tenzij ze je schotel komen afpakken.
-Dit is wat het Open Internet Manifest bedoelt: informatie en verbinding als grondrecht – niet als gunst van een regering of bedrijf.
+Support initiatives that break blackouts.
+Support the Open Internet Manifest for a world where no one is cut off because a regime flips a switch.
 
-Het narratief wil controle.  
-De realiteit wil vrijheid.
+Thank you, Elon – and to all Iranians: keep fighting.
 
-Kies realiteit:  
-Steun initiatieven die blackouts doorbreken.  
-Steun het Open Internet Manifest voor een wereld waar niemand meer afhankelijk is van een regime-knop.
-
-Dank Elon – en aan alle Iranianen: blijf doorvechten.
-
-Welk internet wil jij: een blackout of een open lijn?
-
-www.openinternetmanifest.org
-#realiteitvsnarratief #StarlinkIran #openinternetmanifest #IranProtests #Starlink
+What internet do you want: a blackout or an open line?
+#RealityVsNarrative #StarlinkIran #OpenInternetManifest #OIM #IranProtests

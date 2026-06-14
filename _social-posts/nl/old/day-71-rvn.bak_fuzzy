@@ -1,91 +1,95 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 71
-rvn_title: "Schijnvooruitgang #2: Lease = vrijheid?"
-rvn_teaser: "Nieuwste auto, laag maandbedrag, altijd up-to-date. Klinkt als vrijheid. Maar is het dat ook echt?"
+rvn_title: " Illusory Progress #2: Leasing = Freedom?"
+rvn_teaser: "Newest car, low monthly payment, always up-to-date. Sounds like freedom. But is it really?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:07.916801"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:13.084466"
 raw_markdown: |
-  **Schijnvooruitgang – Dag 27: Lease = vrijheid?** 🚗
+  **Illusory Progress – Day 27: Leasing = Freedom?** 🚗
   
-  **Korte recap**  
-  Gisteren trapten we de serie *Schijnvooruitgang* af: hoe dingen die verkocht worden als “modern en makkelijk” vaak onze afhankelijkheid, kosten en controle vergroten.
+  **Short Recap**  
+  Yesterday we kicked off the *Illusory Progress* series: how things sold to us as “modern and convenient” often increase our dependence, costs, and loss of control.
   
-  **Narratief**  
-  Leasen is flexibel, zorgeloos en voordelig. Je rijdt altijd in een nieuwe auto, lage maandlasten, geen gedoe met onderhoud of verkoop. Pure vrijheid.
+  **The Narrative**  
+  Leasing is flexible, hassle-free and affordable. You always drive a new car, have low monthly payments, no worries about maintenance or selling. Pure freedom.
   
-  **Realiteit**  
-  In november 2025 schreef ik het **Accu-Manifest** nadat een simpele lege accu van €130 een complete keten van afhankelijkheid blootlegde: lease-noodnummer, ANWB, leenauto, tientallen telefoontjes en €1500–2000 aan kosten voor een accu van €130.
+  **The Reality**  
+  In November 2025 I wrote the **Accu-Manifest** after a simple empty battery of €130 exposed an entire chain of dependency: lease emergency number, roadside assistance, replacement car with two people, dozens of calls and €1,500–2,000 in total costs… for a €130 battery.
   
-  Lees het volledige Accu-Manifest hier:  
-  https://openinternetmanifest.org/nl/accu-manifest
+  Read the full Accu-Manifest here:  
+  https://openinternetmanifest.org/en/accu-manifest
   
-  Dit was het keerpunt. Dit manifest werd de echte moeder van het Open Internet Manifest. Wat begon als frustratie over een kapotte accu, groeide uit tot een bredere analyse van parasitaire overhead en geprogrammeerde afhankelijkheid.
+  This was the turning point. This manifesto became the true mother of the Open Internet Manifest. What started as frustration over a dead battery grew into a broader analysis of parasitic overhead and engineered dependency.
   
-  **OIM-uitweg**  
-  Koop waar mogelijk cash of tweedehands. Betaal af. Bouw eigenaarschap op in plaats van maandelijkse abonnementen. Kies voor kleine teams, open-boek financiën en echte winstdeling.
+  **The OIM Way Out**  
+  Pay cash where possible or buy second-hand. Pay it off. Build ownership instead of monthly subscriptions. Choose small teams, open-book finances and real profit sharing.
   
-     ---
+  ***
   
-  Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+  You may have noticed our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
-  Probeer hem gerust uit:  
-  https://openinternetmanifest.org/nl/nexus-quick-post
+  Feel free to try it:  
+  https://openinternetmanifest.org/en/nexus-quick-post
   
-  **Vraag aan jou**  
-  Is leasen echte vrijheid, of een dure illusie die ons steeds afhankelijker maakt?
+  **Question to you**  
+  Is leasing real freedom, or an expensive illusion that makes us increasingly dependent?
   
-  #Schijnvooruitgang #AccuManifest #Lease #Eigenaarschap #ParasitaireEconomie #OpenInternetManifest
+  #IllusoryProgress #AccuManifest #Leasing #Ownership #ParasiticEconomy #OpenInternetManifest
   
-     ---
+  ***
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  schijnvooruitgang – dag 27: lease = vrijheid? 🚗 korte recap gisteren trapten we de serie schijnvooruitgang af: hoe dingen die verkocht worden als “modern en makkelijk” vaak onze afhankelijkheid, kosten en controle vergroten. narratief leasen is flexibel, zorgeloos en voordelig. je rijdt altijd in een nieuwe auto, lage maandlasten, geen gedoe met onderhoud of verkoop. pure vrijheid. realiteit in november 2025 schreef ik het accu-manifest nadat een simpele lege accu van €130 een complete keten van afhankelijkheid blootlegde: lease-noodnummer, anwb, leenauto, tientallen telefoontjes en €1500–2000 aan kosten voor een accu van €130. lees het volledige accu-manifest hier: https://openinternetmanifest.org/nl/accu-manifest dit was het keerpunt. dit manifest werd de echte moeder van het open internet manifest. wat begon als frustratie over een kapotte accu, groeide uit tot een bredere analyse van parasitaire overhead en geprogrammeerde afhankelijkheid. oim-uitweg koop waar mogelijk cash of tweedehands. betaal af. bouw eigenaarschap op in plaats van maandelijkse abonnementen. kies voor kleine teams, open-boek financiën en echte winstdeling. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou is leasen echte vrijheid, of een dure illusie die ons steeds afhankelijker maakt? #schijnvooruitgang #accumanifest #lease #eigenaarschap #parasitaireeconomie #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: 77ea67e8a8fba116c140526571ec4347e21b2daa80c89c946f222f85d4c4ca15
-fuzzy_sha256: 6a241a117fc8aca2ea9f1c7d93a96e1dab558ad5ed87567911af702da00da8ae
+  illusory progress – day 27: leasing = freedom? 🚗 short recap yesterday we kicked off the illusory progress series: how things sold to us as “modern and convenient” often increase our dependence, costs, and loss of control. the narrative leasing is flexible, hassle-free and affordable. you always drive a new car, have low monthly payments, no worries about maintenance or selling. pure freedom. the reality in november 2025 i wrote the accu-manifest after a simple empty battery of €130 exposed an entire chain of dependency: lease emergency number, roadside assistance, replacement car with two people, dozens of calls and €1,500–2,000 in total costs... for a €130 battery. read the full accu-manifest here: https://openinternetmanifest.org/en/accu-manifest this was the turning point. this manifesto became the true mother of the open internet manifest. what started as frustration over a dead battery grew into a broader analysis of parasitic overhead and engineered dependency. the oim way out pay cash where possible or buy second-hand. pay it off. build ownership instead of monthly subscriptions. choose small teams, open-book finances and real profit sharing. you may have noticed our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/en/nexus-quick-post question to you is leasing real freedom, or an expensive illusion that makes us increasingly dependent? illusoryprogress accumanifest leasing ownership parasiticeconomy openinternetmanifest this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 32cb17f7d71075fdd5e3bba445ae312b44aecf742dcdbee49f33df352108d47a
+full_sha256: 486235457f3e554e468d88a028f6cc78b5437cc9fb1b44cc731ab30d65300fa2
 
 ---
 
 
 
-**Schijnvooruitgang – Dag 27: Lease = vrijheid?** 🚗
+**Illusory Progress – Day 27: Leasing = Freedom?** 🚗
 
-**Korte recap**  
-Gisteren trapten we de serie *Schijnvooruitgang* af: hoe dingen die verkocht worden als “modern en makkelijk” vaak onze afhankelijkheid, kosten en controle vergroten.
+**Short Recap**  
+Yesterday we kicked off the *Illusory Progress* series: how things sold to us as “modern and convenient” often increase our dependence, costs, and loss of control.
 
-**Narratief**  
-Leasen is flexibel, zorgeloos en voordelig. Je rijdt altijd in een nieuwe auto, lage maandlasten, geen gedoe met onderhoud of verkoop. Pure vrijheid.
+**The Narrative**  
+Leasing is flexible, hassle-free and affordable. You always drive a new car, have low monthly payments, no worries about maintenance or selling. Pure freedom.
 
-**Realiteit**  
-In november 2025 schreef ik het **Accu-Manifest** nadat een simpele lege accu van €130 een complete keten van afhankelijkheid blootlegde: lease-noodnummer, ANWB, leenauto, tientallen telefoontjes en €1500–2000 aan kosten voor een accu van €130.
+**The Reality**  
+In November 2025 I wrote the **Accu-Manifest** after a simple empty battery of €130 exposed an entire chain of dependency: lease emergency number, roadside assistance, replacement car with two people, dozens of calls and €1,500–2,000 in total costs… for a €130 battery.
 
-Lees het volledige Accu-Manifest hier:  
-https://openinternetmanifest.org/nl/accu-manifest
+Read the full Accu-Manifest here:  
+https://openinternetmanifest.org/en/accu-manifest
 
-Dit was het keerpunt. Dit manifest werd de echte moeder van het Open Internet Manifest. Wat begon als frustratie over een kapotte accu, groeide uit tot een bredere analyse van parasitaire overhead en geprogrammeerde afhankelijkheid.
+This was the turning point. This manifesto became the true mother of the Open Internet Manifest. What started as frustration over a dead battery grew into a broader analysis of parasitic overhead and engineered dependency.
 
-**OIM-uitweg**  
-Koop waar mogelijk cash of tweedehands. Betaal af. Bouw eigenaarschap op in plaats van maandelijkse abonnementen. Kies voor kleine teams, open-boek financiën en echte winstdeling.
+**The OIM Way Out**  
+Pay cash where possible or buy second-hand. Pay it off. Build ownership instead of monthly subscriptions. Choose small teams, open-book finances and real profit sharing.
 
----
+***
 
-Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+You may have noticed our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
-Probeer hem gerust uit:  
-https://openinternetmanifest.org/nl/nexus-quick-post
+Feel free to try it:  
+https://openinternetmanifest.org/en/nexus-quick-post
 
-**Vraag aan jou**  
-Is leasen echte vrijheid, of een dure illusie die ons steeds afhankelijker maakt?
+**Question to you**  
+Is leasing real freedom, or an expensive illusion that makes us increasingly dependent?
 
-#Schijnvooruitgang #AccuManifest #Lease #Eigenaarschap #ParasitaireEconomie #OpenInternetManifest
+#IllusoryProgress #AccuManifest #Leasing #Ownership #ParasiticEconomy #OpenInternetManifest
 
----
+***
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

@@ -6,8 +6,6 @@ rvn_title: "€6.8 billion in road tax… and no money for roads?"
 rvn_teaser: "Every year we pay billions in road tax. So why are our roads falling apart?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "13db36b8b18d66fca913373d147c4eede975052c33f303ba1f3e6c269678e56c"
-full_sha256: "a8b8c338c6cd027dd93f6f9c3ccd26093ca3f810a3a44d1204806b2743c04441"
 git_commit_hash: "c77128df8aeede3f01edc6819bd3a863387638b7"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/c77128df8aeede3f01edc6819bd3a863387638b7"
 git_commit_date: "2026-06-12T06:41:15.697891"
@@ -74,6 +72,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+
+
+clean_text: |-
+  rvn: €6.8 billion in road tax... and no money for roads? 🛣️ this story actually starts with the accu manifest. in november 2025, a leased van with a dead battery was parked in amsterdam. what followed was not a simple battery swap, but a chain of 20 man-hours, lease emergency lines, anwb, garages and invoices totalling €1,500–2,000. for a €130 battery. that was the birth of the accu manifest — the mother of the open internet manifest. the manifesto that exposes how parasitic layers eat away at real work and real value. and we see exactly the same pattern with our roads. the netherlands collects more than €6.8 billion every year in motor vehicle tax (road tax). at the same time we constantly hear: “there is no money for road maintenance.” real-life example a few years ago i worked with a woman whose son was doing an internship at a farm. he had to pick up a tractor that had just received a new tyre. the tyre came off and damaged about two metres of asphalt. the bill? €22,000. twenty-two thousand euros for two metres of road. this is not bad luck. this is the accu manifest in practice: parasitic overhead that makes money from complexity, procedures, reports and liability constructions — not from real value or good roads. the big lie we pay extremely high road taxes, but we get extremely little in return. the money disappears into bureaucracy, consultants, eu rules, “sustainability projects”, multi-layered project organisations and pure inefficiency. oim way out: time for a dutch doge in america they have doge (department of government efficiency) to rigorously tackle the parasitic layers. here in the netherlands we need something similar: accu — administratieve complexiteit clean-up unit. not a new government body, but a movement that says loud and clear: stop pumping more money into a sick system. cut away the parasitic layers. less overhead. more real roads. question to you do you pay road tax? do you see that money coming back in the form of good, well-maintained roads? or are you mainly paying for a huge, self-sustaining system that mostly feeds itself? time to stop just paying — and start demanding that the money actually goes to the road instead of to all the layers in between. accu roadtax illusionofprogress accumanifest doge rvn openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/nl/hash-verifier
+fuzzy_sha256: 4c1cc80f5ea416aed540de8a0a87294d5d8b266d892593bc819b6d72561d029c
+full_sha256: a8b8c338c6cd027dd93f6f9c3ccd26093ca3f810a3a44d1204806b2743c04441
+
 ---
 
 

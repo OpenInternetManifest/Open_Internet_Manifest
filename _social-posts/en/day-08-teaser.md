@@ -28,10 +28,13 @@ raw_markdown: |
   #FreeInternet  #decentralization #NoBlackouts #iran #cruciaal2026 #privacy #OpenSource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton Lighthousetv.nl  blckbx.tv
 
 
-full_sha256: a4be5cbab759bf33f0493d3b477915ed96f21625b2e1fea1e22760e55ebfcb38
-fuzzy_sha256: 5323e271892fb1da0cdb083f25c9f996320c8fa70bb64c8cbf8ee4a42c056eaf
+
+
+
 clean_text: |-
-  🇬🇧 day 8 – verifiability: hashes don’t lie “a hash is digital sealing wax: break it, and everyone sees it.” — ruben berkhout from now on, verify for yourself if a teaser or full post is really mine. paste the full text (including this footnote) into the hash verifier → exact match = authentic original. https://openinternetmanifest.org/nl/hash-verifier narratives get distorted or taken out of context easily. reality stays unchanged. 🔒 this social post is archived and verifiable on openinternetmanifest.org. check it yourself at: https://openinternetmanifest.org/nl/hash-verifier paste the full text (incl. footnote) to confirm authenticity. why? because words can be twisted — hashes cannot. #openinternetmanifest #freedomwithboundaries #freeinternet #decentralization #noblackouts #iran #cruciaal2026 #privacy #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv
+  🇬🇧 day 8 – verifiability: hashes don’t lie “a hash is digital sealing wax: break it, and everyone sees it.” — ruben berkhout from now on, verify for yourself if a teaser or full post is really mine. paste the full text (including this footnote) into the hash verifier → exact match = authentic original. https://openinternetmanifest.org/nl/hash-verifier narratives get distorted or taken out of context easily. reality stays unchanged. 🔒 this social post is archived and verifiable on openinternetmanifest.org. check it yourself at: https://openinternetmanifest.org/nl/hash-verifier paste the full text (incl. footnote) to confirm authenticity. why? because words can be twisted — hashes cannot. openinternetmanifest freedomwithboundaries freeinternet decentralization noblackouts iran cruciaal2026 privacy opensource internetfreedom selfhost nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv
+fuzzy_sha256: e5a7e10e7a220ee36f413ff6f4c400974bdb4447ed33375309453ab9fe89ec16
+full_sha256: a4be5cbab759bf33f0493d3b477915ed96f21625b2e1fea1e22760e55ebfcb38
 
 ---
 

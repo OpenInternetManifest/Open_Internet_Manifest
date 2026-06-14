@@ -28,10 +28,13 @@ raw_markdown: |
   Why? Narratives get wild — reality stays calm. 🕳️
 
 
-full_sha256: 33ab005457ab7a7be9e895e1c57ea5700b9b422454e8ce0663e43b70be3e7571
-fuzzy_sha256: 5edae9f21e5f434d8aab99c3616feda194fcd209992fcb9404ae08ef28c1dc08
+
+
+
 clean_text: |-
-  🇬🇧 day 23 teaser – tonight: just breathe 😏🍿 today we dove into 1913: titanic, fed, income tax and three anti-bank billionaires who didn’t survive. coincidence? or a blueprint we’re still living? tonight: just breathe. tomorrow: back at it. tomorrow we go even further back. knights templar: christian knight order that built the first international banking system... and then got taken down. coincidence? or an ancient example of how power through money has worked for centuries? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day23teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+  🇬🇧 day 23 teaser – tonight: just breathe 😏🍿 today we dove into 1913: titanic, fed, income tax and three anti-bank billionaires who didn’t survive. coincidence? or a blueprint we’re still living? tonight: just breathe. tomorrow: back at it. tomorrow we go even further back. knights templar: christian knight order that built the first international banking system... and then got taken down. coincidence? or an ancient example of how power through money has worked for centuries? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day23teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+fuzzy_sha256: c8f6cd13f2f3996cafb6143a8c10f52fdb7e8d0ca7d2d48b275b22db7ff276c2
+full_sha256: 33ab005457ab7a7be9e895e1c57ea5700b9b422454e8ce0663e43b70be3e7571
 
 ---
 

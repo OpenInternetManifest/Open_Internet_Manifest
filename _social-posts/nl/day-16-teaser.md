@@ -34,10 +34,13 @@ raw_markdown: |
   #RealityVsNarrative #OpenInternetManifest #Hypocrisy #NoGatekeepers
 
 
-full_sha256: 2f8d840b299ce6e8b1567944b315f6747621a3e80d2a819c8cd154a2a05ab9de
-fuzzy_sha256: ee691564cbb762df9ac8021266d196ba19a278cb7101e5c17b5e552ca267f93f
+
+
+
 clean_text: |-
-  🇳🇱 dag 16 teaser 🌐✂️ het patroon blijft draaien: één kant krijgt altijd "mostly peaceful" als de straat brandt, de andere kant krijgt de schuld als er één klap valt. hypocrisie op repeat – van corona tot nu. open internet manifest: stop met gatekeepers die je voeden wat uitkomt. check zelf de beelden, de hashes, de tijdlijnen. realiteit wacht niet op toestemming. volgende post duikt in de volgende laag. blijf scherp. https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #openinternetmanifest #hypocrisie #nogatekeepers *** 🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #openinternetmanifest #hypocrisy #nogatekeepers
+  🇳🇱 dag 16 teaser 🌐✂️ het patroon blijft draaien: één kant krijgt altijd "mostly peaceful" als de straat brandt, de andere kant krijgt de schuld als er één klap valt. hypocrisie op repeat – van corona tot nu. open internet manifest: stop met gatekeepers die je voeden wat uitkomt. check zelf de beelden, de hashes, de tijdlijnen. realiteit wacht niet op toestemming. volgende post duikt in de volgende laag. blijf scherp. https://openinternetmanifest.org/nl/social-posts realiteitvsnarratief openinternetmanifest hypocrisie nogatekeepers 🇬🇧 day 16 teaser 🌐✂️ the pattern keeps spinning: one side gets "mostly peaceful" while streets burn, the other gets blamed for a single slap. hypocrisy on repeat – from corona to now. open internet manifest: stop gatekeepers feeding you what suits. check the footage, hashes, timelines yourself. reality doesn't wait for permission. next post dives into the next layer. stay sharp. https://openinternetmanifest.org/nl/social-posts realityvsnarrative openinternetmanifest hypocrisy nogatekeepers
+fuzzy_sha256: e6edd7f3580552e54048be9fe2475e1b4ed3ff527b5aa7bf22655262df80e2ee
+full_sha256: 14a5d8aa396affc5dd8bea1e14d6a5d0b10ca119010e435a9f736d1f89b6a80a
 
 ---
 

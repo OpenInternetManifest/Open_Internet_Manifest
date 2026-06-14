@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# tools/restore-missing-clean-text.py - Herstel versie 3 (bestand tegen --- in body)
+# tools/restore-missing-clean-text.py - Herstel ALLE corrupte/korte clean_text
 
 import sys
 import re
@@ -9,13 +9,20 @@ sys.path.append(str(Path(__file__).parent))
 from fuzzy_clean import fuzzy_clean
 
 def needs_restore(content):
+    """Herstel als clean_text ontbreekt, te kort is, of hashes bevat"""
     if 'clean_text:' not in content:
         return True
-    match = re.search(r'clean_text\s*:\s*\|-?\s*\n((?:.*?(?:\n|$))*?)(?=\n\s*\w+\s*:|\n---\s*\n\s*[\s\S]*?$)', content, re.DOTALL)
+    
+    match = re.search(r'clean_text\s*:\s*\|-?\s*\n((?:.*?(?:\n|$))*?)(?=\n\s*\w+\s*:|\n---|\Z)', content, re.DOTALL)
     if not match:
         return True
+    
     ct = match.group(1).strip()
-    return len(ct) < 300 or 'full_sha256' in ct or 'fuzzy_sha256' in ct
+    if len(ct) < 300:                    # was 100 → nu ruimer
+        return True
+    if 'full_sha256' in ct or 'fuzzy_sha256' in ct:   # corrupt
+        return True
+    return False
 
 def update_file(filepath, dry_run=True):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -24,10 +31,8 @@ def update_file(filepath, dry_run=True):
     if not needs_restore(content):
         return False
 
-    # Veilige frontmatter extractie (negeert --- in body)
-    match = re.match(r'^(---\s*\n)([\s\S]*?)(\n---\s*\n)([\s\S]*)$', content, re.DOTALL)
+    match = re.match(r'^(---\s*\n)([\s\S]*?)(\n---\s*\n)([\s\S]*)$', content)
     if not match:
-        print(f"⚠️  Geen frontmatter: {filepath.name}")
         return False
 
     front_start = match.group(1)
@@ -35,17 +40,15 @@ def update_file(filepath, dry_run=True):
     front_end = match.group(3)
     body = match.group(4)
 
-    # raw_markdown ophalen
-    raw_match = re.search(r'raw_markdown\s*:\s*\|-?\s*\n((?:.*?(?:\n|$))*?)(?=\n\s*\w+\s*:|\n---\s*\n)', front_body, re.DOTALL)
+    raw_match = re.search(r'raw_markdown\s*:\s*\|-?\s*\n((?:.*?(?:\n|$))*?)(?=\n\s*\w+\s*:|\n---|\Z)', front_body, re.DOTALL)
     if not raw_match:
-        print(f"⚠️  Geen raw_markdown: {filepath.name}")
         return False
 
     raw_markdown = raw_match.group(1).strip()
     clean_text = fuzzy_clean(raw_markdown)
 
     # Verwijder oude clean_text
-    new_front_body = re.sub(r'clean_text\s*:\s*[\s\S]*?(?=\n\s*\w+\s*:|\n---\s*\n)', '', front_body, flags=re.DOTALL).strip()
+    new_front_body = re.sub(r'clean_text\s*:\s*[\s\S]*?(?=\n\s*\w+\s*:|\n---|\Z)', '', front_body, flags=re.DOTALL).strip()
 
     if new_front_body:
         new_front_body += "\n"
@@ -54,10 +57,10 @@ def update_file(filepath, dry_run=True):
     new_content = front_start + new_front_body + "\n" + front_end + body
 
     if dry_run:
-        print(f"DRY-RUN: Would restore {filepath.name} ({len(clean_text)} chars)")
+        print(f"DRY-RUN: Would restore clean_text in {filepath.name} ({len(clean_text)} chars)")
         return True
     else:
-        backup = filepath.with_suffix('.bak_restore3')
+        backup = filepath.with_suffix('.bak_restore2')
         with open(backup, 'w', encoding='utf-8') as f:
             f.write(content)
         
@@ -70,7 +73,7 @@ if __name__ == "__main__":
     dry_run = "--update" not in sys.argv
 
     if dry_run:
-        print("🚀 DRY RUN\n")
+        print("🚀 DRY RUN - Herstel van corrupte/korte clean_text\n")
     else:
         print("🔥 LIVE RESTORE\n")
 

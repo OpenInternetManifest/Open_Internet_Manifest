@@ -23,10 +23,13 @@ raw_markdown: |
   Why? Because narratives are easily distorted — reality is not.
 
 
-full_sha256: 3360450f0e8d3b2028819f87ceff3b8b29a9728b887940a38e3a13eddf6add34
-fuzzy_sha256: 649765f32344fcf05b0e7cb76d6e47f30b1a5fcbbbe5eb67e065c3ae8c539823
+
+
+
 clean_text: |-
-  🇬🇧 day 16 – the new hub 🌐🗂️ this is not an archive. this is not a static page with old words. this is the living breath of the manifest: every day a new tear in the narrative, every post a reminder that the web can still be ours. here you find the full posts, the raw teasers, the hashes that don't lie. no feeds feeding you what big tech wants. no algorithm deciding what you see. just chronology, integrity and a direct line to reality. the social-posts page is the new starting point: copy-paste ready for x, matrix, odysee or wherever you want to speak freely. no gatekeepers anymore. just you, the text and the open web. https://openinternetmanifest.org/nl/social-posts #openinternetmanifest #day16 #socialswithoutleash #realityvsnarrative this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+  🇬🇧 day 16 – the new hub 🌐🗂️ this is not an archive. this is not a static page with old words. this is the living breath of the manifest: every day a new tear in the narrative, every post a reminder that the web can still be ours. here you find the full posts, the raw teasers, the hashes that don't lie. no feeds feeding you what big tech wants. no algorithm deciding what you see. just chronology, integrity and a direct line to reality. the social-posts page is the new starting point: copy-paste ready for x, matrix, odysee or wherever you want to speak freely. no gatekeepers anymore. just you, the text and the open web. https://openinternetmanifest.org/nl/social-posts openinternetmanifest day16 socialswithoutleash realityvsnarrative this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+fuzzy_sha256: 8a84ce932ac6af339e84253044cbb7d7f73b8d4077258af1a9919fc5bd074f55
+full_sha256: 3360450f0e8d3b2028819f87ceff3b8b29a9728b887940a38e3a13eddf6add34
 
 ---
 

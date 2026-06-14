@@ -33,10 +33,13 @@ raw_markdown: |
   ❤️
 
 
-full_sha256: 64387384b761b138f87da04b4226d741ba6f483bbf0e99fb70a7b50d4bf734cd
-fuzzy_sha256: 3f274ed9a69d2a3cea6f3101ade7a586cfc0d08dc5960afc81210e1ad21b685e
+
+
+
 clean_text: |-
-  🇳🇱 dag 5 – 2026 wordt het kantelpunt vandaag weer een iraniër op werk gesproken: jong stel, baby van 5 dagen. geen contact meer met familie. moeder heeft het zwaar. beiden hopen dat het regime valt. dit is geen nieuws uit 2026 – dit is nu al realiteit in iran. blackout als wapen. kijk ook lighthousetv over waarom 2026 cruciaal is voor privacy en open internet: https://www.youtube.com/watch?v=lxeektswflw het open internet manifest wil een web waar dit niet meer kan gebeuren. https://openinternetmanifest.org *** 🇬🇧 day 5 – 2026 will be the turning point today again an iranian at work: young couple, baby 5 days old. no contact with family anymore. mother struggling. both hope the regime falls. this is not news from 2026 – this is already reality in iran. blackout as a weapon. watch lighthousetv on why 2026 is crucial for privacy and open internet: https://www.youtube.com/watch?v=lxeektswflw the open internet manifest wants a web where this can never happen again. https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #noblackouts #iran #iranprotests #iranrevolution #iranrevolution2026 #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv ❤️
+  🇳🇱 dag 5 – 2026 wordt het kantelpunt vandaag weer een iraniër op werk gesproken: jong stel, baby van 5 dagen. geen contact meer met familie. moeder heeft het zwaar. beiden hopen dat het regime valt. dit is geen nieuws uit 2026 – dit is nu al realiteit in iran. blackout als wapen. kijk ook lighthousetv over waarom 2026 cruciaal is voor privacy en open internet: https://www.youtube.com/watch?v=lxeektswflw het open internet manifest wil een web waar dit niet meer kan gebeuren. https://openinternetmanifest.org 🇬🇧 day 5 – 2026 will be the turning point today again an iranian at work: young couple, baby 5 days old. no contact with family anymore. mother struggling. both hope the regime falls. this is not news from 2026 – this is already reality in iran. blackout as a weapon. watch lighthousetv on why 2026 is crucial for privacy and open internet: https://www.youtube.com/watch?v=lxeektswflw the open internet manifest wants a web where this can never happen again. https://openinternetmanifest.org openinternetmanifest freeinternet decentralization noblackouts iran iranprotests iranrevolution iranrevolution2026 cruciaal2026 privacy digitalid opensource internetfreedom selfhost nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv ❤️
+fuzzy_sha256: a7eb1b485092073080194dd98fe53dcff8902ca69ae92777a9d887f74c5562e4
+full_sha256: 16293a579530341b6c41e4b78fed028ffa6b6a1e50784d39be5cfebe0c75799f
 
 ---
 

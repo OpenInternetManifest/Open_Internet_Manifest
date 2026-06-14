@@ -1,0 +1,17 @@
+---
+layout: social-posts
+lang: en
+day: 44
+rvn_title: Dit is een test
+rvn_teaser:  Nu staat alleen de laatste post bovenaan
+raw_markdown: |
+  dit is een test
+
+full_sha256: de1a16f21c33e2ad338b576141f2f3e187f65668456358e12de9e4b2e388d056
+clean_text: |-
+  dit is een test
+fuzzy_sha256: 0cf1e28c667cdd403ec284f71e6ac7379dd903ab5076bb24b96c3208e1853724
+
+---
+
+dit is een test

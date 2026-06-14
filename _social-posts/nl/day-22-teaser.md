@@ -43,10 +43,13 @@ raw_markdown: |
   Why? Narratives get wild — reality stays calm. 🕳️
 
 
-full_sha256: 808fc3d8ddf4877cc7f3bff224f7e54920c4d3b3fe4a459ad4f9060b60119d1a
-fuzzy_sha256: 9885b054d071d12e3957ae1b4f8966141443553231e4dd8063325cbb96065608
+
+
+
 clean_text: |-
-  🇳🇱 dag 22 teaser – vanavond: even op adem 😏🍿 vandaag: epstein-files die "explodeerden", ontvrienden, dreigements en "bewijs" zonder bronnen. vanavond: even lucht. morgen: door. morgen duiken we in 1913. het jaar dat de fed, inkomstenbelasting én een ramp met drie anti-bank-miljardairs op één lijn kwamen. toeval? of een blauwdruk die we nog steeds leven? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag22teaser *** 🇬🇧 day 22 teaser – tonight: just breathe 😏🍿 today: epstein files "exploding", unfriending, threats and "proof" without sources. tonight: just breathe. tomorrow: back at it. tomorrow we dive into 1913. the year the fed, income tax and a disaster with three anti-bank billionaires lined up. coincidence? or a blueprint we’re still living? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day22teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+  🇳🇱 dag 22 teaser – vanavond: even op adem 😏🍿 vandaag: epstein-files die "explodeerden", ontvrienden, dreigements en "bewijs" zonder bronnen. vanavond: even lucht. morgen: door. morgen duiken we in 1913. het jaar dat de fed, inkomstenbelasting én een ramp met drie anti-bank-miljardairs op één lijn kwamen. toeval? of een blauwdruk die we nog steeds leven? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts realiteitvsnarratief dag22teaser 🇬🇧 day 22 teaser – tonight: just breathe 😏🍿 today: epstein files "exploding", unfriending, threats and "proof" without sources. tonight: just breathe. tomorrow: back at it. tomorrow we dive into 1913. the year the fed, income tax and a disaster with three anti-bank billionaires lined up. coincidence? or a blueprint we’re still living? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day22teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+fuzzy_sha256: f46dc891d795d6ded95474b4bbf625930d790b9438a26519c4542edc667a86a2
+full_sha256: f115e3b6489dc54723b330b61ff42c6ef66e36bb9d2a0f0dc24a2f77fc76314a
 
 ---
 

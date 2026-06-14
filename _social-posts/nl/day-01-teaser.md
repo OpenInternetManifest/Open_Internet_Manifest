@@ -27,10 +27,13 @@ raw_markdown: |
   ❤️
 
 
-full_sha256: f4124c2c2c2206fec6150246b0588f3a6c67d5d988edcb3165e864a2c82d878e
-fuzzy_sha256: a18d6d0a917541e285519e95e4ab046e85f0af7cf731d8fd3e0d6440a69290a5
+
+
+
 clean_text: |-
-  🇳🇱 dag 1 – het begin van iets groots begin december 2025 ontstond een droom: een internet dat weer van ons is. geen gatekeepers, geen surveillance, geen black-boxes. nu al 30 theses – en het groeit door jullie. 🚀 https://openinternetmanifest.org kijk ook: https://www.youtube.com/watch?v=lxeektswflw *** 🇬🇧 day 1 – the start of something big started in december 2025: a dream of an internet that is ours again. no gatekeepers, no surveillance, no black boxes. already 30 theses – and it grows with you. 🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+  🇳🇱 dag 1 – het begin van iets groots begin december 2025 ontstond een droom: een internet dat weer van ons is. geen gatekeepers, geen surveillance, geen black-boxes. nu al 30 theses – en het groeit door jullie. 🚀 https://openinternetmanifest.org kijk ook: https://www.youtube.com/watch?v=lxeektswflw 🇬🇧 day 1 – the start of something big started in december 2025: a dream of an internet that is ours again. no gatekeepers, no surveillance, no black boxes. already 30 theses – and it grows with you. 🚀 https://openinternetmanifest.org openinternetmanifest freeinternet decentralization cruciaal2026 privacy digitalid opensource internetfreedom selfhost nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+fuzzy_sha256: 4f7fd9bacd39ea0de2146de6389412c8ddf350a391f2635729a66057ee87844f
+full_sha256: 8949d69fbe16573ff9a4c4b2aea1ca4edd537857e22bdf27100d3deabc744f14
 
 ---
 

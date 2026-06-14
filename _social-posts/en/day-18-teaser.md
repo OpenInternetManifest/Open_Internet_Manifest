@@ -22,10 +22,13 @@ raw_markdown: |
   #RealityVsNarrative #Day19Teaser
 
 
-full_sha256: 51b5cec1fc652c8fa8aae8dde28b88fa7e6f9a48c39894bf26f615f8a32297d3
-fuzzy_sha256: 596f1c612a7bb0d5be282a4590c20463df04ec8e61c158940328d88f9b724143
+
+
+
 clean_text: |-
-  🇬🇧 day 19 teaser – tonight 🌐🔒 we're growing. not with millions of views, but with people who keep reading, checking, thinking. 196 unique visitors now – and every day more verifying hashes themselves. tomorrow: the next layer. because if hashes don't lie... what does that mean for the stories that do? open internet manifest: facts over feelings. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #day19teaser
+  🇬🇧 day 19 teaser – tonight 🌐🔒 we're growing. not with millions of views, but with people who keep reading, checking, thinking. 196 unique visitors now – and every day more verifying hashes themselves. tomorrow: the next layer. because if hashes don't lie... what does that mean for the stories that do? open internet manifest: facts over feelings. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts realityvsnarrative day19teaser
+fuzzy_sha256: ab45ef2678aaca6eb5fdb4fa11b089d3b823ea154bd9906e6754cad28b4c3ac1
+full_sha256: 51b5cec1fc652c8fa8aae8dde28b88fa7e6f9a48c39894bf26f615f8a32297d3
 
 ---
 

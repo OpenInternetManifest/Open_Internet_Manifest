@@ -23,10 +23,13 @@ raw_markdown: |
   #RealityVsNarrative #OIM #WebWithoutLeash
 
 
-full_sha256: 3267cbb92184396209a0a316c9e2fa1bd5250363b39c6b5cae72380170a7f9b7
-fuzzy_sha256: d11b6b981fef17c726ca89433477f184ed270fd7a8d80f68451b5fb10c600108
+
+
+
 clean_text: |-
-  🇬🇧 day 12 – why oim 🌐✂️ we're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer. we're fighting for a web where you get to think, doubt, stumble and stand up yourself – without anyone playing gatekeeper. no centralized algorithms predicting your thoughts. no narrative monopoly deciding what's real. no graduated farms with friendly managers. open internet manifest is not an end station, but a beginning: a web without leash, without sunglasses, without deep state control. if you're tired of the pens... read along. https://openinternetmanifest.org #realityvsnarrative #oim #webwithoutleash
+  🇬🇧 day 12 – why oim 🌐✂️ we're not fighting for a new layer of "truth", not for a new party, not for a new torchbearer. we're fighting for a web where you get to think, doubt, stumble and stand up yourself – without anyone playing gatekeeper. no centralized algorithms predicting your thoughts. no narrative monopoly deciding what's real. no graduated farms with friendly managers. open internet manifest is not an end station, but a beginning: a web without leash, without sunglasses, without deep state control. if you're tired of the pens... read along. https://openinternetmanifest.org realityvsnarrative oim webwithoutleash
+fuzzy_sha256: 947eb68c34fadf4ce7d5c7d80fe755af69b55165ce1e06e04a2ab588a83406fa
+full_sha256: 3267cbb92184396209a0a316c9e2fa1bd5250363b39c6b5cae72380170a7f9b7
 
 ---
 

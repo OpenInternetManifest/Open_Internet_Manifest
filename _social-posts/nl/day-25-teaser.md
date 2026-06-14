@@ -45,10 +45,13 @@ raw_markdown: |
   #RealityVsNarrative #Day24Teaser
 
 
-full_sha256: 1ff61dbf1860a6a1976957868ffb4c63c8269f306abf24d118584cdf1ed14124
-fuzzy_sha256: 391d9ed18c243dd996cd7632bb7a98c2f9beaf9805b1d14669b244b1fb1565b5
+
+
+
 clean_text: |-
-  🇳🇱 dag 25 teaser – vanavond: even op adem 😏🍿 vandaag: obama / iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel. good cop / bad cop — maar wie wint er écht? vanavond: even lucht. morgen: door. morgen kijken we naar de laag die bijna nooit in het nieuws komt. big three (blackrock, vanguard, state street) + bis: wie beheert de echte knoppen terwijl wij naar musk of soros kijken? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag24teaser *** 🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: obama / iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? tonight: just breathe. tomorrow: back at it. tomorrow we look at the layer that almost never makes the news. big three (blackrock, vanguard, state street) + bis: who holds the real buttons while we watch musk or soros? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day24teaser
+  🇳🇱 dag 25 teaser – vanavond: even op adem 😏🍿 vandaag: obama / iran-deal. $1.7 miljard cash, miljarden assets ontdooid, proxies sterker, conflict als businessmodel. good cop / bad cop — maar wie wint er écht? vanavond: even lucht. morgen: door. morgen kijken we naar de laag die bijna nooit in het nieuws komt. big three (blackrock, vanguard, state street) + bis: wie beheert de echte knoppen terwijl wij naar musk of soros kijken? open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts realiteitvsnarratief dag24teaser 🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: obama / iran deal. $1.7 billion cash, billions in assets unfrozen, proxies stronger, conflict as business model. good cop / bad cop — but who really wins? tonight: just breathe. tomorrow: back at it. tomorrow we look at the layer that almost never makes the news. big three (blackrock, vanguard, state street) + bis: who holds the real buttons while we watch musk or soros? open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day24teaser
+fuzzy_sha256: 1cb54ff1a02e9b320fcffeab9112ca2cb245f815a4e78a5d27d48c84779950d8
+full_sha256: 12c654bb55f142c20274a130ae9105cd6cbb71431c62028581714c19ba0469de
 
 ---
 

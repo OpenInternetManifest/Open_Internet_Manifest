@@ -28,10 +28,13 @@ raw_markdown: |
   http://openinternetmanifest.org/en/hash-verifierPaste the full text to check authenticity. Why? Because narratives are easily distorted — reality is not.
 
 
-full_sha256: 11dcd47c2a67198f7101f772cade64a3a0d42e84acd9e0843178c12c9466087c
-fuzzy_sha256: 773485ebda5131250cf2a692d5085bb2b96e3e3c0253cefe7ff48a1165a478c2
+
+
+
 clean_text: |-
-  🇬🇧 day 9 – what are graduated animal farms? the term comes from alternative circles and is a nod to george orwell's animal farm 📖: a revolution hijacked by a new elite. "graduated" means: multiple layers. each layer gives you just enough "truth" to feel awake – but you only step into a new, nicer stall. the manager always claims: "trust me, the science is settled, i have the only real truth." but real science is humble: it tries to disprove itself to reach better insights. the best way to spot if you're in such a farm? look precisely at what is systematically not being said 🤔 the open internet manifest does not want a new stall. it wants a web where no one has monopoly on truth. read along: https://openinternetmanifest.org #openinternetmanifest #graduatedanimalfarm #orwell #orwellwasright #freeinternet #realityvsnarrative ❤️ http://openinternetmanifest.org/en/hash-verifierpaste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+  🇬🇧 day 9 – what are graduated animal farms? the term comes from alternative circles and is a nod to george orwell's animal farm 📖: a revolution hijacked by a new elite. "graduated" means: multiple layers. each layer gives you just enough "truth" to feel awake – but you only step into a new, nicer stall. the manager always claims: "trust me, the science is settled, i have the only real truth." but real science is humble: it tries to disprove itself to reach better insights. the best way to spot if you're in such a farm? look precisely at what is systematically not being said 🤔 the open internet manifest does not want a new stall. it wants a web where no one has monopoly on truth. read along: https://openinternetmanifest.org openinternetmanifest graduatedanimalfarm orwell orwellwasright freeinternet realityvsnarrative ❤️ http://openinternetmanifest.org/en/hash-verifierpaste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+fuzzy_sha256: fad7c682c3cd00f80b32b87b7f1333b2a85e49813d9677b32b72b0c07b939f9a
+full_sha256: 11dcd47c2a67198f7101f772cade64a3a0d42e84acd9e0843178c12c9466087c
 
 ---
 

@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 4
 teaser_title: privacy as default
-# teaser_url: /en/social-posts/day-4-teaser
 teaser_text: No more separate darknet layer needed
 raw_markdown: |
   🇬🇧 Day 4 – What if privacy was the default?  
@@ -22,10 +17,11 @@ raw_markdown: |
   
   ❤️
 
+
+full_sha256: c85bb102d016e4906625f0f3c8c0a8125872165b302142a054559e849df5c618
+fuzzy_sha256: 1436f8c1b14766d1ba2f4c4e47e30c14196c0a23f7730f576708ac30bdf924d5
 clean_text: |-
   🇬🇧 day 4 – what if privacy was the default? no more separate darknet layer needed. what if anonymity and encryption were just the default on the internet? read along about real digital freedom. https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv ❤️
-full_sha256: c85bb102d016e4906625f0f3c8c0a8125872165b302142a054559e849df5c618
-fuzzy_sha256: 8e9738d09246a32f8f24ea75d9c414f70cad15a14f3f556d5398136e5528626b
 
 ---
 

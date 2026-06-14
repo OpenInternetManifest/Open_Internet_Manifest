@@ -1,32 +1,10 @@
 ---
 layout: social-posts
-lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
+lang: en
 day: 26
-teaser_title: 'Vandaag: de onzichtbare laag'
-# teaser_url: /nl/social-posts/dag-26-teaser
-teaser_text: 'Morgen: Zaken van de burger'
+teaser_title: Tonight just breathe
+teaser_text: Tomorrow we look at politics
 raw_markdown: |
-  🇳🇱 **Dag 26 Teaser – Vanavond: even op adem** 😏🍿  
-  Vandaag: de onzichtbare laag erboven. Big Three (BlackRock, Vanguard, State Street) + BIS — wie beheert de echte knoppen terwijl wij naar zichtbare spelers kijken?
-  
-  Vanavond: even lucht.  
-  Morgen: door.  
-  
-  Morgen kijken we naar politiek zelf.  
-  Van “zaken van de burger” (verantwoordelijkheid nemen) naar het theater dat het nu vaak is.  
-  En waarom dat verschil ertoe doet.
-  
-  Open Internet Manifest: feiten boven frames.  
-  Blijf kijken. 👀✨  
-  https://openinternetmanifest.org/nl/social-posts  
-  #RealiteitVsNarratief #Dag25Teaser
-  
-    ---
-  
   🇬🇧 **Day 25 Teaser – Tonight: just breathe** 😏🍿  
   Today: the invisible layer above. Big Three (BlackRock, Vanguard, State Street) + BIS — who really holds the buttons while we watch visible players?
   
@@ -41,33 +19,15 @@ raw_markdown: |
   Keep watching. 👀✨  
   https://openinternetmanifest.org/en/social-posts  
   #RealityVsNarrative #Day25Teaser
-  
-  This post is 100% authentic and verifiable via:  
-  https://openinternetmanifest.org/en/hash-verifier  
-  Paste the full text to check authenticity.  
-  Why? Narratives get wild — reality stays calm. 🕳️
+
+
+
+
 
 clean_text: |-
-  🇳🇱 dag 26 teaser – vanavond: even op adem 😏🍿 vandaag: de onzichtbare laag erboven. big three (blackrock, vanguard, state street) + bis — wie beheert de echte knoppen terwijl wij naar zichtbare spelers kijken? vanavond: even lucht. morgen: door. morgen kijken we naar politiek zelf. van “zaken van de burger” (verantwoordelijkheid nemen) naar het theater dat het nu vaak is. en waarom dat verschil ertoe doet. open internet manifest: feiten boven frames. blijf kijken. 👀✨ https://openinternetmanifest.org/nl/social-posts #realiteitvsnarratief #dag25teaser --- 🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: the invisible layer above. big three (blackrock, vanguard, state street) + bis — who really holds the buttons while we watch visible players? tonight: just breathe. tomorrow: back at it. tomorrow we look at politics itself. from “affairs of the citizen” (taking responsibility) to the theater it often is now. and why that difference matters. open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day25teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
-full_sha256: 8597931c5490200f0ba893ab48ebe4fc51406ba405cb6593822bd751faa6b4fd
-fuzzy_sha256: 2d69f96f04a502dc0664f20858645cda31e1889c6673ff0e5409e133372e75be
-
----
-
-🇳🇱 **Dag 26 Teaser – Vanavond: even op adem** 😏🍿  
-Vandaag: de onzichtbare laag erboven. Big Three (BlackRock, Vanguard, State Street) + BIS — wie beheert de echte knoppen terwijl wij naar zichtbare spelers kijken?
-
-Vanavond: even lucht.  
-Morgen: door.  
-
-Morgen kijken we naar politiek zelf.  
-Van “zaken van de burger” (verantwoordelijkheid nemen) naar het theater dat het nu vaak is.  
-En waarom dat verschil ertoe doet.
-
-Open Internet Manifest: feiten boven frames.  
-Blijf kijken. 👀✨  
-https://openinternetmanifest.org/nl/social-posts  
-#RealiteitVsNarratief #Dag25Teaser
+  🇬🇧 day 25 teaser – tonight: just breathe 😏🍿 today: the invisible layer above. big three (blackrock, vanguard, state street) + bis — who really holds the buttons while we watch visible players? tonight: just breathe. tomorrow: back at it. tomorrow we look at politics itself. from “affairs of the citizen” (taking responsibility) to the theater it often is now. and why that difference matters. open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day25teaser
+fuzzy_sha256: 13d294c0d3c903a7715c7515465cb9c1712b54d72f558f80a0d95cd7d03b52b2
+full_sha256: 0502cfc6453f44212dcd75c284a0ef143a09e905f28fa717587db48c1496ee26
 
 ---
 
@@ -85,8 +45,3 @@ Open Internet Manifest: facts over frames.
 Keep watching. 👀✨  
 https://openinternetmanifest.org/en/social-posts  
 #RealityVsNarrative #Day25Teaser
-
-This post is 100% authentic and verifiable via:  
-https://openinternetmanifest.org/en/hash-verifier  
-Paste the full text to check authenticity.  
-Why? Narratives get wild — reality stays calm. 🕳️

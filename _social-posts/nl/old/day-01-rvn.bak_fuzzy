@@ -1,79 +1,82 @@
 ---
 layout: social-posts
-lang: nl
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 700a1a38756015cb7484542dae699e51a56d041114655e29de30f251272e046d
-social_share_sha256: ''
+lang: en
 day: 1
-rvn_title: Het vaste patroon bij grote incidenten
-# rvn_url: /nl/social-posts/dag-1-rvn
-rvn_teaser: 'Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin'
+rvn_title: The Fixed Pattern in Major Incidents
+rvn_teaser: How narratives are pushed and reality is
 raw_markdown: |
-  Realiteit vs. Narratief – Het vaste patroon bij grote incidenten.
+  Reality vs. Narrative – The Fixed Pattern in Major Incidents.
   
-  Het narratief zegt vaak:  
-  “Direct oordeel op basis van eerste beelden: onrecht, moord, systeemfalen. Feiten komen later wel – of niet. Kritiek op het slachtoffer is victim blaming.”
-  Het narratief zegt vaak:  
-  “Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin.”
+  The narrative often says:  
+  “Immediate judgment based on first images: injustice, murder, systemic failure. Facts will come later – or not. Criticizing the victim is victim blaming.”
   
-  De realiteit:  
-  Bij bijna elk groot incident zien we hetzelfde patroon:  
-  - Eén kant mobiliseert meteen op emotie en eerste beelden (“ongewapend! moord!”).  
-  - De andere kant roept “gerechtvaardigd” en begint direct te analyseren: frame-by-frame video's, timelines, getuigen, Graham v. Connor-standaard, Supreme Court-rulings.  
-  - De emotionele kant negeert vaak nieuwe feiten als ze niet passen (of noemt ze “desinformatie”/“victim blaming”).  
-  - De analytische kant past mening aan als feiten veranderen – maar dan is het initiële narratief al viral.
+  The narrative often says:  
+  “Immediate judgment: justified, law & order. Facts? We'll dive in.”
   
-  Voorbeeld Renee Good:  
-  Eerste reactie: “Ongewapend, moord door ICE/Trump.”  
-  Analytische reactie: “Blokkeerde straat, negeerde bevelen, reed vooruit op agent → deadly weapon, justified force.”
+  The reality:  
+  In almost every major incident, we see the same pattern:  
+  - One side mobilizes instantly on emotion and first footage (“unarmed! murder!”).  
+  - The other side calls it “justified” and starts analyzing right away: frame-by-frame videos, timelines, witnesses, Graham v. Connor standard, Supreme Court rulings.  
+  - The emotional side often ignores new facts when they don't fit (or labels them “disinformation”/“victim blaming”).  
+  - The analytical side adjusts opinion when facts change – but by then the initial narrative is already viral.
   
-  Waarom dit patroon?  
-  Eén kant prioriteert morele verontwaardiging en systeemkritiek – feiten secundair.  
-  De andere kant prioriteert individuele verantwoordelijkheid en wetgeving – dus diep in details duiken.
-  Gevolg:  
+  Example Renee Good:  
+  First reaction: “Unarmed, murder by ICE/Trump.”  
+  Analytical reaction: “Blocked the street, ignored commands, drove forward at agent → deadly weapon, justified force.”
   
-  Geen dialoog, alleen haat, verdeeldheid en een waarheid die pas later op tafel komt – maar dan is het narratief al overal.
+  Why this pattern?  
+  One side prioritizes moral outrage and systemic critique – facts secondary.  
+  The other side prioritizes individual responsibility and legislation – so they dive deep into details.
   
-  Kies realiteit:  
-  Wacht op de feiten. Kijk álle video's. Lees álle bronnen. Pas je mening aan.  
-  Dat is echte verantwoordelijkheid – ongeacht je kant.
-  Zijn we ooit voorbij dit patroon?
-  #RealiteitVsNarratief #Polarisatie #FeitenBovenEmotie
+  Consequence:  
+  No dialogue, only hate, division, and a truth that surfaces later – but by then the narrative is everywhere.
+  
+  Choose reality:  
+  Wait for the facts. Watch ALL videos. Read ALL sources. Adjust your opinion.  
+  That's real responsibility – regardless of your side.
+  
+  Will we ever get past this pattern?
+  #RealityVsNarrative #Polarization #FactsOverEmotion
+
+
+
+
 clean_text: |-
-  realiteit vs. narratief – het vaste patroon bij grote incidenten. het narratief zegt vaak: “direct oordeel op basis van eerste beelden: onrecht, moord, systeemfalen. feiten komen later wel – of niet. kritiek op het slachtoffer is victim blaming.” het narratief zegt vaak: “direct oordeel: gerechtvaardigd, wet & orde. feiten? we duiken erin.” de realiteit: bij bijna elk groot incident zien we hetzelfde patroon: eén kant mobiliseert meteen op emotie en eerste beelden (“ongewapend! moord!”). de andere kant roept “gerechtvaardigd” en begint direct te analyseren: frame-by-frame video's, timelines, getuigen, graham v. connor-standaard, supreme court-rulings. de emotionele kant negeert vaak nieuwe feiten als ze niet passen (of noemt ze “desinformatie”/“victim blaming”). de analytische kant past mening aan als feiten veranderen – maar dan is het initiële narratief al viral. voorbeeld renee good: eerste reactie: “ongewapend, moord door ice/trump.” analytische reactie: “blokkeerde straat, negeerde bevelen, reed vooruit op agent → deadly weapon, justified force.” waarom dit patroon? eén kant prioriteert morele verontwaardiging en systeemkritiek – feiten secundair. de andere kant prioriteert individuele verantwoordelijkheid en wetgeving – dus diep in details duiken. gevolg: geen dialoog, alleen haat, verdeeldheid en een waarheid die pas later op tafel komt – maar dan is het narratief al overal. kies realiteit: wacht op de feiten. kijk álle video's. lees álle bronnen. pas je mening aan. dat is echte verantwoordelijkheid – ongeacht je kant. zijn we ooit voorbij dit patroon? #realiteitvsnarratief #polarisatie #feitenbovenemotie
-full_sha256: 00b332bc4a85ec38f0cbfa875be08a28d238438fe87283e1d64b49e876a1f41c
-fuzzy_sha256: 709fab2fee445975148b1097bac19430b4787e24fdfacd56e96e234af830a635
+  reality vs. narrative – the fixed pattern in major incidents. the narrative often says: “immediate judgment based on first images: injustice, murder, systemic failure. facts will come later – or not. criticizing the victim is victim blaming.” the narrative often says: “immediate judgment: justified, law & order. facts? we'll dive in.” the reality: in almost every major incident, we see the same pattern: one side mobilizes instantly on emotion and first footage (“unarmed! murder!”). the other side calls it “justified” and starts analyzing right away: frame-by-frame videos, timelines, witnesses, graham v. connor standard, supreme court rulings. the emotional side often ignores new facts when they don't fit (or labels them “disinformation”/“victim blaming”). the analytical side adjusts opinion when facts change – but by then the initial narrative is already viral. example renee good: first reaction: “unarmed, murder by ice/trump.” analytical reaction: “blocked the street, ignored commands, drove forward at agent → deadly weapon, justified force.” why this pattern? one side prioritizes moral outrage and systemic critique – facts secondary. the other side prioritizes individual responsibility and legislation – so they dive deep into details. consequence: no dialogue, only hate, division, and a truth that surfaces later – but by then the narrative is everywhere. choose reality: wait for the facts. watch all videos. read all sources. adjust your opinion. that's real responsibility – regardless of your side. will we ever get past this pattern? realityvsnarrative polarization factsoveremotion
+fuzzy_sha256: 24d3f0cfd0dade51814d87c0d68c7d6f605c7f29ee0477f016cf40b25862da49
+full_sha256: 05cacd5537403280907a747cebb53de54f93504f061c08b4cbf667abef9ff1be
 
 ---
 
-Realiteit vs. Narratief – Het vaste patroon bij grote incidenten.
+Reality vs. Narrative – The Fixed Pattern in Major Incidents.
 
-Het narratief zegt vaak:  
-“Direct oordeel op basis van eerste beelden: onrecht, moord, systeemfalen. Feiten komen later wel – of niet. Kritiek op het slachtoffer is victim blaming.”
-Het narratief zegt vaak:  
-“Direct oordeel: gerechtvaardigd, wet & orde. Feiten? We duiken erin.”
+The narrative often says:  
+“Immediate judgment based on first images: injustice, murder, systemic failure. Facts will come later – or not. Criticizing the victim is victim blaming.”
 
-De realiteit:  
-Bij bijna elk groot incident zien we hetzelfde patroon:  
-- Eén kant mobiliseert meteen op emotie en eerste beelden (“ongewapend! moord!”).  
-- De andere kant roept “gerechtvaardigd” en begint direct te analyseren: frame-by-frame video's, timelines, getuigen, Graham v. Connor-standaard, Supreme Court-rulings.  
-- De emotionele kant negeert vaak nieuwe feiten als ze niet passen (of noemt ze “desinformatie”/“victim blaming”).  
-- De analytische kant past mening aan als feiten veranderen – maar dan is het initiële narratief al viral.
+The narrative often says:  
+“Immediate judgment: justified, law & order. Facts? We'll dive in.”
 
-Voorbeeld Renee Good:  
-Eerste reactie: “Ongewapend, moord door ICE/Trump.”  
-Analytische reactie: “Blokkeerde straat, negeerde bevelen, reed vooruit op agent → deadly weapon, justified force.”
+The reality:  
+In almost every major incident, we see the same pattern:  
+- One side mobilizes instantly on emotion and first footage (“unarmed! murder!”).  
+- The other side calls it “justified” and starts analyzing right away: frame-by-frame videos, timelines, witnesses, Graham v. Connor standard, Supreme Court rulings.  
+- The emotional side often ignores new facts when they don't fit (or labels them “disinformation”/“victim blaming”).  
+- The analytical side adjusts opinion when facts change – but by then the initial narrative is already viral.
 
-Waarom dit patroon?  
-Eén kant prioriteert morele verontwaardiging en systeemkritiek – feiten secundair.  
-De andere kant prioriteert individuele verantwoordelijkheid en wetgeving – dus diep in details duiken.
-Gevolg:  
+Example Renee Good:  
+First reaction: “Unarmed, murder by ICE/Trump.”  
+Analytical reaction: “Blocked the street, ignored commands, drove forward at agent → deadly weapon, justified force.”
 
-Geen dialoog, alleen haat, verdeeldheid en een waarheid die pas later op tafel komt – maar dan is het narratief al overal.
+Why this pattern?  
+One side prioritizes moral outrage and systemic critique – facts secondary.  
+The other side prioritizes individual responsibility and legislation – so they dive deep into details.
 
-Kies realiteit:  
-Wacht op de feiten. Kijk álle video's. Lees álle bronnen. Pas je mening aan.  
-Dat is echte verantwoordelijkheid – ongeacht je kant.
-Zijn we ooit voorbij dit patroon?
-#RealiteitVsNarratief #Polarisatie #FeitenBovenEmotie
+Consequence:  
+No dialogue, only hate, division, and a truth that surfaces later – but by then the narrative is everywhere.
+
+Choose reality:  
+Wait for the facts. Watch ALL videos. Read ALL sources. Adjust your opinion.  
+That's real responsibility – regardless of your side.
+
+Will we ever get past this pattern?
+#RealityVsNarrative #Polarization #FactsOverEmotion

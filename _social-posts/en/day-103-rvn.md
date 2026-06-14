@@ -6,8 +6,6 @@ rvn_title: "Part 4 – Replace Windows (your computer is not yours)"
 rvn_teaser: "Your fourth step out of Big Tech slavery."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "fa1f4aae7e9a194e53ba01d895a0fc999f66d535a3b32b3a1eaf4562e8939aeb"
-full_sha256: "fa2236c01a783ea71da8c319a73d08f7352ca9072da27700ca2ce891fee849d3"
 git_commit_hash: "af359e93ca94b57659f8249f194cc8b177946f3e"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af359e93ca94b57659f8249f194cc8b177946f3e"
 git_commit_date: "2026-06-04T04:43:35.283872"
@@ -70,6 +68,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+
+
+clean_text: |-
+  rvn: part 4 – replace windows (your computer is not yours)💻 narrative: “windows is just the easiest. you can’t run everything on linux anyway.” reality: that was mostly true 10–15 years ago. in 2026, that story is largely outdated. the honest situation today: 99% of daily tasks work excellently on linux (browsing, email, office documents, video, banking, etc.) gaming: steam + proton now works extremely well — many games even run better than on windows. professional software: photoshop → affinity suite or photopea. adobe suite → often works via web or virtual machine. niche professional tools → sometimes still tricky, but usually solvable with a virtual machine. banking & government: works fine in most cases via browser. the truth: yes, there are still a few niche programs that only run well on windows. for those cases you can simply keep a dual-boot or run windows inside a virtual machine (virtualbox or virt-manager). easiest options for beginners: linux mint → best choice if you come from windows (looks and feels familiar) zorin os → looks even more like windows pop!os → excellent for gaming and modern hardware action for today / this weekend: download linux mint → https://linuxmint.com create a bootable usb stick try it first in live mode (without installing or touching windows) see if your important programs work you don’t have to delete windows immediately. dual-boot is perfectly fine. oim way out digital sovereignty doesn’t mean everything has to work perfectly from day one. it means you consciously choose systems where you are in control — not microsoft. this was the final part of phase 1 (the basic steps). question to you what’s still holding you back from trying linux? is it really “i can’t run everything” or something else? feel free to share your concerns or experiences. digitalsovereignty dumpwindows linuxmint linux oim https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 76c319bfcff5727327921b6464290fe38069f006a3494201f6d50075394b5a62
+full_sha256: afb2673e8ebac6e75c00d8294ac3b71197a15dfddabe703028b1976fea660b03
+
 ---
 
 

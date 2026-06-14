@@ -1,131 +1,135 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 65
-rvn_title: "Olieprijzen en het asymmetrische spel – Wie verdient er echt aan?"
-rvn_teaser: "Waarom blijft de prijs aan de pomp hoog terwijl er genoeg olie is? Vandaag het spel van zoete vs zware olie, raffinage en geopolitiek"
+rvn_title: "Oil Prices and the Asymmetric Game – Who Really Profits?"
+rvn_teaser: "Why does the price at the pump stay high even when there is enough oil? Today we look at the game of sweet vs heavy oil, refining, and geopolitics."
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:06.970101"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:12.124046"
 raw_markdown: |
-  **RVN: Olieprijzen en het asymmetrische spel – Wie verdient er echt aan?** 🛢️
+  **RVN: Oil Prices and the Asymmetric Game – Who Really Profits?** 🛢️
   
-  **Narratief:**  
-  “Het komt door oorlog, sancties en vraag & aanbod.”
+  **Narrative:**  
+  “It’s because of wars, sanctions and supply & demand.”
   
-  **Realiteit:**
+  **Reality:**
   
-  De oliemarkt is een complex asymmetrisch spel van verschillende soorten olie, raffinagekosten en politieke macht.
+  The oil market is not a simple free market. It is a complex **asymmetric game** of different oil types, refining costs and political power.
   
-  **Extractieprijzen (ruwe kosten uit de grond):**
-  - **Midden-Oosten** (Saudi-Arabië, Koeweit, etc.): vaak **$5 – $15** per vat. Extreem goedkoop.
-  - **VS** (schalie-olie): **$40 – $60** per vat. Duurder, maar nog steeds rendabel.
-  - **Noordzee** (NL, UK, Denemarken): rond de **$30 – $50** per vat.
+  **Extraction costs (what it costs to get it out of the ground):**
+  - **Middle East** (Saudi Arabia, Kuwait, etc.): often **$5 – $15** per barrel. Extremely cheap.
+  - **USA** (shale oil): **$40 – $60** per barrel. More expensive, but still profitable.
+  - **North Sea** (NL, UK, Denmark): around **$30 – $50** per barrel.
   
-  **Zoete vs Zware olie**
-  - **Lichte zoete olie** (VS, Noorwegen): makkelijk te raffineren, lage zwavel.  
-    De VS produceert hier enorm veel van.
-  - **Zware zure olie** (Rusland, Venezuela, delen Midden-Oosten): goedkoop te winnen, maar duur en complex te raffineren.
+  **Sweet vs Heavy Oil**
+  - **Light sweet oil** (USA, Norway): easy to refine, low sulfur.  
+    The USA produces enormous amounts of this.
+  - **Heavy sour oil** (Russia, Venezuela, parts of Middle East): cheap to extract, but expensive and complex to refine.
   
-  **Wie heeft baat bij welke olie?**
-  - **Raffinaderijen** verdienen vaak het meest aan **zware olie**. Ze kopen die goedkoop in en verkopen na raffinage dure diesel en benzine.  
-    Rotterdam is een van de grootste raffinage-hubs van Europa en draait grotendeels op zware olie.
-  - De VS produceert vooral zoete olie → exporteert die, maar moet soms geraffineerde producten importeren omdat veel eigen raffinaderijen op zware olie zijn ingesteld.
+  **Who benefits from which type?**
+  - **Refineries** often make the most money from **heavy oil**. They buy it cheaply and sell expensive diesel and gasoline after refining.  
+    Rotterdam is one of the largest refining hubs in Europe and runs largely on heavy oil.
+  - The USA mainly produces sweet oil → exports a lot of it, but sometimes has to import refined products because many of its own refineries are geared toward heavy oil.
   
-  **Politieke knoppen**
-  - Trump: “Drill baby drill” → productie omhoog.
-  - Biden: Keystone XL pijplijn stilgelegd, nieuwe boringen beperkt.
-  - Sancties tegen Rusland (zware olie) → verstoring van de Europese raffinageketen.
+  **Political levers**
+  - Trump: “Drill baby drill” → production up.
+  - Biden: Keystone XL pipeline shut down, new drilling restricted.
+  - Sanctions on Russia (heavy oil) → disruption of the European refining chain.
   
-  Dit creëert **kunstmatige schaarste**: genoeg ruwe olie wereldwijd, maar de verkeerde soort op de verkeerde plek, met hoge raffinage- en transportkosten als gevolg.
+  This creates **artificial scarcity**: enough crude oil worldwide, but the wrong type in the wrong place, leading to high refining and transport costs.
   
-  **De kern**
-  Grote spelers (overheden, oliebedrijven, raffinaderijen) verdienen niet alleen aan de prijs van ruwe olie, maar vooral aan **marge op raffinage, transport en geopolitieke spanningen**.  
-  Hoge futures-prijzen door spanningen in Hormuz of de Rode Zee zijn vaak lucratiever dan een stabiele, goedkope markt.
+  **The core**
+  Big players (governments, oil companies, refineries) don’t just profit from the price of crude oil itself, but especially from **margins on refining, transport and geopolitical tension**.  
+  High futures prices caused by tensions in Hormuz or the Red Sea are often more profitable than a stable, cheap market.
   
-  **OIM-uitweg**
-  Doorzie de keten.  
-  Minder afhankelijk worden van dit globale spel betekent:  
-  - Lokale energie-opslag en diversificatie  
-  - Eigen veerkracht in plaats van steeds weer slachtoffer van de volgende geopolitieke zet  
-  - Begrijpen dat de prijs aan de pomp vaak meer zegt over macht dan over fysieke schaarste.
+  **OIM way out**
+  Understand the chain instead of just looking at the pump price.  
+  Becoming less dependent on this global game means:
+  - Local energy storage and diversification
+  - Real resilience instead of always being a victim of the next geopolitical move
+  - Realizing that the price at the pump often says more about power than about physical scarcity.
   
-  **Vraag aan jou**  
-  Denk je dat de prijs die je betaalt vooral door “oorlog en aanbod” komt, of zie je ook het spel van raffinage, politiek en marges?  
+  **Question to you**  
+  Do you think the price you pay is mainly determined by “war and supply”, or do you also see the game of refining, politics and margins behind it?
   
-  Welke kleine stap kun jij zetten om minder afhankelijk te worden van dit systeem?
+  What small step can you take to become less dependent on this system?
   
-  We bouwen door. Niet alleen klagen over de pomp, maar de mechanismen doorzien.
+  We keep building. Not just complaining about the pump price, but understanding the mechanisms.
   
-  #Olieprijzen #Raffinage #Geopolitiek #AsymmetrischSpel #RVN #OpenInternetManifest
+  #OilPrices #Refining #Geopolitics #AsymmetricGame #RVN #OpenInternetManifest
   
   https://openinternetmanifest.org
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  rvn: olieprijzen en het asymmetrische spel – wie verdient er echt aan? 🛢️ narratief: “het komt door oorlog, sancties en vraag & aanbod.” realiteit: de oliemarkt is een complex asymmetrisch spel van verschillende soorten olie, raffinagekosten en politieke macht. extractieprijzen (ruwe kosten uit de grond): midden-oosten (saudi-arabië, koeweit, etc.): vaak $5 – $15 per vat. extreem goedkoop. vs (schalie-olie): $40 – $60 per vat. duurder, maar nog steeds rendabel. noordzee (nl, uk, denemarken): rond de $30 – $50 per vat. zoete vs zware olie lichte zoete olie (vs, noorwegen): makkelijk te raffineren, lage zwavel. de vs produceert hier enorm veel van. zware zure olie (rusland, venezuela, delen midden-oosten): goedkoop te winnen, maar duur en complex te raffineren. wie heeft baat bij welke olie? raffinaderijen verdienen vaak het meest aan zware olie. ze kopen die goedkoop in en verkopen na raffinage dure diesel en benzine. rotterdam is een van de grootste raffinage-hubs van europa en draait grotendeels op zware olie. de vs produceert vooral zoete olie → exporteert die, maar moet soms geraffineerde producten importeren omdat veel eigen raffinaderijen op zware olie zijn ingesteld. politieke knoppen trump: “drill baby drill” → productie omhoog. biden: keystone xl pijplijn stilgelegd, nieuwe boringen beperkt. sancties tegen rusland (zware olie) → verstoring van de europese raffinageketen. dit creëert kunstmatige schaarste: genoeg ruwe olie wereldwijd, maar de verkeerde soort op de verkeerde plek, met hoge raffinage- en transportkosten als gevolg. de kern grote spelers (overheden, oliebedrijven, raffinaderijen) verdienen niet alleen aan de prijs van ruwe olie, maar vooral aan marge op raffinage, transport en geopolitieke spanningen. hoge futures-prijzen door spanningen in hormuz of de rode zee zijn vaak lucratiever dan een stabiele, goedkope markt. oim-uitweg doorzie de keten. minder afhankelijk worden van dit globale spel betekent: lokale energie-opslag en diversificatie eigen veerkracht in plaats van steeds weer slachtoffer van de volgende geopolitieke zet begrijpen dat de prijs aan de pomp vaak meer zegt over macht dan over fysieke schaarste. vraag aan jou denk je dat de prijs die je betaalt vooral door “oorlog en aanbod” komt, of zie je ook het spel van raffinage, politiek en marges? welke kleine stap kun jij zetten om minder afhankelijk te worden van dit systeem? we bouwen door. niet alleen klagen over de pomp, maar de mechanismen doorzien. #olieprijzen #raffinage #geopolitiek #asymmetrischspel #rvn #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: 0a1e4b7d506c58a8a4fd08b4307d06f4d8ae0270cab80aea7d9ed0dce0d9f087
-fuzzy_sha256: 9f8836bd64ed7c08d4dcfd39a50d449ef50af93f971265048837e2d9c7b75130
+  rvn: oil prices and the asymmetric game – who really profits? 🛢️ narrative: “it’s because of wars, sanctions and supply & demand.” reality: the oil market is not a simple free market. it is a complex asymmetric game of different oil types, refining costs and political power. extraction costs (what it costs to get it out of the ground): middle east (saudi arabia, kuwait, etc.): often $5 – $15 per barrel. extremely cheap. usa (shale oil): $40 – $60 per barrel. more expensive, but still profitable. north sea (nl, uk, denmark): around $30 – $50 per barrel. sweet vs heavy oil light sweet oil (usa, norway): easy to refine, low sulfur. the usa produces enormous amounts of this. heavy sour oil (russia, venezuela, parts of middle east): cheap to extract, but expensive and complex to refine. who benefits from which type? refineries often make the most money from heavy oil. they buy it cheaply and sell expensive diesel and gasoline after refining. rotterdam is one of the largest refining hubs in europe and runs largely on heavy oil. the usa mainly produces sweet oil → exports a lot of it, but sometimes has to import refined products because many of its own refineries are geared toward heavy oil. political levers trump: “drill baby drill” → production up. biden: keystone xl pipeline shut down, new drilling restricted. sanctions on russia (heavy oil) → disruption of the european refining chain. this creates artificial scarcity: enough crude oil worldwide, but the wrong type in the wrong place, leading to high refining and transport costs. the core big players (governments, oil companies, refineries) don’t just profit from the price of crude oil itself, but especially from margins on refining, transport and geopolitical tension. high futures prices caused by tensions in hormuz or the red sea are often more profitable than a stable, cheap market. oim way out understand the chain instead of just looking at the pump price. becoming less dependent on this global game means: local energy storage and diversification real resilience instead of always being a victim of the next geopolitical move realizing that the price at the pump often says more about power than about physical scarcity. question to you do you think the price you pay is mainly determined by “war and supply”, or do you also see the game of refining, politics and margins behind it? what small step can you take to become less dependent on this system? we keep building. not just complaining about the pump price, but understanding the mechanisms. oilprices refining geopolitics asymmetricgame rvn openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 6e0e9db03dd0deaef4d74ab83b2612df0d58d62868b34dd084f752b632b4a240
+full_sha256: a70d1176b9d0924e32efb37e1e18f9451581eb90f4c5c3f072cc25292448c581
 
 ---
 
 
 
-**RVN: Olieprijzen en het asymmetrische spel – Wie verdient er echt aan?** 🛢️
+**RVN: Oil Prices and the Asymmetric Game – Who Really Profits?** 🛢️
 
-**Narratief:**  
-“Het komt door oorlog, sancties en vraag & aanbod.”
+**Narrative:**  
+“It’s because of wars, sanctions and supply & demand.”
 
-**Realiteit:**
+**Reality:**
 
-De oliemarkt is een complex asymmetrisch spel van verschillende soorten olie, raffinagekosten en politieke macht.
+The oil market is not a simple free market. It is a complex **asymmetric game** of different oil types, refining costs and political power.
 
-**Extractieprijzen (ruwe kosten uit de grond):**
-- **Midden-Oosten** (Saudi-Arabië, Koeweit, etc.): vaak **$5 – $15** per vat. Extreem goedkoop.
-- **VS** (schalie-olie): **$40 – $60** per vat. Duurder, maar nog steeds rendabel.
-- **Noordzee** (NL, UK, Denemarken): rond de **$30 – $50** per vat.
+**Extraction costs (what it costs to get it out of the ground):**
+- **Middle East** (Saudi Arabia, Kuwait, etc.): often **$5 – $15** per barrel. Extremely cheap.
+- **USA** (shale oil): **$40 – $60** per barrel. More expensive, but still profitable.
+- **North Sea** (NL, UK, Denmark): around **$30 – $50** per barrel.
 
-**Zoete vs Zware olie**
-- **Lichte zoete olie** (VS, Noorwegen): makkelijk te raffineren, lage zwavel.  
-  De VS produceert hier enorm veel van.
-- **Zware zure olie** (Rusland, Venezuela, delen Midden-Oosten): goedkoop te winnen, maar duur en complex te raffineren.
+**Sweet vs Heavy Oil**
+- **Light sweet oil** (USA, Norway): easy to refine, low sulfur.  
+  The USA produces enormous amounts of this.
+- **Heavy sour oil** (Russia, Venezuela, parts of Middle East): cheap to extract, but expensive and complex to refine.
 
-**Wie heeft baat bij welke olie?**
-- **Raffinaderijen** verdienen vaak het meest aan **zware olie**. Ze kopen die goedkoop in en verkopen na raffinage dure diesel en benzine.  
-  Rotterdam is een van de grootste raffinage-hubs van Europa en draait grotendeels op zware olie.
-- De VS produceert vooral zoete olie → exporteert die, maar moet soms geraffineerde producten importeren omdat veel eigen raffinaderijen op zware olie zijn ingesteld.
+**Who benefits from which type?**
+- **Refineries** often make the most money from **heavy oil**. They buy it cheaply and sell expensive diesel and gasoline after refining.  
+  Rotterdam is one of the largest refining hubs in Europe and runs largely on heavy oil.
+- The USA mainly produces sweet oil → exports a lot of it, but sometimes has to import refined products because many of its own refineries are geared toward heavy oil.
 
-**Politieke knoppen**
-- Trump: “Drill baby drill” → productie omhoog.
-- Biden: Keystone XL pijplijn stilgelegd, nieuwe boringen beperkt.
-- Sancties tegen Rusland (zware olie) → verstoring van de Europese raffinageketen.
+**Political levers**
+- Trump: “Drill baby drill” → production up.
+- Biden: Keystone XL pipeline shut down, new drilling restricted.
+- Sanctions on Russia (heavy oil) → disruption of the European refining chain.
 
-Dit creëert **kunstmatige schaarste**: genoeg ruwe olie wereldwijd, maar de verkeerde soort op de verkeerde plek, met hoge raffinage- en transportkosten als gevolg.
+This creates **artificial scarcity**: enough crude oil worldwide, but the wrong type in the wrong place, leading to high refining and transport costs.
 
-**De kern**
-Grote spelers (overheden, oliebedrijven, raffinaderijen) verdienen niet alleen aan de prijs van ruwe olie, maar vooral aan **marge op raffinage, transport en geopolitieke spanningen**.  
-Hoge futures-prijzen door spanningen in Hormuz of de Rode Zee zijn vaak lucratiever dan een stabiele, goedkope markt.
+**The core**
+Big players (governments, oil companies, refineries) don’t just profit from the price of crude oil itself, but especially from **margins on refining, transport and geopolitical tension**.  
+High futures prices caused by tensions in Hormuz or the Red Sea are often more profitable than a stable, cheap market.
 
-**OIM-uitweg**
-Doorzie de keten.  
-Minder afhankelijk worden van dit globale spel betekent:  
-- Lokale energie-opslag en diversificatie  
-- Eigen veerkracht in plaats van steeds weer slachtoffer van de volgende geopolitieke zet  
-- Begrijpen dat de prijs aan de pomp vaak meer zegt over macht dan over fysieke schaarste.
+**OIM way out**
+Understand the chain instead of just looking at the pump price.  
+Becoming less dependent on this global game means:
+- Local energy storage and diversification
+- Real resilience instead of always being a victim of the next geopolitical move
+- Realizing that the price at the pump often says more about power than about physical scarcity.
 
-**Vraag aan jou**  
-Denk je dat de prijs die je betaalt vooral door “oorlog en aanbod” komt, of zie je ook het spel van raffinage, politiek en marges?  
+**Question to you**  
+Do you think the price you pay is mainly determined by “war and supply”, or do you also see the game of refining, politics and margins behind it?
 
-Welke kleine stap kun jij zetten om minder afhankelijk te worden van dit systeem?
+What small step can you take to become less dependent on this system?
 
-We bouwen door. Niet alleen klagen over de pomp, maar de mechanismen doorzien.
+We keep building. Not just complaining about the pump price, but understanding the mechanisms.
 
-#Olieprijzen #Raffinage #Geopolitiek #AsymmetrischSpel #RVN #OpenInternetManifest
+#OilPrices #Refining #Geopolitics #AsymmetricGame #RVN #OpenInternetManifest
 
 https://openinternetmanifest.org
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

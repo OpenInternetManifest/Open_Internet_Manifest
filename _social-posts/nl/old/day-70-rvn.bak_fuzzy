@@ -1,127 +1,131 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 70
-rvn_title: "Schijnvooruitgang 2.0 – Wat is het eigenlijk?"
-rvn_teaser: "We worden continu verteld dat we vooruitgaan. Maar voelen we ons écht vrijer, rijker en zelfstandiger? Start van een nieuwe serie"
+rvn_title: "Illusory Progress 2.0 – What is it really?"
+rvn_teaser: "We are constantly told we are making progress. But do we really feel freer, richer and more independent?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:07.759038"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:12.925557"
 raw_markdown: |
-  **RVN: Schijnvooruitgang 2.0 – Wat is het eigenlijk?** 🌀
+  **RVN: Illusory Progress 2.0 – What is it really?** 🌀
   
-  **Narratief:**  
-  “Technologie, globalisering en moderne regelgeving maken ons leven beter, makkelijker en duurzamer. We gaan vooruit!”
+  **Narrative:**  
+  “Technology, globalization and modern regulations are making our lives better, easier and more sustainable. We are progressing!”
   
-  **Realiteit:**
+  **Reality:**
   
-  Schijnvooruitgang is het fenomeen waarbij iets **lijkt** te verbeteren, terwijl het in werkelijkheid vaak leidt tot meer afhankelijkheid, hogere kosten, minder vrijheid en meer controle.
+  Illusory Progress is the phenomenon where something **appears** to improve, while in reality it often leads to more dependency, higher costs, less freedom and more control.
   
-  Dit is het begin van een nieuwe 10-delige serie **Schijnvooruitgang 2.0**. In de komende dagen behandelen we onder andere:
-  - De auto-leugen (lease vs bezit)
-  - Warmtepompen en energielabels
-  - 15-minutensteden en digitale controle
-  - Koopkracht en verborgen inflatie
-  - Feminisme als schijnvooruitgang
-  - En uiteindelijk de valkuil van democratie
+  This is the start of a new 10-part series **Illusory Progress 2.0**. In the coming days we will cover topics such as:
+  - The car lie (lease vs ownership)
+  - Heat pumps and energy labels
+  - 15-minute cities and digital control
+  - Purchasing power and hidden inflation
+  - Feminism as illusory progress
+  - And ultimately the trap of democracy
   
-  **Voorbeelden van schijnvooruitgang:**
-  - We “krijgen” een elektrische auto → maar moeten die leasen omdat we hem niet meer kunnen kopen, en hij vol zit met trackers.
-  - We “krijgen” een warmtepomp → maar betalen drie keer zoveel voor energie en zijn afhankelijk van een goed functionerend elektriciteitsnet.
-  - We “krijgen” een 15-minutenstad → maar verliezen de vrijheid om te gaan en staan waar we willen.
+  **Examples of Illusory Progress:**
+  - We “get” an electric car → but have to lease it because we can no longer afford to buy one, and it is full of trackers.
+  - We “get” a heat pump → but pay three times as much for energy and become dependent on a well-functioning electricity grid.
+  - We “get” a 15-minute city → but lose the freedom to go and stand where we want.
   
-  **OIM-uitweg**
+  **OIM way out**
   
-  Echte vooruitgang is niet meer gadgets, regels of subsidies.  
-  Echte vooruitgang is **meer soevereiniteit, veerkracht en zelfstandigheid**.
+  Real progress is not more gadgets, rules or subsidies.  
+  Real progress is **more sovereignty, resilience and independence**.
   
-  Daarom bouwen we parallelle structuren:  
-  - Eigen voedsel, energie en netwerken  
-  - Verifieerbare informatie (hashes)  
-  - Systemen die niet afhankelijk zijn van de volgende “verbetering” die ons eigenlijk verder vastzet.
+  That is why we build parallel structures:
+  - Our own food, energy and networks
+  - Verifiable information (hashes)
+  - Systems that are not dependent on the next “improvement” that actually ties us down further.
   
-  Misschien is je al opgevallen dat onze posts er op Facebook netjes en goed opgemaakt uitzien. Dat komt omdat we Markdown converteren naar mooie Unicode-opmaak.  
-  Deze techniek, inclusief automatische hash-verificatie, hebben we dit weekend verpakt in een handige tool: de **Nexus Quick Post** (nog in beta, maar goed bruikbaar).  
+  You may have noticed that our posts look neat and well-formatted on Facebook. That’s because we convert Markdown to nice Unicode formatting.  
+  We packaged this technique, including automatic hash verification, into a handy tool this weekend: the **Nexus Quick Post** (still in beta, but fully usable).
   
-  Probeer hem gerust uit: [https://openinternetmanifest.org/nl/nexus-quick-post](https://openinternetmanifest.org/nl/nexus-quick-post)
+  Feel free to try it: [https://openinternetmanifest.org/en/nexus-quick-post](https://openinternetmanifest.org/en/nexus-quick-post)
   
-  **Vraag aan jou**  
-  Welke “vooruitgang” in jouw leven voelde uiteindelijk als meer afhankelijkheid?  
+  **Question to you**  
+  Which “progress” in your life eventually felt like more dependency?  
   
-  En wat zou echte vooruitgang voor jou betekenen?
+  And what would real progress mean to you?
   
-  Dit was Dag 1 van de serie **Schijnvooruitgang 2.0**.  
-  Morgen gaan we dieper in op een concreet voorbeeld.
+  This was Day 1 of the series **Illusory Progress 2.0**.  
+  Tomorrow we will dive deeper into a concrete example.
   
-  We bouwen door. Niet de illusie van vooruitgang, maar echte soevereiniteit.
+  We keep building. Not the illusion of progress, but real sovereignty.
   
-  #Schijnvooruitgang #EchteVooruitgang #NexusQuickPost #RVN #OpenInternetManifest
+  #IllusoryProgress #RealProgress #NexusQuickPost #RVN #OpenInternetManifest
   
   https://openinternetmanifest.org
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  rvn: schijnvooruitgang 2.0 – wat is het eigenlijk? 🌀 narratief: “technologie, globalisering en moderne regelgeving maken ons leven beter, makkelijker en duurzamer. we gaan vooruit!” realiteit: schijnvooruitgang is het fenomeen waarbij iets lijkt te verbeteren, terwijl het in werkelijkheid vaak leidt tot meer afhankelijkheid, hogere kosten, minder vrijheid en meer controle. dit is het begin van een nieuwe 10-delige serie schijnvooruitgang 2.0. in de komende dagen behandelen we onder andere: de auto-leugen (lease vs bezit) warmtepompen en energielabels 15-minutensteden en digitale controle koopkracht en verborgen inflatie feminisme als schijnvooruitgang en uiteindelijk de valkuil van democratie voorbeelden van schijnvooruitgang: we “krijgen” een elektrische auto → maar moeten die leasen omdat we hem niet meer kunnen kopen, en hij vol zit met trackers. we “krijgen” een warmtepomp → maar betalen drie keer zoveel voor energie en zijn afhankelijk van een goed functionerend elektriciteitsnet. we “krijgen” een 15-minutenstad → maar verliezen de vrijheid om te gaan en staan waar we willen. oim-uitweg echte vooruitgang is niet meer gadgets, regels of subsidies. echte vooruitgang is meer soevereiniteit, veerkracht en zelfstandigheid. daarom bouwen we parallelle structuren: eigen voedsel, energie en netwerken verifieerbare informatie (hashes) systemen die niet afhankelijk zijn van de volgende “verbetering” die ons eigenlijk verder vastzet. misschien is je al opgevallen dat onze posts er op facebook netjes en goed opgemaakt uitzien. dat komt omdat we markdown converteren naar mooie unicode-opmaak. deze techniek, inclusief automatische hash-verificatie, hebben we dit weekend verpakt in een handige tool: de nexus quick post (nog in beta, maar goed bruikbaar). probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou welke “vooruitgang” in jouw leven voelde uiteindelijk als meer afhankelijkheid? en wat zou echte vooruitgang voor jou betekenen? dit was dag 1 van de serie schijnvooruitgang 2.0. morgen gaan we dieper in op een concreet voorbeeld. we bouwen door. niet de illusie van vooruitgang, maar echte soevereiniteit. #schijnvooruitgang #echtevooruitgang #nexusquickpost #rvn #openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: 02dac14ab287a63392cc5d99799bc7c743440b0a1a74813e73866508ace37783
-fuzzy_sha256: 5788e355e7d73c7b668e612df0ff2d13d30df096028d8b3e9991d2bbb6d367b9
+  rvn: illusory progress 2.0 – what is it really? 🌀 narrative: “technology, globalization and modern regulations are making our lives better, easier and more sustainable. we are progressing!” reality: illusory progress is the phenomenon where something appears to improve, while in reality it often leads to more dependency, higher costs, less freedom and more control. this is the start of a new 10-part series illusory progress 2.0. in the coming days we will cover topics such as: the car lie (lease vs ownership) heat pumps and energy labels 15-minute cities and digital control purchasing power and hidden inflation feminism as illusory progress and ultimately the trap of democracy examples of illusory progress: we “get” an electric car → but have to lease it because we can no longer afford to buy one, and it is full of trackers. we “get” a heat pump → but pay three times as much for energy and become dependent on a well-functioning electricity grid. we “get” a 15-minute city → but lose the freedom to go and stand where we want. oim way out real progress is not more gadgets, rules or subsidies. real progress is more sovereignty, resilience and independence. that is why we build parallel structures: our own food, energy and networks verifiable information (hashes) systems that are not dependent on the next “improvement” that actually ties us down further. you may have noticed that our posts look neat and well-formatted on facebook. that’s because we convert markdown to nice unicode formatting. we packaged this technique, including automatic hash verification, into a handy tool this weekend: the nexus quick post (still in beta, but fully usable). feel free to try it: https://openinternetmanifest.org/en/nexus-quick-post question to you which “progress” in your life eventually felt like more dependency? and what would real progress mean to you? this was day 1 of the series illusory progress 2.0. tomorrow we will dive deeper into a concrete example. we keep building. not the illusion of progress, but real sovereignty. illusoryprogress realprogress nexusquickpost rvn openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: fee7f79e949a724b075f2251705a552fa5a5ff30e086cd4a12bc29e1829b84a7
+full_sha256: bf88e413c1b0d4d9e1df394e383b160c21362f85d171bcf46f65826abf9566b7
 
 ---
 
 
 
-**RVN: Schijnvooruitgang 2.0 – Wat is het eigenlijk?** 🌀
+**RVN: Illusory Progress 2.0 – What is it really?** 🌀
 
-**Narratief:**  
-“Technologie, globalisering en moderne regelgeving maken ons leven beter, makkelijker en duurzamer. We gaan vooruit!”
+**Narrative:**  
+“Technology, globalization and modern regulations are making our lives better, easier and more sustainable. We are progressing!”
 
-**Realiteit:**
+**Reality:**
 
-Schijnvooruitgang is het fenomeen waarbij iets **lijkt** te verbeteren, terwijl het in werkelijkheid vaak leidt tot meer afhankelijkheid, hogere kosten, minder vrijheid en meer controle.
+Illusory Progress is the phenomenon where something **appears** to improve, while in reality it often leads to more dependency, higher costs, less freedom and more control.
 
-Dit is het begin van een nieuwe 10-delige serie **Schijnvooruitgang 2.0**. In de komende dagen behandelen we onder andere:
-- De auto-leugen (lease vs bezit)
-- Warmtepompen en energielabels
-- 15-minutensteden en digitale controle
-- Koopkracht en verborgen inflatie
-- Feminisme als schijnvooruitgang
-- En uiteindelijk de valkuil van democratie
+This is the start of a new 10-part series **Illusory Progress 2.0**. In the coming days we will cover topics such as:
+- The car lie (lease vs ownership)
+- Heat pumps and energy labels
+- 15-minute cities and digital control
+- Purchasing power and hidden inflation
+- Feminism as illusory progress
+- And ultimately the trap of democracy
 
-**Voorbeelden van schijnvooruitgang:**
-- We “krijgen” een elektrische auto → maar moeten die leasen omdat we hem niet meer kunnen kopen, en hij vol zit met trackers.
-- We “krijgen” een warmtepomp → maar betalen drie keer zoveel voor energie en zijn afhankelijk van een goed functionerend elektriciteitsnet.
-- We “krijgen” een 15-minutenstad → maar verliezen de vrijheid om te gaan en staan waar we willen.
+**Examples of Illusory Progress:**
+- We “get” an electric car → but have to lease it because we can no longer afford to buy one, and it is full of trackers.
+- We “get” a heat pump → but pay three times as much for energy and become dependent on a well-functioning electricity grid.
+- We “get” a 15-minute city → but lose the freedom to go and stand where we want.
 
-**OIM-uitweg**
+**OIM way out**
 
-Echte vooruitgang is niet meer gadgets, regels of subsidies.  
-Echte vooruitgang is **meer soevereiniteit, veerkracht en zelfstandigheid**.
+Real progress is not more gadgets, rules or subsidies.  
+Real progress is **more sovereignty, resilience and independence**.
 
-Daarom bouwen we parallelle structuren:  
-- Eigen voedsel, energie en netwerken  
-- Verifieerbare informatie (hashes)  
-- Systemen die niet afhankelijk zijn van de volgende “verbetering” die ons eigenlijk verder vastzet.
+That is why we build parallel structures:
+- Our own food, energy and networks
+- Verifiable information (hashes)
+- Systems that are not dependent on the next “improvement” that actually ties us down further.
 
-Misschien is je al opgevallen dat onze posts er op Facebook netjes en goed opgemaakt uitzien. Dat komt omdat we Markdown converteren naar mooie Unicode-opmaak.  
-Deze techniek, inclusief automatische hash-verificatie, hebben we dit weekend verpakt in een handige tool: de **Nexus Quick Post** (nog in beta, maar goed bruikbaar).  
+You may have noticed that our posts look neat and well-formatted on Facebook. That’s because we convert Markdown to nice Unicode formatting.  
+We packaged this technique, including automatic hash verification, into a handy tool this weekend: the **Nexus Quick Post** (still in beta, but fully usable).
 
-Probeer hem gerust uit: [https://openinternetmanifest.org/nl/nexus-quick-post](https://openinternetmanifest.org/nl/nexus-quick-post)
+Feel free to try it: [https://openinternetmanifest.org/en/nexus-quick-post](https://openinternetmanifest.org/en/nexus-quick-post)
 
-**Vraag aan jou**  
-Welke “vooruitgang” in jouw leven voelde uiteindelijk als meer afhankelijkheid?  
+**Question to you**  
+Which “progress” in your life eventually felt like more dependency?  
 
-En wat zou echte vooruitgang voor jou betekenen?
+And what would real progress mean to you?
 
-Dit was Dag 1 van de serie **Schijnvooruitgang 2.0**.  
-Morgen gaan we dieper in op een concreet voorbeeld.
+This was Day 1 of the series **Illusory Progress 2.0**.  
+Tomorrow we will dive deeper into a concrete example.
 
-We bouwen door. Niet de illusie van vooruitgang, maar echte soevereiniteit.
+We keep building. Not the illusion of progress, but real sovereignty.
 
-#Schijnvooruitgang #EchteVooruitgang #NexusQuickPost #RVN #OpenInternetManifest
+#IllusoryProgress #RealProgress #NexusQuickPost #RVN #OpenInternetManifest
 
 https://openinternetmanifest.org
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

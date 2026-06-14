@@ -19,10 +19,16 @@ raw_markdown: |
   ❤️
 
 
-full_sha256: ddb08c30c5a21a772af94ba49881aa59541f1bdda514d8d8ef87cefcb1206847
-fuzzy_sha256: a44d6d55404c97a721eb2f5ea309b56cede9ddaa7eccd41edef1c6dc477e3be6
+
+
+
+
+
+
 clean_text: |-
-  🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org #openinternetmanifest #freeinternet #decentralization #cruciaal2026 #privacy #digitalid #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+  🇬🇧 day 2 – thesis 1: the internet is not dead – it is captured thesis 1 hits hard: "the internet is not dead – it is captured." we are guests in closed platforms, with no control over our own data and communication.🤯 read it now: https://openinternetmanifest.org/en/theses/thesis-01 the manifesto starts here – and it grows with you.🚀 https://openinternetmanifest.org openinternetmanifest freeinternet decentralization cruciaal2026 privacy digitalid opensource internetfreedom selfhost nosurveillance @umbrel mastodon social network nextcloud signal proton the tor project lighthousetv.nl blckbx.tv ❤️
+fuzzy_sha256: 54215fd88f5545860467fa081314b86c99529b2a886fbb43581cbb8ed32f4ea1
+full_sha256: ddb08c30c5a21a772af94ba49881aa59541f1bdda514d8d8ef87cefcb1206847
 
 ---
 

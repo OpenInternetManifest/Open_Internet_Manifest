@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: 2348aac7e58b70e207b093bbdb904890dc0a083ba38299483e32424ec6fb95b2
-social_share_sha256: ''
 day: 34
 rvn_title: The new look
-# rvn_url: /en/social-posts/day-34-rvn
 rvn_teaser: building instead of complaining
 raw_markdown: |
   **Day 34 – RVN: The new look – building instead of complaining** 🛠️✨  
@@ -48,10 +43,11 @@ raw_markdown: |
   
   https://openinternetmanifest.org/en/manifest  
   https://openinternetmanifest.org/en/guides
+
+full_sha256: 4a1bd4c59e428160c9cea61aa5997e1470c5f7f0d0bd272bf3b7218ad6b07773
+fuzzy_sha256: 311419348f52d0eeb86a7abda016f7fad105082980ad1cf72bd02975961c2fd0
 clean_text: |-
   day 34 – rvn: the new look – building instead of complaining 🛠️✨ from words to reality: the site takes shape. this week we saw how narratives keep us trapped: words weighed not on what they say, but on the frame they create transparency that boomerangs back facts that only have value if they fit the own story. but while the system exposes itself, we keep building. live this morning: the new theses and guides pages in card-grid style. all 30 theses neatly organized, scannable, with teaser and number prominent guides with icon, difficulty banner, tags – ready for dozens more dynamic with liquid + frontmatter (title, teaser, order, difficulty) responsive, dark theme, blue accents – exactly matching the rest of the site this is no coincidence. this is what oim stands for: build yourself instead of complaining about the old system. from an empty battery in november to a living site in february – every commit, every css tweak, every frontmatter line is a step out of the arena. coming weeks: activate collection _theses → automatic numbering /100 more guides (node redundancy, mesh communication, local ai) community contributions via frontmatter: suggestions for new theses/guides possibly giscus threads per theme or "feature request" section the internet doesn't become open by waiting for others. it becomes open by building ourselves – start small, step by step. thanks for this week. from synthesis to action. tomorrow: what will be the first new guide? or a theme for the next rvn series? read yourself. check yourself. build yourself. what will you add? 🛠️🌱 #rvn #openinternetmanifest #factsoverframes #siteupdate #decentralization #day34 https://openinternetmanifest.org/en/manifest https://openinternetmanifest.org/en/guides
-full_sha256: 4a1bd4c59e428160c9cea61aa5997e1470c5f7f0d0bd272bf3b7218ad6b07773
-fuzzy_sha256: c5bb4c0f417ed9b4c09838b5762fd8661d711f9813583d01eb6134e4ca81c9d2
 
 ---
 

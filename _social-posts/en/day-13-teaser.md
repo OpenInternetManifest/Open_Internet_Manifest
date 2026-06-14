@@ -23,10 +23,13 @@ raw_markdown: |
   #RealityVsNarrative #openinternetmanifest #webwithoutleash
 
 
-full_sha256: 276986ccc71508dbee450b2f50fa081900c99609083841bd598cb8d93c9bd04b
-fuzzy_sha256: 015047f0c9588f17ab0b017264af17c9c3d9a282c05a08072f53b90df1ad62a8
+
+
+
 clean_text: |-
-  🇬🇧 day 13 – just pause 🌱🌐 we've been pushing daily for weeks: teasers, threads, hashes, fact-checking, peeling narratives. sometimes it's good to breathe. this isn't a race for virality. this isn't a fight for likes. this is an invitation: imagine a web without leash, without sunglasses, without a gatekeeper telling you what's true. open internet manifest is still small (~140 visitors in 1.5 weeks), but it grows because people recognize it: tired of pens, ready for something real. read along if it resonates – or take a break too. it's still here. https://openinternetmanifest.org #realityvsnarrative #openinternetmanifest #webwithoutleash
+  🇬🇧 day 13 – just pause 🌱🌐 we've been pushing daily for weeks: teasers, threads, hashes, fact-checking, peeling narratives. sometimes it's good to breathe. this isn't a race for virality. this isn't a fight for likes. this is an invitation: imagine a web without leash, without sunglasses, without a gatekeeper telling you what's true. open internet manifest is still small (~140 visitors in 1.5 weeks), but it grows because people recognize it: tired of pens, ready for something real. read along if it resonates – or take a break too. it's still here. https://openinternetmanifest.org realityvsnarrative openinternetmanifest webwithoutleash
+fuzzy_sha256: f7b7f399985328120bde3782d26517cecaaf06a36d94f4a02d0991b6dd51096d
+full_sha256: 276986ccc71508dbee450b2f50fa081900c99609083841bd598cb8d93c9bd04b
 
 ---
 

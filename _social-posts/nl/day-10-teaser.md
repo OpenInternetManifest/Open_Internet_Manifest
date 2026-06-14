@@ -36,10 +36,13 @@ raw_markdown: |
   #RealityVsNarrative #OpenInternet #InvisibleLeash #FreeInternet #openinternetmanifest
 
 
-full_sha256: b06b4d69bd15ac0034aa2ee5ab3e5005ea34c704b00c5b40547953793ff952f5
-fuzzy_sha256: 6fa53f362f192f6c5f9aed360a7fc4162e325d10b04bcbfd7b891eadf9f438bb
+
+
+
 clean_text: |-
-  🇳🇱 dag 10 – de onzichtbare riem 🔗 ze beloven "transparantie" en "bescherming" met ai-regels en chat-scans (eu 2026 stijl). maar elke laag "veiligheid" trekt de riem strakker: • algoritmes die je gedachten voorspellen 🧠 • age checks die anonimiteit killen 🕵️ • data die nooit meer loslaat 📊 realiteit: vrijheid is niet veiliger maken, maar loslaten. ✂️ the open internet manifest wil geen riem – maar een web zonder leiband. 🌐 lees mee: https://openinternetmanifest.org *** 🇬🇧 day 10 – the invisible leash 🔗 they promise "transparency" & "protection" via ai rules & chat scans (eu 2026 rollout). but every "safety" layer tightens the leash: • algorithms predicting your thoughts 🧠 • age verification killing anonymity 🕵️ • data you can't escape 📊 reality: freedom isn't more safety nets – it's cutting the cord. ✂️ the open internet manifest wants no leash – just a web without one. 🌐 join: https://openinternetmanifest.org #realityvsnarrative #openinternet #invisibleleash #freeinternet #openinternetmanifest
+  🇳🇱 dag 10 – de onzichtbare riem 🔗 ze beloven "transparantie" en "bescherming" met ai-regels en chat-scans (eu 2026 stijl). maar elke laag "veiligheid" trekt de riem strakker: • algoritmes die je gedachten voorspellen 🧠 • age checks die anonimiteit killen 🕵️ • data die nooit meer loslaat 📊 realiteit: vrijheid is niet veiliger maken, maar loslaten. ✂️ the open internet manifest wil geen riem – maar een web zonder leiband. 🌐 lees mee: https://openinternetmanifest.org 🇬🇧 day 10 – the invisible leash 🔗 they promise "transparency" & "protection" via ai rules & chat scans (eu 2026 rollout). but every "safety" layer tightens the leash: • algorithms predicting your thoughts 🧠 • age verification killing anonymity 🕵️ • data you can't escape 📊 reality: freedom isn't more safety nets – it's cutting the cord. ✂️ the open internet manifest wants no leash – just a web without one. 🌐 join: https://openinternetmanifest.org realityvsnarrative openinternet invisibleleash freeinternet openinternetmanifest
+fuzzy_sha256: bc276af251fb8989bc3d3fd24d75587d2f344d49b97f188245f3a247907fb56a
+full_sha256: 269febeed3d6b74e7c3a1b4cd1b02d52d66743cf08ecc34fa34448e028a0f0c9
 
 ---
 

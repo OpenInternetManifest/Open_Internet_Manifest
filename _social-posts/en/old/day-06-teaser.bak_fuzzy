@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: ''
-social_share_sha256: ''
 day: 6
 teaser_title: Freedom with boundaries
-# teaser_url: /en/social-posts/day-6-teaser
 teaser_text: Maximum freedom, but without chaos
 raw_markdown: |
   🇬🇧 Day 6 – Freedom with boundaries  
@@ -22,10 +17,11 @@ raw_markdown: |
   #FreeInternet  #decentralization #NoBlackouts #iran #cruciaal2026 #privacy #opensource #InternetFreedom #selfhost #NoSurveillance @umbrel Mastodon Social Network Nextcloud Signal Proton  Lighthousetv.nl blckbx.tv 
   ❤️
 
+
+full_sha256: 24eb3405ed49f1964d5573782a4a47b82a2b9f5eb305452b25134da5771e0b08
+fuzzy_sha256: 17ca5c7f37f9339cf464095a34ab6a1fa2723e08ce24ff2efad63962c20f1f66
 clean_text: |-
   🇬🇧 day 6 – freedom with boundaries maximum freedom, but without chaos. that's why we advocate a minimal, voluntary constitutional layer – just like a good country. boundaries are set by you, not a central power. https://openinternetmanifest.org #openinternetmanifest #freedomwithboundaries #freeinternet #decentralization #noblackouts #iran #cruciaal2026 #privacy #opensource #internetfreedom #selfhost #nosurveillance @umbrel mastodon social network nextcloud signal proton lighthousetv.nl blckbx.tv ❤️
-full_sha256: 24eb3405ed49f1964d5573782a4a47b82a2b9f5eb305452b25134da5771e0b08
-fuzzy_sha256: 1bafaa5f25195a7598efaf62041351b1191143842c9f63b9ced43955760715de
 
 ---
 

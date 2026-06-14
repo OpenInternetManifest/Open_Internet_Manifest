@@ -1,0 +1,119 @@
+---
+layout: social-posts
+lang: en
+day: 102
+rvn_title: "Part 3 – Replace Gmail (your email is not private)"
+rvn_teaser: "Your third step out of Google slavery"
+donation_link: ""
+donation_text: ""
+full_sha256: "52a70020e294f105b99cea3825bdb22b483f89f30e7dd4998ccb1e010c20f34e"
+git_commit_hash: "992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a"
+git_commit_date: "2026-06-03T06:49:15.128085"
+raw_markdown: |
+  
+  ### RVN: Part 3 – Replace Gmail (your email is not private) ✉️
+  
+  **Narrative:**  
+  “Gmail is just convenient and reliable. Everyone uses it.”
+  
+  **Reality:**
+  
+  Gmail is one of Google’s most powerful **surveillance tools**.  
+  Every email you send or receive is scanned, analyzed, and stored. Google doesn’t just read your mail to show you ads — it builds an extremely detailed profile of you, your contacts, your interests, and your entire life.
+  
+  This is not a conspiracy theory. This is their business model.
+  
+  **Better alternatives:**
+  
+  - **ProtonMail** → Best and easiest choice for most people (end-to-end encrypted, based in Switzerland, no scanning)
+  - **Tutanota** → Strong privacy, open source, German
+  - **Skiff Mail** (now part of Notion) → Beautiful design with end-to-end encryption
+  - **Self-hosted** (Mailcow, Poste.io or similar + custom domain) → Maximum sovereignty (for advanced users)
+  
+  **Action for today (takes 10-15 minutes):**
+  
+  1. Create an account at **ProtonMail** → https://proton.me/mail
+  2. Set up a new email address (e.g. yourname@proton.me)
+  3. Start informing important contacts that you’re switching
+  4. Optionally set up forwarding from Gmail temporarily so you don’t miss anything
+  
+  Bonus tip: Buy your own domain name (via Proton or Namecheap) and link it. Then you’re truly independent.
+  
+  **OIM Way Out**
+  
+  Every email you send through Gmail is a voluntary gift to Google.  
+  Digital sovereignty means your communication belongs to you again.
+  
+  This is Part 3.  
+  Tomorrow Part 4: Why you should ditch Windows (and switch to Linux).
+  
+  **Question to you**
+  
+  Are you still using Gmail as your main account?  
+  Or have you already switched? If yes, to what?
+  
+  Feel free to share your experience below.
+  
+  #DigitalSovereignty #DumpGmail #ProtonMail #Privacy #OIM
+  
+  https://openinternetmanifest.org
+  
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+clean_text: |-
+  rvn: part 3 – replace gmail (your email is not private) ✉️ narrative: “gmail is just convenient and reliable. everyone uses it.” reality: gmail is one of google’s most powerful surveillance tools. every email you send or receive is scanned, analyzed, and stored. google doesn’t just read your mail to show you ads — it builds an extremely detailed profile of you, your contacts, your interests, and your entire life. this is not a conspiracy theory. this is their business model. better alternatives: protonmail → best and easiest choice for most people (end-to-end encrypted, based in switzerland, no scanning) tutanota → strong privacy, open source, german skiff mail (now part of notion) → beautiful design with end-to-end encryption self-hosted (mailcow, poste.io or similar + custom domain) → maximum sovereignty (for advanced users) action for today (takes 10-15 minutes): create an account at protonmail → https://proton.me/mail set up a new email address (e.g. yourname@proton.me) start informing important contacts that you’re switching optionally set up forwarding from gmail temporarily so you don’t miss anything bonus tip: buy your own domain name (via proton or namecheap) and link it. then you’re truly independent. oim way out every email you send through gmail is a voluntary gift to google. digital sovereignty means your communication belongs to you again. this is part 3. tomorrow part 4: why you should ditch windows (and switch to linux). question to you are you still using gmail as your main account? or have you already switched? if yes, to what? feel free to share your experience below. #digitalsovereignty #dumpgmail #protonmail #privacy #oim https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: e8257fe888f2659237522aa18f6f3a8a4d2f54db3eded3a045d4ef7389e95eea
+
+---
+
+
+### RVN: Part 3 – Replace Gmail (your email is not private) ✉️
+
+**Narrative:**  
+“Gmail is just convenient and reliable. Everyone uses it.”
+
+**Reality:**
+
+Gmail is one of Google’s most powerful **surveillance tools**.  
+Every email you send or receive is scanned, analyzed, and stored. Google doesn’t just read your mail to show you ads — it builds an extremely detailed profile of you, your contacts, your interests, and your entire life.
+
+This is not a conspiracy theory. This is their business model.
+
+**Better alternatives:**
+
+- **ProtonMail** → Best and easiest choice for most people (end-to-end encrypted, based in Switzerland, no scanning)
+- **Tutanota** → Strong privacy, open source, German
+- **Skiff Mail** (now part of Notion) → Beautiful design with end-to-end encryption
+- **Self-hosted** (Mailcow, Poste.io or similar + custom domain) → Maximum sovereignty (for advanced users)
+
+**Action for today (takes 10-15 minutes):**
+
+1. Create an account at **ProtonMail** → https://proton.me/mail
+2. Set up a new email address (e.g. yourname@proton.me)
+3. Start informing important contacts that you’re switching
+4. Optionally set up forwarding from Gmail temporarily so you don’t miss anything
+
+Bonus tip: Buy your own domain name (via Proton or Namecheap) and link it. Then you’re truly independent.
+
+**OIM Way Out**
+
+Every email you send through Gmail is a voluntary gift to Google.  
+Digital sovereignty means your communication belongs to you again.
+
+This is Part 3.  
+Tomorrow Part 4: Why you should ditch Windows (and switch to Linux).
+
+**Question to you**
+
+Are you still using Gmail as your main account?  
+Or have you already switched? If yes, to what?
+
+Feel free to share your experience below.
+
+#DigitalSovereignty #DumpGmail #ProtonMail #Privacy #OIM
+
+https://openinternetmanifest.org
+
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

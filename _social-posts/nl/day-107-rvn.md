@@ -6,8 +6,6 @@ rvn_title: "6,8 miljard wegenbelasting… en geen geld voor wegen?"
 rvn_teaser: "Elk jaar betalen we miljarden aan wegenbelasting. Waarom vallen de wegen dan toch uit elkaar?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "f16b0bc25d581b4f6d14678479c000bfea0dcc8498be29e3472102ad5b89a609"
-full_sha256: "6fcfa5fb288587fca45d997601adccf29d03d9626a56b577742e235c7bd78839"
 git_commit_hash: "7a2097f18b1aa13d5d35097fa6f69542f4b0b175"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7a2097f18b1aa13d5d35097fa6f69542f4b0b175"
 git_commit_date: "2026-06-12T06:34:34.231118"
@@ -74,6 +72,14 @@ raw_markdown: |
   
   Deze post is 100% authentiek en verifieerbaar via:  
   https://openinternetmanifest.org/nl/hash-verifier
+
+
+
+clean_text: |-
+  rvn: 6,8 miljard wegenbelasting... en geen geld voor wegen? 🛣️ dit verhaal begint eigenlijk bij het accu manifest. in november 2025 stond er in amsterdam een lease-busje met een lege accu. geen simpele accu-vervanging, maar een keten van 20 man-uren, lease-noodnummers, anwb, garages en uiteindelijk facturen van €1.500–2.000. voor een accu van €130. dat was het moment dat het accu manifest ontstond — de moeder van het open internet manifest. het manifest dat blootlegt hoe parasitaire lagen ons echte werk en echte waarde wegvreten. en precies hetzelfde patroon zien we nu bij onze wegen. nederland haalt jaarlijks ruim 6,8 miljard euro op aan motorrijtuigenbelasting (wegenbelasting). tegelijk horen we constant: “er is geen geld voor onderhoud.” voorbeeld uit de praktijk een paar jaar geleden werkte ik met een vrouw wiens zoon stage liep bij een boer. hij moest een trekker ophalen die net een nieuwe band had gekregen. die band liep eraf en beschadigde ongeveer twee meter asfalt. de rekening? € 22.000. twintigduizend euro voor twee meter weg. dit is geen pech. dit is het accu manifest in het echt: parasitaire overhead die geld verdient aan complexiteit, procedures, rapporten en aansprakelijkheidsconstructies — niet aan echte waarde of goede wegen. de grote leugen we betalen extreem veel voor wegen, maar krijgen er extreem weinig voor terug. het geld verdwijnt in bureaucratie, consultants, eu-regels, “duurzaamheidsprojecten”, laag-over-laag projectorganisaties en pure inefficiëntie. oim-uitweg: tijd voor een nederlandse doge in amerika hebben ze doge (department of government efficiency) om de parasitaire lagen rigoureus aan te pakken. hier hebben we iets soortgelijks nodig: accu — administratieve complexiteit clean-up unit. geen nieuw overheidsapparaat, maar een beweging die keihard zegt: stop met meer geld pompen in een ziek systeem. snoei de parasitaire lagen weg. minder overhead. meer échte wegen. vraag aan jou betaal jij wegenbelasting? zie jij dat geld terug in fatsoenlijke wegen? of betaal je vooral voor een enorm, zichzelf in stand houdend systeem dat vooral zichzelf voedt? tijd om niet alleen te betalen, maar ook te eisen dat het geld écht naar de weg gaat — in plaats van naar de laag ertussen. accu wegenbelasting schijnvooruitgang accumanifest doge rvn openinternetmanifest https://openinternetmanifest.org deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
+fuzzy_sha256: 033f4b6812a2080056ac04d4c9402c745b5c73732bc361776b37fd804b87de53
+full_sha256: 6fcfa5fb288587fca45d997601adccf29d03d9626a56b577742e235c7bd78839
+
 ---
 
 

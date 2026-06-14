@@ -6,8 +6,6 @@ rvn_title: "Who Actually Abolished Slavery First?"
 rvn_teaser: "White Europeans are often portrayed as the biggest slave owners in history. But what does history really say?"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "201f1869d9f6f2988c047df8b0d3240d05da97e3458481bbdf901230a1fb2c91"
-full_sha256: "a52f1b827510a04d5255128395ec2b79aafdc6ef6724ffde1c5cbe0b7fc17941"
 git_commit_hash: "43755c9b02847cf6913ad11854c5bd26a3f611ab"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/43755c9b02847cf6913ad11854c5bd26a3f611ab"
 git_commit_date: "2026-06-12T06:35:56.905518"
@@ -64,6 +62,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+
+
+clean_text: |-
+  rvn: who actually abolished slavery first? ⛓️ narrative: "white europeans are the biggest slave owners and racists in history. they oppressed billions of people." reality: slavery is as old as humanity itself. it existed in virtually every culture and civilization: in africa (tribes selling their own people for centuries) in the arab-islamic world (13+ centuries, often with mass castration of men) in the ottoman empire, asia, and among indigenous peoples of the americas the trans-atlantic slave trade (15th–19th century) was large and brutal, but historically neither the largest nor the longest. who abolished it first? the british (white europeans) were the first to abolish slavery on a large scale: 1807: slave trade act — banning the slave trade 1833: slavery abolition act — abolishing slavery throughout the british empire the british navy (west africa squadron) then spent decades fighting the slave trade — often against arab and african slave traders. this was historically revolutionary. for the first time, a major empire abolished slavery not just for itself, but actively tried to stop it elsewhere. the selective outrage today this fact is often ignored or twisted. the dominant narrative remains “the white man did it,” while remaining silent about: the arab-islamic slave trade (much longer and often more brutal) slavery within africa itself modern slavery still existing in parts of africa and the middle east this is not historical correction to make whites look bad. it is a mechanism to block discussion about current problems (mass immigration, integration failures, cultural incompatibility). oim way out we refuse to participate in this selective history. slavery is a human evil, not an exclusively european one. real progress comes not from collective guilt, but from acknowledging facts and building real sovereignty. question to you why do we hear so little about the arab slave trade or african slavery? and how long will we allow history to be used selectively to deny current problems? facts above frames. always. slavery history selectiveoutrage rvn openinternetmanifest https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: 611828858765ddb46931737704418f7657db77c7fe383d47c94a5801a93cc795
+full_sha256: a52f1b827510a04d5255128395ec2b79aafdc6ef6724ffde1c5cbe0b7fc17941
+
 ---
 
 

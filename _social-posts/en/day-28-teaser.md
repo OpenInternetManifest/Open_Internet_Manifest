@@ -24,10 +24,13 @@ raw_markdown: |
   #RVN #FactsOverFrames #RealityVsNarrative #Epstein #Day29Teaser
 
 
-full_sha256: 5530636fdb7d93e31e3ca8d209346746d4de6ddbe4d57c517996623e44957d01
-fuzzy_sha256: 7f178b3f5b8775957951673f061dff20804807a31d3ef1b7a02801b5713c4c60
+
+
+
 clean_text: |-
-  🇬🇧 day 29 teaser – tonight: the circle closes 🕸️⚫ tomorrow: epstein. not as a standalone scandal, but as the visible tip of everything we’ve covered this week: from sun tzu to 1913, good cop / bad cop, algorithmic polarization... to systematic blackmail as a control mechanism. pizzagate (2016) was the first wave of suspicion. epstein made it concrete – yet even then the core remained protected. tonight: just breathe. tomorrow morning the full rvn. facts over frames. no hate. no illusions. only reality. and we’re not standing still: the comment section (giscus) is now live on almost all pages → reply directly under every thesis, guide and rvn post → no algorithm, no gatekeeper – just open conversation https://openinternetmanifest.org #rvn #factsoverframes #realityvsnarrative #epstein #day29teaser
+  🇬🇧 day 29 teaser – tonight: the circle closes 🕸️⚫ tomorrow: epstein. not as a standalone scandal, but as the visible tip of everything we’ve covered this week: from sun tzu to 1913, good cop / bad cop, algorithmic polarization... to systematic blackmail as a control mechanism. pizzagate (2016) was the first wave of suspicion. epstein made it concrete – yet even then the core remained protected. tonight: just breathe. tomorrow morning the full rvn. facts over frames. no hate. no illusions. only reality. and we’re not standing still: the comment section (giscus) is now live on almost all pages → reply directly under every thesis, guide and rvn post → no algorithm, no gatekeeper – just open conversation https://openinternetmanifest.org rvn factsoverframes realityvsnarrative epstein day29teaser
+fuzzy_sha256: 8ec369b4fe589ca3cb0c022d8b6347e3eef75011037ecd473a806731f910d10a
+full_sha256: 5530636fdb7d93e31e3ca8d209346746d4de6ddbe4d57c517996623e44957d01
 
 ---
 

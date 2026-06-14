@@ -35,10 +35,13 @@ raw_markdown: |
   https://openinternetmanifest.org
   #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest
 
-full_sha256: b4d984b9726041429078b6330c8ac6f7da74a9cb5b482253be7b24d3d6008548
-fuzzy_sha256: 45cab3e121f7a8271dc4a89dd3f8f29448a094382bd32f8e4f12e7f98f75406e
+
+
+
 clean_text: |-
-  realiteit vs. narratief – verbanning dutch travel maniac van facebook. het narratief zegt: “tom verspreidde haatzaaiende content over ter apel. facebook deed het juiste door hem te bannen – dat beschermt tegen racisme en desinformatie.” de realiteit: tom filmde wat er in ter apel écht gebeurt: chaos in het azc, messenincidenten, overlast voor omwonenden – rauwe beelden van een plek in nederland. geen oproep tot geweld, geen nepnieuws – gewoon wat hij zag. resultaat: permanente ban. kanaal weg, stem gedempt, werk onzichtbaar gemaakt. in het echte leven: filmen op openbare plaatsen is grondrecht (vrijheid van meningsuiting + persvrijheid, art. 7 grondwet). kritiek op beleid mag, ook als het ongemakkelijk is. digitaal zou dat hetzelfde moeten zijn: geen ban zonder rechterlijk bevel, geen big tech die grondrechten overrult. het open internet manifest zegt: grondrechten digitaal net zo beschermen als fysiek: vrije meningsuiting, filmen, delen – zonder cancel-knop. steun jij tom? ja❤️ of nee😡? deel dit bericht, tag hem als je kunt, en laat zien dat we censuur niet pikken. https://youtu.be/7xz5xclnbka?si=t6kmpyjldt28biqh https://openinternetmanifest.org tom van den heuvel #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest https://openinternetmanifest.org #realiteitvsnarratief #steuntom #dutchtravelmaniac #terapel #openinternetmanifest
+  realiteit vs. narratief – verbanning dutch travel maniac van facebook. het narratief zegt: “tom verspreidde haatzaaiende content over ter apel. facebook deed het juiste door hem te bannen – dat beschermt tegen racisme en desinformatie.” de realiteit: tom filmde wat er in ter apel écht gebeurt: chaos in het azc, messenincidenten, overlast voor omwonenden – rauwe beelden van een plek in nederland. geen oproep tot geweld, geen nepnieuws – gewoon wat hij zag. resultaat: permanente ban. kanaal weg, stem gedempt, werk onzichtbaar gemaakt. in het echte leven: filmen op openbare plaatsen is grondrecht (vrijheid van meningsuiting + persvrijheid, art. 7 grondwet). kritiek op beleid mag, ook als het ongemakkelijk is. digitaal zou dat hetzelfde moeten zijn: geen ban zonder rechterlijk bevel, geen big tech die grondrechten overrult. het open internet manifest zegt: grondrechten digitaal net zo beschermen als fysiek: vrije meningsuiting, filmen, delen – zonder cancel-knop. steun jij tom? ja❤️ of nee😡? deel dit bericht, tag hem als je kunt, en laat zien dat we censuur niet pikken. https://youtu.be/7xz5xclnbka?si=t6kmpyjldt28biqh https://openinternetmanifest.org tom van den heuvel realiteitvsnarratief steuntom dutchtravelmaniac terapel openinternetmanifest https://openinternetmanifest.org realiteitvsnarratief steuntom dutchtravelmaniac terapel openinternetmanifest
+fuzzy_sha256: 9a97dbdcd30775a4b0349a6a1dbd18ebd2ca33be5f0d19ad2b22f98618ff7592
+full_sha256: 69036b90413880cacf6d813deb3c684d3aedd52e63fd34b781d4bea18c96d60a
 
 ---
 

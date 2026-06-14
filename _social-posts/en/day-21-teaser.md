@@ -23,10 +23,13 @@ raw_markdown: |
   Why? Narratives get wild — reality stays calm. 🕳️
 
 
-full_sha256: c0f13c4506fcdee53780b83117647435d72397984351dbf8317f099f61b7514b
-fuzzy_sha256: 1a92fc650bd573c60d8b231c4c657a1f4f1993352f5c189c50498d96da32d4ad
+
+
+
 clean_text: |-
-  🇬🇧 day 21 teaser – tonight: light mode (yes really) 😏🍿 today: epstein files "exploding", unfriending, threats and "proof" without sources. tonight: just breathe. tomorrow: back at it. open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts #realityvsnarrative #day22teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+  🇬🇧 day 21 teaser – tonight: light mode (yes really) 😏🍿 today: epstein files "exploding", unfriending, threats and "proof" without sources. tonight: just breathe. tomorrow: back at it. open internet manifest: facts over frames. keep watching. 👀✨ https://openinternetmanifest.org/en/social-posts realityvsnarrative day22teaser this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? narratives get wild — reality stays calm. 🕳️
+fuzzy_sha256: 197f2583df4bccb903e2abb7254c8482e9654c85237eda40ee687a0450ac2d25
+full_sha256: c0f13c4506fcdee53780b83117647435d72397984351dbf8317f099f61b7514b
 
 ---
 

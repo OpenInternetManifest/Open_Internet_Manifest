@@ -1,13 +1,8 @@
 ---
 layout: social-posts
 lang: en
-website_sha256: ''
-social_x_sha256: ''
-social_fb_sha256: a7d2a981f41ba93a76b5b164cfc2c0f1af9dfd37b2ac3c860e25ffa58a69f6d1
-social_share_sha256: ''
 day: 8
 rvn_title: Greenland Escalation; Tariffs Edition
-# rvn_url: /en/social-posts/day-8-rvn
 rvn_teaser: Trump hits allies with tariffs — economy in danger!
 raw_markdown: |
   Reality vs Narrative – Greenland Escalation: Tariffs Edition (Jan 18, 2026)
@@ -30,10 +25,11 @@ raw_markdown: |
   What do you think — play ASML as leverage, or focus on water/farmers? 🤔
   https://openinternetmanifest.org
   #RealityVsNarrative #TrumpTariffs #Greenland #ASML #NetherlandsSmart @umbrel
+
+full_sha256: a9579946acc443d2e6c3cc87cb68430c610561b6cd7deddaad8e786718c43447
+fuzzy_sha256: 57766f3d89711c1ad54a43e76278fa74009e7c17757dca15d42d134312498689
 clean_text: |-
   reality vs narrative – greenland escalation: tariffs edition (jan 18, 2026) narrative: trump hits allies with tariffs — economy in danger! 📉 export collapse, recession looming, nato on the brink. reality: trump announced 17 jan via truth social: 10% extra tariffs on all goods from nl, de, fr, dk, no, se, fi, uk starting feb 1 — rising to 25% on june 1 until greenland is sold. reason: solidarity with denmark (incl. nl's 1 soldier as "hands off" signal). but risks ≠ disaster if we play smart: asml as trump card 💻🔥 — euv machines critical for us chips (intel, tsmc us, nvidia). previous tariffs got exemptions because us depends on it (chips act). likely deal again — tariffs would sabotage us own ai/security. waterworks & delta expertise 🌊🏗️ — world leader in flood control, dams, climate adaptation. us coastal problems (florida, ny) make this an export opportunity — trump buys expertise if it delivers "america first". agritech & farmers 🌾🚜 — high-productivity, precision agriculture. us drought/climate issues → nl knowledge/machines export, tariffs push diversification to asia/africa. port & logistics 🚢📦 — rotterdam as eu hub. tariffs may force more intra-eu/brics trade, or re-routing for us companies. nl can benefit by: ✅ negotiating exemptions (asml model) ✅ diversifying export ✅ playing realpolitik: trump respects dealmakers, not weakness twist: flipse stands solo on greenland with a steaming thermos of coffee and a stroopwafel: “hey putin, xi, trump... coffee? stroopwafel on the side?” ☕🍪❄️🔧 so: risks real (export pain), but opportunities bigger if we are opportunistic. trump forces the system to expose itself — nl can ride the wave by being smart, not complaining. what do you think — play asml as leverage, or focus on water/farmers? 🤔 https://openinternetmanifest.org #realityvsnarrative #trumptariffs #greenland #asml #netherlandssmart @umbrel
-full_sha256: a9579946acc443d2e6c3cc87cb68430c610561b6cd7deddaad8e786718c43447
-fuzzy_sha256: 34691478fdc997d5fcc1f1a677d995b22c05bd022b57d9b3484d0c108fbc99db
 
 ---
 

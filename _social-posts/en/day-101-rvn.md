@@ -6,8 +6,6 @@ rvn_title: "Part 2 – Replace Google Search (and stop handing over your life)"
 rvn_teaser: "Your second step out of Google slavery"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: "9c5ac52685dd2bf7d3be82d45c504926591254aab01fb22e88ef559afcf3ef59"
-full_sha256: "642a04eb7770a4943ad764de65c0d5ffada70dccd37fffe97e5085bc9fedaafe"
 git_commit_hash: "8d4299e273b39602bcb26410a95631075cb1934b"
 git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8d4299e273b39602bcb26410a95631075cb1934b"
 git_commit_date: "2026-06-02T04:43:40.776390"
@@ -63,6 +61,14 @@ raw_markdown: |
   
   This post is 100% authentic and verifiable via:  
   https://openinternetmanifest.org/en/hash-verifier
+
+
+
+clean_text: |-
+  vn: part 2 – replace google search (and stop handing over your life) 🔍 narrative: “google search is simply the best. it finds everything. why would i switch?” reality: google search is not just a search engine. it is the largest behavioral manipulation and surveillance system in the world. every search query is logged, profiled, and used to influence you. google decides what you see — and what you don’t see. you are not the customer. you are the product. better alternatives (from easy to advanced): brave search → excellent, fast, no tracking, independent results. best all-round choice for most people. duckduckgo → easy, privacy-friendly, no profile of you. startpage → uses google results but anonymously (good if you want google-quality without the tracking). searx (or self-hosted searx) → fully open source and no tracking at all. kagi → paid but extremely good and ad-free (for power users). action for today (do this now, takes 1 minute): go to https://search.brave.com or https://duckduckgo.com set one of these as your default search engine in your browser try a few “sensitive” searches and compare the difference with google yourself you will quickly notice far fewer filter bubbles and bias. oim way out digital sovereignty starts with small conscious choices. every time you use google, you voluntarily hand over your attention, data, and thought patterns. stop it. this is part 2. tomorrow part 3: why you should ditch gmail. question to you which search engine are you using now? and have you already noticed a difference? feel free to share your experience below. digitalsovereignty dumpgoogle bravesearch duckduckgo oim https://openinternetmanifest.org this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: a7b0e89d25901be12ad0b5fa2dd4e3877cfd100001bd25451009004b887e6c71
+full_sha256: 642a04eb7770a4943ad764de65c0d5ffada70dccd37fffe97e5085bc9fedaafe
+
 ---
 
 

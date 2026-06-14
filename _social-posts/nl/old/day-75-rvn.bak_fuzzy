@@ -1,129 +1,133 @@
 ---
 layout: social-posts
-lang: nl
+lang: en
 day: 75
-rvn_title: "Schijnvooruitgang #5: De 15-minutenstad als ideale woonplek?"
-rvn_teaser: "Alles binnen 15 minuten bereikbaar. Klinkt als de droom van de toekomst. Maar wat is de werkelijke prijs?"
+rvn_title: " Illusory Progress #5: The 15-Minute City as the Ideal Place to Live?"
+rvn_teaser: "Everything within 15 minutes. Sounds like the dream of the future. But what is the real price?"
 donation_link: ""
 donation_text: ""
-git_commit_hash: "bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/bd2d082440be438c8433055257d7a9ad2552e4e0"
-git_commit_date: "2026-05-31T07:49:08.550978"
+git_commit_hash: "dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090"
+git_commit_date: "2026-06-07T13:30:13.722734"
 raw_markdown: |
-  **Schijnvooruitgang – Dag 31: De 15-minutenstad als ideale woonplek?** 🏙️
+  **Illusory Progress – Day 31: The 15-Minute City as the Ideal Place to Live?** 🏙️
   
-  **Korte recap van de serie**  
-  Dag 2: Leasing  
-  Dag 3: Warmtepompen  
-  Dag 4: Elektrische auto’s  
+  **Short Recap of the Series**  
+  Day 2: Leasing  
+  Day 3: Heat pumps  
+  Day 4: Electric cars  
   
-  **Narratief**  
-  De 15-minutenstad is de ultieme vooruitgang. Alles binnen 15 minuten per fiets of te voet. Minder files, minder CO₂, meer leefbaarheid en geluk.
+  **The Narrative**  
+  The 15-minute city is the ultimate progress. Everything you need (work, groceries, school, healthcare, recreation) within 15 minutes by bike or on foot. Fewer cars, less CO₂, more livability and happiness.
   
-  **Realiteit – meerdere lagen**
+  **The Reality – Multiple Layers**
   
-  **Laag 1: Beperking van vrijheid**  
-  Wat wordt verkocht als “leefbaar” is in werkelijkheid een drastische inperking van bewegingsvrijheid.
+  **Layer 1: Restriction of Freedom**  
+  What is sold as “livable” is in practice a drastic limitation of personal mobility.
   
-  **Laag 2: Economische gevolgen**  
-  Winkels en bedrijven buiten de 15-minutenradius worden langzaam uitgeknepen ten gunste van grote ketens.
+  **Layer 2: Economic Consequences**  
+  Shops and businesses outside the 15-minute radius are slowly squeezed out in favor of large chains and platforms.
   
-  **Laag 3: Pilot-projecten in de praktijk)**  
-  Dit is geen toekomstvisie meer — het wordt nu al hard uitgerold:
+  **Layer 3: Pilot Projects in Practice**  
+  This is no longer a future vision — it is already being aggressively implemented:
   
-  - **Parijs** (Anne Hidalgo): Als eerste grote stad agressief doorgevoerd. Resultaat: enorme weerstand van bewoners, hoge prijzen in de “goede” wijken, winkeliers die failliet gaan en een sterke toename van sociale controle.
-  - **Barcelona** (Superblocks): Wijken werden autoluw gemaakt. Lokale economie leed zwaar, toeristen namen de ruimte over en bewoners klaagden over verstikkende regeltjes.
-  - **Nederland**: Verschillende gemeenten (Utrecht, Den Haag, Eindhoven, Amsterdam) experimenteren al met 15-minutenwijken, vaak gekoppeld aan zero-emissie zones en autobeperkingen. Bewoners krijgen te horen dat ze “duurzaam moeten kiezen”, terwijl de echte keuzes al voor hen gemaakt worden.
+  - **Paris** (Anne Hidalgo): The first major city to push it hard. Result: massive resident resistance, skyrocketing prices in the “good” neighborhoods, shopkeepers going bankrupt, and a strong increase in social control.
+  - **Barcelona** (Superblocks): Neighborhoods were made car-free. Local economy suffered heavily, tourism took over, and residents complained about suffocating rules.
+  - **Netherlands**: Several municipalities (Utrecht, The Hague, Eindhoven, Amsterdam) are already experimenting with 15-minute neighborhoods, often combined with zero-emission zones and car restrictions. Residents are told they must “choose sustainably,” while the real choices are made for them.
   
-  Overal waar dit wordt ingevoerd zien we hetzelfde patroon: mooie praatjes over leefbaarheid, maar in de praktijk meer verboden, hogere kosten, minder keuze en groeiende afhankelijkheid van wat de overheid en grote partijen in jouw wijk toestaan.
+  In almost every case we see the same pattern: beautiful rhetoric about livability, but in practice more prohibitions, higher costs, less choice, and growing dependence on what the government and large parties allow in your neighborhood.
   
-  **Laag 4: Verhoogde controle & surveillance**  
-  Een compacte stad is ideaal voor digitale ID’s, camera’s, sensoren en gedragssturing via apps.
+  **Layer 4: Increased Control & Surveillance**  
+  A compact city is perfect for digital IDs, cameras, smart meters, motion sensors, and behavioral steering through apps.
   
-  **Laag 5: De verborgen agenda**  
-  Het gaat niet om geluk, maar om beheersbaarheid. Minder mobiliteit = makkelijker te monitoren en sturen.
+  **Layer 5: The Hidden Agenda**  
+  It’s not about happiness — it’s about manageability. Less mobility = easier to monitor and control.
   
-  **OIM-uitweg**  
-  Houd je bewegingsvrijheid. Kies bewust waar je woont. Ondersteun onafhankelijke lokale winkels. Weiger mee te gaan in het idee dat je leven in een klein hokje moet passen.
+  **The OIM Way Out**  
+  Keep your freedom of movement. Choose consciously where you live. Support real independent local shops and services. Refuse to accept the idea that your life should fit into a small box.
   
-  Echte leefbaarheid komt niet van beperking, maar van vrijheid.
+  Real livability comes from freedom, not from restriction.
   
-     ---
+  ***
   
-  Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+  You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
   
-  Probeer hem gerust uit:  
+  Feel free to try it:  
   https://openinternetmanifest.org/nl/nexus-quick-post
   
-  **Vraag aan jou**  
-  Wil jij in een wereld leven waarin de overheid bepaalt wat binnen 15 minuten mag, of wil je échte vrijheid om te gaan en staan waar je wilt?
+  **Question to you**  
+  Do you want to live in a world where the government decides what is allowed within 15 minutes, or do you want real freedom to go where you want?
   
-  #Schijnvooruitgang #15MinutenStad #SmartCity #Parijs15Minuten #Decentralisatie #Vrijheid #OpenInternetManifest
+  #IllusoryProgress #15MinuteCity #SmartCity #Paris15Minute #Decentralization #Freedom #OpenInternetManifest
   
-    ---
+  ***
   
-  Deze post is 100% authentiek en verifieerbaar via:  
-  https://openinternetmanifest.org/nl/hash-verifier
+  This post is 100% authentic and verifiable via:  
+  https://openinternetmanifest.org/en/hash-verifier
+
+
+
+
 clean_text: |-
-  schijnvooruitgang – dag 31: de 15-minutenstad als ideale woonplek? 🏙️ korte recap van de serie dag 2: leasing dag 3: warmtepompen dag 4: elektrische auto’s narratief de 15-minutenstad is de ultieme vooruitgang. alles binnen 15 minuten per fiets of te voet. minder files, minder co2, meer leefbaarheid en geluk. realiteit – meerdere lagen laag 1: beperking van vrijheid wat wordt verkocht als “leefbaar” is in werkelijkheid een drastische inperking van bewegingsvrijheid. laag 2: economische gevolgen winkels en bedrijven buiten de 15-minutenradius worden langzaam uitgeknepen ten gunste van grote ketens. laag 3: pilot-projecten in de praktijk) dit is geen toekomstvisie meer — het wordt nu al hard uitgerold: parijs (anne hidalgo): als eerste grote stad agressief doorgevoerd. resultaat: enorme weerstand van bewoners, hoge prijzen in de “goede” wijken, winkeliers die failliet gaan en een sterke toename van sociale controle. barcelona (superblocks): wijken werden autoluw gemaakt. lokale economie leed zwaar, toeristen namen de ruimte over en bewoners klaagden over verstikkende regeltjes. nederland: verschillende gemeenten (utrecht, den haag, eindhoven, amsterdam) experimenteren al met 15-minutenwijken, vaak gekoppeld aan zero-emissie zones en autobeperkingen. bewoners krijgen te horen dat ze “duurzaam moeten kiezen”, terwijl de echte keuzes al voor hen gemaakt worden. overal waar dit wordt ingevoerd zien we hetzelfde patroon: mooie praatjes over leefbaarheid, maar in de praktijk meer verboden, hogere kosten, minder keuze en groeiende afhankelijkheid van wat de overheid en grote partijen in jouw wijk toestaan. laag 4: verhoogde controle & surveillance een compacte stad is ideaal voor digitale id’s, camera’s, sensoren en gedragssturing via apps. laag 5: de verborgen agenda het gaat niet om geluk, maar om beheersbaarheid. minder mobiliteit = makkelijker te monitoren en sturen. oim-uitweg houd je bewegingsvrijheid. kies bewust waar je woont. ondersteun onafhankelijke lokale winkels. weiger mee te gaan in het idee dat je leven in een klein hokje moet passen. echte leefbaarheid komt niet van beperking, maar van vrijheid. --- misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op facebook. dat komt door de nieuwe nexus quick post tool die we gebouwd hebben. probeer hem gerust uit: https://openinternetmanifest.org/nl/nexus-quick-post vraag aan jou wil jij in een wereld leven waarin de overheid bepaalt wat binnen 15 minuten mag, of wil je échte vrijheid om te gaan en staan waar je wilt? #schijnvooruitgang #15minutenstad #smartcity #parijs15minuten #decentralisatie #vrijheid #openinternetmanifest --- deze post is 100% authentiek en verifieerbaar via: https://openinternetmanifest.org/nl/hash-verifier
-full_sha256: 0f33fa398789483414ecf7a602eb830e091f0f7355afee1685d1fcdf9bee06ab
-fuzzy_sha256: 2f67b794a9825607b3bf7c0cfee4e9d49eea5329b4b55feb44075eef40803641
+  illusory progress – day 31: the 15-minute city as the ideal place to live? 🏙️ short recap of the series day 2: leasing day 3: heat pumps day 4: electric cars the narrative the 15-minute city is the ultimate progress. everything you need (work, groceries, school, healthcare, recreation) within 15 minutes by bike or on foot. fewer cars, less co2, more livability and happiness. the reality – multiple layers layer 1: restriction of freedom what is sold as “livable” is in practice a drastic limitation of personal mobility. layer 2: economic consequences shops and businesses outside the 15-minute radius are slowly squeezed out in favor of large chains and platforms. layer 3: pilot projects in practice this is no longer a future vision — it is already being aggressively implemented: paris (anne hidalgo): the first major city to push it hard. result: massive resident resistance, skyrocketing prices in the “good” neighborhoods, shopkeepers going bankrupt, and a strong increase in social control. barcelona (superblocks): neighborhoods were made car-free. local economy suffered heavily, tourism took over, and residents complained about suffocating rules. netherlands: several municipalities (utrecht, the hague, eindhoven, amsterdam) are already experimenting with 15-minute neighborhoods, often combined with zero-emission zones and car restrictions. residents are told they must “choose sustainably,” while the real choices are made for them. in almost every case we see the same pattern: beautiful rhetoric about livability, but in practice more prohibitions, higher costs, less choice, and growing dependence on what the government and large parties allow in your neighborhood. layer 4: increased control & surveillance a compact city is perfect for digital ids, cameras, smart meters, motion sensors, and behavioral steering through apps. layer 5: the hidden agenda it’s not about happiness — it’s about manageability. less mobility = easier to monitor and control. the oim way out keep your freedom of movement. choose consciously where you live. support real independent local shops and services. refuse to accept the idea that your life should fit into a small box. real livability comes from freedom, not from restriction. you may have noticed that our posts look cleaner on facebook lately. that’s thanks to the new nexus quick post tool we built. feel free to try it: https://openinternetmanifest.org/nl/nexus-quick-post question to you do you want to live in a world where the government decides what is allowed within 15 minutes, or do you want real freedom to go where you want? illusoryprogress 15minutecity smartcity paris15minute decentralization freedom openinternetmanifest this post is 100% authentic and verifiable via: https://openinternetmanifest.org/en/hash-verifier
+fuzzy_sha256: f0442fa37b51411d24623d33e337848f418bb5083f94ae08e5c3c9956be88fd9
+full_sha256: 271587886fcc9dc7a82187d3d841125e37a13f54211d6b2492a215826601490e
 
 ---
 
 
 
-**Schijnvooruitgang – Dag 31: De 15-minutenstad als ideale woonplek?** 🏙️
+**Illusory Progress – Day 31: The 15-Minute City as the Ideal Place to Live?** 🏙️
 
-**Korte recap van de serie**  
-Dag 2: Leasing  
-Dag 3: Warmtepompen  
-Dag 4: Elektrische auto’s  
+**Short Recap of the Series**  
+Day 2: Leasing  
+Day 3: Heat pumps  
+Day 4: Electric cars  
 
-**Narratief**  
-De 15-minutenstad is de ultieme vooruitgang. Alles binnen 15 minuten per fiets of te voet. Minder files, minder CO₂, meer leefbaarheid en geluk.
+**The Narrative**  
+The 15-minute city is the ultimate progress. Everything you need (work, groceries, school, healthcare, recreation) within 15 minutes by bike or on foot. Fewer cars, less CO₂, more livability and happiness.
 
-**Realiteit – meerdere lagen**
+**The Reality – Multiple Layers**
 
-**Laag 1: Beperking van vrijheid**  
-Wat wordt verkocht als “leefbaar” is in werkelijkheid een drastische inperking van bewegingsvrijheid.
+**Layer 1: Restriction of Freedom**  
+What is sold as “livable” is in practice a drastic limitation of personal mobility.
 
-**Laag 2: Economische gevolgen**  
-Winkels en bedrijven buiten de 15-minutenradius worden langzaam uitgeknepen ten gunste van grote ketens.
+**Layer 2: Economic Consequences**  
+Shops and businesses outside the 15-minute radius are slowly squeezed out in favor of large chains and platforms.
 
-**Laag 3: Pilot-projecten in de praktijk)**  
-Dit is geen toekomstvisie meer — het wordt nu al hard uitgerold:
+**Layer 3: Pilot Projects in Practice**  
+This is no longer a future vision — it is already being aggressively implemented:
 
-- **Parijs** (Anne Hidalgo): Als eerste grote stad agressief doorgevoerd. Resultaat: enorme weerstand van bewoners, hoge prijzen in de “goede” wijken, winkeliers die failliet gaan en een sterke toename van sociale controle.
-- **Barcelona** (Superblocks): Wijken werden autoluw gemaakt. Lokale economie leed zwaar, toeristen namen de ruimte over en bewoners klaagden over verstikkende regeltjes.
-- **Nederland**: Verschillende gemeenten (Utrecht, Den Haag, Eindhoven, Amsterdam) experimenteren al met 15-minutenwijken, vaak gekoppeld aan zero-emissie zones en autobeperkingen. Bewoners krijgen te horen dat ze “duurzaam moeten kiezen”, terwijl de echte keuzes al voor hen gemaakt worden.
+- **Paris** (Anne Hidalgo): The first major city to push it hard. Result: massive resident resistance, skyrocketing prices in the “good” neighborhoods, shopkeepers going bankrupt, and a strong increase in social control.
+- **Barcelona** (Superblocks): Neighborhoods were made car-free. Local economy suffered heavily, tourism took over, and residents complained about suffocating rules.
+- **Netherlands**: Several municipalities (Utrecht, The Hague, Eindhoven, Amsterdam) are already experimenting with 15-minute neighborhoods, often combined with zero-emission zones and car restrictions. Residents are told they must “choose sustainably,” while the real choices are made for them.
 
-Overal waar dit wordt ingevoerd zien we hetzelfde patroon: mooie praatjes over leefbaarheid, maar in de praktijk meer verboden, hogere kosten, minder keuze en groeiende afhankelijkheid van wat de overheid en grote partijen in jouw wijk toestaan.
+In almost every case we see the same pattern: beautiful rhetoric about livability, but in practice more prohibitions, higher costs, less choice, and growing dependence on what the government and large parties allow in your neighborhood.
 
-**Laag 4: Verhoogde controle & surveillance**  
-Een compacte stad is ideaal voor digitale ID’s, camera’s, sensoren en gedragssturing via apps.
+**Layer 4: Increased Control & Surveillance**  
+A compact city is perfect for digital IDs, cameras, smart meters, motion sensors, and behavioral steering through apps.
 
-**Laag 5: De verborgen agenda**  
-Het gaat niet om geluk, maar om beheersbaarheid. Minder mobiliteit = makkelijker te monitoren en sturen.
+**Layer 5: The Hidden Agenda**  
+It’s not about happiness — it’s about manageability. Less mobility = easier to monitor and control.
 
-**OIM-uitweg**  
-Houd je bewegingsvrijheid. Kies bewust waar je woont. Ondersteun onafhankelijke lokale winkels. Weiger mee te gaan in het idee dat je leven in een klein hokje moet passen.
+**The OIM Way Out**  
+Keep your freedom of movement. Choose consciously where you live. Support real independent local shops and services. Refuse to accept the idea that your life should fit into a small box.
 
-Echte leefbaarheid komt niet van beperking, maar van vrijheid.
+Real livability comes from freedom, not from restriction.
 
----
+***
 
-Misschien is je al opgevallen dat onze posts er de laatste dagen steeds netter uitzien op Facebook. Dat komt door de nieuwe **Nexus Quick Post** tool die we gebouwd hebben.
+You may have noticed that our posts look cleaner on Facebook lately. That’s thanks to the new **Nexus Quick Post** tool we built.
 
-Probeer hem gerust uit:  
+Feel free to try it:  
 https://openinternetmanifest.org/nl/nexus-quick-post
 
-**Vraag aan jou**  
-Wil jij in een wereld leven waarin de overheid bepaalt wat binnen 15 minuten mag, of wil je échte vrijheid om te gaan en staan waar je wilt?
+**Question to you**  
+Do you want to live in a world where the government decides what is allowed within 15 minutes, or do you want real freedom to go where you want?
 
-#Schijnvooruitgang #15MinutenStad #SmartCity #Parijs15Minuten #Decentralisatie #Vrijheid #OpenInternetManifest
+#IllusoryProgress #15MinuteCity #SmartCity #Paris15Minute #Decentralization #Freedom #OpenInternetManifest
 
----
+***
 
-Deze post is 100% authentiek en verifieerbaar via:  
-https://openinternetmanifest.org/nl/hash-verifier
+This post is 100% authentic and verifiable via:  
+https://openinternetmanifest.org/en/hash-verifier

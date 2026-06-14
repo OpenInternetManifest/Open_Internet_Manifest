@@ -29,10 +29,13 @@ raw_markdown: |
   @fvdemocratie
 
 
-full_sha256: a02a88bcb41ca02e323b772eb5b163d45755d0d1b4c41b2496784319de02900d
-fuzzy_sha256: b290ab59f7e4fdef00396b6e41b33c3ffdd169d31fc7748284db53452c0359b7
+
+
+
 clean_text: |-
-  🇬🇧 day 17 – a child at school, today 🌐😔 today is january 27. holocaust remembrance day. but on this day, a mother has to count again how many times her child has been attacked. tomorrow: a story that hurts. one you don’t want to hear. but one you need to hear. because if this still happens on a day like today... something is deeply wrong with what we claim to have "learned". open internet manifest: facts over feelings. hashes over narratives. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts #realityvsnarrative #day18teaser #neveragainisnow @realdonaldtrump @fvdemocratie
+  🇬🇧 day 17 – a child at school, today 🌐😔 today is january 27. holocaust remembrance day. but on this day, a mother has to count again how many times her child has been attacked. tomorrow: a story that hurts. one you don’t want to hear. but one you need to hear. because if this still happens on a day like today... something is deeply wrong with what we claim to have "learned". open internet manifest: facts over feelings. hashes over narratives. keep watching. 👀 https://openinternetmanifest.org/nl/social-posts realityvsnarrative day18teaser neveragainisnow @realdonaldtrump @fvdemocratie
+fuzzy_sha256: 19f1a99b4127903e6d537653dbc8219c9b1fb507bfa780bd4aee2291739f4eaa
+full_sha256: a02a88bcb41ca02e323b772eb5b163d45755d0d1b4c41b2496784319de02900d
 
 ---
 

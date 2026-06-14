@@ -25,10 +25,13 @@ raw_markdown: |
   Why? Because narratives are easily distorted — reality is not.
 
 
-full_sha256: f3591c5fafcb353f34b65c23191a12e0bce846dd842b5c1a2089ac0e5507cc48
-fuzzy_sha256: 1c6777e309aff6bf09949d2816bc11c1d4da9764ab2cd048048aec680f34cf01
+
+
+
 clean_text: |-
-  🇬🇧 day 10 – the invisible leash 🔗 they promise "transparency" & "protection" via ai rules & chat scans (eu 2026 rollout). but every "safety" layer tightens the leash: • algorithms predicting your thoughts 🧠 • age verification killing anonymity 🕵️ • data you can't escape 📊 reality: freedom isn't more safety nets – it's cutting the cord. ✂️ the open internet manifest wants no leash – just a web without one. 🌐 join: https://openinternetmanifest.org #realityvsnarrative #openinternet #invisibleleash #freeinternet #openinternetmanifest https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+  🇬🇧 day 10 – the invisible leash 🔗 they promise "transparency" & "protection" via ai rules & chat scans (eu 2026 rollout). but every "safety" layer tightens the leash: • algorithms predicting your thoughts 🧠 • age verification killing anonymity 🕵️ • data you can't escape 📊 reality: freedom isn't more safety nets – it's cutting the cord. ✂️ the open internet manifest wants no leash – just a web without one. 🌐 join: https://openinternetmanifest.org realityvsnarrative openinternet invisibleleash freeinternet openinternetmanifest https://openinternetmanifest.org/en/hash-verifier paste the full text to check authenticity. why? because narratives are easily distorted — reality is not.
+fuzzy_sha256: 1c4884758bafbf24106e9964a0712057040ad224ca3466abdaae1902714b338b
+full_sha256: f3591c5fafcb353f34b65c23191a12e0bce846dd842b5c1a2089ac0e5507cc48
 
 ---
 
