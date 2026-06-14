@@ -6,11 +6,11 @@ rvn_title: "Het woord 'omvolking' mag niet meer"
 rvn_teaser: "Een Kamer-meerderheid wil het woord 'omvolking' effectief verbieden. Omdat feiten en woorden die ze beschrijven ineens gevaarlijk zijn geworden"
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "24ee3d88322ee4582a59070aaee8a1c03c6bfa8c83e1b35076822b6d5f1f026e"
+full_sha256: "240b878725392e3061231faa2c3d356ad37d23d6322a6db8a8e36a83961a3bb7"
+git_commit_hash: "76094aa155677799fd12286a943a5056d50a773b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/76094aa155677799fd12286a943a5056d50a773b"
+git_commit_date: "2026-06-14T05:20:39.105333"
 raw_markdown: |
   
   ### RVN: Het woord 'omvolking' mag niet meer 🗣️

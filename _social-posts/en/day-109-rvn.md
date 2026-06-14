@@ -6,11 +6,11 @@ rvn_title: "The word 'omvolking' is no longer allowed"
 rvn_teaser: "A majority in Parliament effectively wants to ban the word 'omvolking'. Because facts and the words that describe them have suddenly become dangerous."
 donation_link: ""
 donation_text: ""
-fuzzy_sha256: ""
-full_sha256: ""
-git_commit_hash: ""
-git_commit_url: ""
-git_commit_date: ""
+fuzzy_sha256: "68b823f3c4941de21ccb9881a42a733adedcbeb5d8bd9bc9f8314bba9ec883f8"
+full_sha256: "79c869b07350fded6cc13e5854b006b691276e631f1793e46e01af8df8f9baad"
+git_commit_hash: "76094aa155677799fd12286a943a5056d50a773b"
+git_commit_url: "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/76094aa155677799fd12286a943a5056d50a773b"
+git_commit_date: "2026-06-14T05:20:38.943904"
 raw_markdown: |
   
   ### RVN: The word 'omvolking' is no longer allowed 🗣️
