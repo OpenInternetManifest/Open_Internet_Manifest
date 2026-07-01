@@ -1,0 +1,4134 @@
+<!DOCTYPE html>
+<html lang="nl" 
+      data-website-sha256="">
+  <head>
+
+    <!-- Open Graph / Facebook Meta X Tags -->
+<meta property="og:title" content="Open Internet Manifest">
+<meta property="og:description" content="A living manifesto for a free, open and decentralized internet">
+<meta property="og:url" content="https://openinternetmanifest.org/nl/hash-verifier.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Open Internet Manifest">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://openinternetmanifest.org/assets/images/og-image.png">
+
+<!--  vaste og:image -->
+<meta property="og:image" content="https://openinternetmanifest.org/assets/images/og-image.png">
+
+<!-- Extra aanbevolen tags -->
+<meta property="og:locale" content="nl_NL">
+<meta property="article:published_time" content="">
+
+    
+    <meta charset="UTF-8">
+    <title>Hash Verifier</title>
+
+        <!-- OIM Favicon -->
+  <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="512x512">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A living manifesto for a free, open and decentralized internet">
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Hash Verifier | Open Internet Manifest</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Hash Verifier" />
+<meta property="og:locale" content="nl" />
+<meta name="description" content="A living manifesto for a free, open and decentralized internet" />
+<meta property="og:description" content="A living manifesto for a free, open and decentralized internet" />
+<link rel="canonical" href="https://openinternetmanifest.org/nl/hash-verifier.html" />
+<meta property="og:url" content="https://openinternetmanifest.org/nl/hash-verifier.html" />
+<meta property="og:site_name" content="Open Internet Manifest" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hash Verifier" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A living manifesto for a free, open and decentralized internet","headline":"Hash Verifier","url":"https://openinternetmanifest.org/nl/hash-verifier.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+   
+    <!-- Hash verification JS -->
+    <!-- <script src="/assets/js/official-hashes.js"></script> -->  <!-- niet meer nodig -->
+    <script src="/assets/js/hash-verify.js"></script>
+  </head>
+  <body>
+    
+    <!-- _includes/main-nav.html -->
+<nav class="main-nav">
+  <div class="nav-container">
+    <!-- Terug knop -->
+    <a href="javascript:history.back()" class="nav-back" aria-label="Terug">
+      ← Terug
+    </a>
+
+    <div class="nav-logo-wrapper">
+      <a href="/" class="nav-logo">#OIM</a>
+      <span class="visitor-counter" title="Bezoekers sinds lancering">
+        <img src="https://openinternetmanifest.goatcounter.com/counter/@.svg?style=flat&label=visitors&color=66b3ff" alt="Bezoekers teller" style="border:none; height:1.8em !important; margin-left:0.8em;">
+      </span>
+    </div>
+
+    <!-- Desktop navigation -->
+    <div class="nav-links desktop-only">
+      
+
+      <!-- Manifest -->
+      <div class="nav-item has-dropdown">
+        <a href="/nl/manifest" class="nav-link">Manifest</a>
+        <div class="dropdown-menu">
+          <a href="/nl/manifest">Alle Theses</a>
+          <a href="/nl/accu-manifest" class="highlight">Hoe het begon – Accu-Manifest ⚡</a>
+        </div>
+      </div>
+
+      <!-- Guides -->
+      <a href="/nl/guides" class="nav-link">Guides</a>
+
+      <!-- RVN -->
+      <a href="/nl/social-posts" class="nav-link">RVN</a>
+
+      <!-- Nexus (nieuw!) -->
+      <a href="/nl/nexus" class="nav-link">Nexus</a>
+
+      <!-- Over -->
+      <div class="nav-item has-dropdown">
+        <a href="/nl/over" class="nav-link">Over</a>
+        <div class="dropdown-menu">
+          <a href="/nl/accu-manifest">Hoe het begon ⚡</a>
+          <a href="/nl/over">Over ons</a>
+          <a href="/nl/missie-visie">Missie & Visie</a>
+          <a href="/nl/contact">Contact & Meedoen</a>
+        </div>
+      </div>
+
+      <!-- Verifier -->
+      <a href="/nl/hash-verifier" class="nav-link">Verifier</a>
+
+      <!-- Home -->
+      <a href="/" class="nav-link">Home</a>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="nav-toggle-wrapper">
+      <button class="nav-toggle" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      
+      <a href="/nl/manifest">Manifest</a>
+      <a href="/nl/guides">Guides</a>
+      <a href="/nl/social-posts">RVN</a>
+      <a href="/nl/nexus">Nexus</a>
+      <a href="/nl/over">Over</a>
+      <a href="/nl/hash-verifier">Verifier</a>
+      <a href="/">Home</a>
+    </div>
+  </div>
+</nav>
+  
+    <!-- <a id="skip-to-content" href="#content">Skip to the content</a> -->
+
+    <!-- Banner met overlay -->
+    <header class="custom-header" role="banner">
+  <div class="banner">
+    <img src="/assets/images/banner-4-0.png" alt="Open Internet Manifest">
+    <div class="overlay-text content-container">
+      <h1>Open Internet Manifest</h1>
+      <p>
+        
+        
+        Voor een vrij, open en onvervreemdbaar internet
+
+
+        
+      </p>
+    </div>
+  </div>
+</header>
+
+    <!-- Main content -->
+    <main id="content" class="main-content content-container" role="main">      <div class="hash-verifier">
+
+  <h1>Hash Verifier</h1>
+
+  <p class="intro">
+    Controleer zelf of een post van het Open Internet Manifest authentiek is.<br />
+    Plak de volledige tekst hieronder (inclusief eventuele voetnoot of hashtags) en klik op Verifieer.
+  </p>
+
+    <!-- Prominente quote - cleaner versie -->
+  <div class="highlight-quote">
+    <blockquote>
+      “Een hash is digitaal zegelwas:<br />
+      <span class="quote-highlight">breek je het, dan ziet iedereen het.</span>”
+    </blockquote>
+    <cite>— Ruben Berkhout, december 2025</cite>
+  </div>
+
+  <div class="section">
+    <strong>Waarom dit bestaat</strong>
+    <p>
+      Narratieven worden dagelijks verdraaid, woorden uit context gehaald of subtiel aangepast. 
+      Daarom gebruiken we hashes: een digitaal zegel dat laat zien of een tekst nog origineel is.
+    </p>
+  </div>
+
+    <div class="section">
+    <strong>Wat is een "fuzzy hash"?</strong>
+    
+    <p>
+      Normale hashes zijn extreem streng: één spatie, één emoji of één vetgedrukt woord en de hash is al anders.
+    </p>
+    
+    <p>
+      Omdat posts vaak worden gedeeld via X, Facebook, Telegram, e-mail of kopieer-plak acties, 
+      veranderen kleine dingen (extra spaties, nieuwe regels, vetgedrukte woorden, etc.).
+    </p>
+    
+    <p>
+      Daarom gebruiken wij een <em>fuzzy hash</em>: een slimme, vergevingsgezinde hash die kleine 
+      opmaak- en formaatverschillen negeert, maar de echte inhoud wel beschermt. 
+      Zo blijft een post herkenbaar als authentiek, zelfs nadat hij meerdere keren 
+      is gedeeld of licht is aangepast.
+    </p>
+  </div>
+
+  <p class="instruction">
+    Plak hier de volledige tekst van een social post, teaser of andere bijdrage:
+  </p>
+
+  <script>
+  window.officialFuzzyHashes = {
+
+    "/social-posts/en/day-01-rvn.html": "8d1bc98f8462e13389c324ce02bc49cbf97dc50322584fa8d89f76946fd730b3",
+
+    "/social-posts/en/day-01-teaser.html": "6760deeba1c4121c9b744d46999868dbbbd92002783e2bc6cd16dd2811b73c9a",
+
+    "/social-posts/en/day-02-rvn.html": "f27b1fa7415ecdc4698411a94459b968361cac034051da5fa27e1e5587212dfc",
+
+    "/social-posts/en/day-02-teaser.html": "54215fd88f5545860467fa081314b86c99529b2a886fbb43581cbb8ed32f4ea1",
+
+    "/social-posts/en/day-03-rvn.html": "4ffb93ae2055b11ffc64f9942e721a26efc651549af4286f8b107cf14f19910f",
+
+    "/social-posts/en/day-03-teaser.html": "b4af11cf57bf0e9173828e089675b75441a13fa79ff812c128c98a1f3a6c1e26",
+
+    "/social-posts/en/day-04-rvn.html": "f456c89588329170aa5b517c26453dc4b891f90a149c3cdbdd2a857631062f6e",
+
+    "/social-posts/en/day-04-teaser.html": "e33f1f4550966fa75f08c9934d007a5c0531316fbecd661a4451c2cf1bab3d3f",
+
+    "/social-posts/en/day-05-rvn.html": "3421dc34c74603f722b15cc940867c991d10300c8f1b4f2d76d566da7dd00164",
+
+    "/social-posts/en/day-05-teaser.html": "a2cacb75b2d755c8ca6378baf6f272fb384f87acf5642faf526c6cf541fae2c6",
+
+    "/social-posts/en/day-06-rvn.html": "c830b6b02d309c5df4c8e5c33666ecc017b102585a9a71f51f7de20904af3e3f",
+
+    "/social-posts/en/day-06-teaser.html": "01dcdd3b2149c44286b101b5035985bd569b5cf6134a868d5def1bb434db8e31",
+
+    "/social-posts/en/day-07-rvn.html": "405471dd7113c091e669e6eed2a9252926f0ebbf7719be60feaeb0d468dd958d",
+
+    "/social-posts/en/day-07-teaser.html": "d13d96459f0406e712d02691079484072ad8ac88f6e1842f61d77533abc89ea1",
+
+    "/social-posts/en/day-08-rvn.html": "d137468956af7dc7505bb697e7a64cf3d32ab8f8dc703c6c689ecf2f049ec8d2",
+
+    "/social-posts/en/day-08-teaser.html": "e5a7e10e7a220ee36f413ff6f4c400974bdb4447ed33375309453ab9fe89ec16",
+
+    "/social-posts/en/day-09-rvn.html": "6f6c458c90e071e92732ec7bc1ce1e826ee268cb4c62fd3a6f69a9461694b30e",
+
+    "/social-posts/en/day-09-teaser.html": "fad7c682c3cd00f80b32b87b7f1333b2a85e49813d9677b32b72b0c07b939f9a",
+
+    "/social-posts/en/day-10-rvn.html": "dc5130f7f3ac128ed1006356b869e0f39be3646eb1407ac3a8fcfa2e6e74b86f",
+
+    "/social-posts/en/day-10-teaser.html": "1c4884758bafbf24106e9964a0712057040ad224ca3466abdaae1902714b338b",
+
+    "/social-posts/en/day-100-rvn.html": "a309e1644b61204418cbb1a6235c80069503bffbfb93743592e816c1c0d2b3fe",
+
+    "/social-posts/en/day-101-rvn.html": "a7b0e89d25901be12ad0b5fa2dd4e3877cfd100001bd25451009004b887e6c71",
+
+    "/social-posts/en/day-102-rvn.html": "2130c8a249f2540bc6acc185c86eacdc54aebc37fbad6fad79ed9dfb508e5079",
+
+    "/social-posts/en/day-103-rvn.html": "76c319bfcff5727327921b6464290fe38069f006a3494201f6d50075394b5a62",
+
+    "/social-posts/en/day-104-rvn.html": "44c642d6e2813b59050bd6f41709210f9251a9cdefc517463fb34bd2e7552cd9",
+
+    "/social-posts/en/day-105-rvn.html": "781861961b22d6449e4517f0a387ba51f04f9bdcb616c723ef6db0b3159ad137",
+
+    "/social-posts/en/day-106-rvn.html": "611828858765ddb46931737704418f7657db77c7fe383d47c94a5801a93cc795",
+
+    "/social-posts/en/day-107-rvn.html": "4c1cc80f5ea416aed540de8a0a87294d5d8b266d892593bc819b6d72561d029c",
+
+    "/social-posts/en/day-108-rvn.html": "ba695f9008b7b5e2be6a30edd1d144718a9a820e44c183238d4c11010e08aef4",
+
+    "/social-posts/en/day-109-rvn.html": "1f6a1d14538db093f538fe1a2277e67d1a1c3e7b3a4eecf172b3fc19fa557934",
+
+    "/social-posts/en/day-11-rvn.html": "b0e561e0605388d54c3af57ca250888c96e331e458651a842676a9c70d1f306c",
+
+    "/social-posts/en/day-11-teaser.html": "1a07035eb7d5dc1c3d912bd8dc8e7954d08d820869b1d17c2e3d8658b4d7b564",
+
+    "/social-posts/en/day-110-rvn.html": "29d41c0728a161bbd13cbf87d144704ba1014d785afe2beb21ae34d487e00a08",
+
+    "/social-posts/en/day-111-rvn.html": "38ae0f4a81495313554812306b4a0c50acfc3f6b8d33ed3646604c67ec4d29b1",
+
+    "/social-posts/en/day-112-rvn.html": "c175570c63086b25763ce9a87ddd73bbdba12c1b829228602257dbf3de42d1c9",
+
+    "/social-posts/en/day-113-rvn.html": "86c94bbe6ac3090a346055fa0bd0393e16398ea122dc030c2405787673cc27a7",
+
+    "/social-posts/en/day-114-rvn.html": "936443bae50f8622d9ecc776306a632d02a5921af0d8c078ef05874119c08b60",
+
+    "/social-posts/en/day-115-rvn.html": "dafa177ef468858f65b102526d1125075ae84392324733d54801214504197c16",
+
+    "/social-posts/en/day-116-rvn.html": "cc5f5f70eb0d624d6ea1a0a11003b1b1a4bb79faad357952ccdee6be59e2da87",
+
+    "/social-posts/en/day-117-rvn.html": "2687171fcfaf794a96ec3107a8fdf60ddf2eb2abf1edc58200c7493e597885d4",
+
+    "/social-posts/en/day-118-rvn.html": "a70351de310e27e931e57e5c7bc178f2d5c35fba0bc64ef30e274af00679f93a",
+
+    "/social-posts/en/day-119-rvn.html": "97c34ae928cdb4532d9a8d230a9a6d4bb1af718d47fb3bed1ddd008261bc9c3f",
+
+    "/social-posts/en/day-12-rvn.html": "3189b8a120bd82279eb7721740ec5fa557294447319f8c909769400879e0b72b",
+
+    "/social-posts/en/day-12-teaser.html": "947eb68c34fadf4ce7d5c7d80fe755af69b55165ce1e06e04a2ab588a83406fa",
+
+    "/social-posts/en/day-120-rvn.html": "3f1180e0e282a0ee6508b8b2da573db5b750bc44fa5cd25968cc005e86aefadd",
+
+    "/social-posts/en/day-121-rvn.html": "d923335f21f8e223388d407f05851163c3fc964729b26f70940f1bb0cb2bf37e",
+
+    "/social-posts/en/day-122-rvn.html": "f312d77b5735f0f68cd5a027b130002da5d3351185ff4cb8d2e99e63ef0101db",
+
+    "/social-posts/en/day-123-rvn.html": "580e8fe10083019873f385c3685e327acf680ccccbbc30c5dad343a8c421c44a",
+
+    "/social-posts/en/day-124-rvn.html": "4197158b14cf6d3ca0396eebcfce1adaa8db7e9c851f1842a0cb330fd87e0f98",
+
+    "/social-posts/en/day-125-rvn.html": "1b4e59ebebd7cec482ec1e6ab9a782407c8815cd7cf0b39e206de5edae0a81d6",
+
+    "/social-posts/en/day-126-rvn.html": "b2dc241ed2ce9bc7dd7d592e5e3fd30d974f1cc38178e90e0393445868a027be",
+
+    "/social-posts/en/day-13-rvn.html": "c93d64793c4e126b80e0d340af926d7ad03f4544e05586b3b8c4836f90b892ce",
+
+    "/social-posts/en/day-13-teaser.html": "f7b7f399985328120bde3782d26517cecaaf06a36d94f4a02d0991b6dd51096d",
+
+    "/social-posts/en/day-14-rvn.html": "2fb20b13b8fe775171342358a50cb30304f5a6adc7e6dd2567f343f872a3a853",
+
+    "/social-posts/en/day-14-teaser.html": "8a84ce932ac6af339e84253044cbb7d7f73b8d4077258af1a9919fc5bd074f55",
+
+    "/social-posts/en/day-15-rvn.html": "069b44b9d59e24985fbbf83f275341d18e7e8d5987b69f122beefa9a8672339b",
+
+    "/social-posts/en/day-15-teaser.html": "45a255c43ccff9b3474f6539be902b2bfd7d4d3fe4e71c39728e9491b51d028a",
+
+    "/social-posts/en/day-16-rvn.html": "c87975a897d68dee468b33aa21e50e418c96e56b316cee7ef97906a1fe59f359",
+
+    "/social-posts/en/day-16-teaser.html": "22a1107e699179f20c5cc996d6a82aefda3d9352d08d3f722948b63a753e09aa",
+
+    "/social-posts/en/day-17-rvn.html": "246880df84142f667a756353663964798cedba732f2fa26db9e1430774efc309",
+
+    "/social-posts/en/day-17-teaser.html": "19f1a99b4127903e6d537653dbc8219c9b1fb507bfa780bd4aee2291739f4eaa",
+
+    "/social-posts/en/day-18-rvn.html": "8430b12ff804e2ca2d95e3dfcbe606f34fd18c7aea24adba1d347ad9ffedc9eb",
+
+    "/social-posts/en/day-18-teaser.html": "ab45ef2678aaca6eb5fdb4fa11b089d3b823ea154bd9906e6754cad28b4c3ac1",
+
+    "/social-posts/en/day-19-rvn.html": "274266783505323133554d42dc13142669e640bd1c1049199a8274e6f15bf646",
+
+    "/social-posts/en/day-19-teaser.html": "c5ef15bc9d23f845db0d12fe6582301530c04e1c134135c5d43b52b97d20b3f7",
+
+    "/social-posts/en/day-20-rvn.html": "c573f6bd1275e085678767a4e60a471dce2b87732fb02a620b7074be5f6236c2",
+
+    "/social-posts/en/day-20-teaser.html": "5ce77f095d8036b80f77a0f7e8bf2bea11a243c205ab41441d650e7425966da0",
+
+    "/social-posts/en/day-21-rvn.html": "90612a258f6efeda47fcff39809421732e9f5f7f8aa6dc75ec7bcb90a285b671",
+
+    "/social-posts/en/day-21-teaser.html": "197f2583df4bccb903e2abb7254c8482e9654c85237eda40ee687a0450ac2d25",
+
+    "/social-posts/en/day-22-rvn.html": "66c12076d6a149f3b45d651942892e7aaa122529b7016679de1443a0ebe085ca",
+
+    "/social-posts/en/day-22-teaser.html": "561a2d380cbe5426a0a41815e14bf144320cbdb40a0cef6b54cd5b841cf09335",
+
+    "/social-posts/en/day-23-rvn.html": "554b9f6b15dab7be1a6c2d60a14aa01a81c1c5dac5c0c49d04cace2c7da8ff26",
+
+    "/social-posts/en/day-23-teaser.html": "c8f6cd13f2f3996cafb6143a8c10f52fdb7e8d0ca7d2d48b275b22db7ff276c2",
+
+    "/social-posts/en/day-24-rvn.html": "4cd7c0443adf294278bdbe93fd36325c65467c867e92784d96412a9deddad3fc",
+
+    "/social-posts/en/day-24-teaser.html": "3be8d849e9d7a1fd0cd458821f0a06aabe1d259b710440245854b3226a4db386",
+
+    "/social-posts/en/day-25-rvn.html": "2aa508ce2bc8337784d36f61b7b222a40d9145d4f8a69b5a5613a3856787eaa5",
+
+    "/social-posts/en/day-25-teaser.html": "613be9c5cc5f93deb823f418fbff82b81c69a8a398494539482267334b93ccc8",
+
+    "/social-posts/en/day-26-rvn.html": "f824c91836a4be21f7662ef6fdc050296cf86a082a221b7fcf74ab8f515b33fa",
+
+    "/social-posts/en/day-26-teaser.html": "f585898b6b5e0e62fbde708aefae47ed4b22ecb46476f072d66e26777df0ca4e",
+
+    "/social-posts/en/day-27-rvn.html": "cc47722211f378ebe2ad38d5dd240ee84f26e9c1467e1f00a99111c0359b27a9",
+
+    "/social-posts/en/day-27-teaser.html": "ce6681d3d95cd5fd396c614ee8e3007c474e354addb20440cd8575098864d832",
+
+    "/social-posts/en/day-28-rvn.html": "2addce82164ee2fc9f7429f86b6d647ce8d54324d6f67d60dc980adafeb0ede0",
+
+    "/social-posts/en/day-28-teaser.html": "8ec369b4fe589ca3cb0c022d8b6347e3eef75011037ecd473a806731f910d10a",
+
+    "/social-posts/en/day-29-rvn.html": "97aa554c7ccd1163188ed96aafd58267623c61917cda6480fb0310c3f607ca64",
+
+    "/social-posts/en/day-30-teaser.html": "51ae582bd11ae1ff43b902fba6739385b781639223962e2b5612abe354f68d63",
+
+    "/social-posts/en/day-31-rvn.html": "f02b661949c1ac115c30f5df909a70a12b8060652c0442cf708e7f7f107ba216",
+
+    "/social-posts/en/day-31-teaser.html": "db0bcedad792904a037a37c8c2037549e2b1024562f4ec0ca48ba3297ea575a5",
+
+    "/social-posts/en/day-32-rvn.html": "377e086ba51b2dc68567ccaf84af217006821e7626304cfd6c7f1f1c5f54e18b",
+
+    "/social-posts/en/day-32-teaser.html": "8aab7d351baadcd9edef3f7ad615ac97ffa784ea3b815ac47ff6b632a880c67c",
+
+    "/social-posts/en/day-33-rvn.html": "018c5ba71eebc1e4429f8483ac84ea021f93f19545d0ce632bcd8cbd32a8dfa5",
+
+    "/social-posts/en/day-34-rvn.html": "42b6e3658223cc42bdfa74a1f2a977afe569defad8888fedc6340c20fe4c12c1",
+
+    "/social-posts/en/day-34-teaser.html": "c89142ec111d837facfc5b7b09c7deed0e1fdd313eee9d8a0ea6fe7215d43fda",
+
+    "/social-posts/en/day-35-rvn.html": "c9a2d727a52452ce2bf7b373a758eeb5e8d6953657449864b67ebf5fb5a6b67f",
+
+    "/social-posts/en/day-36-rvn.html": "7893aff4df7f849841af1dbec298d473fbe82b194621e0c2d2bb5f710577bb73",
+
+    "/social-posts/en/day-38-rvn.html": "25c769478053319a576ba7cea1e1014997ddccf17d0a17d37fbca7cefb7cab55",
+
+    "/social-posts/en/day-38-teaser.html": "b661e998c5e6338b48269b419180c0d37072210590364deadd1cf0541a4ef1d4",
+
+    "/social-posts/en/day-39-rvn.html": "185efe2b61d84311728c959394e30b6896ec541064fa7319b4a6df2d2914d148",
+
+    "/social-posts/en/day-40-rvn.html": "5b81dcd490990081135d95dc51399dbbfd885f46b6f54323ff350cdd5c8288c5",
+
+    "/social-posts/en/day-41-rvn.html": "3e335653427b51006a116d41611868c0466b0475980007d437285f8db834b765",
+
+    "/social-posts/en/day-42-rvn.html": "ede2f3129c330797f8524d38ce9dfc9db1b7e40a9886141a26b470680ce2968f",
+
+    "/social-posts/en/day-43-rvn.html": "9eb63ae4fc576704041e028bc9676285786db3d1594c99a9ea0a7c11097856f0",
+
+    "/social-posts/en/day-44-rvn.html": "0cf1e28c667cdd403ec284f71e6ac7379dd903ab5076bb24b96c3208e1853724",
+
+    "/social-posts/en/day-45-rvn.html": "2ef7165dece6a249d522eea30a58640326a5d1006365d60de311b7c4e3ad03aa",
+
+    "/social-posts/en/day-46-rvn.html": "08ed3f38a0ac0ddc1a1ce1619ff01ab4867f9154ce041626cd9418d5cf5496a2",
+
+    "/social-posts/en/day-47-rvn.html": "14114c074c44cc6c661e649b42c2462a92d41c6887e4b1b9f56a12af396d7254",
+
+    "/social-posts/en/day-48-rvn.html": "455d1faf6b5b8313baa472b8a18e6f4ede94f0c7a8be25a5a176e5b57e8712c8",
+
+    "/social-posts/en/day-49-rvn.html": "20c3e4379180dca4632a91a5b68dd11d6492e01b8338fc00ed264f7a85830da6",
+
+    "/social-posts/en/day-50-rvn.html": "0d7f5a51fe8a56e7caaa9157000b0340a978c4b403067f564eae35c167142174",
+
+    "/social-posts/en/day-51-rvn.html": "42ae1f82114037b98b7159c4b7378fb4950c36747e3e9b665691866898992dd2",
+
+    "/social-posts/en/day-52-rvn.html": "d964fafa3317120abc069a59351b450582bf11add2b6d3e333ea0e7e9d077f58",
+
+    "/social-posts/en/day-53-rvn.html": "2e8380c27420c87a15b157bf733391dbfbc9b4dee331b65fee83b4ee39cc60ef",
+
+    "/social-posts/en/day-54-rvn.html": "cae77f21fc300f3f405f8161846e17470f4d735fffede9a94a8817a35b3db4b9",
+
+    "/social-posts/en/day-55-rvn.html": "b8c25a4d9963626d0ec26707bde4b166188807aacdbd2f3703859f6efaf367d7",
+
+    "/social-posts/en/day-56-rvn.html": "0cf613aeba204515235baf86c74a575967d42f7a626ae2d21cfa6edbad51e2e9",
+
+    "/social-posts/en/day-57-rvn.html": "bd46d5e6fe07202deab80e730bf7726b85394128f03ecf19b04f053396924107",
+
+    "/social-posts/en/day-58-rvn.html": "99fed1a8aa50405a6990b660d2e0a28e22fb68a48d1f400717d8d1832a7d238f",
+
+    "/social-posts/en/day-59-rvn.html": "f7883e3391a7887bd4dd7dfdc6615ece7996c1ccfd5b277f46a65303b9c23648",
+
+    "/social-posts/en/day-60-rvn.html": "a7a519e3f92ecd50e31495ef4081a024c32175b287a7a5b5c30ef08f4679839d",
+
+    "/social-posts/en/day-61-rvn.html": "ccc4ee2a80ce10302ce6e61a6faec3a2612ba0446aa3a91db1597f213359882d",
+
+    "/social-posts/en/day-62-rvn.html": "f8d5abc3e5a8684a29d6422a122e07558ad9a754b1e4af7d3bea3f5f014ea426",
+
+    "/social-posts/en/day-63-rvn.html": "0bb53d1681e1466b6f7b33aac1c477cd30960c2877021d8a8ab1d2debbb8c9cf",
+
+    "/social-posts/en/day-64-rvn.html": "c45706d5e9b56906348208fd07503ce05ba110a2dac7cc76ee71f09dba7760cc",
+
+    "/social-posts/en/day-65-rvn.html": "0680d0b3186377767652b7f64a42e925d3ef6e08004788b31db80739c1e0f366",
+
+    "/social-posts/en/day-66-rvn.html": "402cf2ddb558397c9a38914a0f6f8ffe7c4b951670076afdd1daf7a70c7538eb",
+
+    "/social-posts/en/day-67-rvn.html": "ed10983157374b90b2ad19c4e0f2e34dcf0b409e349b6dba34399f2437cdddcc",
+
+    "/social-posts/en/day-68-rvn.html": "17adfee073a704ab675c21541f1831f739ff12637b9b8817e1c3307376eb3a61",
+
+    "/social-posts/en/day-69-rvn.html": "0cd2f85312d016f71737e8e1a67f612c89524e8cec57451d1c8d5dbfb1acad6b",
+
+    "/social-posts/en/day-70-rvn.html": "3e908c1ec3308312cb51ecf8787f6001848ef490758514fea1da4b366c8a7a8e",
+
+    "/social-posts/en/day-71-rvn.html": "0d95b59cd1ebb86f7b0ec8e79e0549730940999650857bf3aa9259ddb6a8f521",
+
+    "/social-posts/en/day-72-rvn.html": "209a80b12741271ffdde898ffc7640a6238c2e3cc33bf8c02f67b899b2003616",
+
+    "/social-posts/en/day-73-rvn.html": "be0c505e857de5e412ca697583d91df14943c9fa5899a6d5c8c6ca5cfe433530",
+
+    "/social-posts/en/day-74-rvn.html": "58ddce68b5fb67a9072252c3aa2ab2e2c5f9dd2f5785c9549a258df3a5786b8b",
+
+    "/social-posts/en/day-75-rvn.html": "bbb42fb05848095546c56d4e64c5337689f30d64d0e67454421577b6960d76b9",
+
+    "/social-posts/en/day-76-rvn.html": "b7533b648f6cf92d2689b6c306c9dafdd8f08b3c8b5c35fee4c0041c5b131490",
+
+    "/social-posts/en/day-77-rvn.html": "4b2a342f0a0adf7d828a278a688b65f9ca9d9ef1307a881ee818720bdc7321d3",
+
+    "/social-posts/en/day-78-rvn.html": "ceca875bad133f83503e8f90bf1d81051f99e7e5c8a0a8d9c2f5ef17816274d5",
+
+    "/social-posts/en/day-79-rvn.html": "b1f845df63afd21c9bb298d3d63b92807246a32cefeae1785ed2e4850e553685",
+
+    "/social-posts/en/day-80-rvn.html": "d7a922c876864794b8ac7a6435a187797a054bf9a891b359346a15d9b4ce28f7",
+
+    "/social-posts/en/day-81-rvn.html": "f2c995b9f844d47c3a01240f103ce8e3ff545520303774495474edcdf529d0d8",
+
+    "/social-posts/en/day-82-rvn.html": "3cbe7e1b246d67060dc738e0178d3a2e4dcd7f285db65df84b2993e456fca684",
+
+    "/social-posts/en/day-83-rvn.html": "47f6ab900f34c96d9c243a0892126b52768e281bd94125bd8e2fa13be9999399",
+
+    "/social-posts/en/day-84-rvn.html": "daeca2babde4342a9ace4c1eb23dc0c12318c4778979f88c1e9107380330080d",
+
+    "/social-posts/en/day-85-rvn.html": "57e7b85723c7bde98a11f162505bd81a70a5785076f0b897087ee210cd5f679e",
+
+    "/social-posts/en/day-86-rvn.html": "bc437eaabfb2d1fb2312fcc767f9724a4bb998e07d38ce68bf4bb7f2c5c3fb08",
+
+    "/social-posts/en/day-87-rvn.html": "7365ac06d53491ac7eac279a727ddd6e0821ef70ce55b11f8a406e4aee2fc733",
+
+    "/social-posts/en/day-88-rvn.html": "fd671d7253afa859a329ebaa55f700e8f065575a58b1d6deaf4903898bd06501",
+
+    "/social-posts/en/day-89-rvn.html": "7ebbd53e40d4db3f6a0a1c1fb78170715f4ec0d57f466443a6516fe9996f2e80",
+
+    "/social-posts/en/day-90-rvn.html": "4419a6983b0ce5ec254c321998f4bca529f50043d64c7bde786655494ba36cee",
+
+    "/social-posts/en/day-91-rvn.html": "17c412701ee37de2a6d39ef15b52436551b0fdae213453f72dc1e4f8ef183ab8",
+
+    "/social-posts/en/day-92-rvn.html": "12eb03c7786d78b350fc1b6ea6c21dbea9199ef5af752fe7eb1d0bcf78674bdf",
+
+    "/social-posts/en/day-93-rvn.html": "1639cd84f23048cfd22a33c567b2d5393f73509a48143827c2034035f70bea46",
+
+    "/social-posts/en/day-94-rvn.html": "24809a34b494893593db92c5d4adfc65a31d806d45f018d3247db0cb5a2ee32b",
+
+    "/social-posts/en/day-95-rvn.html": "bd381a357057aadb2e43ef74647e01f62bc0660ef9027f8c9bf20ec8beb6de5b",
+
+    "/social-posts/en/day-96-rvn.html": "679aff0def5bb74bb7f5600660069264d4c8f8185ee99b43b1d2655b1c91fdbd",
+
+    "/social-posts/en/day-97-rvn.html": "1c1435ea13cdbbfc2e4582a7fb952eed99a870d3f82d8b57c48225c5900ddabb",
+
+    "/social-posts/en/day-98-rvn.html": "f2f2101f3ed564f1a7c31f14204eb7a7e8e88f3da133b64e616de761c10937d0",
+
+    "/social-posts/en/day-99-rvn.html": "d7c5a6f26a0a456f46dfcf0f528199efca204271a41a5dd96f618dbeff4932d0",
+
+    "/social-posts/en/living-manifesto.html": "",
+
+    "/social-posts/nl/day-01-rvn.html": "2159ea4d63dffdac72d40ca2e1851e0b8f68933659243199668398690a31eade",
+
+    "/social-posts/nl/day-01-teaser.html": "4f7fd9bacd39ea0de2146de6389412c8ddf350a391f2635729a66057ee87844f",
+
+    "/social-posts/nl/day-02-rvn.html": "",
+
+    "/social-posts/nl/day-02-teaser.html": "f90f83d952885bbcdf6d3b5f5c1335018e69c48764a8b8680efd49b68e9c7d66",
+
+    "/social-posts/nl/day-03-rvn.html": "9a97dbdcd30775a4b0349a6a1dbd18ebd2ca33be5f0d19ad2b22f98618ff7592",
+
+    "/social-posts/nl/day-03-teaser.html": "1bac51d0f18566c0342cf02549c27f8a4355e34993b1e643c38b5f18f937a99d",
+
+    "/social-posts/nl/day-04-rvn.html": "0bdf2ec50d09ed85d538cf61283dc14df6065d1e6185927db13abd51c8800790",
+
+    "/social-posts/nl/day-04-teaser.html": "31b347291c694d5b65c676eaf8544607beb596d5e5534d144d14d9a6ed990191",
+
+    "/social-posts/nl/day-05-rvn.html": "f278b04f93ebe8fe8b7ec980d383619e8957f73f4f0cfde79605c8a7ecfe5620",
+
+    "/social-posts/nl/day-05-teaser.html": "a7eb1b485092073080194dd98fe53dcff8902ca69ae92777a9d887f74c5562e4",
+
+    "/social-posts/nl/day-06-rvn.html": "741bcbb263316c57cc94a54a4bb0e0ee029d5aa67a21ee8a67f4b66175eebf22",
+
+    "/social-posts/nl/day-06-teaser.html": "3f4834ac8539e7242e105e70858fddf83fc458beb9268f94ed3b7eed5f2ee9a3",
+
+    "/social-posts/nl/day-07-rvn.html": "beb7769eff25b342e1b58c5a8601ca315c7a235ef88b416de46aabd1a4017c4a",
+
+    "/social-posts/nl/day-07-teaser.html": "74b087c295e92c41de72f932f6c40f8dff461457e7235a9968f72eb87cf7d342",
+
+    "/social-posts/nl/day-08-rvn.html": "7443454888e4570fbba746d8d258eabf7b6122f0001302298387d87716d679af",
+
+    "/social-posts/nl/day-08-teaser.html": "5eefc7774fdd1764347e679ac93a0d03d4cd4fbd6e951577bbcdf82aa2bbae40",
+
+    "/social-posts/nl/day-09-rvn.html": "80b6b567255da44b0fa730f8366557446f7bdd19f994ceb0d6627970089e58c8",
+
+    "/social-posts/nl/day-09-teaser.html": "6ed4795cde20e8b7a8a74a02e72182501756688f4d917d89090db9f98ed80986",
+
+    "/social-posts/nl/day-10-rvn.html": "94b7004a5f080fb3871d6da728574fed585d5bc676e585573ddc38fcc0535966",
+
+    "/social-posts/nl/day-10-teaser.html": "bc276af251fb8989bc3d3fd24d75587d2f344d49b97f188245f3a247907fb56a",
+
+    "/social-posts/nl/day-100-rvn.html": "d0aa03afe7ddb1a40f0d8c11f2a1666f5bd9d39a00d887f0348af3abd6caa962",
+
+    "/social-posts/nl/day-101-rvn.html": "cc8209f885e1ae01809cc12af5a30813f3b4ae1b254e862d1c3171d6a73b4679",
+
+    "/social-posts/nl/day-102-rvn.html": "fb0dab5f525ca157febd54e08912f8bba43b694367be0c351567afea49388212",
+
+    "/social-posts/nl/day-103-rvn.html": "ff335d3cf14a45b71aa00cd45c357f91d58f6ee9fdaf0d1e792126200876ce56",
+
+    "/social-posts/nl/day-104-rvn.html": "158a0e9ecba040ded8f93d72e4229e12d92d294c3e04f53d981bc9553c58e1ef",
+
+    "/social-posts/nl/day-105-rvn.html": "d8d799ed4896dfdff71370e31accbf0c9e3061bf914067c526faa780a63355eb",
+
+    "/social-posts/nl/day-106-rvn.html": "92d94c872ef733d9d04f1fb3d788dee565cbf205e887be366be684631d4b5c62",
+
+    "/social-posts/nl/day-107-rvn.html": "033f4b6812a2080056ac04d4c9402c745b5c73732bc361776b37fd804b87de53",
+
+    "/social-posts/nl/day-108-rvn.html": "87ea76aba74c178d1f818ebe73150f072715714c472e2090482ab4e170b48c61",
+
+    "/social-posts/nl/day-109-rvn.html": "14733cfb5c00909e7f247321be4c92c7008ad62128edceef239aab1a19b01903",
+
+    "/social-posts/nl/day-11-rvn.html": "9538297928211c8ebdc9e511a5b2f3ab5b098f23772c5ae967731447e1240111",
+
+    "/social-posts/nl/day-11-teaser.html": "a01473880c3f64764709735e3bfba5741382095d684f9fc892770501c363c849",
+
+    "/social-posts/nl/day-110-rvn.html": "bc42d9f3ca3b967e478b220aedbeb4b596f37b6d4bb6671ea7afe9bb4f1c8f2d",
+
+    "/social-posts/nl/day-111-rvn.html": "470f0cb6b1a46ef5c064856ce63ec2011119710150ce5c91637b5c8a9deecf51",
+
+    "/social-posts/nl/day-112-rvn.html": "122a8f44055d97e16d7e657cf3f14872c77f75b071d6c071ebccc28a8ba08de4",
+
+    "/social-posts/nl/day-113-rvn.html": "b841b5676fa05e1a32530af217903a5e336580b9bd946648d9fd98299bf66302",
+
+    "/social-posts/nl/day-114-rvn.html": "05ca872ab69a56434744a8093707271e055cd87835b5723faace6a8c8958eba5",
+
+    "/social-posts/nl/day-115-rvn.html": "e544363f83b8175c7f8ecc2b326d12ead09fac6b9496a9daa7cf7778e6c30c2e",
+
+    "/social-posts/nl/day-116-rvn.html": "a7184463607dc40845062e2ca1b689206c32fe55587bf20d92822046554046cc",
+
+    "/social-posts/nl/day-117-rvn.html": "3a8e349b4b421199988554d76d7d7f6eb9f7a9863658ec51111f306a5786d083",
+
+    "/social-posts/nl/day-118-rvn.html": "0f5521d364b33ca52fc9ed3dc0801921474a1586bb7944713d80bf95078a0e3d",
+
+    "/social-posts/nl/day-119-rvn.html": "70307b064d90d94c4f86a21e89e4d6136752b4a0abc836ed592f4d806ebf688c",
+
+    "/social-posts/nl/day-12-rvn.html": "0ad921664d3b876c49ad5bc1c2ba2f01d31fc907bc8aa3712dbff10f7ad65fc1",
+
+    "/social-posts/nl/day-12-teaser.html": "dcd44345ca56ca0fdde8665dc761775d469114333958d034147d3e89a3481104",
+
+    "/social-posts/nl/day-120-rvn.html": "9df5789a752a4aa7f85a98b5ae0acf1648db9e204e9517f7271bf951cf318f28",
+
+    "/social-posts/nl/day-121-rvn.html": "f3881ca0c46ec4e8e8ddd37cca9c9accda994769b99e4c341fdbf9ff3b062a71",
+
+    "/social-posts/nl/day-122-rvn.html": "9d2923a6733dd26be305d5ac10da1b28157a5a941a31f02eea31ba928b5c98d5",
+
+    "/social-posts/nl/day-123-rvn.html": "2271ec8662459e5b6d110899d7c42be5375bf58b18449e13bcb5f263e0a8a55f",
+
+    "/social-posts/nl/day-124-rvn.html": "d415ec624b2548f549c262233cb05b5d274dea8e5fcfcaee0a072b0f992150b7",
+
+    "/social-posts/nl/day-125-rvn.html": "13bf55764ee5c6ebd625be4e9c8fb412da0f0ea1c670bd8c0747e72dfdb04369",
+
+    "/social-posts/nl/day-126-rvn.html": "555226b19a9342d33d403c68a30a157fb12c9678b124f6cc3d0a8ca941ef05ac",
+
+    "/social-posts/nl/day-13-rvn.html": "745516018c1750b0122303d6f3c4448c02cd59533078440bcfae253eb92f1dc9",
+
+    "/social-posts/nl/day-13-teaser.html": "0822e0ea928a941c7377a53bc749ed7074d32a5fe16ed48c4d351a2187b437bb",
+
+    "/social-posts/nl/day-14-rvn.html": "bc0aa6d6c67422acfe68197de0b4f6079fee3c8e9678803c4b6524690425d9b9",
+
+    "/social-posts/nl/day-14-teaser.html": "c6227bfbe2db2cbf113824352737882ed2441f5d3a86362df0ce84e3f615f902",
+
+    "/social-posts/nl/day-15-rvn.html": "1c970c654aa3f5cc26361a770eb4df9980b6b670d7e1e14b4accd9626331791e",
+
+    "/social-posts/nl/day-15-teaser.html": "a805e3c59a2a68173438c93f44e63f4a4a48a5066ba89c6748a6b0367bb26209",
+
+    "/social-posts/nl/day-16-rvn.html": "9f398e4a5f89db798b718fe60b25d54dbc692752bff7cdef963a0a9c3d7fc44f",
+
+    "/social-posts/nl/day-16-teaser.html": "e6edd7f3580552e54048be9fe2475e1b4ed3ff527b5aa7bf22655262df80e2ee",
+
+    "/social-posts/nl/day-17-rvn.html": "620580cc536cfb7103fba91d3edfdb52d177f0f1a498af4cab8c9f42d314208e",
+
+    "/social-posts/nl/day-17-teaser.html": "6a8e310ad9fe9a434754a6546b853c248be9a55473152c13f712463466711434",
+
+    "/social-posts/nl/day-18-rvn.html": "a69e6e86730a01ed6d6202d3994d79cba3bf72afbd8ea52a146b02789477c7ce",
+
+    "/social-posts/nl/day-18-teaser.html": "cf8641d9773d4fef1ca0216945170ce9b86f21c397f9fa03a27d208c5a023ef1",
+
+    "/social-posts/nl/day-19-rvn.html": "ee1dbbbce086afc5f4c0d2334282d0881601c250f31d06f60bb57f6deada763a",
+
+    "/social-posts/nl/day-19-teaser.html": "30ec4fa2ae3482a5642632ae163eb53e412ca9b669472886e05509988eb93995",
+
+    "/social-posts/nl/day-20-rvn.html": "ce52e3c24ce95983db05274ab55d307564827b817e0fecadb383de89e33aeb38",
+
+    "/social-posts/nl/day-20-teaser.html": "d89eaefdb4c92568a311eb3245ab025e3420429f547360388faedd91906b04ae",
+
+    "/social-posts/nl/day-21-rvn.html": "8686126087146d806315dd1c14ee817398e5c30d4196e5df1a795e67abc222eb",
+
+    "/social-posts/nl/day-21-teaser.html": "9737e4fd42af3ba560a86191cb52e8dcc19ea39a43cc48b32c5d7a0eddf7b181",
+
+    "/social-posts/nl/day-22-rvn.html": "758f5ff17f302752eb2e9845353f1f614cef6e6840d5639b9c61871f5aa48bfc",
+
+    "/social-posts/nl/day-22-teaser.html": "f46dc891d795d6ded95474b4bbf625930d790b9438a26519c4542edc667a86a2",
+
+    "/social-posts/nl/day-23-rvn.html": "c04e84af6ea3bff815bf2ce07954c1174ed042b755b44950efd03781d5a276b9",
+
+    "/social-posts/nl/day-23-teaser.html": "0971377c717d0381641f07cd0992120fe1bd801d7fb6cf3a26551017b10d098a",
+
+    "/social-posts/nl/day-24-rvn.html": "757d5a3bf68db96d5c4e5d006408cb8a2a3c23c0fbc1ddafec30339015f48784",
+
+    "/social-posts/nl/day-24-teaser.html": "de1e56e31e7dfe74b926f63ccb655f3ed73ae72a7fa23ccd62ed46660756719b",
+
+    "/social-posts/nl/day-25-rvn.html": "e83fc5b003783665e4070b21c5dc184b8e258fe34ff6493577c34c30e58012b3",
+
+    "/social-posts/nl/day-25-teaser.html": "1cb54ff1a02e9b320fcffeab9112ca2cb245f815a4e78a5d27d48c84779950d8",
+
+    "/social-posts/nl/day-26-rvn.html": "56907947d6ff3840233cb35e4ad225071042c3b9811f18842673f6d9c4cc99b2",
+
+    "/social-posts/nl/day-26-teaser.html": "85d7bc1cfd55e8abc30f788451a5f92b63a6f744520250c938bbffa9dbdc8abe",
+
+    "/social-posts/nl/day-27-rvn.html": "2793054c151a77eccde61251f7da190126c5b79f035d3cb83626b2a6f31368bf",
+
+    "/social-posts/nl/day-27-teaser.html": "1e72ce47de1471a8248be4e82802ffa5dc14a16cfd316cd327bc58f1d9be02b0",
+
+    "/social-posts/nl/day-28-rvn.html": "fe172783517b634e838e4b71bf9517616a3ef30cbbd10cfc30646f20f972e669",
+
+    "/social-posts/nl/day-28-teaser.html": "70c730387414fa8c374bd62c89ced4b9431bdd7294bd358a9eb010548ad7f656",
+
+    "/social-posts/nl/day-29-rvn.html": "60a795bc057408c18f72e256028db44e2ebba2892f6720a25c052af8e1085293",
+
+    "/social-posts/nl/day-30-teaser.html": "0e3afdaba569c45a6ce4d40a46b78e675f3cf2859c85e679577c7a1274b03dff",
+
+    "/social-posts/nl/day-31-rvn.html": "06cfd8cd647ce458dff59058a00db6f7cf9291cb3e11bea0d8b04a537fcd175b",
+
+    "/social-posts/nl/day-31-teaser.html": "7f9ce8e928c89ccbe679f82d51318f2f1147b71382119575a3d561a9923556f2",
+
+    "/social-posts/nl/day-32-rvn.html": "6f96ca6a6b215636011715c2035db0c46b4f374a95bff67e48cec47e62b62325",
+
+    "/social-posts/nl/day-33-rvn.html": "b72dc7bcf1ae882e4bb74714739a2ed7ccd24bf3313ab7bc659c3934eee3a814",
+
+    "/social-posts/nl/day-34-rvn.html": "996d1908ce25b825b32d0b339ad8bd5bfe0d2dcb450c62d1a84bd3ddfcedaef9",
+
+    "/social-posts/nl/day-34-teaser.html": "1a906e74ef45c803e2048869b590151c8773d72b4ab6b1a99494b9bcd889054c",
+
+    "/social-posts/nl/day-35-rvn.html": "e0549d5a6bb4791d42d0ae94d1d3526cfa60dca02876381e5f7e9bf342752b83",
+
+    "/social-posts/nl/day-36-rvn.html": "10fc9e9159cb77921ee228a934d585f7d7a1ee532f0f99bfcd16c035c0d1b2d2",
+
+    "/social-posts/nl/day-38-rvn.html": "71d6281ba6f9895c2c50024387d51b56f361322062aa2bbb498a3494194a6367",
+
+    "/social-posts/nl/day-38-teaser.html": "3e64dad06e1c42a439a2c4db6eebbc82b231c59cb9e13a0bcce5c30549af9d8b",
+
+    "/social-posts/nl/day-39-rvn.html": "f22b04ce2079a24fe25eaeaa1693266e0726eeaedf7ec572f87163f23c608292",
+
+    "/social-posts/nl/day-40-rvn.html": "3c8a37bcf5fdb6130f473bbd0c23783de6007bffe1a9c48a5fc943e049e8a387",
+
+    "/social-posts/nl/day-41-rvn.html": "403f43f0e15afde48f2ac944ee79b43125123b988b126911020af7642cc929ad",
+
+    "/social-posts/nl/day-42-rvn.html": "6bf44deffe6e0feef93255a2cef413d5ebde52490cd960fe4e2d6baea4c1982d",
+
+    "/social-posts/nl/day-45-rvn.html": "2ef7165dece6a249d522eea30a58640326a5d1006365d60de311b7c4e3ad03aa",
+
+    "/social-posts/nl/day-46-rvn.html": "08ed3f38a0ac0ddc1a1ce1619ff01ab4867f9154ce041626cd9418d5cf5496a2",
+
+    "/social-posts/nl/day-47-rvn.html": "bf36e5659f8d84a15e1dabcd1a1587e46a771043e1eb93a15a6a84cde95182a7",
+
+    "/social-posts/nl/day-48-rvn.html": "39b7d197df21f354b8d2c8e40d7674f95b39b4115fc0890b2aefdb218bb9ffd1",
+
+    "/social-posts/nl/day-49-rvn.html": "2a24acd039fc72f3de1b621266ea5bc3d5ead4b6233c446bb9be092d1e6685c9",
+
+    "/social-posts/nl/day-50-rvn.html": "6b452b111243ff2762d5c711109115e3b64be52c4319d0cb9d8a5ad3d30313b3",
+
+    "/social-posts/nl/day-51-rvn.html": "f5f50f1d8bc39ec344a2e131c00202d478e7b971c130d8c7e42ad371e6f757be",
+
+    "/social-posts/nl/day-52-rvn.html": "42712f82810aab5dcc2b34a7aa34bfa574a9f44ea20ac7542b0edbebdfda568a",
+
+    "/social-posts/nl/day-53-rvn.html": "a5e504437d43c9c71328e95275f21a294908c58aff2b182af76440037f20de23",
+
+    "/social-posts/nl/day-54-rvn.html": "c645c39d9b74c5d7d98410d39f1dd11743a8b7c7dd92d03d72e43387c5a99a89",
+
+    "/social-posts/nl/day-55-rvn.html": "e968ef7094b8c01540b487c8aa8935d71dc40c48eb76180489725f2477375474",
+
+    "/social-posts/nl/day-56-rvn.html": "3af0b6aac55c47b6986416d80a1e5cc2c9d9b9b295fa029c9a6f4e111915ef65",
+
+    "/social-posts/nl/day-57-rvn.html": "6e9d8ffe819d385a6daffb5e1eefa794ce5ad1e3138e7f6d34e46b4e05023661",
+
+    "/social-posts/nl/day-58-rvn.html": "c81c75f2ee9c9d4607c6e03a39e819697a630830bf8457cfd6573f42873eadd6",
+
+    "/social-posts/nl/day-59-rvn.html": "7d864eef81d4e3073fa5a913c2c4c88c347e565e76faa1820b63076229f852d7",
+
+    "/social-posts/nl/day-60-rvn.html": "6c9267bc0d79cbb409308101fc00ae571fc63c21ee90ad4c56cffb0429445f8a",
+
+    "/social-posts/nl/day-61-rvn.html": "198a4e19ec81ba628ec03c59520e7dcc04ef3de0ad62d16448df695743804267",
+
+    "/social-posts/nl/day-62-rvn.html": "8192282a53e85e640221d29f959ffe814fa4e18ea06a6b25a93c8f06da9e4f5d",
+
+    "/social-posts/nl/day-63-rvn.html": "8e51ad64d540392993f62725347290079359c3aea5bca09e56bb360f09d9a440",
+
+    "/social-posts/nl/day-64-rvn.html": "078b8d0da9820a82d91da34db74ed371a15e72da2c8699d362a60743fb69e75e",
+
+    "/social-posts/nl/day-65-rvn.html": "11ab3a155efbabda6d595ae3d6642ce62cce14bcb19a23cc39fca2e9862c55e8",
+
+    "/social-posts/nl/day-66-rvn.html": "5e11077818be67df64a3bf765b458406b739090683b0536ea8a14df784fc432a",
+
+    "/social-posts/nl/day-67-rvn.html": "828086d828899bf516ee47d63ddb7d349bf74dd673da1c396959a40fb996a0bd",
+
+    "/social-posts/nl/day-68-rvn.html": "6cfe5023a37b8a6dc5f6c896f00f6c709708fa39b4308f7498fda99a79950826",
+
+    "/social-posts/nl/day-69-rvn.html": "16019616ab27741c9b66dec9be4d5aaeec30e12311aec5c387057d456dd27d65",
+
+    "/social-posts/nl/day-70-rvn.html": "8ed669f9f1d4caf60779c280ddeb957df6e1e3f9cc8e7d0e755b8aead2f12801",
+
+    "/social-posts/nl/day-71-rvn.html": "9a860ee4ef1c6c9aa309292a446c87ff08243284b0647c2cc9c08d43dcb895a0",
+
+    "/social-posts/nl/day-72-rvn.html": "5c6c117e63fbcb9fc65eac54bbb27a86b6ac70673d0ee0e4b42896db3fac1846",
+
+    "/social-posts/nl/day-73-rvn.html": "b5e0900adce6cbc6ce8dae62bc9f7d3960e3bb922021fe00cb359327e1b932bf",
+
+    "/social-posts/nl/day-74-rvn.html": "5bfb351e5e11c884eed74424210abdb70b4aaf9509fd1f65186d2dcef38785c7",
+
+    "/social-posts/nl/day-75-rvn.html": "b4ed7c2fb1105a9fe5c810290da0655c9c077f5fd1e33c51b20e1d0a0ca481da",
+
+    "/social-posts/nl/day-76-rvn.html": "44cd342ab2fad22d8ee6b81b3127710903fe550b626bd81bf940549ad91b4dbf",
+
+    "/social-posts/nl/day-77-rvn.html": "083da7dd6077c35f8c04c6765ee1b3831507dac6e2aced4d290ceccfcc947290",
+
+    "/social-posts/nl/day-78-rvn.html": "2d39071c7fd8260f84edcd5a0c816eb08d3b168978494535695bbb8513369af9",
+
+    "/social-posts/nl/day-79-rvn.html": "73681d714cfecc8783505950457e932039d000c77d760aeeea7ac9b6a0e9060d",
+
+    "/social-posts/nl/day-80-rvn.html": "39848385d276f58633bea7bd507062ce8db54a270557c651d9cd8d3ab60138f5",
+
+    "/social-posts/nl/day-81-rvn.html": "2db29fcae56bed335ce63a3fa512fba07aede3ea88b2fa082e259674224d5f5f",
+
+    "/social-posts/nl/day-82-rvn.html": "59e6e852d4d640fcc60305c3604cbbebaf13956fdff3b3e848558d6dc69458b5",
+
+    "/social-posts/nl/day-83-rvn.html": "eb406506877f72704f0ac10d3ded57aebf13a968704786130e912c6ce69e6e0a",
+
+    "/social-posts/nl/day-84-rvn.html": "042623c360343b19cba7ac8486070fea69cdd4a044167ddfed59cba3b69e0c66",
+
+    "/social-posts/nl/day-85-rvn.html": "436cd760950f50a786b8f6313f690fa5c7aa4952fbf6b373e669834cd6cc1275",
+
+    "/social-posts/nl/day-86-rvn.html": "dbab3a568a778f7cfa0a235c0777719db26c1b34a70066a6039efac22ea98f94",
+
+    "/social-posts/nl/day-87-rvn.html": "571fb7e01e381a8ce168d1d3ba7c2bb2e35e4cd36f8b9f0244d880a52ae44e18",
+
+    "/social-posts/nl/day-88-rvn.html": "959980a7a75c7226215e1d4e46468bab0a75006a3b21258f1343ad9f6b908ff0",
+
+    "/social-posts/nl/day-89-rvn.html": "8f890b1651f4fa2f805958f96cff7aee62ef58d6c3064063810cb85028c4e4ab",
+
+    "/social-posts/nl/day-90-rvn.html": "77fb109d36ad1ad4a2cb498998211c5b83b8dddf77c3d355dc84e110feb38ffa",
+
+    "/social-posts/nl/day-91-rvn.html": "a787575dd6de231f752459e0dd601aa5d6fffba5d996563cdf93c7677589d294",
+
+    "/social-posts/nl/day-92-rvn.html": "418edebb239fdbbbeb1062cb362b88d3b034798dc294c7fb5120a26ac564f20d",
+
+    "/social-posts/nl/day-93-rvn.html": "ade05b6e0a9ee4e1fe06690d8ad94594e72e6e09c6579bc0be4a3b91944e4885",
+
+    "/social-posts/nl/day-94-rvn.html": "0230a6b568d048f9771975affcedb4f355876268c7e590a7933a8b6a310f9ff5",
+
+    "/social-posts/nl/day-95-rvn.html": "cc0bafc055c5be3afcd0ba6d14dccdb3f8375bd2c09eb4d78bd8fde725666a69",
+
+    "/social-posts/nl/day-96-rvn.html": "1787c6dd97d25d515b953a61b60f4592593ddc4c2473d3d26a353fef702ae25f",
+
+    "/social-posts/nl/day-97-rvn.html": "8b6dff0684ba0c2dcb18736ebb782a1981abbad35a9de965a52a9084b03b04e7",
+
+    "/social-posts/nl/day-98-rvn.html": "8f5e61a12a73eb1848e68582e1fefbcc2538460c27b819be00e44b78a1872841",
+
+    "/social-posts/nl/day-99-rvn.html": "e0114957f3d7c27bf9b921f5f789ee5f1b97010d6cf6f3ed5b93175fdb69f5f5",
+
+    "/social-posts/nl/levend-manifest.html": "",
+
+    "/social-posts/nl/rvn-boeren-protesten.html": "",
+
+    "/social-posts/nl/rvn-immigratie-ice.html": "",
+
+    "/social-posts/nl/rvn-nicole-good.html": "",
+
+
+    "/theses/en/thesis-00.html": "",
+
+    "/theses/en/thesis-01.html": "",
+
+    "/theses/en/thesis-02.html": "",
+
+    "/theses/en/thesis-03.html": "",
+
+    "/theses/en/thesis-04.html": "",
+
+    "/theses/en/thesis-05.html": "",
+
+    "/theses/en/thesis-06.html": "",
+
+    "/theses/en/thesis-07.html": "",
+
+    "/theses/en/thesis-08.html": "",
+
+    "/theses/en/thesis-09.html": "",
+
+    "/theses/en/thesis-10.html": "",
+
+    "/theses/en/thesis-11.html": "",
+
+    "/theses/en/thesis-12.html": "",
+
+    "/theses/en/thesis-13.html": "",
+
+    "/theses/en/thesis-14.html": "",
+
+    "/theses/en/thesis-15.html": "",
+
+    "/theses/en/thesis-16.html": "",
+
+    "/theses/en/thesis-17.html": "",
+
+    "/theses/en/thesis-18.html": "",
+
+    "/theses/en/thesis-19.html": "",
+
+    "/theses/en/thesis-20.html": "",
+
+    "/theses/en/thesis-21.html": "",
+
+    "/theses/en/thesis-22.html": "",
+
+    "/theses/en/thesis-23.html": "",
+
+    "/theses/en/thesis-24.html": "",
+
+    "/theses/en/thesis-25.html": "",
+
+    "/theses/en/thesis-26.html": "",
+
+    "/theses/en/thesis-27.html": "",
+
+    "/theses/en/thesis-28.html": "",
+
+    "/theses/en/thesis-29.html": "",
+
+    "/theses/en/thesis-30.html": "",
+
+    "/theses/nl/levend-manifest.html": "",
+
+    "/theses/nl/thesis-00.html": "",
+
+    "/theses/nl/thesis-01.html": "",
+
+    "/theses/nl/thesis-02.html": "",
+
+    "/theses/nl/thesis-03.html": "",
+
+    "/theses/nl/thesis-04.html": "",
+
+    "/theses/nl/thesis-05.html": "",
+
+    "/theses/nl/thesis-06.html": "",
+
+    "/theses/nl/thesis-07.html": "",
+
+    "/theses/nl/thesis-08.html": "",
+
+    "/theses/nl/thesis-09.html": "",
+
+    "/theses/nl/thesis-10.html": "",
+
+    "/theses/nl/thesis-11.html": "",
+
+    "/theses/nl/thesis-12.html": "",
+
+    "/theses/nl/thesis-13.html": "",
+
+    "/theses/nl/thesis-14.html": "",
+
+    "/theses/nl/thesis-15.html": "",
+
+    "/theses/nl/thesis-16.html": "",
+
+    "/theses/nl/thesis-17.html": "",
+
+    "/theses/nl/thesis-18.html": "",
+
+    "/theses/nl/thesis-19.html": "",
+
+    "/theses/nl/thesis-20.html": "",
+
+    "/theses/nl/thesis-21.html": "",
+
+    "/theses/nl/thesis-22.html": "",
+
+    "/theses/nl/thesis-23.html": "",
+
+    "/theses/nl/thesis-24.html": "",
+
+    "/theses/nl/thesis-25.html": "",
+
+    "/theses/nl/thesis-26.html": "",
+
+    "/theses/nl/thesis-27.html": "",
+
+    "/theses/nl/thesis-28.html": "",
+
+    "/theses/nl/thesis-29.html": "",
+
+    "/theses/nl/thesis-30.html": "",
+
+
+    "/guides/en/chaos-account-making.html": "",
+
+    "/guides/en/coming-soon.html": "",
+
+    "/guides/en/create-nostr-account.html": "",
+
+    "/guides/en/element-migration-coming-soon.html": "",
+
+    "/guides/en/fosstodon-account-making.html": "",
+
+    "/guides/en/friendica-account-making.html": "",
+
+    "/guides/en/hubzilla-account-making.html": "",
+
+    "/guides/en/install-nextcloud.html": "",
+
+    "/guides/en/lemmy-account-making.html": "",
+
+    "/guides/en/living-guides.html": "",
+
+    "/guides/en/mastodon-account-making.html": "",
+
+    "/guides/en/messaging-apps-without-big-tech.html": "",
+
+    "/guides/en/node-externally-accessible.html": "",
+
+    "/guides/en/peer-to-peer-payments-coming-soon.html": "",
+
+    "/guides/en/pixelfed-account-making.html": "",
+
+    "/guides/en/raspberry-pi-node.html": "",
+
+    "/guides/en/searching-without-google-coming-soon.html": "",
+
+    "/guides/en/video-without-youtube-coming-soon.html": "",
+
+    "/guides/nl/berichten-apps-zonder-big-tech.html": "",
+
+    "/guides/nl/chaos-account-maken.html": "",
+
+    "/guides/nl/coming-soon.html": "",
+
+    "/guides/nl/element-migratie.html": "",
+
+    "/guides/nl/fosstodon-account-maken.html": "",
+
+    "/guides/nl/friendica-account-maken.html": "",
+
+    "/guides/nl/hubzilla-account-maken.html": "",
+
+    "/guides/nl/lemmy-account-maken.html": "",
+
+    "/guides/nl/levende-guides.html": "",
+
+    "/guides/nl/mastodon-account-maken.html": "",
+
+    "/guides/nl/nextcloud-installeren.html": "",
+
+    "/guides/nl/node-bereikbaar-maken.html": "",
+
+    "/guides/nl/nostr-account-maken.html": "",
+
+    "/guides/nl/peer-to-peer-betalingen-zonder-big-tech.html": "",
+
+    "/guides/nl/pixelfed-account-maken.html": "",
+
+    "/guides/nl/raspberry-pi-node.html": "",
+
+    "/guides/nl/zoeken-zonder-google.html": "",
+
+  };
+
+  window.officialGitInfo = {
+
+    "/social-posts/en/day-01-rvn.html": {
+      "title": "The Fixed Pattern in Major Incidents",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-01-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-02-rvn.html": {
+      "title": "Iran",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-02-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-03-rvn.html": {
+      "title": "Dutch Travel Maniac banned",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-03-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-04-rvn.html": {
+      "title": "A technician in Amsterdam",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-04-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-05-rvn.html": {
+      "title": "Starlink Free for Iran",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-05-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-06-rvn.html": {
+      "title": "Polarization as a weapon",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-06-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-07-rvn.html": {
+      "title": "Week Recap &amp; The Promise of Freedom",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-07-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-08-rvn.html": {
+      "title": "Greenland Escalation; Tariffs Edition",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-08-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-09-rvn.html": {
+      "title": "Daycare fraud",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-09-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-10-rvn.html": {
+      "title": "EU blocking Odysee",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-10-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-100-rvn.html": {
+      "title": "Proud to be Dutch? That’s dangerous and small-minded",
+      "commit_hash": "6da1604994a7ff23b5389c9019d3b84f378e360f",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6da1604994a7ff23b5389c9019d3b84f378e360f",
+      "commit_date": "2026-06-01T19:33:21.939284"
+    },
+
+    "/social-posts/en/day-101-rvn.html": {
+      "title": "Part 2 – Replace Google Search (and stop handing over your life)",
+      "commit_hash": "8d4299e273b39602bcb26410a95631075cb1934b",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8d4299e273b39602bcb26410a95631075cb1934b",
+      "commit_date": "2026-06-02T04:43:40.776390"
+    },
+
+    "/social-posts/en/day-102-rvn.html": {
+      "title": "Part 3 – Replace Gmail (your email is not private)",
+      "commit_hash": "992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a",
+      "commit_date": "2026-06-03T06:49:15.128085"
+    },
+
+    "/social-posts/en/day-103-rvn.html": {
+      "title": "Part 4 – Replace Windows (your computer is not yours)",
+      "commit_hash": "af359e93ca94b57659f8249f194cc8b177946f3e",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af359e93ca94b57659f8249f194cc8b177946f3e",
+      "commit_date": "2026-06-04T04:43:35.283872"
+    },
+
+    "/social-posts/en/day-104-rvn.html": {
+      "title": "“We Have No Problem With It” – The Brutal Knife Attack in Belfast and the Silence",
+      "commit_hash": "9d22f55aae183ec443a5567341538b59f4430403",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9d22f55aae183ec443a5567341538b59f4430403",
+      "commit_date": "2026-06-09T16:47:32.822210"
+    },
+
+    "/social-posts/en/day-105-rvn.html": {
+      "title": "We Have No Problem With It – The Flame in Belfast and the Irish Soul",
+      "commit_hash": "511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9",
+      "commit_date": "2026-06-10T04:43:09.120381"
+    },
+
+    "/social-posts/en/day-106-rvn.html": {
+      "title": "Who Actually Abolished Slavery First?",
+      "commit_hash": "43755c9b02847cf6913ad11854c5bd26a3f611ab",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/43755c9b02847cf6913ad11854c5bd26a3f611ab",
+      "commit_date": "2026-06-12T06:35:56.905518"
+    },
+
+    "/social-posts/en/day-107-rvn.html": {
+      "title": "€6.8 billion in road tax… and no money for roads?",
+      "commit_hash": "c77128df8aeede3f01edc6819bd3a863387638b7",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/c77128df8aeede3f01edc6819bd3a863387638b7",
+      "commit_date": "2026-06-12T06:41:15.697891"
+    },
+
+    "/social-posts/en/day-108-rvn.html": {
+      "title": "Facts are not racist",
+      "commit_hash": "96e2195fb3ee3b06ed57a449e8e06aa265926046",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/96e2195fb3ee3b06ed57a449e8e06aa265926046",
+      "commit_date": "2026-06-13T06:02:54.701938"
+    },
+
+    "/social-posts/en/day-109-rvn.html": {
+      "title": "The word &#39;omvolking&#39; is no longer allowed",
+      "commit_hash": "76094aa155677799fd12286a943a5056d50a773b",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/76094aa155677799fd12286a943a5056d50a773b",
+      "commit_date": "2026-06-14T05:20:38.943904"
+    },
+
+    "/social-posts/en/day-11-rvn.html": {
+      "title": "WEF; World Economic Forum",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-11-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-110-rvn.html": {
+      "title": " In the UFC only facts count – why is the West destroying itself?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-111-rvn.html": {
+      "title": "Trump forces Iran deal – the Uranium One connection returns?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-112-rvn.html": {
+      "title": "Michelle Obama is a man – and the left explodes",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-113-rvn.html": {
+      "title": "My Body My Choice… but only when it suits them",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-114-rvn.html": {
+      "title": "Cancel Culture &amp; Deplatforming – the new book burning",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-115-rvn.html": {
+      "title": "Institutional Power – Government, Media, Universities &amp; Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-116-rvn.html": {
+      "title": "The new fascism calls itself anti-fascism",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-117-rvn.html": {
+      "title": " Lawyer wants complaints against Morocco = mocro mafia",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-118-rvn.html": {
+      "title": "All white men to the back",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-119-rvn.html": {
+      "title": "250,000 British girls raped… and almost no one is talking about it",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-12-rvn.html": {
+      "title": "Benefits Scandal",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-12-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-120-rvn.html": {
+      "title": "White House post in Q-format – the signal is clear",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-121-rvn.html": {
+      "title": "European visitors discover America… and are shocked",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-122-rvn.html": {
+      "title": "Americans amazed by the Dutch Oranje Legion – Links, Rechts!",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-123-rvn.html": {
+      "title": "Western supporters together – the Oranje Legion and the Americans",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-124-rvn.html": {
+      "title": "John Bolton pleads guilty – why so quiet?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-125-rvn.html": {
+      "title": "Shooting in Stade – 6 dead and sudden silence",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-126-rvn.html": {
+      "title": "Fauci under fire – and suddenly it&#39;s quiet",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-13-rvn.html": {
+      "title": "Fluoride; the narrative finally cracking",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-13-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-14-rvn.html": {
+      "title": "Selective outrage on demand",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-14-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-15-rvn.html": {
+      "title": "Minneapolis mall &amp; the ICE hypocrisy",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-15-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-16-rvn.html": {
+      "title": "Mostly peaceful pattern &amp; the hypocrisy",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-16-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-17-rvn.html": {
+      "title": "Predicted – Walz&#39; Smoke Screens Now Reality",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-17-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-18-rvn.html": {
+      "title": "Holocaust Remembrance Day 2026",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-18-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-19-rvn.html": {
+      "title": "DigiD in American hands",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-19-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-20-rvn.html": {
+      "title": "Utrecht Bollendak",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-20-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-21-rvn.html": {
+      "title": "Israel-Palestine &amp; Iran",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-21-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-22-rvn.html": {
+      "title": "Warp Speed; Trump&#39;s forced vaccine push",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-22-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-23-rvn.html": {
+      "title": "1913; the year the buttons were pushed",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-23-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-24-rvn.html": {
+      "title": "Templars, Moloch and the real winners of history",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-24-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-25-rvn.html": {
+      "title": "Obama, Iran cash and",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-25-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-26-rvn.html": {
+      "title": "The layer above the Rockefellers",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-26-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-27-rvn.html": {
+      "title": "Politics – from ‘affairs of the citizen’ to theater",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-27-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-28-rvn.html": {
+      "title": "The three invisible layers",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-28-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-29-rvn.html": {
+      "title": "The circle closes",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-30-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-31-rvn.html": {
+      "title": "Words don’t count for what they literally say",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-31-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-32-rvn.html": {
+      "title": "Sun Tzu completed",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-32-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-33-rvn.html": {
+      "title": "Week synthesis; why division is the real power",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-34-rvn.html": {
+      "title": "The new look",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-34-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-35-rvn.html": {
+      "title": "Epstein&#39;s blackmail machine",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-36-rvn.html": {
+      "title": "Epstein → Demmink → Baybaşin",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-38-rvn.html": {
+      "title": "Temporary alliesthe pattern that always returns",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-38-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-39-rvn.html": {
+      "title": "The first stall",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-40-rvn.html": {
+      "title": "Sun Tzu Completed?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-41-rvn.html": {
+      "title": "Euro95 suddenly drops - Last week still record highs",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-42-rvn.html": {
+      "title": "Words no longer weigh by what they say",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-43-rvn.html": {
+      "title": "Marktplaats (Ebay) Deal Gone Wrong",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-44-rvn.html": {
+      "title": "Dit is een test",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-45-rvn.html": {
+      "title": "1 april – Nieuwjaarsdag in het oude 13-maanden stelsel",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-46-rvn.html": {
+      "title": "Why is a Jewish Jesus the reason to be Christian?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:09.280127"
+    },
+
+    "/social-posts/en/day-47-rvn.html": {
+      "title": "“In violation of the rules” – When tolerance becomes censorship",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/en/day-48-rvn.html": {
+      "title": "We’re Back – The Manipulation of Reality",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:09.440869"
+    },
+
+    "/social-posts/en/day-49-rvn.html": {
+      "title": "The Scar That Wasn’t There – How Perception Creates Discrimination",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:09.597657"
+    },
+
+    "/social-posts/en/day-50-rvn.html": {
+      "title": "The Shock of Authority – How Ordinary People Do Extreme Things",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:09.753802"
+    },
+
+    "/social-posts/en/day-51-rvn.html": {
+      "title": "The Prison Inside Ourselves – Stanford Prison Experiment",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:09.909647"
+    },
+
+    "/social-posts/en/day-52-rvn.html": {
+      "title": "The Pressure of the Group – Why We Stop Trusting Our Own Eyes",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:10.068234"
+    },
+
+    "/social-posts/en/day-53-rvn.html": {
+      "title": "Observation Creates Reality – Hawthorne Effect &amp; Double Slit Experiment",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:10.225141"
+    },
+
+    "/social-posts/en/day-54-rvn.html": {
+      "title": "Us vs Them in One Week – Robbers Cave Experiment",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:10.384742"
+    },
+
+    "/social-posts/en/day-55-rvn.html": {
+      "title": "Nobody Helps – The Bystander Effect",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:10.543887"
+    },
+
+    "/social-posts/en/day-56-rvn.html": {
+      "title": "The Illusion of Consensus – False Consensus Effect",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:10.702793"
+    },
+
+    "/social-posts/en/day-57-rvn.html": {
+      "title": "The Good Samaritan Who Was in a Hurry",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:10.861262"
+    },
+
+    "/social-posts/en/day-58-rvn.html": {
+      "title": "Unconscious Bias – Implicit Association Test (IAT)",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.017959"
+    },
+
+    "/social-posts/en/day-59-rvn.html": {
+      "title": " Small Step, Big Surrender – Foot-in-the-Door &amp; Door-in-the-Face",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.174613"
+    },
+
+    "/social-posts/en/day-60-rvn.html": {
+      "title": "Hostage Falls in Love with Captor – Stockholm Syndrome",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.331319"
+    },
+
+    "/social-posts/en/day-61-rvn.html": {
+      "title": "The Manipulation of Reality – Wrap-up of the 13-part series",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.489716"
+    },
+
+    "/social-posts/en/day-62-rvn.html": {
+      "title": "Assassination Attempt on President Trump – When Hatred and Hypocrisy Take Over Reality",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.655139"
+    },
+
+    "/social-posts/en/day-63-rvn.html": {
+      "title": "How OIM Was Born – From Theses to a Living, Verifiable Manifesto",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.812626"
+    },
+
+    "/social-posts/en/day-64-rvn.html": {
+      "title": "The Graduated Animal Farm – How We Are Led from Pen to Pen",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:11.968668"
+    },
+
+    "/social-posts/en/day-65-rvn.html": {
+      "title": "Oil Prices and the Asymmetric Game – Who Really Profits?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:12.124046"
+    },
+
+    "/social-posts/en/day-66-rvn.html": {
+      "title": "Abiotic Oil – Is Oil Truly a Finite Fossil Fuel or a Regenerating Mineral?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:12.280195"
+    },
+
+    "/social-posts/en/day-67-rvn.html": {
+      "title": "“This was all staged for…” – The Trap of THE Truth",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:12.435243"
+    },
+
+    "/social-posts/en/day-68-rvn.html": {
+      "title": "Nothing ever happens” – The Controlled Information War",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:12.590242"
+    },
+
+    "/social-posts/en/day-69-rvn.html": {
+      "title": "Why a Hash is More Important Than You Think",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:12.759201"
+    },
+
+    "/social-posts/en/day-70-rvn.html": {
+      "title": "Illusory Progress 2.0 – What is it really?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:12.925557"
+    },
+
+    "/social-posts/en/day-71-rvn.html": {
+      "title": " Illusory Progress #2: Leasing = Freedom?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:13.084466"
+    },
+
+    "/social-posts/en/day-72-rvn.html": {
+      "title": "Illusory Progress #3: The Heat Pump as Green Salvation?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:13.242109"
+    },
+
+    "/social-posts/en/day-73-rvn.html": {
+      "title": "Illusory Progress #4: The Electric Car as the Future?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:13.406796"
+    },
+
+    "/social-posts/en/day-74-rvn.html": {
+      "title": " Why we pause the series: The fire at the Almere datacenter",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:13.565340"
+    },
+
+    "/social-posts/en/day-75-rvn.html": {
+      "title": " Illusory Progress #5: The 15-Minute City as the Ideal Place to Live?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:13.722734"
+    },
+
+    "/social-posts/en/day-76-rvn.html": {
+      "title": "Illusory Progress #6: Everything as a Subscription",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:13.880476"
+    },
+
+    "/social-posts/en/day-77-rvn.html": {
+      "title": "Illusory Progress #7: The Cashless Society",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.036593"
+    },
+
+    "/social-posts/en/day-78-rvn.html": {
+      "title": "Illusory Progress #8: Feminism as Liberation?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.195698"
+    },
+
+    "/social-posts/en/day-79-rvn.html": {
+      "title": "Illusory Progress #10: Youth Care as Salvation?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.353515"
+    },
+
+    "/social-posts/en/day-80-rvn.html": {
+      "title": "Illusory Progress #11: The Nitrogen Crisis and the Farmer as Scapegoat",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.510536"
+    },
+
+    "/social-posts/en/day-81-rvn.html": {
+      "title": "Illusory Progress: The Grand Summary",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.667523"
+    },
+
+    "/social-posts/en/day-82-rvn.html": {
+      "title": "I hear and I forget. I see and I remember. I do and I understand",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.828537"
+    },
+
+    "/social-posts/en/day-83-rvn.html": {
+      "title": "We Have No Problem With It",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:14.985508"
+    },
+
+    "/social-posts/en/day-84-rvn.html": {
+      "title": "The Expats Are Good for the City",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:15.143015"
+    },
+
+    "/social-posts/en/day-85-rvn.html": {
+      "title": "The Dutchman Does Not Exist",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:15.299939"
+    },
+
+    "/social-posts/en/day-86-rvn.html": {
+      "title": "Russia Is Behind the Anti-AZC Demonstrations",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:15.457866"
+    },
+
+    "/social-posts/en/day-87-rvn.html": {
+      "title": "January 6 was an armed insurrection",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:15.615066"
+    },
+
+    "/social-posts/en/day-88-rvn.html": {
+      "title": "The Romeos and Other Provocateurs",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:15.771609"
+    },
+
+    "/social-posts/en/day-89-rvn.html": {
+      "title": "Why Does It Always Hit Only One Side?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:15.930172"
+    },
+
+    "/social-posts/en/day-90-rvn.html": {
+      "title": "27 Crew Members Arrested on Disney Ships for Child Pornography",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:16.087541"
+    },
+
+    "/social-posts/en/day-91-rvn.html": {
+      "title": "Palestine 3000 years of history vs Israel 60 years of lies",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:16.245918"
+    },
+
+    "/social-posts/en/day-92-rvn.html": {
+      "title": "Pentecost – The Fulfillment of the Jewish Promise",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:16.411384"
+    },
+
+    "/social-posts/en/day-93-rvn.html": {
+      "title": "Pentecost – The Spirit That Breaks Boundaries",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:16.571969"
+    },
+
+    "/social-posts/en/day-94-rvn.html": {
+      "title": "What is Q actually?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:16.729906"
+    },
+
+    "/social-posts/en/day-95-rvn.html": {
+      "title": "The Core Messages of Q",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:16.885941"
+    },
+
+    "/social-posts/en/day-96-rvn.html": {
+      "title": "Trump Forces Iran into a Deal – The Uranium One Connection",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:17.047545"
+    },
+
+    "/social-posts/en/day-97-rvn.html": {
+      "title": "The Information War surrounding Q and QAnon",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:17.204303"
+    },
+
+    "/social-posts/en/day-98-rvn.html": {
+      "title": "The Greater Meaning of Q",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:17.361295"
+    },
+
+    "/social-posts/en/day-99-rvn.html": {
+      "title": "Why you should ditch Chrome (and switch to Brave today)",
+      "commit_hash": "152dd1d9cafd2fb8f457aac0977039be755c373f",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/152dd1d9cafd2fb8f457aac0977039be755c373f",
+      "commit_date": "2026-06-01T04:43:26.679256"
+    },
+
+    "/social-posts/en/living-manifesto.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-01-rvn.html": {
+      "title": "Het vaste patroon bij grote incidenten",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-01-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-02-rvn.html": {
+      "title": "Iran",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-02-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-03-rvn.html": {
+      "title": "Verbanning Dutch Travel Maniac",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-03-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-04-rvn.html": {
+      "title": "Een monteur in Amsterdam",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-04-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-05-rvn.html": {
+      "title": "Starlink gratis voor Iran&quot;",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-05-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-06-rvn.html": {
+      "title": "Nederland verdedigt Groenland",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-06-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-07-rvn.html": {
+      "title": "Polarisatie als wapen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-07-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-08-rvn.html": {
+      "title": "Verifieerbaarheid",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-08-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-09-rvn.html": {
+      "title": "Daycare-fraudervn_teaser; &#39;ICE en Tim Walz&#39;",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-09-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-10-rvn.html": {
+      "title": "EU-blokkade van Odysee",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-10-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-100-rvn.html": {
+      "title": "Trots op Nederland? Dat is gevaarlijk en kleinburgerlijk",
+      "commit_hash": "6da1604994a7ff23b5389c9019d3b84f378e360f",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/6da1604994a7ff23b5389c9019d3b84f378e360f",
+      "commit_date": "2026-06-01T19:33:22.099240"
+    },
+
+    "/social-posts/nl/day-101-rvn.html": {
+      "title": " Deel 2 – Vervang Google Search (en stop met jezelf uitleveren)",
+      "commit_hash": "8d4299e273b39602bcb26410a95631075cb1934b",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/8d4299e273b39602bcb26410a95631075cb1934b",
+      "commit_date": "2026-06-02T04:43:40.939472"
+    },
+
+    "/social-posts/nl/day-102-rvn.html": {
+      "title": "Deel 3 – Vervang Gmail (je mail is niet privé)",
+      "commit_hash": "992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/992850dd6e1b17adcc10a6cd02a0c8e538fb5d7a",
+      "commit_date": "2026-06-03T06:49:15.257274"
+    },
+
+    "/social-posts/nl/day-103-rvn.html": {
+      "title": "Deel 4 – Vervang Windows (je computer is niet van jou)",
+      "commit_hash": "af359e93ca94b57659f8249f194cc8b177946f3e",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/af359e93ca94b57659f8249f194cc8b177946f3e",
+      "commit_date": "2026-06-04T04:43:35.460156"
+    },
+
+    "/social-posts/nl/day-104-rvn.html": {
+      "title": " “We hebben er geen last van” – De brute mesaanval in Belfast en de stilte",
+      "commit_hash": "9d22f55aae183ec443a5567341538b59f4430403",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/9d22f55aae183ec443a5567341538b59f4430403",
+      "commit_date": "2026-06-09T16:47:32.985163"
+    },
+
+    "/social-posts/nl/day-105-rvn.html": {
+      "title": "We hebben er geen last van – De vlam in Belfast en de Ierse ziel",
+      "commit_hash": "511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/511f2fe62ecfae97d3e15f2dd24881fbe9aa39e9",
+      "commit_date": "2026-06-10T04:43:09.279580"
+    },
+
+    "/social-posts/nl/day-106-rvn.html": {
+      "title": "Wie schafte slavernij eigenlijk als eerste formeel af?",
+      "commit_hash": "384d8680443219d41c1f7920fb917eb1e5dac78c",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/384d8680443219d41c1f7920fb917eb1e5dac78c",
+      "commit_date": "2026-06-11T03:14:04.896912"
+    },
+
+    "/social-posts/nl/day-107-rvn.html": {
+      "title": "6,8 miljard wegenbelasting… en geen geld voor wegen?",
+      "commit_hash": "7a2097f18b1aa13d5d35097fa6f69542f4b0b175",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/7a2097f18b1aa13d5d35097fa6f69542f4b0b175",
+      "commit_date": "2026-06-12T06:34:34.231118"
+    },
+
+    "/social-posts/nl/day-108-rvn.html": {
+      "title": "Feiten zijn niet racistisch",
+      "commit_hash": "96e2195fb3ee3b06ed57a449e8e06aa265926046",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/96e2195fb3ee3b06ed57a449e8e06aa265926046",
+      "commit_date": "2026-06-13T06:02:54.865692"
+    },
+
+    "/social-posts/nl/day-109-rvn.html": {
+      "title": "Het woord &#39;omvolking&#39; mag niet meer",
+      "commit_hash": "76094aa155677799fd12286a943a5056d50a773b",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/76094aa155677799fd12286a943a5056d50a773b",
+      "commit_date": "2026-06-14T05:20:39.105333"
+    },
+
+    "/social-posts/nl/day-11-rvn.html": {
+      "title": "Van praatgroepje in heel Europa",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-11-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-110-rvn.html": {
+      "title": "In de UFC tellen alleen feiten – waarom maakt het Westen zichzelf kapot?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-111-rvn.html": {
+      "title": "Trump dwingt Iran-deal af – de Uranium One-connectie keert terug?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-112-rvn.html": {
+      "title": "Michelle Obama is een man – en links ontploft",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-113-rvn.html": {
+      "title": "My Body My Choice… maar alleen als het uitkomt",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-114-rvn.html": {
+      "title": "Cancel-cultuur &amp; deplatforming – de nieuwe boekverbranding",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-115-rvn.html": {
+      "title": "Institutionele macht – overheid, media, universiteiten &amp; Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-116-rvn.html": {
+      "title": "Het nieuwe fascisme noemt zich anti-fascisme",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-117-rvn.html": {
+      "title": " Strafrechtadvocaat wil aangifte tegen Marokko = mocro maffia",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-118-rvn.html": {
+      "title": "Alle witte mannen achterin de zaal",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-119-rvn.html": {
+      "title": "250.000 Britse meisjes verkracht… en bijna niemand praat erover",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-12-rvn.html": {
+      "title": "Toeslagenaffaire",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-12-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-120-rvn.html": {
+      "title": "White House post in Q-format – het signaal is duidelijk",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-121-rvn.html": {
+      "title": "Europese bezoekers ontdekken Amerika… en schrikken zich rot",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-122-rvn.html": {
+      "title": "Amerikanen verbaasd over het Oranje legioen – Links, Rechts!",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-123-rvn.html": {
+      "title": "Westerse supporters samen – het Oranje legioen en de Amerikanen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-124-rvn.html": {
+      "title": "John Bolton pleit schuldig – waarom zo stil?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-125-rvn.html": {
+      "title": "Schietpartij in Stade – 6 doden en plotselinge stilte",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-126-rvn.html": {
+      "title": "Fauci onder vuur – en ineens is het muisstil",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-13-rvn.html": {
+      "title": "Fluoride",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-13-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-14-rvn.html": {
+      "title": "DHS-bill",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-14-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-15-rvn.html": {
+      "title": "Minneapolis mall",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-15-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-16-rvn.html": {
+      "title": "Het &#39;mostly peaceful&#39; patroon",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-16-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-17-rvn.html": {
+      "title": "Walz&#39; Rookgordijnen Nu Realiteit",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-17-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-18-rvn.html": {
+      "title": "Holocaustherdenking 2026",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-18-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-19-rvn.html": {
+      "title": "DigiD in Amerikaanse handen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-19-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-20-rvn.html": {
+      "title": "Utrecht Bollendak: viraal filmpje",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-20-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-21-rvn.html": {
+      "title": "Israël-Palestina &amp; Iran",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-21-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-22-rvn.html": {
+      "title": "Warp Speed: Trump&#39;s gedwongen vaccin-push",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-22-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-23-rvn.html": {
+      "title": "1913",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-23-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-24-rvn.html": {
+      "title": "Templars, Moloch",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-24-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-25-rvn.html": {
+      "title": "Obama, Iran-cash",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-25-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-26-rvn.html": {
+      "title": "De laag boven de Rockefellers",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-26-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-27-rvn.html": {
+      "title": "Politiek - Politika",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-27-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-28-rvn.html": {
+      "title": "De drie onzichtbare lagen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-28-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-29-rvn.html": {
+      "title": "De cirkel sluit zich",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-30-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-31-rvn.html": {
+      "title": "Woorden wegen niet meer op wat ze zeggen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-31-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-32-rvn.html": {
+      "title": "Sun Tzu voltooid",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-33-rvn.html": {
+      "title": "Waarom verdeeldheid de echte macht is",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-34-rvn.html": {
+      "title": "De nieuwe look",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-34-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-35-rvn.html": {
+      "title": "Epstein&#39;s blackmail-machine",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-36-rvn.html": {
+      "title": "Epstein → Demmink → Baybaşin",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-38-rvn.html": {
+      "title": "Tijdelijke bondgenoten",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-38-teaser.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-39-rvn.html": {
+      "title": "De eerste stal",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-40-rvn.html": {
+      "title": "Sun Tzu voltooid?",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-41-rvn.html": {
+      "title": "Euro95 daalt ineens - Vorige week nog recordhoogtes",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-42-rvn.html": {
+      "title": "Woorden wegen niet meer op wat ze zeggen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-45-rvn.html": {
+      "title": "1 april – Nieuwjaarsdag in het oude 13-maanden stelsel",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/day-46-rvn.html": {
+      "title": "Why is a Jewish Jesus the reason to be Christian?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:33.899948"
+    },
+
+    "/social-posts/nl/day-47-rvn.html": {
+      "title": "In strijd met de regels",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:34.057367"
+    },
+
+    "/social-posts/nl/day-48-rvn.html": {
+      "title": "We zijn terug – De Manipulatie van Realiteit",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:34.215705"
+    },
+
+    "/social-posts/nl/day-49-rvn.html": {
+      "title": "Het litteken dat er niet was – Hoe perceptie discriminatie creëert",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:34.375116"
+    },
+
+    "/social-posts/nl/day-50-rvn.html": {
+      "title": "De shock van autoriteit – Hoe gewone mensen extreme dingen doen",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:34.531530"
+    },
+
+    "/social-posts/nl/day-51-rvn.html": {
+      "title": "De gevangenis in onszelf – Stanford Prison Experiment",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:34.689364"
+    },
+
+    "/social-posts/nl/day-52-rvn.html": {
+      "title": "De druk van de groep – Waarom we onze eigen ogen niet meer vertrouwen",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:34.846599"
+    },
+
+    "/social-posts/nl/day-53-rvn.html": {
+      "title": "Observatie creëert realiteit – Hawthorne en het Double Slit Experiment",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.001790"
+    },
+
+    "/social-posts/nl/day-54-rvn.html": {
+      "title": "Wij vs Zij in één week – Robbers Cave Experiment",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.159300"
+    },
+
+    "/social-posts/nl/day-55-rvn.html": {
+      "title": "Niemand helpt – Het Bystander Effect",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.318476"
+    },
+
+    "/social-posts/nl/day-56-rvn.html": {
+      "title": "De illusie van consensus – False Consensus Effect",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.475072"
+    },
+
+    "/social-posts/nl/day-57-rvn.html": {
+      "title": "De goede Samaritaan die haast had",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.633334"
+    },
+
+    "/social-posts/nl/day-58-rvn.html": {
+      "title": "Onbewuste vooroordelen – Implicit Association Test (IAT)",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.791896"
+    },
+
+    "/social-posts/nl/day-59-rvn.html": {
+      "title": "Kleine stap, grote overgave – Foot-in-the-Door &amp; Door-in-the-Face",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:35.949789"
+    },
+
+    "/social-posts/nl/day-60-rvn.html": {
+      "title": "Gijzelaar wordt verliefd op gijzelnemer – Stockholm Syndrome",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:36.107613"
+    },
+
+    "/social-posts/nl/day-61-rvn.html": {
+      "title": "De Manipulatie van Realiteit – Wrap-up van de 13-delige serie",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:36.264390"
+    },
+
+    "/social-posts/nl/day-62-rvn.html": {
+      "title": "Poging tot aanslag op President Trump – Wanneer haat en hypocrisie de realiteit overnemen",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:36.422109"
+    },
+
+    "/social-posts/nl/day-63-rvn.html": {
+      "title": "Hoe OIM ontstond – Van theses naar een levend, verifieerbaar manifest",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:36.578785"
+    },
+
+    "/social-posts/nl/day-64-rvn.html": {
+      "title": "De Graduated Animal Farm – Hoe we van pen naar pen worden geleid",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:36.736454"
+    },
+
+    "/social-posts/nl/day-65-rvn.html": {
+      "title": "Olieprijzen en het asymmetrische spel – Wie verdient er echt aan?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:36.893189"
+    },
+
+    "/social-posts/nl/day-66-rvn.html": {
+      "title": "Abiotische Olie – Is olie echt een eindig fossiel of een regenererend mineraal?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.051148"
+    },
+
+    "/social-posts/nl/day-67-rvn.html": {
+      "title": "“Dit is allemaal aangesticht voor…” – De valkuil van DE waarheid",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.209321"
+    },
+
+    "/social-posts/nl/day-68-rvn.html": {
+      "title": "Er gebeurt nooit iets” – De gecontroleerde Informatie Oorlog",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.366622"
+    },
+
+    "/social-posts/nl/day-69-rvn.html": {
+      "title": "Waarom een hash belangrijker is dan je denkt",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.522020"
+    },
+
+    "/social-posts/nl/day-70-rvn.html": {
+      "title": "Schijnvooruitgang 2.0 – Wat is het eigenlijk?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.678771"
+    },
+
+    "/social-posts/nl/day-71-rvn.html": {
+      "title": "Schijnvooruitgang #2: Lease = vrijheid?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.835892"
+    },
+
+    "/social-posts/nl/day-72-rvn.html": {
+      "title": "Schijnvooruitgang #3: De warmtepomp als groene redding?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:37.994514"
+    },
+
+    "/social-posts/nl/day-73-rvn.html": {
+      "title": "Schijnvooruitgang #4: De elektrische auto als toekomst?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:38.151609"
+    },
+
+    "/social-posts/nl/day-74-rvn.html": {
+      "title": "Waarom we de serie onderbreken: De brand in het Almere datacentrum",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:38.308702"
+    },
+
+    "/social-posts/nl/day-75-rvn.html": {
+      "title": "Schijnvooruitgang #5: De 15-minutenstad als ideale woonplek?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:38.466625"
+    },
+
+    "/social-posts/nl/day-76-rvn.html": {
+      "title": "Schijnvooruitgang #6: Alles als abonnement",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:38.624533"
+    },
+
+    "/social-posts/nl/day-77-rvn.html": {
+      "title": "Schijnvooruitgang #7: De cashloze samenleving",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:38.782840"
+    },
+
+    "/social-posts/nl/day-78-rvn.html": {
+      "title": "Schijnvooruitgang #8: Feminisme als bevrijding?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:38.940247"
+    },
+
+    "/social-posts/nl/day-79-rvn.html": {
+      "title": "Schijnvooruitgang #10: De jeugdzorg als redding",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:39.098083"
+    },
+
+    "/social-posts/nl/day-80-rvn.html": {
+      "title": "Schijnvooruitgang #11: De stikstofcrisis en de boer als zondebok",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:39.257385"
+    },
+
+    "/social-posts/nl/day-81-rvn.html": {
+      "title": "Schijnvooruitgang: De grote samenvatting",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:39.420273"
+    },
+
+    "/social-posts/nl/day-82-rvn.html": {
+      "title": "“Ik hoor en ik vergeet. Ik zie en ik herinner me. Ik doe en ik begrijp",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:39.579503"
+    },
+
+    "/social-posts/nl/day-83-rvn.html": {
+      "title": "We hebben er geen last van",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:39.736437"
+    },
+
+    "/social-posts/nl/day-84-rvn.html": {
+      "title": "De expats zijn goed voor de stad",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:39.893423"
+    },
+
+    "/social-posts/nl/day-85-rvn.html": {
+      "title": "De Nederlander bestaat niet",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.049304"
+    },
+
+    "/social-posts/nl/day-86-rvn.html": {
+      "title": "Rusland zit achter de anti-AZC demonstraties",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.206735"
+    },
+
+    "/social-posts/nl/day-87-rvn.html": {
+      "title": "January 6 was an armed insurrection",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.363592"
+    },
+
+    "/social-posts/nl/day-88-rvn.html": {
+      "title": "De Romeo’s en andere provocateurs",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.522488"
+    },
+
+    "/social-posts/nl/day-89-rvn.html": {
+      "title": "Waarom treft het altijd één kant?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.679702"
+    },
+
+    "/social-posts/nl/day-90-rvn.html": {
+      "title": "27 crewleden gearresteerd op Disney-schepen voor kinderporno",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.836227"
+    },
+
+    "/social-posts/nl/day-91-rvn.html": {
+      "title": "Palestine 3000 years of history vs Israel 60 years of lies",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:40.992670"
+    },
+
+    "/social-posts/nl/day-92-rvn.html": {
+      "title": "Pinksteren – De vervulling van de Joodse belofte",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:41.150695"
+    },
+
+    "/social-posts/nl/day-93-rvn.html": {
+      "title": "Pinksteren – De Geest die grenzen doorbreekt",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:41.308555"
+    },
+
+    "/social-posts/nl/day-94-rvn.html": {
+      "title": "Wat is Q eigenlijk?",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:41.465020"
+    },
+
+    "/social-posts/nl/day-95-rvn.html": {
+      "title": "De kernboodschappen van Q",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:41.622045"
+    },
+
+    "/social-posts/nl/day-96-rvn.html": {
+      "title": "Trump dwingt Iran tot deal – de Uranium One connectie",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:41.779639"
+    },
+
+    "/social-posts/nl/day-97-rvn.html": {
+      "title": "De informatie-oorlog rond Q en QAnon",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:41.936781"
+    },
+
+    "/social-posts/nl/day-98-rvn.html": {
+      "title": "De grotere betekenis van Q",
+      "commit_hash": "dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/dd83dab47ea95f20fe57752b6dad762ec48d3090",
+      "commit_date": "2026-06-07T13:30:42.094136"
+    },
+
+    "/social-posts/nl/day-99-rvn.html": {
+      "title": "Deel 1 – Waarom je Chrome moet dumpen (en direct overstappen naar Brave)",
+      "commit_hash": "152dd1d9cafd2fb8f457aac0977039be755c373f",
+      "commit_url": "https://github.com/OpenInternetManifest/Open_Internet_Manifest/commit/152dd1d9cafd2fb8f457aac0977039be755c373f",
+      "commit_date": "2026-06-01T04:43:26.842885"
+    },
+
+    "/social-posts/nl/levend-manifest.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/rvn-boeren-protesten.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/rvn-immigratie-ice.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/social-posts/nl/rvn-nicole-good.html": {
+      "title": "",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+
+    "/theses/en/thesis-00.html": {
+      "title": "introduction",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-01.html": {
+      "title": "The internet is not dead; it has been hijacked by five gatekeepers",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-02.html": {
+      "title": "The enclosers romanticize the past to sell nostalgia instead of real freedom",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-03.html": {
+      "title": "In the real world, no one would accept what we’ve been swallowing online for years",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-04.html": {
+      "title": "the last gate is still open",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-05.html": {
+      "title": "&gt;Only a truly open internet provides true digital freedom",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-06.html": {
+      "title": "Exit without building is fleeing; building without exit is collaborating&quot;",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-07.html": {
+      "title": "An open internet restores privacy’s original power",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-08.html": {
+      "title": "An open internet frees your voice and creativity from arbitrary control",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-09.html": {
+      "title": "An open internet makes true economic freedom possible again",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-10.html": {
+      "title": "The digital cage is expanding into the real world",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-11.html": {
+      "title": "This manifesto is not a decree from above; it is a fire that burns in open conversations.",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-12.html": {
+      "title": "Back to protocols that no one owns",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-13.html": {
+      "title": "Your data belongs to you, not to a platform",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-14.html": {
+      "title": "Portable identity and reputation",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-15.html": {
+      "title": "Social networks without a central owner",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-16.html": {
+      "title": "Messaging apps without Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-17.html": {
+      "title": "Video and content without YouTube or TikTok",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-18.html": {
+      "title": "Searching without Google",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-19.html": {
+      "title": "Sending money without bank or Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-20.html": {
+      "title": "From collecting followers to building real communities&lt;",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-21.html": {
+      "title": "Practical first step",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-22.html": {
+      "title": "Replace WhatsApp with Element",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-23.html": {
+      "title": "No cloud is safer than your own cloud.",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-24.html": {
+      "title": "Claim your digital identity with Nostr",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-25.html": {
+      "title": "Join (or start) a local community node",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-26.html": {
+      "title": "Pay the builders of the open internet",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-27.html": {
+      "title": "Teach one person an open alternative this week",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-28.html": {
+      "title": "Companies and governments: demand interoperability and open standards",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-29.html": {
+      "title": "The open internet is no utopia — it is a choice we make every day",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/en/thesis-30.html": {
+      "title": "This manifest is only the beginning",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/levend-manifest.html": {
+      "title": "Levend Manifest — Het manifest is levend",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-00.html": {
+      "title": "Inleiding",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-01.html": {
+      "title": "Het internet is niet dood",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-02.html": {
+      "title": "Ze verkopen je nu het verhaal dat echte vrijheid iets uit de jaren tachtig was",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-03.html": {
+      "title": "In de echte wereld zou niemand accepteren wat wij online al jaren slikken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-04.html": {
+      "title": "De omheiningen zijn bijna voltooid, maar het laatste hek staat nog open",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-05.html": {
+      "title": "Alleen een echt open internet geeft echte digitale vrijheid",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-06.html": {
+      "title": "Vertrekken zonder te bouwen is vluchten; bouwen zonder uitgang is collaboreren",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-07.html": {
+      "title": "Een open internet herstelt de oorspronkelijke kracht van privacy",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-08.html": {
+      "title": "Een open internet bevrijdt je stem en creativiteit van willekeurige controle",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-09.html": {
+      "title": "Een open internet maakt echte economische vrijheid weer mogelijk",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-10.html": {
+      "title": "De digitale kooi breidt zich uit naar de echte wereld",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-11.html": {
+      "title": "Dit manifest is geen decreet van bovenaf; het is een vuur dat brandt in open gesprekken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-12.html": {
+      "title": "Terug naar protocollen die niemand bezit",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-13.html": {
+      "title": "Jouw data behoort aan jou, niet aan een platform",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-14.html": {
+      "title": "Draagbare identiteit en reputatie",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-15.html": {
+      "title": "Sociale netwerken zonder centrale eigenaar",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-16.html": {
+      "title": "Berichtenapps zonder Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-17.html": {
+      "title": "Video en content zonder YouTube of TikTok",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-18.html": {
+      "title": "Zoeken zonder Google",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-19.html": {
+      "title": "Geld sturen zonder bank of Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-20.html": {
+      "title": "Van volgers verzamelen naar echte gemeenschappen bouwen",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-21.html": {
+      "title": "Praktische eerste stap: maak vandaag een Mastodon-account",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-22.html": {
+      "title": "Vervang WhatsApp door Element (Matrix)",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-23.html": {
+      "title": "Zet je foto&#39;s en bestanden onder eigen controle",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-24.html": {
+      "title": "Claim je digitale identiteit met Nostr",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-25.html": {
+      "title": "Sluit je aan bij (of start) een lokale community-node",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-26.html": {
+      "title": "Betaal de bouwers van het open internet",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-27.html": {
+      "title": "Leer deze week één persoon een open alternatief",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-28.html": {
+      "title": "Bedrijven en overheden: eis interoperabiliteit en open standaarden",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-29.html": {
+      "title": "Het open internet is geen utopie — het is een keuze die we elke dag maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/theses/nl/thesis-30.html": {
+      "title": "Dit manifest is nog maar het begin",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+
+    "/guides/en/chaos-account-making.html": {
+      "title": "Create an account on Chaos.social",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/coming-soon.html": {
+      "title": "Good news! You&#39;ve found a thesis that deserves a practical guide",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/create-nostr-account.html": {
+      "title": "Create a Nostr account",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/element-migration-coming-soon.html": {
+      "title": "Replace WhatsApp with Element (Matrix)",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/fosstodon-account-making.html": {
+      "title": "Create an account on Fosstodon",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/friendica-account-making.html": {
+      "title": "Create your first Friendica account",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/hubzilla-account-making.html": {
+      "title": "Create your first Hubzilla account",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/install-nextcloud.html": {
+      "title": "Install Nextcloud (your own cloud)",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/lemmy-account-making.html": {
+      "title": "Create your first Lemmy account",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/living-guides.html": {
+      "title": "The Guides are Alive",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/mastodon-account-making.html": {
+      "title": "Create your first Mastodon account and migrate from X/Twitter",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/messaging-apps-without-big-tech.html": {
+      "title": "Messaging apps without Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/node-externally-accessible.html": {
+      "title": "Make your node accessible from outside",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/peer-to-peer-payments-coming-soon.html": {
+      "title": "Peer-to-peer payments without Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/pixelfed-account-making.html": {
+      "title": "Create your first Pixelfed account",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/raspberry-pi-node.html": {
+      "title": "Run your own sovereign node at home (Raspberry Pi + Umbrel)",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/searching-without-google-coming-soon.html": {
+      "title": "Searching without Google",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/en/video-without-youtube-coming-soon.html": {
+      "title": "Video without YouTube",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/berichten-apps-zonder-big-tech.html": {
+      "title": "Bericht-apps zonder Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/chaos-account-maken.html": {
+      "title": "Account maken op Chaos.social",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/coming-soon.html": {
+      "title": "Goed nieuws! Je hebt een thesis gevonden die een praktische guide verdient",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/element-migratie.html": {
+      "title": "Vervang WhatsApp door Element (Matrix)",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/fosstodon-account-maken.html": {
+      "title": "Account maken op Fosstodon",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/friendica-account-maken.html": {
+      "title": "Je eerste Friendica-account maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/hubzilla-account-maken.html": {
+      "title": "Je eerste Hubzilla-account maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/lemmy-account-maken.html": {
+      "title": "Je eerste Lemmy-account maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/levende-guides.html": {
+      "title": "De Guides zijn levend",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/mastodon-account-maken.html": {
+      "title": "Je eerste Mastodon-account maken en migreren van X/Twitter",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/nextcloud-installeren.html": {
+      "title": "Nextcloud installeren (je eigen cloud)",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/node-bereikbaar-maken.html": {
+      "title": "Node van buitenaf bereikbaar maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/nostr-account-maken.html": {
+      "title": "Je eerste Nostr-account maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/peer-to-peer-betalingen-zonder-big-tech.html": {
+      "title": "Peer-to-peer betalingen zonder Big Tech",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/pixelfed-account-maken.html": {
+      "title": "Je eerste Pixelfed-account maken",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/raspberry-pi-node.html": {
+      "title": "Je eigen sovereign node draaien",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+    "/guides/nl/zoeken-zonder-google.html": {
+      "title": "Zoeken zonder Google",
+      "commit_hash": "",
+      "commit_url": "",
+      "commit_date": ""
+    },
+
+  };
+</script>
+
+  <textarea id="input-text" placeholder="Plak hier de volledige tekst (incl. voetnoot, hashtags of disclaimer)..." rows="14"></textarea>
+
+  <button id="verify-btn" class="verify-button">
+    Verifieer
+  </button>
+
+  <div id="result" class="result-box" style="display:none;"></div>
+
+</div>
+
+<!-- Na de andere scripts, maar VÓÓR hash-verifier.js -->
+<script src="/static/js/official-clean-texts.js"></script>
+
+<script src="/assets/js/hash-verifier.js"></script>
+
+
+
+       
+
+      <details class="donation-section">
+  <summary>
+    
+      💸 Ondersteun het Open Internet Manifest ❤️
+    
+  </summary>
+
+  <div class="donation-content">
+
+    <!-- === AUTEUR DONATIE (als er een link is ingevuld) === -->
+    
+
+    <!-- === STANDAARD OIM DONATIE (altijd tonen als er GEEN auteur-link is) === -->
+    
+      
+        <p>Dit manifest blijft alleen bestaan dankzij jullie donaties.<br>
+        Elke satoshi of monero helpt enorm (servers, domeinen, ontwikkeling).</p>
+
+        <h3>Doneer anoniem in crypto</h3>
+
+        <table class="donation-table">
+          <thead>
+            <tr>
+              <th>Cryptocurrency</th>
+              <th>QR-code (klik om te vergroten)</th>
+              <th>Adres (klik om te kopiëren)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Bitcoin (BTC)</strong></td>
+              <td>
+                <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=bitcoin:bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm" alt="Bitcoin QR">
+                </a>
+              </td>
+              <td><code>bc1qn0wpgqc9g22hpcyeu8687tdv3gg83rnvksrydm</code></td>
+            </tr>
+            <tr>
+              <td><strong>Monero (XMR)</strong></td>
+              <td>
+                <a href="https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=20&data=monero:49o77fXDwS9fdtMqBABjrGVRe3evQ66tXQsb8dBWvFjxSsdaiiZppqGj59nXoD3ySeY13jmKUcji4JYGmj3v41fWFSys84F" alt="Monero QR">
+                </a>
+              </td>
+              <td><code>85J34VDW5wSJG6yuWXyYzB4ScedX7k4FJZktSk1VMo2uRHFWoPjB9cXKGiEkvw1SvoQrMXdxwnrVPZVzJx9MrPe4HoPYbFu</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p><strong>Monero-tip</strong>: met Cake Wallet of de officiële GUI krijgt elke donateur automatisch een uniek subaddress → maximale privacy.</p>
+        <p>Heel erg bedankt voor je steun – jullie houden dit project in leven! 🚀</p>
+      
+    
+
+  </div>
+</details>
+
+      <details class="integrity-check">
+  <summary>🔒 Verifieer integriteit van deze pagina (SHA256)</summary>
+  
+  <div class="integrity-content">
+
+    <p><strong>Hoe controleren?</strong></p>
+    
+    <ol class="integrity-steps">
+      <li>Kopieer de pagina tekst met de knop hieronder</li>
+      <li>Ga naar een online SHA256 tool, bijv. <a href="https://emn178.github.io/online-tools/sha256.html" target="_blank" rel="noopener">deze</a></li>
+      <li>Plak de tekst en bereken de hash</li>
+      <li>Plak de hash hieronder en klik "Verifieer"</li>
+    </ol>
+
+    <!-- Kopieer button -->
+    <div class="copy-container-inline">
+      <button onclick="copyPageText()" class="big-copy-btn">
+        📋 Kopieer pagina tekst
+      </button>
+      <p id="copy-feedback" class="copy-feedback"></p>
+    </div>
+
+    <!-- Git commit info - subtiel en altijd zichtbaar -->
+    
+
+      <!-- Verify sectie - modern en duidelijk -->
+    <div class="verify-section" style="margin-top: 25px; padding: 20px; background: #1f1f1f; border-radius: 8px;">
+      <p><strong>Verifieer met SHA256 hash</strong></p>
+      
+      <input type="hidden" id="official-fuzzy-hash" value="">
+
+      <input type="text" id="user-hash" class="hash-input" 
+             placeholder="Plak hier je berekende SHA256 hash"
+             style="width: 100%; padding: 12px; margin-bottom: 12px; background: #111; color: #ddd; border: 1px solid #444; border-radius: 6px;">
+
+      <button id="verify-btn" class="verify-btn" 
+              style="width: 100%; padding: 14px; background: #0066ff; color: white; border: none; border-radius: 6px; font-weight: 600; cursor: pointer;">
+        Verifieer hash
+      </button>
+
+      <p id="verify-feedback" class="verify-feedback" style="margin-top: 12px; min-height: 1.4em;"></p>
+    </div>
+</details>
+
+      <!-- Community discussie -->
+<div class="community-box">
+  <strong>
+    
+      🗣️ Praat mee over deze pagina
+    
+  </strong><br>
+
+  <a href="https://matrix.to/#/#openinternetmanifest:matrix.org?via=matrix.org" target="_blank" rel="noopener">
+    
+      Open Element en praat mee
+    
+  </a><br>
+
+  <small>
+    
+      Tip: typ het thesisnummer of onderwerp als eerste bericht
+    
+  </small>
+
+  <div class="site-footer-credits">
+    Generated by <a href="https://github.com/openinternetmanifest/Open_Internet_Manifest" target="_blank" rel="noopener">GitHub Pages</a>
+  </div>
+</div>
+
+      <!-- Full SHA256 voor handmatige verificatie -->
+<input type="hidden" id="official-full-hash" value="">
+    
+     <!-- GoatCounter privacy-first analytics -->
+<script data-goatcounter="https://openinternetmanifest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    </main>
+
+   
+  </body>
+ <script>
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('.mobile-menu');
+  const navContainer = document.querySelector('.nav-container'); // of '.main-nav'
+
+  if (toggle && menu) {
+    // Open/sluiten bij klik op hamburger
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation(); // voorkom dat klik direct doorgesluisd wordt naar document
+      menu.classList.toggle('open');
+    });
+
+    // Sluiten bij klik ergens buiten het menu
+    document.addEventListener('click', (e) => {
+      if (menu.classList.contains('open')) {
+        // Check of de klik NIET binnen het menu of op de hamburger is
+        if (!menu.contains(e.target) && !toggle.contains(e.target)) {
+          menu.classList.remove('open');
+        }
+      }
+    });
+
+    // Optioneel: sluiten bij klik op een menu-link zelf (handig na navigatie)
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+      });
+    });
+  }
+</script>
+</html>
