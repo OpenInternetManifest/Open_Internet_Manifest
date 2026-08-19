@@ -9,11 +9,6 @@ donation_text: ""
 
 raw_markdown: |
   
-  ---
-  rvn_title: 1st Amendment Auditors – concrete cases
-  rvn_teaser: "From Long Island to Amsterdam: citizens with a camera testing whether power still follows its own rules."
-  ---
-  
   ### RVN: 1st Amendment Auditors – concrete cases
   
   Yesterday we looked at the legal basis.  
@@ -65,12 +60,6 @@ fuzzy_sha256: 4f4a61e78551aef631da276c068bccbc9b82d33725d5adc517fb3e7879f45056
 git_commit_hash: ""
 git_commit_url: ""
 git_commit_date: ""
----
-
-
----
-rvn_title: 1st Amendment Auditors – concrete cases
-rvn_teaser: "From Long Island to Amsterdam: citizens with a camera testing whether power still follows its own rules."
 ---
 
 ### RVN: 1st Amendment Auditors – concrete cases
