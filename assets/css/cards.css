@@ -1,0 +1,697 @@
+/* ==========================================================================
+   UNIFIED CARD COMPONENT – guides, theses, social-posts, contribution
+   ========================================================================== */
+
+.guides-grid,
+.theses-grid,
+.social-grid,
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1480px;
+  margin: 3.5rem auto;
+  padding: 0 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Base card */
+.card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid #222;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  border-color: var(--primary, #66b3ff);
+  box-shadow: 0 10px 30px rgba(102,179,255,0.2);
+  transform: translateY(-6px);
+}
+
+/* Header */
+.card-header-light {
+  background: rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(102,179,255,0.3);
+  padding: 0.9rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 52px;
+}
+
+.card-number {
+  font-weight: 900;
+  font-size: 1.85rem;
+  line-height: 1;
+  color: #aaa;
+  transition: all 0.25s ease;
+}
+
+.card:hover .card-number {
+  color: #7dd3fc;
+  text-shadow: 0 0 12px rgba(102,179,255,0.6);
+  transform: scale(1.08);
+}
+
+/* Difficulty badge + Thesis progress */
+.difficulty-badge {
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: white;
+  margin-left: auto;
+  align-self: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.difficulty-badge.beginner    { background: #4caf50; }
+.difficulty-badge.intermediate,
+.difficulty-badge.gemiddeld   { background: #ff9800; }
+.difficulty-badge.advanced,
+.difficulty-badge.gevorderd   { background: #f44336; }
+
+.thesis-progress {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #888;
+  background: rgba(255,255,255,0.08);
+  padding: 0.35rem 0.8rem;
+  border-radius: 9999px;
+  margin-left: auto;
+  align-self: center;
+  white-space: nowrap;
+}
+
+.card:hover .thesis-progress {
+  color: #7dd3fc;
+  background: rgba(102,179,255,0.15);
+}
+
+/* Verberg badge bij contribution en social */
+.card.contribution-card .difficulty-badge,
+.card--social .difficulty-badge {
+  display: none;
+}
+
+/* Card body */
+.card-body {
+  padding: 1.4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY & HOVER
+   ========================================================================== */
+
+.card-title {
+  color: var(--primary);
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.card:hover .card-title,
+.card:hover .card-title a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #7dd3fc;
+}
+
+.card-teaser {
+  color: #b0b0b0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.card:hover .card-teaser {
+  color: #ccc;
+}
+
+.read-more {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.card:hover .read-more {
+  text-decoration: underline;
+  color: #7dd3fc;
+}
+
+/* ==========================================================================
+   CONTRIBUTION CARD
+   ========================================================================== */
+
+.card.contribution-card {
+  border-style: dashed;
+  border-color: #444;
+  background: rgba(255,255,255,0.02);
+  opacity: 0.92;
+}
+
+.card.contribution-card:hover {
+  opacity: 1;
+  border-color: #7dd3fc;
+  background: rgba(125,211,252,0.04);
+  box-shadow: 0 10px 30px rgba(125,211,252,0.3);
+  transform: translateY(-6px);
+}
+
+/* ==========================================================================
+   SOCIAL CARDS – specifieke styling
+   ========================================================================== */
+/*
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  justify-content: center;
+  align-content: start;
+  margin: 2.5rem auto 5rem;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 1rem;
+}*/
+
+.social-grid .card {
+  height: 440px;                    /* vaste hoogte voor social cards */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: auto;   
+}
+
+.social-grid .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* RVN teaser + Teaser preview */
+.social-grid .rvn-teaser {
+  flex: 1;
+  margin: 0.6rem 0 1rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.social-grid .teaser-preview {
+  margin-top: 0.4rem;
+  color: #b0b0b0;
+  font-size: 0.93rem;
+}
+
+/* Divider */
+.divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
+  margin: 1.2rem 0;
+  border: none;
+}
+
+/* Teaser title in social card */
+.teaser-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0.8rem 0 0.4rem;
+}
+
+.teaser-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.teaser-title a:hover {
+  text-decoration: underline;
+}
+
+/* Add contribution buttons in social card */
+.btn-contribute.rvn,
+.btn-contribute.teaser {
+  background: #444;
+  color: #e0e0e0;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 85%;
+  max-width: 180px;
+  margin: 0.5rem auto;
+  display: block;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.btn-contribute.rvn:hover,
+.btn-contribute.teaser:hover {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(102,179,255,0.4);
+}
+
+/* Verberg read-more bij social cards */
+.card--social .read-more {
+  display: none;
+}
+/* ==========================================================================
+   CONTRIBUTION CARD – Social variant (met twee knoppen + divider)
+   ========================================================================== */
+
+.card.contribution-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 0;
+  gap: 1rem;
+}
+
+.card.contribution-card .rvn-title,
+.card.contribution-card .teaser-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ccc;
+  text-align: center;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.card.contribution-card .contribute-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.card.contribution-card .divider {
+  margin: 1.2rem 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent 20%, var(--primary) 50%, transparent 80%);
+}
+
+/* Maak de add-card iets hoger zodat alles past */
+.social-grid .contribution-card {
+  min-height: 460px;     /* was 440px */
+  height: auto;          /* laat hem groeien als nodig */
+}
+
+/* Knoppen iets groter en consistenter */
+.btn-contribute {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.85rem 1.4rem;
+  font-size: 0.95rem;
+}
+/* ==========================================================================
+   SOCIAL ADD CARD - DEFINITIEVE FIX
+   ========================================================================== */
+
+.card.contribution-card.social-card {
+  min-height: 540px;
+  height: auto;
+  border-style: dashed;
+  border-color: #555;
+  background: rgba(255,255,255,0.02);
+}
+
+.card.contribution-card.social-card .card-body {
+  padding: 2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card.contribution-card.social-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Titels */
+.rvn-title,
+.teaser-title {
+  font-size: 1.08rem;
+  color: #ddd;
+  line-height: 1.45;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Knop containers */
+.contribute-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+}
+
+.btn-contribute {
+  width: 100%;
+  max-width: 220px;
+  padding: 1.05rem 1.6rem;
+  background: #333;
+  color: #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-contribute:hover {
+  background: #66b3ff;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102,179,255,0.35);
+}
+
+/* Divider 
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #666, transparent);
+  margin: 0.6rem auto;
+  width: 65%;
+}*/
+
+/* Extra veiligheid voor hover */
+.card.contribution-card:hover {
+  border-color: #7dd3fc;
+  background: rgba(125,211,252,0.04);
+}
+
+/* Divider in add card centreren */
+.card.contribution-card .divider {
+  margin: 1rem auto;
+  width: 60%;
+}
+.social-grid .rvn-teaser {
+  color: #b0b0b0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+  flex: 1 1 auto;
+}
+
+.social-grid .teaser-preview {
+  color: #b0b0b0;
+  font-size: 0.93rem;
+  line-height: 1.45;
+}
+
+.social-grid .teaser-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #7dd3fc;
+  margin: 0.8rem 0 0.4rem 0;
+}
+
+.social-grid .teaser-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-grid .teaser-title a:hover {
+  text-decoration: underline;
+}
+.card.contribution-card.social-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+.rvn-title, .teaser-title {
+  font-size: 1.05rem;
+  color: #ddd;
+}
+
+.contribute-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.btn-contribute {
+  width: 100%;
+  max-width: 210px;
+  padding: 1rem 1.5rem;
+  background: #333;
+  color: #eee;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-contribute:hover {
+  background: #66b3ff;
+  color: white;
+}
+
+/* .divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #666, transparent);
+  margin: 1rem auto;
+  width: 65%;
+} */
+/* SOCIAL CARDS – unified */
+.social-grid .card.social-card {
+  min-height: 440px;
+  height: auto;
+}
+
+.social-grid .rvn-teaser {
+  color: #b0b0b0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  flex: 1;
+}
+
+.social-grid .teaser-preview {
+  color: #b0b0b0;
+  font-size: 0.93rem;
+  line-height: 1.45;
+}
+
+.social-grid .teaser-title {
+  font-size: 1.05rem !important;
+  font-weight: 600;
+  color: #7dd3fc;
+  margin: 0.8rem 0 0.4rem;
+}
+
+.social-grid .teaser-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-grid .teaser-title a:hover {
+  text-decoration: underline;
+}
+
+/* Contribution card */
+.card.contribution-card.social-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+/* .divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #666, transparent);
+  margin: 1rem auto;
+  width: 65%;
+} */
+
+/* Contribution card */
+.card.contribution-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+/* Zorg dat contribution cards niet clickable zijn */
+.card.contribution-card {
+  cursor: default;
+}
+
+.card.contribution-card .btn-contribute {
+  position: relative;
+  z-index: 10;
+}
+
+/* Social cards content fix */
+.card.social-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card.social-card .card-extra-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Verwijder dubbele titel styling en zorg voor goede spacing */
+.card.social-card .card-title {
+  margin-bottom: 0.8rem;
+}
+
+.card.social-card .rvn-teaser {
+  color: #b0b0b0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.card.social-card .teaser-title {
+  color: #7dd3fc;
+  font-weight: 600;
+  margin: 0.8rem 0 0.4rem;
+}
+
+.card.social-card .teaser-preview {
+  color: #b0b0b0;
+  font-size: 0.93rem;
+}
+/* Social cards zijn geen hele link meer */
+.card.social-card {
+  cursor: default;
+}
+
+/* Zorg dat interne links in social cards klikbaar blijven */
+.card.social-card .teaser-title a,
+.card.social-card .btn-contribute {
+  position: relative;
+  z-index: 10;
+}
+/* ====================== CONTRIBUTE PAGE ====================== */
+
+.contribute-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.contribute-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contribute-header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.contribute-header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 1rem;
+}
+
+/* Grid */
+.add-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Card */
+.add-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem 1.8rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.add-card:hover {
+  border-color: #4488ff;
+  transform: translateY(-4px);
+}
+
+.add-icon {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #4488ff;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+/* Buttons */
+.add-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.add-button {
+  display: block;
+  padding: 0.9rem 1.4rem;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.add-button.primary {
+  background: #4488ff;
+  color: white;
+}
+
+.add-button.primary:hover {
+  background: #66aaff;
+}
+
+.add-button.secondary {
+  background: transparent;
+  color: #88bbff;
+  border: 1px solid #4488ff;
+}
+
+.add-button.secondary:hover {
+  background: rgba(68, 136, 255, 0.1);
+}
