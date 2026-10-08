@@ -1,0 +1,112 @@
+/* ==========================================================================
+   NEXUS HUB - DEFINITIEVE VERSIE
+   ========================================================================== */
+
+.nexus-hub {
+  background: #f8fafc;
+  padding: 50px 20px 80px;
+  margin: -30px -20px 60px -20px;     /* betere afstand van banner */
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.hub-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hub-header h1 {
+  font-size: 2.8em;
+  background: linear-gradient(90deg, #1e40af, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 12px;
+}
+
+.hub-header .subtitle {
+  font-size: 1.25em;
+  color: #475569;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Tools Grid */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 28px;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Cards - geforceerd dezelfde hoogte */
+.tool-card {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 32px 28px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  
+  display: flex;
+  flex-direction: column;
+  height: 100%;                    /* dit is cruciaal */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.tool-card:hover {
+  border-color: #22d3ee;
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(34, 211, 238, 0.18);
+}
+
+/* Zorg dat inhoud netjes verdeeld wordt */
+.tool-card .tool-icon { margin-bottom: 20px; }
+.tool-card h3 { margin: 0 0 14px 0; }
+.tool-card p { flex-grow: 1; }           /* duwt status naar beneden */
+.status { margin-top: auto; }
+
+.tool-icon {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+.tool-card h3 {
+  font-size: 1.55em;
+  margin: 0 0 14px 0;
+  color: #1e40af;
+}
+
+.tool-card p {
+  color: #475569;
+  line-height: 1.65;
+  flex-grow: 1;
+}
+
+.status {
+  margin-top: auto;
+  padding: 6px 16px;
+  border-radius: 9999px;
+  font-size: 0.95em;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.status.live  { background: #ecfdf5; color: #10b981; }
+.status.soon { background: #fefce8; color: #ca8a04; }
+
+/* Extra veiligheid voor responsive */
+@media (min-width: 1100px) {
+  .tools-grid {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+}
+
+@media (max-width: 780px) {
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
+}
