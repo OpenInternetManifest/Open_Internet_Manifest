@@ -29,7 +29,7 @@ raw_markdown: |
   
   Scale is called efficiency. One central system, one app, one distribution. Until the plug is pulled. Then the efficiency is the standstill.
   
-  The Accu Manifest was the warning. Overhead, dependence, a chain that breaks when one link fails. Ahold is the living proof. No conspiracy. A plan that skipped the second line.
+  The Accu Manifest was the warning. Overhead, dependence, a chain that breaks when one link fails. Ahold is the living proof. No conspiracy. A plan that skipped the second line. https://openinternetmanifest.org/en/accu-manifest
   
   ### OIM way out
   
