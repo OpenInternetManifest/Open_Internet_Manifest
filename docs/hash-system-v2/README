@@ -1,0 +1,24 @@
+cat > docs/hash-system-v2/README.md << 'EOF'
+# Hash System v2 – Fuzzy Only (April 2026)
+
+**Status:** Definitief & werkend  
+**Datum:** 19 april 2026
+
+We gebruiken vanaf nu alleen nog **één fuzzy_sha256** voor alle verificatie.
+
+## Bestanden in deze map
+
+- `debug-live-hashes-v41.sh`     → lokale debug & testen
+- `hash-verify-v41.js`           → copy button + verifier op de site
+- `calculate-hashes-v41.sh`      → GitHub Action na merge
+- `process-rvn-merge-v41.yml`    → workflow
+
+## Kenmerken
+- Zeer robuuste fuzzy hash (alle witregels, Markdown, extra spaties verwijderd)
+- Copy button, debug tool en Action geven **exact dezelfde tekst** → dezelfde hash
+- Werkt met tabellen (worden voor hashing platgeslagen)
+- Giscus, reactions, footer etc. worden automatisch verwijderd
+
+Dit is de versie die we vanaf nu als basis gebruiken voor alle RVN’s (en later theses/guides).
+
+EOF
