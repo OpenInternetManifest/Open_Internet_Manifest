@@ -1,0 +1,309 @@
+
+  .nexus-quick-post-container {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2.5em;
+    background: #f8fafc;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+    .quick-post-header {
+    text-align: center;
+    margin-bottom: 2.5em;
+    padding-bottom: 1.8em;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .quick-post-header h1 {
+    font-size: 2.4em;
+    background: linear-gradient(90deg, #1e40af, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 0.4em 0;
+  }
+
+  .quick-post-header .subtitle {
+    color: #475569;
+    font-size: 1.15em;
+    margin: 0;
+  }
+    .powered-by {
+    margin-top: 1em;
+    font-size: 0.95em;
+    color: #64748b;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .editor-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+ 
+   .editor-panel, .preview-panel {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    min-height: 750px; 
+    flex-direction: column;
+  }
+
+    .toolbar, .preview-toolbar {
+    background: #f1f5f9;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    border-bottom: 1px solid #e5e7eb;
+    min-height: 112px;     /* iets hoger voor wrap */
+    align-items: center;
+  }
+
+  textarea#post-input {
+    flex: 1;
+    border: none;
+    padding: 1.5em;
+    font-size: 1.05em;
+    line-height: 1.65;
+    resize: none;
+    font-family: inherit;
+  }
+
+  .facebook-preview-box {
+    flex: 1;
+    padding: 1.5em;
+    color: #1e40af;
+    font-size: 1.05em;
+    line-height: 1.65;
+    overflow-y: auto;
+  }
+
+  .preview-toolbar {
+    color: #64748b;
+    font-size: 0.95em;
+  }
+
+  .panel-header {
+    color: white;
+    padding: 1.2em 1.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .editor-panel .panel-header {
+    background: linear-gradient(90deg, #1e40af, #22d3ee);
+  }
+
+  .preview-panel .panel-header {
+    background: linear-gradient(90deg, #22d3ee, #1e40af);
+  }
+
+  .toolbar button {
+    background: white;
+    border: 1px solid #cbd5e1;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+
+  .toolbar button:hover {
+    background: #f8fafc;
+  }
+
+  .facebook-preview-box h3 {
+    color: #1e40af;
+    margin: 1.8em 0 0.6em 0;
+    font-weight: 700;
+    border-bottom: none !important;
+}
+
+.facebook-preview-box h4 {
+    color: #1e40af;
+    margin: 1.5em 0 0.5em 0;
+    font-weight: 700;
+    border-bottom: none !important;
+}
+
+  .facebook-preview-box blockquote {
+    border-left: 4px solid #22d3ee;
+    padding-left: 1em;
+    color: #334155;
+    font-style: italic;
+    margin: 1em 0;
+  }
+
+.actions-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin-top: 30px;
+  padding-top: 25px;
+  border-top: 1px solid #334155;
+}
+/* Toggle label tekst leesbaar maken */
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1e2937;           /* Donker, goed leesbaar op wit */
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-label input[type="checkbox"] {
+  accent-color: #22d3ee;
+  width: 22px;
+  height: 22px;
+}
+.toggle-label:hover {
+  color: #0f172a;
+}
+/* ==========================================================================
+   COPY BUTTONS (Facebook, Unicode, X)
+   ========================================================================== */
+
+.copy-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.copy-buttons button {
+  padding: 14px 20px;
+  font-size: 1.05em;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  min-width: 160px;
+  flex: 1;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+/* Facebook - herkenbaar blauw */
+.btn-facebook {
+  background: linear-gradient(90deg, #1877f2, #1e9bff);
+  color: white;
+}
+
+.btn-facebook:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(24, 119, 242, 0.5);
+}
+
+/* Unicode + Signature - donkere Nexus kleur */
+.btn-unicode {
+  background: linear-gradient(90deg, #1e40af, #22d3ee);
+  color: white;
+}
+
+.btn-unicode:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(34, 211, 238, 0.4);
+}
+
+/* X/Twitter - donker, maar met lichte X-accent */
+.btn-x {
+  background: linear-gradient(90deg, #0f172a, #1e2937);
+  color: white;
+}
+
+.btn-x:hover {
+  background: #1e2937;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.6);
+}
+
+/* Unicode zonder signature - lichtere variant */
+.btn-unicode-no-sig {
+  background: #475569;
+  color: white;
+}
+
+.btn-unicode-no-sig:hover {
+  background: #64748b;
+  transform: translateY(-3px);
+}
+/* HASH + SIGNATURE BOX */
+.hash-box {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f8fafc;
+  border: 2px solid #67e8f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(103, 232, 249, 0.15);
+}
+
+.hash-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #1e2937;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.hash-toggle input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #22d3ee;
+}
+
+.hash-content {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-top: 8px;
+}
+
+.hash-content strong {
+  color: #1e2937;           /* donkere tekst */
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hash-value {
+  display: block;
+  font-family: monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+  word-break: break-all;
+  color: #1e40af;
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.btn-copy-signature {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #22d3ee, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.2s;
+}
+
+.btn-copy-signature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(34, 211, 238, 0.4);
+}
