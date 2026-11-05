@@ -1,0 +1,63 @@
+name: Process RVN on Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  process-rvn-merge:
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.title, 'RVN')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Git
+        run: |
+          git config user.name "OIM Bot"
+          git config user.email "bot@openinternetmanifest.org"
+
+      - name: Calculate hashes and update frontmatter
+        run: |
+          echo "🔍 Starting hash calculation with clean logic..."
+
+          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '_social-posts/.*/day-[0-9]+-rvn\.md$' || echo "")
+
+          if [ -z "$FILES" ]; then
+            echo "No RVN files changed. Skipping."
+            exit 0
+          fi
+
+          for file in $FILES; do
+            echo "Processing: $file"
+
+            HASHES=$(.github/scripts/calculate-hashes.sh "$file")
+
+            fuzzy_sha256=$(echo "$HASHES" | grep '^fuzzy_sha256=' | cut -d= -f2)
+            git_commit_hash=$(echo "$HASHES" | grep '^GIT_COMMIT_HASH=' | cut -d= -f2)
+            git_commit_url=$(echo "$HASHES" | grep '^GIT_COMMIT_URL=' | cut -d= -f2)
+            git_commit_date=$(echo "$HASHES" | grep '^GIT_COMMIT_DATE=' | cut -d= -f2)
+
+            # Update frontmatter
+            sed -i "s|fuzzy_sha256: \".*\"|fuzzy_sha256: \"${fuzzy_sha256}\"|" "$file"
+            sed -i "s|git_commit_hash: \".*\"|git_commit_hash: \"${git_commit_hash}\"|" "$file"
+            sed -i "s|git_commit_url: \".*\"|git_commit_url: \"${git_commit_url}\"|" "$file"
+            sed -i "s|git_commit_date: \".*\"|git_commit_date: \"${git_commit_date}\"|" "$file"
+
+            echo "✅ Hashes updated in $file"
+          done
+
+      - name: Commit updated files
+        run: |
+          git add _social-posts/*/day-*-rvn.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto: update hashes after RVN merge (clean logic v31)"
+            git push
+            echo "🚀 Changes committed to main"
+          fi
