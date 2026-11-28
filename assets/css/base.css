@@ -1,0 +1,80 @@
+/* ==========================================================================
+   BASE.CSS – Resets, dark theme defaults, typography, visibility helpers
+   ========================================================================== */
+
+/* Visibility helpers */
+.desktop-only { display: flex; }
+.mobile-only  { display: none; }
+
+/* Globale dark theme & basis */
+.page-header { display: none; }  /* !important niet nodig tenzij conflict */
+
+:root {
+  --bg-dark:        #0f1419;
+  --text-light:     #e0e0e0;
+  --primary:        #66b3ff;
+  --primary-hover:  #99ccff;
+  --overlay-bg:     rgba(10, 15, 20, 0.45);
+  --overlay-border: rgba(102, 179, 255, 0.3);
+  --glow:           rgba(102, 179, 255, 0.2);
+  --card-bg:        rgba(255, 255, 255, 0.05);
+  --border:         #333;
+}
+
+html, body {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Zorg dat images/banners geen eigen bg krijgen in dark mode */
+img, .banner, .overlay-text {
+  background: transparent;
+}
+/* ==========================================================================
+   LINKS – globale consistentie in main-content
+   ========================================================================== */
+
+.main-content a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(102, 179, 255, 0.6);
+  transition: color 0.3s ease;
+}
+
+.main-content a:hover {
+  color: var(--primary-hover);
+  text-decoration-color: var(--primary-hover);
+}
+
+.main-content a:visited {
+  color: #a0c4ff;
+}
+
+/* Footer & skip-link */
+.site-footer-credits a,
+a#skip-to-content {
+  color: #888;
+  text-decoration: none;
+}
+
+.site-footer-credits a:hover,
+a#skip-to-content:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+/* ==========================================================================
+   DETAILS / ACCORDION – uniforme lijsten in <details>
+   ========================================================================== */
+
+details ul,
+details ol {
+  margin: 1em 0;
+  padding-left: 1.8em;
+}
+
+details li {
+  margin-bottom: 0.6em;
+}
